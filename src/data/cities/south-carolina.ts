@@ -2700,5 +2700,244 @@ export const southCarolinaCities: CityLocation[] = [
     metaTitle: "Pest Control in Newberry, SC",
     metaDescription: "Newberry SC pest control for termites, fire ants, and mosquitoes. Piedmont red clay expertise. Free inspection. Call 1-800-PEST-USA.",
   },
+{
+  slug: "hilton-head-island-sc",
+  name: "Hilton Head Island",
+  state: "South Carolina",
+  stateSlug: "south-carolina",
+  stateAbbr: "SC",
+  tier: "T3",
+  population: "~38,200",
+  county: "Beaufort County",
+  climate: "hot-humid",
+  climateDriver: "Hilton Head Island is a barrier island bounded by tidal marsh and the Atlantic, with a maritime forest canopy and more than 200 miles of golf course lagoons that hold standing water most of the year. Ocean proximity keeps humidity high even during dry stretches, and the sandy, poorly draining low ground under many raised homes rarely dries out fully between rain events.",
+  topPests: ["Subterranean and Formosan termites", "Mosquitoes", "Palmetto bugs (American cockroach)", "Fire ants"],
+  pestProfile: [
+    { name: "Subterranean and Formosan termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, with swarms typically February through May", note: "The Formosan subterranean termite, first found in the U.S. in nearby Charleston in 1957, has spread into Beaufort County and onto the island, where colonies can run into the millions and build aerial nests from a chronic gutter leak." },
+    { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "March through November, heaviest May to September", note: "The island's golf course lagoon network, more than 200 miles of it, holds standing water year round and breeds mosquitoes within a few days of any rain." },
+    { name: "Palmetto bugs (American cockroach)", serviceSlug: "cockroach-control", activeSeason: "Year-round, most visible after summer rain", note: "The Lowcountry nickname for the American cockroach, drawn indoors from mulch beds and irrigated landscaping whenever a crawlspace or gutter holds excess moisture." },
+    { name: "Fire ants", serviceSlug: "ant-control", activeSeason: "Spring through fall, mounds visible after rain", note: "Mounds show up fast in irrigated lawns and along golf cart paths, where the sandy topsoil and steady watering schedule give colonies an easy foothold." }
+  ],
+  localHook: "Hilton Head Island is a barrier island barely three miles wide at its broadest point, ringed by tidal marsh and cut through with more than 200 miles of lagoons built to drain golf courses, conditions the Formosan subterranean termite, first found in the U.S. in nearby Charleston in 1957, has used to spread into the island's own maritime forest canopy over the past few decades.",
+  intro: "Hilton Head Island runs on standing water and old wood, and that combination keeps termite and mosquito calls coming in year round. This is a barrier island, three miles wide at its broadest point, laced with tidal marsh, maritime forest, and more than 200 miles of man made lagoons built to drain the golf courses the island is famous for. Every one of those lagoons is also a mosquito nursery. Every live oak canopy and every raised, wood framed beach house sits in a climate that never really dries out, which is exactly what a subterranean termite colony wants.",
+  sections: [
+    { heading: "Why Hilton Head Carries This Much Termite and Mosquito Pressure", body: "Coastal humidity alone would be enough to keep pest pressure high here, but Hilton Head has a second problem most inland South Carolina towns don't: the Formosan subterranean termite. This species was first found in the continental United States in Charleston back in 1957, and it has spread down the coast into Beaufort County and onto the island itself in the decades since. A Formosan colony can run into the millions of workers, dwarfing a native eastern subterranean colony, and it doesn't always need ground contact. A leaking gutter or a chronically damp crawlspace is enough for it to build an aerial nest overhead. Add the marsh edges, the lagoon systems threading through every golf community, and the salt air that keeps humidity high even in a dry spell, and you get a barrier island where termite bonds and mosquito control aren't optional extras, they're baseline maintenance." },
+    { heading: "What a Hilton Head Inspection and Treatment Actually Involves", body: "A real inspection starts outside, at the foundation piers and the crawlspace vents, because that's where moisture collects first on a raised coastal home. A licensed technician checks for mud tubes on piers, foundation walls, and AC lines, looks for blistered or hollow sounding wood trim, and inspects any point where the structure meets soil or landscaping mulch. Because Formosan activity is a real possibility here, not a theoretical one, the inspection also covers roof lines, gutters, and any spot where water has pooled or leaked for more than a season. For mosquitoes, the check moves to the lagoon edges, irrigation heads, and any container on the property that holds standing water for more than four or five days. Treatment plans typically combine a liquid soil termiticide barrier or bait stations around the structure with a seasonal mosquito reduction service that targets breeding sites, not just adult spray." },
+    { heading: "How To Prioritize a Pest Plan on the Island", body: "Put termite protection first if the home doesn't already carry an active bond, since a Formosan colony left alone can cause real structural damage faster than the native species most homeowners picture. Second priority is mosquito reduction if the property backs onto a lagoon, marsh, or golf course water feature, particularly for anyone who spends evenings on a screened porch between May and October. Palmetto bugs, the local name for the American cockroach, come third, they're a nuisance and moisture indicator rather than a structural threat, and they usually clear up once crawlspace and gutter moisture are addressed. Fire ants in lawns and along golf cart paths round out the list. None of this needs to happen in one visit. A phased plan, termite first, then seasonal mosquito and general pest coverage, gets the highest risk handled without overspending on day one." }
+  ],
+  prevention: [
+    "Seal gutters and downspouts so runoff drains away from the crawlspace and piers instead of pooling underneath the house.",
+    "Empty or cover anything on the property that holds standing water for more than four to five days, plant saucers, bird baths, kayak wells.",
+    "Keep mulch and landscaping at least six inches below the home's wood siding or piers to remove an easy termite bridge from soil to structure.",
+    "Have a termite bond renewed annually and ask specifically whether it covers Formosan subterranean termites, not just native species.",
+    "Trim vegetation back from the exterior walls so technicians can spot mud tubes early instead of after they reach framing."
+  ],
+  costNote: "Initial termite treatment on a raised coastal home typically runs 700 to 1,600 dollars depending on square footage and whether bait stations or a full liquid barrier are used, with an annual bond renewal after that. Seasonal mosquito reduction service runs 65 to 100 dollars per treatment. Free inspection included.",
+  faqs: [
+    { question: "Does Hilton Head Island really have a different, worse kind of termite than the rest of South Carolina?", answer: "In parts of it, yes. The Formosan subterranean termite, first documented in the U.S. in Charleston in 1957, has spread into Beaufort County and onto Hilton Head Island. Colonies can be larger than native subterranean termite colonies and can build aerial nests from a chronic leak, which is why a termite bond here should specifically confirm Formosan coverage." },
+    { question: "Why does mosquito control on Hilton Head Island focus so much on lagoons?", answer: "The island's golf courses are threaded with more than 200 miles of man made lagoons built for drainage, and every one of them is a potential mosquito breeding site. Treatment that only targets adult mosquitoes in the yard misses the source, so an effective plan treats breeding water along the lagoon edge, not just the lawn." },
+    { question: "What is a palmetto bug and is it different from a regular cockroach?", answer: "Palmetto bug is the Lowcountry nickname for the American cockroach, the large reddish brown roach common in humid coastal areas. It's the same insect people elsewhere just call a cockroach. Seeing them outdoors around mulch and irrigation is normal on the coast, seeing them indoors usually means there's a moisture entry point worth checking." }
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Bluffton", slug: "bluffton-sc", stateSlug: "south-carolina" },
+    { name: "Beaufort", slug: "beaufort-sc", stateSlug: "south-carolina" }
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Hilton Head Island, SC | Termite and Mosquito Service",
+  metaDescription: "Licensed pest control for Hilton Head Island, SC. Formosan and subterranean termite protection, lagoon-focused mosquito reduction, and palmetto bug control. Free inspection."
+},
+{
+  slug: "easley-sc",
+  name: "Easley",
+  state: "South Carolina",
+  stateSlug: "south-carolina",
+  stateAbbr: "SC",
+  tier: "T3",
+  population: "~27,000",
+  county: "Pickens County",
+  climate: "hot-humid",
+  climateDriver: "Easley sits in the Piedmont foothills of Pickens County, close enough to the Blue Ridge escarpment that summers run humid but winters are noticeably cooler than the Midlands or coast. Older mill village housing, much of it wood framed and built low to the ground before modern vapor barriers were standard, sits along the creeks and rail corridors that once powered the town's cotton mills, holding ground moisture longer than newer construction on higher lots.",
+  topPests: ["Termites", "Carpenter ants", "Ticks", "Fire ants"],
+  pestProfile: [
+    { name: "Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms typically spring", note: "Wood framed mill village housing from the 1890 to 1910 boom years sits low on damp creek bottom lots that hold ground moisture long after modern subdivisions have drained." },
+    { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Ants target wood that's already softened by an old leak or water damage, common in the town's older mill era structures." },
+    { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Spring through early fall, worst March to June", note: "The wooded foothill lots along the Doodle Trail corridor put yard edges directly against tall grass and brush where nymphs wait for a host." },
+    { name: "Fire ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Less dominant than on the coast or in the Midlands, but mounds still turn up in sunny lawn patches around newer construction." }
+  ],
+  localHook: "Easley grew up around cotton, not commerce. The first mill went up in 1890 after cotton buyer John Geer convinced local investors to raise the stock, and two more mills, including Alice Mills in 1910, followed within twenty years. The old rail line that once hauled Easley's cotton to Pickens is now the Doodle Trail, a 7.5 mile paved path named for the freight engine that had to run backwards the whole route.",
+  intro: "Easley is a mill town built on damp creek bottoms, and that history still shapes where termites and carpenter ants turn up first. The town grew around three cotton mills between 1890 and 1910, and the wood framed mill village housing from that era, much of it still standing and still occupied, sits low to the ground on lots that back up to the creeks and rail corridors the mills depended on. Add the wooded foothill terrain around the Doodle Trail and the surrounding Blue Ridge approach, and you get a town where termites, carpenter ants, and ticks are the three calls a technician plans a season around.",
+  sections: [
+    { heading: "Why Easley's Mill Village Housing Draws Termites and Carpenter Ants", body: "A lot of Easley's older housing stock predates modern foundation drainage and vapor barrier standards, since it was built fast and cheap to house mill workers between 1890 and 1910. Crawlspaces under these homes tend to sit closer to grade and hold ground moisture longer after rain, which is exactly the condition a subterranean termite colony needs to move from soil to sill plate undetected. Carpenter ants follow a similar path but target wood that's already gone soft from a leak or old water damage rather than sound lumber, which means an active line of ants marching along a foundation is usually a signal of a moisture problem, not just an ant problem. The wooded foothill lots common around the Doodle Trail corridor and the older neighborhoods add another factor: mature tree cover and leaf litter give both termites and carpenter ants an easy path from a dead stump or firewood pile straight to the house." },
+    { heading: "What an Inspection Looks Like on an Older Easley Property", body: "On a mill village era home, the inspection starts at the crawlspace access, checking joists, sill plates, and support piers for soft spots, frass, or mud tubes before moving outside to the foundation perimeter. A technician also checks any firewood stack, stump, or landscape timber within twenty feet of the house, since those are the most common carpenter ant staging points in this part of the Upstate. For ticks, the check shifts to the yard edge, especially where lawn meets wooded lot or trail access, since that transition zone is where nymphs wait on tall grass and low brush. Treatment for termites typically means a liquid soil barrier or bait station system installed around the foundation, carpenter ant treatment usually requires finding and treating the actual nest, not just the ants seen indoors, and tick control focuses on a barrier spray at the yard's wooded edge rather than the whole lawn." },
+    { heading: "Setting Priorities for a Pest Plan in Easley", body: "If the home dates to the mill era or sits on a low, damp lot near a creek, termite protection comes first, since that's the pest most likely to cause real structural cost if it's missed. Carpenter ants come second, particularly on any property with a known past leak or wood rot repair, since ants tend to move into wood that's already compromised. Ticks matter most for households with kids, pets, or regular use of the Doodle Trail or other wooded trail access, and a yard edge treatment before spring green up handles most of that risk. Fire ants are a real but lower stakes nuisance here compared to the Midlands or coast, mounds show up in sunny lawn patches and are usually a bait treatment, not an emergency." }
+  ],
+  prevention: [
+    "Keep firewood, stumps, and landscape timbers at least twenty feet from the house instead of stacked against the foundation.",
+    "Check crawlspace vents and vapor barriers on older mill era homes each fall, since ground moisture is the main driver of termite activity here.",
+    "Treat any active water leak or wood rot promptly, since carpenter ants target wood that's already softened, not sound lumber.",
+    "Mow and clear brush at the yard's wooded edge before spring, especially near trail access, to cut down tick habitat where the lawn meets the woods.",
+    "Have a termite inspection done annually on pre 1960s housing stock even without visible signs, since early damage in a crawlspace is easy to miss from inside the home."
+  ],
+  costNote: "General pest and termite inspections in Easley are typically free, with liquid barrier or bait station termite treatment running 500 to 1,200 dollars depending on foundation size, and quarterly general pest service running 40 to 75 dollars per visit. Free inspection included.",
+  faqs: [
+    { question: "Why do older homes in Easley seem to have more termite problems than newer construction?", answer: "A lot of Easley's housing stock was built between 1890 and 1910 to house workers at mills like Easley Cotton Mills and Alice Mills, often on low lots near creeks, before modern crawlspace vapor barriers were standard. That combination of age and ground moisture is exactly what a subterranean termite colony looks for." },
+    { question: "Does walking the Doodle Trail put my yard at higher risk for ticks?", answer: "Regular use of the Doodle Trail or any wooded trail access near Easley does raise tick exposure, since ticks wait in tall grass and brush at the transition between trail and lawn. A yard edge treatment before spring, plus a tick check after each hike, handles most of that risk." },
+    { question: "Is a carpenter ant problem the same as a termite problem?", answer: "No. Carpenter ants excavate wood to nest in it but don't eat it for food the way termites do, and they usually target wood that's already softened by moisture or old damage. Finding one doesn't necessarily mean the other is present, but both point to a moisture issue worth checking." }
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Greenville", slug: "greenville", stateSlug: "south-carolina" },
+    { name: "Anderson", slug: "anderson-sc", stateSlug: "south-carolina" }
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Easley, SC | Termite and Carpenter Ant Treatment",
+  metaDescription: "Licensed pest control for Easley, SC mill village and foothill homes. Termite, carpenter ant, and tick treatment for Pickens County properties. Free inspection."
+},
+{
+  slug: "north-augusta-sc",
+  name: "North Augusta",
+  state: "South Carolina",
+  stateSlug: "south-carolina",
+  stateAbbr: "SC",
+  tier: "T3",
+  population: "~26,400",
+  county: "Aiken County",
+  climate: "hot-humid",
+  climateDriver: "North Augusta sits directly across the Savannah River from Augusta, Georgia, in the sandy, well drained soil typical of South Carolina's CSRA and upper coastal plain. That same sandy loam that makes the area popular for lawns and horse pasture also lets subterranean termite colonies and fire ant colonies move through the ground with very little resistance, reaching a foundation faster than they would in heavier clay soil further north.",
+  topPests: ["Termites", "Fire ants", "Mosquitoes", "Carpenter ants"],
+  pestProfile: [
+    { name: "Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms typically spring", note: "Sandy CSRA soil offers subterranean termite colonies almost no resistance, letting them reach a foundation faster than in heavier clay soils." },
+    { name: "Fire ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Open lawn and horse pasture on North Augusta's outskirts give fire ants wide, loose, sun warmed ground to colonize quickly." },
+    { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October", note: "Savannah River floodplain land, including the redeveloped Hammond's Ferry riverfront, holds standing water long enough after rain to support breeding." },
+    { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Usually shows up as a secondary issue on older riverside homes with an existing moisture problem." }
+  ],
+  localHook: "North Augusta was laid out in 1891 by developer James U. Jackson as a planned town of streets and formal squares linked to Augusta by a trolley bridge over the Savannah River, near the site of the old Hammond's Ferry crossing that had carried travelers between the two towns since the 1700s. The riverfront sat idle as industrial land for most of the twentieth century, a cotton mill, a brickyard, a dairy, before it was redeveloped starting in the 2000s into the Hammond's Ferry neighborhood that carries the crossing's name today.",
+  intro: "North Augusta's sandy soil is good for lawns and bad for keeping termites and fire ants out of them. The town sits on the South Carolina side of the Savannah River across from Augusta, Georgia, in the sandy, fast draining soil typical of the CSRA, and that same soil structure that makes for easy digging and healthy turf also lets subterranean termite tunnels and fire ant colonies move underground with very little resistance. Add river bottomland along the Savannah for mosquito breeding and older riverside housing stock, and a pest plan here has to account for ground pests first.",
+  sections: [
+    { heading: "Why North Augusta's Sandy Soil Changes the Pest Picture", body: "Sandy loam soil, the kind common across Aiken County and the wider CSRA, drains fast and offers almost no resistance to a digging insect. Subterranean termites use existing soil channels and root paths to travel from a colony to a foundation more efficiently in sand than they would in the dense clay found in parts of the Midlands, and fire ants build their mounds fastest in exactly this kind of loose, warm, well drained ground. Horse pasture and open lawn, both common on North Augusta's outskirts, give fire ants wide open territory with little competition. Closer to the river, the floodplain and the older industrial riverfront land now redeveloped as Hammond's Ferry hold enough standing water after rain to support a real mosquito population through the warm months." },
+    { heading: "What a North Augusta Inspection Covers", body: "An inspection here starts at the foundation perimeter, checking for the mud tubes subterranean termites build to bridge open air between soil and wood, and moves to any crawlspace access to check joists and sill plates from underneath. Because sandy soil supports faster fire ant colonization, the yard gets checked for active and inactive mounds, particularly in full sun lawn areas and along pasture fence lines. Mosquito control on a riverside or low lying lot means walking the property for anything holding water for more than a few days, clogged gutters, plant saucers, low spots that don't drain, plus checking storm drainage and any nearby ditch or floodplain edge. Termite treatment typically means a liquid soil barrier or bait station system, fire ants get a bait treatment applied to active mounds and problem turf areas, and mosquito service targets breeding sites on a seasonal schedule rather than a single spray." },
+    { heading: "Prioritizing Pest Control for a North Augusta Property", body: "Termite protection comes first on any home without an active bond, since the sandy soil here means colonies can reach a foundation faster than a homeowner might expect based on experience elsewhere. Fire ants are the second priority for any property with lawn, pasture, or kids and pets that spend time outside, since a mound near a play area or a walking path is a real sting risk, not just a lawn nuisance. Mosquito control matters most for river adjacent or low lying properties, especially anyone who spends evenings outdoors between late spring and early fall. Carpenter ants round out the list and usually show up as a secondary issue tied to an existing moisture problem rather than a standalone concern." }
+  ],
+  prevention: [
+    "Keep mulch beds and pine straw pulled back a few inches from the foundation, since sandy soil already gives termites an easy path without added cover.",
+    "Treat fire ant mounds with bait as soon as they appear in lawn or pasture areas rather than waiting for a large colony to establish.",
+    "Clear gutters and check for low spots in the yard that hold water after rain, especially on river adjacent or low lying lots.",
+    "Store firewood and lumber off the ground and away from the house to avoid giving carpenter ants and termites an easy staging point.",
+    "Have fence lines and pasture edges checked seasonally on horse properties, since fire ants build mounds fastest in open, sun exposed turf."
+  ],
+  costNote: "Termite treatment on a typical North Augusta home runs 500 to 1,300 dollars for an initial liquid barrier or bait station system, fire ant lawn treatment runs 90 to 200 dollars depending on property size, and quarterly general pest service runs 40 to 80 dollars per visit. Free inspection included.",
+  faqs: [
+    { question: "Why does North Augusta seem to have more fire ants than areas just across the river in Augusta?", answer: "Soil type is the main driver. North Augusta and the wider Aiken County side of the Savannah River sit on sandy, fast draining soil that fire ants can burrow through with very little resistance, which lets colonies establish and spread faster than in heavier soil types." },
+    { question: "Is the Hammond's Ferry neighborhood along the river at higher risk for mosquitoes?", answer: "Riverside and low lying land along the Savannah River, including the redeveloped Hammond's Ferry area, holds standing water longer after rain than higher ground elsewhere in North Augusta, which supports more mosquito breeding through the warm months. Source reduction, clearing standing water and treating known wet spots, matters more here than a single yard spray." },
+    { question: "Does sandy soil actually make termite treatment harder?", answer: "Not harder, but it does mean colonies can move from soil to a foundation faster than in dense clay, so annual inspection and a properly maintained termite bond matter more here than in some other parts of the state." }
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Aiken", slug: "aiken", stateSlug: "south-carolina" }
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in North Augusta, SC | Termite and Fire Ant Treatment",
+  metaDescription: "Licensed pest control for North Augusta, SC. Termite protection, fire ant treatment, and mosquito reduction for CSRA and Savannah River area homes. Free inspection."
+},
+{
+  slug: "fort-mill-sc",
+  name: "Fort Mill",
+  state: "South Carolina",
+  stateSlug: "south-carolina",
+  stateAbbr: "SC",
+  tier: "T3",
+  population: "~36,200",
+  county: "York County",
+  climate: "hot-humid",
+  climateDriver: "Fort Mill sits in the Piedmont just south of Charlotte, North Carolina, on rolling former farmland and red clay soil that has been graded and developed at a fast pace over the past decade. New subdivisions built on cleared land change drainage patterns quickly, and the stormwater retention ponds required by modern development codes hold water on a schedule that doesn't always match natural rainfall, creating steady mosquito breeding sites next to termite prone construction lumber that hasn't fully cured.",
+  topPests: ["Termites", "Ticks", "Mosquitoes", "Carpenter ants"],
+  pestProfile: [
+    { name: "Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms typically spring", note: "Buried construction debris, scrap lumber and form boards left near foundations during rapid new development, gives termites a hidden food source close to the house." },
+    { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Spring through early fall", note: "The 2,100 acre Anne Springs Close Greenway and similar wooded buffers around newer subdivisions keep a steady tick population moving into yards along the tree line." },
+    { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October", note: "Stormwater retention ponds required in new subdivisions hold water on a fill and drain cycle long enough for a full breeding cycle." },
+    { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "A lower priority given the young housing stock, but shows up on homes with an early water intrusion issue." }
+  ],
+  localHook: "Fort Mill's population grew about 48 percent between the 2020 census and 2024, from roughly 24,500 to more than 36,000 people, making it one of the fastest growing towns in South Carolina as Charlotte's suburbs push south across the state line. The town's older identity comes from Springs Industries, the cotton textile company founded here in 1887 that grew into a national home furnishings brand before ending South Carolina manufacturing in 2007, and from the Anne Springs Close Greenway, a 2,100 acre nature preserve with 40 miles of trails that the Springs family kept undeveloped as farmland and woods.",
+  intro: "Fort Mill is growing faster than almost anywhere else in South Carolina, and new construction brings its own pest problems alongside the moving trucks. The town's population jumped nearly 48 percent between 2020 and 2024 as Charlotte's suburbs pushed south across the state line, and that growth means fresh lumber, graded red clay lots, and stormwater retention ponds going in faster than established landscaping can catch up. At the same time, the 2,100 acre Anne Springs Close Greenway keeps a real stretch of hardwood forest and trail mileage running through town, which means tick exposure is a genuine concern alongside the termite and mosquito pressure that comes with rapid new construction.",
+  sections: [
+    { heading: "Why New Construction Changes Fort Mill's Termite and Mosquito Risk", body: "A lot of Fort Mill's growth has happened in the last five years, which means plenty of homes still have construction grade lumber that hasn't fully cured, form boards and grade stakes left buried near the foundation, and freshly graded red clay that doesn't drain the way established, landscaped soil does. Termites are drawn to buried wood debris left behind by builders as much as to the structure itself, and a new home isn't automatically a safe home just because it's new. Stormwater retention ponds, now required in most new subdivisions to manage runoff, hold water on a fill and drain cycle that can leave standing water for days at a time, long enough for mosquitoes to complete a breeding cycle. Meanwhile, the wooded acreage in and around the Anne Springs Close Greenway and other undeveloped tracts nearby keeps a steady tick population moving into yards that back up to tree lines." },
+    { heading: "What an Inspection Looks Like on New Fort Mill Construction", body: "On newer construction, an inspection includes checking the yard and foundation perimeter for buried scrap lumber, form boards, or grade stakes left by the builder, since that debris gives termites a hidden food source close to the house before they ever reach structural wood. The technician also checks the crawlspace or slab edge for mud tubes and moisture, and walks the property to identify any retention pond, low spot, or drainage swale that holds water long enough to breed mosquitoes. For homes near the Greenway or any wooded buffer, the check extends to the yard's tree line edge where ticks wait in tall grass and leaf litter. Termite treatment on newer construction usually means a bait station system around the perimeter, mosquito control targets the retention pond edge and any other standing water rather than just the lawn, and tick treatment focuses on the wooded buffer, not the whole yard." },
+    { heading: "Building a Pest Plan for a Fast Growing Town", body: "New homeowners in Fort Mill should treat termite protection as a first year priority rather than an afterthought, since builder grade lumber debris in the yard is a real, if often overlooked, risk regardless of how new the house is. Tick prevention comes next for any property backing onto the Greenway, wooded common areas, or undeveloped tracts still common around newer subdivisions, particularly for households with kids or dogs that use the trail system. Mosquito control tied to the property's retention pond or drainage feature is worth setting up before the first hot, humid stretch of late spring rather than after the bites start. Carpenter ants are a lower priority here since the housing stock is young, but worth checking on any home with an early water intrusion issue." }
+  ],
+  prevention: [
+    "Ask the builder or a technician to check for buried construction debris, scrap lumber, form boards, grade stakes, near the foundation of a newer home.",
+    "Check the yard's retention pond or drainage swale after heavy rain and report standing water that lasts more than a few days.",
+    "Treat the wooded edge of any yard backing onto the Anne Springs Close Greenway or similar tree cover before spring tick season.",
+    "Keep new landscaping mulch and beds a few inches clear of the foundation until the home settles and drainage patterns stabilize.",
+    "Have a termite inspection done at the one year mark on new construction, not just at closing, since buried debris issues often surface later."
+  ],
+  costNote: "Termite bait station systems for newer Fort Mill construction typically run 550 to 1,100 dollars to install with an annual renewal after that, tick and mosquito yard treatments run 60 to 110 dollars per visit, and quarterly general pest service runs 45 to 80 dollars. Free inspection included.",
+  faqs: [
+    { question: "Can a brand new home in Fort Mill really have a termite problem?", answer: "Yes. New construction often has scrap lumber, form boards, or grade stakes buried near the foundation during building, and that debris can feed a termite colony close to the house well before the structure itself is at risk. An inspection that checks the yard, not just the crawlspace, catches this." },
+    { question: "Does living near the Anne Springs Close Greenway increase tick exposure?", answer: "Properties backing onto the Greenway's 2,100 acres of hardwood forest and trail system, or onto any similar wooded buffer common in newer Fort Mill subdivisions, do see more tick activity at the yard's tree line edge. Treating that edge before spring cuts down exposure for kids and pets using the trails." },
+    { question: "Why do new subdivisions in Fort Mill seem to have more mosquitoes than expected?", answer: "Modern stormwater retention ponds, required in most new developments, hold water on a fill and drain cycle that can leave standing water in place long enough for mosquitoes to complete a breeding cycle. Treating the pond edge and other low spots handles this better than yard spraying alone." }
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Rock Hill", slug: "rock-hill", stateSlug: "south-carolina" },
+    { name: "Gaffney", slug: "gaffney", stateSlug: "south-carolina" }
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Fort Mill, SC | Termite, Tick, and Mosquito Treatment",
+  metaDescription: "Licensed pest control for Fort Mill, SC new construction and Greenway adjacent homes. Termite bait systems, tick and mosquito treatment. Free inspection."
+},
+{
+  slug: "camden-sc",
+  name: "Camden",
+  state: "South Carolina",
+  stateSlug: "south-carolina",
+  stateAbbr: "SC",
+  tier: "T3",
+  population: "~8,900",
+  county: "Kershaw County",
+  climate: "hot-humid",
+  climateDriver: "Camden sits in the Sandhills region of the Midlands, on sandy, well drained soil left behind by an ancient shoreline, and carries some of the oldest wood frame housing stock inland in South Carolina since it was settled around 1732. That combination of loose sandy ground and historic construction, plus the horse farms and open pasture that ring the town, sets up a different pest mix than the coast or the Upstate: ground pests that move fast through sand, on structures old enough that moisture problems have had a long time to develop.",
+  topPests: ["Termites", "Fire ants", "Ticks", "Carpenter ants"],
+  pestProfile: [
+    { name: "Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms typically spring", note: "Historic district housing predating modern vapor barrier standards has given small moisture problems a century or more to turn into real termite damage." },
+    { name: "Fire ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Sandy Sandhills soil left over from an ancient shoreline lets fire ant colonies establish and spread faster than in denser Midlands clay nearby." },
+    { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Spring through early fall", note: "Horse farms and open pasture tied to the Springdale Race Course and Camden's steeplechase tradition give ticks tall grass and fence line habitat close to homes." },
+    { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Usually tied to an existing moisture issue in older wood framing common in the historic district." }
+  ],
+  localHook: "Camden is the oldest inland city in South Carolina, settled around 1732 by traders and farmers who moved up from Charleston, and it was occupied by the British for most of 1780 and 1781 during the Revolutionary War, including the Battle of Camden and the Battle of Hobkirk's Hill. That same history is part of why the town's horse culture runs so deep today. The Springdale Race Course, a training and racing facility in town since the early twentieth century, hosts the Carolina Cup steeplechase each spring, an event that has drawn crowds as large as 71,000 in past years.",
+  intro: "Camden's pest pressure comes straight out of its age and its ground. This is the oldest inland city in South Carolina, settled in 1732, and a lot of its historic district housing stock is old enough that moisture problems have had a century or more to develop unnoticed in a crawlspace or sill plate. The town also sits in the Sandhills, sandy, fast draining soil that once formed an ancient shoreline, and that soil type is exactly what fire ants and subterranean termites move through fastest. Add the horse farms and open pasture that surround Camden, tied to its steeplechase and equestrian tradition, and ticks become a real third concern alongside termites and fire ants.",
+  sections: [
+    { heading: "Why Camden's History and Soil Both Work Against It", body: "Being the oldest inland city in the state cuts both ways. Camden's historic district has genuine architectural value, but a meaningful share of that housing stock predates modern foundation drainage, vapor barriers, and pressure treated sill plates, which means small moisture problems have had far more time to turn into real termite damage than in a subdivision built in the last twenty years. Layer the area's Sandhills soil on top of that age, sandy, loose, and fast draining, and both fire ants and subterranean termites move through the ground with less resistance than they would in denser Midlands clay just a few miles away. The horse farms and open pasture surrounding Camden, tied to the Springdale Race Course and the town's steeplechase tradition, add a third factor: ticks thrive in tall pasture grass and along fence lines where horses and wildlife travel." },
+    { heading: "What an Inspection Covers on a Historic Camden Property", body: "On an older Camden home, the inspection focuses heavily on the crawlspace and foundation sill, checking for the kind of long term moisture damage that's common in structures built before modern vapor barrier standards, along with mud tubes and any wood that sounds hollow or soft under a probe. Fire ant checks cover the full yard, since sandy soil lets mounds establish quickly in any sunny patch of lawn or pasture edge. On equestrian or pasture adjacent properties, the tick check extends past the yard into the pasture line and fence rows, since that's where ticks wait for a host to brush past. Termite treatment on historic housing stock usually means a liquid soil barrier matched to the foundation type, since older homes don't always have the uniform slab or crawlspace layout a bait station system assumes, fire ants get a bait treatment on active mounds, and tick control targets the pasture edge." },
+    { heading: "How To Sequence Pest Control on an Older Camden Property", body: "Termite protection should come first on any home in Camden's historic district or built before the 1970s, since the combination of age and sandy soil here means a colony has had an easier path in and more time to do damage than the homeowner might realize. Fire ants are the next priority for any property with open lawn or pasture, particularly ahead of spring events like the Carolina Cup when yards see more foot traffic. Ticks matter most on equestrian properties or anywhere pasture or fence line borders a yard, and treating that edge before horses and cattle are out grazing heavily cuts real exposure. Carpenter ants round out the list, usually tied to an existing moisture issue in older wood framing rather than a standalone problem." }
+  ],
+  prevention: [
+    "Have crawlspaces and sill plates on pre 1970s Camden homes inspected annually, since older construction methods give moisture problems more time to turn into termite damage.",
+    "Treat fire ant mounds in lawn and pasture areas with bait as soon as they appear, since Camden's sandy Sandhills soil lets colonies establish fast.",
+    "Keep pasture grass and fence lines mowed and trimmed to reduce tick habitat on equestrian and horse boarding properties.",
+    "Store firewood and lumber off the ground and away from historic home foundations to avoid giving termites and carpenter ants an easy path.",
+    "Check gutters and downspouts on older homes each fall, since aging rooflines are more likely to have developed small leaks that carpenter ants and termites both exploit."
+  ],
+  costNote: "Termite treatment on Camden's historic district housing typically runs 600 to 1,400 dollars for a full liquid soil barrier system, fire ant lawn or pasture treatment runs 80 to 180 dollars, and tick control on equestrian properties runs 70 to 150 dollars depending on acreage. Free inspection included.",
+  faqs: [
+    { question: "Does being the oldest inland city in South Carolina actually make Camden's termite problem worse?", answer: "It's a real factor. Camden was settled around 1732, and a meaningful share of its historic district housing predates modern foundation drainage and vapor barrier standards, which gives small moisture problems decades longer to develop into real termite damage compared to newer construction elsewhere in Kershaw County." },
+    { question: "Are horse properties near the Springdale Race Course at higher risk for ticks?", answer: "Yes. Pasture, fence lines, and the open grazing land common around Camden's equestrian and steeplechase properties, including areas near Springdale, are prime tick habitat. Keeping pasture grass mowed and treating fence line edges before peak grazing season cuts down exposure for horses, riders, and pets." },
+    { question: "Why do fire ants seem to spread so fast in Camden lawns?", answer: "Camden sits in the Sandhills, a band of sandy, fast draining soil left over from an ancient shoreline. That soil type lets fire ant colonies establish and expand faster than in the denser clay found in much of the rest of the Midlands, which is why early bait treatment on new mounds matters here." }
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Sumter", slug: "sumter", stateSlug: "south-carolina" },
+    { name: "Columbia", slug: "columbia", stateSlug: "south-carolina" }
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Camden, SC | Termite and Fire Ant Treatment",
+  metaDescription: "Licensed pest control for Camden, SC historic district and equestrian properties. Termite, fire ant, and tick treatment in the Sandhills. Free inspection."
+},
 ];
 

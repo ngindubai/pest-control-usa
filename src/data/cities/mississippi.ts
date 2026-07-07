@@ -2754,4 +2754,474 @@ export const mississippiCities: CityLocation[] = [
     metaTitle: "Pest Control in Gautier, MS | Termites, Mosquitoes & Roof Rats",
     metaDescription: "Gautier MS pest control for Formosan termites, mosquitoes, roof rats, and fleas. Gulf Coast Jackson County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+{
+    slug: "madison-ms",
+    name: "Madison",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~27,900",
+    county: "Madison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Madison sits in Madison County on the north edge of the Jackson metro, on rolling clay and loam terrain shaded by heavy oak and pine canopy that the city has deliberately preserved through its wooded subdivisions. Summers are long, hot, and humid with little relief until October, and winters rarely bring more than a few nights of hard frost. That combination of heavy tree cover, older wooded lots, and a growing inventory of large homes on crawl spaces gives termites and carpenter ants steady structural targets. The creek drainage systems running through the city hold enough standing water after summer storms to keep mosquitoes breeding into fall.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Mosquitoes", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Madison's older, heavily wooded neighborhoods keep soil moisture high against foundations for long stretches after rain, and that persistent dampness under mature oak and pine canopy is exactly what subterranean termite colonies need to stay active near a structure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active April through October",
+        note: "Mature hardwood trees over Madison's residential lots regularly take storm damage, and the softened, moisture-damaged limbs and eaves that result are prime carpenter ant nesting sites close to the roofline.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The creek and drainage corridors running through several Madison subdivisions hold standing water long enough after summer storms to sustain mosquito breeding well into the fall.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are established throughout Madison's residential lawns and parks, and mound activity spikes noticeably after rain across the city's warm, moist soils.",
+      },
+    ],
+    localHook:
+      "Madison was known as the Strawberry Capital of the World in the late 1800s, when the Illinois Central Railroad ran carloads of local berries north out of the Madison Station depot every spring.",
+    intro:
+      "Madison's biggest pest risk is baked into what makes the city attractive: mature trees on big lots, right up against the foundation. That canopy Madison has fought to keep through its zoning code creates a nonstop supply of moisture-softened wood and shaded soil, exactly what subterranean termites and carpenter ants want. Add a long, humid central Mississippi summer and a handful of drainage systems that hold water well into fall, and you've got a town where four pests do almost all the damage: termites, carpenter ants, mosquitoes, and fire ants. None of them are exotic. All of them are constant.",
+    sections: [
+      {
+        heading: "Why Madison's tree cover cuts both ways",
+        body: "Madison protected its hardwood and pine canopy on purpose, and it shows: this is one of the more shaded cities in the Jackson metro, with mature oaks over sixty years old on many residential lots. That canopy keeps summer cooling costs down and keeps the ground beneath it consistently moist, even in a dry stretch. Moist soil against a foundation is termite habitat. Old oak limbs that have taken storm damage and gone soft are carpenter ant habitat. Both pests are established throughout Madison County, and both prefer exactly the conditions this city's landscaping creates. Homes built in the older, heavily wooded sections of town, not just the newer subdivisions further out, carry the highest structural risk because the trees have had decades to mature around them.",
+      },
+      {
+        heading: "What a Madison inspection actually covers",
+        body: "A real inspection starts outside, at the foundation line, checking for mud tubes, soft wood, and grade contact where soil sits higher than the slab or sill plate. Crawl spaces get a flashlight and a probe, not a glance. Carpenter ant frass, the sawdust-like debris they push out of galleries, shows up near door frames, window sills, and anywhere a tree limb overhangs the roofline. Mosquito breeding sites get mapped separately: gutters, low spots in the yard, anything holding water more than four days. Fire ant mounds get counted across the whole lawn, not just the ones near the porch. That full picture is what determines whether a property needs a termite baiting system, a liquid soil treatment, or both, and it's why we don't quote a number over the phone before walking the property.",
+      },
+      {
+        heading: "Setting priorities for a Madison property",
+        body: "Termites come first, every time, because the damage compounds and doesn't announce itself until it's expensive. An annual inspection with a monitoring or baiting system in place is the baseline for any home under heavy tree cover. Carpenter ants come second: they're a symptom of moisture and wood damage that a termite inspection will often catch anyway, so bundling the two makes sense. Mosquito control is seasonal, March through November is the real window here, and it matters most for anyone with kids or pets using the yard regularly. Fire ants are the lowest-stakes item on the list but the one homeowners actually notice first, so a broadcast lawn bait in spring and again in fall keeps mound counts down without much ongoing effort.",
+      },
+    ],
+    prevention: [
+      "Trim tree limbs back at least a foot from the roofline to cut off carpenter ant highways into the attic.",
+      "Keep mulch beds pulled back several inches from the foundation, deep mulch against the slab holds moisture that draws termites.",
+      "Clear gutters twice a year given how much leaf litter Madison's canopy drops, clogged gutters are a top mosquito breeding site.",
+      "Grade soil and flower beds so water runs away from the foundation, not toward it.",
+      "Broadcast fire ant bait across the full lawn in spring and fall rather than treating individual mounds one at a time.",
+    ],
+    costNote:
+      "General pest coverage in Madison typically runs $45 to $65 a month on a quarterly plan. Termite protection is usually quoted as an annual program, often $500 to $900 depending on the size of the home and whether baiting or liquid treatment is used. Seasonal mosquito service adds $60 to $100 per treatment during the March through November season. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Madison's tree canopy really make termites worse?",
+        answer:
+          "Yes. Mature oak and pine cover keeps soil moisture higher around the foundation for longer after rain, and that moisture is what subterranean termite colonies need to stay active near a structure. Homes in Madison's older, heavily wooded sections see this pressure more than newer subdivisions with younger, smaller trees. An annual inspection matters more here than in a comparable town with less canopy.",
+      },
+      {
+        question: "Are carpenter ants a serious problem in Madison or just a nuisance?",
+        answer:
+          "They're a real structural pest, not just a kitchen nuisance. Carpenter ants nest in wood that's already softened by moisture, often storm-damaged tree limbs overhanging a roof or a fascia board that's held water too long. In a city with as much mature tree cover as Madison, that combination shows up regularly. A colony inside a wall void can take months to fully eliminate, which is why an inspection should check attic and eave lines specifically, not just the kitchen.",
+      },
+      {
+        question: "When does mosquito season start and end in Madison?",
+        answer:
+          "Late March through November is the realistic window here. Madison's drainage systems, including the creek corridors running through several subdivisions, hold water long enough after summer storms to sustain breeding into the fall. A yard treatment focused on shaded, humid vegetation, where adult mosquitoes rest during the day, covers the full season better than fogging alone.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Ridgeland", slug: "ridgeland", stateSlug: "mississippi" },
+      { name: "Jackson", slug: "jackson", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Madison, MS | Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Madison pest control for subterranean termites, carpenter ants, mosquitoes and fire ants. Licensed Madison County specialists. Free inspection.",
+  },
+  {
+    slug: "brandon-ms",
+    name: "Brandon",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~25,900",
+    county: "Rankin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brandon sits in Rankin County on the Pearl River's east bank, low rolling terrain that floods easily after heavy spring rain and stays humid through the long central Mississippi summer. The city's mix of nineteenth century downtown lots and newer subdivisions built out toward the floodplain gives termites continuous soil contact against slab and pier and beam foundations alike. Warm, wet falls extend the mosquito season past what most residents expect, and the sandy clay soil throughout Rankin County is exactly what fire ant colonies prefer.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "The low, flat ground around Brandon's historic town square holds soil moisture against foundations for days after rain, and older homes near Government Street built before modern termiticide barriers were standard carry the highest risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Pearl River floodplain and the drainage ditches running through both older and newer parts of Brandon hold standing water long enough to keep breeding active well past what most people expect from a Mississippi fall.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Rankin County's sandy clay soil composition is close to ideal for red imported fire ant colonies, and Brandon's lawns and parks see consistent mound pressure after wet spring weather.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain and heat",
+        note: "American cockroaches in Brandon live primarily in storm drains and sewer infrastructure around the older downtown district and push indoors during heavy rain or extreme heat.",
+      },
+    ],
+    localHook:
+      "Brandon was incorporated in 1831 and named for Governor Gerard Chittocque Brandon, and the town's Ben Venue house, built in 1834, later served as the residence of two more Mississippi governors.",
+    intro:
+      "Brandon's pest pressure comes straight off the Pearl River. This is low, flat, floodplain-adjacent ground in Rankin County, and that means near-constant soil moisture, a long mosquito season, and termite colonies that don't have to work hard to find a way into a foundation. Add sandy clay soil that fire ants love and an older downtown housing stock with decades-old plumbing, and you get four pests doing most of the work here: subterranean termites, mosquitoes, fire ants, and American cockroaches. None of it is unusual for central Mississippi. It's still worth planning around.",
+    sections: [
+      {
+        heading: "Why the Pearl River floodplain drives Brandon's pest load",
+        body: "Brandon sits on the east bank of the Pearl River, and the low, flat terrain around the historic town square floods easily after a hard spring rain. That same terrain keeps soil moisture high against foundations for days at a stretch, which is exactly the condition subterranean termites need to move from the soil into a structure without ever breaking the surface where you'd notice. The newer subdivisions built out toward the floodplain edge face this pressure just as much as the historic district around Government Street, where homes built in the 1800s and early 1900s sit on foundations that were never treated with a modern termiticide barrier. Rankin County's sandy clay soil composition also happens to be close to ideal for fire ant colonies, so a wet spring means both a termite problem and a fire ant mound problem showing up at the same time.",
+      },
+      {
+        heading: "What we check on a Brandon property",
+        body: "The inspection starts at grade level, looking for mud tubes running up the foundation wall, checking whether soil or mulch is piled against the brick veneer or siding above the weep holes, and probing any wood that touches the ground directly: deck posts, fence lines, porch steps. Older homes near the historic district get extra attention at plumbing penetrations and slab expansion joints, common entry points in houses built before modern vapor barriers were standard. Mosquito breeding checks cover gutters, any low spot in the yard that holds water, and shaded vegetation near the property line. Fire ant mounds get mapped across the full lawn. Cockroach pressure gets assessed from the outside in, since American cockroaches in this part of Mississippi live in storm drains and sewer lines first and only move indoors when it rains hard or gets extremely hot.",
+      },
+      {
+        heading: "How to sequence pest control in Brandon",
+        body: "Termite protection is the non-negotiable first item, especially for any home within a few blocks of the historic district or built before 1980. An annual inspection with a liquid soil treatment or baiting system installed is the baseline. Mosquito control comes next given how long the season runs here, March through November, and it directly affects whether anyone can use the yard in the evening for half the year. Fire ants are next: a spring and fall broadcast bait treatment on the whole lawn keeps mound density down with far less effort than spot-treating individual mounds all summer. American cockroach control rounds out the list, mostly a matter of sealing entry points and treating the exterior perimeter rather than an indoor-heavy approach.",
+      },
+    ],
+    prevention: [
+      "Keep mulch and soil at least six inches below brick veneer weep holes so termite mud tubes aren't hidden from view.",
+      "Have foundations on pre-1980 homes near the historic district inspected annually, older construction rarely has a modern termiticide barrier.",
+      "Clear yard low spots and gutters regularly through the March to November mosquito season.",
+      "Broadcast fire ant bait on the full lawn each spring and fall instead of treating individual mounds.",
+      "Seal gaps around exterior plumbing penetrations to cut off the main cockroach entry point during heavy rain.",
+    ],
+    costNote:
+      "General pest plans in Brandon typically run $40 to $60 a month on a quarterly schedule. Termite protection is usually quoted as an annual program in the $500 to $850 range depending on foundation type and treatment method. Mosquito service during the active season runs $55 to $95 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Brandon get so much termite pressure so close to the Pearl River?",
+        answer:
+          "The low, flat ground around Brandon's historic square holds moisture against foundations for days after rain, and that's the condition subterranean termites need to move from soil into a structure. Homes in the older sections near Government Street, some built well over a century ago, were never treated with a modern termiticide barrier, so they carry more risk than newer construction on higher ground.",
+      },
+      {
+        question: "Is Brandon's fire ant problem worse than other parts of Rankin County?",
+        answer:
+          "It's consistent with the rest of the county rather than unusually worse. Rankin County's sandy clay soil is close to ideal for red imported fire ant colonies, and that soil type runs through Brandon's residential lawns and parks alike. A broadcast bait treatment across the whole yard in spring and fall controls it far better than spot-treating mounds.",
+      },
+      {
+        question: "How long does mosquito season really last in Brandon?",
+        answer:
+          "Realistically, March through November. The Pearl River floodplain and the drainage ditches that run through both the older and newer parts of town hold standing water long enough to keep breeding going well past what most people expect from a Mississippi fall. A yard treatment targeting shaded resting vegetation extends control further than fogging alone.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Pearl", slug: "pearl", stateSlug: "mississippi" },
+      { name: "Jackson", slug: "jackson", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brandon, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Brandon pest control for subterranean termites, mosquitoes, fire ants and American cockroaches. Licensed Rankin County specialists. Free inspection.",
+  },
+  {
+    slug: "cleveland-ms",
+    name: "Cleveland",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~10,400",
+    county: "Bolivar County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cleveland sits in the flat alluvial floodplain of Bolivar County, dead center in the Mississippi Delta, where the soil that made this ground famous for cotton is the same heavy, poorly draining clay that keeps water sitting in fields and roadside ditches for days after a storm. Delta summers run hot and saturated, and the irrigation canals that serve the surrounding farmland double as breeding habitat once the growing season starts. Cleveland's older housing stock, much of it built well before modern termite pretreatment was standard, sits on soil with heavy year-round subterranean termite pressure.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Rodents"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Cleveland's heavy, slow-draining Delta clay soil stays moist against foundations far longer than sandier ground elsewhere in the state, and a meaningful share of the older housing stock near downtown and the Delta State University campus predates modern termite pretreatment.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Irrigation canals serving the farmland surrounding Cleveland hold water through the growing season, adding a breeding source on top of the standing water Bolivar County's flat clay ground already collects after rain.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are established along field edges and fence lines throughout the farmland ringing Cleveland and move readily into residential lawns at the edge of town.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Increases October through December",
+        note: "Once the fields around Cleveland are harvested each fall, field mice and rats lose their outdoor food source at the same time and move toward the nearest structure with food and shelter.",
+      },
+    ],
+    localHook:
+      "Dockery Farms, the cotton plantation just outside Cleveland where Charley Patton and a generation of Delta blues musicians worked and played, sits close enough to town that the Grammy Museum Mississippi, only the second Grammy Museum in the world, was built on the Delta State University campus to tell that story.",
+    intro:
+      "Cleveland's pest problem is the Delta's pest problem: flat, heavy clay ground that doesn't drain, surrounded by farmland that depends on standing water for half the year. That combination keeps mosquitoes breeding from spring through fall, keeps subterranean termites active in soil that rarely dries out, and pushes rodents toward town once the surrounding fields go quiet after harvest. Add fire ants along every field edge and fence line, and you've got a short list of pests that account for nearly every service call in Bolivar County: termites, mosquitoes, fire ants, and rodents.",
+    sections: [
+      {
+        heading: "Why Delta clay and farmland drive Cleveland's pest pressure",
+        body: "Cleveland sits in the flat alluvial floodplain that made Bolivar County some of the most productive cotton ground in the country, and the same heavy clay soil that holds nutrients so well also holds water. Roadside ditches and low spots around town stay wet for days after a storm, and the irrigation canals serving the farmland ringing Cleveland run through the growing season, adding a second source of standing water on top of what rain leaves behind. Termites benefit from the same conditions: soil that stays moist against a foundation for extended stretches is exactly what subterranean colonies need to keep working undetected. Cleveland's housing stock includes a meaningful share of homes built before modern termite pretreatment was standard practice, particularly in the older neighborhoods near downtown and the Delta State University campus, which raises the stakes on a missed inspection.",
+      },
+      {
+        heading: "What an inspection looks like in Cleveland",
+        body: "We start at the foundation perimeter, checking for termite mud tubes at grade level and probing any exterior wood: porch posts, deck ledgers, fence sections touching soil directly. Older homes get a crawl space inspection with a flashlight and moisture meter, since Delta humidity keeps crawl space wood damp even when the yard looks dry. Mosquito breeding assessment covers gutters, yard low spots, and any container holding water, plus a look at how close the property sits to a farm drainage ditch or irrigation canal, which matters more here than in a town without surrounding row crop agriculture. Fire ant mounds get counted across the whole lawn. In fall, we also check the exterior for rodent entry points: gaps around utility penetrations, damaged vent screens, and gaps under doors, since field mice and rats move toward structures once the harvested fields stop providing food and cover.",
+      },
+      {
+        heading: "Setting a pest control plan around Cleveland's seasons",
+        body: "Termite protection is the year-round priority given the clay soil and older housing stock, an annual inspection paired with a monitoring or liquid barrier system is the baseline recommendation for any Cleveland home. Mosquito control needs to run the full March through November window here, arguably longer than some other parts of the state given how much irrigation water sits on the landscape through the growing season. Fire ant treatment is a twice yearly broadcast job, spring and fall, across the entire lawn. Rodent exclusion becomes the priority item specifically in October and November, right after harvest, when field rodents start looking for a new food source and a Cleveland home looks like a good option if the exterior isn't sealed.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections annually given how consistently moist Delta clay soil stays against foundations.",
+      "Clear irrigation-adjacent drainage and yard low spots regularly through the growing season to cut mosquito breeding.",
+      "Seal exterior gaps, vents, and door sweeps before harvest each fall to keep field rodents from moving indoors.",
+      "Broadcast fire ant bait across the full lawn each spring and fall rather than spot-treating mounds.",
+      "Keep crawl spaces vented and check for moisture buildup, Delta humidity keeps them damp even in dry weather.",
+    ],
+    costNote:
+      "General pest programs in Cleveland typically run $40 to $60 monthly on a quarterly schedule. Termite protection is usually quoted as an annual plan between $500 and $850. Mosquito season service runs $55 to $95 per treatment, March through November. Free inspection included.",
+    faqs: [
+      {
+        question: "Does farmland around Cleveland make the mosquito problem worse?",
+        answer:
+          "It does, more than in a comparable town without row crop agriculture nearby. The irrigation canals serving the farmland surrounding Cleveland hold water through the growing season, adding a breeding source that's active even during dry stretches. Combined with Bolivar County's naturally flat, slow-draining clay soil, that keeps mosquito pressure high from spring through fall.",
+      },
+      {
+        question: "Why does Cleveland see a rodent uptick in the fall?",
+        answer:
+          "Once the fields around Cleveland are harvested, field mice and rats lose their outdoor food source and cover at roughly the same time, and they move toward the nearest structure with food and shelter, often a home or outbuilding at the edge of town. Sealing exterior gaps and vents before harvest each year is the practical way to stay ahead of it.",
+      },
+      {
+        question: "Is termite risk really higher in Cleveland than elsewhere in Mississippi?",
+        answer:
+          "Cleveland's risk comes from a combination of factors rather than one unusual cause: heavy, slow-draining Delta clay soil that stays moist against foundations, and an older housing stock, including homes near downtown and the Delta State University campus, built before modern termite pretreatment was standard. Neither factor alone is unique to Cleveland, but together they add up to consistent, high subterranean termite pressure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Greenville", slug: "greenville-ms", stateSlug: "mississippi" },
+      { name: "Clarksdale", slug: "clarksdale", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Cleveland, MS | Termites, Mosquitoes & Rodents",
+    metaDescription:
+      "Cleveland pest control for subterranean termites, mosquitoes, fire ants and rodents. Licensed Bolivar County Delta specialists. Free inspection.",
+  },
+  {
+    slug: "grenada-ms",
+    name: "Grenada",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~12,300",
+    county: "Grenada County",
+    climate: "hot-humid",
+    climateDriver:
+      "Grenada sits in Grenada County where the Mississippi hill country begins to flatten into the Delta, three miles from Grenada Lake, the largest reservoir in the state at 35,000 surface acres during the recreation season. That much standing water within sight of downtown keeps mosquito pressure high from spring through fall, and the mature hardwood forest ringing the lake and the Yalobusha River bottomland sustains a heavy tick population for anyone who hunts, fishes, or hikes near the shoreline. The clay hill soil around the city center is dense enough to hold moisture against foundations for weeks after rain, favorable ground for subterranean termites.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Ticks", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Grenada Lake holds 35,000 surface acres during the recreation season, and properties within a mile or two of the shoreline face substantially more mosquito pressure than homes on the far side of town.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "The clay hill soil under Grenada's city center holds rainwater against foundations longer than the sandier soil found in some neighboring counties, giving subterranean termites an extended window of favorable moisture.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The hardwood forest surrounding Grenada Lake and the Yalobusha River bottomland supports wildlife that carries ticks, and households using the lake's wooded recreation areas see the highest exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Storm-damaged limbs in the hardwood canopy around Grenada's wooded residential lots soften with moisture and become carpenter ant nesting sites near rooflines and eaves.",
+      },
+    ],
+    localHook:
+      "Grenada Lake, three miles from downtown, is the largest lake in Mississippi at 35,000 surface acres, built by the Army Corps of Engineers in 1954 for Yazoo River Basin flood control, and two Confederate forts built to guard the city's rail junction still stand on Corps property along its shoreline.",
+    intro:
+      "Grenada's pest reality is set by 35,000 acres of standing water three miles from downtown. Grenada Lake, the largest lake in Mississippi, keeps mosquito populations active from spring through fall and sustains a tick population in the hardwood forest ringing its shoreline that most inland Mississippi towns don't have to deal with. The clay hill soil under the city itself holds moisture against foundations long enough to keep subterranean termites working, and the wooded lots common throughout town give carpenter ants a foothold too. Four pests, one root cause: this is a town built around a lot of water and a lot of trees.",
+    sections: [
+      {
+        heading: "Why Grenada Lake shapes the entire local pest picture",
+        body: "Grenada sits where the Mississippi hill country starts flattening into the Delta, and the Army Corps of Engineers picked this exact stretch of the Yalobusha River in 1954 to build a 35,000 acre flood control reservoir, now the largest lake in the state. That much surface water within a few miles of downtown means mosquito breeding habitat that doesn't fully dry up even in a hot, dry stretch of summer. The mature hardwood forest surrounding the lake and running along the Yalobusha River bottomland supports deer, raccoons, and other wildlife that carry ticks, and anyone who hunts, fishes, or lets a dog run in those wooded areas brings that tick exposure back toward town. Meanwhile the clay hill soil under Grenada's residential streets holds rainwater against foundations for longer than the sandier soil found in some other parts of north Mississippi, giving subterranean termites a longer window of favorable moisture each time it rains.",
+      },
+      {
+        heading: "What we check on a Grenada property",
+        body: "Termite inspection starts at the foundation, checking for mud tubes, probing exterior wood, and paying particular attention to older homes in the city center where the clay hill soil holds the most moisture. Mosquito assessment has to account for proximity to the lake: a property within a mile or two of the shoreline needs a more aggressive yard treatment plan than one on the far side of town, since adult mosquitoes can travel a meaningful distance from the water. Tick risk gets evaluated based on how close the yard sits to wooded property lines or undeveloped lots, since that's where ticks wait on vegetation for a host to brush past. Carpenter ants get checked at rooflines and eaves where storm-damaged limbs from the hardwood canopy have gone soft.",
+      },
+      {
+        heading: "Prioritizing pest control around Grenada Lake",
+        body: "Mosquito control gets top billing for any Grenada property near the lake or the Yalobusha River bottomland, running the full spring through fall season rather than a shorter window. Termite protection is a close second and shouldn't be skipped just because the lake gets the attention, an annual inspection with a soil treatment or baiting system belongs on every property regardless of distance from the water. Tick prevention matters most for households that use the lake's wooded recreation areas regularly, a yard perimeter treatment plus checking people and pets after time in the woods covers most of the risk. Carpenter ants are usually the lowest priority of the four, worth addressing during a termite inspection rather than as a separate service call.",
+      },
+    ],
+    prevention: [
+      "Empty or cover containers that collect rainwater anywhere near the lakeshore or in the yard, they're the fastest mosquito breeding sites to fix.",
+      "Have foundations in the city center inspected annually, clay hill soil there holds moisture longer than sandier ground elsewhere in the county.",
+      "Check people and pets for ticks after time in the wooded areas around Grenada Lake or the Yalobusha River bottomland.",
+      "Trim storm-damaged limbs from hardwood trees near the roofline before they soften enough to draw carpenter ants.",
+      "Treat the yard perimeter with a residential mosquito barrier through the spring and fall lake season.",
+    ],
+    costNote:
+      "General pest coverage in Grenada typically runs $40 to $60 a month on a quarterly plan. Termite protection is usually quoted as an annual program between $500 and $850. Mosquito service near the lake runs $60 to $100 per treatment given the extended season. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near Grenada Lake really mean worse mosquito problems?",
+        answer:
+          "Yes, proximity matters. Grenada Lake holds 35,000 surface acres during the recreation season, and properties within a mile or two of the shoreline see more mosquito pressure than homes on the far side of town, since adult mosquitoes can travel a real distance from standing water. A yard treatment plan should account for that distance rather than treating every Grenada property the same way.",
+      },
+      {
+        question: "Are ticks a bigger problem in Grenada than in other Mississippi towns?",
+        answer:
+          "For households that use the wooded recreation areas around Grenada Lake or the Yalobusha River bottomland regularly, yes, more so than in a town without that much surrounding hardwood forest. The wildlife populations supported by that forest carry ticks, and anyone hunting, fishing, or walking dogs in those areas should expect higher exposure than a typical in-town yard.",
+      },
+      {
+        question: "Why does Grenada's soil favor termites?",
+        answer:
+          "The clay hill soil under Grenada's city center holds moisture longer after rain than the sandier soil in some neighboring counties, and that persistent dampness against a foundation is what subterranean termite colonies need to stay active. Older homes in the city center, where this soil type is most pronounced, carry more risk and benefit most from an annual inspection.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Greenwood", slug: "greenwood-ms", stateSlug: "mississippi" },
+      { name: "Oxford", slug: "oxford-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Grenada, MS | Mosquitoes, Termites & Ticks",
+    metaDescription:
+      "Grenada pest control near Grenada Lake for mosquitoes, subterranean termites, ticks and carpenter ants. Licensed local specialists. Free inspection.",
+  },
+  {
+    slug: "brookhaven-ms",
+    name: "Brookhaven",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~11,650",
+    county: "Lincoln County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brookhaven sits in Lincoln County in the heart of Mississippi's Piney Woods, surrounded by the longleaf and loblolly pine timberland that has shaped the local economy since the railroad arrived in 1858. Pine forest holds moisture at the ground level even when the surface looks dry, and that persistent dampness under a thick needle litter layer is close to ideal subterranean termite habitat. Humid, mild winters rarely slow termite activity for more than a few weeks, and the wooded lots common throughout Brookhaven's older neighborhoods put carpenter ants and ticks within reach of nearly every home.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Ticks", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "The thick pine needle litter across Lincoln County's timberland keeps ground moisture close to constant, and Brookhaven's older, heavily wooded neighborhoods sit right against that same forest edge.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Storm-damaged pine and hardwood limbs common throughout Brookhaven's wooded residential lots soften with moisture and become carpenter ant nesting sites near rooflines and eaves.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "Brookhaven's extensive surrounding pine and hardwood forest supports the wildlife that carries ticks, and yards near undeveloped timberland see the highest exposure in Lincoln County.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants take over wherever Brookhaven's forest cover opens into open lawn or pasture, and mound density spikes in the sunnier edges of yards after rain.",
+      },
+    ],
+    localHook:
+      "Brookhaven's downtown carries the nickname A Homeseekers Paradise on a landmark sign that has stood since the town's early twentieth century boom years, when the Illinois Central Railroad and the surrounding pine timber industry drew new residents to Lincoln County.",
+    intro:
+      "Brookhaven's pest reality comes straight from the pine timber that surrounds it. This is Piney Woods country, longleaf and loblolly stands that have supported the local economy since the railroad arrived in 1858, and that much pine forest holds ground moisture even when the surface looks dry. Subterranean termites do most of the damage here, working in soil that rarely fully dries out under a thick needle litter layer. Carpenter ants and ticks come off the same wooded lots that give Brookhaven's older neighborhoods their shade, and fire ants take over wherever the forest opens into pasture or lawn. Four pests, one forest driving most of it.",
+    sections: [
+      {
+        heading: "Why Piney Woods forest sets Brookhaven's pest baseline",
+        body: "Lincoln County's economy and its landscape were both built around pine timber, and that same longleaf and loblolly forest that has stood since well before the railroad arrived in 1858 holds moisture at ground level that a casual look at dry surface leaves would never suggest. A thick layer of pine needle litter acts almost like insulation, keeping the soil underneath consistently damp, and that dampness is close to ideal habitat for subterranean termite colonies working their way toward a nearby foundation. Brookhaven's older neighborhoods, many built on wooded lots that predate the modern practice of clearing a wide buffer around a house, sit right up against that same forest edge, which is also where carpenter ants find storm-damaged limbs to nest in and where ticks wait on low vegetation for a passing host. Mild, humid winters common to this part of the state rarely slow any of it down for more than a few weeks at a stretch.",
+      },
+      {
+        heading: "What an inspection covers on a Brookhaven property",
+        body: "We start at the foundation, checking for termite mud tubes at grade level and probing wood that contacts soil directly: porch posts, deck ledgers, any lattice skirting around a crawl space. Homes on heavily wooded lots, common throughout Brookhaven's older sections near downtown, get extra attention at the tree line where root systems and fallen limbs create a bridge termites can use to bypass a foundation barrier entirely. Carpenter ant checks focus on rooflines, eaves, and any exterior wood trim that's held water after a storm. Tick risk gets assessed by how close the yard sits to undeveloped timberland or a wooded property line, since that's where nymphs and adults wait on vegetation. Fire ant mounds get counted across open lawn and pasture edges, wherever the tree cover breaks and sunlight reaches the ground.",
+      },
+      {
+        heading: "Sequencing pest control for a Brookhaven home",
+        body: "Termite protection is the non-negotiable first step for any property on or near a wooded lot, which describes a large share of Brookhaven's housing stock, an annual inspection with a soil treatment or baiting system installed is the baseline. Carpenter ants are worth checking during that same visit since a colony in a moisture-damaged eave is often found alongside termite activity rather than instead of it. Tick prevention matters most for households near the timberland edge, a spring perimeter treatment plus checking people and pets after time outdoors covers most of the exposure. Fire ants round out the list, a broadcast bait application on open lawn areas each spring and fall keeps mound counts manageable without much ongoing work.",
+      },
+    ],
+    prevention: [
+      "Keep a cleared buffer between wooded tree lines and the foundation, root systems and fallen limbs can bridge a termite barrier.",
+      "Trim storm-damaged limbs near rooflines and eaves before they soften enough to draw carpenter ants.",
+      "Check people and pets for ticks after time in wooded yards or nearby timberland, common throughout Lincoln County.",
+      "Have crawl spaces and foundations inspected annually given how consistently damp pine forest soil stays under needle litter.",
+      "Broadcast fire ant bait on open lawn and pasture edges each spring and fall rather than treating individual mounds.",
+    ],
+    costNote:
+      "General pest plans in Brookhaven typically run $40 to $60 a month on a quarterly schedule. Termite protection is usually quoted as an annual program between $475 and $825, depending on lot size and proximity to tree lines. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is termite pressure so consistent in Brookhaven?",
+        answer:
+          "Lincoln County's pine timberland holds soil moisture at ground level even when the surface looks dry, because a thick layer of needle litter keeps the ground beneath it consistently damp. That's close to ideal habitat for subterranean termite colonies, and it's why homes on Brookhaven's many wooded lots, especially in the older neighborhoods near downtown, carry more risk than a comparable home on cleared, open ground.",
+      },
+      {
+        question: "Does living near the woods around Brookhaven raise my tick risk?",
+        answer:
+          "It does, more than a yard without nearby timberland. Ticks wait on low vegetation at the forest edge for a host, and Lincoln County's extensive pine and hardwood forest supports the wildlife that carries them. A perimeter treatment in spring, combined with checking people and pets after time outdoors, covers most of the added exposure.",
+      },
+      {
+        question: "Are carpenter ants a common problem in Brookhaven or unusual for the area?",
+        answer:
+          "Common, not unusual. Brookhaven's older neighborhoods sit on wooded lots where storm-damaged limbs near rooflines and eaves go soft with moisture, and that's exactly the wood carpenter ants prefer to nest in. It's common enough here that we check for it during every termite inspection rather than treating it as a separate issue.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "McComb", slug: "mccomb", stateSlug: "mississippi" },
+      { name: "Natchez", slug: "natchez", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brookhaven, MS | Termites, Ticks & Carpenter Ants",
+    metaDescription:
+      "Brookhaven pest control for subterranean termites, carpenter ants, ticks and fire ants. Licensed Lincoln County Piney Woods specialists. Free inspection.",
+  },
 ];

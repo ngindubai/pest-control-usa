@@ -4173,4 +4173,474 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Baraboo, WI pest control for ticks and spiders near Devil's Lake State Park, harvest-driven mice, and cluster flies. Sauk County Baraboo Hills service.",
   },
+{
+  slug: "chippewa-falls-wi",
+  name: "Chippewa Falls",
+  state: "Wisconsin",
+  stateSlug: "wisconsin",
+  stateAbbr: "WI",
+  tier: "T3",
+  population: "~15,000",
+  county: "Chippewa County",
+  climate: "cold",
+  climateDriver:
+    "Chippewa Falls sits in west central Wisconsin, where winters are long and genuinely cold enough to freeze the Chippewa River most years. That hard freeze suppresses outdoor insect activity from November into March, but it also drives box elder bugs, cluster flies, and mice hard toward the warmth of buildings every fall. Summers are humid enough, and the river and Lake Wissota shoreline are wooded enough, to keep carpenter ants and deer ticks active from spring through early fall.",
+  topPests: ["Box elder bugs", "Cluster flies", "Carpenter ants", "Deer ticks"],
+  pestProfile: [
+    {
+      name: "Box elder bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "September through the first hard frost, then again on warm days in late winter",
+      note: "Chippewa Falls' mature box elder and maple trees along the river and Lake Wissota shoreline give this pest exactly the food source and shelter it favors, and homes near that tree cover see heavier fall gathering on sun-facing walls.",
+    },
+    {
+      name: "Cluster flies",
+      serviceSlug: "fly-control",
+      activeSeason: "October entry, emerging indoors January and February",
+      note: "These flies stage in attics and soffits through the fall and reappear on warm days in the middle of winter, which surprises residents who assume all flies are gone once the snow falls.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September, peak foraging in spring",
+      note: "The damp wood along the Chippewa River corridor and Lake Wissota shoreline supports established colonies, and a spring sighting of large black ants indoors usually points to a nest nearby rather than a stray visitor.",
+    },
+    {
+      name: "Deer ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "May through October",
+      note: "Chippewa County's wooded parks and hunting land carry genuine Lyme disease risk, and the yard edge where lawn meets brush is where most people and pets pick ticks up.",
+    },
+  ],
+  localHook:
+    "Chippewa Falls sits where the Chippewa River drops over a set of falls that once powered lumber mills, and the town still runs on that same water today: Jacob Leinenkugel Brewing Company has brewed beer on the riverbank since 1867, and supercomputer pioneer Seymour Cray, founder of Cray Research, was born here and later built his company's headquarters in town.",
+  intro:
+    "If you have spent a fall evening on a porch near the Chippewa River, you already know the sound: a soft tapping against the window screen as box elder bugs look for a way in before the cold sets in for good. Chippewa Falls gets real winter, the kind that freezes the river solid most years, and that cold shapes almost everything about pest pressure here. The bugs that bother you are not chasing your cooking smells so much as your heat. Cluster flies pack into attic spaces by the hundreds, carpenter ants work the moist wood along the riverbank and Lake Wissota shoreline, and deer ticks ride in on the county's parks and hunting land. None of it is exotic. All of it is manageable once you know the pattern.",
+  sections: [
+    {
+      heading: "The pests that actually show up here",
+      body: "If you have lived here a while, you know the drill: box elder bugs stack up on the sunny south side of the house every September, looking for a crack to slip through before the first hard frost. Cluster flies do the same thing on a slower schedule, working into soffits and attic voids through October and emerging on warm days in January and February, which confuses people who assume all flies die off in winter. Carpenter ants are the pest with real teeth here. The wooded shoreline around Lake Wissota and the river corridor through downtown give them plenty of damp, softened wood to nest in, and a spring sighting of large black ants indoors usually means a colony is already established nearby. Deer ticks are the one worth taking seriously for health reasons rather than nuisance. Chippewa County's wooded parks and hunting land carry real Lyme disease risk from May through October, and a tick check after time outdoors matters more than most people think.",
+    },
+    {
+      heading: "Here is how we handle it",
+      body: "Here is how we handle it: the first visit is always an inspection, not a spray. A technician walks the foundation looking for the gaps box elder bugs and mice use to get inside, checks the attic and soffits for cluster fly staging areas, and looks at any wood in contact with soil or moisture for carpenter ant activity. Exterior treatments applied in September, before the bugs commit to overwintering, cut down dramatically on how many end up inside your walls by December. If carpenter ants are active, we trace the trail back to the nest rather than just treating what you can see, because killing the ants indoors without finding the colony means they come back. Tick control focuses on the yard edge where lawn meets brush or woods, since that transition zone is where deer ticks wait to latch onto a person or pet walking by.",
+    },
+    {
+      heading: "What keeps your home ahead of it",
+      body: "What keeps your home ahead of it is timing, not intensity. Sealing gaps around utility lines, window frames, and the foundation before September does more than any amount of spraying after the bugs are already inside. Keeping firewood stacked away from the house and off the ground removes a favorite carpenter ant staging spot. Trimming brush back from the yard's edge and treating pets with a tick preventive cuts down on what gets tracked in from the woods around Lake Wissota. None of this requires ripping into your home. It requires doing the small things in the right month.",
+    },
+  ],
+  prevention: [
+    "Seal foundation cracks and utility line gaps before September, ahead of the box elder bug and cluster fly push indoors.",
+    "Keep firewood stacked off the ground and away from the house to avoid giving carpenter ants a staging area.",
+    "Trim brush and tall grass back from the yard's edge, especially near wooded lots close to Lake Wissota.",
+    "Check yourself and pets for ticks after time in county parks or hunting land, May through October.",
+    "Have gutters and soffits inspected each fall, since cluster flies stage in these spaces before moving into the attic.",
+  ],
+  costNote:
+    "General pest service in Chippewa Falls typically runs in the $120 to $250 range per visit depending on the pest and how many entry points need sealing, with carpenter ant treatment usually priced separately once the nest location is confirmed. Free inspection included.",
+  faqs: [
+    {
+      question: "Why do box elder bugs seem worse in Chippewa Falls than other places?",
+      answer:
+        "Chippewa Falls has a lot of box elder and maple trees along the river corridor and around Lake Wissota, which is exactly the tree cover box elder bugs prefer. They gather on warm, sun-facing walls in September looking for cracks to overwinter in, and a house near mature trees will see more pressure than a home in a newer, treeless subdivision.",
+    },
+    {
+      question: "Are deer ticks really a concern this far into Wisconsin?",
+      answer:
+        "Yes. Chippewa County's wooded parks and hunting land support a healthy deer population, and deer ticks that carry Lyme disease are established throughout the area. Risk peaks from May through October. Checking for ticks after hiking, hunting, or yard work near brush is worth the couple of minutes it takes.",
+    },
+    {
+      question: "Does Chippewa Falls get carpenter ants or termites?",
+      answer:
+        "Carpenter ants are the far more common concern here. Wisconsin's winters keep termite pressure low statewide compared to warmer regions, though it is not zero, especially in older basements. Carpenter ants nesting in the moist wood along the river and lake shoreline are what most Chippewa Falls homeowners actually deal with.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "Eau Claire", slug: "eau-claire", stateSlug: "wisconsin" },
+    { name: "Menomonie", slug: "menomonie-wi", stateSlug: "wisconsin" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Chippewa Falls, WI | Box Elder Bugs, Ticks & Ants",
+  metaDescription:
+    "Chippewa Falls pest control for box elder bugs, cluster flies, carpenter ants and deer ticks. Licensed, insured. Free inspection.",
+},
+{
+  slug: "rhinelander-wi",
+  name: "Rhinelander",
+  state: "Wisconsin",
+  stateSlug: "wisconsin",
+  stateAbbr: "WI",
+  tier: "T3",
+  population: "~7,900",
+  county: "Oneida County",
+  climate: "cold",
+  climateDriver:
+    "Rhinelander sits deep in Wisconsin's Northwoods, where winters are long and cold enough to freeze area lakes solid, and summers are short but genuinely humid. That combination of heavy forest cover, abundant lakes, and hard winters is what drives the local pest picture: deer ticks and mosquitoes thrive in the wooded, water-rich landscape through the warm months, while cluster flies and mice push indoors as soon as the cold sets in.",
+  topPests: ["Deer ticks", "Carpenter ants", "Cluster flies", "Mosquitoes"],
+  pestProfile: [
+    {
+      name: "Deer ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through October, questing as soon as temperatures rise above freezing",
+      note: "Oneida County's forest cover puts most Rhinelander yards within reach of tick habitat, and Lyme disease risk here is a genuine health concern, not just a nuisance.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note: "The area's log and timber-frame homes and heavy tree cover give carpenter ants abundant damp wood to nest in, and colonies often go unnoticed until ants are seen foraging indoors.",
+    },
+    {
+      name: "Cluster flies",
+      serviceSlug: "fly-control",
+      activeSeason: "October entry, reappearing on warm days through winter",
+      note: "These flies stage in attics and soffits ahead of the Northwoods winter and slip into living spaces on any unseasonably warm day.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September, peak after wet spring weather",
+      note: "Rhinelander's position among hundreds of Oneida County lakes and wetlands keeps breeding habitat close to nearly every yard in town.",
+    },
+  ],
+  localHook:
+    "Rhinelander is the self-declared home of the Hodag, a folklore creature first 'discovered' by local lumberjack Eugene Shepard in 1893 as a prank, and the town still sits deep in the Northwoods where the Wisconsin and Pelican rivers meet, surrounded by the Nicolet National Forest and hundreds of lakes.",
+  intro:
+    "If you ask around Rhinelander long enough, someone will tell you about the Hodag before they tell you about ticks, and that is part of the town's charm. But if you live here, the woods that make this part of the Northwoods so good for fishing and hunting are the same woods that keep the pest pressure real. Deer ticks are the pest that matters most for your health, not just your comfort, since the forest edge runs right up against most yards in and around town. Carpenter ants work the log homes and mature timber that this area is known for. Cluster flies and mosquitoes round out the list, one moving indoors for winter and one thriving on the lakes that draw people here in the first place.",
+  sections: [
+    {
+      heading: "What catches people out",
+      body: "What catches people out is how early deer ticks become active here. Oneida County's forest cover means ticks are questing on brush and tall grass as soon as temperatures climb above freezing in spring, well before most people start thinking about pest control. Carpenter ants are the other pest that surprises newer residents, especially anyone in one of the area's log or timber-frame homes, since exposed wood in a damp climate is close to an open invitation. Cluster flies stage in attics through fall and slip out on warm days in the dead of winter, which people mistake for a new problem rather than the same insects that went dormant months earlier. Mosquitoes are the pest everyone expects, and the sheer number of lakes and wetlands around Rhinelander means a wet spring can mean a rough June no matter how careful you are with standing water.",
+    },
+    {
+      heading: "By late spring, expect:",
+      body: "By late spring, expect a technician who starts outside, not inside. Tick control here focuses on the transition zone between lawn and forest, treating brush and tall grass where ticks wait to grab onto a person or a dog walking past. Carpenter ant work means tracing activity back to the actual nest, which in a log home can mean checking eaves, deck ledgers, and any spot where wood stays damp after rain, rather than just knocking down the ants you can see in the kitchen. Cluster flies get sealed out at the soffit and attic vent level before fall, since once they are inside the wall void for winter, there is little to do but wait them out. Mosquito work targets standing water on the property first, since a single forgotten bucket or clogged gutter can undo a lot of other effort.",
+    },
+    {
+      heading: "Local prevention that actually works here",
+      body: "Local prevention that actually works here starts with treating the yard edge, not just the house. Keep grass and brush cut back where lawn meets timber, since that narrow strip is where deer ticks wait. Check yourself, kids, and pets for ticks every evening from April through October, this is the single most effective habit in tick country. Store firewood off the ground and away from the house to avoid giving carpenter ants a bridge indoors. Empty anything that holds standing water after rain, since Rhinelander's lake country gives mosquitoes no shortage of breeding sites if you leave one more nearby.",
+    },
+  ],
+  prevention: [
+    "Check yourself, kids, and pets for deer ticks every evening from April through October.",
+    "Keep grass and brush cut back at the line where your yard meets the woods.",
+    "Store firewood off the ground and at least a few feet from the house.",
+    "Empty standing water in gutters, buckets, and low spots after every rain.",
+    "Have soffits and attic vents inspected each fall before cluster flies stage for winter.",
+  ],
+  costNote:
+    "General pest service in Rhinelander usually runs $130 to $260 per visit, with tick yard treatments and carpenter ant nest work quoted separately once the inspection identifies the source. Free inspection included.",
+  faqs: [
+    {
+      question: "Is Lyme disease really a risk in Rhinelander?",
+      answer:
+        "Yes. Oneida County's heavy forest cover supports a large deer population and the deer ticks that come with it, and Lyme disease is an established risk here from spring through fall. Checking for ticks daily during warm months and treating the yard edge where lawn meets woods are the two most effective habits.",
+    },
+    {
+      question: "Why do I have carpenter ants in a newer log home?",
+      answer:
+        "Log and timber-frame construction, common around Rhinelander, gives carpenter ants plenty of exposed wood to investigate, and any spot where rain or snowmelt keeps that wood damp is an opening. It is not a sign of a poorly built home, it is a sign of the local climate and construction style meeting an opportunistic insect.",
+    },
+    {
+      question: "Do mosquitoes ever really let up in Rhinelander?",
+      answer:
+        "They ease off once the weather turns cold and mostly stop by the first hard frost, but through summer the number of lakes and wetlands around town keeps breeding sites plentiful. Clearing standing water on your own property is the biggest single thing you can control.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "Wausau", slug: "wausau", stateSlug: "wisconsin" },
+    { name: "Marshfield", slug: "marshfield", stateSlug: "wisconsin" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Rhinelander, WI | Ticks, Carpenter Ants & Mosquitoes",
+  metaDescription:
+    "Rhinelander pest control for deer ticks, carpenter ants, cluster flies and mosquitoes. Licensed and insured. Free inspection.",
+},
+{
+  slug: "fort-atkinson-wi",
+  name: "Fort Atkinson",
+  state: "Wisconsin",
+  stateSlug: "wisconsin",
+  stateAbbr: "WI",
+  tier: "T3",
+  population: "~12,400",
+  county: "Jefferson County",
+  climate: "cold-humid",
+  climateDriver:
+    "Fort Atkinson sits in the Rock River valley in southern Wisconsin, where winters are cold but somewhat milder than the northern half of the state, and the surrounding farmland stays humid through the growing season. That mix of a real winter and consistent summer moisture near the river is why box elder bugs, cluster flies, and mice all push indoors on a predictable fall schedule, while termite pressure stays present but light compared to the rest of the country.",
+  topPests: ["Box elder bugs", "Cluster flies", "House mice", "Termites"],
+  pestProfile: [
+    {
+      name: "Box elder bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "September through the first hard frost",
+      note: "Box elder and maple trees along the Rock River and between area farms give this pest ready shelter, and homes near that tree cover see heavy gathering on sun-facing walls each fall.",
+    },
+    {
+      name: "Cluster flies",
+      serviceSlug: "fly-control",
+      activeSeason: "October entry, reappearing on warm winter days",
+      note: "These flies stage in attics and wall voids through fall and slip into living spaces on any unseasonably warm day in January or February.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, major surge in October and November",
+      note: "Jefferson County's older farmhouses and in-town homes with fieldstone or aging foundations have more small gaps than newer construction, and mice exploit them as soon as the weather turns cold.",
+    },
+    {
+      name: "Termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Spring swarms, activity year-round in affected structures",
+      note: "Pressure is far lighter here than in warmer states, but older basements near the Rock River with consistent moisture do see occasional activity, and a periodic inspection is worth the peace of mind.",
+    },
+  ],
+  localHook:
+    "Fort Atkinson takes its name from an 1832 Black Hawk War stockade built on the banks of the Rock River, and the town has stayed a working dairy community ever since, home to Jones Dairy Farm, a family-owned sausage and bacon maker founded in 1889, and to Hoard's Dairyman, the dairy industry magazine published here since 1885.",
+  intro:
+    "You do not have to live in Fort Atkinson long to notice how much the Rock River and the surrounding dairy farmland shape daily life here, and pest pressure is no exception. Here is the good news: this part of southern Wisconsin does not deal with the aggressive termite and cockroach pressure that Southern states see. The pests that matter are more seasonal and more predictable. Box elder bugs and cluster flies push toward the sunny side of houses and barns every fall. House mice look for a way into older farmhouses and in-town homes alike once the temperature drops. Termites exist here, just at a much lighter level than people expect, mostly turning up in older basements near the river.",
+  sections: [
+    {
+      heading: "What matters most around here",
+      body: "What matters most around here starts with box elder bugs, which gather by the hundreds on the sun-facing walls of houses and outbuildings every September, drawn by nearby box elder and maple trees along the Rock River and the rural tree lines between farms. Cluster flies follow the same seasonal pattern but slip into attics and wall voids rather than sitting on the siding, then reappear on warm days in January, confusing people who thought the flies were long gone. House mice are the pest most likely to actually cost you money. Jefferson County's mix of older farmhouses, machine sheds, and in-town homes with fieldstone foundations gives mice plenty of gaps to exploit once cold weather sets in, and a few mice in October can become a real infestation by January if the entry points are not sealed. Termites show up occasionally in older basements near the river, where moisture is more consistent, but the pressure statewide, and here specifically, is far lighter than the mouse and box elder bug problem most homeowners actually deal with.",
+    },
+    {
+      heading: "What a visit actually looks like",
+      body: "What a visit actually looks like starts with a walk around the foundation and outbuildings, since Fort Atkinson's mix of in-town homes, farmsteads, and older fieldstone foundations each has its own entry points to check. A technician looks for the gaps mice are using, checks attic and soffit spaces for cluster fly staging, and notes any moisture near the foundation that could support termites down the line. Exterior treatment timed to September, before box elder bugs settle in for winter, cuts down dramatically on how many make it inside. Mouse work always starts with exclusion, sealing the actual gaps, rather than leading with bait alone, because bait without sealing just means feeding a problem that keeps coming back.",
+    },
+    {
+      heading: "Keeping a farmhouse or Rock River home ahead of it",
+      body: "Keeping a farmhouse or Rock River home ahead of it means paying attention before the weather turns. Seal gaps around foundation sills, pipe penetrations, and door thresholds before September, since that is exactly when box elder bugs and mice both start looking for a way in. Keep firewood and lumber stacked away from the house's foundation. Check basements near the river for moisture, since damp basements are what let the area's lighter termite pressure turn into a real problem. None of this is complicated. It is just easier to do in August than to undo in December.",
+    },
+  ],
+  prevention: [
+    "Seal foundation sills, pipe penetrations, and door thresholds before September, ahead of the fall box elder bug and mouse push.",
+    "Keep firewood and lumber stacked away from the foundation to avoid attracting pests and holding moisture against the house.",
+    "Check basements near the Rock River for dampness, since consistent moisture is what allows the area's lighter termite pressure to take hold.",
+    "Trim tree branches back from rooflines to reduce box elder bug and cluster fly staging near attic vents.",
+    "Have a professional inspect older fieldstone foundations, common on Fort Atkinson farmsteads, for the small gaps mice use.",
+  ],
+  costNote:
+    "General pest service in Fort Atkinson typically runs $110 to $230 per visit, with mouse exclusion work and any termite inspection priced separately based on the foundation type. Free inspection included.",
+  faqs: [
+    {
+      question: "Does Fort Atkinson really have termites?",
+      answer:
+        "Yes, though at a much lighter level than Southern states. Older basements near the Rock River, where moisture is more consistent, are the most common place termite activity turns up. A professional inspection is the only reliable way to confirm it, since early activity is easy to miss.",
+    },
+    {
+      question: "Why do mice seem worse in Fort Atkinson's older homes?",
+      answer:
+        "Jefferson County has a lot of older farmhouses and in-town homes with fieldstone or older poured foundations, and both have more small gaps than newer construction. Once fall temperatures drop, mice follow those gaps inside looking for warmth, and a small number in October can multiply into a real problem by winter if the entry points stay open.",
+    },
+    {
+      question: "When should I treat for box elder bugs before winter?",
+      answer:
+        "September, before the weather turns, is the right window. Fort Atkinson has plenty of box elder and maple trees along the Rock River and between area farms, and the bugs start gathering on sunny walls looking for a way in well before the first hard frost.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Watertown", slug: "watertown-wi", stateSlug: "wisconsin" },
+    { name: "Madison", slug: "madison", stateSlug: "wisconsin" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Fort Atkinson, WI | Mice, Box Elder Bugs & Termites",
+  metaDescription:
+    "Fort Atkinson pest control for house mice, box elder bugs, cluster flies and termites. Licensed and insured. Free inspection.",
+},
+{
+  slug: "river-falls-wi",
+  name: "River Falls",
+  state: "Wisconsin",
+  stateSlug: "wisconsin",
+  stateAbbr: "WI",
+  tier: "T3",
+  population: "~16,700",
+  county: "Pierce County",
+  climate: "cold-humid",
+  climateDriver:
+    "River Falls sits in the Kinnickinnic River valley in west central Wisconsin, close enough to the Minnesota border to share the Twin Cities region's cold, snowy winters and humid summers. That river valley setting, with wooded bluffs on one side and open farmland on the other, is why carpenter ants and box elder bugs both find plenty of habitat close to town, while the hard winter drives mice and cluster flies indoors on a predictable fall schedule.",
+  topPests: ["Box elder bugs", "Cluster flies", "Carpenter ants", "House mice"],
+  pestProfile: [
+    {
+      name: "Box elder bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "September through the first hard frost",
+      note: "The box elder, maple, and ash trees along the Kinnickinnic River valley and older residential streets give this pest plenty of shelter, and homes near that tree cover see the heaviest fall gathering.",
+    },
+    {
+      name: "Cluster flies",
+      serviceSlug: "fly-control",
+      activeSeason: "October entry, reappearing on warm winter days",
+      note: "These flies follow the same seasonal pattern as box elder bugs, staging in wall voids before emerging on unseasonably warm days later in winter.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note: "The wooded river bluffs and mature shade trees around River Falls keep soil and wood consistently damp, supporting carpenter ant colonies that forage indoors through the warm months.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, surge in October and November",
+      note: "The town's mix of older homes near downtown, farmsteads at the edge of town, and rental housing near campus all have entry points mice exploit once the weather turns cold.",
+    },
+  ],
+  localHook:
+    "River Falls grew up around the falls of the Kinnickinnic River, a nationally recognized trout stream that still runs right through downtown, and the town is home to the University of Wisconsin-River Falls, whose agriculture programs made national news in 1997 when a frozen cow was placed on a campus roof as a prank that got mistaken for a real mystery.",
+  intro:
+    "River Falls sits close enough to the Twin Cities that plenty of residents commute across the border, but the town itself still runs on the Kinnickinnic River valley and the farmland around it, and that shapes what shows up at your door each season. Box elder bugs and cluster flies are the fall regulars, gathering on warm walls before slipping in ahead of winter. House mice follow the same seasonal push once temperatures drop, especially in the older homes near downtown and the river. Carpenter ants work the wooded river bluffs and mature trees that give River Falls its shade, and a spring sighting of large black ants indoors is usually a sign a colony has settled into damp wood nearby.",
+  sections: [
+    {
+      heading: "The seasonal pattern here",
+      body: "The seasonal pattern here starts in September, when box elder bugs and cluster flies begin gathering on sun-facing siding, porches, and outbuildings across town, drawn by the box elder, maple, and ash trees that line the Kinnickinnic River valley and the older residential streets near downtown. Both insects are looking for a crack to spend the winter behind, and once they are in a wall void, they tend to stay there until a warm day in late winter draws a few back out into living spaces. House mice follow close behind as temperatures drop, and the university town's mix of older rental housing and farmhouses on the edge of town both have entry points that are easy to miss during a casual look around the foundation. Carpenter ants are the pest with real damage potential, nesting in the damp wood along the river bluffs and in mature trees close to homes, then foraging indoors through spring and summer.",
+    },
+    {
+      heading: "Getting ahead of it, step by step",
+      body: "Getting ahead of it, step by step starts with an inspection that covers the whole property, not just the inside of the house. A technician checks the foundation and utility penetrations for the gaps mice use, looks at siding and soffits for box elder bug and cluster fly staging, and traces any carpenter ant activity back toward the river bluff or tree line where the actual nest is likely to be. Exterior treatment applied in September, before the fall insects settle in, keeps far fewer of them inside your walls come November. For rental housing near campus, sealing entry points before a change in tenants is often the easiest time to do thorough exclusion work, since the unit is already empty.",
+    },
+    {
+      heading: "What actually keeps River Falls homes protected",
+      body: "What actually keeps River Falls homes protected is consistent seasonal upkeep rather than a single big treatment. Seal gaps around the foundation and utility lines before September. Keep tree branches trimmed back from the roofline, since overhanging limbs are a common bridge for carpenter ants moving toward a house. Store firewood off the ground and away from exterior walls. If you are near the river bluffs or a wooded lot, have a professional check for carpenter ant activity each spring, since early treatment is far simpler than dealing with an established colony.",
+    },
+  ],
+  prevention: [
+    "Seal foundation cracks and utility line gaps before September, ahead of the fall box elder bug and mouse push.",
+    "Trim tree branches back from the roofline to remove a bridge carpenter ants use to reach the house.",
+    "Store firewood off the ground and away from exterior walls.",
+    "Have carpenter ant activity checked each spring if your home is near the river bluffs or a wooded lot.",
+    "Seal entry points in rental housing near campus during vacancies, when access is easiest.",
+  ],
+  costNote:
+    "General pest service in River Falls typically runs $115 to $240 per visit, with carpenter ant nest treatment and mouse exclusion work quoted separately once the source is confirmed. Free inspection included.",
+  faqs: [
+    {
+      question: "Why do carpenter ants show up near River Falls homes close to the river bluffs?",
+      answer:
+        "The wooded bluffs along the Kinnickinnic River valley keep the soil and tree cover consistently damp, which is exactly the environment carpenter ants look for when choosing a nest site. Homes built close to that tree line or with mature shade trees nearby tend to see more activity than homes in open, newer developments.",
+    },
+    {
+      question: "Is pest control different for rental housing near the university?",
+      answer:
+        "The pests are the same, but the timing often works better around vacancies. River Falls has a lot of turnover in housing near campus, and sealing foundation gaps and checking for mice or box elder bug entry points while a unit sits empty between tenants is usually easier than working around a full house.",
+    },
+    {
+      question: "Do box elder bugs actually cause damage in River Falls?",
+      answer:
+        "No, they are a nuisance pest rather than a structural one. They do not chew wood or wiring. The problem is volume: enough box elder bugs gathering on a warm wall each September can make a home feel infested even though the insects themselves cause no real damage. Sealing entry points before fall is the fix.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Menomonie", slug: "menomonie-wi", stateSlug: "wisconsin" },
+    { name: "Eau Claire", slug: "eau-claire", stateSlug: "wisconsin" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in River Falls, WI | Box Elder Bugs, Ants & Mice",
+  metaDescription:
+    "River Falls pest control for box elder bugs, cluster flies, carpenter ants and house mice. Licensed and insured. Free inspection.",
+},
+{
+  slug: "platteville-wi",
+  name: "Platteville",
+  state: "Wisconsin",
+  stateSlug: "wisconsin",
+  stateAbbr: "WI",
+  tier: "T3",
+  population: "~11,300",
+  county: "Grant County",
+  climate: "cold-humid",
+  climateDriver:
+    "Platteville sits in the Driftless Area of southwestern Wisconsin, the region the last glaciers bypassed, which left steep wooded ridges and limestone bluffs in place of the flatter terrain found elsewhere in the state. Winters are cold with real snow cover, and summers are humid enough to keep the wooded slopes damp. That combination of hard winters and hilly, forested terrain close to town is why deer ticks and carpenter ants carry more weight here than in flatter Wisconsin communities, while box elder bugs and cluster flies follow the same statewide fall pattern.",
+  topPests: ["Box elder bugs", "Carpenter ants", "Deer ticks", "Cluster flies"],
+  pestProfile: [
+    {
+      name: "Box elder bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "September through the first hard frost",
+      note: "Box elder and maple trees common on Platteville's ridges and in older neighborhoods give this pest ready shelter, and homes near that tree cover see the heaviest fall gathering.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note: "The Driftless Area's wooded slopes and limestone outcrops keep tree cover damp, and carpenter ants nesting in that wood forage into nearby homes through the warm months.",
+    },
+    {
+      name: "Deer ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "May through October",
+      note: "Platteville's wooded ridges support a healthy deer population, and the Lyme disease risk that comes with deer ticks runs higher here than in flatter parts of the region.",
+    },
+    {
+      name: "Cluster flies",
+      serviceSlug: "fly-control",
+      activeSeason: "October entry, reappearing on warm winter days",
+      note: "These flies stage in attics ahead of winter and slip into living spaces on any unseasonably warm day in January or February.",
+    },
+  ],
+  localHook:
+    "Platteville sits in the unglaciated Driftless Area of southwestern Wisconsin, a region shaped by lead and zinc mining in the 1820s and 1830s rather than by glaciers, and the hillside above campus still carries a giant concrete letter M, built in 1936 by University of Wisconsin-Platteville mining students and considered one of the largest hillside letters in the world.",
+  intro:
+    "Platteville's hills are the first thing most people notice, and they are not an accident: this part of Wisconsin escaped the glaciers that flattened most of the state, leaving steep wooded ridges and limestone bluffs that still shape the town today. Those same ridges are why deer ticks and carpenter ants are a bigger part of pest pressure here than in flatter parts of the state. Box elder bugs and cluster flies still run the same fall schedule they do everywhere in Wisconsin, gathering on warm walls before winter and slipping into attics and wall voids. What is different in the Driftless Area is how much wooded, uneven terrain sits right at the edge of town, which puts a lot of Platteville yards closer to real tick habitat than people expect.",
+  sections: [
+    {
+      heading: "What the Driftless terrain means for your yard",
+      body: "What the Driftless terrain means for your yard is more edge habitat than a flatter town would have. The wooded ridges and limestone outcrops around Platteville support deer, and deer ticks along with them, and Lyme disease risk here runs from spring through fall wherever brush meets lawn. Carpenter ants take advantage of the same terrain, nesting in the damp wood of mature trees on the hillsides and working their way into homes built close to that tree line. Box elder bugs are the more familiar nuisance, gathering on sunny walls by the hundreds each September as the weather turns, drawn by the box elder and maple trees common on the ridges and in older neighborhoods. Cluster flies follow a similar pattern, staging in attics through fall and turning up on warm days in the middle of winter.",
+    },
+    {
+      heading: "How treatment works on hillside and ridge lots",
+      body: "How treatment works on hillside and ridge lots starts with mapping where the woods actually meet your property, since that boundary is where tick treatment needs to focus rather than the open lawn. A technician also checks any home built into or near a wooded slope for carpenter ant activity, tracing trails back toward the tree line rather than only treating ants seen indoors. Exterior work for box elder bugs and cluster flies is timed to September, sealing gaps around siding, soffits, and foundation before the insects commit to overwintering. None of this requires disturbing the hillside itself, it just means paying closer attention to the transition zones a flatter town would not have.",
+    },
+    {
+      heading: "Keeping a Driftless Area home protected",
+      body: "Keeping a Driftless Area home protected means treating the yard's edge as seriously as the house itself. Check for ticks after any time spent on the wooded trails and ridges around town, especially from May through October. Keep grass cut short where lawn meets brush or timber. Store firewood away from the house to avoid giving carpenter ants an easy bridge. Seal gaps around the foundation before September, ahead of the box elder bug and cluster fly push. None of these steps is difficult, they just matter more here than in a town without hills and woods this close to every yard.",
+    },
+  ],
+  prevention: [
+    "Check for ticks after time on Platteville's wooded ridges and trails, especially May through October.",
+    "Keep grass cut short at the line where lawn meets brush or timber.",
+    "Store firewood away from the house to avoid giving carpenter ants an easy bridge indoors.",
+    "Seal foundation and siding gaps before September, ahead of the fall box elder bug push.",
+    "Have homes built near wooded slopes checked each spring for carpenter ant activity.",
+  ],
+  costNote:
+    "General pest service in Platteville typically runs $115 to $245 per visit, with tick yard treatment and carpenter ant nest work quoted separately once the inspection identifies the source. Free inspection included.",
+  faqs: [
+    {
+      question: "Why does Platteville have more tick concerns than nearby flatter towns?",
+      answer:
+        "Platteville sits in the Driftless Area, the part of Wisconsin the glaciers missed, which left steep wooded ridges and limestone bluffs close to town. That terrain supports more deer, and more deer ticks, than the flat farmland found elsewhere in the region, so Lyme disease risk here runs a bit higher from spring through fall.",
+    },
+    {
+      question: "Are carpenter ants a problem for homes near the Platteville Mound or the surrounding hillsides?",
+      answer:
+        "Homes built close to wooded slopes anywhere in Platteville, not just near the Mound itself, are more exposed to carpenter ants than homes on open, flat lots. The damp wood in mature trees on the ridges gives colonies a place to establish, and they forage into nearby homes through spring and summer.",
+    },
+    {
+      question: "Do box elder bugs behave differently in the Driftless Area?",
+      answer:
+        "Not really, the fall gathering pattern is the same statewide. What changes in Platteville is how much wooded, hilly terrain sits close to town, which means box elder bugs, carpenter ants, and ticks all have a bit more habitat within reach of an average yard than they would in a flatter community.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "Janesville", slug: "janesville", stateSlug: "wisconsin" },
+    { name: "Madison", slug: "madison", stateSlug: "wisconsin" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Platteville, WI | Ticks, Carpenter Ants & Box Elder Bugs",
+  metaDescription:
+    "Platteville pest control for deer ticks, carpenter ants, box elder bugs and cluster flies. Licensed and insured. Free inspection.",
+},
 ];

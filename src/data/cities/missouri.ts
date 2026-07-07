@@ -4950,4 +4950,454 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Washington, MO pest control for river-valley mosquitoes, termites, carpenter ants, and flood-related rodent pressure. Franklin County Missouri River service.",
   },
+{
+  slug: "kennett-mo",
+  name: "Kennett",
+  state: "Missouri",
+  stateSlug: "missouri",
+  stateAbbr: "MO",
+  tier: "T3",
+  population: "~10,100",
+  county: "Dunklin County",
+  climate: "hot-humid",
+  climateDriver:
+    "Kennett sits in the Missouri Bootheel, the flat alluvial lowland at the state's southeastern tip that was reclaimed from cypress swamp by the Little River Drainage District's canal system in the early 1900s. Summers run hot and heavy with humidity pulled up from the Mississippi and St. Francis river bottoms, and winters stay milder than most of Missouri. The clay-heavy soil under the old swamp drains slowly, so ground moisture sits close to foundations for most of the year.",
+  topPests: ["Termites", "Mosquitoes", "American Cockroaches", "Mice and Rats"],
+  pestProfile: [
+    {
+      name: "Termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms peak March through May, activity year round",
+      note: "The Bootheel's drained but still heavy clay soil holds moisture against slab foundations for most of the year, which is exactly the condition subterranean termites need to build mud tubes into a house without being seen.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "April through October",
+      note: "The drainage ditch network that turned Dunklin County's swampland into cotton and soybean ground still holds standing water after every heavy rain, and that water breeds mosquitoes within a few blocks of most Kennett neighborhoods.",
+    },
+    {
+      name: "American Cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year round, worse in humid months",
+      note: "American cockroaches travel easily between grain storage, loading docks tied to the area's row crop economy, and the damp crawl spaces common under older Kennett homes.",
+    },
+    {
+      name: "Mice and Rats",
+      serviceSlug: "rodent-control",
+      activeSeason: "October through February",
+      note: "When the cotton and soybean harvest strips cover from the surrounding fields each fall, rodents move toward the nearest foundation, and Kennett's older housing stock gives them plenty of gaps to use.",
+    },
+  ],
+  localHook:
+    "Kennett sits on ground that was underwater a little over a century ago. The Little River Drainage District, one of the largest land reclamation projects in U.S. history, dug canals by hand and dredge starting in 1907 and turned the swampy Bootheel into some of the most productive cotton and soybean farmland in the country, with Kennett growing into the Dunklin County seat that served it.",
+  intro:
+    "Kennett has a moisture problem before it has anything else, and that traces straight back to the ground the town sits on. This part of the Bootheel was swamp before the Little River Drainage District drained it, and the heavy clay left behind still holds water close to slab foundations for most of the year. That single fact drives almost every call we take here: subterranean termites working a foundation nobody's checked in a decade, mosquitoes breeding in a ditch two lots over, and cockroaches moving in from a damp crawl space. Add a working agricultural economy with grain storage and loading docks nearby, and you've got a town where pest pressure is steady rather than seasonal. A licensed technician treats Kennett differently than he'd treat a dry, well-drained town further north, and the plan has to start with the soil, not the bugs.",
+  sections: [
+    {
+      heading: "Why the Bootheel Drives Pest Pressure Here",
+      body: "Dunklin County was cypress swamp until engineers reshaped it. The Little River Drainage District's canal network, dug starting in 1907, dropped the water table enough to farm the land, but it didn't dry out the clay underneath it. That soil still holds moisture close to the surface most of the year, and moisture against a foundation is the single biggest predictor of a termite problem anywhere in Missouri. The same drainage ditches that made the Bootheel farmable also hold standing water after storms, which is where the local mosquito population gets its start. None of this is unique to one street or one subdivision. It's a countywide condition, and it means a Kennett property needs a termite bond and a mosquito plan as a baseline, not an upgrade.",
+    },
+    {
+      heading: "What an Inspection Actually Looks Like",
+      body: "We start outside, at the foundation line, checking for mud tubes, wood damage and moisture readings at every accessible point around the slab or crawl space. Grade and drainage get checked next, since a downspout dumping water against the foundation undoes any termite treatment fast. Inside, we're looking at baseboards, window frames and any wood-to-soil contact in a crawl space, because that's where subterranean termites give themselves away first. If the property backs up to a drainage ditch or sits near standing water, we map out where mosquitoes are breeding and where a rodent is most likely to find a gap this fall. The whole walk takes under an hour, and it ends with a written plan, not a sales pitch.",
+    },
+    {
+      heading: "Building a Pest Plan for a Kennett Property",
+      body: "Termite protection comes first here, full stop. A liquid barrier treatment or bait system around the foundation is the highest-value dollar you'll spend on this soil, and it needs to be checked annually, not installed once and forgotten. Mosquito control is next if the lot backs up to a ditch, culvert or low spot that holds water, treated on a seasonal schedule from April through the first hard frost. Rodent exclusion, sealing gaps at the foundation and roofline, matters most in October and November when the harvest pushes field mice toward the nearest structure. Cockroach treatment usually rounds out the plan for properties near grain handling or older buildings with damp crawl spaces. Get the order right and you're not chasing four separate problems, you're running one plan that accounts for how this ground behaves.",
+    },
+  ],
+  prevention: [
+    "Keep gutters and downspouts directing water at least 4 feet away from the foundation; standing water against a slab is the top driver of termite activity here.",
+    "Clear or fill low spots and ditch overflow near the yard so rainwater doesn't sit for more than a few days.",
+    "Seal foundation gaps and utility penetrations before October, ahead of the fall field-to-house rodent push.",
+    "Store firewood and lumber at least 20 feet from the house, off the ground, to avoid giving termites and roaches a bridge to the structure.",
+    "Have a licensed technician check crawl space humidity annually, not just when you see visible activity.",
+  ],
+  costNote:
+    "Termite treatment in the Kennett area typically runs $500 to $1,500 depending on foundation type and whether bait stations or a full liquid barrier are used; general pest plans covering ants, roaches and rodents usually run $40 to $60 a month. Free inspection included.",
+  faqs: [
+    {
+      question: "Why does Kennett seem to have more termite activity than towns further north in Missouri?",
+      answer: "It comes down to the ground. Dunklin County was swamp before the Little River Drainage District canals drained it in the early 1900s, and the clay soil left behind still holds moisture close to foundations most of the year. That constant dampness is exactly what subterranean termites look for, so Kennett properties tend to need more consistent termite protection than homes on drier, better-drained soil further north.",
+    },
+    {
+      question: "Are the drainage ditches around Kennett actually a mosquito problem?",
+      answer: "Yes, and it's a direct line. The same ditch network that made Dunklin County farmland out of former swamp still holds standing water after a heavy rain, and that water is where local mosquitoes breed. Any Kennett property within a few blocks of a ditch, culvert or low spot benefits from a seasonal mosquito treatment from April through the first fall frost.",
+    },
+    {
+      question: "When is the worst time of year for rodents getting into a Kennett home?",
+      answer: "October and November, right after the cotton and soybean harvest clears the fields around town. Field mice lose their cover almost overnight and head for the nearest structure, and older homes in Kennett's housing stock tend to have more foundation and roofline gaps for them to use. Sealing those gaps before harvest season is the single best prevention step.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Sikeston", slug: "sikeston", stateSlug: "missouri" },
+    { name: "Poplar Bluff", slug: "poplar-bluff", stateSlug: "missouri" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Kennett, MO | Termite & Mosquito Treatment",
+  metaDescription: "Licensed pest control in Kennett, Missouri built around Bootheel soil and drainage realities. Termite, mosquito, roach and rodent treatment. Free inspection.",
+},
+{
+  slug: "maryville-mo",
+  name: "Maryville",
+  state: "Missouri",
+  stateSlug: "missouri",
+  stateAbbr: "MO",
+  tier: "T3",
+  population: "~10,600",
+  county: "Nodaway County",
+  climate: "cold-humid",
+  climateDriver:
+    "Maryville sits in the rolling glacial plains of northwest Missouri, well north of the Missouri River, where winters bring hard freezes and measurable snow and summers are humid but rarely brutal. The surrounding land is working farm ground, corn and soybeans mostly, broken by wooded creek bottoms and the shoreline at Mozingo Lake Recreation Park a few miles east of town. That mix of open prairie and tree-lined water is what shapes which pests show up here and when.",
+  topPests: ["Mice", "Cluster Flies", "Carpenter Ants", "Ticks"],
+  pestProfile: [
+    {
+      name: "Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "September through November, heaviest at first frost",
+      note: "Maryville is surrounded by row-crop farmland on every side, and when the corn and soybean fields get cut each fall, field mice move toward the nearest heated structure, which in a lot of neighborhoods means straight into a house or garage.",
+    },
+    {
+      name: "Cluster Flies",
+      serviceSlug: "fly-control",
+      activeSeason: "September through October, then again on warm winter days",
+      note: "Older wood-frame homes near Maryville's downtown and the Northwest Missouri State University campus get cluster fly swarms every fall as the insects look for a gap in siding or an attic vent to overwinter in.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through late summer",
+      note: "The mature trees along Maryville's older residential streets and the wooded edges near Mozingo Lake give carpenter ants plenty of decaying wood to nest in before they move into a home's damp sill plates or window frames.",
+    },
+    {
+      name: "Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through September",
+      note: "The wooded trail system around Mozingo Lake Recreation Park, a popular spot for Maryville families, holds enough deer and tall grass to keep tick numbers up all summer, and they travel home on clothing and pets.",
+    },
+  ],
+  localHook:
+    "Maryville is the home of Northwest Missouri State University, whose campus was laid out using the landscape design for Forest Park at the 1904 St. Louis World's Fair and is now designated the official Missouri State Arboretum, giving a farm town of just over 10,000 people a genuinely unusual amount of mature, planned tree cover.",
+  intro:
+    "Maryville runs on two things: farmland and a university campus, and both of them shape the pest calendar here. This is prairie country, rolling glacial plains north of the Missouri River, ringed by corn and soybean fields that empty out every fall and send field mice looking for a warmer address. The town itself carries more mature tree cover than you'd expect for its size, thanks to a university arboretum planted more than a century ago, and that canopy is exactly what carpenter ants and cluster flies use to stage their move into a house. Add Mozingo Lake's wooded trails a few miles out and you've got a tick season that runs the length of summer. None of these are exotic pests. They're the standard lineup for a northwest Missouri farm town, but the timing and the entry points are specific to Maryville's layout, and a treatment plan should reflect that.",
+  sections: [
+    {
+      heading: "Why Maryville's Layout Sets the Pest Calendar",
+      body: "Nodaway County is farm ground first, and Maryville sits in the middle of it. When the surrounding corn and soybean fields get harvested each fall, field mice lose their cover fast and head toward town, and older neighborhoods near downtown see the heaviest pressure because the housing stock has more age-related gaps at the foundation and roofline. The university's arboretum and the mature street trees it inspired give the town more shade and more standing timber than most towns this size, which is good for property values and bad news if you're trying to keep carpenter ants and cluster flies out, since both use tree bark and wood as a staging ground before they move indoors. Mozingo Lake's wooded shoreline a few miles east adds a tick population that's active from spring through the first hard frost.",
+    },
+    {
+      heading: "What an Inspection Actually Looks Like",
+      body: "We check the attic and exterior siding gaps first, since that's where cluster flies stage their fall entry, especially on older homes near campus. Foundation and sill plate checks come next, looking for carpenter ant frass and any moisture problem that's inviting them in. If the property borders a field, we look hard at foundation gaps and garage door seals, since that's the mouse entry point nine times out of ten once harvest starts. For families with kids or pets who use the Mozingo Lake trails, we'll talk through a seasonal tick treatment for the yard perimeter. The inspection takes about 45 minutes and ends with a straight answer on what's actually a problem versus what's just normal for the season.",
+    },
+    {
+      heading: "Building a Pest Plan for a Maryville Property",
+      body: "If the house backs up to farmland, rodent exclusion is priority one, done before the fall harvest, not after mice are already inside. Cluster fly prevention, sealing attic vents and siding gaps, should happen in late summer ahead of the September swarm. Carpenter ant treatment matters most on older homes with mature trees close to the structure, and it's worth checking annually rather than waiting for visible sawdust. Tick control is seasonal and mostly relevant for households that spend time at Mozingo Lake or keep pets that roam a wooded yard. Get the fall exclusion work done on schedule and the rest of the plan is straightforward maintenance.",
+    },
+  ],
+  prevention: [
+    "Seal foundation and garage gaps before October, ahead of the fall push of field mice from surrounding farmland.",
+    "Caulk attic vents and siding gaps in late summer to keep cluster flies from finding a way in before the September swarm.",
+    "Keep firewood and mulch away from the foundation to remove an easy carpenter ant staging point.",
+    "Mow tall grass and clear brush at the yard's edge if the property backs up to woods or the Mozingo Lake trail system, to cut down on tick habitat.",
+    "Check pets for ticks after any trip to Mozingo Lake between April and September.",
+  ],
+  costNote:
+    "General pest control plans in the Maryville area typically run $35 to $55 a month, with fall rodent exclusion work priced separately at $150 to $400 depending on how many entry points need sealing. Free inspection included.",
+  faqs: [
+    {
+      question: "Why do mice seem to show up in Maryville homes every fall like clockwork?",
+      answer: "Maryville is surrounded by corn and soybean farmland, and when those fields get harvested each fall the mice living in them lose their cover almost overnight. They move toward the nearest heated structure, and in a farm town like Maryville that usually means a house or garage bordering a field. Sealing entry points before the harvest, rather than after, is the difference between a minor issue and an infestation.",
+    },
+    {
+      question: "Is tick season around Mozingo Lake really worse than in town?",
+      answer: "It is. The wooded trail system at Mozingo Lake Recreation Park east of Maryville holds enough deer traffic and tall grass to support a steady tick population from April through September, and ticks travel home easily on clothing and pets. Families who use those trails regularly benefit from a seasonal yard treatment even if their in-town property sees fewer ticks.",
+    },
+    {
+      question: "Does Maryville's university campus have anything to do with its pest pressure?",
+      answer: "Indirectly, yes. Northwest Missouri State University's campus was planted with the same landscape design used for Forest Park at the 1904 World's Fair and is now the official Missouri State Arboretum, which means Maryville has more mature tree cover than most towns its size. That canopy is a genuine asset for the town, but it also gives carpenter ants and cluster flies more staging ground near older homes close to campus.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+  nearbyCities: [
+    { name: "St. Joseph", slug: "st-joseph", stateSlug: "missouri" },
+    { name: "Kansas City", slug: "kansas-city", stateSlug: "missouri" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Maryville, MO | Mice, Ticks & Carpenter Ant Treatment",
+  metaDescription: "Licensed pest control in Maryville, Missouri for fall mice, carpenter ants, cluster flies and Mozingo Lake area ticks. Free inspection.",
+},
+{
+  slug: "moberly-mo",
+  name: "Moberly",
+  state: "Missouri",
+  stateSlug: "missouri",
+  stateAbbr: "MO",
+  tier: "T3",
+  population: "~13,300",
+  county: "Randolph County",
+  climate: "cold-humid",
+  climateDriver:
+    "Moberly sits in north-central Missouri's rolling till plains, far enough from either major river to avoid flood-driven pest pressure but squarely in a humid continental climate with cold winters and warm, sticky summers. The town's age works against it here: Moberly was built out fast during an 1880s railroad boom, and a lot of that housing stock still stands, with the wood-frame construction and aging foundations that come with a 19th-century boomtown.",
+  topPests: ["Termites", "Carpenter Ants", "Mice", "Cockroaches"],
+  pestProfile: [
+    {
+      name: "Termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms peak April and May",
+      note: "A large share of Moberly's housing was built during the railroad boom of the 1870s and 1880s, and homes that old have had a century or more of soil contact at the foundation, more than enough time for subterranean termites to find a way in undetected.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through September",
+      note: "Moberly's older neighborhoods, platted when the North Missouri Railroad built the town in 1866, still have mature street trees and wood porches that give carpenter ants a place to nest before they move into a damp sill plate.",
+    },
+    {
+      name: "Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "October through December",
+      note: "Randolph County's surrounding farmland pushes field mice toward town every fall, and Moberly's older foundations, many never updated since the railroad era, give them easy points of entry.",
+    },
+    {
+      name: "Cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year round, worse in summer",
+      note: "Moberly's downtown core, built up fast during the railroad boom and still dense with older commercial buildings, gives German cockroaches plenty of connected wall voids to spread through between units.",
+    },
+  ],
+  localHook:
+    "Moberly was platted in 1866 by the North Missouri Railroad and grew so fast during the resulting boom, adding a rail junction, shops that once employed around 1,200 workers building freight and passenger cars, and a population that hit over 6,000 by 1880, that it earned the nickname the Magic City.",
+  intro:
+    "Moberly's pest problem starts with its age, not its weather. This is a railroad town built fast in the 1870s and 1880s, when the Magic City nickname wasn't an exaggeration, and a lot of the wood-frame housing from that boom is still standing and still occupied. Old foundations mean a century or more of soil contact with wood framing, which is precisely the setup subterranean termites need. The same mature neighborhoods that give Moberly its character, big trees, wood porches, older brick downtown blocks, are also what feeds carpenter ants and lets German cockroaches move freely through connected wall voids downtown. Add the farmland ringing the town, which pushes mice toward Moberly every fall, and you've got a pest calendar shaped less by climate and more by a housing stock that's had a long time to develop problems nobody's caught yet.",
+  sections: [
+    {
+      heading: "Why Moberly's Age Drives Its Pest Problems",
+      body: "Moberly went from a railroad platting in 1866 to a population over 6,000 by 1880, and that kind of fast, dense construction left the town with a lot of wood-frame housing that's now well past a century old. Foundations that have sat in contact with damp soil for that long are a near-certainty for termite activity somewhere on the property, whether it's visible yet or not. The mature trees that came with that era of development give carpenter ants a natural staging ground, and the older, connected brick buildings downtown let German cockroaches move between units in ways a newer, better-sealed building wouldn't allow. None of this means Moberly has worse pests than anywhere else in Missouri. It means the town's age is doing a lot of the work that climate does elsewhere.",
+    },
+    {
+      heading: "What an Inspection Actually Looks Like",
+      body: "On a property this age, we start at the foundation, checking every accessible point for mud tubes, wood damage and moisture readings, since that's where a termite problem shows itself first. We're also checking sill plates and porch posts for carpenter ant frass, particularly on homes with mature trees close to the structure. Inside, baseboards and window frames get the same treatment. For properties near downtown or in a multi-unit building, we check shared walls and utility penetrations for roach activity, since that's how an infestation spreads between units that otherwise look clean. If the property backs up to farmland, we map likely rodent entry points before the fall push starts. The whole process takes under an hour and ends with a plan, not a guess.",
+    },
+    {
+      heading: "Building a Pest Plan for a Moberly Property",
+      body: "On a home from the railroad era, termite protection is the priority, and it should be checked annually, not treated once, given how long these foundations have been exposed. Carpenter ant treatment matters most where mature trees sit close to the house, and it's worth catching before sawdust piles show up on a porch or windowsill. Rodent exclusion should happen in September or October, ahead of the fall farmland push, especially on properties near the edge of town. Cockroach treatment is most urgent for downtown and multi-unit properties where shared walls let an infestation spread. Handle the termite and rodent work on schedule and the rest of the plan stays manageable.",
+    },
+  ],
+  prevention: [
+    "Have foundations on pre-1920s homes checked for termite activity annually, since age alone raises the risk here.",
+    "Keep mature trees trimmed back from roof lines and siding to cut down on carpenter ant access points.",
+    "Seal foundation gaps before October, ahead of the fall push of field mice from surrounding farmland.",
+    "In multi-unit or downtown buildings, seal utility penetrations and shared wall gaps to stop cockroaches from spreading between units.",
+    "Keep gutters clear so runoff doesn't sit against older foundations that already carry a century of moisture exposure.",
+  ],
+  costNote:
+    "Termite treatment on Moberly's older housing stock typically runs $500 to $1,600 depending on foundation size and access; general pest plans covering ants, roaches and rodents usually run $35 to $55 a month. Free inspection included.",
+  faqs: [
+    {
+      question: "Why does Moberly seem to have more termite issues in its older neighborhoods?",
+      answer: "It comes down to age. Moberly grew explosively during the 1870s and 1880s railroad boom that earned it the Magic City nickname, and a lot of the wood-frame housing from that era is still standing. Foundations that have had a century or more of soil contact are far more likely to have developed subterranean termite activity, whether the damage is visible yet or not, so annual inspection matters more here than in a newer subdivision.",
+    },
+    {
+      question: "Is there a connection between Moberly's downtown buildings and cockroach problems?",
+      answer: "Yes. The dense, older brick buildings built up during the railroad boom often share wall cavities and utility runs between units, and German cockroaches use those connections to move between businesses or apartments that otherwise look clean. Sealing shared penetrations is one of the most effective steps a downtown property owner can take.",
+    },
+    {
+      question: "When should a Moberly homeowner worry most about mice?",
+      answer: "October through December, once the farmland surrounding Randolph County gets harvested and field mice lose their cover. Moberly's older foundations, many unchanged since the railroad era, tend to have more gaps for rodents to exploit than newer construction, so sealing those points before harvest season is the most effective single step.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Columbia", slug: "columbia", stateSlug: "missouri" },
+    { name: "Jefferson City", slug: "jefferson-city", stateSlug: "missouri" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Moberly, MO | Termite & Carpenter Ant Treatment",
+  metaDescription: "Licensed pest control in Moberly, Missouri built for the town's historic railroad-era housing stock. Termite, ant, roach and rodent treatment. Free inspection.",
+},
+{
+  slug: "neosho-mo",
+  name: "Neosho",
+  state: "Missouri",
+  stateSlug: "missouri",
+  stateAbbr: "MO",
+  tier: "T3",
+  population: "~12,600",
+  county: "Newton County",
+  climate: "cold-humid",
+  climateDriver:
+    "Neosho sits in the foothills of the Ozarks in Newton County, where wooded ridges, spring-fed creeks and Shoal Creek's watershed create a far damper, shadier landscape than the open farm country to the north. Winters are cold enough for hard freezes and occasional snow, and summers are humid, with the springs and creek bottoms around town staying wet long after a storm has passed elsewhere.",
+  topPests: ["Ticks", "Mosquitoes", "Termites", "Carpenter Ants"],
+  pestProfile: [
+    {
+      name: "Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through September",
+      note: "The wooded Ozark foothills ringing Neosho, the same terrain that made Big Spring Park a Civil War campground, hold enough deer and tall grass to keep tick populations active through the entire warm season.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September",
+      note: "Big Spring itself puts out close to 900,000 gallons of water a day, and between that flow and Shoal Creek's bottomland, Neosho has more standing and slow-moving water near residential streets than most towns its size.",
+    },
+    {
+      name: "Termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms peak April and May",
+      note: "Missouri sits in a heavy termite hazard zone statewide, and Neosho's older homes near the historic square, some dating to the Civil War era, have had well over a century of soil contact for subterranean colonies to exploit.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through September",
+      note: "The mature timber and wooded lots that give Neosho its Flower Box City charm also give carpenter ants a steady supply of damp, decaying wood to nest in before they move toward a house.",
+    },
+  ],
+  localHook:
+    "In October 1861, Missouri's Confederate government met in Neosho's Masonic Hall and voted to secede, a decision the Confederacy accepted even though the vote never held practical control of the state; today the town is better known as the Flower Box City, a nickname earned after a 1950s beautification drive that lined downtown with wooden flower boxes and won Neosho a national All-America City recognition in 1957.",
+  intro:
+    "Neosho's pest pressure comes straight from its water and its woods. This is Ozark foothill country, and Big Spring alone puts out close to 900,000 gallons a day right in the middle of town, which along with Shoal Creek's bottomland gives Neosho more standing and slow water near houses than most towns its size, and that means a real mosquito season every summer. The wooded ridges around town, the same terrain Confederate troops camped in back in 1861, hold ticks from April through September. Add a historic square with homes built well over a century ago and mature timber lots that carpenter ants love, and you've got a pest calendar built around water and wood rather than farmland. A plan here has to account for the springs first, the woods second, and everything else follows from those two facts.",
+  sections: [
+    {
+      heading: "Why Neosho's Springs and Woods Drive Pest Pressure",
+      body: "Big Spring has been a gathering point in Neosho for longer than the town has existed as an incorporated city, first for Native American trade, then as a Civil War camp, and now as a city park, and it still discharges close to 900,000 gallons of water daily. That much water moving through the middle of town, combined with Shoal Creek's low ground, gives mosquitoes plenty of slow-moving and standing water to breed in every summer. The wooded Ozark ridges surrounding Neosho hold deer and tall grass that keep ticks active from spring through early fall, and the same timber supports carpenter ants working their way through decaying wood before they head for a house. None of this is a design flaw. It's the same landscape that makes Neosho worth living in, but it means pest control here has to work with water and wood, not against a dry, open landscape.",
+    },
+    {
+      heading: "What an Inspection Actually Looks Like",
+      body: "Around the yard, we check for standing water first, low spots, gutters, anything holding rain for more than a few days, since that's where mosquitoes get their start. For a property near woods or a creek, we check the grass line and shaded edges for tick habitat and talk through a perimeter treatment if the family or pets use that space often. At the foundation, we're checking for termite mud tubes and moisture, especially on older homes near the historic square where soil contact has had a century or more to do damage. Carpenter ant checks focus on porches, window frames and any spot where a mature tree touches the house. The full walk-through runs about 45 minutes and ends with a written plan ranked by what actually needs attention.",
+    },
+    {
+      heading: "Building a Pest Plan for a Neosho Property",
+      body: "If the property sits near Shoal Creek, a spring, or any low ground that holds water, mosquito control from May through September should be first on the list. Tick treatment matters most for homes backing up to woods or with kids and pets using wooded trails regularly, and it runs the same April-through-September window. Termite protection is a standing priority on any home built before the 1980s, especially near the historic downtown, and should be checked yearly rather than treated once. Carpenter ant work rounds out the plan wherever mature trees sit close to the structure. Handle the water and wood issues first and the rest of the plan stays manageable through the year.",
+    },
+  ],
+  prevention: [
+    "Empty or treat any standing water on the property, birdbaths, clogged gutters, low spots, at least weekly during mosquito season.",
+    "Keep grass mowed and brush cleared at the yard's wooded edge to cut down on tick habitat from April through September.",
+    "Have older homes near the historic square checked annually for termite activity, given how long these foundations have carried soil contact.",
+    "Trim mature trees back from rooflines and siding to reduce carpenter ant access points.",
+    "Check kids and pets for ticks after any time spent on Neosho's wooded trails or creek areas.",
+  ],
+  costNote:
+    "Seasonal mosquito treatment for Neosho properties near Shoal Creek or a spring-fed area typically runs $75 to $125 per visit; general pest plans covering ticks, ants and termites usually run $40 to $60 a month. Free inspection included.",
+  faqs: [
+    {
+      question: "Why does Neosho have such a strong mosquito season compared to nearby towns?",
+      answer: "It comes down to water volume. Big Spring, right in the middle of town, discharges close to 900,000 gallons a day, and combined with Shoal Creek's low, slow-moving bottomland, Neosho has more standing and slow water near residential streets than most towns its size. That water is where local mosquitoes breed, and it means a seasonal treatment plan from May through September makes more sense here than in a drier Missouri town.",
+    },
+    {
+      question: "Are ticks a bigger issue in Neosho than in flatter parts of Missouri?",
+      answer: "Generally, yes. Neosho sits in the wooded Ozark foothills, terrain that historically held Confederate troop camps near Big Spring in 1861, and that same wooded, deer-populated ground keeps tick numbers up from April through September. Homes backing up to woods or with pets that roam wooded trails benefit from a seasonal perimeter treatment.",
+    },
+    {
+      question: "Is termite risk higher for the older homes near Neosho's historic square?",
+      answer: "Age is the main factor. A number of homes near Neosho's downtown square date back well over a century, to a period when the town was a Confederate provisional capital briefly in 1861, and that long a history of soil contact at the foundation raises the odds of an undetected subterranean termite colony. Annual inspection matters more on these properties than on newer construction.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+  nearbyCities: [
+    { name: "Joplin", slug: "joplin", stateSlug: "missouri" },
+    { name: "Webb City", slug: "webb-city", stateSlug: "missouri" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Neosho, MO | Mosquito & Tick Treatment",
+  metaDescription: "Licensed pest control in Neosho, Missouri for Big Spring area mosquitoes, Ozark foothill ticks, termites and carpenter ants. Free inspection.",
+},
+{
+  slug: "excelsior-springs-mo",
+  name: "Excelsior Springs",
+  state: "Missouri",
+  stateSlug: "missouri",
+  stateAbbr: "MO",
+  tier: "T3",
+  population: "~10,700",
+  county: "Clay County",
+  climate: "cold-humid",
+  climateDriver:
+    "Excelsior Springs sits on the Clay-Ray county line about 12 miles northeast of Kansas City, in rolling, spring-fed hill country that once supported more than 20 natural mineral springs. Winters bring hard freezes typical of the Kansas City metro, and summers are humid, with the same underground water table that fed the town's historic spa industry still keeping basements and crawl spaces damp across much of town.",
+  topPests: ["Termites", "Carpenter Ants", "Mice", "Mosquitoes"],
+  pestProfile: [
+    {
+      name: "Termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms peak April and May",
+      note: "The same underground springs that built Excelsior Springs' health-resort economy keep the water table high across much of town, and damp basements and crawl spaces in older homes near downtown are prime subterranean termite territory.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through September",
+      note: "Excelsior Springs' hilly, wooded terrain and its many historic homes with original wood trim give carpenter ants both a natural nesting site and an easy target once moisture gets into a sill plate or porch post.",
+    },
+    {
+      name: "Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "October through December",
+      note: "The rural edges of Clay and Ray County ringing Excelsior Springs push field mice toward town every fall, and the mix of older housing stock and newer Kansas City metro construction both give them foundation gaps to exploit.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September",
+      note: "With more than 20 historic mineral springs and the spring-fed drainage they created still running through parts of town, Excelsior Springs holds more damp, slow-moving ground water near residential streets than a typical Kansas City suburb.",
+    },
+  ],
+  localHook:
+    "Excelsior Springs was built almost entirely around water: settlers discovered mineral springs there in 1880, and by the early 1900s the town had identified more than 20 separate springs with a rare combination of iron and manganese bicarbonates, once matched by only a handful of springs in Europe, drawing health-resort visitors from across the country to bathe and drink at bathhouses that are now the historic Hall of Waters.",
+  intro:
+    "Excelsior Springs was built on water, and that's still the first thing to understand about pest control here. More than 20 mineral springs put this town on the map as a health resort starting in the 1880s, and the same high water table that made the springs famous keeps basements and crawl spaces damp across a lot of the older housing near downtown. That moisture is exactly what subterranean termites need, and it's a bigger factor here than in a typical Kansas City metro suburb built on drier ground. The hilly, wooded terrain that makes Excelsior Springs a nice place to live also stages carpenter ants close to older homes with original wood trim, and the rural county ground just outside town sends mice toward the city every fall. A pest plan here starts with the water table, not the calendar.",
+  sections: [
+    {
+      heading: "Why the Springs Still Shape Pest Pressure Today",
+      body: "Excelsior Springs owes its existence to more than 20 natural mineral springs discovered starting in 1880, a concentration rare enough that only a handful of springs in Europe matched the same iron and manganese bicarbonate mix. The spa industry that grew around those springs faded by the mid-1900s, but the underground water that fed them didn't go anywhere, and it keeps the water table high enough in parts of town that older basements and crawl spaces near downtown stay damp well past a rainy stretch. That's a direct line to termite risk, since subterranean colonies need exactly that kind of sustained ground moisture to move undetected into a structure. The hilly, wooded lots common across town also give carpenter ants a natural staging ground, and the rural edges of Clay and Ray County send field mice toward town once the harvest clears the fields each fall.",
+    },
+    {
+      heading: "What an Inspection Actually Looks Like",
+      body: "On a property near downtown or on older, spring-fed ground, we start in the basement or crawl space with a moisture meter, because that reading tells us more about termite risk here than almost anywhere else in the Kansas City metro. Foundation perimeter checks come next, looking for mud tubes and grade issues that keep water pooling against the house. We check porch posts, window frames and any spot where a mature tree touches the siding for carpenter ant activity. If the yard has a low spot or old drainage tied to the historic spring network, we flag it for mosquito treatment. For properties bordering rural county land, we look at foundation and garage gaps ahead of the fall rodent push. The inspection runs about 45 minutes and ends with a plan ranked by actual risk, not guesswork.",
+    },
+    {
+      heading: "Building a Pest Plan for an Excelsior Springs Property",
+      body: "On older homes near the historic core, termite protection comes first, checked annually given how consistently damp this ground runs compared to the rest of the Kansas City metro. Carpenter ant treatment matters most on hilly, wooded lots with mature trees close to the structure. Rodent exclusion should happen in September or October for any property near the rural edge of Clay or Ray County, ahead of the fall push. Mosquito control is worth adding for yards with a low spot or old drainage line tied to the spring network, treated seasonally from May through September. Get the moisture-driven risks handled first and the rest of the plan is routine maintenance.",
+    },
+  ],
+  prevention: [
+    "Have basements and crawl spaces on homes near downtown checked annually for moisture and termite activity, given the area's naturally high water table.",
+    "Keep gutters and grading directing water away from the foundation, since standing water is the top driver of termite risk on spring-fed ground.",
+    "Trim mature trees back from rooflines and siding on hilly, wooded lots to limit carpenter ant access.",
+    "Seal foundation and garage gaps before October, ahead of the fall push of field mice from the rural edges of Clay and Ray County.",
+    "Clear or treat any low spot or old drainage channel that holds water for more than a few days during mosquito season.",
+  ],
+  costNote:
+    "Termite treatment in Excelsior Springs typically runs $500 to $1,500 depending on foundation size and moisture conditions; general pest plans covering ants, rodents and mosquitoes usually run $40 to $60 a month. Free inspection included.",
+  faqs: [
+    {
+      question: "Does Excelsior Springs' history as a mineral spring resort actually affect pest control today?",
+      answer: "It does, more than most people expect. The same high water table that fed more than 20 mineral springs and built the town's health-resort economy starting in the 1880s keeps basements and crawl spaces damp in a lot of the older housing near downtown. That sustained moisture is a bigger termite risk factor here than in a typical Kansas City suburb built on drier ground, which is why annual inspection matters more in Excelsior Springs than it might elsewhere in Clay County.",
+    },
+    {
+      question: "Why do mice become a bigger problem in Excelsior Springs in the fall?",
+      answer: "The town sits close to rural farmland and open ground in both Clay and Ray County, and once that ground gets harvested or goes dormant each fall, field mice move toward the nearest structure. Excelsior Springs has a mix of older homes and newer construction, and both have foundation gaps mice can exploit, so sealing entry points in September or October ahead of that push is the most effective single step.",
+    },
+    {
+      question: "Is carpenter ant activity worse in Excelsior Springs than in flatter parts of the Kansas City metro?",
+      answer: "Generally yes, because Excelsior Springs sits on hillier, more wooded ground than the flatter suburbs closer to Kansas City proper, and a lot of the historic housing stock still has original wood trim and porch posts. That combination gives carpenter ants both a natural nesting site in nearby trees and an easy target once moisture reaches a sill plate, so it's worth a yearly check even without visible sawdust.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Liberty", slug: "liberty", stateSlug: "missouri" },
+    { name: "Gladstone", slug: "gladstone-mo", stateSlug: "missouri" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Excelsior Springs, MO | Termite & Ant Treatment",
+  metaDescription: "Licensed pest control in Excelsior Springs, Missouri for spring-fed moisture termites, carpenter ants, fall mice and mosquitoes. Free inspection.",
+},
 ];

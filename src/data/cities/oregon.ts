@@ -2095,4 +2095,467 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Hermiston pest control for mice, black widows, stink bugs and yellowjackets. Umatilla County Columbia Basin agricultural region specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+{
+    slug: "redmond-or",
+    name: "Redmond",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~38,200",
+    county: "Deschutes County",
+    climate: "semi-arid",
+    climateDriver:
+      "Redmond sits in the high desert of central Oregon at about 3,000 feet elevation, just north of Bend, with roughly 8 to 10 inches of annual rainfall, cold clear winters, and hot dry summers. The sagebrush and juniper terrain surrounding the city offers little natural moisture, so the ants, spiders, and rodents that live in it are drawn toward the irrigation, plumbing, and shelter that new residential construction provides. Redmond's rapid growth over the past decade has put many subdivisions directly against undeveloped high desert scrubland.",
+    topPests: ["Carpenter Ants", "House Mice", "Black Widow Spiders", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Foraging April through September, most visible in spring",
+        note: "Carpenter ants are Redmond's most common structural ant, foraging in from the juniper and pine cover at the edge of newer subdivisions and nesting wherever a leaking hose bib or poorly drained flower bed keeps wood softened.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Once Redmond's high desert nights turn cold in October, house mice from the surrounding sagebrush flats move toward heated homes, entering through the same gaps around utility lines and garage doors every year.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October",
+        note: "Redmond's dry, rocky landscaping and stacked firewood give black widows more harborage here than in wetter parts of the state, and window wells and utility boxes are the most common places residents find them.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colonies build May through September, peak aggression August through September",
+        note: "New construction sites around Redmond disturb the dry soil that yellow jackets favor for ground nests, and colonies become noticeably more aggressive around late-summer patio meals.",
+      },
+    ],
+    localHook:
+      "Redmond's Roberts Field trained Army Air Corps pilots on B-17s and P-38s during World War II and today handles more commercial air traffic than almost any other airport in Oregon, a reminder that this high desert city has always grown faster than the dry sage and juniper landscape around it can absorb quietly.",
+    intro:
+      "If you have moved to Redmond in the last few years, you have probably noticed how fast the sagebrush and juniper flats east of town keep turning into new subdivisions. That growth is part of what makes pest control here different from the wetter side of the state. Redmond sits in the high desert of central Oregon, just north of Bend, where Roberts Field once trained Army Air Corps pilots on B-17s and P-38s during World War II and now handles more commercial flights than almost any other airport in the state. The desert around it does not stay outside your walls for long. Once the summer heat sets in, ants, spiders, and mice start looking for the one thing the high desert does not offer on its own: consistent moisture, and your home, your irrigated lawn, and your garage often supply exactly that.",
+    sections: [
+      {
+        heading: "The pests Redmond's desert edge sends your way",
+        body: "If you have lived here a while, you know the drill: carpenter ants show up first, usually in spring, foraging in from the juniper and pine cover at the edge of newer neighborhoods. Central Oregon's high desert does not have the damp climate that plagues the Willamette Valley, but any wood that stays wet, a leaking hose bib, a poorly graded flower bed, an old fence post, gives carpenter ants exactly the softened wood they need to nest. House mice follow in fall, pushed toward heated structures once the high desert nights turn cold in October. Black widow spiders are common in Redmond's dry, rocky landscaping, especially around window wells, stacked firewood, and utility boxes, more so than you would see on the west side of the Cascades. Yellow jackets round out the list, building ground nests in the dry soil around new construction sites and becoming aggressive around late-summer barbecues.",
+      },
+      {
+        heading: "What a Redmond service visit actually looks like",
+        body: "Here is the good news: none of this requires guesswork. A technician starts outside, walking the foundation, the irrigation lines, and any wood-to-soil contact points where carpenter ants are most likely to be nesting. Indoors, the focus shifts to entry points around utility penetrations and garage doors, the same gaps that let house mice in every fall. Treatment is matched to the season: spring and summer visits target ants and the ground nests yellow jackets are building, while fall service concentrates on sealing the gaps mice use to get inside before the cold sets in. Every visit starts with a free inspection so you know exactly what is active on your property before any treatment begins, and the plan is licensed and insured from start to finish.",
+      },
+      {
+        heading: "Keeping the high desert outside where it belongs",
+        body: "Timing matters more here than in most climates: fixing leaking hose bibs and correcting irrigation runoff removes the moisture carpenter ants are searching for. Clearing firewood stacks and window wells away from the foundation cuts down on black widow harborage. Sealing gaps around pipes and the garage door sweep before October keeps house mice from finding a way in once the nights turn cold. None of it eliminates the high desert around Redmond, but it removes the specific conditions that turn a dry, sage-covered landscape into an active household pest problem.",
+      },
+    ],
+    prevention: [
+      "Fix leaking hose bibs and correct sprinkler overspray against the foundation to remove the moisture carpenter ants need to nest.",
+      "Move firewood stacks and clear window wells away from the house to reduce black widow harborage.",
+      "Seal gaps around utility penetrations and add a garage door sweep before October, ahead of the fall mouse surge.",
+      "Have exposed soil near new construction checked for ground-nesting yellow jacket colonies before mowing season starts.",
+    ],
+    costNote:
+      "Most Redmond homes do well with a year-round plan that covers carpenter ants, spiders, and mice, with an added summer visit for yellow jacket nests near patios and new construction. Properties backing onto undeveloped high desert scrubland typically need more frequent ant and spider checks. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Redmond if the climate is so dry?",
+        answer:
+          "Redmond's high desert climate does not supply much natural moisture, but residential irrigation does. Carpenter ants need softened or damp wood to nest, and a leaking hose bib, an overwatered flower bed, or a poorly graded gutter downspout gives them exactly that, even in a city that gets under 10 inches of rain a year. Homes near the juniper and pine cover at the edge of newer Redmond subdivisions see the most foraging activity.",
+      },
+      {
+        question: "When do mice start coming into Redmond homes?",
+        answer:
+          "October is the turning point. Once nighttime temperatures in Redmond's high desert drop, house mice living in the surrounding sagebrush flats move toward heated structures, and they use the same entry points, garage door gaps and unsealed utility penetrations, year after year. Sealing those gaps in September is far more effective than dealing with mice once they are already inside.",
+      },
+      {
+        question: "Are black widow spiders really more common in Redmond than other parts of Oregon?",
+        answer:
+          "Yes. Redmond's dry, rocky conditions on the east side of the Cascades suit black widows well, more so than the damp Willamette Valley on the west side of the state. They are most often found in window wells, stacked firewood, and utility meter boxes around Redmond homes, so keeping those areas clear and elevated off bare ground reduces the chance of an unpleasant surprise.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Bend", slug: "bend", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Redmond, OR | Carpenter Ants, Mice & Spiders",
+    metaDescription:
+      "Licensed pest control in Redmond, Oregon for carpenter ants, house mice, black widow spiders, and yellow jackets in the high desert. Free inspection.",
+  },
+  {
+    slug: "coos-bay-or",
+    name: "Coos Bay",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~15,900",
+    county: "Coos County",
+    climate: "temperate",
+    climateDriver:
+      "Coos Bay sits on the Oregon Coast around the state's largest deep-draft harbor, with roughly 64 inches of rain a year and humidity that regularly sits above 80 percent. The damp, marine air keeps wood structures wet for much of the year, especially in the older homes and waterfront buildings left over from the city's lumber-shipping era, and that persistent moisture is what drives the local pest pressure more than anything else.",
+    topPests: ["Carpenter Ants", "Silverfish", "Norway Rats", "Spiders"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active year-round, most visible swarms March through June",
+        note: "Coos Bay's near-constant coastal moisture and the forested hills surrounding the harbor give carpenter ants ideal nesting conditions in damp fascia boards, crawl spaces, and any wood siding that stays wet through the long rainy season.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round indoors, most active in damp basements and bathrooms",
+        note: "The high humidity that comes with living this close to the harbor keeps Coos Bay's older basements and crawl spaces damp enough for silverfish to thrive well past the wetter winter months.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active in fall as outdoor food sources decline",
+        note: "Coos Bay's working waterfront and the older lumber-era warehouses and pilings around the bay have long supported rat populations, and homes near the harbor or drainage ditches see the most pressure.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most noticeable indoors October through February",
+        note: "Damp woodpiles, crawl spaces, and the dense coastal vegetation around Coos Bay give house spiders and hobo spiders plenty of outdoor harborage before the wet winter pushes them toward drier indoor space.",
+      },
+    ],
+    localHook:
+      "Coos Bay's harbor was once the largest lumber-shipping port in the world, and the deep-draft bay it sits on is still the largest of its kind between San Francisco Bay and Puget Sound, a legacy that left the city full of the old wood-frame buildings and waterfront structures that stay damp enough, in 64 inches of annual rain, to keep carpenter ants and rats around long after the mills slowed down.",
+    intro:
+      "Ask anyone who has lived near the bay for a while and they will tell you the same thing: in Coos Bay, the rain does not really stop, it just changes how hard it is falling. That kind of moisture, close to 64 inches a year with humidity that rarely drops below 80 percent, is what shapes pest pressure here more than anything else. The old wood-frame homes and waterfront buildings left from the city's lumber-shipping days, when this harbor moved more timber than almost any port on earth, hold onto that dampness in crawl spaces, fascia boards, and pilings. Carpenter ants, silverfish, rats, and spiders are not exotic problems in Coos Bay, they are the predictable result of a coastal climate that never fully dries out.",
+    sections: [
+      {
+        heading: "The dampness behind Coos Bay's pest pressure",
+        body: "What catches people out is how much of this traces back to moisture rather than any one pest being unusually aggressive. Carpenter ants nest in fascia boards, deck framing, and crawl space sills that stay wet through Coos Bay's long rainy season, and they do not need standing water, just wood that never fully dries between storms. Silverfish thrive in the same damp basements and bathrooms, especially in the older homes closer to downtown. Norway rats have had a foothold around the harbor since the lumber-shipping era, when warehouses, pilings, and log storage gave them cover, and that pressure has never fully gone away in homes near the water or drainage ditches. Spiders, particularly hobo spiders, move in from woodpiles and dense coastal shrubs once the heaviest winter rain sets in.",
+      },
+      {
+        heading: "How a Coos Bay inspection and treatment actually works",
+        body: "Here is what a visit looks like: a technician checks crawl space vents, fascia boards, and any wood-to-soil contact first, since that is where carpenter ant colonies most often start in this climate. Indoors, the focus moves to basements, bathrooms, and closets for silverfish activity, and to the foundation line and any exterior debris for rat entry points. Treatment plans account for how little Coos Bay's climate ever really dries out, so follow-up visits matter more here than in drier parts of the state. A free inspection identifies which of these four pests is actually active on your property, since not every damp-climate home has all of them, and every treatment is licensed and insured from start to finish.",
+      },
+      {
+        heading: "Keeping moisture pests out of a coastal home",
+        body: "By winter, expect gutters, crawl space vents, and any wood in ground contact to matter more than anything else you can do. Keeping gutters clear and grading soil away from the foundation reduces the standing moisture carpenter ants need. Improving crawl space ventilation and fixing any plumbing leaks removes the damp conditions silverfish depend on. Trimming vegetation back from the foundation and sealing gaps around pipes cuts down on both rat entry points and spider harborage. None of this changes how much it rains in Coos Bay, but it removes the specific wet spots these four pests rely on to get established.",
+      },
+    ],
+    prevention: [
+      "Keep gutters and downspouts clear so water drains away from fascia boards and crawl space sills where carpenter ants nest.",
+      "Improve crawl space ventilation and fix slow plumbing leaks to reduce the damp conditions silverfish need.",
+      "Trim vegetation and clear woodpiles back from the foundation to reduce rat cover and spider harborage.",
+      "Seal foundation vents and any gaps around pipes before the heaviest winter rain arrives.",
+    ],
+    costNote:
+      "Coos Bay's coastal moisture usually calls for a year-round plan covering carpenter ants and rats, with added attention to crawl spaces and basements for silverfish. Older homes near downtown and properties close to the harbor typically need more frequent checks than newer construction further from the water. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Coos Bay have so much carpenter ant activity compared to inland Oregon cities?",
+        answer:
+          "Coos Bay gets around 64 inches of rain a year and stays humid well beyond the winter months, which keeps fascia boards, deck framing, and crawl space sills wet for much longer than in the drier Willamette Valley or eastern Oregon. Carpenter ants need that damp wood to nest, and the older homes closer to downtown Coos Bay, many built during the city's lumber-shipping era, are especially prone to it.",
+      },
+      {
+        question: "Are rats really a bigger issue near the Coos Bay harbor?",
+        answer:
+          "Yes. Coos Bay's harbor was once the largest lumber-shipping port in the world, and the pilings, warehouses, and waterfront structures from that era gave Norway rats long-term cover that has never fully disappeared. Homes closest to the bay or to drainage ditches feeding it tend to see more rat pressure than neighborhoods further inland.",
+      },
+      {
+        question: "What time of year are silverfish worst in Coos Bay homes?",
+        answer:
+          "Silverfish are active year-round in Coos Bay because the humidity rarely drops enough to dry them out, but they are most noticeable in fall and winter when residents spend more time indoors and basements and bathrooms stay dampest. Improving crawl space airflow and fixing any leaks are the most effective long-term fixes.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Roseburg", slug: "roseburg", stateSlug: "oregon" },
+      { name: "Eugene", slug: "eugene", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Coos Bay, OR | Carpenter Ants, Rats & Silverfish",
+    metaDescription:
+      "Licensed pest control in Coos Bay, Oregon for carpenter ants, Norway rats, silverfish, and spiders in the damp coastal climate. Free inspection.",
+  },
+  {
+    slug: "the-dalles-or",
+    name: "The Dalles",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~16,000",
+    county: "Wasco County",
+    climate: "semi-arid",
+    climateDriver:
+      "The Dalles sits in the Columbia River Gorge's rain shadow, where the Cascades block most Pacific moisture and annual rainfall drops to around 14 inches, with hot dry summers and cool wet winters. The Columbia River itself creates a narrow band of extra moisture right along the waterfront, while the orchard country and dry farmland surrounding the rest of the city stay arid most of the year.",
+    topPests: ["House Mice", "Yellow Jackets", "Black Widow Spiders", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note: "The cherry and pear orchards and dryland wheat fields surrounding The Dalles support large field mouse populations that push toward homes and outbuildings once the Gorge's dry summer heat breaks in fall.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colonies build June through September, peak August through October",
+        note: "The Dalles' hot, dry summers push yellow jackets toward any available water and food source, and orchard properties in particular see aggressive foraging activity as fruit ripens in late summer.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October",
+        note: "The rocky, arid terrain around The Dalles suits black widow spiders well, and they are commonly found in irrigation boxes, woodpiles, and the dry stone landscaping common in Gorge-area yards.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak May through September",
+        note: "Despite the dry surrounding landscape, the Columbia River waterfront and the irrigation canals feeding local orchards keep mosquitoes active through The Dalles' hot summer months.",
+      },
+    ],
+    localHook:
+      "Long before The Dalles was a city, Celilo Falls just upriver was one of the most important Native trading sites in North America, a place Lewis and Clark called the great mart of all this country, until the falls were submerged by The Dalles Dam in 1957, and today the same stretch of river that once fed the falls still supplies the one reliable pocket of moisture in an otherwise dry, rain-shadow landscape.",
+    intro:
+      "Live in The Dalles long enough and you start to notice the split running right through town: the Columbia River keeps a narrow strip along the waterfront green and damp, while everything past the orchards turns dry and dusty by July. That contrast, born from sitting in the rain shadow of the Cascades with only about 14 inches of rain a year, shapes which pests you actually deal with here. House mice come in from the surrounding wheat fields and orchards once the heat breaks in fall. Yellow jackets get aggressive around ripening fruit in late summer. Black widows favor the same rocky, dry landscaping that defines most Gorge-area yards, and mosquitoes hold on around the river and irrigation canals even when the rest of the county is bone dry.",
+    sections: [
+      {
+        heading: "How the Gorge's dry-wet split creates The Dalles' pest mix",
+        body: "Here is where it gets specific to this stretch of the Gorge: The Dalles sits in a genuine rain shadow, so most of the county stays dry enough that black widow spiders thrive in rock walls, irrigation boxes, and dry stacked firewood almost anywhere in town. House mice tell a different story. The cherry and pear orchards ringing the city, along with the dryland wheat fields further out, support large outdoor mouse populations that have nowhere to go once temperatures drop in September, so they head for the nearest heated structure, which is often a home or outbuilding at the edge of an orchard. Yellow jackets follow the fruit harvest, building large colonies through the summer and turning aggressive right as orchard crews are bringing in the late-season cherries and pears. Mosquitoes are the one pest that depends entirely on the river and the irrigation canals threading through the orchards, since nothing else in this dry landscape holds enough standing water to breed them.",
+      },
+      {
+        heading: "What pest control looks like on a Gorge property",
+        body: "A typical visit starts outside, checking rock walls, woodpiles, and irrigation boxes for black widow activity, since those are the spots this dry climate makes attractive. For orchard-adjacent properties, the inspection also covers fence lines and outbuildings where field mice are most likely to be finding their way in before the fall surge. Yellow jacket treatment is timed around the fruit harvest, since colonies are largest and most defensive exactly when orchard work is underway. Any standing water near the property, from irrigation lines to low spots along the river frontage, gets checked for mosquito breeding. Every visit opens with a free inspection so the plan matches what is actually active on your specific property rather than a generic Gorge-wide program, and all work is licensed and insured.",
+      },
+      {
+        heading: "Working with the Gorge's dry season instead of against it",
+        body: "The most useful prevention here is timed, not generic: clearing rock piles and woodpiles away from the house before May reduces black widow harborage right when they become most active. Sealing gaps around outbuildings and fence lines in August, ahead of the fall mouse surge from the surrounding orchards, is far more effective than waiting until mice are already inside. If your property backs onto orchard land, coordinating yellow jacket treatment with the harvest timeline avoids the worst of the aggressive late-summer activity. And keeping irrigation lines and any low-lying wet spots maintained keeps mosquito breeding down even through the driest part of the Gorge summer.",
+      },
+    ],
+    prevention: [
+      "Clear rock piles, woodpiles, and irrigation boxes away from the house before spring to reduce black widow harborage.",
+      "Seal gaps around outbuildings and fence lines in August, ahead of the fall mouse surge from surrounding orchards.",
+      "Coordinate yellow jacket treatment with the local harvest timeline if your property borders orchard land.",
+      "Maintain irrigation lines and drain any low-lying wet spots to reduce mosquito breeding through summer.",
+    ],
+    costNote:
+      "The Dalles typically calls for a seasonal plan: black widow and mouse prevention through the dry months, yellow jacket treatment timed around the orchard harvest, and mosquito control for river-adjacent or irrigation-fed properties. Orchard-edge homes usually need more frequent mouse and yellow jacket checks than in-town properties. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are black widow spiders so common around The Dalles?",
+        answer:
+          "The Dalles sits in the rain shadow of the Cascades, which keeps most of the area dry with only about 14 inches of rain a year. That arid, rocky landscape is exactly the kind of habitat black widow spiders prefer, and they are commonly found in rock walls, irrigation boxes, and stacked firewood around Gorge-area homes.",
+      },
+      {
+        question: "Do properties near The Dalles' orchards really get more mice?",
+        answer:
+          "Yes. The cherry and pear orchards surrounding The Dalles support large outdoor mouse populations, and once temperatures drop in September, those mice move toward the nearest heated structure, which is often a home or outbuilding at the orchard's edge. Sealing entry points in August, before that fall push, is the most effective prevention.",
+      },
+      {
+        question: "Why do I still get mosquitoes in The Dalles when it is so dry?",
+        answer:
+          "The Columbia River and the irrigation canals feeding local orchards are the exception to The Dalles' otherwise dry, rain-shadow climate, and they hold enough standing water to breed mosquitoes right through the hot summer months. Properties along the river frontage or near irrigation lines see the most mosquito pressure in town.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Portland", slug: "portland", stateSlug: "oregon" },
+      { name: "Hermiston", slug: "hermiston", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in The Dalles, OR | Mice, Wasps & Black Widows",
+    metaDescription:
+      "Licensed pest control in The Dalles, Oregon for house mice, yellow jackets, black widow spiders, and mosquitoes in the Columbia Gorge. Free inspection.",
+  },
+  {
+    slug: "woodburn-or",
+    name: "Woodburn",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~29,000",
+    county: "Marion County",
+    climate: "temperate",
+    climateDriver:
+      "Woodburn sits in the Willamette Valley, surrounded by nursery, berry, and grass-seed cropland, with roughly 40 to 45 inches of rain concentrated from October through April and warm, dry summers. The valley's wet season keeps agricultural soil and residential yards damp for much of the year, and Woodburn's mix of century-old homes near downtown and newer subdivisions on former farmland gives moisture-loving pests plenty of places to settle.",
+    topPests: ["Carpenter Ants", "House Mice", "Yellow Jackets", "Spiders"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, swarmers visible in spring",
+        note: "Woodburn's older housing stock, some dating back to 1908 near downtown, combined with the Willamette Valley's long wet season, gives carpenter ants the damp, softened wood they need in fascia boards, porch posts, and crawl space framing.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "The nursery, berry, and grass-seed fields surrounding Woodburn support large field mouse populations, and once harvest ends and the valley's wet season sets in, they move toward homes and outbuildings at the edge of town.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colonies build May through September, peak August through October",
+        note: "Woodburn's biggest annual draw, the Wooden Shoe Tulip Festival each spring, brings tens of thousands of visitors through fields that later in the summer become prime yellow jacket foraging ground, and colonies near homes get aggressive around the same late-summer months as the Woodburn Premium Outlets' busiest shopping season.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most noticeable indoors September through November",
+        note: "The dense, irrigated landscaping common around Woodburn's nurseries and residential yards gives house spiders steady outdoor harborage before the valley's fall rains push them toward garages and crawl spaces.",
+      },
+    ],
+    localHook:
+      "Every spring, the Wooden Shoe Tulip Farm just outside Woodburn turns 40 acres into Oregon's largest tulip display, drawing visitors from across the region, and that same rich, irrigated farmland, along with the nursery and berry fields surrounding the rest of the city, is exactly the kind of damp agricultural ground that keeps field mice and yellow jackets pushing toward Woodburn homes once the growing season winds down.",
+    intro:
+      "Drive into Woodburn in April and you will likely hit tulip festival traffic before you hit city limits, the fields at Wooden Shoe Tulip Farm turning the whole approach to town into a wash of color. That same farmland, along with the nursery, berry, and grass-seed fields surrounding the rest of Woodburn, is what shapes pest pressure here more than anything else. The Willamette Valley's wet season, roughly 40 to 45 inches of rain concentrated from October through April, keeps that agricultural ground and the yards around it damp for most of the year. Carpenter ants settle into the softened wood of Woodburn's older homes near downtown, some dating back to 1908. House mice move in from the surrounding fields once harvest ends. Yellow jackets build up through the growing season and turn aggressive right as the outlet mall's busiest shopping months arrive, and spiders move indoors from the dense nursery landscaping once the fall rains set in.",
+    sections: [
+      {
+        heading: "Why Woodburn's farmland shapes its pest pressure",
+        body: "The pattern here traces straight back to the fields: Woodburn's nursery, berry, and grass-seed cropland supports large outdoor rodent and insect populations, and every one of them eventually looks toward the city's homes and outbuildings for shelter. Carpenter ants are the most consistent structural concern, especially in the older homes near downtown where a century of settling has opened up gaps around porch posts and fascia boards for damp Willamette Valley wood to gather. House mice follow the harvest calendar, moving from the fields into homes once the crops come in and the wet season begins. Yellow jackets build large colonies through spring and summer, often in ground nests near field edges, and Woodburn's spring tulip crowds and late-summer outlet shopping crowds both happen to fall right when yellow jacket activity is at its most noticeable. Spiders round things out, moving from nursery landscaping into garages and crawl spaces as the rain returns each fall.",
+      },
+      {
+        heading: "How treatment works on a Woodburn property",
+        body: "A visit typically starts at the foundation, checking porch posts, fascia boards, and any wood-to-soil contact where carpenter ants are most likely to be established, especially in Woodburn's older neighborhoods. For properties closer to farmland, the inspection extends to fence lines and outbuildings where field mice are most likely to be entering before the fall push. Yellow jacket nests are located and treated directly rather than just managed with repellents, since ground nests near field edges can grow large before anyone notices them. Spider treatment focuses on garages, crawl spaces, and window wells where they gather once the wet season starts. Every plan opens with a free inspection so it is built around what your specific property is actually dealing with, and all treatment is licensed and insured.",
+      },
+      {
+        heading: "Prevention that fits a farmland-edge home",
+        body: "The details that matter most in Woodburn are seasonal: fixing gutters and grading soil away from older foundations removes the moisture carpenter ants rely on, particularly in the century-old homes near downtown. Sealing gaps around outbuildings and fence lines in September, before the harvest ends and mice start looking for shelter, heads off the fall surge before it starts. If your property sits near field edges, having ground nests checked in early summer avoids a much bigger yellow jacket problem by the time the tulip and outlet mall crowds arrive. Keeping nursery-style landscaping trimmed back from the foundation reduces the spider harborage that builds up over a Willamette Valley summer.",
+      },
+    ],
+    prevention: [
+      "Fix gutters and grade soil away from the foundation, especially on Woodburn's older homes near downtown, to remove carpenter ant moisture.",
+      "Seal gaps around outbuildings and fence lines in September, ahead of the fall mouse push from surrounding farmland.",
+      "Have ground nests checked in early summer if your property borders field edges, before yellow jacket colonies grow large.",
+      "Trim dense landscaping back from the foundation to reduce spider harborage as the wet season returns each fall.",
+    ],
+    costNote:
+      "Woodburn properties near downtown typically need a carpenter ant and moisture-focused plan suited to older housing stock, while farmland-edge homes benefit from added mouse and yellow jacket coverage timed to the harvest calendar. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Woodburn's older homes near downtown get more carpenter ants?",
+        answer:
+          "Many homes in Woodburn's downtown core date back to 1908, and a century of settling has opened up small gaps around porch posts, fascia boards, and foundation sills. Combined with the Willamette Valley's wet season, roughly 40 to 45 inches of rain from October through April, those gaps stay damp enough for carpenter ants to nest in far more easily than in newer construction.",
+      },
+      {
+        question: "Does the Wooden Shoe Tulip Festival affect pest activity in Woodburn?",
+        answer:
+          "Not directly, but the same irrigated farmland that makes the tulip display possible each spring also supports the field mice and yellow jackets that move toward Woodburn homes later in the year. Properties near the nursery and berry fields surrounding the festival grounds tend to see more of both.",
+      },
+      {
+        question: "When should Woodburn homeowners near farmland worry about mice?",
+        answer:
+          "September is the key month. Once the surrounding berry and grass-seed harvest wraps up and the Willamette Valley's wet season begins, field mice around Woodburn start looking for indoor shelter, and they use the same gaps around outbuildings and fence lines every year. Sealing those before the harvest ends is more effective than dealing with mice once they are inside.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newberg", slug: "newberg", stateSlug: "oregon" },
+      { name: "Salem", slug: "salem", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Woodburn, OR | Ants, Mice & Yellow Jackets",
+    metaDescription:
+      "Licensed pest control in Woodburn, Oregon for carpenter ants, house mice, yellow jackets, and spiders near Willamette Valley farmland. Free inspection.",
+  },
+  {
+    slug: "pendleton-or",
+    name: "Pendleton",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~17,000",
+    county: "Umatilla County",
+    climate: "semi-arid",
+    climateDriver:
+      "Pendleton sits in the Umatilla River valley surrounded by dryland wheat country, in a semi-arid climate that gets only about 12 to 16 inches of rain a year, most of it between October and May. Hot dry summers and the wheat and grain storage that dominate the local economy shape which pests show up, while the river itself creates a narrow strip of extra moisture running through an otherwise arid landscape.",
+    topPests: ["House Mice", "Black Widow Spiders", "Yellow Jackets", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note: "The dryland wheat fields surrounding Pendleton support large field mouse populations, and grain storage around the city's mills gives them an added food source that keeps activity high right through harvest and into the fall push toward heated buildings.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October",
+        note: "Pendleton's dry, semi-arid climate suits black widow spiders well, and they are commonly found in irrigation boxes, wood piles, and the outbuildings and grain storage structures common on properties near the surrounding farmland.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colonies build June through September, peak during Round-Up week in September",
+        note: "Yellow jacket colonies peak just as the Pendleton Round-Up brings its biggest crowds into town each September, and the dry summer heat pushes them aggressively toward any available food and water source.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Congregate on sunny exterior walls September through October",
+        note: "Pendleton's boxelder and maple trees along the Umatilla River give boxelder bugs a strong local population, and the insects gather by the hundreds on sun-warmed, south-facing walls each fall looking for a way to overwinter indoors.",
+      },
+    ],
+    localHook:
+      "Every September since 1910, the Pendleton Round-Up has turned this wheat-country city into the site of one of the largest rodeos in the country, drawing around 50,000 visitors in a single week, and that same week lines up almost exactly with the peak of Pendleton's yellow jacket season, when colonies built up over a long, dry summer are at their largest and most aggressive.",
+    intro:
+      "Ask anyone in Pendleton what September means and they will say Round-Up before anything else, the rodeo that has filled this wheat-country city with visitors every year since 1910. What most people do not connect is that the same September week is also when yellow jacket colonies here are at their biggest and most short-tempered, built up over a long, dry summer with almost no rain to knock them back. That dry stretch, Pendleton sits in a semi-arid climate getting only about 12 to 16 inches of rain a year, shapes most of the pest pressure around town. House mice come in from the surrounding wheat fields once harvest ends. Black widows favor the dry outbuildings and grain storage structures common on farm properties. And boxelder bugs, drawn by the maples and boxelders along the Umatilla River, gather on sunny walls every fall looking for a way inside.",
+    sections: [
+      {
+        heading: "The wheat country pests behind Pendleton's pressure",
+        body: "Living here, you start to notice the pattern: almost everything traces back to the dryland wheat fields and the Umatilla River running through town. House mice move out of the wheat stubble once harvest wraps up, and grain storage around Pendleton's mills gives them an extra reason to stick close to buildings rather than moving on. Black widow spiders thrive in the area's dry, semi-arid conditions, and they turn up most often in irrigation boxes, woodpiles, and the outbuildings that dot farm properties outside city limits. Yellow jackets build large colonies through the hot, dry summer, and by the time Round-Up week arrives in September, those colonies are at their biggest, which is exactly when Pendleton is also at its busiest. Boxelder bugs are the fall pest most specific to Pendleton's setting along the river, gathering by the hundreds on sun-warmed walls wherever boxelder and maple trees grow nearby.",
+      },
+      {
+        heading: "What a Pendleton service call actually covers",
+        body: "The inspection usually starts outside the house, checking outbuildings, grain storage areas, and irrigation boxes for black widow activity, since those are the structures this dry climate makes most attractive to them. For properties bordering wheat fields, the visit also covers fence lines and foundation gaps where mice are most likely to enter before the fall harvest ends. Yellow jacket nests get located and treated directly, timed ahead of Round-Up week whenever possible so colonies are addressed before the biggest crowds of the year arrive. Boxelder bug treatment focuses on the sunny, south-facing walls where they congregate each fall, sealing entry points before they find a way into wall voids. A free inspection identifies which of these matters most for your specific property, and every treatment is licensed and insured.",
+      },
+      {
+        heading: "Prevention that matches Pendleton's dry season",
+        body: "Most of the useful prevention here happens before harvest ends: sealing foundation gaps and fence line entry points in August gets ahead of the fall mouse push from surrounding wheat fields. Clearing woodpiles and irrigation boxes away from outbuildings reduces black widow harborage through the dry summer months. If your property is anywhere near downtown or the fairgrounds, having yellow jacket nests checked in July, well before Round-Up week, avoids dealing with an aggressive colony during the busiest week of the year. Caulking gaps around windows and siding on sun-facing walls before September keeps boxelder bugs from finding a way indoors once they start congregating.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and fence line entry points in August, ahead of the fall mouse push from surrounding wheat fields.",
+      "Clear woodpiles and irrigation boxes away from outbuildings to reduce black widow harborage through the dry summer.",
+      "Have yellow jacket nests checked in July, before Round-Up week, when colonies are largest and most aggressive.",
+      "Caulk gaps around windows and siding on sun-facing walls before September to keep boxelder bugs from moving indoors.",
+    ],
+    costNote:
+      "Pendleton properties near wheat fields or grain storage typically need a mouse and black widow prevention plan through the dry months, with yellow jacket treatment timed ahead of Round-Up week and boxelder bug service each fall for river-adjacent homes. Free inspection included.",
+    faqs: [
+      {
+        question: "Does the Pendleton Round-Up affect yellow jacket activity in town?",
+        answer:
+          "Not directly, but the timing overlaps closely. Yellow jacket colonies around Pendleton build all summer in the dry, semi-arid heat and peak right around September, the same month the Round-Up brings roughly 50,000 visitors into town. Properties near downtown or the fairgrounds benefit from having nests checked and treated in July, before both the colonies and the crowds reach their peak.",
+      },
+      {
+        question: "Why are boxelder bugs such a common fall pest in Pendleton?",
+        answer:
+          "Pendleton sits along the Umatilla River, where boxelder and maple trees are common, and those trees are exactly what boxelder bugs rely on for feeding and breeding. Each fall, as temperatures drop, they gather by the hundreds on sun-warmed, south-facing walls looking for a way to overwinter indoors, which is why homes near mature boxelder or maple trees see the heaviest activity.",
+      },
+      {
+        question: "Do Pendleton homes near wheat fields get more mice than homes in town?",
+        answer:
+          "Yes. The dryland wheat fields surrounding Pendleton support large outdoor mouse populations, and grain storage near the city's mills gives them added reason to stay close to buildings. Once harvest wraps up in late summer, those mice move toward the nearest shelter, so properties bordering farmland typically need entry points sealed earlier and more thoroughly than homes in the center of town.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hermiston", slug: "hermiston", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pendleton, OR | Mice, Spiders & Boxelder Bugs",
+    metaDescription:
+      "Licensed pest control in Pendleton, Oregon for house mice, black widow spiders, yellow jackets, and boxelder bugs in wheat country. Free inspection.",
+  },
 ];

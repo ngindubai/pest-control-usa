@@ -2567,4 +2567,459 @@ export const kentuckyCities: CityLocation[] = [
     metaTitle: "Pest Control in Pikeville, KY | Termites & Mountain Pests",
     metaDescription: "Pikeville KY pest control for termites, brown recluse spiders, mice, and yellowjackets. Pike County mountain valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "berea-ky",
+    name: "Berea",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~15,800",
+    county: "Madison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Berea sits at the exact point where the Bluegrass region's rolling farmland gives way to the first ridgelines of the Appalachian foothills, with the Pinnacles and the Berea College Forest pressing close against residential streets. That mix of forest edge and open land supports more tick activity than the cleared pasture typical of the Bluegrass proper, and the tree cover keeps enough moisture in the ground to feed carpenter ant colonies in dead or damaged wood. Warm, humid summers typical of central Kentucky keep subterranean termites active for most of the year in the town's older brick and frame buildings.",
+    topPests: ["Termites", "Carpenter ants", "Ticks", "Stink bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Berea's downtown and Berea College campus carry a concentration of brick and frame buildings dating to the 19th and early 20th centuries, exactly the kind of older wood-frame construction that carries the most subterranean termite risk in Kentucky.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, peak May through August",
+        note: "The wooded ridgeline around the Pinnacles and the Berea College Forest keep moisture and dead wood in easy reach of homes on the edge of town, exactly the conditions a carpenter ant colony looks for.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September, peak in late spring and early summer",
+        note: "Properties backing onto the forested foothills near the Pinnacles or the college forest see more tick activity than typical Bluegrass farmland further west, where cleared pasture dominates.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Congregate on exterior walls and move indoors September through November",
+        note: "Older homes near the wooded ridgelines around Berea give stink bugs plenty of gaps to exploit once they start looking for a place to spend the winter.",
+      },
+    ],
+    localHook:
+      "Berea is Kentucky's Folk Arts and Crafts Capital and home to Berea College, founded in 1855 as a tuition-free work college and the first coeducational and interracial college in the South, sitting right where the Bluegrass flattens out into the first ridges of Appalachia at the base of the Pinnacles.",
+    intro:
+      "Berea sits where the Bluegrass runs out and the first Appalachian foothills start climbing, and that shift in terrain gives this town a mixed pest problem most of central Kentucky doesn't have to deal with. Carpenter ants and ticks turn up here at rates closer to the mountains than to Lexington, thanks to the wooded ridges around the Pinnacles and the Berea College Forest that wraps much of the town. Subterranean termites are a year-round concern in the older brick and frame buildings downtown and on the college campus itself. Stink bugs push indoors every fall looking for somewhere to spend the winter. None of it is exotic. It just calls for a plan built for a foothill town, not a flatland one.",
+    sections: [
+      {
+        heading: "Why the foothill line changes the math",
+        body: "Most of the Bluegrass region is rolling farmland with long sightlines and cleared pasture, but Berea backs straight up against forested ridgeline, the Pinnacles, the Berea College Forest, and the wooded land around Indian Fort Theatre. That kind of tree cover next to residential streets is exactly what pushes tick numbers up and gives carpenter ants a steady supply of the damp, softened wood they need for a colony. Add a downtown built mostly of 19th and early 20th century brick and frame construction, some of it tied to the college's early history, and you get a town carrying both a forest-edge pest profile and an old-building termite profile at the same time. A flatland Bluegrass town twenty minutes away just doesn't have the tree line pressing in the way Berea does.",
+      },
+      {
+        heading: "What an inspection covers here",
+        body: "A Berea inspection starts at the foundation and works outward before it works up. We check for termite mud tubes along the foundation, look at sill plates and crawlspace framing with a moisture meter, and note any wood-to-soil contact around porches and decks, all standard steps anywhere in the state. Where Berea differs is the yard check. Properties backing onto wooded ridgeline get a tick assessment along the treeline and any trail edges, and we look at gutters, deck boards, and window frames for the soft, damp wood carpenter ants prefer. In September and October we add a perimeter check for gaps and cracks stink bugs use to get inside for winter. A downtown property near the college gets a different emphasis than a hillside lot on the edge of town, and the inspection should reflect that.",
+      },
+      {
+        heading: "Setting priorities for a Berea property",
+        body: "For an older home downtown or near the college, termites come first. Get on an annual inspection schedule and treat it as routine maintenance, not an emergency response. For a home backing onto wooded ridgeline or close to the Pinnacles, a tick treatment along the property edge before the ticks move in each spring matters more than anything else on the list. Carpenter ants sit in between, worth checking whenever there's visible moisture damage on a deck, gutter, or window frame regardless of where in town the house sits. Stink bugs are a September problem everywhere in Berea and respond well to sealing entry points before the first cold snap. Sorting a plan by which of these actually applies to a specific property, rather than treating every house the same way, is what keeps the cost down.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, doors, and foundation vents before October to keep stink bugs from moving in for winter.",
+      "Check deck boards, gutters, and window frames for soft or damp wood that draws carpenter ants.",
+      "Treat the yard edge along any wooded property line before tick season starts in April.",
+      "Schedule an annual termite inspection for older brick and frame homes downtown and near the college.",
+      "Keep firewood stacked away from the house, it's an easy carpenter ant and tick hideout close to the door.",
+    ],
+    costNote:
+      "Berea pest pricing depends on whether termites, carpenter ants, or a tick problem along a wooded lot line is the main concern. General pest plans typically run one price, with termite protection quoted separately after inspection. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Berea really have more ticks than the rest of the Bluegrass?",
+        answer: "Yes, in the areas backing onto the wooded ridgeline around the Pinnacles and the Berea College Forest. The tree cover and trail edges here support more tick activity than the open pasture land typical of the Bluegrass proper. Homes near the treeline benefit from a yard treatment each spring before the season builds.",
+      },
+      {
+        question: "Are the older buildings near Berea College at risk for termites?",
+        answer: "Many of them, yes. Berea's downtown includes brick and frame buildings going back to the 19th century, and older wood-frame construction anywhere in Kentucky carries meaningful subterranean termite risk. An annual inspection catches activity before it becomes structural damage.",
+      },
+      {
+        question: "What time of year do stink bugs become a problem in Berea?",
+        answer: "September through November, when falling temperatures send them looking for a place to overwinter. They gather on sunny exterior walls before working their way in through small gaps around windows and siding. Sealing those gaps before the first cold snap is the most effective single step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond-ky", stateSlug: "kentucky" },
+      { name: "Danville", slug: "danville-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Berea, KY | Termites, Carpenter Ants & Ticks",
+    metaDescription:
+      "Berea pest control for subterranean termites, carpenter ants, ticks, and fall stink bugs in this Bluegrass-to-foothills town. Licensed and insured. Free inspection.",
+  },
+  {
+    slug: "harrodsburg-ky",
+    name: "Harrodsburg",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~9,500",
+    county: "Mercer County",
+    climate: "hot-humid",
+    climateDriver:
+      "Harrodsburg sits in rolling Bluegrass farmland where 18th and 19th century in-town construction meets the working horse and cattle operations that surround it on almost every side. Warm, humid Kentucky summers keep subterranean termites active in the older wood-frame buildings near Old Fort Harrod State Park, while the wood fencing and barn timber on surrounding farms give carpenter ants a steady supply of the damp wood they need. Harvested row crop fields each fall push stink bugs toward whichever structure, historic home or farm building, sits closest.",
+    topPests: ["Termites", "Carpenter ants", "Stink bugs", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Harrodsburg's historic district, built up over two centuries around the site of James Harrod's 1774 settlement, has one of the higher concentrations of aging wood-frame construction in this part of the Bluegrass.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, peak May through August",
+        note: "The horse and cattle farms ringing Harrodsburg rely on wood-plank fencing and barn timber that holds moisture wherever maintenance lags, which is exactly what draws a carpenter ant colony in.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "The row crop fields surrounding Mercer County push stink bugs toward the nearest structures, in-town or on a farm, once the fields are harvested each fall.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain and feed storage on the farms around Harrodsburg give mice a reason to be nearby year-round, and falling temperatures push them toward the nearest building with a way in.",
+      },
+    ],
+    localHook:
+      "Harrodsburg was founded in 1774 by James Harrod and is recognized as the oldest permanent settlement west of the Allegheny Mountains, with Old Fort Harrod State Park downtown and Shaker Village of Pleasant Hill a short drive away along the Kentucky River.",
+    intro:
+      "Harrodsburg is the oldest permanent settlement west of the Allegheny Mountains, and a lot of what still stands from that history is exactly the kind of old wood construction subterranean termites go after. The historic district around Old Fort Harrod State Park sits close to the working horse and cattle farms that ring the town, and those farms bring their own pressure: carpenter ants in old barn timber and stone-fence cap rails, mice looking for grain and shelter every fall. Stink bugs move in from the surrounding row crops each September. A Harrodsburg pest plan has to cover both the historic in-town buildings and the working farm structures just outside them.",
+    sections: [
+      {
+        heading: "An 18th century town surrounded by working farms",
+        body: "Harrodsburg's downtown carries buildings and foundations that trace back to James Harrod's 1774 settlement, and even where the original structures are long gone, the wood-frame and brick construction that replaced them over the following two centuries is old enough to carry real termite risk. Step outside the historic district and you're immediately in Mercer County farmland, horse pasture, cattle operations, and the stone fences the Bluegrass is known for, many still capped with wood rail that holds moisture against old barn timber. That combination, a genuinely old town core plus working agricultural land right at its edge, is not something a newer Kentucky suburb has to plan around.",
+      },
+      {
+        heading: "What the inspection has to account for",
+        body: "In the historic district, the inspection focuses on foundation mud tubes, sill plates, and any wood-to-soil contact around older additions and porches, since a building's age tells you almost nothing about which past renovations left vulnerable wood exposed. On a farm property, we extend that check to barns, run-in sheds, and outbuildings, looking specifically at where wood rail fencing meets post and where grain or feed storage might be drawing mice. Carpenter ants show up in both settings but for different reasons: moisture-softened trim on an old house, or damp cap rail on a stone fence line. A single inspection that only checks the house and skips the outbuildings misses half of what a Harrodsburg property is actually dealing with.",
+      },
+      {
+        heading: "Building a plan around Harrodsburg's two zones",
+        body: "In-town historic properties should treat termite protection as the top priority, given the sheer number of decades-old wood-frame structures within a few blocks of Old Fort Harrod. Farm and rural properties should weight carpenter ants and mice higher, since barns and fence lines give both pests exactly what they need. Stink bugs are a September and October concern everywhere in Mercer County regardless of which zone a property falls into, and sealing gaps before the weather turns is worth doing on every property type. Treating a historic downtown house and a working farm the same way wastes effort in both directions, since the pest pressure on each comes from a genuinely different source.",
+      },
+    ],
+    prevention: [
+      "Get an annual termite inspection for any home or building more than a few decades old near the historic district.",
+      "Check barn timber and stone fence cap rails for softened wood that draws carpenter ants.",
+      "Store grain and animal feed in sealed containers away from structure walls to reduce mice pressure.",
+      "Seal foundation gaps and utility penetrations before October ahead of the fall mouse surge.",
+      "Treat exterior walls facing row crop fields for stink bugs before the first cold snap in September.",
+    ],
+    costNote:
+      "Harrodsburg pricing depends on whether the property is an in-town historic building or a working farm with outbuildings, since the inspection and treatment scope differ. General pest coverage and termite protection are quoted separately. Free inspection included.",
+    faqs: [
+      {
+        question: "Is termite risk higher in Harrodsburg's historic district?",
+        answer: "Yes. Harrodsburg, recognized as the oldest permanent settlement west of the Allegheny Mountains, still carries a concentration of wood-frame and brick buildings from the 19th and early 20th centuries near Old Fort Harrod State Park. That age profile means a meaningful share of the historic district carries real subterranean termite risk and benefits from annual inspection.",
+      },
+      {
+        question: "Why do carpenter ants show up on farm properties around Harrodsburg?",
+        answer: "Mercer County's horse and cattle farms use a lot of wood, barn timber, run-in sheds, and the cap rails on the area's stone fences, and any of it that holds moisture becomes a carpenter ant target. Checking barns and fence lines for soft or damp wood catches the problem before a colony establishes.",
+      },
+      {
+        question: "When do mice become a problem in Harrodsburg?",
+        answer: "Mice pressure builds through the fall as temperatures drop and nearby grain and feed storage becomes less available outdoors. Sealing gaps around foundations and outbuildings in September, ahead of that shift, is more effective than trapping once mice are already established indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Danville", slug: "danville-ky", stateSlug: "kentucky" },
+      { name: "Frankfort", slug: "frankfort", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Harrodsburg, KY | Termites, Carpenter Ants & Mice",
+    metaDescription:
+      "Harrodsburg pest control for subterranean termites, carpenter ants, mice, and fall stink bugs across the historic district and surrounding farms. Free inspection.",
+  },
+  {
+    slug: "mayfield-ky",
+    name: "Mayfield",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~9,800",
+    county: "Graves County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mayfield sits in the flat, low-lying farmland of Kentucky's Jackson Purchase region, where drainage ditches and low spots around grain and soybean fields hold water long after western Kentucky's heavy spring and summer storms. That standing water extends the mosquito season well past what a hillier part of the state would see. The December 2021 tornado that leveled much of downtown also means Mayfield now carries a genuine split between recently rebuilt construction with fresh termite pretreatment and older homes that predate the storm entirely.",
+    topPests: ["Termites", "Mosquitoes", "Cockroaches", "Rodents"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Homes rebuilt since the December 2021 tornado should carry a fresh pretreatment, while older homes on the edges of Mayfield carry whatever termite exposure they had before the storm.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The flat, low-lying farmland of the Jackson Purchase around Mayfield holds standing water in drainage ditches long after a storm, extending the mosquito season well into fall.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The mix of older homes and newly rebuilt commercial buildings downtown gives both species plenty of the food and moisture sources they need indoors.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain and soybean fields surrounding Mayfield give rodents a natural population base that moves toward structures as the fields are harvested and temperatures drop.",
+      },
+    ],
+    localHook:
+      "Mayfield's downtown was devastated by an EF4 tornado on December 10, 2021 that leveled much of the historic square, including the Graves County Courthouse and the Mayfield Consumer Products candle factory, and the town has spent the years since rebuilding.",
+    intro:
+      "Mayfield sits in the flat farmland of Kentucky's Jackson Purchase region, and that geography plus a wave of post-tornado rebuilding gives the town a pest picture with two distinct halves. Grain and soybean fields ringing the town collect standing water after western Kentucky's heavy spring storms, which keeps mosquitoes active for months. The December 2021 tornado leveled much of downtown, including the courthouse, so Mayfield now has new construction standing right next to homes that survived untouched, and those two building ages need different termite handling. Cockroaches and rodents move between the two just as easily. None of that is unusual for the Purchase, it just needs sorting out property by property.",
+    sections: [
+      {
+        heading: "Flat farmland and a rebuilt downtown",
+        body: "The Jackson Purchase is about as flat as Kentucky gets, and the drainage ditches and low spots that come with row-crop farming around Mayfield hold water long after a storm passes, giving mosquitoes a breeding ground that lasts well into fall. The EF4 tornado that hit on December 10, 2021 tore through the town square, destroyed the Graves County Courthouse, and leveled the Mayfield Consumer Products candle factory, and the rebuilding since has put a lot of brand-new construction next to homes and buildings that were spared. New construction should have a fresh termite pretreatment on record. Older, untouched homes on the edges of town are carrying whatever termite exposure they had before the storm, unchanged.",
+      },
+      {
+        heading: "Why the inspection differs by building age",
+        body: "On a newer, post-2021 build, the first step is confirming what pretreatment was done during construction and whether it's still under warranty, since that changes what additional protection actually makes sense. On an older home that predates the tornado, the inspection goes the traditional route: foundation mud tubes, crawlspace framing, and wood-to-soil contact checked with a moisture meter. Either way, we check for cockroach activity in kitchens and basements and look at the yard for standing water in low spots or clogged drainage that feeds the mosquito problem. Rodents get a look at the exterior for gaps around foundations and utility lines, since grain fields nearby give mice and rats plenty of reason to look for a way inside.",
+      },
+      {
+        heading: "Prioritizing a Mayfield pest plan",
+        body: "If the property was rebuilt after the tornado, confirm the termite pretreatment first before spending money on anything else. If it's an older home that came through untouched, put termite inspection at the top of the list the way you would anywhere else in the state. Mosquito control matters for nearly every property here given how much standing water the surrounding fields produce after a storm, so yard drainage is worth addressing regardless of building age. Cockroaches and rodents come down to sealing entry points and removing food sources, which matters most for homes closest to the fields on the edge of town. Sorting the plan this way gets the highest-risk issue handled first instead of guessing.",
+      },
+    ],
+    prevention: [
+      "Confirm the termite pretreatment record and warranty status on any home built or rebuilt since 2021.",
+      "Clear or improve drainage in low spots near fields to cut down on standing water and mosquitoes.",
+      "Schedule an annual termite inspection for older homes that predate the December 2021 tornado.",
+      "Seal foundation gaps and utility penetrations to keep field rodents from moving indoors as temperatures drop.",
+      "Keep kitchens and basements clean of food debris and moisture to discourage cockroach activity.",
+    ],
+    costNote:
+      "Mayfield pest pricing depends heavily on whether a property is new construction with an existing termite pretreatment or an older home that needs a full inspection from scratch. Mosquito season coverage is often added seasonally. Free inspection included.",
+    faqs: [
+      {
+        question: "Do rebuilt homes in Mayfield still need termite protection?",
+        answer: "Yes, though the starting point is different. Homes built or rebuilt after the December 2021 tornado that leveled much of downtown Mayfield should already carry a termite pretreatment from construction. Confirming that record and its warranty status is the first step, rather than assuming new construction means no risk at all.",
+      },
+      {
+        question: "Why is mosquito season so long around Mayfield?",
+        answer: "The flat, low-lying farmland of the Jackson Purchase region holds standing water in drainage ditches and low spots long after a storm passes, and Mayfield's fields provide plenty of that terrain right up to the edge of town. Yard drainage work makes a real difference in how long the season runs.",
+      },
+      {
+        question: "Are older homes in Mayfield at higher termite risk than newer ones?",
+        answer: "In general, yes. Homes that predate the 2021 tornado and were not part of the rebuild carry whatever termite exposure they had before, with no guarantee of a recent pretreatment. An inspection is the only way to know for certain, and it matters more for these older properties than for recently rebuilt ones.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Murray", slug: "murray-ky", stateSlug: "kentucky" },
+      { name: "Paducah", slug: "paducah-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Mayfield, KY | Termites, Mosquitoes & Rodents",
+    metaDescription:
+      "Mayfield pest control for termites, mosquitoes, cockroaches, and rodents across both rebuilt and older Jackson Purchase homes. Free inspection.",
+  },
+  {
+    slug: "versailles-ky",
+    name: "Versailles",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,500",
+    county: "Woodford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Versailles sits in the heart of Woodford County's thoroughbred horse country, where wood-plank fencing, barns, and hay fields surround a historic downtown built up around Woodford Reserve Distillery. Warm, humid Bluegrass summers keep subterranean termites active in the older brick and frame buildings near the town center, while the farms ringing Versailles give carpenter ants a steady source of moisture-softened wood in fencing and outbuildings. Pasture edges and deer traffic on the surrounding farmland keep tick pressure elevated on properties near the open fields.",
+    topPests: ["Carpenter ants", "Termites", "Ticks", "Rodents"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, peak May through August",
+        note: "The wood-plank fencing and barns on the thoroughbred farms surrounding Versailles hold moisture wherever a rail or post starts to go soft, and that's exactly the wood carpenter ants prefer.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "The historic downtown near Woodford Reserve Distillery includes brick and frame buildings old enough to predate modern termite pretreatment, which keeps risk elevated in that part of town.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September, peak in early summer",
+        note: "Pasture edges and hay fields on the horse farms around Versailles see steady deer traffic, and deer are one of the main ways ticks move onto adjoining residential properties.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Barn feed storage on the farms around Versailles gives rodents a reliable food source that shifts toward nearby homes once the weather turns cold.",
+      },
+    ],
+    localHook:
+      "Versailles is home to Woodford Reserve Distillery, one of the oldest working distillery sites in the country with production dating to 1812, on the Kentucky Bourbon Trail and surrounded by some of the Bluegrass region's most storied thoroughbred horse farms.",
+    intro:
+      "Versailles is horse country before it's anything else, and that shapes the pest list more than the town's size does. Thoroughbred farms ring Versailles with miles of wood-plank fencing and old barns, and damp wood on a fence rail or stall wall is exactly what draws carpenter ants. The historic downtown, close to Woodford Reserve Distillery, still has plenty of older brick and frame buildings carrying real termite exposure. Ticks come off the pasture edges and hay fields that surround almost every property outside the town center. Rodents move from barns and feed storage toward homes once the weather turns cold. It's a farm-town pest profile more than a suburban one.",
+    sections: [
+      {
+        heading: "Horse farms change what a property is up against",
+        body: "A typical Versailles property either backs onto a horse farm or sits close enough to one that pasture, hay, and wood fencing are part of daily life. That fencing, the four-board wood plank style common across the Bluegrass, needs regular maintenance, and any section left to hold moisture becomes carpenter ant habitat fast. Barns and run-in sheds add more of the same risk on a larger scale. Meanwhile the historic downtown around Woodford Reserve, one of the oldest working distillery sites in the country, has its own set of older buildings that predate modern termite pretreatment standards entirely. Versailles ends up managing both a rural farm pest profile and an in-town historic one at the same time.",
+      },
+      {
+        heading: "What the inspection covers on a farm-adjacent property",
+        body: "On a property near a horse farm, the inspection extends past the house to check fence rails, gate posts, and any barn or shed within view of the residence, looking for the soft, damp wood carpenter ants favor. We check pasture edges and any hay storage for tick activity, since deer and other wildlife move freely across open Bluegrass farmland and bring ticks with them. In town, the process looks more familiar: foundation mud tubes, crawlspace framing, and sill plates checked with a moisture meter in older brick and frame construction. Rodent activity gets checked at both ends, barn feed storage on the farm side and foundation gaps on the house side, since mice and rats move toward whichever offers better shelter as it gets colder.",
+      },
+      {
+        heading: "Ordering the priorities for a Versailles property",
+        body: "Farm-adjacent homes should put carpenter ants and ticks at the top of the list, since fencing and pasture edges are a constant, renewable source of both. In-town historic properties near the distillery and the courthouse square should prioritize termite inspection given the age of the construction. Rodent exclusion matters everywhere once fall arrives, but it matters most on properties closest to barns and feed storage, where mice have the shortest trip indoors. A plan built around where a property actually sits, working farm edge or historic in-town block, does more good than a generic package applied the same way to every address in Woodford County.",
+      },
+    ],
+    prevention: [
+      "Inspect and maintain wood-plank fencing near the house for softened rails that draw carpenter ants.",
+      "Treat pasture edges and hay storage areas for ticks before turnout season builds in spring.",
+      "Schedule a termite inspection for older brick and frame buildings in the historic downtown.",
+      "Seal foundation gaps and check barn feed storage to slow the fall rodent move indoors.",
+      "Keep firewood and lumber stacked away from the house to avoid giving carpenter ants a bridge in.",
+    ],
+    costNote:
+      "Versailles pricing depends on whether a property is farm-adjacent, with fencing and outbuildings to check, or an in-town historic building needing a full termite inspection. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem near Versailles horse farms?",
+        answer: "The wood-plank fencing and barns common on Woodford County's thoroughbred farms hold moisture wherever maintenance lags, and damp wood is exactly what a carpenter ant colony needs to establish. Checking fence rails and outbuildings near the house catches the problem before it spreads to the structure itself.",
+      },
+      {
+        question: "Is the historic downtown near Woodford Reserve at risk for termites?",
+        answer: "Yes. Versailles' downtown, close to Woodford Reserve Distillery, one of the oldest working distillery sites in the country, includes brick and frame buildings old enough to predate modern termite pretreatment. An annual inspection is the way to catch activity before it becomes structural.",
+      },
+      {
+        question: "Do ticks come from the horse farms around Versailles?",
+        answer: "Largely, yes. Pasture edges and hay fields on the farms surrounding Versailles support the kind of wildlife traffic, deer especially, that carries ticks onto adjoining properties. A yard treatment along the pasture edge before spring turnout reduces exposure significantly.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+      { name: "Frankfort", slug: "frankfort", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Versailles, KY | Carpenter Ants, Termites & Ticks",
+    metaDescription:
+      "Versailles pest control for carpenter ants, termites, ticks, and rodents across horse farms and the historic downtown. Free inspection.",
+  },
+  {
+    slug: "newport-ky",
+    name: "Newport",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~14,000",
+    county: "Campbell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Newport sits directly on the Ohio River across from Cincinnati, at the point where the Licking River meets the Ohio, with low-lying ground that floods easily and holds standing water afterward. The city's dense 19th century rowhouse and multi-family housing stock, a legacy of its years as a riverfront entertainment district, shares walls and plumbing lines that let German cockroaches and rats move freely between buildings. Humid river-valley summers and cold northern Kentucky winters round out a pest profile driven as much by building density as by climate.",
+    topPests: ["Mosquitoes", "German cockroaches", "Rodents", "Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The low, flood-prone ground where Newport meets the Ohio River and the Licking River holds standing water after storms, giving mosquitoes some of the longest breeding windows in northern Kentucky.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Newport's dense 19th century rowhouse and multi-family buildings share walls and plumbing chases that let German cockroaches move freely between units.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through winter",
+        note: "The alley density and older foundations near Newport's riverfront, once the heart of the city's mid-20th century Sin City entertainment district, give rats more entry points than a typical inland suburb.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "A large share of Newport's residential streets carry wood-frame construction over a century old, which puts them squarely in the highest-risk category for subterranean termites.",
+      },
+    ],
+    localHook:
+      "Newport sits directly across the Ohio River from Cincinnati, connected by the Purple People Bridge pedestrian crossing, and was once known nationally through the mid-20th century as Sin City for its gambling halls and nightclubs before a long redevelopment brought in Newport on the Levee and the Newport Aquarium.",
+    intro:
+      "Newport sits directly across the Ohio River from Cincinnati, and that river-city setting drives most of what shows up here. Mosquitoes breed in the low, flood-prone ground near the river and at the mouth of the Licking River, where Newport meets Covington. The dense 19th century rowhouses and multi-family buildings that make up much of downtown share walls and plumbing lines, which is exactly how German cockroaches move from unit to unit. Rats are a real concern in a river city this old, working the alleys and older foundations near the waterfront. Termites show up in the wood-frame housing stock wherever it's over a century old, which in Newport is a lot of it.",
+    sections: [
+      {
+        heading: "A dense, old river city changes the math",
+        body: "Newport's position on the Ohio River, connected to Cincinnati by the Purple People Bridge, means low-lying ground near the water floods easily and holds standing water afterward, giving mosquitoes a long season. The city's history as a dense entertainment district in the mid-20th century, once known nationally as Sin City for its gambling halls and nightclubs before a long redevelopment brought in Newport on the Levee and the Newport Aquarium, left behind a lot of tightly packed rowhouse and multi-family construction. That density is good for cockroaches and rats both, since shared walls, alleys, and old foundations give either species a route between buildings that a spread-out suburb simply doesn't offer.",
+      },
+      {
+        heading: "What the inspection looks for in Newport's housing stock",
+        body: "In a rowhouse or multi-family building, the inspection starts with the shared walls and plumbing chases, the paths German cockroaches use to move between units regardless of how clean any single apartment is kept. We check basements and foundations for rat activity, gaps around old sewer connections and foundation cracks common in century-old construction near the river. Termite checks focus on sill plates and any wood-to-soil contact, since Newport's older wood-frame stock is exactly the kind of building subterranean termites target. Near the riverfront, we also look at yard and gutter drainage for standing water that extends the mosquito season past what a property further from the water would see.",
+      },
+      {
+        heading: "Setting priorities for a Newport property",
+        body: "In a rowhouse or apartment building, cockroach control has to be handled at the building level, not unit by unit, since one untreated apartment can reinfest the rest through shared walls. Rat exclusion around foundations and old sewer connections comes next, particularly for buildings within a few blocks of the river where alley density is highest. Termite inspection matters most for the century-old wood-frame homes scattered through Newport's residential streets away from downtown. Mosquito control is a seasonal add for anyone near the floodplain, worth layering onto whichever of the other issues actually applies to a specific building. Treating a Newport address as one uniform problem misses how much the building's age and its distance from the river actually matter.",
+      },
+    ],
+    prevention: [
+      "In multi-family buildings, coordinate cockroach treatment across units rather than treating just one apartment.",
+      "Seal foundation gaps and old sewer connection points to reduce rat access near the riverfront.",
+      "Schedule a termite inspection for century-old wood-frame homes on Newport's residential streets.",
+      "Improve yard and gutter drainage near the floodplain to shorten the mosquito season.",
+      "Check basements in older rowhouses for moisture and gaps that give both rats and termites an entry point.",
+    ],
+    costNote:
+      "Newport pricing depends on building type: rowhouse and multi-family cockroach and rat control is often coordinated at the building level, while termite and mosquito coverage for single-family homes is quoted separately. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do German cockroaches spread so fast in Newport's older buildings?",
+        answer: "Newport's downtown includes a lot of 19th and early 20th century rowhouse and multi-family construction with shared walls and plumbing chases, and German cockroaches move through those connections between units easily. Treating a single apartment without addressing the building as a whole rarely solves the problem.",
+      },
+      {
+        question: "Is rat activity worse in Newport because it's a river city?",
+        answer: "Yes, generally. The alley density and older foundations near the Ohio River, close to where Newport meets the Licking River and Covington, give rats more entry points and food sources than a typical inland suburb. Sealing foundation gaps and old sewer connections is the most effective long-term step.",
+      },
+      {
+        question: "How long does mosquito season run in Newport?",
+        answer: "Well into fall in low-lying areas near the river. The floodplain around Newport, across from Cincinnati and connected by the Purple People Bridge, holds standing water after storms longer than higher ground does. Improving yard and gutter drainage shortens the season meaningfully.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Covington", slug: "covington-ky", stateSlug: "kentucky" },
+      { name: "Erlanger", slug: "erlanger-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Newport, KY | Cockroaches, Rats & Mosquitoes",
+    metaDescription:
+      "Newport pest control for German cockroaches, rats, mosquitoes, and termites across the Ohio River city's rowhouses and older housing stock. Free inspection.",
+  },
 ];

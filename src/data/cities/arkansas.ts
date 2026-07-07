@@ -2411,4 +2411,473 @@ export const arkansasCities: CityLocation[] = [
     metaTitle: "Pest Control in Mountain Home, AR | Brown Recluse, Termites & Mice",
     metaDescription: "Mountain Home AR pest control for brown recluse spiders, termites, mice, and mosquitoes near Norfork and Bull Shoals lakes. Free inspection. Call 1-800-PEST-USA.",
   },
+{
+  slug: "texarkana-ar",
+  name: "Texarkana",
+  state: "Arkansas",
+  stateSlug: "arkansas",
+  stateAbbr: "AR",
+  tier: "T3",
+  population: "~28,900",
+  county: "Miller County",
+  climate: "hot-humid",
+  climateDriver:
+    "Texarkana sits in the humid subtropical zone of southwest Arkansas, close enough to the Gulf that summer humidity settles in early and stays late. Miller County gets more than 50 inches of rain a year, split between spring thunderstorms and humid summer afternoons, and winters rarely hold a hard freeze for more than a few days at a stretch. That combination of warmth, moisture, and a short true winter is exactly what keeps termite colonies active and lets fire ant mounds rebuild within days of a spray.",
+  topPests: ["Termites", "Fire Ants", "Carpenter Ants", "Mosquitoes"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April, active year-round underground",
+      note: "Southwest Arkansas's mild winters rarely interrupt termite activity, and Miller County's older pier and beam homes near downtown Texarkana give colonies easy wood-to-soil contact that newer slab construction farther out does not.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Year-round, most active spring through fall",
+      note: "Texarkana sits inside the fire ant range that runs up from Texas and Louisiana, and mounds show up fast in the open lawns and medians on both sides of State Line Avenue after a rain.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October",
+      note: "The pine and hardwood mix around Miller County's older neighborhoods gives carpenter ants plenty of moisture-softened wood to nest in, especially around leaking gutters and shaded crawl spaces.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "April through October",
+      note: "Sulphur River bottomland and the drainage ditches that thread through both sides of the city hold standing water long after storms pass, keeping mosquito season stretched out longer than it is farther north in Arkansas.",
+    },
+  ],
+  localHook:
+    "Texarkana's federal post office and courthouse on State Line Avenue is built directly on top of the Arkansas Texas border, so precisely that the front steps sit in two states at once. It is the second most photographed federal courthouse in the country, behind only the Supreme Court, and it is a fitting symbol for a city where the weather, and the pests that come with it, never bothered to recognize a state line either.",
+  intro:
+    "You already know the joke if you have lived in Texarkana more than a week: give someone your address and they ask which state you mean. The federal courthouse on State Line Avenue really does straddle the Arkansas Texas border, precisely enough that visitors stand with one foot in each state for photos. That split personality carries into pest season too. Warm, wet air rolls up from the Gulf and settles over Miller County for most of the year, and nothing that likes that weather treats the state line as a barrier. Termites do not check your zip code before finding a foundation, and fire ants do not care which side of the avenue your yard sits on. What actually changes block to block here is the housing stock: older pier and beam homes near downtown, newer slab construction out toward the loop, and that difference matters far more for what gets into your home than which state is printed on your mail.",
+  sections: [
+    {
+      heading: "The Bugs That Do Not Recognize a State Line",
+      body: "If you have lived here a while, you know the drill: termites swarm in spring, fire ant mounds pop up in the yard after the first good rain, and by June the mosquitoes are bad enough that evening cookouts move indoors. Eastern subterranean termites are active nearly year round in this part of the state, since Miller County's winters rarely hold a hard freeze long enough to slow a colony down. Fire ants are just as persistent. Texarkana sits inside the range that runs up out of Texas and Louisiana, and a treated yard can show fresh mounds again within a couple of weeks if the colony was not fully knocked down the first time. Carpenter ants show up in the older pine-frame homes near downtown, usually following a slow leak nobody noticed yet, and mosquitoes breed in the Sulphur River bottomland and the drainage ditches that run through both halves of the city.",
+    },
+    {
+      heading: "What an Inspection at Your House Looks Like",
+      body: "Walk through what actually happens at your house: a technician checks the foundation first, looking for the mud tubes termites build to travel between soil and wood, then inspects the crawl space or slab edge depending on how the home was built. Fire ant mounds get marked and treated with a bait that the colony carries back underground, which works better than a surface spray that only kills what it touches. Carpenter ant activity usually means finding the moisture source first, a gutter, a downspout, a slow plumbing leak, because killing the ants without fixing the wet wood just invites the next colony in. Mosquito visits focus on standing water within throwing distance of the house, since that is where most of a yard's mosquito population actually starts, then move to a barrier treatment on shaded resting spots along fence lines and shrubs.",
+    },
+    {
+      heading: "Protecting a Texarkana Home Through the Full Season",
+      body: "What catches people out is assuming a single spring treatment covers the whole year. It does not, not in a climate this warm this long. Termite protection works best as a standing inspection plan rather than a one-time visit, since a colony that gets missed in March can do real damage by fall. Fire ant mounds need a follow-up check after any heavy rain, since flooding pushes colonies to relocate and rebuild fast. Keeping gutters clear and fixing small leaks early takes carpenter ants out of the equation before they start, and dumping standing water out of anything that holds it, plant saucers, old tires, clogged gutters, does more for mosquito control than any single spray.",
+    },
+  ],
+  prevention: [
+    "Schedule a termite inspection every year rather than waiting for visible swarmers, since Miller County's mild winters keep colonies working nearly year round.",
+    "Check the yard for new fire ant mounds after every heavy rain and treat with bait rather than a surface spray for lasting control.",
+    "Clear gutters and fix slow leaks promptly, since damp wood is what draws carpenter ants into pier and beam homes near downtown.",
+    "Empty standing water from plant saucers, buckets, and low drainage spots weekly during mosquito season.",
+    "Seal gaps around utility lines and foundation vents so ants and mosquitoes cannot follow moisture straight into the house.",
+  ],
+  costNote:
+    "Standard pest control plans in Texarkana typically run $40 to $70 a month for general coverage of ants, roaches, and spiders, with termite treatment quoted separately after an inspection since it depends on the size and construction of the home. Mosquito service is usually a seasonal add-on from spring through fall. Free inspection included.",
+  faqs: [
+    {
+      question: "Does Texarkana's split city status change how pest control works?",
+      answer:
+        "Not in any way that matters for treatment. The Arkansas Texas state line runs straight through downtown Texarkana, visible at the post office and courthouse on State Line Avenue, but termites, fire ants, and mosquitoes do not stop at a surveyor's line. What matters more is how your home is built, since older pier and beam homes near downtown face different termite exposure than newer slab construction farther out.",
+    },
+    {
+      question: "Why do fire ants keep coming back after treatment in Texarkana?",
+      answer:
+        "Texarkana sits inside the range that extends up from Texas and Louisiana, and a single surface treatment often only kills the ants it touches while leaving the queen and the rest of the colony safe underground. A bait treatment that worker ants carry back into the mound works more thoroughly, and a follow-up check after heavy rain catches any colony that relocated rather than died.",
+    },
+    {
+      question: "How long is mosquito season around Texarkana?",
+      answer:
+        "Expect an active season from April through October in most years, longer than areas farther north in Arkansas. The Sulphur River bottomland and the drainage ditches on both sides of the city hold standing water well after storms pass, which keeps breeding conditions going deep into fall.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "El Dorado", slug: "el-dorado-ar", stateSlug: "arkansas" },
+    { name: "Hot Springs", slug: "hot-springs", stateSlug: "arkansas" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Texarkana, AR | Termites, Fire Ants & Mosquitoes",
+  metaDescription:
+    "Texarkana AR pest control for subterranean termites, fire ants, carpenter ants, and mosquitoes on both sides of the state line. Licensed and insured. Free inspection.",
+},
+{
+  slug: "harrison-ar",
+  name: "Harrison",
+  state: "Arkansas",
+  stateSlug: "arkansas",
+  stateAbbr: "AR",
+  tier: "T3",
+  population: "~13,700",
+  county: "Boone County",
+  climate: "hot-humid",
+  climateDriver:
+    "Harrison sits in the Ozark Mountains of Boone County, where forested hills and river hollows keep humidity high through the growing season even though winters here run cooler than the rest of Arkansas. The mix of hardwood forest and the nearby Buffalo National River corridor creates ideal habitat for ticks and wood-dependent pests that thrive in shaded, undisturbed ground. Snow and hard freezes are more common here than in southern Arkansas, but they rarely last long enough to meaningfully suppress termite or tick populations by spring.",
+  topPests: ["Ticks", "Termites", "Carpenter Ants", "Mice"],
+  pestProfile: [
+    {
+      name: "Lone star ticks and American dog ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through September, peak May through July",
+      note: "Harrison's location in the wooded Boone County hills near the Buffalo National River means tick exposure comes with the territory. Hikers and hunters heading into the river corridor carry ticks back to yards on boots, dogs, and gear all season long.",
+    },
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms March through May",
+      note: "The older homes around Harrison's historic courthouse square, some dating back over a century, sit close to the ground on the kind of foundations termites find easiest to reach.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October",
+      note: "Boone County's oak and hickory forest supplies plenty of dead and moisture-softened wood, and carpenter ant colonies move from downed timber into nearby homes and outbuildings when the wood dries out or gets disturbed.",
+    },
+    {
+      name: "Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "October through February",
+      note: "As Ozark temperatures drop each fall, deer mice and white-footed mice living in the surrounding forest edge push toward the nearest warm structure, and Harrison's wooded residential lots back right up to that habitat.",
+    },
+  ],
+  localHook:
+    "Harrison is the official gateway city to the Buffalo National River, the first river in the country to earn National River protection under a 1972 act of Congress, and the National Park Service still runs the river's headquarters out of town.",
+  intro:
+    "If you spend any time outdoors around Harrison, you already carry a habit most people from flatter parts of the state never picked up: the tick check. This is gateway country. The Buffalo National River, the first river in America to get that federal protection, starts not far from town, and the same wooded hills and hollows that make this such good hiking and float country also make it good tick country. That is not a complaint, it is just the trade you make for living somewhere this pretty. The good news is that the same knowledge that keeps hikers safe on the river trails works just as well in your own backyard, and the rest of what shows up here, termites in the old homes around the square, carpenter ants in the hardwood, mice pushing indoors every fall, all follow patterns that are easy to get ahead of once you know what to look for.",
+  sections: [
+    {
+      heading: "Living With Ozark Ticks (and What Else to Watch For)",
+      body: "Here is the good news: tick pressure around Harrison is predictable, which means it is manageable. Lone star ticks and American dog ticks are active from April through September and peak in the early summer months when the woods around the Buffalo River corridor are busiest with hikers, floaters, and hunters. They ride in on boots, dogs, and gear, and a yard that backs up to timber or brush gets exposure even if nobody in the house goes near the river trails. Termites are the other steady concern, especially in the older homes around the courthouse square where foundations sit close to the soil, with swarms typically showing up March through May. Carpenter ants follow the same hardwood forest that makes this county so scenic, and mice start working their way toward houses as soon as the first real cold snap hits in the fall.",
+    },
+    {
+      heading: "How a Harrison Property Gets Treated",
+      body: "The visit breaks down like this: yard treatment for ticks targets the shaded, brushy edges where they actually wait for a host, not the open lawn, and it gets repeated through the season rather than applied once in spring and forgotten. Spot spraying alone does not hold up in tick country the way it might against a single ant mound. Termite inspections around Harrison focus on foundation contact points and any wood-to-soil connections common in the older housing near downtown, since that is where colonies get their first foothold. Carpenter ant treatment starts with finding the moisture source, a damp sill plate or a leaking roof valley, because the ants follow the wet wood, not the other way around. For mice, fall is when sealing entry points around the foundation and utility lines matters most, before the cold really sets in and pushes rodents to test every gap in the house.",
+    },
+    {
+      heading: "Protecting Your Yard Before the Next Hike",
+      body: "By late spring, expect ticks to be active in any yard with brush, tall grass, or a wood line nearby, whether or not anyone in the house has been near the river trails that week. Keeping grass mowed short and clearing leaf litter and brush piles away from the house cuts down tick habitat close to where people and pets actually spend time. A fall termite and foundation check ahead of swarming season catches problems early, when treatment is simpler and cheaper. Watching gutters and roof valleys for standing moisture keeps carpenter ants from finding an easy way in, and sealing gaps around the foundation before the weather turns cold is the single most effective thing a Harrison homeowner can do to keep mice from moving indoors for the winter.",
+    },
+  ],
+  prevention: [
+    "Do a full-body tick check on people and pets after any time spent near the Buffalo River trails or in tall grass and brush.",
+    "Keep lawns mowed short and clear leaf litter and brush piles away from the house to reduce tick habitat close to home.",
+    "Schedule a termite inspection each spring, especially for older homes near the historic courthouse square.",
+    "Fix roof and gutter leaks quickly, since damp wood is what draws carpenter ants out of the surrounding hardwood forest.",
+    "Seal foundation and utility gaps before the first fall cold snap to keep mice from moving in from the woods.",
+  ],
+  costNote:
+    "General pest plans around Harrison typically run $45 to $75 a month, with tick and yard treatment often priced as a seasonal add-on given the wooded surroundings. Termite inspections are quoted separately based on the age and construction of the home. Free inspection included.",
+  faqs: [
+    {
+      question: "Why does Harrison have so many ticks compared to other Arkansas towns?",
+      answer:
+        "Harrison sits right at the edge of the Buffalo National River corridor, the first river in the country to receive that federal designation, and the wooded hills and hollows that make this such popular hiking and float country are also ideal tick habitat. Lone star ticks and American dog ticks are active from April through September, and yards backing up to timber or brush see exposure even without a trip to the river.",
+    },
+    {
+      question: "Are the older homes around Harrison's courthouse square more at risk for termites?",
+      answer:
+        "Often, yes. Many of the homes near Harrison's historic downtown square date back a century or more and sit closer to the ground on foundation types that give termites easier wood-to-soil access than newer construction. A spring inspection ahead of the March through May swarm season is the standard precaution for these older properties.",
+    },
+    {
+      question: "When do mice become a problem in Harrison homes?",
+      answer:
+        "Mice pressure builds every year starting in October as temperatures in the surrounding Ozark forest drop and deer mice and white-footed mice look for warmer shelter. Harrison's wooded residential lots back directly onto that habitat, so sealing foundation gaps before the first hard freeze is more effective than dealing with mice once they are already inside.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Mountain Home", slug: "mountain-home-ar", stateSlug: "arkansas" },
+    { name: "Fayetteville", slug: "fayetteville", stateSlug: "arkansas" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Harrison, AR | Ticks, Termites & Carpenter Ants",
+  metaDescription:
+    "Harrison AR pest control near the Buffalo National River for ticks, termites, carpenter ants, and fall mice. Licensed and insured. Free inspection.",
+},
+{
+  slug: "magnolia-ar",
+  name: "Magnolia",
+  state: "Arkansas",
+  stateSlug: "arkansas",
+  stateAbbr: "AR",
+  tier: "T3",
+  population: "~10,900",
+  county: "Columbia County",
+  climate: "hot-humid",
+  climateDriver:
+    "Magnolia sits in the pine timberlands of deep south Arkansas, close enough to the Louisiana border that summers run long, hot, and humid with only a brief cool season in between. Columbia County gets substantial annual rainfall spread across the year, keeping soil moisture high enough to support termite activity for most months. The oil-era growth that built out much of Magnolia's older housing stock happened before modern termite barrier standards existed, adding another layer of exposure for those neighborhoods.",
+  topPests: ["Termites", "Fire Ants", "Carpenter Ants", "Cockroaches"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April, active year-round",
+      note: "Columbia County's warm, humid climate and the older homes built during Magnolia's oil boom years give termite colonies steady access to wood framing close to the soil line.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Year-round, most active spring through fall",
+      note: "Deep south Arkansas sits well within fire ant range, and Magnolia's mix of open pasture, timberland, and residential lawns gives colonies plenty of room to spread between properties.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October",
+      note: "Columbia County's pine timber industry surrounds Magnolia on every side, and carpenter ants move easily from cut and stacked timber into nearby home framing when moisture gets in.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "Magnolia's humidity and the mix of older downtown apartments near the Southern Arkansas University campus keep German cockroaches a persistent indoor problem regardless of season.",
+    },
+  ],
+  localHook:
+    "Magnolia sits on top of the Magnolia oil field, discovered on March 5, 1938, when the Barnett No. 1 well blew in and briefly made the field the largest producing oil field by volume in the country during the Second World War.",
+  intro:
+    "Ask anyone who has lived in Magnolia long enough and they will tell you the ground under this town has already surprised people once. On March 5, 1938, the Barnett No. 1 well blew in south of town and revealed an oil field so large it helped fuel the country through the Second World War. These days the derricks are mostly gone and the Blossom Festival draws the crowds instead, but the same warm, wet climate that sat over the oil field for millions of years is still doing its work above ground. Termites do not care that the boom ended decades ago. Fire ants do not know the difference between a cotton field and a subdivision. What matters for your house is less the town's history and more its geography: pine timberland pressing in from every direction, humid air that barely lets up in summer, and an older housing stock downtown that gives pests an easy way in if nobody is watching.",
+  sections: [
+    {
+      heading: "The Pests That Come With South Arkansas Living",
+      body: "The pattern here holds steady year after year: termite swarmers show up on warm evenings in early spring, fire ant mounds pop up in the yard within days of a good rain, and roaches never really take a season off no matter how cold it gets outside. Magnolia sits deep enough in south Arkansas to be well within fire ant range, and the mix of open pasture, pine timberland, and residential lawns around town gives colonies plenty of room to move between properties. Carpenter ants follow the timber industry that surrounds Columbia County, working their way out of cut and stacked wood and into nearby home framing once moisture gets involved. German cockroaches stay active year round in the humidity, especially in the older apartments and duplexes near the Southern Arkansas University campus where shared walls make one unit's problem the whole building's problem.",
+    },
+    {
+      heading: "Here Is How We Handle a Magnolia Property",
+      body: "Once someone has actually inspected the property, the picture gets simple: a termite inspection starts at the foundation, checking for mud tubes and any wood-to-soil contact typical of Magnolia's older homes, many built during the oil boom decades. Fire ant treatment uses a bait the colony carries back underground rather than a surface spray that only kills the ants it touches directly, which matters in a climate where colonies rebuild fast. Carpenter ant work means tracing the moisture source first, since dry timber alone rarely draws them in, and cockroach treatment in multi-family buildings near campus has to cover connecting units and shared plumbing chases or the problem just moves next door and comes right back.",
+    },
+    {
+      heading: "Keeping a South Arkansas Home Protected",
+      body: "The mistake most people make is assuming one treatment in spring covers the rest of the year in a climate this warm. Termite protection works best as an ongoing inspection plan rather than a single visit, since Columbia County's mild winters rarely slow a colony down for long. Checking the yard for new fire ant mounds after every significant rain catches colonies before they get established again. Keeping stacked firewood and yard debris away from the house foundation removes an easy carpenter ant highway, and sealing gaps around plumbing and baseboards is the most effective long term step against cockroaches in older buildings near downtown.",
+    },
+  ],
+  prevention: [
+    "Schedule a termite inspection each spring, especially for homes built during Magnolia's oil boom decades with older foundation types.",
+    "Check the yard for fresh fire ant mounds after heavy rain and treat with bait for a lasting kill.",
+    "Keep firewood stacks and yard debris away from the foundation to cut off carpenter ants' path from the surrounding timberland.",
+    "Seal gaps around plumbing and baseboards, especially in older multi-unit buildings near the Southern Arkansas University campus, to reduce cockroach entry points.",
+    "Fix leaks promptly, since moisture is what turns a minor ant or roach presence into an established colony.",
+  ],
+  costNote:
+    "General pest control plans in Magnolia typically run $40 to $70 a month, with termite protection quoted separately based on the age and foundation type of the home. Multi-unit cockroach treatment near campus is often priced per building rather than per unit. Free inspection included.",
+  faqs: [
+    {
+      question: "Does Magnolia's oil field history affect the town's pest problems today?",
+      answer:
+        "Not directly, the oil field discovered at the Barnett No. 1 well in 1938 does not create pest pressure on its own. What matters more is that many of Magnolia's homes were built during that boom era and have older foundation types that give termites easier wood-to-soil access than newer construction, which is why inspections matter more for that generation of housing.",
+    },
+    {
+      question: "Why are fire ants such a persistent problem around Magnolia?",
+      answer:
+        "Magnolia sits well within the fire ant range that covers deep south Arkansas, and the mix of pasture, pine timberland, and residential lawns around town gives colonies room to spread easily between properties. Mild winters rarely knock a colony back for long, so mounds can reappear within days of a treatment if the colony was not fully addressed underground.",
+    },
+    {
+      question: "Are cockroaches worse near the Southern Arkansas University campus than elsewhere in Magnolia?",
+      answer:
+        "Generally yes, in the older apartments and duplexes near campus. Shared walls and plumbing chases in multi-unit buildings let German cockroaches move freely between units, so a single apartment's infestation often started next door. Effective treatment in that part of town usually needs to cover connected units, not just the one reporting a problem.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "El Dorado", slug: "el-dorado-ar", stateSlug: "arkansas" },
+    { name: "Hot Springs", slug: "hot-springs", stateSlug: "arkansas" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Magnolia, AR | Termites, Fire Ants & Cockroaches",
+  metaDescription:
+    "Magnolia AR pest control for subterranean termites, fire ants, carpenter ants, and cockroaches in Columbia County. Licensed and insured. Free inspection.",
+},
+{
+  slug: "stuttgart-ar",
+  name: "Stuttgart",
+  state: "Arkansas",
+  stateSlug: "arkansas",
+  stateAbbr: "AR",
+  tier: "T3",
+  population: "~7,900",
+  county: "Arkansas County",
+  climate: "hot-humid",
+  climateDriver:
+    "Stuttgart sits on the flat Grand Prairie of Arkansas County, where thousands of acres of flooded rice fields keep humidity and standing water levels far higher through the growing season than in most of the state. Summers are long, hot, and humid, and the flooded fields that support the rice and duck hunting economy also extend the mosquito season well beyond what drier parts of Arkansas experience. Winters are mild enough that termite colonies rarely go fully dormant.",
+  topPests: ["Mosquitoes", "Termites", "Mice", "Carpenter Ants"],
+  pestProfile: [
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "March through November, heaviest May through September",
+      note: "Stuttgart sits in the middle of the Grand Prairie's flooded rice fields, and the same standing water that grows the crop and draws duck hunters every fall also produces some of the heaviest mosquito pressure anywhere in the state.",
+    },
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms March through May",
+      note: "The humid, low-lying Grand Prairie soil around Stuttgart stays damp for long stretches of the year, and older homes near downtown built before modern foundation treatment became standard face steady termite pressure.",
+    },
+    {
+      name: "Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "October through March",
+      note: "Grain elevators and rice storage operations around Stuttgart give mice a reliable food source, and cooler months push rodents from farm buildings toward nearby homes looking for warmth.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note: "Moisture from the surrounding rice fields keeps humidity high around foundations and outbuildings, conditions carpenter ants use to establish nests in softened wood.",
+    },
+  ],
+  localHook:
+    "Stuttgart calls itself the Rice and Duck Capital of the World, and it earns the title honestly: the flat, flooded rice fields of the Grand Prairie draw a major share of the nation's rice harvest and some of the heaviest waterfowl hunting traffic on the Mississippi Flyway, culminating each Thanksgiving week in the World Championship Duck Calling Contest.",
+  intro:
+    "Every November, Stuttgart fills up with duck hunters and callers from around the world for the World Championship Duck Calling Contest, and it is not just a nickname when people call this place the Rice and Duck Capital of the World. The flat, flooded fields of the Grand Prairie that make this such good rice country and such good duck hunting are the same fields that make Stuttgart's mosquito season one of the longest and heaviest in Arkansas County. That is the trade-off of living somewhere this productive: the standing water that feeds a crop and draws waterfowl by the thousands also breeds mosquitoes by the millions. It is not just a summer nuisance either. Termites work through the same humid soil year round, grain storage around the edges of town gives mice a reason to move toward houses once the weather turns, and carpenter ants take advantage of the moisture wherever it collects.",
+  sections: [
+    {
+      heading: "What the Rice Fields Bring With Them",
+      body: "Come the warm months, expect mosquito numbers to climb fast and stay high well into fall. Stuttgart's position in the middle of the flooded Grand Prairie rice fields means standing water is simply part of the landscape here in a way it is not in most Arkansas towns, and that water produces mosquitoes on a scale that matches the scale of the rice harvest itself. Termites are the other constant, since the same damp, low-lying soil that makes this good farmland also keeps subterranean colonies active and swarming from March through May. Grain elevators and rice storage buildings around town give mice a food source that farm structures cannot always keep sealed, and once the weather turns cold those rodents look toward the nearest house. Carpenter ants take advantage of whatever moisture collects around foundations and outbuildings through the warm months.",
+    },
+    {
+      heading: "How We Treat a Grand Prairie Property",
+      body: "Picture the actual visit: mosquito control around Stuttgart starts by identifying the standing water sources closest to the house, since a yard bordering rice ground cannot eliminate the fields but can still reduce what breeds right at the foundation, followed by a barrier treatment on shaded resting areas. Termite inspections check foundation contact points carefully given how consistently damp the ground stays here, with particular attention to older homes near downtown. Rodent work usually starts outside, sealing entry points around the foundation and utility lines before grain-season pressure builds, since exclusion beats trying to remove mice once they are established indoors. Carpenter ant treatment traces the moisture first, whether that is a leaking spigot or a low spot that never quite dries out, because the ants follow the wet wood.",
+    },
+    {
+      heading: "Protecting Your Home Through Rice and Duck Season",
+      body: "The one thing people get wrong is treating mosquito control as a one-time spring job when the Grand Prairie's flooded fields keep breeding conditions going well past what most of Arkansas experiences. Ongoing seasonal treatment through the warm months does far more than a single spray. A termite inspection each spring ahead of the March through May swarm catches problems while they are still cheap to fix. Sealing gaps around the foundation before grain harvest and the fall cold snap keeps mice from finding their way in from nearby storage buildings, and clearing standing water and debris away from the house limits what carpenter ants can use to get established.",
+    },
+  ],
+  prevention: [
+    "Treat standing water sources near the house each spring, since the Grand Prairie's flooded rice fields keep mosquito breeding conditions active longer than most of Arkansas.",
+    "Schedule a termite inspection every spring ahead of the March through May swarm season, especially for older homes near downtown.",
+    "Seal foundation and utility gaps before fall harvest season, when mice move from grain storage areas toward nearby houses.",
+    "Keep gutters clear and fix leaks promptly to reduce the moisture that draws carpenter ants to foundations and outbuildings.",
+  ],
+  costNote:
+    "Pest control plans around Stuttgart typically run $45 to $75 a month, with mosquito treatment often priced as a season-long service given the surrounding rice field pressure. Termite inspections are quoted separately after a foundation assessment. Free inspection included.",
+  faqs: [
+    {
+      question: "Why is mosquito season so much worse in Stuttgart than other parts of Arkansas?",
+      answer:
+        "Stuttgart sits in the middle of the Grand Prairie's flooded rice fields, the same ground that earns the town its Rice and Duck Capital of the World title, and that standing water produces mosquitoes on a much larger scale than drier parts of the state. Season-long treatment focused on the water sources closest to your home makes a real difference even though the surrounding fields cannot be treated directly.",
+    },
+    {
+      question: "Does the grain storage around Stuttgart attract mice to nearby homes?",
+      answer:
+        "Yes. The rice storage and grain elevator operations that support Stuttgart's agricultural economy give mice a steady food source, and once cooler weather sets in during harvest season, rodents move from farm buildings toward the nearest available house. Sealing foundation gaps before that seasonal push begins is the most effective prevention.",
+    },
+    {
+      question: "Is termite pressure around Stuttgart different from the rest of Arkansas County?",
+      answer:
+        "It runs on the higher end. The low-lying, consistently damp soil of the Grand Prairie around Stuttgart keeps subterranean termite colonies active for more of the year than drier upland areas, with swarming typically running March through May. Annual inspections are the standard precaution, particularly for older homes near downtown.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Little Rock", slug: "little-rock", stateSlug: "arkansas" },
+    { name: "Pine Bluff", slug: "pine-bluff", stateSlug: "arkansas" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Stuttgart, AR | Mosquitoes, Termites & Mice",
+  metaDescription:
+    "Stuttgart AR pest control for mosquitoes, subterranean termites, mice, and carpenter ants in the Grand Prairie rice country. Licensed and insured. Free inspection.",
+},
+{
+  slug: "marion-ar",
+  name: "Marion",
+  state: "Arkansas",
+  stateSlug: "arkansas",
+  stateAbbr: "AR",
+  tier: "T3",
+  population: "~13,700",
+  county: "Crittenden County",
+  climate: "hot-humid",
+  climateDriver:
+    "Marion sits in the Mississippi Delta of Crittenden County, where flat, low-lying ground and a high water table keep soil moisture close to the surface nearly year round. The nearby Mississippi River adds humidity through the long, hot summer, and the drained bottomland of the old Marion Lake still holds water in low spots after rain. Winters are short and mild enough that termite and mosquito pressure both stay elevated for most of the year.",
+  topPests: ["Termites", "Mosquitoes", "Cockroaches", "Carpenter Ants"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April",
+      note: "Marion's Mississippi Delta soil holds moisture close to the surface, and the town's mix of historic homes near the square and newer subdivisions built for Memphis commuters both sit on ground that keeps termite colonies well fed year round.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "April through October",
+      note: "The drained Marion Lake bottomland and the drainage canals that still crisscross the area hold water long after rain, and the Mississippi River's proximity keeps humidity and mosquito pressure high through the warm season.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "Marion's rapid growth as a bedroom community for Memphis has brought in dense newer apartment and rental housing, and shared walls in that kind of construction let cockroach problems move between units quickly.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October",
+      note: "Older hardwood-frame homes near Marion's historic square, some dating back over a century, give carpenter ants softened wood to work with wherever moisture has gotten into the framing.",
+    },
+  ],
+  localHook:
+    "Marion was established in 1836 as the Crittenden County seat, named for Revolutionary War hero Francis Marion, and the county's fourth courthouse, completed in 1911, still stands on the town square, a holdover from the era when Marion Lake was drained in 1918 to create hundreds of acres of new Delta farmland.",
+  intro:
+    "Marion has spent the last twenty years turning into something its 1836 founders would not recognize: a bedroom community growing fast on the strength of its short commute into Memphis, with new subdivisions stretching out from a town square that still has an early twentieth century courthouse standing on it. That mix of old and new matters for pest control here more than people expect. The historic homes near downtown sit on the same low, moisture-holding Delta soil that has always favored subterranean termites, while the newer apartment complexes built for commuting families bring their own cockroach pressure through shared walls and plumbing. Add the Mississippi River's humidity and the old drained bottomland of Marion Lake still holding water in low spots, and you get a town where the pest problems of a century-old Delta seat and a fast-growing Memphis suburb both show up on the same street.",
+  sections: [
+    {
+      heading: "Old Town, New Subdivisions, Same Delta Climate",
+      body: "Ask anyone who has been here a decade and they will tell you: termite swarmers appear on warm evenings from February through April, mosquitoes are a fact of life from spring through fall thanks to the drained bottomland and drainage canals around town, and cockroaches do not care whether your building is from 1920 or 2020. Crittenden County's Delta soil sits close to the water table nearly everywhere, which is exactly the condition subterranean termites need, and it does not matter whether the house in question is one of the older homes near the county courthouse square or new construction out toward the interstate. Mosquitoes breed heavily in the low, formerly flooded ground west of town and in the drainage systems built to manage it, with the Mississippi River adding its own humidity to the mix. Marion's growth as a Memphis commuter suburb has brought denser apartment and rental housing, and that construction style lets German cockroaches spread between units through shared walls faster than in standalone houses.",
+    },
+    {
+      heading: "How a Marion Home Gets Treated",
+      body: "Here is the sequence on an actual visit: termite inspections around Marion pay close attention to foundation moisture and wood-to-soil contact given how consistently damp Delta soil stays, with extra care around the historic homes near the square where original foundations were not built with modern termite barriers in mind. Mosquito treatment focuses on the standing water in low-lying yards and drainage areas near the old Marion Lake bottomland, combined with a barrier spray on shaded resting spots for the adult population. Cockroach treatment in Marion's newer apartment and rental developments has to account for connected units, since treating one apartment without addressing the shared wall voids and plumbing chases in neighboring units just means a quick reinfestation. Carpenter ant visits start by tracing the moisture source in older wood framing, since the ants follow water into a structure rather than seeking out dry lumber.",
+    },
+    {
+      heading: "Keeping Both Old and New Marion Protected",
+      body: "The assumption that trips people up is thinking a newer home in Marion is somehow exempt from Delta pest pressure just because it was not built with the older courthouse-era construction. It is not. Annual termite inspections matter for new subdivisions and historic homes alike, since the soil underneath is the same. Clearing standing water from low yard spots and drainage ditches through the warm months does more for mosquito control than any single treatment, and keeping an eye on shared walls in apartment or rental housing catches a cockroach problem before it spreads to the whole building. Fixing small leaks and keeping gutters clear removes the moisture that draws carpenter ants toward older wood framing near downtown.",
+    },
+  ],
+  prevention: [
+    "Schedule a termite inspection every year regardless of how new the home is, since Marion's Delta soil creates the same conditions across old and new construction.",
+    "Clear standing water from low yard spots and drainage ditches through spring and summer to reduce mosquito breeding near the house.",
+    "Report cockroach activity early in apartment or rental housing, since shared walls let infestations spread quickly between units.",
+    "Fix leaks and keep gutters clear to remove the moisture that draws carpenter ants to older wood framing near downtown.",
+    "Seal foundation gaps on both historic and newer homes, since Delta soil moisture affects termite and ant access regardless of a building's age.",
+  ],
+  costNote:
+    "General pest control plans in Marion typically run $40 to $70 a month, with termite protection quoted separately after a foundation inspection. Multi-unit cockroach treatment in apartment and rental housing is often priced per building. Free inspection included.",
+  faqs: [
+    {
+      question: "Why do both historic homes and new subdivisions in Marion have termite problems?",
+      answer:
+        "Because the soil underneath does not change with the construction date. Crittenden County's Delta ground sits close to the water table across Marion, from the century-old homes near the courthouse square built in 1911 to the newer subdivisions built for Memphis commuters, and that consistent moisture is what subterranean termites need. Annual inspection is recommended regardless of how new the home is.",
+    },
+    {
+      question: "Is mosquito pressure in Marion related to the old Marion Lake?",
+      answer:
+        "Yes, in part. Marion Lake was drained back in 1918 to create hundreds of acres of new Delta farmland, and the low-lying former lake bottom and the drainage systems built to manage it still hold water well after rain. Combined with the Mississippi River's humidity nearby, that keeps mosquito season active from spring through fall.",
+    },
+    {
+      question: "Why does Marion see more cockroach problems in newer apartments than older single-family homes?",
+      answer:
+        "It comes down to construction type rather than age. Marion's growth as a bedroom community for Memphis has brought a lot of denser apartment and rental housing, and German cockroaches move easily between units through shared walls and plumbing chases in that kind of building. Treating a single apartment without addressing connected units usually leads to a quick reinfestation.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "West Memphis", slug: "west-memphis", stateSlug: "arkansas" },
+    { name: "Jonesboro", slug: "jonesboro", stateSlug: "arkansas" },
+  ],
+  contentTemplate: "B",
+  contentSoul: "neighbor",
+  metaTitle: "Pest Control in Marion, AR | Termites, Mosquitoes & Cockroaches",
+  metaDescription:
+    "Marion AR pest control for subterranean termites, mosquitoes, cockroaches, and carpenter ants in Crittenden County. Licensed and insured. Free inspection.",
+},
 ];

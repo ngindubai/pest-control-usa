@@ -82,8 +82,14 @@ function getAddedSlugs(basename) {
       .filter((l) => l.startsWith("+") && !l.startsWith("+++"))
       .map((l) => l.slice(1));
   }
+  // Anchored to the start of the line (ignoring indentation) so this only
+  // matches a record's own top-level `slug: "..."` field, not a `slug: "..."`
+  // embedded inside a `nearbyCities` entry like `{ name: "X", slug: "y" }`.
+  // Without this anchor, a new record's nearbyCities reference to an
+  // existing (and possibly already-thin) neighboring city would sweep that
+  // unrelated pre-existing record into this batch's gate, see MEMORY.md.
   const slugs = new Set();
-  const re = /slug:\s*"([^"]+)"/;
+  const re = /^\s*slug:\s*"([^"]+)"/;
   for (const line of addedLines) {
     const m = re.exec(line);
     if (m) slugs.add(m[1]);
