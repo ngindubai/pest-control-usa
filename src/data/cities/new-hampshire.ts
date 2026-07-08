@@ -1829,4 +1829,458 @@ export const newHampshireCities: CityLocation[] = [
     metaTitle: "Pest Control in Pelham, NH | Ticks, Mice & Carpenter Ants",
     metaDescription: "Pest control in Pelham, New Hampshire for deer ticks, mice, mosquitoes, carpenter ants, and stink bugs. Hillsborough County's forested town demands proactive tick management. Licensed NH technicians.",
   },
+{
+  slug: "somersworth-nh",
+  name: "Somersworth",
+  state: "New Hampshire",
+  stateSlug: "new-hampshire",
+  stateAbbr: "NH",
+  tier: "T3",
+  population: "~11,900",
+  county: "Strafford County",
+  climate: "cold-humid",
+  climateDriver:
+    "Somersworth grew up around the Salmon Falls River, which drops about 100 feet over a mile at Great Falls and once powered one of the Seacoast region's largest 19th-century textile mill complexes. The river still forms the city's eastern border with Maine, lining a dense downtown of converted brick mills with wooded, humid riverbank habitat. That mix of old wood-frame housing and river corridor greenway shapes a pest calendar built around ticks, ants, roaches, and rats rather than the drier pests found inland.",
+  topPests: ["Deer Ticks", "Carpenter Ants", "German Cockroaches", "Norway Rats"],
+  pestProfile: [
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "Spring through fall, with a secondary peak in late fall",
+      note: "The wooded riverbanks along the Salmon Falls River and the greenway trails threading Somersworth's neighborhoods put deer ticks within reach of nearly every yard in the city.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall, most active at dusk",
+      note: "Somersworth's stock of wood-frame triple-deckers and 19th-century mill worker housing gives carpenter ants plenty of moisture-softened sills and porch framing to hollow out.",
+    },
+    {
+      name: "German Cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "The dense multi-family housing packed around the old Great Falls mill buildings downtown gives German cockroaches an easy route between units through shared plumbing and wall chases.",
+    },
+    {
+      name: "Norway Rats",
+      serviceSlug: "rat-control",
+      activeSeason: "Fall through winter, with steady activity near the river",
+      note: "Norway rats den along the Salmon Falls River's rocky banks and the city's older sewer lines, then push into basements once cold weather sets in.",
+    },
+  ],
+  localHook:
+    "Somersworth split off from Dover in 1729 and grew around the 100-foot drop of the Salmon Falls River at Great Falls, where the Wendell brothers built one of the Seacoast's largest cotton and wool mill operations starting in 1822. That same river corridor, now lined with converted mill lofts and walking trails, still shapes which pests give Somersworth homeowners the most trouble.",
+  intro:
+    "Somersworth's industrial history left the city with a dense downtown of converted brick mills and wood-frame worker housing, and both shape today's pest calendar. The Salmon Falls River, which still forms the Maine border along the city's eastern edge, brings wooded riparian habitat right up against residential streets, and that means deer ticks are a real spring-through-fall concern here. Carpenter ants find plenty of softened wood in the city's older triple-deckers, while the tight multi-family housing near the old mill district gives German cockroaches an easy path from unit to unit. Add Norway rats working the riverbank and older sewer infrastructure, and Somersworth's pest pressure looks a lot like the mill town it grew from. Few Seacoast cities pack this much pest variety into so small a footprint.",
+  sections: [
+    {
+      heading: "Why Are Deer Ticks Such a Problem Along the Salmon Falls River?",
+      body: "The Salmon Falls River corridor runs the length of Somersworth's eastern border, and the wooded, brushy banks on both the New Hampshire and Maine sides give deer ticks exactly the humid, leaf-littered habitat they need. UNH Cooperative Extension and the New Hampshire Department of Agriculture both track blacklegged ticks statewide, and Strafford County sits well within the range where a meaningful share of ticks test positive for the bacteria that causes Lyme disease. Somersworth's mix of riverside walking trails, backyard tree lines, and old stone walls gives ticks easy cover close to houses, not just deep woods. Ticks are most active from April through November in this part of New Hampshire, with a secondary bump of adult activity in late fall. Anyone who gardens, walks a dog along the river trails, or lets kids play near the tree line should check for ticks daily during the warmer months. A licensed applicator can treat the yard perimeter and the brushy edges where ticks wait for a host to brush past.",
+    },
+    {
+      heading: "What Somersworth's Old Mill Buildings Mean for Ants, Roaches, and Rats",
+      body: "Somersworth's downtown grew up fast around the Great Falls mills, and a lot of that 19th-century construction is still standing, now converted into apartments, offices, and small businesses. Old timber framing that has taken on moisture over a century and a half is exactly what carpenter ants look for, and they will hollow out softened sills, porch posts, and window frames without anyone noticing until the damage is done. The same dense, connected construction that makes those mill conversions charming also makes it simple for German cockroaches to move between units through shared plumbing chases and wall voids, so an infestation in one apartment rarely stays contained. Down at ground level, Norway rats den in the rocky banks along the Salmon Falls River and in gaps around the city's older sewer and storm drain lines, then move into basements and crawl spaces as temperatures drop in fall. A property along Main Street or High Street with exposed foundation gaps or an unsealed dumpster area is an easy target for all three. Regular inspection of sill plates, shared walls, and foundation penetrations catches these problems while they are still small and cheap to fix.",
+    },
+  ],
+  prevention: [
+    "Check for ticks after any walk along the Salmon Falls River trails or through backyard tree lines, especially April through November.",
+    "Trim brush and stack firewood away from the foundation to reduce the damp, shaded conditions carpenter ants and ticks both prefer.",
+    "Seal gaps around shared walls and plumbing chases in multi-family mill-era buildings to stop German cockroaches from moving unit to unit.",
+    "Close foundation gaps and repair storm drain and sewer line access points near the riverbank before fall to keep Norway rats from moving indoors.",
+    "Keep gutters clear and grade soil away from sills, since old mill-town timber framing softened by moisture is what draws carpenter ants in the first place.",
+  ],
+  costNote:
+    "Pest control in Somersworth typically runs $150 to $300 for a standard residential treatment, with tick and mosquito yard programs and rat exclusion around older mill buildings priced separately based on property size and river frontage. Free inspection.",
+  faqs: [
+    {
+      question: "Are deer ticks really a problem in Somersworth?",
+      answer:
+        "Yes. Somersworth sits along the Salmon Falls River, and the wooded, brushy riverbank that runs the length of the city's eastern border gives deer ticks the humid, leaf-littered habitat they need. Strafford County falls within the part of New Hampshire where a significant share of blacklegged ticks test positive for the bacteria that causes Lyme disease, so a bite deserves attention. Checking for ticks after time along the river trails or in the yard, and treating the property perimeter each spring, cuts the risk substantially.",
+    },
+    {
+      question: "Why do so many old buildings in Somersworth have carpenter ant problems?",
+      answer:
+        "The city's downtown grew up around the Great Falls textile mills in the 1820s, and a lot of that original timber-frame construction, along with the wood-frame worker housing built around it, is still standing today. Wood that has absorbed moisture over a century and a half is soft enough for carpenter ants to hollow out easily, and they often go unnoticed until sills or porch framing start to sag. An inspection of any older Somersworth property should include the foundation sills and porch framing, not just the kitchen.",
+    },
+    {
+      question: "What time of year are rats most active in Somersworth?",
+      answer:
+        "Norway rats den along the Salmon Falls River banks and around the city's older sewer infrastructure year-round, but activity indoors picks up sharply in fall as temperatures drop and rats look for a warmer place to nest. Basements and crawl spaces near the river or close to the downtown mill district see the most pressure. Sealing foundation gaps before October is the single most effective step a Somersworth property owner can take.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+  nearbyCities: [
+    { name: "Dover", slug: "dover-nh", stateSlug: "new-hampshire" },
+    { name: "Rochester", slug: "rochester-nh", stateSlug: "new-hampshire" },
+    { name: "Durham", slug: "durham-nh", stateSlug: "new-hampshire" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Somersworth, NH | Ticks, Ants & Rats",
+  metaDescription:
+    "Somersworth pest control for deer ticks, carpenter ants, German cockroaches and Norway rats. Salmon Falls River mill-town specialists in Strafford County. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "franklin-nh",
+  name: "Franklin",
+  state: "New Hampshire",
+  stateSlug: "new-hampshire",
+  stateAbbr: "NH",
+  tier: "T3",
+  population: "~8,700",
+  county: "Merrimack County",
+  climate: "cold-humid",
+  climateDriver:
+    "Franklin sits exactly where the Pemigewasset and Winnipesaukee rivers meet to form the Merrimack River, a confluence that powered the mills the city was built around after it was renamed for Benjamin Franklin in 1820. The falls that once ran that industry now feed slower pools and backwaters near the old mill dam site, and that standing and slow-moving water, paired with aging wood-frame mill housing, shapes a pest calendar built around mosquitoes, carpenter ants, ticks, and mice.",
+  topPests: ["Carpenter Ants", "Deer Ticks", "Mosquitoes", "House Mice"],
+  pestProfile: [
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "Franklin's older mill-era housing near the Winnipesaukee River falls, much of it original wood-frame construction sitting close to damp riverbanks, gives carpenter ants abundant softened wood to colonize.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The wooded slopes around Webster Lake and the Pemigewasset and Winnipesaukee river corridors that meet in Franklin put deer ticks within reach of most yards outside downtown.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Late spring through summer",
+      note: "The confluence of the Pemigewasset and Winnipesaukee rivers, plus the calmer water impounded near the old mill dam now home to Mill City Park, creates slow-moving and standing water that breeds mosquitoes through the warm months.",
+    },
+    {
+      name: "House Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Fall through winter",
+      note: "As one of New Hampshire's smallest, oldest mill cities, Franklin has plenty of aging foundations, and the surrounding Merrimack County farmland pushes house mice indoors once fall temperatures drop.",
+    },
+  ],
+  localHook:
+    "Franklin sits exactly where the Pemigewasset and Winnipesaukee rivers meet to form the Merrimack River, a confluence that powered the mills the city was built around and still shapes its pest pressure today. At 8,741 residents in the 2020 census, Franklin is New Hampshire's smallest city, but its river geography and mill-era housing stock give it an outsized set of pest issues for its size.",
+  intro:
+    "Franklin began as Pemigewasset Village before it was renamed in 1820 for Benjamin Franklin, and it grew into a mill city on the strength of the falls where the Winnipesaukee River drops into the newly formed Merrimack. That water power built the wood-frame housing that still lines the city's older neighborhoods, and it also left behind exactly the kind of damp, slow-moving water that draws mosquitoes each summer. Carpenter ants find soft, moisture-damaged wood in that same aging housing stock, especially near the riverbanks where humidity runs highest. The wooded terrain surrounding Webster Lake and the two rivers gives deer ticks plenty of cover close to Franklin's residential streets. And with Merrimack County farmland pressing in from the edges of town, house mice are a predictable fall and winter visitor once the weather turns. Franklin's small size does not mean small pest pressure, it just means the pressure concentrates fast in a compact city built along two rivers.",
+  sections: [
+    {
+      heading: "Why Franklin's River Confluence Breeds So Many Mosquitoes",
+      body: "Franklin is one of the only New Hampshire cities built directly at a river confluence, with the Pemigewasset and Winnipesaukee rivers joining to form the Merrimack right in the middle of downtown. That much moving water sounds like it would discourage mosquitoes, but the slower pools, backwaters, and the impounded stretch near the old mill dam at what is now Mill City Park all create the still or slow water mosquitoes need to lay eggs. Warm, humid Merrimack County summers let populations build quickly from late May through August. Homes near the riverbanks or with low-lying yards that hold water after a storm see the heaviest pressure. Clearing gutters, dumping standing water in unused containers, and treating the yard perimeter before peak season keeps outdoor evenings usable. Franklin's whitewater park draws visitors to the riverfront all summer, and mosquito pressure is part of what any riverside property owner has to manage alongside that draw.",
+    },
+    {
+      heading: "How Franklin's Mill-Era Housing Feeds Carpenter Ants and Fall Mice",
+      body: "Much of Franklin's housing dates to the mill era, when water-powered textile and paper operations built wood-frame homes for workers close to the rivers. A century and more later, that framing has absorbed moisture from riverside humidity and aging rooflines, and carpenter ants are quick to hollow out any sill, porch post, or window frame that has gone soft. Franklin's status as New Hampshire's smallest city by population has not slowed the pace of that aging housing stock's upkeep needs. Meanwhile, the farmland ringing Merrimack County outside Franklin supports large house mouse populations that move toward buildings as fields are harvested and temperatures fall. Older foundations with gaps around sills or utility penetrations are the easiest entry point. A fall inspection of both the exterior foundation and any porch or sill framing showing soft wood catches both problems before winter.",
+    },
+  ],
+  prevention: [
+    "Clear gutters and eliminate standing water near the riverbanks and low-lying yards before mosquito season builds each May.",
+    "Inspect porch posts, window frames, and sills on older mill-era homes each spring for the soft, moisture-damaged wood carpenter ants prefer.",
+    "Seal foundation gaps and utility penetrations before fall to keep Merrimack County farmland mice from moving indoors.",
+    "Check for ticks after time in the wooded areas around Webster Lake or along the river corridors, April through November.",
+    "Keep firewood and brush piles away from the foundation, since damp wood near the house draws both carpenter ants and ticks.",
+  ],
+  costNote:
+    "Pest control in Franklin typically runs $150 to $300 for a standard residential visit, with mosquito programs along the riverfront and carpenter ant treatment for older mill-era homes priced by property size. Free inspection.",
+  faqs: [
+    {
+      question: "Why does Franklin have so many mosquitoes near the river?",
+      answer:
+        "Franklin sits right at the confluence of the Pemigewasset and Winnipesaukee rivers, and the slower pools and backwaters near that confluence, including the impounded stretch by Mill City Park, create standing and slow-moving water that mosquitoes use to breed. Populations build fast in the humid Merrimack County summer. A seasonal yard treatment and clearing any standing water on the property both cut down on pressure through the warm months.",
+    },
+    {
+      question: "Is Franklin's older housing more prone to carpenter ants?",
+      answer:
+        "Yes, a lot of Franklin's housing dates back to the mill era when the city grew up around the Winnipesaukee River falls, and that wood-frame construction has had well over a century to absorb moisture near the riverbanks. Carpenter ants target exactly that kind of softened wood in sills, porch posts, and window frames. An inspection of the exterior framing catches most infestations before they spread indoors.",
+    },
+    {
+      question: "When do house mice move into Franklin homes?",
+      answer:
+        "Mice pressure in Franklin picks up in fall as the farmland surrounding Merrimack County is harvested and temperatures drop, pushing mice to look for a warmer place to nest. Older foundations common in this small mill city, with gaps around sills and utility lines, are easy entry points. Sealing those gaps before October is the most effective single step a homeowner can take.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "Concord", slug: "concord-nh", stateSlug: "new-hampshire" },
+    { name: "Merrimack", slug: "merrimack-nh", stateSlug: "new-hampshire" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Franklin, NH | Ants, Ticks & Mosquitoes",
+  metaDescription:
+    "Franklin NH pest control for carpenter ants, deer ticks, mosquitoes and house mice. Merrimack County river-confluence mill-city specialists. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "lebanon-nh",
+  name: "Lebanon",
+  state: "New Hampshire",
+  stateSlug: "new-hampshire",
+  stateAbbr: "NH",
+  tier: "T3",
+  population: "~14,300",
+  county: "Grafton County",
+  climate: "cold-humid",
+  climateDriver:
+    "Lebanon is the only city in Grafton County, chartered in 1761 along the Connecticut River and built up around twenty mills already running on the Connecticut and Mascoma rivers by 1817. The city sits inside a landscape of forested hills at a higher elevation than most of southern New Hampshire, which brings colder winters and a longer tick season shaped by dense woodland right up to downtown. That same terrain, plus mill-era wood-frame construction, drives a pest calendar built around ticks, ants, mice, and yellow jackets.",
+  topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Yellow Jackets"],
+  pestProfile: [
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The forested hills surrounding Lebanon's Connecticut and Mascoma River valleys, part of New Hampshire's wooded Upper Valley, put deer ticks within easy reach of the trails and backyards that ring the city.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "Lebanon's mix of 19th-century mill housing along the Mascoma River and the wooded lots common in its outlying neighborhoods gives carpenter ants plenty of damp or softened wood to nest in.",
+    },
+    {
+      name: "House Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Fall through winter",
+      note: "Lebanon's colder Upper Valley winters, tied to its Grafton County elevation, drive house mice toward foundations and outbuildings earlier in the fall than in towns farther south.",
+    },
+    {
+      name: "Yellow Jackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Mid-summer through fall",
+      note: "Ground-nesting yellow jackets are a common late-summer complaint in Lebanon's parks and the wooded margins around West Lebanon's commercial district near the Connecticut River.",
+    },
+  ],
+  localHook:
+    "Lebanon was chartered in 1761 as one of thirteen towns Governor Benning Wentworth granted along the Connecticut River on a single day, and its economy ran on the water power of that river and the Mascoma for nearly two centuries before Dartmouth-Hitchcock Medical Center anchored a new one in 1991. The forested hills that made those rivers valuable for mills are the same hills that keep deer ticks and carpenter ants a year-in, year-out concern for Lebanon property owners.",
+  intro:
+    "Lebanon is the only city in Grafton County, and it grew up along the Connecticut and Mascoma rivers, where twenty mills were already running by 1817. That mill history left behind older wood-frame construction near both riverbanks, and it sits inside a landscape of forested hills that has changed far less than the economy has. Those hills mean deer ticks are active across most of the warm season, from the wooded trails around downtown to the yards in West Lebanon. Carpenter ants take advantage of the same damp, older construction the mills built, especially near the river corridors. Grafton County's higher elevation brings colder winters than most of southern New Hampshire, which pushes house mice indoors earlier each fall. And Lebanon's parks and wooded commercial edges see a reliable run of ground-nesting yellow jackets from midsummer into fall, right as outdoor gatherings pick up around the Dartmouth-Hitchcock medical campus and the growing West Lebanon retail corridor.",
+  sections: [
+    {
+      heading: "Why Deer Ticks Thrive in Lebanon's Upper Valley Terrain",
+      body: "Lebanon sits in New Hampshire's Upper Valley, a landscape of forested hills and river bottomland that has supported deer and other tick hosts for as long as the area has been settled. UNH Cooperative Extension identifies blacklegged ticks as established across the state, and Grafton County's wooded terrain gives them the humid leaf litter and brush they need close to trails, stone walls, and backyard tree lines. Lebanon's mix of dense downtown blocks and heavily wooded outlying neighborhoods means tick exposure varies a lot within the same city, with the highest risk right at the edge where lawn meets woods. Ticks are active from April into November here, with the heaviest nymph activity in late spring and early summer, when they are hardest to spot. Anyone spending time on the Northern Rail Trail or in a wooded backyard near West Lebanon should do a tick check daily during warm months. A licensed perimeter treatment on wooded property lines reduces the number of ticks that make it into the yard in the first place.",
+    },
+    {
+      heading: "How Lebanon's Cold Winters Shape Mouse and Ant Pressure",
+      body: "Grafton County's elevation gives Lebanon colder winters than cities farther south in New Hampshire, and that cold arrives early enough most years to send house mice looking for shelter well before the calendar says fall is over. Older foundations near the Mascoma River and in Lebanon's original mill neighborhoods often have gaps around sills and utility lines that make easy entry points. Carpenter ants follow a similar pattern tied to the same aging housing stock, targeting wood that has taken on moisture from river humidity or a leaking roofline. Because Lebanon's economy shifted from mills to medicine and technology, a lot of that older construction has been renovated for new uses without always addressing the wood or foundation issues underneath. A fall inspection focused on foundation sills, porch framing, and utility penetrations catches both mice and ants while treatment is still simple. Waiting until the first hard frost usually means dealing with an active indoor mouse problem instead of a preventable one.",
+    },
+  ],
+  prevention: [
+    "Do a daily tick check after time on the Northern Rail Trail or in wooded yards, especially during peak nymph season in late spring.",
+    "Seal foundation gaps and utility penetrations before the first hard frost, since Lebanon's Grafton County elevation brings cold weather earlier than most of southern New Hampshire.",
+    "Inspect porch framing and sills on older mill-era homes near the Mascoma River each spring for the soft wood carpenter ants target.",
+    "Have ground-nesting yellow jacket colonies in parks or wooded yard edges treated in late summer, before colonies reach peak size in early fall.",
+    "Keep woodpiles and brush off the ground and away from the foundation to reduce shelter for both ticks and carpenter ants.",
+  ],
+  costNote:
+    "Pest control in Lebanon typically runs $150 to $300 for a standard residential visit, with tick perimeter treatment and fall exclusion work for older mill-era homes priced by property size. Free inspection.",
+  faqs: [
+    {
+      question: "How bad are deer ticks in Lebanon, NH?",
+      answer:
+        "Lebanon's Upper Valley terrain, forested hills bordering the Connecticut and Mascoma rivers, gives deer ticks strong habitat close to trails, stone walls, and backyard tree lines. Ticks are active from April through November, with nymphs hardest to spot in late spring and early summer. Daily tick checks after time outdoors and a treated buffer along wooded property lines are the most effective defense.",
+    },
+    {
+      question: "Why do mice move indoors early in Lebanon compared to other New Hampshire cities?",
+      answer:
+        "Lebanon sits at a higher elevation in Grafton County than most of southern New Hampshire, and that means colder weather arrives sooner. House mice respond to that early cold by seeking indoor shelter ahead of the calendar, especially in the older foundations common near the Mascoma River and Lebanon's original mill neighborhoods. Sealing foundation gaps before the first hard frost heads off most fall invasions.",
+    },
+    {
+      question: "Are yellow jackets a problem in Lebanon in the fall?",
+      answer:
+        "Yes. Ground-nesting yellow jacket colonies in Lebanon's parks and the wooded edges around West Lebanon's commercial district reach peak size from midsummer into early fall, right as outdoor gatherings around the Dartmouth-Hitchcock campus and downtown pick up. Colonies are easiest and safest to treat in late summer before they reach full strength. A sting can be dangerous for anyone with an allergy, so an active nest near a doorway or patio is worth professional removal.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "Claremont", slug: "claremont-nh", stateSlug: "new-hampshire" },
+    { name: "Concord", slug: "concord-nh", stateSlug: "new-hampshire" },
+    { name: "Franklin", slug: "franklin-nh", stateSlug: "new-hampshire" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Lebanon, NH | Ticks, Ants & Mice",
+  metaDescription:
+    "Lebanon NH pest control for deer ticks, carpenter ants, house mice and yellow jackets. Grafton County Upper Valley specialists near Dartmouth-Hitchcock. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "durham-nh",
+  name: "Durham",
+  state: "New Hampshire",
+  stateSlug: "new-hampshire",
+  stateAbbr: "NH",
+  tier: "T3",
+  population: "~15,500",
+  county: "Strafford County",
+  climate: "cold-humid",
+  climateDriver:
+    "Durham sits where the Oyster River empties into Great Bay, one of the largest tidal estuaries in New England, and that salt marsh and wetland fringe creates unusually large amounts of standing and slow-moving water. The University of New Hampshire, home to roughly 13,000 students, dominates the town center with dense, high-turnover rental housing. The combination, a major estuary plus a large university, gives Durham a pest calendar unlike most towns its size in New Hampshire.",
+  topPests: ["Mosquitoes", "Deer Ticks", "Carpenter Ants", "German Cockroaches"],
+  pestProfile: [
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Late spring through fall",
+      note: "Durham sits at the mouth of the Oyster River on Great Bay, and the tidal salt marsh and freshwater wetland fringe surrounding that estuary create some of the most productive mosquito breeding habitat on the New Hampshire seacoast.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The wooded conservation land and marsh-edge trails around Great Bay and the Oyster River give deer ticks dense cover close to Durham's neighborhoods and the University of New Hampshire campus.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "Durham's older farmhouses and campus-adjacent rental housing, much of it wood-frame construction near the damp Oyster River bottomland, gives carpenter ants plenty of moisture-softened wood to colonize.",
+    },
+    {
+      name: "German Cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "The dense off-campus student housing surrounding the University of New Hampshire, with high turnover and shared walls, is one of the more persistent sources of German cockroach infestations in Strafford County.",
+    },
+  ],
+  localHook:
+    "Durham sits where the Oyster River empties into Great Bay, a tidal estuary that has drawn people to this stretch of the New Hampshire coast for an estimated 11,000 years. The same marsh and wetland habitat that made Great Bay worth settling now makes Durham one of the more mosquito-pressured towns on the Seacoast, and the University of New Hampshire's dense student housing adds a second, very different layer of pest pressure on top of it.",
+  intro:
+    "Durham is a small town by population, but the Great Bay estuary at its edge and the University of New Hampshire at its center give it pest pressure that punches well above its size. Great Bay's tidal salt marsh and the freshwater wetlands along the Oyster River create standing and slow-moving water across a wide area, and that is exactly the habitat mosquitoes need to breed from late spring through fall. The same wooded, marsh-edge conservation land gives deer ticks dense cover right up against residential streets and the edges of campus. Durham's older farmhouses and the wood-frame rental housing that surrounds UNH sit close to that damp bottomland, which draws carpenter ants into softened sills and framing. And the university itself adds a pest issue the marsh does not: dense, high-turnover student housing where German cockroaches move easily from unit to unit. Few New Hampshire towns this size combine a major tidal estuary and a 13,000-student university, and Durham's pest calendar reflects both.",
+  sections: [
+    {
+      heading: "Why Great Bay Makes Durham One of the Seacoast's Buggiest Towns",
+      body: "Great Bay is one of the largest tidal estuaries in New England, and the salt marsh and freshwater wetland fringe where it meets the Oyster River in Durham creates an unusually large amount of standing and slow-moving water. That water warms quickly in late spring and stays productive for mosquitoes well into fall, longer than most inland New Hampshire towns see. The same marsh-edge habitat, plus the conservation land and wooded trails that surround it, gives deer ticks dense cover close to neighborhoods on Durham's edges and along the paths leading toward campus. New Hampshire has documented rising tick activity as warmer seasons extend, and Strafford County sees real Lyme disease risk as a result. A property near Great Bay or the Oyster River should expect a longer mosquito season than a town without that estuary, and a longer tick season along any wooded or marsh-edge property line. Seasonal mosquito treatment and a tick-focused perimeter application are both worth planning for well before Memorial Day.",
+    },
+    {
+      heading: "How UNH's Student Housing Drives Durham's Cockroach and Ant Pressure",
+      body: "The University of New Hampshire brings roughly thirteen thousand students into Durham each year, and a lot of them live in dense, high-turnover off-campus rental housing packed close together near campus. That density is exactly what German cockroaches need to spread, since they move easily between units through shared walls, plumbing chases, and the belongings that come and go every August and May. Landlords who skip inspection between tenants make the problem worse, not better. Away from the rental blocks, Durham's older farmhouses and wood-frame homes near the Oyster River's damp bottomland give carpenter ants a foothold in softened sills and porch framing, a problem that has nothing to do with the university and everything to do with the town's older housing stock. Both issues call for different responses: cockroach control in dense rental housing depends on treating adjoining units together, while carpenter ant control in an older farmhouse depends on finding and drying out the moisture source. A one-size approach rarely solves either.",
+    },
+  ],
+  prevention: [
+    "Plan seasonal mosquito treatment before Memorial Day given how long Great Bay's marsh habitat stays productive into the fall.",
+    "Do daily tick checks after time on Great Bay conservation trails or campus-adjacent wooded paths, April through November.",
+    "Inspect sills and porch framing on older farmhouses near the Oyster River each spring for the moisture-softened wood carpenter ants prefer.",
+    "In multi-unit rental housing near campus, coordinate cockroach treatment across adjoining units rather than treating just one apartment.",
+    "Landlords should inspect and treat student rentals between tenants each August, before a new lease cycle can mask an existing infestation.",
+  ],
+  costNote:
+    "Pest control in Durham typically runs $150 to $300 for a standard residential visit, with seasonal mosquito programs near Great Bay and multi-unit cockroach treatment for student rental housing priced separately by property size. Free inspection.",
+  faqs: [
+    {
+      question: "Why is Durham's mosquito season longer than other New Hampshire towns?",
+      answer:
+        "Durham sits where the Oyster River meets Great Bay, one of the largest tidal estuaries in New England, and the salt marsh and freshwater wetland habitat around that confluence stays productive for mosquitoes from late spring well into fall. That is longer than most inland New Hampshire towns experience. Planning seasonal treatment before Memorial Day, rather than waiting for mosquitoes to become a problem, makes the biggest difference.",
+    },
+    {
+      question: "Are German cockroaches a bigger issue in Durham because of UNH?",
+      answer:
+        "Yes. The University of New Hampshire's dense, high-turnover off-campus student housing gives German cockroaches an easy way to spread between units through shared walls and plumbing. Treating just one apartment in a building rarely solves the problem if neighboring units are also infested. Coordinated treatment across a building, along with inspection between lease cycles, gets better results.",
+    },
+    {
+      question: "Is Lyme disease a real risk in Durham?",
+      answer:
+        "Durham's location next to Great Bay's conservation land and wooded trails gives deer ticks dense cover close to residential neighborhoods and the university, and Strafford County sees documented tick activity across the warm season from April through November. A daily tick check after time outdoors, especially near marsh-edge or wooded trails, along with a treated yard perimeter, meaningfully lowers the risk.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Dover", slug: "dover-nh", stateSlug: "new-hampshire" },
+    { name: "Somersworth", slug: "somersworth-nh", stateSlug: "new-hampshire" },
+    { name: "Rochester", slug: "rochester-nh", stateSlug: "new-hampshire" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Durham, NH | Mosquitoes, Ticks & Roaches",
+  metaDescription:
+    "Durham NH pest control for mosquitoes, deer ticks, carpenter ants and German cockroaches. Great Bay estuary and UNH campus specialists. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "windham-nh",
+  name: "Windham",
+  state: "New Hampshire",
+  stateSlug: "new-hampshire",
+  stateAbbr: "NH",
+  tier: "T3",
+  population: "~15,800",
+  county: "Rockingham County",
+  climate: "temperate",
+  climateDriver:
+    "Windham was settled by Scots-Irish immigrants beginning in 1719 as part of the area then known as Nutfield, and it stayed a quiet farming town for two centuries before becoming one of the fastest-growing communities in New England between 2010 and 2020. New subdivisions built along Interstate 93 now sit directly against the wooded lots and ponds, including historic Cobbett's Pond, that still define much of the town, keeping mosquito and tick pressure high even as the population has nearly doubled.",
+  topPests: ["Mosquitoes", "Deer Ticks", "Carpenter Ants", "Boxelder Bugs"],
+  pestProfile: [
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Late spring through summer",
+      note: "Windham's Cobbett's Pond and the smaller ponds and wetlands scattered across town give mosquitoes reliable breeding water right alongside the lakefront properties that have become some of Windham's most desirable addresses.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "Windham's rapid growth from a sparsely settled farming town into one of New Hampshire's fastest-growing suburbs has put new subdivisions directly against wooded lots where deer ticks remain common.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "The mature woodlots left standing between Windham's newer subdivisions, along with older farmhouses dating to the town's colonial Scots-Irish settlement, give carpenter ants damp, undisturbed wood to colonize.",
+    },
+    {
+      name: "Boxelder Bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "Fall",
+      note: "Boxelder and maple trees common around Windham's older properties and pond-front lots draw large fall boxelder bug aggregations onto sun-facing walls before the insects look for a way inside for winter.",
+    },
+  ],
+  localHook:
+    "Windham was settled by Scots-Irish immigrants beginning in 1719 as part of the area then known as Nutfield, and it grew slowly as a farming town for two centuries before becoming one of the fastest-growing communities in New Hampshire and New England between 2010 and 2020. That growth, from about 13,600 residents to nearly 15,800, has pushed new subdivisions right up against the wooded lots and ponds, including historic Cobbett's Pond, that still define much of the town.",
+  intro:
+    "Windham has changed faster than almost anywhere else in New Hampshire over the past two decades, adding new subdivisions along Interstate 93 as families move north out of the Boston commuter belt. But the woods, ponds, and farmland that made Windham a quiet agricultural town for two hundred years have not gone anywhere, they are just now next door to a lot more houses. Cobbett's Pond and the town's smaller wetlands give mosquitoes plenty of breeding water each summer, right where lakefront living has become one of Windham's biggest draws. Those same wooded lots, many left standing between new developments, keep deer ticks a real concern for anyone with a yard that backs onto trees. Carpenter ants take advantage of both the older farmhouses left from Windham's colonial period and the damp wood in maturing tree lines near newer construction. And when fall arrives, the boxelder and maple trees scattered across the town's older properties send boxelder bugs swarming onto sun-facing walls looking for a way inside.",
+  sections: [
+    {
+      heading: "Why Windham's Rapid Growth Has Not Solved Its Tick and Mosquito Problem",
+      body: "Windham's population grew by more than two thousand people between 2010 and 2020, making it one of the fastest-growing towns in New England, but that growth has mostly taken the form of new subdivisions built into or next to existing woodland rather than replacing it. The result is more households than ever sitting directly against the tick habitat that has always been part of Windham's landscape. Cobbett's Pond, along with Windham's smaller ponds and wetlands, adds mosquito breeding water close to some of the town's most desirable lakefront lots. Because Windham has no public transportation and functions almost entirely as a commuter town along Interstate 93, most residents spend real time in their own yards rather than in a dense downtown, which raises everyday exposure to both ticks and mosquitoes. Ticks are active from April through November in this part of Rockingham County, with nymphs hardest to spot in late spring. A yard that backs onto woods or sits near pond frontage benefits from both a seasonal mosquito program and a tick-focused perimeter treatment.",
+    },
+    {
+      heading: "Carpenter Ants and Fall Boxelder Bugs in a Town Still Half Farmland",
+      body: "Windham's history as a Scots-Irish farming settlement dating to 1719 left behind older farmhouses scattered among the newer subdivisions, and those structures, along with mature tree lines left standing between developments, give carpenter ants plenty of damp or aging wood to nest in. New construction is not immune either, since builders often leave stands of mature trees close to new homes for privacy, and those trees hold the same moisture that draws ants toward nearby framing. Fall brings a different, more visible problem: boxelder and maple trees common on Windham's older lots and around pond-front properties send large boxelder bug aggregations onto sun-facing exterior walls, where the insects gather by the hundreds before looking for gaps to slip inside for winter. They do not bite or cause structural damage, but a swarm on a light-colored house is hard to ignore and unpleasant once they get indoors. A perimeter treatment applied in late summer, before the fall aggregation begins, keeps most boxelder bugs from ever reaching the siding in the first place.",
+    },
+  ],
+  prevention: [
+    "Schedule seasonal mosquito treatment before Memorial Day for any property near Cobbett's Pond or Windham's smaller wetlands.",
+    "Do daily tick checks after yard work or trail time, since new subdivisions built against existing woodland keep tick exposure high across town.",
+    "Inspect older farmhouse sills and the framing near mature tree lines each spring for the damp wood carpenter ants prefer.",
+    "Apply an exterior perimeter treatment in late summer, before boxelder bugs begin their fall aggregation on sun-facing walls.",
+    "Seal gaps around windows, siding, and utility penetrations before fall to keep boxelder bugs and other seasonal invaders from getting inside.",
+  ],
+  costNote:
+    "Pest control in Windham typically runs $150 to $300 for a standard residential visit, with lakefront mosquito programs and fall boxelder bug perimeter treatment priced by property size. Free inspection.",
+  faqs: [
+    {
+      question: "Does Windham's rapid growth mean fewer tick and mosquito problems?",
+      answer:
+        "Not really. Windham added more than two thousand residents between 2010 and 2020, one of the fastest growth rates in New England, but most of that growth built new subdivisions into or next to existing woodland rather than clearing it. Cobbett's Pond and Windham's smaller wetlands still provide mosquito breeding water, and the surrounding woods still support deer ticks. A yard backing onto trees or pond frontage carries real exposure regardless of how new the house is.",
+    },
+    {
+      question: "Why do boxelder bugs swarm on houses in Windham every fall?",
+      answer:
+        "Boxelder and maple trees common on Windham's older properties and pond-front lots host large boxelder bug populations through the summer. As temperatures drop each fall, the bugs gather by the hundreds on sun-facing exterior walls before looking for gaps to get inside for winter. They are harmless but unpleasant in numbers. A late-summer perimeter treatment, applied before the aggregation begins, keeps most of them off the siding entirely.",
+    },
+    {
+      question: "Are older Windham farmhouses more prone to carpenter ants?",
+      answer:
+        "Yes. Windham's farming history dates back to Scots-Irish settlement in 1719, and several of the town's older farmhouses have wood-frame construction that has had centuries to develop the damp or softened spots carpenter ants target. Mature tree lines left standing between newer subdivisions add to the moisture nearby framing can pick up. An inspection of sills and porch framing each spring catches most infestations early.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+  nearbyCities: [
+    { name: "Derry", slug: "derry", stateSlug: "new-hampshire" },
+    { name: "Hudson", slug: "hudson-nh", stateSlug: "new-hampshire" },
+    { name: "Bedford", slug: "bedford-nh", stateSlug: "new-hampshire" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Windham, NH | Mosquitoes, Ticks & Ants",
+  metaDescription:
+    "Windham NH pest control for mosquitoes, deer ticks, carpenter ants and boxelder bugs. Rockingham County lake-town and commuter-suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+},
 ];

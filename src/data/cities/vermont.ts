@@ -1400,4 +1400,459 @@ export const vermontCities: CityLocation[] = [
     metaTitle: "Pest Control in Middlebury, VT | Cluster Flies, Ticks & Carpenter Ants",
     metaDescription: "Pest control in Middlebury, Vermont for cluster flies, carpenter ants, deer ticks, mice, and centipedes. Addison County historic buildings and wooded surroundings need expert pest management. Licensed Vermont technicians.",
   },
+{
+  slug: "milton-vt",
+  name: "Milton",
+  state: "Vermont",
+  stateSlug: "vermont",
+  stateAbbr: "VT",
+  tier: "T3",
+  population: "~10,700",
+  county: "Chittenden County",
+  climate: "cold-humid",
+  climateDriver:
+    "Milton sits along Lake Champlain's eastern shore where the Lamoille River meets Arrowhead Mountain Lake, a shallow reservoir held back by an old mill dam. Sandy, glacial lake-plain soil left over from ancient Lake Vermont drains fast around foundations, and the marshy fringes of the lake and river create long-standing wetland habitat. The mix of open sand plain and hardwood forest gives ticks and wood-nesting ants plenty of edge habitat close to homes.",
+  topPests: ["Deer Ticks", "Carpenter Ants", "Mosquitoes", "Boxelder Bugs"],
+  pestProfile: [
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November, peak in spring and fall",
+      note: "Vermont has one of the highest Lyme disease rates in the country, and Milton's brushy fields along the Lamoille River and the Sand Bar Wildlife Management Area give deer ticks ideal habitat close to backyards.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall, most visible indoors in late winter",
+      note: "Milton's older farmhouses and camps near the lakeshore have the moist, softened wood carpenter ants favor for nesting, especially where snowmelt has soaked sills and porch framing.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September",
+      note: "The marshy edges of Arrowhead Mountain Lake and the Sand Bar Wildlife Management Area's cattail marsh hold standing water into summer, breeding mosquitoes that drift into nearby neighborhoods.",
+    },
+    {
+      name: "Boxelder Bugs",
+      serviceSlug: "boxelder-bug-control",
+      activeSeason: "September through October, entering structures for winter",
+      note: "Boxelder bugs cluster on the sun-warmed south and west walls of Milton homes each fall before slipping through window and siding gaps, especially on properties near maple and box elder stands close to the Lamoille River.",
+    },
+  ],
+  localHook:
+    "Milton's population crossed 10,700 at the 2020 census, and the town wraps around the mouth of the Lamoille River where it empties into Arrowhead Mountain Lake before continuing on to Lake Champlain. That river-to-lake corridor, plus the cattail marsh at the Sand Bar Wildlife Management Area on Milton's western edge, gives the town more standing water and brushy tick habitat than most of Chittenden County's inland suburbs.",
+  intro:
+    "Milton grew up around water. The Lamoille River cuts through the middle of town on its way to Lake Champlain, and Arrowhead Mountain Lake, really a wide, shallow stretch of the river held back by an old dam, sits just north of the village center. Add the marshland at the Sand Bar Wildlife Management Area along Route 2, and you get a town with more wetland edge than almost anywhere else in Chittenden County. That geography shapes what pest control looks like here. Deer ticks find plenty of brushy, unmowed habitat along the riverbanks and the wildlife area. Mosquitoes breed in the marsh and slow-moving water all summer. And the sandy, well-drained soil left behind by glacial Lake Vermont means foundations here settle and crack in ways that give carpenter ants an easy way in.",
+  sections: [
+    {
+      heading: "Why does Milton's location on the Lamoille River matter for pests?",
+      body: "The Lamoille River and Arrowhead Mountain Lake give Milton a longer, wetter perimeter than most towns its size, and that changes the pest calculus. Standing water in the marsh grass around the lake's edges holds mosquito larvae well into August, long after puddles elsewhere in Chittenden County have dried up. The same brushy, undisturbed strips along the riverbank are exactly where deer ticks wait on tall grass for a host to brush past, and Vermont has consistently ranked among the states with the highest Lyme disease rates in the country. Homes closest to the Sand Bar Wildlife Management Area or the river corridor tend to see more tick pressure in the yard than homes in the town's drier sections near Route 7. Keeping grass mowed short and brush cleared back from the house matters more here than in a lot of neighboring towns for exactly this reason.",
+    },
+    {
+      heading: "What does Milton's sandy soil have to do with carpenter ants?",
+      body: "Much of Milton sits on the sand plain left behind when glacial Lake Vermont drained thousands of years ago, and that soil drains water fast, which sounds like it should keep pests away. In practice it just moves the moisture problem to the wood. Sills and porch framing on older camps and farmhouses near the lakeshore soak up snowmelt and spring rain, and that softened wood is exactly what carpenter ants look for when they hollow out a nest. Fall is when homeowners notice them most, as the ants push indoors looking for a warm place to overwinter, showing up around kitchen sinks and bathroom fixtures where a slow leak has kept the wood damp. A carpenter ant nest doesn't mean termites, Vermont's cold winters keep termite pressure much lower here than farther south, but an established colony can still do real structural damage over a few seasons if it's left alone.",
+    },
+  ],
+  prevention: [
+    "Keep grass and brush cut back at least 3 feet from the house and along paths to the river or the Sand Bar Wildlife Management Area to reduce deer tick contact.",
+    "Check yourself and pets for ticks after any time spent along the Lamoille River corridor or the wildlife area, especially April through November.",
+    "Fix slow leaks around sinks, tubs, and exterior sills quickly, since damp wood is what draws carpenter ants into older Milton homes.",
+    "Seal gaps around windows and siding before September, ahead of the fall boxelder bug push indoors.",
+    "Eliminate standing water in gutters, buckets, and low spots on the property from May through September to cut down mosquito breeding near the lake and marsh.",
+  ],
+  costNote:
+    "Pest control in Milton typically runs $150 to $300 for a standard residential treatment, with tick and mosquito yard programs priced separately by lot size. Free inspection.",
+  faqs: [
+    {
+      question: "Are deer ticks really a bigger problem in Milton than in nearby towns?",
+      answer:
+        "Milton has more brushy wetland edge than most of its Chittenden County neighbors, thanks to the Lamoille River corridor and the Sand Bar Wildlife Management Area along the west side of town. Vermont has consistently reported one of the highest per-capita Lyme disease rates in the country, and that unmowed, undisturbed habitat gives deer ticks a place to wait close to backyards. Checking for ticks after any time near the river or the wildlife area, April through November, is a good habit for Milton residents specifically.",
+    },
+    {
+      question: "Why do I keep finding carpenter ants in my Milton home?",
+      answer:
+        "A lot of Milton sits on sandy soil left behind when glacial Lake Vermont drained thousands of years ago. That soil drains fast, but it doesn't stop snowmelt and spring rain from soaking into sills and porch framing on older camps and farmhouses near the lakeshore, and softened wood is what carpenter ants look for when choosing a nest site. Fixing slow leaks and checking sills each spring goes a long way toward keeping them out.",
+    },
+    {
+      question: "Does living near Arrowhead Mountain Lake mean a worse mosquito season?",
+      answer:
+        "It usually does. The marshy edges of Arrowhead Mountain Lake and the cattail marsh at the Sand Bar Wildlife Management Area hold standing water well into summer, longer than a lot of drier inland spots in Chittenden County. Homes closest to the lake or the marsh tend to see mosquito pressure earlier in the season and later into the fall than homes farther from the water.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "Colchester", slug: "colchester-vt", stateSlug: "vermont" },
+    { name: "South Burlington", slug: "south-burlington", stateSlug: "vermont" },
+    { name: "St. Albans", slug: "st-albans-vt", stateSlug: "vermont" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Milton, VT | Ticks, Ants & Mosquitoes",
+  metaDescription:
+    "Milton, VT pest control for deer ticks, carpenter ants, mosquitoes and boxelder bugs near the Lamoille River and Lake Champlain. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "williston-vt",
+  name: "Williston",
+  state: "Vermont",
+  stateSlug: "vermont",
+  stateAbbr: "VT",
+  tier: "T3",
+  population: "~10,100",
+  county: "Chittenden County",
+  climate: "cold-humid",
+  climateDriver:
+    "Williston sits east of Burlington in the Winooski River watershed, where Allen Brook and Muddy Brook cut through what used to be dairy farmland before the town became Vermont's busiest retail corridor along Route 2A and Taft Corners. That shift from pasture to parking lot and warehouse space changed the pest picture: cleared brookside land still holds ticks and mice, while the concentration of restaurants and big-box stores around Taft Corners adds commercial pest pressure a farm town wouldn't have.",
+  topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Brown Marmorated Stink Bugs"],
+  pestProfile: [
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall, most active at night",
+      note: "Williston's tree-lined older neighborhoods near the village core still have the mature hardwoods and moisture-prone framing carpenter ants nest in, even as farmland elsewhere in town has given way to retail development.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "Allen Brook and Muddy Brook corridors, protected as town conservation land, keep enough brushy, undisturbed habitat inside Williston's borders for deer ticks to thrive within a mile of Taft Corners.",
+    },
+    {
+      name: "House Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Fall through winter",
+      note: "The dense cluster of retail, warehouse, and restaurant space around Taft Corners gives house mice more food and shelter options per square mile than almost anywhere else in Chittenden County.",
+    },
+    {
+      name: "Brown Marmorated Stink Bugs",
+      serviceSlug: "stink-bug-control",
+      activeSeason: "September through October",
+      note: "Stink bugs have spread through the Burlington metro area in recent years and gather on the sunny sides of Williston's retail buildings and homes each fall looking for a way inside.",
+    },
+  ],
+  localHook:
+    "Williston's population passed 10,000 for the first time at the 2020 census, up about 16 percent from 2010, one of the fastest growth rates of any Vermont town. Most of that growth clustered around Taft Corners, the retail and commercial hub that has turned a town chartered as farmland in 1763 into the busiest shopping corridor north of Burlington.",
+  intro:
+    "Williston has two personalities. Drive along Route 2A through Taft Corners and you're in the middle of Vermont's biggest retail strip, anchored by big-box stores, chain restaurants, and warehouse space. Turn off onto the back roads and you're back in the rolling farmland the town was chartered on in 1763, when Governor Benning Wentworth granted the land and the Chittenden family, for whom the county is named, later called it home. Allen Brook and Muddy Brook still cut through protected conservation land on both sides of that divide, and those brook corridors are where a lot of Williston's tick and mosquito pressure comes from. Meanwhile the concentration of food service and retail space around Taft Corners creates the kind of commercial mouse and stink bug pressure a purely residential town wouldn't see.",
+  sections: [
+    {
+      heading: "Why does Williston's growth around Taft Corners change the pest picture?",
+      body: "Retail and restaurant density brings its own pest economy. Every kitchen, loading dock, and stockroom around Taft Corners is a potential food source and entry point for house mice, and Vermont's cold winters push them indoors hard starting in October. Commercial properties here typically need scheduled service rather than a single visit, because a strip of connected units means one unchecked entry point can reinfest a whole row of businesses. Brown marmorated stink bugs add to the fall workload. They've spread through the Burlington metro area over the past decade and gather by the dozens on sun-warmed exterior walls before pushing through gaps around windows, siding, and loading doors. None of this is unique to Williston, but the density of commercial square footage concentrated in one small area of town means the pressure shows up faster and in bigger numbers than in most Chittenden County suburbs.",
+    },
+    {
+      heading: "What about the older, wooded parts of Williston?",
+      body: "Away from Taft Corners, Williston still has the tree cover and brook corridors that come with 260 years of settlement. Allen Brook and Muddy Brook run through town-owned conservation land, and both hold the kind of brushy, undisturbed edge habitat where deer ticks wait on grass and low shrubs for a passing host. Vermont has consistently ranked among the states with the highest per-capita Lyme disease rates, and Chittenden County is no exception. Older homes near the village center, many built with the same hardwood framing common across Vermont's original farm towns, also draw carpenter ants, especially where moisture has softened sills or porch posts over a wet spring. A homeowner in one of Williston's older neighborhoods is dealing with a genuinely different pest profile than a business owner two miles away at Taft Corners, even though they share a zip code.",
+    },
+  ],
+  prevention: [
+    "Trim brush and keep grass short along any property line bordering Allen Brook, Muddy Brook, or other conservation land to reduce deer tick exposure.",
+    "Commercial properties around Taft Corners should schedule regular mouse monitoring rather than waiting for a sighting, since connected retail units can reinfest quickly.",
+    "Seal exterior gaps around windows, siding, and loading dock doors before September, ahead of the fall stink bug push.",
+    "Address damp sills or porch framing in older Williston homes promptly, since softened wood is what draws carpenter ants indoors.",
+    "Check pets and kids for ticks after time spent along the town's brook corridors and conservation trails, April through November.",
+  ],
+  costNote:
+    "Pest control in Williston typically runs $150 to $325 for a standard residential visit, while commercial accounts around Taft Corners are usually priced on a recurring service schedule. Free inspection.",
+  faqs: [
+    {
+      question: "Why does Williston have more mice than a town its size should?",
+      answer:
+        "The density of restaurants, warehouses, and big-box retail around Taft Corners gives house mice an unusually large concentration of food and shelter options for a town of Williston's size. Once nights turn cold in October, mice push indoors aggressively, and connected commercial units mean one unsealed entry point can lead to reinfestation across several businesses. Scheduled monitoring works better than a single visit for most Taft Corners properties.",
+    },
+    {
+      question: "Are deer ticks a real risk in Williston, or just out in the countryside?",
+      answer:
+        "They're a real risk right in town. Allen Brook and Muddy Brook run through protected conservation land on both sides of Williston, and that brushy, undisturbed corridor holds tick habitat within a mile of Taft Corners. Vermont's Lyme disease rates are among the highest in the country, so checking for ticks after time on the brook trails matters even for households close to the retail center.",
+    },
+    {
+      question: "Does the growth around Taft Corners actually change the pest problem?",
+      answer:
+        "Yes. Williston's population grew about 16 percent between the 2010 and 2020 census, most of it concentrated around the retail and commercial buildout at Taft Corners. That density brings commercial-scale mouse pressure and, each September and October, brown marmorated stink bugs gathering on sun-warmed exterior walls before pushing indoors, pest issues that look different from what a purely residential Vermont town deals with.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "South Burlington", slug: "south-burlington", stateSlug: "vermont" },
+    { name: "Colchester", slug: "colchester-vt", stateSlug: "vermont" },
+    { name: "Essex Junction", slug: "essex-junction-vt", stateSlug: "vermont" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Williston, VT | Mice, Ants & Ticks",
+  metaDescription:
+    "Williston, VT pest control for house mice, carpenter ants, deer ticks and stink bugs near Taft Corners and the Winooski River watershed. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "hartford-vt",
+  name: "Hartford",
+  state: "Vermont",
+  stateSlug: "vermont",
+  stateAbbr: "VT",
+  tier: "T3",
+  population: "~10,700",
+  county: "Windsor County",
+  climate: "cold-humid",
+  climateDriver:
+    "Hartford sits at the confluence of the White River and Connecticut River in east-central Vermont, with the Ottauquechee River adding a third waterway through the town's Quechee village. The town has no single downtown, it's five villages, Hartford, Quechee, West Hartford, White River Junction, and Wilder, strung along those rivers. White River Junction grew up as a 19th-century railroad hub, and its dense stock of century-old brick and wood-frame buildings still carries the moisture and aging-wood conditions that draw carpenter ants and rodents.",
+  topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Yellow Jackets"],
+  pestProfile: [
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall, most visible indoors in late winter",
+      note: "White River Junction's stock of early 1900s railroad-era brick and wood-frame buildings gives carpenter ants the aging, moisture-softened wood they favor, especially in basements and sills near the old rail yard.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The wooded riverbanks along the White, Connecticut, and Ottauquechee rivers, plus the popular trails around Quechee Gorge, put Hartford residents and visitors in regular contact with deer tick habitat.",
+    },
+    {
+      name: "House Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Fall through winter",
+      note: "Hartford's older village housing stock, much of it built before modern sealing standards, gives house mice easy routes indoors once nights turn cold in October and November.",
+    },
+    {
+      name: "Yellow Jackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Late summer through fall",
+      note: "Ground-nesting yellow jackets are common along the brushy riverbanks and lawns of Hartford's five villages, becoming more visible and defensive as colonies peak in late summer near the rivers.",
+    },
+  ],
+  localHook:
+    "Hartford's population reached 10,686 at the 2020 census, but the town has no single center. It's five distinct villages, Hartford village, Quechee, West Hartford, White River Junction, and Wilder, spread along the White, Connecticut, and Ottauquechee rivers. White River Junction, the largest of the five, grew up around a 19th-century rail junction, and much of its building stock still dates to that era.",
+  intro:
+    "Hartford is a town built by rivers and railroads. The White River meets the Connecticut River right at White River Junction, once one of the busiest rail hubs in New England, and the Ottauquechee River carves through Quechee village a few miles west, past the popular Quechee Gorge. Those three rivers, plus the century-plus age of a lot of the building stock in White River Junction, shape the town's pest pressure more than most single factors could. Old brick and wood-frame commercial buildings near the former rail yard hold the moisture and aging wood carpenter ants need. The wooded, undeveloped riverbanks connecting Hartford's five villages give deer ticks and ground-nesting yellow jackets plenty of habitat close to trails and backyards. And older homes throughout town, many predating current building codes, give mice more entry points than newer construction would.",
+  sections: [
+    {
+      heading: "Why does White River Junction's railroad history matter for pest control?",
+      body: "White River Junction grew explosively in the late 1800s as a rail junction connecting lines running north, south, east, and west, and a lot of the commercial buildings from that boom are still standing and still in use. Brick construction from that era wasn't built with modern moisture barriers, and decades of freeze-thaw cycles have left plenty of soft, damp wood in sills, window frames, and basement framing. That's exactly the environment carpenter ants look for, and pest control calls in the village center often trace back to a slow leak or an old foundation crack rather than anything the current owner did wrong. The same aging building stock gives house mice easy entry once fall arrives, since gaps around old utility penetrations and foundation sills are common in buildings built before current sealing standards existed. A building's age in White River Junction tells you almost as much about its pest risk as its location does.",
+    },
+    {
+      heading: "What makes the riverfront villages different from the rest of Hartford?",
+      body: "Quechee, West Hartford, and the riverbanks connecting all five villages are a different story from the commercial density downtown. These are wooded, often undeveloped stretches along the White, Connecticut, and Ottauquechee rivers, and they're exactly where deer ticks wait in tall grass and brush for a host, and where ground-nesting yellow jackets build colonies in undisturbed turf and riverbank soil. Quechee Gorge draws hikers and sightseers from well outside Hartford, and anyone walking the trails there in tick season should expect to do a tick check afterward. Yellow jacket colonies tend to peak in Hartford's river villages in late August and September, right when they're most defensive, which is when most stings happen. None of this habitat is unusual for Vermont, but having it woven through five separate village centers instead of one compact downtown means more Hartford households live close to it than in a lot of comparably sized towns.",
+    },
+  ],
+  prevention: [
+    "Have older White River Junction commercial buildings inspected for foundation cracks and moisture intrusion, common entry points for carpenter ants in the village's century-old building stock.",
+    "Seal gaps around utility penetrations and foundation sills in older Hartford homes before nights turn cold in October.",
+    "Check for ticks after hiking the Quechee Gorge trails or walking the riverbanks along the White, Connecticut, or Ottauquechee rivers.",
+    "Have yellow jacket nests near the yard or riverbank treated by a professional in late summer, when colonies are largest and most defensive.",
+    "Keep gutters and downspouts clear on older Hartford properties to reduce the standing moisture that draws carpenter ants to sills and framing.",
+  ],
+  costNote:
+    "Pest control in Hartford typically runs $150 to $325 for a standard residential visit, with older White River Junction commercial buildings often priced individually based on age and condition. Free inspection.",
+  faqs: [
+    {
+      question: "Why does White River Junction seem to have more pest problems than other parts of Hartford?",
+      answer:
+        "White River Junction grew up fast in the late 1800s as a major rail junction, and a lot of the brick and wood-frame commercial buildings from that era are still standing and still in use. Decades of freeze-thaw cycles have left soft, damp wood in plenty of sills and foundations, which is exactly what carpenter ants and house mice look for. Building age in White River Junction is often a better predictor of pest risk than location.",
+    },
+    {
+      question: "Are deer ticks a concern around Quechee Gorge?",
+      answer:
+        "Yes. The wooded riverbanks connecting Hartford's five villages, including the trails around Quechee Gorge, are classic deer tick habitat, brushy, shaded, and rarely mowed. Anyone hiking the gorge trails in tick season, April through November, should plan on a tick check afterward, whether they live in Hartford or are just visiting.",
+    },
+    {
+      question: "Why are yellow jackets so aggressive in Hartford in late summer?",
+      answer:
+        "Yellow jacket colonies along Hartford's riverbanks, in Quechee, West Hartford, and the other villages, reach their largest size in late August and September, right before defensiveness increases. That's when most stings happen, especially for anyone mowing near a ground nest they didn't know was there. A professional treatment in late summer is safer than trying to handle an established nest without protective equipment.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+  nearbyCities: [
+    { name: "Springfield", slug: "springfield-vt", stateSlug: "vermont" },
+    { name: "Woodstock", slug: "woodstock-vt", stateSlug: "vermont" },
+    { name: "Norwich", slug: "norwich-vt", stateSlug: "vermont" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Hartford, VT | Ants, Ticks & Wasps",
+  metaDescription:
+    "Hartford, VT pest control for carpenter ants, deer ticks, house mice and yellow jackets across White River Junction, Quechee and Hartford's river villages. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "shelburne-vt",
+  name: "Shelburne",
+  state: "Vermont",
+  stateSlug: "vermont",
+  stateAbbr: "VT",
+  tier: "T3",
+  population: "~7,700",
+  county: "Chittenden County",
+  climate: "cold-humid",
+  climateDriver:
+    "Shelburne stretches along the eastern shore of Lake Champlain about seven miles south of Burlington, with Shelburne Bay and Shelburne Pond adding wetland habitat inland. The town is still shaped by Shelburne Farms, a working 1,400-acre farm founded in 1886 that's now a National Historic Landmark, and by the open pasture and orchard land around it. That mix of lakefront, working farmland, and pond habitat gives Shelburne a broader pest profile than a purely suburban town would have.",
+  topPests: ["Deer Ticks", "Carpenter Ants", "Mosquitoes", "Yellow Jackets"],
+  pestProfile: [
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The pastures, hedgerows, and woodlots around Shelburne Farms and Shelburne Pond give deer ticks exactly the brushy, animal-trafficked habitat they need, and staff and visitors on the working farm routinely deal with tick checks as part of the job.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "Shelburne's mix of historic farm buildings and older lakeshore homes provides the aging, moisture-prone wood carpenter ants favor, particularly in barns and outbuildings near Shelburne Farms.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September",
+      note: "Shelburne Pond and the marshy fringes of Shelburne Bay on Lake Champlain hold standing water long into summer, breeding mosquitoes that spread into nearby neighborhoods.",
+    },
+    {
+      name: "Yellow Jackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Late summer through fall",
+      note: "Open pasture and orchard land around Shelburne Farms gives ground-nesting yellow jackets undisturbed turf to colonize, and colonies become more visible as farm activity and foot traffic pick up in late summer.",
+    },
+  ],
+  localHook:
+    "Shelburne's population reached 7,717 at the 2020 census, spread along Lake Champlain's shoreline about seven miles south of Burlington. Much of the town's character still comes from Shelburne Farms, a 1,400-acre working farm and National Historic Landmark founded in 1886, whose pastures, orchards, and woodlots sit right alongside the town's residential neighborhoods.",
+  intro:
+    "Shelburne is a lake town with a working farm at its center. Shelburne Farms still operates as a nonprofit educational farm on the same 1,400 acres laid out in 1886, and its pastures and hedgerows run right up against the residential streets that have grown up around it. Add Shelburne Bay on Lake Champlain and the wetland fringe of Shelburne Pond a couple miles inland, and the town has three distinct pest habitats packed into a fairly compact area: farmland, lakeshore, and pond marsh. Deer ticks move easily between the pasture edges and backyard grass. Mosquitoes breed in the pond and bay marshes all summer. And the historic barns and older homes scattered through town give carpenter ants the damp, aging wood they need to get established.",
+  sections: [
+    {
+      heading: "Why does Shelburne Farms matter for pest pressure in town?",
+      body: "Shelburne Farms isn't a backdrop, it's a working 1,400-acre farm with cattle pasture, hay fields, orchards, and hedgerows, and all of that sits directly against residential Shelburne. Ticks move along the brushy edges where mowed lawn meets unmowed pasture, and anyone walking a dog or letting kids play near those edges should plan on a tick check afterward, April through November. The farm's barns and outbuildings, some dating back to the original 1886 construction, are also classic carpenter ant territory. Old timber framing, persistent barn moisture, and limited pest management on agricultural structures compared to a modern home all add up to established colonies that can spread to nearby residential outbuildings if they're not addressed. Late summer brings a second issue: ground-nesting yellow jackets find plenty of undisturbed turf in the farm's pastures and orchards, and colonies there tend to be larger and more aggressive by the time farm visitors and dog walkers are most likely to stumble across one.",
+    },
+    {
+      heading: "What role does Lake Champlain play in Shelburne's mosquito pressure?",
+      body: "Shelburne Bay is a shallow, protected arm of Lake Champlain, and its marshy edges, along with the separate wetland around inland Shelburne Pond, hold standing water well past the point where puddles elsewhere have dried up. That extended wet season is what keeps mosquitoes active in Shelburne from May into September, longer than a landlocked town nearby might see. Homes closest to the bay or the pond tend to notice mosquito pressure first in a given season, and it spreads inland from there as summer goes on. It's not a dramatic difference from the rest of Chittenden County, but it's a consistent one, and it's one more reason a lakefront property in Shelburne benefits from a scheduled mosquito treatment program rather than a single spring visit.",
+    },
+  ],
+  prevention: [
+    "Keep dogs and kids away from the brushy edges where mowed lawn meets pasture near Shelburne Farms during tick season, April through November.",
+    "Inspect older barns and outbuildings for carpenter ant activity each spring, especially structures with original 1886-era timber framing.",
+    "Eliminate standing water near Shelburne Bay or Shelburne Pond-adjacent properties between May and September to reduce mosquito breeding.",
+    "Have yellow jacket nests in pasture or orchard areas treated by a professional in late summer before colonies peak.",
+    "Seal foundation gaps on lakeshore homes each fall, since older Shelburne properties near the water are common carpenter ant entry points.",
+  ],
+  costNote:
+    "Pest control in Shelburne typically runs $150 to $325 for a standard residential visit, with lakefront and farm-adjacent properties sometimes priced separately for tick and mosquito programs. Free inspection.",
+  faqs: [
+    {
+      question: "Does living near Shelburne Farms mean more tick exposure?",
+      answer:
+        "It can. Shelburne Farms is a working 1,400-acre farm with pasture, hedgerows, and woodlots, and deer ticks move easily along the brushy edges where mowed lawn meets unmowed field. Anyone walking a dog or letting kids play near those edges should plan on a tick check, particularly April through November when ticks are most active.",
+    },
+    {
+      question: "Why does Shelburne seem to have mosquitoes longer into the summer than other towns?",
+      answer:
+        "Shelburne Bay on Lake Champlain and the separate wetland around inland Shelburne Pond both hold standing water well past the point where puddles elsewhere have dried up. That extends the mosquito season here from May into September, and homes closest to the bay or the pond tend to notice the pressure first each year.",
+    },
+    {
+      question: "Are carpenter ants common in Shelburne's older barns?",
+      answer:
+        "Yes, particularly in structures connected to Shelburne Farms, some of which date back to the farm's founding in 1886. Old timber framing and persistent barn moisture give carpenter ants time to establish colonies that can spread to nearby residential outbuildings if they aren't caught early.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+  nearbyCities: [
+    { name: "South Burlington", slug: "south-burlington", stateSlug: "vermont" },
+    { name: "Colchester", slug: "colchester-vt", stateSlug: "vermont" },
+    { name: "Charlotte", slug: "charlotte-vt", stateSlug: "vermont" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Shelburne, VT | Ticks, Ants & Mosquitoes",
+  metaDescription:
+    "Shelburne, VT pest control for deer ticks, carpenter ants, mosquitoes and yellow jackets near Shelburne Farms and Lake Champlain. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "swanton-vt",
+  name: "Swanton",
+  state: "Vermont",
+  stateSlug: "vermont",
+  stateAbbr: "VT",
+  tier: "T3",
+  population: "~6,700",
+  county: "Franklin County",
+  climate: "cold-humid",
+  climateDriver:
+    "Swanton sits in Vermont's far northwest corner, where the Missisquoi River empties into Missisquoi Bay on Lake Champlain just a few miles from the Canadian border. The Missisquoi National Wildlife Refuge, more than 6,700 acres of marsh, floodplain forest, and river delta, borders the town on its western edge. Swanton is also the seat of the Missisquoi Abenaki, whose historic homeland centers on this river and bay. That much wetland acreage next to a small town produces mosquito and wildlife pest pressure well beyond what Swanton's population alone would suggest.",
+  topPests: ["Mosquitoes", "Deer Ticks", "Carpenter Ants", "House Mice"],
+  pestProfile: [
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "May through September, heaviest early summer",
+      note: "The Missisquoi National Wildlife Refuge's marsh and river delta, bordering Swanton directly to the west, is one of the largest wetland complexes on Lake Champlain and produces mosquito populations far beyond what the town's size would otherwise suggest.",
+    },
+    {
+      name: "Deer Ticks",
+      serviceSlug: "flea-tick-treatment",
+      activeSeason: "April through November",
+      note: "The floodplain forest and brushy field edges around the refuge and along the Missisquoi River give deer ticks wide, undisturbed habitat right up against Swanton's farms and residential edges.",
+    },
+    {
+      name: "Carpenter Ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through fall",
+      note: "Swanton's older farmhouses and river-adjacent camps, common throughout this agricultural corner of Franklin County, provide the damp, aging wood carpenter ants nest in.",
+    },
+    {
+      name: "House Mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Fall through winter",
+      note: "The agricultural operations that surround Swanton send field mice toward barns, farmhouses, and village homes each fall as crops come in and temperatures drop.",
+    },
+  ],
+  localHook:
+    "Swanton's town population was 6,701 at the 2020 census, tucked into Vermont's northwest corner where the Missisquoi River reaches Lake Champlain's Missisquoi Bay, just miles from the Canadian border. The Missisquoi National Wildlife Refuge, more than 6,700 acres of marsh and floodplain forest, sits on the town's western edge and is the ancestral homeland of the Missisquoi Abenaki.",
+  intro:
+    "Swanton is a border town shaped by a river delta. The Missisquoi River widens out into marsh and floodplain forest just before it reaches Lake Champlain's Missisquoi Bay, and most of that wetland is protected as the Missisquoi National Wildlife Refuge, one of the larger refuges on the lake. The Abenaki Nation has called this river and bay home for generations, and the land itself, agricultural fields mixed with river bottomland, hasn't changed as much as the busier suburbs closer to Burlington. That combination, a lot of protected wetland next to a working agricultural town, means Swanton deals with mosquito pressure that's unusual for a town its size, along with the deer ticks and fall mouse migration that come standard with rural Franklin County.",
+  sections: [
+    {
+      heading: "Why does the Missisquoi refuge create so much mosquito pressure in Swanton?",
+      body: "The Missisquoi National Wildlife Refuge covers more than 6,700 acres of marsh, river delta, and floodplain forest directly against Swanton's western border, and wetland on that scale doesn't dry up the way a roadside ditch does. Standing water persists through spring and well into summer across the refuge's marsh units, giving mosquitoes a breeding ground that keeps producing new generations from May through September. Homes and farms closest to the refuge boundary or the river itself tend to feel it first each season, and the pressure can spread through the village as summer goes on. It's a tradeoff that comes with living next to one of Lake Champlain's most significant wetland complexes: the same habitat that makes the refuge valuable for waterfowl and other wildlife is what keeps Swanton's mosquito season longer and heavier than towns without that kind of wetland acreage nearby.",
+    },
+    {
+      heading: "What pest issues come with Swanton's farm economy?",
+      body: "Franklin County remains one of Vermont's most agricultural counties, and Swanton's fields, barns, and farmhouses sit right in the middle of that. Field mice follow the harvest, and as crops come off the fields each fall, they move toward the shelter and food sources that barns and village homes provide, a predictable seasonal push that peaks in October and November. Carpenter ants find plenty of targets too, since a lot of Swanton's housing stock is older farm construction where moisture has had decades to soften sills, barn beams, and porch framing. That aging wood, whether in a bank barn or a farmhouse sill, gives an established colony years to grow before anyone notices tunneling dust or discarded wings near a windowsill. None of this is unusual for a rural Vermont farm town, but the combination with the refuge's wetland pressure gives Swanton a wider pest workload across the year than a similarly sized town without both an active agricultural economy and a major wildlife refuge on its doorstep.",
+    },
+  ],
+  prevention: [
+    "Keep grass and brush trimmed along any property line bordering the Missisquoi refuge or river to reduce deer tick contact, April through November.",
+    "Eliminate standing water around the property each week from May through September given the extended mosquito season next to the refuge.",
+    "Seal foundation and sill gaps on older Swanton farmhouses and barns before October, ahead of the fall field mouse migration.",
+    "Inspect barn beams and porch framing each spring for carpenter ant activity, especially on structures with a history of moisture damage.",
+    "Store livestock feed and grain in sealed containers to reduce the food source that draws mice toward farm buildings in fall.",
+  ],
+  costNote:
+    "Pest control in Swanton typically runs $150 to $300 for a standard residential visit, with mosquito programs for refuge-adjacent properties often priced by season rather than a single visit. Free inspection.",
+  faqs: [
+    {
+      question: "Why does Swanton have such a bad mosquito season?",
+      answer:
+        "The Missisquoi National Wildlife Refuge, more than 6,700 acres of marsh and floodplain forest, sits right on Swanton's western border, and wetland at that scale keeps producing mosquitoes from May through September. It's a bigger and longer mosquito season than a town of Swanton's size would otherwise have, simply because of what's next door.",
+    },
+    {
+      question: "Are deer ticks common around the Missisquoi refuge?",
+      answer:
+        "Yes. The floodplain forest and brushy field edges bordering the refuge and the Missisquoi River give deer ticks wide, undisturbed habitat right up against Swanton's farms and residential edges. Checking for ticks after any time near the refuge or the riverbank, April through November, is worth the extra minute.",
+    },
+    {
+      question: "Why do farmhouses in Swanton get carpenter ants?",
+      answer:
+        "Franklin County's agricultural economy means a lot of Swanton's housing stock is older farm construction, barns, farmhouses, and river-adjacent camps, where moisture has had decades to soften sills and framing. That softened wood is what carpenter ants nest in, and older structures near the river or refuge tend to be the first ones affected each spring.",
+    },
+  ],
+  author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+  nearbyCities: [
+    { name: "St. Albans", slug: "st-albans-vt", stateSlug: "vermont" },
+    { name: "Highgate", slug: "highgate-vt", stateSlug: "vermont" },
+    { name: "Alburgh", slug: "alburgh-vt", stateSlug: "vermont" },
+  ],
+  contentTemplate: "C",
+  contentSoul: "comparison",
+  metaTitle: "Pest Control in Swanton, VT | Mosquitoes, Ticks & Ants",
+  metaDescription:
+    "Swanton, VT pest control for mosquitoes, deer ticks, carpenter ants and house mice near the Missisquoi National Wildlife Refuge and Lake Champlain. Free inspection. Call 1-800-PEST-USA.",
+},
 ];
