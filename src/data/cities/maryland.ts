@@ -2791,4 +2791,454 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in Riverdale Park, MD | Bed Bugs, Cockroaches & Silverfish",
     metaDescription: "Pest control in Riverdale Park, Maryland for bed bugs, cockroaches, mice, silverfish, and mosquitoes. Prince George's County urban pest management near University of Maryland. Licensed MD technicians.",
   },
+  {
+    slug: "silver-spring",
+    name: "Silver Spring",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~81,000",
+    county: "Montgomery County",
+    climate: "hot-humid",
+    climateDriver:
+      "Silver Spring sits in Maryland's humid subtropical zone just north of DC, where summer humidity off the Potomac and Chesapeake corridor holds through August. Sligo Creek and the Northwest Branch of the Anacostia River both cut through the town's residential neighborhoods rather than around them, keeping mosquito breeding habitat close to thousands of homes. A large share of Silver Spring's housing, including the Woodside and North Woodside neighborhoods, predates 1960, roughly a lifetime of wear on foundations and window seals, which sustains subterranean termite and German cockroach pressure year after year.",
+    topPests: ["German cockroaches", "brown marmorated stink bugs", "subterranean termites", "mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Silver Spring's dense stock of older garden apartments and row-style condos near the downtown corridor gives German cockroaches the same shared-wall, shared-plumbing access that sustains persistent infestations across older Montgomery County housing.",
+      },
+      {
+        name: "brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregates September through November, overwinters indoors",
+        note: "Silver Spring sits inside the DC-Maryland stink bug corridor, and the tree canopy along Sligo Creek Park gives the insects a staging ground before they move onto nearby home exteriors each September.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Silver Spring's pre-1960s housing stock in neighborhoods like Woodside carries elevated termite exposure, since original wood sill plates and older crawl spaces sit closer to soil than current code allows.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Sligo Creek and the Northwest Branch of the Anacostia River, both running directly through Silver Spring's residential core, sustain Culex mosquito breeding all summer within a short flight of most homes in town.",
+      },
+    ],
+    localHook:
+      "Silver Spring's Sligo Creek Trail and the Northwest Branch of the Anacostia River wind directly through the town's residential neighborhoods, which means mosquito breeding habitat sits far closer to the average home here than in most Montgomery County suburbs set back from a major waterway.",
+    intro:
+      "Pest Control in Silver Spring, MD has to account for a town built directly around two waterways, Sligo Creek and the Northwest Branch of the Anacostia River, both of which run through residential neighborhoods rather than around them. That proximity keeps mosquito breeding habitat close to thousands of homes from April through October. Add a stock of older garden apartments and rowhome-style condos where German cockroaches move freely through shared walls, a fall stink bug season pulled from the DC-Maryland corridor, and pre-1960s housing in neighborhoods like Woodside carrying real subterranean termite exposure, and Silver Spring's pest pressure looks less like a single dominant problem and more like four separate seasonal jobs stacked on top of each other. A licensed local technician who treats the waterway proximity as a factor, not an afterthought, tends to get better results here than a generic quarterly plan.",
+    sections: [
+      {
+        heading: "Is mosquito season really worse in Silver Spring because of the creek?",
+        body: "Yes, and it's a fair question if you're used to a suburb set back from water. Sligo Creek and the Northwest Branch of the Anacostia River both run through Silver Spring's residential core, not around its edges, so mosquito breeding habitat sits within a short flight of most homes in town. Culex mosquitoes, the species most associated with West Nile virus locally, are active from April through October and peak in the humid stretch of July and August. Standing water in gutters, saucers, and unused containers on your own property adds to what the creek corridor already produces nearby. A targeted yard treatment before peak season cuts your personal exposure even though it won't change the creek itself.",
+      },
+      {
+        heading: "Are the stink bugs and termites in my old Silver Spring home connected?",
+        body: "Not directly, but they share a cause: age. A lot of Silver Spring's housing, especially in neighborhoods like Woodside and North Woodside, was built before 1960, which means it predates modern sealing and foundation standards by decades, and older construction gives both pests an easier way in. Stink bugs exploit small gaps around windows, siding, and utility lines when they look for a place to overwinter each fall. Termites exploit wood sill plates sitting close to soil and older, unlined crawl spaces. Neither problem means your home is falling apart. It means an older home needs the annual inspection and fall sealing work that a newer build in a 2000s subdivision usually doesn't.",
+      },
+      {
+        heading: "How fast can I get a cockroach problem under control in my Silver Spring apartment?",
+        body: "That depends more on your building than on the treatment itself. In Silver Spring's older garden apartment complexes, German cockroaches move through shared plumbing and wall cavities, so a single unit treated on its own usually sees roaches return within weeks even if the initial service worked. A coordinated building-wide treatment, ideally arranged through your property manager, resolves the problem far faster than one tenant acting alone, often within one to two service visits instead of a repeating cycle. If you rent, ask whether neighboring units are being treated at the same time before you judge whether your own service worked.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from gutters, plant saucers, and containers near Sligo Creek-adjacent yards before mosquito season ramps up in April.",
+      "Seal window frames, siding gaps, and utility penetrations by late August ahead of the fall stink bug push.",
+      "Schedule an annual termite inspection for pre-1960s homes in Woodside, North Woodside, and similar older Silver Spring neighborhoods.",
+      "Ask your property manager whether German cockroach treatment covers your whole building, not just your unit, before assuming a single service failed.",
+      "Trim vegetation and remove leaf litter along creek-adjacent property lines to reduce mosquito resting sites close to the house.",
+    ],
+    costNote:
+      "Mosquito treatment programs in Silver Spring typically run $80 to $130 per visit during the April through October season. Termite inspection is commonly free to $150, with treatment for a standard home running $600 to $1,200 depending on extent. Stink bug exterior sealing and treatment averages $110 to $200 per fall application.",
+    faqs: [
+      {
+        question: "Why does Silver Spring get more mosquitoes than nearby suburbs?",
+        answer: "Sligo Creek and the Northwest Branch of the Anacostia River run directly through Silver Spring's residential neighborhoods rather than around them, so breeding habitat sits closer to the average home than in a suburb set back from a major waterway. That proximity, not anything unusual about the town itself, is the main driver of the heavier season.",
+      },
+      {
+        question: "Is my Woodside or North Woodside home more exposed to termites?",
+        answer: "Older homes in Silver Spring's Woodside and North Woodside neighborhoods, many built before 1960, often have wood sill plates closer to soil and less-updated crawl spaces than newer construction elsewhere in Montgomery County. That combination raises subterranean termite exposure enough that an annual inspection is worth the modest cost.",
+      },
+      {
+        question: "Do I need pest control if I live in a Silver Spring apartment, not a house?",
+        answer: "Often yes, particularly for German cockroaches. Silver Spring's older garden apartment buildings let roaches move between units through shared walls and plumbing, so an infestation in one unit is rarely isolated. Coordinated, building-wide treatment resolves the problem faster than any single tenant's individual efforts.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Takoma Park", slug: "takoma-park", stateSlug: "maryland" },
+      { name: "Rockville", slug: "rockville", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Silver Spring, MD | Mosquitoes, Termites & Roaches",
+    metaDescription: "Silver Spring pest control for Sligo Creek mosquitoes, German cockroaches in older apartments, fall stink bugs and termites. Free inspection.",
+  },
+  {
+    slug: "ellicott-city",
+    name: "Ellicott City",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~75,900",
+    county: "Howard County",
+    climate: "temperate",
+    climateDriver:
+      "Ellicott City sits in the Piedmont climate zone of central Maryland, with warm humid summers but somewhat less extreme heat than the Chesapeake lowlands closer to Baltimore. The historic district runs directly along the Patapsco River in a low-lying valley, the same setting behind the town's severe 2016 and 2018 flash floods, storms that dumped several inches of rain in under two hours and prompted a flood tunnel project Howard County is still building in response. That valley geography holds moisture against the historic granite and wood-frame building stock long after storms pass, which sustains carpenter ant activity and elevated termite exposure in the older structures downtown.",
+    topPests: ["carpenter ants", "subterranean termites", "mosquitoes", "brown marmorated stink bugs"],
+    pestProfile: [
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The historic Main Street district's 18th and 19th century granite and wood-frame buildings, several of them repeatedly flood-damaged since 2016, hold the persistent moisture that carpenter ant colonies need to establish in structural wood.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Howard County soils carry solid Mid-Atlantic subterranean termite pressure, and Ellicott City's older wood-frame homes in the historic district and surrounding hillside neighborhoods sit on foundations built well before current moisture-barrier standards.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Patapsco River and Tiber Run, the same waterways behind Ellicott City's well-documented flash flood history, leave behind standing water in low-lying yards and storm drains that sustains mosquito breeding through the warm months.",
+      },
+      {
+        name: "brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregates September through November",
+        note: "Howard County sits within Maryland's high-pressure stink bug corridor, and the wooded hillsides surrounding Ellicott City's valley setting give the insects a staging ground before they move onto home exteriors each fall.",
+      },
+    ],
+    localHook:
+      "Ellicott City's Main Street sits in the Patapsco River valley, the same low-lying setting that produced major flash floods in 2016 and 2018 severe enough to trigger a multi-year, still-ongoing flood tunnel construction project. That valley geography does more than create flood risk. It also holds moisture against the town's historic granite and wood-frame building stock long after the water recedes, which is exactly the condition carpenter ants and subterranean termites need.",
+    intro:
+      "Pest Control in Ellicott City, MD starts with understanding the valley the historic district sits in. Main Street runs along the Patapsco River, the same low-lying setting behind the town's severe 2016 and 2018 flash floods, and Howard County is currently years into a tunnel project meant to redirect floodwater away from downtown. That geography keeps moisture pressed into the town's historic granite and wood-frame buildings long after any given storm passes, which is ideal for carpenter ants and adds real exposure for subterranean termites in the older housing stock nearby. Mosquitoes breed in the same low-lying spots the river periodically floods, and Howard County's position in Maryland's stink bug corridor brings a heavy fall aggregation on top of it. A pest program built around the valley's moisture pattern, not a generic countywide plan, tends to hold up better here.",
+    sections: [
+      {
+        heading: "Does Ellicott City's flooding history actually affect pest problems, or is that a stretch?",
+        body: "It's a real connection, not a stretch. The same Patapsco River valley setting that produced the 2016 and 2018 flash floods, severe enough that Howard County is now years into building an underground flood tunnel, also keeps moisture held against the historic district's older granite and wood-frame buildings long after any storm passes. Carpenter ants need sustained moisture in structural wood to establish a colony, and a building that has taken on water more than once over the past decade is exactly the kind of target they look for. If your home or business sits in or near the historic downtown, moisture-related pest risk deserves more attention than it would in a drier, higher-elevation part of Howard County.",
+      },
+      {
+        heading: "Is my older Ellicott City home more exposed to termites than a newer build nearby?",
+        body: "Generally, yes. Howard County carries solid Mid-Atlantic subterranean termite pressure across the board, but older wood-frame homes in and around the historic district were built before current foundation moisture-barrier standards existed. Original sill plates sitting close to soil and crawl spaces without a proper vapor barrier give termites an easier path in than a home built to modern code. Swarms of winged termites indoors between March and May are usually the first visible sign a colony is already established somewhere in the structure. An annual inspection is a small cost against that kind of risk in an older home.",
+      },
+      {
+        heading: "When should I worry about mosquitoes near the Patapsco River in Ellicott City?",
+        body: "Mosquito season runs April through October here, with the heaviest pressure in July and August, the two hottest and most humid months of the year. The Patapsco River and its Tiber Run tributary, the same waterways tied to the town's flood history, leave standing water in low-lying yards and storm drains that sustains breeding through the warm season. If your property sits close to the river or downhill from the historic district, you'll likely see more mosquito pressure than a home on higher, better-drained ground elsewhere in Howard County. Clearing gutters and removing containers that collect rainwater on your own property is the one piece you can control directly.",
+      },
+    ],
+    prevention: [
+      "Inspect wood-frame structural elements for moisture damage each spring in properties within or near the historic Main Street flood zone.",
+      "Schedule an annual subterranean termite inspection for older homes with original sill plates or unlined crawl spaces.",
+      "Clear gutters and remove standing water near the Patapsco River and Tiber Run before mosquito season ramps up in April.",
+      "Seal siding gaps, window frames, and utility penetrations by late August ahead of the fall stink bug push.",
+      "After any flooding event, have moisture-prone structural wood checked for carpenter ant activity before repairs are closed up.",
+    ],
+    costNote:
+      "Termite inspection in Ellicott City is commonly free to $150, with treatment for a standard home running $600 to $1,200 depending on extent. Carpenter ant treatment for flood-affected structural wood typically runs $150 to $400. Quarterly general pest service for a typical Ellicott City home averages $80 to $135 per visit.",
+    faqs: [
+      {
+        question: "Why does Ellicott City get compared to other Howard County towns on flood-related pest risk?",
+        answer: "Ellicott City's historic Main Street sits directly in the Patapsco River valley, low enough that the town has seen major flash flooding in 2016 and 2018 and is now years into a flood tunnel construction project. That valley setting holds moisture in the historic district's older buildings longer than higher, better-drained parts of Howard County, which raises carpenter ant and general moisture-pest risk specifically for properties in and near downtown.",
+      },
+      {
+        question: "Should I get a termite inspection before buying an older home in Ellicott City?",
+        answer: "It's a reasonable precaution. Howard County has solid Mid-Atlantic subterranean termite pressure, and older wood-frame homes near the historic district were built before current foundation moisture-barrier standards. A pre-purchase inspection, commonly free to $150, catches active colonies or existing damage before you close.",
+      },
+      {
+        question: "Are mosquitoes worse right around the Patapsco River in Ellicott City than elsewhere in the county?",
+        answer: "Yes. The river and its Tiber Run tributary create low-lying standing water that sustains mosquito breeding from April through October, and properties close to the historic district or downhill from it typically see more pressure than homes on higher ground elsewhere in Howard County.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Baltimore", slug: "baltimore", stateSlug: "maryland" },
+      { name: "Westminster", slug: "westminster-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ellicott City, MD | Termites, Ants & Mosquitoes",
+    metaDescription: "Ellicott City pest control for carpenter ants, subterranean termites, Patapsco River mosquitoes and fall stink bugs. Free inspection.",
+  },
+  {
+    slug: "glen-burnie",
+    name: "Glen Burnie",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~72,600",
+    county: "Anne Arundel County",
+    climate: "hot-humid",
+    climateDriver:
+      "Glen Burnie sits in the humid corridor between Baltimore and the Chesapeake Bay, close enough to the urban heat and industrial density of the BWI Marshall Airport corridor to run warmer and more humid through summer than more rural parts of Anne Arundel County. Marley Creek and Furnace Creek, both Patapsco River tributaries, run through the town's residential neighborhoods and sustain mosquito breeding through the warm season. The Ritchie Highway commercial and warehouse corridor running through town adds steady rat pressure that spreads into nearby residential blocks.",
+    topPests: ["German cockroaches", "Norway rats", "subterranean termites", "mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Glen Burnie's dense mix of older 1940s to 1960s garden apartments and rowhouse-style rentals along the Ritchie Highway corridor gives German cockroaches the same shared-wall, shared-plumbing access that sustains persistent infestations across older Anne Arundel County housing stock.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, heaviest fall entry",
+        note: "The commercial and warehouse density around Glen Burnie's BWI Airport corridor and Ritchie Highway retail strip gives Norway rats reliable food access and harborage, and rat activity typically increases as cooler fall weather pushes them toward structures.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Anne Arundel County carries solid Mid-Atlantic termite pressure, and Glen Burnie's older post-war housing stock, much of it built before current foundation standards, sits at meaningfully higher risk than newer subdivisions closer to Annapolis.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Marley Creek and Furnace Creek, both Patapsco River tributaries running through Glen Burnie's residential neighborhoods, sustain mosquito breeding through the warm months within reach of thousands of homes.",
+      },
+    ],
+    localHook:
+      "Glen Burnie sits in the industrial and commercial corridor between Baltimore and BWI Marshall Airport, with Ritchie Highway's dense retail strip running through the middle of town. That commercial density, paired with a large stock of 1940s to 1960s housing built before current pest-exclusion standards existed, creates a combination of Norway rat and German cockroach pressure that is heavier here than in more purely residential Anne Arundel County suburbs.",
+    intro:
+      "Pest Control in Glen Burnie, MD has to account for the town's position in the commercial corridor between Baltimore and BWI Marshall Airport. Ritchie Highway's dense retail and warehouse strip runs straight through town, and that commercial density gives Norway rats reliable food access and harborage that spreads into nearby residential blocks. A large share of Glen Burnie's housing was built in the 1940s through 1960s, meaning much of it predates modern sealing and foundation codes by half a century or more, which sustains German cockroach populations that move through shared walls in older apartment and rowhouse-style buildings. Marley Creek and Furnace Creek add a solid mosquito season from April through October, and Anne Arundel County's regionwide subterranean termite pressure puts the older housing stock at real risk. A program that treats the commercial corridor and the residential blocks as connected, not separate problems, tends to hold up better here than a generic plan.",
+    sections: [
+      {
+        heading: "Why does Glen Burnie seem to have more rats than nearby Anne Arundel County towns?",
+        body: "It comes down to what's around your neighborhood, not anything about Glen Burnie homes specifically. The town sits in the commercial and warehouse corridor between Baltimore and BWI Marshall Airport, and the Ritchie Highway retail strip that runs through the middle of town gives Norway rats steady food access and places to shelter. That pressure spreads into residential blocks near the commercial corridor more than it does in towns set further back from major retail and warehouse density. Activity typically increases in fall as cooler weather pushes rats toward structures, so exclusion work done before October matters more here than in a purely residential suburb.",
+      },
+      {
+        heading: "I live in an older Glen Burnie apartment. Why do the cockroaches keep coming back?",
+        body: "Because the building's age is working against you, not your own housekeeping. A large share of Glen Burnie's apartment and rowhouse-style stock was built in the 1940s through 1960s, before current construction standards addressed shared-wall pest movement, and German cockroaches move easily through those connecting plumbing and wall cavities between units. Treating just your own unit can knock the population down temporarily, but it usually rebounds within weeks if neighboring units aren't treated too. Ask your property manager about a building-wide treatment plan rather than assuming repeat visits to your unit alone will solve it.",
+      },
+      {
+        heading: "Is pest treatment safe for my kids and pets near Marley Creek?",
+        body: "Yes, when it's done by a licensed applicator following label directions. Mosquito treatments used near Marley Creek and Furnace Creek target adult and larval mosquitoes specifically and are applied at rates set for residential use around children and pets. Ask your technician which product is being used and how long to keep kids and pets off treated grass, typically until it dries. Licensed and insured service, not a generic over-the-counter spray, is the safer choice for a yard that backs up to a creek corridor.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around utility lines and foundations before October, when Norway rat activity typically increases as weather cools.",
+      "Ask your property manager whether German cockroach treatment covers the whole building, not just your unit, in older Glen Burnie apartments.",
+      "Schedule an annual termite inspection for post-war homes built before current foundation moisture-barrier standards.",
+      "Clear standing water near Marley Creek and Furnace Creek-adjacent yards before mosquito season ramps up in April.",
+      "Keep dumpster and trash storage areas near Ritchie Highway commercial properties sealed and off the ground to reduce rat food access.",
+    ],
+    costNote:
+      "Rat exclusion and trapping programs in Glen Burnie typically run $160 to $290 for a full seasonal service. Termite inspection is commonly free to $150, with treatment running $600 to $1,200 for a standard home. Quarterly general pest control averages $80 to $135 per visit.",
+    faqs: [
+      {
+        question: "Why is Norway rat pressure higher in Glen Burnie than in some other Anne Arundel County suburbs?",
+        answer: "Glen Burnie sits in the commercial and warehouse corridor between Baltimore and BWI Marshall Airport, and the dense Ritchie Highway retail strip running through town gives rats consistent food access and harborage that spreads into nearby residential blocks. Towns set further back from that level of commercial density typically see less pressure.",
+      },
+      {
+        question: "Are Glen Burnie's older apartments more prone to cockroach problems?",
+        answer: "Yes. A large share of Glen Burnie's housing dates to the 1940s through 1960s, and German cockroaches move easily through the shared plumbing and wall cavities common in that era's construction. Building-wide treatment, not single-unit service, is usually what actually resolves it.",
+      },
+      {
+        question: "Does Glen Burnie have a real mosquito season?",
+        answer: "Yes, April through October, driven largely by Marley Creek and Furnace Creek, both Patapsco River tributaries running through the town's residential areas. Properties near either creek typically see more pressure than homes on higher, better-drained lots elsewhere in Glen Burnie.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Annapolis", slug: "annapolis", stateSlug: "maryland" },
+      { name: "Baltimore", slug: "baltimore", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Glen Burnie, MD | Rats, Roaches & Termites",
+    metaDescription: "Glen Burnie pest control for Norway rats, German cockroaches, subterranean termites and Marley Creek mosquitoes. Free inspection.",
+  },
+  {
+    slug: "chestertown",
+    name: "Chestertown",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~5,600",
+    county: "Kent County",
+    climate: "hot-humid",
+    climateDriver:
+      "Chestertown sits on Maryland's Eastern Shore, where the Chesapeake Bay's influence keeps summers long, humid, and mosquito-heavy compared to inland parts of the state. The town sits directly on the Chester River, and Kent County's surrounding farmland pushes house mice and brown marmorated stink bugs toward town each fall as harvest displaces them. Chestertown's historic downtown, with construction tracing back toward the town's 1706 founding, over three centuries of building stock, carries elevated subterranean termite exposure typical of the Eastern Shore's older wood-frame housing.",
+    topPests: ["mosquitoes", "brown marmorated stink bugs", "subterranean termites", "house mice"],
+    pestProfile: [
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Chestertown's downtown and residential streets sit directly along the Chester River, and the river's marshy edges and tributary creeks sustain heavy mosquito breeding through the Eastern Shore's long, humid summer.",
+      },
+      {
+        name: "brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregates September through November",
+        note: "Kent County's surrounding grain and soybean fields provide stink bugs a season of food before they move toward Chestertown's older homes each fall looking for a place to overwinter.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Chestertown's colonial-era downtown, some of it dating toward the town's 1706 founding, is exactly the older wood-frame housing stock that carries elevated subterranean termite exposure across the humid Eastern Shore.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, heaviest fall entry",
+        note: "House mice move from the corn and soybean fields surrounding Chestertown into homes each fall during harvest, a pattern common across Kent County's agricultural land.",
+      },
+    ],
+    localHook:
+      "Chestertown is Kent County's seat and sits directly on the Chester River, a position that made it one of Maryland's six official Royal Ports of Entry in the colonial era. That same river frontage and the farmland surrounding the town on nearly every side now shape its pest pressure: river-driven mosquito breeding, fall stink bug and mouse pressure pulled in from the surrounding grain fields, and elevated termite exposure in a downtown with genuinely historic housing stock.",
+    intro:
+      "Pest Control in Chestertown, MD has to account for a small river town surrounded by farmland on nearly every side. Chestertown sits directly on the Chester River, a position that made it one of colonial Maryland's official ports of entry, and the same river frontage sustains a real mosquito season through the humid Eastern Shore summer. Kent County's surrounding grain and soybean fields push house mice and brown marmorated stink bugs toward town each fall as harvest and cooling weather displace them, and Chestertown's downtown, home to genuinely historic buildings dating back to the town's 1706 founding, carries elevated subterranean termite exposure in its older wood-frame housing. A program built around the river and the surrounding farmland, not a generic suburban plan, fits Chestertown's actual pest pressure better.",
+    sections: [
+      {
+        heading: "Does living right on the Chester River really mean worse mosquitoes in Chestertown?",
+        body: "It does, and it's worth planning around rather than being surprised by every summer. Chestertown's downtown and many residential streets sit close to the river itself, and the marshy edges and tributary creeks along the Chester provide sustained breeding habitat through the Eastern Shore's long, humid season, typically April through October. Properties directly along the waterfront or near a tributary creek generally see heavier pressure than homes set back on higher, drier ground elsewhere in town. Clearing gutters, plant saucers, and any standing water on your own property is the piece you control directly, even though it won't change what the river itself produces nearby.",
+      },
+      {
+        heading: "Why do I suddenly get mice and stink bugs every fall in Chestertown?",
+        body: "Because Chestertown is surrounded by working farmland on nearly every side, and both pests respond to the same seasonal trigger. House mice move out of the corn and soybean fields as harvest and cooler weather displace them, typically September and October, and head for the nearest structure, which is often a home at the edge of town. Brown marmorated stink bugs follow a similar pattern, feeding on field crops through summer before seeking overwintering sites in September and October. Sealing gaps around your foundation and windows before September, rather than after you spot the first mouse or stink bug, is the more effective order of operations.",
+      },
+      {
+        heading: "Should I worry about termites in a historic Chestertown home?",
+        body: "Yes, more than you would in a newer build elsewhere in Kent County. Chestertown's downtown includes genuinely historic construction, some tracing back toward the town's 1706 founding, meaning parts of the building stock are well over three hundred years old, and that older wood-frame housing typically has sill plates closer to soil and less-updated crawl spaces than modern construction allows. Combined with the Eastern Shore's humid climate, which favors subterranean termite activity generally, an annual inspection is a reasonable standard for any older Chestertown property, historic district or not. A spring swarm of winged termites indoors is usually the clearest sign a colony is already established.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near the Chester River waterfront and any tributary creek-adjacent yard before mosquito season begins in April.",
+      "Seal foundation gaps and window frames by late August ahead of the fall stink bug and house mouse push from surrounding farmland.",
+      "Schedule an annual termite inspection for Chestertown's historic downtown properties and other pre-modern-code homes.",
+      "Store firewood and yard debris away from foundation walls to reduce harborage for mice moving in from nearby fields.",
+      "Inspect crawl spaces and sill plates each spring in older Chestertown homes for signs of termite activity or moisture damage.",
+    ],
+    costNote:
+      "Mosquito treatment along the Chester River waterfront typically runs $80 to $130 per visit during the April through October season. Termite inspection is commonly free to $150, with treatment for a standard home running $600 to $1,200. Mouse exclusion work averages $160 to $290 for a full seasonal service.",
+    faqs: [
+      {
+        question: "Is Chestertown's mosquito season worse than other Kent County towns?",
+        answer: "Properties directly along the Chester River waterfront or near a tributary creek typically see heavier mosquito pressure than homes on higher, drier ground elsewhere in Kent County, since the river's marshy edges sustain breeding through the Eastern Shore's long summer.",
+      },
+      {
+        question: "Why do stink bugs seem to target Chestertown every September?",
+        answer: "Chestertown is surrounded by grain and soybean farmland on nearly every side, and stink bugs feed on those field crops through the summer before seeking overwintering sites indoors each fall. Homes at the edge of town, closest to the fields, tend to see the earliest and heaviest activity.",
+      },
+      {
+        question: "Do I need special termite protection for a historic home in downtown Chestertown?",
+        answer: "An annual inspection is the right standard. Chestertown's downtown includes construction tracing back toward the town's 1706 founding, and that older wood-frame housing generally has less protection against subterranean termites than modern construction, especially combined with the Eastern Shore's humid climate.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Cambridge", slug: "cambridge-md", stateSlug: "maryland" },
+      { name: "Elkton", slug: "elkton", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Chestertown, MD | Mosquitoes, Termites & Mice",
+    metaDescription: "Chestertown pest control for Chester River mosquitoes, fall stink bugs and mice from farmland, and termites in historic homes.",
+  },
+  {
+    slug: "ocean-city-md",
+    name: "Ocean City",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~6,900",
+    county: "Worcester County",
+    climate: "hot-humid",
+    climateDriver:
+      "Ocean City sits on a barrier island on Maryland's Atlantic coast, where the humid coastal climate and the tidal marshes of Assawoman and Isle of Wight bays sustain a genuine salt marsh mosquito season through the warm months. Maryland's state mosquito control program manages that specific habitat with Open Marsh Water Management, digging shallow ditches and ponds so fish can reach and eat mosquito larvae directly in the marsh. The town's population swells from roughly 6,900 year-round residents to the state's second most populated municipality on a typical summer weekend, meaning it briefly outsizes nearly every other Maryland town, and that guest turnover through hotels and rentals adds bed bug risk on top of the marsh-driven mosquito pressure.",
+    topPests: ["mosquitoes", "bed bugs", "subterranean termites", "ants"],
+    pestProfile: [
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks in summer",
+        note: "Ocean City sits between the Atlantic Ocean and the marshy back bays of Assawoman and Isle of Wight, and Maryland's mosquito control program uses Open Marsh Water Management, digging shallow ditches and ponds that let fish eat mosquito larvae, specifically in these coastal salt marshes to keep breeding down.",
+      },
+      {
+        name: "bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, peaks during summer tourist season",
+        note: "Ocean City's dense stock of weekly vacation rentals, condos, and hotel rooms turns over guests constantly through the summer season, and that high turnover is the same condition that makes bed bug introduction a real, ongoing concern in resort towns generally.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Worcester County's humid coastal climate supports solid subterranean termite pressure, and Ocean City's older boardwalk-area buildings and bayside homes carry real exposure despite the sandy barrier-island soil.",
+      },
+      {
+        name: "ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peaks in summer",
+        note: "Coastal condos and rental units along the boardwalk see steady pavement and odorous house ant activity through the warm season, drawn in by the food service density that comes with a resort town's summer population surge.",
+      },
+    ],
+    localHook:
+      "Ocean City's year-round population sits around 6,900 people, but the town becomes the second most populated municipality in Maryland on a typical summer weekend as vacationers fill its hotels, condos, and weekly rentals, a swing of well over a hundred times its winter size. That population swing, combined with sitting directly between the Atlantic Ocean and the marshy back bays of Assawoman and Isle of Wight, shapes a pest profile built around salt marsh mosquitoes and high guest-turnover pests like bed bugs rather than the pests a typical inland Maryland town deals with.",
+    intro:
+      "Pest Control in Ocean City, MD looks different from an inland Maryland town because of two things: the marsh and the tourists. Ocean City sits on a barrier island between the Atlantic Ocean and the back bays of Assawoman and Isle of Wight, and those bayside marshes sustain the kind of mosquito pressure that Maryland's state mosquito program manages directly with marsh-ditching techniques rather than spraying alone. The town's year-round population of roughly 6,900 also swells to become the state's second most populated municipality on a typical summer weekend, and that constant turnover through hotels, condos, and weekly rentals is exactly the condition that makes bed bugs a real, ongoing concern here. Add solid Worcester County subterranean termite pressure in the coastal humid climate and steady ant activity around the boardwalk's food service density, and a resort town needs a pest plan built around tourism season, not a generic year-round suburban schedule.",
+    sections: [
+      {
+        heading: "Are the marsh mosquitoes in Ocean City really that different from mosquitoes anywhere else?",
+        body: "The source is different, which changes what actually helps. Ocean City sits between the Atlantic and the marshy back bays of Assawoman and Isle of Wight, and salt marsh mosquitoes breed in those tidal wetlands rather than in backyard containers alone. Maryland's state mosquito program actually digs shallow ditches and ponds in the marsh itself, called Open Marsh Water Management, so fish can reach and eat the larvae before they mature, a technique used specifically because typical yard-by-yard control doesn't reach tidal marsh breeding sites. On your own property, clearing gutters and containers still helps with the mosquitoes breeding closer to your home, even though it won't touch what the surrounding marsh produces.",
+      },
+      {
+        heading: "I'm renting a condo in Ocean City for the week. Should I actually worry about bed bugs?",
+        body: "It's a reasonable thing to check, not a reason to panic. Ocean City's hotels, condos, and weekly rentals turn over guests constantly through the summer season, and that volume of turnover is the same condition that makes bed bug introduction a documented concern in resort towns generally, not a sign that any specific property is poorly managed. A quick check of the mattress seams and headboard when you arrive takes a couple of minutes and catches most problems early. If you do find something, tell the property manager immediately so professional treatment can happen before your stay ends, not after you're already home.",
+      },
+      {
+        heading: "Does an older boardwalk-area building need the same termite protection as a bayside home?",
+        body: "Yes, both are worth an inspection. Worcester County's humid coastal climate supports solid subterranean termite pressure across the barrier island and the mainland side alike, and sandy soil doesn't eliminate that risk the way some people assume. Older buildings near the boardwalk and established bayside homes both carry real exposure, particularly where wood framing sits close to grade. A spring swarm of winged termites indoors, typically March through May, is usually the first visible sign, and an annual check catches problems before they reach that stage.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and remove standing water on your own property before mosquito season builds through the spring.",
+      "Check mattress seams and headboards for signs of bed bugs when arriving at any Ocean City rental or hotel stay.",
+      "Schedule an annual termite inspection for boardwalk-area buildings and bayside homes regardless of the sandy barrier-island soil.",
+      "Seal food storage and keep boardwalk-facing units free of crumbs and residue to reduce pavement ant activity in summer.",
+      "Report any suspected bed bug activity to property management immediately rather than waiting until after checkout.",
+    ],
+    costNote:
+      "Mosquito treatment for Ocean City properties typically runs $80 to $130 per visit during the peak April through October season. Bed bug inspection is commonly free to $100, with treatment for a standard unit running $300 to $900 depending on the extent of the infestation. Termite inspection is commonly free to $150.",
+    faqs: [
+      {
+        question: "Why does Maryland manage mosquitoes differently around Ocean City than inland?",
+        answer: "Ocean City sits between the Atlantic Ocean and the tidal back bays of Assawoman and Isle of Wight, and salt marsh mosquitoes breed in those wetlands rather than in typical yard containers. Maryland's state program uses Open Marsh Water Management, digging shallow ditches and ponds so fish can eat the larvae, specifically because that tidal marsh habitat needs a different approach than standard yard treatment.",
+      },
+      {
+        question: "Is Ocean City's bed bug risk higher because it's a resort town?",
+        answer: "The constant guest turnover through Ocean City's hotels, condos, and weekly rentals during the summer season is the same condition that makes bed bug introduction a documented concern across resort towns generally. It's not a reflection of any single property's cleanliness, and a quick mattress and headboard check at check-in catches most problems early.",
+      },
+      {
+        question: "Do buildings on Ocean City's sandy barrier island still get termites?",
+        answer: "Yes. Worcester County's humid coastal climate supports solid subterranean termite pressure regardless of the sandy soil, and both boardwalk-area buildings and bayside homes carry real exposure. An annual inspection is worth it for older construction on either side of town.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Salisbury", slug: "salisbury-md", stateSlug: "maryland" },
+      { name: "Cambridge", slug: "cambridge-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ocean City, MD | Mosquitoes, Bed Bugs & Termites",
+    metaDescription: "Ocean City pest control for salt marsh mosquitoes, rental turnover bed bugs, coastal termites and boardwalk ants. Free inspection.",
+  },
 ];

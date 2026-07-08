@@ -6549,4 +6549,458 @@ export const washingtonCities: CityLocation[] = [
     metaTitle: "Pest Control in Arlington, WA | Snohomish County",
     metaDescription: "Arlington, WA pest control for rodents from the agricultural edge, carpenter ants in hillside homes, and yellow jacket ground nests. Licensed Snohomish County service.",
   },
+  {
+    slug: "poulsbo",
+    name: "Poulsbo",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~12,964",
+    county: "Kitsap County",
+    climate: "temperate",
+    climateDriver:
+      "Poulsbo sits at the head of Liberty Bay on Puget Sound, a Norwegian settled port town whose downtown marina and older waterfront housing stock sit close to the water. The Pacific marine climate keeps humidity high through fall and winter, and Poulsbo's role as a ferry commuter town, many residents drive to the Bainbridge Island terminal or the Kingston dock, means homes are often empty for long stretches during daylight, which lets small pest problems grow before anyone notices them. The wet, mild winters never get cold enough to slow rats or moisture pests for long.",
+    topPests: ["Carpenter Ants", "Rats", "Spiders", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most visible indoors in spring",
+        note: "Older waterfront homes near Liberty Bay hold more moisture in their framing than newer hillside construction, giving carpenter ants exactly the damp wood they target.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, heaviest indoor pressure October through February",
+        note: "The marina, docks, and older downtown commercial buildings give rats steady food and shelter, and the wet, mild winters here never knock the population back.",
+      },
+      {
+        name: "Giant house spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible indoors September and October",
+        note: "Males wander out of sheds, crawl spaces, and basements each fall looking for mates, which is when Poulsbo homeowners see the most indoor activity.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round in damp areas",
+        note: "The commercial buildings along Front Street and the older residential blocks nearest Liberty Bay run more humid than hillside construction farther from the water, which suits silverfish well.",
+      },
+    ],
+    localHook:
+      "Poulsbo's downtown sits at the head of Liberty Bay, a Norwegian settled fishing and marina town where hundreds of residents commute out by ferry each day, and the same wet marine air that makes the waterfront so scenic is what keeps carpenter ants, silverfish, and rats active nearly all year.",
+    intro:
+      "Pest Control in Poulsbo, WA looks different from a lot of Puget Sound towns because of where the city sits: tucked at the head of Liberty Bay, with a marina, older waterfront homes, and hundreds of ferry commuters moving through every day. The wet marine air off the bay keeps everything damp for most of the year, and that dampness is what drives the pest pressure here. Carpenter ants find soft, wet wood in older homes near the water. Spiders move indoors as the weather cools. Silverfish settle into humid bathrooms and crawl spaces. Rats work the marina and the older commercial buildings downtown. None of this is unusual for Kitsap County, but Poulsbo's mix of a historic waterfront core and newer hillside neighborhoods means the pest pressure shows up differently depending on which part of town you're in.",
+    sections: [
+      {
+        heading: "Why do I keep finding carpenter ants near my kitchen sink in Poulsbo?",
+        body: "Carpenter ants don't eat wood, they hollow it out for nesting, and they always pick wood that's already wet. In Poulsbo, that usually means a spot near a plumbing leak, a poorly flashed window, or framing close to the crawl space. Liberty Bay's damp air keeps humidity high enough, year-round, that once wood gets wet it tends to stay that way. If you're seeing large black ants indoors, especially in spring, there's a good chance there's a moisture problem behind the wall or under the floor. Treating the ants without finding and fixing that moisture source is a short-term fix. A real inspection checks the crawl space and any water-damaged trim first.",
+      },
+      {
+        heading: "Are the spiders showing up in my Poulsbo home in the fall dangerous?",
+        body: "Most of what you'll see in a Poulsbo home each fall are giant house spiders, and they look scarier than they are. Males leave their webs in September and October to find mates, which is why you'll suddenly spot a large spider crossing the living room floor at night. They aren't aggressive and rarely bite, and their venom isn't medically significant for people. What their numbers usually signal is a home with easy entry points, gaps around doors, unsealed vents, or a damp crawl space they can retreat to during the day. Sealing those gaps and reducing damp harborage areas cuts down on how many make it indoors, even though the fall spider run itself is a normal seasonal event around Puget Sound.",
+      },
+      {
+        heading: "Will rats near the marina keep coming back every winter?",
+        body: "They will, unless the entry points get sealed, because Poulsbo's waterfront and downtown commercial strip give rats reliable food and shelter all year. Norway rats burrow near foundations, docks, and drainage structures, and cooler, wetter weather from October through February pushes them to look harder for indoor shelter. A single treatment removes the rats that are there at the time, but new ones move in from the same access points within weeks if those gaps aren't closed. Effective control near the water means combining exterior bait stations with exclusion work, sealing gaps around utility lines, foundation vents, and dock adjacent structures, so the population has fewer places to rebuild from.",
+      },
+    ],
+    prevention: [
+      "Check crawl spaces and sill plates near Liberty Bay facing walls for moisture damage every spring, before carpenter ant activity peaks.",
+      "Seal gaps around doors, vents, and utility penetrations before fall, when giant house spiders and rodents both start looking for a way in.",
+      "Keep gutters and downspouts clear so runoff drains away from the foundation instead of soaking into crawl space wood.",
+      "Store firewood and lumber off the ground and away from the house, since damp stacked wood is a common carpenter ant staging area.",
+      "Ask about exterior bait stations near the waterfront and downtown commercial strip if you're seeing rat activity near docks or alleys.",
+    ],
+    costNote:
+      "A general pest program for a Poulsbo home typically runs $40 to $60 a month, covering ants, spiders, and other perimeter pests. A dedicated carpenter ant inspection, which includes checking the crawl space and any moisture damaged wood, usually runs $150 to $300 depending on how the home is built. Free inspections are standard before any treatment plan starts.",
+    faqs: [
+      {
+        question: "Does Poulsbo really have worse carpenter ant problems than nearby towns?",
+        answer: "Not worse exactly, but the older waterfront housing stock near Liberty Bay does see more calls than newer hillside construction. Homes built before modern moisture barriers and flashing standards are more likely to have the damp wood carpenter ants need. A home near the water with original single pane windows and older siding is a higher risk property than a newer build on the Poulsbo hillside, regardless of neighborhood.",
+      },
+      {
+        question: "I commute out of Poulsbo on the ferry all week. Does that make pest problems harder to catch early?",
+        answer: "It can, since ferry commuters are often out of the house from early morning until evening, which is exactly when a small ant trail or a first rat sighting near the foundation would normally get noticed and dealt with. Small problems have more time to grow before anyone's home to spot them. A quarterly service visit catches early activity even when nobody in the house is around during daylight hours to see it.",
+      },
+      {
+        question: "Is silverfish activity common in Poulsbo's older downtown buildings?",
+        answer: "Yes. The commercial buildings along Front Street and the residential blocks closest to Liberty Bay tend to run more humid than newer construction farther up the hillside, and silverfish need that humidity to survive. They favor bathrooms, basements, and any crawl space that doesn't drain well. Running a dehumidifier in a damp basement and improving crawl space ventilation reduces the humidity silverfish depend on, which is usually more effective long-term than repeated spot treatments alone.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle", stateSlug: "washington" },
+      { name: "Edmonds", slug: "edmonds", stateSlug: "washington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Poulsbo, WA | Carpenter Ants, Spiders & Rats",
+    metaDescription:
+      "Poulsbo pest control for carpenter ants, house spiders, silverfish and rats near Liberty Bay. Licensed and insured. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sunnyside-wa",
+    name: "Sunnyside",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~16,317",
+    county: "Yakima County",
+    climate: "semi-arid",
+    climateDriver:
+      "Sunnyside sits in the lower Yakima Valley east of the Cascades, a semi-arid, high desert climate with hot, dry summers and cold winters, a sharp contrast to the wet marine climate on the west side of the state. The city is surrounded by hop yards, wine grape vineyards, and orchards, and is home to a large Darigold dairy processing plant. That agricultural base, not damp wood, is what drives the local pest pressure, heavy wasp and yellowjacket activity around ripening crops and farm buildings, plus rodents pushed toward structures once the fields are harvested each fall.",
+    topPests: ["Yellowjackets & Wasps", "Rodents", "Odorous House Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through August, peak aggression August and September",
+        note: "The Yakima Valley's hop yards, vineyards, and orchards give colonies a heavy sugar source by late summer, which is why Sunnyside sees a sharp rise in stings and nest calls in August.",
+      },
+      {
+        name: "Deer mice and house mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Pressure builds as fields are cut in fall",
+        note: "Farmland surrounding Sunnyside supports a large outdoor rodent population that loses cover once crops are harvested, pushing mice toward homes and outbuildings near open fields and irrigation canals.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer, tied to irrigation moisture",
+        note: "Without heavy rainfall to drive carpenter ants, odorous house ants are the more common local ant complaint, especially around foundations kept damp by sprinklers or hose bibs.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall clusters on sun-facing walls",
+        note: "Sunnyside's dry, sunny falls bring boxelder bugs out in clusters on warm siding as they look for a place to overwinter.",
+      },
+    ],
+    localHook:
+      "Sunnyside sits in the lower Yakima Valley, ringed by hop yards, wine grape vineyards, and orchards, and anchored by a major Darigold dairy processing plant, an agricultural base that draws far more wasps and rodents through a home's pest pressure than the carpenter ants and moisture pests common on the wet side of Washington.",
+    intro:
+      "Pest Control in Sunnyside, WA has a different rhythm than pest control on the wet side of the state, because the lower Yakima Valley is high desert, not rainforest. Sunnyside gets roughly 8 inches of rain a year, meaning the ground here rarely stays wet for long, plus hot summers in the 90s, and cold, dry winters, and that changes which pests actually cause trouble. Carpenter ants and the moisture pests that dominate west-side homes are much less common here. Instead, the acres of hops, wine grapes, and orchards surrounding town, along with the dairy operations anchored by the Darigold plant, draw heavy wasp and yellowjacket activity every late summer, and open farmland pushes mice and rats toward homes and outbuildings once the weather turns cold. Ants and spiders still show up, but the pressure looks more agricultural than damp.",
+    sections: [
+      {
+        heading: "Why are there so many yellowjackets around my house in Sunnyside every August?",
+        body: "Yellowjacket colonies build all summer, and by August they're at their largest, right when the Yakima Valley's hop yards, vineyards, and orchards are producing the ripe fruit and sugar these wasps go after. A colony that started small in May can have thousands of workers by late summer, all foraging aggressively for food as their own colony's food supply starts to run low. That's why stings spike in August and September, not June. Nests near a home, in the ground, under eaves, or inside a wall void, need to come out before they reach that size, because removing a large, established nest is a bigger job and a bigger risk than treating one found early.",
+      },
+      {
+        heading: "Will the mice from the surrounding farmland get into my house once it turns cold?",
+        body: "Very likely, yes. Sunnyside sits inside farmland that supports a large outdoor rodent population all year, and once fall temperatures drop and the fields get cut or plowed, mice and deer mice lose their outdoor cover and food source at the same time. Homes and outbuildings near open fields or irrigation canals are the first places they try. A few droppings in a garage or shed, or gnaw marks on stored feed or grain, are usually the first sign. Sealing gaps around foundations, garage doors, and utility lines before October, ahead of that seasonal push, keeps most of them from getting inside in the first place.",
+      },
+      {
+        heading: "Do I need to worry about carpenter ants here like homes on the west side do?",
+        body: "Not to the same degree. Carpenter ants need consistently damp wood to nest in, and Sunnyside's dry summers and low annual rainfall don't create that condition the way Western Washington's marine climate does. That doesn't mean ants aren't a problem here. Odorous house ants and pavement ants are more common local complaints, especially around foundations, irrigation lines, and any wood that stays wet from a sprinkler system or a leak. If you do find large black ants in damp wood near a hose bib or drainage area, it's worth a look, but it's the exception in this climate, not the rule.",
+      },
+    ],
+    prevention: [
+      "Have wasp nests near hop yards, orchards, or vineyard adjacent yards treated in June or July, before they reach peak size in August.",
+      "Seal foundation and utility gaps before October, when field mice and deer mice from surrounding farmland start looking for indoor shelter.",
+      "Fix leaking sprinkler heads and hose bibs, since irrigation runoff is the main source of the damp wood that draws the area's odorous and pavement ants.",
+      "Store grain, pet food, and bird seed in sealed containers, especially in garages and outbuildings near open fields.",
+      "Keep fallen fruit picked up under any backyard fruit trees, which draws both yellowjackets and rodents.",
+    ],
+    costNote:
+      "General pest coverage for a Sunnyside home runs about $40 to $60 a month and typically includes ants, spiders, and general perimeter pests. A single wasp nest removal usually runs $100 to $250 depending on size and location. Free inspections come standard before any treatment plan is scheduled.",
+    faqs: [
+      {
+        question: "Is it true Sunnyside gets fewer carpenter ants than cities like Seattle?",
+        answer: "Yes, and it comes down to rainfall. Seattle gets roughly six times the annual precipitation Sunnyside does, meaning a normal Seattle winter delivers more rain than Sunnyside sees in an entire year, and carpenter ants need damp wood to nest in. The Yakima Valley's dry climate means Sunnyside homeowners deal far more with odorous house ants, wasps, and rodents than with the carpenter ant pressure common on the west side of the state.",
+      },
+      {
+        question: "Why does Sunnyside see so much wasp activity near the Darigold plant and the surrounding farms?",
+        answer: "Wasps and yellowjackets are drawn to two things: protein early in the season and sugar later on. The dairy operations and the valley's hops, grapes, and orchard crops supply both, which is part of why Sunnyside's late-summer wasp pressure is heavier than in towns without that agricultural base. Nests found near farm buildings or backyard fruit trees should be treated before September, when colonies are at their largest and most defensive.",
+      },
+      {
+        question: "What time of year should Sunnyside homeowners schedule pest prevention?",
+        answer: "Two windows matter most here. Early summer, June and July, is the right time for wasp nest treatment, before colonies near Sunnyside's orchards and hop yards reach peak size. Late summer into early fall is the right time to seal up the house against rodents, ahead of the harvest season push when mice and rats move off the cut fields and toward buildings for shelter. Handling both windows on schedule prevents most of the calls that come in during the busiest months.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Richland", slug: "richland", stateSlug: "washington" },
+      { name: "Pasco", slug: "pasco", stateSlug: "washington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Sunnyside, WA | Wasps, Rodents & Ants",
+    metaDescription:
+      "Sunnyside pest control for yellowjackets, wasps, mice, rats and ants in the Yakima Valley. Licensed and insured. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "monroe-wa",
+    name: "Monroe",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~19,927",
+    county: "Snohomish County",
+    climate: "temperate",
+    climateDriver:
+      "Monroe sits along the Skykomish River in the Cascade foothills of Snohomish County, a wet marine climate that keeps carpenter ants and moisture pests active most of the year. The city grew up as a dairy and agricultural town, home to the Evergreen State Fairgrounds, and still borders working farmland even as it has become a fast growing commuter town east of Everett. That mix, river bottomland, older farm buildings, and wooded fairgrounds edges, gives Monroe a broader pest profile than a purely residential suburb.",
+    topPests: ["Carpenter Ants", "Rodents", "Wasps", "Spiders"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most visible indoors in spring",
+        note: "Older homes near the Skykomish River bottomland and downtown Monroe hold more moisture in their framing, which is exactly the damp wood carpenter ants target once colonies become active in spring.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Pressure rises each fall as farmland is harvested",
+        note: "Monroe still borders active dairy and row crop farmland, and rodents pushed off those fields each fall head straight for homes and outbuildings near the edges of town.",
+      },
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build through summer, peak August and September",
+        note: "The brush and tree cover along the Skykomish River corridor and around the Evergreen State Fairgrounds give wasps plenty of undisturbed nesting habitat close to homes.",
+      },
+      {
+        name: "Giant house spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible indoors in late summer and fall",
+        note: "Wooded, semi-rural yards near the river and surrounding farmland give spiders more outdoor habitat than a denser Seattle suburb, so more wander indoors each fall.",
+      },
+    ],
+    localHook:
+      "Monroe sits along the Skykomish River and is home to the Evergreen State Fairgrounds, a former dairy town where river bottomland, working farmland, and a growing commuter population sit closer together than in most Snohomish County suburbs, which spreads its pest pressure across ants, rodents, wasps, and spiders instead of just one or two.",
+    intro:
+      "Pest Control in Monroe, WA deals with the same wet, marine climate that shapes pest pressure across Western Washington, but Monroe's mix of Skykomish River bottomland, surrounding farm fields, and a fast growing commuter population east of Everett gives it its own version of the problem. The damp air keeps carpenter ants and moisture pests active most of the year, while the farmland ringing town, some of it still in dairy and row crops, pushes rodents toward homes as fields empty out each fall. The Evergreen State Fairgrounds and the river corridor add wooded, semi-rural edges where wasps and spiders find plenty of habitat. It's a town where a hillside subdivision, an older farmhouse, and a downtown building three blocks apart can each have a noticeably different pest problem.",
+    sections: [
+      {
+        heading: "Why do carpenter ants keep showing up near my kitchen sink every spring?",
+        body: "In Monroe, that almost always traces back to moisture. Carpenter ants excavate wood that's already wet or soft, and a kitchen sink is one of the most common leak points in a house, whether it's a slow drain leak, failed caulking, or a cracked supply line hidden inside the cabinet. The wet Western Washington spring adds outdoor moisture on top of any indoor leak, which is why the ants tend to show up as the weather warms and colonies become active again. Finding large black ants near the sink is a strong sign there's hidden water damage in or behind that cabinet, not just an ant problem on its own.",
+      },
+      {
+        heading: "Is it normal to see more mice and rats in Monroe once fall arrives?",
+        body: "It is, and the farmland around Monroe is a big reason why. As nearby fields are harvested and cover crops die back each fall, rodents that were living outdoors lose both food and shelter at the same time, and homes on the edges of town, especially those near the river bottomland or older agricultural parcels, are the first they try. Cooling temperatures push the timing further. Sealing up foundation gaps, garage doors, and crawl space vents before October is the most effective single step, because it closes the entry points before the fall push actually starts.",
+      },
+      {
+        heading: "What about wasps near the Skykomish River trails and my yard?",
+        body: "The river corridor's brush and tree cover give yellowjackets and paper wasps plenty of places to build undisturbed nests through the summer, both in the ground and up in trees and eaves. Nests along the greenbelt edges of a property tend to go unnoticed longer than ones in an open yard, simply because nobody's looking there, and by the time they're spotted in August or September they're often close to peak size. A nest found near a trail, a woodpile, or a fence line bordering brush should be treated as soon as it's noticed rather than left until it grows larger.",
+      },
+    ],
+    prevention: [
+      "Check under kitchen and bathroom sinks for slow leaks each spring, since hidden moisture there is the top carpenter ant trigger in Monroe homes.",
+      "Seal foundation gaps, garage door bottoms, and crawl space vents before October, ahead of the fall rodent push off the surrounding farmland.",
+      "Clear brush and woodpiles along fence lines near the Skykomish River corridor, common yellowjacket and paper wasp nesting spots.",
+      "Keep gutters clear and downspouts extended away from the foundation to limit the damp wood carpenter ants target.",
+      "Inspect outbuildings and sheds near open fields for rodent entry points before storing fall and winter supplies.",
+    ],
+    costNote:
+      "A standard quarterly pest program for a Monroe home runs about $40 to $65 a month, covering ants, spiders, and general perimeter pests. Exterior rodent exclusion work, sealing foundation and vent gaps, typically adds $150 to $350 depending on the size of the house. Free inspections are included before any plan starts.",
+    faqs: [
+      {
+        question: "Does living near the Skykomish River in Monroe mean more pest pressure?",
+        answer: "Generally, yes, for wasps and spiders specifically. The tree and brush cover along the river corridor provides undisturbed nesting habitat that a mowed, open yard doesn't. Homes backing onto the greenbelt or river bottomland tend to see more late-summer wasp activity and more fall spider movement indoors than homes in the newer subdivisions farther from the water.",
+      },
+      {
+        question: "Why does Monroe seem to have more rodent activity than nearby Seattle suburbs?",
+        answer: "Monroe still borders active farmland and river bottomland in a way that denser suburbs closer to Seattle don't, and that outdoor habitat supports a larger rodent population to begin with. When fields are harvested each fall, that population has fewer places to go, and homes on the edges of town are the nearest shelter. It's less about Monroe itself and more about what's still surrounding it.",
+      },
+      {
+        question: "Is carpenter ant activity worse in Monroe's older downtown buildings or the newer subdivisions?",
+        answer: "Older buildings, generally. The commercial core near the Evergreen State Fairgrounds and the older residential streets have wood-frame construction from an era before modern moisture barriers and flashing standards, and that older wood is more likely to already be damp somewhere. Newer subdivisions aren't immune, but they see it far less often unless there's an active leak.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Marysville", slug: "marysville", stateSlug: "washington" },
+      { name: "Bothell", slug: "bothell", stateSlug: "washington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Monroe, WA | Carpenter Ants, Rodents & Wasps",
+    metaDescription:
+      "Monroe pest control for carpenter ants, rodents, wasps and spiders near the Skykomish River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "east-wenatchee",
+    name: "East Wenatchee",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~15,054",
+    county: "Douglas County",
+    climate: "semi-arid",
+    climateDriver:
+      "East Wenatchee sits in Douglas County, directly across the Columbia River from Wenatchee, in a semi-arid, high desert climate zone with hot, dry summers and cold winters. The city is surrounded by apple, cherry, and pear orchards that give the Wenatchee Valley its reputation as the Apple Capital of the World. Without the marine rainfall that drives moisture pests on the west side of the state, East Wenatchee's pest pressure follows the orchard calendar instead, wasps drawn to ripening fruit, boxelder bugs clustering each fall, and rodents pushed toward buildings as harvested fields empty out.",
+    topPests: ["Wasps & Yellowjackets", "Boxelder Bugs", "Rodents", "Pavement Ants"],
+    pestProfile: [
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colonies peak late summer through harvest",
+        note: "Ripening apples, cherries, and pears in the orchards surrounding East Wenatchee give colonies a heavy sugar source right as they reach their largest size of the year.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall clusters on sun-facing walls",
+        note: "Douglas County's dry, sunny falls draw boxelder bugs onto warm, light-colored siding in large numbers as they search for a place to overwinter.",
+      },
+      {
+        name: "Deer mice and house mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Pressure builds after harvest into fall",
+        note: "As the orchard land around East Wenatchee is picked and the weather cools, rodents that relied on that cover move toward homes and outbuildings for shelter.",
+      },
+      {
+        name: "Pavement and odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer, tied to irrigation moisture",
+        note: "Without steady rainfall, the area's ants gather around irrigation lines and sprinkler zones rather than the damp structural wood carpenter ants need.",
+      },
+    ],
+    localHook:
+      "East Wenatchee sits directly across the Columbia River from Wenatchee, connected by the George Sellar Bridge, in the middle of the orchard country that made the valley famous as the Apple Capital of the World, and it is that orchard economy, not damp weather, that shapes most of the town's pest pressure.",
+    intro:
+      "Pest Control in East Wenatchee, WA runs on a different clock than pest control west of the Cascades, because Douglas County sits in a semi-arid, high desert climate with less than 9 inches of rain a year, a small fraction of what falls on the wet side of the Cascades, and summers that regularly top 90 degrees. East Wenatchee sits directly across the Columbia River from Wenatchee, connected by the George Sellar Bridge, in the middle of the orchard country that gives the valley its reputation as the Apple Capital of the World. Apples, cherries, and pears ripening through summer draw heavy wasp and yellowjacket pressure by harvest season, and boxelder bugs cluster on warm, sun-facing walls every fall. Carpenter ants and the moisture pests common on the wet side of the state are much less of an issue here, since the dry climate doesn't give them the damp wood they need.",
+    sections: [
+      {
+        heading: "Why do we get so many wasps around the house at harvest time?",
+        body: "Orchards ripening all around East Wenatchee are the reason. Yellowjackets and paper wasps switch from hunting protein earlier in the season to chasing sugar as summer winds down, and ripe apples, cherries, and pears sitting on trees or dropped on the ground are an easy target. Colonies are also at their largest size by late summer, which means more workers foraging at once. A nest near a patio, shed, or fence line close to orchard blocks should be treated before harvest gets underway, since removing a mature nest once fruit is ripening on the tree is a harder, riskier job.",
+      },
+      {
+        heading: "What are these clusters of black and orange bugs on my siding every fall?",
+        body: "Those are boxelder bugs, and they're extremely common on warm, sun-facing walls in Douglas County every autumn. They feed on boxelder, maple, and ash seeds through the growing season, and once temperatures drop they gather in large numbers on light-colored, sun-warmed surfaces looking for a way to overwinter, often right on stucco or siding. They don't bite, sting, or damage a structure, but a few hundred of them on one wall is unpleasant, and some do get inside through small gaps. Sealing siding cracks and window and door gaps before October is the most effective way to keep the fall cluster outside where it belongs.",
+      },
+      {
+        heading: "Do East Wenatchee homes get carpenter ants like homes on the wet side of the state?",
+        body: "Not usually. Carpenter ants need wood that stays consistently damp, and East Wenatchee's dry summers and low annual rainfall rarely create that condition outside of an active leak or a poorly drained sprinkler zone. What shows up more often here are pavement ants and odorous house ants, along with rodents moving in from the surrounding orchard land as the weather cools. If you do see large black ants in wet wood near an irrigation line or a leaking hose bib, it's worth checking, but it's not the widespread problem it is in Western Washington.",
+      },
+    ],
+    prevention: [
+      "Have wasp nests near orchard adjacent yards, patios, or sheds treated by midsummer, before harvest season colonies reach peak size.",
+      "Seal siding cracks, window frames, and door gaps before October to keep fall boxelder bug clusters from getting inside.",
+      "Fix leaking sprinkler heads and hose bibs, the main source of the damp wood that draws the area's pavement and odorous house ants.",
+      "Keep fallen fruit cleared from under backyard trees, which pulls in both wasps and rodents.",
+      "Seal foundation and utility gaps before the surrounding orchard land empties out each fall and pushes rodents toward buildings.",
+    ],
+    costNote:
+      "A general pest program for an East Wenatchee home typically runs $40 to $60 a month and covers ants, wasps, and general perimeter pests. A single wasp nest removal usually costs $100 to $250 depending on size and location, and exterior rodent exclusion work adds roughly $150 to $300. Free inspections are standard before treatment begins.",
+    faqs: [
+      {
+        question: "Why does East Wenatchee have so much less carpenter ant activity than towns like Everett?",
+        answer: "It comes down to rainfall. Everett and other Western Washington towns get several times the annual precipitation East Wenatchee does, and carpenter ants depend on consistently damp wood to nest in. Douglas County's dry, semi-arid climate rarely produces that condition outside of an actual leak, which is why East Wenatchee homeowners deal far more with wasps, boxelder bugs, and orchard driven rodent pressure than with carpenter ants.",
+      },
+      {
+        question: "Does living near the orchards around East Wenatchee mean more pest calls at certain times of year?",
+        answer: "Yes, harvest season is the busiest stretch. As apples, cherries, and pears ripen from late summer into fall, wasp activity peaks, boxelder bugs start clustering on walls, and rodents begin moving off the orchard land toward buildings as the season winds down. Scheduling wasp treatment in midsummer and rodent exclusion work in early fall gets ahead of both before they peak.",
+      },
+      {
+        question: "Are boxelder bugs in East Wenatchee actually harmful?",
+        answer: "No. Boxelder bugs don't bite, sting, or damage wood, wiring, or fabric, and they aren't a health risk. The problem is entirely the nuisance of large numbers gathering on sun-warmed siding and occasionally slipping inside through small gaps each fall. Sealing up the exterior is usually enough to handle them without needing chemical treatment indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Wenatchee", slug: "wenatchee", stateSlug: "washington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in East Wenatchee, WA | Wasps, Boxelder Bugs & Ants",
+    metaDescription:
+      "East Wenatchee pest control for wasps, boxelder bugs, rodents and ants in Douglas County orchard country. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "enumclaw",
+    name: "Enumclaw",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~13,173",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Enumclaw sits on a plateau in the Cascade foothills of southeast King County, formed by an ancient Mount Rainier mudflow, at roughly 750 feet in elevation. The town's early economy was built on hops in the 1880s, and when that crop failed to pests and a market downturn, the community shifted to the dairy farming that shaped it for decades. The wet, marine fall and winter climate common to Western Washington keeps carpenter ants and moisture pests active in the older farmhouses and barns still scattered around the plateau, while surrounding pastureland pushes rodents toward buildings once fields are cut each fall.",
+    topPests: ["Carpenter Ants", "Rodents", "Spiders", "Wasps"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most visible indoors in spring",
+        note: "Many older farmhouses and barns on the Enumclaw Plateau predate modern moisture barriers, and decades of wet falls and winters have given that wood plenty of chances to stay damp.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Pressure rises each fall as pastures and hay fields are cut",
+        note: "Farmland ringing Enumclaw supports a large outdoor rodent population that loses cover once fields are cut, sending mice and rats toward homes and outbuildings near the plateau's edges.",
+      },
+      {
+        name: "Giant house spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible indoors in late summer and fall",
+        note: "Undisturbed barns, sheds, and woodpiles common on Enumclaw's older agricultural properties give spiders plenty of habitat before males wander indoors looking for mates each fall.",
+      },
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build through summer, peak August and September",
+        note: "Wooded fence lines and farm buildings around Enumclaw give wasps quiet nesting spots that often go unnoticed until colonies are near peak size.",
+      },
+    ],
+    localHook:
+      "Enumclaw's economy started with hops in the 1880s, and when that crop failed due to pests and a market downturn the town turned to dairy farming instead, a shift that still shows up today in the older farmhouses and barns on the plateau that give carpenter ants, spiders, and fall rodents the most places to settle in.",
+    intro:
+      "Pest Control in Enumclaw, WA has roots that go back further than most people realize: this King County plateau town started out growing hops in the 1880s, and when that crop failed to pests and a market downturn, the community switched to the dairy farming that shaped it for the next century. That history still echoes in the pest pressure today. Enumclaw sits at about 750 feet on a plateau formed by a Mount Rainier mudflow, high enough that the town often sits above the fog that settles over the lower Puget Sound valleys, and wet enough in fall and winter to keep carpenter ants and moisture pests active in the older farmhouses and barns scattered around town, while the pastureland ringing the city limits pushes rodents toward buildings once the fields empty out each fall. Wasps and spiders round out the picture, both common in the wooded edges between town and the surrounding farms.",
+    sections: [
+      {
+        heading: "Does Enumclaw's farm and dairy history still affect pest problems today?",
+        body: "In a real sense, yes. Many of the older farmhouses, barns, and outbuildings scattered around the Enumclaw Plateau date back to the dairy era, and that older wood-frame construction, combined with the area's wet fall and winter weather, gives carpenter ants exactly the damp wood they need to nest in. Structures near old barns or converted agricultural buildings tend to see more activity than newer construction in town. It's not that the history itself causes the problem, it's that older buildings on wet farmland have had decades to develop the moisture issues that invite carpenter ants in.",
+      },
+      {
+        heading: "Will mice and rats get into my house once the plateau turns cold?",
+        body: "Likely, yes, especially for homes near open pasture or hay fields. Enumclaw's surrounding farmland supports a large outdoor rodent population through the growing season, and once fields are cut and cold weather sets in, that population loses food and cover at the same time. Buildings on the edge of town, particularly older farmhouses and outbuildings, are the first places rodents try. A few droppings in a garage, or gnaw marks on stored feed, are usually the earliest sign. Sealing foundation gaps and outbuilding entry points before the weather turns is the most effective way to stay ahead of it.",
+      },
+      {
+        heading: "Are the spiders around my barn or shed something to worry about?",
+        body: "Mostly not medically, but they're worth managing. Giant house spiders and other common Pacific Northwest species use undisturbed barns, sheds, and woodpiles as prime habitat, and males become far more visible in late summer and fall while looking for mates. They aren't aggressive and rarely bite, and their venom isn't a real health concern for people. What their numbers usually signal is a structure with plenty of undisturbed clutter and easy entry points, which is common in older outbuildings around Enumclaw. Clearing clutter and sealing gaps reduces how many end up inside the house itself, even if the barn or shed still sees regular activity.",
+      },
+    ],
+    prevention: [
+      "Inspect older farmhouses, barns, and outbuildings on the Enumclaw Plateau for damp or rotting wood each spring, before carpenter ant activity peaks.",
+      "Seal foundation gaps and outbuilding entry points before fields are cut in fall, ahead of the seasonal rodent push toward buildings.",
+      "Clear clutter and stacked wood from barns and sheds to reduce spider habitat near the house.",
+      "Keep gutters and downspouts clear so runoff drains away from older wood-frame structures common on the plateau.",
+      "Treat wasp nests found along wooded fence lines or farm buildings before they reach peak size in late summer.",
+    ],
+    costNote:
+      "A quarterly pest program for an Enumclaw home generally runs $40 to $65 a month, covering ants, spiders, and general perimeter pests. Exterior rodent exclusion for a farmhouse or outbuilding typically runs $150 to $350 depending on the number of structures involved. Free inspections are included before any treatment plan starts.",
+    faqs: [
+      {
+        question: "Why do older Enumclaw farmhouses seem to get more carpenter ants than newer homes in town?",
+        answer: "Age and construction era matter here. Many older farmhouses on the Enumclaw Plateau were built before modern moisture barriers and flashing standards existed, and decades of wet falls and winters have given that wood more chances to develop hidden damp spots. Carpenter ants need consistently wet wood to nest in, so a century-old farmhouse simply has more opportunities for that condition than a home built in the last twenty years.",
+      },
+      {
+        question: "Is it true Enumclaw used to be a hops growing town before it became known for dairy?",
+        answer: "Yes. Enumclaw's early economy in the 1880s and 1890s was built on hops, and when that crop failed due to pests and a market downturn, the community shifted to dairy farming, which shaped the area for decades afterward. That agricultural history is part of why the plateau still has so many older barns and farm buildings, which are exactly the kind of structures that see the most carpenter ant and rodent activity today.",
+      },
+      {
+        question: "Do Enumclaw homes near open pasture need different pest prevention than homes closer to downtown?",
+        answer: "Somewhat, yes. Properties bordering active pasture or hay fields see heavier seasonal rodent pressure, especially each fall when the fields are cut, and are more likely to have older outbuildings that give carpenter ants and spiders extra harborage. Homes closer to downtown Enumclaw still deal with the same pests, just generally with fewer entry points and less surrounding habitat to draw them in.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Puyallup", slug: "puyallup", stateSlug: "washington" },
+      { name: "Auburn", slug: "auburn-wa", stateSlug: "washington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Enumclaw, WA | Carpenter Ants, Rodents & Spiders",
+    metaDescription:
+      "Enumclaw pest control for carpenter ants, rodents, spiders and wasps on the King County plateau. Licensed and insured. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
