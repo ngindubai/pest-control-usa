@@ -2337,4 +2337,479 @@ export const idahoCities: CityLocation[] = [
     metaTitle: "Pest Control in Middleton, ID | Voles, Mice & Yellow Jackets",
     metaDescription: "Pest control in Middleton, Idaho targeting voles, gophers, mice, yellow jackets, and ants. Agricultural-edge city needs proactive seasonal prevention. Licensed Canyon County technicians.",
   },
+  {
+    slug: "star-id",
+    name: "Star",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~17,000",
+    county: "Ada County",
+    climate: "semi-arid",
+    climateDriver:
+      "Star sits in northwestern Ada County at the edge of the Treasure Valley, where the Boise River curls past town on its way toward Middleton and Caldwell. The semi-arid climate brings hot, dry summers and cold winters with occasional heavy snow. Star was farmland and dairy country for most of its history, and the pace of new subdivisions built directly against old irrigated fields is what shapes the pest picture here more than anything else.",
+    topPests: ["Mice", "Black Widow Spiders", "Mosquitoes", "Wasps", "Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp rise September through November",
+        note: "Star has grown faster than almost any other city in Ada County, and many new subdivisions sit right against former farmland that still holds a resident mouse population. Cold nights push those mice toward the nearest heated structure, which is often a house finished within the last two or three years.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in shelter, most active April through October",
+        note: "Black widows are established across the Treasure Valley and turn up in the same places in Star as they do in Boise and Eagle: window wells, stacked firewood, detached garages, and irrigation control boxes left undisturbed for weeks at a time.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peaks after irrigation season starts",
+        note: "The Boise River corridor and the irrigation ditches feeding Star's older farm parcels hold standing water through the growing season. Homes closest to the river or to an unmaintained ditch see the heaviest evening mosquito pressure.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, aggressive by late summer",
+        note: "Star's irrigated lawns and new landscaping give ground-nesting yellow jackets exactly the loose, moist soil they look for in spring. Colonies built undetected in April are often the ones stinging someone in a backyard by August.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Ants follow irrigation moisture toward foundations the same way they do throughout the Treasure Valley. New construction with unsettled soil around the slab gives them an easy path indoors during Star's dry summer months.",
+      },
+    ],
+    localHook:
+      "Star's population has grown by more than tenfold since 2000, and most of that growth is subdivisions built directly on what used to be dairy pasture and irrigated farmland. That transition matters for pest control because the mice, voles, and ground-nesting wasps that lived on the farmland did not leave when the houses went up. They just moved next door.",
+    intro:
+      "Pest control in Star, ID has to account for a town that changed faster than almost anywhere else in the Treasure Valley. What was farm and dairy country twenty years ago is now one of the fastest-growing communities in Ada County, and new subdivisions often sit within a few hundred feet of land that is still irrigated and farmed. That edge is where most calls originate. House mice move from field to foundation once fall cools off. Western black widows favor the undisturbed garages and window wells that come with new construction. Mosquitoes breed in the Boise River corridor and older irrigation ditches nearby. Yellow jackets nest in freshly watered lawns each spring. None of this is unusual for the region, but a young, fast-growing city means more homes sitting at that farmland edge than in most of the valley.",
+    sections: [
+      {
+        heading: "Why does new construction in Star still get mice?",
+        body: "It seems backwards that a brand-new house would have a rodent problem before an older one, but Star's growth pattern explains it. Subdivisions are built in phases, and a finished, occupied home often sits next to a lot that is still bare dirt or an active field for another year or two. Mice living in that unbuilt ground do not wait for construction to finish. They test every new structure nearby, and gaps around unfinished trim, utility penetrations, and garage door seals give them an easy way in. The fix is the same one that works on older homes: seal the exterior, especially anywhere a pipe or wire enters the wall, and set bait stations before the first cold snap rather than after mice are already inside.",
+      },
+      {
+        heading: "How much does mosquito control cost near the Boise River in Star?",
+        body: "Homes within a few blocks of the Boise River or an active irrigation ditch in Star typically need more mosquito management than homes on the valley's drier east side. A standard mosquito reduction program that treats standing water sources and vegetation where adults rest runs $75 to $150 per treatment, usually applied monthly from May through September. Barrier treatments around a patio or deck for a single event cost less. The bigger cost saver is simply walking the property for anything holding water, an unused kiddie pool, a clogged gutter, an old irrigation box, since eliminating breeding sites reduces how often treatment is even needed.",
+      },
+      {
+        heading: "What do Star homeowners need to know about black widows in garages?",
+        body: "Western black widows are common enough in the Treasure Valley that finding one in a Star garage is not unusual, but a new garage does not make it any less likely. The spiders prefer dark, undisturbed corners: behind stacked boxes, under workbenches, inside stacked firewood, and around irrigation control boxes near the foundation. Bites are rare because the spiders are not aggressive, but a bite is medically significant and warrants a call to a doctor. Reducing clutter, sealing exterior gaps, and having a technician treat likely harborage points each spring keeps the population down before it becomes a family safety concern.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around unfinished trim, garage seals, and utility penetrations on new construction before the first cold snap.",
+      "Walk the property for standing water near the Boise River corridor or older irrigation ditches each spring.",
+      "Check window wells, firewood stacks, and irrigation boxes for black widows before reaching in by hand.",
+      "Have ground-nesting wasp colonies treated in spring while they are still small, not after they peak in August.",
+      "Keep a gravel or mulch border away from the foundation slab to reduce ant pathways on newly landscaped lots.",
+    ],
+    costNote: "A standard pest control visit in Star runs $130 to $280 depending on the property and pest pressure. Mosquito season programs run $75 to $150 per monthly treatment from May through September. Most companies serving Star, including ours, offer a free inspection before any work begins so the estimate reflects the actual property, not a flat rate.",
+    faqs: [
+      {
+        question: "Why is pest control different in Star than in older parts of Ada County?",
+        answer: "Star's rapid growth means many neighborhoods sit directly against land that is still farmed or was farmed within the last few years. That farmland edge keeps mouse, vole, and ground-nesting wasp pressure higher near newer subdivisions than in established Boise neighborhoods further from open fields.",
+      },
+      {
+        question: "Are mosquitoes worse near the Boise River in Star than elsewhere in the valley?",
+        answer: "Yes. Homes closest to the Boise River corridor or to an older, less-maintained irrigation ditch see noticeably more evening mosquito activity through the summer than homes on Star's drier east side, simply because standing water sources are closer.",
+      },
+      {
+        question: "Do I need pest control if my Star home is less than five years old?",
+        answer: "Often, yes. New construction in fast-growing Star can have more entry points than an older home, not fewer, because trim work, caulking, and landscaping are frequently still unfinished around the perimeter, and nearby undeveloped lots keep field pests active close to the house.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Rigby", slug: "rigby-id", stateSlug: "idaho" },
+      { name: "Payette", slug: "payette-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Star, ID | Mice, Black Widows & Mosquitoes",
+    metaDescription: "Pest control in Star, Idaho for house mice, western black widow spiders, mosquitoes, and yellow jackets. Fast-growing Ada County community. Free inspection. Licensed technicians.",
+  },
+  {
+    slug: "rigby-id",
+    name: "Rigby",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~5,900",
+    county: "Jefferson County",
+    climate: "cold",
+    climateDriver:
+      "Rigby sits on the Upper Snake River Plain at roughly 4,856 feet, making it one of the colder county seats in eastern Idaho. The Henry's Fork and South Fork of the Snake River run through Jefferson County and feed what is recorded as the largest cottonwood forest west of the Mississippi. That combination of hard winters and unusually abundant surface water sets Rigby apart from the drier towns further south on the plain.",
+    topPests: ["House Mice", "Voles", "Mosquitoes", "Earwigs", "Wasps"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavy surge October through March",
+        note: "Rigby's long, hard winters push mice indoors earlier and keep them there longer than in most of the state. Homes bordering the potato and grain fields that surround the city see the earliest fall activity.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Spring and fall, active under snow cover in winter",
+        note: "Jefferson County's potato, wheat, and dairy operations sustain large vole populations in field margins. Voles tunnel under snow through the winter and leave matted runways across lawns once the snow melts in spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "The Henry's Fork, the South Fork, and the wetlands supporting Jefferson County's large cottonwood forest hold standing water well into summer. Homes near these river corridors deal with heavier mosquito pressure than homes on the drier plain to the west.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "May through September",
+        note: "Irrigated lawns and garden beds around Rigby's homes create the moist, shaded conditions earwigs favor. They cluster under mulch, potted plants, and siding during the day and become a nuisance indoors during wet spells.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Yellow jacket colonies build through Rigby's short, warm summer and peak just before the first hard frost, when workers become more aggressive around outdoor food and trash.",
+      },
+    ],
+    localHook:
+      "Jefferson County is home to the largest cottonwood forest west of the Mississippi River, fed by the Henry's Fork and South Fork of the Snake River. That much water in an otherwise cold, high-plain county means Rigby deals with more mosquito and moisture-pest pressure near the rivers than most eastern Idaho towns of its size.",
+    intro:
+      "Pest control in Rigby, ID starts with the town's two defining features: a long, hard winter and an unusual amount of water. Sitting at nearly 4,900 feet on the Upper Snake River Plain, Rigby gets the same cold-driven mouse and vole pressure as its neighbors in Jefferson County, but the Henry's Fork and South Fork of the Snake River also feed the largest cottonwood forest west of the Mississippi, which keeps parts of the area far damper than the surrounding farmland would suggest. Potato, wheat, and dairy operations ring the city and sustain steady rodent activity in field margins. Homes closest to the rivers see more mosquitoes and earwigs than homes further out on the drier plain. The result is a pest calendar built around hard winters and wet river corridors working at the same time.",
+    sections: [
+      {
+        heading: "Why do Rigby's cold winters make mouse season worse, not better?",
+        body: "It would be reasonable to assume a hard winter kills off pests, and outdoors that is largely true. Indoors, cold is the reason Rigby's mouse pressure is as consistent as it is. Once nighttime temperatures drop below freezing, which happens early at this elevation, house mice from the surrounding potato and grain fields move toward any structure holding heat. Rigby's farmhouses and newer homes built at the edge of active fields both see this pattern. Sealing exterior gaps before the first hard freeze, usually in October here, matters more in Rigby than in warmer parts of the state simply because the mice have fewer other options once the cold sets in for good.",
+      },
+      {
+        heading: "Are mosquitoes really worse near the Henry's Fork in Rigby?",
+        body: "Yes, and it comes down to how much water Jefferson County actually holds. The Henry's Fork and South Fork of the Snake River support wetlands and the cottonwood forest that makes this stretch of the county unusual for eastern Idaho. Standing water in those bottomlands and in slow side channels gives mosquitoes far more breeding habitat than the drier farmland west of Rigby offers. Homes within a mile or so of the river corridors typically need a full-season mosquito program from June through August, while homes on the open plain further from the water often get by with spot treatment before outdoor events instead.",
+      },
+      {
+        heading: "What should Rigby homeowners do about vole damage in spring?",
+        body: "Voles in Jefferson County spend the winter tunneling under snow cover, which is why the damage, matted trails and chewed grass, only becomes visible once the snow melts in March or April. By then the population has often already grown through a full winter undisturbed. The most effective response is a spring inspection that maps active runways before treatment begins, since voles favor field margins and unmowed lawn edges near Rigby's agricultural boundaries. Reducing tall grass and ground cover near the foundation, combined with targeted bait placement in active runways, brings the population down faster than reseeding damaged turf alone.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and foundation penetrations before Rigby's first hard freeze, typically in October.",
+      "Inspect lawn edges for vole runways each spring once the snow melts.",
+      "Reduce standing water near Henry's Fork or South Fork adjacent properties before mosquito season in June.",
+      "Clear mulch and dense ground cover away from the foundation to limit earwig harborage.",
+      "Have yellow jacket nests treated in July before colonies peak ahead of the first fall frost.",
+    ],
+    costNote: "A standard pest control visit in Rigby runs $125 to $270. Seasonal mosquito programs for homes near the Henry's Fork or South Fork typically run $80 to $160 per month during peak season. We offer a free inspection for Rigby properties so the plan matches the actual pest pressure on that lot, not a countywide average.",
+    faqs: [
+      {
+        question: "Why does Rigby have more mosquitoes than towns further out on the Snake River Plain?",
+        answer: "Rigby sits close to the Henry's Fork and South Fork of the Snake River, which feed the wetlands and cottonwood forest that make Jefferson County unusually wet for eastern Idaho. That standing water gives mosquitoes far more breeding habitat than the drier farmland to the west.",
+      },
+      {
+        question: "When should I treat for voles in Rigby?",
+        answer: "Early spring, right after the snow melts, is the best window. Rigby's voles stay active under snow cover through winter and their runways only become visible once the ground clears, usually in March or April, so an early inspection catches the population before it spreads further into the lawn.",
+      },
+      {
+        question: "Do Rigby's cold winters change when I should seal my house against mice?",
+        answer: "Yes. At nearly 4,900 feet elevation, Rigby's first hard freeze arrives earlier than in lower parts of the Snake River Plain, often by early October, so sealing exterior gaps should happen before then rather than waiting until the weather actually turns cold.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Star", slug: "star-id", stateSlug: "idaho" },
+      { name: "Rupert", slug: "rupert-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rigby, ID | Mice, Voles & Mosquitoes",
+    metaDescription: "Pest control in Rigby, Idaho for house mice, voles, mosquitoes near the Henry's Fork, and earwigs. Jefferson County Snake River Plain specialists. Free inspection.",
+  },
+  {
+    slug: "sandpoint-id",
+    name: "Sandpoint",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~10,400",
+    county: "Bonner County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sandpoint sits on the shore of Lake Pend Oreille in the Idaho panhandle, surrounded by forested mountains that catch far more precipitation than the rest of the state. The cold, humid climate and heavy forest cover create conditions the drier Snake River Plain cities never see: dense undergrowth, damp soil, and grassland-to-forest edges that support tick populations largely absent from southern Idaho.",
+    topPests: ["Ticks", "Carpenter Ants", "Spiders", "Mice", "Wasps"],
+    pestProfile: [
+      {
+        name: "Rocky Mountain wood ticks and American dog ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through July, most active in spring",
+        note: "The Panhandle Health District has reported a rise in tick-related calls and bites around Bonner County in recent years. Both species found here can transmit Rocky Mountain spotted fever, and the wood tick can also carry Colorado tick fever virus. Yards bordering forest or tall grass carry the highest risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Sandpoint's forested lots and higher humidity give carpenter ants far more opportunity than they get in the rest of Idaho. They excavate galleries in damp or decaying wood, often starting at a leaking gutter, deck post, or window sill that never fully dries out.",
+      },
+      {
+        name: "House spiders and hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most visible August through October",
+        note: "Cooler, damper homes near the lake and surrounding forest give spiders more consistent harborage than they find in drier parts of the state. Basements, crawl spaces, and woodpiles are the most common indoor entry points.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Sandpoint's mountain winters push mice indoors earlier than in the Treasure Valley. Homes at the forest edge, common throughout Bonner County, see the heaviest pressure once nighttime temperatures drop.",
+      },
+      {
+        name: "Yellow jackets and bald-faced hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Forested lots around Sandpoint give bald-faced hornets, which build large paper nests in trees, more habitat than they find in the open Snake River Plain. Ground-nesting yellow jackets are also common in lakeside lawns.",
+      },
+    ],
+    localHook:
+      "Sandpoint's setting on Lake Pend Oreille, surrounded by forested mountains, gives it a climate and pest profile that looks almost nothing like southern Idaho. The Panhandle Health District has tracked rising tick activity in Bonner County, and the wetter, wooded conditions here support carpenter ants and spiders that the dry Snake River Plain rarely sees at the same scale.",
+    intro:
+      "Pest control in Sandpoint, ID deals with a landscape unlike most of the state. Set on the shore of Lake Pend Oreille and ringed by forested mountains, Bonner County catches significantly more precipitation than southern Idaho, and that moisture shapes everything from the tick population to the type of ant damage a home inspector finds. The Panhandle Health District has documented an increase in tick bites and tick-related calls in recent years, with both the Rocky Mountain wood tick and the American dog tick present locally. Carpenter ants exploit the damp wood that Sandpoint's climate makes possible, something rare in the drier southern part of the state. Add mountain winters that push mice indoors and forested lots that give wasps more nesting habitat, and Sandpoint's pest calendar runs almost opposite to the rest of Idaho.",
+    sections: [
+      {
+        heading: "How serious is the tick risk around Sandpoint?",
+        body: "Ticks are a real, documented concern in Bonner County, not a minor nuisance. The Panhandle Health District has reported growing numbers of tick bites and tick-related illness calls in the Sandpoint area in recent years. The Rocky Mountain wood tick and American dog tick are both present locally, and both can transmit Rocky Mountain spotted fever, with the wood tick also capable of carrying Colorado tick fever virus. Risk is highest for anyone spending time in tall grass, brush, or the transition zone between lawn and forest, which describes a large share of Sandpoint properties. Checking pets and family members after outdoor time, keeping grass mowed short near the house, and treating known tick harborage on the property are the most effective steps a homeowner can take here.",
+      },
+      {
+        heading: "Why does Sandpoint see more carpenter ant damage than southern Idaho?",
+        body: "Carpenter ants need damp or decaying wood to establish a colony, and that is exactly the condition Sandpoint's higher rainfall and forest cover create more often than the dry Snake River Plain does. A leaking gutter, a deck post set in wet soil, or a window sill that stays damp after repeated rain gives the ants an entry point most Boise-area homes never develop. Once established, colonies excavate smooth galleries through the wood rather than eating it, which weakens structural members over time if left untreated. Finding the moisture source and correcting it is just as important as treating the ants themselves, since a colony will simply return to any wood that stays consistently wet.",
+      },
+      {
+        heading: "What is different about wasp activity near Lake Pend Oreille?",
+        body: "Sandpoint's forested lots change which wasp species homeowners deal with most. Bald-faced hornets, which build large gray paper nests high in trees, find far more habitat in Bonner County's wooded neighborhoods than they do on the open Snake River Plain. Those nests often go unnoticed until they are the size of a basketball, well into a colony's growth. Ground-nesting yellow jackets are still common in lakeside lawns and parks, following the same pattern seen statewide, but the tree-nesting hornets are the species that catches Sandpoint homeowners off guard, since a nest thirty feet up is easy to miss during a routine yard check.",
+      },
+    ],
+    prevention: [
+      "Mow grass short and clear brush near the house before tick season peaks in spring.",
+      "Check pets and family members for ticks after time in forested or tall-grass areas.",
+      "Fix leaking gutters and damp deck posts promptly to reduce carpenter ant risk.",
+      "Look up into large trees near the house for bald-faced hornet nests before mowing season.",
+      "Seal foundation and attic gaps before Sandpoint's mountain winters set in each October.",
+    ],
+    costNote: "A standard pest control visit in Sandpoint runs $140 to $290, slightly higher than the state average given the additional inspection time forested properties require. Tick treatment programs for yards bordering brush or forest typically run $90 to $175 per visit. Free inspections are available to confirm the actual risk level on a given lot before any work begins.",
+    faqs: [
+      {
+        question: "Are ticks really a bigger problem in Sandpoint than in Boise?",
+        answer: "Yes. The Panhandle Health District has reported rising tick bite and illness calls in Bonner County, and Sandpoint's forested, higher-precipitation setting supports the Rocky Mountain wood tick and American dog tick far more than the dry Treasure Valley does, where ticks are comparatively rare.",
+      },
+      {
+        question: "Why do Sandpoint homes get carpenter ant damage that Boise homes rarely see?",
+        answer: "Carpenter ants need damp or decaying wood to nest, and Sandpoint's location on Lake Pend Oreille with heavy forest cover keeps exterior wood wetter for longer stretches of the year than the semi-arid Treasure Valley ever gets, giving the ants far more opportunity to establish a colony.",
+      },
+      {
+        question: "Do bald-faced hornets nest differently around Sandpoint than elsewhere in Idaho?",
+        answer: "Bald-faced hornets build large paper nests high in trees, and Sandpoint's forested residential lots give them significantly more nesting habitat than the open, treeless yards common on the Snake River Plain, which is why a homeowner here is more likely to find a nest thirty feet up than in the ground.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Star", slug: "star-id", stateSlug: "idaho" },
+      { name: "Rigby", slug: "rigby-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sandpoint, ID | Ticks, Carpenter Ants & Spiders",
+    metaDescription: "Pest control in Sandpoint, Idaho for ticks, carpenter ants, spiders, and mice around Lake Pend Oreille. Bonner County panhandle specialists. Free inspection.",
+  },
+  {
+    slug: "rupert-id",
+    name: "Rupert",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~6,300",
+    county: "Minidoka County",
+    climate: "semi-arid",
+    climateDriver:
+      "Rupert sits on the Snake River Plain in south-central Idaho, roughly 45 miles west of Twin Falls, in what was once arid rangeland before the Minidoka Irrigation District converted it into some of the state's most productive farmland. The semi-arid climate brings hot, dry summers and cold winters, but the dense network of irrigation canals feeding Minidoka County's sugar beet, potato, and hay operations keeps the immediate area far damper than the surrounding desert would otherwise be.",
+    topPests: ["House Mice", "Flies", "Ants", "Wasps", "Voles"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp rise after fall harvest",
+        note: "Minidoka County's sugar beet and potato harvest in September and October displaces large numbers of field mice at once. Rupert homes bordering active farmland see a predictable surge as harvest equipment clears cover and mice look for the nearest structure.",
+      },
+      {
+        name: "House and blow flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through September",
+        note: "Rupert's position amid one of Idaho's largest sugar beet and dairy processing regions means fly pressure is a genuine seasonal issue, particularly for homes and businesses near agricultural processing operations rather than a minor nuisance.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The Minidoka Irrigation District's canal network keeps soil moist across town well into the dry summer months, giving ants a consistent moisture source to follow toward home foundations.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Irrigated lawns and the moisture along canal banks give ground-nesting yellow jackets favorable conditions through Rupert's warm summer, with colonies reaching their largest size by late August.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Spring and fall",
+        note: "Field margins along the extensive irrigation canal system support steady vole populations that move into adjacent lawns and garden beds, especially where canal banks border residential lots.",
+      },
+    ],
+    localHook:
+      "Rupert was platted in 1905 as part of the Minidoka Reclamation Project, and the canal system built to irrigate what is now Idaho's leading sugar beet county still defines the town's pest pressure. Water that would never occur naturally on this stretch of the Snake River Plain now runs through canals bordering hundreds of Rupert properties, keeping ant, fly, and mosquito pressure higher than the surrounding desert climate would suggest.",
+    intro:
+      "Pest control in Rupert, ID cannot be separated from the irrigation system that built the town. Platted in 1905 as part of the Minidoka Reclamation Project, Rupert sits in what is now Idaho's leading sugar beet county, fed by a canal network that turned semi-arid rangeland into some of the state's most productive farmland. That water is the reason Rupert's pest pressure runs higher than the surrounding desert climate would predict on its own. Fall harvest displaces field mice into town by the hundreds. Flies build up around the county's agricultural processing operations each summer. Ants and yellow jackets both track canal moisture toward home foundations and lawns. Voles work the canal banks and field margins year-round. None of this is unusual for an irrigation town on the Snake River Plain, but Rupert's position at the center of one of Idaho's most concentrated agricultural counties means the pressure is consistent rather than occasional.",
+    sections: [
+      {
+        heading: "Why does Rupert get a mouse surge every fall?",
+        body: "Minidoka County's sugar beet and potato harvest runs through September and October, and that harvest strips the cover field mice depend on almost overnight. A field that held a stable mouse population all summer becomes bare ground within days once combines and beet harvesters move through, and those mice do not simply disappear. They move toward the nearest shelter, which for homes bordering farmland means the garage, the crawl space, or a gap around a utility line. Rupert homeowners near active fields should plan a sealing and inspection visit in late August or early September, ahead of harvest, rather than waiting until mice are already inside for the winter.",
+      },
+      {
+        heading: "Is fly pressure in Rupert really worse than other Idaho towns?",
+        body: "It can be, particularly for properties near agricultural processing operations. Minidoka County produces more sugar beets than any other county in Idaho and hosts the state's largest beet processing plant along with multiple potato and dairy operations, and fly breeding follows that kind of concentrated agricultural activity closely. Homes and businesses within a few miles of active processing facilities can see meaningfully higher fly pressure through the summer than a comparable property in a less agriculture-dense part of the state. Exclusion, sanitation around outdoor trash and compost, and targeted exterior treatment during peak months, typically June through August, address most residential fly problems even in this higher-pressure setting.",
+      },
+      {
+        heading: "Do the irrigation canals around Rupert affect ants and voles the same way?",
+        body: "Both, but for different reasons. The Minidoka Irrigation District's canals deliver water across more than 77,000 acres of farmland, and the seepage and moist canal banks that come with that network give ants a reliable trail of moisture leading straight to home foundations, especially during the driest weeks of summer when the surrounding desert has nothing comparable to offer. Voles use the same canal banks and adjacent field margins as cover and travel corridors, moving into residential lawns wherever a property backs onto a canal or irrigated field edge. Properties that share a boundary with canal infrastructure typically need more frequent perimeter attention than those set further back from the water.",
+      },
+    ],
+    prevention: [
+      "Schedule a sealing and inspection visit in late August, ahead of the fall sugar beet and potato harvest.",
+      "Manage outdoor trash and compost carefully through summer if near agricultural processing operations.",
+      "Watch for ant trails along canal-adjacent foundations during the driest weeks of summer.",
+      "Check canal-bordering lawns for vole runways each spring and fall.",
+      "Have yellow jacket nests treated early in summer before canal-bank colonies reach full size in August.",
+    ],
+    costNote: "A standard pest control visit in Rupert runs $120 to $260. Fly control programs for properties near agricultural processing operations typically run $150 to $300 per season. A free inspection is available for Rupert properties so the plan accounts for proximity to canals and farmland rather than a flat countywide rate.",
+    faqs: [
+      {
+        question: "Why does Rupert have more agricultural pest pressure than other south-central Idaho towns?",
+        answer: "Minidoka County, with Rupert as its county seat, is Idaho's leading sugar beet producer and home to the state's largest beet processing plant along with numerous potato and dairy operations. That concentration of agriculture and processing keeps fly, mouse, and ant pressure higher here than in less farming-dense parts of the region.",
+      },
+      {
+        question: "How do Rupert's irrigation canals change pest control here?",
+        answer: "The Minidoka Irrigation District delivers water across more than 77,000 acres through a canal network built during the 1905 Minidoka Reclamation Project. That water keeps soil moist near canal-adjacent properties well into the dry summer, giving ants and voles a consistent moisture corridor the surrounding desert climate would not otherwise provide.",
+      },
+      {
+        question: "When is the best time to prepare for mice before Rupert's harvest season?",
+        answer: "Late August or early September, before the sugar beet and potato harvest strips field cover in late September and October. Rupert homes bordering active farmland see the sharpest mouse increase right after harvest equipment clears the fields, so sealing entry points ahead of that window prevents most of the surge.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Rigby", slug: "rigby-id", stateSlug: "idaho" },
+      { name: "Sandpoint", slug: "sandpoint-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Rupert, ID | Mice, Flies & Ants in Sugar Beet Country",
+    metaDescription: "Pest control in Rupert, Idaho for house mice, flies, ants, and yellow jackets near irrigation canals. Minidoka County sugar beet country specialists. Free inspection.",
+  },
+  {
+    slug: "payette-id",
+    name: "Payette",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~8,800",
+    county: "Payette County",
+    climate: "semi-arid",
+    climateDriver:
+      "Payette sits at the confluence of the Payette and Snake Rivers at roughly 2,150 feet, one of the lowest elevations of any Idaho city in this data set, which gives it milder winters and hotter summers than towns further up the Snake River Plain. Warm winds moving up the Columbia and Snake River deltas keep snowfall light most winters. Payette County's long history as fruit orchard country, planted with apples, prunes, peaches, and pears since the 1890s, still shapes the pest pressure around the city's older residential lots.",
+    topPests: ["Wasps", "Mice", "Ants", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, longer season than eastern Idaho",
+        note: "Payette's mild, low-elevation climate gives wasp colonies a longer building season than towns at higher elevation. Orchard remnants and mature fruit trees around older Payette lots provide steady food sources that keep colonies active later into fall.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March, milder surge than colder Idaho towns",
+        note: "Payette's low elevation means a shorter, milder cold season than most of the state, which softens the fall mouse surge somewhat, but homes bordering the remaining orchard and farmland outside town still see steady rodent pressure.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November, one of the longest ant seasons in Idaho",
+        note: "Payette's warm, low-elevation climate extends the ant season well beyond what colder eastern Idaho towns see, with activity often starting in March and continuing into November on irrigated residential lots.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The confluence of the Payette and Snake Rivers, along with the irrigation canals supporting the area's orchards and farmland, gives mosquitoes ample breeding habitat through Payette's long warm season.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October, overwintering indoors",
+        note: "Orchard and agricultural edges around Payette give stink bugs a food source through the growing season before they seek shelter indoors as temperatures drop in fall, clustering on sun-warmed exterior walls first.",
+      },
+    ],
+    localHook:
+      "Payette has been fruit orchard country since the 1890s, when settlers planted apples, prunes, peaches, and pears across the valley near the Payette and Snake River confluence. The city's low elevation and mild climate, warmed by winds moving up the Columbia and Snake River deltas, give it one of the longest wasp and ant seasons of any Idaho city in our coverage area.",
+    intro:
+      "Pest control in Payette, ID starts with elevation and history. At roughly 2,150 feet, Payette sits lower than almost any other Idaho city we cover, which means milder winters, hotter summers, and a longer pest season across the board than towns further up the Snake River Plain. The area has been fruit orchard country since the 1890s, and mature fruit trees on many older residential lots still provide food sources for wasps and stink bugs that newer subdivisions elsewhere in the state don't have. The Payette and Snake River confluence, along with irrigation canals supporting the area's remaining orchards and farmland, keeps mosquito breeding habitat active for much of the warm season. Mice and ants both follow the same pattern seen statewide, but stretched over a longer calendar because Payette's winters simply don't get as cold as eastern Idaho's.",
+    sections: [
+      {
+        heading: "Why does Payette have a longer wasp season than the rest of Idaho?",
+        body: "Elevation is the main reason. Payette sits around 2,150 feet, among the lowest of any Idaho city in our service area, and that lower elevation means warmer spring temperatures arrive earlier and cold weather holds off longer in fall. Wasp colonies, which build steadily from a single queen through spring and summer, get more active building weeks here than colonies at 4,000 or 5,000 feet in eastern Idaho. Add mature fruit trees left over from Payette's orchard history, which provide a food source many other towns' yards don't have, and colonies around older residential lots can grow larger and stay active later into October than colonies elsewhere in the state.",
+      },
+      {
+        heading: "Does Payette's orchard history still affect pest control today?",
+        body: "Yes, in a few specific ways. Payette has been fruit growing country since the 1890s, when settlers planted apples, prunes, peaches, and pears across the valley near the river confluence, and while large-scale orchards have given way to other development, plenty of older residential lots still have mature fruit trees on them. Those trees provide a fall food source for stink bugs and extend the wasp season, both of which are less pronounced on newer lots without fruit trees. A homeowner in an older Payette neighborhood with a producing apple or pear tree should expect more fall insect activity than a comparable home in a newer subdivision without one.",
+      },
+      {
+        heading: "How does the river confluence affect mosquitoes in Payette?",
+        body: "The meeting point of the Payette and Snake Rivers, combined with the irrigation canals that still serve the area's farmland and remaining orchards, gives mosquitoes a wide range of breeding habitat through the warm months. Slow side channels, canal seepage, and low-lying farmland that holds water after irrigation all contribute. Homes closer to the river confluence or to an active canal typically need mosquito treatment from May through September, while homes further from water sources on higher, drier ground within city limits generally see lighter pressure and can often manage with spot treatment before outdoor gatherings instead of a full monthly program.",
+      },
+    ],
+    prevention: [
+      "Have wasp nests treated early in the season since Payette's mild climate extends colony-building time.",
+      "Trim and manage mature fruit trees on older lots to reduce fall stink bug and wasp food sources.",
+      "Reduce standing water near the river confluence or active irrigation canals before mosquito season in May.",
+      "Seal foundation gaps before Payette's milder but still real cold season arrives in late fall.",
+      "Keep ant trails in check on irrigated lots given the area's unusually long March-to-November ant season.",
+    ],
+    costNote: "A standard pest control visit in Payette runs $125 to $270. Wasp nest removal typically runs $100 to $225 depending on nest size and location, often higher here given the longer colony-building season. A free inspection is available so the estimate reflects the property's actual conditions, including any mature fruit trees on the lot.",
+    faqs: [
+      {
+        question: "Why does Payette need pest control earlier in spring than higher-elevation Idaho towns?",
+        answer: "Payette sits at roughly 2,150 feet, among the lowest elevations of any Idaho city we serve, which means warm spring weather arrives earlier than in towns at 4,000 feet or higher. Wasp colonies and ant activity both start building weeks earlier here than in eastern Idaho towns like Rigby or Rexburg.",
+      },
+      {
+        question: "Do old fruit trees in Payette actually attract more pests?",
+        answer: "Yes. Payette has been orchard country since the 1890s, and mature apple, pear, prune, and peach trees still standing on many older residential lots provide a food source that draws stink bugs in fall and helps sustain larger wasp colonies later into the season than lots without fruit trees see.",
+      },
+      {
+        question: "Is mosquito pressure worse near the Payette and Snake River confluence?",
+        answer: "Generally yes. Homes closer to where the Payette River meets the Snake River, or near active irrigation canals serving the area's farmland, have more standing water and slow-moving channels nearby, which gives mosquitoes more breeding habitat than homes on higher, drier ground elsewhere in the city.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Star", slug: "star-id", stateSlug: "idaho" },
+      { name: "Rupert", slug: "rupert-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Payette, ID | Wasps, Mice & Stink Bugs",
+    metaDescription: "Pest control in Payette, Idaho for yellow jackets, house mice, ants, and stink bugs near the Payette and Snake River confluence. Free inspection. Licensed technicians.",
+  },
 ];

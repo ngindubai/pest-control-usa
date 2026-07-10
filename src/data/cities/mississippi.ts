@@ -2754,4 +2754,504 @@ export const mississippiCities: CityLocation[] = [
     metaTitle: "Pest Control in Gautier, MS | Termites, Mosquitoes & Roof Rats",
     metaDescription: "Gautier MS pest control for Formosan termites, mosquitoes, roof rats, and fleas. Gulf Coast Jackson County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "cleveland-ms",
+    name: "Cleveland",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~10,400",
+    county: "Bolivar County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cleveland sits on the flat alluvial plain of the Mississippi Delta, where more than 400,000 acres of Bolivar County cropland grow soybeans, cotton, corn, and rice. Most of that farmland is irrigated, and the combination of flood irrigation, flat drainage, and long, humid summers keeps standing water on the landscape from planting through harvest. Winters are short and mild, so termite colonies and insect pests rarely get a hard reset before spring.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "House Mice", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Eastern subterranean termites are established throughout Bolivar County. The Delta's clay-heavy, moisture-retentive soil keeps colonies close to the surface, and older Cleveland homes near Delta State University and downtown with crawl space foundations are a common entry point for mud tubes.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Irrigated row crop fields, drainage ditches, and the flat terrain around Cleveland hold water for days after rain or irrigation runs. That standing water, combined with Bolivar County's network of Delta bayous, sustains heavy mosquito pressure through the growing season.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Peak activity September through December",
+        note: "As Delta row crops are harvested each fall, field mice lose cover and food sources at the same time and move toward homes, outbuildings, and grain storage on the edges of Cleveland. Sealing foundation gaps before harvest reduces the number that find their way indoors.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ant mounds are common in Cleveland lawns, ballfields, and the grassy margins of farmland. Bolivar County's mild winters mean colonies rarely die back completely, so mound density can build for several years if left untreated.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active during heat and rain",
+        note: "American cockroaches move between Cleveland's storm drains, crawl spaces, and outdoor debris piles, entering homes during heavy rain or extreme heat. Older housing stock near downtown with slab-to-soil gaps sees the most pressure.",
+      },
+    ],
+    localHook:
+      "Bolivar County farms more than 400,000 acres of cropland around Cleveland, and roughly three out of every four of those acres are irrigated. That much managed water on flat Delta ground is exactly why mosquito and termite pressure here runs higher than in the hillier parts of the state.",
+    intro:
+      "Pest control in Cleveland, MS starts with the Delta itself. Cleveland sits inside one of the most heavily farmed and heavily irrigated counties in Mississippi, and that combination of flat, moisture-holding soil and mild winters shapes almost every pest problem local homeowners deal with. Eastern subterranean termites work the soil under crawl spaces year-round. Mosquitoes breed in irrigation runoff and drainage ditches from spring through fall. Fire ant mounds show up in lawns and field edges within weeks of the first warm days. Fall harvest pushes field mice toward houses on the edge of town looking for a warmer, drier place to spend the winter.",
+    sections: [
+      {
+        heading: "Why is termite pressure so high around Cleveland?",
+        body: "Eastern subterranean termites need moisture and wood, and Bolivar County's Delta soil supplies both in abundance. The alluvial clay holds water close to the surface long after rain, and Cleveland's older neighborhoods near downtown and Delta State University still have plenty of homes built on crawl space foundations with wood framing close to grade. Termite colonies here rarely go dormant for long. Mississippi winters are short and mild enough that underground feeding continues through most of the cold months, and swarms of winged reproductives typically appear on warm, humid evenings between February and May. A homeowner who spots discarded termite wings on a windowsill in early spring is seeing the tail end of a colony that has likely been active in the soil for a year or more already. Annual inspection is the standard recommendation, and a liquid soil treatment or bait station system gives ongoing protection rather than a one-time fix. Waiting until wood damage is visible means the colony has had a long head start.",
+      },
+      {
+        heading: "How does Delta farmland affect mosquitoes and mice in town?",
+        body: "Cleveland's location inside Bolivar County's row crop belt means residential pest pressure is tied directly to the farming calendar. Flood irrigation and the flat, slow-draining Delta terrain leave standing water in ditches, low spots, and field margins for days at a stretch during the growing season, and that water is exactly what mosquitoes need to complete their breeding cycle. Pressure builds from March and stays heavy into October, with the worst stretches following irrigation runs or heavy summer rain. Field mice follow a different but equally predictable rhythm. When combines move through soybean and corn fields each fall, mice lose both cover and food in a matter of days and start looking for a new place to shelter, often a house, garage, or shed on the edge of Cleveland's residential streets. Sealing foundation gaps, weatherstripping doors, and clearing brush piles near the house before harvest season cuts down significantly on how many make it indoors.",
+      },
+      {
+        heading: "What should Cleveland homeowners watch for with fire ants and cockroaches?",
+        body: "Fire ants are close to a year-round presence in Bolivar County because winters here rarely get cold enough for long enough to knock colonies back. Mounds show up fastest in disturbed soil, which includes new lawns, garden beds, and the grassy margins between yards and farmland, and they tend to multiply visibly after rain. Broadcast bait treatment across the whole yard in spring and again in fall controls colonies more effectively than spot-treating individual mounds, which often just causes the colony to relocate a few feet away. American cockroaches are the other steady presence, particularly in Cleveland's older downtown housing where slab foundations have settled and created small gaps at ground level. These roaches live primarily outdoors in storm drains and organic debris, then get pushed inside during heavy rain or summer heat spikes. Sealing entry points at the foundation and around plumbing penetrations, paired with routine perimeter treatment, keeps the outdoor population from becoming an indoor one.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Bolivar County's high underground moisture and Cleveland's older crawl-space housing stock.",
+      "Clear standing water from ditches, low spots, and containers on your property after irrigation runs or heavy rain to cut mosquito breeding near the home.",
+      "Seal foundation gaps and door sweeps before fall harvest, when field mice move from cropland toward houses at the edge of town.",
+      "Apply broadcast fire ant bait to the full lawn in spring and fall rather than spot-treating individual mounds.",
+      "Seal plumbing penetrations and foundation cracks to reduce American cockroach entry during heavy rain and heat.",
+    ],
+    costNote:
+      "General pest control visits in Cleveland typically run $110 to $200, with most companies offering a free initial inspection. Termite protection plans are quoted separately as an annual program based on the size and foundation type of the home, and mosquito service is often sold as a seasonal package running March through October.",
+    faqs: [
+      {
+        question: "Why do I see so many fire ant mounds in my Cleveland yard after it rains?",
+        answer:
+          "Bolivar County's flat Delta soil holds moisture close to the surface, and fire ant colonies respond to that saturated ground by building new mounds or expanding existing ones once the soil dries enough to work. Cleveland's mild Delta winters also mean colonies rarely die back the way they would farther north, so mound density can build steadily over a few seasons if the yard is never treated. Broadcast bait applied to the whole lawn in spring and fall controls the underlying colonies far better than treating mounds one at a time.",
+      },
+      {
+        question: "Do I really need a termite inspection every year in Cleveland?",
+        answer:
+          "Yes. Eastern subterranean termites are established throughout Bolivar County, and the Delta's moisture-retentive clay soil keeps colonies active close to the surface for most of the year. Cleveland's older neighborhoods near downtown and Delta State University still have a large share of homes with crawl space foundations and wood-to-soil contact, which are exactly the conditions subterranean termites need. An annual inspection catches early activity before it turns into structural repair costs.",
+      },
+      {
+        question: "Why do mice show up in my house every fall in Cleveland?",
+        answer:
+          "Cleveland sits inside one of Mississippi's most heavily farmed counties, and when soybean and corn fields around town are harvested each fall, field mice lose their cover and food supply within days. Houses, garages, and sheds on the edge of Cleveland's residential streets are the nearest shelter, so mouse activity indoors tends to spike in September through December. Sealing gaps at the foundation and around utility lines before harvest season is the most effective way to keep them from moving in.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Grenada", slug: "grenada-ms", stateSlug: "mississippi" },
+      { name: "West Point", slug: "west-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Cleveland, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Cleveland MS pest control for eastern subterranean termites, mosquitoes, fire ants, house mice and cockroaches. Bolivar County Delta specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "grenada-ms",
+    name: "Grenada",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~12,100",
+    county: "Grenada County",
+    climate: "hot-humid",
+    climateDriver:
+      "Grenada sits where the Delta flatland meets the north Mississippi hill country, on the shore of Grenada Lake, a 35,820 acre flood control reservoir built by the U.S. Army Corps of Engineers on the Yalobusha River. That much open water next to a humid, hot-summer climate keeps evening humidity high across town and gives mosquitoes and other moisture-loving pests a large, permanent breeding source that a landlocked town this size would not otherwise have.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Lone Star Ticks", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Grenada Lake's 35,820 acre summer pool and the Yalobusha River backwater keep mosquito breeding habitat close to town all season. Neighborhoods nearest the lake and the river bottoms see the heaviest pressure, especially in the calm, humid evenings typical of a Mississippi summer.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Eastern subterranean termites are present throughout Grenada County's soil. Older homes in Grenada's historic district, many built before modern soil treatment standards, are at particular risk where wood framing sits close to grade.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The wooded shoreline around Grenada Lake, including Hugh White State Park and the Corps of Engineers campgrounds, supports the wildlife hosts that sustain lone star tick populations. Anyone hiking, fishing, or camping near the lake should check for ticks after time outdoors.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ant mounds are common in Grenada's lawns and parks, and the county's mild winters allow colonies to persist year to year rather than dying back. Mound activity is heaviest after rain.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm, wet weather",
+        note: "American cockroaches live in Grenada's storm drains and outdoor debris and move indoors during heavy rain, a pattern amplified by the town's proximity to the lake and river bottomland.",
+      },
+    ],
+    localHook:
+      "Grenada Lake holds a 35,820 acre summer pool right at the edge of town, built by the Army Corps of Engineers on the Yalobusha River. A lake that size next to a small Mississippi town means mosquito pressure here is shaped less by rainfall alone and more by how much water the Corps is holding back that season.",
+    intro:
+      "Pest control in Grenada, MS is defined by one enormous neighbor: Grenada Lake. This 35,820 acre reservoir sits right at the edge of town, and the humidity and standing water it produces drive mosquito pressure well beyond what a town of Grenada's size would normally see. Eastern subterranean termites work the soil under older homes in the historic district year-round. Lone star ticks are common in the wooded parkland around the lakeshore. Fire ants and American cockroaches round out a pest list shaped by Grenada County's mix of hill country woods, Delta-edge farmland, and one very large body of water.",
+    sections: [
+      {
+        heading: "How much does Grenada Lake really affect pest pressure in town?",
+        body: "Grenada Lake's summer pool covers 35,820 acres, and the Corps of Engineers manages water levels seasonally for flood control, which means the amount of shoreline habitat available for mosquito breeding can shift from year to year. In wetter years, backwater pools along the Yalobusha River and the lake's upper arms hold water for weeks, giving mosquitoes far more breeding ground than a typical inland Mississippi town would have. Neighborhoods closest to the lake and the river bottoms feel this first and worst, but the effect reaches into town on calm, humid evenings when adult mosquitoes disperse from the shoreline. Grenada's mosquito season runs from March through November, tracking the length of the warm season rather than any single weather event. Homeowners near the lake benefit the most from a residential barrier treatment program that targets the vegetation where adult mosquitoes rest during the day, since eliminating the source itself is not something a single property can control.",
+      },
+      {
+        heading: "What termite risk do older Grenada homes face?",
+        body: "Eastern subterranean termites are established throughout Grenada County, and the town's historic district has a meaningful number of homes built before modern termite soil treatment became standard practice. These older structures often have crawl space foundations, wood framing close to grade, and decades-old repairs that can create new points of wood-to-soil contact without anyone noticing. Termite swarms in Grenada typically appear on warm, humid evenings between February and May, and finding discarded wings near a window or door frame is usually a sign that an established colony has been feeding in the soil for a year or more already. Annual inspection is the baseline recommendation for any Grenada County property, and homes in the historic district in particular benefit from a documented, ongoing treatment plan rather than a single application, since the age of the housing stock means conducive conditions can reappear over time.",
+      },
+      {
+        heading: "Are ticks a real concern for Grenada Lake visitors and residents?",
+        body: "Yes, particularly for anyone who spends time in the wooded parkland around the lakeshore. Hugh White State Park and the Corps of Engineers campgrounds around Grenada Lake support healthy deer and small mammal populations, and those animals are the hosts that sustain lone star tick numbers through the warm months. Lone star ticks are aggressive host-seekers that will actively pursue a person or pet rather than waiting passively, which makes them more likely to be picked up on a short hike than some other tick species. Grenada's tick season runs from March through November, tracking closely with the mosquito season. Residents with wooded property near the lake, and visitors using the park and campground trails, should check themselves and pets carefully after outdoor time and consider a perimeter treatment for yards that back up to wooded lakeshore land.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in gutters, containers, and low spots on your property, especially if you live near Grenada Lake or the Yalobusha River bottoms.",
+      "Schedule an annual termite inspection, particularly for older homes in Grenada's historic district with crawl space foundations.",
+      "Check yourself and pets for ticks after any time spent in the wooded parkland around Grenada Lake or the state park trails.",
+      "Apply broadcast fire ant bait to the full lawn in spring and fall rather than treating individual mounds.",
+      "Seal foundation gaps and plumbing penetrations to reduce American cockroach entry during heavy rain.",
+    ],
+    costNote:
+      "General pest treatments in Grenada typically run $110 to $195, with most local providers offering a free inspection. Mosquito barrier programs, priced separately, are especially worthwhile for properties near Grenada Lake given the extended breeding season the reservoir supports.",
+    faqs: [
+      {
+        question: "Why is mosquito season so long in Grenada, MS?",
+        answer:
+          "Grenada sits next to Grenada Lake, a 35,820 acre Army Corps of Engineers reservoir on the Yalobusha River, which gives mosquitoes a permanent, large-scale breeding source that a typical inland town of Grenada's size would not have. Depending on how the Corps manages seasonal water levels, backwater pools along the lake's upper arms can hold standing water for weeks at a time. Mosquito season in Grenada runs March through November, and properties nearest the lake and river bottoms generally see the heaviest pressure throughout that window.",
+      },
+      {
+        question: "Are lone star ticks common around Grenada Lake?",
+        answer:
+          "Yes. The wooded shoreline around Grenada Lake, including Hugh White State Park and the Corps of Engineers campgrounds, supports the deer and small mammal populations that sustain lone star tick numbers through the warm season. Lone star ticks are known for actively seeking out hosts rather than waiting passively, so anyone hiking, fishing, or camping near the lake should check thoroughly after time outdoors. Grenada's tick season runs March through November.",
+      },
+      {
+        question: "How old do homes need to be in Grenada before termite risk goes up?",
+        answer:
+          "Grenada's historic district has a meaningful number of homes built before modern termite soil treatment standards existed, and those older crawl space foundations with wood framing close to grade are where subterranean termite risk concentrates. That said, eastern subterranean termites are established throughout Grenada County's soil generally, so newer homes are not immune, just typically better protected by modern construction practices. Annual inspection is recommended for any Grenada County property regardless of age.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland-ms", stateSlug: "mississippi" },
+      { name: "Brookhaven", slug: "brookhaven-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Grenada, MS | Mosquitoes, Termites & Ticks",
+    metaDescription:
+      "Grenada MS pest control for mosquitoes, eastern subterranean termites, lone star ticks and fire ants near Grenada Lake. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "west-point-ms",
+    name: "West Point",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~9,800",
+    county: "Clay County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Point is the county seat of Clay County in Mississippi's Golden Triangle region, an area named for the confluence of farming, rail, and river commerce around Columbus, Starkville, and West Point. The area's hot, humid summers and mild winters support both row crop agriculture and a large regional poultry processing industry, and that mix of farmland, standing water, and food processing infrastructure shapes the pest pressure West Point homes face.",
+    topPests: ["Eastern Subterranean Termites", "Filth Flies", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Eastern subterranean termites are established throughout Clay County. West Point's older residential blocks near downtown, many with crawl space construction, see the most consistent termite pressure from soil-based colonies.",
+      },
+      {
+        name: "Filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warmest April through October, present year-round",
+        note: "West Point is home to major poultry processing operations, an industry that is the largest agricultural commodity in Mississippi. Homes and businesses near processing and cold storage facilities can see elevated filth fly pressure during the warmer months, since these flies breed readily around food processing byproducts.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Clay County's mix of row crop fields, drainage ditches, and low-lying pasture around West Point holds standing water through the growing season, sustaining mosquito populations from spring through early fall.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are established in lawns and pastureland throughout Clay County. Mild winters mean colonies persist and expand over multiple seasons if mounds are not treated broadly.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active during heat and rain",
+        note: "American cockroaches move between storm drains and outdoor debris and into structures during heavy rain or heat, a pattern common across West Point's older downtown commercial and residential buildings.",
+      },
+    ],
+    localHook:
+      "West Point is part of Mississippi's Golden Triangle, and a major poultry processor operates a large freezer, cooler, and storage facility in town, part of an industry that has been the state's largest agricultural commodity for more than two decades. Food processing infrastructure at that scale is a real, documented driver of filth fly pressure in the surrounding area, on top of the termite and mosquito pressure common to the rest of the region.",
+    intro:
+      "Pest control in West Point, MS reflects the town's role in Mississippi's Golden Triangle economy. Clay County's mix of row crop farmland, pastureland, and a significant poultry processing presence shapes a pest list that goes beyond the usual Mississippi termite and mosquito pressure to include filth flies tied to food processing activity. Eastern subterranean termites are active in the soil under West Point's older downtown homes year-round. Mosquitoes breed in the drainage ditches and low pasture around town from spring through early fall. Fire ants are established in nearly every lawn. Understanding which pest is driven by which local factor helps West Point homeowners and business owners plan treatment around the right season.",
+    sections: [
+      {
+        heading: "Why does West Point deal with more flies than a typical Mississippi town?",
+        body: "West Point sits at the center of Mississippi's poultry industry, which has been the state's single largest agricultural commodity for more than twenty years and employs tens of thousands of people statewide. A major poultry processor operates a large freezer, cooler, and storage operation in town, and food processing infrastructure of that scale is a documented source of elevated filth fly activity in the surrounding area, particularly during the warmer months when fly breeding cycles are fastest. Homes and businesses located near processing, cold storage, and rendering operations tend to see the heaviest pressure, though filth flies can travel a considerable distance from a breeding source when conditions are favorable. Sanitation on the property, meaning tightly sealed trash containers, prompt removal of pet waste, and screened doors and windows, reduces the draw for a home near this kind of industrial activity. Commercial properties near processing facilities benefit from a scheduled fly management program rather than reactive treatment after a complaint.",
+      },
+      {
+        heading: "How serious is termite risk in West Point's older neighborhoods?",
+        body: "Eastern subterranean termites are established throughout Clay County's soil, and West Point's downtown and surrounding residential blocks include a substantial number of homes built well before modern termite pretreatment standards existed. Crawl space foundations with wood framing close to grade, a common construction style in this part of the Golden Triangle, give subterranean termites an easy path from soil to structural wood. Swarms typically appear on warm, humid evenings between February and May, and winged termites found near windows or light fixtures during that window are usually evidence of a colony that has already been feeding for a year or longer. Historic downtown commercial buildings face the same risk as residential structures, and business owners should treat termite inspection as routine maintenance rather than an occasional concern. Annual inspection paired with a liquid soil treatment or bait station system is the standard, ongoing approach recommended for Clay County properties of any age.",
+      },
+      {
+        heading: "What drives mosquito and fire ant activity around West Point?",
+        body: "Clay County's landscape outside of West Point is a working mix of row crop fields, cattle pasture, and drainage ditches, and all three hold standing water after rain or irrigation in ways that sustain mosquito breeding from March through October. Low-lying pasture areas at the edge of town are particularly persistent sources because they drain more slowly than cultivated cropland. Fire ants thrive in this same landscape, especially in disturbed soil along field edges, pasture fence lines, and residential lawns. Clay County's mild winters mean fire ant colonies rarely die back completely, so mound density in an untreated yard tends to increase year over year rather than resetting each spring. Broadcast fire ant bait applied to the entire lawn in spring and fall controls colonies far more effectively than spot-treating visible mounds, which typically just prompts the colony to relocate a short distance away within the same yard.",
+      },
+    ],
+    prevention: [
+      "Seal trash containers tightly and remove pet waste promptly, especially if your property is near a food processing or poultry facility, to reduce filth fly breeding sources.",
+      "Schedule an annual termite inspection for both homes and commercial buildings in West Point's older downtown blocks.",
+      "Clear standing water from ditches, low pasture areas, and containers on your property to reduce mosquito breeding through the growing season.",
+      "Apply broadcast fire ant bait to the full lawn in spring and fall rather than treating individual mounds.",
+      "Screen doors, windows, and vents to keep filth flies and cockroaches from entering during peak warm-season activity.",
+    ],
+    costNote:
+      "General pest control in West Point typically runs $115 to $200, with most providers offering a free inspection. Commercial fly management programs near processing and food service facilities are priced separately, and termite protection plans are quoted annually based on the size and construction of the property.",
+    faqs: [
+      {
+        question: "Why do I have more flies at my West Point property than friends in other Mississippi towns?",
+        answer:
+          "West Point sits in Mississippi's Golden Triangle region, home to major poultry processing operations that are part of the state's largest agricultural industry. Food processing and cold storage infrastructure at that scale is a real, documented source of elevated filth fly activity nearby, especially during the warmer months when fly breeding cycles are fastest. Properties closer to processing or rendering operations tend to see the heaviest pressure. Tight sanitation practices at home and a scheduled fly management program for commercial properties are the practical response.",
+      },
+      {
+        question: "Is termite risk higher in West Point's older downtown homes?",
+        answer:
+          "Yes. Eastern subterranean termites are established throughout Clay County's soil, and West Point's downtown and surrounding residential blocks include many homes built before modern termite pretreatment became standard. Crawl space construction with wood framing close to grade, common in this part of the Golden Triangle, gives termites an easy path into the structure. Annual inspection with a proactive treatment plan is the recommended standard for both homes and historic commercial buildings.",
+      },
+      {
+        question: "Why are fire ant mounds so persistent in West Point yards?",
+        answer:
+          "Clay County's mild winters rarely get cold enough for long enough to kill off established fire ant colonies, so mounds in an untreated West Point yard tend to grow year over year instead of resetting each spring. The mix of pastureland and farmland surrounding town also gives colonies plenty of disturbed soil to expand into. Broadcast bait applied to the entire lawn in spring and fall controls the underlying colony far better than treating individual mounds, which usually just causes the colony to move a short distance away.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Grenada", slug: "grenada-ms", stateSlug: "mississippi" },
+      { name: "Columbia", slug: "columbia-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in West Point, MS | Termites, Flies & Mosquitoes",
+    metaDescription:
+      "West Point MS pest control for termites, filth flies, mosquitoes and fire ants. Clay County Golden Triangle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "brookhaven-ms",
+    name: "Brookhaven",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~11,600",
+    county: "Lincoln County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brookhaven sits in the Piney Woods of southwest Mississippi, just off Interstate 55 and across the Homochitto National Forest from Natchez. Longleaf pine forest and wetlands surround the town, and the hot, humid climate with mild winters keeps that forested landscape consistently moist. Lincoln County is part of the region Mississippi State University Extension has flagged for growing Formosan subterranean termite activity, and local coverage has specifically warned Brookhaven and Lincoln County residents about swarm risk in recent years.",
+    topPests: ["Formosan Termites", "Eastern Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through June, active year-round underground",
+        note: "Southwest Mississippi, including Lincoln County, is within the range where Formosan subterranean termites are established or expanding, and local reporting has warned Brookhaven-area residents about swarm activity. Formosan colonies grow far larger than native termite colonies and cause structural damage more quickly once established.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Eastern subterranean termites are the native species present throughout Lincoln County and are common in Brookhaven's older homes and the surrounding longleaf pine landscape.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The wetlands and low-lying forest surrounding Brookhaven, part of the Piney Woods ecosystem, hold moisture through most of the year and support a long mosquito season that runs from early spring into late fall.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are established across Lincoln County's lawns and cleared land. Mild winters allow colonies to persist and mound activity typically increases after rain.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm, humid weather",
+        note: "American cockroaches thrive in Brookhaven's humid Piney Woods climate, living in outdoor debris and moving indoors through foundation gaps during rain or heat.",
+      },
+    ],
+    localHook:
+      "Brookhaven calls itself the Homeseekers Paradise, a nickname that dates to a 1915 merchants' contest, and it sits in the Piney Woods of southwest Mississippi surrounded by longleaf pine forest and wetlands. Lincoln County has been specifically named in Mississippi State University Extension coverage warning southwest Mississippi residents about growing Formosan termite swarm activity, which makes Brookhaven one of the few towns in this part of the state facing real pressure from both the native and invasive termite species at once.",
+    intro:
+      "Pest control in Brookhaven, MS has to account for two termite species instead of one. Lincoln County sits within the part of southwest Mississippi where Mississippi State University Extension and local news coverage have flagged growing Formosan subterranean termite activity, alongside the eastern subterranean termites that are established statewide. Brookhaven's surrounding longleaf pine forest and wetlands, part of the Piney Woods ecosystem, keep humidity high and support a long mosquito season. Fire ants and American cockroaches round out the pest pressure a typical Brookhaven property manages through the warm months, but termites, both species, are the structural priority for homeowners here.",
+    sections: [
+      {
+        heading: "Are Formosan termites really a concern in Brookhaven?",
+        body: "Yes, and it is a relatively recent development for this part of the state. Mississippi State University Extension has documented growing Formosan subterranean termite swarm activity across southwest Mississippi, and local coverage in Lincoln County has specifically addressed the question of whether Brookhaven-area residents should be concerned. Formosan termites are an invasive species originally introduced from Asia, and their colonies can grow to several million workers, dramatically larger than a native eastern subterranean termite colony, which typically numbers in the low hundreds of thousands. That scale means Formosan colonies cause structural damage much faster once established. Formosan swarms in Mississippi typically occur from early May into early June, usually in the evening, and swarmers are often drawn to porch lights and windows. A homeowner who notices a heavy swarm of winged insects on a warm May evening should treat it as a signal for a professional inspection rather than something to brush off, since it may indicate a colony has been established nearby for some time already.",
+      },
+      {
+        heading: "How does the Piney Woods landscape shape pest pressure here?",
+        body: "Brookhaven sits within the Piney Woods, a longleaf pine forest region that stretches across southwest Mississippi and gives the area around Brookhaven its rolling, wooded character. That forest cover, combined with wetlands and the Homochitto National Forest nearby, keeps the local landscape consistently moist even outside of heavy rain events. For termites, both Formosan and eastern subterranean, that constant moisture is close to ideal, which is part of why this region supports both species at meaningful density. For mosquitoes, the wetland pockets scattered through the pine forest provide breeding habitat that keeps populations active from March through November, longer than a mosquito season in a drier part of the state would typically run. Homeowners with property backing up to wooded or wetland areas near Brookhaven tend to see the heaviest pest pressure overall, simply because they are closest to the source habitat for both termites and mosquitoes.",
+      },
+      {
+        heading: "What is the most effective way to manage fire ants and cockroaches in Brookhaven?",
+        body: "Fire ants are established across Lincoln County, and Brookhaven's mild winters do not reliably knock colonies back the way a harder freeze would farther north. Mounds tend to appear fastest in disturbed or cleared soil, including new lawns and the edges of yards near wooded property, and mound activity typically increases noticeably after rain. Broadcast bait treatment applied to the entire lawn in spring and fall is significantly more effective than treating individual mounds one at a time, since spot treatment often just prompts the colony to relocate a short distance away rather than eliminating it. American cockroaches follow a similar outdoor-to-indoor pattern, living in Brookhaven's humid outdoor environment, particularly in leaf litter and organic debris common in a heavily wooded area, and moving into structures during heavy rain or summer heat. Sealing foundation gaps and maintaining a perimeter treatment reduces how many make it past the exterior.",
+      },
+    ],
+    prevention: [
+      "Schedule a professional termite inspection given Lincoln County's documented Formosan termite activity alongside the native eastern subterranean species.",
+      "Watch for termite swarms on warm evenings in May and June, the typical Formosan swarm window in southwest Mississippi, and treat a heavy swarm as a reason to call for an inspection.",
+      "Eliminate standing water in wetland-adjacent yards and low spots to reduce mosquito breeding through Brookhaven's long spring-through-fall season.",
+      "Apply broadcast fire ant bait to the full lawn in spring and fall rather than treating individual mounds.",
+      "Seal foundation gaps and clear leaf litter and organic debris away from the foundation to reduce American cockroach entry.",
+    ],
+    costNote:
+      "General pest control in Brookhaven typically runs $115 to $195, with most providers offering a free inspection. Termite protection plans that address both Formosan and eastern subterranean risk are quoted as an annual program, and mosquito service is commonly sold as a seasonal package running March through November.",
+    faqs: [
+      {
+        question: "Does Brookhaven really have Formosan termites, not just the native species?",
+        answer:
+          "Yes. Mississippi State University Extension has documented growing Formosan subterranean termite swarm activity across southwest Mississippi, and Lincoln County has been specifically addressed in local news coverage about the risk. Formosan colonies can reach several million workers, far larger than a native eastern subterranean termite colony, and cause structural damage more quickly. Brookhaven homeowners should treat both species as a real possibility and have a professional confirm which is present on their property.",
+      },
+      {
+        question: "When do termites swarm in Brookhaven, and what should I watch for?",
+        answer:
+          "Eastern subterranean termites in Mississippi typically swarm from February through May, while Formosan termites usually swarm from early May into early June, most often in the evening and often drawn to porch lights and windows. A homeowner in Brookhaven who notices a heavy swarm of winged insects during either window should schedule a professional inspection, since a visible swarm usually means a colony has already been established nearby for some time.",
+      },
+      {
+        question: "Why does mosquito season last so long in Brookhaven?",
+        answer:
+          "Brookhaven sits within the Piney Woods of southwest Mississippi, surrounded by longleaf pine forest and wetlands that keep the local landscape moist for most of the year. Those wetland pockets scattered through the forest provide breeding habitat that keeps mosquito populations active from March through November, a longer season than a drier part of the state would see. Properties backing up to wooded or wetland land near Brookhaven typically experience the heaviest pressure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia-ms", stateSlug: "mississippi" },
+      { name: "Grenada", slug: "grenada-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Brookhaven, MS | Formosan & Native Termites",
+    metaDescription:
+      "Brookhaven MS pest control for Formosan termites, eastern subterranean termites, mosquitoes and fire ants. Lincoln County Piney Woods specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "columbia-ms",
+    name: "Columbia",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~6,600",
+    county: "Marion County",
+    climate: "hot-humid",
+    climateDriver:
+      "Columbia sits on the east bank of the Pearl River in Marion County, in the Piney Woods region of south Mississippi where remnants of the original longleaf pine forest still stand. The town grew as a river port and timber center through the early 1900s, and its hot, humid climate with mild winters supports the same forest and wetland conditions that made it a lumber town in the first place. Those conditions are also what keeps termite and moisture pest pressure high on both older and newer homes.",
+    topPests: ["Eastern Subterranean Termites", "Carpenter Ants", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Eastern subterranean termites are established throughout Marion County's soil. Columbia's downtown and river-adjacent neighborhoods, home to some of the town's oldest structures dating to its lumber boom era, carry particular risk from wood-to-soil contact in older foundations.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible in spring and summer",
+        note: "The longleaf pine forest surrounding Columbia provides ample decaying wood habitat for carpenter ants, and colonies readily move into moisture-damaged wood in older homes, sheds, and outbuildings near wooded property.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Pearl River and its adjacent wetlands run directly through Columbia, and the river's floodplain and backwater areas sustain mosquito breeding through most of the warm season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are common throughout Marion County's lawns and cleared land. Mild winters allow colonies to persist across seasons, with mound activity increasing after rain.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm, humid weather",
+        note: "American cockroaches are common in Columbia's humid outdoor environment and move indoors through foundation gaps during heavy rain, a pattern that affects the town's historic downtown buildings as much as residential homes.",
+      },
+    ],
+    localHook:
+      "Columbia briefly served as Mississippi's state capital from 1821 to 1822 before the seat of government moved to Jackson, and the town's economy through the early 1900s ran on Pearl River timber and lumber milling. That much history built in longleaf pine, much of it still standing along the river in Columbia's downtown, is exactly the kind of older wood-frame housing stock that carries the highest termite and carpenter ant risk in Marion County today.",
+    intro:
+      "Pest control in Columbia, MS has to account for a downtown built during the town's lumber boom era, much of it still standing along the Pearl River more than a century later. Marion County's Piney Woods setting, with longleaf pine forest and river wetlands surrounding the town, keeps eastern subterranean termites active in the soil year-round and gives carpenter ants plenty of decaying wood habitat to move in from. The Pearl River itself sustains a long mosquito season from spring through fall. Fire ants and American cockroaches are a steady year-round presence in Columbia's warm, humid Piney Woods climate.",
+    sections: [
+      {
+        heading: "Why does Columbia's history as a lumber town matter for pest control today?",
+        body: "Columbia grew up as a Pearl River port and timber center, and lumber milling drove much of the local economy through the late 1920s. That history left Columbia with a downtown and several older residential blocks built substantially from the longleaf pine that the surrounding Piney Woods once supplied in abundance, much of it constructed well before modern termite pretreatment standards existed. Wood-frame structures with crawl space foundations and wood-to-soil contact, common in homes from that era, are exactly the conditions eastern subterranean termites need to establish and expand a colony undetected for years. Termite swarms in Marion County typically appear on warm, humid evenings between February and May, and a homeowner in one of Columbia's older neighborhoods who spots discarded wings near a window in early spring should treat it as a sign that a colony has likely been active in the soil already for some time. Annual inspection paired with an ongoing soil treatment or bait program is the standard recommendation, particularly for homes built during Columbia's lumber-era growth.",
+      },
+      {
+        heading: "How serious is carpenter ant risk in a Piney Woods town like Columbia?",
+        body: "Carpenter ants do not eat wood the way termites do, but they excavate galleries inside it to build nests, and they strongly prefer wood that is already softened by moisture damage. Columbia's setting, surrounded by longleaf pine forest with plenty of decaying deadfall and moisture-retaining understory, gives carpenter ant colonies abundant natural habitat close to town, and colonies readily move from that forest into moisture-compromised wood on sheds, decks, and older homes with roof or plumbing leaks. Because carpenter ant damage often overlaps with an existing moisture problem, seeing large black ants inside a home, especially near a window sill, bathroom, or roofline, is frequently a signal of both a pest issue and an underlying leak that needs attention. Carpenter ants in Columbia are most visible in spring and summer when foraging activity peaks, though established colonies remain active indoors year-round. Addressing moisture sources on the property is as important as the pest treatment itself for a long-term fix.",
+      },
+      {
+        heading: "What drives mosquito and fire ant pressure along the Pearl River in Columbia?",
+        body: "The Pearl River runs directly through Columbia, and its floodplain, backwater sloughs, and adjacent wetlands create substantial mosquito breeding habitat that persists through most of the warm season. Neighborhoods closest to the riverbank feel this pressure first, but adult mosquitoes disperse well beyond the immediate floodplain on calm, humid evenings, which is typical of a south Mississippi summer. Mosquito season in Columbia runs from March through November, tracking the length of the region's warm season. Fire ants thrive in the same river-adjacent and cleared land throughout Marion County, building mounds fastest in disturbed soil along field edges, yards, and riverside recreation areas, and Columbia's mild winters mean colonies persist and expand across multiple seasons rather than dying back. Broadcast bait applied to the full lawn in spring and fall is a far more effective long-term approach than treating individual mounds, which usually just prompts the colony to relocate nearby.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for Columbia's older downtown and riverside homes built during the lumber boom era.",
+      "Address roof leaks and plumbing leaks promptly, since moisture-damaged wood is what draws carpenter ant colonies out of the surrounding pine forest.",
+      "Eliminate standing water near the Pearl River floodplain and in yard low spots to reduce mosquito breeding through the long warm season.",
+      "Apply broadcast fire ant bait to the full lawn in spring and fall rather than treating individual mounds.",
+      "Seal foundation gaps to reduce American cockroach entry during heavy rain, a common issue in Columbia's older downtown structures.",
+    ],
+    costNote:
+      "General pest control in Columbia typically runs $110 to $190, with most providers offering a free inspection. Termite protection for older, lumber-era homes is quoted as an annual program based on square footage and foundation type, and mosquito treatment near the Pearl River is often sold as a seasonal package running March through November.",
+    faqs: [
+      {
+        question: "Are Columbia's older downtown buildings at higher termite risk?",
+        answer:
+          "Yes. Columbia grew as a Pearl River timber and lumber milling town through the late 1920s, and a substantial share of its downtown and older residential blocks were built from longleaf pine before modern termite pretreatment standards existed. Crawl space foundations with wood-to-soil contact, common in construction from that era, give eastern subterranean termites, which are established throughout Marion County, an easy path into the structure. Annual inspection is the standard recommendation for these older properties.",
+      },
+      {
+        question: "What is drawing carpenter ants into my home near Columbia?",
+        answer:
+          "Carpenter ants nest in wood that has already been softened by moisture, and Columbia's surrounding longleaf pine forest supplies abundant decaying wood habitat close to town. Colonies move from that forest habitat into moisture-damaged wood on homes with roof or plumbing leaks, sheds, and decks. Seeing carpenter ants indoors, particularly near a window, bathroom, or roofline, is often a sign of an underlying moisture problem as much as a pest issue, and fixing the leak is as important as treating the ants.",
+      },
+      {
+        question: "How long does mosquito season last in Columbia given the Pearl River?",
+        answer:
+          "Mosquito season in Columbia runs from March through November. The Pearl River, which runs directly through town, along with its floodplain and backwater sloughs, provides mosquito breeding habitat that persists through most of the warm season. Neighborhoods closest to the riverbank typically see the heaviest pressure, though adult mosquitoes disperse well beyond the immediate floodplain on calm evenings.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Brookhaven", slug: "brookhaven-ms", stateSlug: "mississippi" },
+      { name: "West Point", slug: "west-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Columbia, MS | Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Columbia MS pest control for eastern subterranean termites, carpenter ants, mosquitoes and fire ants. Marion County Pearl River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -2700,5 +2700,460 @@ export const southCarolinaCities: CityLocation[] = [
     metaTitle: "Pest Control in Newberry, SC",
     metaDescription: "Newberry SC pest control for termites, fire ants, and mosquitoes. Piedmont red clay expertise. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "easley",
+    name: "Easley",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~26,400",
+    county: "Pickens County",
+    climate: "hot-humid",
+    climateDriver:
+      "Easley sits in the Piedmont foothills of Upstate South Carolina, in Pickens County between Greenville and the Blue Ridge Escarpment. The hot, humid climate here runs a touch cooler than the Lowcountry, but the red clay Piedmont soils hold moisture through the warm months, and Clemson University Extension records the eastern subterranean and southeastern subterranean termite as the two species most commonly encountered statewide, both present in Pickens County. Easley's mix of century-old mill-village housing near downtown, built during the city's 1890 to 1910 cotton mill boom, and newer construction along the growing edges of the city creates two different termite exposure profiles within the same town.",
+    topPests: ["Eastern Subterranean Termites", "Fire Ants", "Mosquitoes", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round underground, swarms February through April",
+        note: "Clemson University Extension identifies the eastern subterranean termite as one of the two termite species most commonly encountered across South Carolina, and Pickens County's red clay Piedmont soils hold the moisture that keeps colonies active through the cooler Upstate winters.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note: "Fire ants are established throughout Pickens County's residential yards and the disturbed soil around Easley's newer subdivisions, with the warm Piedmont clay supporting colony growth for most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Standing water collects easily in Easley's red clay terrain after summer thunderstorms, and the creeks feeding into the Saluda River basin around the city sustain mosquito breeding through the warm months.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through February",
+        note: "As Upstate temperatures drop in fall, house mice move from the wooded foothills terrain bordering Easley's newer subdivisions into garages, crawl spaces, and outbuildings seeking warmth.",
+      },
+    ],
+    localHook:
+      "Easley is the largest city in Pickens County and grew from a string of cotton mills built between 1890 and 1910, Easley Cotton Mills, Glenwood Cotton Mills, and Alice Mills, that left the city with a large stock of century-old mill-village housing close to downtown, on pier-and-beam foundations very different from the newer construction spreading toward the Blue Ridge foothills.",
+    intro:
+      "Pest control in Easley, SC has to account for two very different housing generations in the same city. Easley is the largest city in Pickens County, and its downtown grew up around cotton mills built between 1890 and 1910, Easley Cotton Mills, Glenwood Cotton Mills, and Alice Mills among them. The mill-village homes from that era are close to a century old, many with pier-and-beam foundations and wood framing close to the red clay soil that eastern subterranean termites favor. Clemson University Extension records that species, along with the southeastern subterranean termite, as the two most commonly encountered across South Carolina, and Pickens County carries that same pressure. Newer subdivisions spreading toward the Blue Ridge foothills trade termite risk for fresh fire ant colonization on disturbed clay. Mosquitoes breed in the creeks and low spots that feed the Saluda River basin, and cooling fall temperatures send house mice looking for a way indoors.",
+    sections: [
+      {
+        heading: "Are older Easley homes really at higher termite risk?",
+        body: "Yes, and it comes down to age and foundation type more than anything else. Many of the mill-village homes built near downtown Easley during the city's 1890 to 1910 cotton mill boom sit on pier-and-beam foundations, which puts wood framing members close to or in direct contact with Pickens County's red clay soil. Clemson University Extension lists the eastern subterranean termite as one of the two species most commonly found statewide, and that species forages continuously wherever soil moisture and wood contact line up. Newer homes on slab foundations toward the edges of Easley are not immune, but the physical barrier the slab creates forces termites to build visible mud tubes to reach wood, which makes early detection easier. If your Easley home was built before 1970 and you cannot remember your last termite inspection, that is the first call to make.",
+      },
+      {
+        heading: "Why do fire ants show up so fast in Easley's new subdivisions?",
+        body: "New construction disturbs soil, and disturbed soil in the Piedmont is exactly what fire ant queens look for when they land after a mating flight. Pickens County's red clay holds moisture well after rain, which is the same property that makes it good for fire ant tunneling and mound stability. Homeowners in newer Easley neighborhoods often report their first fire ant mounds within a season of moving in, well before the lawn is fully established. Established, more mature yards elsewhere in the city are not free of fire ants either, they are just at a lower density once bait programs have been running for a few years. Broadcast bait applied in spring and again in fall reaches the colony through normal foraging, which is more effective long term than spot-treating individual mounds you can see.",
+      },
+      {
+        heading: "What brings mice into Easley homes when it gets cold?",
+        body: "Easley sits close enough to the Blue Ridge foothills that the wooded terrain bordering many neighborhoods holds a steady house mouse population year-round. When temperatures start dropping in October and November, that outdoor population looks for a warmer, more stable place to nest, and garages, crawl spaces, and stored boxes in outbuildings are the easiest targets. A house mouse can fit through a gap about the width of a pencil, so sealing utility penetrations and garage door gaps before the weather turns is more effective than trapping after they are already inside. Once mice are established indoors they breed quickly, so a fall inspection that catches the first entry points saves homeowners from a much bigger problem by January.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Easley home built before 1970, especially pier-and-beam construction in the older mill-village neighborhoods.",
+      "Apply fire ant bait in spring and fall across the whole yard, not just visible mounds, for colony-level control in newly disturbed Piedmont clay.",
+      "Clear standing water from gutters, containers, and low spots within a few days of summer rain to cut mosquito breeding.",
+      "Seal gaps around utility lines, garage doors, and crawl space vents before October to keep house mice from moving in for winter.",
+      "Keep firewood and mulch away from the foundation to reduce both termite access and rodent harborage close to the house.",
+    ],
+    costNote:
+      "Easley pest control typically starts with a free inspection to identify which of the two housing-age risk profiles applies to your property. Termite treatment plans run several hundred dollars depending on the size of the structure and the method, while general pest and fire ant programs are usually quarterly and cost less per visit. Ask about the difference between liquid soil treatment and baiting systems for termite protection.",
+    faqs: [
+      {
+        question: "How old does an Easley home need to be before termite risk goes up?",
+        answer: "Homes in Easley's older mill-village neighborhoods near downtown, many built during the city's 1890 to 1910 cotton mill boom on pier-and-beam foundations, carry meaningfully higher termite exposure than newer slab construction. Clemson University Extension identifies the eastern subterranean termite as one of the two species most commonly found across South Carolina, and Pickens County's red clay soils hold the moisture that keeps colonies active. If your home predates 1970 and has a crawl space, an annual inspection is the standard recommendation.",
+      },
+      {
+        question: "What is the Doodle Trail and does it affect pest patterns in Easley?",
+        answer: "The Doodle Trail is a 7.5 mile paved rail-trail connecting Easley and Pickens, built on the corridor of a small railroad chartered in 1890 and nicknamed the Doodle because the train ran backward between the two towns. It does not change pest treatment directly, but it runs through some of Easley's older, established neighborhoods where mill-era housing sits closer to mature trees and red clay soil, both conditions that favor termite and fire ant activity compared to newer construction farther from the corridor.",
+      },
+      {
+        question: "Do fire ants in Easley need to be treated differently than in the Lowcountry?",
+        answer: "The underlying biology is the same, but Pickens County's Piedmont red clay soils behave differently than the sandier Lowcountry soils near the coast. Clay retains moisture longer, which supports fire ant tunnel and mound stability through more of the year. Broadcast bait treatments in spring and fall work well in both regions, but Piedmont properties, especially newly disturbed lots in growing subdivisions, often need a faster follow-up because colonization happens quickly once the soil is turned.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Irmo", slug: "irmo", stateSlug: "south-carolina" },
+      { name: "Hartsville", slug: "hartsville", stateSlug: "south-carolina" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Easley, SC | Termites & Fire Ants",
+    metaDescription:
+      "Easley SC pest control for termites, fire ants, and mosquitoes. Pickens County Upstate specialists near the Doodle Trail. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hartsville",
+    name: "Hartsville",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~7,360",
+    county: "Darlington County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hartsville sits in the Pee Dee region of northeastern South Carolina, entirely within Darlington County and inside the larger Pee Dee River basin that covers roughly 5.5 million acres and 45 watersheds. The hot, humid coastal plain climate combines with the basin's low, flat terrain to hold standing water for days after heavy rain, and the South Carolina Department of Public Health specifically flags post-flood mosquito surges in this region after tropical storms and hurricanes. That flood-driven mosquito pressure, on top of the termite and cockroach activity typical of the Southeast, defines the pest calendar here.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, surges after heavy rain and flooding",
+        note: "Standing water that persists more than five days is enough for mosquitoes to complete a breeding cycle, and the South Carolina Department of Public Health specifically calls out post-flood mosquito population surges in the Pee Dee region after tropical storms push water into the low, flat terrain around Hartsville.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round underground, swarms February through April",
+        note: "Darlington County's warm, humid coastal plain climate keeps subterranean termite colonies active through most of the year, and swarming season in the Pee Dee typically runs from late winter into spring.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active during and after rain",
+        note: "American cockroaches, called Palmetto bugs across South Carolina, live in storm drains, mulch, and organic debris around Hartsville and move indoors during and after heavy rain events when their outdoor habitat floods.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note: "Fire ants are established throughout Darlington County's lawns and agricultural edges, with colony activity slowing only during the hottest weeks of summer or brief cold snaps.",
+      },
+    ],
+    localHook:
+      "Hartsville is the largest city in Darlington County and sits inside the roughly 5.5-million-acre Pee Dee River basin, a low, flat watershed where the South Carolina Department of Public Health specifically warns of mosquito population surges in the weeks following hurricanes and tropical storms, because standing water that sits for more than five days is all mosquitoes need to complete a breeding cycle.",
+    intro:
+      "Pest control in Hartsville, SC starts with water. Hartsville is the largest city in Darlington County, sitting inside the flat, roughly 5.5-million-acre Pee Dee River basin, and the South Carolina Department of Public Health specifically flags this region for mosquito surges in the weeks after hurricanes and tropical storms push standing water into low-lying yards and fields. That flood-driven mosquito pressure runs from March through October, longer in wet years. Underneath that seasonal spike sits the steadier, year-round work of eastern subterranean termites in Darlington County's humid coastal plain soil, American cockroaches pushing indoors during rain, and fire ants working the lawns and field edges from spring through fall. The order of priority in Hartsville is water management first, structural protection second.",
+    sections: [
+      {
+        heading: "Here is what drives it: flooding and standing water",
+        body: "Hartsville's position inside the Pee Dee River basin means rain does not drain away quickly. The terrain is flat, the water table sits close to the surface in many yards, and after a hurricane or tropical storm moves through, the South Carolina Department of Public Health has specifically asked Pee Dee residents to help control the mosquito population that follows. The math is simple: a mosquito can complete its life cycle in water that stands for five days or more, so any container, ditch, or low spot holding rainwater for that long becomes a breeding site. Gutters, tarps, unused planters, and clogged storm drains around Hartsville properties are the most commonly overlooked sources. Hurricane Florence caused significant flooding and agricultural damage across Pee Dee counties in 2018, and mosquito activity followed within weeks in the affected areas.",
+      },
+      {
+        heading: "The order of work: termites, then cockroaches, then fire ants",
+        body: "Termites come first because the damage is structural and invisible until it is not. Darlington County's warm, humid coastal plain climate keeps eastern subterranean termite colonies foraging most of the year, with swarms typically appearing from late February through April. Annual inspection is the baseline. American cockroaches are next: they live outdoors in storm drains and mulch beds around Hartsville and push indoors during and after rain when their outdoor habitat floods, so sealing plumbing penetrations and door sills matters most right before wet weather. Fire ants round out the list, active March through November across Darlington County's lawns and the agricultural land bordering the city. None of the three require emergency response the way flood mosquitoes do, but all three need a standing program rather than a one-time visit.",
+      },
+      {
+        heading: "What most homeowners miss: post-storm mosquito timing",
+        body: "The mistake is treating for mosquitoes only when they are already biting. By the time adult mosquitoes are swarming a Hartsville yard after a storm, the breeding cycle already happened days earlier in standing water most homeowners never noticed. The more effective window is the 48 to 72 hours right after a heavy rain or storm event, when larvicide treatment in standing water still on the property can stop the next generation before it hatches. Homeowners who wait until adult mosquitoes are a nuisance are managing a symptom instead of the source. A mosquito program timed to the Pee Dee's flood pattern, rather than a fixed monthly schedule, gets ahead of the surge instead of chasing it.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from gutters, tarps, and containers within five days of any rain event, faster after a storm.",
+      "Schedule an annual termite inspection; Darlington County's coastal plain soils keep colonies active most of the year.",
+      "Seal plumbing penetrations and door sills before wet weather to reduce American cockroach entry during and after rain.",
+      "Apply fire ant bait in spring and fall across the whole yard, not just visible mounds, for season-long control.",
+      "Ask about a mosquito treatment plan timed to storm and flood events rather than a fixed calendar.",
+    ],
+    costNote:
+      "Hartsville pest control starts with a free inspection covering termite status, flood-related mosquito risk on your property, and general pest pressure. Storm-triggered mosquito treatments are typically priced separately from a standing quarterly program, and termite protection plans run several hundred dollars depending on structure size and method.",
+    faqs: [
+      {
+        question: "Why does Hartsville get mosquito warnings after hurricanes?",
+        answer: "Hartsville sits inside the Pee Dee River basin, a low, flat watershed of roughly 5.5 million acres, and the South Carolina Department of Public Health specifically asks Pee Dee residents to help control mosquitoes after storms because standing water left behind by flooding is enough for a full mosquito breeding cycle within about five days. The surge typically shows up two to three weeks after a major rain event.",
+      },
+      {
+        question: "Is Darlington County a high termite-risk area?",
+        answer: "Yes. The warm, humid coastal plain climate in Darlington County keeps eastern subterranean termite colonies active for most of the year, with the most visible swarming from late February through April. Annual inspection is the standard recommendation for Hartsville properties, particularly older homes with crawl space foundations.",
+      },
+      {
+        question: "What should I do with my Hartsville yard right after a storm?",
+        answer: "Walk the property within a day or two and empty anything holding water, gutters, tarps, buckets, and low spots in the lawn, since standing water that sits five days or longer is enough time for mosquitoes to breed. If flooding was significant, treating the standing water directly with larvicide in the days right after the storm is more effective than waiting for adult mosquitoes to show up in the yard.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Irmo", slug: "irmo", stateSlug: "south-carolina" },
+      { name: "North Myrtle Beach", slug: "north-myrtle-beach", stateSlug: "south-carolina" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hartsville, SC | Flood Mosquitoes & Termites",
+    metaDescription:
+      "Hartsville SC pest control for storm-driven mosquitoes, termites, and fire ants. Darlington County Pee Dee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "irmo",
+    name: "Irmo",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~12,300",
+    county: "Richland County",
+    climate: "hot-humid",
+    climateDriver:
+      "Irmo is a Midlands town split between Richland and Lexington counties on the shore of Lake Murray, the roughly 50,000-acre reservoir created by the Saluda Dam in 1930. The lake's edge and the wooded lots around it hold humidity and calm water longer than the open Midlands away from the shoreline, and the state has identified the Lake Murray area as one of the more aggressive mosquito-biting zones in South Carolina. That lake effect, layered onto the standard hot, humid Midlands climate, is the defining pest driver here.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Fire Ants", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, worst at dawn and dusk near the lake",
+        note: "The state has identified the Lake Murray area as one of the more aggressive mosquito-biting zones in South Carolina, and Irmo's shoreline and heavily landscaped lots hold calm, shaded water that mosquitoes use to breed close to homes.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Irmo sits in the Midlands termite-pressure zone that Clemson University Extension tracks statewide, and the humidity held near Lake Murray's shoreline keeps colonies active through more of the year than drier inland sites.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note: "Fire ants are established throughout the Midlands and are common in Irmo's lawns and the grassy common areas near the lake, with colony activity continuing through most of the warm season.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The wooded lots and brushy shoreline common around Lake Murray properties in Irmo support a tick population that moves onto pets and people during yard work and time spent near the water.",
+      },
+    ],
+    localHook:
+      "Irmo sits on Lake Murray, the roughly 50,000-acre reservoir built in 1930 by damming the Saluda River, and the state has identified the Lake Murray area specifically as one of the more aggressive mosquito-biting zones in South Carolina, a detail that shapes pest programs for nearly every property near the shoreline.",
+    intro:
+      "Pest control in Irmo, SC is largely a Lake Murray story. Irmo sits on the shore of the roughly 50,000-acre reservoir formed by the Saluda Dam, and the state has identified the Lake Murray area as one of the more aggressive mosquito-biting zones in South Carolina, out of more than 60 mosquito species statewide capable of carrying West Nile virus, Eastern Equine Encephalitis, and heartworm in pets. That lake effect sits on top of the standard Midlands baseline: eastern subterranean termite colonies active for most of the year in Richland and Lexington county soils, fire ants established in nearly every lawn, and ticks working the wooded, brushy lots common near the shoreline. Properties directly on the water or with heavy landscaping typically need a tighter mosquito treatment interval than inland Midlands homes.",
+    sections: [
+      {
+        heading: "In short: the Lake Murray mosquito effect",
+        body: "South Carolina identifies the Lake Murray area as one of the state's more aggressive mosquito-biting zones, and Irmo sits directly on that shoreline. More than 60 mosquito species are documented in South Carolina, some capable of transmitting West Nile virus and Eastern Equine Encephalitis to people and heartworm to dogs and cats. Quarterly treatment is the general minimum recommendation for Midlands properties, but homes on or near Lake Murray, or with heavy landscaping that holds shade and moisture, typically need a bi-monthly interval to keep pace with breeding near the water. The lake's calm coves and inlets are the difference between Irmo's mosquito pressure and a comparable Midlands town farther from the water.",
+      },
+      {
+        heading: "By season: termites, fire ants, and ticks around the reservoir",
+        body: "Eastern subterranean termite colonies in the Richland and Lexington county soils around Irmo forage year-round underground, with the most visible swarming activity from February through April. Fire ants are active March through November across nearly every lawn and common green space in town, slowing only briefly during the hottest stretches of summer. Ticks track closest to Lake Murray's wooded, brushy shoreline lots, picking up from April through September whenever pets or people move through tall grass or leaf litter near the water. All three run on a longer active season here than in the Upstate, a direct result of the Midlands hot, humid climate combined with the lake's moisture.",
+      },
+      {
+        heading: "Bottom line: what shoreline properties need that inland ones don't",
+        body: "A home two blocks from Lake Murray and a home directly on the water in Irmo are not the same pest account. Shoreline and cove properties see denser mosquito pressure at dawn and dusk, more tick exposure from waterside brush, and generally more humidity retained in crawl spaces that favors termite activity. Inland Irmo properties still carry the full Midlands baseline of termites, fire ants, and seasonal mosquitoes, just at a lower intensity without the lake effect. A property assessment that accounts for distance to water, landscaping density, and shoreline exposure produces a more accurate treatment interval than a one-size Midlands schedule.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in shaded coves, containers, and low spots near Lake Murray shoreline properties to reduce mosquito breeding.",
+      "Move to a bi-monthly mosquito treatment interval for homes directly on the water or with heavy landscaping.",
+      "Maintain a year-round termite monitoring program; Richland and Lexington county soils near Irmo stay active most of the year.",
+      "Apply fire ant bait in spring and fall across the whole yard for colony-level control.",
+      "Treat pets with a veterinarian-approved tick preventive and check for ticks after yard work near brushy shoreline areas.",
+    ],
+    costNote:
+      "Irmo pest control typically starts with a free inspection that accounts for distance to Lake Murray and landscaping density. Standard Midlands mosquito programs run quarterly, while shoreline properties often move to a bi-monthly schedule. Termite protection plans vary with structure size and treatment method.",
+    faqs: [
+      {
+        question: "Why is Irmo's mosquito pressure worse than other Midlands towns?",
+        answer: "The state has identified the Lake Murray area specifically as one of South Carolina's more aggressive mosquito-biting zones, and Irmo sits directly on the reservoir's shoreline. The calm, shaded coves and inlets around the lake hold water that mosquitoes use to breed close to homes, which is why shoreline and heavily landscaped Irmo properties typically need a tighter treatment interval than inland Midlands towns.",
+      },
+      {
+        question: "Do Irmo mosquitoes actually carry disease?",
+        answer: "South Carolina has documented more than 60 mosquito species statewide, and some are capable of transmitting West Nile virus and Eastern Equine Encephalitis to people, along with heartworm to dogs and cats. Not every mosquito in Irmo carries these risks, but the density near Lake Murray raises the odds enough that consistent treatment matters more here than in drier inland areas.",
+      },
+      {
+        question: "Is Irmo in Richland County or Lexington County?",
+        answer: "Both. Irmo is a town that spans the Richland and Lexington county line, with its town hall on Woodrow Street located in Richland County. Pest pressure does not change meaningfully at the county line since the driving factor is proximity to Lake Murray, not which county a given property sits in.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hartsville", slug: "hartsville", stateSlug: "south-carolina" },
+      { name: "Moncks Corner", slug: "moncks-corner", stateSlug: "south-carolina" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Irmo, SC | Lake Murray Mosquitoes",
+    metaDescription:
+      "Irmo SC pest control for Lake Murray mosquitoes, termites, fire ants, and ticks. Richland and Lexington County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "moncks-corner",
+    name: "Moncks Corner",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~15,000",
+    county: "Berkeley County",
+    climate: "hot-humid",
+    climateDriver:
+      "Moncks Corner is the county seat of Berkeley County and sits at the edge of the roughly 259,000-acre Francis Marion National Forest, which spans Berkeley and Charleston counties and shelters red-cockaded woodpecker habitat along with dense hardwood and pine wetlands. South Carolina's hot, humid Lowcountry climate combined with that much undeveloped, damp forest right at the town's edge gives subterranean termites and forest-edge wildlife an unusually large, uninterrupted source population to draw from.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "American Cockroaches", "Wildlife (raccoons and squirrels)"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Subterranean termites are the most common termite species around Moncks Corner, and South Carolina's hot, humid Lowcountry climate provides the damp soil and softer wood conditions they need to establish and expand colonies rapidly.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The wetlands and waterways inside the neighboring Francis Marion National Forest, along with Berkeley County's low-lying Lowcountry terrain, sustain mosquito breeding habitat close to Moncks Corner neighborhoods through the warm months.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches, known locally as Palmetto bugs, are active year-round in Moncks Corner's warm, humid Lowcountry climate and move indoors from outdoor organic debris during wet weather.",
+      },
+      {
+        name: "Wildlife (raccoons and squirrels)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, peak fall and spring",
+        note: "Properties bordering the Francis Marion National Forest and the Swamp Fox Passage trail corridor that begins in Moncks Corner see more wildlife entry into attics and outbuildings than homes farther from the forest edge.",
+      },
+    ],
+    localHook:
+      "Moncks Corner is the county seat of Berkeley County and sits right at the edge of the roughly 259,000-acre Francis Marion National Forest, the starting point of the 42-mile Swamp Fox Passage trail, and that much unbroken, damp Lowcountry forest at the town's border means an unusually large source population of both subterranean termites and forest-edge wildlife for a town this size.",
+    intro:
+      "Pest control in Moncks Corner, SC has to account for the town's position right against the Francis Marion National Forest. Moncks Corner is the county seat of Berkeley County, and the roughly 259,000-acre forest bordering the town, along with the Swamp Fox Passage trail that begins here, means an unusually large stretch of undeveloped, damp Lowcountry habitat sits close to residential neighborhoods. Subterranean termites are the dominant termite species locally, and South Carolina's hot, humid climate keeps colonies active nearly year-round in the moist soil common throughout Berkeley County. Mosquitoes breed in the forest's wetlands and the Lowcountry's low, flat terrain. American cockroaches, known here as Palmetto bugs, stay active through all four seasons. Wildlife like raccoons and squirrels move from the forest edge into attics and outbuildings more often than in towns farther from that tree line.",
+    sections: [
+      {
+        heading: "Does living near Francis Marion National Forest increase pest pressure in Moncks Corner?",
+        body: "Yes, measurably. The forest covers roughly 259,000 acres across Berkeley and Charleston counties, and Moncks Corner sits right at its edge, with the Swamp Fox Passage trail beginning in town. That much unbroken, damp forest means termites, mosquitoes, and wildlife like raccoons and squirrels all have a large, undisturbed source population close to residential neighborhoods, and properties directly bordering the tree line typically see more pressure from all three than homes deeper into town. It does not mean every Moncks Corner property needs the same treatment plan, but proximity to the forest edge is one of the first things worth mentioning to whoever inspects your home.",
+      },
+      {
+        heading: "Why are subterranean termites the main concern here rather than other species?",
+        body: "Subterranean termites are the species most commonly encountered around Moncks Corner, and they need two things to thrive: consistently damp soil and softer wood to feed on. South Carolina's hot, humid Lowcountry climate delivers both, and Berkeley County's soil holds moisture especially well given the low elevation and the proximity to the forest wetlands. Colonies forage underground essentially year-round here, with the most visible activity, winged swarmers near windows and lights, appearing from February through April. Because the damage happens out of sight before swarming ever occurs, an annual inspection catches problems long before they would otherwise become visible.",
+      },
+      {
+        heading: "What kind of wildlife problems show up near the forest edge in Moncks Corner?",
+        body: "Raccoons and squirrels are the most common wildlife calls for properties bordering the Francis Marion National Forest and the trail corridor that starts in Moncks Corner. Both species move into attics, chimneys, and outbuildings looking for a dry, protected place to den, and activity tends to pick up in fall as they prepare for winter and again in spring during breeding season. Once an animal is inside a structure, the fix is exclusion, not just removal, because a vacated entry point left open invites the next animal in. Homeowners near the forest edge benefit from a property check that identifies likely entry points, roof gaps, vent covers, chimney caps, before an animal finds them first.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection; subterranean termites forage nearly year-round in Berkeley County's damp Lowcountry soil.",
+      "Seal roof gaps, vent covers, and chimney caps, especially on properties bordering the Francis Marion National Forest, to keep raccoons and squirrels from denning indoors.",
+      "Eliminate standing water around the yard and gutters through the warm months to reduce mosquito breeding near the forest's wetlands.",
+      "Seal foundation gaps and plumbing penetrations year-round to reduce American cockroach (Palmetto bug) entry.",
+      "Keep firewood and yard debris away from the foundation to reduce termite access from the surrounding forest edge.",
+    ],
+    costNote:
+      "Moncks Corner pest control starts with a free inspection that takes proximity to the Francis Marion National Forest into account. Termite protection plans vary with structure size and method, wildlife exclusion work is typically priced per job based on entry points found, and general pest programs for cockroaches and mosquitoes run on a standard quarterly schedule.",
+    faqs: [
+      {
+        question: "Is Moncks Corner more prone to wildlife problems than other South Carolina towns its size?",
+        answer: "Yes, largely because of its position right at the edge of the roughly 259,000-acre Francis Marion National Forest, where the Swamp Fox Passage trail begins. That much unbroken forest close to town means raccoons and squirrels have a large source population nearby, and properties bordering the tree line see more attic and outbuilding entry attempts than homes farther into town.",
+      },
+      {
+        question: "What termite species should Moncks Corner homeowners worry about most?",
+        answer: "Subterranean termites are the species most commonly found in and around Moncks Corner. South Carolina's hot, humid Lowcountry climate and Berkeley County's consistently damp soil give them exactly the conditions they need to establish and expand colonies, and they forage nearly year-round rather than on a strict seasonal schedule.",
+      },
+      {
+        question: "Are Palmetto bugs a bigger problem in Moncks Corner than farther inland?",
+        answer: "American cockroaches, called Palmetto bugs throughout South Carolina, stay active essentially year-round in Moncks Corner's warm, humid Lowcountry climate, without the winter slowdown that towns farther inland or at higher elevation sometimes get. They live outdoors in organic debris and move indoors during wet weather, so sealing entry points before the rainy season matters more here than in drier parts of the state.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Irmo", slug: "irmo", stateSlug: "south-carolina" },
+      { name: "North Myrtle Beach", slug: "north-myrtle-beach", stateSlug: "south-carolina" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Moncks Corner, SC | Termites & Wildlife",
+    metaDescription:
+      "Moncks Corner SC pest control for termites, wildlife, and mosquitoes near Francis Marion National Forest. Berkeley County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-myrtle-beach",
+    name: "North Myrtle Beach",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~20,700",
+    county: "Horry County",
+    climate: "hot-humid",
+    climateDriver:
+      "North Myrtle Beach sits on the Grand Strand in Horry County, the same coastal corridor as Myrtle Beach to the south. Clemson University Extension confirms both Formosan and eastern subterranean termites are present along this stretch of coast, and the combination of heavy summer rain, marshland, and sandy soil creates ideal breeding conditions for both termite species and mosquitoes. The mild coastal winters mean cockroaches never get the extended cold break that towns farther inland see.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active year-round underground",
+        note: "Clemson University Extension confirms Formosan termites are present along the Grand Strand coastal corridor that includes North Myrtle Beach, and this species builds larger, faster-growing colonies than the native eastern subterranean termite, which raises the stakes on early detection.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Heavy summer rain combined with the marshland and sandy, low-lying terrain around North Myrtle Beach creates persistent standing water that keeps mosquitoes breeding longer into the year than inland Piedmont towns.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, no winter slowdown",
+        note: "Known locally as Palmetto bugs, American cockroaches stay active through all twelve months along the Grand Strand because North Myrtle Beach's mild coastal winters never deliver the sustained cold that would otherwise interrupt their breeding cycle.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are present alongside Formosan termites along the Grand Strand, and North Myrtle Beach's sandy coastal soil combined with the humid climate keeps both species foraging for most of the year.",
+      },
+    ],
+    localHook:
+      "North Myrtle Beach sits on the same Grand Strand coastal corridor as Myrtle Beach, and Clemson University Extension confirms that corridor carries both the native eastern subterranean termite and the more aggressive Formosan termite, a species that builds larger colonies and causes damage faster than the eastern subterranean termite most homeowners farther inland only have to worry about.",
+    intro:
+      "Pest control in North Myrtle Beach, SC means dealing with two termite species instead of one. North Myrtle Beach sits on the Grand Strand, the same coastal corridor as Myrtle Beach to the south, and Clemson University Extension confirms both the native eastern subterranean termite and the more aggressive Formosan termite are present here. The Formosan colonies grow larger and faster than the native species, which raises the cost of waiting on an inspection. Layered on top of that termite pressure, heavy summer rain, marshland, and sandy soil create ideal mosquito breeding conditions from March through November, and mild coastal winters mean American cockroaches, called Palmetto bugs across South Carolina, never get the seasonal cold break that slows them down farther inland. Sand gnats add a seasonal nuisance most inland South Carolina towns never deal with at all.",
+    sections: [
+      {
+        heading: "Why does North Myrtle Beach have two termite species instead of one?",
+        body: "The Grand Strand coastal corridor, which runs from North Myrtle Beach south through Myrtle Beach, is warm and humid enough to support both the native eastern subterranean termite and the Formosan termite, an introduced species Clemson University Extension has confirmed along this stretch of coast. Formosan colonies grow considerably larger than native subterranean colonies and forage more aggressively, which means the window between first activity and real structural damage is shorter. Homeowners farther inland in the Piedmont or Midlands generally only have the native species to plan around. Along the coast here, an inspection needs to specifically rule out both, not just confirm the presence of termites generally.",
+      },
+      {
+        heading: "Do North Myrtle Beach homes ever get a break from cockroaches?",
+        body: "Not really, and that is different from what someone moving from a colder climate might expect. American cockroaches, called Palmetto bugs throughout South Carolina, need warmth and moisture to stay active, and North Myrtle Beach's mild coastal winters rarely deliver the sustained cold snap that would otherwise slow outdoor populations down. They live in storm drains, mulch beds, and marsh-adjacent vegetation and move indoors during heavy rain when their outdoor habitat floods. Because there is no real winter dormancy here, sealing entry points, foundation gaps, plumbing penetrations, and door sills, is a year-round task rather than a seasonal one.",
+      },
+      {
+        heading: "What is driving the mosquito season along North Myrtle Beach's marshland?",
+        body: "The combination of heavy summer rain, coastal marshland, and sandy, low-lying soil around North Myrtle Beach holds standing water longer than the terrain in most inland South Carolina towns. Marsh edges, drainage ditches, and low spots in yards near the Intracoastal Waterway all sustain mosquito breeding from March into November, later into the fall than inland Piedmont towns typically see. Vacation rental turnover adds a practical complication: buckets, kiddie pools, and other water-holding items left in yards between guests are common overlooked breeding sites specific to a resort town. A mosquito program here needs to run longer into the calendar year than one built for the Upstate or Midlands.",
+      },
+    ],
+    prevention: [
+      "Get an inspection that specifically checks for both Formosan and eastern subterranean termites; the Grand Strand corridor carries both species.",
+      "Seal foundation gaps, plumbing penetrations, and door sills year-round; North Myrtle Beach's mild winters give Palmetto bugs no seasonal break.",
+      "Clear standing water from yards, gutters, and rental-property items like kiddie pools between guest turnovers through November.",
+      "Maintain a termite monitoring program with annual inspection given the faster damage potential of Formosan colonies.",
+      "Use screened vents and door sweeps to reduce sand gnat and mosquito entry near marsh-adjacent properties.",
+    ],
+    costNote:
+      "North Myrtle Beach pest control starts with a free inspection that checks for both termite species present along the Grand Strand. Termite protection plans typically cost more here than inland due to the added Formosan risk, and mosquito programs often run longer into the fall than a standard statewide schedule.",
+    faqs: [
+      {
+        question: "What makes Formosan termites more of a concern in North Myrtle Beach than inland South Carolina?",
+        answer: "Clemson University Extension confirms Formosan termites are present along the Grand Strand coastal corridor that includes North Myrtle Beach, and this introduced species builds larger, faster-growing colonies than the native eastern subterranean termite found statewide. Because Formosan colonies forage more aggressively, the gap between first activity and real structural damage is shorter, which is why coastal inspections here specifically check for both species rather than assuming only the native one.",
+      },
+      {
+        question: "Why do Palmetto bugs seem worse in North Myrtle Beach than other South Carolina towns?",
+        answer: "North Myrtle Beach's mild coastal winters rarely deliver the sustained cold that slows American cockroach activity farther inland, so Palmetto bugs stay active essentially year-round here instead of easing off in the colder months. Combined with the marsh-adjacent vegetation and storm drain habitat common in a Grand Strand resort town, that means fewer natural breaks in pressure than a Piedmont or Midlands homeowner would experience.",
+      },
+      {
+        question: "Does North Myrtle Beach's mosquito season last longer than the rest of South Carolina?",
+        answer: "Generally yes. The combination of heavy summer rain, coastal marshland, and sandy, low-lying soil around North Myrtle Beach keeps standing water available later into the year, which extends mosquito activity into November in many years compared to inland Piedmont towns. Properties near the Intracoastal Waterway or marsh edges tend to see the longest extension of the season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hartsville", slug: "hartsville", stateSlug: "south-carolina" },
+      { name: "Moncks Corner", slug: "moncks-corner", stateSlug: "south-carolina" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in North Myrtle Beach, SC | Formosan Termites",
+    metaDescription:
+      "North Myrtle Beach SC pest control for Formosan and native termites, mosquitoes, and Palmetto bugs. Grand Strand Horry County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
 

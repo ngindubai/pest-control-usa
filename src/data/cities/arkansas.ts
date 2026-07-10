@@ -2411,4 +2411,314 @@ export const arkansasCities: CityLocation[] = [
     metaTitle: "Pest Control in Mountain Home, AR | Brown Recluse, Termites & Mice",
     metaDescription: "Mountain Home AR pest control for brown recluse spiders, termites, mice, and mosquitoes near Norfork and Bull Shoals lakes. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "harrison-ar",
+    name: "Harrison",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~13,400",
+    county: "Boone County",
+    climate: "temperate",
+    climateDriver:
+      "Harrison sits on the Ozark Plateau in Boone County, where karst limestone terrain, forested hillsides, and cooler winters than the rest of Arkansas set a different pest calendar than the Delta or the south of the state. The elevation and rocky, well-drained soil slow subterranean termite colonies compared to the river valleys, but the dense woodland and abundant wildlife around Harrison keep tick pressure high. Winters cold enough to push mice and spiders indoors still leave a long, humid growing season each summer for ants and termites to stay active.",
+    topPests: ["Ticks", "Subterranean Termites", "Brown Recluse Spiders", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      { name: "Ticks (including the invasive Asian longhorned tick)", serviceSlug: "flea-tick-treatment", activeSeason: "March through October, peak May through August", note: "The University of Arkansas System Division of Agriculture confirmed the invasive Asian longhorned tick in Boone County cattle in 2024, adding to the lone star and American dog ticks already established across the Ozarks. Wooded and pastured properties around Harrison see consistent exposure through the warm months." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active spring through fall", note: "University of Arkansas Cooperative Extension identifies subterranean termite pressure across the state, and Harrison's older downtown buildings and log-style homes on wooded lots give colonies easy access to wood framing near the soil line." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round indoors, most active spring through fall", note: "Boone County sits within the brown recluse's core range. Basements, woodpiles, and the crawl spaces common under older Harrison homes give them the undisturbed harborage they prefer." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The moist wood along forest-edge properties near Harrison, especially where tree limbs contact rooflines, gives carpenter ants an easy path into soffits and eaves." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October through March", note: "Boone County's colder Ozark winters push field mice and white-footed mice toward buildings earlier in the fall than in warmer parts of Arkansas, and they stay indoors longer into spring." },
+    ],
+    localHook:
+      "In 2024, University of Arkansas System Division of Agriculture researchers confirmed the invasive Asian longhorned tick in Boone County, the county where Harrison sits, part of a wider Ozark surveillance effort. It's a reminder that the wooded hills around town carry real tick exposure most of the warm season, not just an occasional nuisance bite.",
+    intro:
+      "Pest control in Harrison, AR has to account for the Ozark Plateau's karst hills, dense woodland, and a tick population that state researchers are actively watching. Boone County's cooler winters slow some pests down compared to the rest of Arkansas, but they don't stop them, and the forested lots that make Harrison such a scenic place to live also give ticks, brown recluse spiders, and carpenter ants plenty of room to establish. Subterranean termites remain active across the warm season in the area's older homes and log construction. Mice move indoors early each fall as temperatures drop faster here than in the lowlands. A wooded acreage outside town and an older neighborhood near downtown face the same basic pattern: pest pressure here follows the rhythm of the Ozarks rather than the Delta.",
+    sections: [
+      {
+        heading: "What pests are most active around Harrison?",
+        body: "Ticks top the list for a lot of Harrison households, and for good reason. Boone County's wooded hills and pastureland support lone star ticks and American dog ticks through most of the warm season, and in 2024 University of Arkansas researchers confirmed the invasive Asian longhorned tick in local cattle as part of a statewide surveillance push. Brown recluse spiders are common in the crawl spaces and basements of Harrison's older housing stock, particularly homes built before modern sealed foundations became standard. Subterranean termites stay active from spring through fall, especially in log-style homes and structures where wood framing sits close to the soil. Carpenter ants follow the moisture in tree-shaded rooflines. None of these pests are unique to Harrison, but the combination, driven by the Ozark terrain, sets a different priority order than you would find in central or south Arkansas.",
+      },
+      {
+        heading: "Why did an invasive tick turn up in Boone County?",
+        body: "The Asian longhorned tick is not native to the United States, and its 2024 confirmation in Boone County cattle came from a joint surveillance effort by University of Arkansas System Division of Agriculture entomologists and veterinary researchers, following earlier detections in Benton, Independence, and Washington counties. Unlike native ticks that need a mate to reproduce, this species can clone itself, letting a single tick found on a pasture animal signal a population that grows fast if left unmanaged. For Harrison homeowners with livestock, horses, or dogs that spend time in tall grass or wooded edges, that means tick checks after outdoor time matter more than they used to. Researchers are still mapping how far the tick has spread beyond confirmed cattle, so a property on the edge of pasture or forest near Harrison should treat this as an active, developing risk rather than a settled one.",
+      },
+      {
+        heading: "When should Harrison homeowners watch for termites and spiders?",
+        body: "Termite swarmers typically appear in Harrison from March into May, usually after a warm rain, and that is the clearest visible signal of a nearby colony. Between swarms, mud tubes on foundation walls and a hollow sound when you tap exposed wood are the signs worth checking each spring. Brown recluse spiders do not follow a tight seasonal window since they live indoors year-round in undisturbed spaces, but they become more active and more likely to be encountered from late spring through fall, especially when stored boxes or firewood get moved. Carpenter ants show up as large black ants foraging indoors, usually first noticed in the kitchen or bathroom, from April through September. If your home backs up to woods or has a crawl space that has not been checked recently, spring is the right time for a professional look before any of these three become a bigger problem.",
+      },
+    ],
+    prevention: [
+      "Check pets and family members for ticks after any time in tall grass or wooded areas near Harrison, especially given the confirmed presence of the invasive Asian longhorned tick in Boone County.",
+      "Schedule a spring termite inspection before the March through May swarm season, particularly for log-style homes and any structure with wood framing close to the soil.",
+      "Keep basements, woodpiles, and storage areas organized and off the floor to reduce brown recluse spider harborage.",
+      "Trim tree limbs back from the roofline to remove the easy carpenter ant bridge into soffits and eaves.",
+      "Seal foundation gaps and utility openings before October, when Boone County's cooler fall pushes mice indoors earlier than in the rest of Arkansas.",
+    ],
+    costNote:
+      "Pest control in Harrison typically runs $90 to $170 for a standard home treatment, with tick and flea programs and termite protection quoted separately after an inspection. Properties bordering pasture or woodland often need a broader perimeter treatment plan. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Is the Asian longhorned tick found in Harrison a serious concern?", answer: "It's a real, developing concern rather than an emergency. University of Arkansas System Division of Agriculture researchers confirmed the tick in Boone County cattle in 2024, and it is known for reproducing without a mate, so a small find can grow into a larger population quickly. It has not been shown to be more dangerous to humans than Arkansas's established ticks, but any tick bite carries some disease risk, so the practical response is the same as for other ticks: check yourself, your kids, and your pets after time outdoors, and treat pastures or wooded yard edges if you are finding ticks regularly. Local extension agents and licensed pest control providers can help identify what you are finding." },
+      { question: "Why does Harrison seem to have more brown recluse spiders than other Arkansas cities?", answer: "Harrison is not unique among Ozark towns, brown recluse spiders are common across most of Arkansas, but Boone County's mix of older housing, wooded lots, and basements gives them more of the undisturbed, low-traffic spaces they prefer than you would find in a newer subdivision. Cardboard boxes, firewood stacks, and cluttered garages are typical hiding spots. Most encounters happen when someone moves a stored item the spider has been living behind, so keeping storage areas organized and off the floor is the most effective everyday precaution." },
+      { question: "Do Harrison's cooler winters actually reduce pest problems?", answer: "Somewhat, but not as much as people expect. Boone County's Ozark Plateau elevation does bring colder winters than Little Rock or south Arkansas, which slows outdoor insect activity and can shorten the termite swarm window slightly. But it also means mice and other rodents start looking for a way indoors earlier in the fall, and ticks, spiders, and ants pick right back up once spring warms the hillsides. The net effect is a pest calendar that shifts by a few weeks compared to the rest of the state, not one that disappears." },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Beebe", slug: "beebe-ar", stateSlug: "arkansas" },
+      { name: "Forrest City", slug: "forrest-city-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Harrison, AR | Ticks, Termites & Spiders",
+    metaDescription: "Harrison AR pest control for ticks, subterranean termites, brown recluse spiders, and carpenter ants in the Ozark Plateau. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "beebe-ar",
+    name: "Beebe",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~9,100",
+    county: "White County",
+    climate: "hot-humid",
+    climateDriver:
+      "Beebe sits in White County's row-crop belt in central Arkansas, where soybean, rice, wheat, and milo fields surround a humid subtropical climate of hot, wet summers and mild winters. That combination of open farmland and warm, moist air keeps subterranean termites and fire ants active most of the year, while the county's livestock and poultry operations add rodent pressure once fields are harvested each fall.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mice and Rats", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms February through April, active most of the year", note: "University of Arkansas Cooperative Extension identifies substantial subterranean termite pressure statewide, and Beebe's humid central Arkansas climate keeps colonies productive for most of the year in older homes and outbuildings." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, most active spring through fall", note: "Red imported fire ants are established throughout central Arkansas. White County's mix of farmland and residential lawns gives mounds plenty of open ground to spread into after rain." },
+      { name: "Mice and Rats", serviceSlug: "rodent-control", activeSeason: "Fall through winter, peak October through December", note: "White County's soybean, rice, wheat, and milo harvests each fall remove outdoor cover and food, pushing field rodents toward homes and outbuildings on the edges of Beebe." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "Irrigated rice and soybean fields around Beebe hold standing water through the growing season, adding to the mosquito habitat created by drainage ditches and residential yards." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches remain the most common indoor pest in Beebe's older homes and multi-family housing near the Arkansas State University-Beebe campus, spreading through shared walls and plumbing." },
+    ],
+    localHook:
+      "Beebe sits inside White County's row-crop belt, soybeans, rice, wheat, and milo grown on the farmland ringing town, and those surrounding fields are exactly what pushes field mice and rats toward homes each fall once the harvest clears their outdoor cover.",
+    intro:
+      "Pest control in Beebe, AR is shaped by the White County farmland that surrounds it. Soybean, rice, wheat, and milo fields ring the town, and that agricultural setting means Beebe deals with pest pressure that a purely residential suburb would not see, especially rodents pushed toward homes once fields are harvested each fall. The humid central Arkansas climate keeps subterranean termites and fire ants active for most of the year, and irrigated fields nearby add to the mosquito habitat that builds through the summer. Inside older homes and the apartments and rentals that serve Arkansas State University-Beebe students, German cockroaches are the steady indoor problem. None of this makes Beebe unusual, but it does mean the pest calendar here tracks the local growing season as much as it tracks the thermometer.",
+    sections: [
+      {
+        heading: "How does White County farmland affect pest pressure in Beebe?",
+        body: "Living near active row-crop farmland changes what you are up against. White County grows soybeans, rice, wheat, and milo, along with livestock and poultry operations, and each of those brings its own pest connection. Rice and soybean irrigation holds standing water through the summer, extending the mosquito season past what a typical residential area would see. Field mice, voles, and rats live in the crop rows all summer, and when combines clear the fields in September and October, those rodents lose their food and cover in one pass and look for the next best option, which is often a home or outbuilding on the edge of town. Fire ant mounds are common in both farmland and residential lawns, since White County sits well within the ant's established Arkansas range. None of this is unusual for a farm-adjacent central Arkansas town, but it does mean Beebe's pest pressure follows the planting and harvest calendar as much as the weather.",
+      },
+      {
+        heading: "When is the rodent problem worst in Beebe, and why?",
+        body: "October through December is the window most Beebe homeowners notice mice or rats for the first time. That is when White County's soybean, rice, wheat, and milo harvests are wrapping up, and every acre of cleared field pushes rodents that spent the summer living in the crop rows toward the nearest structure with food, warmth, and cover. Homes and outbuildings within a half mile of active farmland see this most, but it is not limited to properties right on the field edge, rodents will travel along fence lines, ditches, and tree cover to reach a good spot. Fresh droppings in a garage or pantry, gnaw marks on stored food packaging, and scratching sounds in a wall or attic are the earliest signs. Sealing foundation gaps and utility openings before October gives you a real head start, since it is much easier to keep rodents out than to remove an established population once cold weather sets in.",
+      },
+      {
+        heading: "What should renters and homeowners near ASU-Beebe watch for indoors?",
+        body: "German cockroaches are the pest most likely to show up inside Beebe's apartments, rentals, and older homes, and the university-adjacent housing stock, with its mix of long-term residents and student turnover, gives them plenty of opportunity to travel between units. They breed year-round in Beebe's humid climate and concentrate around kitchens, bathrooms, and any spot with a consistent moisture source, like a leaking pipe under a sink. In multi-family buildings, an infestation in one unit can spread through shared walls and plumbing chases if it is not addressed quickly. Bed bugs are a smaller but real concern in any rental market with regular tenant turnover, since they travel in luggage, furniture, and clothing rather than moving on their own between units. Owners and tenants who report problems early keep a manageable issue from becoming a building-wide one.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, vents, and utility openings before October, when White County's harvest pushes field rodents toward homes.",
+      "Treat fire ant mounds in your yard as they appear, especially after rain, since White County sits well within the ant's established range.",
+      "Schedule a termite inspection each spring given Beebe's humid, year-round-active subterranean termite pressure.",
+      "Fix leaking pipes and reduce standing moisture under sinks and in crawl spaces to limit German cockroach breeding sites.",
+      "Clear standing water from gutters, containers, and low-lying yard areas through the summer to reduce mosquito habitat added by nearby irrigated fields.",
+    ],
+    costNote:
+      "Pest control in Beebe typically runs $85 to $160 for a standard home treatment plan, with termite protection and fall rodent exclusion work quoted separately based on the property. A free inspection is the standard first step, and properties near active farmland may need a broader perimeter plan.",
+    faqs: [
+      { question: "Why do I get mice in Beebe every fall even though I live in town?", answer: "Distance from an active field matters less than most people think. White County's soybean, rice, wheat, and milo harvests each September and October clear cover and food across thousands of acres at once, and the rodents living in those fields do not just disappear, they move along ditches, fence lines, and tree cover looking for the next shelter. A home well inside Beebe's town limits can still be within easy travel distance of farmland on the edge of town. Sealing entry points before the harvest wraps up in early fall is the most effective way to stay ahead of it." },
+      { question: "Does living near Arkansas State University-Beebe change my pest risk?", answer: "It shifts it somewhat. The mix of long-term residents and regular student turnover in rental housing near campus means German cockroach and, less commonly, bed bug problems can move between units faster than in a neighborhood of owner-occupied homes. It does not mean campus-area housing has worse pest pressure overall than the rest of Beebe, but tenants and landlords both benefit from reporting issues quickly, since shared walls and plumbing give pests an easy path between apartments." },
+      { question: "Are fire ants really a problem in a farm town like Beebe?", answer: "Yes, and the farmland does not make it worse so much as it makes mounds more visible and widespread. Red imported fire ants are established throughout central Arkansas, including White County, and they build mounds in open, sunny ground, which describes both crop field edges and residential lawns equally well. Mounds tend to reappear within days after a good rain if not treated. For households with kids or pets who use the yard, broadcast bait treatment across the whole lawn works better than spot-treating individual mounds, since it addresses colonies you have not spotted yet." },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Forrest City", slug: "forrest-city-ar", stateSlug: "arkansas" },
+      { name: "Magnolia", slug: "magnolia-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Beebe, AR | Termites, Rodents & Fire Ants",
+    metaDescription: "Beebe AR pest control for subterranean termites, fall rodent pressure, fire ants, and mosquitoes near White County farmland. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "forrest-city-ar",
+    name: "Forrest City",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~12,000",
+    county: "St. Francis County",
+    climate: "hot-humid",
+    climateDriver:
+      "Forrest City sits on Crowley's Ridge, a narrow, forested highland that rises about 300 feet above the flat Mississippi Delta farmland surrounding it on nearly every side. That combination, elevated ridge terrain in the middle of one of the country's most intensively irrigated agricultural regions, gives the area a humid subtropical climate with a long, wet mosquito season and rich, moisture-retaining bottomland soil that suits subterranean termites well into fall.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Rats and Mice", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "St. Francis County sits in the Delta rice and soybean corridor, where irrigated fields and drainage ditches create some of the most concentrated mosquito breeding habitat in the state through the growing season." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms February through April, active most of the year", note: "The moisture-retaining bottomland soil around Forrest City, at the base of Crowley's Ridge, gives subterranean termite colonies favorable conditions for most of the year, particularly around older homes near downtown." },
+      { name: "Rats and Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peak September through November", note: "Forrest City's position amid Delta row-crop farmland means fall harvests regularly push field rodents toward homes and grain-handling areas on the edge of town." },
+      { name: "American Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round, peak in summer", note: "American cockroaches thrive in the humidity of Delta crawl spaces and basements, moving indoors more aggressively during the hottest stretch of summer." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "March through October", note: "Fire ants are established throughout eastern Arkansas, and Forrest City's mix of farmland, parks, and residential lawns gives mounds room to spread after spring rains." },
+    ],
+    localHook:
+      "Forrest City is built on Crowley's Ridge, the only high ground for miles in an otherwise flat stretch of the Mississippi Delta, and that geography puts it right against some of the heaviest irrigated rice and soybean farmland in Arkansas, which is exactly what drives the area's long, heavy mosquito season.",
+    intro:
+      "Pest control in Forrest City, AR has to deal with a Delta setting that most inland Arkansas towns do not share. The city sits on Crowley's Ridge, rising above the flat, heavily irrigated rice and soybean farmland of St. Francis County, and that farmland is a major source of the mosquito pressure that builds from April through October. Subterranean termites stay active most of the year in the moisture-retaining bottomland soil at the base of the ridge, especially around older homes near downtown. Fall harvests push field rats and mice toward town from September through November, and American cockroaches are a steady presence in humid crawl spaces through summer. Fire ants round out the picture across lawns and parks. From the St. Francis National Forest side of the county to right in town, Delta conditions set the pace here.",
+    sections: [
+      {
+        heading: "What makes mosquito pressure in Forrest City so heavy?",
+        body: "The Delta rice and soybean corridor that surrounds St. Francis County is one of the most intensively irrigated agricultural regions in the country, and that irrigation, combined with the flat terrain that keeps water sitting in ditches and low fields rather than draining away quickly, produces an unusually long and heavy mosquito season. Biting activity typically starts in early April, builds through the summer, and peaks from June through August before tapering off in October. Forrest City's position on Crowley's Ridge puts the town itself above the flattest, wettest farmland, but mosquitoes travel, and residential yards on the edges of town see real pressure from nearby breeding sites they do not control directly. Clearing standing water on your own property, gutters, containers, and any low spot that holds water after rain, is the most effective thing a homeowner can do to reduce what is breeding closest to the house.",
+      },
+      {
+        heading: "Why do termites stay active here longer than in drier parts of the state?",
+        body: "The bottomland soil around Forrest City, at the base of Crowley's Ridge and throughout the surrounding Delta, holds moisture well, and moist soil is exactly what subterranean termite colonies need to build the mud tubes that carry them from the ground to wood framing. University of Arkansas Cooperative Extension identifies substantial termite pressure across the state generally, and the Delta's combination of humidity and water-retentive soil keeps colonies productive later into the year than in the drier uplands. Older homes near downtown Forrest City, many built before modern termite pretreatment became standard, carry particular risk. Spring swarms, typically February through April, are the clearest visible sign, but mud tubes on foundation walls and soft or hollow-sounding wood are worth checking year-round given how long the local season runs.",
+      },
+      {
+        heading: "When does the fall rodent shift toward homes happen?",
+        body: "St. Francis County's row-crop harvests wrap up primarily in September and October, and that period is when Forrest City homeowners are most likely to notice rats or mice for the first time. Rodents that spent the growing season living in field cover lose both food and shelter in a short window as combines clear the crops, and they move toward the nearest available structure, which often means homes, sheds, and grain-handling buildings on the edges of town. Norway rats tend to enter at ground level near foundations and utility penetrations, while roof rats climb trees and utility lines to reach rooflines and attics. Sealing gaps around your foundation, vents, and eaves before September gives you a real advantage, since prevention is far less costly than removing an established population once cold weather sets in.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from gutters, containers, and low yard areas throughout the growing season, since nearby irrigated farmland already adds substantial mosquito pressure.",
+      "Schedule a termite inspection each spring, particularly for older homes near downtown Forrest City, given the area's long, moisture-supported termite season.",
+      "Seal foundation gaps, vents, and eaves before September, ahead of the fall harvest that pushes field rodents toward homes.",
+      "Reduce crawl space and basement humidity to limit American cockroach breeding through the summer heat.",
+      "Treat fire ant mounds after spring rains, when new mounds appear fastest across lawns and open ground.",
+    ],
+    costNote:
+      "Pest control in Forrest City typically runs $95 to $175 for a standard home treatment, with termite protection and mosquito programs quoted separately. Fall rodent exclusion work is priced based on the number of entry points found during inspection. A free inspection is the standard starting point.",
+    faqs: [
+      { question: "Does Forrest City's location on Crowley's Ridge actually reduce pest problems?", answer: "It helps somewhat but does not remove the pressure. Crowley's Ridge gives Forrest City better drainage than the flat Delta farmland surrounding it, which means less standing water directly in town compared to low-lying field areas. But the ridge is narrow, and homes on its edges or in lower parts of town still sit close enough to irrigated fields and drainage ditches to see real mosquito pressure through the summer. The elevation is a modest advantage, not a solution on its own." },
+      { question: "Why does Forrest City get more mosquitoes than a town in the Ozarks?", answer: "The Delta rice and soybean corridor around St. Francis County is intensively irrigated, and that irrigation, combined with flat terrain that drains slowly, creates far more standing water than the hillier, faster-draining Ozark region in northwest Arkansas. Mosquito season in the Delta typically starts earlier in spring and runs later into fall as a result. Reducing standing water on your own property is still the most effective step a Forrest City homeowner can take, even though the surrounding farmland contributes breeding habitat you cannot control directly." },
+      { question: "Is the fall rodent increase in Forrest City tied specifically to the harvest?", answer: "Yes, and the timing tracks closely with when St. Francis County's row crops come out of the field, generally September and October. Field mice and rats that lived in crop cover all summer lose their habitat in a matter of days once combines move through, and they relocate toward the nearest shelter with food and warmth, which is frequently a home or outbuilding at the edge of town. Homeowners who seal entry points before the harvest wraps up see meaningfully fewer rodent problems than those who wait until they hear scratching in the walls." },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Magnolia", slug: "magnolia-ar", stateSlug: "arkansas" },
+      { name: "Malvern", slug: "malvern-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Forrest City, AR | Mosquitoes, Termites & Rodents",
+    metaDescription: "Forrest City AR pest control for mosquitoes, subterranean termites, fall rodent pressure, and fire ants in the Arkansas Delta. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "magnolia-ar",
+    name: "Magnolia",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~10,600",
+    county: "Columbia County",
+    climate: "hot-humid",
+    climateDriver:
+      "Magnolia sits in Columbia County near the Louisiana border, deep in south Arkansas's hot, humid pine timber country. The region's dense southern pine forestland, managed by major timber operations, and its long, warm growing season create favorable conditions for fire ants and wood-destroying insects, and Columbia County falls within the federally quarantined imported fire ant zone that covers the southern half of the state.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Carpenter Ants", "Ticks", "Cockroaches"],
+    pestProfile: [
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, most aggressive spring through fall", note: "Columbia County lies within the federal imported fire ant quarantine zone covering the southern half of Arkansas. Mounds are dense in Magnolia's lawns, parks, and the open ground around the area's timber and industrial sites." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "South Arkansas's warm, humid climate and Columbia County's mix of pine timberland and older housing stock give subterranean termite colonies favorable conditions for most of the year." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The southern pine forestland surrounding Magnolia, home to major regional timber operations, gives carpenter ants abundant moist deadwood habitat close to residential properties on wooded lots." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through October", note: "Lone star and American dog ticks are common in the wooded and brushy areas around Magnolia, and south Arkansas's long warm season extends the exposure window well past what northern parts of the state see." },
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "American and German cockroaches both thrive in south Arkansas's humidity, with American cockroaches common in crawl spaces and utility areas and German cockroaches concentrated indoors in kitchens and multi-family housing." },
+    ],
+    localHook:
+      "Columbia County, where Magnolia sits, falls within the federal imported fire ant quarantine zone that covers the southern half of Arkansas, meaning fire ants are not an occasional problem here, they are an established, year-round presence homeowners have to plan around.",
+    intro:
+      "Pest control in Magnolia, AR runs on south Arkansas's warm, humid pine country conditions. Columbia County sits within the federal imported fire ant quarantine zone that covers the southern half of the state, so fire ant mounds are a fact of life in local lawns and open ground rather than an occasional nuisance. The dense southern pine timberland surrounding Magnolia, worked by major regional timber operations, gives carpenter ants and subterranean termites abundant moist wood habitat close to residential properties. The long, warm growing season here extends the tick exposure window well past what homeowners in the Ozarks deal with. Cockroaches, both American and German, stay active indoors and in crawl spaces year-round given the region's humidity. If you are in Magnolia, the pest calendar runs longer and starts earlier than in most of the rest of Arkansas.",
+    sections: [
+      {
+        heading: "Why is the fire ant problem in Magnolia worse than in northern Arkansas?",
+        body: "Columbia County sits within the federal imported fire ant quarantine zone, a designation covering roughly the southern half of Arkansas where red imported fire ants have been established since they first reached the state around 1950, with the first documented Arkansas infestation recorded in nearby El Dorado in 1958. Magnolia's warm, humid climate supports year-round fire ant activity, with colonies most aggressive from spring through fall. Mounds build quickly after rain and appear in lawns, parks, and any open sunny ground, including the areas around the timber and industrial sites that surround town. Northern Arkansas counties see far lower fire ant pressure, and some Ozark counties still have no established populations at all, which is why quarantine restrictions exist on moving nursery stock and certain agricultural products out of counties like Columbia.",
+      },
+      {
+        heading: "How does the pine timber industry around Magnolia affect pest pressure?",
+        body: "Columbia County's economy has long included major timber operations working the dense pine forestland surrounding town, and that same forestland shapes residential pest pressure for anyone on a wooded lot near Magnolia. Carpenter ants find abundant moist deadwood in managed and unmanaged timber stands alike, and colonies readily move from fallen or dying trees into nearby structures once they exhaust a natural food source. Subterranean termites benefit from similar conditions, since decaying wood and organic matter in forest soil support the fungi they rely on and give colonies an easy bridge to structural wood on adjacent properties. Ticks are also more common on wooded and brushy lots than in open residential areas, since deer and other wildlife moving through timberland carry them into yards. None of this means timber country is a bad place to live, but it does mean wooded properties near Magnolia carry higher baseline pest pressure than a cleared subdivision lot would.",
+      },
+      {
+        heading: "What does a termite and carpenter ant inspection in Magnolia typically involve?",
+        body: "A licensed technician starts outside, checking the foundation perimeter for mud tubes, which are the pencil-width tunnels subterranean termites build to travel between soil and wood without exposure to open air. Inside, the inspection covers crawl spaces, basements, and any area where wood framing sits close to grade, looking for soft or hollow-sounding wood and small piles of frass, the sawdust-like material carpenter ants push out of their galleries. Given Magnolia's pine timber surroundings, technicians pay particular attention to any tree limbs or woodpiles in contact with the structure, since those are common entry bridges for both pests. Most companies offer a free initial inspection, with treatment plans priced separately based on the size of the structure and whether an active colony is confirmed versus a preventive treatment being requested.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds as they appear and expect year-round activity, since Columbia County sits within the federal fire ant quarantine zone.",
+      "Schedule a termite and carpenter ant inspection each spring, especially for wooded lots near Magnolia's pine timberland.",
+      "Trim tree limbs and clear woodpiles away from the structure to remove entry bridges for carpenter ants and termites.",
+      "Check for ticks after time in wooded or brushy areas, since south Arkansas's long warm season extends exposure well into fall.",
+      "Reduce crawl space and utility area humidity to limit American and German cockroach activity indoors.",
+    ],
+    costNote:
+      "Pest control in Magnolia typically runs $95 to $180 for a standard home treatment, with termite and carpenter ant protection quoted separately after inspection. Properties on wooded lots near timberland often need a broader perimeter treatment plan. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Is Magnolia really in a fire ant quarantine zone?", answer: "Yes. Columbia County falls within the federal imported fire ant quarantine that covers the southern half of Arkansas, a designation tied to how established red imported fire ant populations are in the region. The quarantine restricts moving certain nursery stock and agricultural items out of the county without treatment, since fire ants can travel in soil attached to plants. For homeowners, the practical takeaway is that fire ants in Magnolia are a year-round, established pest rather than an occasional problem, and mound treatment needs to be routine rather than reactive." },
+      { question: "Does living near Magnolia's timberland increase my termite risk?", answer: "It can, particularly if your property is on a wooded lot or borders managed pine forestland. The organic matter and decaying wood in forest soil support the same fungi subterranean termite colonies rely on, and a colony established in a fallen tree or stump can move to nearby structural wood once its natural food source is used up. This does not mean every home near timberland has termites, but it does mean the baseline risk is higher than for a home on a cleared lot away from wooded areas, and a spring inspection is worth prioritizing if you are in that situation." },
+      { question: "Why do ticks seem to be a bigger problem in Magnolia than up north?", answer: "South Arkansas's warm season runs longer than the Ozark region's, and that extends the active window for lone star and American dog ticks well into what would be the off season further north. Magnolia's mix of pine timberland, brushy field edges, and wildlife activity, especially deer, gives ticks plenty of places to wait for a host and then move into adjacent yards. Anyone spending time on a wooded or brushy property near Magnolia from March through October should get in the habit of checking for ticks after being outside, since the exposure window here is genuinely longer than in much of the rest of the state." },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Malvern", slug: "malvern-ar", stateSlug: "arkansas" },
+      { name: "Harrison", slug: "harrison-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Magnolia, AR | Fire Ants, Termites & Ticks",
+    metaDescription: "Magnolia AR pest control for fire ants, subterranean termites, carpenter ants, and ticks in south Arkansas's pine timber country. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "malvern-ar",
+    name: "Malvern",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~11,200",
+    county: "Hot Spring County",
+    climate: "hot-humid",
+    climateDriver:
+      "Malvern sits in Hot Spring County along the Ouachita River, in a stretch of south-central Arkansas known for its abundant Wilcox Group clay deposits, the same clay that earned the city the nickname Brick Capital of the World. That clay-heavy soil holds moisture longer than the sandier soil found elsewhere in the state, and combined with the area's hot, humid climate and proximity to the Ouachita Mountains foothills, it keeps ground moisture and subterranean termite activity high through most of the year.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Mosquitoes", "Ticks", "Cockroaches"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "Hot Spring County's clay-heavy soil, the same clay historically mined for Malvern's brick industry, retains moisture well, and that consistent ground moisture is exactly what subterranean termite colonies need to build the mud tubes that reach structural wood." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The wooded foothills near the Ouachita Mountains and the moisture-retentive clay soil around Malvern give carpenter ants abundant damp deadwood habitat close to residential properties." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "The Ouachita River and its surrounding low-lying areas near Malvern provide steady breeding habitat through the warm months, adding to what residential yards produce on their own." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through October", note: "Wooded and riverside properties near the Ouachita in Hot Spring County see regular lone star and American dog tick activity through the warm season." },
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "American cockroaches are common in Malvern's crawl spaces and utility areas given the region's humidity, while German cockroaches remain the primary indoor pest in kitchens and multi-family housing." },
+    ],
+    localHook:
+      "Malvern earned the nickname Brick Capital of the World from its Chamber of Commerce in 1980, thanks to the abundant Wilcox Group clay deposits found throughout Hot Spring County, and that same clay-heavy soil holds ground moisture long after a rain, which is exactly the condition subterranean termite colonies need to thrive.",
+    intro:
+      "Pest control in Malvern, AR starts with the ground itself. Hot Spring County sits on abundant Wilcox Group clay deposits, the same clay that built Malvern's brick industry and earned it the Brick Capital of the World nickname, and that clay-heavy soil holds moisture far longer after rain than the sandier soil found in other parts of Arkansas. Combined with a hot, humid climate and the Ouachita River running through town, that persistent ground moisture keeps subterranean termite colonies active for most of the year. Carpenter ants find plenty of damp deadwood in the wooded foothills near the Ouachita Mountains, mosquitoes breed along the river and its low-lying edges through summer, and ticks are a regular concern on riverside and wooded properties. If you own a home in Malvern, understanding the clay soil under your foundation is part of understanding your pest risk.",
+    sections: [
+      {
+        heading: "Why does Malvern's clay soil matter for termite risk?",
+        body: "Hot Spring County's Wilcox Group clay deposits are dense enough and abundant enough that they built an entire brick manufacturing industry here, with production dating back to 1887 and the city's Chamber of Commerce formally declaring Malvern the Brick Capital of the World in 1980. That same clay holds moisture very differently than sandy or well-drained soil does. Clay holds water longer after rainfall instead of letting it drain through quickly, which means the soil around a Malvern foundation often stays damp well after a storm has passed. Subterranean termites need consistent soil moisture to build the mud tubes that let them travel from the ground to wood framing without drying out, so Malvern's clay-heavy ground gives colonies a real advantage compared to a home built on faster-draining soil. It is one of the reasons termite pressure here tends to run high and stay active for most of the year rather than tapering off in drier stretches.",
+      },
+      {
+        heading: "How does the Ouachita River affect mosquito and pest pressure near Malvern?",
+        body: "The Ouachita River runs through Hot Spring County, and the low-lying land along its banks holds water in backwater sloughs and seasonal pools well after the main channel has receded. That creates steady mosquito breeding habitat from April through October, with the heaviest pressure typically in June through August when temperatures are highest. Properties within easy reach of the river or its connected drainage see more mosquito activity than homes farther into town, though residential yards contribute plenty of their own breeding sites in gutters, containers, and low spots that hold water after rain. The wooded riverside terrain also supports tick populations, since deer and other wildlife move along the river corridor and carry ticks into adjacent yards and trails. Clearing standing water on your own property and checking for ticks after time along the river are the two most direct things a Malvern homeowner can do.",
+      },
+      {
+        heading: "What should homeowners near the Ouachita foothills watch for with carpenter ants?",
+        body: "The wooded terrain near the Ouachita Mountains foothills west of Malvern gives carpenter ants exactly what they look for: damp, decaying wood close to a reliable food source. Fallen limbs, tree stumps, and any wood in contact with damp clay soil provide natural colony sites, and colonies expand into nearby structures once they establish, especially through rooflines shaded by overhanging trees or through deck and porch framing that stays damp. Unlike termites, carpenter ants do not eat wood, they excavate it to build galleries, so the telltale sign is a small pile of coarse, sawdust-like material, called frass, pushed out near an entry point. Large black ants foraging indoors, particularly in the evening, are often the first thing homeowners notice. Addressing moisture sources around the foundation and trimming back tree contact with the structure are the most effective preventive steps, since removing the damp wood conditions carpenter ants need makes a home much less attractive to them in the first place.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring given Hot Spring County's clay-heavy soil and the consistent ground moisture it holds after rain.",
+      "Grade soil away from the foundation and fix downspout drainage, since clay soil already retains water longer than other soil types.",
+      "Clear standing water from gutters, containers, and low yard areas through the summer to reduce mosquito breeding near the Ouachita River corridor.",
+      "Trim tree limbs and manage deck or porch moisture to remove the damp wood conditions carpenter ants need to establish.",
+      "Check for ticks after time along the river or in wooded foothill areas near Malvern.",
+    ],
+    costNote:
+      "Pest control in Malvern typically runs $90 to $165 for a standard home treatment, with termite protection priced separately after an inspection given the area's clay soil conditions. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Does Malvern's clay soil actually make termites worse, or is that just a theory?", answer: "It is a well-established pest control principle, not a theory specific to Malvern. Subterranean termites need reliable soil moisture to build the mud tubes that carry them from the ground to wood framing, and clay soil holds water longer after rain than sandy or well-drained soil does. Hot Spring County's Wilcox Group clay deposits, the same clay that built Malvern's brick industry, are dense and widespread enough that this effect shows up consistently across the area. It does not mean every home on clay soil will get termites, but it does mean the baseline moisture conditions favor colony activity more than they would on a faster-draining lot, which is why a regular inspection schedule matters here." },
+      { question: "How close to the Ouachita River do you need to be to have a mosquito problem in Malvern?", answer: "Properties directly along the river or its connected low-lying drainage see the heaviest pressure, since backwater areas hold standing water well after the main channel recedes. But mosquitoes travel, and homes elsewhere in Malvern still deal with meaningful pressure from April through October, both from their own yards and from wind carrying adults in from the river corridor. You do not have to live on the water to need mosquito control here, though riverside and low-lying properties should expect to treat it as a bigger priority than someone on higher, better-drained ground across town." },
+      { question: "Is Malvern's brick industry history actually relevant to pest control, or just interesting trivia?", answer: "It is genuinely relevant, not just background color. The reason Malvern became a major brick manufacturing center, starting in 1887 and continuing today, is the abundant, high-quality clay deposits in Hot Spring County's Wilcox Group. That is the same clay sitting under most residential foundations in and around town. Clay's moisture-holding properties are what made it valuable for bricks, and they are also what makes it favorable for subterranean termite activity. Understanding that your home likely sits on the same clay that built the local brick industry is a useful, practical reason to take termite inspections seriously rather than assuming Arkansas humidity alone explains the pressure." },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Harrison", slug: "harrison-ar", stateSlug: "arkansas" },
+      { name: "Beebe", slug: "beebe-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Malvern, AR | Termites, Mosquitoes & Carpenter Ants",
+    metaDescription: "Malvern AR pest control for subterranean termites, carpenter ants, mosquitoes, and ticks near the Ouachita River and Hot Spring County clay soil. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

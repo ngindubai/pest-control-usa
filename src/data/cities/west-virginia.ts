@@ -1271,4 +1271,519 @@ export const westVirginiaCities: CityLocation[] = [
     metaDescription:
       "St. Albans pest control for eastern subterranean termites, German cockroaches, stink bugs and mice. Kanawha County Charleston suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "charles-town-wv",
+    name: "Charles Town",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~8,900",
+    county: "Jefferson County",
+    climate: "temperate",
+    climateDriver:
+      "Charles Town sits in the lower Shenandoah Valley of West Virginia's Eastern Panhandle, about 63 miles from Washington, D.C., where the Blue Ridge foothills and the Shenandoah and Potomac River valleys create a humid, forest-edge landscape. Jefferson County is one of seven counties West Virginia health officials classify as endemic for Lyme disease, and the brown marmorated stink bug first became established in this same Eastern Panhandle region in 2004. The rapid pace of new subdivision construction on former farmland brings homes directly against the field and woodland edges where ticks, mice, and stink bugs already live.",
+    topPests: [
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, peak risk May through July",
+        note: "Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease by state health officials, alongside Berkeley and Morgan counties in the Eastern Panhandle. The Blue Ridge foothills and river valley woodland surrounding Charles Town support the deer population that keeps tick numbers high, and new subdivisions built against these wooded edges put homeowners in regular contact with tick habitat.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "The brown marmorated stink bug first became established in West Virginia's Eastern Panhandle in 2004, and WVU Extension's Tree Fruit Research Center in nearby Kearneysville has studied the species since. Charles Town's older downtown buildings and the newer subdivisions ringing the city both see heavy fall aggregation as the bugs move off surrounding farmland and wooded slopes.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter, heaviest at first frost",
+        note: "The pace of new home construction in Jefferson County means many Charles Town properties sit directly against former farm fields and fence rows, prime house mouse habitat. As field cover dies back in fall, mice move toward the nearest structure, and gaps around new construction siding and utility penetrations give them easy entry.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Charles Town's mix of historic downtown buildings, some dating to the city's founding by Charles Washington, and newer wood-frame construction both provide the moisture-damaged wood carpenter ants prefer for nesting. Large black ants foraging indoors in spring is the most common early warning sign.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Shenandoah and Potomac River valleys near Charles Town, along with the retention ponds built alongside new residential developments, create mosquito breeding habitat close to home. Standing water left in gutters and yard containers after summer thunderstorms adds to the local population.",
+      },
+    ],
+    localHook:
+      "Charles Town's population grew from 6,534 at the 2020 census to an estimated 8,869 by 2024, one of the fastest growth rates in West Virginia, driven by new subdivisions built on former Jefferson County farmland within commuting distance of Washington, D.C. Those new homes sit directly against the same field edges and wooded fence rows where deer ticks, house mice, and stink bugs were already established, and Jefferson County is one of only seven West Virginia counties state health officials classify as endemic for Lyme disease.",
+    intro:
+      "Pest control in Charles Town, WV starts with the city's position in the Eastern Panhandle's lower Shenandoah Valley, where Blue Ridge foothills meet fast-growing residential subdivisions. Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease, and the deer tick population in the wooded edges around Charles Town reflects that. The brown marmorated stink bug became established in this exact region in 2004 and remains a heavy fall nuisance in both the historic downtown and the newer subdivisions ringing the city. House mice move from former farm fields into new construction each fall, carpenter ants work through moisture-damaged wood in older buildings, and the Shenandoah and Potomac River valleys keep mosquito season active from May through September. A licensed local technician can identify which of these pressures applies to your property and build a treatment plan around it.",
+    sections: [
+      {
+        heading: "Why is Jefferson County considered a Lyme disease hot spot?",
+        body: "West Virginia health officials have classified Jefferson County as one of seven counties in the state where Lyme disease is endemic, along with neighboring Berkeley and Morgan counties in the Eastern Panhandle. The pattern traces back along the Potomac River corridor from the mid-Atlantic coast, where the disease has been established longest. Around Charles Town, deer ticks live in the Blue Ridge foothill woodland, along fence rows, and in the brushy edges of former farm fields, exactly the terrain new residential subdivisions are being built into. A tick does not need a deep forest to find a host; a wooded property line a few yards from a back door is enough. Checking for ticks after any yard work between March and November, and treating the yard perimeter with a residual barrier spray, are the two most effective steps a Charles Town homeowner can take.",
+      },
+      {
+        heading: "How does new construction change the pest picture here?",
+        body: "Charles Town's population grew by more than a third between the 2020 census and 2024, almost entirely through new subdivisions built on former Jefferson County farmland. That growth changes the local pest picture in a specific way. A new home built where a hayfield or fence row used to be sits directly against habitat where house mice, deer ticks, and stink bugs were already living before the foundation was poured. Builders clear brush close to the structure, but the surrounding fields and woodlots remain, and pests shift their attention to the nearest shelter once cold weather arrives. Gaps around new siding, utility penetrations, and foundation vents that were never sealed during construction give mice and insects an easy way in. A pest exclusion inspection soon after move-in, before the first fall cold snap, catches these gaps while they are still easy to reach and seal.",
+      },
+      {
+        heading: "When do stink bugs invade Charles Town homes?",
+        body: "The brown marmorated stink bug first became established in West Virginia within this same Eastern Panhandle region back in 2004, and WVU Extension's Tree Fruit Research Center in nearby Kearneysville has tracked the species in Jefferson County ever since. Charles Town sees heavy fall aggregation each September as bugs move off the surrounding farmland and wooded slopes looking for a warm place to spend the winter. They gather on sun-warmed exterior walls, particularly on the south and west sides of a building, before working their way in through gaps around windows, siding, and utility lines. Once inside a wall void or attic, they stay put until a warm day in late winter draws them back out, often into living space. Sealing the building exterior in August, before the main aggregation begins, works far better than removing bugs after they are already inside.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after yard work or outdoor time from March through November, since Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease.",
+      "Seal gaps around new construction siding, utility penetrations, and foundation vents before the first fall cold snap, when field mice move toward structures.",
+      "Apply exterior perimeter sealant and spray treatment in August, ahead of the September brown marmorated stink bug aggregation.",
+      "Clear brush and tall grass along fence rows and property edges near the home to reduce tick and mouse habitat close to the house.",
+      "Empty standing water from gutters, containers, and yard drainage after summer storms to limit Shenandoah and Potomac valley mosquito breeding.",
+    ],
+    costNote:
+      "Charles Town pest control typically runs $120 to $250 for a general quarterly plan covering ants, mice, and seasonal invaders, with tick yard treatments and stink bug exclusion work quoted separately, often $150 to $300 depending on lot size. New construction exclusion inspections are usually priced as a one-time service. A free inspection identifies which pressures apply to your property before any work is recommended.",
+    faqs: [
+      {
+        question: "Is Lyme disease really a concern in Charles Town, WV?",
+        answer: "Yes. Jefferson County is one of seven West Virginia counties that state health officials classify as endemic for Lyme disease, a designation shared with neighboring Berkeley and Morgan counties. The Blue Ridge foothill woodland and river valley terrain around Charles Town support the deer population that keeps tick numbers high. Checking for ticks after outdoor activity and treating the yard perimeter are the most effective personal protection steps.",
+      },
+      {
+        question: "Why do new subdivisions in Charles Town still have mouse and tick problems?",
+        answer: "Charles Town's population grew from 6,534 at the 2020 census to an estimated 8,869 by 2024, almost entirely through new subdivisions built on former farmland. Grading a lot for construction does not remove the surrounding fields and fence rows where mice and ticks already live, so new homes built against that habitat see pressure quickly, especially once gaps around siding and utility lines go unsealed.",
+      },
+      {
+        question: "When should I seal my house against stink bugs in Charles Town?",
+        answer: "August, before the September aggregation begins. The brown marmorated stink bug became established in this exact Eastern Panhandle region in 2004, and WVU Extension has tracked it in Jefferson County since. Bugs gather on warm exterior walls before finding gaps to enter, so sealing windows, siding, and utility penetrations ahead of that window works better than treating an active indoor invasion.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Princeton", slug: "princeton-wv", stateSlug: "west-virginia" },
+      { name: "Buckhannon", slug: "buckhannon-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Charles Town, WV | Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Charles Town WV pest control for deer ticks, brown marmorated stink bugs, house mice and carpenter ants. Jefferson County Eastern Panhandle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "princeton-wv",
+    name: "Princeton",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~5,900",
+    county: "Mercer County",
+    climate: "cold-humid",
+    climateDriver:
+      "Princeton sits at roughly 2,431 feet of elevation in Mercer County, the highest average elevation of any county in West Virginia, with parts of the city as low as 1,700 feet and ridges above 3,100 feet. That elevation means shorter, cooler summers and a later spring than the Kanawha and Ohio River valley cities to the north, which shifts termite swarm timing and tick activity back several weeks. The city's older housing stock, much of it built during the coal and railroad boom that followed the Norfolk and Western Railway's 1883 arrival, gives wood-destroying pests plenty of aging structures to work with.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Deer Ticks",
+      "House Mice",
+      "Yellowjackets",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, later than lowland WV cities",
+        note: "West Virginia University Extension confirms eastern subterranean termites are active across the state, but Princeton's roughly 2,400 foot elevation, the highest average of any Mercer County location, delays the spring swarm several weeks behind Charleston and Huntington. The coal and railroad era housing stock built after 1883 gives colonies plenty of aging wood-frame structures to establish in.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October, shorter season than lowland WV",
+        note: "The wooded ridges and hollows surrounding Princeton, some rising above 3,100 feet, are prime deer tick habitat. The higher elevation shortens the active season compared to river valley cities, but does not eliminate the risk, and outdoor recreation on the forested slopes around town brings residents into regular contact with ticks.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter",
+        note: "Princeton's older coal town housing, much of it dating to the early 1900s railroad boom, has settled foundations and aging trim that give house mice easy entry points as temperatures drop. The surrounding wooded hollows push mice toward buildings earlier in the fall than in lower elevation cities.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak activity July through September",
+        note: "Ground-nesting yellowjackets build colonies in Princeton's residential lawns and along the wooded edges of the city's hillside neighborhoods. Cooler mountain nights slow colony growth slightly compared to lowland WV cities, but nests still reach aggressive size by late summer.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture-damaged wood in Princeton's older railroad and coal era homes, particularly around roof valleys and porch framing exposed to mountain weather, attracts carpenter ant colonies. Large black ants foraging indoors in spring is the most common first sign.",
+      },
+    ],
+    localHook:
+      "Princeton sits at the highest average elevation of any county in West Virginia, with the city itself ranging from about 1,700 feet to more than 3,100 feet above sea level, a legacy of the Norfolk and Western Railway's arrival in 1883 that made Princeton the headquarters of its New River Division and built the coal town whose older housing stock still shapes local pest pressure today. That elevation delays spring termite swarms and tick activity by several weeks compared to Charleston and Huntington in the lower river valleys.",
+    intro:
+      "Pest control in Princeton, WV is shaped by elevation as much as anything else. At roughly 2,431 feet, with some neighborhoods above 3,100 feet, Princeton sits higher than nearly any other city in West Virginia, and that cooler mountain climate pushes eastern subterranean termite swarms and deer tick activity several weeks later than in the Kanawha and Ohio River valleys. The city grew up around the Norfolk and Western Railway, which arrived in 1883 and made Princeton the headquarters of its New River Division by 1909. That coal and railroad boom built the older housing stock that still shapes local pest pressure, giving wood-destroying pests aging structures to work with. House mice move in from the wooded hollows each fall, yellowjackets build ground nests in residential lawns through late summer, and carpenter ants target moisture-damaged wood in porch framing and roof valleys. A local inspection accounts for Princeton's elevation and older construction rather than a generic lowland WV timeline.",
+    sections: [
+      {
+        heading: "Does Princeton's elevation actually change pest timing?",
+        body: "Yes, and it is one of the more useful things to know before scheduling service. Mercer County has the highest average elevation of any county in West Virginia, and Princeton itself ranges from about 1,700 feet in the lowest hollows to more than 3,100 feet on the surrounding ridges. Cooler spring temperatures at that elevation delay the eastern subterranean termite swarm several weeks behind Charleston or Huntington, where the Kanawha and Ohio River valleys warm up earlier. Deer tick activity follows a similar pattern, starting later in spring but often running later into fall, since cooler mountain nights slow the die-off that ends tick season at lower elevations. A pest control company working from a one-size-fits-all statewide calendar will schedule preventive treatments too early for Princeton. Timing exterior work to the local season, not a generic WV date, gets better results.",
+      },
+      {
+        heading: "Why does Princeton's older housing attract termites and carpenter ants?",
+        body: "The Norfolk and Western Railway reached Princeton in 1883 and made the city headquarters of its New River Division by 1909, and the coal and rail boom that followed built much of the housing stock still standing today. Homes and commercial buildings from that era have wood-frame construction, aging trim, and often foundations that have settled over more than a century, all of which give wood-destroying insects an easier path in than newer construction offers. Eastern subterranean termites, confirmed active statewide by WVU Extension, find these older structures especially favorable once soil contact or moisture gets into the wood. Carpenter ants target the same moisture-damaged wood, particularly around roof valleys and porch framing exposed to mountain weather over many decades. An annual inspection matters more in a city with this much century-old housing stock than in a newer subdivision.",
+      },
+      {
+        heading: "What about mice and yellowjackets in Princeton's hillside neighborhoods?",
+        body: "Princeton's wooded hollows and ridges sit close to residential neighborhoods throughout the city, and that proximity brings both house mice and yellowjackets into regular contact with homes. Mice move out of the surrounding woodland as temperatures drop in September, and the settled foundations common in older Princeton homes give them entry points newer construction would not have. Ground-nesting yellowjackets build colonies along the wooded edges of hillside lawns through summer, reaching peak aggression by August and September as the colony grows toward its largest size before the first hard frost. Because Princeton's cooler mountain nights slow colony growth slightly compared to lower elevation WV cities, nests here can still be growing later into the season than yellowjacket colonies in Charleston or Huntington. Locating and treating a nest before a lawn mower or a child finds it is the safest approach.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections in April or May rather than March, since Princeton's elevation delays the spring swarm several weeks behind lower elevation WV cities.",
+      "Seal foundation gaps and aging trim on older, coal era homes before September, when mice move in from the surrounding wooded hollows.",
+      "Check for ticks after any time on the wooded ridges and hollows around Princeton, especially into late fall given the extended mountain tick season.",
+      "Locate and treat yellowjacket ground nests in August, before colonies reach peak size in Princeton's cooler late summer conditions.",
+      "Inspect porch framing and roof valleys on older homes for moisture damage that attracts carpenter ants.",
+    ],
+    costNote:
+      "Princeton pest control generally runs $130 to $260 for a recurring general plan covering ants, mice, and seasonal pests, with termite protection and yellowjacket nest removal quoted separately. Older, coal era homes with settled foundations sometimes need additional exclusion work, typically $150 to $350. A free inspection determines what your property needs before any service is recommended.",
+    faqs: [
+      {
+        question: "Does Princeton's high elevation delay termite season?",
+        answer: "Yes. Mercer County has the highest average elevation of any county in West Virginia, and Princeton's cooler spring temperatures push the eastern subterranean termite swarm several weeks behind Charleston and Huntington in the lower river valleys. Scheduling an inspection in April or May, rather than March, better matches the local timeline.",
+      },
+      {
+        question: "Why do so many Princeton homes have termite and carpenter ant issues?",
+        answer: "Princeton's housing stock dates heavily to the coal and railroad boom that followed the Norfolk and Western Railway's 1883 arrival, when the city became headquarters of its New River Division. Wood-frame construction from that era, now more than a century old in many cases, gives both eastern subterranean termites and carpenter ants an easier path into moisture-damaged wood than newer construction offers.",
+      },
+      {
+        question: "Are yellowjackets a problem in Princeton's hillside neighborhoods?",
+        answer: "Yes. Princeton's wooded ridges and hollows run close to residential lawns throughout the city, and ground-nesting yellowjacket colonies build there through the summer. The cooler mountain nights at Princeton's elevation slow colony growth slightly, which can push peak aggression later into September than in lower elevation West Virginia cities.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Oak Hill", slug: "oak-hill-wv", stateSlug: "west-virginia" },
+      { name: "New Martinsville", slug: "new-martinsville-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Princeton, WV | Termites, Ticks & Mice",
+    metaDescription:
+      "Princeton WV pest control for eastern subterranean termites, deer ticks, house mice and yellowjackets. Mercer County high elevation specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oak-hill-wv",
+    name: "Oak Hill",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~8,200",
+    county: "Fayette County",
+    climate: "hot-humid",
+    climateDriver:
+      "Oak Hill sits on a plateau above the New River Gorge in Fayette County, the gateway city to New River Gorge National Park and Preserve. The gorge itself traps moisture and produces persistent fog and elevated humidity, and National Park Service climate data shows the area has been getting both warmer and significantly wetter than its long-term average in recent years. That humidity, combined with the tourism economy's steady flow of vacation rentals, hotels, and outdoor gear rental buildings, creates favorable conditions for wood-destroying insects and gives pests more structures to move between.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+      "Wasps And Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "The eastern subterranean termite, Reticulitermes flavipes, is among the most common wood-destroying species in West Virginia, and the New River Gorge's humid, moisture-trapping microclimate gives it favorable conditions around Oak Hill. The city's mix of older coal era homes and newer tourism-related construction both provide wood-to-soil contact that colonies exploit.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Carpenter ants excavate rather than eat wood, targeting the same moisture-damaged framing that termites favor. The persistent humidity and fog that settle into the New River Gorge below Oak Hill keep exterior wood damp longer than in drier parts of the state, extending the window when carpenter ant colonies can establish.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Brown marmorated stink bugs aggregate on Oak Hill's building exteriors each fall before moving indoors for winter, a pattern documented statewide by WVU Extension. The mix of older downtown buildings and newer lodging construction built to serve New River Gorge visitors both offer the wall voids and attic spaces the bugs prefer to overwinter in.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The New River and its tributary hollows below Oak Hill, along with the gorge's fog and moisture retention, create mosquito breeding habitat that affects both residential neighborhoods and the outdoor recreation areas that draw the park's nearly two million annual visitors.",
+      },
+      {
+        name: "Wasps And Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak activity July through September",
+        note: "Ground and eave nesting wasps and yellowjackets build up through the summer around Oak Hill's homes and the trailheads and outfitter buildings that serve New River Gorge visitors, reaching peak aggression by late summer when foraging activity around outdoor dining and gear storage areas is highest.",
+      },
+    ],
+    localHook:
+      "New River Gorge became a national park in December 2020, and Oak Hill, its main gateway city on US Route 19, has seen visitation grow from just over one million in 2020 to nearly two million by 2025. National Park Service climate monitoring shows the gorge has been getting measurably wetter than its long-term average, and that persistent humidity and fog, combined with the steady turnover of vacation rentals and lodging built to serve the growing visitor numbers, shapes the pest pressure Oak Hill property owners deal with.",
+    intro:
+      "Pest control in Oak Hill, WV is tied closely to the New River Gorge below it. As the main gateway city to New River Gorge National Park and Preserve, designated in December 2020, Oak Hill has seen visitor numbers climb from just over one million to nearly two million a year, and the gorge's persistent humidity and fog create favorable conditions for eastern subterranean termites and carpenter ants in both older downtown buildings and newer lodging construction. Brown marmorated stink bugs aggregate each fall in the same wall voids and attics that serve as overwintering sites statewide. Mosquitoes breed in the gorge's moisture-holding hollows through summer, and wasps and yellowjackets build up around trailheads, outfitters, and residential yards. A licensed local technician who understands the gorge's microclimate can build a treatment plan around it rather than applying a generic statewide schedule to a property that sees this much seasonal tourist traffic.",
+    sections: [
+      {
+        heading: "How does the New River Gorge's humidity affect pest pressure in Oak Hill?",
+        body: "The gorge below Oak Hill acts like a natural basin that traps moisture, and National Park Service climate records confirm the area has gotten both warmer and notably wetter than its historical average in recent years. That extra humidity does not stay in the gorge. Fog and elevated moisture reach up onto the plateau where Oak Hill sits, keeping exterior wood damp for longer stretches than drier parts of West Virginia experience. Eastern subterranean termites and carpenter ants both depend on sustained moisture to establish colonies in structural wood, and the gorge's microclimate gives them more favorable conditions than a typical West Virginia location at the same elevation. Property owners in Oak Hill, whether a long-standing home or a newer vacation rental, benefit from inspection timing that accounts for this extended damp season rather than a generic statewide calendar.",
+      },
+      {
+        heading: "Why does Oak Hill's tourism growth matter for pest control?",
+        body: "New River Gorge National Park and Preserve drew nearly two million visitors in 2025, up from just over one million the year it was designated a national park in December 2020, and Oak Hill sits at the center of that growth as the main gateway city on US Route 19. The practical pest control impact is straightforward: more lodging, more vacation rentals, and more outfitter buildings mean more structures with the kind of turnover and seasonal vacancy that pests exploit. A vacation rental left unoccupied between bookings gives stink bugs, wasps, and rodents time to establish before anyone notices. Property managers running short-term rentals in Oak Hill benefit from a scheduled inspection program rather than a reactive call after a guest complaint, since repeat bookings depend on a property staying pest free between stays.",
+      },
+      {
+        heading: "What outdoor pests should Oak Hill property owners watch for?",
+        body: "Wasps and yellowjackets build up through the summer around Oak Hill's residential yards and around the trailheads, outfitter buildings, and gear storage areas that serve New River Gorge visitors, reaching peak aggression by late summer just as outdoor dining and gear staging activity is highest. Mosquitoes breed in the moisture-holding hollows and tributary drainages below Oak Hill, a pattern reinforced by the same gorge humidity that affects termite and carpenter ant activity. For a property that hosts hikers, climbers, and rafters, an aggressive wasp nest near a trailhead or heavy mosquito pressure near an outdoor gathering space is more than a nuisance, it is a guest safety and satisfaction issue. Treating nests and standing water before peak season, rather than after a complaint, protects both residents and the steady flow of visitors the local economy depends on.",
+      },
+    ],
+    prevention: [
+      "Schedule termite and carpenter ant inspections with the New River Gorge's extended humid season in mind, since moisture lingers longer here than at similar elevations elsewhere in West Virginia.",
+      "Seal exterior gaps in both older downtown buildings and newer lodging construction before September, ahead of the brown marmorated stink bug fall aggregation.",
+      "Set up a recurring inspection schedule for vacation rentals and lodging properties rather than waiting for a guest complaint between bookings.",
+      "Locate and treat wasp and yellowjacket nests near trailheads, outfitter buildings, and outdoor dining areas before the July through September peak season.",
+      "Address standing water in gutters and low areas near the gorge's tributary hollows to reduce mosquito breeding through summer.",
+    ],
+    costNote:
+      "Oak Hill pest control typically runs $130 to $270 for a general recurring plan, with termite protection and stink bug exclusion quoted separately. Lodging and vacation rental properties often move to a scheduled quarterly or monthly inspection program, priced by square footage and unit count. A free inspection identifies what a specific property needs before any service is recommended.",
+    faqs: [
+      {
+        question: "Does the New River Gorge make pest problems worse in Oak Hill?",
+        answer: "The gorge's humidity and fog do make a real difference. National Park Service climate data shows the area has gotten measurably wetter than its long-term average in recent years, and that extra moisture reaches up to the plateau where Oak Hill sits, keeping exterior wood damp longer than in drier parts of West Virginia. That favors eastern subterranean termites and carpenter ants in particular.",
+      },
+      {
+        question: "Why does Oak Hill need pest control for vacation rentals?",
+        answer: "New River Gorge National Park and Preserve visitation grew from just over one million in 2020, the year it became a national park, to nearly two million by 2025, and Oak Hill is the main gateway city on US Route 19. That growth means more lodging and short-term rental units sitting vacant between bookings, and an unoccupied property gives stink bugs, wasps, and rodents time to move in before anyone notices.",
+      },
+      {
+        question: "When are wasps worst around Oak Hill's trailheads?",
+        answer: "Late summer, typically August into September, when colonies reach their largest size before the first hard frost. Nests near trailheads, outfitter buildings, and outdoor dining areas that serve New River Gorge visitors should be located and treated before that peak, since an aggressive nest near a trail is a real guest safety concern for a property that depends on outdoor recreation traffic.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Princeton", slug: "princeton-wv", stateSlug: "west-virginia" },
+      { name: "New Martinsville", slug: "new-martinsville-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Oak Hill, WV | Termites, Stink Bugs & Wasps",
+    metaDescription:
+      "Oak Hill WV pest control for eastern subterranean termites, carpenter ants, stink bugs and wasps. Fayette County New River Gorge gateway specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "buckhannon-wv",
+    name: "Buckhannon",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~5,200",
+    county: "Upshur County",
+    climate: "cold-humid",
+    climateDriver:
+      "Buckhannon sits on the Buckhannon River in the foothills of the Allegheny Mountains, in Upshur County, about 46 miles southwest of Morgantown. The soil and climate here were noted in the 1930s by a West Virginia Wesleyan College professor as unusually well suited to strawberries, which led to the founding of the West Virginia Strawberry Festival in 1936, still the largest late spring event in Upshur County. That same fertile, moisture-holding river valley soil and the surrounding wooded foothills support ticks, mosquitoes, and rodent pests, and the West Virginia Department of Agriculture has separately noted a rising incidence of bed bug infestations in residential settings across the Upshur County region in recent years.",
+    topPests: [
+      "Bed Bugs",
+      "Deer Ticks",
+      "House Mice",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, no seasonal die-off",
+        note: "The West Virginia Department of Agriculture has documented an increased incidence of bed bug infestations in residential settings across the Upshur County region in recent years. Buckhannon's mix of West Virginia Wesleyan College student housing, rental properties, and multi-family buildings creates the kind of turnover that lets bed bugs travel between units on furniture, luggage, and used items.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "Buckhannon sits in the wooded Allegheny foothills, and the forested land surrounding the Buckhannon River valley supports the deer population that keeps tick numbers steady through the warm months. Time outdoors along the river, at the Strawberry Festival grounds, or on wooded property edges brings residents into regular contact with tick habitat.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter",
+        note: "As Upshur County's agricultural fields and wooded edges cool in fall, house mice move toward the nearest shelter, and Buckhannon's mix of older river valley homes and farm-adjacent properties gives them plenty of entry points around foundations and utility lines.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Buckhannon River and the low-lying, moisture-holding farmland that made the area's soil good for strawberry growing also create mosquito breeding habitat. Standing water in yard containers and low drainage areas adds to the pressure through the warm season.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide nuisance pest in West Virginia, and Buckhannon's position in the wooded Allegheny foothills brings heavy fall aggregation on building exteriors before bugs work their way in through gaps around windows and siding.",
+      },
+    ],
+    localHook:
+      "Buckhannon's fertile river valley soil was singled out in the 1930s by a West Virginia Wesleyan College professor as unusually well suited to strawberries, leading to the West Virginia Strawberry Festival that has drawn the largest late spring crowd in Upshur County since 1936. That same moisture-holding valley soil and the wooded Allegheny foothills around it support the tick and mosquito populations Buckhannon residents deal with each summer, and the West Virginia Department of Agriculture has separately flagged a rising incidence of bed bug infestations across the Upshur County region.",
+    intro:
+      "Pest control in Buckhannon, WV covers a wider range than most people expect from a small Allegheny foothills city. The West Virginia Department of Agriculture has documented a rising incidence of bed bug infestations in residential settings across the Upshur County region, a real concern given Buckhannon's mix of West Virginia Wesleyan College student housing and rental units. The same fertile Buckhannon River valley soil that made the area famous for strawberries and the annual Strawberry Festival, held every year since 1936, also holds moisture that supports deer ticks, mosquitoes, and house mice through the warm months. Stink bugs join the list each fall, aggregating on building exteriors before moving indoors for winter. A local inspection sorts out which of these pressures actually applies to a given property, in a college town where rental turnover and river valley moisture both play a role, rather than treating every pest as equally likely.",
+    sections: [
+      {
+        heading: "Is Buckhannon really seeing more bed bugs?",
+        body: "The West Virginia Department of Agriculture has specifically noted an increased incidence of bed bug infestations in residential settings across the Upshur County region, and Buckhannon's housing mix makes that a practical concern rather than an abstract statistic. West Virginia Wesleyan College brings a steady population of students moving in and out of rental housing and dormitories each year, and that kind of turnover is exactly the condition bed bugs exploit, since they travel on furniture, luggage, and secondhand items rather than moving between units on their own. A single infested mattress left at a curb or moved between apartments can start a new colony in a building that never had a problem before. Early signs include small reddish stains on sheets, a musty odor in a bedroom, and small bites in a line on skin. Waiting to confirm an infestation before calling almost always makes the eventual treatment larger and more expensive.",
+      },
+      {
+        heading: "Why is Buckhannon's soil good for both strawberries and mosquitoes?",
+        body: "In the 1930s, a West Virginia Wesleyan College professor pointed out to the local Lions Club that Upshur County's climate and soil were unusually well suited to strawberry growing, and the festival that grew out of that observation in 1936 still draws the largest late spring crowd in the county. The same qualities that made this river valley soil good for strawberries, namely its moisture retention along the Buckhannon River bottomland, also create mosquito breeding conditions through the warm months. Low-lying yard areas, clogged gutters, and containers that collect rainwater all add to the local mosquito population between May and September. A homeowner does not need a strawberry patch to have the same moisture-holding soil working against them; anywhere water sits for more than a few days near the house is worth checking and draining.",
+      },
+      {
+        heading: "What draws ticks and mice into Buckhannon homes?",
+        body: "Buckhannon sits in the wooded foothills of the Allegheny Mountains, and that terrain surrounds the city closely enough that deer ticks are a real concern for anyone spending time along the Buckhannon River, at outdoor events like the Strawberry Festival, or working in a yard that backs onto wooded land. The active season runs from March through November, with the highest risk in late spring and early summer. House mice follow a related pattern, moving out of Upshur County's agricultural fields and wooded edges as temperatures drop each fall and heading for the nearest available shelter. Buckhannon's mix of older river valley homes and farm-adjacent properties, many with settled foundations or gaps around utility lines, gives mice an easy path in. Sealing those gaps before October is more effective than trapping mice after they are already established indoors.",
+      },
+    ],
+    prevention: [
+      "Inspect secondhand furniture and mattresses before bringing them into a Buckhannon rental or dorm room, given the West Virginia Department of Agriculture's documented rise in Upshur County bed bug cases.",
+      "Check for ticks after time outdoors along the Buckhannon River, at the Strawberry Festival grounds, or on wooded property edges from March through November.",
+      "Seal foundation gaps and utility line penetrations before October, ahead of the fall house mouse migration from surrounding agricultural fields.",
+      "Drain standing water from gutters, containers, and low yard areas through the summer to limit mosquito breeding in the moisture-holding valley soil.",
+      "Seal exterior gaps around windows and siding in August before the fall stink bug aggregation.",
+    ],
+    costNote:
+      "Buckhannon pest control generally runs $120 to $240 for a recurring general plan, with bed bug treatment priced separately by room, typically $300 to $700 depending on the extent of the infestation. Tick yard treatments and stink bug exclusion work are usually quoted as add-on services. A free inspection determines what a property actually needs before any service is recommended.",
+    faqs: [
+      {
+        question: "Has bed bug activity really increased in Buckhannon, WV?",
+        answer: "Yes. The West Virginia Department of Agriculture has documented a rising incidence of bed bug infestations in residential settings across the Upshur County region. Buckhannon's mix of West Virginia Wesleyan College student housing and rental turnover creates the kind of conditions bed bugs exploit, since they travel on furniture and belongings rather than moving on their own between buildings.",
+      },
+      {
+        question: "Why does Buckhannon have a tick and mosquito season around the Strawberry Festival?",
+        answer: "The same moisture-holding Buckhannon River valley soil that a West Virginia Wesleyan College professor identified in the 1930s as ideal for strawberries, leading to the festival that has run since 1936, also supports mosquito breeding and the wooded tick habitat surrounding the festival grounds and river corridor. Late spring and summer outdoor events fall right in the middle of both seasons.",
+      },
+      {
+        question: "When do mice move into Buckhannon homes?",
+        answer: "September through the first hard frost, as Upshur County's surrounding agricultural fields and wooded edges cool down and mice look for shelter. Buckhannon's older river valley homes and farm-adjacent properties, many with settled foundations, give mice easy entry if gaps around the foundation and utility lines are not sealed before then.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Charles Town", slug: "charles-town-wv", stateSlug: "west-virginia" },
+      { name: "New Martinsville", slug: "new-martinsville-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Buckhannon, WV | Bed Bugs, Ticks & Mice",
+    metaDescription:
+      "Buckhannon WV pest control for bed bugs, deer ticks, house mice and mosquitoes. Upshur County Allegheny foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-martinsville-wv",
+    name: "New Martinsville",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~5,200",
+    county: "Wetzel County",
+    climate: "temperate",
+    climateDriver:
+      "New Martinsville sits directly on the Ohio River in Wetzel County, a location that has produced repeated major flooding, including a severe flood in 1936 and another in September 2004, and continues to see flash flood events today. Wetzel County has also become one of the state's most active Marcellus Shale natural gas counties, climbing from the 29th largest gas producer in West Virginia in 2000 to the 2nd largest within about a decade, which brought a wave of out-of-state gas workers and a sharp rise in hotel and temporary housing demand. Both the flood-prone river bottomland and the transient worker housing shape the pest pressure the city deals with.",
+    topPests: [
+      "Mosquitoes",
+      "House Mice",
+      "Bed Bugs",
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, spikes after flooding",
+        note: "New Martinsville's position directly on the Ohio River has produced repeated major flooding, including a severe flood in 1936 and another in September 2004, with flash flooding events continuing in recent years. Standing water left behind after high water recedes creates fresh mosquito breeding habitat in low-lying yards and drainage areas along the river bottomland.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heaviest September through winter",
+        note: "New Martinsville's older river town housing stock, much of it built close to the Ohio River in a compact 2.71 square mile city footprint, gives house mice easy access to foundations and utility penetrations, particularly as the surrounding Wetzel County farmland and woodland cool in fall.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, no seasonal die-off",
+        note: "Wetzel County's rapid growth as a Marcellus Shale gas producer, rising from the state's 29th largest gas county in 2000 to 2nd largest within about a decade, brought an influx of out-of-state workers and a documented surge in local hotel occupancy. That kind of high-turnover temporary lodging is exactly the setting where bed bugs travel most easily between rooms.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "West Virginia University Extension confirms eastern subterranean termite activity throughout the Ohio Valley, and New Martinsville's older river corridor housing, much of it built well before modern foundation treatments were standard, gives colonies the wood-to-soil contact they need.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide fall nuisance in West Virginia, and New Martinsville's mix of older downtown river buildings and newer housing built for the area's gas industry workforce both provide overwintering sites once the bugs move off the surrounding Wetzel County farmland and woodland each fall.",
+      },
+    ],
+    localHook:
+      "New Martinsville's location directly on the Ohio River has produced two of West Virginia's most severe documented floods, in 1936 and again in September 2004, and the city continues to see flash flooding, including one event where the mayor reported 3.5 inches of rain fell in just 40 minutes. That same river town has also become one of West Virginia's leading Marcellus Shale gas counties, and the hotel occupancy tax revenue the city collects has grown by more than 700 percent since 2005 as out-of-state gas workers filled local lodging, a combination of flood risk and high-turnover temporary housing that together shape New Martinsville's pest pressure.",
+    intro:
+      "Pest control in New Martinsville, WV has to account for two things most other West Virginia river towns do not deal with at the same time: repeated Ohio River flooding and a fast-growing Marcellus Shale gas workforce. The city has flooded severely in 1936 and again in 2004, with flash flooding events continuing in recent years, and standing water left behind after high water creates fresh mosquito breeding habitat each time. Wetzel County's rise to one of the state's top gas-producing counties brought a wave of out-of-state workers and a documented surge in local hotel occupancy, the kind of high-turnover temporary lodging where bed bugs travel easily between rooms. Eastern subterranean termites are active throughout the Ohio Valley in New Martinsville's older river corridor housing, house mice move in from surrounding farmland each fall, and stink bugs aggregate on buildings every September.",
+    sections: [
+      {
+        heading: "How does Ohio River flooding affect mosquito activity in New Martinsville?",
+        body: "New Martinsville has a long, documented history of severe Ohio River flooding, including a major flood in 1936 and another in September 2004, and flash flooding continues to affect the city, with one recent event dropping 3.5 inches of rain in just 40 minutes according to the mayor's own account. Each time floodwater recedes, it leaves behind pockets of standing water in low-lying yards and drainage ditches, and that standing water becomes fresh mosquito breeding habitat within days. Because New Martinsville's entire 2.71 square mile footprint sits close to the river, few properties in the city are far from this risk. The period immediately after a flood event, not just the general April through October mosquito season, is when local mosquito pressure spikes hardest. Checking the property for standing water in the days after any flood is one of the most effective steps a resident can take.",
+      },
+      {
+        heading: "Why does the Marcellus Shale gas boom matter for bed bug risk here?",
+        body: "Wetzel County's natural gas production climbed from the state's 29th largest county producer in 2000 to its 2nd largest within roughly a decade, driven by Marcellus Shale drilling, and that growth brought a steady stream of out-of-state workers into New Martinsville needing temporary housing. The city's hotel occupancy tax revenue has grown by more than 700 percent since 2005 as a direct result, with locals reporting hotels and campgrounds staying consistently full. High-turnover lodging, where different guests occupy the same room week after week, is one of the more common settings for bed bugs to spread, since the insects travel in luggage rather than moving between rooms on their own. Hotel operators in New Martinsville benefit from a scheduled inspection program rather than waiting for a guest complaint, both to protect guests and to avoid the cost of treating a spread infestation.",
+      },
+      {
+        heading: "What should older New Martinsville river homes watch for?",
+        body: "New Martinsville's compact downtown and river corridor housing includes a significant amount of older construction, much of it built well before modern termite pretreatment and foundation moisture barriers became standard practice. West Virginia University Extension confirms eastern subterranean termite activity throughout the Ohio Valley, and older homes with wood in direct or near contact with soil, common in a river town this size, are the properties most exposed. Spring swarms in March through May are typically the first visible sign. House mice present a related seasonal pattern, moving in from the surrounding Wetzel County farmland as temperatures drop each September, and older homes with settled foundations give them easy access. Brown marmorated stink bugs add a third fall pressure, aggregating on building exteriors before working into the same wall voids mice are trying to reach. Sealing the building exterior before September addresses two of these three risks at once.",
+      },
+    ],
+    prevention: [
+      "Check the property for standing water in the days immediately after any Ohio River flood or heavy rain event, since New Martinsville's flood history shows this is when mosquito breeding spikes hardest.",
+      "Set up a scheduled inspection program for hotels and short-term rentals given the sustained high occupancy from Wetzel County's Marcellus Shale gas workforce.",
+      "Schedule termite inspections in March or April for older river corridor homes with wood near soil contact.",
+      "Seal foundation gaps and utility penetrations before September, addressing both fall house mouse entry and stink bug aggregation at once.",
+      "Drain gutters and low-lying yard areas regularly given New Martinsville's compact, river-adjacent footprint.",
+    ],
+    costNote:
+      "New Martinsville pest control typically runs $120 to $250 for a recurring general plan, with termite protection quoted separately, usually $700 to $1,600 depending on linear footage. Hotel and short-term rental bed bug inspection programs are priced by unit count. A free inspection identifies what a specific property needs before any work is recommended.",
+    faqs: [
+      {
+        question: "Does flooding make mosquito problems worse in New Martinsville?",
+        answer: "Yes. New Martinsville has flooded severely in 1936 and again in 2004, and flash flooding continues to affect the city, including a recent event where 3.5 inches of rain fell in 40 minutes. Standing water left behind after high water recedes creates fresh mosquito breeding habitat within days, so the period right after a flood is when local mosquito pressure spikes hardest.",
+      },
+      {
+        question: "Why is bed bug risk a concern for New Martinsville hotels?",
+        answer: "Wetzel County grew from the state's 29th largest natural gas producing county in 2000 to its 2nd largest within about a decade, and that Marcellus Shale boom brought a steady stream of out-of-state workers needing temporary housing. New Martinsville's hotel occupancy tax revenue has grown more than 700 percent since 2005 as a result, and that kind of sustained high-turnover lodging is a common setting for bed bugs to spread between rooms.",
+      },
+      {
+        question: "Are New Martinsville's older river homes at risk for termites?",
+        answer: "Yes. WVU Extension confirms eastern subterranean termite activity throughout the Ohio Valley, and New Martinsville's compact river corridor footprint includes a significant amount of older construction built before modern foundation moisture barriers were standard. Spring swarms between March and May are typically the first visible sign, and an inspection timed to that window catches activity early.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Princeton", slug: "princeton-wv", stateSlug: "west-virginia" },
+      { name: "Oak Hill", slug: "oak-hill-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in New Martinsville, WV | Mosquitoes, Termites & Bed Bugs",
+    metaDescription:
+      "New Martinsville WV pest control for mosquitoes, house mice, bed bugs and eastern subterranean termites. Wetzel County Ohio River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

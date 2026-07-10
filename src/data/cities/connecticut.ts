@@ -2120,4 +2120,474 @@ export const connecticutCities: CityLocation[] = [
     metaDescription:
       "Enfield pest control for deer ticks, house mice, stink bugs, subterranean termites and German cockroaches. Hartford County Connecticut River valley Massachusetts border specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "new-milford",
+    name: "New Milford",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~28,300",
+    county: "Litchfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Milford sits in the Litchfield Hills along the Housatonic River, in the cold-humid climate zone with cold snowy winters and warm humid summers. Its rural, heavily wooded terrain and status as Connecticut's largest town by land area create extensive deer and tick habitat. Litchfield County has recorded some of the state's highest rates of Lyme-positive ticks in Connecticut Agricultural Experiment Station surveillance.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "New Milford's roughly 62 square miles of woodland, farmland, and Housatonic River frontage make it Connecticut's largest town by land area, and that acreage supports a large deer population. The Connecticut Agricultural Experiment Station has repeatedly found Litchfield County among the state's highest counties for infected adult female ticks.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June, foraging through fall",
+        note: "New Milford's rural tree cover and older farmhouse and barn construction give carpenter ants abundant moist, decaying wood to nest in. Homeowners near wooded lots along the Housatonic often see spring swarmers indoors before they ever spot an outdoor nest.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November",
+        note: "Cold Litchfield Hills winters send house mice looking for heated shelter every fall. New Milford's mix of farm outbuildings, stone foundations, and older homes gives mice more entry points than newer suburban construction offers.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October entry, overwinter indoors",
+        note: "New Milford's farmland and orchard pockets along the Housatonic Valley build stink bug numbers through summer, and those insects move onto sunny, south-facing walls in early fall before slipping indoors through the smallest gaps.",
+      },
+    ],
+    localHook:
+      "New Milford covers about 62 square miles, making it Connecticut's largest town by land area. That much woodland, farmland, and Housatonic River frontage supports a large deer population, and the Connecticut Agricultural Experiment Station has found Litchfield County among the state's highest counties for Lyme-infected ticks.",
+    intro:
+      "Pest control in New Milford, CT starts with a simple fact: this is the largest town in Connecticut by land area, and most of that acreage is woodland, farmland, or river frontage along the Housatonic. That scale matters. It gives deer, and the ticks that ride on them, room to spread through neighborhoods that back onto open land, not just the deep countryside. Litchfield County has ranked among the state's highest counties for infected ticks in Connecticut Agricultural Experiment Station testing, so tick management here is not optional caution, it is a seasonal task. Carpenter ants find easy footholds in New Milford's older farmhouses and barns. House mice push into homes every fall as Litchfield Hills winters set in. Stink bugs, drawn from the valley's farmland, gather on sunny walls each September. A New Milford pest plan has to account for a rural town's worth of edge habitat, not a suburban lot.",
+    sections: [
+      {
+        heading: "How big a tick risk does New Milford's size create?",
+        body: "New Milford's roughly 62 square miles make it Connecticut's largest town by land area, and most of that land is woodland, farmland, and river corridor rather than dense subdivision. That geography supports one of the larger deer populations in Litchfield County, and deer ticks depend on deer to complete their life cycle. The Connecticut Agricultural Experiment Station's tick surveillance has repeatedly placed Litchfield County among the state's highest counties for infected adult ticks. In New Milford specifically, that risk is not confined to remote farmland. Because the town's residential neighborhoods so often back directly onto woods, pasture edges, or stone walls overgrown with brush, ticks reach lawns and play areas that would be considered suburban in a smaller town. Homeowners here should treat wooded and brushy yard margins, not just the deep woods, as tick habitat, and plan for both a spring and a fall treatment window around the nymphal peak in May and June.",
+      },
+      {
+        heading: "Why do carpenter ants show up in older New Milford homes?",
+        body: "Carpenter ants do not eat wood the way termites do, but they excavate it to build nests, and they prefer wood that already has some moisture damage: a leaking roofline, a rotted sill, an old barn beam. New Milford has a large stock of older farmhouses, barns, and outbuildings set on wooded lots, exactly the combination carpenter ants look for. Spring swarms, when winged reproductive ants emerge indoors, are usually the first sign a homeowner notices, though the colony itself may have been established in an exterior wall or a woodpile for a season or more before that. Because a mature colony can produce satellite nests, seeing ants inside in April or May is a reason to have the property inspected, not just to spray the ants that are visible. Removing woodpiles and dead limbs from close contact with the house, and fixing the moisture sources that soften wood, are the two most effective long-term steps.",
+      },
+      {
+        heading: "What should New Milford homeowners do about fall stink bugs and mice?",
+        body: "New Milford sits in a valley with real farmland and orchard acreage along the Housatonic, and that agricultural land builds brown marmorated stink bug populations through the growing season. By September, stink bugs move onto sunny, south-facing exterior walls looking for a place to overwinter, and they will use any gap around a window, siding seam, or utility line to get inside. The same cooling weather that starts the stink bug push also sends house mice looking for heated shelter, and New Milford's older homes, with stone foundations and farm outbuildings, tend to offer mice more entry points than newer construction. Sealing exterior gaps in August, before either pest starts moving, is more effective and less expensive than dealing with either one after they are already indoors. A professional exclusion pass focused on foundation gaps, utility penetrations, and door sweeps addresses both pests with one visit.",
+      },
+    ],
+    prevention: [
+      "Treat wooded and brushy yard margins for deer ticks each spring before the May through June nymphal peak, especially on lots backing onto open land.",
+      "Remove woodpiles and dead limbs from contact with exterior walls to reduce carpenter ant nesting sites near the home.",
+      "Seal foundation gaps, utility penetrations, and door sweeps in August, before fall stink bug entry and the September mouse push begin.",
+      "Trim brush and tall grass along stone walls and pasture edges, common tick habitat on New Milford's larger rural lots.",
+      "Schedule a fall exterior inspection on older farmhouses and outbuildings, where moisture damage attracts both carpenter ants and mice.",
+    ],
+    costNote:
+      "New Milford pest control typically begins with a free inspection. Tick treatment programs run in spring and fall to cover both adult and nymphal activity, generally $150 to $300 per visit depending on lot size. Exclusion work for stink bugs and mice, and carpenter ant treatment, are usually priced by the scope of the property once the inspection is complete.",
+    faqs: [
+      {
+        question: "Why is tick risk considered high in New Milford?",
+        answer:
+          "New Milford covers about 62 square miles, making it Connecticut's largest town by land area, and most of that land is woodland, farmland, and river corridor. That much habitat supports a sizable deer population, and the Connecticut Agricultural Experiment Station has repeatedly placed Litchfield County among the state's highest counties for infected adult ticks. Because so many New Milford properties back onto open land or stone walls, tick exposure reaches ordinary residential yards, not just remote acreage.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem in New Milford than in nearby suburbs?",
+        answer:
+          "New Milford's older farmhouses, barns, and outbuildings, many set on wooded lots along the Housatonic River, give carpenter ants more of the moist, aging wood they prefer to nest in than newer suburban construction typically offers. Spring swarms indoors are the usual first sign of an established colony, and because carpenter ant colonies can spread to satellite nests, an inspection after a swarm is worth more than treating the ants you can see.",
+      },
+      {
+        question: "When should New Milford homeowners prepare for stink bugs and mice?",
+        answer:
+          "August is the target month. New Milford's farmland along the Housatonic Valley builds brown marmorated stink bug numbers through summer, and they begin moving onto sunny exterior walls in September looking for a way inside to overwinter. The same seasonal cooling sends house mice toward heated shelter. Sealing foundation gaps, utility penetrations, and door sweeps in August, before either pest starts moving, heads off both at once.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Naugatuck", slug: "naugatuck", stateSlug: "connecticut" },
+      { name: "Trumbull", slug: "trumbull", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in New Milford, CT | Ticks, Ants & Stink Bugs",
+    metaDescription:
+      "New Milford pest control for deer ticks, carpenter ants, house mice and brown marmorated stink bugs. Litchfield County Housatonic River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "south-windsor",
+    name: "South Windsor",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~26,900",
+    county: "Hartford County",
+    climate: "cold-humid",
+    climateDriver:
+      "South Windsor sits on the east bank of the Connecticut River in the cold-humid climate zone, with cold snowy winters and warm humid summers. The town's sandy river-bottom soil once supported one of Connecticut's largest shade tobacco operations, and the farmland, wetlands, and river frontage that remain still draw stink bugs, mosquitoes, and deer ticks every year. The Connecticut Agricultural Experiment Station has placed Hartford County in the moderate-to-high Lyme disease risk zone.",
+    topPests: ["Brown Marmorated Stink Bugs", "Mosquitoes", "Deer Ticks", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October entry, overwinter indoors",
+        note: "South Windsor's farmland along the Connecticut River, some of it still in active cultivation from the town's tobacco-growing era, builds stink bug populations through summer that move onto building exteriors as fall approaches.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September",
+        note: "South Windsor's river frontage, floodplain wetlands, and drainage ditches left over from tobacco farming hold standing water that supports mosquito breeding through the warm months. The Connecticut Agricultural Experiment Station traps and tests mosquitoes statewide for West Nile virus and eastern equine encephalitis.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphal peak May through June",
+        note: "Hartford County falls in the moderate-to-high Lyme disease risk zone under Connecticut Agricultural Experiment Station testing. South Windsor's mix of farmland edges, wooded residential lots, and river corridor gives deer ticks habitat close to homes.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active underground year-round",
+        note: "Eastern subterranean termites are established throughout Hartford County. South Windsor's older farmhouses and homes with crawl spaces near the river's moisture-retentive soil are more exposed than homes on higher, drier ground.",
+      },
+    ],
+    localHook:
+      "South Windsor's sandy river-bottom soil made it one of the centers of Connecticut's shade tobacco industry: the first shade-grown tobacco crop in South Windsor was planted on Rye Street in 1901. The farmland, drainage ditches, and river frontage that supported that industry still shape the town's pest pressure today.",
+    intro:
+      "Pest control in South Windsor, CT is shaped by the town's history as Connecticut river-bottom farmland. South Windsor grew the state's first shade-grown tobacco crop on Rye Street back in 1901, and while the tobacco industry has mostly moved on, the farmland, drainage ditches, and river frontage that supported it are still here, and they still draw pests. Brown marmorated stink bugs build up in the surrounding fields each summer and push indoors every September. The same wet, low-lying ground breeds mosquitoes from late April through September. Hartford County sits in the Connecticut Agricultural Experiment Station's moderate-to-high Lyme disease risk zone, and South Windsor's wooded lot edges and river corridor put deer ticks within reach of ordinary backyards. Older farmhouses near the river face real subterranean termite exposure too. A South Windsor pest plan has to work with this river-valley geography, not around it.",
+    sections: [
+      {
+        heading: "Why does South Windsor still have this much stink bug and mosquito pressure?",
+        body: "South Windsor's identity as farmland goes back further than most residents realize. The first shade-grown tobacco crop in Connecticut was planted here on Rye Street in 1901, part of an industry that once covered tens of thousands of acres in the Connecticut River valley. Much of that farmland, along with the drainage ditches and low-lying river frontage that made it productive, is still here, and it still creates two predictable pest pressures. Brown marmorated stink bugs build large populations in the surrounding fields through the growing season and move onto building exteriors as temperatures drop each September, aggregating on sunny walls before pushing indoors through any unsealed gap. The same wet ground and standing water in old drainage channels give mosquitoes breeding habitat from late April through September. The Connecticut Agricultural Experiment Station traps and tests mosquitoes across the state for West Nile virus and eastern equine encephalitis, and South Windsor's river-bottom terrain keeps it on the list of towns worth watching each summer.",
+      },
+      {
+        heading: "How serious is deer tick risk in South Windsor?",
+        body: "Hartford County is in the moderate-to-high Lyme disease risk zone according to Connecticut Agricultural Experiment Station tick surveillance, and South Windsor's geography puts that risk close to home. The town combines farmland edges, wooded residential subdivisions, and a wide river corridor, all habitat that supports deer and the ticks that depend on them. Unlike a dense urban center, South Windsor's newer neighborhoods are frequently built right up against former farm hedgerows or river-adjacent woods, so tick exposure is not limited to hikers or hunters. Anyone doing yard work, walking a dog along a wooded lot line, or letting kids play near brush piles faces real exposure during the nymphal peak in May and June, when ticks are smallest and hardest to spot. A spring perimeter treatment on wooded and brushy yard margins, paired with a fall follow-up, is the standard approach for South Windsor properties near open land.",
+      },
+      {
+        heading: "Do South Windsor's older homes need termite protection?",
+        body: "Eastern subterranean termites are established throughout Hartford County, and South Windsor's history as river-bottom farmland means a meaningful share of its housing stock, including older farmhouses converted for residential use, sits on soil that holds moisture longer than higher, better-drained ground. That moisture is exactly what subterranean termites need to move between the soil and a structure's wood framing. Homes with crawl spaces, wood siding close to grade, or foundations near the river's floodplain carry more exposure than newer construction on higher lots. Termite swarms typically appear from April through June, when winged reproductives leave an established colony to start new ones, and a swarm indoors is usually the first visible sign of a problem that has been building underground for longer. Annual inspection is the standard baseline for older South Windsor properties near the river, and any home without documented, current termite protection should be inspected before the spring swarm season begins.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and treat perimeter walls in late August before the September stink bug push from the surrounding farmland.",
+      "Eliminate standing water in old drainage ditches, gutters, and low spots to cut mosquito breeding habitat from spring through fall.",
+      "Treat wooded and brushy yard margins for deer ticks each spring ahead of the May through June nymphal peak, especially near former farm hedgerows.",
+      "Schedule an annual termite inspection for older farmhouses and homes with crawl spaces near the river's floodplain.",
+      "Clear brush piles and tall grass along property lines shared with agricultural or wooded land.",
+    ],
+    costNote:
+      "South Windsor pest control starts with a free inspection. Seasonal stink bug exclusion and mosquito treatment programs typically run $150 to $300 depending on lot size and the extent of standing water on the property, and termite inspection is usually included as part of a broader home evaluation for older river-adjacent properties.",
+    faqs: [
+      {
+        question: "Why did shade tobacco farming leave South Windsor with a stink bug problem?",
+        answer:
+          "South Windsor grew Connecticut's first shade-grown tobacco crop, planted on Rye Street in 1901, and much of the farmland from that era is still in cultivation or sits fallow near the river. Brown marmorated stink bugs build large populations in that farmland through the summer and move onto sunny building walls each September looking for a place to overwinter. Sealing exterior gaps before the September push is the most effective way to keep them from getting inside.",
+      },
+      {
+        question: "Is Lyme disease a real concern in South Windsor?",
+        answer:
+          "Yes. Hartford County is in the Connecticut Agricultural Experiment Station's moderate-to-high Lyme disease risk zone, and South Windsor's mix of farmland edges, river corridor, and wooded residential lots gives deer ticks habitat close to ordinary backyards. The nymphal stage in May and June is the highest-risk period because the ticks are smallest and easiest to miss.",
+      },
+      {
+        question: "Which South Windsor homes are most exposed to termites?",
+        answer:
+          "Older farmhouses and homes with crawl spaces near the Connecticut River's floodplain carry the highest subterranean termite exposure in South Windsor, because the moisture-retentive river-bottom soil that once supported the town's tobacco industry is exactly the condition eastern subterranean termites need. An annual inspection, especially ahead of the April through June swarm season, is the standard recommendation for these properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Naugatuck", slug: "naugatuck", stateSlug: "connecticut" },
+      { name: "New Milford", slug: "new-milford", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in South Windsor, CT | Stink Bugs, Ticks & Termites",
+    metaDescription:
+      "South Windsor pest control for stink bugs, mosquitoes, deer ticks and subterranean termites. Hartford County Connecticut River valley farmland specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "naugatuck",
+    name: "Naugatuck",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~32,100",
+    county: "New Haven County",
+    climate: "cold-humid",
+    climateDriver:
+      "Naugatuck sits in the Naugatuck River valley in the cold-humid climate zone, with cold winters and warm humid summers. The town's dense nineteenth-century mill housing, built during its decades as headquarters of the U.S. Rubber Company (later Uniroyal) and a major manufacturer of Keds sneakers, gives German cockroaches and house mice more entry points and shared-wall access than newer suburban construction. The Naugatuck River and its tributary ponds add mosquito breeding habitat through the warm months.",
+    topPests: ["German Cockroaches", "House Mice", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Naugatuck's older multi-family housing, much of it built for mill and rubber-factory workers in the late nineteenth and early twentieth centuries, gives German cockroaches shared utility runs and wall voids to spread between units. Dense construction near the town center sees the heaviest activity.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November",
+        note: "Naugatuck's older housing stock, including converted mill worker housing, has more foundation gaps and utility penetrations than newer construction. Cold Naugatuck Valley winters send mice looking for heated shelter every fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Naugatuck's hillside neighborhoods and the wooded terrain along the Naugatuck River give carpenter ants access to moist, decaying wood near older homes and outbuildings, particularly where gutters or rooflines have failed to shed water properly.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September",
+        note: "The Naugatuck River and its tributary ponds, along with low-lying areas of the valley floor, hold standing water that supports mosquito breeding through the warm months, particularly near the river corridor that runs through the center of town.",
+      },
+    ],
+    localHook:
+      "Naugatuck was the birthplace of vulcanized rubber, developed by local resident Charles Goodyear, and later the headquarters of the U.S. Rubber Company, renamed Uniroyal in 1961, whose Keds sneaker plant operated in town from 1917 into the 1980s. The dense multi-family mill housing built to support that industrial era is still a defining feature of Naugatuck's older neighborhoods, and it shapes the town's pest pressure today.",
+    intro:
+      "Pest control in Naugatuck, CT has to account for the town's industrial history as much as its geography. Naugatuck was the birthplace of vulcanized rubber and later the headquarters of the U.S. Rubber Company, whose Keds sneaker plant ran here from 1917 into the 1980s, and the dense multi-family housing built for that workforce still defines much of the town's older neighborhoods. That housing stock gives German cockroaches and house mice more entry points and shared-wall access than newer suburban construction offers. The Naugatuck River, which runs through the center of town, adds mosquito breeding habitat through the warm months, and the wooded, hillside terrain surrounding the valley floor supports carpenter ants in older homes with moisture damage. A Naugatuck pest plan works differently in the dense, older town center than it does on the wooded hillsides above the river.",
+    sections: [
+      {
+        heading: "Why does Naugatuck's older housing create a cockroach and mouse problem?",
+        body: "Naugatuck's identity as a mill town runs deep. The U.S. Rubber Company, later renamed Uniroyal, was founded here and kept its headquarters in Naugatuck for decades, and its Keds sneaker plant operated in town from 1917 into the 1980s. The dense multi-family housing built to support that industrial workforce is still a defining feature of Naugatuck's older neighborhoods, particularly near the town center and the historic green designed by the architectural firm McKim, Mead and White. That older housing stock, much of it wood-frame construction with shared walls and aging utility runs, gives German cockroaches an easy path between units and gives house mice more foundation gaps and entry points than newer suburban homes offer. Cockroaches are a year-round concern in this kind of housing because indoor temperatures and moisture stay stable regardless of season, while mice make their push each September and October as Naugatuck Valley winters approach.",
+      },
+      {
+        heading: "How much does the Naugatuck River add to mosquito pressure?",
+        body: "The Naugatuck River runs directly through the center of town, and its tributary ponds and the low-lying stretches of the valley floor hold standing water that supports mosquito breeding from late April through September. Residents in neighborhoods closer to the river corridor, or near any of the smaller ponds and wetlands that feed it, typically see heavier mosquito activity in the evening hours than residents higher up on Naugatuck's hillside neighborhoods. Standing water in gutters, unused containers, or low spots in a yard adds breeding habitat on top of what the river corridor already provides, so eliminating those sources on the property is a meaningful complement to any professional treatment. A barrier treatment applied to vegetation and shaded resting areas in the yard, timed to the warm season, reduces biting pressure for outdoor activities through the summer months.",
+      },
+      {
+        heading: "Are carpenter ants a concern in Naugatuck's hillside neighborhoods?",
+        body: "Naugatuck's terrain rises sharply from the river valley floor into wooded hillside neighborhoods, and that wooded terrain, combined with an older housing stock, creates favorable conditions for carpenter ants. These ants do not consume wood the way termites do, but they excavate galleries in wood that already has moisture damage, commonly from a failed gutter, a rotted roofline, or a deck ledger board that traps water against the house. Naugatuck's older homes, particularly those set close to tree cover on the hillsides above the town center, are more exposed to this kind of moisture damage than newer construction with modern flashing and drainage. Spring swarms of winged ants indoors, typically between April and June, are usually the first sign homeowners notice, though the colony may already be established. Addressing the moisture source and having the property inspected is more effective than treating visible ants alone.",
+      },
+    ],
+    prevention: [
+      "Seal utility penetrations and shared wall gaps in older multi-family buildings to slow German cockroach spread between units.",
+      "Complete exterior mouse exclusion on older Naugatuck homes in August, before the September through November push indoors.",
+      "Fix failed gutters, rooflines, and deck ledger boards promptly. Moisture damage is what draws carpenter ants to older hillside homes.",
+      "Eliminate standing water near the Naugatuck River corridor and in yard containers to reduce mosquito breeding from spring through fall.",
+      "Schedule a general pest inspection for older mill-era housing near the town center, where shared construction lets pests move between units.",
+    ],
+    costNote:
+      "Naugatuck pest control begins with a free inspection. German cockroach and mouse programs in older multi-family housing are typically priced per unit or per building, general pest and carpenter ant treatment for single-family homes runs $150 to $300 depending on the property, and seasonal mosquito programs are priced by yard size and proximity to the river corridor.",
+    faqs: [
+      {
+        question: "Why is Naugatuck's older housing more prone to German cockroaches?",
+        answer:
+          "Naugatuck's dense multi-family housing was built to support its decades as headquarters of the U.S. Rubber Company, later Uniroyal, whose Keds sneaker factory ran in town from 1917 into the 1980s. That older housing stock has shared walls and aging utility runs that let German cockroaches move freely between units, and the stable indoor temperature and moisture in these buildings keep cockroaches active year-round rather than seasonally.",
+      },
+      {
+        question: "How bad are mosquitoes near the Naugatuck River?",
+        answer:
+          "The Naugatuck River runs through the center of town, and its tributary ponds and low-lying valley floor hold standing water that supports mosquito breeding from late April through September. Neighborhoods close to the river corridor typically see heavier evening mosquito activity than the hillside neighborhoods above the valley floor, which is why yard treatment timing and standing-water removal near the river matter more in those areas.",
+      },
+      {
+        question: "Do Naugatuck's hillside homes need carpenter ant treatment?",
+        answer:
+          "Naugatuck's terrain rises from the river valley into wooded hillside neighborhoods, and that tree cover combined with an older housing stock creates conditions carpenter ants favor, particularly where a failed gutter or roofline has let moisture damage the wood. Spring swarms indoors, usually between April and June, are the typical first sign, and an inspection after a swarm is more useful than treating the ants you can see.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Trumbull", slug: "trumbull", stateSlug: "connecticut" },
+      { name: "New Milford", slug: "new-milford", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Naugatuck, CT | Cockroaches, Mice & Mosquitoes",
+    metaDescription:
+      "Naugatuck pest control for German cockroaches, house mice, carpenter ants and mosquitoes. Naugatuck Valley New Haven County mill-town housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "groton",
+    name: "Groton",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~38,100",
+    county: "New London County",
+    climate: "cold-humid",
+    climateDriver:
+      "Groton sits on the Connecticut coast at the mouth of the Thames River, in the cold-humid climate zone, with humid summers moderated by Long Island Sound and cold winters. The town's extensive shoreline, salt marsh, and wooded residential neighborhoods support both deer tick and mosquito populations, and Connecticut's shoreline towns have repeatedly recorded some of the state's highest Lyme disease rates in Connecticut Agricultural Experiment Station and state health data.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphal peak May through June",
+        note: "Connecticut's shoreline towns, including Groton, have consistently shown some of the state's highest Lyme disease rates in Connecticut Agricultural Experiment Station and Department of Public Health data. Groton's wooded residential lots and salt marsh edges give deer ticks habitat close to homes.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September",
+        note: "Groton's salt marshes, tidal creeks, and the Thames River corridor create extensive mosquito breeding habitat. The Connecticut Agricultural Experiment Station's statewide trapping program has identified West Nile virus positive mosquitoes in New London County in recent seasons.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Groton's coastal humidity and wooded residential neighborhoods away from the immediate shoreline give carpenter ants moist wood to nest in, particularly in older homes with roof or siding damage from salt air and coastal storms.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November",
+        note: "Groton's mix of older coastal neighborhoods and dense housing near Naval Submarine Base New London gives house mice ample entry points as they move indoors each fall ahead of the cold season.",
+      },
+    ],
+    localHook:
+      "Groton is home to Naval Submarine Base New London and General Dynamics Electric Boat, and has been called the Submarine Capital of the World since Electric Boat delivered 74 diesel submarines to the Navy during World War II. That coastal, tidal geography, the same water access that made Groton a submarine town, also supports the deer tick and mosquito populations that define local pest pressure.",
+    intro:
+      "Pest control in Groton, CT has to work around two things: the U.S. Navy and Long Island Sound. Groton is home to Naval Submarine Base New London and General Dynamics Electric Boat, a coastal, tidal geography that has earned the town the nickname Submarine Capital of the World. That same shoreline, salt marsh, and river corridor along the Thames also creates real pest pressure. Connecticut's shoreline towns have consistently posted some of the state's highest Lyme disease rates, and Groton's wooded residential lots put deer ticks within reach of ordinary yards. Salt marshes and tidal creeks give mosquitoes extensive breeding habitat through the warm months, and the Connecticut Agricultural Experiment Station has identified West Nile virus positive mosquitoes in New London County in recent seasons. Coastal humidity and salt-air damage to roofs and siding give carpenter ants an opening in older homes. A Groton pest plan has to account for a coastal military town's particular mix of geography and housing.",
+    sections: [
+      {
+        heading: "Why is deer tick risk considered high along the Groton shoreline?",
+        body: "Connecticut's coastline has long been associated with Lyme disease, and Groton's position on Long Island Sound at the mouth of the Thames River places it squarely in that shoreline risk zone. The Connecticut Agricultural Experiment Station's tick surveillance work, along with state Department of Public Health case data, has consistently found New London County's shoreline communities among the state's higher-risk areas for Lyme disease. Groton's wooded residential neighborhoods, many bordering salt marsh, tidal creeks, or undeveloped shoreline parcels, give deer ticks habitat that sits close to homes rather than confined to remote woodland. The nymphal stage of the deer tick, active in May and June, is the hardest to spot and responsible for the largest share of Lyme disease transmission, since an infected nymph can transmit the bacteria in less time than most people take to notice and remove it. Yard treatment focused on wooded and brushy property edges, timed to spring and fall, is the standard recommendation for Groton homeowners near any undeveloped land.",
+      },
+      {
+        heading: "How much does Groton's coastal geography drive mosquito activity?",
+        body: "Groton's salt marshes, tidal creeks, and the broad mouth of the Thames River create mosquito breeding habitat that a landlocked town simply does not have. Several mosquito species that breed in salt marsh pools are common along the Connecticut shoreline, and they can travel a meaningful distance from the marsh into residential neighborhoods on summer evenings. The Connecticut Agricultural Experiment Station runs a statewide mosquito trapping and arbovirus testing program, and New London County has had mosquito pools test positive for West Nile virus in recent seasons, a reminder that mosquito pressure here carries more than nuisance value. Standing water in yard containers, clogged gutters, or low spots adds breeding habitat close to the home on top of what the marsh and tidal creeks already provide. A seasonal barrier treatment applied to shaded vegetation and resting areas, combined with eliminating standing water on the property, is the most effective approach for Groton yards near the shoreline or marsh.",
+      },
+      {
+        heading: "Do Groton's older coastal homes need carpenter ant and mouse protection?",
+        body: "Groton's coastal humidity and exposure to salt air and storm weather take a toll on roofing, siding, and trim faster than in inland Connecticut towns, and that ongoing wear creates the kind of moisture-damaged wood carpenter ants prefer to nest in. Older homes in Groton's established coastal neighborhoods, as well as housing near the Naval Submarine Base, are the properties most likely to show carpenter ant activity, usually first noticed as a spring swarm of winged ants indoors between April and June. The same older housing stock, along with the mix of denser rental and military-adjacent housing common in a Navy town, gives house mice more entry points than newer construction, and mice begin their push indoors each September and October as the weather cools. Addressing roof and siding maintenance promptly, and sealing foundation and utility gaps before fall, reduces exposure to both pests at once.",
+      },
+    ],
+    prevention: [
+      "Treat wooded and marsh-adjacent yard margins for deer ticks each spring, ahead of the May through June nymphal peak common along the Groton shoreline.",
+      "Eliminate standing water in yard containers and gutters to reduce mosquito breeding on top of the salt marsh and tidal creek habitat nearby.",
+      "Repair storm and salt-air damage to roofing and siding promptly. Moisture-damaged wood is what draws carpenter ants to older coastal homes.",
+      "Complete fall exterior mouse exclusion, sealing foundation gaps and utility penetrations before the September through November push indoors.",
+      "Ask about seasonal mosquito barrier treatment if your property backs onto salt marsh, tidal creek, or the Thames River corridor.",
+    ],
+    costNote:
+      "Groton pest control starts with a free inspection. Tick and mosquito treatment programs are seasonal and priced by lot size and proximity to marsh or shoreline, generally $150 to $300 per visit, and carpenter ant or mouse exclusion work for older coastal homes is priced once the inspection identifies the scope of entry points and moisture damage.",
+    faqs: [
+      {
+        question: "Why does Groton have a reputation for high tick risk?",
+        answer:
+          "Groton sits on Long Island Sound at the mouth of the Thames River, and Connecticut's shoreline communities, including Groton, have consistently shown some of the state's higher Lyme disease rates in Connecticut Agricultural Experiment Station and state health data. Groton's wooded residential neighborhoods often border salt marsh or undeveloped shoreline parcels, which puts deer tick habitat close to ordinary yards rather than confined to remote woodland.",
+      },
+      {
+        question: "Are mosquitoes worse in Groton because of the coast?",
+        answer:
+          "Yes. Groton's salt marshes and tidal creeks around the Thames River create mosquito breeding habitat that inland Connecticut towns do not have, and New London County has recorded mosquito pools testing positive for West Nile virus in the Connecticut Agricultural Experiment Station's statewide surveillance program in recent seasons. Eliminating standing water on the property and treating shaded resting areas are the most effective steps for homes near the marsh.",
+      },
+      {
+        question: "Do homes near Naval Submarine Base New London see more pest activity?",
+        answer:
+          "Groton's older coastal neighborhoods, including housing near Naval Submarine Base New London and General Dynamics Electric Boat, tend to be older construction exposed to salt air and coastal storm wear, which creates the moisture-damaged wood carpenter ants prefer and the aging foundations that give house mice more entry points. Fall exclusion work and prompt roof and siding repair address both pests before they become established indoors.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "South Windsor", slug: "south-windsor", stateSlug: "connecticut" },
+      { name: "Naugatuck", slug: "naugatuck", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Groton, CT | Ticks, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "Groton pest control for deer ticks, mosquitoes, carpenter ants and house mice. New London County Long Island Sound coastal and Naval Submarine Base area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "trumbull",
+    name: "Trumbull",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~37,300",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "Trumbull sits in Fairfield County in the cold-humid climate zone, with cold winters and warm humid summers moderated somewhat by proximity to Long Island Sound. The town's Pequonnock River Valley, including more than a thousand acres of preserved parkland at Indian Ledge Park and Pequonnock River Valley Park, runs wooded corridors through otherwise dense suburban neighborhoods. Fairfield County has recorded the state's highest deer tick nymph infection rates in recent research, driven in part by a sharp rise in the county's deer population over the past fifteen years.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Termites", "House Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphal peak May through June",
+        note: "Fairfield County has recorded the state's highest nymph infection rates for deer ticks, and a sharp rise in the county's deer population over the past fifteen years has driven a parallel rise in Lyme disease cases. Trumbull's Pequonnock River Valley parkland runs wooded tick habitat through the middle of residential neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Trumbull's wooded lots along the Pequonnock River Valley and Indian Ledge Park give carpenter ants access to moist, decaying wood, particularly in older homes near the more than a thousand acres of preserved parkland running through town.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Eastern subterranean termites are established throughout Fairfield County. Trumbull's older neighborhoods, particularly homes with crawl spaces or wood siding close to grade near wooded parkland, carry meaningful termite exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November",
+        note: "Trumbull's mix of older homes bordering wooded parkland and denser residential streets gives house mice entry points as they move indoors each fall ahead of the cold season.",
+      },
+    ],
+    localHook:
+      "Trumbull's Pequonnock River Valley Park and Indian Ledge Park preserve more than a thousand acres of wooded former mill land along the Pequonnock River, purchased jointly by the town and the state in 1989. That much protected woodland running through the middle of a Fairfield County suburb gives deer, and the ticks that depend on them, a corridor straight into residential neighborhoods.",
+    intro:
+      "Pest control in Trumbull, CT is defined by a single fact most homeowners do not expect from a Fairfield County suburb: more than a thousand acres of preserved woodland, Indian Ledge Park and Pequonnock River Valley Park, run right through the middle of town along the Pequonnock River. That much protected forest gives deer a corridor into residential neighborhoods, and Fairfield County has recorded the state's highest deer tick nymph infection rates in recent research, driven by a sharp rise in the county's deer population over the past fifteen years. Trumbull homeowners near the park system, or anywhere with wooded yard edges, face real tick exposure that has nothing to do with living in the countryside. Carpenter ants and eastern subterranean termites both find footholds in older homes near that same wooded parkland, and house mice make their usual fall push into any home with unsealed entry points. A Trumbull pest plan has to treat the town's park system as a pest corridor, not just a recreational amenity.",
+    sections: [
+      {
+        heading: "Why does Trumbull have such a high deer tick risk for a suburb?",
+        body: "Trumbull's Pequonnock River Valley Park and Indian Ledge Park together preserve more than a thousand acres of wooded former mill land, purchased jointly by the town and the state in 1989 specifically to keep it undeveloped. That decision protected valuable open space, but it also created a wooded corridor that runs directly through Trumbull's residential neighborhoods rather than sitting at the town's edge. Fairfield County has recorded the state's highest nymph infection rates for deer ticks in recent research, and the county's deer population has risen sharply over the past fifteen years, a trend closely tied to the parallel rise in Lyme disease cases. Because adult female ticks need a deer blood meal to reproduce, more deer close to residential lots means more ticks close to residential lots. Trumbull homeowners near the park system, along the marked trails, or with any wooded yard edge should treat tick exposure as a near-property concern, not a distant-woods concern.",
+      },
+      {
+        heading: "Are carpenter ants and termites a concern in Trumbull's older homes?",
+        body: "Trumbull's history as a mill and industrial area along the Pequonnock River, before the valley was preserved as parkland in 1989, left the town with a mix of older homes close to wooded terrain, exactly the setting carpenter ants and eastern subterranean termites both favor. Carpenter ants excavate galleries in wood softened by moisture, commonly from a failed gutter or a rotted sill, and Trumbull's tree cover near Indian Ledge Park and the river valley gives them a ready supply of decaying wood close to structures. Eastern subterranean termites, established throughout Fairfield County, need soil contact and consistent moisture to move into a structure's wood framing, conditions that older homes with crawl spaces or wood siding near grade tend to provide more readily than newer construction. Spring swarms, typically April through June for both insects, are usually the first visible sign, though an established colony may predate the swarm by a season or more. Annual inspection is the standard recommendation for Trumbull's older, wooded-lot homes.",
+      },
+      {
+        heading: "When should Trumbull homeowners prepare for the fall mouse push?",
+        body: "September is the month to act. As temperatures begin dropping and Trumbull's Fairfield County winters approach, house mice start looking for heated shelter, and they will use any unsealed foundation gap, utility penetration, or worn weatherstripping to get inside. Homes bordering Trumbull's extensive parkland, or set on wooded lots anywhere in town, tend to see mice earlier in the season than homes on open, treeless lots, simply because the wooded terrain gives mice a shorter distance to travel to reach a structure. Older Trumbull homes, with more settling and more potential entry points than newer construction, are more exposed than recently built homes with tighter building envelopes. Exterior exclusion work, sealing gaps around the foundation sill, utility lines, and doors, completed in August before the push begins, is both more effective and less expensive than trapping mice after they are already established indoors. It also closes many of the same gaps that let stink bugs and other fall invaders inside.",
+      },
+    ],
+    prevention: [
+      "Treat wooded yard edges for deer ticks each spring, especially on properties near Indian Ledge Park or Pequonnock River Valley Park, ahead of the May through June nymphal peak.",
+      "Fix failed gutters and rooflines promptly on older Trumbull homes near wooded parkland. Moisture damage draws carpenter ants.",
+      "Schedule an annual termite inspection for older homes with crawl spaces or wood siding close to grade near the river valley.",
+      "Complete exterior mouse exclusion in August, sealing foundation gaps and utility penetrations before the September push.",
+      "Clear brush and leaf litter from yard margins that border Trumbull's park system to reduce tick habitat close to the house.",
+    ],
+    costNote:
+      "Trumbull pest control starts with a free inspection. Tick treatment programs run in spring and fall, generally $150 to $300 depending on lot size and proximity to parkland, and carpenter ant, termite, and mouse exclusion work for older homes is priced once the inspection identifies the property's specific entry points and moisture issues.",
+    faqs: [
+      {
+        question: "Why is Fairfield County's deer tick risk considered so high, and does that include Trumbull?",
+        answer:
+          "Yes. Fairfield County has recorded the state's highest nymph infection rates for deer ticks, and researchers point to a sharp rise in the county's deer population over the past fifteen years as a key driver. Trumbull's more than a thousand acres of preserved parkland along the Pequonnock River, including Indian Ledge Park, run a wooded deer corridor directly through residential neighborhoods, which puts tick exposure closer to Trumbull homes than in towns without that much protected woodland in the middle of town.",
+      },
+      {
+        question: "Do Trumbull's older homes near the park system need termite protection?",
+        answer:
+          "Homes near Indian Ledge Park and the Pequonnock River Valley, particularly older construction with crawl spaces or wood siding close to grade, carry meaningful subterranean termite exposure because eastern subterranean termites are established throughout Fairfield County and need the soil moisture that wooded, river-adjacent lots tend to hold. An annual inspection ahead of the April through June swarm season is the standard recommendation for these properties.",
+      },
+      {
+        question: "When do house mice typically move into Trumbull homes?",
+        answer:
+          "September is when the push usually starts, as Fairfield County temperatures begin dropping and mice look for heated shelter. Trumbull homes bordering the town's wooded parkland tend to see mice earlier in the season than homes on open lots, since the tree cover gives mice a shorter path to the house. Exterior exclusion work completed in August, before the season's push, is the most effective way to keep them out.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Naugatuck", slug: "naugatuck", stateSlug: "connecticut" },
+      { name: "New Milford", slug: "new-milford", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Trumbull, CT | Deer Ticks, Carpenter Ants & Termites",
+    metaDescription:
+      "Trumbull pest control for deer ticks, carpenter ants, subterranean termites and house mice. Fairfield County Pequonnock River Valley Park specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

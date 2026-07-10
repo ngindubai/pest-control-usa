@@ -19378,4 +19378,474 @@ export const californiaCities: CityLocation[] = [
     metaDescription:
       "Lompoc pest control for gophers, roof rats, Argentine ants, house mice and cockroaches. Santa Barbara County agricultural valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "selma",
+    name: "Selma",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~24,700",
+    county: "Fresno County",
+    climate: "hot-arid",
+    climateDriver:
+      "Selma sits in the San Joaquin Valley's hot, dry interior, where summer highs regularly clear 95 degrees and rain all but stops from May through September. The city is ringed by vineyards, with roughly 90 percent of the raisins grown in the United States coming from grapevines within eight miles of town. That density of fruit and vine cover, combined with irrigation canals threading the ag land, keeps water-seeking pests moving toward the houses at the edge of Selma all summer long.",
+    topPests: ["Argentine ants", "Leaffooted bugs", "Yellowjackets", "Roof rats"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst June through September",
+        note: "Argentine ants trail out of the dry vineyard soil surrounding Selma and head straight for kitchen sinks and bathroom pipes once the valley heat sets in. Colonies here connect across property lines, so a treated kitchen counter gets reinvaded within days unless the outdoor trail is treated too.",
+      },
+      {
+        name: "Leaffooted bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Late summer through fall, heaviest at raisin drying time",
+        note: "These narrow brown insects feed on ripening grapes and pomegranates through most of the growing season, then move off the vines and onto house exteriors looking for winter shelter once the raisin trays go out in August. They cluster on sunny walls and slip through door gaps in large numbers.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October, peaks at harvest",
+        note: "Yellowjackets key in on the sugar from drying raisins and overripe grapes left in the rows, and colonies that started small in spring can hold hundreds of workers by September. Ground nests near irrigation risers and vineyard edges are common around Selma properties that back onto ag land.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active in fall",
+        note: "Roof rats move between vineyard cover and nearby homes, climbing fences and citrus trees to reach attics and garages. Properties adjacent to vine rows see steadier rat pressure than lots deeper in Selma's residential grid.",
+      },
+    ],
+    localHook:
+      "Selma calls itself the Raisin Capital of the World, and it is not just a slogan: about 90 percent of the raisins grown in the United States come from vineyards within eight miles of the city. Those same rows of drying fruit that built Selma's economy are what pull yellowjackets and leaffooted bugs toward homes at the edge of town every August.",
+    intro:
+      "Pest control in Selma, CA has to reckon with the vineyards that surround the city on nearly every side. Selma built its identity on raisins, with about 90 percent of the country's raisin crop grown in vines within eight miles of downtown, and that density of fruit shapes which pests show up and when. Argentine ants push indoors as the valley dries out from May onward, leaffooted bugs drift off the vines toward house walls once the drying trays go out in August, and yellowjackets get aggressive around that same late-summer sugar. Roof rats use the vine rows and citrus trees as cover on their way into attics and garages. None of this is unusual for a San Joaquin Valley farm town, but the concentration of vineyard acreage around Selma means the pressure starts earlier and runs later into fall than it does in cities set back from the ag land.",
+    sections: [
+      {
+        heading: "Why do Argentine ants get worse in Selma every summer?",
+        body: "Argentine ants form some of the largest connected colonies of any ant species, and the vineyard soil around Selma gives them room to spread before they ever reach a house. Once the valley's dry season sets in around May and does not let up until fall, the moisture in that soil drops and worker ants move toward any water source they can find, usually a kitchen sink, a leaking hose bib, or a bathroom with a slow drip. Because the colony extends well past any one yard, spraying the ants on the counter rarely solves anything; a new column shows up within days from the same outdoor trail. Effective control means treating the perimeter trails and nest sites near the foundation, not just the indoor sighting, and fixing exterior moisture sources so the ants have less reason to head inside.",
+      },
+      {
+        heading: "What are the leaffooted bugs on my house near the vineyards?",
+        body: "Leaffooted bugs are common in vineyard country, and Selma sees heavier pressure than cities farther from grape acreage simply because there is more host plant material nearby. Through spring and summer the bugs feed on grapes, pomegranates, and almonds in the surrounding orchards. Once the fruit is picked and raisin trays go out between the vine rows in August, adult leaffooted bugs look for overwintering shelter and move toward the nearest structure, often a house at the edge of a vineyard block. They cluster in large numbers on sun-warmed walls and slip through gaps around doors, attic vents, and window screens. They do not bite or sting and cause no structural damage, but a mass entry of dozens of bugs into a garage or attic is unpleasant enough that sealing entry points before the August shift matters more in Selma than in most inland towns.",
+      },
+      {
+        heading: "Why are yellowjackets so aggressive around Selma at harvest time?",
+        body: "Yellowjacket colonies build slowly through spring and early summer, but by August and September, right as Selma's raisin harvest and drying season peaks, a single nest can hold several hundred workers competing for the same sugar sources. Drying raisins, overripe grapes left in the rows, and fallen fruit around backyard trees give the colonies an easy, concentrated food source that keeps them close to homes rather than foraging farther into open land. Ground nests are common near irrigation risers, fence lines, and the edges of vineyard blocks, and workers get noticeably more defensive as the colony grows and food competition increases late in the season. A nest near a patio, mailbox, or garden hose bib during harvest is a real sting risk, and it is worth having it located and removed rather than treated as a nuisance that will pass once the weather cools.",
+      },
+    ],
+    prevention: [
+      "Fix leaking hose bibs, irrigation risers, and slow bathroom drips before summer; Selma's dry season pulls Argentine ants toward any exterior water source starting in May.",
+      "Seal gaps around attic vents, door frames, and window screens by late July, ahead of the August leaffooted bug movement off the surrounding vineyards.",
+      "Keep fallen fruit picked up from backyard trees during harvest season, since rotting fruit is one of the strongest yellowjacket attractants around Selma properties.",
+      "Trim citrus trees and vines back from the roofline on properties bordering vineyard blocks, since roof rats use that cover to reach attics and garages.",
+      "Have a professional locate and remove yellowjacket ground nests near patios or play areas rather than treating the entrance alone, since disturbed nests defend aggressively.",
+    ],
+    costNote:
+      "Selma pest control pricing tracks the broader Fresno County market. Standard bi-monthly ant and general pest service typically runs $150 to $300 depending on property size, with vineyard-adjacent properties sometimes needing extra attention for leaffooted bug exclusion or yellowjacket nest removal during harvest season. A free inspection identifies which pests are active on a property before any treatment plan is quoted.",
+    faqs: [
+      {
+        question: "Do the vineyards around Selma really make pest problems worse?",
+        answer:
+          "Yes. With around 90 percent of the country's raisin crop grown in vines within eight miles of Selma, the city has far more fruit and vine cover nearby than most San Joaquin Valley towns. That density brings heavier late-summer pressure from leaffooted bugs and yellowjackets in particular, both drawn by ripening and drying fruit in the surrounding rows.",
+      },
+      {
+        question: "When do leaffooted bugs show up on Selma homes?",
+        answer:
+          "The heaviest movement happens in August and September, right around when raisin drying trays go out between the vine rows. Adult bugs finish feeding on grapes and other ripening fruit and then look for overwintering shelter, often the nearest house wall, so sealing exterior gaps before late July gives the best head start.",
+      },
+      {
+        question: "Is it normal to see this many yellowjackets in Selma in September?",
+        answer:
+          "It is common in a farm town this close to vineyard acreage. Colonies peak in size right as harvest and raisin drying are underway, and the concentrated sugar from drying fruit keeps them foraging close to homes rather than ranging farther out. A nest near a patio or hose bib at this point in the season is worth having removed rather than left alone.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Grass Valley", slug: "grass-valley", stateSlug: "california" },
+      { name: "Windsor", slug: "windsor", stateSlug: "california" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Selma, CA | Vineyard Pests & Ants",
+    metaDescription:
+      "Selma pest control for Argentine ants, leaffooted bugs, yellowjackets and roof rats. Fresno County vineyard specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "grass-valley",
+    name: "Grass Valley",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~14,100",
+    county: "Nevada County",
+    climate: "temperate",
+    climateDriver:
+      "Grass Valley sits in the Sierra Nevada foothills at roughly 2,400 feet, where oak woodland gives way to pine forest and temperatures run noticeably cooler than the Central Valley floor below. That elevation and tree cover support deer, and where deer travel, the western blacklegged tick, California's primary Lyme disease vector, travels too. The same wooded, semi-rural lot lines that make Grass Valley attractive also put houses in direct contact with tick habitat along trail edges and brush.",
+    topPests: ["Western blacklegged ticks", "Carpenter ants", "House mice", "Ground squirrels"],
+    pestProfile: [
+      {
+        name: "Western blacklegged ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active nearly year-round, nymphs peak spring into early summer",
+        note: "Western blacklegged ticks are the primary carrier of Lyme disease in California, and Nevada County's oak and pine habitat supports a resident population along trail edges, brush, and tall grass. Nymphs, the stage most likely to bite a person without being noticed, are most active from spring into early summer.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, swarms in late spring",
+        note: "Carpenter ants nest in the moisture-softened wood common in Grass Valley's older, tree-shaded homes and outbuildings. Unlike termites they do not eat wood for food, they excavate it for nesting, and a colony working inside a wall or eave can go unnoticed until winged swarmers appear indoors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak fall through winter",
+        note: "As foothill nights cool earlier than the valley floor, house mice move into Grass Valley homes and outbuildings ahead of the Central Valley's typical fall entry timeline. Older wood-frame construction with gaps around foundations and crawl spaces gives them easy access.",
+      },
+      {
+        name: "California ground squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Spring through summer, dormant in winter",
+        note: "Ground squirrels burrow through the open, grassy parcels common around Grass Valley's semi-rural lots, undermining sheds, retaining walls, and garden beds. Their burrows also provide shelter for ticks and fleas, adding a second reason to manage active colonies.",
+      },
+    ],
+    localHook:
+      "Grass Valley sits above 2,400 feet in oak and pine habitat that supports one of Nevada County's steadiest western blacklegged tick populations, the species responsible for nearly all Lyme disease cases identified in California. A yard that backs onto brush or a wooded trail here carries real tick exposure, not just a nuisance pest.",
+    intro:
+      "Pest control in Grass Valley, CA starts with a health concern most Central Valley cities do not have to think about: the western blacklegged tick, California's main Lyme disease vector, is established throughout Nevada County's oak and pine foothills. Houses set among trees or backing onto brush and trail edges sit right inside tick habitat, and deer moving through semi-rural lots keep the population fed. Beyond ticks, Grass Valley's older wood-frame homes draw carpenter ants into moisture-softened eaves and wall voids, house mice move indoors earlier in fall than in the valley below as foothill nights cool, and California ground squirrels burrow through open grassy parcels near sheds and retaining walls. The elevation and tree cover that make Grass Valley feel different from the Central Valley floor are the same factors driving what pests show up here.",
+    sections: [
+      {
+        heading: "How serious is the tick risk in Grass Valley?",
+        body: "Nevada County sits within the range of the western blacklegged tick, the species responsible for almost all Lyme disease transmission in California, and the oak woodland and pine forest surrounding Grass Valley is exactly the habitat this tick favors. Ticks wait on grass and brush along trail edges and in the transition zone where a lawn meets wild vegetation, then attach to a person or pet brushing past. The nymph stage, active mainly from spring into early summer, is the biggest concern because nymphs are small enough to bite unnoticed during the extended feeding period that transmits Lyme disease. Regular tick checks after time outdoors, keeping grass mowed short near the house, and clearing brush from yard edges all reduce contact, and a property with heavy tick pressure benefits from a targeted perimeter treatment rather than relying on personal precautions alone.",
+      },
+      {
+        heading: "Why do carpenter ants show up in Grass Valley's older homes?",
+        body: "Grass Valley's tree-shaded, older wood-frame housing stock gives carpenter ants exactly the conditions they need: wood that has softened from moisture, whether from a roof leak, poor grading, or a shaded eave that never fully dries out. Carpenter ants do not eat the wood the way termites do, they excavate smooth galleries through it to build a nest, which means the damage can be extensive by the time it is discovered. The clearest sign is winged swarmers appearing indoors in late spring, usually a signal that an established colony somewhere in the structure is large enough to reproduce. Finding the moisture source and the nest location, sometimes an eave, a bathroom wall, or a woodpile against the house, matters more than surface treatment, since ants keep excavating as long as the wood stays damp.",
+      },
+      {
+        heading: "Do ground squirrels around Grass Valley properties cause real damage?",
+        body: "California ground squirrels are common on the open, sloped, and semi-rural parcels that surround much of Grass Valley, and their burrow systems can undermine sheds, retaining walls, driveways, and garden beds over time. A single colony can maintain a dozen or more burrow openings across a property, and the tunnels weaken soil structure enough to cause settling under foot traffic or light equipment. Ground squirrel burrows also give ticks and fleas a sheltered place to persist close to the house, which matters given the tick pressure already present in the surrounding foothills. Active burrow systems are best addressed with trapping or exclusion started early in spring before the colony expands through its breeding season, since a mature colony on a property bordering open land keeps re-establishing from adjacent, untreated land regardless of how thoroughly one yard is cleared.",
+      },
+    ],
+    prevention: [
+      "Keep grass mowed short and clear brush from the edges of the yard where it meets trail or wild land, since western blacklegged ticks wait in exactly that transition zone.",
+      "Check people and pets for ticks after any time in Grass Valley's oak and pine areas, focusing on the spring and early summer nymph season when bites are hardest to notice.",
+      "Address roof leaks and shaded, damp eaves promptly on older wood-frame homes, since softened wood is what draws carpenter ants into a wall or attic void.",
+      "Seal foundation and crawl space gaps before fall, when Grass Valley's cooler foothill nights push house mice indoors earlier than in the Central Valley.",
+      "Start ground squirrel trapping in early spring before the breeding season expands the colony, especially on properties bordering open or undeveloped land.",
+    ],
+    costNote:
+      "Grass Valley pest pricing runs close to the broader Nevada County foothill market. Tick and general perimeter treatment for wooded or semi-rural lots typically falls in the $150 to $300 range per visit, with ground squirrel or carpenter ant work quoted separately after inspection. A free inspection identifies tick habitat, active carpenter ant sites, and burrow systems on the property before any treatment plan is proposed.",
+    faqs: [
+      {
+        question: "Is Lyme disease actually a risk in Grass Valley?",
+        answer:
+          "Yes, in the sense that the western blacklegged tick, the species that transmits Lyme disease in California, is established throughout Nevada County's oak and pine habitat surrounding Grass Valley. That does not mean every tick carries the bacteria, but the exposure risk from spending time in brush, trail edges, or tall grass here is real, and prompt tick checks after outdoor time are worth the habit.",
+      },
+      {
+        question: "Why does Grass Valley seem to get carpenter ants more than nearby valley towns?",
+        answer:
+          "Grass Valley's older wood-frame homes are shaded by mature oaks and pines, which keeps roofs, eaves, and siding damper for longer after rain than the more open, sun-exposed housing common on the valley floor. Carpenter ants need that softened wood to excavate, so the combination of tree cover and older construction gives them more opportunity here.",
+      },
+      {
+        question: "What time of year are ticks worst around Grass Valley?",
+        answer:
+          "Nymph-stage western blacklegged ticks, the ones most likely to bite without being noticed, are most active from spring into early summer. Adult ticks can still be found in cooler months, but the spring nymph season is when Nevada County health authorities typically see the most tick encounters.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Windsor", slug: "windsor", stateSlug: "california" },
+      { name: "Ukiah", slug: "ukiah", stateSlug: "california" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Grass Valley, CA | Ticks & Ants",
+    metaDescription:
+      "Grass Valley pest control for ticks, carpenter ants, house mice and ground squirrels. Nevada County foothill specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ukiah",
+    name: "Ukiah",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~16,100",
+    county: "Mendocino County",
+    climate: "mediterranean",
+    climateDriver:
+      "Ukiah sits in the Russian River valley of inland Mendocino County, where hills on both sides block the coastal fog that cools towns closer to the ocean. Summers run hot and dry, winters bring most of the county's rain, and the valley is ringed by vineyards and oak woodland. That hot-summer, wet-winter pattern, combined with older wood-frame housing stock downtown, keeps drywood termites, carpenter ants, and rodents active on a seasonal cycle tied to when the rain starts and stops.",
+    topPests: ["Drywood termites", "Carpenter ants", "Argentine ants", "Roof rats"],
+    pestProfile: [
+      {
+        name: "Drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late summer into fall",
+        note: "Drywood termites are the termite most established in inland Mendocino County, infesting attic timbers, eaves, and exposed wood directly without any soil contact. Winged swarmers typically appear on warm, still afternoons in late summer and fall, often the first visible sign of a colony already established for years.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, swarms in late spring",
+        note: "Carpenter ants exploit moisture-damaged wood in Ukiah's older homes and the oak-shaded properties on the valley's eastern and western hillsides. They excavate rather than eat the wood, and an active colony inside a wall can go unnoticed until a swarm of winged reproductives shows up indoors.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst in the dry summer months",
+        note: "Ukiah's long, rainless summer pushes Argentine ants out of dry vineyard and landscape soil and toward the nearest water source, usually a kitchen or bathroom. Colonies connect across neighboring yards, so trailing ants keep returning until the outdoor trail itself is treated.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in fall",
+        note: "Roof rats move through the oak canopy and vineyard cover around Ukiah and climb into attics once the fall rains push them to seek dry shelter. Older downtown structures with aging rooflines see steady rat pressure year after year.",
+      },
+    ],
+    localHook:
+      "Ukiah sits far enough inland in the Russian River valley that the coastal hills block the fog blanketing Mendocino County's coastal towns, giving Ukiah a hotter, drier summer than towns barely 20 miles west. That inland heat and the valley's older wood-frame housing stock are why drywood termites are established here in a way the fog-cooled coast rarely sees.",
+    intro:
+      "Pest control in Ukiah, CA is shaped by a climate that runs hotter and drier than most of Mendocino County, because the hills flanking the Russian River valley block the marine fog that cools the coast. Summers stay dry from roughly May through October, and that stretch drives Argentine ants indoors chasing water while carpenter ants work through moisture-softened wood on shaded, older properties. Drywood termites are established in Ukiah's attic timbers and eaves in a way that is less common on the foggy coast, with swarmers typically appearing in late summer and fall. Roof rats move between the surrounding oak canopy and vineyard rows and into attics once the winter rains start. Ukiah's older downtown housing stock, much of it wood-frame and decades old, gives all four pests more opportunity than the newer construction found in inland towns built after modern building codes tightened up sealing standards.",
+    sections: [
+      {
+        heading: "Why does Ukiah have more drywood termites than the Mendocino coast?",
+        body: "Drywood termites need warm, dry conditions to thrive, which is exactly what Ukiah's inland position in the Russian River valley provides once the coastal fog gets blocked by the surrounding hills. Unlike subterranean termites, drywood colonies never touch the soil. Winged reproductives fly directly into exposed or unpainted wood, often in an attic, an eave, or old fascia board, and the colony lives entirely inside the timber from that point on. Ukiah's older housing stock, some of it a century old, has plenty of that kind of exposed wood, particularly in attics never fully sealed or repainted. Swarmers appearing on a warm, still afternoon in late summer or fall are usually the first visible sign, though the colony feeding inside the wood has typically been established for a while already. A full inspection checks both the attic and the exterior trim for the pellet droppings that signal an active colony.",
+      },
+      {
+        heading: "What is drawing carpenter ants into my Ukiah home?",
+        body: "Carpenter ants need damp, softened wood to excavate their nesting galleries, and Ukiah's oak-shaded hillside properties on the valley's eastern and western edges provide it, especially where a roof leak, poorly draining gutter, or heavy shade keeps a section of wood from ever fully drying out. These ants do not consume the wood the way termites do; they carve smooth tunnels through it to build a nest, and an established colony inside a wall void or eave can go undetected for a long stretch. The clearest warning sign is a swarm of winged ants indoors in late spring, usually meaning the colony has matured enough to reproduce. Because the ants follow moisture rather than food, fixing the underlying leak or drainage issue matters as much as treating the ants themselves; otherwise a new colony tends to move into the same damp wood within a season or two.",
+      },
+      {
+        heading: "When do roof rats become a problem in Ukiah?",
+        body: "Roof rats are present in Ukiah year-round, but pressure noticeably increases once the fall rains arrive and the vineyard and oak habitat surrounding the valley gets wetter and less hospitable than a dry attic. Rats climb through tree canopy and along vine trellises to reach rooflines, then look for any gap around a vent, fascia board, or eave to get into the attic space. Ukiah's older downtown structures, many with rooflines that have settled or shifted over decades, offer more entry points than newer construction with tighter building tolerances. Once inside, roof rats nest in insulation and chew through wiring, which is a fire risk as much as a nuisance. Sealing obvious roofline gaps before the fall rains start, and trimming tree branches back from the roof edge, reduces the odds of an attic infestation taking hold.",
+      },
+    ],
+    prevention: [
+      "Inspect attic timbers and exterior trim for termite pellet droppings each spring, before the late-summer and fall swarm season when drywood termite colonies are easiest to miss.",
+      "Fix roof leaks and improve gutter drainage on oak-shaded hillside properties promptly, since damp wood is what draws carpenter ants into a wall or eave.",
+      "Trim tree branches and vine growth back from the roofline before fall rains push roof rats to look for dry attic shelter.",
+      "Treat exterior Argentine ant trails during Ukiah's long dry season rather than spraying indoor sightings alone, since the colony extends well past any one yard.",
+      "Seal gaps around vents, fascia boards, and eaves on older downtown structures, where decades of settling create rat and ant entry points newer builds do not have.",
+    ],
+    costNote:
+      "Ukiah pest pricing is broadly consistent with the inland Mendocino and Sonoma county market. Drywood termite treatment is quoted separately after an inspection confirms the extent of the colony, since localized treatment and full fumigation carry very different costs. Standard general pest and ant service typically runs $150 to $300 per visit, and every Ukiah inspection is free.",
+    faqs: [
+      {
+        question: "Why does Ukiah have a bigger termite problem than coastal Mendocino towns?",
+        answer:
+          "Ukiah sits inland in the Russian River valley, where the surrounding hills block the marine fog that keeps the coast cool and damp. That hotter, drier inland climate is what drywood termites need to thrive, and combined with Ukiah's older wood-frame housing stock, it makes the city one of the more termite-pressured inland communities in the county.",
+      },
+      {
+        question: "Is it normal to see winged ants in my Ukiah house in late spring?",
+        answer:
+          "It usually means a carpenter ant colony inside a wall or eave has matured enough to send out reproductive swarmers, a common event in Ukiah's older, oak-shaded homes where damp wood gives the ants somewhere to nest. It is worth having the colony located rather than just clearing the swarmers, since the nest itself keeps growing.",
+      },
+      {
+        question: "Do the vineyards around Ukiah bring more rats into town?",
+        answer:
+          "The vineyard rows and oak canopy surrounding Ukiah give roof rats cover and a route toward rooflines, particularly once fall rains start and the rats look for dry attic shelter. Properties on the edges of town, closer to that vineyard and woodland cover, tend to see more consistent rat pressure than lots deeper in the downtown grid.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Windsor", slug: "windsor", stateSlug: "california" },
+      { name: "Grass Valley", slug: "grass-valley", stateSlug: "california" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Ukiah, CA | Termites, Ants & Rats",
+    metaDescription:
+      "Ukiah pest control for drywood termites, carpenter ants, Argentine ants and roof rats. Mendocino County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "yucca-valley",
+    name: "Yucca Valley",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~21,800",
+    county: "San Bernardino County",
+    climate: "desert",
+    climateDriver:
+      "Yucca Valley sits in the Mojave Desert at roughly 3,300 feet, bordered on the south by Joshua Tree National Park and on the west by the San Bernardino Mountains. Summer highs regularly top 100 degrees while desert nights cool sharply, and that swing between scorching days and cold nights pushes moisture-seeking pests indoors year-round. The open desert terrain surrounding town, much of it undeveloped scrub bordering residential lots directly, gives scorpions, black widows, and desert rodents an easy path from wild habitat straight into a garage or crawl space.",
+    topPests: ["Scorpions", "Black widow spiders", "Desert pack rats", "Subterranean termites"],
+    pestProfile: [
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active spring through fall nights",
+        note: "Scorpions are common throughout Yucca Valley's residential lots because so much of the town borders open desert scrub directly. They hunt at night and shelter by day under rocks, woodpiles, and debris, and the region's extreme summer heat drives them toward the cooler, damper conditions found inside a house.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Black widow spiders are established throughout the high desert and shelter in garages, sheds, woodpiles, and undisturbed corners around Yucca Valley properties. Their bite is medically significant, and their preference for dark, cluttered spaces near doors makes exclusion and cleanup the most effective response.",
+      },
+      {
+        name: "Desert pack rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in cooler months",
+        note: "Pack rats, also called woodrats, build large stick nests against fences, sheds, vehicles, and desert landscaping around Yucca Valley homes. They gnaw wiring and hoses in vehicles and outbuildings, and their nests provide shelter for other pests including black widows.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms typically late winter into spring",
+        note: "Subterranean termites in the high desert concentrate near any consistent moisture source, including irrigated landscaping, leaking hose bibs, and homes with wood in direct soil contact. Swarms usually follow the season's rare rain events, typically late winter into spring.",
+      },
+    ],
+    localHook:
+      "Yucca Valley borders Joshua Tree National Park directly along its southern edge, and much of the town sits against open, undeveloped desert scrub rather than other development. That direct line between wild desert habitat and residential lots is why scorpions, black widow spiders, and pack rats move into Yucca Valley yards and garages more readily than in a typical suburban town.",
+    intro:
+      "Pest control in Yucca Valley, CA has to account for a town built right up against the open Mojave Desert, with Joshua Tree National Park forming the southern edge and undeveloped scrub bordering many residential lots directly. Scorpions and black widow spiders are established throughout the high desert and move into garages, sheds, and crawl spaces looking for shelter from the extreme swing between hot days and cold desert nights. Desert pack rats build stick nests against fences and vehicles, gnawing wiring and creating shelter that draws in other pests. Subterranean termites concentrate near the irrigated landscaping and occasional moisture that desert construction depends on. At roughly 3,300 feet elevation, Yucca Valley's climate is harsher than the Coachella Valley floor below, and that direct exposure to wild desert habitat is the single biggest factor shaping pest pressure here.",
+    sections: [
+      {
+        heading: "Why are scorpions such a common problem in Yucca Valley?",
+        body: "Yucca Valley's position against open desert scrub, much of it bordering Joshua Tree National Park, means scorpions have an unbroken path from wild habitat into residential yards. Scorpions hunt at night and spend daylight hours sheltered under rocks, woodpiles, landscaping timbers, and any debris that offers cover from the desert sun. As summer heat intensifies, the cooler, damper conditions inside a house, garage, or crawl space become more attractive than the baking desert surface outside, which is when homeowners tend to notice more indoor sightings. Sealing gaps around doors, weep holes, and utility penetrations reduces entry, and clearing woodpiles, rock piles, and debris away from the foundation removes the daytime shelter scorpions rely on. Because several regional scorpion species can deliver a painful sting, professional treatment around the foundation and entry points is worth prioritizing over relying on exclusion alone.",
+      },
+      {
+        heading: "How dangerous are black widow spiders around Yucca Valley homes?",
+        body: "Black widow spiders are well established throughout the high desert surrounding Yucca Valley, and their preference for dark, undisturbed spaces means garages, sheds, stacked storage, woodpiles, and block wall gaps are where they show up most. They build irregular, low-hanging webs and tend to stay near a single shelter site rather than wandering, which makes them predictable to find but easy to miss until a hand reaches into the wrong corner. Their bite is medically significant, delivering a neurotoxic venom that can cause serious muscle pain and cramping, and children, older adults, and pets are at greater risk from a bite than a healthy adult. Reducing clutter near the house, shaking out gloves and stored items before use, and having a perimeter treatment done on garages and outbuildings are the most effective ways to cut down on risk without hand-searching every possible hiding spot.",
+      },
+      {
+        heading: "What are the stick nests showing up around my Yucca Valley property?",
+        body: "Those are almost certainly pack rat nests, sometimes called woodrat nests, and they are common wherever desert scrub meets a fence line, shed, parked vehicle, or landscaped yard in Yucca Valley. Pack rats collect sticks, cactus pieces, and any available debris into a large mounded nest that can sit against a structure for years if left undisturbed, and they will readily use the underside of a vehicle or the inside of an outbuilding as a nest base. Beyond the mess, pack rats gnaw wiring and hoses, causing real damage to vehicles and equipment left in place, and an established nest gives shelter to other pests, including black widow spiders, that benefit from the same undisturbed cover. Removing an active nest requires care since the animal will defend it, and the site should be cleared and sealed, or a new pack rat tends to move into the same spot within a season.",
+      },
+    ],
+    prevention: [
+      "Clear woodpiles, rock piles, and debris away from the foundation, since scorpions shelter under exactly that kind of daytime cover before moving toward the house at night.",
+      "Seal gaps around doors, weep holes, and utility penetrations, the main entry points scorpions and pack rats use to get from open desert scrub into a garage or crawl space.",
+      "Shake out gloves, shoes, and stored items before use in garages and sheds, where black widow spiders build their webs in undisturbed corners.",
+      "Remove active pack rat stick nests from against fences, sheds, and parked vehicles promptly, since the nests shelter other pests and the rats gnaw wiring and hoses.",
+      "Fix leaking hose bibs and irrigation lines, the main moisture sources that draw subterranean termites to high desert properties with limited natural rainfall.",
+    ],
+    costNote:
+      "Yucca Valley pest pricing reflects the high desert San Bernardino County market, and most homes here do better on a quarterly service schedule than the standard bi-monthly plan common in coastal California, given the intensity of scorpion and spider pressure through the warm months. Standard quarterly service typically runs $150 to $300 per visit, with pack rat nest removal or termite work quoted separately after inspection. Every Yucca Valley inspection is free.",
+    faqs: [
+      {
+        question: "Why does Yucca Valley have more scorpions than nearby desert towns?",
+        answer:
+          "A large share of Yucca Valley borders open, undeveloped desert scrub directly, including the edge of Joshua Tree National Park along the town's southern boundary. That direct connection between wild habitat and residential lots gives scorpions an easier path into yards and garages than in towns with more distance between homes and open desert.",
+      },
+      {
+        question: "Are the spiders in Yucca Valley dangerous?",
+        answer:
+          "Black widow spiders, established throughout the high desert around Yucca Valley, deliver a medically significant bite and should be taken seriously, particularly around children, older adults, and pets. Desert recluse spiders are also present in the region. Most spider bites are avoidable by clearing clutter and checking stored items before reaching into dark corners.",
+      },
+      {
+        question: "Why do I need quarterly pest service instead of bi-monthly in Yucca Valley?",
+        answer:
+          "The high desert's intense seasonal swing, scorching summer days followed by cold nights, keeps scorpions, spiders, and rodents pushing toward shelter for a longer stretch of the year than in milder coastal California climates. A quarterly schedule matches that extended activity window better than the bi-monthly service that works fine in cooler parts of the state.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Selma", slug: "selma", stateSlug: "california" },
+      { name: "Grass Valley", slug: "grass-valley", stateSlug: "california" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Yucca Valley, CA | Scorpions & Spiders",
+    metaDescription:
+      "Yucca Valley pest control for scorpions, black widow spiders, pack rats and termites. High desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "windsor",
+    name: "Windsor",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~25,800",
+    county: "Sonoma County",
+    climate: "mediterranean",
+    climateDriver:
+      "Windsor sits in the Russian River Valley wine country of southern Sonoma County, surrounded by more than 30 wineries and vineyards within five miles. The cool-climate Mediterranean pattern here, warm dry summers moderated by marine air and wet winters, keeps grapes ripening slowly through the fall, which extends the window when yellowjackets and other wasps are drawn to ripening and fallen fruit around town.",
+    topPests: ["Yellowjackets", "Argentine ants", "Carpenter ants", "Roof rats"],
+    pestProfile: [
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, worst August through October",
+        note: "Yellowjacket colonies around Windsor build through summer and peak just as the surrounding vineyards approach harvest, when ripening and fallen wine grapes give foraging workers a concentrated sugar source. Nests near patios, tasting room courtyards, and backyard fruit trees get noticeably more defensive as the season progresses.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst in the dry summer months",
+        note: "Argentine ants trail out from vineyard soil and landscaped yards during Windsor's dry summer stretch, heading indoors toward kitchens and bathrooms once the ground moisture drops. Colonies span multiple properties, so a treated kitchen counter gets reinvaded within days unless the outdoor trail is addressed.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, swarms in late spring",
+        note: "Carpenter ants nest in moisture-softened wood common around Windsor's older farmhouses and oak-shaded properties. They excavate rather than eat the wood, so an active colony inside a wall or eave can go unnoticed until winged swarmers appear indoors.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in fall",
+        note: "Roof rats move through vineyard trellising and oak canopy around Windsor and climb into attics once the fall rains arrive. Properties bordering vineyard blocks or mature landscaping see steadier rat pressure than lots deeper in town.",
+      },
+    ],
+    localHook:
+      "More than 30 wineries and vineyards sit within five miles of Windsor, and the wine grapes ripening slowly through the cool Russian River Valley growing season stretch the window when yellowjackets swarm ripening and fallen fruit well into October, later than the harvest-driven wasp pressure seen in hotter inland wine regions.",
+    intro:
+      "Pest control in Windsor, CA is tied closely to the wine industry that defines this stretch of the Russian River Valley, with more than 30 wineries and vineyards within five miles of town. The cool-climate growing conditions that make the area's Pinot Noir and Chardonnay possible also mean grapes ripen slowly, which stretches the season when yellowjackets swarm fallen and ripening fruit well into fall. Argentine ants push indoors during the dry summer stretch chasing water, carpenter ants exploit moisture-softened wood in Windsor's older farmhouses and oak-shaded lots, and roof rats move through vineyard trellising toward attics once the winter rains begin. For a town this connected to vineyard and tasting-room tourism, wasp pressure around outdoor seating areas is the pest issue most likely to affect a Windsor property or business directly, especially through the busy fall harvest weekends when tasting rooms see the heaviest foot traffic.",
+    sections: [
+      {
+        heading: "Why do yellowjackets stick around Windsor later in the year than other places?",
+        body: "Windsor sits in a cool-climate wine region, and the same marine-moderated growing season that lets Russian River Valley vineyards produce Pinot Noir and Chardonnay also means the grapes ripen more slowly than in hotter inland wine country. That extended ripening window keeps a food source, fallen and split grapes on the ground between vine rows, available to yellowjacket colonies later into the year, often through September and into October. Colonies that started small in spring can hold hundreds of workers by late summer, and competition for food makes them noticeably more aggressive as the season goes on. Properties near vineyard edges, backyard fruit trees, or outdoor dining areas connected to tasting rooms see the most consistent pressure. A located and removed nest, especially a ground nest near a patio or walkway, is a far better solution than trap lines alone once a colony has reached late-season size.",
+      },
+      {
+        heading: "What is causing carpenter ants in my older Windsor farmhouse?",
+        body: "Windsor's older farmhouse-style homes and oak-shaded properties give carpenter ants what they need most: wood that stays damp longer than it should, usually from a roof leak, a shaded eave, or wood siding close to irrigated landscaping. Carpenter ants excavate galleries through that softened wood to build a nest rather than eating it for food, so a colony can be established and growing inside a wall or porch beam well before any visible sign shows up. Winged swarmers appearing indoors in late spring are usually the first clue that a mature colony is nearby. Because the ants are following moisture rather than food, fixing the underlying leak or drainage problem is as important as any direct ant treatment. Without that fix, a new colony tends to find the same damp wood again within a season or two.",
+      },
+      {
+        heading: "Are Argentine ants a bigger problem for Windsor's wineries or its homes?",
+        body: "Both see pressure, but the reasons differ. Around wineries and tasting rooms, Argentine ants are drawn to sugar sources, spilled wine, fruit residue, and food service areas, and a trail reaching an outdoor tasting patio during a busy summer weekend is a real customer-facing problem. Around homes, the ants are chasing water rather than food during Windsor's dry summer stretch, moving from vineyard and landscaped soil toward kitchen sinks, bathroom pipes, and any consistent moisture source. In both cases the colony extends well beyond the property line, since Argentine ant colonies in this part of California connect across yards and even across adjoining vineyard parcels. Spraying visible trails offers only short-term relief; treating the outdoor trail and nest areas near the foundation, and removing standing food or moisture sources, is what actually reduces the colony's pull toward a building.",
+      },
+    ],
+    prevention: [
+      "Have yellowjacket nests near patios, tasting areas, or backyard fruit trees located and removed by August, before late-season colonies reach their most defensive size.",
+      "Fix roof leaks and improve drainage around shaded eaves on older Windsor farmhouses, since damp wood is what draws carpenter ants into a wall or porch beam.",
+      "Treat exterior Argentine ant trails during the dry summer months rather than spraying indoor sightings alone, since the colony extends well past any single yard or vineyard parcel.",
+      "Pick up fallen fruit from backyard trees through late summer and fall, since rotting fruit is one of the strongest yellowjacket attractants in Windsor's extended wine-country ripening season.",
+      "Trim vine trellising and tree canopy back from the roofline on vineyard-adjacent properties, since roof rats use that cover to reach attics once fall rains begin.",
+    ],
+    costNote:
+      "Windsor pest pricing tracks the broader Sonoma County wine country market. Standard bi-monthly ant and general pest service typically runs $150 to $300 per visit, with commercial wineries and tasting rooms often on a separate service plan for yellowjacket and wasp management during harvest season. A free inspection identifies active pest pressure before any treatment plan is proposed.",
+    faqs: [
+      {
+        question: "Why does Windsor have wasp problems later into the fall than other California towns?",
+        answer:
+          "Windsor sits in a cool-climate wine region where grapes ripen more slowly than in hotter inland areas, which stretches the season when fallen and ripening fruit is available to yellowjacket colonies. That extended food source keeps wasp activity elevated later into September and October than in warmer parts of the state.",
+      },
+      {
+        question: "Do the wineries around Windsor attract more ants to nearby homes?",
+        answer:
+          "The vineyards and landscaped grounds around Windsor's more than 30 nearby wineries provide continuous soil habitat for Argentine ant colonies, which connect across property lines including into adjacent residential areas. Homes bordering vineyard parcels tend to see steadier ant pressure than lots set back from agricultural land.",
+      },
+      {
+        question: "Is it common to find carpenter ant swarms in older Windsor homes?",
+        answer:
+          "Yes, particularly in the town's older farmhouse-style homes and oak-shaded properties, where damp wood from roof leaks or heavy shade gives carpenter ants somewhere to nest. A swarm of winged ants indoors in late spring usually signals an established colony worth locating rather than just clearing the visible ants.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Ukiah", slug: "ukiah", stateSlug: "california" },
+      { name: "Grass Valley", slug: "grass-valley", stateSlug: "california" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Windsor, CA | Wasps, Ants & Rats",
+    metaDescription:
+      "Windsor pest control for yellowjackets, Argentine ants, carpenter ants and roof rats. Sonoma wine country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
