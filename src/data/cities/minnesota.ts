@@ -5136,4 +5136,475 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Fergus Falls, MN pest control for lake-driven mosquitoes, shoreline ticks, lumber-era carpenter ants, and fall mice. Free inspection.",
   },
+  {
+    slug: "red-wing",
+    name: "Red Wing",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~16,700",
+    county: "Goodhue County",
+    climate: "cold-humid",
+    climateDriver:
+      "Red Wing sits on the Mississippi River in Minnesota's Driftless Area, the unglaciated bluff country of southeastern Minnesota, built directly against Barn Bluff, which rises about 400 feet above the river and overlooks Lake Pepin to the south. That river-and-bluff terrain, heavily wooded and humid compared to the open prairie further west, shapes a pest calendar built around fall building invaders and tick habitat tied to the wooded bluffs.",
+    topPests: ["Boxelder Bugs", "Multicolored Asian Lady Beetles", "Blacklegged Ticks", "Cluster Flies", "Big Brown Bats"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation on sun-facing walls",
+        note: "University of Minnesota Extension documents boxelder bugs entering homes each fall seeking overwintering sites, favoring sunny south- and west-facing walls, especially on buildings near boxelder trees common along Red Wing's bluff terrain.",
+      },
+      {
+        name: "Multicolored Asian lady beetles",
+        serviceSlug: "moth-control",
+        activeSeason: "Late September through late October",
+        note: "University of Minnesota Extension notes these beetles fly to buildings between late September and late October once temperatures exceed 65 degrees before the first frost, clustering on sunny building faces, a pattern favored by proximity to the wooded bluffs surrounding Red Wing.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Southeastern Minnesota's Driftless bluff country is one of the state's higher-risk regions for tick exposure, since the humid, lower-elevation hardwood habitat around Red Wing's river valley suits both white-tailed deer and the ticks that travel on them.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "August and September entry",
+        note: "University of Minnesota Extension describes cluster flies overwintering in large clusters in attics and upper walls, with the final generation seeking shelter in August and September, favoring sunny sides and cracks around siding, vents, and chimneys.",
+      },
+      {
+        name: "Big brown bats",
+        serviceSlug: "bat-removal",
+        activeSeason: "Summer maternity roosting, occasional building hibernation",
+        note: "The Minnesota DNR identifies the big brown bat as the state's only species capable of hibernating in buildings as well as caves and mines, and it commonly roosts in buildings, barns, and bridges, a plausible fit for a bluff-and-river town like Red Wing.",
+      },
+    ],
+    localHook:
+      "Red Wing is built directly against Barn Bluff, known as He Mni Can, a roughly 400-foot Driftless Area bluff overlooking the Mississippi River and Lake Pepin, and is the birthplace and headquarters of Red Wing Shoe Company, founded in 1905. That bluff-and-river topography is the direct ecological driver behind the town's tick and bat pressure, since wooded bluff habitat supports both far more than open prairie would.",
+    intro:
+      "Red Wing sits on the Mississippi River in Minnesota's Driftless Area, built directly against the roughly 400-foot Barn Bluff overlooking Lake Pepin. That wooded bluff terrain, unusual for Minnesota's mostly glaciated landscape, shapes a pest calendar tilted toward fall building invaders and tick habitat. Boxelder bugs and multicolored Asian lady beetles both cluster on sun-facing walls each fall, cluster flies work into attics and upper walls in August and September, blacklegged ticks favor the wooded lower-elevation habitat the bluffs provide, and big brown bats, Minnesota's only building-hibernating species, sometimes roost in older structures near the river.",
+    sections: [
+      {
+        heading: "Fall's two building invaders: boxelder bugs and lady beetles",
+        body: "Red Wing's wooded bluff terrain gives both boxelder bugs and multicolored Asian lady beetles more of what they favor in fall than a town on open prairie would. University of Minnesota Extension notes boxelder bugs cluster on sunny south- and west-facing walls before working into cracks and crevices to overwinter, a pattern common wherever boxelder trees grow near buildings, which describes much of Red Wing's bluff-adjacent residential streets. Multicolored Asian lady beetles follow a narrower, more predictable window, flying to buildings between late September and late October once daytime temperatures exceed 65 degrees ahead of the first hard frost, and Extension specifically notes they favor buildings near wooded areas, which fits Red Wing's setting against Barn Bluff more than it would a prairie town further west. Sealing exterior gaps before late September addresses both pests at once. Homes built into the bluff itself, closer to Barn Bluff's wooded slopes than to the open river flat below, tend to see the heaviest concentration of both insects, simply because they sit nearest the wooded habitat both species are drawn to before winter.",
+      },
+      {
+        heading: "Why the Driftless bluffs raise Red Wing's tick exposure",
+        body: "Southeastern Minnesota's Driftless Area, the unglaciated bluff country that includes Red Wing, is flagged by the University of Minnesota's entomology department and the state DNR as one of the higher-risk regions in Minnesota for blacklegged tick exposure. The humid, wooded, lower-elevation hardwood habitat that defines the bluffs around town is exactly the terrain white-tailed deer favor, and the ticks travel with them into yards that back onto any wooded bluff edge. This is a different exposure pattern than a Minnesota town surrounded by open farmland would see, where tick habitat is more scattered. Checking yards specifically along the bluff line, rather than treating the whole property uniformly, tends to catch the highest-risk areas around Red Wing.",
+      },
+    ],
+    prevention: [
+      "Seal exterior wall gaps and cracks before late September, when boxelder bugs and Asian lady beetles both begin seeking shelter.",
+      "Seal attic vents and chimney gaps before August, when cluster flies begin entering structures for the winter.",
+      "Keep grass cut and clear brush along any bluff-adjacent yard edge to reduce blacklegged tick contact.",
+      "Have older homes near the river or bluffs checked for bat entry points, particularly around rooflines and vents.",
+    ],
+    costNote:
+      "Red Wing pest control commonly combines fall exclusion against boxelder bugs, lady beetles, and cluster flies with tick treatment for bluff-adjacent properties through the warm months. Bat entry inspection is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Red Wing get so many lady beetles and boxelder bugs in fall?",
+        answer:
+          "Red Wing's setting against the wooded Barn Bluff gives both pests more of the habitat they favor. University of Minnesota Extension notes multicolored Asian lady beetles specifically favor buildings near wooded areas, flying in between late September and late October before the first frost, while boxelder bugs cluster on sun-facing walls near boxelder trees, common along Red Wing's bluff-adjacent streets.",
+      },
+      {
+        question: "Is Red Wing a higher-risk area for ticks than other Minnesota towns?",
+        answer:
+          "Southeastern Minnesota's Driftless bluff country, which includes Red Wing, is identified as one of the state's higher-risk regions for blacklegged tick exposure. The wooded, humid, lower-elevation terrain around the bluffs suits white-tailed deer, and the ticks that travel on them move into yards backing onto any wooded bluff edge, more so than in a town surrounded by open farmland.",
+      },
+      {
+        question: "Do I need to worry about bats in an older Red Wing home?",
+        answer:
+          "It is worth checking. The Minnesota DNR identifies the big brown bat as the state's only species capable of hibernating in buildings in addition to caves and mines, and it commonly roosts in barns, bridges, and older buildings. A river-and-bluff town like Red Wing, with plenty of older construction, is a reasonable place to check rooflines and vents for entry points.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hastings", slug: "hastings-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Red Wing, MN | Goodhue County Driftless Bluff Country",
+    metaDescription:
+      "Red Wing, MN pest control for boxelder bugs, Asian lady beetles, blacklegged ticks, and cluster flies. Goodhue County Driftless bluff specialists. Free inspection.",
+  },
+  {
+    slug: "north-mankato",
+    name: "North Mankato",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~14,300",
+    county: "Nicollet County",
+    climate: "cold-humid",
+    climateDriver:
+      "North Mankato sits directly across the Minnesota River from Mankato, at the confluence of the Blue Earth and Minnesota rivers in south-central Minnesota. The twin cities have a documented flood history, with major floods in 1881, 1908, 1916, 1951, and 1965 leading to a levee and floodwall system built between 1959 and 1989, and that river-valley setting is the direct driver behind the area's mosquito pressure.",
+    topPests: ["Floodwater Mosquitoes", "House Mice", "Carpenter Ants", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Floodwater mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through summer, tied to rain and flooding",
+        note: "Aedes vexans, the most common mosquito species in Minnesota per the Metropolitan Mosquito Control District, lays eggs on moist soil near water that hatch after flooding or heavy rain, a strong match for a river-valley community with North Mankato's documented flood history.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as temperatures drop",
+        note: "Minnesota's cold climate drives a significant fall and winter mouse invasion pattern statewide, with North Mankato's river-valley neighborhoods seeing the typical seasonal pressure as outdoor temperatures fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer, most active sunset to midnight",
+        note: "University of Minnesota Extension identifies carpenter ants as among the state's largest ants, excavating galleries in moisture-damaged wood, wall voids, and hollow doors, with foraging most active between sunset and midnight.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall entry pattern University of Minnesota Extension documents applies to North Mankato's river-valley boxelder tree stands, a known host source for the insects.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "August and September entry",
+        note: "The same statewide overwintering pattern applies here, with adults entering structures through sunny south- and west-facing walls in late summer.",
+      },
+    ],
+    localHook:
+      "North Mankato sits in the Minnesota River valley directly across from Mankato, protected since the devastating 1965 flood by an Army Corps-built levee and floodwall system with pump stations. That flood-mitigation infrastructure is a genuine local fact tying directly into the river valley's floodwater mosquito pressure, which is different from the pressure a town further from the river would see.",
+    intro:
+      "North Mankato sits in the Minnesota River valley directly across from Mankato, a twin city protected by a levee and floodwall system built after a documented history of major floods stretching back to 1881. That river-valley setting is the direct reason floodwater mosquitoes are a bigger concern here than in a Minnesota town further from a major river. House mice follow the standard statewide fall surge, carpenter ants forage most actively from sunset to midnight through spring and summer, and boxelder bugs and cluster flies both key off the same late-summer shift toward overwintering shelter.",
+    sections: [
+      {
+        heading: "A flood-protected valley and its mosquito pressure",
+        body: "North Mankato's position in the Minnesota River valley, directly across from Mankato at the confluence with the Blue Earth River, gives it a documented flood history stretching from 1881 through 1965, which led to the Army Corps-built levee and floodwall system that protects both cities today. That same river-valley geography, low-lying ground near moving water, is exactly the habitat Aedes vexans, Minnesota's most common mosquito species, needs to breed: eggs laid on moist soil near the river can lie dormant through dry spells until rain or flooding triggers a hatch. This gives North Mankato a mosquito season more tied to rainfall timing than a town on higher, drier ground would experience, which is why reducing standing water in yards close to the river valley matters more here specifically. The levee and floodwall system has prevented serious flooding since 1965, but it manages the river's major surges rather than the smaller pockets of standing water that collect in yards, ditches, and low spots after an ordinary rain, which is exactly the water Aedes vexans depends on.",
+      },
+      {
+        heading: "Carpenter ants and the river valley's building moisture",
+        body: "University of Minnesota Extension identifies carpenter ants as among the largest ants found in the state, and unlike termites they do not eat wood but excavate nesting galleries in sections that have taken on moisture, commonly wall voids, hollow doors, and any wood near a leaking gutter or foundation issue. North Mankato's river-valley setting means more homes sit close enough to the water table or seasonal dampness to give carpenter ants an opening, and Extension notes their foraging is most active between sunset and midnight, which is often when residents first notice activity. Checking for moisture-damaged wood near foundations and rooflines, rather than waiting for visible ants during the day, tends to catch a colony earlier in a river-valley town like this one.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yard containers, gutters, and low drainage areas through spring and summer to reduce floodwater mosquito breeding.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as temperatures drop.",
+      "Check foundations and rooflines for moisture damage that draws carpenter ants, especially near the river valley.",
+      "Seal exterior wall gaps before September, when boxelder bugs and cluster flies both begin seeking overwintering shelter.",
+    ],
+    costNote:
+      "North Mankato pest control often combines mosquito reduction service for river-valley properties through the warm months with fall exclusion against mice, boxelder bugs, and cluster flies. Carpenter ant and moisture inspection is typically bundled with a general assessment. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does North Mankato have more mosquito pressure than some Minnesota towns?",
+        answer:
+          "North Mankato sits in the Minnesota River valley, with a documented flood history going back to 1881 that led to the levee and floodwall system protecting the city today. That low-lying, river-adjacent terrain is prime habitat for Aedes vexans, the state's most common mosquito species, which lays eggs on moist soil that hatch after rain or flooding.",
+      },
+      {
+        question: "Are carpenter ants a bigger issue in North Mankato because of the river?",
+        answer:
+          "The river valley setting means more homes are close enough to seasonal dampness or a higher water table to give carpenter ants the moisture-damaged wood they nest in. University of Minnesota Extension notes they are among the state's largest ants and forage most actively between sunset and midnight, so checking foundations and rooflines for moisture, rather than waiting to see ants during the day, catches problems earlier.",
+      },
+      {
+        question: "When do house mice become a problem in North Mankato?",
+        answer:
+          "Mostly in fall, following Minnesota's statewide pattern of mice moving toward warm structures as outdoor temperatures drop. North Mankato's river-valley neighborhoods see the same seasonal pressure as the rest of south-central Minnesota, and sealing foundation gaps and pipe penetrations before the cold sets in is more effective than trapping mice already established indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mankato", slug: "mankato", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in North Mankato, MN | Nicollet County River Valley",
+    metaDescription:
+      "North Mankato, MN pest control for floodwater mosquitoes, carpenter ants, fall mice, and boxelder bugs. Minnesota River valley specialists. Free inspection.",
+  },
+  {
+    slug: "albert-lea",
+    name: "Albert Lea",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~18,300",
+    county: "Freeborn County",
+    climate: "cold-humid",
+    climateDriver:
+      "Albert Lea, known locally as the Land Between the Lakes, sits between Fountain Lake and Albert Lea Lake in south-central Minnesota, on the Bemis Moraine, the southern edge of the last continental glaciation roughly 10,000 years ago. The adjacent Myre-Big Island State Park includes an esker and oak savanna, prairie, and wetland habitat, and that lake-and-wetland-rich glacial landscape drives a pest calendar centered on mosquito and tick pressure.",
+    topPests: ["Mosquitoes", "American Dog Ticks", "Boxelder Bugs", "Multicolored Asian Lady Beetles", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes (Culex tarsalis)",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer, peaking as standing water warms",
+        note: "The mix of open farmland and lake and wetland habitat around Albert Lea's two lakes is prime habitat for Culex tarsalis, the principal West Nile virus vector mosquito in the western United States, and the Minnesota Department of Health flags this part of the state as carrying elevated West Nile risk.",
+      },
+      {
+        name: "American dog ticks (wood ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through early summer",
+        note: "University of Minnesota Extension documents American dog ticks found in wooded and grassy habitat statewide, most active spring through early summer, and the oak savanna and prairie edge habitat at Myre-Big Island State Park is a classic wood tick environment close to town.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall entry pattern documented by University of Minnesota Extension applies to Albert Lea's lakeside residential streets each September and October.",
+      },
+      {
+        name: "Multicolored Asian lady beetles",
+        serviceSlug: "moth-control",
+        activeSeason: "Late September through late October",
+        note: "University of Minnesota Extension notes these beetles favor buildings near wooded areas, relevant given the oak savanna adjoining town at Myre-Big Island State Park.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Statewide nesting behavior in moisture-damaged wood applies to Albert Lea's lakeside and moisture-prone structures, a known local risk factor.",
+      },
+    ],
+    localHook:
+      "Albert Lea sits on the Bemis Moraine, the southern terminus of the last continental glaciation, directly between two glacially formed lakes, Fountain Lake and Albert Lea Lake, with the Shell Rock River flowing out through Myre-Big Island State Park toward the Iowa border. That moraine and lake geography is a specific, verifiable driver behind both the mosquito and tick pressure the town sees, distinct from a purely open-prairie Minnesota town.",
+    intro:
+      "Albert Lea, known locally as the Land Between the Lakes, sits on the Bemis Moraine between Fountain Lake and Albert Lea Lake in south-central Minnesota, with Myre-Big Island State Park's oak savanna and wetlands bordering town. That glacial lake-and-wetland geography drives elevated mosquito pressure through summer, since Culex tarsalis, the region's primary West Nile vector, favors exactly this mix of open water and farmland edge. American dog ticks are common in the park's oak savanna and prairie edge habitat each spring, boxelder bugs and multicolored Asian lady beetles both cluster on buildings each fall, and carpenter ants take advantage of moisture near the lakeshore through the warmer months.",
+    sections: [
+      {
+        heading: "Why two lakes raise Albert Lea's mosquito and West Nile risk",
+        body: "Albert Lea's defining feature, sitting directly between Fountain Lake and Albert Lea Lake with the wetland-rich Myre-Big Island State Park bordering town, gives Culex tarsalis exactly the mix of open water and adjacent farmland it favors as breeding habitat. The Minnesota Department of Health identifies this mosquito as the state's principal West Nile virus vector, and western and south-central Minnesota, including Freeborn County, carry some of the state's higher documented West Nile risk. This does not mean every mosquito bite in Albert Lea carries risk, but the town's lake-and-wetland geography gives mosquitoes more consistent breeding habitat through the summer than a town surrounded only by farmland or only by forest would have, which is why reducing standing water around the property matters as much as any treatment further from the home.",
+      },
+      {
+        heading: "Myre-Big Island State Park and Albert Lea's tick season",
+        body: "The oak savanna, prairie, and wetland habitat at Myre-Big Island State Park, sitting on the Bemis Moraine at the edge of Albert Lea, is textbook American dog tick habitat, and University of Minnesota Extension documents this species as most active statewide from spring through early summer. Unlike the blacklegged tick, which favors dense hardwood forest, the American dog tick does well in the mixed grassy and wooded edge terrain the moraine and park provide, which means yards backing onto the park or any similar oak savanna edge see the most consistent contact through the season. Checking pets and clothing after time in or near the park, and keeping grass cut short at the property line, are the most direct ways to reduce exposure given how close that habitat sits to town.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yard containers and low drainage areas through summer to reduce Culex tarsalis mosquito breeding.",
+      "Check pets and clothing for American dog ticks after time near Myre-Big Island State Park, especially spring through early summer.",
+      "Seal exterior wall gaps before late September, when boxelder bugs and Asian lady beetles both begin seeking shelter.",
+      "Check lakeside and moisture-prone structures for carpenter ant activity through spring and summer.",
+    ],
+    costNote:
+      "Albert Lea pest control commonly combines mosquito reduction service for lakeside properties through summer with tick treatment for yards near Myre-Big Island State Park. Fall exclusion against boxelder bugs and lady beetles is typically bundled together. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Is West Nile virus a real concern in Albert Lea?",
+        answer:
+          "The Minnesota Department of Health identifies Culex tarsalis as the state's principal West Nile virus vector mosquito, and this species favors the mix of open water and farmland edge that Albert Lea's two lakes and surrounding land provide, with western and south-central Minnesota carrying some of the state's higher documented risk. Reducing standing water around the property through summer is the most direct step homeowners can take.",
+      },
+      {
+        question: "Why are American dog ticks common near Myre-Big Island State Park?",
+        answer:
+          "The park's oak savanna, prairie, and wetland habitat, sitting on the Bemis Moraine at Albert Lea's edge, is favored terrain for American dog ticks, which University of Minnesota Extension documents as most active statewide from spring through early summer. Yards backing onto the park or similar oak savanna edges see the most consistent contact, so checking pets and clothing after time outdoors there is worthwhile.",
+      },
+      {
+        question: "Does living near Albert Lea's lakes increase carpenter ant risk?",
+        answer:
+          "It can. Carpenter ants nest in moisture-damaged wood, and lakeside structures or homes with any dampness near the foundation give them more of an opening than drier ground further from the water. Checking for moisture issues near the lakeshore, rather than waiting for visible ant activity, tends to catch a colony earlier.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Austin", slug: "austin-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Albert Lea, MN | Freeborn County Land Between the Lakes",
+    metaDescription:
+      "Albert Lea, MN pest control for West Nile mosquitoes, American dog ticks, boxelder bugs, and Asian lady beetles. Freeborn County lake country specialists. Free inspection.",
+  },
+  {
+    slug: "marshall-mn",
+    name: "Marshall",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~14,000",
+    county: "Lyon County",
+    climate: "cold",
+    climateDriver:
+      "Marshall is the county seat of Lyon County, sitting on open southwest Minnesota prairie about 93 miles northeast of Sioux Falls, South Dakota. The Redwood River's floodplain begins directly in the city, which caused repeated flooding through the 1940s and 1950s until diversion canals were built between 1961 and 1963, and the exposed, windier prairie terrain here runs a drier, more continental pattern than Minnesota's lake-and-woodland regions further east.",
+    topPests: ["Mosquitoes", "American Dog Ticks", "House Mice", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Mosquitoes (Culex tarsalis)",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer",
+        note: "Open farmland and prairie, exactly Marshall's setting, is the preferred habitat for Culex tarsalis, the primary West Nile virus vector mosquito, and the Minnesota Department of Health flags western Minnesota as carrying elevated West Nile risk.",
+      },
+      {
+        name: "American dog ticks (wood ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through early summer",
+        note: "Present statewide including prairie and grassland habitat, with activity concentrated where farmland meets brushy or grassy corridor land, such as along the Redwood River through Marshall.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as farmland cools",
+        note: "Minnesota's cold-winter climate drives a statewide fall home-invasion pattern, and Marshall's open prairie farmland gives deer mice and white-footed mice substantial outdoor populations to draw from each fall.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall building-entry pattern applies to Marshall, where boxelder trees planted as windbreaks and shade in an otherwise open prairie town provide a local host source.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "August and September entry",
+        note: "The statewide overwintering pattern applies to Marshall's prairie-farmland setting, with adults entering structures through south- and west-facing walls in late summer.",
+      },
+    ],
+    localHook:
+      "Marshall is home to Southwest Minnesota State University and the headquarters of Schwan Food Company, founded by Marvin Schwan, who built a nationwide ice-cream home-delivery business beginning in the 1950s. The Redwood River's floodplain begins directly in the city, historically causing repeated flooding until 1960s-era diversion canals were built, a genuine engineering fact tied directly to the mosquito pressure the open prairie and river corridor create here.",
+    intro:
+      "Marshall is the county seat of Lyon County, an open prairie town in southwest Minnesota where the Redwood River's floodplain begins directly within the city limits. That exposed, more continental prairie setting, drier and windier than Minnesota's lake country further east, still supports real mosquito pressure through summer, since Culex tarsalis favors exactly the open farmland habitat that surrounds Marshall. American dog ticks are common where the Redwood River corridor's brushy edges meet the surrounding prairie, house mice follow the standard statewide fall surge as farmland cools, and boxelder bugs and cluster flies both key off the same late-summer shift toward shelter.",
+    sections: [
+      {
+        heading: "Open prairie and Marshall's West Nile-relevant mosquito habitat",
+        body: "Marshall's setting on open southwest Minnesota prairie is a closer match to Culex tarsalis' preferred habitat than a lake-country or heavily wooded town would be, since this mosquito species specifically favors open farmland rather than dense forest or urban lake shoreline. The Minnesota Department of Health identifies western Minnesota as carrying elevated West Nile virus risk, and the Redwood River's floodplain running directly through Marshall adds a further source of standing and slow-moving water during wet stretches of the season. The city's 1960s-era diversion canals, built after repeated mid-century flooding, manage the flood risk itself but do not eliminate the standing water that collects in yards and low spots after a heavy rain, which is why reducing that water directly on a property still matters through the summer mosquito season.",
+      },
+      {
+        heading: "Ticks along the Redwood River corridor",
+        body: "American dog ticks are present in grassland and prairie habitat across Minnesota, and Marshall's setting, open farmland cut through by the brushy, grassy edges of the Redwood River corridor, provides exactly the mixed terrain this species favors. That corridor runs directly through the city, which means tick habitat sits closer to in-town yards here than it might in a more uniformly open prairie town without a river running through it. Activity concentrates in spring through early summer, and yards backing onto the river corridor or any brushy field edge see the most consistent contact. Keeping grass cut short and clearing brush along those specific boundaries, rather than treating the whole yard the same way, is the more effective approach in a town shaped this directly by a river corridor.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yards and low spots through summer, especially after rain along the Redwood River corridor.",
+      "Keep grass cut and clear brush along the Redwood River corridor and other field edges through spring and early summer.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as farmland cools.",
+      "Seal exterior wall gaps before September, when boxelder bugs and cluster flies both begin seeking shelter.",
+    ],
+    costNote:
+      "Marshall pest control commonly combines mosquito reduction service for river-corridor and farmland-adjacent properties with tick treatment through spring and early summer. Fall exclusion against mice, boxelder bugs, and cluster flies is typically bundled together. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does open prairie make West Nile risk higher around Marshall?",
+        answer:
+          "Culex tarsalis, the primary West Nile virus vector mosquito, specifically favors open farmland rather than dense forest or lake shoreline, and Marshall's setting on southwest Minnesota prairie is close to ideal habitat for it. The Minnesota Department of Health identifies western Minnesota as an elevated West Nile risk area, and the Redwood River's floodplain running through the city adds further standing water during wet stretches.",
+      },
+      {
+        question: "Are ticks a concern in a prairie town like Marshall?",
+        answer:
+          "Yes, particularly near the Redwood River corridor. American dog ticks favor the mixed grassy and brushy terrain where farmland meets a river corridor, and that habitat runs directly through Marshall rather than sitting at the edge of town. Activity concentrates in spring through early summer, so keeping grass cut and brush cleared along the corridor and other field edges reduces contact.",
+      },
+      {
+        question: "How does the Redwood River's flood history affect pest control today?",
+        answer:
+          "The 1960s-era diversion canals built after repeated mid-century flooding manage flood risk but do not eliminate standing water collecting in yards and low spots after heavy rain. That water still supports mosquito breeding through summer, which is why reducing standing water on individual properties remains an important step even with the flood-control infrastructure in place.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Worthington", slug: "worthington", stateSlug: "minnesota" },
+      { name: "Willmar", slug: "willmar-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Marshall, MN | Lyon County Southwest Minnesota Prairie",
+    metaDescription:
+      "Marshall, MN pest control for West Nile mosquitoes, American dog ticks, fall mice, and boxelder bugs. Lyon County prairie specialists. Free inspection.",
+  },
+  {
+    slug: "worthington",
+    name: "Worthington",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~13,900",
+    county: "Nobles County",
+    climate: "cold-humid",
+    climateDriver:
+      "Worthington is the county seat of Nobles County, built entirely around 776-acre Lake Okabena in extreme southwestern Minnesota, at a drainage divide between the Missouri and Mississippi river basins. The city sits within the Prairie Pothole Region, a glacially formed landscape of thousands of shallow wetlands spanning the northern Great Plains, and that unusually dense wetland network gives Worthington heavier mosquito pressure than a typical open-prairie Minnesota town.",
+    topPests: ["Mosquitoes", "House Flies", "American Dog Ticks", "House Mice", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes (multiple species)",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through summer",
+        note: "The Prairie Pothole Region's dense network of shallow wetlands, directly surrounding a town built around a 776-acre lake, is textbook breeding habitat for both floodwater Aedes species and Culex tarsalis, the state's primary West Nile virus vector.",
+      },
+      {
+        name: "House flies and stable flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warm months, tied to livestock and poultry operations",
+        note: "University of Minnesota Extension documents house flies and stable flies breeding in manure, spilled feed, and soiled bedding around livestock and poultry operations, relevant to Worthington's identity as the self-declared Turkey Capital of the World.",
+      },
+      {
+        name: "American dog ticks (wood ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through early summer",
+        note: "Present statewide in grassland and prairie habitat, with the Prairie Pothole Region's mix of wetland edge and open prairie around Worthington providing consistent habitat.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as farmland cools",
+        note: "The statewide cold-climate fall home-invasion pattern applies to Worthington's surrounding farmland, pushing mice toward structures as temperatures drop.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall building-entry pattern applies to Worthington's lakeside and residential streets each September and October.",
+      },
+    ],
+    localHook:
+      "Worthington is built entirely around 776-acre Lake Okabena within a single city, sits in the Prairie Pothole Region, one of the continent's densest historic wetland-complex zones, and carries the self-designated title Turkey Capital of the World with an annual King Turkey Day festival. The lake-in-the-city-limits fact, combined with the pothole-wetland density surrounding town, is a genuine driver of mosquito pressure beyond what a typical prairie town would see.",
+    intro:
+      "Worthington is the county seat of Nobles County, a prairie town built entirely around 776-acre Lake Okabena within the Prairie Pothole Region, one of the continent's densest historic wetland-complex zones. That combination, a city-limits lake plus a dense surrounding network of shallow wetlands, gives Worthington heavier and more sustained mosquito pressure through spring and summer than a typical open-prairie Minnesota town. The town's identity as the self-declared Turkey Capital of the World ties into house fly and stable fly pressure near livestock and poultry operations, American dog ticks favor the wetland-edge and prairie mix around town, and house mice and boxelder bugs both follow the standard statewide fall patterns.",
+    sections: [
+      {
+        heading: "A lake inside the city limits and Worthington's mosquito season",
+        body: "Worthington's defining feature, a 776-acre lake sitting entirely within the city, combined with the Prairie Pothole Region's dense network of shallow wetlands surrounding town, gives it more consistent mosquito breeding habitat through spring and summer than a comparable prairie town without that wetland density. Both floodwater Aedes species, which lay eggs on soil that hatch after rain, and Culex tarsalis, the state's primary West Nile virus vector, which favors open farmland and standing water, find suitable habitat in and around Worthington's combination of lake, wetlands, and surrounding fields. This layered habitat means the mosquito season here runs longer and more consistently than in a town relying on farmland ponds alone, which is why reducing standing water on individual properties, gutters, containers, and low yard spots, remains a meaningful step even with a lake this large nearby.",
+      },
+      {
+        heading: "Turkey Capital of the World and Worthington's fly pressure",
+        body: "Worthington's identity as the self-declared Turkey Capital of the World, celebrated each year at the King Turkey Day festival, reflects a real concentration of poultry and livestock operations in and around Nobles County. University of Minnesota Extension documents house flies and stable flies breeding in manure, spilled feed, and soiled bedding wherever livestock or poultry are kept, with stable flies specifically noted as blood feeders that cause production stress in animals. Properties near any livestock or poultry operation should expect more fly pressure through the warm months than a purely residential in-town property would see, and general sanitation, promptly cleaning up spilled feed and manure, remains the most effective first step regardless of scale.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from gutters, yard containers, and low drainage spots through spring and summer, given the surrounding wetland density.",
+      "Keep grass cut and clear brush at prairie- and wetland-edge yard boundaries through the American dog tick season.",
+      "Clean up spilled feed and manure promptly near any livestock or poultry operation to reduce fly breeding.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as farmland cools.",
+    ],
+    costNote:
+      "Worthington pest control commonly combines mosquito reduction service for lake- and wetland-adjacent properties through summer with fly management for livestock and poultry operations. Fall rodent exclusion is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure heavier in Worthington than a typical prairie town?",
+        answer:
+          "Worthington is built entirely around 776-acre Lake Okabena and sits within the Prairie Pothole Region, one of the continent's densest historic wetland-complex zones. That combination of a city-limits lake and surrounding shallow wetlands gives both floodwater mosquitoes and Culex tarsalis, the primary West Nile vector, more consistent breeding habitat through spring and summer than a town without that wetland density would have.",
+      },
+      {
+        question: "Does Worthington's turkey industry actually affect pest control here?",
+        answer:
+          "Worthington's identity as the Turkey Capital of the World reflects a real concentration of poultry and livestock operations in the area. University of Minnesota Extension documents house flies and stable flies breeding in manure and spilled feed around such operations, so properties near livestock or poultry should expect more fly pressure through warm months than a purely residential in-town property.",
+      },
+      {
+        question: "Are American dog ticks common around Lake Okabena?",
+        answer:
+          "The Prairie Pothole Region's mix of wetland edge and open prairie around Worthington provides consistent American dog tick habitat, with activity concentrated in spring through early summer. Keeping grass cut and clearing brush at yard boundaries near wetland or prairie edges reduces contact through that window.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Marshall", slug: "marshall-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Worthington, MN | Nobles County Prairie Pothole Region",
+    metaDescription:
+      "Worthington, MN pest control for Lake Okabena mosquitoes, livestock flies, American dog ticks, and fall mice. Nobles County specialists. Free inspection.",
+  },
 ];

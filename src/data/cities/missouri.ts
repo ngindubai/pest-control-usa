@@ -5404,4 +5404,451 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Fulton, MO pest control for termites in historic campus buildings, carpenter ants, fall mice, and courthouse-square cockroaches. Free inspection.",
   },
+  {
+    slug: "maryville-mo",
+    name: "Maryville",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~10,600",
+    county: "Nodaway County",
+    climate: "cold-humid",
+    climateDriver:
+      "Maryville sits in far northwest Missouri's dissected till plains, about 40 miles north of St. Joseph, where the One Hundred and Two River runs past town on its way to the Platte River. Northern Missouri's winters run noticeably colder than the southern half of the state, and the surrounding row-crop farmland, much of it tied to Northwest Missouri State University's own working farm at the edge of town, drives a fall pest calendar built around harvest.",
+    topPests: ["House Mice", "Deer Mice", "Cluster Flies", "Boxelder Bugs", "Lone Star Ticks"],
+    pestProfile: [
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September and October surge as fields are harvested",
+        note: "University of Missouri Extension notes mice move toward structures as fields are harvested and temperatures drop in September and October, and Maryville's surrounding row-crop farmland, including Northwest Missouri State's own 448-acre working farm, gives them plenty of outdoor cover to start from.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late summer entry, active on warm winter days",
+        note: "University of Missouri Extension describes cluster fly larvae as earthworm parasites in soil, with adults emerging in late summer to enter structures, often through attics and south-facing walls, then reactivating on mild winter days.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation, most active September",
+        note: "University of Missouri Extension documents nymphs maturing in August and September before aggregating on boxelder and silver maple trees, common along the riparian corridor of the One Hundred and Two River near Maryville.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer, peaking June and July",
+        note: "University of Missouri Extension identifies the lone star tick as one of the state's most common species, with activity peaking in June and July and persisting into a longer season during mild weather.",
+      },
+    ],
+    localHook:
+      "Maryville is home to Northwest Missouri State University, which operates a 448-acre working farm growing corn, soybeans, alfalfa, and hay at the edge of town, a direct tie between the university and the row-crop agriculture that drives the area's fall rodent and cluster fly pressure.",
+    intro:
+      "Maryville sits in far northwest Missouri's dissected till plains, a college and farm town where Northwest Missouri State University's own 448-acre working farm borders the same row-crop fields that surround the rest of town. That agricultural setting drives a fall calendar built around harvest: house mice and deer mice press toward warm structures in September and October, and cluster flies begin working into attics and south-facing walls around the same time. Boxelder bugs aggregate each fall along the One Hundred and Two River's tree-lined banks, and lone star ticks stay active from spring through the June and July peak.",
+    sections: [
+      {
+        heading: "Harvest season and Maryville's fall mouse surge",
+        body: "Maryville's identity as a farm town, reinforced by Northwest Missouri State University's own 448-acre working farm at its edge, means the September and October mouse surge that University of Missouri Extension documents statewide hits harder here than in a town surrounded mostly by developed land. Mice living in the row crops around Maryville move toward the nearest warm structure once corn and soybean fields are harvested and temperatures start dropping, and homes near the farm edge or the One Hundred and Two River corridor see that pressure first. Sealing foundation gaps and pipe penetrations before the harvest window is both cheaper and more effective than trapping mice that have already established themselves indoors for the winter.",
+      },
+      {
+        heading: "Cluster flies and boxelder bugs on the same fall calendar",
+        body: "Cluster flies and boxelder bugs both key off the same late-summer shift in Maryville, though for different reasons. Cluster fly larvae develop as earthworm parasites in the soil around town, and University of Missouri Extension notes the adults emerge in late summer to seek shelter in attics and south-facing walls, then reactivate and drift toward windows on mild winter days, which is often the first sign homeowners notice. Boxelder bugs mature through August and September before aggregating in large numbers on sun-warmed walls, particularly where boxelder and silver maple trees line the One Hundred and Two River near town, then work through small gaps to overwinter. Neither pest damages a structure, but sealing exterior gaps before September addresses both at once. Homeowners often notice cluster flies before boxelder bugs simply because the flies reactivate indoors on any unusually mild winter afternoon, drifting sluggishly toward windows, while boxelder bugs tend to stay put in wall voids until spring warmth draws them back out, which means an autumn sealing pass pays off across a longer stretch of the calendar than either pest alone would suggest.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage door edges before September, when mice press toward structures after harvest.",
+      "Seal attic vents and south-facing wall gaps before late summer to reduce cluster fly and boxelder bug entry.",
+      "Keep grass cut and clear brush near farmland-adjacent yards to reduce lone star tick contact through the June and July peak.",
+      "Check crawlspaces near the One Hundred and Two River corridor for moisture that can draw additional pests.",
+    ],
+    costNote:
+      "Maryville pest control commonly follows a fall-focused plan: rodent exclusion and cluster fly and boxelder bug sealing timed to the September harvest, plus tick treatment for farmland-adjacent yards through summer. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Maryville get such a strong fall mouse surge?",
+        answer:
+          "Maryville is surrounded by row-crop farmland, including Northwest Missouri State University's own 448-acre working farm, and mice living in those fields move toward the nearest warm structure once crops are harvested and temperatures drop in September and October. Homes near the farm edge or the One Hundred and Two River corridor tend to see that pressure earliest.",
+      },
+      {
+        question: "What are the flies that show up on warm days in my Maryville home during winter?",
+        answer:
+          "Likely cluster flies. University of Missouri Extension notes their larvae develop as earthworm parasites in outdoor soil, with adults entering structures through attics and south-facing walls in late summer, then reactivating and drifting toward windows on mild winter days. They do not breed indoors or damage the structure.",
+      },
+      {
+        question: "Are ticks a real concern around Maryville's farmland?",
+        answer:
+          "Yes. University of Missouri Extension identifies the lone star tick as one of the state's most common species, with activity peaking in June and July. Maryville's surrounding farmland and river corridor give ticks steady habitat, so keeping grass cut and brush cleared at yard edges through the season reduces contact.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "St. Joseph", slug: "st-joseph", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Maryville, MO | Nodaway County Northwest Missouri",
+    metaDescription:
+      "Maryville, MO pest control for fall mice, cluster flies, boxelder bugs, and lone star ticks. Nodaway County farm town specialists. Free inspection.",
+  },
+  {
+    slug: "marshall-mo",
+    name: "Marshall",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~13,700",
+    county: "Saline County",
+    climate: "temperate",
+    climateDriver:
+      "Marshall is the county seat of Saline County, sitting on undulating prairie along the Missouri River in central Missouri, about 80 miles east of Kansas City. Saline County's grain-agriculture economy, cemented when the Missouri Pacific Railroad arrived in 1886 and made Marshall a shipping hub, shapes a pest calendar centered on stored grain as much as on structural pests.",
+    topPests: ["Indian Meal Moths", "House Mice", "Boxelder Bugs", "Lone Star Ticks"],
+    pestProfile: [
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in stored grain, most active warm months",
+        note: "University of Missouri Extension identifies the Indian meal moth as the most common stored-grain insect problem statewide, found in the top layer of grain mass and causing webbing and sour-smelling grain, directly relevant to Saline County's grain-shipping economy.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as farmland cools",
+        note: "The same statewide fall invasion pattern University of Missouri Extension documents applies to Marshall, with grain storage and farm structures around town giving mice extra shelter close to food sources.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "University of Missouri Extension's statewide fall aggregation pattern applies to Marshall's prairie town streets, where maple and boxelder shade trees give the insects a fall gathering point before they move indoors.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer, peaking June and July",
+        note: "University of Missouri Extension's statewide seasonal pattern for lone star ticks, spring pickup with a June and July peak, applies to Marshall's prairie and farmland edges.",
+      },
+    ],
+    localHook:
+      "Marshall is home to Missouri Valley College and sits a few miles from Arrow Rock, the historic river town tied to Civil War-era Missouri governor-in-exile Claiborne Fox Jackson. Saline County is regularly described as one of the most fertile agricultural counties in Missouri, and Marshall's status as a grain-shipping hub since the Missouri Pacific Railroad arrived in 1886 is exactly why stored-grain pests are a real local concern rather than a generic farm-town mention.",
+    intro:
+      "Marshall is the county seat of Saline County, a prairie town along the Missouri River that became a grain-shipping hub once the Missouri Pacific Railroad arrived in 1886. That grain economy shapes the local pest calendar in a way most Missouri towns do not share: Indian meal moths are a year-round concern in stored grain, not just a kitchen pantry pest. House mice follow the standard statewide fall surge as farmland cools, boxelder bugs aggregate on Marshall's tree-lined streets each fall, and lone star ticks stay active from spring through their June and July peak.",
+    sections: [
+      {
+        heading: "Stored grain and Marshall's Indian meal moth pressure",
+        body: "Marshall's identity as a grain-shipping hub, a role cemented when the Missouri Pacific Railroad arrived in 1886, gives it a pest concern most Missouri towns do not deal with at the same scale: Indian meal moths in stored grain. University of Missouri Extension identifies this species as the most common stored-grain insect problem in the state, typically found in the top twelve inches of a grain mass, where larvae spin webbing that clumps grain together and produces a sour smell. Farm operations around Marshall are advised to monitor bins monthly through the cooler months and twice monthly from May through October, when moth activity picks up. A homeowner with any grain storage, from a small backyard operation to a larger farm structure, benefits from the same monitoring schedule rather than waiting for a visible infestation.",
+      },
+      {
+        heading: "Mice and boxelder bugs on Marshall's prairie fall calendar",
+        body: "House mice around Marshall follow the same statewide pattern University of Missouri Extension documents, moving toward warm structures as farmland cools each fall, and the town's grain storage and farm outbuildings give them extra shelter close to a food source, which can make the fall surge more persistent here than in a less agricultural town. Boxelder bugs run on a similar calendar but a different motive, aggregating on sun-warmed walls each fall before working through small gaps to overwinter, a pattern common wherever maple and boxelder trees line residential streets, which describes much of Marshall's older prairie-town neighborhoods. Sealing foundation gaps and exterior cracks before fall addresses both pests at the same time, ahead of the season rather than after either one is established indoors.",
+      },
+    ],
+    prevention: [
+      "Monitor grain storage monthly November through April and twice monthly May through October for Indian meal moth activity.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as farmland cools.",
+      "Seal exterior wall gaps before September, when boxelder bugs begin aggregating on sun-warmed walls.",
+      "Keep grass cut and clear brush near farmland-adjacent yards through the June and July lone star tick peak.",
+    ],
+    costNote:
+      "Marshall pest control often includes stored-grain monitoring and treatment alongside standard fall rodent exclusion and boxelder bug sealing. Tick treatment for farmland-edge properties is typically quoted separately through the summer. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why is stored-grain pest control such a specific concern in Marshall?",
+        answer:
+          "Marshall became a grain-shipping hub when the Missouri Pacific Railroad arrived in 1886, and Saline County remains one of Missouri's most fertile agricultural counties. University of Missouri Extension identifies the Indian meal moth as the state's most common stored-grain pest, and any grain storage in or around Marshall benefits from the same monthly or twice-monthly monitoring schedule farm operations use.",
+      },
+      {
+        question: "Does Marshall's grain economy make its mouse problem worse?",
+        answer:
+          "It can. House mice follow the same statewide fall surge documented across Missouri, but Marshall's grain storage and farm outbuildings give them extra shelter close to a food source, which can make the fall pressure more persistent than in a town with less agricultural infrastructure. Sealing foundation gaps before fall is the more effective first step.",
+      },
+      {
+        question: "When are ticks most active around Marshall's farmland edges?",
+        answer:
+          "University of Missouri Extension identifies June and July as the peak for lone star ticks statewide, with activity picking up in spring and sometimes persisting longer during mild weather. Keeping grass cut and brush cleared at the edge of any farmland-adjacent yard through that window reduces contact.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Sedalia", slug: "sedalia", stateSlug: "missouri" },
+      { name: "Jefferson City", slug: "jefferson-city", stateSlug: "missouri" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Marshall, MO | Saline County Missouri River Valley",
+    metaDescription:
+      "Marshall, MO pest control for stored-grain Indian meal moths, fall mice, boxelder bugs, and lone star ticks. Saline County specialists. Free inspection.",
+  },
+  {
+    slug: "west-plains",
+    name: "West Plains",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~12,600",
+    county: "Howell County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Plains is the county seat of Howell County, sitting on the dissected Ozark Plateau near the Arkansas border, roughly 100 miles southeast of Springfield. The karst terrain here, ridges, narrow valleys, sinkholes, caves, and springs, runs warmer and closer to a humid subtropical pattern than northern Missouri's till plains, and that same karst geology is the direct reason for the area's signature pest, the brown recluse spider.",
+    topPests: ["Brown Recluse Spiders", "Cave Crickets", "Ticks", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most encountered in dry undisturbed spaces",
+        note: "The Missouri Department of Conservation identifies the Ozarks, including the West Plains area, as the core of the brown recluse's native Missouri range, favoring dry, cluttered, undisturbed indoor spaces like garages, closets, and storage areas.",
+      },
+      {
+        name: "Cave crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall entry seeking overwintering sites",
+        note: "University of Missouri Extension confirms cave crickets get their name from their natural cave habitat, and the Ozark Plateau's karst terrain around West Plains, riddled with caves and sinkholes, gives them abundant natural habitat close to town before they move into basements and crawl spaces.",
+      },
+      {
+        name: "Ticks (lone star, blacklegged, American dog)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through July, most active",
+        note: "All three species are documented across Ozark woodlands and prairies, most active April through July, giving West Plains a longer and more layered tick season than a single-species town further north.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, March through May",
+        note: "University of Missouri Extension documents statewide spring swarms on warm days following rain, relevant to West Plains' older housing stock built on karst terrain.",
+      },
+    ],
+    localHook:
+      "Grand Gulf State Park, about two dozen miles southeast of West Plains, is a collapsed dolomite cave system known as Missouri's Little Grand Canyon, with a confirmed underground stream that travels nine miles before resurfacing at Mammoth Spring, Arkansas. That karst and cave geology is the same reason West Plains sits at the center of the brown recluse spider's native Missouri range and why cave crickets are a genuine local pest rather than a rare curiosity.",
+    intro:
+      "West Plains is the county seat of Howell County, built on the dissected Ozark Plateau's karst terrain near the Arkansas border, the same geology behind nearby Grand Gulf State Park's collapsed cave system. That karst landscape, riddled with sinkholes, caves, and springs, is the direct reason the brown recluse spider and cave crickets are genuine local concerns here rather than occasional mentions. Three tick species run active from April through July across the surrounding woodlands and prairie, and subterranean termites swarm each spring on warm days following rain.",
+    sections: [
+      {
+        heading: "Why West Plains sits at the center of Missouri's brown recluse range",
+        body: "The Missouri Department of Conservation identifies the Ozarks, the region that includes West Plains and Howell County, as the core of the brown recluse spider's native range in the state. Unlike many nuisance pests, brown recluse spiders favor dry, cluttered, undisturbed indoor spaces such as garages, closets, storage boxes, and rarely used clothing, which means they can go unnoticed for long stretches until someone reaches into the wrong space. This is not a claim that every West Plains home has an infestation, but the region's status as the species' core Missouri range makes routine decluttering, shaking out stored items before use, and professional inspection of garages and outbuildings more worthwhile here than in a Missouri town outside the Ozarks.",
+      },
+      {
+        heading: "Cave crickets and the karst terrain underneath West Plains",
+        body: "West Plains sits on genuine karst terrain, the same dissolved-limestone landscape that produces Grand Gulf State Park's collapsed cave system a couple dozen miles southeast, and University of Missouri Extension confirms cave crickets are named for exactly this kind of natural cave habitat. The insects move from that underground habitat into basements, crawl spaces, and cellars each fall as they seek overwintering sites, which is a distinct pattern from the boxelder bugs and stink bugs that dominate fall pest activity in most of the state. They do not bite or damage a structure, but their sudden jumping movement in a dark basement is often mistaken for something more serious. Sealing basement and crawlspace entry points before fall reduces how many make it indoors from the surrounding karst ground. Grand Gulf's dye-traced underground stream, confirmed to travel nine miles before resurfacing at Mammoth Spring, Arkansas, is a useful illustration of just how connected the ground beneath West Plains really is: the same porous limestone network that carries water that far also gives cave crickets a much larger range to move through than a homeowner might assume from a single basement sighting.",
+      },
+    ],
+    prevention: [
+      "Declutter garages, closets, and storage areas, and shake out stored items before use, to reduce brown recluse contact.",
+      "Seal basement and crawlspace entry points before fall, when cave crickets move indoors from the surrounding karst terrain.",
+      "Keep grass cut and clear brush at woodland edges through the April to July tick season, given three active species locally.",
+      "Have older, karst-terrain homes inspected each spring for termite swarms following warm, rainy days.",
+    ],
+    costNote:
+      "West Plains pest control commonly combines brown recluse and cave cricket treatment for garages, basements, and storage areas with tick treatment for wooded properties through spring and summer. Termite inspection is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really more common in West Plains than elsewhere in Missouri?",
+        answer:
+          "The Missouri Department of Conservation identifies the Ozarks, which includes West Plains and Howell County, as the core of the brown recluse spider's native range in the state. They favor dry, cluttered, undisturbed spaces like garages and storage areas, so decluttering and shaking out stored items before use are worthwhile habits here specifically.",
+      },
+      {
+        question: "Why do cave crickets show up in West Plains basements every fall?",
+        answer:
+          "West Plains sits on karst terrain, the same dissolved-limestone geology that produces nearby Grand Gulf State Park's cave system. University of Missouri Extension confirms cave crickets are named for this natural cave habitat, and they move from that underground environment into basements and crawl spaces each fall seeking overwintering shelter. They do not bite or cause damage.",
+      },
+      {
+        question: "Why does West Plains have three tick species instead of one or two?",
+        answer:
+          "The Ozark region's mix of woodlands and prairie supports the lone star, blacklegged, and American dog tick, all documented as active April through July in this part of the state. That layering gives West Plains a longer, more varied tick season than a Missouri town with fewer habitat types nearby, which is why yard-edge treatment through the full spring-to-summer window matters more here.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Poplar Bluff", slug: "poplar-bluff", stateSlug: "missouri" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in West Plains, MO | Howell County Ozark Karst",
+    metaDescription:
+      "West Plains, MO pest control for brown recluse spiders, cave crickets, ticks, and spring termite swarms. Howell County Ozark specialists. Free inspection.",
+  },
+  {
+    slug: "nevada",
+    name: "Nevada",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~8,300",
+    county: "Vernon County",
+    climate: "temperate",
+    climateDriver:
+      "Nevada is the county seat of Vernon County, sitting on the Osage Plains in west-central Missouri near the Kansas border, the southernmost of the state's tallgrass-prairie regions. The open, flat-to-gently-rolling prairie terrain, with scattered blackjack oak groves rather than dense forest, shapes a pest calendar leaning toward prairie-soil pests like moles and voles alongside the usual statewide fall invaders.",
+    topPests: ["Moles", "Voles", "House Mice", "Ticks", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Moles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, most damage visible spring and fall",
+        note: "University of Missouri Extension distinguishes mole tunneling, which upheaves soil and browns grass from root disturbance, from vole damage, and the Osage Plains' prairie soil around Nevada gives moles ample ground to tunnel through.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, damage most visible after winter",
+        note: "University of Missouri Extension notes voles often exploit existing mole tunnels rather than digging their own, so a Nevada lawn with mole activity is also a candidate for vole runway damage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as farmland cools",
+        note: "The statewide fall invasion pattern University of Missouri Extension documents applies to Nevada's surrounding prairie farmland, pushing mice toward structures as temperatures drop.",
+      },
+      {
+        name: "Ticks (lone star, deer, American dog)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer, peaking April through July",
+        note: "Missouri Department of Conservation documents ticks present in both woodland and prairie habitat regionally, including the reconstructed tallgrass prairie land around Nevada.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall aggregation pattern University of Missouri Extension documents applies to Nevada's residential streets each September.",
+      },
+    ],
+    localHook:
+      "Nevada is historically known as the Bushwhacker Capital of Missouri, after Union militia burned nearly the entire town in May 1863 during the Civil War, and is home to Cottey College, founded in 1884. The Osage Plains prairie soil that surrounds Nevada, part of ongoing tallgrass prairie restoration research in the region, is the same terrain that gives moles and voles more open ground to work through than a wooded Missouri town would offer.",
+    intro:
+      "Nevada is the county seat of Vernon County, a prairie town on the Osage Plains near the Kansas border, historically known as the Bushwhacker Capital after Union militia burned most of it down in 1863. That open tallgrass prairie setting, rather than dense woodland, shapes a pest calendar leaning toward moles and voles working through the area's prairie soil. House mice follow the standard statewide fall surge as farmland cools, ticks are present in both the woodland and prairie habitat around Nevada from spring through summer, and boxelder bugs aggregate each September.",
+    sections: [
+      {
+        heading: "Moles, voles, and the Osage Plains prairie soil",
+        body: "Nevada's setting on the Osage Plains, Missouri's southernmost tallgrass-prairie region, gives moles and voles more open, workable ground than a wooded or hilly Missouri town would offer. University of Missouri Extension distinguishes the two clearly: moles tunnel through soil in search of grubs and earthworms, upheaving ridges and browning grass through root disturbance, while voles build surface runway systems and gnaw bark at the base of young trees and shrubs, and Extension specifically notes voles often exploit tunnels moles have already dug rather than excavating their own. A Nevada lawn showing ridged tunnels is a reasonable candidate for both pests working the same ground, which makes an inspection that checks for both, rather than assuming one explains all the damage, the more useful first step. The scattered blackjack oak groves that break up the open prairie around Nevada do little to change this pattern, since both moles and voles work the open turf between tree stands rather than the wooded pockets themselves, so a lawn well away from any tree line is not automatically at lower risk.",
+      },
+      {
+        heading: "A prairie town's tick exposure across two habitat types",
+        body: "Nevada's position on the Osage Plains gives it a mix of prairie and woodland habitat that the Missouri Department of Conservation documents as tick habitat, including land tied to ongoing tallgrass prairie restoration research in the area. That layered habitat means Nevada does not get a single, predictable tick season the way a purely wooded or purely open-farmland town might; lone star, deer, and American dog ticks are all present regionally, with activity generally running from spring through the peak summer months. Yards backing onto restored prairie or brushy field edges see more contact than in-town lots further from open ground, which is why checking those specific boundaries, rather than treating the whole yard uniformly, tends to be the more effective approach here.",
+      },
+    ],
+    prevention: [
+      "Inspect lawns for mole tunneling in spring and fall, and check the same areas for vole runway damage after winter.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as farmland cools.",
+      "Keep grass cut and clear brush along prairie- or field-adjacent yard edges through the spring-to-summer tick season.",
+      "Seal exterior wall gaps before September, when boxelder bugs begin aggregating on sun-warmed walls.",
+    ],
+    costNote:
+      "Nevada pest control commonly combines mole and vole treatment for prairie-adjacent lawns with fall rodent exclusion and boxelder bug sealing. Tick treatment for restored-prairie or field-edge properties is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Nevada seem to have both mole and vole damage in the same lawn?",
+        answer:
+          "University of Missouri Extension notes voles often exploit mole tunnels rather than digging their own, so a Nevada lawn with mole activity is also a reasonable candidate for vole damage. The Osage Plains prairie soil around Nevada gives both species more open ground to work through than a wooded or hilly Missouri town would offer, which is why an inspection should check for both rather than assuming one explains all the damage.",
+      },
+      {
+        question: "Is tick exposure different in Nevada compared to a wooded Missouri town?",
+        answer:
+          "Yes, in that Nevada sits on a mix of prairie and woodland habitat rather than one or the other. The Missouri Department of Conservation documents ticks present in both habitat types regionally, including land tied to tallgrass prairie restoration near Nevada, so yards backing onto open prairie or brushy field edges see more contact through the spring-to-summer active season than in-town lots further from open ground.",
+      },
+      {
+        question: "What is the Bushwhacker history and does it affect pest control today?",
+        answer:
+          "Nevada earned the nickname Bushwhacker Capital after Union militia burned nearly the entire town in May 1863 during the Civil War. It does not affect today's pest pressure directly, but it explains why much of Nevada's housing stock postdates 1863, which is a useful context for termite and structural pest risk assessments on older versus newer construction around town.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Carthage", slug: "carthage-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Nevada, MO | Vernon County Osage Plains",
+    metaDescription:
+      "Nevada, MO pest control for moles, voles, fall mice, ticks, and boxelder bugs. Vernon County Osage Plains prairie specialists. Free inspection.",
+  },
+  {
+    slug: "moberly",
+    name: "Moberly",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~13,300",
+    county: "Randolph County",
+    climate: "cold-humid",
+    climateDriver:
+      "Moberly sits in north-central Missouri's Central Dissected Till Plains, a glacial-plains landscape drained toward the Grand, Chariton, and Salt River systems. The town grew explosively after being platted by the North Missouri Railroad in 1866, reaching population 6,070 by 1880 once major railroad repair shops opened, and that railroad-boomtown era left Moberly with an older housing stock that shapes today's structural pest pressure.",
+    topPests: ["Cluster Flies", "Carpenter Ants", "House Mice", "Lone Star Ticks"],
+    pestProfile: [
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late summer entry, active on warm winter days",
+        note: "University of Missouri Extension's statewide life cycle, earthworm-parasite larvae with adults entering structures in late summer, applies to Moberly's till-plains farmland setting, which offers abundant pasture and earthworm habitat.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active at dusk",
+        note: "University of Missouri Extension identifies the black carpenter ant as the largest, most common house-infesting carpenter ant species in the state, nesting in moist or decaying wood such as roof trim, sills, and subflooring, a real concern in Moberly's older railroad-era housing stock.",
+      },
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall surge as farmland cools",
+        note: "The statewide fall invasion pattern applies to Moberly given the farmland surrounding Randolph County, pushing mice toward structures as temperatures drop.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer, peaking June and July",
+        note: "University of Missouri Extension's statewide seasonal pattern for lone star ticks applies to Moberly's farmland edges.",
+      },
+    ],
+    localHook:
+      "Moberly earned the nickname Magic City after explosive growth once the North Missouri Railroad's repair shops opened in 1872, one of the earliest such plants west of the Mississippi. That railroad-boomtown heritage lives on today in Rothwell Park's Magic City Line, a volunteer-built miniature train drawing about 6,000 riders a year, and it is also why so much of Moberly's housing stock is old enough to give carpenter ants real moisture-damaged wood to work with.",
+    intro:
+      "Moberly sits in north-central Missouri's till-plains farm country, a town that grew explosively as a railroad boomtown after the North Missouri Railroad's repair shops opened in 1872, a heritage still celebrated at Rothwell Park's Magic City Line miniature train. That older housing stock is the direct reason carpenter ants, which nest in moisture-damaged wood like roof trim and sills, remain a real concern here. Cluster flies work into attics and south-facing walls each late summer, house mice press toward structures as the surrounding farmland cools in fall, and lone star ticks stay active from spring through their June and July peak.",
+    sections: [
+      {
+        heading: "A railroad boomtown's carpenter ant legacy",
+        body: "Moberly's identity as the Magic City, a nickname earned from the explosive growth that followed the North Missouri Railroad's 1872 repair shop opening, left the town with a genuinely older housing stock than many comparable north-central Missouri towns, and University of Missouri Extension identifies the black carpenter ant as the largest and most common house-infesting carpenter ant species in the state. These ants do not eat wood, but they excavate nesting galleries in moist or decaying sections, most often roof trim, window sills, and subflooring tied to a leaking gutter or roof problem that has kept a section of wood wet longer than it should be. A Moberly home with any of the town's railroad-era construction is a reasonable candidate for an inspection that checks roofline and sill moisture specifically, rather than waiting for visible sawdust or wood damage to appear.",
+      },
+      {
+        heading: "Cluster flies and fall mice on a till-plains farm calendar",
+        body: "Moberly's surrounding till-plains farmland gives both cluster flies and house mice plenty of outdoor habitat to build up from before the fall shift indoors. Cluster fly larvae parasitize earthworms in the area's abundant pasture soil, and University of Missouri Extension notes adults emerge in late summer to enter structures through attics and south-facing walls, then reactivate on mild winter days once inside. House mice living in the surrounding fields follow the same statewide pattern, moving toward warm structures once crops are harvested and temperatures drop each fall, with Randolph County's farmland giving them a substantial outdoor population to draw from. Sealing exterior gaps before the late-summer and fall window addresses both pests before either establishes an indoor presence.",
+      },
+    ],
+    prevention: [
+      "Have railroad-era homes' roof trim, sills, and subflooring inspected for moisture damage that draws carpenter ants.",
+      "Seal attic vents and south-facing wall gaps before late summer, when cluster flies begin entering structures.",
+      "Seal foundation gaps and pipe penetrations before fall, when house mice move toward structures as farmland cools.",
+      "Keep grass cut and clear brush near farmland-adjacent yards through the June and July lone star tick peak.",
+    ],
+    costNote:
+      "Moberly pest control often combines carpenter ant and moisture inspection for older railroad-era homes with fall rodent and cluster fly exclusion. Tick treatment for farmland-edge properties is typically quoted separately through summer. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are carpenter ants a bigger concern in Moberly than in newer Missouri towns?",
+        answer:
+          "Moberly's railroad-boomtown growth in the 1870s and 1880s left it with an older housing stock than many comparable north-central Missouri towns, and University of Missouri Extension identifies the black carpenter ant as the state's largest and most common house-infesting species. It nests in moisture-damaged wood like roof trim and sills, which older construction, especially with any roofline or gutter issues, provides more readily than newer homes.",
+      },
+      {
+        question: "What causes the flies that appear in my Moberly home on warm winter days?",
+        answer:
+          "Most likely cluster flies. University of Missouri Extension documents their larvae developing as earthworm parasites in outdoor soil, common in Moberly's surrounding till-plains pasture land, with adults entering structures through attics and south-facing walls in late summer, then reactivating and drifting toward windows during mild winter weather. They do not breed indoors or cause damage.",
+      },
+      {
+        question: "When should I seal my Moberly home against fall mice?",
+        answer:
+          "Before the harvest window in September and October. House mice living in the farmland surrounding Randolph County move toward the nearest warm structure once crops are harvested and temperatures start dropping, following the same statewide pattern University of Missouri Extension documents. Sealing foundation gaps and pipe penetrations ahead of that window is more effective and less costly than trapping mice already established indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Jefferson City", slug: "jefferson-city", stateSlug: "missouri" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Moberly, MO | Randolph County Missouri",
+    metaDescription:
+      "Moberly, MO pest control for carpenter ants, cluster flies, fall mice, and lone star ticks. Randolph County railroad-town specialists. Free inspection.",
+  },
 ];

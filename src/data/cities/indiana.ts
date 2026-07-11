@@ -6313,4 +6313,446 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Plymouth, IN pest control for Yellow River mosquitoes and ticks, older-home termites, and fall mice. Free inspection.",
   },
+  {
+    slug: "bedford-in",
+    name: "Bedford",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~13,800",
+    county: "Lawrence County",
+    climate: "temperate",
+    climateDriver:
+      "Bedford, the Limestone Capital of the World, sits in south-central Indiana's karst country, roughly 18 miles south of Bloomington, where limestone quarries once supplied stone for the Empire State Building and the Pentagon. That karst topography, rolling hills, sinkholes, underground streams, and caves, exists because limestone erodes faster than the surrounding rock, and it shapes a pest calendar built around cave-associated pests that a till-plain Indiana town simply does not have.",
+    topPests: ["Cave Crickets", "Brown Recluse Spiders", "Subterranean Termites", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Cave crickets (camel crickets)",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round in damp spaces, most noticed in cooler months",
+        note: "Indiana's karst and cave regions, concentrated in south-central Indiana including Lawrence County, are the natural habitat of cave crickets, which move indoors seeking moisture, especially during hot, dry stretches outside.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most encountered in dry undisturbed spaces",
+        note: "Brown recluse spiders are found across the southern half of Indiana, becoming less common moving north, and southern counties like Lawrence County have documented higher populations, favoring dry, cluttered spaces like garages and storage areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Daytime swarms March through May, active year-round underground",
+        note: "Purdue Extension documents statewide spring swarms on warm days, and Bedford's limestone-quarry-era buildings and older housing stock give colonies plenty of wood-to-soil contact.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation, active again on warm late-winter days",
+        note: "Purdue Extension documents boxelder bugs seeking cracks and crevices each fall to overwinter, common across hilly southern Indiana including Bedford's karst terrain.",
+      },
+    ],
+    localHook:
+      "Bedford is built on karst geology, the same porous limestone bedrock that riddles the area with caves and sinkholes and made it the historical center of the Indiana limestone industry, supplying stone for the Empire State Building and the Pentagon. That underground landscape is the direct reason cave crickets are a genuine local pest here rather than an occasional curiosity, and it is also why the original county-seat site near the White River was abandoned in the 1820s over mosquito-borne malaria concerns, an early documented pest-and-health link specific to this location.",
+    intro:
+      "Bedford, known as the Limestone Capital of the World, sits on genuine karst terrain in south-central Indiana, riddled with the caves and sinkholes that made the town's quarrying industry possible. That underground geology is the direct reason cave crickets are a real local concern here, moving indoors from natural cave habitat rather than showing up as an occasional stray. Brown recluse spiders are more established in this part of the state than in northern Indiana, subterranean termites swarm each spring on warm days, and boxelder bugs aggregate every fall before working into wall gaps to overwinter.",
+    sections: [
+      {
+        heading: "Karst geology and Bedford's cave cricket pressure",
+        body: "Bedford's identity as the Limestone Capital of the World is not just a historical label, it describes the actual ground the town sits on: porous limestone bedrock that has dissolved over time into caves, sinkholes, and underground streams. Cave crickets get their name from exactly this kind of habitat, and Indiana's karst regions, concentrated in south-central counties including Lawrence County, are their natural range in the state. They move from that underground environment into basements, crawl spaces, and cellars seeking moisture, particularly during hot, dry stretches when conditions outside push them toward damper indoor ground. They do not bite or damage a structure, but their sudden jumping movement in a dark basement is often mistaken for something more threatening. Sealing basement and crawlspace entry points reduces how many make it indoors from the surrounding karst terrain. The same limestone quarries that made Bedford famous for supplying stone to the Empire State Building and the Pentagon are themselves part of this connected underground network, which is a useful reminder that the cave habitat feeding cricket populations extends well beyond any single visible sinkhole or cave mouth around town.",
+      },
+      {
+        heading: "Why brown recluse spiders are more established in Bedford than farther north",
+        body: "Brown recluse spiders are documented across the southern half of Indiana, with populations becoming less common moving toward the northern part of the state, and Lawrence County, which includes Bedford, sits well within that established southern range. They favor dry, cluttered, undisturbed spaces, garages, storage boxes, closets, and rarely used clothing, which means a spider can go unnoticed for a long stretch until someone reaches into the wrong space. This is not a claim that infestations are common in Bedford homes, but the town's position in the species' established Indiana range makes routine decluttering and shaking out stored items before use more worthwhile here than it would be for a homeowner farther north in the state.",
+      },
+    ],
+    prevention: [
+      "Seal basement and crawlspace entry points to reduce cave crickets moving indoors from the surrounding karst terrain.",
+      "Declutter garages, closets, and storage areas, and shake out stored items before use, to reduce brown recluse contact.",
+      "Have older homes and limestone-era buildings inspected each spring for subterranean termite swarms on warm days.",
+      "Seal exterior wall gaps before fall, when boxelder bugs begin seeking overwintering shelter.",
+    ],
+    costNote:
+      "Bedford pest control commonly combines cave cricket and brown recluse treatment for basements, garages, and storage areas with spring termite inspection for older limestone-era buildings. Fall exclusion against boxelder bugs is often bundled in. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Bedford have cave crickets when other Indiana towns don't see them as often?",
+        answer:
+          "Bedford sits on genuine karst geology, the porous limestone bedrock that gave the town its limestone-quarrying industry and also riddles the area with natural caves and sinkholes. Cave crickets are named for exactly this kind of habitat, and Indiana's karst regions, concentrated in south-central counties like Lawrence County, are their established natural range in the state.",
+      },
+      {
+        question: "Are brown recluse spiders actually common in Bedford?",
+        answer:
+          "Brown recluse spiders are documented across the southern half of Indiana, with Lawrence County, which includes Bedford, sitting within that established range, more so than counties farther north. They favor dry, undisturbed spaces like garages and storage areas, so decluttering and shaking out stored items before use are worthwhile habits specifically in this part of the state.",
+      },
+      {
+        question: "When do termites swarm around Bedford?",
+        answer:
+          "Purdue Extension documents statewide subterranean termite swarms occurring during the day between March and May, though colonies remain active underground essentially year-round. Bedford's limestone-quarry-era buildings and older housing stock give termites plenty of wood-to-soil contact, so spring inspection after a warm, rainy stretch is a reasonable check for older properties.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bloomington", slug: "bloomington", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bedford, IN | Lawrence County Limestone Karst Country",
+    metaDescription:
+      "Bedford, IN pest control for cave crickets, brown recluse spiders, subterranean termites, and boxelder bugs. Lawrence County karst specialists. Free inspection.",
+  },
+  {
+    slug: "lebanon",
+    name: "Lebanon",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~17,300",
+    county: "Boone County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lebanon sits on the flat-to-gently-rolling Tipton Till Plain in central Indiana, about 29 miles northwest of downtown Indianapolis, glacial terrain built from clay, silt, sand, and gravel deposits up to 350 feet thick in places, with no hills or exposed bedrock unlike Indiana's karst regions further south. The town is also the site of the LEAP Lebanon Innovation and Research District, where Eli Lilly is building a manufacturing campus on more than 600 acres of former farmland, a large-scale construction project that is actively displacing habitat at the edge of town.",
+    topPests: ["Subterranean Termites", "Voles", "Brown Marmorated Stink Bugs", "Nuisance Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms March through June, active year-round underground",
+        note: "Purdue Extension documents statewide spring swarms with year-round subsurface activity, relevant to Lebanon's mix of established neighborhoods and new construction.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, no hibernation",
+        note: "The meadow vole is the most common of Indiana's three vole species, active year-round with no hibernation period, damaging turf and crops via runway and tunnel systems, directly relevant to the till-plain farmland surrounding Lebanon.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "This invasive species, first found in Indiana in Elkhart County in October 2010, is now distributed statewide and invades homes each fall seeking winter shelter, and is also a polyphagous pest of field and garden crops relevant to Lebanon's farm economy.",
+      },
+      {
+        name: "Nuisance ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Fall home invasion",
+        note: "The statewide fall home-invader pattern Purdue Extension documents applies to Lebanon, with ground disturbance from the LEAP district's large-scale construction a plausible added driver of nuisance-pest pressure as habitat is displaced nearby.",
+      },
+    ],
+    localHook:
+      "Lebanon is the site of the LEAP Lebanon Innovation and Research District, where Eli Lilly is building a manufacturing campus with a planned investment north of 18 billion dollars on more than 600 acres of former farmland, one of the largest active construction projects in the state. Large-scale ground disturbance and new construction of this kind is a documented driver of increased nuisance-pest and rodent pressure as displaced habitat pushes animals toward the nearest cover, a genuinely current, location-specific factor no generic Indiana town page would have.",
+    intro:
+      "Lebanon sits on the flat, glacial Tipton Till Plain in central Indiana, a farm town now also home to the LEAP Lebanon Innovation and Research District, where Eli Lilly is building a manufacturing campus on more than 600 acres of former farmland at the edge of town. That mix of established till-plain agriculture and active large-scale construction shapes the local pest picture: subterranean termites swarm each spring across the county, meadow voles work Lebanon's farmland year-round without a winter pause, brown marmorated stink bugs gather each fall since their 2010 Indiana arrival, and nuisance ants press into structures as cooler weather sets in.",
+    sections: [
+      {
+        heading: "The LEAP district's construction and Lebanon's nuisance-pest pressure",
+        body: "Lebanon's identity as a quiet till-plain farm town is shifting fast: the LEAP Lebanon Innovation and Research District is converting more than 600 acres of former farmland at the edge of the city into a manufacturing campus for Eli Lilly, with a planned investment north of 18 billion dollars, one of the largest active construction projects in Indiana. Large-scale ground disturbance and new construction on this scale is a documented driver of increased nuisance-pest and rodent pressure nearby, since animals displaced from converted farmland move toward the nearest remaining cover, often established residential neighborhoods bordering the project. This is a genuinely current factor specific to Lebanon right now, not a permanent feature of the town, but it means homeowners near the LEAP district's boundary should expect more pest pressure through the construction period than a Lebanon property farther from the site.",
+      },
+      {
+        heading: "Meadow voles and Lebanon's till-plain farmland",
+        body: "The meadow vole, the most common of Indiana's three vole species, is active year-round with no hibernation period, which sets it apart from many of the seasonal pests on a typical Indiana pest calendar. Lebanon's surrounding Tipton Till Plain farmland gives voles substantial habitat to build populations in, and they damage turf and crops through surface runway systems and by gnawing bark at the base of young trees and shrubs, damage that is often only noticed well after it has occurred since voles work largely out of sight. Because there is no seasonal pause in vole activity here, monitoring lawns and young plantings periodically throughout the year, rather than only in one season, catches damage earlier in a farmland-adjacent town like Lebanon.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and pipe penetrations, particularly on properties near the LEAP district, where construction is displacing wildlife.",
+      "Monitor lawns and young trees or shrubs periodically year-round for meadow vole runway and girdling damage.",
+      "Seal exterior wall gaps before fall, when brown marmorated stink bugs begin seeking overwintering shelter.",
+      "Have properties inspected each spring for subterranean termite swarms following warm, rainy days.",
+    ],
+    costNote:
+      "Lebanon pest control commonly combines standard fall exclusion and spring termite inspection with additional rodent and nuisance-pest monitoring for properties near the LEAP district's active construction. Vole treatment for farmland-adjacent lawns is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Is the LEAP district construction actually affecting pest pressure in Lebanon?",
+        answer:
+          "Large-scale ground disturbance and new construction, which the LEAP Lebanon Innovation and Research District's more than 600-acre Eli Lilly campus represents, is a documented driver of increased nuisance-pest and rodent pressure nearby, as displaced wildlife moves toward the nearest remaining cover. Homeowners closer to the project boundary should expect more pressure through the construction period than those farther away.",
+      },
+      {
+        question: "Why don't meadow voles slow down in winter around Lebanon?",
+        answer:
+          "The meadow vole, Indiana's most common vole species, does not hibernate and stays active year-round, which is different from many seasonal pests on the typical Indiana pest calendar. Lebanon's surrounding till-plain farmland gives voles substantial habitat, and their runway and girdling damage often goes unnoticed until well after it occurs, so periodic monitoring throughout the year catches problems earlier than a single seasonal check.",
+      },
+      {
+        question: "When did brown marmorated stink bugs first show up in Indiana?",
+        answer:
+          "This invasive species was first documented in Indiana in Elkhart County in October 2010 and has since spread statewide, including central Indiana counties like Boone County. It invades homes each fall seeking winter shelter and is also a polyphagous pest of field and garden crops, relevant to farmland around Lebanon.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Zionsville", slug: "zionsville", stateSlug: "indiana" },
+      { name: "Indianapolis", slug: "indianapolis", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lebanon, IN | Boone County Central Indiana",
+    metaDescription:
+      "Lebanon, IN pest control for subterranean termites, meadow voles, fall stink bugs, and nuisance ants. Boone County till-plain specialists. Free inspection.",
+  },
+  {
+    slug: "jasper",
+    name: "Jasper",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~17,000",
+    county: "Dubois County",
+    climate: "hot-humid",
+    climateDriver:
+      "Jasper, known as the Wood Capital of the World, sits along the Patoka River in southwestern Indiana's gently rolling, unglaciated hill country, a legacy of 19th-century German immigration that built the town's furniture manufacturing base. The river-and-floodplain setting plus the region's concentration of wood-processing industry, Kimball International, Jasper Group, and MasterBrand Cabinets among the major employers, shapes a pest calendar tilted toward wood-destroying insects and river-adjacent mosquitoes.",
+    topPests: ["Powderpost Beetles", "Carpenter Ants", "Subterranean Termites", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Powderpost beetles",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Emerging late winter through early summer",
+        note: "Purdue Extension identifies powderpost beetles, especially the Lyctus species that attacks hardwood sapwood like oak, hickory, ash, and walnut, as second only to termites among wood-destroying insects in Indiana, a directly relevant concern given Jasper's furniture manufacturing base.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Purdue Extension documents carpenter ants nesting in wood with elevated moisture content, leaving telltale sawdust piles, relevant to both Jasper's wood-industry economy and the river-adjacent moisture common near the Patoka.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "The same statewide spring swarm pattern applies to Jasper's older housing stock and downtown wood-frame buildings.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "July through October, several West Nile-relevant species",
+        note: "The Patoka River and its associated floodplain and slow-moving water create breeding habitat, and Purdue Extension documents several Culex species implicated in West Nile virus transmission active in this window.",
+      },
+    ],
+    localHook:
+      "Jasper is known as the Wood Capital of the World for its concentration of furniture manufacturers, a legacy of 19th-century German Catholic immigration actively recruited by Father Joseph Kundek from Germany's Black Forest region in the 1830s and 1840s. That wood-processing economic base is a genuine, verifiable tie to wood-destroying-pest pressure, powderpost beetles and carpenter ants specifically, that a generic Indiana town page would not have any real reason to mention.",
+    intro:
+      "Jasper, the Wood Capital of the World, sits along the Patoka River in southwestern Indiana's unglaciated hill country, home to a concentration of furniture manufacturers tracing back to 19th-century German immigration. That wood-processing identity is directly relevant to the town's pest picture: powderpost beetles, which Purdue Extension ranks second only to termites among Indiana's wood-destroying insects, are a real concern for hardwood-heavy construction here. Carpenter ants take advantage of the same river-adjacent moisture, subterranean termites swarm each spring across the older downtown, and mosquitoes breed in the Patoka's floodplain from July through October.",
+    sections: [
+      {
+        heading: "Why powderpost beetles matter more in a furniture-manufacturing town",
+        body: "Jasper's identity as the Wood Capital of the World, home to Kimball International, Jasper Group, and MasterBrand Cabinets among other furniture and wood-products manufacturers, means the town has an unusually high concentration of finished and unfinished hardwood in circulation, in homes, in storage, and in transit through local industry. Purdue Extension ranks powderpost beetles, particularly the Lyctus species that specifically attacks hardwood sapwood like oak, hickory, ash, and walnut, as second only to termites among Indiana's wood-destroying insects, and they emerge from late winter through early summer, often from wood that looked sound when it was brought indoors. A homeowner in Jasper with hardwood furniture, flooring, or trim sourced locally has a genuine, above-average reason to have any small exit holes or fine powder near wood surfaces checked rather than dismissed.",
+      },
+      {
+        heading: "Carpenter ants and the Patoka River's moisture",
+        body: "Carpenter ants do not eat wood, but Purdue Extension documents them nesting specifically in wood with elevated moisture content, leaving behind the telltale sawdust piles that distinguish their activity from powderpost beetle damage. Jasper's position along the Patoka River gives a meaningful share of the town's older housing and downtown buildings more exposure to river-adjacent dampness than a Dubois County property farther from the water, and that moisture is exactly what carpenter ants are looking for when choosing a nesting site. Combined with the town's wood-industry economy, which puts more raw and finished lumber in circulation locally than a typical Indiana town, distinguishing a carpenter ant sawdust pile from powderpost beetle frass is a genuinely useful first step before deciding on treatment. The town's German Catholic settlement history, dating to Father Joseph Kundek's 1830s and 1840s recruitment efforts, also left Jasper with a downtown built up over nearly two centuries, giving both pests plenty of older wood to work with regardless of which one turns out to be responsible for a given piece of damage.",
+      },
+    ],
+    prevention: [
+      "Check hardwood furniture, flooring, and trim for small exit holes or fine powder that indicate powderpost beetle activity.",
+      "Inspect river-adjacent and older downtown buildings for moisture damage and sawdust piles that indicate carpenter ants.",
+      "Have properties inspected each spring for subterranean termite swarms following warm, rainy days.",
+      "Empty standing water near the Patoka River floodplain from July through October to reduce mosquito breeding.",
+    ],
+    costNote:
+      "Jasper pest control commonly combines wood-destroying insect inspection, covering both powderpost beetles and carpenter ants given the town's wood-industry base, with spring termite service and floodplain mosquito reduction through summer and fall. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are powderpost beetles a bigger concern in Jasper than elsewhere in Indiana?",
+        answer:
+          "Jasper's identity as the Wood Capital of the World means an unusually high volume of finished and unfinished hardwood moves through the town via its furniture manufacturers. Purdue Extension ranks powderpost beetles, especially the Lyctus species that attacks hardwood sapwood like oak and walnut, as second only to termites among Indiana's wood-destroying insects, and they can emerge from wood that looked sound when it arrived.",
+      },
+      {
+        question: "How do I tell carpenter ant damage apart from powderpost beetle damage in Jasper?",
+        answer:
+          "Carpenter ants leave telltale sawdust piles from excavating galleries in moisture-damaged wood, while powderpost beetles leave small round exit holes and a finer powder from boring into hardwood sapwood. Jasper's river-adjacent moisture from the Patoka gives carpenter ants an edge in older buildings near the water, while the town's furniture-industry hardwood gives powderpost beetles more material to work with generally.",
+      },
+      {
+        question: "Is mosquito season longer in Jasper because of the Patoka River?",
+        answer:
+          "The Patoka River's floodplain and slow-moving water create breeding habitat for several Culex species that Purdue Extension links to West Nile virus transmission, with activity documented from July through October. Properties near the river or its floodplain see more consistent mosquito pressure through that window than those farther from the water.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Vincennes", slug: "vincennes", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Jasper, IN | Dubois County Wood Capital of the World",
+    metaDescription:
+      "Jasper, IN pest control for powderpost beetles, carpenter ants, subterranean termites, and Patoka River mosquitoes. Dubois County specialists. Free inspection.",
+  },
+  {
+    slug: "washington-in",
+    name: "Washington",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~12,500",
+    county: "Daviess County",
+    climate: "hot-humid",
+    climateDriver:
+      "Washington is the county seat of Daviess County in southwestern Indiana, sitting along the East Fork White River in low-lying river-bottomland terrain distinct from the hillier ground around Jasper or Bedford. Daviess County's boundaries are defined by the West and East forks of the White River, and the county is also home to Indiana's fourth-largest Amish settlement, established in 1868, which shapes both the agricultural landscape and structural pest exposure around town.",
+    topPests: ["Mosquitoes", "Voles", "Brown Marmorated Stink Bugs", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer through early fall",
+        note: "The river-bottomland terrain along the White River forks creates flood-water and slow-moving-stream breeding habitat, the kind of habitat Purdue Extension flags as favoring several Indiana mosquito species.",
+      },
+      {
+        name: "Voles and field mice",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round",
+        note: "Daviess County's heavily agricultural land, including its traditional Amish farms with smaller-scale, horse-drawn operations and barns, is documented rodent and vole habitat statewide.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "This statewide fall home-invader and field-crop pest is relevant given Daviess County's substantial row-crop agriculture.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "The statewide spring swarm pattern Purdue Extension documents applies to Washington's river-bottomland housing stock.",
+      },
+    ],
+    localHook:
+      "Washington and Daviess County are home to Indiana's fourth-largest Amish settlement, established in 1868, which still relies on horse-drawn equipment and smaller, diversified farms with traditional barns rather than large mechanized operations. That distinct agricultural land-use pattern, smaller barns, livestock, less large-scale mechanization, is a genuine, sourced local differentiator for structural and rodent pest patterns that a generic Indiana farm-town page would not capture.",
+    intro:
+      "Washington is the county seat of Daviess County in southwestern Indiana, built along the East Fork White River in low, river-bottomland terrain that sits apart from the hillier ground found around Jasper and Bedford further south. The county is home to Indiana's fourth-largest Amish settlement, established in 1868, which keeps smaller, traditional farms and barns in the mix alongside larger mechanized operations. That combination shapes the local pest picture: mosquitoes breed in the White River's floodplain through summer, voles and field mice work the county's agricultural land year-round, brown marmorated stink bugs gather each fall, and subterranean termites swarm each spring.",
+    sections: [
+      {
+        heading: "River-bottomland terrain and Washington's mosquito season",
+        body: "Washington's position along the East Fork White River, in the low-lying bottomland terrain that defines much of Daviess County, gives it more consistent flood-water and slow-moving-stream mosquito habitat than the hillier ground found in nearby Jasper or Bedford. Purdue Extension identifies this kind of habitat as favoring several of Indiana's mosquito species, and properties closer to the river or its floodplain see more pressure through the summer than those on higher ground elsewhere in the county. Reducing standing water in yard containers, gutters, and low drainage spots is a meaningful step for river-adjacent properties specifically, since the surrounding floodplain will continue producing mosquitoes regardless of what happens on higher ground farther from the water. Daviess County's boundaries are themselves defined by the West and East forks of the White River converging near the county's southwest corner, which means a larger share of the county's farmable and buildable land sits within reach of one river fork or the other than in a county built around a single waterway.",
+      },
+      {
+        heading: "Amish farm country and Washington's rodent pressure",
+        body: "Daviess County's Amish settlement, Indiana's fourth largest, established in 1868 and still relying on horse-drawn equipment and traditional barns rather than large mechanized operations, gives the county's agricultural land a different structural character than a typical modern farm county. Smaller, diversified farms with livestock and traditional outbuildings are documented rodent and vole habitat, and that pattern holds around Washington regardless of whether a given property is Amish-operated or not, since voles and field mice do not distinguish between farm types once they move toward a structure. Properties near any traditional barn, livestock area, or smaller diversified farm operation in the county should expect the standard seasonal vole and rodent pressure that comes with active agricultural land nearby.",
+      },
+    ],
+    prevention: [
+      "Empty standing water near the White River floodplain through summer to reduce mosquito breeding on river-adjacent properties.",
+      "Monitor farmland-adjacent lawns and outbuildings year-round for vole and field mouse activity.",
+      "Seal exterior wall gaps before fall, when brown marmorated stink bugs begin seeking overwintering shelter.",
+      "Have river-bottomland homes inspected each spring for subterranean termite swarms following warm, rainy days.",
+    ],
+    costNote:
+      "Washington pest control commonly combines mosquito reduction for river-adjacent properties through summer with rodent monitoring for farmland-bordering homes and fall exclusion against stink bugs. Spring termite inspection is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Washington get more mosquito pressure than a hillier Indiana town?",
+        answer:
+          "Washington sits in low-lying river-bottomland terrain along the East Fork White River, which creates flood-water and slow-moving-stream habitat that Purdue Extension flags as favoring several Indiana mosquito species. This is different from the hillier ground found in nearby Jasper or Bedford, so properties closer to the river see more consistent pressure through summer.",
+      },
+      {
+        question: "Does Daviess County's Amish community affect pest pressure around Washington?",
+        answer:
+          "Indiana's fourth-largest Amish settlement, established in 1868 in Daviess County, keeps smaller, traditional farms and barns in the local agricultural mix. That kind of land use is documented rodent and vole habitat, and the pattern applies to any farmland-adjacent property around Washington, regardless of whether it is Amish-operated, since rodents move toward the nearest suitable structure without distinguishing farm type.",
+      },
+      {
+        question: "When should I check for termite swarms in Washington?",
+        answer:
+          "Purdue Extension documents statewide subterranean termite swarms occurring during the day between March and May, though colonies stay active underground year-round. Washington's river-bottomland housing stock gives termites steady wood-to-soil contact, so spring inspection following a warm, rainy stretch is a reasonable check.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Vincennes", slug: "vincennes", stateSlug: "indiana" },
+      { name: "Jasper", slug: "jasper", stateSlug: "indiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Washington, IN | Daviess County White River Valley",
+    metaDescription:
+      "Washington, IN pest control for White River mosquitoes, voles, fall stink bugs, and subterranean termites. Daviess County specialists. Free inspection.",
+  },
+  {
+    slug: "angola",
+    name: "Angola",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~9,400",
+    county: "Steuben County",
+    climate: "cold-humid",
+    climateDriver:
+      "Angola is the county seat, and only incorporated city, of Steuben County in Indiana's extreme northeast, home to more natural glacial lakes than any other Indiana county, roughly 101 in total, formed as glaciers melted 10,000 to 15,000 years ago. Angola borders Pokagon State Park, 1,260 acres bordering Lake James and Snow Lake, and this lake-dense, heavily wooded glacial terrain is climatically distinct from the till-plain and karst regions found elsewhere in the state, with somewhat more lake-effect winter influence given the proximity to the Great Lakes.",
+    topPests: ["Mosquitoes", "Blacklegged Ticks", "Boxelder Bugs", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer",
+        note: "Steuben County's roughly 101 lakes and surrounding wetlands provide prime mosquito breeding habitat, edges of lakes and marshes specifically named by Purdue Extension as habitat, though well-maintained lakes with natural predators are less productive breeding sites than stagnant water.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Blacklegged ticks are established in nearly all Indiana counties but reach their highest documented abundance specifically in northern Indiana, thriving in moist, densely wooded areas with thick leaf litter, exactly matching the wooded lake-shore terrain around Angola and Pokagon State Park.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall home-invader pattern is common around Angola's wooded residential lakefront properties.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "The statewide spring swarm pattern documented by Purdue Extension applies to Angola's older lakeside and downtown housing stock.",
+      },
+    ],
+    localHook:
+      "Angola is the county seat of Steuben County, which has more natural lakes than any other county in Indiana, roughly 101 in total, glacially formed and bordered by Pokagon State Park on Lake James. This lake-dense, heavily wooded glacial terrain is the clearest ecological match in northern Indiana for elevated tick and mosquito pressure tied to lakeshore and woodland habitat, a genuinely distinct local factor from a till-plain or karst Indiana town.",
+    intro:
+      "Angola is the county seat of Steuben County, home to more natural lakes than any other Indiana county and bordered by Pokagon State Park's wooded shoreline on Lake James. That lake-dense, glacially formed terrain, distinct from Indiana's till-plain and karst regions further south, drives elevated mosquito and tick pressure through the warm months. Blacklegged ticks reach their highest documented abundance in northern Indiana, which includes Angola, boxelder bugs aggregate each fall around wooded lakefront properties, and subterranean termites swarm each spring across the older lakeside housing stock.",
+    sections: [
+      {
+        heading: "Why 101 lakes mean more mosquitoes around Angola",
+        body: "Steuben County's roughly 101 natural lakes, more than any other county in Indiana, give Angola and the surrounding area substantially more standing-water habitat than a till-plain or karst county farther south would have. Purdue Extension specifically names lake and marsh edges as mosquito habitat, though it also notes that well-maintained lakes with active natural predators are less productive breeding sites than stagnant water, which means the risk is not uniform across every body of water in the county. Properties on smaller, less-maintained ponds or wetland edges, common throughout the county given its sheer lake density, see more consistent mosquito pressure than those on a larger, actively managed lake like Lake James. Reducing standing water in yard containers and gutters remains a useful step regardless of which type of water body is nearby. These lakes formed as glaciers melted between 10,000 and 15,000 years ago, and that same glacial process left behind the countless smaller depressions and wetland pockets scattered across the county alongside the named lakes, which is part of why mosquito pressure in Steuben County tends to feel more pervasive than in a county with just one or two large water features.",
+      },
+      {
+        heading: "Pokagon State Park and Angola's elevated tick risk",
+        body: "Blacklegged ticks are established across nearly all of Indiana, but they reach their highest documented abundance specifically in the northern part of the state, which includes Steuben County and Angola. They thrive in moist, densely wooded areas with thick leaf litter, and Pokagon State Park's 1,260 acres of wooded shoreline along Lake James and Snow Lake provide almost exactly that habitat directly at Angola's edge. Blacklegged ticks carry Lyme disease along with anaplasmosis, babesiosis, and ehrlichiosis, which makes routine tick checks after time in or near the park more than a minor precaution here. Yards backing onto wooded lakefront property or bordering the park itself see the most consistent exposure through the spring-to-fall active season.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yard containers and gutters through summer, particularly near smaller ponds or wetland edges.",
+      "Check for blacklegged ticks after time in or near Pokagon State Park, especially on wooded lakefront property.",
+      "Seal exterior wall gaps before fall, when boxelder bugs begin seeking overwintering shelter on wooded lakefront homes.",
+      "Have older lakeside and downtown homes inspected each spring for subterranean termite swarms following warm, rainy days.",
+    ],
+    costNote:
+      "Angola pest control commonly combines mosquito reduction for lakefront and pond-adjacent properties through summer with tick treatment for wooded yards near Pokagon State Park. Fall exclusion against boxelder bugs is typically bundled together. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Does Angola's lake density actually increase mosquito risk?",
+        answer:
+          "Steuben County has roughly 101 natural lakes, more than any other Indiana county, and Purdue Extension names lake and marsh edges as mosquito habitat, though well-maintained lakes with natural predators are less productive breeding sites than stagnant water. Properties near smaller, less-maintained ponds or wetland edges tend to see more consistent mosquito pressure than those near a larger, actively managed lake.",
+      },
+      {
+        question: "Why are blacklegged ticks a bigger concern in Angola than farther south in Indiana?",
+        answer:
+          "Blacklegged ticks are established across nearly all of Indiana but reach their highest documented abundance specifically in the northern part of the state, which includes Steuben County. They favor moist, densely wooded areas with thick leaf litter, and Pokagon State Park's wooded shoreline at Angola's edge provides almost exactly that habitat, so yards backing onto the park or wooded lakefront property see the most exposure.",
+      },
+      {
+        question: "Is Pokagon State Park itself a source of pest problems for nearby homes?",
+        answer:
+          "The park's dense woodland and shoreline habitat is well-suited to blacklegged ticks and supports the general mosquito and boxelder bug pressure common to Angola's wooded lakefront properties. This does not mean the park causes an infestation on any specific property, but homes bordering it or similar wooded lakefront terrain should expect more seasonal pest pressure than an in-town property farther from wooded shoreline.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Auburn", slug: "auburn-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Angola, IN | Steuben County Indiana Lake Country",
+    metaDescription:
+      "Angola, IN pest control for lake-country mosquitoes, blacklegged ticks, boxelder bugs, and subterranean termites. Steuben County specialists. Free inspection.",
+  },
 ];

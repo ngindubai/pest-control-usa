@@ -4624,4 +4624,468 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "River Falls, WI pest control for Kinnickinnic River mosquitoes, college-town bed bugs, carpenter ants, and fall mice. Free inspection.",
   },
+  {
+    slug: "portage-wi",
+    name: "Portage",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~10,600",
+    county: "Columbia County",
+    climate: "cold-humid",
+    climateDriver:
+      "Portage sits at the historic overland portage between the Wisconsin River and the Fox River in south-central Wisconsin, the link between the Great Lakes and Mississippi River watersheds first crossed by French explorers in 1673. That river-confluence setting, with documented recurring Wisconsin River flooding, gives Portage a wetter, flood-prone pest calendar than a Wisconsin town on higher, drier ground.",
+    topPests: ["Boxelder Bugs", "Blacklegged Ticks", "Floodwater Mosquitoes", "Cluster Flies", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Mid-summer through fall aggregation",
+        note: "UW Horticulture Extension documents boxelder bugs seeking buildings with heavy southern sun exposure to overwinter, entering through gaps around windows, doors, and foundations.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring onset once temperatures hit 40 to 45 degrees, active through fall",
+        note: "UW research indicates roughly 40 percent of adult blacklegged ticks statewide carry Lyme disease bacteria, and Portage's wooded river corridors along the Wisconsin and Fox rivers give ticks steady forested habitat close to town.",
+      },
+      {
+        name: "Floodwater mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through summer, tied to flooding and rain",
+        note: "Aedes vexans lays eggs in low-lying areas that flood, and Portage's documented recurring Wisconsin River flooding, tracked by the National Weather Service, provides exactly this kind of habitat at the historic river confluence.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late summer and fall entry",
+        note: "Cluster flies enter homes through south- and west-facing walls in late summer and fall, with larvae developing as earthworm parasites outdoors rather than breeding in trash or drains.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Daytime swarms March through May",
+        note: "Wisconsin sits at the documented northern edge of this species' range, confined to the southern half of the state, and Columbia County, which includes Portage, falls within that southern-half range at a slight-to-moderate risk level.",
+      },
+    ],
+    localHook:
+      "Portage is the third-oldest settlement in Wisconsin, built directly on the historic 1.5-mile portage route between the Wisconsin and Fox rivers, with Fort Winnebago garrisoned there from 1828, including a young Lieutenant Jefferson Davis. That river-confluence, flood-prone geography is the direct driver behind Portage's floodwater mosquito pressure, a fact tied specifically to the town's founding location rather than a generic Wisconsin river mention.",
+    intro:
+      "Portage sits at the historic portage route between the Wisconsin and Fox rivers in south-central Wisconsin, the overland link between the Great Lakes and Mississippi River watersheds. That river-confluence setting, with a documented history of Wisconsin River flooding, drives floodwater mosquito pressure through spring and summer beyond what a town on higher ground would see. Boxelder bugs and cluster flies both key off the same late-summer shift toward overwintering shelter, blacklegged ticks are active from spring through fall in the wooded river corridors, and eastern subterranean termites, near the northern edge of their range, swarm each spring in Columbia County.",
+    sections: [
+      {
+        heading: "A river confluence and Portage's flood-driven mosquito season",
+        body: "Portage's identity as the historic portage between the Wisconsin and Fox rivers is not just a historical footnote, it describes the town's actual low-lying, river-adjacent geography, and the National Weather Service maintains documented flooding history for the area. Aedes vexans, the floodwater mosquito species active across Wisconsin, lays its eggs in low-lying ground that can remain dormant through dry spells until rain or river flooding triggers a hatch, which gives Portage a mosquito season more directly tied to river conditions than a town on higher, drier ground would experience. This means the mosquito pressure here can spike after a flooding event in a way that would not happen in a town further from the river confluence, making standing water reduction around the property especially relevant after any significant rain.",
+      },
+      {
+        heading: "Termites near the edge of their Wisconsin range",
+        body: "Wisconsin sits at the documented northern edge of the eastern subterranean termite's range, with USDA Forest Service research confirming colonies are confined to the southern half of the state. Columbia County, which includes Portage, falls within that southern range at a slight-to-moderate risk level, which is meaningfully different from a Wisconsin town farther north where termite activity is essentially absent. Swarms happen during daylight hours between March and May on warm days, and Portage's older housing stock near the historic downtown gives colonies reasonable wood-to-soil contact to work with. This is not the aggressive year-round pressure a Virginia or Missouri homeowner might see, but it is a real, documented risk specific to Portage's position within the state rather than a generic statewide claim.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yard containers and low drainage areas after rain or river flooding, especially through spring and summer.",
+      "Check pets and clothing for blacklegged ticks after time in wooded areas along the Wisconsin or Fox river corridors.",
+      "Seal exterior wall gaps before late summer, when boxelder bugs and cluster flies both begin seeking overwintering shelter.",
+      "Have older downtown homes inspected each spring for subterranean termite swarms, given Columbia County's slight-to-moderate risk level.",
+    ],
+    costNote:
+      "Portage pest control commonly combines flood-timed mosquito reduction service with tick treatment for river-corridor-adjacent yards through the warm months. Spring termite inspection for older homes is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does mosquito pressure spike after flooding in Portage?",
+        answer:
+          "Portage sits at the historic confluence of the Wisconsin and Fox rivers, with a documented flooding history tracked by the National Weather Service. Aedes vexans, the region's floodwater mosquito, lays eggs in low-lying ground that can stay dormant through dry spells until rain or flooding triggers a hatch, so mosquito activity here often follows river conditions more directly than in a town on higher ground.",
+      },
+      {
+        question: "Are subterranean termites really a concern this far north in Wisconsin?",
+        answer:
+          "Wisconsin sits at the documented northern edge of the eastern subterranean termite's range, and USDA Forest Service research confirms colonies are confined to the state's southern half. Columbia County, which includes Portage, falls within that southern range at a slight-to-moderate risk level, so it is a real but more limited concern than in states farther south.",
+      },
+      {
+        question: "How much tick risk is there along Portage's river corridors?",
+        answer:
+          "University of Wisconsin research indicates roughly 40 percent of adult blacklegged ticks statewide carry Lyme disease bacteria, and they become active once spring temperatures reach 40 to 45 degrees. Portage's wooded corridors along the Wisconsin and Fox rivers give ticks steady forested habitat close to town, so checking pets and clothing after time in those areas is a reasonable precaution through the season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Baraboo", slug: "baraboo-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Portage, WI | Columbia County River Confluence",
+    metaDescription:
+      "Portage, WI pest control for floodwater mosquitoes, blacklegged ticks, boxelder bugs, and subterranean termites. Columbia County river-town specialists. Free inspection.",
+  },
+  {
+    slug: "whitewater",
+    name: "Whitewater",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~15,800",
+    county: "Walworth County",
+    climate: "cold-humid",
+    climateDriver:
+      "Whitewater sits within the Southern Kettle Moraine in southeastern Wisconsin, a 120-mile glacial ridge system formed roughly 20,000 years ago where two glacial lobes met, creating numerous kettle depressions, some now lakes. Cravath Lake, a 70-acre millpond built in the 1850s at the town center, sits inside this otherwise natural glacial landscape, and the mixed moraine hills and wooded terrain shape a pest calendar built around both structural wood-destroying pests and tick and wasp pressure.",
+    topPests: ["Carpenter Ants", "Yellowjackets", "Deer Mice", "Brown Marmorated Stink Bugs", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "UW Horticulture Extension identifies carpenter ants as causing more structural damage statewide than any other insect pest including termites, excavating galleries in wood tied to a moisture problem rather than eating the wood itself.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Building through summer, peaking September",
+        note: "UW-Madison's Insect Diagnostic Lab documents yellowjacket nests reaching 3,000 or more workers by September, becoming notably more aggressive as food becomes scarce, relevant to Whitewater's many lakeside parks around Cravath and Whitewater lakes.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall entry as weather cools",
+        note: "Deer mice are common around outbuildings, sheds, and greenbelts in the moraine's mixed woodland and field terrain, moving indoors as weather cools each fall.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "First detected in Wisconsin around 2010, this species is now confirmed in more than 50 counties with strongest presence in south-central and southeastern Wisconsin, squarely including Whitewater's Walworth and Jefferson county location.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Daytime swarms March through May",
+        note: "Walworth and Jefferson counties are well within Wisconsin's documented southern termite range.",
+      },
+    ],
+    localHook:
+      "Whitewater's defining local feature is Cravath Lake, an artificial 1850s millpond built at the confluence of Whitewater Creek and Spring Brook, sitting inside a landscape otherwise shaped by the Southern Kettle Moraine's natural glacial kettle lakes. That contrast, a built millpond within a naturally glaciated moraine landscape, is a genuine local detail tied to the town's mixed lake, wetland, and wooded terrain that drives its carpenter ant, yellowjacket, and tick pressure.",
+    intro:
+      "Whitewater sits within the Southern Kettle Moraine in southeastern Wisconsin, a glacial ridge landscape dotted with kettle lakes, plus the town's own artificial Cravath Lake millpond at its center. That mixed glacial terrain, moraine hills, natural lakes, and wooded edges, shapes a pest calendar centered on carpenter ants, which cause more structural damage statewide than any pest including termites, and on yellowjackets, whose colonies build through summer around the town's lakeside parks. Deer mice press indoors each fall from the surrounding woodland and field terrain, brown marmorated stink bugs are well established given Whitewater's position in the state's strongest-presence zone, and eastern subterranean termites are a real spring concern this far south in Wisconsin.",
+    sections: [
+      {
+        heading: "Carpenter ants and the Kettle Moraine's mixed terrain",
+        body: "UW Horticulture Extension identifies carpenter ants as causing more structural damage statewide than any other insect pest, including termites, and Whitewater's position within the Southern Kettle Moraine, a landscape of natural lakes, wooded ridges, and moisture-holding kettle depressions, gives them plenty of the damp wood they favor for nesting galleries. Unlike termites, carpenter ants do not consume wood, they excavate it, most often in sections already compromised by a moisture problem such as a leaking roofline or gutter, and their presence often signals that underlying issue as much as it signals the ants themselves. Whitewater's mix of older in-town construction and lakeside properties near Cravath Lake and the surrounding moraine terrain both give carpenter ants an opening, which makes checking for moisture damage specifically, not just visible ants, the more useful first step.",
+      },
+      {
+        heading: "Yellowjackets and Whitewater's lakeside parks",
+        body: "UW-Madison's Insect Diagnostic Lab documents yellowjacket colonies growing to 3,000 or more workers by September, becoming markedly more aggressive as natural food sources decline late in the season, and Whitewater's many lakeside parks around both the artificial Cravath Lake and the natural Whitewater Lake in the nearby Kettle Moraine State Forest give ground-nesting colonies exactly the kind of undisturbed outdoor space they need to reach that size undetected. A nest built early in the season near a walking trail or picnic area can go unnoticed until it peaks in September, right when outdoor activity around the lakes is often still high. Checking known outdoor gathering spots, trailheads, and picnic areas for ground-nest activity earlier in summer, before colonies reach their late-season size, is the more effective approach in a town with this much lakeside recreation land.",
+      },
+    ],
+    prevention: [
+      "Check for moisture damage near rooflines, gutters, and foundations, not just visible ants, when assessing carpenter ant risk.",
+      "Inspect lakeside parks, trails, and picnic areas for ground-nesting yellowjacket activity before colonies peak in September.",
+      "Seal foundation gaps and pipe penetrations before fall, when deer mice move indoors from surrounding woodland and fields.",
+      "Seal exterior wall gaps before fall, when brown marmorated stink bugs begin seeking overwintering shelter.",
+    ],
+    costNote:
+      "Whitewater pest control commonly combines carpenter ant and moisture inspection with seasonal yellowjacket monitoring for lakeside properties and fall exclusion against mice and stink bugs. Spring termite inspection is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are carpenter ants considered worse than termites in Whitewater?",
+        answer:
+          "UW Horticulture Extension identifies carpenter ants as causing more structural damage statewide than any other insect pest, including termites. They excavate galleries in wood already compromised by moisture, often from a roofline or gutter issue, and Whitewater's mix of lakeside terrain and older in-town construction gives them plenty of opportunities to find that moisture.",
+      },
+      {
+        question: "Are yellowjackets a bigger problem around Whitewater's lakes?",
+        answer:
+          "The town's lakeside parks around Cravath Lake and nearby Whitewater Lake give yellowjacket colonies undisturbed outdoor ground to build ground nests through summer, and UW-Madison's Insect Diagnostic Lab documents colonies reaching 3,000 or more workers by September, when they become noticeably more aggressive. Checking trails and picnic areas for nest activity earlier in the season, before that late-season peak, is the safer approach.",
+      },
+      {
+        question: "Is Whitewater within the range where brown marmorated stink bugs are established?",
+        answer:
+          "Yes. This invasive species, first detected in Wisconsin around 2010, is now confirmed in more than 50 counties, with its strongest presence in south-central and southeastern Wisconsin, the region that includes Whitewater's Walworth and Jefferson county location. Expect the typical fall aggregation pattern as adults seek overwintering shelter in wall voids and attics.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Fort Atkinson", slug: "fort-atkinson-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Whitewater, WI | Walworth County Kettle Moraine",
+    metaDescription:
+      "Whitewater, WI pest control for carpenter ants, lakeside yellowjackets, fall deer mice, and brown marmorated stink bugs. Kettle Moraine specialists. Free inspection.",
+  },
+  {
+    slug: "platteville",
+    name: "Platteville",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~11,500",
+    county: "Grant County",
+    climate: "cold-humid",
+    climateDriver:
+      "Platteville sits in southwestern Wisconsin's Driftless Area, the region never flattened by Pleistocene glaciation, which retains karst topography: shallow limestone bedrock, caves, sinkholes, springs, and cold streams, plus steep ridges and narrow valleys. The town's 1827 to 1849 lead-mining boom left it riddled with old mine shafts in addition to natural karst caves, and roads in town famously wind to avoid old shafts and steep ravines, a terrain combination that shapes a pest calendar centered on bats and cave-associated insects a flatter Wisconsin town simply would not have.",
+    topPests: ["Big Brown Bats", "Carpenter Ants", "Eastern Subterranean Termites", "Blacklegged Ticks"],
+    pestProfile: [
+      {
+        name: "Big brown bats",
+        serviceSlug: "bat-removal",
+        activeSeason: "Summer maternity roosting, winter hibernation in caves and mines",
+        note: "The Wisconsin DNR identifies the big brown bat as one of four cave-hibernating bat species in the state, using caves, abandoned mines, and building walls and attics for winter hibernation, and Platteville's karst geology plus its own 1840s Bevans lead mine, now the Mining Museum, provide exactly this kind of underground habitat.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Found throughout Wisconsin as the most damaging structural insect pest statewide, relevant to Platteville's many older limestone and wood-frame historic buildings tied to the mining-era downtown.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Daytime swarms March through May",
+        note: "Grant County, which includes Platteville, falls within Wisconsin's documented southern termite range at a slight-to-moderate risk level.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Statewide forested-habitat presence documented by UW research applies to the wooded ridges and valleys of the Driftless Area surrounding Platteville.",
+      },
+    ],
+    localHook:
+      "Platteville's 1827 to 1849 lead boom drew Cornish miners who dug deep, ventilated mines, and the University of Wisconsin-Platteville itself grew out of the 1907 Wisconsin Mining Trade School. The Bevans lead mine from the 1840s is preserved as a walk-through exhibit at the Platteville Mining Museum, and that combination of real underground mine infrastructure plus the Driftless Area's natural karst caves is the strongest bat and wildlife-removal information angle among Wisconsin's karst towns.",
+    intro:
+      "Platteville sits in Wisconsin's Driftless Area, the unglaciated southwestern corner of the state defined by karst topography: caves, sinkholes, springs, and the kind of steep, winding terrain that still shapes the town's street layout around old mine shafts. That mining history, on top of the region's natural karst caves, is directly responsible for Platteville's most distinctive local pest concern: big brown bats using both the natural caves and the town's own preserved 1840s lead mine for winter hibernation. Carpenter ants remain the most damaging structural pest statewide and find plenty of older wood-frame mining-era buildings to work with downtown, eastern subterranean termites swarm each spring within Wisconsin's southern range, and blacklegged ticks favor the wooded ridges and valleys throughout the Driftless Area.",
+    sections: [
+      {
+        heading: "Mines, caves, and Platteville's bat pressure",
+        body: "The Wisconsin DNR identifies the big brown bat as one of four species in the state capable of hibernating in caves, abandoned mines, or building walls and attics, and Platteville offers all three in unusual concentration. The town's karst geology riddles the surrounding countryside with natural caves, while its own mining history, an 1827 to 1849 lead boom that left deep, ventilated Cornish-dug mines including the 1840s Bevans mine now preserved as the Platteville Mining Museum, adds a second layer of underground habitat this species readily uses. That combination means old mine shafts near town, some still present beyond the preserved exhibit, are a genuine local structural-entry risk factor distinct from what a typical Wisconsin town would need to consider, and any older building near a known mining area is a reasonable candidate for a bat-entry inspection around rooflines and attic vents.",
+      },
+      {
+        heading: "Carpenter ants in Platteville's mining-era downtown",
+        body: "Carpenter ants are found throughout Wisconsin and are documented as the state's most damaging structural insect pest, and Platteville's downtown, built up during and after the 19th-century lead boom, has an unusually high concentration of older limestone and wood-frame buildings that give them plenty to work with. These ants excavate galleries in wood already compromised by moisture rather than consuming it outright, which means a colony's presence often points to an underlying issue such as a roofline leak or foundation moisture problem in a building old enough to have accumulated one. Given how much of Platteville's built environment dates to the mining era, checking older commercial and residential buildings downtown for both moisture damage and carpenter ant activity together, rather than treating them as separate concerns, tends to be the more useful approach.",
+      },
+    ],
+    prevention: [
+      "Have older buildings near known mining areas inspected for bat entry points around rooflines and attic vents.",
+      "Check downtown mining-era buildings for moisture damage alongside any visible carpenter ant activity.",
+      "Have properties inspected each spring for subterranean termite swarms following warm, rainy days.",
+      "Keep grass cut and clear brush along wooded ridge and valley yard edges to reduce blacklegged tick contact.",
+    ],
+    costNote:
+      "Platteville pest control commonly combines bat entry inspection for older buildings near mining-era structures with carpenter ant and moisture assessment for downtown properties. Spring termite inspection and tick treatment are typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why is bat pressure a specific local concern in Platteville?",
+        answer:
+          "Platteville sits on natural karst terrain riddled with caves, and its own 19th-century lead-mining history left the area with deep, ventilated mine shafts, including the 1840s Bevans mine now preserved as the Platteville Mining Museum. The Wisconsin DNR identifies the big brown bat as a species that hibernates in caves, mines, and building walls, so this combination of natural and mining-era underground habitat gives Platteville more bat-entry risk than a typical Wisconsin town.",
+      },
+      {
+        question: "Are carpenter ants worse in Platteville's downtown than newer parts of town?",
+        answer:
+          "Carpenter ants are the most damaging structural insect pest statewide in Wisconsin, and Platteville's downtown, built up during and after the 19th-century lead boom, has an unusually high concentration of older limestone and wood-frame buildings. These ants nest in wood already compromised by moisture, so older buildings with any accumulated roofline or foundation issues give them more opportunity than newer construction elsewhere in town.",
+      },
+      {
+        question: "Does the Driftless Area's karst terrain affect anything besides bats in Platteville?",
+        answer:
+          "The same karst terrain that produces caves for bats also creates the steep ridges and valleys typical of the wider Driftless Area, which is documented habitat for blacklegged ticks statewide. Yards backing onto wooded ridge or valley terrain around Platteville see the usual spring-through-fall tick exposure common across this unglaciated region.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Janesville", slug: "janesville", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Platteville, WI | Grant County Driftless Karst Country",
+    metaDescription:
+      "Platteville, WI pest control for bats in mining-era buildings, carpenter ants, termites, and blacklegged ticks. Grant County Driftless specialists. Free inspection.",
+  },
+  {
+    slug: "chippewa-falls",
+    name: "Chippewa Falls",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~14,800",
+    county: "Chippewa County",
+    climate: "cold-humid",
+    climateDriver:
+      "Chippewa Falls, the county seat of Chippewa County, sits on the north bank of the Chippewa River in west-central Wisconsin, about three miles west of Lake Wissota, a reservoir, in a landscape shaped by glaciation and river action that transitions toward the North Woods region further north. The area's 19th-century timber industry, drawing on a watershed reportedly holding more valuable timber than the Wisconsin River's, left a legacy of river-powered industry that continues today at the historic Leinenkugel Brewing Company on the river.",
+    topPests: ["Carpenter Ants", "Boxelder Bugs", "Cluster Flies", "Deer Mice", "American Dog Ticks"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Statewide most-damaging structural pest, and the Chippewa River watershed's historic timber industry put the area in heavy contact with wooded, moisture-prone structures that are classic carpenter ant habitat.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation on sun-facing walls",
+        note: "The statewide fall home-invasion pattern applies to Chippewa Falls, overwintering in wall voids after clustering on sunny walls.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall attic and wall-void entry",
+        note: "Larval development tied to earthworm-rich soil is common in Chippewa Falls' mixed agricultural and wooded land near the North Woods transition.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall structure invasion",
+        note: "The cold-weather structure-invasion pattern documented statewide applies here, and the north-woods-adjacent forest edge around Chippewa Falls is favorable deer mouse habitat.",
+      },
+      {
+        name: "American dog ticks (wood ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer",
+        note: "Common in Wisconsin's northern forested and brushy areas, relevant given Chippewa Falls' position at the edge of the North Woods transition.",
+      },
+    ],
+    localHook:
+      "Chippewa Falls is home to the historic Jacob Leinenkugel Brewing Company, founded in 1867 directly on the Chippewa River, whose original brewery site sits across from Irvine Park. That river-powered brewing history ties directly to the Chippewa River's role in the area's 19th-century timber and water-power economy, the same economy that put so many of the town's older buildings in direct contact with the damp, wooded conditions carpenter ants favor.",
+    intro:
+      "Chippewa Falls sits on the north bank of the Chippewa River in west-central Wisconsin, a town built on a 19th-century timber and water-power economy that still runs through the historic Leinenkugel Brewing Company today. That river-and-timber heritage left Chippewa Falls with older, wood-heavy construction directly exposed to river moisture, which is exactly what makes carpenter ants the most damaging structural pest here as they are statewide. Boxelder bugs and cluster flies both follow the standard fall pattern into wall voids and attics, deer mice press in from the North Woods-adjacent forest edge each fall, and American dog ticks are active spring through summer in the surrounding forested and brushy terrain.",
+    sections: [
+      {
+        heading: "A timber town's carpenter ant legacy",
+        body: "Chippewa Falls grew up around a 19th-century timber industry substantial enough that the Chippewa River watershed reportedly held more valuable timber than the Wisconsin River's, and that history left the town with older, wood-frame construction concentrated along and near the river itself. Carpenter ants are the most damaging structural insect pest in Wisconsin statewide, and unlike termites they specifically target wood that has already taken on moisture, which describes a meaningful share of Chippewa Falls' older river-adjacent buildings, including structures tied to the area's historic mills and the Leinenkugel Brewing Company site itself. A property near the river or dating to the town's timber-era growth is a reasonable candidate for an inspection that checks specifically for moisture-damaged wood, rather than waiting for visible ant trails to appear.",
+      },
+      {
+        heading: "North Woods edge habitat and Chippewa Falls' rodent and tick pressure",
+        body: "Chippewa Falls sits at a transition point where the glaciated, river-shaped terrain around town begins shifting toward Wisconsin's North Woods region further north, and that edge habitat, mixed forest and field, favors both deer mice and American dog ticks more than a purely agricultural or purely urban setting would. Deer mice move indoors each fall as the weather cools, following the same cold-weather pattern documented statewide, but the forest-edge terrain around Chippewa Falls gives them a larger outdoor population to draw from than a town without that North Woods transition nearby. American dog ticks favor Wisconsin's northern forested and brushy areas specifically, with activity running spring through summer, so yards backing onto any wooded or brushy edge near town see more consistent exposure through that window than in-town properties farther from the tree line.",
+      },
+    ],
+    prevention: [
+      "Check river-adjacent and older timber-era buildings for moisture damage that draws carpenter ants.",
+      "Seal exterior wall gaps before fall, when boxelder bugs and cluster flies both begin seeking overwintering shelter.",
+      "Seal foundation gaps and pipe penetrations before fall, when deer mice move indoors from the surrounding forest edge.",
+      "Keep grass cut and clear brush along wooded yard edges through the spring-to-summer American dog tick season.",
+    ],
+    costNote:
+      "Chippewa Falls pest control commonly combines carpenter ant and moisture inspection for river-adjacent and older buildings with fall exclusion against mice, boxelder bugs, and cluster flies. Tick treatment for wooded yard edges is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a concern in Chippewa Falls specifically?",
+        answer:
+          "Chippewa Falls grew from a 19th-century timber industry substantial enough that the Chippewa River watershed reportedly held more valuable timber than the Wisconsin River's, leaving the town with older wood-frame construction concentrated near the river. Carpenter ants are Wisconsin's most damaging structural insect pest statewide, and they specifically target wood already compromised by moisture, which older river-adjacent buildings here provide more readily than newer construction elsewhere.",
+      },
+      {
+        question: "Does Chippewa Falls' location near the North Woods affect its pest pressure?",
+        answer:
+          "Yes. Chippewa Falls sits at a transition point where the terrain shifts toward Wisconsin's North Woods region, and that mixed forest-and-field edge habitat favors both deer mice, which press indoors each fall, and American dog ticks, active spring through summer in the surrounding forested and brushy areas, more than a purely agricultural or urban setting would.",
+      },
+      {
+        question: "Is the Leinenkugel Brewing Company site connected to the town's pest concerns?",
+        answer:
+          "Not directly as an active concern, but its history illustrates the point: it was founded in 1867 directly on the Chippewa River, part of the same 19th-century river-powered timber and industrial economy that left many of Chippewa Falls' older buildings with wood construction exposed to river moisture, the exact condition carpenter ants look for wherever it occurs in town.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Eau Claire", slug: "eau-claire", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Chippewa Falls, WI | Chippewa County River Town",
+    metaDescription:
+      "Chippewa Falls, WI pest control for carpenter ants, boxelder bugs, fall deer mice, and American dog ticks. Chippewa County river-town specialists. Free inspection.",
+  },
+  {
+    slug: "marinette",
+    name: "Marinette",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~11,100",
+    county: "Marinette County",
+    climate: "cold-humid",
+    climateDriver:
+      "Marinette, the county seat of Marinette County, sits on the south bank of the Menominee River at its mouth on Green Bay in far northeastern Wisconsin, with Stephenson Island preserved as a city park at the river's mouth. The low-lying, gently sloping terrain shaped by Pleistocene glaciation and the industrial waterfront, home to Fincantieri Marinette Marine, a Kimberly-Clark paper mill, and Ansul fire-protection manufacturing, gives Marinette a pest calendar built around river-mouth mosquito habitat and the town's many older waterfront buildings.",
+    topPests: ["Floodwater Mosquitoes", "Cluster Flies", "Yellowjackets", "Boxelder Bugs", "Blacklegged Ticks"],
+    pestProfile: [
+      {
+        name: "Floodwater and shoreline mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through summer",
+        note: "The Menominee River floodplain and Green Bay shoreline wetlands are classic floodwater-mosquito habitat, and UW-Madison's Medical Entomology Lab documents Wisconsin hosting more than 56 mosquito species, with floodwater species keying off low-lying, periodically flooded land, directly applicable to Marinette's river-mouth geography.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late summer and fall entry",
+        note: "The statewide fall and winter pattern applies to Marinette's many older wood-frame homes near the industrial waterfront.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer aggression peak",
+        note: "Marinette's waterfront parks, including Stephenson Island, and outdoor industrial sites are typical yellowjacket nesting and foraging zones, following the same late-summer aggression pattern documented statewide.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation",
+        note: "The statewide fall home-invasion pattern applies to Marinette's residential streets each September and October.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Statewide forested-habitat presence has spread from northwestern Wisconsin's woods to nearly all corners of the state, and Marinette County's extensive forested land draining into the Menominee River is consistent with documented tick habitat.",
+      },
+    ],
+    localHook:
+      "Marinette is home to Fincantieri Marinette Marine, a major U.S. Navy shipbuilder founded in 1942 on the Menominee River, alongside a Kimberly-Clark paper mill and Ansul fire-protection manufacturing, an unusually dense industrial waterfront for a city this size, all sited directly on the river-and-bay confluence. That industrial waterfront geography, on low-lying land at a river mouth, is the direct driver of the town's floodwater mosquito and moisture-related structural pest pressure.",
+    intro:
+      "Marinette sits on the south bank of the Menominee River at its mouth on Green Bay, an unusually industrial waterfront for a city this size, home to a major U.S. Navy shipbuilder, a paper mill, and a fire-protection manufacturer all sited directly on the water. That low-lying river-mouth geography drives real floodwater mosquito pressure through spring and summer, cluster flies work into the town's many older waterfront wood-frame homes each fall, yellowjackets build through summer around Stephenson Island and other waterfront parks, boxelder bugs aggregate each September and October, and blacklegged ticks are active spring through fall across the county's extensive forested land.",
+    sections: [
+      {
+        heading: "Industrial river mouth, real mosquito habitat",
+        body: "Marinette's position at the mouth of the Menominee River, where it empties into Green Bay, gives the town more low-lying, periodically flooded shoreline than a Wisconsin town set back from a major river confluence. UW-Madison's Medical Entomology Lab documents more than 56 mosquito species statewide, with floodwater species specifically favoring exactly this kind of terrain, and Marinette's shoreline wetlands and river floodplain provide it in abundance. The town's dense industrial waterfront, including Fincantieri Marinette Marine's shipyard operations directly on the river, does not create mosquito habitat itself, but it does mean a larger share of Marinette's developed land sits close enough to the water to be affected by the same floodplain conditions that drive mosquito activity. Reducing standing water on individual properties remains the most direct step homeowners can take regardless of proximity to the industrial waterfront itself.",
+      },
+      {
+        heading: "Yellowjackets around Marinette's waterfront parks and industrial sites",
+        body: "Marinette's waterfront, from Stephenson Island at the river's mouth to the outdoor grounds around the town's industrial employers, provides the kind of outdoor space where yellowjacket colonies build ground nests through summer largely undisturbed. The late-summer aggression pattern documented across Wisconsin applies here as elsewhere: colonies grow through the warm months and become noticeably more defensive as natural food sources decline, pushing foraging wasps toward trash areas and outdoor gathering spots near the waterfront. Because Marinette combines public waterfront recreation space with active industrial grounds, checking both kinds of outdoor areas, not just residential yards, for nest activity earlier in the season is a more complete approach than a typical inland Wisconsin town would need to take.",
+      },
+    ],
+    prevention: [
+      "Empty standing water from yard containers and low-lying areas through spring and summer, given the river-mouth floodplain.",
+      "Check waterfront parks and outdoor gathering areas for ground-nesting yellowjacket activity before colonies peak in late summer.",
+      "Seal exterior wall gaps before fall, when cluster flies and boxelder bugs both begin seeking overwintering shelter.",
+      "Keep grass cut and clear brush along forested yard edges to reduce blacklegged tick contact through the season.",
+    ],
+    costNote:
+      "Marinette pest control commonly combines floodplain-timed mosquito reduction with yellowjacket monitoring for waterfront properties through summer, plus fall exclusion against cluster flies and boxelder bugs. Tick treatment for forested yard edges is typically quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure higher in Marinette than an inland Wisconsin town?",
+        answer:
+          "Marinette sits directly at the mouth of the Menominee River on Green Bay, giving it more low-lying, periodically flooded shoreline and floodplain than a town set back from a major river confluence. UW-Madison's Medical Entomology Lab documents floodwater mosquito species favoring exactly this kind of terrain, so properties near the river or shoreline see more consistent mosquito activity through spring and summer.",
+      },
+      {
+        question: "Are yellowjackets a bigger concern near Marinette's industrial waterfront?",
+        answer:
+          "Marinette's combination of public waterfront parks, including Stephenson Island, and outdoor industrial grounds gives yellowjacket colonies more undisturbed nesting space than a purely residential town would have. Colonies grow through summer and become more aggressive as they peak in late summer, so checking both waterfront recreation areas and outdoor work sites for nest activity earlier in the season is worthwhile here.",
+      },
+      {
+        question: "Do subterranean termites reach as far north as Marinette?",
+        answer:
+          "No documented evidence places subterranean termite colonies in Marinette County. Wisconsin's termite range is confined to the southern half of the state, and Marinette's position in the far northeast puts it outside that documented zone, so termites are not a primary local concern here the way they are in southern Wisconsin towns like Platteville or Whitewater.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "De Pere", slug: "de-pere", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Marinette, WI | Marinette County Green Bay Waterfront",
+    metaDescription:
+      "Marinette, WI pest control for river-mouth mosquitoes, yellowjackets, cluster flies, and blacklegged ticks. Marinette County waterfront specialists. Free inspection.",
+  },
 ];
