@@ -1532,4 +1532,549 @@ export const maineCities: CityLocation[] = [
     metaTitle: "Pest Control in Caribou, ME | Mice, Voles & Cluster Flies",
     metaDescription: "Pest control in Caribou, Maine handling mice, voles, carpenter ants, earwigs, and cluster flies. Northern Aroostook County's harsh winters demand early prevention. Licensed Maine technicians.",
   },
+  {
+    slug: "brunswick-me",
+    name: "Brunswick",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~21,800",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Brunswick sits where the Androscoggin River meets tidewater at the head of Merrymeeting Bay, with the New Meadows River giving the town a second, more open connection to Casco Bay and the Atlantic. That combination of river humidity and coastal exposure keeps the cold-humid climate consistently damp through the warm months. The former Naval Air Station Brunswick, now the Brunswick Landing business park, and the Bowdoin College campus both include older buildings that have absorbed decades of that moisture, and midcoast Maine, the stretch of coastline that includes Brunswick, is one of the areas where Maine Forest Service has tracked a growing brown-tail moth population in recent years.",
+    topPests: [
+      "Deer Ticks",
+      "Carpenter Ants",
+      "Brown-Tail Moth Caterpillars",
+      "House Mice",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC lists Cumberland County among the state's highest Lyme disease incidence counties, and Brunswick's mix of river frontage, tidal marsh edges, and the wooded Bowdoin College quad and athletic fields all support deer tick habitat close to residential neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings indicate an overwintered colony",
+        note: "Brunswick's older housing near the historic downtown and the former Naval Air Station buildings have decades of moisture exposure from the Androscoggin and New Meadows rivers, giving carpenter ants the damp wood they need to establish galleries.",
+      },
+      {
+        name: "Brown-tail moth caterpillars",
+        serviceSlug: "moth-control",
+        activeSeason: "Caterpillars feed April through June, hairs remain irritating through summer",
+        note: "Maine Forest Service has tracked brown-tail moth populations expanding around Casco Bay and the midcoast in recent years, and Brunswick's oak stands and shoreline hardwoods sit within that documented range. Contact with the caterpillars' hairs causes a poison-ivy-like skin rash and can irritate the airways.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Cold Maine winters push mice into Brunswick's older homes and the converted buildings at Brunswick Landing from September onward, and gaps in aging foundations and utility penetrations give them ready entry.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "The tidal flats of Merrymeeting Bay and the marshy edges of the New Meadows River sustain summer mosquito populations, and Maine CDC monitors Cumberland County for EEE and West Nile virus activity in mosquito pools each year.",
+      },
+    ],
+    localHook:
+      "Brunswick's location where the Androscoggin River meets Merrymeeting Bay, combined with its Casco Bay-facing New Meadows River side, puts the town inside the documented range where Maine Forest Service has tracked a growing brown-tail moth population, on top of the deer tick pressure that comes with any Cumberland County address.",
+    intro:
+      "Pest control in Brunswick starts with location. The town sits at the point where the Androscoggin River empties into tidal Merrymeeting Bay, and the New Meadows River gives it a second face toward Casco Bay and the open Atlantic. That double dose of water and humidity, layered onto decades-old buildings at Bowdoin College and the former Naval Air Station Brunswick, now Brunswick Landing, creates conditions that favor carpenter ants and deer ticks alike. Maine CDC places Cumberland County among the state's highest Lyme disease incidence counties, and Maine Forest Service has documented brown-tail moth populations expanding around Casco Bay and the midcoast in recent years, putting Brunswick's oak stands and shoreline hardwoods inside the affected range. Mice and summer mosquitoes round out a busy pest calendar.",
+    sections: [
+      {
+        heading: "Deer Ticks and Cumberland County's Lyme Disease Risk",
+        body: "Cumberland County is consistently one of Maine's highest-incidence counties for Lyme disease, and Brunswick's geography does nothing to lower that risk. The Androscoggin River's tidal reach, the marshy fringe of Merrymeeting Bay, and the wooded quad and playing fields at Bowdoin College all provide the brushy, humid edge habitat that deer ticks and their white-footed mouse hosts prefer. Trails through the Brunswick Commons and the town's network of conserved woodland add more of the same. The nymphal stage of the deer tick, active from May through July, is the one most likely to transmit Lyme disease to people, because nymphs are roughly the size of a poppy seed and easy to miss during a quick check. Adult ticks remain active into November and can survive mild winter days as well, so the exposure window in Brunswick runs longer than most people expect from a Maine location. Homeowners whose yards back onto wooded conservation land, or who walk dogs along the river trails near the former Naval Air Station property, face the highest day-to-day exposure. A spring and fall perimeter tick treatment at the yard's wooded edge, combined with prompt tick checks after outdoor time and removal within 24 to 36 hours if one is found attached, remains the most effective way to cut personal risk. Brunswick's town-owned trail network is well used, which means the tick exposure here reaches deep into in-town neighborhoods bordering any patch of woods, not just rural properties.",
+      },
+      {
+        heading: "Carpenter Ants and Brown-Tail Moth in Brunswick's Older Buildings",
+        body: "Brunswick has an unusual amount of older building stock for a town its size, and that stock sits in one of the more humid corners of coastal Maine. Bowdoin College's older residence halls and academic buildings, the converted hangars and barracks at Brunswick Landing, and the historic homes near Maine Street and the Androscoggin River all carry decades of moisture exposure. Carpenter ants exploit exactly that condition, excavating galleries in wood that has softened from chronic dampness around window frames, roof edges, and sill plates. The first sign in most Brunswick buildings is large black ants foraging indoors in spring, often from a colony that has spent the winter inside the structure's insulated wall space. Brown-tail moth is a newer concern for Brunswick specifically. Maine Forest Service has tracked the caterpillar's range expanding around Casco Bay over the past several years, after decades of the pest being confined mostly to a handful of coastal islands. Brunswick's oak trees and shoreline hardwoods fall inside that expanding range, and the caterpillars' barbed hairs, shed in old webs and cast skins that persist through summer and into the following spring, cause a rash similar to poison ivy on contact and can irritate the airways of anyone who breathes in wind-blown hair fragments during lawn work near an affected tree. Removing and properly disposing of any brown-tail moth winter webs, visible in bare trees from fall through early spring, is the single most effective step a Brunswick property owner can take before the caterpillars emerge in April.",
+      },
+    ],
+    prevention: [
+      "Remove and bag any brown-tail moth winter webs visible in Brunswick's bare oak and shoreline trees between November and March, before the caterpillars emerge in April.",
+      "Schedule a spring perimeter tick treatment for Brunswick yards bordering Brunswick Commons, the river trails, or any conserved woodland edge.",
+      "Inspect older Brunswick buildings, especially those near Maine Street and Brunswick Landing, for softened wood at windows and rooflines each spring to catch carpenter ant activity early.",
+      "Seal foundation gaps and utility entries on Brunswick homes before September to reduce the fall push of house mice from riverfront and wooded areas.",
+    ],
+    costNote:
+      "Brunswick pest programs typically combine spring tick treatment with a carpenter ant inspection of older buildings, priced separately once a colony is confirmed. Brown-tail moth web removal is quoted per tree or per property depending on the extent of caterpillar activity. A free inspection is the starting point for any Brunswick property.",
+    faqs: [
+      {
+        question: "Why is brown-tail moth a growing concern in Brunswick, ME?",
+        answer:
+          "Maine Forest Service has tracked the brown-tail moth caterpillar's range expanding around Casco Bay over the past several years, after it spent decades confined mostly to a few coastal islands. Brunswick's oak stands and shoreline hardwoods now sit inside that expanding range. Contact with the caterpillars' barbed hairs, whether from live caterpillars, old webs, or shed skins, causes a poison-ivy-like rash and can irritate the airways during yard work near an affected tree. Removing winter webs between November and March is the most effective prevention step.",
+      },
+      {
+        question: "How high is the Lyme disease risk in Brunswick?",
+        answer:
+          "Cumberland County, where Brunswick is located, is consistently among Maine's highest-incidence counties for Lyme disease according to Maine CDC. The wooded edges of Brunswick Commons, the trails near the former Naval Air Station property, and the marshy fringe of Merrymeeting Bay all support deer tick populations close to residential neighborhoods. Spring and fall perimeter treatment plus prompt tick checks after outdoor time are the recommended precautions.",
+      },
+      {
+        question: "Do the older buildings at Brunswick Landing and Bowdoin College attract carpenter ants?",
+        answer:
+          "Yes. Older wood-frame construction that has absorbed decades of moisture from Brunswick's river and coastal humidity is exactly the condition carpenter ants look for. The converted hangars and barracks at Brunswick Landing and the older residence halls at Bowdoin both have wood that has been exposed to dampness for many years. Large black ants appearing indoors in spring, especially without an obvious outdoor source, usually mean a colony spent the winter inside the structure.",
+      },
+      {
+        question: "When is mosquito season near Merrymeeting Bay?",
+        answer:
+          "Mosquito activity in Brunswick runs from late May through September, with the tidal flats of Merrymeeting Bay and the marshy edges of the New Meadows River sustaining populations through the summer. Maine CDC monitors Cumberland County mosquito pools for West Nile virus and Eastern Equine Encephalitis activity each season. Removing standing water and treating the yard perimeter reduce exposure.",
+      },
+      {
+        question: "What does a carpenter ant colony look like inside a Brunswick home?",
+        answer:
+          "The most common sign is large black ants foraging in a kitchen or bathroom in spring, sometimes from a gap near a window or baseboard. Fine sawdust-like frass near the entry point and faint rustling in walls are later indicators. Because Brunswick's older buildings carry so much accumulated moisture, an established colony can persist for years before symptoms become obvious, so an annual inspection of wood around windows, rooflines, and sill plates is worth the modest cost.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Scarborough", slug: "scarborough-me", stateSlug: "maine" },
+      { name: "Windham", slug: "windham-me", stateSlug: "maine" },
+      { name: "Gorham", slug: "gorham-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Brunswick, ME | Ticks, Carpenter Ants & Brown-Tail Moth",
+    metaDescription:
+      "Brunswick ME pest control for deer ticks, carpenter ants, brown-tail moth caterpillars, mice and mosquitoes. Midcoast Maine specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "scarborough-me",
+    name: "Scarborough",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~23,200",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Scarborough sits on Maine's southern coast in Cumberland County, home to Scarborough Marsh, the state's largest salt marsh complex at roughly 3,200 acres. That marsh, along with the Nonesuch and Spurwink rivers that feed it, creates one of the most productive mosquito breeding environments in Maine, since salt-marsh mosquito species lay eggs in the marsh's saline pools and can fly ten to twenty miles inland from there. The same marsh and coastal woodland edge sustain a deer population, and with it, one of the higher deer tick densities in southern Maine.",
+    topPests: [
+      "Deer Ticks",
+      "Salt-Marsh Mosquitoes",
+      "Carpenter Ants",
+      "House Mice",
+      "Yellow Jackets and Wasps",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC lists Cumberland County among Maine's highest Lyme disease incidence counties, and Scarborough's marsh-edge woodland, the Eastern Trail corridor, and its many wooded residential lots all support strong deer tick populations.",
+      },
+      {
+        name: "Salt-marsh mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September, multiple generations per season",
+        note: "Scarborough Marsh, Maine's largest salt marsh at about 3,200 acres, breeds salt-marsh mosquito species that produce several generations each summer and can fly ten to twenty miles from the marsh itself, meaning even Scarborough properties well away from the water feel the pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Coastal humidity off Saco Bay and Scarborough Marsh combine with the town's mix of older beach cottages and inland homes to create moisture conditions in structural wood that carpenter ants exploit.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Cold Maine winters send mice into Scarborough homes from September onward, with older cottages near Higgins Beach and Pine Point especially prone to the foundation gaps that give mice access.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most defensive August and September",
+        note: "Scarborough's marshland edges and dune grass along Higgins Beach and Pine Point provide ground-nesting habitat for yellow jackets, and late-summer nest discovery during yard work is a common sting scenario.",
+      },
+    ],
+    localHook:
+      "Scarborough Marsh covers roughly 3,200 acres, making it the largest salt marsh in Maine, and the salt-marsh mosquitoes it breeds can fly ten to twenty miles inland, so even Scarborough neighborhoods well away from the water feel the pressure every summer.",
+    intro:
+      "Pest control in Scarborough is shaped by one dominant feature: Scarborough Marsh, Maine's largest salt marsh at roughly 3,200 acres. The marsh and its feeder rivers, the Nonesuch and the Spurwink, breed salt-marsh mosquito species capable of flying ten to twenty miles from the marsh itself, which means mosquito pressure in Scarborough is not limited to properties along the water. The same marsh edge and coastal woodland support a healthy deer population, and Cumberland County is consistently one of Maine's highest Lyme disease counties as a result. Carpenter ants work the town's older beach cottages and inland homes alike, mice arrive with the fall cold, and yellow jackets nest in the dune grass and marsh-edge lawns through late summer.",
+    sections: [
+      {
+        heading: "Scarborough Marsh and the Mosquito Pressure It Creates",
+        body: "Scarborough Marsh is the largest salt marsh in Maine, covering roughly 3,200 acres of tidal flat, salt pannes, and marsh grass fed by the Nonesuch and Spurwink rivers. It is also one of the state's most productive mosquito breeding grounds. Salt-marsh mosquito species lay their eggs in the shallow saline pools that flood the high marsh during spring tides, and unlike many freshwater mosquitoes, these species are strong, persistent fliers capable of covering ten to twenty miles from their breeding site in search of a blood meal. That range means a Scarborough homeowner miles from the marsh itself can still feel real mosquito pressure through the summer. Efforts over the past two decades to restore natural tidal flow to sections of the marsh, reversing older mosquito-control ditching that had inadvertently removed the fish and wildlife that once kept larval mosquito numbers in check, have improved marsh habitat generally, but they have not eliminated the underlying mosquito production. Maine CDC monitors Cumberland County mosquito pools for West Nile virus and Eastern Equine Encephalitis activity through the season, and while both remain uncommon, they are taken seriously given the marsh's productivity. Scarborough residents get the best results from barrier mosquito treatment applied to the yard and its tree lines in late spring, timed before the season's first generation of marsh mosquitoes disperses inland, combined with removing any standing water on the property itself.",
+      },
+      {
+        heading: "Deer Ticks, Carpenter Ants, and Late-Summer Wasps",
+        body: "Cumberland County is one of Maine's highest-incidence counties for Lyme disease, and Scarborough's combination of marshland edge, coastal scrub, and wooded residential lots gives deer ticks plenty of habitat close to homes. The Eastern Trail, which runs through Scarborough on a former rail corridor, passes directly along brushy edges that are known tick habitat, and any yard backing onto woods or marsh grass carries similar risk. The nymphal tick, active from May through July, causes most human Lyme infections because it is small enough to go unnoticed for the day or more it typically needs to transmit the bacteria. Carpenter ants are a steady structural concern in Scarborough's older beach cottages around Higgins Beach and Pine Point, and in the town's inland neighborhoods as well, wherever coastal humidity has softened wood at windows, decks, and rooflines over the years. The telltale sign is large black ants foraging indoors in spring, which usually means a colony survived the winter inside the structure. Yellow jackets add a late-summer complication: they build ground nests in the dune grass, marsh-edge lawns, and garden borders throughout Scarborough, and colonies reach peak size and peak defensiveness in August and September, right when yard work and fall cleanup bring people into contact with nests that went unnoticed all summer.",
+      },
+    ],
+    prevention: [
+      "Apply barrier mosquito treatment to Scarborough yards in late spring, before Scarborough Marsh's first generation of salt-marsh mosquitoes disperses inland.",
+      "Treat yard edges bordering marsh grass, coastal scrub, or the Eastern Trail corridor each spring for deer ticks, and check for attached ticks after any outdoor time.",
+      "Inspect older Scarborough cottages near Higgins Beach and Pine Point each spring for softened wood at windows and decks, the signature entry point for carpenter ants.",
+      "Have ground-nesting yellow jacket colonies in Scarborough lawns and dune grass located and treated in late summer, before fall yard work leads to an accidental disturbance.",
+    ],
+    costNote:
+      "Scarborough pest programs commonly bundle spring tick treatment with a mosquito barrier application timed to the marsh's first generation. Carpenter ant treatment for older cottages is quoted once a colony is confirmed. A free inspection is the right starting point for any Scarborough property.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so strong in Scarborough, ME?",
+        answer:
+          "Scarborough Marsh is Maine's largest salt marsh at roughly 3,200 acres, and it breeds salt-marsh mosquito species that are unusually strong fliers, capable of traveling ten to twenty miles from the marsh in search of a blood meal. That means even Scarborough neighborhoods well away from the marsh feel real pressure each summer. Barrier treatment timed to late spring, before the first generation disperses, is the most effective property-level response.",
+      },
+      {
+        question: "How serious is the tick risk in Scarborough?",
+        answer:
+          "Cumberland County, home to Scarborough, is consistently one of Maine's highest Lyme disease incidence counties according to Maine CDC. Scarborough's marsh edges, coastal scrub, and the brushy sections of the Eastern Trail all support deer tick populations close to residential yards. Spring perimeter treatment and prompt tick checks after outdoor activity are the recommended precautions for Scarborough properties.",
+      },
+      {
+        question: "Are carpenter ants a problem in Scarborough's beach cottages?",
+        answer:
+          "Yes. The older cottages around Higgins Beach and Pine Point have decades of exposure to coastal humidity, which softens structural wood at windows, decks, and rooflines over time, exactly the condition carpenter ants need to nest. Large black ants foraging indoors in spring usually mean a colony spent the winter inside the cottage. Inland Scarborough homes see the same pattern wherever moisture has accumulated in the wood.",
+      },
+      {
+        question: "When are yellow jackets worst in Scarborough?",
+        answer:
+          "August and September, when ground-nesting colonies in the marsh-edge lawns and dune grass reach peak size. Yellow jackets are most defensive at this point in their colony cycle, and fall yard cleanup around Scarborough properties is a common time for someone to disturb a nest they never knew was there. Having nests professionally located and treated before this period reduces sting risk.",
+      },
+      {
+        question: "Has restoring Scarborough Marsh reduced the mosquito problem?",
+        answer:
+          "Restoration work over the past two decades has reversed older mosquito-control ditching that unintentionally removed the fish and other wildlife that naturally keep larval mosquito numbers down, and it has improved the marsh's ecological health generally. It has not eliminated mosquito production from the marsh, since salt-marsh mosquito species remain well adapted to breeding in the tidal pools regardless of ditch condition. Property-level barrier treatment is still the most reliable way to reduce exposure for Scarborough residents.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Brunswick", slug: "brunswick-me", stateSlug: "maine" },
+      { name: "Gorham", slug: "gorham-me", stateSlug: "maine" },
+      { name: "Windham", slug: "windham-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Scarborough, ME | Marsh Mosquitoes, Ticks & Ants",
+    metaDescription:
+      "Scarborough ME pest control for salt-marsh mosquitoes, deer ticks, carpenter ants, mice and wasps. Cumberland County specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "windham-me",
+    name: "Windham",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~20,000",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Windham stretches along the eastern shore of Sebago Lake in Cumberland County, with the Presumpscot River draining the lake through the town on its way to Casco Bay. That lake and river frontage, combined with large tracts of undeveloped woodland between Windham's village centers, keeps humidity high and gives deer ticks, mosquitoes, and carpenter ants continuous habitat right at the edge of residential neighborhoods. Windham is one of the pockets of Maine where Maine Forest Service has continued to find brown-tail moth caterpillars even as the statewide population has receded in recent years.",
+    topPests: [
+      "Deer Ticks",
+      "Carpenter Ants",
+      "Brown-Tail Moth Caterpillars",
+      "House Mice",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC places Cumberland County among the state's highest Lyme disease incidence counties, and Windham's mix of lakefront camps, wooded rural roads, and undeveloped land between village centers gives deer ticks extensive habitat close to homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings mean an overwintered colony",
+        note: "Windham's older farmhouses and lake camps near Sebago Lake carry decades of moisture exposure in structural wood, and carpenter ants are a routine structural complaint in the town's older housing stock.",
+      },
+      {
+        name: "Brown-tail moth caterpillars",
+        serviceSlug: "moth-control",
+        activeSeason: "Caterpillars feed April through June, hairs remain irritating through summer",
+        note: "Windham and the wider Sebago Lake region are among the pockets where Maine Forest Service has continued to find brown-tail moth caterpillars even as the statewide population dropped in recent years, likely tied to a lack of the fungal disease that has suppressed populations elsewhere.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Cold winters push mice from Windham's wooded and agricultural surroundings into homes from September onward, and the town's rural roads mean many properties border woodland edge that sustains a large source population.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "Sebago Lake's shallow coves, the Presumpscot River corridor, and Windham's many small ponds and wetlands sustain a long mosquito season, and Maine CDC monitors the wider Cumberland County area for EEE and West Nile virus activity.",
+      },
+    ],
+    localHook:
+      "Windham is one of the pockets of Maine where Maine Forest Service has continued to find brown-tail moth caterpillars even as the statewide population dropped sharply in 2025, and its Sebago Lake shoreline and Presumpscot River corridor give deer ticks and mosquitoes the same kind of continuous habitat.",
+    intro:
+      "Pest control in Windham has to account for the town's shape: a long stretch of shoreline along Sebago Lake, the Presumpscot River draining that lake toward Casco Bay, and large tracts of undeveloped woodland separating Windham's village centers. That geography keeps humidity high and gives deer ticks, mosquitoes, and carpenter ants habitat that reaches deep into residential neighborhoods rather than staying confined to the waterfront. Maine CDC lists Cumberland County among the state's highest Lyme disease counties, and Windham is one of the areas where Maine Forest Service has continued finding brown-tail moth caterpillars even as the statewide population fell in 2025. Older farmhouses and lake camps add carpenter ant pressure, and cold winters bring a reliable fall push of house mice.",
+    sections: [
+      {
+        heading: "Sebago Lake, Ticks, and Mosquitoes in Windham",
+        body: "Windham runs along the eastern shore of Sebago Lake, Maine's second-largest lake, and the Presumpscot River carries that lake's outflow through the middle of town on its way to Casco Bay. That combination of lakefront, river corridor, and the undeveloped woodland that separates Windham's village centers creates continuous humid habitat that does not stop at the water's edge. Deer ticks move through the brushy transition zones between woods and lawn, and Cumberland County, where Windham sits, is consistently one of Maine's highest counties for Lyme disease according to Maine CDC. Lakefront camps with wooded lots and rural roads bordering undeveloped land carry the most day-to-day exposure, but the tick range extends into Windham's more built-up village areas as well, wherever a lawn meets a hedgerow or a patch of woods. Mosquitoes track the same geography: Sebago Lake's shallow coves, the Presumpscot's slower stretches, and the many small ponds and wetlands scattered through Windham all breed mosquitoes from late May through September. Maine CDC's statewide EEE and West Nile virus surveillance covers Cumberland County, and while confirmed cases remain rare, the advisories during years with positive mosquito pools recommend limiting outdoor activity around dusk. Perimeter tick treatment in spring and fall, paired with mosquito barrier service through the summer, addresses both pressures for Windham properties near the lake, river, or any wooded edge.",
+      },
+      {
+        heading: "Brown-Tail Moth and Carpenter Ants in Windham's Older Buildings",
+        body: "The statewide brown-tail moth population dropped sharply heading into 2025, largely because a fungal disease that attacks the caterpillars had a good year, but Windham and the wider Sebago Lake region were named among the pockets where caterpillars persisted even as numbers fell elsewhere in Maine. The caterpillars feed on oak and other hardwoods from April through June, and their barbed hairs, whether from a live caterpillar, an old web, or a caterpillar's shed skin, cause a rash similar to poison ivy on contact and can irritate the airways if hair fragments become airborne during yard work near an affected tree. Checking bare trees for the caterpillar's distinctive white silk winter webs between fall and early spring, then removing and properly disposing of any that are found, remains the most effective step a Windham property owner can take before the caterpillars emerge. Carpenter ants are a separate, steadier concern in Windham's older farmhouses and lake camps, many of which have decades of moisture exposure in structural wood from lake humidity, aging roofs, and settled foundations. The ants excavate galleries in that softened wood rather than eating it, and the first sign in most Windham buildings is large black ants foraging indoors in spring from a colony that spent the winter inside the structure's walls. Addressing the underlying moisture, not just the visible ants, is what prevents the colony from returning the following year.",
+      },
+    ],
+    prevention: [
+      "Check bare trees on Windham properties for brown-tail moth winter webs each fall and winter, and remove any found before caterpillars emerge in April.",
+      "Apply spring and fall perimeter tick treatment to Windham yards near Sebago Lake, the Presumpscot River, or any wooded edge between village centers.",
+      "Inspect older Windham farmhouses and lake camps each spring for softened wood at rooflines, windows, and sill plates, the entry point carpenter ants use most.",
+      "Seal foundation gaps and utility entries on Windham homes before September, ahead of the fall push of mice from the surrounding woodland.",
+    ],
+    costNote:
+      "Windham pest programs typically combine spring and fall tick treatment with mosquito barrier service through the summer. Carpenter ant treatment for older lake camps and farmhouses is priced once a colony is confirmed. Brown-tail moth web removal is quoted per tree. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Is brown-tail moth still a problem in Windham, ME?",
+        answer:
+          "Yes, more than in many parts of Maine. The statewide caterpillar population fell sharply heading into 2025 as a fungal disease that attacks the caterpillars had a strong year, but Maine Forest Service named Windham and the wider Sebago Lake region among the pockets where caterpillars persisted regardless. Checking bare trees for winter webs each fall and removing them before April is the most effective prevention.",
+      },
+      {
+        question: "How does Sebago Lake affect tick risk in Windham?",
+        answer:
+          "Windham's lakefront camps, wooded lots, and the undeveloped land separating its village centers all give deer ticks continuous habitat, and Cumberland County is consistently one of Maine's highest counties for Lyme disease according to Maine CDC. The risk is not confined to properties directly on the water. Any Windham yard bordering woods or brush carries similar exposure, and spring perimeter treatment is the recommended response.",
+      },
+      {
+        question: "Why do carpenter ants target older lake camps in Windham?",
+        answer:
+          "Older camps and farmhouses near Sebago Lake have accumulated decades of moisture in their structural wood from lake humidity, aging roofs, and settling foundations, which is exactly the condition carpenter ants need to nest. Large black ants appearing indoors in spring, especially in a camp that has sat closed over winter, usually mean an established colony. Treating the moisture problem alongside the ants prevents the colony from returning.",
+      },
+      {
+        question: "What is the mosquito season like around Windham?",
+        answer:
+          "Mosquito activity runs from late May through September, driven by Sebago Lake's shallow coves, the Presumpscot River, and the many small ponds and wetlands throughout the town. Maine CDC includes Cumberland County in its statewide EEE and West Nile virus mosquito surveillance. Removing standing water around the property and scheduling barrier treatment through the summer are the most effective steps for Windham homeowners.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Gorham", slug: "gorham-me", stateSlug: "maine" },
+      { name: "Brunswick", slug: "brunswick-me", stateSlug: "maine" },
+      { name: "Scarborough", slug: "scarborough-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Windham, ME | Ticks, Carpenter Ants & Brown-Tail Moth",
+    metaDescription:
+      "Windham ME pest control for deer ticks, carpenter ants, brown-tail moth caterpillars, mice and mosquitoes near Sebago Lake, Maine. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gorham-me",
+    name: "Gorham",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~18,300",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Gorham sits inland from Portland in Cumberland County, where the Presumpscot and Stroudwater rivers cross a landscape that shifts from working farmland on the town's western side to denser suburban neighborhoods near the University of Southern Maine campus. That mix of open agricultural fields, mature field-edge trees, and older rural housing creates habitat for both deer ticks and the seasonal insects that gather on sunny walls each fall, while the university district and its older buildings add a concentrated pocket of structural pest pressure.",
+    topPests: [
+      "Deer Ticks",
+      "Carpenter Ants",
+      "House Mice",
+      "Boxelder Bugs",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC places Cumberland County among the state's highest Lyme disease incidence counties, and Gorham's farmland edges, wooded field borders, and rural roads all support deer tick populations well beyond the town's more built-up neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Gorham's older farmhouses on the town's rural western side, along with older buildings near the University of Southern Maine campus, carry the moisture-affected wood that carpenter ants need to establish a colony.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Cold winters and Gorham's surrounding farmland send mice into homes and outbuildings from September onward, with older barns and farmhouses providing a large source population close to residential neighborhoods.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, warm-day emergence through winter",
+        note: "Gorham's boxelder and maple trees along field edges and rural roads host large boxelder bug populations that gather on sun-warmed, light-colored walls each fall, seeking a way inside to overwinter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "The Presumpscot and Stroudwater river corridors and Gorham's low-lying farm fields hold standing water long enough each spring and summer to sustain a full mosquito season.",
+      },
+    ],
+    localHook:
+      "Gorham's working farmland on the west side of town and its denser university district on the east give the town two distinct pest pictures at once, from boxelder bugs gathering on sunny farmhouse walls each fall to carpenter ants working the older buildings near the University of Southern Maine campus.",
+    intro:
+      "Pest control in Gorham means treating two different towns at once. The western half is still working farmland, with older farmhouses, barns, and long field edges lined with boxelder and maple trees. The eastern half, closer to Portland, is denser and includes the University of Southern Maine's Gorham campus and its older academic buildings. Maine CDC lists Cumberland County among the state's highest Lyme disease counties, and Gorham's farmland edges and wooded field borders give deer ticks plenty of room to operate. Carpenter ants work the moisture-affected wood in both the old farmhouses and the older campus buildings. Boxelder bugs gather each fall on sun-warmed walls throughout the rural parts of town, and cold winters bring a reliable push of house mice from the surrounding fields.",
+    sections: [
+      {
+        heading: "Farmland Pests on Gorham's Rural West Side",
+        body: "The western half of Gorham remains working agricultural land, with long field edges, older barns, and farmhouses that have stood for generations. That landscape supports a specific set of pests. Boxelder bugs breed on the seed pods of boxelder maple trees, common along the fence lines and field borders that separate Gorham's farm parcels, and by September, adult bugs gather in large numbers on the sun-warmed south and west walls of nearby farmhouses, searching for a crack or gap to slip through before winter. They do not damage structures or bite, but a wall covered in hundreds of them each October is a genuine nuisance, and once inside a wall void they can persist until spring, emerging on warm winter days into living spaces. Deer ticks are the more serious concern on Gorham's rural side. The same field edges and hedgerows that host boxelder bugs also support the brushy transition habitat deer ticks and their rodent hosts prefer, and Cumberland County is consistently one of Maine's highest Lyme disease counties according to Maine CDC. House mice complete the farmland picture: Gorham's barns and outbuildings maintain rodent populations year-round, and as fields go dormant each fall, mice move from those outbuildings into nearby homes in search of heat, arriving reliably from September onward. Sealing gaps in older farmhouse foundations before that point is the most effective single step a rural Gorham property owner can take.",
+      },
+      {
+        heading: "Carpenter Ants and Structural Pests Near the University District",
+        body: "Gorham's denser eastern side, anchored by the University of Southern Maine's Gorham campus, has a different pest profile built around older buildings rather than open fields. Several of the campus's academic and residential buildings date back decades, and like older buildings anywhere in humid coastal Maine, they have accumulated moisture damage in structural wood around windows, rooflines, and foundations over that time. Carpenter ants exploit exactly that kind of softened, damp wood, excavating galleries rather than eating the wood outright, and the first indication in most Gorham buildings is large black ants foraging indoors in spring from a colony that overwintered inside a wall or subfloor. The neighborhoods surrounding the campus, largely older rental housing serving students and staff, share the same vulnerability, often compounded by higher occupant turnover that makes early pest signs easy to miss until an infestation is well established. House mice are common in this part of Gorham too, entering through the same kind of foundation gaps and utility penetrations that affect the town's rural farmhouses, though the source population here is more building-to-building than field-to-house. Mosquitoes complete the picture along the Presumpscot and Stroudwater river corridors that run through this part of town, where low-lying, poorly drained ground holds water long enough each summer to sustain breeding through the warm months. An annual inspection of any older Gorham building, whether farmhouse or campus-area rental, catches most of these problems before they become structural.",
+      },
+    ],
+    prevention: [
+      "Seal cracks and gaps on sun-facing walls of Gorham farmhouses each August, before boxelder bugs begin their fall aggregation in September.",
+      "Treat field edges and hedgerows on Gorham's rural properties each spring for deer ticks, and check for attached ticks after time spent near farmland or wooded borders.",
+      "Inspect older buildings near the University of Southern Maine's Gorham campus each spring for softened wood at windows and rooflines, the entry point carpenter ants use most.",
+      "Seal foundation gaps on Gorham farmhouses and outbuildings before September to reduce the fall push of mice from surrounding fields and barns.",
+    ],
+    costNote:
+      "Gorham pest programs differ by location: rural western properties typically need boxelder bug and tick treatment alongside mouse exclusion, while properties near the university district focus more on carpenter ant and mouse prevention in older buildings. A free inspection identifies which combination applies to a given property.",
+    faqs: [
+      {
+        question: "Why are boxelder bugs such a problem on Gorham's rural properties?",
+        answer:
+          "Boxelder bugs breed on the seed pods of boxelder maple trees, which are common along the field edges and fence lines of Gorham's working farmland. By September, adult bugs gather in large numbers on sun-warmed farmhouse walls looking for a way inside to overwinter. They do not damage structures or bite, but the sheer numbers, sometimes hundreds on a single wall, make them a serious fall nuisance for Gorham homeowners. Sealing exterior gaps before September is the most effective prevention.",
+      },
+      {
+        question: "Is Gorham part of Maine's high-risk Lyme disease area?",
+        answer:
+          "Yes. Cumberland County, where Gorham is located, is consistently ranked among Maine's highest Lyme disease incidence counties by Maine CDC. Gorham's mix of farmland edges, hedgerows, and wooded field borders on the town's rural side gives deer ticks extensive habitat, and the risk extends into the denser neighborhoods near the university as well, wherever a yard meets brush or trees.",
+      },
+      {
+        question: "Do the older buildings near the University of Southern Maine's Gorham campus have pest problems?",
+        answer:
+          "Several of the campus's older academic and residential buildings, along with the surrounding rental housing, have accumulated decades of moisture damage in structural wood, which attracts carpenter ants. Large black ants foraging indoors in spring, especially in an older building with no obvious outdoor ant activity nearby, usually mean a colony spent the winter inside a wall or subfloor. An annual inspection catches this early.",
+      },
+      {
+        question: "When do mice become a problem on Gorham farms?",
+        answer:
+          "September is the turning point. Gorham's barns and outbuildings maintain rodent populations year-round, and as the fields go dormant for winter, mice move from those outbuildings toward nearby homes in search of heat. Older farmhouses with settled foundations and gaps around utility lines are the most vulnerable. Sealing those entry points in August, before the fall push begins, is more effective than trapping mice that are already inside.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Windham", slug: "windham-me", stateSlug: "maine" },
+      { name: "Scarborough", slug: "scarborough-me", stateSlug: "maine" },
+      { name: "Brunswick", slug: "brunswick-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Gorham, ME | Ticks, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Gorham ME pest control for deer ticks, carpenter ants, boxelder bugs, house mice and mosquitoes. Cumberland County farmland specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "presque-isle-me",
+    name: "Presque Isle",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~8,800",
+    county: "Aroostook County",
+    climate: "cold",
+    climateDriver:
+      "Presque Isle is the commercial center of Aroostook County, known locally as The County, sitting in the heart of Maine's potato-growing region where roughly 90 percent of the state's farmed potato acreage is concentrated. The Aroostook River runs through the city, and long, severe winters combined with tens of thousands of acres of surrounding farmland create heavy rodent pressure on structures each fall, along with the boreal forest insect populations typical of far northern Maine.",
+    topPests: [
+      "House Mice",
+      "Voles",
+      "Carpenter Ants",
+      "Cluster Flies",
+      "Wasps and Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through May, heaviest pressure October through December",
+        note: "Presque Isle's severe winters and the tens of thousands of acres of potato and grain farmland surrounding the city push house mice toward heated buildings earlier and harder than in most of Maine, with the University of Maine at Presque Isle campus and the city's older downtown buildings both seeing consistent fall activity.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Active spring and fall, tunneling under snow all winter",
+        note: "Meadow voles thrive in Aroostook County's agricultural fields, including the university's Aroostook Farm research plots on the edge of the city, and they tunnel extensively under snow cover through the winter, with damage to lawns and garden beds becoming visible each spring thaw.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings indicate an overwintered colony",
+        note: "Aroostook County's boreal forest sustains large carpenter ant populations, and Presque Isle's older downtown buildings and farmhouses, many with decades of moisture damage from ice dams and settled foundations, provide the wood carpenter ants need.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, warm-day emergence through winter",
+        note: "Cluster flies are a fixture of fall in Presque Isle's older farm buildings and downtown structures, overwintering in wall voids and attics in large numbers and emerging into living spaces on mild winter days.",
+      },
+      {
+        name: "Wasps and yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September, most defensive in August",
+        note: "Yellow jackets nest in the ground around Presque Isle's farm fields and residential lawns, and colonies reach peak size and aggression in August, right as the region's short harvest season brings people outdoors more often.",
+      },
+    ],
+    localHook:
+      "Presque Isle sits at the center of a region where roughly 90 percent of Maine's potato acreage is farmed, and that agricultural landscape, paired with some of the coldest, longest winters in the state, drives one of the earliest and heaviest fall mouse pushes anywhere in Maine.",
+    intro:
+      "Pest control in Presque Isle follows the rhythm of Aroostook County agriculture and the region's severe winters. The city is the commercial hub for a county where roughly 90 percent of Maine's potato acreage is grown, and that scale of surrounding farmland maintains rodent populations that move toward buildings the moment temperatures drop each fall. House mice and voles both draw on that farmland source, with voles doing their damage under snow cover and mice moving indoors. Carpenter ants work the city's older downtown buildings and outlying farmhouses, cluster flies gather every fall in the same older structures, and yellow jackets nest through the farm fields and residential lawns each summer. Presque Isle's position well north of the rest of this batch means every one of these problems runs on a slightly earlier, harsher schedule than in southern Maine.",
+    sections: [
+      {
+        heading: "Mice, Voles, and Aroostook County's Farmland",
+        body: "Presque Isle sits at the center of Maine's potato country, where the University of Maine's Aroostook Farm research station and tens of thousands of surrounding acres of commercial potato and grain fields maintain large rodent populations year-round. House mice respond to Presque Isle's early, severe cold by moving toward heated buildings earlier than mice almost anywhere else in Maine, often by early September, and the city's older downtown commercial buildings and the University of Maine at Presque Isle campus both see consistent fall entry. Once inside, mice establish nesting sites in wall voids and insulation and continue breeding through the winter unless excluded. Voles behave differently. Meadow voles stay outdoors through the cold months, tunneling extensively under snow cover across lawns, garden beds, and the edges of farm fields, and the resulting runway damage to grass and bulbs becomes visible only when the snow melts each spring, well after the damage is done. Presque Isle homeowners with lawns bordering farmland or open fields see the heaviest vole activity. Addressing both pests effectively means treating them on separate timelines: exterior exclusion and interior trapping for mice completed before the September push, and perimeter vole treatment in early spring before the growing season begins, ideally before the last snow has fully melted and revealed the winter's tunneling.",
+      },
+      {
+        heading: "Carpenter Ants, Cluster Flies, and Yellow Jackets in Presque Isle",
+        body: "Aroostook County's boreal forest supports substantial carpenter ant populations, and Presque Isle's older downtown buildings, along with the farmhouses scattered through the surrounding agricultural land, provide the moisture-damaged wood the ants need to nest. Decades of ice dam leaks, settled foundations, and inadequate vapor barriers in crawl spaces are the usual culprits. The first sign in most Presque Isle buildings is large black ants foraging indoors in spring from a colony that spent winter inside the structure's insulated wall space, and treatment needs to address the underlying moisture along with the ants themselves to keep the colony from returning. Cluster flies are a distinct fall event tied to the same older building stock. Starting in late August, they seek overwintering sites in attics and wall voids throughout Presque Isle's older farm and downtown buildings, and by October a single wall can hold hundreds of them. On mild winter days, they emerge at windows in numbers that surprise homeowners who assumed all insect activity had ended with the first hard frost. Yellow jackets round out the summer calendar, nesting in the ground throughout Presque Isle's farm fields and residential lawns and reaching peak colony size and defensiveness in August, which lines up with the region's short harvest season and the increased outdoor work that comes with it. Fall perimeter spray to intercept cluster flies before they enter, combined with locating and treating yellow jacket nests before harvest activity peaks, addresses both pests on their own timelines.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations on Presque Isle buildings by late August, ahead of one of the earliest fall mouse pushes in Maine.",
+      "Treat lawn and garden perimeters for voles each April, before the growing season begins and while winter tunneling damage is still visible.",
+      "Inspect older Presque Isle downtown buildings and outlying farmhouses each spring for moisture-damaged wood, the condition carpenter ants need to establish a colony.",
+      "Apply fall perimeter spray to Presque Isle buildings in late August to intercept cluster flies before they move into wall voids for winter.",
+    ],
+    costNote:
+      "Presque Isle pest programs are built around the region's early winter rodent pressure, with fall exclusion work typically scheduled in August. Vole treatment for farmland-adjacent lawns runs separately in spring. Carpenter ant and cluster fly treatment are priced once activity is confirmed. A free inspection determines the right combination for a given property.",
+    faqs: [
+      {
+        question: "Why do mice move indoors earlier in Presque Isle than elsewhere in Maine?",
+        answer:
+          "Presque Isle sits in one of the coldest, earliest-winter parts of the state, and the tens of thousands of acres of potato and grain farmland surrounding the city maintain a large rodent population close to buildings. As temperatures drop, often by early September, house mice move toward heated structures faster here than in most of Maine. Completing exterior exclusion work in August, before that push begins, gets ahead of the problem rather than reacting to it.",
+      },
+      {
+        question: "Are voles a real problem for Presque Isle lawns and gardens?",
+        answer:
+          "Yes. Meadow voles are common throughout Aroostook County's farmland, including the fields around the University of Maine's Aroostook Farm research station on the edge of the city, and they tunnel extensively under snow cover all winter. The damage, runway patterns in the grass and chewed bulbs, only becomes visible each spring when the snow melts. Treating lawn and garden perimeters in April limits the damage that accumulates before the following winter.",
+      },
+      {
+        question: "What causes carpenter ants in Presque Isle's older buildings?",
+        answer:
+          "Moisture damage from ice dam leaks, settled foundations, and inadequate crawl space vapor barriers is the usual cause, and it is common in both Presque Isle's older downtown buildings and the farmhouses scattered through the surrounding county. Aroostook County's boreal forest also supports a large regional carpenter ant population to begin with. Large black ants indoors in spring typically mean a colony spent the winter established inside the structure.",
+      },
+      {
+        question: "When do cluster flies show up in Presque Isle homes?",
+        answer:
+          "Cluster flies begin searching for overwintering sites in attics and wall voids starting in late August, and by October a single wall in an older Presque Isle building can hold hundreds of them. They stay dormant through most of winter but emerge at windows in surprising numbers on mild winter days. Fall perimeter spray, applied before they move indoors, is the most effective prevention.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Brunswick", slug: "brunswick-me", stateSlug: "maine" },
+      { name: "Scarborough", slug: "scarborough-me", stateSlug: "maine" },
+      { name: "Windham", slug: "windham-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Presque Isle, ME | Mice, Voles & Carpenter Ants",
+    metaDescription:
+      "Presque Isle ME pest control for house mice, voles, carpenter ants, cluster flies and yellow jackets. Aroostook County specialists. Call 1-800-PEST-USA.",
+  },
 ];

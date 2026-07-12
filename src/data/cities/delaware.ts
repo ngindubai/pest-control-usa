@@ -768,4 +768,561 @@ export const delawareCities: CityLocation[] = [
     metaDescription:
       "Seaford DE pest control for termites, mosquitoes, deer ticks and spotted lanternfly. Sussex County Nanticoke River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "georgetown-de",
+    name: "Georgetown",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~7,900",
+    county: "Sussex County",
+    climate: "temperate",
+    climateDriver:
+      "Georgetown sits at the geographic center of Sussex County, the flattest and most agricultural county in Delaware and the county the Delmarva Chicken Association identifies as the top broiler chicken producing county in the nation. The town's location amid dozens of poultry grow houses, corn and soybean fields, and drainage ditches shapes a pest calendar built around farm-adjacent flies and moisture-loving insects rather than river or coastal factors. Warm, humid summers and mild winters extend the active season for most of the pests on this list.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Filth Flies",
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+      "Odorous House Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "Termites are endemic across Sussex County, and Georgetown's mix of older buildings around The Circle downtown and newer subdivisions on the town's edges both carry meaningful risk. Wood in contact with soil around porches and crawl spaces is the most common entry point.",
+      },
+      {
+        name: "Filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October, heaviest in peak summer heat",
+        note: "Sussex County is the country's leading broiler chicken producing county, and Georgetown grew up as the industry's hub, home to the Delmarva Chicken Association and the University of Delaware's Lasher Laboratory, which tests poultry health samples from farms across the peninsula. Properties near active grow houses and hauling routes see real filth fly pressure in warm months.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "Delaware has one of the higher Lyme disease rates in the country, and the wooded field edges and drainage ditches around Georgetown's farmland sustain active deer tick populations.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Stink bugs aggregate on sun-warmed exterior walls each fall across the Delmarva Peninsula, and Georgetown homes are no exception, with entry pressure building through late September and October.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants forage inside Georgetown homes in spring and summer, nesting in wall voids and under slabs near moisture sources such as leaking spigots and AC condensate lines.",
+      },
+    ],
+    localHook:
+      "Georgetown is the seat of Sussex County government and, less officially, the historic capital of the Delmarva poultry industry: the Delmarva Chicken Association is headquartered here, and the University of Delaware runs its poultry disease testing lab, the Lasher Laboratory, right in town. That agricultural identity, more than any river or coastline, is what drives Georgetown's pest calendar.",
+    intro:
+      "Georgetown's pest pressure has less to do with water and more to do with agriculture than most Delaware towns its size. As the county seat of Sussex County, the nation's top broiler chicken producing county, Georgetown sits close to grow houses, feed operations, and the University of Delaware's poultry disease lab, all of which shape a fly problem that's distinct from what you'd find in Wilmington or Newark. Eastern subterranean termites are endemic here as they are countywide. Deer ticks are active in the wooded field edges outside town. Stink bugs make their usual fall push indoors, and odorous house ants are a steady spring and summer nuisance in kitchens and bathrooms.",
+    sections: [
+      {
+        heading: "Poultry country and Georgetown's filth fly pressure",
+        body: "Sussex County produces more broiler chickens than any other county in the United States, and Georgetown grew up at the center of that industry. The town is home to the Delmarva Chicken Association's headquarters, and the University of Delaware operates its Lasher Laboratory here, testing poultry health samples from farms across the peninsula. That concentration of poultry activity means Georgetown properties, especially those on the edges of town closer to active grow houses, deal with real filth fly pressure that homes in Wilmington or Dover simply don't see at the same scale. Flies breed in poultry litter, manure, and decaying organic matter, and adult flies travel readily between farm operations and nearby homes and businesses in warm weather. The problem peaks from June through August, when heat speeds up the fly life cycle. Good sanitation on your own property, tight window and door screens, and exterior fly bait stations placed away from entry points all help. For properties dealing with heavy pressure during peak season, a professional program that combines residual perimeter treatment with bait stations is more effective than store-bought traps alone, which tend to fill up fast and need constant replacement without making a dent in the source population nearby.",
+      },
+      {
+        heading: "Termites and ticks around The Circle and the county's farmland",
+        body: "Georgetown's downtown, built around the historic Circle and the Sussex County Courthouse, has a meaningful number of older structures where wood framing sits close to or in contact with soil, a setup that eastern subterranean termites exploit readily. The newer subdivisions built on former farmland at the edges of town carry their own risk, since grading and construction disturb soil where termite colonies were already established. Either way, Sussex County is a documented termite zone, and an annual inspection is the baseline defense for any Georgetown property, old or new. Deer ticks are the other steady concern, especially for anyone whose property backs onto the wooded field edges, drainage ditches, or hedgerows that separate farm fields around town. Delaware's Lyme disease rate is among the higher rates in the country, and the nymph stage, active from May through July, is the hardest to spot because it's roughly the size of a poppy seed. Checking yourself, your kids, and your pets after any time spent near the fields outside town is a habit worth keeping through the warm months.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Georgetown properties near The Circle and in newer farmland-adjacent subdivisions alike.",
+      "Install and maintain fly bait stations away from doors and windows if your property sits near active poultry operations.",
+      "Check for deer ticks after time spent near the wooded field edges and drainage ditches outside Georgetown.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Georgetown runs $180 to $550 per year depending on structure size and treatment type. Fly control programs for properties near active poultry operations are typically quoted as a recurring monthly service during the warm season. General pest plans covering ants, spiders, and stink bugs run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why does Georgetown have more fly problems than other Delaware towns?",
+        answer:
+          "Georgetown sits at the center of Sussex County's broiler chicken industry, the largest in the country by volume. The town is home to the Delmarva Chicken Association and the University of Delaware's Lasher Laboratory for poultry disease testing. Properties near active grow houses see real filth fly pressure from April through October that homes farther from agricultural operations don't experience at the same level.",
+      },
+      {
+        question: "Are termites a real risk in Georgetown, DE?",
+        answer:
+          "Yes. Sussex County is a documented eastern subterranean termite zone, and both the older buildings around Georgetown's historic Circle and the newer subdivisions built on former farmland carry meaningful risk. An annual inspection is the standard recommendation for any Georgetown property.",
+      },
+      {
+        question: "Is Lyme disease a concern around Georgetown?",
+        answer:
+          "Yes. Delaware has one of the higher Lyme disease rates in the country, and the wooded field edges and drainage ditches around Georgetown's farmland support active deer tick populations. The nymph stage, active May through July, is small enough to go unnoticed, so daily tick checks matter during that window.",
+      },
+      {
+        question: "When do stink bugs invade homes in Georgetown?",
+        answer:
+          "Brown marmorated stink bugs begin aggregating on sun-warmed exterior walls in September and push indoors through October and into November as temperatures drop. Sealing gaps around windows, doors, and utility penetrations before September is the most effective way to keep numbers down.",
+      },
+      {
+        question: "What draws odorous house ants into Georgetown kitchens?",
+        answer:
+          "Odorous house ants forage indoors looking for sugar and moisture, and they nest in wall voids or under slabs near leaking spigots, AC condensate lines, and other damp spots. They're active from April through October and are one of the most common ant calls in town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Millsboro", slug: "millsboro-de", stateSlug: "delaware" },
+      { name: "Glasgow", slug: "glasgow-de", stateSlug: "delaware" },
+      { name: "Elsmere", slug: "elsmere-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Georgetown, DE | Termites, Flies & Deer Ticks",
+    metaDescription:
+      "Georgetown DE pest control for termites, filth flies, deer ticks and stink bugs. Sussex County poultry specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "millsboro-de",
+    name: "Millsboro",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~7,700",
+    county: "Sussex County",
+    climate: "temperate",
+    climateDriver:
+      "Millsboro sits on the Indian River in eastern Sussex County, home to one of the largest poultry processing operations on the Delmarva Peninsula. The tidal river and its surrounding marsh provide steady mosquito breeding habitat through the warm season, while the concentration of poultry processing and hauling activity in and around town adds filth fly pressure that most Delaware towns don't face at the same scale.",
+    topPests: [
+      "Filth Flies",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October, heaviest in summer heat",
+        note: "Mountaire Farms operates one of the largest poultry processing complexes on the Delmarva Peninsula right in Millsboro, with roughly 7,000 employees at the site. Homes and businesses near active processing and hauling operations see elevated filth fly pressure through the warm months.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "Termites are endemic throughout Sussex County, and Millsboro's mix of older river-adjacent homes and newer residential development both carry real risk. Moist soil along the Indian River corridor supports colony growth.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The tidal marshes of the Indian River and Indian River Bay just outside town produce large mosquito populations through the warm season, and Millsboro neighborhoods closest to the water see the heaviest pressure.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "The wooded and agricultural edges around Millsboro sustain active deer tick populations, and Delaware's high Lyme disease rate makes tick checks a real habit worth keeping after any time outdoors.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Stink bugs aggregate on exterior walls each fall across the Delmarva Peninsula, and Millsboro sees the same seasonal push into homes as the rest of Sussex County.",
+      },
+    ],
+    localHook:
+      "Millsboro is home to one of the largest poultry processing operations on the Delmarva Peninsula, run by Mountaire Farms, the fourth largest chicken producer in the country, employing roughly 7,000 people at the site. That industrial scale, combined with the town's location on the tidal Indian River, gives Millsboro a pest profile built around flies and mosquitoes more than most inland Delaware towns.",
+    intro:
+      "Millsboro's pest pressure is shaped by two things: the Indian River running through town and one of the largest poultry processing operations on the Delmarva Peninsula. Mountaire Farms, the fourth largest chicken producer in the country, runs a major processing complex here employing thousands, and homes near active operations deal with real filth fly pressure through the warm months. The tidal Indian River and its surrounding marsh sustain mosquitoes from May through October. Termites are endemic countywide, deer ticks are active in the wooded edges outside town, and stink bugs make their usual fall push indoors.",
+    sections: [
+      {
+        heading: "Millsboro's poultry industry and filth fly pressure",
+        body: "Mountaire Farms, the fourth largest chicken producer in the United States, operates a major poultry processing complex in Millsboro that employs roughly 7,000 people, making it one of the largest single employment sites on the Delmarva Peninsula. That scale of poultry processing and the associated hauling and rendering activity brings a level of filth fly pressure that most Delaware towns simply don't experience. Flies breed readily in organic waste and travel between processing operations and nearby homes and businesses, especially as summer heat speeds up their life cycle. The problem tends to peak from June through August. For homes and businesses near active operations, sanitation on your own property matters, but it isn't the whole answer since flies travel in from the source regardless of how clean your yard is. Tight screens on windows and doors, exterior fly bait stations placed well away from entry points, and a professional program that combines residual perimeter treatment with monitoring gives Millsboro properties a real, measurable reduction rather than a losing battle against store-bought traps that fill up in a day and don't touch the source population nearby.",
+      },
+      {
+        heading: "Indian River mosquitoes and tick country outside town",
+        body: "The Indian River and Indian River Bay wrap around Millsboro's eastern and southern edges, and the tidal marsh along both provides some of the most productive mosquito breeding habitat in Sussex County. Neighborhoods closest to the water see the heaviest pressure from May through October, with populations peaking in the humid stretch from June through August. Because the source habitat is a public tidal system rather than anything on an individual property, area mosquito control programs help knock down peak populations, but they don't eliminate the need for property-level management. Eliminating standing water in containers, gutters, and low spots, and applying a monthly yard treatment through the season, are the practical steps for homes near the river. Deer ticks are the other seasonal concern, present in the wooded and agricultural edges that surround Millsboro outside the more developed core of town. Nymphs, active from May through July, are small enough to go unnoticed on skin or clothing, which is exactly why Delaware's Lyme disease rate stays elevated year after year. Anyone spending time along the river trails or the wooded field edges outside town should get in the habit of a thorough tick check after being outdoors.",
+      },
+    ],
+    prevention: [
+      "Install exterior fly bait stations away from entry points if your property is near active poultry processing operations.",
+      "Eliminate standing water weekly and apply monthly yard mosquito treatment from May through October near the Indian River.",
+      "Check for deer ticks after time spent in the wooded and agricultural edges outside Millsboro.",
+      "Seal exterior gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Fly control programs for Millsboro properties near active poultry operations are typically quoted as a recurring monthly service through the warm season. Mosquito yard treatment runs $80 to $180 per visit. Termite protection costs $180 to $550 per year, and general pest plans for ants and spiders run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why are filth flies such a problem in Millsboro?",
+        answer:
+          "Mountaire Farms, the fourth largest chicken producer in the country, operates a major poultry processing complex in Millsboro employing roughly 7,000 people. That concentration of poultry processing and hauling activity brings filth fly pressure that's noticeably higher than in Delaware towns without a major processing operation nearby, especially from June through August.",
+      },
+      {
+        question: "Are mosquitoes worse in Millsboro than other Delaware towns?",
+        answer:
+          "Neighborhoods close to the Indian River and Indian River Bay do see heavier mosquito pressure than inland Delaware towns. The tidal marsh along both waterways is highly productive mosquito habitat from May through October, and area control programs help but don't remove the need for property-level treatment.",
+      },
+      {
+        question: "Is termite risk high in Millsboro, DE?",
+        answer:
+          "Yes. Sussex County is a documented eastern subterranean termite zone, and Millsboro's moist soils along the Indian River corridor support colony growth in both older and newer homes. Annual inspection is the standard recommendation.",
+      },
+      {
+        question: "When is deer tick risk highest around Millsboro?",
+        answer:
+          "Nymphs are most active from May through July and are small enough to go unnoticed, which is the highest-risk window. The wooded and agricultural edges outside Millsboro's developed core sustain active tick populations, so checks after outdoor time in those areas matter most during that stretch.",
+      },
+      {
+        question: "Do stink bugs invade homes in Millsboro every fall?",
+        answer:
+          "Yes, reliably. Brown marmorated stink bugs aggregate on sun-warmed exterior walls in September and push inside through October and November as temperatures drop, the same pattern seen across the rest of Sussex County and the wider Delmarva Peninsula.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Georgetown", slug: "georgetown-de", stateSlug: "delaware" },
+      { name: "Glasgow", slug: "glasgow-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Millsboro, DE | Flies, Mosquitoes & Termites",
+    metaDescription:
+      "Millsboro DE pest control for filth flies, mosquitoes, termites and deer ticks. Indian River, Sussex County poultry industry specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "elsmere-de",
+    name: "Elsmere",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~6,200",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Elsmere is one of Delaware's smallest and most densely built towns, developed starting in 1886 as Wilmington's first streetcar suburb on tightly platted small lots along the city's western border. That density, combined with a housing stock of brick rowhouses and twins now well over a century old in many blocks, creates conditions favorable to termites, carpenter ants, and rodents that move easily between adjoining structures.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Elsmere's rowhouses and twins, many built in the early 1900s as the town grew from developer Joshua Heald's original 1886 suburb, often have wood framing in direct contact with soil. New Castle County is a documented termite zone, and this older housing stock carries elevated risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The age of Elsmere's wood-frame construction, much of it more than a century old, means moisture damage from aging rooflines and gutters is common, and carpenter ants exploit that softened wood for nesting.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Elsmere is one of the smallest towns in Delaware by land area, and its shared walls and tightly spaced rowhouses let mice move between adjoining units through common utility chases and foundation gaps.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance throughout northern Delaware, and Elsmere's older housing, with its share of settled foundations and gaps around window frames, sees consistent entry pressure each year.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches spread easily between Elsmere's rowhouses and twin homes through shared plumbing and wall voids, and persistent baiting rather than a single treatment is what actually clears an infestation.",
+      },
+    ],
+    localHook:
+      "Elsmere was built in 1886 as Delaware's first streetcar suburb, when developer Joshua Heald began selling small residential lots to working families commuting into Wilmington by trolley. Incorporated in 1909, the town has stayed one of the smallest and most densely built in the state, and that density, paired with housing stock now well over a century old in many blocks, shapes a pest picture built around shared walls and aging wood rather than open land or waterways.",
+    intro:
+      "Elsmere's pest challenges trace back to how the town was built. Founded in 1886 as Wilmington's first streetcar suburb and incorporated in 1909, Elsmere was platted on small lots with rowhouses and twins meant for working families commuting into the city. More than a century later, that same housing stock, tightly spaced and often built with wood close to grade, is what drives the town's termite and carpenter ant risk. The density that made Elsmere Delaware's original suburb also means mice and German cockroaches move easily between adjoining units. Stink bugs make the same fall push into homes here as they do throughout northern Delaware.",
+    sections: [
+      {
+        heading: "Elsmere's rowhouse legacy and termite risk",
+        body: "When developer Joshua Heald began selling building lots in Elsmere in 1886, he was creating something new for the area: Delaware's first true streetcar suburb, built on small, affordable parcels for working families who could take the trolley line into jobs in Wilmington. The town incorporated in 1909 with roughly 70 families already settled in, and much of that original housing, along with the rowhouses and twins built in the decades that followed, still stands today. That age is the core of Elsmere's termite problem. Eastern subterranean termites are active throughout New Castle County, and older wood-frame construction with sills and joists close to or in contact with soil, common in a town built before modern termite-resistant foundation standards existed, is exactly the setup termites exploit. Porches, additions, and older garages built directly on grade are the highest-risk spots. An annual inspection is the practical baseline for any Elsmere property, and homes without documented soil treatment or a baiting system should be evaluated. Carpenter ants follow a similar pattern, moving into wood that's been softened by decades of minor roof and gutter leaks that were never fully addressed, a common condition in housing stock this age.",
+      },
+      {
+        heading: "Density, shared walls, and indoor pests in Elsmere",
+        body: "Elsmere is one of the smallest towns in Delaware by land area, and that compact footprint, combined with rowhouses and twins built wall to wall, creates conditions that let indoor pests spread between units in ways that don't happen in more spread-out suburbs. House mice find their way in through foundation gaps and shared utility chases, and once inside a block of connected rowhouses, they move between units more easily than in a detached single-family home. The surge each fall, as outdoor temperatures drop and mice look for warmth, is a predictable seasonal event here. German cockroaches follow the same pattern through plumbing runs and wall voids shared between adjoining properties, which is why a single unit's infestation often traces back to, or spreads to, the unit next door. Persistent baiting programs that treat a whole building rather than a single unit are what actually solve the problem long-term. Brown marmorated stink bugs round out the picture each fall, entering through the same settled foundation gaps and loose window frames that give termites and mice their opening, a reminder that in Elsmere's older housing stock, sealing the building envelope helps with more than one pest at once.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Elsmere's older rowhouses and twins, especially those with porches or additions built on grade.",
+      "Address roof and gutter leaks promptly to remove the moisture-damaged wood that carpenter ants target.",
+      "Seal foundation gaps and shared utility chases to slow the spread of mice and cockroaches between adjoining units.",
+      "Seal gaps around windows and door frames before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Elsmere runs $180 to $500 per year depending on structure size and treatment type. German cockroach elimination in rowhouse and twin construction is typically quoted as a multi-visit baiting program rather than a single treatment. General pest plans for ants and mice run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why is Elsmere, DE at higher risk for termites than newer Delaware suburbs?",
+        answer:
+          "Elsmere was built starting in 1886 as Wilmington's first streetcar suburb, and much of its rowhouse and twin housing stock predates modern termite-resistant foundation standards. Wood framing close to or in contact with soil is common in porches, additions, and older garages, and New Castle County is a documented eastern subterranean termite zone. Annual inspection is the standard recommendation.",
+      },
+      {
+        question: "Do mice spread between rowhouses in Elsmere?",
+        answer:
+          "Yes. Elsmere is one of the smallest and most densely built towns in Delaware, and its wall-to-wall rowhouses and twins share foundation gaps and utility chases that let mice move between adjoining units. The surge each fall, as mice look for warmth, is a predictable seasonal pattern here.",
+      },
+      {
+        question: "Why do German cockroach problems in Elsmere keep coming back?",
+        answer:
+          "German cockroaches spread through shared plumbing and wall voids between adjoining rowhouses and twin homes, so a single unit's treatment can be undone by an infestation next door. A persistent, multi-visit baiting program that treats the whole building rather than one unit is what actually clears the problem.",
+      },
+      {
+        question: "Are stink bugs a big problem in Elsmere every fall?",
+        answer:
+          "Yes. Elsmere's older housing stock, with its share of settled foundations and loose window frames, gives brown marmorated stink bugs the same entry points that termites and mice exploit. Fall aggregation on exterior walls builds through September and October before bugs push inside for winter.",
+      },
+      {
+        question: "What causes carpenter ant problems in Elsmere's older homes?",
+        answer:
+          "Much of Elsmere's housing dates to the early 1900s, and decades of minor roof and gutter leaks that went unaddressed have softened wood in many structures. Carpenter ants target that moisture-damaged wood for nesting. Addressing the underlying leak is necessary alongside any ant treatment, or the problem returns.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "New Castle", slug: "new-castle-de", stateSlug: "delaware" },
+      { name: "Glasgow", slug: "glasgow-de", stateSlug: "delaware" },
+      { name: "Georgetown", slug: "georgetown-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Elsmere, DE | Termites, Carpenter Ants & Mice",
+    metaDescription:
+      "Elsmere DE pest control for termites, carpenter ants, mice and German cockroaches. Delaware's first streetcar suburb, New Castle County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-castle-de",
+    name: "New Castle",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~5,700",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "New Castle sits directly on the Delaware River, and its historic district, a National Historic Landmark since 1967, preserves one of the most intact collections of colonial-era brick and wood-frame buildings on the East Coast, some dating to the town's 1651 founding as Fort Casimir. That combination of centuries-old construction and a waterfront location on tidal marsh gives New Castle both a termite and carpenter ant problem tied to building age and a mosquito problem tied to the river.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle's historic district contains buildings dating to the 17th and 18th centuries, and wood framing in structures this old is very often in direct contact with or close to soil. New Castle County is a documented termite zone, and this concentration of historic construction carries real risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Colonial-era wood construction, brick sidewalks, and centuries of settling create moisture pockets in New Castle's historic buildings that carpenter ants readily exploit for nesting.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "New Castle's small harbor and waterfront along the Delaware River, including the tidal marsh near Battery Park, sustain mosquito populations through the warm season.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance throughout New Castle County, and the gaps common in centuries-old masonry and window frames in New Castle's historic district give them ready entry.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Old foundations and masonry gaps throughout New Castle's historic core give mice easy access each fall as outdoor temperatures drop.",
+      },
+    ],
+    localHook:
+      "New Castle was founded in 1651 as Fort Casimir and served as Delaware's colonial capital, and its historic district, a National Historic Landmark since 1967, still holds one of the most intact collections of 17th and 18th century architecture on the East Coast. That same age, combined with a waterfront location directly on the Delaware River, is what shapes the town's pest pressure more than anything else.",
+    intro:
+      "New Castle's pest picture is unusual for Delaware because it's driven by history as much as geography. Founded in 1651 as Fort Casimir and later Delaware's colonial capital, the town's historic district preserves brick and wood-frame buildings that are two and three centuries old, and that age brings real termite and carpenter ant risk to structures with wood framing that predates any modern soil treatment standard. New Castle's location directly on the Delaware River waterfront, including the tidal marsh near Battery Park, adds a mosquito season from May through October. Stink bugs and mice round out the picture, exploiting the same old gaps in masonry and window frames each fall.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in a 375-year-old town",
+        body: "New Castle's historic district, designated a National Historic Landmark in 1967, holds one of the densest concentrations of 17th and 18th century buildings anywhere on the East Coast, structures that trace back to the town's founding as Fort Casimir in 1651 and its years as Delaware's colonial capital. That history is a major reason people visit, and it's also the reason termite and carpenter ant risk here looks different from a typical Delaware suburb. Wood framing in buildings this old is very often close to or in direct contact with soil, installed long before modern termite barriers or treated lumber existed. New Castle County is a documented eastern subterranean termite zone, and the concentration of historic construction in New Castle's core means the town carries real structural risk that calls for regular professional inspection, ideally coordinated with an approach that respects historic preservation guidelines rather than a generic treatment plan. Carpenter ants follow a similar pattern, exploiting moisture pockets that build up in centuries-old wood and masonry, particularly around older roof lines, chimneys, and window frames where settling has created small gaps over the decades. For homeowners in the historic district, working with a pest control provider who understands historic-preservation-compliant treatment methods matters as much as the treatment itself.",
+      },
+      {
+        heading: "Delaware River waterfront and New Castle's mosquito season",
+        body: "New Castle sits directly on the Delaware River, and its small waterfront harbor near Battery Park, along with the tidal marsh that borders it, has supported river traffic since the colonial era and now supports a steady mosquito population each summer. The season runs from May through October, with the heaviest pressure in the humid stretch from June through August when tidal marsh habitat is most productive. Homes and businesses closest to the waterfront and Battery Park see the most consistent pressure, while properties farther from the river see a lighter, though still real, season. Eliminating standing water on the property, from clogged gutters to neglected containers, remains the most effective step homeowners can take themselves, since the marsh habitat that sustains the broader population is beyond any individual property's control. A monthly yard treatment applied to shaded vegetation where adult mosquitoes rest during the day adds a meaningful layer of protection for waterfront properties through the warmest months. Stink bugs and house mice round out New Castle's seasonal pest calendar, both finding entry through the same aging masonry gaps and window frames that give termites and carpenter ants their opening into the town's older structures.",
+      },
+    ],
+    prevention: [
+      "Schedule regular termite inspections for historic district properties, ideally with a provider experienced in historic-preservation-compliant treatment methods.",
+      "Address moisture buildup around older roof lines, chimneys, and window frames to reduce carpenter ant nesting conditions.",
+      "Eliminate standing water on waterfront properties near Battery Park and apply monthly mosquito treatment from May through October.",
+      "Seal gaps in old masonry and window frames before September to reduce stink bug and mouse entry.",
+    ],
+    costNote:
+      "Termite protection for New Castle's historic district properties typically requires coordination with historic preservation guidelines and runs $250 to $600 per year. Mosquito yard treatment for waterfront properties near Battery Park costs $80 to $180 per visit. General pest plans for ants and mice run $150 to $270 per year.",
+    faqs: [
+      {
+        question: "Why is termite risk different in New Castle's historic district than elsewhere in the state?",
+        answer:
+          "New Castle's historic district contains buildings dating to the town's 1651 founding as Fort Casimir, and wood framing that old is very often close to or in direct contact with soil, installed long before modern termite barriers existed. New Castle County is a documented termite zone, and the concentration of historic construction means the town carries elevated structural risk that calls for regular inspection, ideally from a provider familiar with historic-preservation-compliant treatment.",
+      },
+      {
+        question: "Are mosquitoes bad near Battery Park in New Castle?",
+        answer:
+          "Yes. New Castle's small harbor and the tidal marsh bordering the Delaware River waterfront near Battery Park sustain a steady mosquito population from May through October, peaking in the humid stretch from June through August. Waterfront properties see the most consistent pressure.",
+      },
+      {
+        question: "Do carpenter ants damage historic homes in New Castle?",
+        answer:
+          "Yes. Centuries-old wood and masonry in New Castle's historic buildings develop moisture pockets around old roof lines, chimneys, and window frames as settling occurs over decades, and carpenter ants exploit that softened wood for nesting. Addressing the underlying moisture source matters alongside any ant treatment.",
+      },
+      {
+        question: "How old are the buildings that make up New Castle's termite risk?",
+        answer:
+          "New Castle was founded in 1651 as Fort Casimir and later served as Delaware's colonial capital. Its historic district, a National Historic Landmark since 1967, preserves 17th and 18th century brick and wood-frame buildings, meaning some of the town's structures are well over 300 years old and were built long before modern termite protection standards existed.",
+      },
+      {
+        question: "Are stink bugs a problem in New Castle's older buildings?",
+        answer:
+          "Yes. The same aging masonry gaps and window frames that give termites and carpenter ants entry into New Castle's historic structures also let brown marmorated stink bugs inside each fall. Aggregation on exterior walls builds through September and October before bugs push in for winter.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Elsmere", slug: "elsmere-de", stateSlug: "delaware" },
+      { name: "Glasgow", slug: "glasgow-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in New Castle, DE | Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "New Castle DE pest control for termites, carpenter ants, mosquitoes and stink bugs. Historic Delaware River waterfront specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "glasgow-de",
+    name: "Glasgow",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~15,300",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Glasgow is an unincorporated community along the Route 40 and Route 72 corridor in central New Castle County, built out largely in subdivisions from the 1990s through the 2000s. Lums Pond State Park, home to Delaware's largest freshwater pond, sits about two miles south of town, and its woods and pond edge sustain deer ticks and mosquitoes that reach into the surrounding neighborhoods.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Deer Ticks",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+      "Spotted Lanternfly",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is in Delaware's active termite zone, and Glasgow's subdivisions, built out on formerly wooded and agricultural land through the 1990s and 2000s, sit on soil where termite colonies were already established before construction began.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "Lums Pond State Park, about two miles south of Glasgow off Route 896, holds Delaware's largest freshwater pond and surrounding woodland that sustains active deer tick populations reaching into nearby neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Lums Pond's roughly 200 acres of open water, along with retention ponds built into Glasgow's newer subdivisions for stormwater management, both produce mosquitoes through the warm season.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a consistent fall nuisance throughout New Castle County, and Glasgow's newer construction is no more resistant to them than older housing in the region.",
+      },
+      {
+        name: "Spotted lanternfly",
+        activeSeason: "Nymphs April through July, adults July through November",
+        note: "Spotted lanternfly has been confirmed by the Delaware Department of Agriculture throughout New Castle County, and the Route 40 and Route 72 commercial corridor through Glasgow, with its roadside tree of heaven growth, gives the invasive pest an easy path to spread.",
+      },
+    ],
+    localHook:
+      "Glasgow sits along the Route 40 and Route 72 commercial corridor in central New Castle County, about two miles north of Lums Pond State Park, home to Delaware's largest freshwater pond. That mix of a fast-built suburban community and a large state park immediately to the south shapes a pest picture built around tick and mosquito habitat at the park's edge as much as anything tied to the neighborhoods themselves.",
+    intro:
+      "Glasgow grew rapidly through the 1990s and 2000s into one of the larger unincorporated communities in New Castle County, and its pest pressure reflects both that fast build-out and its location just north of Lums Pond State Park. The park, home to Delaware's largest freshwater pond, sits about two miles south of Glasgow and sustains deer ticks and mosquitoes that reach into the surrounding neighborhoods. Eastern subterranean termites are active countywide, including under the subdivisions built on formerly wooded and agricultural land. Stink bugs make their usual fall push into homes, and spotted lanternfly is spreading through the area's commercial corridors.",
+    sections: [
+      {
+        heading: "Lums Pond State Park and tick and mosquito pressure near Glasgow",
+        body: "Lums Pond State Park sits about two miles south of Glasgow off Route 896, and its roughly 200 acres of open water make it the largest freshwater pond in Delaware. The park's surrounding woodland and pond edge are exactly the kind of habitat that sustains deer ticks, and that population doesn't stop at the park boundary: it extends into the wooded edges of neighborhoods closest to the park. Nymph-stage ticks, active from May through July, are the highest-risk stage because they're small enough to go unnoticed on skin or clothing. Anyone in Glasgow who uses the park for hiking, fishing, or paddling, or who simply has a wooded property line near it, should get in the habit of a full tick check after time outdoors during those months. Mosquitoes follow a similar pattern. The pond itself is a breeding source, but so are the stormwater retention ponds built into many of Glasgow's newer subdivisions, a standard feature of development from this era. Unmanaged retention ponds can produce large numbers of mosquitoes on their own, separate from anything coming from the park, so treating those on-site water features matters as much as anything tied to Lums Pond.",
+      },
+      {
+        heading: "Termites and spotted lanternfly in a fast-built suburb",
+        body: "Much of Glasgow was built out in subdivisions through the 1990s and 2000s on land that was previously wooded or farmed, and that pattern of development is directly tied to termite risk. Eastern subterranean termite colonies are established in New Castle County's soil independent of what gets built on top of it, and clearing and grading disturbs that soil, bringing new construction wood into proximity with colonies that predate the subdivision. Homes built during Glasgow's rapid growth period should have documentation of pre-construction soil treatment, and any home without that record is a candidate for a professional inspection. Spotted lanternfly is the newer concern. The Delaware Department of Agriculture has confirmed the invasive pest throughout New Castle County, and the Route 40 and Route 72 corridor running through Glasgow, lined with the kind of disturbed roadside soil where tree of heaven grows, gives the pest an easy path to spread into the surrounding community. Removing tree of heaven where it's found on the property and reporting sightings to the Delaware Department of Agriculture are the most useful individual steps Glasgow residents can take.",
+      },
+    ],
+    prevention: [
+      "Verify pre-construction termite soil treatment records for Glasgow subdivisions built during the 1990s and 2000s growth period.",
+      "Check for deer ticks after time spent in or near Lums Pond State Park, especially during the May through July nymph season.",
+      "Treat stormwater retention ponds in Glasgow subdivisions for mosquito larvae from May through October.",
+      "Remove tree of heaven from the property and report spotted lanternfly sightings to the Delaware Department of Agriculture.",
+    ],
+    costNote:
+      "Termite protection in Glasgow runs $180 to $550 per year depending on structure size and treatment history. Retention pond and yard mosquito treatment costs $80 to $180 per visit. Tick yard treatment runs $90 to $180 per application, and general pest plans for stink bugs and ants cost $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Does living near Lums Pond State Park increase pest risk in Glasgow?",
+        answer:
+          "Yes, for ticks and mosquitoes specifically. Lums Pond State Park, about two miles south of Glasgow, holds Delaware's largest freshwater pond and surrounding woodland that sustains deer tick and mosquito populations reaching into nearby neighborhoods. Properties closest to the park see the most consistent pressure, especially during the May through July tick nymph season.",
+      },
+      {
+        question: "Are new homes in Glasgow protected from termites?",
+        answer:
+          "Not automatically. Much of Glasgow was built during the 1990s and 2000s on land that was previously wooded or agricultural, and eastern subterranean termite colonies already established in that soil don't disappear when a subdivision goes up. Homeowners should verify pre-construction soil treatment records, and any home without documentation should have a professional inspection.",
+      },
+      {
+        question: "Is spotted lanternfly present in Glasgow, DE?",
+        answer:
+          "Yes. The Delaware Department of Agriculture has confirmed spotted lanternfly throughout New Castle County, and the Route 40 and Route 72 commercial corridor through Glasgow, with its roadside tree of heaven growth, gives the invasive pest an easy path to spread. Removing tree of heaven and reporting sightings are the recommended steps for residents.",
+      },
+      {
+        question: "Why do stormwater retention ponds in Glasgow attract mosquitoes?",
+        answer:
+          "Retention ponds are a standard feature of the subdivisions built during Glasgow's rapid growth period, and when they hold standing water for more than a few days, they become productive mosquito breeding sites separate from anything coming out of Lums Pond. Regular larvicide treatment of these features is an effective way to reduce on-site mosquito production.",
+      },
+      {
+        question: "When is deer tick risk highest near Lums Pond State Park?",
+        answer:
+          "The nymph stage is most active from May through July and is the highest-risk period, since nymphs are small enough to go unnoticed. Residents and visitors using the park's trails, or with wooded property lines near it, should do a full tick check after any time spent outdoors during those months.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Elsmere", slug: "elsmere-de", stateSlug: "delaware" },
+      { name: "New Castle", slug: "new-castle-de", stateSlug: "delaware" },
+      { name: "Millsboro", slug: "millsboro-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Glasgow, DE | Termites, Ticks & Mosquitoes",
+    metaDescription:
+      "Glasgow DE pest control for termites, deer ticks, mosquitoes and spotted lanternfly near Lums Pond State Park. New Castle County. Call 1-800-PEST-USA.",
+  },
 ];

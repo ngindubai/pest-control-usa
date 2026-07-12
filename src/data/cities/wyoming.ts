@@ -1533,4 +1533,322 @@ export const wyomingCities: CityLocation[] = [
     metaTitle: "Pest Control in Jackson, WY | Wildlife Removal, Mice & Bed Bugs",
     metaDescription: "Pest control in Jackson, Wyoming near Grand Teton National Park. Wildlife removal, mice, wasps, ticks, and bed bugs for Teton County's resort community. Licensed WY technicians.",
   },
+  {
+    slug: "powell-wy",
+    name: "Powell",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~6,500",
+    county: "Park County",
+    climate: "semi-arid",
+    climateDriver:
+      "Powell sits at about 4,393 feet on the floor of the Bighorn Basin in Park County, lower and considerably drier than most Wyoming towns. The Shoshone Irrigation District's canal network turns the surrounding high desert into productive farmland growing sugar beets, dry beans, and barley, and that same irrigation water changes the pest picture here. Standing water in canals and flood irrigated fields supports mosquito and cluster fly populations that drier, non irrigated Wyoming communities do not see at the same scale.",
+    topPests: [
+      "House Mice",
+      "Mosquitoes",
+      "Cluster Flies",
+      "Boxelder Bugs",
+      "Black Widow Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through March",
+        note: "Powell's lower Bighorn Basin elevation means milder winters than mountain Wyoming towns, but temperatures still drop hard enough each fall to push mice out of the surrounding irrigated farmland and into homes and outbuildings. University of Wyoming Extension identifies house mice as the state's most commonly reported structural pest.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "The Shoshone Irrigation District's canal system and the flood irrigation used on sugar beet and bean fields around Powell leave standing water in ditches and low fields through summer, giving mosquitoes breeding conditions that most of dry, high elevation Wyoming lacks.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, spring and winter emergence",
+        note: "Cluster flies breed in earthworm burrows, and the irrigated farm soil around Powell stays moist enough through the growing season to sustain a larger earthworm population, and in turn a larger cluster fly population, than Wyoming's dryland farming areas.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall aggregation",
+        note: "The shelterbelt trees planted as windbreaks along Powell's irrigated fields include boxelder and other maples that host large boxelder bug populations, which aggregate on warm building walls each September and October.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "University of Wyoming Extension confirms the western black widow is present statewide. Powell's grain storage buildings, machine sheds, and irrigation infrastructure provide the dry, undisturbed harborage this spider prefers.",
+      },
+    ],
+    localHook:
+      "Powell sits on the floor of the Bighorn Basin at under 4,400 feet, lower and drier in the surrounding desert than most Wyoming towns, yet the town itself is green with irrigated sugar beet and bean fields fed by the Shoshone Irrigation District's canals. That contrast is the whole pest story here: the irrigation that makes Powell's farm economy possible also creates the mosquito and cluster fly pressure that basin towns without canal water simply do not have.",
+    intro:
+      "Pest control in Powell is shaped by an unusual contrast: a high desert climate wrapped around an intensively irrigated farm belt. The Bighorn Basin floor sits under 4,400 feet, considerably lower and milder than Wyoming's mountain and high plains towns, and the Shoshone Irrigation District's canal system has turned the surrounding land into productive sugar beet, dry bean, and barley country. That irrigation water is why Powell sees more mosquitoes and cluster flies than drier Wyoming communities of similar size. House mice still push toward heated buildings each fall as basin temperatures drop, and black widow spiders are a steady presence in grain sheds and machine buildings. Boxelder bugs round out the picture, drawn to the maple shelterbelt trees planted along Powell's irrigated fields.",
+    sections: [
+      {
+        heading: "Why Powell has more mosquitoes and cluster flies than most of dry Wyoming",
+        body: "Most of Wyoming is genuinely dry, and that dryness keeps mosquito and cluster fly populations well below what homeowners in wetter states expect. Powell is the exception, and irrigation is the reason. The Shoshone Irrigation District delivers water across roughly 93,000 acres of farmland surrounding the town, and a portion of that water sits in open ditches, flood irrigated fields, and low spots long enough each summer to breed mosquitoes. Properties near canal laterals or bordering flood irrigated fields see noticeably higher mosquito pressure from June through August than homes in the middle of town away from irrigated ground. Cluster flies follow a similar logic but on a longer timeline. They lay eggs in earthworm burrows, and earthworms need consistently moist soil to thrive. Powell's irrigated cropland keeps soil damp through most of the growing season, supporting a bigger earthworm population, and in turn a bigger cluster fly population, than Wyoming's dryland ranching country ever sees. Each fall those flies look for a warm building to spend the winter in, and older farmhouses with plenty of wall voids and attic space are an easy target. The practical response for both pests is different: mosquito control means reducing standing water and treating vegetation near canals and ditches, while cluster fly control means sealing the building exterior in late summer before the fall migration indoors begins.",
+      },
+      {
+        heading: "Fall mouse pressure and boxelder bugs on Powell's farm-edge properties",
+        body: "Powell's lower elevation in the Bighorn Basin means winters here are less severe than in Wyoming's mountain towns, but the cold still arrives hard enough each fall to send mice looking for shelter. Farms and homes on the edge of Powell, closest to the irrigated fields and shelterbelt rows, see the earliest and heaviest mouse pressure because that is where the outdoor mouse population is largest to begin with. Grain storage, machine sheds, and older farmhouses with settled foundations offer easy entry points, and once mice are inside a heated building for the winter, they breed steadily until spring. Boxelder bugs follow a similar seasonal pattern but come from a different source: the maple trees planted decades ago as windbreaks along Powell's irrigated fields. Those shelterbelt trees host large boxelder bug populations through summer, and each September and October the bugs move toward the nearest warm wall, often the same farmhouse or outbuilding that mice are also targeting. Sealing exterior gaps in August, before either pest is actively seeking entry, addresses both problems with one pass around the building.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, sill plates, and utility penetrations in August before Powell's fall cold sends farm-edge mice looking for shelter.",
+      "Manage standing water in irrigation ditches and low-lying field corners near the home to cut mosquito breeding through summer.",
+      "Apply an exterior perimeter treatment in late summer before cluster flies begin moving into wall voids for winter.",
+      "Trim or remove shelterbelt maple trees close to the house to reduce fall boxelder bug aggregation on exterior walls.",
+    ],
+    costNote:
+      "Powell pest control is typically built around a fall rodent and overwintering-insect program, since mice, cluster flies, and boxelder bugs all converge on the same August to October window. Mosquito treatment is a separate seasonal service for properties near irrigation canals or flood irrigated fields. A free inspection identifies which pests are active on a given property before any plan is quoted.",
+    faqs: [
+      {
+        question: "Why does Powell have more mosquitoes than other Wyoming towns at a similar elevation?",
+        answer:
+          "Irrigation. The Shoshone Irrigation District waters roughly 93,000 acres of farmland around Powell, and the open canals, ditches, and flood irrigated fields that make that farming possible also hold standing water long enough each summer to breed mosquitoes. Wyoming towns without this kind of large-scale irrigation infrastructure simply do not have the same summer mosquito pressure. Properties closest to canal laterals see the most activity.",
+      },
+      {
+        question: "Are black widow spiders a real concern in Powell?",
+        answer:
+          "Yes. University of Wyoming Extension confirms the western black widow is present statewide, and Powell's grain storage buildings, machine sheds, and irrigation-related outbuildings provide the dry, undisturbed spaces this spider prefers. They are not aggressive, but their venom is medically significant, so treating these harborage areas annually and using gloves when reaching into stored equipment is a reasonable precaution.",
+      },
+      {
+        question: "When should I start mouse prevention in Powell?",
+        answer:
+          "August, before the Bighorn Basin's fall cold arrives. Powell's lower elevation gives it milder winters than Wyoming's mountain towns, but the surrounding irrigated farmland supports a large outdoor mouse population that still pushes toward heated buildings each fall. Sealing foundation gaps and utility penetrations in August, ahead of that push, is more effective than trapping mice after they are already inside.",
+      },
+      {
+        question: "What is a cluster fly and why does it keep coming back to my Powell home every fall?",
+        answer:
+          "Cluster flies breed in earthworm burrows in moist soil, and Powell's irrigated farmland keeps the ground around town damp enough through the growing season to sustain a large earthworm population, which in turn sustains a large cluster fly population. Every fall, the new generation looks for a building to overwinter in, and homes with wall voids and unsealed attic vents are an easy target. Sealing the exterior in late summer before they arrive is the most effective response, since they cause no damage but return in frustrating numbers once inside a wall void.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Ranchettes", slug: "ranchettes-wy", stateSlug: "wyoming" },
+      { name: "South Greeley", slug: "south-greeley-wy", stateSlug: "wyoming" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Powell, WY | Mosquitoes, Mice & Bighorn Basin Pests",
+    metaDescription:
+      "Powell pest control for mosquitoes, mice, cluster flies and boxelder bugs. Bighorn Basin irrigation specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ranchettes-wy",
+    name: "Ranchettes",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~6,200",
+    county: "Laramie County",
+    climate: "semi-arid",
+    climateDriver:
+      "Ranchettes is a large-acreage residential community at the intersection of Interstate 25 and US Route 85, about nine miles north of downtown Cheyenne in Laramie County. It shares Cheyenne's high plains semi-arid climate and cold, windy winters, but its dirt roads, open acreage lots, and direct edge onto surrounding rangeland give it more exposure to ground-nesting and rangeland-associated pests than Cheyenne's more built-up neighborhoods.",
+    topPests: [
+      "House Mice",
+      "Skunks",
+      "Yellow Jackets",
+      "Black Widow Spiders",
+      "Boxelder Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through March",
+        note: "Ranchettes' large-acreage lots back directly onto Laramie County rangeland, giving the fall mouse population moving toward heated buildings a much shorter distance to travel than in Cheyenne's denser in-town neighborhoods.",
+      },
+      {
+        name: "Skunks",
+        serviceSlug: "skunk-removal",
+        activeSeason: "Active spring through fall, den year-round",
+        note: "The open, undeveloped ground between Ranchettes properties and the rural outbuildings common on acreage lots give skunks far more denning opportunity here than in Cheyenne's more built-up residential blocks.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, peak August",
+        note: "Yellow jackets nest in the loose, undisturbed soil common on Ranchettes' larger, less frequently mowed lots, and colonies here often go undetected longer than on smaller in-town properties before reaching a size that becomes hazardous.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "University of Wyoming Extension confirms the western black widow is present statewide. The outbuildings, sheds, and stacked materials common on Ranchettes' acreage properties provide ample harborage.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs aggregate each fall on the sun-facing walls of Ranchettes homes, moving in from the scattered boxelder and cottonwood trees planted as windbreaks on area properties.",
+      },
+    ],
+    localHook:
+      "Ranchettes trades Cheyenne's in-town density for large lots, dirt roads, and open land, and that acreage lifestyle changes the pest picture. Properties here sit close enough to Laramie County rangeland that skunks, ground-nesting yellow jackets, and field mice have a much shorter path to a Ranchettes shed or crawl space than they would to a house in the middle of Cheyenne.",
+    intro:
+      "Pest control in Ranchettes has more in common with a rural Laramie County ranch than with the city of Cheyenne nine miles to the south, even though both share the same high plains semi-arid climate. Ranchettes' large-acreage lots, dirt roads, and direct edge onto open rangeland mean skunks, ground-nesting yellow jackets, and fall field mice all have a shorter path to a residential structure here than they would in Cheyenne's more built-up neighborhoods. Black widow spiders are a steady presence in the outbuildings and sheds typical of acreage properties, and boxelder bugs aggregate each September on the windbreak trees planted across the area. Cold, windy winters drive the fall mouse surge that defines much of the annual pest calendar.",
+    sections: [
+      {
+        heading: "Acreage living and wildlife pest pressure: why Ranchettes sees more skunks and ground-nesting wasps than in-town Cheyenne",
+        body: "Ranchettes sits at the intersection of Interstate 25 and US Route 85, about nine miles north of downtown Cheyenne, and the character of the community is genuinely rural: large lots, dirt roads, and open land bordering Laramie County rangeland rather than the sidewalks and tighter lot lines of in-town Cheyenne neighborhoods. That difference matters for pest pressure. Skunks find far more denning opportunity on Ranchettes properties, with their sheds, unused outbuildings, and gaps under porches and decks, than they would in a denser residential block. They den through spring and summer looking for food and shelter, and a skunk under a porch or shed is a genuine nuisance given the obvious risk of spray if disturbed. Yellow jackets show a similar pattern at a different scale: the larger, less frequently mowed lots common in Ranchettes give ground-nesting colonies room to grow undetected for longer than they would on a small, well-tended in-town lawn, and by the time a resident notices consistent wasp traffic in July or August, the colony may already be large and defensive. Both pests respond best to early-season attention: skunk exclusion around foundations and outbuildings in spring, and a walk of the property in June looking for new yellow jacket ground nests before they reach peak size in August.",
+      },
+      {
+        heading: "Fall mice, black widows, and boxelder bugs on Ranchettes' acreage properties",
+        body: "Cheyenne and Ranchettes share the same semi-arid high plains climate and the same sharp fall temperature drop, but Ranchettes properties sit directly against Laramie County rangeland, which shortens the distance the local field mouse population has to travel to reach a heated structure. That proximity means the fall mouse surge often starts earlier and hits harder on acreage properties at the edge of the community than it does in Cheyenne's more built-up neighborhoods further from open land. Sealing foundation gaps, garage door weatherstripping, and utility penetrations in August, before the worst of the cold arrives, is the most effective response. Black widow spiders are a year-round consideration in the outbuildings, sheds, and stacked equipment common on acreage lots, since these structures offer exactly the dry, undisturbed conditions the western black widow prefers, and University of Wyoming Extension confirms the species is present statewide. Boxelder bugs close out the fall calendar, aggregating each September on the sun-facing walls of homes near the boxelder and cottonwood windbreak trees planted across many Ranchettes properties decades ago. As with Cheyenne, sealing the building exterior before September addresses mice and boxelder bugs together in a single pass.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under porches, decks, and around outbuilding foundations in spring to reduce skunk denning on Ranchettes' large-acreage lots.",
+      "Walk the full property in June to spot new yellow jacket ground nests before they reach the large, defensive size typical of August.",
+      "Seal foundation gaps and garage door weatherstripping by August, since Ranchettes' rangeland-adjacent lots see fall mouse pressure earlier than in-town Cheyenne.",
+      "Treat sheds, outbuildings, and stacked equipment annually for black widow spiders, and wear gloves when reaching into undisturbed storage.",
+    ],
+    costNote:
+      "Ranchettes pest control often combines a fall rodent program with wildlife exclusion services for skunks, priced by den location and access on the larger acreage lots typical of the area. Yellow jacket nest treatment and black widow spider service are seasonal add-ons. A free inspection identifies what is active on a given property before a plan is quoted.",
+    faqs: [
+      {
+        question: "Why does Ranchettes have more skunk activity than in-town Cheyenne neighborhoods?",
+        answer:
+          "Ranchettes' large-acreage lots, dirt roads, and direct edge onto Laramie County rangeland give skunks far more denning opportunity than Cheyenne's denser residential blocks provide. Sheds, unused outbuildings, and gaps under porches and decks are the typical den sites. Sealing these access points in spring before skunks settle in for the season is the most effective prevention step.",
+      },
+      {
+        question: "Is fall mouse pressure worse in Ranchettes than in Cheyenne itself?",
+        answer:
+          "It can be, particularly on properties at the edge of the community closest to open rangeland. Ranchettes sits directly against Laramie County range and farmland, which shortens the distance the local field mouse population needs to travel to reach a heated structure. Sealing foundation gaps and utility penetrations by August, ahead of Cheyenne's typical September mouse push, gives Ranchettes properties extra protection.",
+      },
+      {
+        question: "Are black widow spiders common in Ranchettes outbuildings?",
+        answer:
+          "Yes. University of Wyoming Extension confirms the western black widow is present statewide, and the sheds, unused outbuildings, and stacked equipment common on Ranchettes' large-acreage properties provide exactly the dry, undisturbed harborage this spider prefers. Annual treatment of these structures and wearing gloves when reaching into stored equipment are reasonable precautions.",
+      },
+      {
+        question: "Do Ranchettes' dirt roads and open lots make yellow jackets harder to spot?",
+        answer:
+          "Yes, in a meaningful way. Larger, less frequently mowed lots give ground-nesting yellow jacket colonies more room to grow undetected than a small, regularly mowed in-town lawn would. A colony that goes unnoticed through June and July can reach a large, defensive size by August. Walking the property in early summer looking for new ground nest activity is worth doing before that happens.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "South Greeley", slug: "south-greeley-wy", stateSlug: "wyoming" },
+      { name: "Powell", slug: "powell-wy", stateSlug: "wyoming" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ranchettes, WY | Mice, Skunks & Acreage Property Pests",
+    metaDescription:
+      "Ranchettes pest control for mice, skunks, yellow jackets and black widow spiders. Laramie County acreage specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "south-greeley-wy",
+    name: "South Greeley",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~5,000",
+    county: "Laramie County",
+    climate: "semi-arid",
+    climateDriver:
+      "South Greeley is a census-designated place about three miles south of downtown Cheyenne in Laramie County, sharing the same high plains semi-arid climate and cold, windy winters as the city it borders. Its housing stock mixes older ranch-style homes with a significant share of manufactured and mobile homes, and that older, varied construction creates more foundation and skirting gaps for pests to exploit than newer Cheyenne subdivisions typically have.",
+    topPests: [
+      "House Mice",
+      "Boxelder Bugs",
+      "Yellow Jackets",
+      "Pavement Ants",
+      "Black Widow Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through March",
+        note: "South Greeley's mix of older ranch homes and manufactured housing includes many mobile homes with skirting that settles and gaps over time, giving fall mice easier under-home access than the tighter foundations typical of newer Cheyenne construction.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs aggregate on warm walls throughout South Greeley each September, entering through the same window and door gaps common in the neighborhood's older housing stock.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, peak August",
+        note: "Yellow jackets and paper wasps nest throughout South Greeley's yards and under eaves, reaching peak colony size and maximum defensiveness in August, in line with the rest of the Cheyenne area.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Pavement ants nest in the cracks of driveways, foundations, and mobile home skirting throughout South Greeley, foraging indoors especially in older homes with worn weatherstripping.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "University of Wyoming Extension confirms the western black widow is present statewide. The crawl spaces under South Greeley's manufactured homes, accessible through gaps in aging skirting, are a common harborage site.",
+      },
+    ],
+    localHook:
+      "South Greeley sits just three miles south of downtown Cheyenne, close enough to share its climate but distinct enough in its housing stock to have its own pest pattern. The neighborhood's mix of older ranch homes and manufactured housing means more aging skirting, settled foundations, and worn weatherstripping than in Cheyenne's newer subdivisions, and that older construction gives mice and spiders more ways in.",
+    intro:
+      "Pest control in South Greeley starts with the housing stock. This Laramie County community sits about three miles south of downtown Cheyenne and shares the same high plains semi-arid climate, but its mix of older ranch-style homes and a substantial share of manufactured and mobile homes creates more entry points for pests than the newer construction found in parts of Cheyenne proper. Skirting on manufactured homes settles and gaps over years, giving fall mice and black widow spiders easy access to the crawl space underneath. House mice push toward any available shelter as the same sharp Cheyenne-area cold arrives each September. Boxelder bugs and yellow jackets follow the regional calendar familiar across Laramie County, and pavement ants exploit cracks in aging driveways and foundations through the warm months.",
+    sections: [
+      {
+        heading: "Why South Greeley's housing stock changes the pest picture",
+        body: "South Greeley's identity, three miles south of downtown Cheyenne, mixes single-family ranch homes built decades ago with a significant number of manufactured and mobile homes. That combination matters for pest control in a way that a neighborhood of newer, uniform construction would not. Mobile home skirting is functional but not airtight, and over years of Wyoming's freeze-thaw cycles and high winds, gaps develop at the base where the skirting meets the ground. Those gaps are an open invitation for house mice looking for a way under the home each fall, and for black widow spiders seeking the dry, undisturbed crawl space that skirting creates. Older ranch homes in the neighborhood face a related issue: decades of settling create small foundation cracks and worn weatherstripping around doors and windows that a newer home simply would not have yet. None of this means South Greeley residents face pests that would not show up anywhere else in Laramie County. It means the same regional pests, mice, black widows, boxelder bugs, find more ways into a South Greeley home than they might into a brand new Cheyenne subdivision house with intact modern construction. Regular inspection of skirting, foundation gaps, and weatherstripping is the single most useful habit for a South Greeley homeowner to build.",
+      },
+      {
+        heading: "Fall mice, boxelder bugs, and summer wasps on South Greeley's shared Cheyenne-area calendar",
+        body: "South Greeley runs on the same seasonal pest calendar as the rest of the Cheyenne area, since it shares the identical high plains climate just a few miles to the south. House mice begin moving toward heated shelter in September as the first real cold settles over Laramie County, and in South Greeley the aging skirting and settled foundations common in the neighborhood mean that push finds easy access more often than it would in newer construction. Boxelder bugs follow a similar timeline, aggregating on south and west-facing walls in September and October before pushing into whatever gaps they can find around windows and doors. Yellow jacket colonies build through the summer in yards and under eaves across the neighborhood, reaching their most dangerous size in August, which is when most sting incidents happen during routine yard work. Pavement ants round out the warm-season picture, nesting in the cracks that develop in aging driveways, walkways, and foundation lines, then foraging into kitchens and bathrooms through spring and summer. A single thorough exterior sealing pass in August, with particular attention to mobile home skirting and any settled foundation cracks, addresses the majority of what South Greeley homeowners deal with each year.",
+      },
+    ],
+    prevention: [
+      "Inspect mobile home skirting each spring and fall for gaps at ground level, sealing any openings before mice or spiders establish access to the crawl space.",
+      "Seal foundation cracks and replace worn weatherstripping on older ranch homes before September's cold arrives.",
+      "Treat yellow jacket nests in June while colonies are still small, rather than waiting for the August peak common across the Cheyenne area.",
+      "Apply pavement ant colony treatment at driveway and foundation cracks in spring before summer foraging into kitchens and bathrooms begins.",
+    ],
+    costNote:
+      "South Greeley pest control follows Cheyenne-area seasonal pricing, with an added consideration for manufactured home skirting repair and crawl space treatment where relevant. Fall rodent exclusion and skirting inspection are commonly bundled. A free inspection identifies the specific entry points on a given property before a plan is quoted.",
+    faqs: [
+      {
+        question: "Why do mice get under my mobile home in South Greeley so easily?",
+        answer:
+          "Mobile home skirting is functional but not airtight, and years of Wyoming's freeze-thaw cycles and high wind can open gaps where the skirting meets the ground. Those gaps give house mice direct access to the crawl space underneath, especially as fall temperatures drop and mice look for shelter. Inspecting and sealing skirting gaps each spring and fall is the most effective single prevention step for South Greeley's manufactured homes.",
+      },
+      {
+        question: "Is South Greeley's pest season the same as Cheyenne's?",
+        answer:
+          "Largely yes. South Greeley sits only about three miles south of downtown Cheyenne and shares the same high plains semi-arid climate, so the same fall mouse surge, September boxelder bug aggregation, and August yellow jacket peak apply here. The main difference is that South Greeley's older housing stock and manufactured homes tend to have more entry points than newer Cheyenne construction, so the same seasonal pests often get inside more easily.",
+      },
+      {
+        question: "Are black widow spiders a concern under South Greeley homes?",
+        answer:
+          "Yes. University of Wyoming Extension confirms the western black widow is present statewide, and the crawl spaces created by mobile home skirting, along with the outbuildings common in the neighborhood, are typical harborage. Since these spaces are rarely disturbed, treating them annually and wearing gloves when reaching into stored items under skirting or in sheds is a reasonable precaution.",
+      },
+      {
+        question: "What is the most useful pest prevention habit for a South Greeley homeowner?",
+        answer:
+          "Regular inspection of skirting, foundation gaps, and weatherstripping. South Greeley's mix of older ranch homes and manufactured housing means more of these small entry points develop over time than in newer construction, and mice, spiders, and boxelder bugs all use them. A spring and fall check, followed by sealing anything found, prevents most of the seasonal pest pressure the neighborhood shares with the rest of the Cheyenne area.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Ranchettes", slug: "ranchettes-wy", stateSlug: "wyoming" },
+      { name: "Powell", slug: "powell-wy", stateSlug: "wyoming" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in South Greeley, WY | Mice, Spiders & Mobile Home Pests",
+    metaDescription:
+      "South Greeley pest control for house mice, boxelder bugs, wasps and black widow spiders. Laramie County, near Cheyenne. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

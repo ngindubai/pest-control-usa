@@ -1829,4 +1829,355 @@ export const newHampshireCities: CityLocation[] = [
     metaTitle: "Pest Control in Pelham, NH | Ticks, Mice & Carpenter Ants",
     metaDescription: "Pest control in Pelham, New Hampshire for deer ticks, mice, mosquitoes, carpenter ants, and stink bugs. Hillsborough County's forested town demands proactive tick management. Licensed NH technicians.",
   },
+  {
+    slug: "hampton-nh",
+    name: "Hampton",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~16,300",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver: "Hampton sits on New Hampshire's short Atlantic coastline, where Hampton Beach's tidal salt marsh, the Hampton River estuary, and the Taylor River wetlands dominate the town's geography. The ocean moderates winter cold slightly compared to inland Rockingham County, but the real story is the marsh: thousands of acres of salt marsh grass along Route 1A breed biting flies and mosquitoes each summer, while the wooded, less developed land west of the marsh sustains deer tick populations close to residential neighborhoods.",
+    topPests: ["Deer Ticks", "Greenhead Flies", "Mosquitoes", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active whenever temperatures are above freezing, peak risk April through November", note: "NH DHHS Lyme disease surveillance places Rockingham County among the state's higher case count counties. Hampton's wooded neighborhoods west of the marsh, away from the beach strip itself, sit close to brushy conservation land that keeps deer and tick host populations established near backyards." },
+      { name: "Greenhead flies", serviceSlug: "fly-control", activeSeason: "Late June through August, worst in July", note: "The tidal salt marsh behind Hampton Beach is textbook greenhead breeding habitat, and coastal New Hampshire towns including Hampton have long funded seasonal greenhead trap programs (the blue box traps set along Route 1A) to cut down the biting fly pressure on beachgoers and marsh adjacent properties." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "Hampton's marsh, the Hampton River estuary, and the Taylor River wetlands provide extensive mosquito breeding habitat. NH DHHS monitors the seacoast region for mosquito species that carry Eastern equine encephalitis in wet summers." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, most visible indoors in spring", note: "Coastal humidity and Hampton's mix of older beach cottages and year round homes near the marsh give carpenter ants plenty of moisture softened wood to nest in, particularly around windowsills and deck framing exposed to salt air." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, strongest push September through November", note: "Hampton's seasonal rental cottages, many left unheated and unattended over winter, are especially exposed to mouse entry, and the town's year round residential neighborhoods farther from the beach see the same fall push as the rest of coastal New Hampshire." },
+    ],
+    localHook: "Hampton Beach's salt marsh is one of the largest tidal marsh systems on New Hampshire's coast, and it cuts both ways for pest pressure: it breeds the greenhead flies that coastal towns trap every summer, and the drier upland fringe around it holds deer ticks close to the neighborhoods just west of Route 1A. Few New Hampshire towns deal with a biting fly problem serious enough to justify a municipal trapping program, but Hampton does.",
+    intro: "Pest control in Hampton follows the rhythm of a beach town with a real, working salt marsh at its center. Greenhead flies and mosquitoes come from the marsh itself and define the outdoor experience from late June into August. Deer ticks are a separate, quieter risk in the wooded neighborhoods away from the water, where Rockingham County's documented Lyme disease case counts are a genuine concern. Carpenter ants find easy nesting in older cottages softened by salt air and coastal humidity. Mice are a fall and winter certainty, especially in the seasonal rental cottages that sit closed up and vulnerable once summer ends. Hampton's pest calendar runs hardest from spring through early fall, then shifts indoors for winter.",
+    sections: [
+      {
+        heading: "Greenhead Flies and Mosquitoes from the Salt Marsh",
+        body: "Hampton's tidal salt marsh, one of the larger such systems on the New Hampshire coast, is prime greenhead fly breeding ground. Female greenheads lay eggs in the marsh mud, and the flies that emerge from late June through August are large, persistent biters that fly inland from the marsh edge looking for blood to develop their next batch of eggs. Beachgoers and residents of the neighborhoods closest to Route 1A and the marsh feel this the most. Hampton and neighboring seacoast towns have funded seasonal trapping programs using the distinctive blue box traps set along the marsh edge, and they do measurably reduce the biting pressure, though they don't eliminate it entirely on the worst July days. Mosquitoes breed in the same marsh system as well as in the Hampton River estuary and the Taylor River wetlands, and their season runs longer, from late May into September. NH DHHS tracks the seacoast region for the mosquito species capable of carrying Eastern equine encephalitis, and wet years bring more standing water and higher mosquito counts. For a Hampton property near the marsh, the practical response is barrier mosquito treatment through the season, elimination of any standing water on the property itself, and realistic expectations that marsh adjacent outdoor time in July will always carry some fly pressure no trap program fully solves."
+      },
+      {
+        heading: "Deer Ticks, Carpenter Ants, and Winter Mice Away from the Beach",
+        body: "Move a few blocks inland from the beach strip and Hampton's pest profile shifts from marsh insects to the deer ticks and structural pests found across coastal Rockingham County. NH DHHS surveillance places Rockingham County among the state's higher counties for reported Lyme disease cases, and Hampton's wooded residential lots, particularly those bordering brushy conservation parcels away from the water, carry real tick exposure from April through the fall. The practical defenses are the same ones that work statewide: leaf litter removal at the yard edge, a mowed buffer between lawn and brush, and professional perimeter treatment in spring and again in late summer. Carpenter ants are a consistent structural concern in Hampton's older beach cottages and year round homes, where salt air and coastal humidity accelerate wood moisture damage around windows and deck framing faster than in inland New Hampshire. Mice become a fall and winter problem across town, but Hampton's seasonal rental cottages carry extra risk: many sit closed and unheated from Labor Day through Memorial Day, giving mice months of undisturbed access before anyone notices. Sealing up a seasonal cottage properly each fall, not just locking the door, is the difference between a clean spring opening and a rodent mess."
+      },
+    ],
+    prevention: [
+      "Schedule marsh facing properties for mosquito and greenhead season starting in late May, before the worst July pressure sets in.",
+      "Seal and inspect seasonal Hampton cottages before closing them up for winter, since an unheated, unattended building is an open invitation to mice.",
+      "Treat wooded yard edges away from the beach strip for deer ticks each spring and late summer, particularly on lots bordering conservation land.",
+      "Check windowsills and deck framing on older beach homes each spring for moisture damage that draws carpenter ants.",
+    ],
+    costNote: "Hampton pest pricing reflects its mixed seasonal and year round housing stock. Greenhead and mosquito season treatment for marsh adjacent properties is typically a recurring May through August program. Seasonal cottage closing and opening inspections are quoted separately from standard pest visits. Tick yard treatment runs in spring and late summer. Carpenter ant and mouse work is quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Hampton need a fly trapping program when other NH towns don't?",
+        answer: "Hampton's tidal salt marsh behind the beach is one of the larger such systems on the New Hampshire coast, and it's ideal breeding habitat for greenhead flies, a large biting horsefly species that lays eggs directly in marsh mud. Most inland New Hampshire towns don't have this kind of marsh acreage, so they don't have a greenhead problem worth a municipal response. Hampton and its seacoast neighbors fund seasonal blue box trap programs along the marsh edge from late June through August because the flies are otherwise a serious nuisance to beachgoers and marsh adjacent residents."
+      },
+      {
+        question: "Is Lyme disease a real risk in Hampton, or just at the beach?",
+        answer: "It's a real risk, and it has nothing to do with the beach itself. Rockingham County shows up consistently in NH DHHS Lyme disease surveillance, and Hampton's wooded residential neighborhoods away from Route 1A and the water, particularly lots bordering brushy conservation land, carry the same deer tick exposure as any wooded part of coastal New Hampshire. The sand and salt marsh near the water are not tick habitat, but the yards a few streets back often are."
+      },
+      {
+        question: "My Hampton cottage sits empty all winter. Should I worry about mice?",
+        answer: "Yes, more than a year round resident should. An unheated, unattended seasonal cottage gives mice months of uninterrupted access with nobody around to notice the early signs. Properly sealing entry points and setting bait or traps before closing up for the season, rather than just locking the doors, prevents the unpleasant discovery every spring of a nest in the insulation or droppings in the kitchen drawers."
+      },
+      {
+        question: "When is greenhead fly season worst in Hampton?",
+        answer: "July is consistently the worst month. Greenheads emerge from the salt marsh in late June, and their population and aggression build through July before tapering off in August. If you're planning marsh adjacent outdoor time, mid-morning and late afternoon tend to have somewhat lower fly activity than the middle of the day, though no time of day is fly-free at the peak of the season."
+      },
+      {
+        question: "Do carpenter ants cause more damage in Hampton's coastal homes than inland?",
+        answer: "The salt air and coastal humidity in Hampton do accelerate wood moisture problems compared to inland New Hampshire, which gives carpenter ants more opportunity to find soft, damp wood to nest in around windows, deck framing, and rooflines. The ants themselves aren't a different species or more aggressive, but the coastal conditions mean moisture damage develops faster, so annual inspection matters more here than it might in a drier inland town."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Durham", slug: "durham-nh", stateSlug: "new-hampshire" },
+      { name: "Windham", slug: "windham-nh", stateSlug: "new-hampshire" },
+      { name: "Somersworth", slug: "somersworth-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hampton, NH | Greenhead Flies, Ticks & Mice",
+    metaDescription: "Hampton NH pest control for greenhead flies, deer ticks, mosquitoes and carpenter ants. Seacoast marsh specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "durham-nh",
+    name: "Durham",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~15,500",
+    county: "Strafford County",
+    climate: "cold-humid",
+    climateDriver: "Durham is home to the University of New Hampshire, whose campus, dormitories, and student rental housing make up a large share of the town alongside the university's own working farmland. UNH's Thompson Farm and Moore Field, several hundred acres of hayfield, cropland, and forest just outside downtown, sit close to residential streets and keep deer, field mice, and other wildlife active near town. The Oyster River and the wooded College Woods natural area add further habitat, giving Durham a pest profile shaped as much by agriculture and dense student housing as by the cold-humid New England climate itself.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mice", "Bed Bugs", "Yellowjackets"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active whenever temperatures are above freezing, peak risk May through October", note: "Strafford County shows consistent Lyme disease case reporting in NH DHHS surveillance. UNH's Thompson Farm, Moore Field, and the wooded College Woods natural area adjacent to campus keep deer and small mammal populations, and the ticks that depend on them, close to residential neighborhoods." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "UNH Cooperative Extension identifies carpenter ants as New Hampshire's most common structural pest complaint. Durham's historic homes near Main Street and its dense stock of older student rental housing both carry moisture damaged wood that gives carpenter ants ample nesting opportunity." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, strong push September through November", note: "UNH's working farm fields sit close to town and support large field mouse populations that move toward heated buildings, including dormitory adjacent rental housing, once fall temperatures drop." },
+      { name: "Bed bugs", serviceSlug: "bed-bug-treatment", activeSeason: "Year-round indoors, peak introduction at September and January housing turnover", note: "High tenant turnover in dense student rental housing near any college campus is a well documented bed bug risk factor, and Durham's large seasonal population of UNH students moving in and out each September and January raises that introduction risk in shared and multi-unit housing." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through October, most aggressive August and September", note: "Ground nests are common in the wooded areas around the Oyster River and College Woods, and colonies reach their most defensive size right around the start of the fall semester, when outdoor gatherings on and near campus put more people near active nests." },
+    ],
+    localHook: "More than half of Durham's population is made up of UNH students, and that fact shapes the town's pest calendar as much as its geography does. The university's own working farmland, Thompson Farm and Moore Field, sits just outside downtown and keeps deer and rodent populations active near residential streets, while the dense, high turnover rental housing near campus carries a bed bug introduction risk that most New Hampshire towns of Durham's size simply don't have.",
+    intro: "Pest control in Durham has to account for two overlapping populations: the year round residents in the town's older homes, and the University of New Hampshire's students, who make up well over half of Durham's headcount and cycle through dense rental housing every fall and January. That turnover raises bed bug introduction risk in a way most small New Hampshire towns don't experience. Meanwhile, UNH's own agricultural land, Thompson Farm and Moore Field, sits close to residential streets and keeps deer, field mice, and other wildlife active near town, feeding both tick populations and the reliable fall mouse push into buildings. Carpenter ants work the moisture damaged wood in Durham's older homes each spring, and yellowjackets nest in the wooded College Woods area near campus through late summer.",
+    sections: [
+      {
+        heading: "A College Town's Two Pest Populations",
+        body: "Durham's pest pressures split cleanly along the line between its year round residential neighborhoods and its dense student rental housing. In the rental stock near campus, the defining risk is bed bugs, not because Durham is less well managed than any other college town, but because high tenant turnover is a documented industry wide risk factor for bed bug introduction, and Durham sees two major turnover windows a year: the start of fall semester in September and the shuffle of leases and sublets in January. A single infested piece of secondhand furniture or one returning traveler's luggage can introduce bed bugs to a shared building, and they spread along shared walls and through common laundry areas in multi-unit housing faster than most tenants expect. Early identification matters more here than almost anywhere else in New Hampshire: a small, contained infestation caught in one unit is a much smaller job than one that has spread through a building over a full semester. Landlords and property managers with high turnover units near campus benefit from routine inspection between tenancies rather than waiting for a tenant complaint."
+      },
+      {
+        heading: "Ticks and Rodents Near UNH's Working Farmland",
+        body: "Away from the dense rental housing near campus, Durham's pest profile looks more like the rest of rural Strafford County, shaped heavily by UNH's own agricultural land. Thompson Farm and Moore Field, several hundred acres of hayfield, cropland, and forest the university operates just outside downtown, sit close enough to residential streets that the wildlife they support, deer, field mice, and other small mammals, moves freely into adjacent yards. Strafford County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and Durham's mix of farmland edge and the wooded College Woods natural area near campus gives deer ticks plenty of habitat close to homes. The same farmland and forest edge support large field mouse populations that push toward heated buildings once September and October bring the first sustained cold nights, a pattern familiar across New Hampshire but sharpened here by the sheer amount of agricultural land within town limits. Carpenter ants, meanwhile, find moisture damaged wood in both Durham's historic homes near Main Street and its older rental stock, with spring emergence the most reliable sign of an established colony. Yellowjackets nest in the ground and in brush around the Oyster River and College Woods, becoming most aggressive right as students return for the fall semester."
+      },
+    ],
+    prevention: [
+      "Property managers with high turnover student rental units should schedule bed bug inspections between tenancies each September and January, not just after a tenant complaint.",
+      "Treat yard edges bordering UNH farmland or College Woods for deer ticks each spring and late summer.",
+      "Seal foundation gaps and utility penetrations in older Durham rental housing before September, ahead of the fall mouse push from surrounding farmland.",
+      "Inspect Main Street area historic homes each spring for moisture damage around windows and sills that draws carpenter ants.",
+    ],
+    costNote: "Durham pest pricing reflects its split housing market. Bed bug inspection and treatment for rental units is quoted per unit and building size, with landlord and property management accounts often on a recurring inspection schedule. Tick yard programs run in spring and late summer. Mouse exclusion and carpenter ant treatment are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why is bed bug risk higher in Durham than other New Hampshire towns its size?",
+        answer: "Durham's population is dominated by UNH students living in dense rental housing with high turnover, and high tenant turnover is a well known bed bug risk factor anywhere it occurs, not just in Durham. Two turnover windows a year, the start of fall semester in September and the lease and sublet shuffle in January, create repeated opportunities for a single infested item or returning traveler to introduce bed bugs to a shared building. Most single-family neighborhoods in New Hampshire don't see this pattern because they don't have the same rate of tenant turnover."
+      },
+      {
+        question: "Does UNH's farmland actually affect pest pressure in Durham?",
+        answer: "Yes. Thompson Farm and Moore Field, the university's working hayfield and cropland, sit close to residential streets on the edge of downtown, and the deer, field mice, and other wildlife the farmland supports move into adjacent yards and neighborhoods. That proximity feeds both the deer tick population, since deer are a primary host, and the fall mouse push into nearby homes and rental housing once cold weather sets in."
+      },
+      {
+        question: "When is Lyme disease risk highest in Durham?",
+        answer: "May through October is the highest risk window, with NH DHHS Lyme disease surveillance showing Strafford County reporting consistent case numbers each year. Durham's combination of farmland edge and the wooded College Woods natural area near campus keeps deer tick habitat close to residential areas, so anyone spending time in yards or trails bordering those areas should do regular tick checks through the season."
+      },
+      {
+        question: "Are carpenter ants a problem in Durham's historic homes near Main Street?",
+        answer: "Yes. Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Durham's historic housing stock near Main Street carries the kind of moisture damaged wood, aging window frames, older sills, that carpenter ants prefer for nesting. Large black ants appearing indoors in a consistent spot each spring is the most reliable sign of an established colony."
+      },
+      {
+        question: "How aggressive are yellowjackets near College Woods in the fall?",
+        answer: "Yellowjacket colonies reach their maximum size and most defensive state in August and September, which lines up almost exactly with the start of UNH's fall semester and the increase in outdoor activity around College Woods and the Oyster River. Ground nests disturbed during a walk or outdoor gathering are the most common sting scenario. Treating ground nests earlier in summer, before the colony reaches peak size, is safer than dealing with them in September."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Hampton", slug: "hampton-nh", stateSlug: "new-hampshire" },
+      { name: "Somersworth", slug: "somersworth-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Durham, NH | Bed Bugs, Ticks & Carpenter Ants",
+    metaDescription: "Durham NH pest control for bed bugs, deer ticks, carpenter ants, mice and yellowjackets. UNH college town and Strafford County specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "windham-nh",
+    name: "Windham",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~16,000",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver: "Windham sits in southern Rockingham County near the Massachusetts border, a town that shifted from farmland to suburban subdivisions over the past several decades while keeping large stretches of forest around Cobbetts Pond and Canobie Lake. That forest-to-subdivision pattern puts wooded tick and wildlife habitat directly against thousands of newer backyards, while the two lakes and surrounding wetlands sustain a longer mosquito season than more built up parts of southern New Hampshire.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mice", "Yellowjackets", "Mosquitoes"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active whenever temperatures are above freezing, peak risk April through October", note: "Rockingham County consistently ranks among New Hampshire's higher counties for reported Lyme disease cases in NH DHHS surveillance. Windham's subdivisions built directly into former forest around Cobbetts Pond and Canobie Lake put tick habitat at the immediate edge of thousands of yards." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, most visible indoors in spring", note: "Windham's mix of older farmhouses and lakefront cottages around Cobbetts Pond and Canobie Lake, alongside newer wood-frame subdivisions, gives carpenter ants moisture damaged wood to nest in across both older and newer construction." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Homes built at the wooded edge of Windham's newer subdivisions see the earliest and heaviest fall mouse pressure, since the surrounding forest that was cleared for construction still supports mouse populations right at the property line." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through October, most aggressive August and September", note: "Ground nests in Windham's suburban lawns and wall void nests in older lakefront cottages around Cobbetts Pond and Canobie Lake are both common, with colonies reaching dangerous size by late summer." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "Cobbetts Pond, Canobie Lake, and the wetlands feeding both provide extensive mosquito breeding habitat, and lakefront and near-lake properties in Windham see a noticeably longer mosquito season than inland suburban lots." },
+    ],
+    localHook: "Windham grew from a quiet farm town into one of southern New Hampshire's fastest growing suburbs over the past few decades, and the subdivisions built into former forest around Cobbetts Pond and Canobie Lake now sit directly against wooded tick and wildlife habitat. Families who moved to Windham for the newer construction and the lake access often don't expect the tick and mosquito pressure that comes with a yard carved out of the woods.",
+    intro: "Pest control in Windham reflects a town in transition from farmland to suburb, where new construction backs directly onto the forest it replaced. Deer ticks are the leading health concern, with Rockingham County's Lyme disease case counts among the state's higher totals and Windham's subdivision-edge lots carrying real exposure. Carpenter ants work moisture damaged wood in both older farmhouses and newer builds. Mice push into homes each fall from the surrounding forest, often hitting newer subdivisions harder than expected. Yellowjackets nest through the wooded lots and lakefront cottages around Cobbetts Pond and Canobie Lake, and both lakes keep the mosquito season running longer than in more built up parts of southern New Hampshire.",
+    sections: [
+      {
+        heading: "Ticks and Wildlife at the Edge of Windham's New Subdivisions",
+        body: "Windham's growth over the past several decades has followed a consistent pattern: forest cleared for a subdivision, with a thin buffer of remaining trees left between the new homes and whatever woodland wasn't developed. That buffer, rather than reducing tick exposure, often concentrates it, since deer and the white footed mice that carry deer tick nymphs use exactly that kind of edge habitat to move between forest and yard. Rockingham County shows up consistently in NH DHHS Lyme disease surveillance with meaningful case numbers, and Windham's newer neighborhoods built around Cobbetts Pond and Canobie Lake, along with the more established lakefront areas, all carry real tick exposure from April through October. New Windham homeowners moving from more built up suburbs are sometimes surprised at how quickly deer, and the ticks they carry, show up in a yard that was forest eighteen months earlier. The response is the same as anywhere in tick country: remove leaf litter and brush at the yard's wooded edge, maintain a mowed buffer, and treat the transition zone with professional acaricide application each spring and again in late summer. Properties directly bordering undeveloped forest or conservation land around the two lakes warrant the closest attention."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Yellowjackets Around the Lakes",
+        body: "Carpenter ants in Windham show up in both the town's older farmhouses, some dating to before the suburban boom, and its newer subdivisions, where construction moisture issues or poorly flashed rooflines can create the same soft, damp wood carpenter ants prefer. Large black ants appearing indoors each spring, usually from one consistent spot, is the clearest early sign of an established colony. Mice are a predictable fall arrival across Windham, but homes built directly at a subdivision's wooded edge often see the earliest and heaviest pressure, since the forest that supported mice before construction is often still standing just past the property line. Sealing foundation gaps and utility penetrations before September gives new Windham homeowners a head start most don't realize they need. Yellowjackets nest heavily in the ground around Cobbetts Pond and Canobie Lake's older cottage neighborhoods and in the wall voids of aging lakefront structures, with colonies reaching their most aggressive state in August and September. Both lakes and their feeding wetlands also sustain a longer mosquito season than Windham's inland, more built up areas, making lakefront and near-lake properties the priority for mosquito barrier treatment starting in late May."
+      },
+    ],
+    prevention: [
+      "Treat the wooded edge of any Windham lot backing to forest or conservation land for deer ticks each spring and late summer.",
+      "Seal foundation gaps and utility penetrations on newer Windham homes before September, since subdivision-edge lots see the earliest fall mouse pressure.",
+      "Inspect both older farmhouses and newer construction each spring for moisture damage that draws carpenter ants.",
+      "Start mosquito barrier treatment in late May for any property near Cobbetts Pond or Canobie Lake, where the season runs longer than inland lots.",
+    ],
+    costNote: "Windham pest pricing is standard for southern Rockingham County. Tick yard programs run in spring and late summer and can be bundled with lakefront mosquito barrier service. Carpenter ant and mouse work are quoted after a free inspection. Yellowjacket nest treatment is priced per nest and most effective when done in early summer before colonies peak.",
+    faqs: [
+      {
+        question: "Why does my new Windham subdivision home already have a tick problem?",
+        answer: "Most Windham subdivisions were carved directly out of forest, and the thin buffer of trees often left between new construction and remaining woodland is exactly the kind of edge habitat deer and white footed mice use to move between forest and yard. The forest, and the ticks it supports, didn't disappear when the homes went up. Newer Windham homeowners are often surprised at how quickly tick exposure shows up in a yard that was wooded a short time before."
+      },
+      {
+        question: "Is Lyme disease a real concern in Windham?",
+        answer: "Yes. Rockingham County consistently reports meaningful Lyme disease case numbers in NH DHHS annual surveillance, and Windham's mix of subdivision-edge lots and established lakefront neighborhoods around Cobbetts Pond and Canobie Lake both carry real tick exposure from April through October. Yard treatment at the wooded transition zone in spring and late summer is the most effective residential response."
+      },
+      {
+        question: "Are mice worse in newer Windham homes or older ones?",
+        answer: "Newer homes built directly at a subdivision's wooded edge often see mice earlier and more heavily than expected, since the forest that supported mouse populations before construction is frequently still standing just past the property line. Older Windham farmhouses have their own entry points from age and settling, but new construction at the forest edge isn't automatically protected just because it's new."
+      },
+      {
+        question: "Why does Windham have a longer mosquito season than nearby towns?",
+        answer: "Cobbetts Pond and Canobie Lake, along with the wetlands that feed them, provide extensive standing water and breeding habitat that keeps mosquito populations active longer into the season than in Windham's more built up inland areas. Properties near either lake should plan on mosquito barrier treatment starting in late May and running through September."
+      },
+      {
+        question: "When do yellowjacket nests become dangerous around Windham's lakes?",
+        answer: "August and September are the highest risk months, when colonies reach their maximum population and workers are most defensive. Ground nests in lawns near Cobbetts Pond and Canobie Lake and wall void nests in older lakefront cottages are both common. Treating a nest in June or early July, while the colony is still small, is safer and more effective than waiting until late summer."
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Hampton", slug: "hampton-nh", stateSlug: "new-hampshire" },
+      { name: "Milford", slug: "milford-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Windham, NH | Ticks, Carpenter Ants & Mosquitoes",
+    metaDescription: "Windham NH pest control for deer ticks, carpenter ants, mice and yellowjackets. Cobbetts Pond and Canobie Lake lakefront specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "milford-nh",
+    name: "Milford",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~16,100",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver: "Milford grew up around a mill on the Souhegan River and later became known as the Granite Town for the quarries that supplied stone across the country, and both the river and the old quarry land still shape the town today. The Souhegan River corridor running through downtown and the wooded, ledge-filled land around the former quarries create strong tick and moisture-pest habitat, while Milford's inland Hillsborough County position keeps it within the range where eastern subterranean termites, unusual this far north, have been confirmed present.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Eastern Subterranean Termites", "Mice", "Mosquitoes"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active whenever temperatures are above freezing, peak risk May through October", note: "Hillsborough County reports consistent Lyme disease case numbers in NH DHHS annual surveillance. The Souhegan River corridor and the wooded, ledge-filled land around Milford's former granite quarries keep deer and tick host populations established close to residential areas, including neighborhoods near the downtown Riverwalk." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Milford's 19th century mill and quarry worker housing along the Souhegan River carries plenty of moisture affected wood, and carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, nest readily in aging sills and window frames near the river." },
+      { name: "Eastern subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Spring swarm season, active underground year-round", note: "Eastern subterranean termites are confirmed present in Hillsborough County. Milford sits somewhat farther from the Massachusetts border than towns like Nashua, so pressure is generally lighter, but homes with crawl spaces or wood-to-soil contact along the Souhegan River corridor still carry meaningful termite risk worth a professional inspection." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Milford's older granite quarry and mill worker housing has more foundation gaps and settling than newer construction, and New Hampshire's cold falls push mice into heated structures fast once temperatures drop in September." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "The Souhegan River floodplain running through downtown Milford creates mosquito breeding habitat that can produce meaningful summer pressure in wet years, and NH DHHS includes Hillsborough County in its seacoast and southern NH mosquito-borne illness monitoring." },
+    ],
+    localHook: "Milford's identity as the Granite Town, built on 19th century quarrying and the mill economy along the Souhegan River, left behind both a downtown full of old stone buildings and a ring of wooded, ledge-filled former quarry land that now sits close to residential neighborhoods. That land, along with the river corridor running through the center of town, gives Milford a tick and moisture-pest profile distinct from the more purely suburban towns nearby.",
+    intro: "Pest control in Milford is shaped by the town's granite quarrying history and the Souhegan River running through its downtown. Deer ticks are the top health concern, with Hillsborough County's Lyme disease numbers tracked consistently by NH DHHS and the wooded former quarry land around town providing real tick habitat. Carpenter ants are the reliable structural pest in Milford's older mill and quarry worker housing along the river. Eastern subterranean termites, confirmed present in Hillsborough County though at lighter pressure than towns closer to the Massachusetts border, are worth watching for in homes with crawl spaces near the river. Mice arrive every fall in older housing stock, and the Souhegan's floodplain keeps mosquitoes active through the summer.",
+    sections: [
+      {
+        heading: "Ticks and Termites Around the Souhegan River",
+        body: "Milford's downtown sits directly on the Souhegan River, and the river corridor, along with the wooded, rocky land left over from the town's 19th century granite quarrying days, provides habitat that keeps both deer ticks and, less expected this far north, eastern subterranean termites present in the area. Hillsborough County reports consistent Lyme disease case numbers in NH DHHS annual surveillance, and Milford's mix of riverfront neighborhoods and wooded former quarry land near residential streets gives deer ticks plenty of opportunity to reach yards close to downtown. The nymphal tick stage, active from May into July, carries the highest disease transmission risk because the ticks are tiny and easy to miss during normal yard work or a walk along the Riverwalk trail. Eastern subterranean termites are a less common but real concern in Milford. They're confirmed present across Hillsborough County, and while Milford sits somewhat farther inland from the Massachusetts border than towns like Nashua, homes with crawl spaces, wood-to-soil contact, or a history of moisture problems along the river corridor still carry meaningful termite risk. A professional termite inspection is a reasonable step for any older Milford home near the Souhegan, particularly those with a history of dampness in the foundation area."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Summer Mosquitoes in Milford",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint, according to UNH Cooperative Extension, and Milford's older mill and quarry worker housing along the Souhegan River provides exactly the kind of moisture softened wood they prefer for nesting. These homes, many built in the 19th and early 20th centuries for workers at the granite quarries and river mills, carry aging sills and window frames that have absorbed decades of river humidity. Large black ants appearing indoors each spring, usually emerging from one consistent spot, mean a colony has already established itself in the structure over the winter. Left alone, that colony expands and can cause real structural damage over a period of years, particularly around windows, roof lines, and decks where moisture collects. Mice are a reliable fall arrival in Milford, and the town's older quarry and mill worker housing has more foundation gaps and settling than the newer construction on the outskirts of town, giving mice ready entry once September cold sets in. Sealing those gaps in August, before mice go looking for them, is far more cost-effective than dealing with an established population indoors in November. The Souhegan River's floodplain running through downtown also sustains a meaningful summer mosquito population, particularly in wet years, and NH DHHS includes Hillsborough County in its broader monitoring for mosquito-borne illness across southern New Hampshire."
+      },
+    ],
+    prevention: [
+      "Schedule a professional termite inspection for older Milford homes near the Souhegan River with crawl spaces or a history of foundation moisture.",
+      "Treat yard edges bordering wooded former quarry land for deer ticks each spring and again in late summer.",
+      "Seal foundation gaps and utility penetrations in older mill and quarry worker housing before September, ahead of the fall mouse push.",
+      "Inspect aging sills and window frames in Souhegan riverfront homes each spring for the moisture damage that draws carpenter ants.",
+    ],
+    costNote: "Milford pest pricing is in line with inland Hillsborough County rates. Termite inspections are free, with treatment quoted after confirmed activity. Tick yard programs run in spring and late summer. Carpenter ant treatment includes a moisture assessment. Mouse exclusion work is most cost-effective when completed before the fall surge in September.",
+    faqs: [
+      {
+        question: "Do termites really show up in Milford, this far from the coast?",
+        answer: "Yes, though at lighter pressure than towns closer to the Massachusetts border. Eastern subterranean termites are confirmed present across Hillsborough County, and Milford's inland position doesn't rule out risk, particularly for homes near the Souhegan River with crawl spaces, wood-to-soil contact, or a history of dampness in the foundation. A professional inspection is the only reliable way to know for sure, and it's worth doing for any older home in this category."
+      },
+      {
+        question: "How serious is the tick risk in Milford, NH?",
+        answer: "Meaningful. Hillsborough County shows consistent Lyme disease case reporting in NH DHHS surveillance, and Milford's wooded former quarry land and the Souhegan River corridor running through town both provide real tick habitat close to residential neighborhoods. The nymphal stage, active May through July, is the highest risk period because the ticks are so small and easy to miss."
+      },
+      {
+        question: "Why are carpenter ants so common in Milford's older homes?",
+        answer: "Milford's older housing stock, much of it built for 19th and early 20th century mill and quarry workers along the Souhegan River, has absorbed decades of river humidity into its sills, window frames, and other wood features. Carpenter ants seek out exactly that kind of moisture softened wood for nesting. Finding large black ants indoors each spring, especially from a consistent spot, usually means a colony is already established in the structure."
+      },
+      {
+        question: "When should Milford homeowners deal with mice?",
+        answer: "Before they arrive, ideally in August. New Hampshire's cold fall temperatures push mice toward heated buildings fast once September begins, and Milford's older quarry and mill worker housing has more foundation gaps than newer construction on the town's outskirts. Sealing those gaps in August, ahead of the push, costs far less than handling an established mouse population indoors come November."
+      },
+      {
+        question: "Does the Souhegan River affect mosquito levels in downtown Milford?",
+        answer: "Yes. The river's floodplain running through downtown Milford creates standing water and wetland habitat that supports a meaningful mosquito population each summer, especially in wet years. NH DHHS includes Hillsborough County in its broader mosquito-borne illness monitoring for southern New Hampshire, and downtown and riverfront properties see the most consistent mosquito pressure from late May through September."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Windham", slug: "windham-nh", stateSlug: "new-hampshire" },
+      { name: "Durham", slug: "durham-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Milford, NH | Ticks, Termites & Carpenter Ants",
+    metaDescription: "Milford NH pest control for deer ticks, carpenter ants, termites and mice. Souhegan River and Granite Town specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "somersworth-nh",
+    name: "Somersworth",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~12,200",
+    county: "Strafford County",
+    climate: "cold-humid",
+    climateDriver: "Somersworth, known locally as the Hilltop City for the ridge its downtown sits on, grew up as a mill city on the Salmon Falls River, which forms the New Hampshire and Maine border along the town's eastern edge. The river corridor and the wooded hills surrounding the city's older neighborhoods create solid tick and moisture-pest habitat, and Somersworth's seacoast adjacent position, similar to nearby Dover, keeps it within the range where eastern subterranean termites have been confirmed present.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Eastern Subterranean Termites", "Mice", "Yellowjackets"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active whenever temperatures are above freezing, peak risk April through November", note: "Strafford County shows consistent Lyme disease case reporting in NH DHHS annual surveillance. The Salmon Falls River corridor and the wooded hills that give Somersworth its Hilltop City nickname sustain deer and tick host populations close to residential neighborhoods on both sides of the ridge." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Somersworth's mill-era brick and wood-frame housing along the Salmon Falls River carries decades of river humidity in its aging wood, and carpenter ants, New Hampshire's most common structural pest complaint per UNH Cooperative Extension, nest readily in moisture softened sills and window frames." },
+      { name: "Eastern subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Spring swarm season, active underground year-round", note: "Eastern subterranean termites are confirmed present in the seacoast region of New Hampshire, and Somersworth's position along the Salmon Falls River near the Maine border puts it within that range, similar to neighboring Dover. Older buildings with crawl spaces or wood-to-soil contact are the properties most worth inspecting." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Somersworth's older mill housing, much of it built close to the river and downtown ridge, has more structural entry points than newer construction, and New Hampshire's cold falls push mice into heated buildings fast once September temperatures drop." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through October, most aggressive August and September", note: "The wooded hills surrounding Somersworth's downtown ridge support ground-nesting yellowjacket colonies that reach their most defensive size by late summer, and wall void nests are common in the city's older mill-era structures." },
+    ],
+    localHook: "Somersworth's downtown sits on a ridge overlooking the Salmon Falls River, the border with South Berwick, Maine, and that geography, a river mill city built on a hilltop, gives the town both the moisture-heavy pest pressure typical of a river corridor and the wooded, hillside tick habitat that comes with its surrounding forest. Locals still call it the Hilltop City, and the name is a fair description of how the town's pest pressure changes as you move from the riverbank up to the ridge.",
+    intro: "Pest control in Somersworth reflects its history as a mill city built on a ridge above the Salmon Falls River, which forms the border with Maine along the town's eastern edge. Deer ticks are the leading health concern, with Strafford County's Lyme disease case numbers tracked consistently by NH DHHS and the wooded hills around the Hilltop City providing real tick habitat. Carpenter ants are the dependable structural pest in Somersworth's older mill-era housing along the river. Eastern subterranean termites, confirmed in the seacoast region and present at the Maine border, are worth checking for in older buildings with crawl spaces. Mice arrive every fall in the city's aging housing stock, and yellowjackets nest through the wooded hillside neighborhoods each summer.",
+    sections: [
+      {
+        heading: "Ticks and Termites Along the Salmon Falls River",
+        body: "Somersworth's position on the Salmon Falls River, which marks the New Hampshire and Maine state line along the city's eastern edge, shapes much of its pest profile. Strafford County shows consistent annual Lyme disease case reporting in NH DHHS surveillance, and the wooded hills surrounding Somersworth's downtown ridge, the terrain that earned the city its Hilltop City nickname, provide habitat for the deer and white footed mice that sustain tick populations close to residential neighborhoods on both sides of the ridge. The highest risk period runs from April into November, with the nymphal tick stage active in late spring and early summer posing the greatest disease transmission risk because these ticks are so small they're easy to miss. Eastern subterranean termites are a less common but genuine concern in Somersworth. They're confirmed present in New Hampshire's seacoast region, and Somersworth's location along the river near the Maine border, similar to neighboring Dover's position, places it within that confirmed range. Older Somersworth buildings with crawl spaces, wood-to-soil contact, or a history of moisture problems near the riverbank are the properties most worth a professional termite inspection, since termite damage develops out of sight and often isn't discovered until it's significant."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Summer Yellowjackets in Somersworth",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Somersworth's mill-era brick and wood-frame buildings along the Salmon Falls River give them plenty of opportunity. Decades of river humidity have worked into the sills, window frames, and other exposed wood of the city's older housing stock, softening it in exactly the way carpenter ants look for when choosing a nest site. Large black ants appearing indoors each spring from a consistent location typically mean a colony has already established itself in the wall or subfloor over the preceding winter, and an untreated colony expands progressively, causing real damage to structural wood over a period of years. Mice are a reliable fall arrival across Somersworth, and the older mill housing near downtown and the river has more foundation gaps and settling than newer construction on the outskirts of the city, giving mice ready entry once September's cold nights set in. Sealing those gaps before the push begins is far less costly than removing an established indoor population later in the fall. Yellowjackets round out the summer and fall pest calendar, nesting in the ground throughout Somersworth's wooded hillside neighborhoods and in the wall voids of aging mill-era structures, with colonies reaching their most aggressive state in August and September, when a disturbed ground nest during routine yard work is the most common sting scenario."
+      },
+    ],
+    prevention: [
+      "Schedule a professional termite inspection for older Somersworth buildings near the Salmon Falls River with crawl spaces or a history of dampness.",
+      "Treat wooded yard edges on Somersworth's hillside neighborhoods for deer ticks each spring and again in late summer.",
+      "Seal foundation gaps and utility penetrations in older mill-era housing before September, ahead of the fall mouse push.",
+      "Treat yellowjacket ground nests in June or early July, before colonies reach their dangerous late-summer size.",
+    ],
+    costNote: "Somersworth pest pricing is consistent with Strafford County and broader seacoast New Hampshire rates. Termite inspections are free, with treatment quoted after confirmed activity. Tick yard programs run in spring and late summer. Carpenter ant treatment includes a moisture assessment, and mouse exclusion work is most cost-effective when completed before the September surge.",
+    faqs: [
+      {
+        question: "Why is Somersworth called the Hilltop City, and does it matter for pest control?",
+        answer: "Somersworth's downtown sits on a ridge overlooking the Salmon Falls River, and that hillside geography means pest pressure shifts as you move from the riverbank up to the ridge. Riverfront and low-lying properties near the Salmon Falls carry more moisture-related pressure, including carpenter ants and, less commonly, termites, while the wooded hillside neighborhoods surrounding downtown carry more of the deer tick and yellowjacket activity tied to forest habitat."
+      },
+      {
+        question: "Do termites really reach Somersworth, NH?",
+        answer: "Yes. Eastern subterranean termites are confirmed present in New Hampshire's seacoast region, and Somersworth's location along the Salmon Falls River near the Maine border puts it within that range, similar to neighboring Dover. Older buildings with crawl spaces, wood-to-soil contact, or a history of moisture issues near the riverbank are the ones most worth a professional inspection."
+      },
+      {
+        question: "How serious is Lyme disease risk in Somersworth?",
+        answer: "Meaningful. Strafford County shows consistent annual Lyme disease case reporting in NH DHHS surveillance data, and the wooded hills surrounding Somersworth's downtown ridge provide real tick habitat close to residential neighborhoods on both sides of the city. The nymphal tick stage active in late spring and early summer carries the highest transmission risk since these ticks are tiny and easy to miss."
+      },
+      {
+        question: "Why do carpenter ants show up in Somersworth's older mill buildings every spring?",
+        answer: "Somersworth's mill-era brick and wood-frame buildings along the Salmon Falls River have absorbed decades of river humidity into their sills and window frames, creating the kind of moisture softened wood carpenter ants prefer for nesting. A colony that established itself the previous year becomes visible again each spring as temperatures rise and the ants resume foraging, usually from one consistent indoor location."
+      },
+      {
+        question: "When are yellowjackets most dangerous in Somersworth?",
+        answer: "August and September, when colonies in the wooded hillside neighborhoods and older mill-era buildings reach their maximum population and workers become most defensive. Ground nests disturbed during yard work or fall cleanup are the most common source of stings. Treating a nest in June or early July, while it's still small, is both safer and more effective than removal later in the season."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Durham", slug: "durham-nh", stateSlug: "new-hampshire" },
+      { name: "Hampton", slug: "hampton-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Somersworth, NH | Ticks, Termites & Carpenter Ants",
+    metaDescription: "Somersworth NH pest control for deer ticks, carpenter ants, termites, mice and yellowjackets. Salmon Falls River Hilltop City specialists. Call 1-800-PEST-USA.",
+  },
 ];
