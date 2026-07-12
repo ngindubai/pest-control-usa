@@ -11801,4 +11801,534 @@ export const floridaCities: CityLocation[] = [
     metaTitle: "Pest Control in Cocoa, FL | Termites, Mosquitoes & Roaches",
     metaDescription: "Licensed pest control in Cocoa, FL. Termite, mosquito, and cockroach treatment for Cocoa Village and lagoon-area homes. Free inspection included.",
   },
+  {
+    slug: "bartow",
+    name: "Bartow",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~20,400",
+    county: "Polk County",
+    climate: "hot-humid",
+    climateDriver:
+      "Bartow sits inland in central Florida's citrus belt, with hot, humid summers, frequent afternoon thunderstorms, and mild, drier winters. The sandy, well-drained soil across Polk County lets fire ants and termites both work through most of the year with only a brief winter slowdown.",
+    topPests: ["Red imported fire ants", "Subterranean termites", "Mosquitoes", "American cockroaches", "Rodents"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after summer rain",
+        note: "Fire ants favor the moist, disturbed soil along grove irrigation lines and drainage ditches that still border much of Bartow, and UF/IFAS Extension's Polk County office has tracked how fast colonies rebuild after rain.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Polk County's sandy, well-drained soil, the same ground that made it Florida's leading citrus county, gives termites room to forage several feet down before ever reaching a structure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, worse after storms",
+        note: "Polk County has more small lakes than almost anywhere in Florida, and the afternoon thunderstorms common across central Florida summers add standing water on top of that.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Known locally as palmetto bugs, these breed in grove mulch and irrigation ditches before moving toward homes once the surface dries out.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rat-control",
+        activeSeason: "Heaviest in fall and winter",
+        note: "As citrus harvest clears grove cover heading into cooler months, roof rats and other rodents that lived among the trees look for the next available shelter.",
+      },
+    ],
+    localHook:
+      "Bartow's identity as Polk County's citrus county seat isn't just history. Working groves still border neighborhoods on several sides of town, and UF/IFAS Extension's own Polk County office has published fire ant research from this exact ground, the kind of local data a national pest chain rarely has reason to track.",
+    intro:
+      "Pest control in Bartow, FL has to account for the citrus groves that still ring much of Polk County's county seat. Bartow's sandy, well-drained soil and its position amid decades-old grove land give red imported fire ants an ideal moist edge to nest along irrigation lines, and UF/IFAS Extension's Polk County office has studied how quickly local colonies rebuild after summer rain. Subterranean termites work the same sandy soil from below, foraging through the warm months with only a brief winter slowdown. Add Polk County's many small lakes, which keep mosquito season running from spring through the first cool snap, and palmetto bugs that thrive in grove mulch and irrigation ditches, and a Bartow home needs a plan built around the surrounding agricultural land, not a generic Florida program.",
+    sections: [
+      {
+        heading: "Why Bartow's citrus groves shape its fire ant and termite pressure",
+        body: "Bartow sits inside what was, for most of the twentieth century, the leading citrus county in the country, and Polk County groves still surround much of the city. That agricultural land matters for pest pressure. Red imported fire ants favor the moist, disturbed soil found along grove irrigation lines and drainage ditches, and UF/IFAS Extension's Polk County office has tracked how a colony knocked back by treatment can rebuild a visible mound within days once rain returns and the ground stays damp. The same sandy, well-drained soil that makes Polk County good citrus ground also gives subterranean termites room to forage several feet down before ever reaching a structure, which is why the first sign of a problem is often a swarm in spring rather than any earlier warning. Homes near grove edges or older packing house neighborhoods tend to see both pests more than homes deeper into newer subdivisions, since the soil disturbance and irrigation pattern of working farmland is exactly the moist, loose ground fire ants and termites both prefer.",
+      },
+      {
+        heading: "Mosquitoes, palmetto bugs, and rodents around Bartow's lakes and groves",
+        body: "Polk County has more lakes than almost any county in Florida, and Bartow's share of them keeps mosquito season running from the first warm week in spring through the last cool snap of fall, with a clear surge after the afternoon thunderstorms that build over central Florida most summer days. American cockroaches, known locally as palmetto bugs, breed in grove mulch, irrigation ditches, and shaded drainage areas before moving toward homes once conditions dry out on the surface. Rodents follow a more seasonal pattern tied directly to the harvest calendar: as citrus picking clears out grove cover heading into winter, roof rats and other rodents that lived among the trees look for the next available shelter, and an attic or garage backing up to grove land is often the closest option. None of these three problems is unique to Bartow, but the combination of working citrus land, dozens of small lakes, and older grove-adjacent neighborhoods inside city limits is a specific local mix.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds near grove edges and irrigation lines early, before colonies rebuild after rain.",
+      "Keep an annual termite inspection scheduled given Polk County's sandy, termite-friendly soil.",
+      "Clear standing water after summer storms to cut down the lake-driven mosquito season.",
+      "Check attics and garages near grove land for rodent entry as harvest clears out cover each winter.",
+    ],
+    costNote:
+      "Most Bartow homes use a recurring quarterly or bimonthly plan for fire ants, cockroaches, and general pests, typically $40 to $60 a month, with termite protection and rodent exclusion quoted separately after a free inspection. Homes bordering active grove land sometimes need an added ant treatment during peak mound season.",
+    faqs: [
+      {
+        question: "Why does Bartow have such a strong fire ant problem?",
+        answer:
+          "Bartow sits inside Polk County's citrus belt, and fire ants favor the moist, disturbed soil along grove irrigation lines and drainage ditches that still border much of the city. UF/IFAS Extension's Polk County office has documented how quickly a treated mound can rebuild after summer rain, which is why early, repeated treatment works better than a single visit.",
+      },
+      {
+        question: "Are termites a real risk for Bartow homes?",
+        answer:
+          "Yes. The sandy, well-drained soil across Polk County lets subterranean termites forage several feet underground before reaching a structure, and swarms typically show up in spring. An annual inspection catches most colonies before they cause real damage.",
+      },
+      {
+        question: "Why do rodents show up in Bartow garages during winter?",
+        answer:
+          "As citrus harvest clears grove cover heading into the cooler months, rodents that lived among the trees look for new shelter, and homes backing up to grove land are often the closest option. Sealing gaps around garages and attics before harvest season reduces the risk.",
+      },
+      {
+        question: "How long does mosquito season last in Bartow?",
+        answer:
+          "With Polk County's many small lakes nearby, mosquito activity typically runs from spring through the first real cool snap of fall, and it surges noticeably after the afternoon thunderstorms common across central Florida summers.",
+      },
+      {
+        question: "What is a palmetto bug and is it different from a regular roach?",
+        answer:
+          "Palmetto bug is the local name for the American cockroach, a larger species that breeds outdoors in mulch and irrigation ditches before moving toward homes. It's a different insect from the smaller German cockroach that establishes indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Winter Haven", slug: "winter-haven", stateSlug: "florida" },
+      { name: "Lake Wales", slug: "lake-wales", stateSlug: "florida" },
+      { name: "Clermont", slug: "clermont", stateSlug: "florida" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bartow, FL | Fire Ants & Termites",
+    metaDescription:
+      "Bartow pest control for fire ants, subterranean termites, mosquitoes and palmetto bugs. Licensed, insured, free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lake-wales",
+    name: "Lake Wales",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~17,600",
+    county: "Polk County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lake Wales sits on the sandy Lake Wales Ridge in central Florida, with hot, humid summers, regular afternoon storms, and mild winters. More than a dozen lakes inside the city keep mosquito breeding habitat close to almost every neighborhood, while the ridge's deep sand gives termites and fire ants easy ground to work.",
+    topPests: ["Mosquitoes", "Subterranean termites", "Red imported fire ants", "Ghost ants", "American cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, worse in wet years",
+        note: "More than a dozen named lakes sit inside or at the edge of Lake Wales, so mosquitoes rarely need to travel far from water to reach a yard.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "The Lake Wales Ridge is a band of deep, ancient sand running through the middle of the state, and that loose soil lets termites forage easily toward structures.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "The ridge's sandy soil softens fast after rain, letting knocked-back colonies rebuild a visible mound within about a week.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Warm months, indoors seeking moisture",
+        note: "These pale, very small ants trail in through tiny gaps around sinks and appliances looking for moisture, and the trails are easy to miss against light counters and floors.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed near the city's many lakeshores and shaded drainage areas before moving toward homes.",
+      },
+    ],
+    localHook:
+      "Lake Wales combines two things that rarely overlap this closely: a high, dry sand ridge good enough for citrus and pasture, and more than a dozen lakes inside the city limits. That mix is why mosquito and termite pressure both run heavier here than in flatter parts of Polk County.",
+    intro:
+      "Pest control in Lake Wales, FL means dealing with water almost everywhere you look. The city sits on the Lake Wales Ridge, a high sandy spine running through central Florida, but it's still ringed by more than a dozen named lakes within its own limits, and that combination of sandy soil and standing water shapes almost every pest problem here. Mosquitoes breed close to nearly every neighborhood rather than one part of town, subterranean termites forage easily through the ridge's deep sandy soil, and small ghost ants trail into kitchens looking for moisture during the warm months. Fire ants round out the list, rebuilding mounds quickly in the same sandy soil after summer rain. A Lake Wales pest plan has to cover both the ridge's dry ground and the water sitting right in the middle of it.",
+    sections: [
+      {
+        heading: "Why so many lakes inside city limits means more mosquitoes",
+        body: "Lake Wales earns its name honestly. More than a dozen named lakes sit inside or right at the edge of the city, from Lake Wailes downtown to the smaller lakes ringing the surrounding neighborhoods, and that's unusual even for a state full of water. Mosquitoes do not need to travel far from any of these lakes to reach a yard, which means the season here often runs a little longer and a little more intensely than in a Polk County city with fewer lakes in its own boundaries. Rain makes it worse fast: central Florida's typical summer pattern of afternoon thunderstorms adds standing water in gutters, plant trays, and low spots on top of the lakes that are already there, and mosquito numbers can visibly jump within days of a wet stretch. Homes closest to the lakes see the heaviest pressure, but the standing water left behind by summer storms means almost no yard in Lake Wales stays untouched for long.",
+      },
+      {
+        heading: "Ridge soil, fire ants, and ghost ants indoors",
+        body: "Lake Wales sits on the Lake Wales Ridge, a narrow band of ancient, well-drained sand that runs through the middle of the state and gives the area soil unlike the flatter ground found closer to the coast. That deep, loose sand is easy for subterranean termites to forage through and easy for fire ants to burrow into, and both problems show up across the city regardless of which lake a home happens to sit near. Fire ant mounds rebuild fast in this soil once rain softens the ground again, so a colony that looks knocked back after treatment can reappear within a week. Ghost ants take a different route indoors, trailing in through tiny gaps around sinks and appliances in search of moisture during the warmer months, and their trails are easy to miss since the ants themselves are pale and barely visible against light-colored counters and floors. Treating the yard for fire ants and sealing kitchen and bathroom entry points for ghost ants are two different jobs that both matter here.",
+      },
+    ],
+    prevention: [
+      "Clear standing water in gutters and plant trays after summer storms to cut mosquito breeding near the lakes.",
+      "Treat fire ant mounds early since the ridge's sandy soil lets colonies rebuild fast after rain.",
+      "Seal gaps around sinks and appliances to stop ghost ants trailing in during warm months.",
+      "Schedule an annual termite inspection given the deep sandy soil across the Lake Wales Ridge.",
+    ],
+    costNote:
+      "Most Lake Wales homes run a recurring plan covering ants, mosquitoes, and general pests, typically $40 to $60 a month, with termite protection quoted separately after a free inspection. Homes directly on one of the city's lakes often add seasonal mosquito treatment to that base plan.",
+    faqs: [
+      {
+        question: "Why does Lake Wales have such a long mosquito season?",
+        answer:
+          "More than a dozen named lakes sit inside or at the edge of the city, so mosquitoes rarely need to travel far to reach a yard. Combined with central Florida's regular summer thunderstorms, that keeps the season running longer here than in areas with fewer lakes.",
+      },
+      {
+        question: "What is the Lake Wales Ridge and why does it matter for pest control?",
+        answer:
+          "It's a narrow band of ancient, deep sandy soil running through the middle of the state, and Lake Wales sits right on it. That loose sand lets subterranean termites forage easily and gives fire ants soil they can rebuild mounds in quickly after rain.",
+      },
+      {
+        question: "Are ghost ants a problem in Lake Wales?",
+        answer:
+          "Yes. These pale, very small ants trail indoors through tiny gaps around sinks and appliances looking for moisture, especially in the warmer months, and their trails are easy to overlook since the ants themselves are hard to see against light surfaces.",
+      },
+      {
+        question: "Do fire ant mounds really rebuild that fast after treatment?",
+        answer:
+          "In Lake Wales's sandy ridge soil, yes. A mound knocked back by treatment can reappear within about a week once rain softens the ground again, which is why early and repeated treatment works better than a single visit.",
+      },
+      {
+        question: "Is termite risk different for homes near Lake Wales's lakes versus the ridge?",
+        answer:
+          "Not especially, since the deep sandy soil that makes termite foraging easy runs under most of the city regardless of which lake is nearby. An annual inspection is the practical way to catch a colony early no matter where a home sits.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Winter Haven", slug: "winter-haven", stateSlug: "florida" },
+      { name: "Bartow", slug: "bartow", stateSlug: "florida" },
+      { name: "Clermont", slug: "clermont", stateSlug: "florida" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lake Wales, FL | Mosquitoes & Termites",
+    metaDescription:
+      "Lake Wales pest control for mosquitoes, subterranean termites, fire ants and ghost ants. Licensed, insured, free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "okeechobee",
+    name: "Okeechobee",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~5,700",
+    county: "Okeechobee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Okeechobee sits at the north edge of Lake Okeechobee in south central Florida, with hot, humid summers and mild winters typical of the region. The lake, connected canals, and surrounding cattle pasture keep mosquitoes, flies, and rodents active across most of the year.",
+    topPests: ["Mosquitoes", "Rodents", "Fire ants", "Flies", "Subterranean termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, year-round near the lake",
+        note: "Okeechobee County contracts Clarke Environmental Services for adult mosquito spraying, tracking problem areas by GIS across the area near Lake Okeechobee.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse as pasture conditions change",
+        note: "Cattle pasture presses right up against city limits, and rodents living in open ranch land move toward the nearest shelter, often a garage or shed, when field conditions shift.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants build mounds in the open, often moist pastureland that rings the city, and properties at the edge of town sit closest to that pressure.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warmer months, tied to cattle operations",
+        note: "Flies tied to nearby ranching can drift toward homes at the edge of town in numbers a purely residential neighborhood would not see.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Florida's sandy soil lets termites forage easily toward structures, with swarms typically appearing in spring.",
+      },
+    ],
+    localHook:
+      "Okeechobee's identity as ranch country on the edge of Florida's biggest lake is not incidental to its pest pressure. The county's own contracted mosquito spraying and the cattle operations pressing against city limits both shape what a home here actually needs, more than a generic Florida pest plan would cover.",
+    intro:
+      "Pest control in Okeechobee, FL runs on the rhythm of ranch land and lake water. As the county seat sitting at the north edge of Lake Okeechobee, the city is surrounded by cattle pasture rather than suburbs, and Okeechobee County contracts a mosquito control service that tracks spray routes by GIS across the area, a sign of how seriously local mosquito pressure is taken. Rodents and flies follow the cattle operations that ring the city, moving toward barns, garages, and homes once pasture conditions change with the season. Fire ants build mounds in the same open, moist pastureland. Add Florida's usual subterranean termite pressure in the sandy soil, and an Okeechobee home needs pest coverage built around ranch country, not a generic suburban plan.",
+    sections: [
+      {
+        heading: "Why Lake Okeechobee drives such organized mosquito control",
+        body: "Okeechobee sits right at the northern edge of Lake Okeechobee, Florida's largest freshwater lake, and that much open water close to a small city creates mosquito pressure serious enough that the county contracts Clarke Environmental Services for adult mosquito spraying, tracking problem areas by GIS so spray routes hit the worst spots first. Residents can call a mosquito hotline to report heavy concentrations, which isn't something every small Florida city offers. The lake's edge and the wetlands and canals that connect to it give mosquitoes breeding habitat that does not go away in a normal dry spell, so the season here often runs longer than in an inland town without that much standing water nearby. For homeowners, the practical takeaway is the same one public officials give every year: a home still needs its own standing water removed from gutters, plant trays, and low spots to keep the yard from breeding its own supply, even with countywide spraying in place.",
+      },
+      {
+        heading: "Ranch land brings rodents, flies, and fire ants close to town",
+        body: "Okeechobee County's economy still runs heavily on cattle ranching, and that pasture land presses right up against the edges of the city rather than sitting miles away behind other development. Rodents living in open pasture and feed storage areas move toward the nearest shelter when conditions in the fields change, whether that's a dry spell reducing cover or a wet spell pushing them to higher ground, and a garage or shed backing onto ranch land is often that shelter. Flies tied to cattle operations, particularly in the warmer months, can drift toward nearby homes in numbers that a purely residential neighborhood would not see. Fire ants build their mounds in the same open, often moist pastureland, and a property at the edge of town sits closer to that pressure than one deeper into a residential subdivision. None of these three problems is unique to Okeechobee, but the tight overlap between ranch land and city limits here is.",
+      },
+    ],
+    prevention: [
+      "Remove standing water around the home even with county mosquito spraying in place.",
+      "Seal garages and sheds bordering pasture land against rodents, especially as field conditions change with the season.",
+      "Treat fire ant mounds in open, moist pastureland edges before colonies spread toward the house.",
+      "Keep an annual termite inspection scheduled given Florida's year-round subterranean termite pressure.",
+    ],
+    costNote:
+      "Most Okeechobee homes use a recurring plan for ants, flies, and general pests, typically $35 to $55 a month given the smaller local market, with mosquito and rodent service often added for properties bordering pasture or the lake. Termite protection is quoted separately after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Okeechobee County run its own mosquito spraying program?",
+        answer:
+          "Okeechobee sits at the edge of Lake Okeechobee, Florida's largest lake, and the county contracts Clarke Environmental Services to spray for adult mosquitoes, tracking trouble spots by GIS. Residents can also call a mosquito hotline to report heavy concentrations.",
+      },
+      {
+        question: "Why do rodents show up in garages near Okeechobee's ranch land?",
+        answer:
+          "Okeechobee County's economy runs heavily on cattle ranching, and pasture presses right up against city limits. When conditions in the fields change, rodents living in that open land move toward the nearest shelter, which is often a garage or shed at the edge of town.",
+      },
+      {
+        question: "Are flies a bigger issue in Okeechobee than in other Florida towns?",
+        answer:
+          "Properties near cattle operations can see more fly pressure in the warmer months than a purely residential neighborhood would, since flies tied to ranching drift toward the nearest structures. Homes at the edge of town, closer to pasture, typically see this more than those farther in.",
+      },
+      {
+        question: "Is Lake Okeechobee itself a mosquito risk for homes in town?",
+        answer:
+          "The lake, along with the connected wetlands and canals, gives mosquitoes breeding habitat that persists through normal dry spells, which is part of why the county runs an organized spraying program rather than leaving it entirely to individual homeowners.",
+      },
+      {
+        question: "How big a termite risk does Okeechobee have?",
+        answer:
+          "The same as much of Florida: sandy soil lets subterranean termites forage easily, and swarms typically appear in spring. An annual inspection is the practical way to catch a colony before it causes real damage.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Fort Pierce", slug: "fort-pierce", stateSlug: "florida" },
+      { name: "Belle Glade", slug: "belle-glade", stateSlug: "florida" },
+      { name: "Clewiston", slug: "clewiston", stateSlug: "florida" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Okeechobee, FL | Mosquitoes & Rodents",
+    metaDescription:
+      "Okeechobee pest control for mosquitoes, rodents, fire ants and flies near ranch land and Lake Okeechobee. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "clewiston",
+    name: "Clewiston",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~7,500",
+    county: "Hendry County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clewiston sits on the southwest shore of Lake Okeechobee amid working sugarcane land, with hot, humid summers, a clear rainy season from June through October, and mild winters. The lake's canal system and the surrounding cane fields keep mosquitoes and rodents tied closely to the local farming calendar.",
+    topPests: ["Mosquitoes", "Rodents", "American cockroaches", "Subterranean termites", "Fire ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Rainy season, June through October",
+        note: "The Florida Department of Health in Hendry County flags the summer rainy season as the period of highest concern locally for mosquito-borne illness, tracking SLE, EEE, and West Nile virus.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rat-control",
+        activeSeason: "Heaviest during harvest, October through spring",
+        note: "The sugarcane fields surrounding Clewiston are known rodent habitat, and harvest and controlled burns running roughly October through spring push them toward the nearest shelter.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed in the moisture around canals and irrigation systems tied to Lake Okeechobee's water management network.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Florida's sandy soil lets termites forage easily toward structures, with swarms typically appearing in spring.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants build mounds along the edges of cane fields and other open agricultural ground around town.",
+      },
+    ],
+    localHook:
+      "Clewiston's identity as sugar country is not background color, it's the reason mosquito season gets specific public health attention here and why rodent pressure follows a harvest calendar instead of just the weather. A generic Florida pest plan misses both of those local patterns.",
+    intro:
+      "Pest control in Clewiston, FL has to work around one industry: sugar. Known locally as the Sweetest Town in America, Clewiston sits surrounded by the sugarcane fields that support the local economy, and those fields shape pest pressure well beyond the farm gate. The Florida Department of Health in Hendry County flags the summer rainy season as the period of highest concern for mosquito-borne disease locally, and the same fields that host cane also host rodents that need somewhere new to go once harvest and controlled burns clear the stalks each year. Add the canal network tied to Lake Okeechobee's water management system, which keeps humidity and standing water close to town, and Clewiston's pest picture looks more like farm country than a typical Florida suburb.",
+    sections: [
+      {
+        heading: "Why Clewiston's rainy season is watched so closely for mosquitoes",
+        body: "Clewiston sits close enough to Lake Okeechobee and its connected canal system that standing water is rarely far from any part of town, and the Florida Department of Health in Hendry County specifically calls out the summer rainy season as the period of highest concern for mosquito-borne illness locally, naming SLE, EEE, and West Nile virus as the diseases it tracks most closely. That kind of specific public health messaging isn't something every small Florida town publishes, and it reflects how seriously the combination of lake, canal, and heavy summer rain is taken here. For homeowners, the practical takeaway is the same one public health officials give every year: remove standing water around the house, use repellent during the peak rainy season months, and treat the property before the worst of the season arrives rather than after the first bites show up.",
+      },
+      {
+        heading: "How the sugarcane harvest pushes rodents toward homes",
+        body: "The fields around Clewiston are working sugarcane land, harvested and burned on a schedule that runs roughly from October through the spring, and those fields are also known habitat for rodents that live among the stalks for cover and food. As each field gets cut and burned in turn, the rodents living in it lose that shelter all at once and need somewhere new to go, and a garage, shed, or home at the edge of town backing onto active cane land is often the closest option. This is a genuinely different pattern from a typical suburban rodent problem, since it's tied to a harvest calendar rather than just cooler weather, and it means homes near field edges can see a rodent uptick at a specific point in the season rather than a steady year-round trickle. Sealing entry points before the harvest season gets underway is more useful here than waiting for a rodent to already be inside.",
+      },
+    ],
+    prevention: [
+      "Remove standing water and use repellent through the summer rainy season given local mosquito-borne disease guidance.",
+      "Seal garages and sheds near cane field edges before harvest season begins each fall.",
+      "Keep an annual termite inspection scheduled given Florida's year-round subterranean termite pressure.",
+      "Treat fire ant mounds at field edges early since colonies rebuild quickly after rain.",
+    ],
+    costNote:
+      "Most Clewiston homes use a recurring plan for ants, cockroaches, and general pests, typically $35 to $55 a month given the smaller local market, with mosquito treatment often stepped up through the summer rainy season and rodent exclusion addressed separately around harvest time. Termite protection is quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Clewiston take mosquito season so seriously?",
+        answer:
+          "The Florida Department of Health in Hendry County specifically flags the summer rainy season as the period of highest concern for mosquito-borne illness in the area, tracking SLE, EEE, and West Nile virus. Standing water near Lake Okeechobee's canal system adds to the risk, so removing standing water around the home matters more here than in a drier inland town.",
+      },
+      {
+        question: "Why do rodents seem to spike in Clewiston during harvest season?",
+        answer:
+          "The sugarcane fields surrounding Clewiston are cut and burned on a schedule running roughly October through spring, and rodents living in the cane lose that shelter as each field is cleared. Homes backing onto field edges can see a rodent increase tied to that harvest calendar rather than just cooler weather.",
+      },
+      {
+        question: "Is Clewiston's pest pressure different from other Hendry County towns?",
+        answer:
+          "The core pressures, mosquitoes, rodents, and termites, are shared across Hendry County, but Clewiston's position surrounded by active sugarcane land and close to Lake Okeechobee's canal system gives it a more specific harvest-tied rodent pattern and a public health department that names mosquito season explicitly.",
+      },
+      {
+        question: "Are cockroaches a big problem in Clewiston?",
+        answer:
+          "American cockroaches are active year-round, breeding in the moisture around canals and irrigation systems near cane fields before working toward homes. Reducing moisture against the house and sealing gaps helps keep them from establishing indoors.",
+      },
+      {
+        question: "How big a termite risk does Clewiston have?",
+        answer:
+          "The same broad risk as most of Florida: sandy soil lets subterranean termites forage easily and swarms typically appear in spring. An annual inspection is the practical way to catch a colony early.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Belle Glade", slug: "belle-glade", stateSlug: "florida" },
+      { name: "Wellington", slug: "wellington", stateSlug: "florida" },
+      { name: "Naples", slug: "naples", stateSlug: "florida" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Clewiston, FL | Mosquitoes & Rodents",
+    metaDescription:
+      "Clewiston pest control for mosquitoes, rodents, cockroaches and termites near sugarcane fields and Lake Okeechobee. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "palatka",
+    name: "Palatka",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~10,900",
+    county: "Putnam County",
+    climate: "hot-humid",
+    climateDriver:
+      "Palatka sits along the St. Johns River in northeast Florida, with hot, humid summers, frequent rain, and mild winters that rarely bring a hard freeze. The river keeps humidity high nearly year-round, which is exactly the climate subterranean termites and both American and German cockroaches need to stay active.",
+    topPests: ["Subterranean termites", "American cockroaches", "German cockroaches", "Mosquitoes", "Fire ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Palatka's older wood-frame downtown buildings sit close to the St. Johns River's humidity, giving termites easy access to older wood most months of the year.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed outdoors near the river in mulch and drains before moving indoors once conditions dry out on the surface.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoors",
+        note: "These establish directly inside kitchens and bathrooms and spread through shared plumbing and wall voids, especially in older buildings without tight modern sealing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "The St. Johns River and its connected wetlands give mosquitoes breeding habitat close to town for most of the warm season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are common across the open, moist ground found throughout Putnam County, with mounds rebuilding quickly after rain.",
+      },
+    ],
+    localHook:
+      "Palatka's river setting and its older housing stock are the two facts that shape pest pressure here more than anything else. The St. Johns River keeps humidity high nearly every month, and the age of the local building stock gives termites and cockroaches more ways in than newer construction would.",
+    intro:
+      "Pest control in Palatka, FL starts with the St. Johns River running along the edge of downtown. As the Putnam County seat, Palatka has one of the older housing stocks in this part of Florida, with wood-frame homes and historic downtown buildings that sit close to the river's humidity almost every month of the year. That combination of age and moisture gives subterranean termites easy access to older wood, and keeps both American and German cockroaches active indoors and out through every season. Add the mosquitoes that breed along the river and its connected wetlands, plus the fire ants that build mounds across the county's open, moist ground, and Palatka's pest pressure looks less like a coastal Florida beach town and more like a river town carrying real humidity all year.",
+    sections: [
+      {
+        heading: "Why Palatka's older buildings carry more termite risk",
+        body: "Palatka's downtown includes some of the older commercial and residential buildings in this part of Florida, many of them wood-frame construction built well before current termite-resistant building standards existed. Combine that older wood with the St. Johns River's humidity sitting over the town for most of the year, and subterranean termites have both an easy path into structures and a climate that barely slows them down through the winter. Swarms typically appear in spring, but colonies can keep working through the rest of the year in this climate, which is why a swarm is often the first visible sign of a problem that has been building underground for a while already. Homeowners in Palatka's older neighborhoods, particularly homes with crawl spaces or wood in direct contact with damp soil near the river, carry more of this risk than newer construction farther from downtown, and an annual inspection matters more here than in a drier part of the state.",
+      },
+      {
+        heading: "Two kinds of cockroach, one river-driven humidity problem",
+        body: "Palatka sees both American and German cockroaches, and they do not behave the same way. American cockroaches, often called palmetto bugs, are the larger species that breeds outdoors in mulch, drains, and damp areas near the river before moving indoors once conditions get too dry on the surface to suit them. German cockroaches take the opposite route, establishing directly inside kitchens and bathrooms and spreading through shared plumbing and wall voids without much outdoor presence at all. The river's humidity feeds both problems from different directions: it keeps the outdoor breeding grounds active for the palmetto bugs and keeps indoor moisture high enough, especially in older buildings without tight modern sealing, for German cockroaches to thrive once they get inside. Treating only one direction, spraying the yard but ignoring kitchen cracks, or the reverse, tends to leave the other population untouched, so an effective plan in Palatka usually needs to work both sides at once.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for older wood-frame homes near downtown.",
+      "Reduce mulch and standing moisture against the house to slow palmetto bugs moving in from outside.",
+      "Seal kitchen and bathroom cracks to stop German cockroaches from establishing indoors.",
+      "Clear standing water near the river and in gutters to cut mosquito breeding through the warm months.",
+    ],
+    costNote:
+      "Most Palatka homes use a recurring plan for cockroaches, ants, and general pests, typically $40 to $60 a month, with termite protection quoted separately after a free inspection given the added risk in the city's older building stock. Homes closest to the river sometimes add seasonal mosquito service.",
+    faqs: [
+      {
+        question: "Why is termite risk higher in Palatka's older neighborhoods?",
+        answer:
+          "Palatka's downtown includes wood-frame buildings built before modern termite-resistant construction standards, and the St. Johns River keeps humidity high most of the year. That combination gives subterranean termites both easy access to older wood and a climate that barely slows them down, so an annual inspection matters more here than in newer construction.",
+      },
+      {
+        question: "What is the difference between the cockroaches found in Palatka?",
+        answer:
+          "American cockroaches, called palmetto bugs locally, breed outdoors near the river in mulch and drains before moving indoors. German cockroaches establish directly inside kitchens and bathrooms and rarely go outside at all. Palatka's river humidity keeps both populations active, which is why treatment usually needs to address indoor and outdoor sources separately.",
+      },
+      {
+        question: "Does the St. Johns River make mosquitoes worse in Palatka?",
+        answer:
+          "Yes. The river and its connected wetlands give mosquitoes breeding habitat close to town for most of the warm season, and activity typically runs from spring through fall with a clear increase after heavy rain.",
+      },
+      {
+        question: "Are fire ants a problem in Putnam County?",
+        answer:
+          "Yes, fire ants are common across the open, moist ground found throughout Putnam County, and mounds rebuild quickly after rain. Treating a mound early, before a colony spreads across the yard, is more effective than waiting.",
+      },
+      {
+        question: "How often should a Palatka home get a termite inspection?",
+        answer:
+          "Once a year is the standard recommendation, and it matters more for Palatka's older wood-frame homes near downtown and the river than for newer construction elsewhere in Putnam County.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Jacksonville", slug: "jacksonville", stateSlug: "florida" },
+      { name: "Fernandina Beach", slug: "fernandina-beach-fl", stateSlug: "florida" },
+      { name: "Orlando", slug: "orlando", stateSlug: "florida" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Palatka, FL | Termites & Cockroaches",
+    metaDescription:
+      "Palatka pest control for subterranean termites, American and German cockroaches, mosquitoes and fire ants near the St. Johns River. Call 1-800-PEST-USA.",
+  },
 ];

@@ -7572,4 +7572,509 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "St. Marys, PA pest control for elk-herd-driven ticks, carpenter ants across two historic building eras, fall stink bugs, and winter mice. Free inspection.",
   },
+  {
+    slug: "emmaus",
+    name: "Emmaus",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~11,700",
+    county: "Lehigh County",
+    climate: "cold-humid",
+    climateDriver:
+      "Emmaus sits in the Lehigh Valley, where the Appalachian ridgelines trap cold air in winter and humid air in summer. The four distinct seasons push insects indoors twice a year: once in fall as temperatures drop, and again as they leave overwintering spots each spring.",
+    topPests: ["Brown Marmorated Stink Bugs", "Spotted Lanternfly", "Carpenter Ants", "House Mice", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bug",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through early spring, overwintering indoors",
+        note: "The species was first collected in the US in nearby Allentown in 1998, according to Penn State Extension, and Lehigh Valley homes remain a hot spot. They cluster on sunny exterior walls in fall looking for a way in.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Adults active late summer into fall",
+        note: "Pennsylvania is the US epicenter for this invasive planthopper. Emmaus yards with maple and tree-of-heaven see heavy swarms and sticky honeydew residue on decks and cars.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Swarms in spring, active year-round indoors",
+        note: "Emmaus's tree-lined residential streets and older wood-frame homes give carpenter ants plenty of moisture-damaged wood to nest in, especially around old porch roofs and window sills.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Cooling weather sends mice looking for gaps around foundations and utility lines, particularly in the borough's pre-1950s housing stock.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm March through April",
+        note: "Lehigh County's clay-heavy soil holds moisture against foundations, and a termite swarm inside a home points to an established colony that needs a full inspection.",
+      },
+    ],
+    localHook:
+      "Emmaus has an odd claim to pest fame: entomologists collected the first US specimens of the brown marmorated stink bug here in 1998, and the insect has never really left. Ask any longtime resident about the fall stink bug cluster on a sunny brick wall and they will nod like it is a season, not a surprise.",
+    intro:
+      "Pest control in Emmaus, PA starts with an insect the borough is unintentionally famous for. Entomologists collected the first US specimens of the brown marmorated stink bug here in Lehigh County back in 1998, and the species has been a fall and spring nuisance in Emmaus homes ever since. Add the invasive spotted lanternfly, which swarms trees and decks from late summer into fall, and carpenter ants working the moisture-softened wood of the borough's older homes, and Emmaus faces a pest calendar shaped as much by history as by the Lehigh Valley's cold winters and humid summers. A licensed local technician can identify which of these is actually driving your particular problem and build a plan around it.",
+    sections: [
+      {
+        heading: "Why do stink bugs swarm Emmaus homes every fall?",
+        body: "Brown marmorated stink bugs do not lay eggs indoors and they do not eat your house, but they do look for a warm, dry place to spend the winter, and older Emmaus homes with wood siding, loose soffits, and older window trim are exactly that. The insects gather on sun-warmed exterior walls on mild fall afternoons, then work their way through the smallest gaps in siding, attic vents, and window frames. Once inside, they go dormant in wall voids and attics until a warm day in late winter or early spring wakes them up and they wander into living space, often in large numbers at once. Because the species was first documented in the neighboring city of Allentown, Lehigh Valley populations are especially established compared to much of the rest of the country. Sealing gaps around siding, vents, and utility penetrations before October is the single most effective step. Once bugs are already inside a wall void, exterior treatment before their fall migration works better than trying to chase them indoors one room at a time.",
+      },
+      {
+        heading: "What makes Emmaus's older housing stock vulnerable to termites and carpenter ants?",
+        body: "Much of Emmaus was built well before 1950, and that older wood-frame construction sits on Lehigh County's clay-heavy soil, which holds moisture against foundations longer than sandier ground would. That moisture is exactly what both eastern subterranean termites and carpenter ants look for. Termites work from the soil upward, entering through cracks in foundations or wood-to-ground contact, and a swarm of winged termites inside the house, especially in March or April, means an established colony rather than a new arrival. Carpenter ants take the opposite route, nesting in wood that has already softened from a roof leak, a clogged gutter, or a porch post sitting in wet soil, then expanding the galleries over time. Neither pest responds well to a one-time treatment if the underlying moisture problem is not addressed. An inspection that checks the foundation, crawl space, and any water-damaged trim gives a much clearer answer than treating on a guess, and it is the standard first step before recommending a termite bait system or a targeted ant treatment.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, attic vents, and window trim before October to block fall stink bug entry.",
+      "Scrape spotted lanternfly egg masses off decks, trees, and outdoor furniture over winter.",
+      "Fix roof leaks and clogged gutters promptly since wet wood attracts carpenter ants.",
+      "Keep mulch and firewood a few inches off the foundation to reduce moisture buildup.",
+      "Schedule an annual termite inspection for homes built before 1970.",
+    ],
+    costNote:
+      "General pest plans in Emmaus typically run $40 to $60 a month for a recurring service, while termite and lanternfly work is quoted separately after an inspection. A free assessment gives an accurate number for your specific home.",
+    faqs: [
+      {
+        question: "Why does Emmaus have so many brown marmorated stink bugs?",
+        answer: "The species was first collected in the US in nearby Allentown in 1998, and the Lehigh Valley has had an established population ever since. Emmaus's mix of older homes and mature trees gives them plenty of overwintering sites, which is why fall sealing and exterior treatment matter more here than in newer construction elsewhere.",
+      },
+      {
+        question: "Is the spotted lanternfly a danger to my Emmaus yard?",
+        answer: "It will not hurt people or pets, but it feeds heavily on maple, tree-of-heaven, and other hardwoods common on Emmaus's residential streets, leaving sticky honeydew on decks and cars. Scraping egg masses over winter and treating host trees keeps populations down.",
+      },
+      {
+        question: "How do I know if I have a termite problem, not just carpenter ants?",
+        answer: "A termite swarm produces straight-antennaed insects with wings of equal length, usually indoors in March or April. Carpenter ants have bent antennae and unequal wings, and you are more likely to see them foraging in the kitchen. A technician can confirm which one you have and where the nest is likely located.",
+      },
+      {
+        question: "When should I schedule stink bug treatment in Emmaus?",
+        answer: "Late September through early October, before the bugs finish their move into wall voids and attics for the winter. Exterior treatment at that point is far more effective than trying to remove them from living space after they wake up in late winter.",
+      },
+      {
+        question: "What does a pest control visit cost in Emmaus?",
+        answer: "Most Emmaus homes fall into a recurring general pest plan priced monthly, with termite and lanternfly work quoted separately after an inspection. A free assessment is the best way to get an accurate number for your specific home.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Whitehall", slug: "whitehall-pa", stateSlug: "pennsylvania" },
+      { name: "Doylestown", slug: "doylestown-pa", stateSlug: "pennsylvania" },
+      { name: "Quakertown", slug: "quakertown-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Emmaus, PA | Stink Bugs & Lanternfly",
+    metaDescription: "Licensed pest control in Emmaus, PA. Stink bug, spotted lanternfly, termite, and carpenter ant treatment for Lehigh County homes. Free inspection.",
+  },
+  {
+    slug: "gettysburg",
+    name: "Gettysburg",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~7,100",
+    county: "Adams County",
+    climate: "cold-humid",
+    climateDriver:
+      "Gettysburg sits in the rolling farmland and orchard country of Adams County, where wooded battlefield parkland, hedgerows, and apple orchards border residential streets on nearly every side. That mix of woodland edge and open field is prime tick habitat, and Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade.",
+    topPests: ["Blacklegged Ticks", "Brown Marmorated Stink Bugs", "House Mice", "Carpenter Ants", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active spring through fall, adults can bite on mild winter days",
+        note: "Pennsylvania consistently reports more Lyme disease cases than any other state, and Adams County's mix of battlefield woodland, orchards, and residential edge is classic tick habitat. Yard-edge treatment matters as much as personal repellent.",
+      },
+      {
+        name: "Brown marmorated stink bug",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through early spring",
+        note: "Adams County's orchards are a major stink bug host, and homes near fruit-growing areas see heavy fall clustering on exterior walls.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Older Gettysburg homes near farmland see mice pushing indoors as harvested fields lose their cover in fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round",
+        note: "Wooded lots near the battlefield parkland give carpenter ants easy access to moisture-damaged wood on older homes.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Most aggressive in late summer and early fall",
+        note: "Ground nests are common in the grassy fields and orchard edges around Gettysburg, and colonies peak in size right before frost.",
+      },
+    ],
+    localHook:
+      "Gettysburg's identity is tied to its fields and woodlots, and those same battlefield borders and orchard rows are exactly the tick habitat that has made Pennsylvania the national leader in Lyme disease cases for most of the last decade. A homeowner here needs a yard plan, not just a personal repellent.",
+    intro:
+      "Pest control in Gettysburg, PA has to account for what surrounds the town: battlefield parkland, hedgerows, and Adams County's orchards on nearly every side. That mix of woodland edge and open field makes blacklegged ticks the top concern, and Pennsylvania has reported more Lyme disease cases than any other state for most of the past decade. Fall brings brown marmorated stink bugs clustering on exterior walls, drawn in part by the county's fruit orchards, while yellowjacket nests build up through late summer in the same grassy field edges. A licensed technician who treats the yard perimeter as carefully as the house itself gives Gettysburg families a real reduction in risk, not just a spray on the porch.",
+    sections: [
+      {
+        heading: "Why is tick prevention such a priority around Gettysburg?",
+        body: "Gettysburg is ringed by exactly the kind of terrain blacklegged ticks favor: wooded battlefield parkland, brushy fence lines, and orchard edges where deer move freely between cover and open ground. Ticks pick up the bacteria that causes Lyme disease from small mammals like white-footed mice, then pass it to people during a blood meal, and Pennsylvania has reported the highest number of Lyme disease cases of any state for most of the past decade. Adams County's case counts are lower than dense suburban counties near Philadelphia, but the risk is not zero, and it rises sharply for anyone who gardens, hikes battlefield trails, or lets pets roam wooded yard edges. A residential tick reduction program treats the transition zone between lawn and woods or brush, since that narrow strip is where ticks quest for a host most often. Regular mowing, a gravel or mulch barrier between lawn and woods, and keeping deer away from the yard all reduce risk, but a targeted perimeter treatment two or three times a season closes the gap that yard work alone cannot.",
+      },
+      {
+        heading: "What draws stink bugs and yellowjackets to Gettysburg properties?",
+        body: "Adams County is one of Pennsylvania's most productive fruit growing regions, and the brown marmorated stink bug treats orchards and the trees around them as a feeding and staging ground before moving into nearby homes each fall. Residents close to orchard land or mature shade trees tend to see heavier clustering on sun-warmed exterior walls in September and October than homes further into town. Yellowjackets follow a different but equally seasonal pattern: colonies start small in spring and grow through summer, feeding on insects and sugars, then turn aggressive in late summer and early fall as the colony reaches its largest size and natural food sources start to dry up. Ground nests in orchard edges, stone walls, and unmown field margins are common around Gettysburg, and a nest near a mowed lawn or a walking path is a real sting risk rather than a minor nuisance. Both problems respond best to treatment before the fall peak rather than after a swarm has already moved in or a nest has already grown to full size.",
+      },
+    ],
+    prevention: [
+      "Keep a mowed or mulched buffer between lawn and any wooded or brushy edge to reduce tick contact.",
+      "Check pets and family members for ticks after any time near battlefield trails or orchard-adjacent yards.",
+      "Seal exterior gaps before October to reduce fall stink bug entry.",
+      "Have ground-level yellowjacket nests treated promptly rather than mowing over them.",
+      "Keep grass short and brush cleared near play areas and gardens.",
+    ],
+    costNote:
+      "Tick yard treatments are usually priced per visit or as a seasonal program, typically $40 to $60 a month for a recurring general pest plan. Costs depend on lot size and how much wooded or brushy edge borders the property.",
+    faqs: [
+      {
+        question: "Why does Gettysburg have such a high risk of tick bites?",
+        answer: "The town is surrounded by battlefield woodland, hedgerows, and orchards, all prime blacklegged tick habitat, and Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade. A yard-edge tick treatment alongside personal precautions gives the best real-world protection.",
+      },
+      {
+        question: "Are stink bugs worse in Gettysburg because of the orchards?",
+        answer: "Adams County's orchards give brown marmorated stink bugs a strong local food source, and homes near orchard land or mature fruit trees often see heavier fall clustering on exterior walls than homes elsewhere in town. Sealing gaps before October and an exterior fall treatment both help.",
+      },
+      {
+        question: "When are yellowjackets most aggressive near Gettysburg?",
+        answer: "Late summer into early fall, when colonies in ground nests around orchard edges and field margins reach their largest size and natural food becomes scarce. A ground nest near a lawn or trail should be treated rather than left alone or mowed over.",
+      },
+      {
+        question: "Do I need pest control if I live right next to the battlefield park?",
+        answer: "Yes, if anything a bit more than average. Proximity to unmanaged woodland and field edges raises tick and stinging insect exposure, so a perimeter treatment plan matters more for these properties than for homes in the middle of town.",
+      },
+      {
+        question: "What does pest control typically cost in Gettysburg?",
+        answer: "Tick yard treatments are usually priced per visit or as a seasonal program, while general pest plans run as a recurring monthly service. Costs depend on lot size and how much wooded or brushy edge borders the property, so a free inspection is the right first step.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Carlisle", slug: "carlisle-pa", stateSlug: "pennsylvania" },
+      { name: "Chambersburg", slug: "chambersburg-pa", stateSlug: "pennsylvania" },
+      { name: "Mechanicsburg", slug: "mechanicsburg", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Gettysburg, PA | Tick & Stink Bug Experts",
+    metaDescription: "Licensed pest control in Gettysburg, PA. Tick, Lyme risk reduction, stink bug, and yellowjacket treatment for Adams County homes and yards.",
+  },
+  {
+    slug: "lititz",
+    name: "Lititz",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~9,400",
+    county: "Lancaster County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lititz sits in the heart of Lancaster County's farmland, surrounded by soybean and corn fields that shape the local insect calendar as much as the four-season climate does. Field-edge pests move into town in waves tied to the harvest, not just the weather.",
+    topPests: ["Brown Marmorated Stink Bugs", "Cluster Flies", "House Mice", "Carpenter Ants", "Spotted Lanternfly"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bug",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through early spring",
+        note: "Penn State Extension entomologists have tracked stink bugs moving out of Lancaster County soybean fields in early September, right as they head toward homes for the winter, and Lititz sits in the middle of that farmland.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, reappear on warm winter days",
+        note: "Cluster flies breed in farm fields and pastures around Lititz before seeking out attics and wall voids for the winter, then appear sluggishly on sunny windows in late winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Grain storage and farm outbuildings near Lititz's residential edges give mice a steady food source before they push into homes as fields are harvested.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Older Lititz homes near wooded stream corridors see carpenter ants nesting in moisture-softened wood around porches and sills.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Adults active late summer into fall",
+        note: "Lancaster County's orchards and vineyards are directly affected by this invasive pest, and residential trees near farmland see heavy late-summer swarms.",
+      },
+    ],
+    localHook:
+      "Lititz is a farm town first, and its pest calendar follows the fields around it. Penn State Extension entomologists have documented stink bugs building up in Lancaster County soybean fields in early September before they move toward houses, and in Lititz that migration lands right on residential doorsteps.",
+    intro:
+      "Pest control in Lititz, PA follows the rhythm of the farmland that surrounds it. This Lancaster County borough sits among soybean and corn fields that Penn State Extension entomologists have tracked as a source of brown marmorated stink bugs building up each September before the insects head toward homes for winter. Cluster flies follow a similar pattern, breeding in nearby fields and pastures before seeking out attics for the cold months. Add house mice pushed in by the fall harvest and carpenter ants working the moisture-softened wood of the borough's older homes, and Lititz residents face a pest season that starts in the fields long before it reaches the porch. Local, licensed treatment timed to that seasonal shift works better than a one-time spray.",
+    sections: [
+      {
+        heading: "Why do stink bugs and cluster flies build up in Lititz every fall?",
+        body: "Lititz sits inside one of Pennsylvania's most productive farming regions, and that proximity to soybean and corn fields is not incidental to its pest pressure, it is the cause of it. Penn State Extension entomologists monitoring Lancaster County soybean fields have found brown marmorated stink bugs easy to find there by early September, right before the insects leave the fields and start looking for buildings to overwinter in. Cluster flies follow a related but separate pattern: they breed as parasites of earthworms in farm fields and pastures through summer, then seek out attics, soffits, and wall voids as the weather cools, appearing again as sluggish, slow-moving flies on sunny windows during warm spells in late winter. Both insects favor the same entry points, gaps around siding, attic vents, and roofline trim, and both are far easier to keep out with fall sealing and an exterior perimeter treatment than to remove once they are already inside wall cavities for the winter.",
+      },
+      {
+        heading: "What should Lititz homeowners near farmland know about mice and carpenter ants?",
+        body: "Homes on the edge of Lititz, closer to open fields, grain storage, and farm outbuildings, see a different pattern of pest pressure than homes in the denser center of the borough. House mice living in field edges and outbuildings during the growing season lose both food and cover once crops are harvested in fall, and they respond by moving toward the nearest structure with warmth and food, often a home's foundation gaps or utility penetrations. Carpenter ants take a slower route, nesting in wood that has already been softened by moisture, commonly around porch posts, window sills, and roof lines near the wooded stream corridors that run through and around Lititz. Neither pest is unique to farm-adjacent homes, but the density of surrounding agriculture raises the local population that is available to move in when conditions turn. Sealing foundation gaps before harvest season and fixing any source of trapped moisture around the exterior are the two most effective steps a Lititz homeowner near open farmland can take before winter.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before the fall harvest pushes field mice toward structures.",
+      "Have exterior stink bug and cluster fly treatment done before late September, ahead of their move indoors.",
+      "Fix roof and gutter leaks promptly to keep moisture out of porch posts and window sills.",
+      "Scrape spotted lanternfly egg masses off outdoor surfaces over winter.",
+      "Keep firewood and mulch away from the foundation to reduce ant and mouse harborage.",
+    ],
+    costNote:
+      "Most Lititz homeowners choose a recurring general pest plan, typically $40 to $60 a month, with fall stink bug or cluster fly treatment and any termite or ant work quoted separately after inspection.",
+    faqs: [
+      {
+        question: "Why are there so many stink bugs in Lititz in the fall?",
+        answer: "Lititz sits among some of Lancaster County's most productive soybean and corn farmland, and Penn State Extension entomologists have found stink bugs building up in those fields by early September before they move toward buildings for winter. Sealing exterior gaps before that migration is the most effective prevention step.",
+      },
+      {
+        question: "What are the slow, sluggish flies that show up on my windows in Lititz in late winter?",
+        answer: "Those are almost certainly cluster flies. They breed outdoors in farm fields and pastures around Lititz through the growing season, then move into attics and wall voids for winter, reappearing on sunny windows during warm spells. An exterior fall treatment prevents most of the problem before it starts.",
+      },
+      {
+        question: "Do farm fields near Lititz make mouse problems worse?",
+        answer: "They can. Mice living in field edges and grain storage lose food and cover once crops are harvested, and that often pushes them toward the nearest home with an open gap. Sealing foundation and utility entry points ahead of harvest season reduces that risk significantly.",
+      },
+      {
+        question: "Is the spotted lanternfly a problem for Lititz's orchards and vineyards?",
+        answer: "Yes, Lancaster County's orchards and vineyards are directly affected by this invasive planthopper, and residential trees near farmland see heavy swarms from late summer into fall. It does not harm people or pets, but scraping egg masses over winter helps limit next year's population.",
+      },
+      {
+        question: "What does pest control cost for a home near Lititz farmland?",
+        answer: "Most homeowners choose a recurring general pest plan, often in the range of $40 to $60 a month, with fall stink bug or cluster fly treatment and any termite or ant work quoted separately after inspection. A free assessment gives an accurate number for your property.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-pa", stateSlug: "pennsylvania" },
+      { name: "York", slug: "york", stateSlug: "pennsylvania" },
+      { name: "Coatesville", slug: "coatesville", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lititz, PA | Stink Bugs & Cluster Flies",
+    metaDescription: "Licensed pest control in Lititz, PA. Stink bug, cluster fly, mouse, and ant treatment for Lancaster County farm-area homes. Free inspection.",
+  },
+  {
+    slug: "bradford-pa",
+    name: "Bradford",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~7,800",
+    county: "McKean County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bradford sits at over 1,400 feet in elevation on the edge of the Allegheny National Forest, and its winters are among the longest and snowiest in Pennsylvania. That extended cold season pushes overwintering insects and wildlife toward buildings earlier and keeps them there longer than in warmer parts of the state.",
+    topPests: ["Cluster Flies", "Carpenter Ants", "Deer Ticks", "Mice", "Wildlife (Raccoons and Squirrels)"],
+    pestProfile: [
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, active on warm days through winter",
+        note: "Bradford's long, cold season and proximity to the surrounding farmland and forest give cluster flies a large outdoor breeding ground before they seek out attics for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round",
+        note: "The Allegheny National Forest borders Bradford directly, and homes near tree lines see carpenter ants nesting in moisture-damaged wood, especially older homes with wood siding.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "McKean County's forest edges and abundant white-tailed deer population support tick activity, and Pennsylvania overall reports more Lyme disease cases than any other state.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors as cold arrives, often by early fall",
+        note: "Bradford's early, hard frosts push mice toward buildings sooner than in most of the state, especially older homes near the forest edge.",
+      },
+      {
+        name: "Raccoons and squirrels",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Most active fall through spring, denning in colder months",
+        note: "Bradford's edge-of-forest setting means chimneys, attics, and crawl spaces are regular denning targets for raccoons and squirrels looking to escape harsh winters.",
+      },
+    ],
+    localHook:
+      "Bradford is a forest town as much as it is a city. The Allegheny National Forest ranger station sits right in Bradford, and the wildlife, ticks, and wood-nesting insects that come with living on the edge of a half-million-acre forest are as much a part of the town's pest picture as its long, snowy winters.",
+    intro:
+      "Pest control in Bradford, PA has to account for the town's setting on the edge of the Allegheny National Forest, whose ranger station sits right in the city. That forest border brings carpenter ants, ticks, and denning wildlife like raccoons and squirrels into closer contact with homes than in most Pennsylvania towns, and McKean County's elevation and long, snowy winters push cluster flies and mice indoors earlier than in warmer parts of the state. A resident dealing with scratching in the attic, ants in a porch post, or ticks picked up on a forest trail needs a technician who understands how much of Bradford's pest pressure comes directly from what is a short walk from downtown into national forest land.",
+    sections: [
+      {
+        heading: "Why does living next to the Allegheny National Forest change Bradford's pest pressure?",
+        body: "Bradford is home to the ranger station for the Allegheny National Forest, and the city's built edge sits directly against hundreds of thousands of acres of forest land. That proximity means wildlife like raccoons, squirrels, and white-tailed deer move freely between forest and neighborhood, and all three bring pest problems with them. Raccoons and squirrels look for chimneys, attic vents, and gaps under rooflines as denning sites, especially once the region's harsh winters set in, and a den that starts as a squirrel nest can expand into a serious attic problem within one season. Deer moving through yards support the local tick population, and Pennsylvania as a whole reports more Lyme disease cases than any other state, so a McKean County property backed up to tree line carries real tick exposure through spring, summer, and fall. Carpenter ants also do well here, since the forest edge means an unlimited supply of nesting material close by, and any wood on a home that stays wet, a porch post, a fascia board, a window sill, gives them an easy way in.",
+      },
+      {
+        heading: "How does Bradford's long winter affect flies and mice?",
+        body: "At over 1,400 feet in elevation and this far north, Bradford has one of the longer, colder winters in Pennsylvania, and that shapes two very ordinary pests in an unusual way. Cluster flies breed outdoors in fields and pastures around the city through the warmer months, then move into attics, soffits, and wall voids to overwinter as the season turns, and Bradford's early frosts mean that shift happens sooner than in much of the rest of the state. Once inside, they reappear sluggishly on sunny windows any time a warm spell interrupts the cold, sometimes as early as a mild day in February. House mice follow a similar early timeline, moving toward buildings as soon as the first hard frosts hit, especially in homes near the tree line where mice have easy cover right up to the foundation. Both problems are far easier to prevent with fall sealing done early, before the first frost, than to solve once the pests are already settled into a wall void or attic for a Bradford winter that can run five or six months.",
+      },
+    ],
+    prevention: [
+      "Seal attic vents, chimney caps, and roofline gaps to keep raccoons and squirrels from denning as winter approaches.",
+      "Have exterior cluster fly and mouse-proofing sealing done before the first hard frost, which arrives early in Bradford.",
+      "Check for ticks after any time spent near forest trails or tree-line yard edges.",
+      "Fix any wet or moisture-damaged wood around porches and rooflines to reduce carpenter ant nesting.",
+      "Keep bird feeders and trash secured to avoid attracting wildlife close to the house.",
+    ],
+    costNote:
+      "Wildlife removal cost depends on the animal and how it accessed the structure, while general pest plans typically run $40 to $60 a month for a recurring service. An inspection gives an accurate quote for exclusion and repair work.",
+    faqs: [
+      {
+        question: "Why does Bradford have more wildlife problems than other Pennsylvania towns its size?",
+        answer: "Bradford sits right against the Allegheny National Forest, which even has its ranger station in the city, so raccoons, squirrels, and deer move between forest and neighborhood far more than in towns further from forest land. That proximity is the main reason attic and chimney wildlife calls are common here.",
+      },
+      {
+        question: "Are ticks a real concern in Bradford?",
+        answer: "Yes. McKean County's forest edges support a healthy deer population, and deer are a key part of the tick life cycle. Pennsylvania overall reports more Lyme disease cases than any other state, so anyone spending time near tree lines or forest trails around Bradford should check for ticks regularly.",
+      },
+      {
+        question: "Why do mice show up in my Bradford home so early in the fall?",
+        answer: "Bradford's elevation and northern location mean hard frosts arrive earlier than in most of Pennsylvania, and mice respond to that cold by moving toward buildings sooner. Sealing foundation gaps in late summer, ahead of the first frost, is more effective here than waiting until October.",
+      },
+      {
+        question: "What time of year do cluster flies show up in Bradford?",
+        answer: "They move indoors in early fall as the season's first cold snaps hit, then reappear as sluggish flies on sunny windows during any winter warm spell. An exterior treatment before the first hard frost is the most effective way to keep them from overwintering in the wall voids.",
+      },
+      {
+        question: "How much does wildlife removal cost in Bradford?",
+        answer: "Cost depends on the animal and how it accessed the structure, whether that is a raccoon in a chimney or squirrels in a soffit gap, and whether repair work is needed after removal. An inspection gives an accurate quote, and exclusion work to prevent repeat entry is usually included in the plan.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "DuBois", slug: "dubois", stateSlug: "pennsylvania" },
+      { name: "St. Marys", slug: "st-marys-pa", stateSlug: "pennsylvania" },
+      { name: "Ridgway", slug: "ridgway-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bradford, PA | Wildlife & Tick Experts",
+    metaDescription: "Licensed pest control in Bradford, PA. Wildlife removal, tick treatment, cluster fly, and ant control for McKean County forest-edge homes.",
+  },
+  {
+    slug: "media-pa",
+    name: "Media",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~6,000",
+    county: "Delaware County",
+    climate: "cold-humid",
+    climateDriver:
+      "Media sits in densely settled Delaware County, just west of Philadelphia, where older colonial and Victorian-era housing stock and wooded park land like nearby Ridley Creek State Park combine to bring both structural pests and tick exposure right into a walkable suburban borough.",
+    topPests: ["Eastern Subterranean Termites", "Blacklegged Ticks", "Carpenter Ants", "House Mice", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm March through April",
+        note: "Delaware County's older housing, common throughout Media's historic district, sees documented termite activity in the region's colonial and Victorian-era homes, and a swarm indoors points to an established colony.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Emergency room visits for tick bites rose sharply across Delaware and southeastern Pennsylvania in recent years, and Media's proximity to Ridley Creek State Park and other wooded parkland keeps exposure high for a suburban borough.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Media's mature tree canopy and older wood-frame homes give carpenter ants abundant nesting opportunities in moisture-softened trim and porch structures.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Rowhome-style and twin construction common in parts of Delaware County lets mice move between attached units through shared wall voids.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Media's dense, walkable borough layout and proximity to Philadelphia's rowhome and apartment corridors both support year-round cockroach pressure in older buildings.",
+      },
+    ],
+    localHook:
+      "Media calls itself America's Favorite Town, and its walkable historic district of colonial and Victorian homes is a big part of that appeal, but the same older construction that gives the borough its character also gives termites and carpenter ants a foothold that newer suburbs do not have.",
+    intro:
+      "Pest control in Media, PA has to work around what makes the borough special: a historic, walkable core of colonial and Victorian-era homes in Delaware County, right on the edge of Philadelphia's suburbs. That older housing stock is exactly what eastern subterranean termites and carpenter ants look for, and a termite swarm indoors in March or April signals a colony that has likely been established for years. Media's nearby wooded parkland, including Ridley Creek State Park, has also driven a real rise in tick exposure across Delaware and southeastern Pennsylvania in recent years. Add house mice moving between attached homes and cockroach pressure typical of the dense Philadelphia suburbs, and a Media homeowner benefits from a technician who treats both the historic building and the yard edge as part of one plan.",
+    sections: [
+      {
+        heading: "Why are termites and carpenter ants such a concern in Media's historic homes?",
+        body: "Media's identity is built around its walkable historic district, and that same colonial and Victorian-era housing stock that gives the borough its charm is also older wood-frame construction that has had a century or more to develop the small cracks, wood-to-soil contact points, and moisture-softened trim that both eastern subterranean termites and carpenter ants exploit. Termites work from the soil upward and are usually invisible until a swarm of winged reproductives appears indoors, typically in March or April, at which point the colony has usually been established for some time already. Carpenter ants take a different path, nesting in wood that has already been softened by a roof leak, a clogged gutter, or a porch post in contact with damp soil, and then expanding their gallery system gradually rather than announcing themselves all at once. Because Media's housing stock skews older than much of suburban Delaware County, an inspection that checks the foundation, crawl space, and any history of water intrusion is a more useful first step for most homes here than a generic treatment plan.",
+      },
+      {
+        heading: "How much of a tick risk does Media's parkland really create?",
+        body: "Media sits close to Ridley Creek State Park and other wooded parkland that gives the borough a green, walkable feel, but that same woodland is tick habitat, and emergency room visits for tick bites rose sharply across Delaware and southeastern Pennsylvania in recent years. Blacklegged ticks favor the edge where lawn meets brush or woods, which describes a large share of yards in and around Media, especially properties that border parkland or undeveloped stream corridors. Pets and children playing near these edges, or families using the borough's trail network, carry a real and rising exposure, even though Media reads as a compact, walkable suburb rather than a rural area. A yard perimeter treatment focused on the lawn-to-woods transition, combined with routine tick checks after time outdoors, addresses the risk directly rather than relying on personal repellent alone. Because the exposure here comes from proximity to specific wooded parcels rather than from the whole borough equally, a technician familiar with which streets in Media sit closest to parkland can target treatment more efficiently than a blanket approach.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Media home built before 1970, especially in the historic district.",
+      "Fix roof and gutter leaks quickly to keep porch posts and trim from attracting carpenter ants.",
+      "Treat the lawn-to-woods transition zone near parkland edges to reduce tick exposure.",
+      "Check pets and kids for ticks after time on Ridley Creek State Park trails or wooded yard edges.",
+      "Seal shared-wall gaps in twin and rowhome-style construction to slow mice moving between units.",
+    ],
+    costNote:
+      "Termite and carpenter ant work is quoted after an inspection since the scope depends on the extent of moisture damage, while general pest and tick yard treatments are often priced around $40 to $60 a month as a recurring plan.",
+    faqs: [
+      {
+        question: "Why do so many Media homes have termite problems?",
+        answer: "Media's historic district is full of colonial and Victorian-era homes, and that older wood-frame construction has had decades to develop the small cracks and wood-to-soil contact points that eastern subterranean termites use to get in. A swarm indoors in March or April usually means an established colony, not a new one.",
+      },
+      {
+        question: "Is tick exposure really rising in Media?",
+        answer: "Yes. Emergency room visits for tick bites have risen sharply across Delaware and southeastern Pennsylvania in recent years, and Media's proximity to Ridley Creek State Park and other wooded parkland keeps local exposure real, even in a walkable, suburban borough like this one.",
+      },
+      {
+        question: "What is America's Favorite Town's connection to carpenter ants?",
+        answer: "Media's nickname comes from its historic charm, but the same mature trees and older wood-frame homes that create that charm also give carpenter ants plenty of moisture-softened wood to nest in, particularly around porches and older window trim.",
+      },
+      {
+        question: "Do mice move between attached homes in Media?",
+        answer: "In areas with twin or rowhome-style construction, yes. Mice travel through shared wall voids between attached units, which is why sealing gaps on just one side of a shared wall often is not enough to solve the problem long term.",
+      },
+      {
+        question: "What does pest control cost for an older Media home?",
+        answer: "Termite and carpenter ant work is quoted after an inspection since the scope depends on the extent of moisture damage, while general pest and tick yard treatments are often priced as a recurring plan. A free inspection is the most reliable way to get an accurate number.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Upper Darby", slug: "upper-darby-pa", stateSlug: "pennsylvania" },
+      { name: "Phoenixville", slug: "phoenixville", stateSlug: "pennsylvania" },
+      { name: "West Chester", slug: "west-chester-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Media, PA | Termites & Tick Treatment",
+    metaDescription: "Licensed pest control in Media, PA. Termite, tick, carpenter ant, and mouse treatment for Delaware County's historic borough homes.",
+  },
 ];

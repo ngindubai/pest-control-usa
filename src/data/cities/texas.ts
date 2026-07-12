@@ -15719,4 +15719,249 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Levelland, TX pest control for fall crickets and spiders, harvest-season rodents, and termites on the South Plains. Licensed Hockley County service.",
   },
+  {
+    slug: "livingston-tx",
+    name: "Livingston",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~5,600",
+    county: "Polk County",
+    climate: "hot-humid",
+    climateDriver: "Lake Livingston's shoreline humidity and heavy Piney Woods pine cover keep soil moisture high for subterranean termites and mosquitoes through most of the year.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Ticks"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, peak swarms in spring", note: "Clay soil around Polk County holds moisture long after rain, and Texas A&M AgriLife Extension lists subterranean termites among the costliest structural pests in East Texas pine country." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "March through November", note: "Lake Livingston's shoreline and the drainage ditches feeding it give mosquitoes standing water close to homes for most of the warm season." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, mounds most visible after rain", note: "Texas A&M AgriLife Extension has documented red imported fire ants as established across nearly all of East Texas, including Polk County yards and pastures." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "April through October", note: "The Big Thicket's brushy understory just south of town holds deer and other wildlife that carry ticks into yards bordering the timber." }
+    ],
+    localHook: "Livingston sits where the Piney Woods meet the shoreline of Lake Livingston, a reservoir built on the Trinity River that draws anglers and lake-house owners from across East Texas. That mix of forest, water, and heavy clay soil is exactly what keeps termite and mosquito pressure high here compared to drier parts of the state.",
+    intro: "Pest control in Livingston, TX starts with understanding the water. Livingston is the county seat of Polk County, sitting on the eastern edge of Lake Livingston in the middle of the Piney Woods, and that combination of reservoir humidity and dense pine forest keeps the ground damp enough to support subterranean termites and mosquitoes for most of the year. Fire ants, well established across East Texas according to Texas A&M AgriLife Extension, add another layer of pressure in yards and pastures around town. A house near the shoreline faces different mosquito and moisture pressure than one further back in the timber, so a treatment plan built around Polk County's soil and lake proximity works better than a generic statewide approach.",
+    sections: [
+      { heading: "Why Termites Hit Harder Near Lake Livingston", body: "Subterranean termites need moisture to survive, and Polk County gives them plenty of it. The clay-heavy soil common around Lake Livingston holds water long after a storm passes, and the humidity rising off the reservoir keeps that moisture in the ground even during dry stretches. Add in the amount of pine and other softwood used in home construction across East Texas, and you have conditions Texas A&M AgriLife Extension flags as some of the more favorable in the state for subterranean termite colonies. Spring swarms are the most visible sign, when winged reproductives emerge from the soil looking for new places to nest, but the real damage happens quietly in wall voids and floor joists long before anyone spots a swarm. Homes built directly on slab foundations near the lakeshore are particularly exposed because the soil beneath stays consistently damp. A yearly inspection catches mud tubes and hollow-sounding wood early, before a colony has years to work through structural lumber unnoticed." },
+      { heading: "Mosquitoes and Fire Ants Around the Lake", body: "Lake Livingston brings recreation and lake-house living to Polk County, but it also brings mosquitoes. Standing water in drainage ditches, low spots in yards, and the marshy fringes of the reservoir all give mosquitoes places to breed within a short flight of most homes in town. The season runs long here, typically from March through November, longer than it does in drier parts of Texas. Fire ants are the other constant. Texas A&M AgriLife Extension has tracked red imported fire ants as established across nearly all of East Texas, and Polk County yards, pastures, and even the edges of driveways commonly show fresh mounds after rain. Both pests respond well to a treatment plan that combines yard-level source reduction, standing-water elimination, and a scheduled outdoor barrier application rather than a one-time spray." }
+    ],
+    prevention: [
+      "Clear gutters and downspouts so water drains away from the foundation instead of pooling near the slab.",
+      "Store firewood and mulch away from exterior walls to remove damp wood termites can use as a bridge.",
+      "Empty or cover any container that holds standing water for more than a few days, including boat covers and buckets near the lake.",
+      "Treat visible fire ant mounds promptly rather than disturbing them, since a disturbed colony can relocate closer to the house.",
+      "Schedule an annual termite inspection, especially for homes on a slab foundation near the shoreline."
+    ],
+    costNote: "Most Livingston homeowners pay somewhere between $40 and $60 a month for a recurring general pest plan that covers ants, spiders, and seasonal invaders. A standalone termite treatment plan typically costs more upfront but is priced separately based on the size of the home and the extent of any existing damage. A licensed technician can give an exact quote after a free inspection.",
+    faqs: [
+      { question: "Are fire ants really a year-round problem in Livingston?", answer: "Yes. Texas A&M AgriLife Extension lists red imported fire ants as established across nearly all of East Texas, and in Polk County mounds can appear in any month, though they become most visible after rain when colonies push soil up near the surface." },
+      { question: "Why does Livingston seem to have more mosquitoes than towns further west?", answer: "Lake Livingston and the drainage that feeds it keep standing water close to homes for a longer stretch of the year, typically March through November, which extends the mosquito season compared to drier parts of Central and West Texas." },
+      { question: "Does living near Lake Livingston increase termite risk?", answer: "It can. The clay soil around the reservoir holds moisture longer than soil further from the water, and that dampness is a key factor in the subterranean termite pressure Texas A&M AgriLife Extension associates with this part of East Texas." },
+      { question: "What should I do if I find mud tubes on my foundation in Livingston?", answer: "Do not disturb them. Mud tubes usually mean an active subterranean termite colony, and a licensed technician needs to see them intact to determine the extent of the infestation and the right treatment approach." }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Huntsville", slug: "huntsville-tx", stateSlug: "texas" },
+      { name: "Humble", slug: "humble-tx", stateSlug: "texas" },
+      { name: "Lufkin", slug: "lufkin", stateSlug: "texas" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Livingston, TX | Termite & Mosquito Experts",
+    metaDescription: "Licensed pest control in Livingston, TX. Local termite, mosquito, and fire ant treatment for Polk County homes near Lake Livingston. Free inspection."
+  },
+  {
+    slug: "orange-tx",
+    name: "Orange",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~19,300",
+    county: "Orange County",
+    climate: "hot-humid",
+    climateDriver: "Sabine River wetlands and heavy Gulf Coast humidity keep clay soils saturated, and shipping traffic through the Golden Triangle helped establish Formosan subterranean termites decades ago.",
+    topPests: ["Formosan Subterranean Termites", "Mosquitoes", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      { name: "Formosan Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms in spring", note: "Texas A&M's Urban Entomology Program has confirmed Formosan subterranean termites established in Orange County as part of the wider Beaumont, Port Arthur, and Orange corridor, and this species chews through structural wood far faster than native subterranean termites." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "March through November", note: "The marshland along the Sabine River and the ditches draining Orange's low-lying neighborhoods hold water long after storms roll through, extending the mosquito season." },
+      { name: "American Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Gulf Coast humidity and the region's older housing stock, much of it built close to the ground, give American cockroaches easy entry through crawl spaces and sewer lines." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, mounds most visible after rain", note: "Red imported fire ants are established throughout the Golden Triangle, and Orange's humid clay soil keeps colonies active close to the surface most of the year." }
+    ],
+    localHook: "Orange sits on the Sabine River at the Louisiana state line, in the Golden Triangle refinery region alongside Beaumont and Port Arthur. Decades of ship traffic through this stretch of the Gulf Coast are part of why Formosan subterranean termites, an invasive species first introduced through port cities, became established here well before they reached most of the rest of Texas.",
+    intro: "Orange, TX faces a termite problem most Texas towns do not have to think about. Orange County sits at the eastern tip of the Golden Triangle, on the Sabine River at the Louisiana line, and the Gulf Coast humidity combined with decades of shipping traffic helped the invasive Formosan subterranean termite become established here long before it spread through the rest of the state. Texas A&M's Urban Entomology Program has confirmed the species across Orange, Jefferson, and the surrounding Gulf Coast counties, and it is known to chew through wood five to ten times faster than native subterranean termites. Add in a long mosquito season fed by Sabine River wetlands and drainage ditches, plus American cockroaches thriving in the humidity, and Orange homeowners need a pest plan built specifically for Golden Triangle conditions, not a generic Texas template.",
+    sections: [
+      { heading: "The Formosan Termite Problem Orange Shares With the Golden Triangle", body: "Formosan subterranean termites are not native to Texas. They arrived through Gulf Coast shipping ports decades ago and, according to Texas A&M's Urban Entomology Program, are now confirmed across Harris, Galveston, Brazoria, Jefferson, Orange, and several neighboring counties. What makes them a bigger concern than the native subterranean termites found across the rest of the state is speed and colony size. A Formosan colony can number in the hundreds of thousands to millions of workers, far larger than a typical native colony, and the species is documented to consume wood significantly faster. Orange's heavy clay soil holds rainwater for weeks at a time, which keeps the ground consistently moist enough to support these colonies close to home foundations. Because the damage often starts inside wall voids or under slabs where it is not visible, an annual inspection from a technician trained to recognize Formosan-specific signs, including the distinctive cardboard-like mud nests they sometimes build above ground, matters more here than in most of Texas." },
+      { heading: "Mosquitoes and Roaches in a Wet, Low-Lying Town", body: "Orange's location on the Sabine River means large stretches of low, marshy ground sit close to residential neighborhoods, and that water does not drain quickly. Mosquitoes breed in the wetland fringes, roadside ditches, and any yard depression that holds water for more than a few days, and the season here typically runs from March into November. American cockroaches, sometimes called palmetto bugs locally, thrive in the same humidity, entering homes through sewer lines, crawl space vents, and gaps around older plumbing common in Orange's mix of historic and mid-century housing. Unlike German cockroaches, which stay indoors, American cockroaches move freely between yards, storm drains, and homes, so control usually needs to address the exterior perimeter and any crawl space moisture, not just interior baiting." }
+    ],
+    prevention: [
+      "Schedule a Formosan-specific termite inspection annually, since above-ground nests can form in trees or attics without ever touching the soil.",
+      "Keep gutters clear and grade soil away from the foundation to reduce the clay soil's moisture retention near the slab.",
+      "Seal gaps around sewer cleanouts, crawl space vents, and foundation penetrations to block American cockroach entry points.",
+      "Eliminate standing water in ditches, gutters, and yard low spots within three to four days to break the mosquito breeding cycle.",
+      "Store firewood and untreated lumber off the ground and away from the house."
+    ],
+    costNote: "A recurring general pest plan in Orange typically runs $40 to $65 a month, slightly higher than the statewide average because of the extra attention Formosan termite risk requires. Termite treatment is quoted separately after an inspection, since Formosan colonies sometimes need a broader treatment area than native subterranean termites.",
+    faqs: [
+      { question: "Why does Orange have a bigger termite problem than other Texas towns?", answer: "Orange sits in the Golden Triangle, a Gulf Coast region where Texas A&M's Urban Entomology Program has confirmed the invasive Formosan subterranean termite established for decades, likely introduced through regional shipping ports. This species builds larger colonies and eats wood faster than the native subterranean termites found elsewhere in Texas." },
+      { question: "What is a Formosan termite nest above ground?", answer: "Formosan subterranean termites can sometimes build a cardboard-like carton nest in a tree, attic, or wall void, entirely separate from the soil. Homeowners in Orange should have any suspicious papery nest material identified by a licensed technician rather than assuming it is debris." },
+      { question: "How long does mosquito season last in Orange?", answer: "Typically from March through November, longer than most of Texas, because the Sabine River wetlands and low-lying drainage around Orange hold standing water for much of the warm season." },
+      { question: "Are American cockroaches in Orange the same as the roaches found in Dallas or Austin?", answer: "Not usually. Orange's Gulf Coast humidity favors American cockroaches, a larger species that lives outdoors in sewers and crawl spaces and moves indoors, while drier inland Texas cities more often deal with German cockroaches that stay inside." }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Nederland", slug: "nederland-tx", stateSlug: "texas" },
+      { name: "Lufkin", slug: "lufkin", stateSlug: "texas" },
+      { name: "Livingston", slug: "livingston-tx", stateSlug: "texas" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Orange, TX | Formosan Termite Specialists",
+    metaDescription: "Licensed pest control in Orange, TX. Formosan termite, mosquito, and cockroach treatment for Golden Triangle homes. Free inspection, same-day service."
+  },
+  {
+    slug: "marble-falls-tx",
+    name: "Marble Falls",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~9,400",
+    county: "Burnet County",
+    climate: "semi-arid",
+    climateDriver: "Hill Country limestone terrain and the Lake LBJ shoreline create a drier climate than East Texas but still support scorpions, ticks, and lake-fed mosquito activity in warm months.",
+    topPests: ["Striped Bark Scorpions", "Ticks", "Fire Ants", "Spiders"],
+    pestProfile: [
+      { name: "Striped Bark Scorpions", serviceSlug: "scorpion-control", activeSeason: "March through October, active year-round indoors", note: "Texas A&M AgriLife Extension identifies the striped bark scorpion as the most common scorpion species troubling Hill Country homes, noting it readily climbs walls and hides in shoes, clothing, and bedding." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through September", note: "The oak and juniper cover typical of Burnet County's Hill Country terrain supports the deer and small wildlife that carry ticks into yards bordering undeveloped land." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, mounds most visible after rain", note: "Fire ants persist even in Marble Falls' drier climate, especially in irrigated lawns and near Lake LBJ where soil stays moist longer than the surrounding ranchland." },
+      { name: "Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Limestone rock walls and woodpiles common in Hill Country landscaping give black widow and other spiders sheltered gaps close to entry points." }
+    ],
+    localHook: "Marble Falls sits on the Colorado River where it widens into Lake LBJ, in the Texas Hill Country west of Austin. The rocky, thin-soiled terrain here is drier than East Texas, which keeps some pests in check, but the same limestone ledges and rock walls that give the town its name are ideal hiding spots for the striped bark scorpion, the species Texas A&M AgriLife Extension names as the one most likely to turn up inside a Hill Country home.",
+    intro: "Anyone searching for pest control in Marble Falls, TX quickly learns the local pest problem is not the same one their friends in Houston or Dallas deal with. Marble Falls sits in Burnet County on the Colorado River where it forms Lake LBJ, in Hill Country terrain drier and rockier than most of Texas. That limestone landscape is why the striped bark scorpion, which Texas A&M AgriLife Extension identifies as the region's most common scorpion species, shows up in bathtubs, shoes, and closets more often here than almost anywhere else in the state. Ticks carried in by deer from the oak and juniper brush, fire ants in irrigated lawns, and spiders nesting in rock walls round out the picture. A pest plan built around Hill Country terrain, not Gulf Coast humidity, is what actually works here.",
+    sections: [
+      { heading: "Scorpions Are the Hill Country's Signature Pest Problem", body: "The striped bark scorpion is the species Texas A&M AgriLife Extension points to as the primary scorpion concern across the Austin, San Antonio, and broader Hill Country region, and Marble Falls' rocky, limestone-heavy terrain gives it exactly the kind of dry, crevice-rich habitat it prefers. These scorpions are strong climbers, capable of scaling stucco and rock exterior walls to reach attics and upper-floor windows, and they are known to hide in shoes, folded clothing, and bedding, which is how most stings happen. They are most active on warm nights from roughly March through October but can appear indoors any month once they have found a way in. Sealing gaps around utility penetrations, weep holes, and window frames matters more in Marble Falls than in most Texas towns, since exclusion is the most effective long-term control for a pest that can otherwise squeeze through a gap the width of a credit card." },
+      { heading: "Ticks, Fire Ants, and Life Near Lake LBJ", body: "Burnet County's oak and juniper-covered hills support a healthy deer population, and deer are one of the main hosts that carry ticks into yards that border undeveloped brush. Homes on the edge of town or along ranch roads near Lake LBJ see more tick activity from March through September than homes in denser subdivisions. Fire ants, meanwhile, do not slow down much even in Marble Falls' drier climate. Irrigated lawns, flower beds, and the moist ground near the lakeshore give colonies enough consistent moisture to stay active nearly year-round, with fresh mounds most visible in the days after rain. Spiders, including black widows that favor the gaps in limestone rock walls common in Hill Country landscaping, round out the pest pressure homeowners here typically deal with across a normal year." }
+    ],
+    prevention: [
+      "Shake out shoes, gloves, and folded clothing before wearing them, since striped bark scorpions frequently hide in these spots.",
+      "Seal gaps around weep holes, utility penetrations, and window frames to keep climbing scorpions from reaching the interior.",
+      "Keep grass trimmed and clear brush piles away from the house to reduce tick habitat near the yard's edge.",
+      "Treat fire ant mounds in irrigated lawn areas promptly, since these spots stay moist longer than surrounding ranchland.",
+      "Wear gloves when moving limestone landscaping rock or firewood, both common hiding spots for black widow spiders."
+    ],
+    costNote: "A recurring general pest plan in Marble Falls typically costs $45 to $65 a month, with scorpion-specific exclusion work sometimes quoted separately depending on how much sealing the home's exterior needs. A free inspection lets a technician give an accurate number based on the home's construction and how close it sits to rock outcroppings or brush.",
+    faqs: [
+      { question: "Why do I keep finding scorpions in my house in Marble Falls?", answer: "Marble Falls sits in Hill Country limestone terrain that Texas A&M AgriLife Extension identifies as prime habitat for the striped bark scorpion, a strong climber that can scale exterior walls and squeeze through small gaps. Sealing entry points is usually more effective long term than repeated interior treatment alone." },
+      { question: "Is Marble Falls' fire ant problem different because of the drier climate?", answer: "It is somewhat reduced compared to East Texas, but not eliminated. Irrigated lawns and the moist ground near Lake LBJ give fire ant colonies enough consistent moisture to stay active close to year-round, even though the surrounding ranchland dries out more than the eastern half of the state." },
+      { question: "Are ticks a real concern in Marble Falls?", answer: "Yes, particularly from March through September on properties bordering oak and juniper brush, since the local deer population is a major tick host. Homes closer to town center generally see less pressure than those on the edge near undeveloped land." },
+      { question: "What time of year are scorpions most active in Marble Falls?", answer: "Striped bark scorpions are most active on warm nights from roughly March through October, though they can turn up indoors any month once they have found their way inside through an unsealed gap." }
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Kerrville", slug: "kerrville", stateSlug: "texas" },
+      { name: "Granbury", slug: "granbury-tx", stateSlug: "texas" },
+      { name: "Seguin", slug: "seguin", stateSlug: "texas" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Marble Falls, TX | Scorpion & Tick Experts",
+    metaDescription: "Licensed pest control in Marble Falls, TX. Scorpion, tick, and fire ant treatment for Hill Country homes near Lake LBJ. Free inspection."
+  },
+  {
+    slug: "alamo-tx",
+    name: "Alamo",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~20,300",
+    county: "Hidalgo County",
+    climate: "semi-arid",
+    climateDriver: "Rio Grande Valley citrus country with almost no hard freeze, irrigation canals and resacas holding water year-round, and low annual rainfall that still supports near-constant pest activity in the warmth.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Fire Ants", "Kissing Bugs"],
+    pestProfile: [
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Year-round, peak spring through fall", note: "Irrigation canals and resacas that crisscross Hidalgo County give mosquitoes standing water close to homes in Alamo essentially every month of the year, since the Rio Grande Valley rarely sees a hard freeze." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round", note: "Without a winter freeze to slow colony activity, subterranean termites in the Rio Grande Valley stay active in the soil around Alamo homes across all twelve months rather than the seasonal slowdown seen further north in Texas." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round", note: "Fire ant mounds appear in Alamo lawns and citrus groves in any month, with the near-total absence of freezing weather removing the natural population dip other parts of Texas see in winter." },
+      { name: "Kissing Bugs", activeSeason: "Warmest months, spring through fall", note: "Texas A&M AgriLife Extension researchers have documented a sharp rise in kissing bug, or triatomine, collections in the Rio Grande Valley, with published testing in Hidalgo County finding a high share of specimens carrying the parasite that causes Chagas disease, making outdoor lighting and yard sanitation a real health consideration here." }
+    ],
+    localHook: "Alamo sits in the irrigated citrus belt of southern Hidalgo County, part of the Rio Grande Valley community cluster that includes Pharr, San Juan, and Mission. Winter Texans add tens of thousands of seasonal residents to the area each year, and the same mild winters that draw them also mean local pests never really get the seasonal break that slows them down in most of Texas.",
+    intro: "Pest control in Alamo, TX runs on a different calendar than the rest of the state. Alamo sits in southern Hidalgo County in the Rio Grande Valley, a citrus-growing region so far south that a hard freeze is rare, and that means mosquitoes, termites, and fire ants stay active in every month of the year instead of slowing down each winter. Texas A&M AgriLife Extension researchers have also flagged a real rise in kissing bug collections across Hidalgo County in recent years, with a notable share of tested specimens carrying the parasite responsible for Chagas disease. Between the irrigation canals that feed local citrus groves, the resacas that hold water long after the growing season, and the mild climate, Alamo homeowners need pest coverage that does not take a winter off.",
+    sections: [
+      { heading: "A Year-Round Pest Season Without a Winter Break", body: "Most of Texas gets at least a partial break from mosquitoes, termites, and fire ants when temperatures drop in December and January. Alamo mostly does not. The Rio Grande Valley's mild winters, with hard freezes rare enough to make local news when they happen, mean subterranean termite colonies keep working in the soil year-round instead of slowing their activity the way colonies further north do. Mosquitoes follow the same pattern, breeding in irrigation canals, resacas, and any standing water left over from citrus grove irrigation. Fire ants show the clearest example: instead of the population dip other parts of Texas see after a freeze, Hidalgo County colonies simply keep growing. For homeowners, that means a pest plan built on a single spring treatment misses most of the year. Recurring service scheduled across all twelve months, not just the warm season, is what actually matches how these pests behave in Alamo." },
+      { heading: "Kissing Bugs and the Chagas Disease Question", body: "Kissing bugs, also called triatomines, are a real and growing concern in the Rio Grande Valley. Texas A&M AgriLife Extension entomologists have reported a sharp increase in kissing bug collections in the region over recent years, and published testing of specimens collected in Hidalgo County has found a high percentage carrying the parasite that causes Chagas disease. The bugs are drawn to outdoor lighting at night and often shelter near dog kennels, wood piles, and rodent burrows close to the home. AgriLife recommends keeping exterior lights off or switched to yellow bug lights where possible, sealing gaps around doors and windows, and keeping pet bedding and yards free of debris that shelters rodents. This is not a reason to panic, but it is a real, verified regional risk that a family in Alamo should treat with the same seriousness as mosquito-borne disease prevention, and it is worth mentioning to a pest control technician during a routine visit." }
+    ],
+    prevention: [
+      "Switch exterior lighting to yellow bug lights or motion-activated fixtures to reduce kissing bug attraction at night.",
+      "Eliminate standing water in irrigation runoff, plant saucers, and low yard spots within a few days to disrupt mosquito breeding.",
+      "Keep dog kennels, pet bedding, and yard debris clean, since kissing bugs and rodents both shelter in cluttered outdoor areas.",
+      "Schedule termite service on a year-round rotation rather than a single seasonal visit, since colonies stay active through the mild Valley winter.",
+      "Seal gaps around doors, windows, and vents to block fire ants, kissing bugs, and other pests from finding a way indoors."
+    ],
+    costNote: "A recurring general pest plan in Alamo typically runs $35 to $55 a month, on the lower end for Texas because of strong competition among licensed operators across the Rio Grande Valley. Because pests here stay active year-round, most local companies price plans as ongoing service rather than a single seasonal treatment. A free inspection gives homeowners an exact quote.",
+    faqs: [
+      { question: "Why doesn't winter slow down pests in Alamo the way it does in the rest of Texas?", answer: "Alamo sits in the Rio Grande Valley, where a hard freeze is rare. Without that seasonal cold snap, termite colonies, fire ant populations, and mosquito breeding all continue through the winter months instead of slowing down the way they do further north in the state." },
+      { question: "Are kissing bugs a serious concern in Alamo?", answer: "Texas A&M AgriLife Extension has reported a real increase in kissing bug collections across the Rio Grande Valley, and testing of specimens from Hidalgo County has found a high share carrying the parasite that causes Chagas disease. It is a genuine regional issue worth taking seriously, not a reason for alarm, and simple steps like reducing outdoor lighting help." },
+      { question: "How does Alamo's location near Pharr and Mission affect pest pressure?", answer: "Alamo sits in the same irrigated citrus belt as Pharr, San Juan, and Mission, so homes across this cluster of Hidalgo County towns share similar mosquito and termite pressure driven by irrigation canals and resacas that hold water most of the year." },
+      { question: "Do I need termite service in every season in Alamo, or just spring?", answer: "Year-round service matches local conditions better than a single spring treatment, since Alamo's mild winters mean subterranean termite colonies in the soil stay active essentially all twelve months instead of slowing down each winter." }
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Pharr", slug: "pharr", stateSlug: "texas" },
+      { name: "San Juan", slug: "san-juan", stateSlug: "texas" },
+      { name: "Weslaco", slug: "weslaco", stateSlug: "texas" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Alamo, TX | Year-Round RGV Pest Service",
+    metaDescription: "Licensed pest control in Alamo, TX. Mosquito, termite, and kissing bug prevention for Rio Grande Valley homes. Free inspection, year-round plans."
+  },
+  {
+    slug: "gilmer-tx",
+    name: "Gilmer",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~5,200",
+    county: "Upshur County",
+    climate: "hot-humid",
+    climateDriver: "Dense Piney Woods timberland and clay soil hold moisture long after rain, and East Texas humidity keeps subterranean termites and carpenter ants active through most of the year.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Fire Ants", "Ticks"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, peak swarms in spring", note: "Upshur County's clay soil and heavy pine cover hold ground moisture for weeks after rain, conditions Texas A&M AgriLife Extension associates with higher subterranean termite pressure across East Texas timber country." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall, indoor activity year-round", note: "The pine forest surrounding Gilmer supplies plenty of the damp, decaying wood carpenter ants prefer to nest in before they move into a home's structural lumber." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Year-round, mounds most visible after rain", note: "Red imported fire ants are established across Upshur County, and mounds commonly show up in Gilmer lawns and along the fairgrounds used each October for the East Texas Yamboree." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "April through October", note: "Brushy timberland at the edge of town gives ticks a route from deer and other wildlife into yards bordering the Piney Woods." }
+    ],
+    localHook: "Gilmer is the Upshur County seat and the home of the East Texas Yamboree, a sweet potato harvest festival running every October since 1935 that draws well over 100,000 visitors to a town of about five thousand people. That seasonal surge, combined with Piney Woods humidity that never fully lets up, means local pest pressure and the town's biggest week of the year land at almost the same time.",
+    intro: "Pest control in Gilmer, TX has to account for a town that swells far beyond its normal size every October. Gilmer is the Upshur County seat, tucked into the East Texas Piney Woods, and it hosts the East Texas Yamboree, a sweet potato harvest festival held every year since 1935 that draws more than 100,000 visitors to a town of roughly 5,200 people. That same humid, pine-covered terrain that makes Upshur County great farmland also holds enough moisture in the clay soil to keep subterranean termites and carpenter ants active through most of the year. Fire ants and ticks round out the picture for homeowners here. A pest plan timed around Gilmer's climate, and its biggest week on the calendar, keeps both residents and Yamboree visitors from dealing with an avoidable problem.",
+    sections: [
+      { heading: "Termites and Carpenter Ants in Piney Woods Timber Country", body: "Upshur County sits in the heart of the East Texas Piney Woods, and that dense pine forest shapes the local pest picture in two ways. First, the clay soil beneath Gilmer holds rainwater for extended stretches, giving subterranean termites the consistent moisture Texas A&M AgriLife Extension associates with higher termite pressure across this part of the state. Second, the same forest supplies an ongoing supply of damp, decaying wood that carpenter ants use to establish satellite nests before eventually moving into the structural lumber of a nearby home. Unlike termites, carpenter ants do not eat wood for food, they excavate it to build galleries, but the structural result over time can be just as serious. Spring swarms are the most visible sign of both pests, when winged reproductives emerge looking to start new colonies, though the underlying activity continues quietly for months before that. An annual inspection focused on crawl spaces, sill plates, and any wood-to-soil contact points catches both problems early." },
+      { heading: "Fire Ants, Ticks, and the Yamboree Rush", body: "Fire ants are established across Upshur County the same as most of East Texas, and mounds show up reliably in Gilmer lawns, pastures, and the fairgrounds used each October for the East Texas Yamboree, particularly after rain softens the ground. With well over 100,000 visitors passing through town during Yamboree week, rental properties, event venues, and any home near the fairgrounds benefit from a pest check ahead of the festival rather than during it. Ticks are the other seasonal concern, carried into yards bordering the Piney Woods brush by deer and other wildlife from roughly April through October. Homes on the edge of town near undeveloped timberland see noticeably more tick pressure than those closer to Gilmer's downtown square, so yard maintenance and a seasonal perimeter treatment matter more for properties backing up to the woods." }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection focused on crawl spaces and any wood-to-soil contact points around the foundation.",
+      "Clear stumps, firewood piles, and decaying lumber away from the house, since carpenter ants nest in damp wood before moving indoors.",
+      "Treat fire ant mounds promptly in yards and near event spaces, especially ahead of the East Texas Yamboree each October.",
+      "Keep grass trimmed and brush cleared along the property line where it borders Piney Woods timberland to reduce tick habitat.",
+      "Book pest service for rental or event properties before the Yamboree's seasonal surge in visitors each fall."
+    ],
+    costNote: "A recurring general pest plan in Gilmer typically costs $40 to $60 a month, in line with the wider East Texas Piney Woods region. Termite treatment is quoted separately after a free inspection, since the size of the colony and the extent of any wood-to-soil contact affect the price.",
+    faqs: [
+      { question: "Does the East Texas Yamboree affect pest control demand in Gilmer?", answer: "Yes, indirectly. The festival draws more than 100,000 visitors to a town of roughly 5,200 people every October, and rental properties and venues near the fairgrounds often schedule a pest check beforehand, since fire ant mounds are common in that area after fall rain." },
+      { question: "Why are carpenter ants a bigger concern in Gilmer than in cities further west?", answer: "Gilmer sits in the East Texas Piney Woods, where the surrounding pine forest constantly supplies the damp, decaying wood carpenter ants prefer for nesting before they move into a home's structural lumber, a pattern less common in the drier soil found in Central and West Texas." },
+      { question: "Is termite pressure really higher in Upshur County?", answer: "The clay soil and heavy pine cover around Gilmer hold moisture longer after rain than drier parts of the state, conditions Texas A&M AgriLife Extension links to higher subterranean termite activity across East Texas timber country." },
+      { question: "What time of year are ticks worst around Gilmer?", answer: "Roughly April through October, especially on properties bordering Piney Woods brush, since deer and other wildlife carry ticks in from the surrounding timberland." }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Jacksonville", slug: "jacksonville-tx", stateSlug: "texas" },
+      { name: "Palestine", slug: "palestine-tx", stateSlug: "texas" },
+      { name: "Sulphur Springs", slug: "sulphur-springs-tx", stateSlug: "texas" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Gilmer, TX | Termite & Ant Specialists",
+    metaDescription: "Licensed pest control in Gilmer, TX. Termite, carpenter ant, and fire ant treatment for Upshur County homes. Free inspection, local Piney Woods expertise."
+  },
 ];
