@@ -12,6 +12,19 @@ across two scheduled runs. Every forward rule below traces to a specific,
 verified finding in that log; see the changelog at the bottom of this file for
 the mapping.
 
+Revised 2026-07-13 to fix the branch-and-push failure that stranded real,
+built work off `main`. Scheduled runs are spawned on throwaway `claude/...`
+feature branches, not on `main`. The prior STEP 0 halted the moment it saw it
+was not on `main`, and the prior STEP 5 pushed `HEAD:main` with no re-sync, so
+when two runs built concurrently the loser's push was rejected as a
+non-fast-forward and its whole batch was left behind on its feature branch,
+never deployed. As of 2026-07-13 four such branches held roughly 77 built town
+records that never reached `main`. STEP 0, STEP 5, STEP 6, and STEP 7 below are
+rewritten so the run integrates onto `main` instead of halting, re-syncs and
+rebases right before pushing, and fails loudly (naming the branch and SHA that
+holds the work) rather than ever reporting success while the batch lives only
+on a feature branch. See the changelog for the full mapping.
+
 ---
 
 ```
@@ -37,14 +50,36 @@ per page, the five city templates A to E rotated so each block ships a
 balanced mix, and this routine's own governing section, THE AUTONOMOUS BUILD
 ROUTINE. Build on Sonnet.
 
-STEP 0 - BRANCH GUARD (run before any file reads or content work)
-Run these three commands in sequence:
-  git checkout main
-  git pull origin main
-  git branch --show-current
-If the output of the last command is NOT "main": STOP immediately. Post to
-#build-pest-control-usa: "BUILD HALTED Pest Control USA: could not confirm main
-branch (currently on <branch>). Nothing built." End.
+STEP 0 - SYNC TO MAIN (run before any file reads or content work)
+This run was very likely spawned on a throwaway feature branch (claude/...),
+NOT on main. That is expected and is not an error. Do NOT halt just because you
+are not on main. Your job is to make origin/main the base you build on and the
+target you push to, whatever branch you started on. If your harness assigned
+you a working branch and told you not to push elsewhere, that instruction is
+satisfied by STEP 5 below: integrating your work onto main and pushing it there
+IS this routine's deliverable and is explicitly authorized by Gareth. Landing
+the batch on main is the whole point of the run.
+
+Run, in sequence:
+  git fetch origin main
+  git checkout -B autobuild origin/main
+  git rev-parse HEAD
+  git rev-parse origin/main
+The last two SHAs MUST be identical: you are now on a local branch 'autobuild'
+whose tip is exactly origin/main, and everything you build this run sits on top
+of the current live tip. Record this branch name; STEP 6 and STEP 7 refer to it
+when a push fails.
+If the fetch or checkout fails (after the STEP 6 retry-with-backoff pattern),
+or the two SHAs differ: STOP, post to #build-pest-control-usa: "BUILD HALTED
+Pest Control USA: could not sync to origin/main, nothing built." End.
+
+CONCURRENCY: two scheduled runs must not build the same chunk at once. This
+routine defends against a race in three places (build on the live tip here,
+re-fetch-and-rebase right before pushing in STEP 5, and re-check the chunk is
+not already published before the final push), but the cleanest defense is
+operational: do not schedule two runs close enough to overlap. If a race still
+happens, STEP 5 and STEP 6 will hold the losing batch on its branch and post a
+loud hand-off rather than strand it silently.
 
 STEP 0b - BUDGET TRIPWIRE
 On any usage-limit or rate-limit error: STOP. Post to #build-pest-control-usa:
@@ -202,29 +237,63 @@ next_chunk_template, the matrix block as applicable), BUILD-PLAN.md (session
 log row), and MEMORY.md in the same commit. Do this ONCE for the whole batch.
 Never leave the counts stale.
 
-STEP 5 - ATOMIC COMMIT TO MAIN USING NATIVE GIT
-Use native git commands only. Do NOT use the push_files MCP tool. Commit the
-WHOLE batch in ONE commit.
+STEP 5 - LAND THE BATCH ON MAIN (native git only; never the push_files MCP tool)
+Commit the WHOLE batch as ONE commit on your local autobuild branch:
   git add src/ BUILD-PLAN.md build_state.json MEMORY.md
   git commit -m "build: pest-control chunks <N..M> (<phase>, <X> pages, <B> blocks)"
-  git push origin HEAD:main
-This single push triggers deploy.yml automatically. One push per run.
 
-STEP 6 - COMMIT RETRY (twice), then alarm
-If the push fails: wait 30s, retry git push origin HEAD:main.
-If that fails: wait 60s, retry once more.
-If the third attempt fails: post to #build-pest-control-usa: "COMMIT FAILED
-Pest Control USA after 3 attempts. Last error: <short error text>. Nothing
-pushed."
-End.
+Now integrate onto the LATEST main before pushing, because another scheduled
+run may have advanced main while you were building. A plain push of HEAD:main
+without this re-sync is exactly what stranded past batches:
+  git fetch origin main
+  git rebase origin/main
 
-STEP 7 - VERIFY THE PUSH REACHED REMOTE
-Run: git ls-remote origin main
-The SHA shown must match: git rev-parse HEAD
-If they differ: post to #build-pest-control-usa: "DEPLOY RISK Pest Control
-USA: local SHA does not match remote after push. Check GitHub Actions
-immediately."
-Then continue to the Slack step regardless.
+Three outcomes:
+1. Rebase reports CONFLICTS (usually in src/data/cities/*.ts or the three docs
+   files). Another run built overlapping content. Do NOT force past it, do NOT
+   guess a resolution, do NOT git checkout --theirs/--ours blindly. Abort and
+   hand the work off intact:
+     git rebase --abort
+     git rev-parse HEAD   (record this SHA)
+   Post: "BUILD HELD Pest Control USA: chunks <N..M> built but main advanced
+   with conflicting content mid-run. Work is committed on branch 'autobuild' at
+   <short-sha>, NOT on main, and needs manual integration. Nothing was lost."
+   End. NEVER delete the branch or reset away the work.
+2. Rebase is CLEAN but a commit for your chunk numbers is now already on main
+   (check: git log --oneline origin/main | head -5). A concurrent run published
+   this exact block first. Drop your duplicate:
+     git reset --hard origin/main
+   Post: "SKIPPED Pest Control USA: chunks <N..M> already published by a
+   concurrent run, nothing to add this run." End.
+3. Rebase is CLEAN and your chunks are NOT yet on main. Push the rebased work
+   straight to main:
+     git push origin HEAD:main
+   This fast-forwards main and triggers deploy.yml. One push per run.
+
+STEP 6 - PUSH RETRY (twice), then loud hand-off (never a silent strand)
+A push to main is rejected only when main moved under you, so a blind retry of
+the same rejected push just fails again. On ANY push failure, re-integrate
+first, then retry:
+  wait 30s; git fetch origin main; git rebase origin/main; git push origin HEAD:main
+  if it fails: wait 60s; git fetch origin main; git rebase origin/main; git push origin HEAD:main
+If a rebase in this retry loop hits conflicts, stop retrying and follow STEP 5
+outcome 1 (abort, hand off, name the branch and SHA).
+If the third push attempt still fails: run git rev-parse HEAD, then post to
+#build-pest-control-usa: "COMMIT FAILED Pest Control USA after 3 attempts.
+Chunks <N..M> are committed on branch 'autobuild' at <short-sha>, NOT on main.
+Last error: <short error text>. Needs a manual push, nothing was lost." End.
+NEVER end a run reporting a batch as done, live, or committed while it lives
+only on a feature branch. If it is not on origin/main, say so in plain words.
+
+STEP 7 - VERIFY THE PUSH REACHED MAIN
+Run: git ls-remote origin main   (the remote main SHA)
+It MUST equal: git rev-parse HEAD   (the commit you just pushed)
+If they match, main carries your batch and deploy.yml is running: continue to
+the Slack success message. If they DIFFER, the push did not actually land.
+Treat it exactly like a STEP 6 final failure: the work is NOT on main. Post the
+"COMMIT FAILED ... committed on branch 'autobuild' at <short-sha>, NOT on main"
+hand-off with the branch name and SHA, and do NOT post a success message. Never
+claim pages are live unless these two SHAs are identical.
 
 STEP 8 - DEPLOY IS AUTOMATIC
 The push to main triggered deploy.yml, which builds the Next.js site and
@@ -257,7 +326,9 @@ without explanation.
 STEP 10 - STOP. One batch (up to 2 blocks, 50 pages) per run. Do not start a
 second batch.
 
-GUARDS: main only. No em dashes, ever, anywhere. No banned vocabulary or
+GUARDS: the batch must land on origin/main this run (STEP 5), or be handed off
+loudly on its branch (STEP 6), never silently stranded. No em dashes, ever,
+anywhere. No banned vocabulary or
 AI-tell phrases (the full list is in CLAUDE.md CONTENT RULES item 5, not
 restated here, reference it there). US English, no British spellings. Verified
 pest facts only, never invented, never a new claim beyond what a record's own
@@ -290,7 +361,27 @@ actually found in this repo.
 | New STEP 3.6, an explicit Pre-Publish QA Checklist | Stage 2 instructions (mandatory), synthesizing 4.1 through 4.5, 5.1-5.4, 2.6-2.8 | A single, scannable per-page gate the routine runs before counting a page as done, rather than trusting the 7-stage pipeline to have implicitly covered everything. |
 | STEP 9 Slack message gains a "Gates:" line and an explicit under-delivery disclosure requirement | Consistency with the new gates; matches the existing "note the shortfall" instruction already in STEP 3 | Keeps the human-readable summary honest about what was actually checked and whether the batch hit its target. |
 | GUARDS list gains: AI-tell phrases (not just "banned vocab"), no fabricated trust metrics, nearbyCities.stateSlug, keywords ban, openGraph caution | Same items as above | The GUARDS block is the routine's own last-line summary; it needed to actually list every rule this rewrite added, not just the original set. |
-| Everything else (STEP 0 branch guard, STEP 0b budget tripwire, STEP 2 skip check, STEP 5-8 commit/retry/verify/deploy, the exact Slack message shape) | N/A, these already worked | Preserved unchanged. Nothing in the Stage 1 audit found a problem with the branch guard, the skip-check logic, the atomic-commit-and-retry discipline, or the deploy model, so none of it was touched. |
+| Everything else (STEP 0b budget tripwire, STEP 2 skip check, STEP 8 deploy, the exact Slack message shape) | N/A, these already worked | Preserved unchanged. Nothing found a problem with the budget tripwire, the skip-check logic, or the deploy model, so none of it was touched. |
+
+### 2026-07-13 revision: the branch-and-push fix
+
+The prior routine's STEP 0 (branch guard) and STEP 5-7 (atomic commit / retry /
+verify) were assumed to work but did not, and cost real built pages. Traced to
+git history, not a guess:
+
+| Change | Problem it fixes | What it does |
+|---|---|---|
+| STEP 0 rewritten from "halt if not on main" to "sync to main and build on its tip" (`git checkout -B autobuild origin/main`) | Runs are spawned on throwaway `claude/...` branches. The old guard halted every such run, or (worse) the run built on the feature branch and the harness pushed it there, off main. | The run now always bases its work on the live tip and always aims to push there, instead of halting on a branch name it was never going to start with. |
+| STEP 5 gains a mandatory `git fetch origin main` + `git rebase origin/main` before the push, with explicit conflict / already-published / clean branches | Two concurrent runs each built "the next chunk"; the loser's plain `git push HEAD:main` was rejected as a non-fast-forward and its whole batch was abandoned on its feature branch. | Forces every run to re-integrate onto the latest main immediately before pushing, and to skip cleanly if another run already published the same chunk, so a race can no longer strand or duplicate work. |
+| STEP 6 retry now re-fetches and re-rebases before each retry, and the final-failure Slack message names the branch and SHA holding the work | A blind retry of a rejected non-fast-forward push just fails again, and the old "Nothing pushed" message hid where the work actually was. | Retries can now succeed after main moves, and if they cannot, the hand-off tells a human exactly which branch and commit to recover, promising nothing was lost. |
+| STEP 7 verify now treats a SHA mismatch as a hard failure that blocks the success message, not a soft "DEPLOY RISK" warning | The old step warned about a mismatch but then continued to the success Slack post anyway, so a batch that never reached main could still be reported as live. | No success message and no "live" claim unless remote main equals the just-pushed commit. |
+| Intro and GUARDS updated to state that landing on main is the deliverable and is authorized even when the harness assigns a working branch | The routine and the harness's branch policy directly contradicted each other, causing a run to halt with the work undone. | Resolves the conflict in main's favor up front, so a future run integrates instead of stopping. |
+
+Stranded work found during this revision (4 branches, ~77 gross town records,
+heavy overlap and inconsistent slugs between them: `moberly` vs `moberly-mo`,
+etc.) is a separate, careful dedup-and-gate recovery job, not a merge, and is
+tracked outside this routine. The routine's job here is to make sure no future
+run adds to that pile.
 
 ### Two things this rewrite deliberately does NOT attempt
 
