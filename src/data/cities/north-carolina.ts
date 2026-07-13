@@ -8308,4 +8308,593 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Rutherfordton, NC pest control for termites and carpenter ants in a historic 1787 county seat, extended mosquito season, and fall stink bugs. Free inspection.",
   },
+  {
+    slug: "washington-nc",
+    name: "Washington",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~9,875",
+    county: "Beaufort County",
+    climate: "hot-humid",
+    climateDriver:
+      "Washington sits on the north bank of the Pamlico River near the point where the river widens toward Pamlico Sound, giving the town a humid, tidal-influenced climate typical of North Carolina's inner coastal plain. Warm, wet summers and mild winters keep the surrounding marsh and swamp forest producing mosquitoes for most of the year, and the river's brackish backwaters add habitat that ordinary yard drainage never reaches.",
+    topPests: [
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "American Cockroaches",
+      "Fire Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, heaviest June through September",
+        note: "Tidal marsh and swamp forest along the Pamlico River produce both floodwater and salt marsh mosquitoes, and the riverfront neighborhoods and downtown riverwalk see the steadiest pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm, active through fall",
+        note: "Washington's historic downtown holds wood-frame homes and commercial buildings well over a century old, and the coastal plain's moist, low-lying soil is exactly the kind of ground subterranean termites favor.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, more visible in warm months",
+        note: "Humid conditions near the river and older crawl spaces favor American cockroaches, which move indoors more readily when heavy rain raises the local water table.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mound activity surges after rain",
+        note: "Fire ants are established across North Carolina's coastal plain, and Washington's parks, riverfront green space, and open lawns give colonies plenty of undisturbed soil to build in.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in colder months",
+        note: "Norway rats are a persistent issue around Washington's docks, marina, and older downtown commercial buildings, where food waste and water access sit close together.",
+      },
+    ],
+    localHook:
+      "Washington was laid out on the Pamlico River in 1776 and is known locally as the 'Original Washington,' one of several towns around the country that claim to be the first named for George Washington. Its historic waterfront downtown and the tidal marsh bordering the river shape a pest calendar built around water more than anything else.",
+    intro:
+      "Pest control in Washington starts with the Pamlico River. The town's waterfront location, laid out in 1776 and known locally as the 'Original Washington' for its early namesake claim, means the mosquito season here runs longer than in inland Beaufort County, stretching from March through November most years. Eastern subterranean termites are a real concern in the historic downtown's older wood-frame homes, many of which sit close to the moist coastal soil that colonies favor. American cockroaches thrive in the humid conditions near the river and older crawl spaces, fire ants have spread through the coastal plain's open lawns and parks, and rats work the docks and older commercial buildings downtown. Homeowners here deal with a genuinely water-driven pest picture.",
+    sections: [
+      {
+        heading: "Why Washington's mosquito season runs so long",
+        body: "Washington sits where the Pamlico River widens toward Pamlico Sound, and the tidal marsh and swamp forest lining the riverbank produce mosquitoes from early spring through late fall. Floodwater species breed in low, poorly drained ground away from the river after heavy rain, while salt marsh mosquitoes come from the brackish water closer to the sound. Waterfront neighborhoods and the riverwalk downtown see the steadiest pressure, but the season reaches well back into inland yards too, since standing water in gutters, birdbaths, and yard containers adds to whatever the marsh is already producing. A monthly yard treatment through the warm months, paired with basic water removal at home, is the most reliable way to keep the season from taking over evenings outdoors.",
+      },
+      {
+        heading: "Termites in the historic downtown",
+        body: "Washington's downtown historic district includes wood-frame homes and commercial buildings dating back well over a century, and the coastal plain's moist, low-lying soil is exactly the kind of ground eastern subterranean termites favor. Colonies build mud tubes up foundation walls to reach wood framing, and older construction close to grade gives them an easier path in than newer homes built to modern code. Spring swarms of winged termites near windows and foundation walls are the clearest warning sign, but the damage itself is usually well underway by the time swarmers appear. An annual inspection is the standard defense, and it matters more here than in a typical inland Beaufort County neighborhood given the age of the housing stock downtown.",
+      },
+      {
+        heading: "Fire ants, cockroaches, and Washington's working waterfront",
+        body: "Red imported fire ants have been established across North Carolina's coastal plain for decades, and Washington's parks, riverfront green space, and open residential lawns give them plenty of undisturbed soil to build mounds in, especially after a heavy rain pushes colonies to higher ground. American cockroaches, sometimes called palmetto bugs locally, favor the same humid, low-lying conditions, moving between crawl spaces, storm drains, and older buildings near the river when water tables rise. Washington's working waterfront and downtown commercial district add a third pressure point: rats. Norway rats are a persistent issue around docks, marinas, and older commercial buildings where food waste and water access are close together, and that combination keeps rodent calls steady through the colder months when rats push indoors for warmth.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from gutters, containers, and low-lying yard areas through the long March-to-November mosquito season.",
+      "Schedule an annual termite inspection for downtown historic district homes given the coastal plain's moist soil and older wood-frame construction.",
+      "Treat fire ant mounds in lawns and near riverfront green space promptly, especially after heavy rain.",
+      "Keep dock, marina, and commercial waterfront areas free of food waste to reduce rat activity.",
+    ],
+    costNote:
+      "Termite protection for Washington's historic downtown homes typically runs $180 to $450 per year depending on construction age and size. Mosquito yard treatment near the riverfront costs $80 to $170 per visit, and general pest plans covering fire ants, cockroaches, and rats run $140 to $260 per year. A free inspection sets the actual plan.",
+    faqs: [
+      {
+        question: "Is Washington, NC really the first town named after George Washington?",
+        answer:
+          "Washington is known locally as the 'Original Washington' and was laid out on the Pamlico River in 1776, but the claim to being the first town named for George Washington is genuinely disputed among a few towns around the country. What is not in dispute is the town's age and waterfront setting, both of which shape its long mosquito season and its termite-prone historic housing stock.",
+      },
+      {
+        question: "Why is the mosquito season so long in Washington, NC?",
+        answer:
+          "Washington sits where the Pamlico River widens toward Pamlico Sound, and the surrounding tidal marsh and swamp forest produce mosquitoes from March through November most years. Waterfront neighborhoods and the downtown riverwalk see the steadiest pressure, though inland yards contribute too whenever standing water builds up.",
+      },
+      {
+        question: "Are older homes in downtown Washington more at risk for termites?",
+        answer:
+          "Yes. The historic district's wood-frame homes and commercial buildings, some over a century old, sit on the coastal plain's moist, low-lying soil that eastern subterranean termites favor, and older construction often has wood closer to grade than homes built to modern code.",
+      },
+      {
+        question: "What draws rats to Washington's waterfront?",
+        answer:
+          "The town's docks, marina, and older commercial buildings put food waste and water access close together, which is exactly what Norway rats look for. Activity tends to pick up in the colder months as rats push indoors for warmth.",
+      },
+      {
+        question: "Do fire ants build mounds near the Pamlico riverfront?",
+        answer:
+          "Yes. Red imported fire ants are established across the coastal plain and readily build mounds in open lawns and riverfront green space, often moving to higher ground and becoming more visible after a heavy rain.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Southern Pines", slug: "southern-pines-nc", stateSlug: "north-carolina" },
+      { name: "Roxboro", slug: "roxboro-nc", stateSlug: "north-carolina" },
+      { name: "Black Mountain", slug: "black-mountain-nc", stateSlug: "north-carolina" },
+      { name: "Clinton", slug: "clinton-nc", stateSlug: "north-carolina" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Washington, NC | Mosquitoes & Termites on the Pamlico",
+    metaDescription:
+      "Washington, NC pest control for tidal mosquitoes, coastal termites, fire ants and rats along the Pamlico River waterfront. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "southern-pines-nc",
+    name: "Southern Pines",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~15,545",
+    county: "Moore County",
+    climate: "hot-humid",
+    climateDriver:
+      "Southern Pines sits in the Sandhills region of Moore County, where deep, well-drained sandy soil supports miles of longleaf pine forest instead of the clay ground found through most of the Piedmont. Summers are hot and humid like the rest of central North Carolina, but the sandy soil drains fast enough that standing water is less of a problem than farther east, shifting the town's real pest pressure toward the pine forest and open sandhills terrain itself.",
+    topPests: [
+      "Lone Star Ticks",
+      "Fire Ants",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, nymphs peak May through July",
+        note: "The Walthour-Moss Foundation's roughly 4,000-acre longleaf pine preserve and Southern Pines' extensive equestrian trail network put riders and hikers directly into prime lone star tick habitat.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Deep, well-drained sandhills soil is some of the easiest ground in the state for fire ants to build and rebuild mounds in, and Southern Pines' golf courses and open lawns give them plenty of room.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm",
+        note: "Even in sandy soil, termites remain a genuine risk in Southern Pines. Colonies simply travel farther underground between moisture pockets, so mud tubes can appear well away from any obvious water source.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Lighter than the coastal plain thanks to fast-draining sand, but golf course water hazards, irrigation ponds, and low spots in yards still give the town a real, if shorter, season.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Pine straw mulch, widely used across Southern Pines for landscaping, is prime habitat for wolf spiders and other ground-dwelling species, especially as they move toward structures each fall.",
+      },
+    ],
+    localHook:
+      "Southern Pines was founded in 1887 as a health resort built around the belief that longleaf pine air eased respiratory illness, and that pine forest character never left. The Walthour-Moss Foundation preserves roughly 4,000 acres of longleaf pine and sandhills terrain at the edge of town, and the equestrian trails running through it put riders in prime tick habitat for much of the year.",
+    intro:
+      "Southern Pines' pest picture starts with sand. The town sits in Moore County's Sandhills region, where deep, fast-draining sandy soil supports longleaf pine forest instead of the clay ground found through most of central North Carolina, and that terrain shapes which pests show up and how. Ticks are the standout concern, given the Walthour-Moss Foundation's 4,000 acres of preserved pine and sandhills at the edge of town and the area's extensive equestrian trail network. Fire ants build easily in the sandy soil across lawns and golf courses, termites remain a real if less obvious risk, and mosquitoes get a shorter season than coastal North Carolina thanks to fast drainage. Pine straw landscaping, a Southern Pines staple, adds a spider factor most nearby towns don't deal with in quite the same way.",
+    sections: [
+      {
+        heading: "Ticks on Southern Pines' sandhills trails",
+        body: "The Walthour-Moss Foundation preserves about 4,000 acres of longleaf pine and open sandhills terrain on the edge of Southern Pines, and its extensive network of riding and walking trails is part of what gives the town its long-standing equestrian character, including the Moore County Hounds, one of the oldest fox hunts in North Carolina. That same terrain is prime lone star tick habitat, and riders, hikers, and anyone with a property backing onto preserved pine land should expect real tick exposure from April through October, peaking in the May through July nymph season when the ticks are smallest and easiest to miss. A full tick check after any time on the trails is the simplest, most effective habit for reducing risk.",
+      },
+      {
+        heading: "Why sandy soil doesn't stop fire ants or termites",
+        body: "Southern Pines' deep, well-drained sand is easy digging, and that works in favor of red imported fire ants, which build and rebuild mounds quickly across lawns, parks, and the town's numerous golf courses, especially after rain pushes colonies toward higher ground. Termites are a different story. The same fast-draining sand means colonies have to travel farther underground to find the moisture pockets they need, so mud tubes and swarms can show up well away from any obvious water source, which sometimes leads sandhills homeowners to assume they're at lower risk than they actually are. An annual inspection is still the right call for any Southern Pines home, regardless of how dry the yard looks.",
+      },
+      {
+        heading: "A shorter mosquito season, a real spider season",
+        body: "Southern Pines sees a lighter mosquito season than coastal North Carolina because sandy soil drains too fast to hold much standing water, but golf course irrigation ponds, water hazards, and low spots in yards still produce a real season from May through September. Spiders are the town's less obvious specialty. Pine straw mulch, a defining feature of landscaping across Southern Pines, is prime habitat for wolf spiders and other ground-dwelling species, and populations become more visible each fall as cooling temperatures push them toward structures for warmth.",
+      },
+    ],
+    prevention: [
+      "Do a full tick check after time on Walthour-Moss Foundation trails or any wooded sandhills property, especially May through July.",
+      "Treat fire ant mounds in lawns and near golf course turf promptly, since sandy soil lets colonies rebuild fast after rain.",
+      "Schedule an annual termite inspection even if the yard looks dry, since sandy soil just pushes colonies to travel farther for moisture.",
+      "Treat golf course-adjacent irrigation ponds and yard low spots for mosquito larvae from May through September.",
+      "Keep pine straw mulch pulled back from foundations and door thresholds to reduce fall spider entry.",
+    ],
+    costNote:
+      "Tick yard treatment for properties near Walthour-Moss Foundation or other sandhills pine land runs $90 to $190 per application. Termite inspections in Southern Pines typically cost $150 to $350 depending on home size, and general pest plans covering fire ants, spiders, and mosquitoes run $140 to $270 per year. A free inspection determines the actual quote.",
+    faqs: [
+      {
+        question: "Why are ticks such a concern in Southern Pines?",
+        answer:
+          "Southern Pines sits next to the Walthour-Moss Foundation, roughly 4,000 acres of preserved longleaf pine and sandhills terrain with an extensive trail network used by riders and hikers. That habitat supports lone star ticks in real numbers from April through October, with nymphs peaking May through July.",
+      },
+      {
+        question: "Does sandy soil in Southern Pines mean less termite risk?",
+        answer:
+          "No, and this is a common misconception. Southern Pines' fast-draining sand means termite colonies have to travel farther underground to reach moisture, so mud tubes can appear well away from any obvious wet spot. An annual inspection still matters regardless of how dry the yard looks.",
+      },
+      {
+        question: "Are fire ants bad on Southern Pines golf courses and lawns?",
+        answer:
+          "Yes. The area's deep sandy soil is easy for red imported fire ants to dig in, and mounds rebuild quickly across lawns, parks, and golf course turf, especially after rain.",
+      },
+      {
+        question: "Is mosquito season shorter in Southern Pines than in eastern North Carolina?",
+        answer:
+          "Generally yes, since the Sandhills' fast-draining soil holds less standing water than the coastal plain. Southern Pines still sees a real season from May through September, driven mostly by golf course irrigation ponds and low spots in yards rather than natural wetlands.",
+      },
+      {
+        question: "Why does pine straw landscaping attract spiders in Southern Pines?",
+        answer:
+          "Pine straw mulch, used widely across Southern Pines for landscaping, is prime habitat for wolf spiders and other ground-dwelling species. Populations become more visible each fall as cooling weather pushes them toward building foundations for warmth.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Washington", slug: "washington-nc", stateSlug: "north-carolina" },
+      { name: "Roxboro", slug: "roxboro-nc", stateSlug: "north-carolina" },
+      { name: "Black Mountain", slug: "black-mountain-nc", stateSlug: "north-carolina" },
+      { name: "Clinton", slug: "clinton-nc", stateSlug: "north-carolina" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Southern Pines, NC | Ticks & Fire Ants in the Sandhills",
+    metaDescription:
+      "Southern Pines, NC pest control for lone star ticks, fire ants, termites and mosquitoes in Moore County's sandhills pine country. Free inspection.",
+  },
+  {
+    slug: "roxboro-nc",
+    name: "Roxboro",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~8,134",
+    county: "Person County",
+    climate: "temperate",
+    climateDriver:
+      "Roxboro sits in the northern Piedmont of Person County, just a few miles south of the Virginia line, where summers are warm and humid but winters run cooler than the Piedmont further south around Charlotte or Raleigh. Hyco Lake, a reservoir of roughly 3,750 acres built in the early 1960s as a power plant cooling lake east of town, adds a large body of standing water to the rolling piedmont terrain that surrounds Roxboro.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "American Dog Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm, active through fall",
+        note: "Person County's piedmont clay soil holds moisture well, and Roxboro's older tobacco-era housing stock downtown has plenty of wood-to-soil contact for colonies to exploit.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall home invasion, September through November",
+        note: "Roxboro's position near the Virginia line puts it well within the stink bug's established mid-Atlantic range, and fall invasions into homes are a reliable yearly event.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Older wood-frame homes from Roxboro's tobacco-warehouse era, along with the wooded piedmont surrounding town, give carpenter ants regular access to moisture-damaged wood, especially around aging roof lines.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Hyco Lake's roughly 3,750 acres of shoreline east of town produce a steady mosquito population each summer that reaches into nearby subdivisions and waterfront homes.",
+      },
+      {
+        name: "American dog ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The mix of pasture, tobacco field edges, and hardwood forest around Roxboro is typical dog tick habitat, and cases pick up wherever mowed yards border unmanaged field edges.",
+      },
+    ],
+    localHook:
+      "Roxboro grew up around the tobacco warehouses that once lined its downtown, and Person County's farmland still shows that history in its fields, even though tobacco has faded as the dominant crop. Hyco Lake, built in the early 1960s as a cooling reservoir for a power plant east of town, is now the area's main recreational water and the biggest single driver of the town's mosquito season.",
+    intro:
+      "Pest control in Roxboro reflects two things: an old tobacco town's aging housing stock and a large reservoir just outside it. Person County sits in the northern Piedmont a few miles below the Virginia line, and Roxboro's downtown includes wood-frame buildings from its tobacco-warehouse era that give termites and carpenter ants plenty of wood-to-soil contact and moisture-damaged wood to exploit. Hyco Lake, built in the early 1960s as a power plant cooling reservoir, covers roughly 3,750 acres east of town and drives a real summer mosquito season for waterfront and nearby subdivisions. Stink bugs push into homes every fall given Roxboro's position well inside the mid-Atlantic's established range, and American dog ticks turn up wherever mowed yards meet the pasture and field edges that still surround much of the county.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in a tobacco-warehouse town",
+        body: "Roxboro's downtown grew up around the warehouses that handled Person County's tobacco crop, and a good share of the town's older wood-frame buildings and homes date back to that era. Piedmont clay soil holds moisture well, which favors eastern subterranean termite colonies, and older construction close to grade gives them an easy route to wood framing. Carpenter ants follow a similar pattern, moving into the moisture-damaged wood that builds up around aging roof lines and window frames in homes this old, and the wooded ground surrounding much of Roxboro gives them plenty of outdoor colonies to expand from. Annual inspection is the standard answer for both, and it matters more in Roxboro's older core than in a newer subdivision.",
+      },
+      {
+        heading: "Hyco Lake and Roxboro's mosquito season",
+        body: "Hyco Lake sits just east of Roxboro, built in the early 1960s by a power company as a cooling reservoir, and its roughly 3,750 acres of shoreline now support the area's main recreational boating and fishing along with a dependable mosquito season each summer. Homes and subdivisions closest to the lake see the steadiest pressure from May through September, though yards farther from the water add their own share whenever gutters, containers, or low spots hold standing water. A monthly yard treatment through the warm months, focused on shaded shoreline vegetation where adult mosquitoes rest, is the most effective step for lakefront properties.",
+      },
+      {
+        heading: "Fall stink bugs and dog ticks around field edges",
+        body: "Roxboro's position a few miles south of the Virginia line puts it solidly inside the brown marmorated stink bug's established mid-Atlantic range, and each fall, typically September through November, the bugs cluster on sunny building walls before pushing indoors for winter. American dog ticks are the other seasonal issue, turning up wherever mowed lawns border the pasture, hay fields, and hardwood edges that still surround much of Person County's farmland. Sealing gaps before fall cuts down on stink bug entry, and a simple habit of checking for ticks after yard work near field edges catches most exposure before it becomes a bite.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Roxboro's older tobacco-era homes given the piedmont clay soil's moisture retention.",
+      "Address moisture buildup around aging roof lines and window frames to reduce carpenter ant nesting.",
+      "Treat standing water and shoreline vegetation near Hyco Lake for mosquitoes from May through September.",
+      "Seal exterior gaps before September to reduce fall stink bug entry.",
+      "Check for American dog ticks after yard work along field edges bordering pasture or hay fields.",
+    ],
+    costNote:
+      "Termite inspections for Roxboro's older downtown homes typically run $150 to $325. Mosquito yard treatment for Hyco Lake shoreline properties costs $80 to $180 per visit, and general pest plans covering stink bugs, carpenter ants, and ticks run $140 to $270 per year. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do older homes in Roxboro have higher termite risk?",
+        answer:
+          "Roxboro's downtown includes wood-frame buildings and homes from its tobacco-warehouse era, and Person County's piedmont clay soil holds moisture well, which favors eastern subterranean termite colonies. Older construction close to grade also gives colonies an easier path to wood framing than newer homes built to modern code.",
+      },
+      {
+        question: "Does living near Hyco Lake mean more mosquitoes in Roxboro?",
+        answer:
+          "Yes. Hyco Lake's roughly 3,750 acres of shoreline east of town produce a dependable mosquito season from May through September, and homes closest to the water see the steadiest pressure.",
+      },
+      {
+        question: "Are stink bugs a fall problem in Roxboro?",
+        answer:
+          "Yes. Roxboro sits just a few miles south of the Virginia line, well within the brown marmorated stink bug's established mid-Atlantic range, and homes see clustering and indoor invasion each September through November.",
+      },
+      {
+        question: "What attracts carpenter ants to Roxboro's older buildings?",
+        answer:
+          "Roxboro's tobacco-warehouse-era wood-frame construction develops moisture damage around aging roof lines and window frames over time, and carpenter ants target that softened wood for nesting.",
+      },
+      {
+        question: "Where are American dog ticks most common around Roxboro?",
+        answer:
+          "Dog ticks turn up wherever mowed lawns border the pasture, hay fields, and hardwood edges that still surround much of Person County's farmland, so yard work near those field edges carries the most exposure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Washington", slug: "washington-nc", stateSlug: "north-carolina" },
+      { name: "Southern Pines", slug: "southern-pines-nc", stateSlug: "north-carolina" },
+      { name: "Black Mountain", slug: "black-mountain-nc", stateSlug: "north-carolina" },
+      { name: "Clinton", slug: "clinton-nc", stateSlug: "north-carolina" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Roxboro, NC | Termites & Hyco Lake Mosquitoes",
+    metaDescription:
+      "Roxboro, NC pest control for termites, carpenter ants, fall stink bugs and Hyco Lake mosquitoes in Person County. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "black-mountain-nc",
+    name: "Black Mountain",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~8,426",
+    county: "Buncombe County",
+    climate: "temperate",
+    climateDriver:
+      "Black Mountain sits in the Swannanoa Valley east of Asheville at an average elevation of roughly 2,300 feet, where cooler mountain nights and a shorter growing season set it apart from the Piedmont even though it's only about 15 miles from Asheville. The Swannanoa River runs through town on its way to join the French Broad River, and the surrounding hardwood forest of the Blue Ridge foothills shapes a pest calendar built around wood, moisture, and elevation rather than heat.",
+    topPests: [
+      "Carpenter Ants",
+      "Yellowjackets",
+      "Ticks",
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, peak activity in summer",
+        note: "The hardwood forest surrounding Black Mountain and the moisture that collects in older mountain-cabin-style construction give carpenter ants steady access to softened wood, especially around rooflines and porches.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Spring through fall, most aggressive in late summer",
+        note: "Black Mountain's wooded lots and the Swannanoa Valley's abundant ground cover support large yellowjacket nests that become particularly defensive in late summer and early fall as colonies reach peak size.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "The hiking trails around Black Mountain, including routes into the surrounding national forest land, put hikers and pets in tick habitat for most of the warm season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm",
+        note: "Even at elevation, Black Mountain's valley floor and older housing stock near downtown carry real termite pressure, generally lighter than lower-elevation Piedmont towns but still a genuine risk.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall home invasion",
+        note: "Stink bugs are well established across western North Carolina's mountain towns, and Black Mountain's older homes near downtown see the same fall clustering and indoor push as towns at lower elevation.",
+      },
+    ],
+    localHook:
+      "Black Mountain sits in the Swannanoa Valley at roughly 2,300 feet, just far enough up in elevation from Asheville, about 15 miles west, to run several degrees cooler on a summer evening. That mountain forest setting, along with the town's long-standing identity as an arts and crafts community, shapes a pest calendar centered on wood-loving and stinging insects more than the heat-driven pests that dominate lower-elevation North Carolina.",
+    intro:
+      "What sets pest control in Black Mountain apart is elevation. Sitting at roughly 2,300 feet in the Swannanoa Valley east of Asheville, Black Mountain runs cooler than the Piedmont and even cooler than some nearby lower-elevation mountain towns, and that shift favors wood-loving and stinging insects over the heat-driven pests common closer to the coast. Carpenter ants exploit the moisture that collects in the area's wooded, older mountain construction, yellowjackets build large defensive nests through the summer in the valley's abundant ground cover, and ticks are a real concern on the hiking trails that draw visitors and residents into the surrounding forest. Termites and stink bugs round out the picture, present at somewhat lower intensity than lower-elevation towns but still a genuine concern for older homes near downtown.",
+    sections: [
+      {
+        heading: "Carpenter ants and yellowjackets in the Swannanoa Valley",
+        body: "Black Mountain's setting in the wooded Swannanoa Valley gives carpenter ants plenty of outdoor colonies to expand from, and older mountain-style homes with porches and exposed rooflines offer the kind of moisture-softened wood the ants target once they move toward a structure. Yellowjackets follow the same wooded pattern from a different angle, building nests in the ground cover and old stumps that are common on Black Mountain's forested lots. Colonies grow through the summer and become noticeably more aggressive in late summer and early fall as they reach peak size and start defending food sources more actively, which is when most sting incidents happen. Nest removal is not a do-it-yourself project once a colony is established near a home, porch, or walking path.",
+      },
+      {
+        heading: "Hiking trails and Black Mountain's tick season",
+        body: "The trail network around Black Mountain, including routes that climb into the surrounding national forest land, is a major reason people move to or visit the town, and it also puts hikers, trail runners, and dogs directly into tick habitat for most of the warm season. Both lone star ticks and American dog ticks are common in this part of western North Carolina, with activity running from April through October. A tick check after any hike, along with treating pets on a regular schedule, catches most exposure before it turns into an actual bite.",
+      },
+      {
+        heading: "Termites and stink bugs still matter at elevation",
+        body: "Black Mountain's roughly 2,300-foot elevation keeps soil somewhat cooler than lower-elevation Piedmont towns, which generally means lighter termite pressure, but it does not mean no pressure. Older homes near downtown still carry real risk, and an annual inspection remains the right call rather than an assumption that elevation alone provides protection. Stink bugs are a more straightforward yearly event: the brown marmorated stink bug is well established across western North Carolina's mountain towns, and Black Mountain sees the same fall clustering on sunny walls and indoor push each September through November that towns at lower elevation deal with.",
+      },
+    ],
+    prevention: [
+      "Have carpenter ant nests near porches and rooflines treated professionally rather than attempting DIY removal once a colony is established.",
+      "Avoid disturbing ground nests and old stumps on wooded lots during late summer and fall when yellowjacket colonies are most defensive.",
+      "Check for ticks after any hike on Black Mountain's trail network, and treat pets on a regular schedule from April through October.",
+      "Schedule an annual termite inspection for older downtown homes rather than assuming elevation alone limits risk.",
+      "Seal exterior gaps before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Yellowjacket nest removal in Black Mountain typically runs $150 to $350 depending on nest size and location. Termite inspections for older downtown homes cost $150 to $325, and general pest plans covering carpenter ants, ticks, and stink bugs run $140 to $270 per year. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Black Mountain's elevation change its pest pressure?",
+        answer:
+          "Yes. At roughly 2,300 feet in the Swannanoa Valley, Black Mountain runs cooler than the Piedmont and even cooler than some nearby lower mountain towns, which shifts the pest picture toward wood-loving and stinging insects like carpenter ants and yellowjackets rather than the heat-driven pests common at lower elevation.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Black Mountain?",
+        answer:
+          "Colonies build through the summer in the ground cover and old stumps common on Black Mountain's wooded lots, and they become noticeably more aggressive in late summer and early fall as they reach peak size, which is when most sting incidents happen.",
+      },
+      {
+        question: "Are ticks a real concern on Black Mountain's hiking trails?",
+        answer:
+          "Yes. The trail network around Black Mountain, including routes into the surrounding national forest land, is prime habitat for both lone star and American dog ticks from April through October, and hikers and pets should be checked after time on the trails.",
+      },
+      {
+        question: "Do homes in Black Mountain still need termite inspections at this elevation?",
+        answer:
+          "Yes. Black Mountain's roughly 2,300-foot elevation generally means lighter termite pressure than lower-elevation Piedmont towns, but older homes near downtown still carry real risk, and an annual inspection remains the standard recommendation.",
+      },
+      {
+        question: "Are stink bugs common in Black Mountain in the fall?",
+        answer:
+          "Yes. The brown marmorated stink bug is well established across western North Carolina's mountain towns, and Black Mountain sees the same fall clustering on sunny walls and indoor push each September through November that lower-elevation towns experience.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Washington", slug: "washington-nc", stateSlug: "north-carolina" },
+      { name: "Southern Pines", slug: "southern-pines-nc", stateSlug: "north-carolina" },
+      { name: "Roxboro", slug: "roxboro-nc", stateSlug: "north-carolina" },
+      { name: "Clinton", slug: "clinton-nc", stateSlug: "north-carolina" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Black Mountain, NC | Yellowjackets & Carpenter Ants",
+    metaDescription:
+      "Black Mountain, NC pest control for carpenter ants, yellowjackets, ticks and termites in the Swannanoa Valley at 2,300 feet elevation. Free inspection.",
+  },
+  {
+    slug: "clinton-nc",
+    name: "Clinton",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~8,383",
+    county: "Sampson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clinton sits in the inner coastal plain of Sampson County, where hot, humid summers and mild winters support both the county's heavy row-crop agriculture and one of the largest concentrations of hog and poultry farming in the country. That density of livestock and poultry operations, more than any single geographic feature, is what sets Clinton's pest pressure apart from other coastal plain towns its size.",
+    topPests: [
+      "House Flies",
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Year-round, surge in warm months",
+        note: "Sampson County ranks among the top one or two hog-producing counties in the entire United States, and the concentration of hog and poultry operations around Clinton creates fly breeding conditions a typical coastal plain town of this size does not see.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm, active through fall",
+        note: "Warm, moist inner-coastal-plain soil around Clinton supports steady subterranean termite pressure, a standard concern for the area's older farmhouses and in-town homes alike.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mound activity surges after rain",
+        note: "Fire ants are firmly established across Sampson County's farmland and residential lawns, and the open, cultivated ground surrounding Clinton gives colonies room to spread between properties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Drainage ditches and low-lying farmland around Clinton, along with ponds and lagoons associated with area livestock operations, add breeding habitat beyond what a typical residential yard produces.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The humid inner coastal plain climate and the proximity of grain storage and agricultural buildings around Clinton favor American cockroaches, which move indoors readily when outdoor conditions turn wet or cold.",
+      },
+    ],
+    localHook:
+      "Clinton is the county seat of Sampson County, which ranks among the top one or two hog-producing counties in the entire United States and also raises more turkeys than any other county in North Carolina. That scale of livestock and poultry farming, more than the town's size alone, drives a fly and rodent pressure that sets Clinton apart from other coastal plain towns.",
+    intro:
+      "Clinton's pest pressure comes down to agriculture at a scale most towns its size never deal with. As the county seat of Sampson County, one of the top hog-producing counties in the country and North Carolina's leading turkey-producing county, Clinton sits in the middle of a farming economy that shapes its fly and rodent activity far more than its population of roughly 8,400 would suggest on its own. House flies breed around the concentration of hog and poultry operations in ways a typical coastal plain town doesn't see. Termites and fire ants follow the standard inner-coastal-plain pattern, mosquitoes breed in drainage ditches and farm ponds beyond what any yard alone produces, and American cockroaches favor the humid conditions and grain storage buildings scattered around the county.",
+    sections: [
+      {
+        heading: "Why house flies are a bigger issue in Clinton than elsewhere",
+        body: "Sampson County ranks among the top one or two hog-producing counties in the entire United States, trading that position with neighboring Duplin County depending on the year, and it also raises more turkeys than any other county in North Carolina. That concentration of livestock and poultry operations creates fly breeding conditions on a scale that a typical coastal plain town of Clinton's size simply does not have to manage. Flies move readily between agricultural sites and nearby residential and commercial properties, especially in warm weather, and that pressure is a defining part of pest control in and around Clinton in a way it isn't in most other North Carolina towns. Regular fly control, rather than a one-time treatment, is usually the practical approach for properties near agricultural operations.",
+      },
+      {
+        heading: "Termites, fire ants, and Clinton's farmland setting",
+        body: "Clinton follows the standard inner-coastal-plain pattern for termites and fire ants. Warm, moist soil supports steady eastern subterranean termite pressure in both the older farmhouses scattered around the county and in-town homes, with spring swarms the most visible warning sign. Fire ants are firmly established across Sampson County's row-crop farmland and residential lawns alike, and the open, cultivated ground surrounding Clinton gives colonies plenty of room to spread between neighboring properties. Both are manageable with routine inspection and treatment, the kind of steady maintenance that matters more here given how much undeveloped farmland borders Clinton's residential edges.",
+      },
+      {
+        heading: "Mosquitoes and cockroaches around Clinton's agricultural buildings",
+        body: "Drainage ditches and low-lying farmland around Clinton add mosquito breeding habitat beyond what typical residential yards produce, and the ponds and lagoons associated with area livestock operations extend that season from April through October in most years. American cockroaches take advantage of the same humid inner-coastal-plain climate, and the grain storage and agricultural buildings common around Clinton give them additional shelter close to homes and businesses. Both problems respond well to routine service, but the agricultural setting means the underlying pressure never fully goes away the way it might in a purely residential town.",
+      },
+    ],
+    prevention: [
+      "Schedule regular fly control service for properties near hog or poultry operations rather than relying on one-time treatment.",
+      "Get an annual termite inspection for both farmhouse and in-town properties given Sampson County's warm, moist soil.",
+      "Treat fire ant mounds promptly in lawns bordering farmland, since colonies spread easily across open cultivated ground.",
+      "Address drainage ditches and low spots near agricultural water sources to reduce mosquito breeding from April through October.",
+      "Seal gaps near grain storage and agricultural buildings to reduce American cockroach entry into nearby homes.",
+    ],
+    costNote:
+      "Fly control programs for properties near Clinton's agricultural operations typically run $60 to $150 per month depending on scale. Termite inspections cost $150 to $325, and general pest plans covering fire ants, mosquitoes, and cockroaches run $140 to $270 per year. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Clinton have more house flies than other North Carolina towns its size?",
+        answer:
+          "Clinton is the county seat of Sampson County, which ranks among the top one or two hog-producing counties in the entire United States and leads the state in turkey production. That concentration of livestock and poultry operations creates fly breeding conditions on a scale most coastal plain towns don't deal with, which is why regular fly control service matters more here.",
+      },
+      {
+        question: "Is Sampson County really one of the top hog-producing counties in the country?",
+        answer:
+          "Yes. Sampson County and neighboring Duplin County trade the top one or two spots nationally for hog production depending on the year, and Sampson also raises more turkeys than any other county in North Carolina.",
+      },
+      {
+        question: "Are fire ants common in farmland around Clinton?",
+        answer:
+          "Yes. Fire ants are firmly established across Sampson County's row-crop farmland and residential lawns, and the open cultivated ground surrounding Clinton lets colonies spread easily between neighboring properties.",
+      },
+      {
+        question: "What causes extra mosquito breeding around Clinton?",
+        answer:
+          "Drainage ditches, low-lying farmland, and the ponds and lagoons associated with area livestock operations all add breeding habitat beyond what a typical yard produces, extending the season from April through October in most years.",
+      },
+      {
+        question: "Do American cockroaches come from agricultural buildings near Clinton?",
+        answer:
+          "Grain storage and other agricultural buildings common around Clinton give American cockroaches extra shelter close to homes and businesses, and the humid inner-coastal-plain climate favors them year-round.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Washington", slug: "washington-nc", stateSlug: "north-carolina" },
+      { name: "Southern Pines", slug: "southern-pines-nc", stateSlug: "north-carolina" },
+      { name: "Roxboro", slug: "roxboro-nc", stateSlug: "north-carolina" },
+      { name: "Black Mountain", slug: "black-mountain-nc", stateSlug: "north-carolina" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Clinton, NC | House Flies & Termites in Sampson County",
+    metaDescription:
+      "Clinton, NC pest control for house flies near hog and poultry farms, termites, fire ants and mosquitoes in Sampson County. Free inspection.",
+  },
 ];

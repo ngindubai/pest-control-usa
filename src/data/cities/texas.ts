@@ -15964,4 +15964,534 @@ export const texasCities: CityLocation[] = [
     metaTitle: "Pest Control in Gilmer, TX | Termite & Ant Specialists",
     metaDescription: "Licensed pest control in Gilmer, TX. Termite, carpenter ant, and fire ant treatment for Upshur County homes. Free inspection, local Piney Woods expertise."
   },
+  {
+    slug: "uvalde-tx",
+    name: "Uvalde",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~15,700",
+    county: "Uvalde County",
+    climate: "semi-arid",
+    climateDriver:
+      "Uvalde sits at the edge of the South Texas Brush Country, where mesquite and huajillo brush cover caliche and limestone soil that drains fast and holds heat. Rainfall is lighter here than in Central Texas, and long, hot summers push both dry-ground insects and wildlife toward any structure offering shade or moisture.",
+    topPests: ["Red Imported Fire Ants", "Striped Bark Scorpions", "Eastern Subterranean Termites", "Africanized Honeybee Swarms", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after spring and summer rain",
+        note: "Fire ant mounds are common throughout Uvalde County's lawns, pastures, and roadside brush, with the sharpest increase in new mounds appearing right after rain.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Most active April through October, warm nights",
+        note: "Uvalde County's caliche and limestone soil holds heat and offers scorpions countless cracks to shelter in during the day before they move at night.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Colonies feed underground year round across Uvalde County, with visible swarms typically appearing after a warm rain in late winter or spring.",
+      },
+      {
+        name: "Africanized honeybee swarms",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Spring through fall swarm season",
+        note: "Feral Africanized bee colonies have been established across South Texas since the 1990s and often settle into Uvalde's dense brush cover, hollow trees, and wall voids, distinct from the managed apiaries behind the city's honey industry.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in fall",
+        note: "Mesquite branches, pecan trees, and roofline overhangs give roof rats an easy bridge into Uvalde attics as cooler weather sets in.",
+      },
+    ],
+    localHook:
+      "Uvalde has called itself the Honey Capital of the World since a formal honor at the 1905 World's Fair, earned for the light, mild honey local beekeepers produce from the huajillo brush that blankets Uvalde County. That same brush cover that supports managed apiaries also shelters feral Africanized honeybee colonies, a real and separate part of the town's pest picture.",
+    intro:
+      "Uvalde's pest pressure comes from a mix most Texas towns don't see together: brush country fire ants, limestone-loving scorpions, and one of the state's most established feral Africanized honeybee populations. The city earned the nickname Honey Capital of the World back in 1905 for its huajillo brush honey, and that same mesquite and huajillo brush that makes local honey so distinct also shelters wild bee colonies that aren't nearly as gentle as a backyard hive. Add caliche soil that holds scorpions close to foundations and hot, dry summers that push termites and roof rats toward any source of shade or moisture, and Uvalde County homeowners deal with a genuinely varied pest calendar.",
+    sections: [
+      {
+        heading: "Uvalde's honey legacy comes with a wild bee problem",
+        body: "Uvalde has called itself the Honey Capital of the World since a formal honor at the 1905 World's Fair, and the title still fits. The huajillo brush that blankets Uvalde County produces a light, mild honey that beekeepers have worked for generations, and managed apiaries remain a real part of the local economy. Feral colonies are a separate story. Africanized honeybees have been established across South Texas since the 1990s, and Uvalde's dense brush cover gives wild swarms plenty of hollow trees, old sheds, and wall voids to settle into. These feral colonies defend a nest far more aggressively than a managed hive, and a swarm that moves into an attic or a water meter box is not something a homeowner should try to knock down or spray without help. A licensed technician can identify whether a colony is a manageable honeybee swarm worth relocating or a nest that needs full removal, which matters both for safety and, given the county's honey heritage, for not needlessly destroying a beneficial colony.",
+      },
+      {
+        heading: "Fire ants, scorpions and termites in Uvalde's brush and caliche",
+        body: "Red imported fire ants build mounds throughout Uvalde's lawns, pastures, and roadside brush, and colonies swell fast after spring and summer rain, when queens take advantage of soft ground to start new mounds. Striped bark scorpions are just as much a fixture. Uvalde County sits on caliche and limestone that holds heat and gives scorpions countless small cracks to hide in during the day, and they turn up inside on warm nights, especially in homes with exterior weep holes or unsealed utility lines. Eastern subterranean termites are active across the county too, with swarms typically appearing between February and May after a warm rain, though colonies feed underground year round. Roof rats round out the picture, using mesquite branches, pecan trees, and roofline overhangs as a bridge into attics, particularly as temperatures drop in the fall. None of these four are unique to Uvalde on their own, but the combination, layered onto brush country terrain and caliche soil, is what makes a general pest plan here different from one written for the Gulf Coast or the Panhandle.",
+      },
+    ],
+    prevention: [
+      "Have a licensed technician assess any unexplained bee activity in walls, meters, or sheds rather than sealing the entry point, which can trap an aggressive colony inside.",
+      "Treat fire ant mounds directly after spring and summer rain, when new queens are most likely to start colonies in soft, wet ground.",
+      "Seal exterior weep holes and utility penetrations to cut down on striped bark scorpions entering during warm months.",
+      "Trim mesquite and pecan branches back from the roofline to remove the bridge roof rats use to reach the attic.",
+    ],
+    costNote:
+      "General pest coverage for ants, scorpions, and rats in Uvalde typically runs $40 to $65 a month. Termite treatment is quoted after a free inspection since colony size and soil contact vary by property. Africanized honeybee colony removal usually costs more than a routine wasp call, generally $150 to $400, because of the extra safety equipment and time required.",
+    faqs: [
+      {
+        question: "Is Uvalde really the Honey Capital of the World?",
+        answer:
+          "Uvalde earned the title at the 1905 World's Fair for its huajillo brush honey, and beekeeping remains part of the local economy today. That same brush habitat that supports managed hives also shelters feral Africanized bee colonies, which is why a bee removal call in Uvalde needs a technician who can tell the two apart.",
+      },
+      {
+        question: "Are the bees in Uvalde dangerous?",
+        answer:
+          "Feral colonies can be. Africanized honeybees have been established in South Texas since the 1990s and defend their nests more aggressively than a typical managed hive. A swarm in a wall void, attic, or meter box should be handled by a licensed technician rather than sealed up or sprayed by a homeowner.",
+      },
+      {
+        question: "Why do scorpions show up inside homes in Uvalde?",
+        answer:
+          "Uvalde County's caliche and limestone soil holds heat and offers scorpions countless cracks to shelter in during the day. Striped bark scorpions move at night, and homes with exterior weep holes or unsealed utility lines give them an easy path indoors, especially April through October.",
+      },
+      {
+        question: "When do fire ant mounds show up most in Uvalde?",
+        answer:
+          "Right after spring and summer rain. Softened ground makes it easier for new queens to establish mounds, so lawns and pastures across Uvalde County tend to see the biggest jump in visible mounds in the days following a wet spell.",
+      },
+      {
+        question: "Do termites swarm in Uvalde?",
+        answer:
+          "Yes. Eastern subterranean termite swarms typically appear between February and May after a warm rain, though the colonies themselves stay active underground year round, so a lack of visible swarmers doesn't mean a property is free of termite pressure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fredericksburg", slug: "fredericksburg-tx", stateSlug: "texas" },
+      { name: "Alpine", slug: "alpine-tx", stateSlug: "texas" },
+      { name: "Pampa", slug: "pampa-tx", stateSlug: "texas" },
+      { name: "Rockport", slug: "rockport-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Uvalde, TX | Fire Ants, Scorpions & Bee Removal",
+    metaDescription: "Licensed pest control in Uvalde, TX for fire ants, scorpions, termites, and Africanized honeybee removal. Free inspection for Uvalde County homes and ranches.",
+  },
+  {
+    slug: "fredericksburg-tx",
+    name: "Fredericksburg",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~10,900",
+    county: "Gillespie County",
+    climate: "semi-arid",
+    climateDriver:
+      "Fredericksburg sits over 1,700 feet up in the Texas Hill Country, on rocky, well-drained soil that keeps summers hot and dry and winters cooler than most of the state. That elevation and lower humidity are exactly why Gillespie County has become Texas's top peach-growing county and a fast-growing wine region, and both industries shape the pests that show up on local properties.",
+    topPests: ["Eastern Subterranean Termites", "Red Imported Fire Ants", "Striped Bark Scorpions", "Ticks", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Older limestone ranch houses and Sunday houses in Fredericksburg's historic district sit on rocky ground that gives termite colonies plenty of small foundation gaps to work through.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ant mounds show up in lawns, pastures, and vineyard rows throughout Gillespie County, with the biggest jump in mounds following a wet spell.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October",
+        note: "Limestone outcrops break the surface across Gillespie County, giving scorpions daytime shelter close to homes built on the same rock.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October, peak late spring",
+        note: "Fredericksburg is surrounded by working ranchland and hunting leases where deer and other wildlife carry ticks onto trails and fence lines.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late July through October, peaks during harvest",
+        note: "Fermenting peaches and grapes dropped in Gillespie County's orchards and vineyard rows during harvest draw yellowjackets in large numbers.",
+      },
+    ],
+    localHook:
+      "Gillespie County grows more peaches than any other county in Texas, and the Fredericksburg to Stonewall stretch of Highway 290 has grown into one of the most visited wine regions in the country, with more than 75 wineries and tasting rooms. That same elevation, rocky soil, and orchard and vineyard economy shape a pest calendar built around the harvest as much as the season.",
+    intro:
+      "Fredericksburg's pest calendar runs on the same elevation and rocky Hill Country ground that made Gillespie County the top peach producing county in Texas and turned the area into one of the fastest growing wine regions in the country. Termites and fire ants show up here the way they do across most of Central Texas, but scorpions favor the limestone outcrops that break the surface all over the county, and ticks are a real concern for anyone spending time on the ranchland and hunting leases that surround town. Late summer and fall bring a pest that's tied directly to the harvest itself: yellowjackets, drawn by the smell of fermenting peaches and grapes dropped in orchards and vineyard rows.",
+    sections: [
+      {
+        heading: "Yellowjackets and Fredericksburg's peach and wine harvest",
+        body: "Gillespie County grows more peaches than any other county in Texas, and the Fredericksburg to Stonewall stretch of Highway 290 is lined with orchards that ripen from May through August. More than 75 wineries and tasting rooms now operate around Fredericksburg too, part of a Hill Country wine region that's grown into one of the most visited in the country. Both industries share a pest problem that shows up every harvest: yellowjackets. Dropped or overripe peaches and grapes ferment quickly in the summer heat, and the sugar draws yellowjackets from surrounding nests in large numbers, especially from late July through October. Orchard and vineyard workers get stung far more often during harvest weeks than any other time of year, and the same colonies that build up around a farm often expand into fence lines and outbuildings on neighboring residential properties. Locating and treating nests before harvest, rather than after workers or visitors start getting stung, is the difference between a manageable problem and a real hazard during Fredericksburg's busiest tourist season.",
+      },
+      {
+        heading: "Termites, fire ants, scorpions and ticks on Hill Country ground",
+        body: "Fredericksburg's older ranch houses and Sunday houses in the historic district, some built from local limestone more than a century ago, sit on the same rocky ground that makes the area good for grapes, and that combination gives eastern subterranean termites and striped bark scorpions plenty of opportunity. Termite swarms typically appear between March and May, while scorpions are most active on warm nights from April through October, slipping in through the same small gaps in old limestone foundations. Fire ants build mounds throughout lawns, pastures, and vineyard rows across Gillespie County, with the sharpest jump in visible mounds following rain. Ticks are a bigger concern here than in most Central Texas towns, since Fredericksburg is surrounded by working ranchland and hunting leases where deer and other wildlife carry them onto trails and fence lines that many properties border directly. Lone star ticks are most active from March through October and peak in late spring, which lines up with the busiest stretch of the local hunting and outdoor season.",
+      },
+    ],
+    prevention: [
+      "Locate and treat yellowjacket nests around orchards, vineyards, and fence lines before peach and grape harvest begins in late summer.",
+      "Seal gaps in old limestone foundations and Sunday house walls to reduce termite and scorpion entry points.",
+      "Treat fire ant mounds after rain, when lawns, pastures, and vineyard rows see the sharpest increase in new colonies.",
+      "Do a full tick check after time on ranchland, hunting leases, or Hill Country trails, especially March through October.",
+    ],
+    costNote:
+      "General pest plans covering ants, scorpions, and ticks in Fredericksburg typically run $45 to $70 a month. Termite treatment is priced after a free inspection based on soil contact and construction age. Yellowjacket nest removal around orchards and vineyards usually costs $100 to $250 depending on nest size and location.",
+    faqs: [
+      {
+        question: "Why are yellowjackets such a problem in Fredericksburg during harvest?",
+        answer:
+          "Fredericksburg sits in the middle of Texas's top peach producing county and a fast-growing wine region, and fermenting fruit dropped in orchards and vineyard rows draws yellowjackets in large numbers from late July through October. Treating known nests before harvest cuts down on stings for workers and visitors.",
+      },
+      {
+        question: "Are scorpions common in Fredericksburg homes?",
+        answer:
+          "Yes. Fredericksburg sits over 1,700 feet up on Hill Country limestone, and striped bark scorpions use the countless small cracks in that rock and in older limestone foundations to shelter during the day, then move at night from April through October.",
+      },
+      {
+        question: "Is tick risk higher around Fredericksburg than other Central Texas towns?",
+        answer:
+          "It can be. Fredericksburg is surrounded by working ranchland and hunting leases where deer and other wildlife carry ticks onto trails and fence lines, and lone star ticks here are most active from March through October, peaking in late spring.",
+      },
+      {
+        question: "When do termites swarm in Fredericksburg?",
+        answer:
+          "Termite swarms typically appear between March and May after a warm rain, though colonies feed underground year round. Older limestone ranch houses and Sunday houses in the historic district are common candidates for a professional inspection given their age and construction.",
+      },
+      {
+        question: "Do fire ants affect Gillespie County vineyards?",
+        answer:
+          "Yes. Red imported fire ant mounds show up in vineyard rows and pastures across Gillespie County the same way they do in lawns, and colonies expand fastest right after rain, so vineyard managers and homeowners alike see the biggest jump in mounds following a wet spell.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Uvalde", slug: "uvalde-tx", stateSlug: "texas" },
+      { name: "Alpine", slug: "alpine-tx", stateSlug: "texas" },
+      { name: "Pampa", slug: "pampa-tx", stateSlug: "texas" },
+      { name: "Rockport", slug: "rockport-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fredericksburg, TX | Termites, Scorpions & Yellowjackets",
+    metaDescription: "Fredericksburg TX pest control for termites, fire ants, scorpions, ticks, and yellowjacket removal near Hill Country orchards and wineries. Free inspection.",
+  },
+  {
+    slug: "alpine-tx",
+    name: "Alpine",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~6,000",
+    county: "Brewster County",
+    climate: "desert",
+    climateDriver:
+      "Alpine sits at more than 4,400 feet in the Trans-Pecos, higher and drier than almost anywhere else in Texas, with cool nights even in summer and roughly 15 inches of rain a year. Brewster County's mix of hot, arid desert and semi-arid steppe terrain supports a very different pest lineup than the rest of the state, one built around dry-ground insects and rodents rather than moisture-loving species.",
+    topPests: ["Striped Bark Scorpions", "Black Widow Spiders", "Pack Rats", "Camel Crickets", "Harvester Ants"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Nearly year-round, worst April through October",
+        note: "Alpine's mild winters keep scorpions active for most of the year, sheltering under rocks and woodpiles by day before moving at night.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active warm months",
+        note: "Undisturbed woodpiles, garages, and outbuildings common on Alpine's larger desert lots give black widows favored nesting spots.",
+      },
+      {
+        name: "Pack rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Pack rats, or woodrats, build large stick and debris nests called middens against sheds, vehicles, and foundations, a distinctive Trans-Pecos pest that can pose a fire risk if left in place.",
+      },
+      {
+        name: "Camel crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round, most noticeable in damp indoor spaces",
+        note: "Camel crickets concentrate in the cooler, damp corners of garages and crawlspaces, since Alpine's dry desert climate offers them fewer of those spots than wetter parts of the state.",
+      },
+      {
+        name: "Harvester ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Alpine's dry, high-elevation climate does not favor red imported fire ant colonies, so red harvester ants dominate local yards and open ground instead.",
+      },
+    ],
+    localHook:
+      "Alpine sits at more than 4,400 feet in elevation, home to Sul Ross State University and the commercial center for the roughly 12,000 square mile Big Bend region as the seat of Brewster County. That elevation and dryness set its pest calendar apart from every other Texas town in this batch.",
+    intro:
+      "Alpine's pest picture looks almost nothing like the rest of Texas, and that's a direct result of geography. Sitting at more than 4,400 feet in the Trans-Pecos, home to Sul Ross State University and the gateway to Big Bend National Park, Alpine gets roughly 15 inches of rain a year and cool nights even in the height of summer. Red imported fire ants, the dominant ant species across most of the state, don't do well in this dry a climate, so harvester ants take their place in Alpine yards instead. Scorpions, black widow spiders, pack rats, and camel crickets round out a pest lineup built for dry ground and rock, not humidity.",
+    sections: [
+      {
+        heading: "Why fire ants lose out to harvester ants in Alpine",
+        body: "Almost everywhere else in Texas, red imported fire ants are the ant a pest control call is about. Alpine and the rest of Brewster County are different. The dry, high-elevation Trans-Pecos climate that supports about 15 inches of rain a year doesn't favor fire ant colonies the way the wetter soil east of the Pecos River does, so red harvester ants dominate local yards and open ground instead. Harvester ant mounds are easy to spot, cleared circles of bare soil often ringed with small gravel, and while a single sting is more painful than a fire ant's, a colony is far less likely to swarm in the numbers fire ants do. That doesn't mean harvester ant mounds should be ignored, especially near play areas or entrances, but the treatment approach is different from a standard fire ant program, and a technician familiar with high-desert pest patterns will know the difference.",
+      },
+      {
+        heading: "Scorpions, black widows, pack rats and camel crickets in a high desert town",
+        body: "Brewster County's terrain, a mix of hot arid desert and semi-arid steppe around the Chisos and Davis Mountains foothills, gives several dry-ground pests exactly the habitat they need. Striped bark scorpions and other scorpion species shelter under rocks, woodpiles, and desert landscaping by day and move at night, staying active nearly year round in Alpine's mild winters. Black widow spiders favor the same undisturbed woodpiles, garages, and outbuildings common on Alpine's larger desert lots. Pack rats, also called woodrats, are one of the more distinctive pests in this part of Texas: they build large stick and debris nests, called middens, against sheds, vehicles, and home foundations, and a nest against a structure can attract other pests and even become a fire risk. Camel crickets show up in cooler, damp spots like garages and crawlspaces, a smaller share of properties than in humid parts of the state simply because Alpine has fewer of those damp spots to begin with. All four are manageable with routine exterior treatment focused on woodpiles, foundations, and outbuildings.",
+      },
+    ],
+    prevention: [
+      "Clear woodpiles and rock piles away from the foundation to reduce scorpion and black widow shelter close to the house.",
+      "Check sheds, vehicles, and outbuildings for pack rat middens (stick and debris nests), which can pose a fire risk if left against a structure.",
+      "Treat harvester ant mounds near entrances and play areas rather than fire ant bait, since the two species respond to different treatments.",
+      "Keep garages and crawlspaces dry and ventilated to make them less attractive to camel crickets.",
+    ],
+    costNote:
+      "General pest plans for scorpions, spiders, and ants in Alpine typically run $40 to $65 a month, similar to pricing elsewhere in West Texas. Pack rat removal, including midden cleanup, usually costs $100 to $250 depending on how many nests are found. Because Alpine is remote from major metro service areas, some providers add a modest trip charge for one-time visits outside a standing service plan.",
+    faqs: [
+      {
+        question: "Does Alpine have fire ants like the rest of Texas?",
+        answer:
+          "Not the way most of the state does. Alpine's dry, high-elevation Trans-Pecos climate, with roughly 15 inches of rain a year, doesn't favor red imported fire ant colonies, so red harvester ants are the dominant ant species in local yards instead.",
+      },
+      {
+        question: "What are the stick nests showing up near sheds in Alpine?",
+        answer:
+          "Those are pack rat middens, large nests of sticks and debris that woodrats build against structures, vehicles, and outbuildings across Brewster County. A midden against a building can draw other pests in and is worth having removed before it grows.",
+      },
+      {
+        question: "Are scorpions active year round in Alpine?",
+        answer:
+          "Nearly. Alpine's mild winters mean striped bark scorpions and related species stay active for most of the year, though activity peaks on warm nights from April through October when they leave daytime shelter under rocks and woodpiles to hunt.",
+      },
+      {
+        question: "Why do camel crickets show up in Alpine garages?",
+        answer:
+          "Camel crickets seek out cool, damp spots, and in a high desert town like Alpine, garages and crawlspaces are often the only places on a property with that kind of humidity, which is why they concentrate there rather than spreading across the yard.",
+      },
+      {
+        question: "Is pest control harder to get in a remote area like Alpine?",
+        answer:
+          "Alpine is the commercial center for a roughly 12,000 square mile Big Bend region and county seat of Brewster County, so licensed providers do serve the area, though some add a trip charge for one-time visits outside of a standing service plan given the distance from major metro areas.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Uvalde", slug: "uvalde-tx", stateSlug: "texas" },
+      { name: "Fredericksburg", slug: "fredericksburg-tx", stateSlug: "texas" },
+      { name: "Pampa", slug: "pampa-tx", stateSlug: "texas" },
+      { name: "Rockport", slug: "rockport-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Alpine, TX | Scorpions, Pack Rats & Harvester Ants",
+    metaDescription: "Alpine TX pest control for scorpions, black widow spiders, pack rats, and harvester ants in the high desert Trans-Pecos. Free inspection, Brewster County.",
+  },
+  {
+    slug: "pampa-tx",
+    name: "Pampa",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~16,300",
+    county: "Gray County",
+    climate: "semi-arid",
+    climateDriver:
+      "Pampa sits in the Texas Panhandle's short grass prairie, where cold, dry winters and hot summers create a semi-arid climate very different from the rest of the state. Oil and gas discovered in the area in 1926 built the modern town, and grain farming and cattle ranching remain part of the economy today, both of which shape the pest calendar as much as the weather does.",
+    topPests: ["House Mice and Norway Rats", "Cluster Flies", "Wolf Spiders", "Pavement Ants", "Termites"],
+    pestProfile: [
+      {
+        name: "House mice and Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Worst September through winter",
+        note: "Grain elevators and rail yards tied to Gray County's farming economy give rodents a steady food source that spreads into nearby neighborhoods as fall temperatures drop.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October indoor invasions",
+        note: "Cluster flies are more typical of colder northern climates than most of Texas, and they push into Pampa wall voids and attics each fall looking for a place to spend winter.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring through fall, most noticeable in fall",
+        note: "Open Panhandle farmland pushes wolf spiders toward structures as the surrounding prairie cools each fall.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Red imported fire ants have never gained much of a foothold in the Panhandle's cold, dry climate, leaving pavement ants as the common nuisance ant in Pampa yards and sidewalks.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Gray County's cold, dry soil holds far less moisture than East or South Texas, so termite pressure runs lower and less consistent, concentrated mostly around irrigated lawns and older wood-frame homes.",
+      },
+    ],
+    localHook:
+      "Pampa grew up around a 1926 oil boom and is home to the Woody Guthrie Folk Music Center, honoring the folk singer who lived in the city from 1929 to 1937. The oil, grain, and rail economy that followed the boom is what shapes Pampa's rodent and fly pressure today, far more than the town's music history.",
+    intro:
+      "Pampa's pest calendar runs on Panhandle weather and a grain and oil economy that shapes what shows up where. Cold, dry winters and hot summers make this short grass prairie climate very different from the rest of Texas, and it's part of why red imported fire ants, common everywhere from Houston to Austin, have never gained much of a foothold here, leaving pavement ants as the yard nuisance instead. Grain elevators and rail yards tied to Gray County's farming economy give house mice and Norway rats a steady food source that spreads into surrounding neighborhoods each fall. Cluster flies push indoors as temperatures drop, wolf spiders follow the same pattern from open farmland, and termite pressure, while real, runs lower and less consistent than in the wetter parts of the state.",
+    sections: [
+      {
+        heading: "Grain elevators, rail yards and Pampa's rodent pressure",
+        body: "Pampa grew up around a 1926 oil boom, and its economy today still runs on a mix of oil and gas, grain farming, and cattle ranching, the same combination that built the Gray County seat into a Panhandle hub. Grain elevators and the rail yards that serve them are a genuine, ongoing food source for house mice and Norway rats, and that population doesn't stay confined to agricultural buildings. As temperatures drop each fall, rodents move from fields and grain storage toward the nearest source of shelter and warmth, which very often means older homes and outbuildings in neighborhoods closest to the rail corridor. Norway rats tend to nest lower, in crawlspaces, woodpiles, and around foundations, while house mice work their way into wall voids and attics through gaps as small as a dime. Sealing entry points before the fall push, rather than after mice or rats are already inside, is the more effective and far less frustrating approach for Pampa homeowners near the grain and rail districts.",
+      },
+      {
+        heading: "Cluster flies, wolf spiders and lower termite pressure on the prairie",
+        body: "Cluster flies are more of a fixture in Pampa than in most of Texas, a fall invader more typical of the colder northern plains than the Gulf Coast, and they push into wall voids and attics from September through October looking for a place to spend the winter, emerging as a nuisance on warm days indoors. Wolf spiders follow the open farmland right up to the house, moving toward structures as the surrounding prairie cools in fall. Termites are present in Pampa, with swarms typically appearing between April and June, but Gray County's cold, dry soil holds nowhere near the moisture that fuels termite activity in East or South Texas, so pressure here runs lower and less consistent, concentrated mostly around irrigated lawns and older wood-frame homes rather than showing up everywhere.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility entry points before September, when house mice and Norway rats push toward buildings near grain elevators and rail corridors.",
+      "Check attics and wall voids for cluster flies in early fall, since large numbers can gather before the first cold snap.",
+      "Treat pavement ant mounds along sidewalks and driveways rather than a fire ant bait program, since fire ants are not well established this far north.",
+      "Have irrigated lawns and older wood-frame homes checked for termite activity even though Panhandle pressure runs lower than the rest of the state.",
+    ],
+    costNote:
+      "General pest plans covering ants, spiders, and flies in Pampa typically run $35 to $55 a month, on the lower end for Texas given lighter overall pest pressure. Rodent exclusion and trapping for mice and rats runs $150 to $350 depending on the number of entry points found. Termite inspections are free, with treatment quoted separately since activity varies more by property here than in wetter parts of the state.",
+    faqs: [
+      {
+        question: "Why don't fire ants seem to be a problem in Pampa?",
+        answer:
+          "Red imported fire ants have never gained much of a foothold in the Texas Panhandle's cold, dry climate. Pavement ants are the yard nuisance ant homeowners in Pampa deal with instead, and they respond to a different treatment approach than fire ant bait programs.",
+      },
+      {
+        question: "Why do mice and rats seem worse near Pampa's grain elevators?",
+        answer:
+          "Gray County's grain elevators and rail yards are a steady, ongoing food source for house mice and Norway rats, and as temperatures drop each fall, rodents move from fields and storage toward the nearest shelter, which often means homes and outbuildings in neighborhoods closest to the rail corridor.",
+      },
+      {
+        question: "Are cluster flies really a bigger deal in Pampa than other parts of Texas?",
+        answer:
+          "Yes. Cluster flies are more typical of colder northern climates than the Texas Gulf Coast, and Pampa's Panhandle winters give them the same reason to push indoors each September and October that they have across the northern plains.",
+      },
+      {
+        question: "Does Pampa have termite problems?",
+        answer:
+          "Some, but less consistently than most of Texas. Swarms typically appear between April and June, but Gray County's cold, dry soil holds far less moisture than East or South Texas, so activity concentrates mostly around irrigated lawns and older wood-frame homes rather than showing up everywhere.",
+      },
+      {
+        question: "What pest is Pampa's Woody Guthrie history connected to?",
+        answer:
+          "None directly. Woody Guthrie lived in Pampa from 1929 to 1937 before the modern oil, grain, and rail economy fully took shape, and it's that later economic pattern, not the town's music history, that explains the rodent and fly pressure Pampa deals with today.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Uvalde", slug: "uvalde-tx", stateSlug: "texas" },
+      { name: "Fredericksburg", slug: "fredericksburg-tx", stateSlug: "texas" },
+      { name: "Alpine", slug: "alpine-tx", stateSlug: "texas" },
+      { name: "Rockport", slug: "rockport-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pampa, TX | Rodents, Cluster Flies & Termites",
+    metaDescription: "Pampa TX pest control for house mice, Norway rats, cluster flies, and termites in the Texas Panhandle. Free inspection, Gray County coverage.",
+  },
+  {
+    slug: "rockport-tx",
+    name: "Rockport",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~11,100",
+    county: "Aransas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Rockport sits directly on Aransas Bay along the Texas Gulf Coast, in a warm, humid climate that stays mild through winter and hot and sticky through summer. The bay, the surrounding salt marsh, and the Aransas National Wildlife Refuge just north of town, wintering ground for the last wild flock of whooping cranes, all add up to a coastal pest calendar built around standing water and salt air rather than dry ground.",
+    topPests: ["Mosquitoes", "Termites", "American Cockroaches", "Fire Ants", "Biting Midges (No-See-Ums)"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst March through November",
+        note: "Salt marsh bordering Aransas Bay and the Aransas National Wildlife Refuge gives mosquitoes near-constant breeding habitat through Rockport's mild winters.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round",
+        note: "Rockport's Gulf Coast humidity barely cools in winter, keeping termite colonies active for most of the year rather than slowing through a cold season.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in humidity",
+        note: "Often called palmetto bugs along the coast, American cockroaches thrive in Rockport's humidity and show up consistently around marinas and older waterfront buildings.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ant mounds build throughout Rockport lawns much like the rest of Texas, with rain triggering the sharpest jump in new mounds at any time of year on the coast.",
+      },
+      {
+        name: "Biting midges (no-see-ums)",
+        serviceSlug: "fly-control",
+        activeSeason: "Worst spring and fall, calm humid evenings",
+        note: "These tiny biting gnats swarm near Aransas Bay and marsh edges on calm evenings, small enough to slip through standard window screens.",
+      },
+    ],
+    localHook:
+      "Rockport sits on Aransas Bay next to the Aransas National Wildlife Refuge, wintering home to the world's last wild flock of whooping cranes, and Hurricane Harvey made landfall here as a Category 4 storm in August 2017. Both the marsh habitat and the town's hurricane exposure shape a pest calendar built around standing water.",
+    intro:
+      "Rockport's pest pressure comes straight off Aransas Bay, and it looks nothing like a pest calendar written for inland Texas. The salt marsh that borders the bay and stretches north into the Aransas National Wildlife Refuge, wintering home to the world's last wild flock of whooping cranes, breeds mosquitoes and biting midges in numbers that inland towns simply don't deal with. Rockport's warm, humid Gulf Coast climate barely cools in winter, which keeps termites and American cockroaches active nearly year round instead of slowing down the way they do further inland. Hurricane Harvey made landfall here as a Category 4 storm in August 2017, and the flooding and standing water that followed a storm of that size is a reminder of how fast mosquito pressure can spike after a major coastal weather event.",
+    sections: [
+      {
+        heading: "Mosquitoes and biting midges off Aransas Bay",
+        body: "Rockport's location directly on Aransas Bay, with the salt marsh of the Aransas National Wildlife Refuge just to the north, gives mosquitoes near-constant breeding habitat through the region's mild winters, and pressure runs heaviest from March through November. Biting midges, commonly called no-see-ums, are a separate and, for a lot of residents, more immediately annoying problem. These tiny biting gnats swarm near the bay and marsh edges on calm, humid evenings, especially in spring and fall, and their bite is disproportionate to their size, small enough to slip through standard window screens. Waterfront and bayfront properties see the heaviest pressure from both, though a monthly yard treatment targeting shaded vegetation, where adult mosquitoes rest during the day, helps properties even a few blocks back from the water. Hurricane Harvey's 2017 landfall as a Category 4 storm is a stark example of how much standing water a major coastal storm can leave behind, and mosquito activity typically spikes hard in the weeks after any significant flooding event along this stretch of coast.",
+      },
+      {
+        heading: "Termites, cockroaches and fire ants in Rockport's coastal humidity",
+        body: "Rockport's Gulf Coast humidity barely lets up in winter, and that steady warmth and moisture is close to ideal for eastern subterranean termites, which stay active nearly year round here rather than slowing through a cold season the way they do farther north in the state. Older homes near the waterfront and in Rockport's historic fishing village core are worth a regular professional inspection given both their age and the coastal moisture they sit in. American cockroaches, often called palmetto bugs along the coast, thrive in the same humidity, and marinas, waterfront restaurants, and older buildings near the harbor see consistent activity year round. Fire ants build mounds throughout Rockport's lawns the way they do across most of Texas, with the sharpest increase in visible mounds following rain, which on the coast can mean any time of year rather than a single rainy season.",
+      },
+    ],
+    prevention: [
+      "Apply monthly yard treatment to shaded vegetation near the bay and marsh edge to reduce resting adult mosquitoes and biting midges.",
+      "Have waterfront and older historic district homes inspected regularly for termites, since Rockport's coastal humidity keeps colonies active nearly year round.",
+      "Watch for a sharp rise in mosquito activity in the weeks after any major flooding event, given Rockport's hurricane exposure.",
+      "Treat fire ant mounds after any rain, which can happen in any season along the Gulf Coast rather than during one set rainy period.",
+    ],
+    costNote:
+      "Mosquito and biting midge yard treatment in Rockport typically costs $80 to $180 per visit, with monthly plans recommended for waterfront properties. Termite protection runs $180 to $500 per year depending on structure age and size. General pest plans covering cockroaches and fire ants cost $35 to $60 a month.",
+    faqs: [
+      {
+        question: "Why are biting midges such a problem in Rockport?",
+        answer:
+          "Rockport sits directly on Aransas Bay with salt marsh bordering the Aransas National Wildlife Refuge just north of town, and that marsh habitat breeds biting midges, commonly called no-see-ums, in large numbers on calm, humid evenings, especially in spring and fall.",
+      },
+      {
+        question: "Does Hurricane Harvey still affect pest pressure in Rockport?",
+        answer:
+          "Not directly today, but the storm's August 2017 Category 4 landfall is a useful example of the pattern: major flooding along this stretch of coast reliably brings a sharp spike in mosquito activity in the weeks that follow, since standing water gives mosquitoes far more places to breed.",
+      },
+      {
+        question: "Are termites active in Rockport in winter?",
+        answer:
+          "Yes, more so than in most of Texas. Rockport's Gulf Coast humidity barely cools in winter, and that steady warmth keeps eastern subterranean termite colonies active nearly year round rather than slowing down the way they do farther inland or farther north.",
+      },
+      {
+        question: "What is a palmetto bug in Rockport?",
+        answer:
+          "Palmetto bug is the coastal nickname for the American cockroach, a large cockroach species that thrives in Rockport's humidity and shows up consistently around marinas, waterfront restaurants, and older buildings near the harbor throughout the year.",
+      },
+      {
+        question: "Is mosquito season year round in Rockport?",
+        answer:
+          "Close to it. Rockport's mild winters and the salt marsh around Aransas Bay and the wildlife refuge keep mosquitoes breeding for most of the year, though pressure is heaviest from March through November.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Uvalde", slug: "uvalde-tx", stateSlug: "texas" },
+      { name: "Fredericksburg", slug: "fredericksburg-tx", stateSlug: "texas" },
+      { name: "Alpine", slug: "alpine-tx", stateSlug: "texas" },
+      { name: "Pampa", slug: "pampa-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rockport, TX | Mosquitoes, Termites & No-See-Ums",
+    metaDescription: "Rockport TX pest control for mosquitoes, biting midges, termites, and fire ants near Aransas Bay. Free inspection for coastal Aransas County homes.",
+  },
 ];

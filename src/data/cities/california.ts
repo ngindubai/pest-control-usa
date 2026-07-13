@@ -20098,4 +20098,259 @@ export const californiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Barstow, CA | Licensed Exterminators",
     metaDescription: "Licensed pest control in Barstow, CA. Scorpion, spider, rodent, and termite treatment for Mojave Desert homes. Free inspection, same-day service."
   },
+  {
+    slug: "ojai",
+    name: "Ojai",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~7,400",
+    county: "Ventura County",
+    climate: "mediterranean",
+    climateDriver: "Ojai sits in a rare east-west oriented valley ringed by the Topatopa Mountains, a shape that traps summer heat well past 100 degrees even as nearby coastal Ventura County stays mild, while oak-covered hillsides and surrounding citrus and avocado orchards give ticks, rats, and ants exactly the habitat and food they need close to town.",
+    topPests: ["Western Blacklegged Ticks", "Argentine Ants", "Black Widow Spiders", "Roof Rats", "Drywood Termites"],
+    pestProfile: [
+      { name: "Western blacklegged ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Fall through spring, peak nymph activity in spring", note: "Ojai's oak woodland and chaparral hillsides ringing the valley are classic tick habitat, and the western blacklegged tick, the species capable of carrying Lyme disease in California, is established in this kind of oak leaf litter terrain." },
+      { name: "Argentine ants", serviceSlug: "ant-control", activeSeason: "Year-round, worst during summer heat and after fall rain", note: "Ojai's citrus and avocado orchards create irrigated soil right next to naturally dry hillside, and Argentine ants follow that moisture gradient straight into home foundations bordering orchard land." },
+      { name: "Black widow spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most active April through October", note: "Outbuildings, woodpiles, and stacked citrus bins around Ojai's agricultural properties give black widows the undisturbed dark space they prefer." },
+      { name: "Roof rats", serviceSlug: "rat-control", activeSeason: "Year-round, surge as fall citrus ripens", note: "Ojai sits among citrus and avocado groves, and roof rats are a documented orchard pest across Ventura County, moving from tree canopy into attics once fruit ripens each fall." },
+      { name: "Drywood termites", serviceSlug: "termite-treatment", activeSeason: "Swarms after first fall rains, active year-round", note: "Ojai's mild climate and its mix of older wood-frame homes and newer construction give drywood termites a broad opportunity window, since unlike subterranean termites they need no soil contact to infest exposed wood." }
+    ],
+    localHook: "Ojai sits in a rare east-west oriented valley ringed by the Topatopa Mountains, a geography that produces the town's famous 'Pink Moment', a brief alpenglow that lights the surrounding peaks pink at sunset. That same enclosed valley, ringed by oak-covered hillsides and threaded with citrus and avocado orchards, is what shapes the town's tick, ant, and rat pressure more than anything else.",
+    intro: "Pest Control in Ojai, CA has to account for a valley that behaves differently from the rest of coastal Ventura County. Ojai's east-west orientation and the Topatopa Mountains that ring it trap summer heat, pushing temperatures past 100 degrees even as nearby coastal towns stay mild, while oak woodland on the surrounding hillsides gives western blacklegged ticks exactly the leaf-litter habitat they need. The citrus and avocado orchards that border many Ojai neighborhoods bring their own pressure too, drawing roof rats into attics as fruit ripens each fall and giving Argentine ants a reliable moisture source to follow indoors. Black widow spiders and drywood termites round out the picture, both common wherever older wood-frame construction meets Ojai's dry, mild climate.",
+    sections: [
+      { heading: "Ticks and Oak Woodland Around Ojai", body: "Ojai's hillsides carry oak woodland and chaparral that ring the valley on all sides, and that terrain is prime habitat for the western blacklegged tick, the only tick species in California capable of transmitting Lyme disease. Nymphs, the poppy-seed-sized immature ticks responsible for most human bites, are most active from spring through early summer, waiting in leaf litter and low brush along hiking trails leading into the national forest land just outside town. Adults stay active through fall and into winter whenever daytime temperatures climb into the 40s and above. A dog that roams a yard bordering open hillside carries ticks indoors just as readily as a hike does, so a home's own vegetation matters as much as trail exposure. Keeping grass mowed short, clearing leaf litter away from walkways, and treating pets with a vet-approved tick preventive are the most effective steps an Ojai homeowner can take between professional yard treatments." },
+      { heading: "Orchard Pests: Rats and Ants in Ojai's Citrus Country", body: "Citrus and avocado orchards border many Ojai neighborhoods directly, and that agricultural setting brings pest pressure that a purely residential Ventura County suburb doesn't see. Roof rats are the clearest example: they live in tree canopy year-round, feeding on ripening fruit, and each fall as citrus matures they move from the orchard into nearby attics and garages looking for a dry nesting spot close to the food source. Argentine ants follow a similar logic in reverse, trailing out of irrigated orchard soil during the dry summer months in search of water, and a single Ojai property bordering a grove can host a column that traces back to a colony covering several surrounding acres. Black widow spiders take advantage of the same agricultural infrastructure, nesting undisturbed in stacked citrus bins, irrigation boxes, and woodpiles. Drywood termites, meanwhile, don't need any of that orchard moisture at all: they infest exposed dry wood directly, which means older wood-frame homes throughout Ojai's historic core carry termite risk independent of how close they sit to a grove." }
+    ],
+    prevention: [
+      "Keep grass mowed short and clear leaf litter from walkways to reduce tick habitat on properties bordering oak hillside.",
+      "Seal gaps where orchard land meets home foundations, since Argentine ants and roof rats both use that edge to move indoors.",
+      "Store citrus bins, woodpiles, and irrigation boxes away from walkways to reduce black widow hiding spots.",
+      "Schedule regular termite inspections for older wood-frame homes in Ojai's historic core, since drywood termites don't need soil contact to infest exposed wood."
+    ],
+    costNote: "General pest plans in Ojai covering ants, spiders, and ticks typically run $40 to $70 a month. Roof rat exclusion and trapping runs $200 to $400 depending on the number of entry points near orchard-bordering properties. Drywood termite treatment cost depends on infestation extent, with localized spot treatment often starting around $300 and whole-structure fumigation running well beyond that.",
+    faqs: [
+      { question: "Why is Ojai hotter in summer than nearby coastal Ventura towns?", answer: "Ojai sits in an east-west oriented valley ringed by the Topatopa Mountains, and that shape traps summer heat well past 100 degrees even when coastal towns just a few miles away stay mild. The same terrain that produces the town's famous 'Pink Moment' sunset also concentrates pest pressure close to the valley floor." },
+      { question: "Are ticks a real concern in Ojai?", answer: "Yes. The oak woodland and chaparral hillsides ringing the Ojai Valley are classic habitat for the western blacklegged tick, the species capable of carrying Lyme disease in California, with nymphs most active from spring through early summer." },
+      { question: "Why do roof rats show up in Ojai attics every fall?", answer: "Ojai sits among citrus and avocado groves, and roof rats live in the tree canopy year-round feeding on ripening fruit. Each fall as citrus matures, they move from the orchard into nearby attics and garages looking for a dry nesting spot close to that food source." },
+      { question: "Do drywood termites need moisture to infest an Ojai home?", answer: "No, and that's what makes them different from subterranean termites. Drywood termites infest exposed dry wood directly without needing soil contact, which means older wood-frame homes throughout Ojai's historic core carry risk regardless of how close they sit to irrigated orchard land." },
+      { question: "Where do black widow spiders hide on Ojai properties?", answer: "Stacked citrus bins, irrigation boxes, and woodpiles common on Ojai's agricultural properties give black widows the undisturbed, dark corners they prefer. Clearing that kind of debris away from walkways and entry points helps reduce encounters." }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Truckee", slug: "truckee", stateSlug: "california" },
+      { name: "Blythe", slug: "blythe", stateSlug: "california" },
+      { name: "Half Moon Bay", slug: "half-moon-bay", stateSlug: "california" },
+      { name: "Coalinga", slug: "coalinga", stateSlug: "california" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Ojai, CA | Ticks, Roof Rats & Termites",
+    metaDescription: "Pest control in Ojai, CA for ticks, roof rats, Argentine ants, and drywood termites in the Ojai Valley's oak hillsides and citrus orchards. Free inspection."
+  },
+  {
+    slug: "truckee",
+    name: "Truckee",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~16,700",
+    county: "Nevada County",
+    climate: "cold",
+    climateDriver: "Truckee sits at roughly 5,800 feet in the Sierra Nevada, just west of Donner Pass, and the town's heavy annual snowpack, often more than 200 inches, compresses outdoor pest activity into a short late spring through early fall window while pushing mice, woodrats, and bats toward the warmth of cabins and outbuildings for winter.",
+    topPests: ["Carpenter Ants", "Deer Mice", "Bushy-tailed Woodrats", "Yellowjackets", "Bats"],
+    pestProfile: [
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Spring through fall, most visible May through September", note: "The Sierra Nevada forest surrounding Truckee is heavy with conifer deadfall and moist logs, and carpenter ants nesting in that wood readily move into cabin framing wherever a roofline or deck has trapped moisture from snowmelt." },
+      { name: "Deer mice", serviceSlug: "mice-control", activeSeason: "Year-round, heaviest push indoors October through December", note: "As snow accumulates around Truckee's cabins and second homes each fall, deer mice move into crawl spaces, garages, and unheated storage rooms ahead of the season's first hard freeze." },
+      { name: "Bushy-tailed woodrats", serviceSlug: "rodent-control", activeSeason: "Year-round, most active at night", note: "Woodrats native to the Sierra Nevada build large stick nests in attics, sheds, and under decks around Truckee, and they're known to chew wiring and insulation while collecting shiny objects for their nests." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "July through October, aggressive in late summer", note: "Ground-nesting yellowjacket colonies around Truckee grow through summer and turn most aggressive in late August and September as natural food sources dry up and colonies forage harder near homes and trash." },
+      { name: "Bats", serviceSlug: "bat-removal", activeSeason: "Roost April through October, seek winter shelter starting in fall", note: "Older cabins and outbuildings around Truckee, many built with gaps under eaves and shake-shingle roofing, provide exactly the kind of small opening little brown bats and other Sierra Nevada species use to roost." }
+    ],
+    localHook: "Truckee sits at about 5,800 feet in the Sierra Nevada, a historic railroad and lumber town whose winters near Donner Pass are famous enough to have both a ski season and a 19th century disaster named after them. Snow that can top 200 inches a season compresses Truckee's pest activity into a short warm stretch and sends rodents and bats looking for a warm building the moment the first real storm arrives.",
+    intro: "Pest Control in Truckee, CA runs on a different calendar than most of California, because a Sierra Nevada winter compresses the pest season into a handful of warmer months and sends everything else looking for shelter. Truckee sits at roughly 5,800 feet near Donner Pass, and snowfall that regularly tops 200 inches a season means deer mice, woodrats, and bats all move toward cabins, sheds, and crawl spaces well before the first real storm. Carpenter ants exploit moisture trapped in decks and rooflines from snowmelt each spring, while yellowjackets build ground colonies through summer that turn aggressive by late August. None of this is the ant-and-cockroach pest pressure typical of coastal or valley California towns. It's mountain-specific, tied directly to elevation, snow load, and the conifer forest surrounding Truckee on every side.",
+    sections: [
+      { heading: "Rodents and Bats Moving Indoors Before the Snow", body: "Truckee's winters don't leave much ambiguity for a deer mouse or a woodrat: once the first sustained snow arrives, usually by November, anywhere warm and dry becomes valuable. Deer mice squeeze into crawl spaces, garages, and unheated storage rooms throughout Truckee's cabins and second homes, often undetected until droppings or gnaw marks show up on stored gear come spring. Bushy-tailed woodrats, native to the Sierra Nevada and often called pack rats locally, build conspicuous stick nests in attics, under decks, and inside sheds, and they're notorious for chewing through wiring and insulation while dragging in shiny objects to decorate the nest. Little brown bats and other Sierra Nevada species roost in the same kind of gaps, favoring older cabins with shake-shingle roofing or open space under the eaves. Because Truckee has so many seasonal and vacation properties sitting empty for stretches of the year, an entry point that goes unnoticed in October can host a rodent or bat colony well before anyone opens the cabin back up in spring, which is why a pre-winter inspection matters more here than in a year-round occupied home." },
+      { heading: "Carpenter Ants and Yellowjackets Through the Sierra Summer", body: "Truckee's short pest season runs hard once the snow clears. Carpenter ants nest in the moist conifer deadfall that covers the surrounding forest land, and they follow that same moisture into cabin framing wherever a roofline, deck ledger board, or window frame has trapped snowmelt or condensation. Unlike termites, carpenter ants don't eat wood, they excavate it for nesting space, which means the wood damage is real but the colony can often be traced and treated at the source rather than requiring a whole-structure treatment. Yellowjackets present the more immediate summer nuisance. Ground-nesting colonies around Truckee grow through the warm months and turn noticeably more aggressive from late August into September, as natural food sources dry out and foraging workers turn toward picnic areas, trash cans, and anywhere food is left out. Both pests peak during Truckee's brief window of hikers, campers, and lake visitors, which is exactly when a sting or an ant discovery is most likely to disrupt a family's stay." }
+    ],
+    prevention: [
+      "Schedule a pre-winter inspection of crawl spaces, attics, and eaves before the first snow, especially for cabins and second homes left unoccupied part of the year.",
+      "Seal gaps under eaves and around shake-shingle roofing where bats and rodents commonly find entry.",
+      "Address moisture at deck ledger boards and rooflines each spring, before carpenter ants can establish a nest in snowmelt-softened wood.",
+      "Keep trash sealed and food covered outdoors from July through September, when yellowjacket colonies forage most aggressively."
+    ],
+    costNote: "A general pest and rodent exclusion plan for a Truckee cabin typically runs $200 to $450 per year, higher than a valley-floor California home due to the added crawl space and attic sealing work snow-country properties need. Yellowjacket nest removal runs $100 to $250 per visit, and bat exclusion work, which follows humane, non-lethal methods, typically runs $300 to $700 depending on the number of entry points.",
+    faqs: [
+      { question: "Why do mice and rats move into Truckee cabins in the fall?", answer: "Truckee sits at roughly 5,800 feet in the Sierra Nevada, and once the season's first sustained snow arrives, usually by November, deer mice and bushy-tailed woodrats both move toward the nearest warm, dry shelter. Cabins and second homes that sit vacant for stretches of the year are especially vulnerable if entry points around crawl spaces and attics aren't sealed before the snow sets in." },
+      { question: "Are the yellowjackets in Truckee dangerous?", answer: "Truckee's ground-nesting yellowjacket colonies grow through summer and become noticeably more aggressive from late August into September, when natural food sources dry up and workers forage harder near trash and picnic areas. Most people can expect painful stings rather than a medical emergency, though anyone with a known allergy should carry an epinephrine auto-injector when hiking or camping near Truckee in late summer." },
+      { question: "Do bats really live in Truckee cabins?", answer: "Yes. Little brown bats and other Sierra Nevada species commonly roost in gaps under eaves and shake-shingle roofing on older Truckee cabins. Removal requires humane, non-lethal exclusion methods rather than extermination, typically timed outside the summer roosting season when young bats can't yet fly." },
+      { question: "What makes carpenter ants different from termites in Truckee?", answer: "Carpenter ants excavate wood for nesting space rather than eating it, so while they cause real structural damage around moisture-softened rooflines and decks, the colony can usually be traced and treated at its source rather than requiring the whole-structure treatment termites sometimes need." },
+      { question: "When is the best time to get a Truckee cabin inspected for pests?", answer: "Early fall, before the first sustained snow typically arrives in November, is the ideal window. That timing catches rodent and bat entry points before winter vacancy gives them weeks or months to establish inside a cabin undisturbed." }
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Ojai", slug: "ojai", stateSlug: "california" },
+      { name: "Blythe", slug: "blythe", stateSlug: "california" },
+      { name: "Half Moon Bay", slug: "half-moon-bay", stateSlug: "california" },
+      { name: "Coalinga", slug: "coalinga", stateSlug: "california" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Truckee, CA | Carpenter Ants, Rodents & Bats",
+    metaDescription: "Pest control in Truckee, CA for Sierra Nevada cabins. Carpenter ant, deer mouse, woodrat, and humane bat exclusion services. Free inspection."
+  },
+  {
+    slug: "blythe",
+    name: "Blythe",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~18,300",
+    county: "Riverside County",
+    climate: "desert",
+    climateDriver: "Blythe sits in the Palo Verde Valley along the Colorado River, in the Colorado Desert on California's border with Arizona, where summer highs routinely pass 110 degrees and year-round irrigation for the valley's row crops and cattle feed creates a stark contrast between bone-dry desert ground and consistently wet agricultural fields, a combination that concentrates pest pressure right at that edge.",
+    topPests: ["Arizona Bark Scorpions", "Filth Flies", "Subterranean Termites", "Argentine Ants", "Field Mice"],
+    pestProfile: [
+      { name: "Arizona bark scorpions", serviceSlug: "scorpion-control", activeSeason: "March through October, peak on warm nights", note: "The Arizona bark scorpion, the only scorpion species in the United States considered medically significant, is documented in California along the lower Colorado River in the Blythe area, and unlike most scorpions it can climb, showing up on walls, ceilings, and inside shoes." },
+      { name: "Filth flies", serviceSlug: "fly-control", activeSeason: "Spring through fall, worst near livestock operations", note: "Blythe's Palo Verde Valley supports real cattle feeding operations alongside its row crops, and filth flies breeding in that combination of livestock and irrigated fields push hard into surrounding homes and businesses each warm season." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round activity, swarms after irrigation or rare rain", note: "Termite colonies around Blythe cluster near the valley's irrigation canals and consistently watered cropland bordering residential areas, rather than the dry open desert further from the Colorado River." },
+      { name: "Argentine ants", serviceSlug: "ant-control", activeSeason: "Year-round, worst in summer heat", note: "Irrigated lawns and agricultural fields around Blythe give Argentine ants the reliable moisture source that lets their colonies persist through summer heat that regularly passes 110 degrees." },
+      { name: "Field mice", serviceSlug: "mice-control", activeSeason: "Year-round, surge as crops are harvested", note: "As Palo Verde Valley crops are harvested each season, field mice displaced from cut fields move toward the nearest structure, typically homes and outbuildings on the edge of Blythe's agricultural land." }
+    ],
+    localHook: "Blythe sits directly on the Colorado River in the Palo Verde Valley, an agricultural strip carved out of the Colorado Desert that grows alfalfa, cotton, melons, and other row crops on land that would otherwise be as dry as the open desert surrounding it. That sharp edge between irrigated cropland and bone-dry desert, combined with summer heat that routinely passes 110 degrees, is what drives Blythe's scorpion, fly, and termite pressure.",
+    intro: "Pest Control in Blythe, CA deals with a genuine desert-agriculture collision that few other California cities see at this scale. Blythe sits on the Colorado River in the Palo Verde Valley, where irrigated row crops and cattle feeding operations meet the true Colorado Desert, and that edge between wet and dry ground is where most of the town's pest pressure concentrates. The Arizona bark scorpion, the only scorpion in the country considered medically significant, is documented in this stretch of California along the lower Colorado River, and it can climb walls and ceilings unlike most other scorpion species. Filth flies breeding around the valley's agricultural operations add real summer pressure of their own, while termites and ants cluster tightly around irrigation canals and watered cropland rather than spreading evenly through the surrounding desert.",
+    sections: [
+      { heading: "Scorpions Along the Lower Colorado River", body: "Most of California's scorpion pest pressure comes from species whose sting is little worse than a bee's, but Blythe sits within the documented California range of the Arizona bark scorpion, the one scorpion species in the United States that's considered medically significant. A bark scorpion sting causes more serious pain and numbness, and in some cases a stronger reaction, than a typical desert scorpion sting, and while severe reactions are uncommon in healthy adults, children, older adults, and anyone with a compromised immune system should seek medical evaluation after a confirmed sting. What makes bark scorpions harder to manage than other desert scorpion species is that they can climb smooth vertical surfaces, stucco walls, block fencing, even the inside of a shower stall, so they turn up in places a ground-dwelling scorpion never would. Around Blythe, that means checking not just woodpiles and garages but also exterior walls, attic access points, and anywhere dark and undisturbed near the home. A licensed technician doing a nighttime UV inspection remains the most reliable way to find an active population before it moves indoors." },
+      { heading: "Where Agriculture Meets Desert: Flies, Termites, and Ants", body: "The Palo Verde Valley's row crops and cattle feeding operations are what make Blythe a real farming community rather than just a desert crossroads, and that agriculture is also the reason filth flies build up through the warm months in numbers that a purely residential desert town wouldn't see. Fly pressure runs heaviest near properties closest to livestock operations and typically eases once temperatures drop in late fall. Subterranean termites in the Blythe area follow the water rather than spreading evenly through the desert floor, concentrating near the valley's irrigation canals and consistently watered cropland that borders residential neighborhoods, which means a termite inspection here is more targeted than in a wetter California climate. Argentine ants follow the same logic, relying on irrigated lawns and fields to survive summer heat that regularly tops 110 degrees. Field mice round out the picture, moving out of harvested crop fields toward the nearest home or outbuilding once their cover is cut, a seasonal pattern tied directly to the valley's crop calendar." }
+    ],
+    prevention: [
+      "Schedule a nighttime UV scorpion inspection of exterior walls, attic access points, and garages, since Arizona bark scorpions can climb smooth surfaces that other scorpion species can't.",
+      "Keep trash sealed and consider distance from livestock operations when addressing recurring summer fly pressure.",
+      "Have irrigation canals and watered landscaping nearest the home inspected for termite activity, since colonies in the Blythe area concentrate near consistent moisture.",
+      "Seal gaps around foundations and outbuildings before crop harvest season, when field mice displaced from cut fields move toward structures."
+    ],
+    costNote: "General pest plans in Blythe covering ants, mice, and general perimeter pests typically run $35 to $60 a month. Scorpion-specific treatment, including a nighttime UV inspection, often runs $100 to $200 as an add-on. Termite inspection is usually free to $100, with treatment cost depending on how close colony activity sits to irrigation or watered landscaping.",
+    faqs: [
+      { question: "Are the scorpions in Blythe dangerous?", answer: "Blythe sits within the documented California range of the Arizona bark scorpion along the lower Colorado River, the only scorpion species in the United States considered medically significant. Most healthy adults experience significant pain and numbness rather than a severe reaction, but children, older adults, and anyone with a weakened immune system should seek medical evaluation after a confirmed sting." },
+      { question: "Why do scorpions in Blythe show up on walls and ceilings?", answer: "The Arizona bark scorpion, documented in the Blythe area, is one of the only scorpion species able to climb smooth vertical surfaces like stucco walls and block fencing. That's different from most desert scorpion species, which stay closer to the ground." },
+      { question: "Why does Blythe have more fly pressure than other desert towns?", answer: "Blythe's Palo Verde Valley supports real cattle feeding operations alongside row crops like alfalfa and cotton, and filth flies breeding in that mix of livestock and irrigated fields push into surrounding properties each warm season, more than a purely residential desert community would see." },
+      { question: "Do termites really survive in a place as hot and dry as Blythe?", answer: "Yes, but they concentrate near water. Subterranean termite colonies around Blythe cluster near irrigation canals and consistently watered cropland bordering residential areas rather than spreading through the dry open desert." },
+      { question: "When are field mice worst around Blythe homes?", answer: "Field mice pressure surges as Palo Verde Valley crops are harvested each season. Mice displaced from cut fields move toward the nearest home or outbuilding, which makes pre-harvest exclusion work worthwhile for properties bordering agricultural land." }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Ojai", slug: "ojai", stateSlug: "california" },
+      { name: "Truckee", slug: "truckee", stateSlug: "california" },
+      { name: "Half Moon Bay", slug: "half-moon-bay", stateSlug: "california" },
+      { name: "Coalinga", slug: "coalinga", stateSlug: "california" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Blythe, CA | Scorpion & Termite Treatment",
+    metaDescription: "Pest control in Blythe, CA for Arizona bark scorpions, filth flies, termites, and ants along the Colorado River. Free inspection, same-day service."
+  },
+  {
+    slug: "half-moon-bay",
+    name: "Half Moon Bay",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~11,800",
+    county: "San Mateo County",
+    climate: "mediterranean",
+    climateDriver: "Half Moon Bay sits directly on the San Mateo County coast, where cool ocean air and near-daily summer fog keep temperatures mild year-round but also keep the ground and building exteriors persistently damp, conditions that favor moisture-loving pests like earwigs and silverfish more than the ants and drywood termites common inland.",
+    topPests: ["Earwigs", "Roof Rats", "Ticks", "Silverfish", "Spiders"],
+    pestProfile: [
+      { name: "Earwigs", serviceSlug: "earwig-control", activeSeason: "Year-round, worst in spring and fall", note: "Half Moon Bay's persistent coastal fog keeps garden beds, mulch, and the base of stucco walls damp for most of the year, exactly the moisture earwigs need, and the town's flower and pumpkin fields give them plenty of cover close to residential edges." },
+      { name: "Roof rats", serviceSlug: "rat-control", activeSeason: "Year-round, surge as pumpkin and vegetable crops mature", note: "Half Moon Bay's agricultural fields, well known for the pumpkins grown for its annual Art and Pumpkin Festival, plus coastal landscaping and eucalyptus windbreaks, give roof rats cover and a food source that keeps populations active close to homes." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Fall through spring, peak in cool damp months", note: "Coastal scrub and grassland around Half Moon Bay stay damp far longer into the year than inland California, extending the tick season for anyone walking trails near the bluffs or open agricultural land." },
+      { name: "Silverfish", serviceSlug: "silverfish-control", activeSeason: "Year-round, most active in damp indoor spaces", note: "Half Moon Bay's fog keeps indoor humidity higher than most California coastal towns for a longer stretch of the year, and silverfish thrive in that consistent dampness, especially in bathrooms, basements, and closets on exterior walls." },
+      { name: "Spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most visible in fall", note: "Cool, damp coastal conditions around Half Moon Bay suit web-building spiders well, and garages, sheds, and agricultural outbuildings near the town's flower and pumpkin fields provide the undisturbed corners they favor." }
+    ],
+    localHook: "Half Moon Bay is best known for the pumpkins grown on the farms ringing town, celebrated each October at the Half Moon Bay Art and Pumpkin Festival, and for the near-daily fog that rolls in off the Pacific and keeps summers cool even as inland California bakes. That same persistent coastal fog and the agricultural fields surrounding town are what push earwigs, silverfish, and roof rats harder here than in a drier California coastal city.",
+    intro: "Pest Control in Half Moon Bay, CA revolves around moisture more than heat, which sets it apart from most of coastal California. The fog that rolls in off the Pacific most days of the year keeps Half Moon Bay's summers cool and its ground, mulch, and building exteriors persistently damp, conditions that favor earwigs and silverfish over the ants and drywood termites that dominate drier coastal towns further south. The farms surrounding Half Moon Bay, famous for the pumpkins grown ahead of its annual Art and Pumpkin Festival, give roof rats reliable cover and food close to residential neighborhoods. Ticks stay active longer into the year here too, since the coastal scrub and grassland around town hold onto moisture well past when inland tick season would typically end.",
+    sections: [
+      { heading: "Fog, Moisture, and Half Moon Bay's Earwig and Silverfish Pressure", body: "Half Moon Bay sees fog on a majority of summer mornings, and that consistency is the town's defining pest driver. Garden beds, mulch, and the base of stucco walls stay damp for much of the year in a way that's unusual even for coastal California, and earwigs thrive in exactly that kind of moisture, sheltering under mulch and garden debris by day and foraging at night. Indoors, the same persistent humidity supports silverfish, especially in bathrooms, basements, and closets built against exterior walls where damp air lingers longest. Both pests are more a matter of comfort and property maintenance than structural risk, but populations build quickly once they find a reliable damp spot, and the fog means that spot rarely dries out on its own the way it would in a sunnier California town. Reducing mulch depth near foundations, fixing any exterior moisture source, and running a dehumidifier in damp indoor areas all help more in Half Moon Bay than in most other parts of the state." },
+      { heading: "Farm Fields and Roof Rats Around Half Moon Bay", body: "The pumpkin and flower fields that ring Half Moon Bay and supply its well known Art and Pumpkin Festival each October aren't just a local landmark, they're also cover and food for roof rats, which favor exactly this kind of dense, low agricultural growth alongside coastal landscaping and eucalyptus windbreaks. Populations build through the growing season and push harder toward homes bordering farmland as crops mature and are harvested. Ticks add a longer season here too. Coastal scrub and grassland around Half Moon Bay hold moisture well into late spring, extending tick activity beyond the window inland California towns typically see, which matters for anyone walking the bluff trails or spending time near open agricultural edges. Spiders round out the picture, taking advantage of the same cool, damp conditions in garages, sheds, and farm outbuildings throughout town." }
+    ],
+    prevention: [
+      "Reduce mulch depth near foundations and clear garden debris to cut down on the damp shelter earwigs need.",
+      "Run a dehumidifier in bathrooms, basements, or closets on exterior walls where fog-driven humidity supports silverfish.",
+      "Seal gaps where coastal landscaping or eucalyptus windbreaks meet the home, since roof rats use that cover to approach undetected.",
+      "Check pets for ticks after walks on bluff trails or near open agricultural land, especially outside the typical inland tick season."
+    ],
+    costNote: "General pest plans in Half Moon Bay covering earwigs, spiders, and silverfish typically run $40 to $70 a month, reflecting the extra attention damp coastal conditions require. Roof rat exclusion and trapping runs $200 to $450 depending on the number of entry points sealed. Tick yard treatment for properties near open scrub or agricultural edges costs $80 to $150 per visit.",
+    faqs: [
+      { question: "Why does Half Moon Bay have more earwigs and silverfish than other California coastal towns?", answer: "Half Moon Bay sees fog on most summer mornings, which keeps garden beds, mulch, and building exteriors damp for much of the year. That persistent moisture suits earwigs and silverfish far better than the drier conditions found in sunnier coastal towns further south." },
+      { question: "Do the pumpkin fields around Half Moon Bay attract pests?", answer: "Yes. The farm fields that supply Half Moon Bay's annual Art and Pumpkin Festival give roof rats cover and food close to residential neighborhoods, and populations tend to build through the growing season as crops mature." },
+      { question: "Is tick season longer in Half Moon Bay than inland California?", answer: "It can be. Coastal scrub and grassland around Half Moon Bay hold moisture later into spring than inland areas, which extends tick activity for anyone walking the bluff trails or spending time near open agricultural edges." },
+      { question: "Are silverfish in Half Moon Bay homes a sign of a bigger moisture problem?", answer: "Not always, but they're worth checking. Half Moon Bay's fog keeps indoor humidity higher for longer stretches of the year than most California coastal towns, and silverfish gathering in one bathroom or closet often points to a specific damp spot worth addressing directly." },
+      { question: "What time of year are roof rats worst in Half Moon Bay?", answer: "Pressure builds through the farm growing season and peaks as pumpkin and vegetable crops mature and are harvested, when rats move from field cover toward homes bordering agricultural land." }
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Ojai", slug: "ojai", stateSlug: "california" },
+      { name: "Truckee", slug: "truckee", stateSlug: "california" },
+      { name: "Blythe", slug: "blythe", stateSlug: "california" },
+      { name: "Coalinga", slug: "coalinga", stateSlug: "california" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Half Moon Bay, CA | Earwigs, Rats & Ticks",
+    metaDescription: "Pest control in Half Moon Bay, CA for earwigs, silverfish, roof rats, and ticks in the coastal fog belt. Free inspection, licensed and insured."
+  },
+  {
+    slug: "coalinga",
+    name: "Coalinga",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~17,600",
+    county: "Fresno County",
+    climate: "hot-arid",
+    climateDriver: "Coalinga sits in the dry western foothills of the San Joaquin Valley, where summer highs regularly pass 100 degrees and the surrounding grassland turns gold and brittle by early summer, conditions that push ground squirrels, black widow spiders, and flies toward the shade and water that irrigated properties and large ranching operations like nearby Harris Farms provide.",
+    topPests: ["California Ground Squirrels", "Black Widow Spiders", "Subterranean Termites", "Harvester Ants", "Filth Flies"],
+    pestProfile: [
+      { name: "California ground squirrels", serviceSlug: "rodent-control", activeSeason: "Year-round, most active spring through fall", note: "The dry grassland surrounding Coalinga is classic California ground squirrel habitat, and their burrows near foundations, sheds, and irrigation lines can undermine structures and create tripping hazards on agricultural properties." },
+      { name: "Black widow spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most active April through October", note: "Coalinga's hot, dry climate and the mix of ranching equipment, woodpiles, and outbuildings common on properties around town give black widows plenty of undisturbed, shaded corners to build a web." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round underground activity, swarms after irrigation or rare rain", note: "Termite colonies around Coalinga cluster near irrigated landscaping and any consistent water source, since the surrounding dry grassland and oil field terrain otherwise offers them little moisture to work with." },
+      { name: "Harvester ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Harvester ants build large, visible mounds in the open grassland common around Coalinga properties, and their sting is more painful than that of the small household ants found in wetter parts of California." },
+      { name: "Filth flies", serviceSlug: "fly-control", activeSeason: "Spring through fall, worst near livestock operations", note: "Coalinga sits near Harris Farms, one of the larger cattle and agricultural operations in Fresno County, and filth flies breeding around livestock and irrigated fields push into surrounding homes and businesses each warm season." }
+    ],
+    localHook: "Coalinga grew up as a coal and later oil town in the dry western foothills of the San Joaquin Valley, its name a contraction of 'Coaling Station A' from its original railroad days, and the 1983 earthquake that struck the town remains one of the more significant seismic events in the region's recent history. The oil fields, cattle ranching, and dry grassland that surround Coalinga today are what shape its ground squirrel, spider, and fly pressure more than anything else.",
+    intro: "Pest Control in Coalinga, CA reflects a genuine working economy pressed close against town: oil production, cattle ranching, and dry San Joaquin Valley grassland all within reach of most properties. Coalinga's name traces back to 'Coaling Station A' from its railroad origins, and the oil fields that gave the town its later identity still ring the area today, alongside large agricultural operations like Harris Farms. That combination of dry grassland and irrigated ranch and farm ground is what drives most of the town's pest activity: California ground squirrels burrow into the grassland edges of properties, black widow spiders claim the undisturbed corners of ranching equipment and outbuildings, and filth flies build up hard each warm season near livestock operations. Termites, by contrast, stay concentrated wherever irrigation gives them the moisture the surrounding dry terrain otherwise denies them.",
+    sections: [
+      { heading: "Ground Squirrels and Spiders in Coalinga's Dry Grassland", body: "The grassland surrounding Coalinga turns gold and brittle early each summer, and that terrain supports a healthy California ground squirrel population that regularly extends into the burrows dug near foundations, sheds, irrigation lines, and fence lines on properties at the edge of town. Beyond the nuisance of the burrows themselves, that tunneling can undermine soil near structures and create a real tripping hazard around agricultural equipment. Black widow spiders take advantage of the same working conditions from a different angle, favoring the undisturbed, shaded spaces that ranching equipment, stacked feed, woodpiles, and outbuildings provide throughout properties around Coalinga. Both pests are more common here than in a purely residential Central Valley suburb precisely because Coalinga sits so close to open grassland and working ranch and farm ground, and the two problems call for different approaches, exclusion and habitat modification for the squirrels, targeted treatment of dark undisturbed corners for the spiders." },
+      { heading: "Livestock, Irrigation, and Coalinga's Fly and Termite Pressure", body: "Coalinga sits near Harris Farms, one of the larger cattle and agricultural operations in Fresno County, and that scale of livestock and crop production is the main reason filth fly pressure builds hard through the warm months, more than a town without that agricultural base would see. Properties closest to livestock operations tend to carry the heaviest pressure, easing again once cooler fall temperatures arrive. Termites tell almost the opposite story: rather than spreading evenly through Coalinga's dry hills and oil field terrain, subterranean termite colonies concentrate tightly around whatever irrigation or consistent moisture a property provides, a watered lawn, a leaking spigot, landscaping near a foundation. That narrower footprint means an inspection here can focus on the wet spots first rather than treating the whole perimeter with equal intensity, since the surrounding grassland genuinely offers termites very little to work with on its own." }
+    ],
+    prevention: [
+      "Address ground squirrel burrows near foundations, sheds, and irrigation lines before they undermine soil or create a tripping hazard.",
+      "Clear ranching equipment, stacked feed, and woodpiles away from walkways to reduce black widow hiding spots.",
+      "Fix leaking irrigation lines and spigots promptly, since termite colonies around Coalinga concentrate near consistent moisture rather than spreading through dry grassland.",
+      "Keep trash sealed and consider proximity to livestock operations when addressing recurring warm-season fly pressure."
+    ],
+    costNote: "General pest plans in Coalinga covering spiders, ants, and general perimeter pests typically run $35 to $60 a month. Ground squirrel exclusion and burrow treatment runs $150 to $350 depending on the number of active burrows. Termite inspection is usually free to $100, with treatment cost tied to how close colony activity sits to irrigation or landscaping.",
+    faqs: [
+      { question: "Why does Coalinga have so many ground squirrels?", answer: "The dry grassland surrounding Coalinga is classic California ground squirrel habitat, and their burrows regularly extend to the edges of properties near foundations, sheds, and irrigation lines. Left alone, the tunneling can undermine soil near structures and create a real hazard around agricultural equipment." },
+      { question: "Why does Coalinga get more flies than a typical Central Valley town?", answer: "Coalinga sits near Harris Farms, one of the larger cattle and agricultural operations in Fresno County, and filth flies breeding around that scale of livestock and crop production push into surrounding homes and businesses each warm season more than a town without that agricultural base would see." },
+      { question: "Do termites survive in dry places like Coalinga?", answer: "They do, but only where there's water. Subterranean termite colonies around Coalinga concentrate near irrigation, landscaping, and other consistent moisture sources rather than spreading through the surrounding dry grassland and oil field terrain." },
+      { question: "Where do black widow spiders hide around Coalinga properties?", answer: "Ranching equipment, stacked feed, woodpiles, and outbuildings common on properties around Coalinga all provide the undisturbed, shaded corners black widows favor. Clearing that kind of debris away from walkways is one of the most effective steps a homeowner can take." },
+      { question: "What's the history behind Coalinga's name?", answer: "Coalinga's name is a contraction of 'Coaling Station A', a name from its original railroad days before the town's economy shifted toward oil production, which still shapes the mix of ranching, oil fields, and dry grassland that drives the town's pest pressure today." }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Ojai", slug: "ojai", stateSlug: "california" },
+      { name: "Truckee", slug: "truckee", stateSlug: "california" },
+      { name: "Blythe", slug: "blythe", stateSlug: "california" },
+      { name: "Half Moon Bay", slug: "half-moon-bay", stateSlug: "california" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Coalinga, CA | Ground Squirrels & Termites",
+    metaDescription: "Pest control in Coalinga, CA for ground squirrels, black widow spiders, termites, and warm-season flies near Fresno County ranch land. Free inspection."
+  },
 ];

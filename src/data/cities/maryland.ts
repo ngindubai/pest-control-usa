@@ -3241,4 +3241,513 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in Ocean City, MD | Mosquitoes, Bed Bugs & Termites",
     metaDescription: "Ocean City pest control for salt marsh mosquitoes, rental turnover bed bugs, coastal termites and boardwalk ants. Free inspection.",
   },
+  {
+    slug: "frostburg",
+    name: "Frostburg",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~7,000",
+    county: "Allegany County",
+    climate: "cold-humid",
+    climateDriver:
+      "Frostburg sits at 2,070 feet in the Appalachian Plateau of far western Maryland, roughly eight miles from Cumberland at the head of the Georges Creek Valley. The elevation and mountain terrain bring genuinely cold winters and a shorter warm season than the rest of the state, and the dense surrounding forest that supports the town's hiking and mountain biking trails is the same forest that sustains deer tick populations and drives carpenter ants indoors looking for moisture-softened wood.",
+    topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Brown Marmorated Stink Bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Frostburg's mountain forest cover extends right up to many properties in town, and carpenter ants readily move from decaying trees into moisture-damaged wood around rooflines, decks, and window frames on homes near the tree line.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November, peak May through July",
+        note: "Western Maryland's Appalachian forest, including the wooded trails around Frostburg State University and the Georges Creek Valley, is documented deer tick habitat, and Lyme disease risk in this part of the state is real enough that a tick check after time outdoors is a genuine habit, not just caution.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge begins early fall",
+        note: "At 2,070 feet, Frostburg's cold season arrives earlier than in the rest of Maryland, and mice start pushing into foundations, garages, and crawl spaces looking for warmth well before homeowners in Baltimore or Annapolis are thinking about it.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs gather on sun-warmed exterior walls each fall before pushing through gaps around windows and siding, and Frostburg's older homes near downtown and the campus see the same aggregation pattern found across the rest of Maryland.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October",
+        note: "Ground-nesting yellowjacket colonies are common in the wooded and grassy terrain around Frostburg, including areas near campus and Rocky Gap, and colonies peak in size and aggression in late summer and early fall.",
+      },
+    ],
+    localHook:
+      "Frostburg was established in 1812 and sits at 2,070 feet in the Georges Creek Valley, about eight miles west of Cumberland, making it one of the higher-elevation incorporated towns in Maryland. Frostburg State University, with roughly 5,400 students, anchors the local economy and gives the town a college-town rhythm layered onto its mountain setting.",
+    intro:
+      "Pest control in Frostburg, MD runs on a different clock than the rest of Maryland because of elevation. At 2,070 feet in the Georges Creek Valley, Frostburg's winters arrive earlier and hit harder than they do in Baltimore or Annapolis, which pushes house mice indoors sooner and shortens the active season for many insects. What doesn't shrink is the tick risk: the Appalachian forest surrounding this college town, home to roughly 5,400 Frostburg State University students, is real deer tick habitat, and carpenter ants follow the same tree line into moisture-damaged wood on homes near the edge of town. Add a solid fall stink bug invasion and late-summer yellowjacket activity in the wooded terrain around campus, and Frostburg's pest calendar looks more like a mountain town's than a Chesapeake Bay suburb's.",
+    sections: [
+      {
+        heading: "A mountain elevation that changes the pest calendar",
+        body: "Frostburg sits considerably higher than most of Maryland, and that elevation matters more than people expect. Cold weather arrives earlier here than in the Piedmont or the Chesapeake Bay region, and house mice respond accordingly, moving into garages, foundations, and crawl spaces well before homeowners elsewhere in the state start thinking about fall pest prevention. The tradeoff is a shorter true summer season for some insects, but it does not mean less pest pressure overall, just a different rhythm. Sealing foundation gaps and weatherstripping doors before the first cold snap, which tends to hit Frostburg a few weeks ahead of Baltimore, is the single most effective step a homeowner here can take.",
+      },
+      {
+        heading: "Deer ticks in the Appalachian forest around Frostburg State",
+        body: "The wooded trails, mountain biking routes, and forested edges around Frostburg State University and the Georges Creek Valley are genuine deer tick habitat, and Lyme disease risk in far western Maryland is well established. Students and residents who spend time on the trails around campus or in the surrounding hills should check for ticks after every outing, not just during a defined tick season, since deer ticks stay active into late fall whenever temperatures allow. Keeping grass cut short and leaf litter cleared near the house, plus treating the yard perimeter, meaningfully cuts the number of ticks that make it onto a property in the first place.",
+      },
+      {
+        heading: "Carpenter ants, stink bugs, and yellowjackets",
+        body: "Carpenter ants in Frostburg move out of the surrounding forest and into homes wherever they find softened, moisture-damaged wood, most often around rooflines, decks, and older window frames close to the tree line. Fall brings the same stink bug invasion Maryland sees statewide, with the insects gathering on sun-warmed walls before pushing indoors through gaps around windows and siding. Yellowjacket colonies nesting in the ground around wooded and grassy areas near campus and Rocky Gap build through the summer and become most aggressive in late August and September, which is worth knowing before mowing near an unnoticed nest.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and weatherstrip doors before the first cold snap, which typically arrives in Frostburg weeks ahead of the rest of Maryland.",
+      "Check for ticks after any time spent on wooded trails around campus or the Georges Creek Valley, and treat the yard perimeter to cut tick numbers near the house.",
+      "Address moisture damage around rooflines and decks near the tree line before carpenter ants find it.",
+      "Seal gaps around windows and siding by early September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "General pest plans covering ants and mice in Frostburg typically run $130 to $250 per year. Tick and yard perimeter treatment runs $70 to $150 per visit through the warm season. Yellowjacket nest removal is commonly $100 to $250 depending on nest location and size.",
+    faqs: [
+      {
+        question: "Why do house mice show up earlier in Frostburg than in the rest of Maryland?",
+        answer: "Frostburg sits at 2,070 feet in the Georges Creek Valley, and cold weather reaches that elevation weeks before it reaches Baltimore or the Chesapeake Bay region. Mice respond to the temperature drop, not the calendar, so they start moving into Frostburg homes for warmth earlier in the fall than mice elsewhere in the state.",
+      },
+      {
+        question: "Is Lyme disease a real risk around Frostburg State University?",
+        answer: "Yes. The Appalachian forest and wooded trails surrounding Frostburg, including areas near campus and through the Georges Creek Valley, are documented deer tick habitat, and far western Maryland carries genuine Lyme disease risk. A tick check after any time on the trails is worth the two minutes it takes.",
+      },
+      {
+        question: "Do carpenter ants damage Frostburg homes near the tree line?",
+        answer: "Yes. Frostburg's mountain forest extends close to many in-town properties, and carpenter ants move from decaying trees into moisture-softened wood on rooflines, decks, and window frames on homes near that edge. Addressing the underlying moisture is necessary alongside any ant treatment.",
+      },
+      {
+        question: "When do yellowjackets peak in Frostburg?",
+        answer: "Ground-nesting yellowjacket colonies around Frostburg, including wooded and grassy areas near campus and Rocky Gap, build through the summer and reach their largest, most aggressive size in late August and September, which is the time of year to be most careful around unnoticed ground nests.",
+      },
+      {
+        question: "Does Frostburg get the same fall stink bug invasion as the rest of Maryland?",
+        answer: "Yes. Stink bugs gather on sun-warmed exterior walls each fall before pushing indoors through gaps around windows and siding, and Frostburg's older homes near downtown and the university see the same pattern found statewide, typically running September through November.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lexington Park", slug: "lexington-park-md", stateSlug: "maryland" },
+      { name: "Waldorf", slug: "waldorf-md", stateSlug: "maryland" },
+      { name: "Ocean Pines", slug: "ocean-pines", stateSlug: "maryland" },
+      { name: "Elkridge", slug: "elkridge", stateSlug: "maryland" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Frostburg, MD | Deer Ticks & Carpenter Ants",
+    metaDescription: "Frostburg MD pest control for deer ticks, carpenter ants, house mice and fall stink bugs. Allegany County mountain-elevation specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lexington-park-md",
+    name: "Lexington Park",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~13,300",
+    county: "St. Mary's County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lexington Park sits on a peninsula between the Patuxent River and St. Mary's County's tidal creeks in Southern Maryland, where the Naval Air Station Patuxent River complex, home to roughly 20,000 employees, anchors the local economy. The humid tidewater climate and the tidal wetlands bordering the base and the surrounding neighborhoods sustain a long mosquito season, and the area's mix of 1940s-era base housing and newer subdivisions carries real termite exposure typical of Southern Maryland's warm, wet summers.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Deer Ticks", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks June through August",
+        note: "Lexington Park sits on a peninsula bordered by the Patuxent River and its tidal creeks, and that wetland habitat, combined with the flat, low-lying terrain around the Naval Air Station, keeps mosquito pressure high through the warm season for the base community and surrounding neighborhoods alike.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Southern Maryland's humid climate supports solid subterranean termite pressure, and Lexington Park's mix of 1940s-era base-adjacent housing and newer construction both carry exposure, with the older stock at particular risk where wood framing sits close to grade.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "St. Mary's County's rural wooded areas surrounding the base and its neighborhoods support deer tick populations, and Lyme disease risk in this part of Southern Maryland is real enough to warrant a tick check after yard work or time outdoors.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs move into homes and base housing throughout Lexington Park each fall, gathering on exterior walls before finding gaps around siding and windows to overwinter indoors.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older base-era housing throughout Lexington Park has accumulated decades of minor moisture issues around rooflines and siding, conditions carpenter ants exploit for nesting.",
+      },
+    ],
+    localHook:
+      "Lexington Park grew up around Naval Air Station Patuxent River, established in 1943 and named for the recently sunk USS Lexington. The base now employs roughly 20,000 people and drives close to three quarters of St. Mary's County's economy, making it the reason this stretch of Southern Maryland peninsula grew from open farmland into a town of more than 13,000 people.",
+    intro:
+      "Pest control in Lexington Park, MD is shaped by two things: water and the Navy. The town grew up around Naval Air Station Patuxent River, established in 1943 and now employing roughly 20,000 people, and it sits on a peninsula surrounded by the Patuxent River and St. Mary's County's tidal creeks. That wetland setting keeps mosquito pressure high from April through October, while Southern Maryland's humid climate drives solid subterranean termite risk in both the base's older 1940s-era housing stock and the newer subdivisions that have grown up around it. Add rural St. Mary's County's deer tick population, a reliable fall stink bug invasion, and carpenter ants exploiting decades of minor moisture damage in older homes, and Lexington Park needs a pest plan built around its wetlands and its housing age, not a generic Southern Maryland template.",
+    sections: [
+      {
+        heading: "Living on a peninsula: Lexington Park's mosquito season",
+        body: "Lexington Park sits on a peninsula shaped by the Patuxent River on one side and St. Mary's County's network of tidal creeks on the other, and that geography is the single biggest driver of the town's mosquito season. The flat, low-lying terrain around Naval Air Station Patuxent River and the surrounding neighborhoods holds water well after rain, and the tidal creeks themselves add a steady breeding source through the warm months. The season typically runs April through October, with the heaviest pressure from June through August. Homeowners closest to the water see the most consistent activity, though the peninsula setting means very few properties in Lexington Park are truly far from a breeding source. Clearing gutters, removing standing water in containers, and a monthly yard treatment through peak season are the most effective steps available to any individual property owner here.",
+      },
+      {
+        heading: "Termite risk in a town built around a 1940s naval base",
+        body: "Naval Air Station Patuxent River was established in 1943, and Lexington Park grew up around it through the mid-20th century, which means a meaningful share of the town's housing stock, both on and near the base, dates to that WWII-era and postwar building boom. Southern Maryland's humid summers create solid subterranean termite pressure across the region, and older wood-frame construction from that period is exposed in ways newer homes with modern termite barriers are not. Newer subdivisions built up around the base as it grew are not immune either, since the underlying climate driving termite activity applies across Lexington Park regardless of a home's age. An annual inspection matters most for the older base-adjacent neighborhoods, where wood framing is more likely to sit close to grade.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and remove standing water in containers before mosquito season builds through the spring.",
+      "Schedule an annual termite inspection, especially for homes in Lexington Park's older base-adjacent neighborhoods.",
+      "Check for ticks after yard work or time in wooded areas around St. Mary's County.",
+      "Seal gaps around siding and windows before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Mosquito yard treatment for Lexington Park properties runs $80 to $150 per visit through the April to October season. Termite inspection is commonly free to $150, with treatment plans running $250 to $550 per year depending on the extent of exposure. General pest plans for ants and stink bugs run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so consistent in Lexington Park?",
+        answer: "Lexington Park sits on a peninsula between the Patuxent River and St. Mary's County's tidal creeks, and that low-lying, water-bordered geography means very few properties are far from a breeding source. The season runs April through October and peaks June through August.",
+      },
+      {
+        question: "Does Naval Air Station Patuxent River's age affect termite risk in the surrounding neighborhoods?",
+        answer: "Yes. The base was established in 1943, and Lexington Park's older base-adjacent housing from that WWII and postwar era is more likely to have wood framing close to grade than newer construction, which raises termite exposure in that part of town specifically.",
+      },
+      {
+        question: "Are ticks a concern in Lexington Park itself, or just the surrounding county?",
+        answer: "Both. St. Mary's County's rural wooded areas extend right up to many Lexington Park neighborhoods, and deer ticks are present wherever that habitat exists. A tick check after yard work or time outdoors is a reasonable habit here, not an overreaction.",
+      },
+      {
+        question: "Do newer subdivisions in Lexington Park still need termite protection?",
+        answer: "Yes. Southern Maryland's humid climate drives termite pressure across the region regardless of a home's age, so newer subdivisions built up around the base are still exposed, even though the risk is generally higher in the older base-adjacent housing stock.",
+      },
+      {
+        question: "When do stink bugs invade homes in Lexington Park?",
+        answer: "Typically September through November, when the insects gather on exterior walls before finding gaps around siding and windows to get indoors for winter. It's the same pattern seen across Southern Maryland.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Frostburg", slug: "frostburg", stateSlug: "maryland" },
+      { name: "Waldorf", slug: "waldorf-md", stateSlug: "maryland" },
+      { name: "Ocean Pines", slug: "ocean-pines", stateSlug: "maryland" },
+      { name: "Elkridge", slug: "elkridge", stateSlug: "maryland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lexington Park, MD | Mosquitoes & Termites",
+    metaDescription: "Lexington Park MD pest control for mosquitoes, subterranean termites, deer ticks and stink bugs. St. Mary's County, near NAS Patuxent River. Free inspection.",
+  },
+  {
+    slug: "waldorf-md",
+    name: "Waldorf",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~81,000",
+    county: "Charles County",
+    climate: "hot-humid",
+    climateDriver:
+      "Waldorf sits along the U.S. Route 301 corridor in Charles County, about 23 miles southeast of Washington, D.C., in Southern Maryland's humid subtropical climate zone. The corridor's dense mix of retail, restaurants, and rapidly built subdivisions, replacing what was tobacco farmland into the late 20th century, creates strong pest pressure tied to commercial food service and new construction rather than any single natural feature.",
+    topPests: ["German Cockroaches", "Subterranean Termites", "Carpenter Ants", "Rats", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The dense retail and restaurant corridor along Route 301 through Waldorf sustains steady German cockroach pressure in and around food service businesses, and infestations spread easily into neighboring units in shared commercial buildings.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Southern Maryland's humid climate supports solid termite pressure, and Waldorf's mix of older rural homes left over from its tobacco-farming past and fast-built subdivisions from recent decades both carry exposure, for different reasons tied to wood age and construction speed.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Newer Waldorf subdivisions built quickly during the town's growth boom sometimes have grading or drainage issues that create moisture problems around foundations, conditions carpenter ants take advantage of.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Ongoing construction and the dense commercial development along the Route 301 corridor, with its concentration of dumpsters and food service waste, sustains steady rat activity in and around Waldorf's retail centers.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs are a reliable fall nuisance throughout Charles County, gathering on exterior walls before pushing into homes and businesses through gaps around windows and siding.",
+      },
+    ],
+    localHook:
+      "Waldorf was known as Beantown until 1880, when it was renamed after businessman William Waldorf Astor. It stayed a small rural crossroads until U.S. Route 301 brought rapid development in the 20th century, and the town's population grew roughly sixteen times over, from fewer than 5,000 residents in 1980 to more than 80,000 today, making it the largest commercial hub in Southern Maryland.",
+    intro:
+      "Pest control in Waldorf, MD is shaped by one of the fastest growth stories in Southern Maryland. Known as Beantown until 1880, Waldorf stayed a small rural crossroads until U.S. Route 301 turned it into the region's largest commercial hub, and the population grew roughly sixteenfold since 1980 to more than 80,000 people today. That growth built a dense retail and restaurant corridor along Route 301 that sustains year-round German cockroach and rat pressure, while a mix of older tobacco-era farmhouses and rapidly built subdivisions both carry real subterranean termite exposure in Southern Maryland's humid climate. Add carpenter ants exploiting drainage issues common in fast-built newer construction and a solid fall stink bug season, and Waldorf needs a pest plan built for a commercial corridor, not a quiet rural town.",
+    sections: [
+      {
+        heading: "A commercial corridor that never really was a small town",
+        body: "Waldorf's transformation from a rural crossroads called Beantown into Southern Maryland's largest commercial hub happened fast, almost entirely within the last four and a half decades, and that speed shows up directly in the pest pressure businesses and residents deal with. The dense concentration of retail centers and restaurants along U.S. Route 301 sustains steady German cockroach activity in and around food service, since roaches spread quickly through shared walls and plumbing in commercial strip centers. The same corridor's dumpsters and food waste keep rat activity high year-round, with a noticeable surge each fall as outdoor food sources thin out and rats look for buildings to move into. Commercial property owners along Route 301 benefit from a scheduled service plan rather than one-time treatment, since the food service density in this corridor means new pest pressure is a constant, not an occasional problem.",
+      },
+      {
+        heading: "Termites and carpenter ants across two different kinds of Waldorf housing",
+        body: "Waldorf's housing stock tells two different stories, and both carry termite exposure for different reasons. Older homes left over from the area's tobacco-farming history, before Route 301 reshaped the town, were built in an era before modern termite barriers existed, and Southern Maryland's humid climate has had decades to work on that wood. Newer subdivisions, built quickly to keep pace with population growth that took Waldorf from under 5,000 residents in 1980 to more than 80,000 today, occasionally carry drainage and grading issues that create moisture pockets around foundations, and carpenter ants find those pockets just as readily as termites find older wood. An annual inspection is worth it across both housing types, since the underlying humid Southern Maryland climate that drives termite activity does not care how old a house is.",
+      },
+    ],
+    prevention: [
+      "Schedule year-round pest service for Route 301 commercial properties given the corridor's food service density.",
+      "Keep dumpster areas sealed and clean to reduce rat activity around retail centers.",
+      "Get an annual termite inspection regardless of whether your home is an older farmhouse or a newer subdivision build.",
+      "Check foundation grading and drainage on newer construction to reduce carpenter ant moisture conditions.",
+    ],
+    costNote:
+      "General pest plans for cockroaches and rats along Waldorf's commercial corridor run $150 to $350 per year depending on property size. Termite inspection is commonly free to $150, with treatment running $250 to $600 per year. Carpenter ant treatment tied to a moisture or drainage issue runs $200 to $450.",
+    faqs: [
+      {
+        question: "Why do commercial properties in Waldorf need year-round pest service?",
+        answer: "Waldorf's dense retail and restaurant corridor along Route 301 sustains steady German cockroach and rat activity in and around food service businesses all year, not just in warm months, because the food source and building density are constant. A scheduled plan catches problems before they spread between units.",
+      },
+      {
+        question: "Does Waldorf's rapid growth since 1980 affect termite risk?",
+        answer: "It creates two separate risk pictures rather than reducing risk. Older homes from the town's tobacco-farming era predate modern termite barriers, while some newer subdivisions built quickly during the growth boom have drainage issues that create moisture conditions carpenter ants and termites both exploit.",
+      },
+      {
+        question: "Was Waldorf always called Waldorf?",
+        answer: "No. The town was known as Beantown until 1880, when it was renamed after businessman William Waldorf Astor. It remained a small rural crossroads until U.S. Route 301 brought rapid commercial development in the 20th century.",
+      },
+      {
+        question: "Are rats worse around Waldorf's retail centers than in residential neighborhoods?",
+        answer: "Generally yes. The concentration of dumpsters and food service waste along the Route 301 corridor sustains more consistent rat activity than typical residential blocks, with a seasonal surge each fall as rats look for buildings to move into as outdoor food sources thin out.",
+      },
+      {
+        question: "How fast has Waldorf grown, and does that matter for pest control?",
+        answer: "Waldorf grew from fewer than 5,000 residents in 1980 to more than 80,000 today, roughly a sixteenfold increase. That pace of construction means Waldorf now has a genuine mix of decades-old and very new housing, and both carry their own termite and moisture-related pest risks.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Frostburg", slug: "frostburg", stateSlug: "maryland" },
+      { name: "Lexington Park", slug: "lexington-park-md", stateSlug: "maryland" },
+      { name: "Ocean Pines", slug: "ocean-pines", stateSlug: "maryland" },
+      { name: "Elkridge", slug: "elkridge", stateSlug: "maryland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Waldorf, MD | Cockroaches, Termites & Rats",
+    metaDescription: "Waldorf MD pest control for German cockroaches, subterranean termites, rats and carpenter ants. Route 301 commercial corridor, Charles County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ocean-pines",
+    name: "Ocean Pines",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~12,100",
+    county: "Worcester County",
+    climate: "hot-humid",
+    climateDriver:
+      "Ocean Pines is a planned community on Maryland's Eastern Shore in Worcester County, built starting in 1968 around an extensive network of man-made canals and the St. Martin River, just a few miles from Assateague Island and Ocean City. The humid coastal climate and the canal system that laces through the community's residential lots sustain a strong mosquito season, and wooded lots bordering the community's golf course add real tick habitat alongside standard coastal termite pressure.",
+    topPests: ["Mosquitoes", "Deer Ticks", "Subterranean Termites", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks in summer",
+        note: "Ocean Pines' extensive network of man-made canals, built as part of the community's 1968 development, along with the nearby St. Martin River, gives mosquitoes far more standing water and shoreline habitat to breed in than a typical inland Eastern Shore community.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The wooded lots bordering Ocean Pines' golf course and the community's forested buffer areas support deer tick populations, and residents who spend time gardening or on the golf course's rough should check for ticks regularly through the warm season.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Worcester County's humid coastal climate supports solid subterranean termite pressure, and homes built during Ocean Pines' original development boom in the 1970s and 1980s are old enough now to warrant regular inspection.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs gather on exterior walls each fall before pushing into homes throughout Ocean Pines, a pattern consistent with the rest of Worcester County.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Wooded lots near the canals and golf course create moisture-retaining conditions that carpenter ants exploit, particularly around decks and boat docks common on Ocean Pines' waterfront properties.",
+      },
+    ],
+    localHook:
+      "Ocean Pines began in 1968 as a planned resort community built by Boise Cascade around a network of man-made canals, and it's now the largest residential community in Worcester County, with roughly 12,100 full-time residents and thousands more part-time residents and summer guests. The community includes marinas, a golf course, and one of the largest concentrations of retirees anywhere on Maryland's Eastern Shore.",
+    intro:
+      "Pest control in Ocean Pines, MD centers on water. Built starting in 1968 as a planned resort community around a network of man-made canals, Ocean Pines is now the largest residential community in Worcester County, and that canal system, along with the nearby St. Martin River, gives mosquitoes far more breeding habitat than most Eastern Shore towns see. The wooded lots bordering the community's golf course add real deer tick exposure, and Worcester County's humid coastal climate drives standard subterranean termite pressure in homes now decades old from the community's original development boom. A reliable fall stink bug invasion and carpenter ants exploiting moisture around waterfront decks and docks round out the picture for a community built almost entirely around canal-front and golf-course living.",
+    sections: [
+      {
+        heading: "Canal-front living and Ocean Pines' mosquito season",
+        body: "Ocean Pines was designed around an extensive network of man-made canals when Boise Cascade began developing the community in 1968, and while those canals are the community's defining feature and a major reason people move here, they're also the biggest driver of the local mosquito season. Combined with the nearby St. Martin River, the canal system provides far more standing water and shoreline vegetation than a typical inland Eastern Shore property, and mosquito pressure runs from April through October with the heaviest activity in summer. Waterfront and canal-adjacent properties see the most consistent pressure. A monthly yard treatment targeting shaded vegetation along the water's edge, combined with clearing any standing water in gutters or containers on the property itself, gives canal-front homeowners meaningfully better relief than either step alone.",
+      },
+      {
+        heading: "Golf course lots and Ocean Pines' tick exposure",
+        body: "The wooded lots that border Ocean Pines' golf course and the community's forested buffer areas support deer tick populations, and with one of the largest concentrations of retirees on Maryland's Eastern Shore spending regular time gardening, walking, and golfing here, tick exposure is a real, ongoing consideration rather than an occasional concern. Checking for ticks after time in the yard or on the course, and keeping grass cut short near wooded property lines, are simple habits that meaningfully cut the number of ticks that make it onto a person or into a home. A treated yard perimeter adds another layer of protection for properties directly bordering the golf course's wooded rough.",
+      },
+    ],
+    prevention: [
+      "Clear standing water in gutters and containers, and schedule monthly mosquito treatment for canal-front properties through the warm season.",
+      "Check for ticks after time in the yard or on the golf course, and treat the yard perimeter for properties bordering wooded rough.",
+      "Schedule a termite inspection for homes built during Ocean Pines' original 1970s and 1980s development boom.",
+      "Address moisture around waterfront decks and docks before carpenter ants find it.",
+    ],
+    costNote:
+      "Mosquito treatment for Ocean Pines canal-front properties runs $80 to $160 per visit through the April to October season. Termite inspection is commonly free to $150, with treatment running $250 to $550 per year. Tick and yard perimeter treatment for golf-course-adjacent lots runs $70 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so high on Ocean Pines' canals?",
+        answer: "Ocean Pines was built starting in 1968 around an extensive network of man-made canals, and that canal system, along with the nearby St. Martin River, provides far more standing water and shoreline vegetation than a typical inland Eastern Shore property. Canal-front and waterfront homes see the most consistent mosquito pressure from April through October.",
+      },
+      {
+        question: "Are ticks a real concern for Ocean Pines' golf course community?",
+        answer: "Yes. The wooded lots and forested buffer areas bordering the golf course support deer tick populations, and given how many residents here spend regular time gardening or golfing, checking for ticks after time outdoors is a genuinely useful habit.",
+      },
+      {
+        question: "How old is Ocean Pines, and does that affect termite risk?",
+        answer: "Ocean Pines began development in 1968, and many homes were built during the community's original growth boom through the 1970s and 1980s. Those homes are now old enough, combined with Worcester County's humid coastal climate, to warrant regular termite inspection.",
+      },
+      {
+        question: "Do carpenter ants target Ocean Pines' waterfront properties specifically?",
+        answer: "Waterfront decks and boat docks common on Ocean Pines' canal-front lots create moisture-retaining conditions that carpenter ants exploit more readily than on inland properties, which is why waterfront homeowners should pay particular attention to deck and dock maintenance.",
+      },
+      {
+        question: "Does Ocean Pines get the same fall stink bug invasion as the rest of Worcester County?",
+        answer: "Yes. Stink bugs gather on exterior walls each fall before pushing into homes throughout Ocean Pines, following the same September through November pattern seen across the rest of the county.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Frostburg", slug: "frostburg", stateSlug: "maryland" },
+      { name: "Lexington Park", slug: "lexington-park-md", stateSlug: "maryland" },
+      { name: "Waldorf", slug: "waldorf-md", stateSlug: "maryland" },
+      { name: "Elkridge", slug: "elkridge", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ocean Pines, MD | Mosquitoes & Deer Ticks",
+    metaDescription: "Ocean Pines MD pest control for canal mosquitoes, deer ticks, coastal termites and stink bugs. Worcester County planned community specialists. Free inspection.",
+  },
+  {
+    slug: "elkridge",
+    name: "Elkridge",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~21,800",
+    county: "Howard County",
+    climate: "temperate",
+    climateDriver:
+      "Elkridge is Howard County's oldest settlement, founded along the Patapsco River in the late 1600s as a colonial tobacco port, and it now sits at the intersection of that wooded river valley, protected today as Patapsco Valley State Park, and a modern warehouse and distribution corridor built up around its proximity to BWI Thurgood Marshall Airport. That mix of forested floodplain and dense logistics development gives Elkridge both a wooded-terrain pest profile and real commercial rodent pressure.",
+    topPests: ["Eastern Subterranean Termites", "Carpenter Ants", "Deer Ticks", "Rodents", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Elkridge's status as Howard County's oldest settlement, with roots as a colonial tobacco port dating to the late 1600s, means some of the town's older homes and structures near the historic Elkridge Landing site carry real termite exposure tied to age and wood framing close to grade.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded floodplain of Patapsco Valley State Park borders much of Elkridge, and carpenter ants move from the park's forest into moisture-damaged wood on nearby homes, particularly after flooding events along the Patapsco River.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Patapsco Valley State Park's wooded trails and floodplain, which run directly alongside Elkridge, support deer tick populations, and hikers and property owners near the park should check for ticks after time outdoors.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Elkridge's growth as a warehouse and distribution hub tied to its location near BWI Thurgood Marshall Airport has brought a real increase in commercial rodent pressure, since large logistics buildings and loading docks provide exactly the shelter and food access rodents look for.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs are a reliable fall nuisance across Howard County, and Elkridge's mix of older river-valley homes and newer construction both see the same aggregation pattern on exterior walls each fall.",
+      },
+    ],
+    localHook:
+      "Elkridge is Howard County's oldest settlement, established along the Patapsco River as early as 1687 as a colonial tobacco port where planters loaded their crop onto English trading ships at Elkridge Landing. Today the town borders Patapsco Valley State Park's wooded floodplain on one side and a growing warehouse and distribution corridor near BWI Thurgood Marshall Airport on the other.",
+    intro:
+      "Pest control in Elkridge, MD has to account for two very different sides of the same town. As Howard County's oldest settlement, founded along the Patapsco River as early as 1687 as a colonial tobacco port, Elkridge carries real termite exposure in its older homes near the historic Elkridge Landing site. The wooded floodplain of neighboring Patapsco Valley State Park adds carpenter ants and deer ticks to the mix, both moving out of the park's forest and onto properties along its edge. At the same time, Elkridge's growth as a warehouse and logistics hub near BWI Thurgood Marshall Airport has brought real commercial rodent pressure that a quiet river-valley town wouldn't otherwise see. Add a standard Howard County fall stink bug season, and Elkridge needs a pest plan that covers both its colonial-era housing stock and its modern distribution centers.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants along a 300-plus-year-old river valley",
+        body: "Elkridge's history as Howard County's oldest settlement goes back to at least 1687, when planters used Elkridge Landing on the Patapsco River to load tobacco onto English trading ships, and that centuries-old settlement pattern left the town with a genuine mix of very old and comparatively newer construction. Older homes near the historic landing site carry real subterranean termite exposure, since wood framing from decades or centuries past often sits closer to grade than anything built to modern standards. The wooded floodplain of Patapsco Valley State Park, which borders much of Elkridge directly, adds carpenter ants to the picture as well, particularly after flooding events along the Patapsco River leave moisture-damaged wood for the ants to exploit. An annual inspection matters most for homes closest to the historic river-valley core.",
+      },
+      {
+        heading: "A warehouse corridor brings its own rodent pressure",
+        body: "Elkridge's position near BWI Thurgood Marshall Airport has made it a genuine logistics and distribution hub in recent decades, with large warehouse and fulfillment buildings now occupying land that was once farmland or forest along the town's outer edges. That kind of commercial development changes the pest picture in a specific way: big buildings with loading docks, palletized storage, and constant truck traffic create exactly the shelter and food access that rodents look for, and commercial rodent pressure in Elkridge's warehouse corridor runs year-round with a predictable surge each fall. Facility managers benefit from a scheduled inspection and exclusion program rather than reactive treatment, since a rodent problem in a large distribution building is far more disruptive to catch late than it is to prevent with regular perimeter checks.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes near Elkridge's historic river-valley core, where framing is more likely to sit close to grade.",
+      "Address moisture damage from flooding events along the Patapsco River promptly to reduce carpenter ant risk.",
+      "Check for ticks after time on Patapsco Valley State Park's trails or floodplain areas bordering Elkridge.",
+      "Set up scheduled rodent inspection and exclusion for warehouse and distribution properties near BWI.",
+    ],
+    costNote:
+      "Termite inspection for Elkridge's older river-valley homes is commonly free to $150, with treatment running $250 to $600 per year. Commercial rodent exclusion and monitoring for warehouse properties runs $200 to $500 per month depending on facility size. General pest plans for ants and stink bugs run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why do older Elkridge homes near the river have more termite risk?",
+        answer: "Elkridge is Howard County's oldest settlement, founded along the Patapsco River as early as 1687, and homes near the historic Elkridge Landing area often have wood framing from an era before modern termite barriers existed, sitting closer to grade than anything built to current standards.",
+      },
+      {
+        question: "Does Patapsco Valley State Park affect pest pressure in Elkridge?",
+        answer: "Yes. The park's wooded floodplain borders much of Elkridge directly, and both deer ticks and carpenter ants move from that forest onto neighboring properties, with carpenter ant risk increasing after flooding events leave moisture-damaged wood along the river.",
+      },
+      {
+        question: "Why does a residential town like Elkridge have a rodent problem tied to warehouses?",
+        answer: "Elkridge's growth as a logistics hub near BWI Thurgood Marshall Airport has brought large warehouse and distribution buildings to the town's outer edges, and those facilities, with loading docks and palletized storage, provide the shelter and food access that sustains year-round commercial rodent activity.",
+      },
+      {
+        question: "How old is Elkridge as a settlement?",
+        answer: "Elkridge dates to at least 1687, when it began as a colonial tobacco port at Elkridge Landing on the Patapsco River, making it the oldest settlement in what is now Howard County.",
+      },
+      {
+        question: "Do businesses near BWI in Elkridge need a different pest plan than residential homes?",
+        answer: "Generally yes. Warehouse and distribution properties near BWI Thurgood Marshall Airport benefit from scheduled rodent inspection and exclusion given their loading dock and storage conditions, while residential homes closer to Elkridge's historic river-valley core are better served by a plan built around termite and carpenter ant risk.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Frostburg", slug: "frostburg", stateSlug: "maryland" },
+      { name: "Lexington Park", slug: "lexington-park-md", stateSlug: "maryland" },
+      { name: "Waldorf", slug: "waldorf-md", stateSlug: "maryland" },
+      { name: "Ocean Pines", slug: "ocean-pines", stateSlug: "maryland" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elkridge, MD | Termites & Commercial Rodents",
+    metaDescription: "Elkridge MD pest control for subterranean termites, carpenter ants, deer ticks and warehouse rodent control. Howard County, near BWI. Call 1-800-PEST-USA.",
+  },
 ];

@@ -12978,4 +12978,559 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Napoleon, OH pest control for river-driven summer mosquitoes, fall cluster flies and boxelder bugs, and harvest-season mice. Henry County service. Free inspection.",
   },
+  {
+    slug: "marietta-oh",
+    name: "Marietta",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~13,400",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Marietta sits at the confluence of the Muskingum and Ohio Rivers in the far southeastern corner of the state, in a humid continental climate with warm, muggy summers and cold winters. The river-bottom soil and periodic spring flooding along both waterways keep ground moisture high through the warm months, and the surrounding hardwood ridges of the Appalachian foothills add a wooded pest pressure that inland towns further from the rivers rarely see.",
+    topPests: ["Termites", "Mosquitoes", "Carpenter Ants", "Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Marietta's historic district sits close enough to the Muskingum and Ohio confluence that river-bottom soil stays saturated for weeks after a spring flood. Termites exploit that moisture, and the town's 19th century brick and frame buildings often have old wood-to-soil contact points.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "When the Muskingum and Ohio Rivers crest and recede each spring, they leave backwater pools and saturated low ground that hold water for weeks. Marietta's river-bottom neighborhoods see noticeably more mosquito pressure through summer than the ridge-top areas east of town.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The hardwood ridges of the Appalachian foothills east of downtown put carpenter ants in regular contact with Marietta homes that back up to wooded lots, especially where old deck lumber or a stump has been left in the yard.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the sun-warmed brick walls of Marietta's historic downtown each fall before finding a gap to slip through, a pattern shared with older river towns throughout the region.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Marietta's older foundations, many dating to the town's 19th century growth, give mice easy access as the weather cools each fall, particularly in the historic district's aging building stock.",
+      },
+    ],
+    localHook:
+      "Marietta was founded in 1788 by the Ohio Company of Associates, the first permanent American settlement in the Northwest Territory, and the historic district still sits close enough to the Muskingum and Ohio confluence that spring flooding is a recurring part of life here. That flood cycle, more than anything else, shapes the pest calendar for river-adjacent properties.",
+    intro:
+      "Marietta's pest pressure starts with its location: the city sits right where the Muskingum River meets the Ohio, and that confluence has shaped both the town's history and its pest calendar since 1788. Spring flooding along the river bottoms leaves standing water and saturated soil that mosquitoes and termites both exploit once the weather warms. The historic district's 19th century brick and frame buildings, some dating to the town's founding as the first permanent settlement in the Northwest Territory, give termites and mice plenty of old foundation gaps to work with. Carpenter ants move in from the wooded Appalachian foothill ridges east of downtown, and stink bugs stage on sun-warmed brick walls each fall before pushing indoors. A property's distance from the river bottom is often the single best predictor of how much pressure it sees.",
+    sections: [
+      {
+        heading: "Flooding, river-bottom soil, and termite risk in Marietta",
+        body: "The Muskingum and Ohio Rivers both flood on a fairly predictable spring cycle, and the low-lying streets closest to that confluence, including much of Marietta's historic downtown, see saturated soil for weeks at a stretch most years. Eastern subterranean termites thrive in that kind of moisture. They build mud tubes up foundation walls and sill plates looking for wood, and Marietta's older brick and frame buildings, some standing since the town's founding in 1788, often have wood-to-soil contact points that were never a problem when they were built but are a real liability now. Homes and commercial buildings within a few blocks of either riverbank warrant an annual inspection, and any property that took on water during a spring flood should be checked promptly afterward rather than waiting for the next scheduled visit.",
+      },
+      {
+        heading: "Mosquitoes after the spring flood recedes",
+        body: "When the Muskingum and Ohio Rivers crest and then drop back down each spring, they leave behind backwater pools, saturated low ground, and debris-choked ditches that hold water for weeks. That is prime mosquito breeding habitat, and Marietta's river-bottom neighborhoods see noticeably more mosquito pressure through the summer than the ridge-top areas east of town. The season typically runs May through September, peaking after the wettest stretches. Source reduction, clearing gutters, dumping containers, and treating pools that cannot be drained, matters more here than in a typical inland Ohio town simply because there is more standing water to manage after a flood year.",
+      },
+      {
+        heading: "Carpenter ants, stink bugs, and mice away from the river",
+        body: "Not every pest problem in Marietta traces back to the rivers. The hardwood ridges of the Appalachian foothills east of downtown put carpenter ants in regular contact with homes that back up to wooded lots, especially where there is old deck lumber or a stump left in the yard. Stink bugs follow the same fall pattern seen across the wider region, aggregating on the sunny, brick-heavy walls of the historic downtown in September and October before finding a gap to slip through. House mice are a year-round nuisance but really show up each fall as the weather cools, especially in the older foundations that make up so much of Marietta's building stock. None of these three need a river to thrive, and a property well up the hill from the confluence can still see meaningful pressure from all three.",
+      },
+    ],
+    prevention: [
+      "Have river-bottom and historic-district properties inspected for termites annually, and again promptly after any spring flood.",
+      "Clear gutters, dump containers, and treat backwater pools that cannot be drained each spring to cut mosquito breeding.",
+      "Remove old stumps and deck lumber near wooded lots to reduce carpenter ant nesting sites.",
+      "Seal gaps around brick and frame exteriors before September to keep fall stink bugs from moving indoors.",
+    ],
+    costNote:
+      "General pest coverage in Marietta typically runs $120 to $260 per year for a quarterly plan. Termite inspections are usually free, with soil treatment or a baiting system priced separately by structure size, often $500 to $1,200 for river-bottom and historic-district properties. Mosquito season treatments during a wet spring add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Does flooding in Marietta affect pest control?",
+        answer:
+          "Yes. Marietta sits at the confluence of the Muskingum and Ohio Rivers, and spring flooding along both waterways leaves saturated soil and standing water that termites and mosquitoes both take advantage of. River-bottom and historic-district properties should be inspected for termites annually, and again promptly after any flood.",
+      },
+      {
+        question: "Are termites a real risk in Marietta's historic district?",
+        answer:
+          "Yes. Marietta was founded in 1788 as the first permanent settlement in the Northwest Territory, and many of the historic district's brick and frame buildings have old wood-to-soil contact points that predate modern termite protection. Annual inspection is the practical baseline for these older structures.",
+      },
+      {
+        question: "When is mosquito season worst in Marietta?",
+        answer:
+          "May through September, with the heaviest pressure in river-bottom neighborhoods after the Muskingum and Ohio Rivers crest and recede each spring. The backwater pools and saturated ground left behind hold water for weeks and give mosquitoes a strong foothold.",
+      },
+      {
+        question: "Do carpenter ants come from the wooded areas around Marietta?",
+        answer:
+          "Often, yes. The Appalachian foothill ridges east of downtown Marietta put carpenter ants in regular contact with homes on wooded lots, particularly where old deck lumber or a stump has been left near the house.",
+      },
+      {
+        question: "Are stink bugs a fall problem in Marietta?",
+        answer:
+          "Yes. Stink bugs stage on the sun-warmed brick walls of Marietta's historic downtown each September and October before finding a gap to slip through, a pattern shared with older river towns across the region.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wilmington", slug: "wilmington-oh", stateSlug: "ohio" },
+      { name: "Cambridge", slug: "cambridge-oh", stateSlug: "ohio" },
+      { name: "Logan", slug: "logan-oh", stateSlug: "ohio" },
+      { name: "Bedford", slug: "bedford-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Marietta, OH | River Flood Termites & Mosquitoes",
+    metaDescription:
+      "Marietta, OH pest control for flood-driven termites and mosquitoes, carpenter ants, stink bugs and mice. Washington County river confluence service. Free inspection.",
+  },
+  {
+    slug: "wilmington-oh",
+    name: "Wilmington",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~12,700",
+    county: "Clinton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wilmington sits in Clinton County amid the flat farmland of southwest Ohio's till plain, in a humid continental climate with warm summers and cold winters. The wide-open agricultural fields that surround the city, along with the large industrial footprint of the former Wilmington Air Park, create pest conditions built around harvest-season rodent migration and warehouse-scale stored-product concerns more than any single body of water.",
+    topPests: ["House Mice", "Stink Bugs", "Cluster Flies", "Carpenter Ants", "Indian Meal Moths"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Clinton County's corn and soybean fields press right up against Wilmington's neighborhoods, and when combines move through each September and October, field mice lose their cover overnight and head for the nearest structure.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on the sunniest exterior walls of Wilmington homes each fall before finding a gap to slip through, then hole up in attics and wall voids until a warm day draws them back out.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies follow the same overwintering pattern as stink bugs, gathering on sunny walls in fall before slipping into older farmhouse-style Wilmington homes at the edge of town.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Wilmington's older wood-frame housing sees carpenter ant activity where a roof leak or plumbing issue has softened wood enough to make excavation easy.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in warehouse and pantry settings",
+        note: "The redeveloped Wilmington Air Park, built on the former Airborne Express and DHL Express hub site, now houses aviation, cargo, and logistics tenants whose warehouse space can carry stored-product pest risk if an infested shipment goes unnoticed.",
+      },
+    ],
+    localHook:
+      "Wilmington's identity is tied to the Wilmington Air Park, the former Airborne Express and DHL Express air cargo hub that once employed thousands of sorters and pilots before DHL's 2008 closure. The airpark's hangars and warehouse space, now redeveloped for aviation and logistics tenants, sit alongside the open farmland that rings the city on every side, and that combination shapes Wilmington's pest picture more than anything else.",
+    intro:
+      "Wilmington's pest calendar is set by two things: the farmland that surrounds the city on every side, and the sprawling Wilmington Air Park, the former Airborne Express and DHL Express hub that once ran a national overnight sorting operation before DHL closed it in 2008. House mice pour out of harvested corn and soybean fields each fall looking for a warmer place to spend winter, and Wilmington's mix of older farmhouse-style homes and newer subdivisions built at the field's edge both see the pressure. Stink bugs and cluster flies follow the same fall pattern common across southwest Ohio, staging on sunny walls before pushing indoors. Carpenter ants find opportunity in older wood construction with any moisture history. And the large warehouse and hangar space at the redeveloped Air Park, still used for aviation, logistics, and food-adjacent tenants, carries its own stored-product pest risk that a typical Clinton County home never has to think about.",
+    sections: [
+      {
+        heading: "Harvest-season mice from the farmland around Wilmington",
+        body: "Clinton County's corn and soybean fields press right up against Wilmington's neighborhoods, and when combines move through those fields each September and October, the field mice living in them lose their cover overnight. They move toward the nearest structure, and for a lot of Wilmington homes that means the house itself. Older farmhouse-style homes at the edge of town, with foundation gaps, uninsulated sill plates, and utility penetrations that were never fully sealed, take the brunt of it, but newer subdivisions built at the field's edge are not exempt either. Sealing obvious gaps before the harvest starts and setting interior traps at the first sign of activity keeps a seasonal nuisance from turning into a winter-long infestation.",
+      },
+      {
+        heading: "Stink bugs, cluster flies, and carpenter ants",
+        body: "Stink bugs and cluster flies both follow the same overwintering instinct each fall, gathering on the sunniest exterior walls of Wilmington homes in September and October before finding a gap to slip through. Once inside, they hole up in attics and wall voids until a warm day in late winter or early spring draws them back out, often into living space. Carpenter ants are a smaller but real concern in Wilmington's older wood-frame housing, particularly where a roof leak or plumbing issue has softened the wood enough to make excavation easy. None of these three are dramatic on their own, but left unaddressed they add up to a genuinely unpleasant fall and winter for an unsealed home.",
+      },
+      {
+        heading: "Stored-product pests at the Wilmington Air Park",
+        body: "The redeveloped Wilmington Air Park, built on the former Airborne Express and DHL Express hub site, now houses a mix of aviation, cargo, and logistics tenants in hangars and warehouse space built for a national overnight sorting operation. Facilities that store or handle grain, packaged food, or agricultural products in that kind of large enclosed space face a different pest profile than a typical home: Indian meal moths and other stored-product pests can move through a warehouse quickly if an infested shipment or a gap in packaging goes unnoticed. Commercial pest programs for Air Park tenants focus on inspection of incoming goods, pheromone monitoring traps, and rapid response, a very different scope of work than a residential quarterly plan.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, sill plates, and utility penetrations before the fall harvest to keep field mice from moving indoors.",
+      "Set interior traps at the first sign of mouse activity rather than waiting for the population to grow.",
+      "Seal exterior gaps around windows and siding before September to reduce stink bug and cluster fly entry.",
+      "Address moisture issues in older wood construction promptly to make the property less attractive to carpenter ants.",
+    ],
+    costNote:
+      "General quarterly pest plans in Wilmington run $130 to $250 per year for a typical home. Fall exclusion service to block mice, stink bugs, and cluster flies before winter runs $150 to $300. Commercial stored-product pest programs for Air Park warehouse tenants are quoted separately based on facility size and goods handled.",
+    faqs: [
+      {
+        question: "Why does Wilmington see so many mice each fall?",
+        answer:
+          "Clinton County's corn and soybean fields surround Wilmington closely, and when the harvest moves through in September and October, field mice lose their cover and head for the nearest structure. Older farmhouse-style homes at the edge of town and newer subdivisions built at the field's edge both see the pressure.",
+      },
+      {
+        question: "What is the Wilmington Air Park, and does it affect pest control?",
+        answer:
+          "The Wilmington Air Park is the redeveloped former Airborne Express and DHL Express air cargo hub, which closed in 2008 and is now home to aviation, cargo, and logistics tenants. Warehouse space handling grain or packaged food at the Air Park carries stored-product pest risk that a typical Wilmington home does not, and needs a separate commercial pest program.",
+      },
+      {
+        question: "Are stink bugs a problem in Wilmington homes?",
+        answer:
+          "Yes. Stink bugs gather on sunny exterior walls each September and October before pushing indoors, then hole up in attics and wall voids over winter. Sealing exterior gaps before fall is the most effective prevention.",
+      },
+      {
+        question: "Do carpenter ants damage older Wilmington homes?",
+        answer:
+          "They can. Wilmington's older wood-frame housing sees carpenter ant activity most often where a roof leak or plumbing issue has softened wood enough to make it easy to excavate. Addressing the moisture source alongside treatment is important.",
+      },
+      {
+        question: "What do commercial pest programs at the Wilmington Air Park cover?",
+        answer:
+          "Programs for Air Park warehouse and hangar tenants typically include inspection of incoming goods, pheromone monitoring traps for stored-product pests like Indian meal moths, and rapid response protocols, a different scope than a standard residential quarterly plan.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Marietta", slug: "marietta-oh", stateSlug: "ohio" },
+      { name: "Cambridge", slug: "cambridge-oh", stateSlug: "ohio" },
+      { name: "Logan", slug: "logan-oh", stateSlug: "ohio" },
+      { name: "Bedford", slug: "bedford-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wilmington, OH | Harvest Mice & Air Park Warehouse Pests",
+    metaDescription:
+      "Wilmington, OH pest control for harvest-season mice, stink bugs, cluster flies, carpenter ants and warehouse stored-product pests near the Wilmington Air Park. Clinton County service.",
+  },
+  {
+    slug: "cambridge-oh",
+    name: "Cambridge",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~10,100",
+    county: "Guernsey County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cambridge sits in Guernsey County on the eastern edge of Ohio's Appalachian foothills, where the humid continental climate brings warm summers, cold winters, and enough elevation change to create damp, shaded ravines even close to downtown. The historic National Road corridor through the city is lined with early 1800s and 1900s brick and frame buildings, and that older housing stock, combined with the surrounding hardwood hill country, sets the pest pattern here.",
+    topPests: ["Termites", "Carpenter Ants", "Stink Bugs", "Spiders", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "The National Road reached Cambridge in 1828, and many of the brick and frame buildings that grew up along that corridor were built long before modern termite pretreatment was standard, leaving wood sills close to grade in older structures.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Guernsey County sits on the eastern edge of Ohio's Appalachian foothills, and Cambridge's neighborhoods back up against wooded, hilly terrain that gives carpenter ants an easy path into homes with firewood stacked nearby or a stump left in the yard.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs aggregate on the sunny brick walls of Cambridge's downtown in September and October before finding a way inside, a pattern shared with older downtowns across the wider region.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Cambridge's century-old factory and storefront buildings, a legacy of its Cambridge Glass, Boyd Glass, and Mosser Glass manufacturing era, have the gaps and damp basements that nuisance spiders favor.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs breed on the boxelder maples common to the hillsides surrounding Cambridge and gather in large numbers on sun-warmed walls each fall before working their way indoors.",
+      },
+    ],
+    localHook:
+      "Cambridge grew up along the National Road, the country's first federally funded highway, which reached the city in 1828, and the town's early 20th century identity as a center of Cambridge Glass, Boyd Glass, and Mosser Glass production left it with a downtown full of century-old brick storefronts and factory buildings. That older building stock, set into the hilly, wooded terrain of Ohio's Appalachian foothills, is the main driver of Cambridge's pest pressure.",
+    intro:
+      "Cambridge's pest pressure comes down to two things layered on top of each other: a downtown built up over more than a century along the historic National Road, and the wooded, hilly Appalachian foothill terrain that surrounds the city on every side. Eastern subterranean termites find plenty of wood-to-soil contact in the brick and frame buildings that date back to the National Road's 1828 arrival and the early 1900s heyday of Cambridge Glass. Carpenter ants and boxelder bugs move in from the hardwood hillsides ringing town, spiders take advantage of the damp basements and gaps common in century-old construction, and stink bugs stage on sunny brick walls each fall before pushing inside. A property's age and its distance from the wooded hill edges both matter here.",
+    sections: [
+      {
+        heading: "Termite risk in Cambridge's National Road-era buildings",
+        body: "The National Road reached Cambridge in 1828, and the brick and frame buildings that grew up along that corridor over the following century, including many still standing in the downtown historic district, were built long before modern termite pretreatment was standard practice. Eastern subterranean termites work from the soil upward, and older buildings with wood sills close to grade or crawl spaces with wood debris give them an easy path in. Swarms typically show up March through May, and annual inspection is the practical baseline for any Cambridge property built before the mid-20th century.",
+      },
+      {
+        heading: "Carpenter ants and boxelder bugs from the foothill terrain",
+        body: "Guernsey County sits on the eastern edge of Ohio's Appalachian foothills, and Cambridge's neighborhoods back up against wooded, hilly terrain in a way that flatter parts of the state simply do not. Carpenter ants nest in dead or moisture-damaged wood in that surrounding forest and forage into nearby homes, especially where firewood is stacked against the house or a stump was left in the yard. Boxelder bugs breed on the boxelder maples common to those same hillsides and gather in large numbers on sun-warmed walls each fall before working their way indoors. Neither pest is unique to Cambridge, but the amount of adjacent wooded hill country here means the pressure is a notch above a comparable town on flatter ground.",
+      },
+      {
+        heading: "Spiders and stink bugs in older Cambridge construction",
+        body: "Cambridge's identity as a glass manufacturing town, home to Cambridge Glass, Boyd Glass, and Mosser Glass through much of the 20th century, left behind a downtown of older factory and storefront buildings with the kind of gaps, damp basements, and cluttered storage spaces spiders favor. Most spiders found indoors here are a nuisance rather than a danger, but the volume can be unsettling in an older building with an unfinished basement. Stink bugs add their own fall pressure, aggregating on sunny brick walls in September and October before finding a way inside, a pattern shared with older downtowns across the wider region.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any Cambridge property built before the mid-20th century, especially along the historic National Road corridor.",
+      "Keep firewood and stumps away from the house to reduce carpenter ant access from the surrounding foothill terrain.",
+      "Seal exterior gaps before September to reduce stink bug and boxelder bug entry.",
+      "Reduce basement clutter and seal foundation gaps to cut down on nuisance spiders in older buildings.",
+    ],
+    costNote:
+      "General pest plans in Cambridge run $120 to $240 per year. Termite inspection is typically free, with treatment for older National Road-era buildings priced by structure size, often $450 to $1,000. Fall exclusion service to address stink bugs and boxelder bugs runs $140 to $280.",
+    faqs: [
+      {
+        question: "Are termites a concern in Cambridge's older downtown buildings?",
+        answer:
+          "Yes. The National Road reached Cambridge in 1828, and many of the brick and frame buildings that followed were built before modern termite pretreatment was standard. Annual inspection is the practical baseline for these older structures, especially along the historic corridor.",
+      },
+      {
+        question: "Why does Cambridge have more carpenter ants than flatter Ohio towns?",
+        answer:
+          "Cambridge sits on the eastern edge of Ohio's Appalachian foothills, and its neighborhoods back up against wooded, hilly terrain that gives carpenter ants far more access than a comparable town on flat ground would see.",
+      },
+      {
+        question: "Is Cambridge's glass-industry history relevant to its pest pressure today?",
+        answer:
+          "It is. Cambridge's century-old factory and storefront buildings, left over from the Cambridge Glass, Boyd Glass, and Mosser Glass era, have the gaps and damp basements that nuisance spiders favor, and the same buildings often need termite attention too.",
+      },
+      {
+        question: "When do boxelder bugs show up in Cambridge?",
+        answer:
+          "Boxelder bugs breed on the boxelder maples common to the hillsides surrounding Cambridge and gather on sun-warmed walls each fall, typically September and October, before working their way indoors.",
+      },
+      {
+        question: "Are spiders dangerous in Cambridge homes?",
+        answer:
+          "Most spiders found indoors in Cambridge are a nuisance rather than a danger. The volume can be higher than expected in an older downtown building with an unfinished basement, but sealing gaps and reducing clutter usually solves the problem.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Marietta", slug: "marietta-oh", stateSlug: "ohio" },
+      { name: "Wilmington", slug: "wilmington-oh", stateSlug: "ohio" },
+      { name: "Logan", slug: "logan-oh", stateSlug: "ohio" },
+      { name: "Bedford", slug: "bedford-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Cambridge, OH | Termites, Carpenter Ants & Spiders",
+    metaDescription:
+      "Cambridge, OH pest control for termites in National Road-era buildings, carpenter ants and boxelder bugs from the foothills, spiders and stink bugs. Guernsey County service.",
+  },
+  {
+    slug: "logan-oh",
+    name: "Logan",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~7,300",
+    county: "Hocking County",
+    climate: "cold-humid",
+    climateDriver:
+      "Logan sits along the Hocking River in the Appalachian foothills of southeast Ohio, serving as the gateway to the Hocking Hills region's sandstone cliffs, caves, and waterfalls. The humid continental climate brings warm summers and cold winters, and the dense hardwood forest, sandstone gorges, and heavy seasonal tourist traffic through cabins and rental cottages set Logan's pest pattern apart from a typical county-seat town of its size.",
+    topPests: ["Ticks", "Carpenter Ants", "Spiders", "Stink Bugs", "Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks and American dog ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through June",
+        note: "The Hocking Hills trail system draws hikers to sandstone gorges, caves, and waterfalls nearly year-round, and the dense forest cover along those trails supports active tick populations through most of the year.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Cabins and rental cottages built into the wooded hillsides around Logan sit close to the dead and moisture-damaged wood carpenter ants prefer, with the dense tree cover keeping humidity high near the structure.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Sandstone outcrops, wood piles, and cabin crawl spaces around Logan all offer shelter spiders favor, and a cabin sitting vacant between bookings gives them time to establish before anyone notices.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sun-warmed cabin walls in September and October before pushing inside through any available gap, following the same fall pattern seen across southeast Ohio.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "A Logan-area cabin that sits empty for stretches between guest bookings gives mice extra time to find an entry point and settle in undisturbed compared to a constantly occupied home.",
+      },
+    ],
+    localHook:
+      "Logan calls itself the Gateway to Ohio's Scenic Wonderland, and the Hocking Hills' sandstone cliffs, caves, and waterfalls draw hikers and cabin renters through the area throughout the year. That tourism economy means Logan has an unusually high number of short-term rental cabins tucked into the woods, and those properties carry a different pest exposure than a typical year-round home because of how much time they sit vacant between guests.",
+    intro:
+      "Logan's pest picture is shaped by its role as the Gateway to Ohio's Scenic Wonderland: the Hocking Hills region of sandstone cliffs, caves, and waterfalls that draws hikers and cabin renters here from across the state. Ticks are the top concern for anyone spending time on the trails, with the dense forest cover keeping populations active from spring through fall. Carpenter ants and spiders both thrive in the wooded, moist conditions around cabins tucked into the hillsides, and the area's many short-term rental cottages carry a pest exposure that differs from a typical year-round home simply because of how often they sit empty between guests. Stink bugs and mice round out the fall pattern common to the wider region, with cabin turnover giving mice an easier opening than they would find in a constantly occupied house.",
+    sections: [
+      {
+        heading: "Tick exposure on the Hocking Hills trail system",
+        body: "The Hocking Hills region draws hikers to its sandstone gorges, caves, and waterfalls nearly year-round, and the dense forest cover along those trails supports active tick populations from March through November, peaking in May and June when the nymph stage is smallest and easiest to miss. Both deer ticks and American dog ticks are present in the area. Anyone hiking the trails or staying in a wooded cabin should check thoroughly afterward, and cabin rental operators in particular benefit from a property-line tick treatment given how much foot traffic moves between the woods and the cabin door each week.",
+      },
+      {
+        heading: "Carpenter ants and spiders around Logan's wooded cabin properties",
+        body: "Cabins and rental cottages built into the wooded hillsides around Logan sit close to exactly the kind of dead and moisture-damaged wood carpenter ants prefer, and the dense tree cover keeps humidity high enough near the structure to make it an attractive target. Spiders are equally at home in this setting, with sandstone outcrops, wood piles, and cabin crawl spaces all offering shelter. Neither pest is dangerous in most cases, but a cabin that sits vacant between bookings gives both time to establish before anyone notices, which is why a regular exterior treatment schedule matters more here than for an occupied year-round home.",
+      },
+      {
+        heading: "Fall stink bugs and mice in vacant rental cabins",
+        body: "Stink bugs follow the same fall aggregation pattern seen across southeast Ohio, gathering on sun-warmed cabin walls in September and October before pushing inside through any available gap. Mice follow a similar seasonal push but face an added advantage in Logan: a cabin that sits empty for stretches between guest bookings gives them time to find an entry point and settle in undisturbed. Regular exterior inspection between bookings, along with sealing obvious gaps before the cooler months, keeps both pests from taking hold in a property that is not occupied every night to notice the early signs.",
+      },
+    ],
+    prevention: [
+      "Check thoroughly for ticks after hiking the Hocking Hills trail system, especially during the May through June nymph peak.",
+      "Schedule a property-line tick treatment for cabin rentals with heavy foot traffic between the woods and the door.",
+      "Keep wood piles away from cabin exteriors to reduce carpenter ant and spider shelter.",
+      "Inspect vacant rental cabins between bookings and seal gaps before fall to keep stink bugs and mice from settling in undisturbed.",
+    ],
+    costNote:
+      "General pest plans for year-round Logan homes run $130 to $250 per year. Cabin rental properties often add a property-line tick treatment for $100 to $200 per application, plus a between-bookings inspection service. Fall exclusion work to seal a cabin before winter runs $150 to $300.",
+    faqs: [
+      {
+        question: "How bad are ticks on the Hocking Hills trails near Logan?",
+        answer:
+          "Tick populations are active from March through November in the dense forest cover along the Hocking Hills trail system, with a nymph peak in May and June that is easy to miss. Anyone hiking near Logan should check thoroughly afterward.",
+      },
+      {
+        question: "Do Logan's cabin rentals need different pest control than a regular home?",
+        answer:
+          "Often, yes. A cabin that sits vacant for stretches between guest bookings gives mice, spiders, and carpenter ants extra time to settle in undisturbed. Regular between-bookings inspection is worth the added step for rental operators.",
+      },
+      {
+        question: "What pests are most common in wooded cabins around Logan?",
+        answer:
+          "Carpenter ants and spiders are the most consistent concerns, both favoring the dead wood, wood piles, sandstone outcrops, and crawl spaces common to cabins built into the wooded hillsides around Logan.",
+      },
+      {
+        question: "When do stink bugs move into Logan cabins?",
+        answer:
+          "Stink bugs gather on sun-warmed cabin walls in September and October before pushing inside through any available gap, the same fall pattern seen across southeast Ohio.",
+      },
+      {
+        question: "Are mice a bigger problem in vacant rental cabins?",
+        answer:
+          "Yes. A cabin around Logan that sits empty for stretches between bookings gives mice more time to find an entry point and settle in before anyone notices, compared to a home that is occupied every night.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Marietta", slug: "marietta-oh", stateSlug: "ohio" },
+      { name: "Wilmington", slug: "wilmington-oh", stateSlug: "ohio" },
+      { name: "Cambridge", slug: "cambridge-oh", stateSlug: "ohio" },
+      { name: "Bedford", slug: "bedford-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Logan, OH | Hocking Hills Ticks, Ants & Cabin Pests",
+    metaDescription:
+      "Logan, OH pest control for Hocking Hills ticks, carpenter ants, spiders in wooded cabins, fall stink bugs and mice. Hocking County service. Free inspection.",
+  },
+  {
+    slug: "bedford-oh",
+    name: "Bedford",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~13,100",
+    county: "Cuyahoga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bedford sits along Tinkers Creek in the eastern Cleveland suburbs of Cuyahoga County, where Lake Erie's lake-effect influence adds extra humidity and cloud cover to an already humid continental climate of warm summers and cold, snowy winters. The Tinkers Creek Gorge, a National Natural Landmark that cuts through Bedford Reservation just outside town, brings damp, wooded ravine habitat directly against a dense inner-ring suburban housing stock built mostly before 1960.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Ticks", "Termites", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Tinkers Creek Gorge, protected as a National Natural Landmark within Bedford Reservation, holds shaded, slow-moving water and dense understory that mosquitoes favor, with pressure building through May, June, and July.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Bedford homes closest to the gorge's forest edge see the most carpenter ant activity, as the ants nest in dead or moisture-damaged timber and forage into nearby structures.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymph peak in late spring",
+        note: "Ticks are established in Bedford Reservation's wooded trail network around the gorge, and Bedford properties that back directly onto the reservation see meaningfully more exposure than homes further into the suburb's interior.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note: "Much of Bedford's housing stock was built before 1960, during the city's growth as a Cleveland streetcar suburb, and older sill plates and porch posts often have wood-to-soil contact points that give termites an opening.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sun-warmed exterior walls in September and October and push indoors through any available gap, a pattern seen throughout northeast Ohio.",
+      },
+    ],
+    localHook:
+      "Tinkers Creek cuts through a gorge just outside Bedford that is recognized as a National Natural Landmark, complete with a waterfall where Ohio's early settlers once powered flour and textile mills. That gorge sits directly against Bedford's dense, mostly pre-1960 inner-ring suburban housing, giving the city a wooded-ravine pest exposure that most Cleveland-area suburbs its size do not share.",
+    intro:
+      "Bedford's pest pattern comes from an unusual pairing: a National Natural Landmark gorge right at the edge of a dense, older Cleveland suburb. Tinkers Creek cuts through Bedford Reservation just outside town, dropping over a waterfall that once powered 19th century flour and textile mills, and that damp, wooded ravine sits close enough to Bedford's mostly pre-1960 housing stock to shape what residents deal with. Mosquitoes breed in the creek's slower pools and shaded wet spots through summer. Carpenter ants and ticks both move in from the gorge's forest edge. Termites find plenty of old wood-to-soil contact in Bedford's older inner-ring homes, and stink bugs follow the same fall pattern common across northeast Ohio.",
+    sections: [
+      {
+        heading: "Mosquitoes and ticks from the Tinkers Creek Gorge",
+        body: "Tinkers Creek Gorge, protected as a National Natural Landmark within Bedford Reservation, holds the kind of shaded, slow-moving water and dense understory that both mosquitoes and ticks favor. Mosquitoes breed in the creek's calmer pools and any standing water along the ravine edge, with pressure building through May, June, and July. Ticks are established in the reservation's wooded trail network, most active from March through November with a nymph peak in late spring, and anyone hiking near the falls or letting a dog off leash in the wooded sections should check carefully afterward. Bedford properties that back directly onto the reservation see meaningfully more of both pests than homes further into the suburb's interior.",
+      },
+      {
+        heading: "Termites and carpenter ants in Bedford's older housing",
+        body: "Much of Bedford's housing stock was built before 1960, during the city's growth as a Cleveland streetcar suburb, and that age brings real termite exposure. Eastern subterranean termites work from the soil upward, and older sill plates, porch posts, and any wood left in contact with grade give them an opening. Swarms typically appear March through May. Carpenter ants add a second wood-damaging concern, particularly for homes closest to the gorge's forest edge, where they nest in the surrounding dead or moisture-damaged timber and forage into nearby structures, especially where a roof or plumbing leak has softened wood enough to make excavation easy.",
+      },
+      {
+        heading: "Fall stink bugs across Bedford",
+        body: "Stink bugs follow the same seasonal pattern seen throughout northeast Ohio, gathering on sun-warmed exterior walls in September and October and pushing indoors through any available gap as temperatures drop. Bedford's mix of older brick and frame homes gives them plenty of entry points, particularly around older window frames and siding that has settled over the decades. Sealing the exterior before September remains the most effective way to keep the fall invasion from turning into an indoor nuisance through winter.",
+      },
+    ],
+    prevention: [
+      "Clear standing water and check for mosquito breeding sites on properties that back onto Tinkers Creek Gorge or Bedford Reservation.",
+      "Check thoroughly for ticks after hiking the reservation's wooded trails, especially during the late spring nymph peak.",
+      "Schedule an annual termite inspection for any Bedford home built before 1960.",
+      "Remove dead or moisture-damaged wood near the forest edge to reduce carpenter ant nesting sites.",
+    ],
+    costNote:
+      "General quarterly pest plans in Bedford run $130 to $260 per year. Termite inspection is typically free, with protection plans for older pre-1960 homes priced by structure size. Tick and mosquito treatment for properties bordering Bedford Reservation runs $90 to $180 per application.",
+    faqs: [
+      {
+        question: "Does Tinkers Creek Gorge affect pest control in Bedford?",
+        answer:
+          "Yes. The gorge, protected as a National Natural Landmark within Bedford Reservation, holds shaded, slow-moving water and dense forest that both mosquitoes and ticks favor. Bedford properties backing onto the reservation see more exposure than homes further into the suburb.",
+      },
+      {
+        question: "Are Bedford's older homes at risk for termites?",
+        answer:
+          "Yes. Much of Bedford's housing stock was built before 1960 during the city's growth as a Cleveland streetcar suburb, and older sill plates and porch posts often have wood-to-soil contact points that give eastern subterranean termites an opening.",
+      },
+      {
+        question: "When are ticks most active in Bedford Reservation?",
+        answer:
+          "Ticks are active from March through November in the reservation's wooded trail network around Tinkers Creek Gorge, with a nymph peak in late spring when they are smallest and easiest to miss.",
+      },
+      {
+        question: "Do carpenter ants come from the gorge into Bedford homes?",
+        answer:
+          "Homes closest to the gorge's forest edge see the most carpenter ant activity, since the ants nest in dead or moisture-damaged timber in the surrounding woods and forage into nearby structures.",
+      },
+      {
+        question: "When do stink bugs invade Bedford homes?",
+        answer:
+          "Stink bugs gather on sun-warmed exterior walls in September and October and push indoors through any available gap as temperatures drop, a pattern common throughout northeast Ohio.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Marietta", slug: "marietta-oh", stateSlug: "ohio" },
+      { name: "Wilmington", slug: "wilmington-oh", stateSlug: "ohio" },
+      { name: "Cambridge", slug: "cambridge-oh", stateSlug: "ohio" },
+      { name: "Logan", slug: "logan-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bedford, OH | Tinkers Creek Gorge Mosquitoes & Ticks",
+    metaDescription:
+      "Bedford, OH pest control for Tinkers Creek Gorge mosquitoes and ticks, termites in pre-1960 homes, carpenter ants and fall stink bugs. Cuyahoga County service.",
+  },
 ];
