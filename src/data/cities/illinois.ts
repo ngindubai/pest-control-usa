@@ -10464,4 +10464,559 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Streator, IL pest control for carpenter ants in worker-cottage housing, fall cluster flies and boxelder bugs, and winter mice. Free inspection.",
   },
+  {
+    slug: "mattoon-il",
+    name: "Mattoon",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~16,600",
+    county: "Coles County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mattoon sits in Coles County where the timbered south half of the county gives way to open prairie to the north, a transition shaped by two rivers, the Embarras to the east and the Kaskaskia to the west. The humid continental climate brings warm, sticky summers and cold winters, and the mix of remnant hardwood timber and farmed prairie around the city creates two distinct pest pressures depending on which side of town a property sits.",
+    topPests: ["Carpenter Ants", "House Mice", "Termites", "Stink Bugs", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The hardwood remnants along the Embarras River east of Mattoon keep carpenter ants active in older siding, stumps, and any softened deck lumber left near the tree line.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The open prairie farmland north of Mattoon empties out fast once combines move through each fall, and the mice that lose their cover head straight for the nearest foundation gap in town.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Mattoon's railroad-era downtown, built up quickly after the 1855 crossing of the Illinois Central and Big Four lines, still has brick and frame storefronts with old wood-to-soil contact points that subterranean termites exploit.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the sun-warmed brick storefronts of Mattoon's historic downtown each fall before finding a gap into the century-old buildings behind them.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The low bottomland along the Kaskaskia River west of Mattoon holds standing water through the warm months, giving mosquitoes a steady breeding ground that inland prairie neighborhoods do not have.",
+      },
+    ],
+    localHook:
+      "Mattoon grew up around the 1855 crossing of the Illinois Central and the Cleveland, Cincinnati, Chicago and St. Louis (Big Four) railroads, and that same junction later gave the city an unusual nickname: in 1963, a Lender's Bagel Bakery opened here, and Mattoon has called itself the Bagel Capital of the World ever since. That railroad-era downtown, sitting at the point where Coles County's southern timberline meets its northern prairie, still shapes what pest control looks like here.",
+    intro:
+      "Mattoon's pest pressure follows the line where Coles County's southern timberline meets its open northern prairie, a split that has shaped the city since railroads first crossed here in 1855. The Illinois Central and Big Four rail junction pulled the town's brick downtown up fast, and those century-old storefronts now give stink bugs and mice easy winter shelter. West of downtown, the low bottomland along the Kaskaskia River holds standing water long enough each summer to breed mosquitoes, while the hardwood remnants along the Embarras River to the east keep carpenter ants active in older siding and stumps. Termites work the same wood-to-soil weaknesses in Mattoon's oldest railroad-era buildings, the same ones now known for a Lender's Bagel Bakery that earned the city its Bagel Capital of the World nickname in 1963.",
+    sections: [
+      {
+        heading: "Where Mattoon's timberline meets its prairie",
+        body: "Coles County splits cleanly along an old timberline, forest to the south, prairie to the north, and Mattoon sits close enough to that line that both zones shape the city's pest pressure. Homes toward the east side of town, nearer the Embarras River's hardwood remnants, deal with carpenter ants working old stumps, softened deck lumber, and any siding with a moisture problem. Homes and farmsteads toward the open prairie north of the city see a different pattern: house mice pouring out of harvested corn and soybean fields each September and October, looking for anywhere warmer than a stripped field. Neither problem is dramatic on its own, but a property near the edge of town, in either direction, tends to see more pressure than one tucked further into Mattoon's core. Knowing which side of that old timberline a property sits on is a reasonable first step in figuring out what to watch for.",
+      },
+      {
+        heading: "Termites and stink bugs in the railroad-era downtown",
+        body: "Mattoon grew up fast after 1855, when the Illinois Central Railroad crossed the Cleveland, Cincinnati, Chicago and St. Louis line, known locally as the Big Four, right through what became downtown. The brick and frame storefronts built during that boom are now more than a century and a half old, and plenty still have the kind of wood-to-soil contact points that were standard construction practice at the time but are a liability today. Subterranean termites swarm in Mattoon from April through June and stay active well into fall, working quietly at any foundation with that old vulnerability. The same downtown buildings draw stink bugs every September and October, when the insects stage on sun-warmed brick walls looking for a crack to slip through before winter. Once inside, they hole up in wall voids and attics until a warm day pulls them back into living space. A downtown property's age is a fair predictor of how much attention both pests deserve.",
+      },
+      {
+        heading: "Mosquitoes along the Kaskaskia bottomland",
+        body: "West of Mattoon, the ground drops toward the Kaskaskia River, and that bottomland holds water differently than the rest of the city. Low spots and drainage ditches near the river stay saturated well after a spring rain, and by May that standing water is breeding mosquitoes in numbers that inland Mattoon neighborhoods rarely match. The season runs through September most years, peaking after wet stretches in June and July. Clearing gutters, dumping any container that collects rainwater, and treating pools that cannot be drained are the most effective steps for bottomland properties, more so here than for homes tucked into the drier prairie north side of town. Anyone living or working near the Kaskaskia should expect mosquito pressure to outlast the rest of Mattoon's warm-season pest activity by a few weeks on either end.",
+      },
+    ],
+    prevention: [
+      "Inspect downtown and railroad-era buildings for termites every spring, especially structures with visible wood-to-soil contact.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to keep prairie-area house mice from moving indoors.",
+      "Remove old stumps and softened deck lumber near Embarras River timberline lots to reduce carpenter ant nesting.",
+      "Clear gutters and treat standing water along the Kaskaskia bottomland each spring before mosquito season builds.",
+    ],
+    costNote:
+      "General quarterly pest plans in Mattoon typically run $120 to $240 per year. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,100 for downtown and railroad-era buildings. Mosquito season treatments for Kaskaskia bottomland properties add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why does Mattoon call itself the Bagel Capital of the World?",
+        answer:
+          "A Lender's Bagel Bakery opened in Mattoon in 1963, and the city has used the nickname ever since. It has nothing to do with pest pressure directly, but the same railroad-era downtown that grew up around the 1855 rail junction is the part of the city with the oldest buildings, and therefore the most termite and stink bug exposure.",
+      },
+      {
+        question: "Do carpenter ants come from the Embarras River timber east of Mattoon?",
+        answer:
+          "Often, yes. The hardwood remnants along the Embarras River keep carpenter ants active in older siding, stumps, and softened deck lumber on the east side of town more than in prairie-facing neighborhoods.",
+      },
+      {
+        question: "When is mosquito season worst in Mattoon?",
+        answer:
+          "May through September, with the heaviest pressure in the low bottomland along the Kaskaskia River west of the city, where standing water lingers longer than anywhere else in town.",
+      },
+      {
+        question: "Are termites a real risk in Mattoon's older buildings?",
+        answer:
+          "Yes. Mattoon's downtown grew up quickly after the 1855 crossing of the Illinois Central and Big Four railroads, and many of those brick and frame buildings still have old wood-to-soil contact points that subterranean termites can exploit.",
+      },
+      {
+        question: "Why do house mice surge in Mattoon every fall?",
+        answer:
+          "The open prairie farmland north of the city gets harvested each September and October, and the mice that lose their field cover head for the nearest foundation gap, which is often a home at the edge of town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Charleston", slug: "charleston-il", stateSlug: "illinois" },
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Sycamore", slug: "sycamore-il", stateSlug: "illinois" },
+      { name: "Yorkville", slug: "yorkville-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Mattoon, IL | Timberline Ants & Railroad-Era Termites",
+    metaDescription:
+      "Mattoon, IL pest control for carpenter ants, harvest-season mice, downtown termites, fall stink bugs and Kaskaskia bottomland mosquitoes. Coles County service. Free inspection.",
+  },
+  {
+    slug: "charleston-il",
+    name: "Charleston",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~17,300",
+    county: "Coles County",
+    climate: "cold-humid",
+    climateDriver:
+      "Charleston sits in the same Coles County timberline as neighboring Mattoon, but tips further toward the wooded side: tallgrass prairie holds the land west of the city while beech-maple forest and the Embarras and Wabash Rivers run through the eastern half. The humid continental climate brings warm, muggy summers and cold winters, and the university-driven turnover of Eastern Illinois University's student population adds a housing-stock factor prairie farm towns nearby do not have.",
+    topPests: ["Carpenter Ants", "Termites", "Mosquitoes", "Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The beech-maple forest that runs along the Embarras and Wabash Rivers east of Charleston puts carpenter ants in regular contact with homes backing onto wooded lots, especially where old firewood or a stump sits near the foundation.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Charleston's mix of century-old homes near downtown and the Eastern Illinois University campus, established in 1895, gives subterranean termites plenty of older wood-to-soil contact points to work.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Embarras and Wabash Rivers both run through the wooded eastern half of Charleston, and the low ground between them holds water long enough each summer to breed mosquitoes at levels the prairie side of town does not see.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Charleston's older neighborhoods near campus see stink bugs stage on brick and sided exteriors each fall before working into attics and wall voids for winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Off-campus student housing near Eastern Illinois University turns over every August, and the gaps left behind by moves and renovations give house mice easy entry each fall.",
+      },
+    ],
+    localHook:
+      "Eastern Illinois University traces back to 1895, when the Eastern Illinois State Normal School was established in Charleston, and the campus now enrolls roughly 8,100 undergraduate and graduate students in a city of about 17,300 people. That student population, cycling through off-campus housing every August, sits inside a county that splits between tallgrass prairie to the west and beech-maple forest along the Embarras and Wabash Rivers to the east, and both facts shape Charleston's pest pressure in different ways.",
+    intro:
+      "Charleston's pest picture starts with two things that have nothing to do with each other on the surface: Eastern Illinois University, established in 1895 and now home to roughly 8,100 students, and the beech-maple forest that runs along the Embarras and Wabash Rivers through the eastern half of the city. The university drives constant turnover in off-campus housing, and every August's move-in and move-out season opens gaps that house mice and stink bugs exploit come fall. The wooded river corridor to the east puts carpenter ants in regular contact with homes on forested lots, while the same low, river-adjacent ground breeds mosquitoes all summer. Century-old homes near downtown and campus carry old wood-to-soil contact points that keep termites a standing concern. A Charleston property's distance from campus and from the river corridor both matter for what to expect.",
+    sections: [
+      {
+        heading: "Student housing turnover and Charleston's fall pest surge",
+        body: "Eastern Illinois University's roughly 8,100 students move in and out of off-campus housing every August, and that annual churn leaves behind more gaps than a typical Illinois college town of Charleston's size. Doors propped open during move day, screens left unrepaired over a long summer, and units sitting vacant between leases all give house mice and stink bugs an easier path indoors once the weather turns in September and October. Landlords and tenants near campus see more of both pests than homeowners in Charleston's older, more stable west-side neighborhoods. The fix is mostly about timing: sealing obvious gaps and checking screens before the fall semester starts, rather than after the first cold snap when mice and stink bugs have already found a way in. Off-campus rental properties benefit from an inspection scheduled around the August turnover rather than a generic quarterly calendar.",
+      },
+      {
+        heading: "Carpenter ants and mosquitoes along the Embarras and Wabash",
+        body: "The beech-maple forest that runs through eastern Charleston along the Embarras and Wabash Rivers is the same wooded corridor that gives the area its tallgrass-prairie-to-forest contrast, and it is where most of the city's carpenter ant activity originates. Homes backing onto those wooded lots see ants working old firewood piles, stumps, and any softened wood near the foundation, active from March through October. The same river corridor holds low, saturated ground through the warm months, and that standing water breeds mosquitoes at a rate the drier, prairie-facing west side of Charleston does not match. Mosquito season runs May through September, with the worst pressure in wet years when the rivers stay high into early summer. Properties near the Embarras or Wabash benefit from source reduction, clearing gutters and dumping standing water, more than properties on the prairie side of town, where the pest calendar leans more toward mice and stink bugs than ants and mosquitoes.",
+      },
+      {
+        heading: "Termites in Charleston's century-old housing stock",
+        body: "Charleston's older homes, many built well before Eastern Illinois University's 1895 founding reshaped the city's growth, still carry the wood-to-soil contact points that were standard practice at the time. Subterranean termites swarm here from April through June and stay active through the growing season, working quietly at foundations near downtown and the older blocks closest to campus. Newer construction on the edges of town generally carries less risk, since modern foundations account for the moisture and contact issues that older homes do not. An annual inspection is a reasonable baseline for any Charleston property built before the mid-1900s, and a prompt inspection after any plumbing leak or foundation crack catches problems before they spread.",
+      },
+    ],
+    prevention: [
+      "Schedule off-campus rental inspections around the August student turnover rather than waiting for a fall cold snap.",
+      "Remove firewood piles and stumps near wooded lots along the Embarras and Wabash corridor to reduce carpenter ant nesting.",
+      "Clear gutters and treat standing water near the river corridor each spring before mosquito season builds.",
+      "Have century-old homes near downtown and campus inspected annually for termites, and promptly after any plumbing leak.",
+    ],
+    costNote:
+      "General quarterly pest plans in Charleston typically run $125 to $245 per year. Off-campus rental inspections timed to the August turnover run $90 to $160. Termite inspections are usually free, with treatment for older downtown and campus-area homes typically $500 to $1,150.",
+    faqs: [
+      {
+        question: "Does Eastern Illinois University's student turnover affect pest control in Charleston?",
+        answer:
+          "Yes. The university's roughly 8,100 students move in and out of off-campus housing every August, and the gaps left behind by that turnover give house mice and stink bugs an easier path indoors each fall, especially in neighborhoods closest to campus.",
+      },
+      {
+        question: "Are carpenter ants common near the Embarras and Wabash Rivers in Charleston?",
+        answer:
+          "Yes. The beech-maple forest along both rivers east of the city puts carpenter ants in regular contact with homes on wooded lots, particularly where firewood or a stump sits near the foundation.",
+      },
+      {
+        question: "How old are Charleston's termite-risk homes?",
+        answer:
+          "Many of Charleston's oldest homes near downtown predate Eastern Illinois University's 1895 founding and still have wood-to-soil contact points from original construction, which is why annual inspection is the practical baseline for that part of the city.",
+      },
+      {
+        question: "Is mosquito pressure worse on one side of Charleston than the other?",
+        answer:
+          "Yes. The low ground along the Embarras and Wabash Rivers in eastern Charleston holds water through the summer and breeds more mosquitoes than the drier, prairie-facing west side of town.",
+      },
+      {
+        question: "When do stink bugs show up in Charleston?",
+        answer:
+          "September through November, staging on exterior walls before working into attics and wall voids, a pattern that hits older neighborhoods near campus especially hard given how much housing turnover happens right before fall.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Mattoon", slug: "mattoon-il", stateSlug: "illinois" },
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Sycamore", slug: "sycamore-il", stateSlug: "illinois" },
+      { name: "Yorkville", slug: "yorkville-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Charleston, IL | Campus Turnover & River Forest Pests",
+    metaDescription:
+      "Charleston, IL pest control for student-housing turnover pests, carpenter ants, termites, mosquitoes and fall stink bugs near EIU. Coles County service. Free inspection.",
+  },
+  {
+    slug: "effingham-il",
+    name: "Effingham",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~12,300",
+    county: "Effingham County",
+    climate: "cold-humid",
+    climateDriver:
+      "Effingham sits at the junction of Interstate 57 and Interstate 70 in south-central Illinois, a crossing point the city calls the Crossroads of Opportunity that sees more than 19 million vehicles pass through each year. The humid continental climate brings warm summers and cold winters typical of the region, but it is the volume of freight and commercial trucking through the interchange, more than any single body of water, that shapes Effingham's pest pressure.",
+    topPests: ["House Mice", "Cockroaches", "Stink Bugs", "Indian Meal Moths", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The farmland ringing Effingham on all sides empties out fast during the fall harvest, and the mice that lose their field cover often end up at the truck stops and warehouses clustered near the I-57 and I-70 interchange before they ever reach a home.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoor",
+        note: "Effingham's role as a freight crossroads, with more than 19 million vehicles passing the interchange each year, means truck stops, motels, and distribution facilities near the interstate see more cockroach pressure from incoming vehicle and cargo traffic than a typical south-central Illinois town of its size.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on the sunniest exterior walls of Effingham homes each fall before finding a gap to slip through, a pattern common across the flat farmland of south-central Illinois.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in warehouse and pantry settings",
+        note: "The distribution and logistics warehouses that cluster around Effingham's interstate interchange carry stored-product pest risk if an infested shipment moving along I-57 or I-70 goes unnoticed.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older wood-frame homes in Effingham's residential blocks away from the interstate see carpenter ant activity wherever a roof leak or plumbing issue has softened the wood enough to make it easy to excavate.",
+      },
+    ],
+    localHook:
+      "Effingham sits right where Interstate 57 meets Interstate 70, a crossing the city has branded the Crossroads of Opportunity, and more than 19 million vehicles pass through that interchange every year. Just west of town on I-70 stands a 198-foot white cross, visible to an estimated 35,000 vehicles a day, a landmark almost as well known as the interchange itself. That volume of freight and commercial traffic, more than the surrounding farmland, sets Effingham's pest profile apart from other south-central Illinois county seats.",
+    intro:
+      "Effingham's location at the junction of Interstate 57 and Interstate 70, a crossing point the city calls the Crossroads of Opportunity, puts more than 19 million vehicles through town every year, and that volume shapes the local pest picture as much as the farmland surrounding it does. Truck stops, motels, and warehouse space clustered near the interchange see cockroach and stored-product pest pressure tied to incoming vehicle and cargo traffic, a scale of concern most nearby farm towns never have to think about. The corn and soybean fields ringing the city still send house mice toward town each fall harvest, and stink bugs follow the same seasonal pattern common across south-central Illinois. Older residential blocks away from the interstate carry a smaller but real carpenter ant risk tied to moisture damage. A property's distance from the interchange is often the clearest sign of which pest pressure matters most.",
+    sections: [
+      {
+        heading: "Freight traffic and cockroach pressure at the interstate interchange",
+        body: "Effingham's identity is tied to its position at the junction of I-57 and I-70, and the city sees more than 19 million vehicles cross that interchange each year. Truck stops, motels, and distribution facilities clustered around the interstate exits handle a volume of incoming vehicle and cargo traffic that a typical south-central Illinois town never sees, and cockroaches move easily along with that traffic, riding in on pallets, luggage, and vehicle cabs. Commercial properties near the interchange, especially those handling food service or overnight lodging, benefit from a monitoring program built around that traffic pattern rather than a standard quarterly visit. Residential neighborhoods further from the interstate see far less of this pressure, since the roaches that do arrive tend to concentrate around the commercial corridor rather than spreading into surrounding housing. Business owners near the interchange should treat incoming shipment inspection as part of their pest program, not a separate task.",
+      },
+      {
+        heading: "Warehouse stored-product pests along I-57 and I-70",
+        body: "The same interchange that draws truck stops and motels to Effingham also supports a cluster of distribution and logistics warehouses handling freight moving along both interstates. Facilities that store or transfer packaged food or agricultural products face a stored-product pest risk that a typical home or small office does not: Indian meal moths and similar pests can spread through a warehouse quickly once an infested shipment or a torn package goes unnoticed. Effective coverage for these facilities usually means inspection of incoming goods, pheromone monitoring traps placed through the storage area, and a rapid response protocol if activity is confirmed, a different scope of work than the seasonal exclusion service a nearby farmhouse needs. Warehouse tenants near the interchange should expect this to be quoted separately from residential pest plans.",
+      },
+      {
+        heading: "Harvest mice, stink bugs, and carpenter ants away from the interstate",
+        body: "Away from the interchange, Effingham's pest calendar looks more like the rest of south-central Illinois. The corn and soybean fields that ring the city on every side get harvested each September and October, and the field mice that lose their cover during that process head for the nearest structure, which for a lot of Effingham homes means a residential block at the edge of town. Stink bugs follow the same regional fall pattern, staging on sunny exterior walls before finding a gap to slip through and overwintering in attics and wall voids. Carpenter ants are a smaller concern in Effingham's older wood-frame housing, usually tied to a specific moisture source like a roof leak or a slow plumbing leak rather than the interstate traffic that defines the rest of the city's pest profile.",
+      },
+    ],
+    prevention: [
+      "Commercial properties near the I-57/I-70 interchange should inspect incoming shipments and vehicles as part of routine cockroach prevention.",
+      "Warehouse tenants should use pheromone monitoring traps to catch stored-product pests like Indian meal moths early.",
+      "Seal foundation gaps before the fall harvest to keep farmland-driven house mice out of homes at the edge of town.",
+      "Address roof and plumbing leaks promptly in older wood-frame homes to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General quarterly pest plans for Effingham homes typically run $120 to $240 per year. Commercial cockroach and stored-product monitoring programs for interchange-area businesses and warehouses are quoted separately by facility size, often starting around $150 per visit. Fall exclusion service for mice and stink bugs runs $140 to $280.",
+    faqs: [
+      {
+        question: "Why does Effingham have more cockroach pressure than nearby towns?",
+        answer:
+          "Effingham sits at the junction of Interstate 57 and Interstate 70, with more than 19 million vehicles crossing that interchange every year. The truck stops, motels, and warehouses clustered near the interstate see cockroach pressure tied to that traffic that a typical farm town does not.",
+      },
+      {
+        question: "What pest risk do Effingham's interstate-area warehouses face?",
+        answer:
+          "Distribution facilities near the I-57/I-70 interchange handle freight that can carry stored-product pests like Indian meal moths. Inspection of incoming goods and pheromone monitoring traps are the standard prevention approach for these facilities.",
+      },
+      {
+        question: "Do house mice surge in Effingham every fall?",
+        answer:
+          "Yes. The corn and soybean fields surrounding Effingham get harvested each September and October, and the field mice that lose their cover head for the nearest structure, often a home at the edge of the city.",
+      },
+      {
+        question: "Is the 198-foot cross near Effingham related to pest control?",
+        answer:
+          "No, but it marks the same I-70 corridor that brings the freight and vehicle traffic driving Effingham's above-average cockroach and stored-product pest concerns near the interchange.",
+      },
+      {
+        question: "Are carpenter ants a problem in Effingham?",
+        answer:
+          "They can be in older wood-frame homes away from the interstate, usually where a roof leak or plumbing issue has softened wood enough to make it easy for ants to excavate.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Mattoon", slug: "mattoon-il", stateSlug: "illinois" },
+      { name: "Charleston", slug: "charleston-il", stateSlug: "illinois" },
+      { name: "Sycamore", slug: "sycamore-il", stateSlug: "illinois" },
+      { name: "Yorkville", slug: "yorkville-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Effingham, IL | Interstate Crossroads Pest Pressure",
+    metaDescription:
+      "Effingham, IL pest control for interstate-driven cockroaches, warehouse stored-product pests, harvest mice, stink bugs and carpenter ants. Free inspection.",
+  },
+  {
+    slug: "sycamore-il",
+    name: "Sycamore",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~18,100",
+    county: "DeKalb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sycamore sits along the south bank of the East Branch of the South Branch Kishwaukee River in DeKalb County, on gently rolling ground that was originally heavily forested before the first settlers arrived in 1835. The humid continental climate brings warm summers and cold winters, and the combination of river-adjacent lowland and the city's rich, once-forested soil gives Sycamore a pest calendar built around both water and wood.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Termites", "Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The East Branch of the South Branch Kishwaukee River runs along Sycamore's south side, and the low ground near its banks holds water long enough each summer to breed mosquitoes at a higher rate than the rolling farmland further from the riverbank.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Sycamore's original settlers in 1835 found the area heavily forested, and pockets of that legacy woodland still stand around the city today, keeping carpenter ants active in older trees, stumps, and any softened deck lumber near a wooded lot.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Sycamore's historic downtown, built up after the city's 1869 incorporation and its railroad-driven growth, has brick and frame buildings old enough to carry the wood-to-soil contact points that subterranean termites look for.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the sun-warmed brick storefronts of Sycamore's historic downtown square each fall before finding a gap into the older buildings behind them.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The rolling farmland surrounding Sycamore on the DeKalb County prairie sends house mice toward the city's edge each fall as combines clear the fields they had been living in.",
+      },
+    ],
+    localHook:
+      "Sycamore was first settled in 1835, when the surrounding land was still heavily forested, and the city that grew up along the East Branch of the South Branch Kishwaukee River took its name from the sycamore trees that lined the water. Incorporated as a city in 1869 once the railroad reached town, Sycamore's historic downtown and its river frontage still define the two biggest pest pressures here today.",
+    intro:
+      "Sycamore's pest calendar traces back to the same two things that shaped the city's founding in 1835: the East Branch of the South Branch Kishwaukee River running along its south side, and the heavily forested land the first settlers found when they arrived. The river's low banks hold water well into summer, breeding mosquitoes at levels the rolling farmland further from the water does not match. Pockets of legacy woodland around the city keep carpenter ants working old trees and stumps, while Sycamore's historic downtown, built up after the city's 1869 incorporation, gives termites and fall stink bugs plenty of century-old brick and frame buildings to work with. The DeKalb County prairie surrounding Sycamore sends house mice toward the edge of town each fall harvest. Where a property sits, river bottom, wooded lot, historic downtown, or open prairie edge, is the clearest predictor of what to expect.",
+    sections: [
+      {
+        heading: "Mosquitoes along the Kishwaukee River",
+        body: "The East Branch of the South Branch Kishwaukee River runs along Sycamore's south side, and the low ground near its banks stays wetter through the summer than the rolling farmland that makes up most of the rest of the city. That standing water is where Sycamore's mosquito season starts each May, and it typically runs through September, peaking after wet stretches in June and July. Properties closest to the river see noticeably more pressure than those on the higher, drier ground toward the north and west sides of town. Source reduction, clearing gutters, dumping any container that collects rainwater, and treating pools that cannot be drained, matters more for river-adjacent homes than for the rest of Sycamore, simply because there is more standing water nearby to manage through a typical summer.",
+      },
+      {
+        heading: "Carpenter ants in Sycamore's legacy woodland",
+        body: "When the first settlers reached the Sycamore area in 1835, they found land that was heavily forested, and pockets of that original woodland still stand in and around the city today. Homes on or near those wooded lots see more carpenter ant activity than homes on open, cleared ground, since the ants work old trees, stumps, and any softened deck lumber left near the tree line. The season runs March through October, with the most visible activity in the warmer months when ants forage furthest from the nest. Removing old stumps, keeping firewood away from the foundation, and addressing moisture problems in wood siding or decking near a wooded lot are the most effective steps a Sycamore property owner near the legacy woodland can take.",
+      },
+      {
+        heading: "Termites and stink bugs in Sycamore's historic downtown",
+        body: "Sycamore's downtown grew up quickly once the city incorporated in 1869 and the railroad reached town, and the brick and frame buildings from that era are now more than a century and a half old. Many still carry the wood-to-soil contact points that were ordinary construction practice at the time, and subterranean termites exploit those gaps every spring and summer. The same downtown buildings draw stink bugs each September and October, when the insects stage on sun-warmed brick walls before finding a crack to slip through ahead of winter. Once inside, they settle into attics and wall voids until a warm day pulls them back out. Property owners in Sycamore's historic downtown should treat both pests as a standing concern tied directly to the age of the buildings rather than a one-time issue.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and treat standing water near the Kishwaukee River each spring before mosquito season builds.",
+      "Remove old stumps and keep firewood away from the foundation on wooded lots near Sycamore's legacy woodland.",
+      "Have historic downtown buildings inspected annually for termites, especially those with visible wood-to-soil contact.",
+      "Seal exterior gaps around downtown brick storefronts before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "General quarterly pest plans in Sycamore typically run $125 to $245 per year. Termite inspections are usually free, with treatment for historic downtown buildings often $500 to $1,150 depending on structure size. Mosquito season treatments for river-adjacent properties add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure worse near the Kishwaukee River in Sycamore?",
+        answer:
+          "The East Branch of the South Branch Kishwaukee River runs along Sycamore's south side, and the low ground near its banks holds standing water well into summer, giving mosquitoes more breeding habitat than the drier farmland elsewhere in the city.",
+      },
+      {
+        question: "Does Sycamore's forested history affect carpenter ant activity today?",
+        answer:
+          "Yes. The area was heavily forested when settlers arrived in 1835, and pockets of that original woodland still stand around the city. Homes near those wooded lots see more carpenter ant activity than homes on cleared, open ground.",
+      },
+      {
+        question: "Are termites common in Sycamore's historic downtown?",
+        answer:
+          "Yes. Downtown Sycamore grew up quickly after the city's 1869 incorporation, and many of its century-and-a-half-old brick and frame buildings still have wood-to-soil contact points that subterranean termites can exploit.",
+      },
+      {
+        question: "When do stink bugs show up in Sycamore?",
+        answer:
+          "September through November, staging on the sun-warmed brick walls of the historic downtown before finding a gap to slip through, then overwintering in attics and wall voids until spring.",
+      },
+      {
+        question: "Do house mice surge in Sycamore during harvest season?",
+        answer:
+          "Yes. The DeKalb County prairie farmland surrounding Sycamore gets harvested each fall, and the mice that lose their cover in the fields head toward the nearest structure at the edge of town.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mattoon", slug: "mattoon-il", stateSlug: "illinois" },
+      { name: "Charleston", slug: "charleston-il", stateSlug: "illinois" },
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Yorkville", slug: "yorkville-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Sycamore, IL | Kishwaukee River Mosquitoes & Legacy Woodland Ants",
+    metaDescription:
+      "Sycamore, IL pest control for river mosquitoes, carpenter ants in legacy woodland, historic downtown termites and stink bugs. DeKalb County service. Free inspection.",
+  },
+  {
+    slug: "yorkville-il",
+    name: "Yorkville",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~21,500",
+    county: "Kendall County",
+    climate: "cold-humid",
+    climateDriver:
+      "Yorkville sits on the Fox River in Kendall County, the fastest-growing county in the nation between 2000 and 2010, where the city has built much of its identity around the river running through downtown. The humid continental climate brings warm summers and cold winters, and the combination of river frontage, rolling end-moraine hills, and a wave of new subdivisions built during the county's rapid growth gives Yorkville a pest profile shaped as much by construction age as by geography.",
+    topPests: ["Mosquitoes", "Termites", "House Mice", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Fox River runs directly through downtown Yorkville, and the low banks and backwater areas along its course hold water long enough each summer to breed mosquitoes at a higher rate than the moraine hills further from the water.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Yorkville's older river-adjacent homes near downtown carry wood-to-soil contact points that subterranean termites exploit, a risk the newer subdivisions built during Kendall County's rapid 2000s growth generally do not share.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Kendall County's rapid growth left new subdivisions built right up against remaining farmland at Yorkville's edges, and mice displaced by the fall harvest move into those newer homes as readily as older ones.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The end-moraine hills that rise toward the west and north of Yorkville hold enough tree cover to keep carpenter ants active in yards backing onto wooded terrain.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on exterior walls throughout Yorkville each fall, from the older brick storefronts downtown to the vinyl siding of the newest subdivisions, before finding a gap to slip through.",
+      },
+    ],
+    localHook:
+      "Kendall County was the fastest-growing county in the entire United States between 2000 and 2010, and Yorkville, its county seat, expanded rapidly right along with it. The Fox River, the only river in the county, runs directly through downtown, giving the city what local officials call a river in its heart, and that mix of a much older river-adjacent downtown and a wave of new subdivisions built during the county's growth boom gives Yorkville two distinct housing stocks with two different pest risk profiles.",
+    intro:
+      "Yorkville's pest calendar is shaped by two forces that do not usually appear together in a single Illinois town: a river running straight through downtown, and one of the fastest population booms in the country. The Fox River, the only river in Kendall County, holds low ground and backwater pockets that breed mosquitoes all summer, while the end-moraine hills rising to the west and north keep carpenter ants working the tree cover on wooded lots. Kendall County was the fastest-growing county in the United States between 2000 and 2010, and Yorkville's mix of a century-old river-adjacent downtown and newer subdivisions built during that boom means termites concentrate in the older housing stock while stink bugs and fall mice show up across both old and new construction alike. A property's age and its distance from the Fox River both matter here.",
+    sections: [
+      {
+        heading: "Mosquitoes on the Fox River",
+        body: "The Fox River runs directly through downtown Yorkville, described by city officials as the river in the city's heart, and its low banks and backwater pockets hold water through the warm months in a way the higher end-moraine ground elsewhere in town does not. That standing water is where Yorkville's mosquito season begins each May, running through September and peaking after wet stretches in early summer. Downtown and river-adjacent neighborhoods see meaningfully more pressure than subdivisions built up on the higher moraine ground to the west and north, where elevations climb well above 800 feet compared to the lower 500-foot range along the water. Source reduction, clearing gutters, dumping standing water in containers, and treating pools that cannot be drained, matters most for river-adjacent properties, since that is where the bulk of Yorkville's breeding habitat sits.",
+      },
+      {
+        heading: "Termites downtown, new construction on the county's growth edge",
+        body: "Yorkville's downtown core predates the population boom that made Kendall County the fastest-growing county in the nation between 2000 and 2010, and the older buildings there carry the wood-to-soil contact points that subterranean termites look for every spring and summer. The newer subdivisions built during that growth boom, spreading out from the historic core toward the county's moraine hills, generally do not share that risk, since modern foundation practices account for it. That does not mean new construction is pest-free. House mice displaced from the farmland that used to sit where those subdivisions now stand move into new homes just as readily as old ones each fall, and stink bugs stage on siding and brick alike regardless of a building's age. Termite risk in Yorkville tracks closely with a property's age and its proximity to downtown, more than any other single factor.",
+      },
+      {
+        heading: "Carpenter ants in the moraine hills",
+        body: "The end-moraine hills that rise toward the west and north of Yorkville, part of the same glacial ridge system that shapes much of Kendall County's terrain, carry enough tree cover to keep carpenter ants active from March through October. Homes backing onto wooded sections of that moraine terrain see more ant activity than homes closer to the river or deeper into open subdivisions, since the ants work old trees, stumps, and any softened wood near the tree line. The elevation change across Yorkville is real, moraine ground reaches over 800 feet in spots while the river bottom drops to the lower 500-foot range, and that difference in terrain and tree cover is a reasonable guide to which homes see more carpenter ant pressure and which see more of the river's mosquito and termite concerns instead.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and treat standing water near the Fox River each spring before mosquito season builds.",
+      "Have downtown and older river-adjacent homes inspected annually for termites.",
+      "Seal foundation gaps in new subdivisions before the fall harvest to keep displaced farmland mice out.",
+      "Remove old stumps and softened wood near moraine-hill tree lines to reduce carpenter ant nesting.",
+    ],
+    costNote:
+      "General quarterly pest plans in Yorkville typically run $130 to $250 per year. Termite inspections are usually free, with treatment for older downtown and river-adjacent homes often $500 to $1,150. Mosquito season treatments for Fox River-adjacent properties add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why does Yorkville see more mosquitoes near downtown?",
+        answer:
+          "The Fox River runs directly through downtown Yorkville, and its low banks and backwater pockets hold water through the summer. That standing water breeds far more mosquitoes than the higher end-moraine ground on the west and north sides of the city.",
+      },
+      {
+        question: "Do new subdivisions in Yorkville have less termite risk?",
+        answer:
+          "Generally, yes. Yorkville's newer subdivisions were built during Kendall County's rapid growth between 2000 and 2010, using modern foundation practices, while the older downtown core carries more of the wood-to-soil contact points that attract subterranean termites.",
+      },
+      {
+        question: "Are carpenter ants a problem in Yorkville's hillier neighborhoods?",
+        answer:
+          "Yes. The end-moraine hills to the west and north of Yorkville carry enough tree cover to keep carpenter ants active on wooded lots, more so than homes closer to the river or deeper into open subdivisions.",
+      },
+      {
+        question: "Do house mice affect Yorkville's newer subdivisions?",
+        answer:
+          "Yes. Many of Yorkville's newer subdivisions were built on former farmland, and the mice displaced from those fields during the fall harvest move into new construction just as readily as older homes nearby.",
+      },
+      {
+        question: "When is mosquito season worst in Yorkville?",
+        answer:
+          "May through September, with the heaviest pressure downtown and along the Fox River, where low, backwater ground holds water longer than the higher moraine terrain elsewhere in the city.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Mattoon", slug: "mattoon-il", stateSlug: "illinois" },
+      { name: "Charleston", slug: "charleston-il", stateSlug: "illinois" },
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Sycamore", slug: "sycamore-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Yorkville, IL | Fox River Mosquitoes & Moraine Hill Ants",
+    metaDescription:
+      "Yorkville, IL pest control for Fox River mosquitoes, downtown termites, new-subdivision mice and moraine-hill carpenter ants. Kendall County service. Free inspection.",
+  },
 ];

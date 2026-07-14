@@ -6313,4 +6313,559 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Plymouth, IN pest control for Yellow River mosquitoes and ticks, older-home termites, and fall mice. Free inspection.",
   },
+  {
+    slug: "bedford",
+    name: "Bedford",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~13,900",
+    county: "Lawrence County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bedford sits in Lawrence County atop the Salem Formation, an oolitic limestone bed roughly ten miles wide, that gives south central Indiana its karst landscape of sinkholes, caves, and underground drainage. In a humid continental climate with warm, humid summers and cold winters, rainwater moves through the fractured limestone bedrock rather than draining evenly across the surface, leaving pockets of persistent moisture around older stone foundations and old quarry pits that inland till plain towns further north do not have to manage.",
+    topPests: ["Termites", "Cave Crickets", "Bats", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Bedford's older limestone-faced homes and commercial buildings downtown sit above the fractured Salem Formation bedrock, where water draining through sinkholes and old quarry pits keeps foundation soil damp longer than in a typical Indiana town. That persistent moisture gives subterranean termites an easier path to sill plates and wood framing.",
+      },
+      {
+        name: "Cave crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round, most active in damp basements fall through spring",
+        note: "Lawrence County's karst terrain is riddled with sinkholes and cave entrances, some within walking distance of Bedford's residential streets, and cave crickets that normally live in that underground habitat regularly wander into damp basements and crawl spaces, especially in homes built on or near old quarry ground.",
+      },
+      {
+        name: "Bats",
+        serviceSlug: "bat-removal",
+        activeSeason: "Maternity colonies May through August, most active at dusk",
+        note: "The same limestone cave systems that made Bedford a rockhounding destination also host natural bat colonies, and older limestone quarry buildings and stone-faced structures downtown offer roosting crevices that are hard to distinguish from a natural cave opening once a colony moves in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded ridges around Bedford's old limestone quarries, many now flooded and abandoned, give carpenter ants plenty of standing dead timber to nest in before they move toward homes at the tree line.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Bedford's limestone-faced downtown buildings hold the day's heat well into the evening, and stink bugs stage on those warm stone walls each fall before finding a gap to slip through.",
+      },
+    ],
+    localHook:
+      "Bedford calls itself the Limestone Capital of the World, and the oolitic limestone quarried here since the 1800s built the Empire State Building, the Pentagon, and Yankee Stadium. That same limestone bedrock, the Salem Formation, riddles Lawrence County with sinkholes, caves, and old flooded quarry pits, and the karst drainage it creates shapes Bedford's pest pressure in ways a typical Indiana farm town never has to consider.",
+    intro:
+      "Bedford's identity and its pest calendar both trace back to the same thing: the limestone under the ground. Lawrence County sits on the Salem Formation, a band of high quality oolitic limestone that quarries here have shipped out for more than a century to build the Empire State Building, the Pentagon, and Yankee Stadium. That same bedrock creates a karst landscape of sinkholes, caves, and old flooded quarry pits, and water moves through the fractured limestone instead of draining evenly the way it does on a typical Indiana till plain. The result is persistent moisture around older stone foundations, cave crickets wandering in from nearby sinkholes, and even the occasional bat colony finding its way into a limestone-faced building. Carpenter ants and fall stink bugs round out a pest picture that owes almost everything to the ground Bedford is built on.",
+    sections: [
+      {
+        heading: "Karst bedrock, quarry pits, and termite risk in Bedford",
+        body: "Lawrence County's karst terrain means rainwater rarely drains the way it would on flat till plain soil further north. Instead it works through cracks and channels in the Salem Formation limestone, pooling in sinkholes and in the many old quarry pits scattered around Bedford, some abandoned for a century and now filled with groundwater. Homes and commercial buildings near that kind of ground often keep damp soil against their foundations for weeks longer than a property on ordinary clay, and Eastern subterranean termites take full advantage, building mud tubes up sill plates and foundation walls looking for wood. Bedford's older limestone-faced buildings downtown, many dating to the quarry boom of the late 1800s and early 1900s, were not built with modern termite barriers, which makes an annual inspection a genuinely useful habit here rather than a formality. Properties within a block or two of a known sinkhole or old quarry pit carry the highest risk and are worth checking first.",
+      },
+      {
+        heading: "Cave crickets and bats from Bedford's cave systems",
+        body: "Bedford sits inside one of the most cave-dense counties in Indiana, close enough to systems like Bluespring Caverns that cave crickets and bats both treat the town's older buildings as an extension of their natural habitat. Cave crickets live in the cool, damp dark of sinkholes and cave mouths, and when a basement or crawl space offers similar conditions, they move in without much hesitation, especially in homes built on or near old quarry ground. Bats present a different problem. Lawrence County's cave systems support real, natural bat colonies, and a limestone-faced building downtown or an old quarry structure can offer roosting crevices that look, to a bat, indistinguishable from a cave opening. Once a maternity colony sets up in an attic or soffit gap between May and August, removal has to be handled carefully and legally, with exclusion timed around the young bats' ability to fly, not a same-day fix.",
+      },
+      {
+        heading: "Carpenter ants and fall stink bugs away from the caves",
+        body: "Not every Bedford pest problem traces back to the karst. The wooded ridges around the town's abandoned quarries, many now flooded into small private lakes, leave plenty of standing dead timber for carpenter ants to nest in before they move toward homes at the tree line, especially where a deck or porch has old, softened lumber. Stink bugs follow the same fall pattern seen across southern Indiana, but Bedford's limestone-faced downtown buildings hold the day's heat into the evening better than a typical wood-frame home, and that makes those walls a favorite fall staging ground before the bugs find a gap and slip inside for winter.",
+      },
+    ],
+    prevention: [
+      "Have properties near sinkholes or old quarry pits inspected for termites annually rather than waiting for visible damage.",
+      "Seal basement and crawl space gaps to keep cave crickets from treating your foundation like an extension of the local karst.",
+      "Do not attempt to remove a bat colony yourself; use a licensed, legal exclusion timed around Indiana's bat maternity season.",
+      "Clear standing dead timber near quarry-edge properties to reduce carpenter ant nesting sites close to the house.",
+    ],
+    costNote:
+      "General quarterly pest plans in Bedford typically run $130 to $260 per year. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,300 for older limestone-district properties near known karst features. Legal bat exclusion work runs $300 to $700 depending on colony size and the number of entry points in the building.",
+    faqs: [
+      {
+        question: "Does Bedford's limestone bedrock really affect termite risk?",
+        answer:
+          "Yes. Lawrence County's karst terrain means water drains through fractured limestone rather than evenly across the soil, leaving persistent moisture around older foundations and old quarry pits. That moisture gives subterranean termites an easier path into sill plates, especially in Bedford's historic limestone district.",
+      },
+      {
+        question: "Why do cave crickets show up in Bedford basements?",
+        answer:
+          "Bedford sits in one of Indiana's most cave-dense counties, and cave crickets that normally live in sinkholes and cave mouths will move into a basement or crawl space that offers similar cool, damp conditions, particularly on properties built on or near old quarry ground.",
+      },
+      {
+        question: "Can bats legally be removed from a Bedford building?",
+        answer:
+          "Yes, but only through exclusion, sealing entry points after the bats have left, timed around Indiana's May through August maternity season. Lawrence County's natural cave systems support real bat colonies, and limestone-faced buildings downtown can offer roosting crevices similar to a cave opening.",
+      },
+      {
+        question: "Are carpenter ants a problem around Bedford's old quarries?",
+        answer:
+          "They can be. The wooded ridges around Bedford's abandoned, often flooded quarry pits leave standing dead timber for carpenter ants to nest in before they move toward nearby homes, especially where deck or porch lumber has softened.",
+      },
+      {
+        question: "When are stink bugs worst in Bedford?",
+        answer:
+          "September through November, when they stage on the sun-warmed limestone walls of downtown buildings before finding a gap to slip through for winter.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Rushville", slug: "rushville", stateSlug: "indiana" },
+      { name: "Angola", slug: "angola", stateSlug: "indiana" },
+      { name: "Tell City", slug: "tell-city", stateSlug: "indiana" },
+      { name: "Greencastle", slug: "greencastle", stateSlug: "indiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bedford, IN | Limestone Karst Termites & Cave Crickets",
+    metaDescription:
+      "Bedford, IN pest control for karst-driven termites, cave crickets, bats, carpenter ants and stink bugs. Lawrence County limestone district service. Free inspection.",
+  },
+  {
+    slug: "rushville",
+    name: "Rushville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~6,200",
+    county: "Rush County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rushville sits in Rush County on the flat till plain of east central Indiana, where the Flat Rock River cuts through town on its way to the White River, and corn and soybean fields press against the town's edges on nearly every side. The humid continental climate brings warm, muggy summers and cold winters, and the surrounding cropland drives a harvest-season pest calendar that has more to do with combines than weather.",
+    topPests: ["House Mice", "Stink Bugs", "Indian Meal Moths", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Rush County's corn and soybean fields surround Rushville closely, and when the harvest moves through each September and October, field mice lose their cover and head straight for the nearest house or outbuilding.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on the sunniest exterior walls of Rushville homes each fall before finding a gap to slip through, then hole up in attics until a warm day draws them back out.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in stored grain and pantry settings",
+        note: "Rushville's farm-supply operations and home pantries alike see Indian meal moths move in through bagged grain and pet food, a routine risk in a county built around corn and soybean storage.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Rushville's older wood-frame homes near the Flat Rock River see carpenter ant activity wherever a gutter or plumbing leak has softened framing enough to make excavation easy.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Flat Rock River runs directly through Rushville on its way to the White River, and the low banks and backwater pools it leaves after a spring rise give mosquitoes a strong foothold each summer.",
+      },
+    ],
+    localHook:
+      "Rushville is the Rush County seat, and the Flat Rock River runs right through the middle of town on its way to the White River, a rare case of a river cutting directly through an Indiana county seat's downtown rather than skirting the edge of it. The cropland that surrounds Rushville on nearly every side, mostly corn and soybeans, does the rest of the work shaping the town's pest calendar.",
+    intro:
+      "Rushville's pest pressure comes from two directions at once. The Flat Rock River runs straight through the middle of town, an unusual layout for a county seat, and its low banks and backwater pools after a spring rise give mosquitoes a real foothold each summer. Meanwhile the corn and soybean fields that ring Rushville on nearly every side send field mice pouring toward the nearest structure each fall once the harvest strips away their cover. Add in stink bugs staging on sunny walls every September and October, carpenter ants working into older river-adjacent homes with any moisture history, and Indian meal moths that move through stored grain and pantry goods across a county built on agriculture, and Rushville's pest picture is really a farm town's calendar with a river running through the center of it.",
+    sections: [
+      {
+        heading: "Harvest-season mice pouring in from the fields around Rushville",
+        body: "Rush County's cropland presses close against Rushville's neighborhoods on nearly every side, and corn and soybeans still dominate the acreage here the way they have for generations. When combines move through those fields each September and October, the mice that spent the summer living in them lose their cover overnight and head for the nearest warm structure, house, garage, or outbuilding. Older homes near the edge of town, where foundation gaps and unsealed utility lines give mice an easy way in, see the heaviest pressure, but nobody in Rushville is really exempt during a heavy harvest year. Sealing obvious gaps before the combines start rolling and setting interior traps at the first sign of droppings or gnaw marks keeps a seasonal nuisance from turning into a winter-long problem inside the walls.",
+      },
+      {
+        heading: "Mosquitoes along the Flat Rock River",
+        body: "Most Indiana county seats keep their river at arm's length, but the Flat Rock River runs directly through downtown Rushville on its way south to the White River. After a spring rise, the low banks and backwater pools it leaves behind hold standing water for days or weeks, prime breeding ground for mosquitoes through the warm months. Properties closest to the riverbank see the heaviest pressure from May through September, and anyone with a low spot in the yard that holds water after rain is fighting the same battle on a smaller scale. Clearing gutters, dumping standing water in containers, and treating pools that cannot be drained cuts the population noticeably before it becomes a backyard problem every evening.",
+      },
+      {
+        heading: "Stink bugs, carpenter ants, and stored-grain moths",
+        body: "Stink bugs follow the pattern common across east central Indiana, gathering on Rushville's sunniest exterior walls each September and October before finding a gap to slip through and hole up in an attic or wall void for winter. Carpenter ants are a smaller concern but a real one in the town's older wood-frame homes, especially near the river where a gutter or plumbing leak has softened framing enough to make it worth excavating. And because Rush County's economy still runs on corn and soybeans, Indian meal moths are a routine risk wherever grain or pet food sits in a farm-supply warehouse or a home pantry, a low-grade but persistent problem across the whole county. A homeowner who spots webbing near a bag of birdseed or dry dog food in the garage is usually looking at the start of a moth problem, not the end of one, and catching it early with sealed storage saves a much bigger cleanout later.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before the fall harvest to keep field mice from moving indoors.",
+      "Clear gutters and treat backwater pools along the Flat Rock River each spring to cut mosquito breeding before summer.",
+      "Seal exterior gaps before September to reduce stink bug and carpenter ant entry points.",
+      "Store grain, pet food, and pantry goods in sealed containers to prevent Indian meal moth infestations.",
+    ],
+    costNote:
+      "General quarterly pest plans in Rushville typically run $120 to $240 per year for a standard home. Fall exclusion service targeting mice and stink bugs before winter runs $140 to $280. Riverside properties along the Flat Rock River sometimes add a spring mosquito treatment for $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why does Rushville see so many mice every fall?",
+        answer:
+          "Rush County's corn and soybean fields surround the town closely, and when the harvest strips away their cover each September and October, field mice head straight for the nearest house or outbuilding. Sealing foundation gaps before harvest season is the most effective prevention.",
+      },
+      {
+        question: "Does the Flat Rock River cause mosquito problems in Rushville?",
+        answer:
+          "Yes. The Flat Rock River runs directly through downtown Rushville, an unusual path for a county seat, and the low banks and backwater pools it leaves after a spring rise give mosquitoes a strong foothold through summer, especially on riverbank properties.",
+      },
+      {
+        question: "Are carpenter ants common in older Rushville homes?",
+        answer:
+          "They show up most often in older wood-frame homes near the river, particularly where a gutter or plumbing leak has softened the framing enough to make it easy to excavate.",
+      },
+      {
+        question: "What causes Indian meal moth infestations in Rushville?",
+        answer:
+          "Rush County's agricultural economy means grain, pet food, and pantry goods are common in homes and farm-supply buildings alike, and Indian meal moths move in through bagged product that was already infested before it arrived.",
+      },
+      {
+        question: "When are stink bugs worst in Rushville?",
+        answer:
+          "September through November, when they stage on sunny exterior walls before finding a gap and holing up in an attic or wall void for the winter.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bedford", slug: "bedford", stateSlug: "indiana" },
+      { name: "Angola", slug: "angola", stateSlug: "indiana" },
+      { name: "Tell City", slug: "tell-city", stateSlug: "indiana" },
+      { name: "Greencastle", slug: "greencastle", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rushville, IN | Harvest Mice & Flat Rock River Mosquitoes",
+    metaDescription:
+      "Rushville, IN pest control for harvest-season mice, Flat Rock River mosquitoes, stink bugs, carpenter ants and stored-grain moths. Rush County service. Free inspection.",
+  },
+  {
+    slug: "angola",
+    name: "Angola",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~9,400",
+    county: "Steuben County",
+    climate: "cold-humid",
+    climateDriver:
+      "Angola sits in Steuben County, in the heart of northeastern Indiana's glacial lake country, a landscape carved by the retreating Wisconsin Glacier that left the county with more natural lakes, over a hundred, than any other county in the state. The humid continental climate brings warm summers and cold winters, and the shallow, weedy margins of lakes like Lake James and Snow Lake, plus the hundreds of seasonal cottages that ring them, shape a pest calendar unlike a typical inland Indiana town's.",
+    topPests: ["Mosquitoes", "House Mice", "Carpenter Ants", "Termites", "Wasps and Bees"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Steuben County holds more natural lakes than any other Indiana county, and the shallow, weedy margins of lakes like Lake James and Snow Lake near Angola give mosquitoes far more breeding habitat through the summer than a typical inland Indiana town has to manage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, worst in vacant winter cottages",
+        note: "Angola's ring of seasonal lake cottages sits empty for long stretches each winter, and mice that move in through an unsealed gap in October often have the run of the place until owners return in spring.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded lots that surround so many of Angola's lake properties give carpenter ants easy access to boathouses, docks, and homes alike, especially anywhere old lumber sits close to the waterline.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The glacial till soil around Angola's lakes holds moisture longer than the sandier ground further from shore, and older lake-adjacent homes and cottages see subterranean termite pressure that inland Steuben County properties rarely face.",
+      },
+      {
+        name: "Wasps and bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October, peak in late summer",
+        note: "Angola's docks, boathouses, and cottage eaves offer wasps and bees countless sheltered nesting spots close to the water, and a nest built in a boathouse over the winter often goes unnoticed until the first warm weekend of the following lake season.",
+      },
+    ],
+    localHook:
+      "Steuben County has more natural lakes, over a hundred of them, than any other county in Indiana, carved by the retreating Wisconsin Glacier and centered on Angola. Lake James, Indiana's fourth largest natural glacial lake, sits just outside town next to Pokagon State Park, and the hundreds of seasonal cottages ringing these lakes create a pest calendar built as much around vacant winter properties as around the water itself.",
+    intro:
+      "Angola's pest calendar runs on lake time. Steuben County has more natural lakes than any county in Indiana, carved out by the last glacier to cover the state, and the shallow, weedy shorelines around lakes like Lake James and Snow Lake give mosquitoes a summer breeding ground that an inland Indiana town simply does not have. But the lakes cut both ways. Angola's ring of seasonal cottages sits empty for months at a stretch each winter, and mice that slip in through an unsealed gap in October can go undisturbed until owners return for the season. Carpenter ants and wasps both find easy shelter in the wooded lots, docks, and boathouses that surround the water, and the moist glacial till near shore keeps termite risk higher for lake-adjacent homes than for properties further inland.",
+    sections: [
+      {
+        heading: "Mosquitoes on Angola's lakeshores",
+        body: "Steuben County's glacial lake country, more than a hundred lakes fed by the retreating Wisconsin Glacier, gives Angola a mosquito problem unlike most Indiana towns its size. The shallow, weedy margins around lakes like Lake James and Snow Lake, near Pokagon State Park, warm quickly in late spring and hold still water in the reeds and cattails along the shoreline, ideal mosquito breeding conditions that persist through the whole summer. Properties directly on the water see the heaviest pressure, but the problem spreads inland too, since adult mosquitoes travel well beyond where they hatch. Clearing gutters, dumping any container that holds water, and treating shoreline vegetation that cannot be drained all matter more here than in a typical inland Indiana town, simply because there is so much more shoreline to manage.",
+      },
+      {
+        heading: "Mice in Angola's vacant winter cottages",
+        body: "A large share of the housing stock around Angola's lakes is seasonal, cottages and cabins that see heavy use from Memorial Day through Labor Day and then sit empty, or nearly empty, through the winter. That gap is exactly what house mice look for. A gap around a utility line or a loose vent screen that goes unnoticed in October can let mice in well before the first freeze, and with no one checking the property regularly, a small problem can turn into an established colony by the time owners open the cottage back up in spring. Sealing entry points and setting bait stations before closing up for the season is the single most effective habit a seasonal lake property owner around Angola can build.",
+      },
+      {
+        heading: "Carpenter ants, termites, and wasps near the water",
+        body: "The wooded lots that ring so many of Angola's lake properties put carpenter ants in easy reach of docks, boathouses, and cottages alike, especially anywhere old lumber sits close to the waterline. The glacial till soil near shore also holds moisture longer than drier ground further inland, which raises subterranean termite risk for older lake-adjacent structures in a way that does not apply as strongly to Steuben County properties away from the water. Wasps and bees add a third layer, nesting in boathouse eaves and dock structures over the course of a summer and sometimes going unnoticed until the first warm weekend of the following lake season, when a family reopens the cottage and finds an active nest waiting.",
+      },
+    ],
+    prevention: [
+      "Clear shoreline vegetation and standing water around lake properties each spring to reduce mosquito breeding.",
+      "Seal utility gaps and vent screens on seasonal cottages before closing up for winter to keep mice from moving in undetected.",
+      "Remove old lumber near the waterline on docks and boathouses to reduce carpenter ant nesting sites.",
+      "Inspect boathouse eaves and dock structures for wasp nests before reopening a cottage each spring.",
+    ],
+    costNote:
+      "General quarterly pest plans for year-round Angola homes typically run $130 to $260 per year. Seasonal cottage closing and reopening service, which includes mouse exclusion and a wasp nest check, usually runs $150 to $300 per visit. Termite inspections for lake-adjacent properties are usually free, with treatment priced separately by structure size.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so high around Angola's lakes?",
+        answer:
+          "Steuben County has more natural lakes than any Indiana county, and the shallow, weedy shorelines around lakes like Lake James near Pokagon State Park hold still water that mosquitoes breed in all summer. Properties on the water see the heaviest pressure, but adult mosquitoes travel well beyond the shoreline.",
+      },
+      {
+        question: "Do mice get into vacant lake cottages around Angola?",
+        answer:
+          "Often, yes. Many Angola-area cottages sit empty through the winter, and an unsealed gap around a utility line or vent screen can let mice in well before the first freeze. Sealing entry points before closing up for the season is the best prevention.",
+      },
+      {
+        question: "Is termite risk higher for lake-adjacent homes near Angola?",
+        answer:
+          "It can be. The glacial till soil near Angola's lake shorelines holds moisture longer than drier ground further inland, which raises subterranean termite risk for older lake-adjacent structures more than it does for Steuben County properties away from the water.",
+      },
+      {
+        question: "Where do wasps build nests around Angola's lake properties?",
+        answer:
+          "Boathouse eaves and dock structures are common spots, and a nest built over one summer can go unnoticed until the following season's first warm weekend, when a family reopens the cottage.",
+      },
+      {
+        question: "Do carpenter ants damage docks and boathouses near Angola?",
+        answer:
+          "Yes, especially where old lumber sits close to the waterline. The wooded lots around many of Angola's lake properties give carpenter ants easy access to that kind of structure.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bedford", slug: "bedford", stateSlug: "indiana" },
+      { name: "Rushville", slug: "rushville", stateSlug: "indiana" },
+      { name: "Tell City", slug: "tell-city", stateSlug: "indiana" },
+      { name: "Greencastle", slug: "greencastle", stateSlug: "indiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Angola, IN | Lake Mosquitoes & Seasonal Cottage Mice",
+    metaDescription:
+      "Angola, IN pest control for lakeshore mosquitoes, seasonal cottage mice, carpenter ants, termites and wasps near Lake James. Steuben County service. Free inspection.",
+  },
+  {
+    slug: "tell-city",
+    name: "Tell City",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~7,500",
+    county: "Perry County",
+    climate: "cold-humid",
+    climateDriver:
+      "Tell City sits on the north bank of the Ohio River in Perry County, in the hilly southern reaches of Indiana's humid continental climate zone, where warm, humid summers and cold winters combine with a river that has flooded the town repeatedly since its 1858 founding. That flood history, most severely in 1937, still shapes how the city thinks about moisture control in its older riverfront buildings.",
+    topPests: ["Termites", "Mosquitoes", "Carpenter Ants", "Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Tell City sits on the north bank of the Ohio River, and the town's history of flooding, most severely in 1937, has left river-bottom soil saturated for weeks at a stretch in wet years, giving termites an easy path into the sill plates of the town's older Swiss-founded downtown buildings.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "When the Ohio River rises and recedes each spring, it leaves backwater pools and saturated low ground along Tell City's riverfront that hold water for weeks, giving mosquitoes a strong foothold through the summer months.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Tell City's history as a furniture manufacturing center, home to the Tell City Chair Company for more than a century, left behind a stock of older wood-frame factory and residential buildings that carpenter ants exploit wherever moisture has softened the lumber.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the sun-warmed brick walls of Tell City's historic downtown, laid out by Swiss immigrant settlers in the 1850s, each fall before finding a gap to slip through for winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Tell City's older river-adjacent foundations give mice easy access as the weather cools each fall, particularly in the aging building stock near the historic downtown grid.",
+      },
+    ],
+    localHook:
+      "Tell City was founded in 1858 by the Swiss Colonization Society of Cincinnati, its name and layout chosen to honor the Swiss hero William Tell, and its location on the Ohio River gave the young settlement both a shipping advantage and a recurring flood risk that culminated in the catastrophic flood of 1937. That river relationship, more than the town's Swiss heritage or its long run as a national furniture manufacturing center, is what shapes Tell City's pest calendar today.",
+    intro:
+      "Tell City's pest pressure starts with the Ohio River. Founded in 1858 by Swiss immigrants who named the town for William Tell, the settlement grew up right on the riverbank, and that location has meant recurring floods ever since, most severely in 1937, when the water covered much of the town. Saturated river-bottom soil after a spring rise gives subterranean termites an easy route into older foundations, while the backwater pools left behind fuel a real mosquito season through the summer. Tell City's long history as a furniture manufacturing hub, home to the Tell City Chair Company for nearly 150 years, left behind a stock of older wood-frame buildings that carpenter ants exploit wherever moisture has softened the lumber. Stink bugs and house mice round out the picture each fall, following the same seasonal pattern common to river towns across southern Indiana.",
+    sections: [
+      {
+        heading: "Flooding, river-bottom soil, and termite risk in Tell City",
+        body: "The Ohio River has shaped Tell City since its founding in 1858, when the Swiss Colonization Society of Cincinnati chose the site for its river access, and that same access has brought recurring floods, most catastrophically in 1937, when the water covered much of the town. Even in an ordinary wet spring, the low-lying streets closest to the riverbank see saturated soil for weeks at a stretch. Eastern subterranean termites take full advantage of that moisture, building mud tubes up foundation walls and sill plates in search of wood, and Tell City's older buildings, some dating back to the town's earliest Swiss settlement, often have wood-to-soil contact points that were never a problem when they were built. An annual inspection is the practical baseline for riverfront properties, and any building that took on water during a flood should be checked promptly rather than waiting for the next scheduled visit.",
+      },
+      {
+        heading: "Mosquitoes after the Ohio River recedes",
+        body: "When the Ohio River rises each spring and then drops back down, it leaves backwater pools, saturated low ground, and debris-choked ditches along Tell City's riverfront that hold water for weeks. That standing water is prime mosquito breeding habitat, and the town's river-adjacent neighborhoods see noticeably more pressure through summer than blocks further up the hillside. The season typically runs May through September, peaking after the wettest stretches. Clearing gutters, dumping containers, and treating pools that cannot be drained matters more in Tell City than in a typical inland Indiana town simply because a flood year leaves so much more standing water to manage once the river pulls back.",
+      },
+      {
+        heading: "Carpenter ants in Tell City's old furniture-town building stock",
+        body: "Tell City built its economy on furniture for well over a century, and the Tell City Chair Company alone operated for 146 years before closing in 2011, leaving behind a downtown and residential core full of older wood-frame construction. Carpenter ants find plenty of opportunity in that building stock wherever a roof leak or plumbing issue has softened the lumber enough to make excavation easy. Stink bugs follow the fall pattern common across southern Indiana river towns, staging on Tell City's sun-warmed brick walls each September and October before slipping inside for winter, and house mice show the same fall surge as the weather cools, particularly in the older foundations near the historic Swiss-platted downtown grid.",
+      },
+    ],
+    prevention: [
+      "Have riverfront and historic-downtown properties inspected for termites annually, and again promptly after any flood.",
+      "Clear gutters, dump containers, and treat backwater pools along the riverfront each spring to cut mosquito breeding.",
+      "Address roof leaks and plumbing issues in older wood-frame buildings promptly to reduce carpenter ant risk.",
+      "Seal gaps around brick and frame exteriors before September to keep fall stink bugs and mice from moving indoors.",
+    ],
+    costNote:
+      "General pest coverage in Tell City typically runs $120 to $250 per year for a quarterly plan. Termite inspections are usually free, with soil treatment or a baiting system priced separately by structure size, often $500 to $1,200 for riverfront and historic-district properties. Mosquito season treatments during a wet spring add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Does Ohio River flooding affect pest control in Tell City?",
+        answer:
+          "Yes. Tell City sits on the north bank of the Ohio River, and the town's history of flooding, most severely in 1937, has repeatedly left river-bottom soil saturated for weeks, which gives termites and mosquitoes both an easier foothold near the riverfront.",
+      },
+      {
+        question: "Are termites a risk in Tell City's historic downtown?",
+        answer:
+          "Yes. Tell City was founded in 1858 by Swiss immigrants, and much of the historic downtown grid dates back to that early settlement. Older buildings often have wood-to-soil contact points that predate modern termite barriers, so an annual inspection is the practical baseline.",
+      },
+      {
+        question: "When is mosquito season worst in Tell City?",
+        answer:
+          "May through September, with the heaviest pressure along the riverfront after the Ohio River rises and recedes each spring, leaving backwater pools that hold water for weeks.",
+      },
+      {
+        question: "Why are carpenter ants common in Tell City's older buildings?",
+        answer:
+          "Tell City built its economy on furniture manufacturing for over a century, including the Tell City Chair Company, which operated for 146 years, and that left behind a large stock of older wood-frame buildings where carpenter ants find easy opportunity wherever moisture has softened the lumber.",
+      },
+      {
+        question: "Are stink bugs a fall problem in Tell City?",
+        answer:
+          "Yes. They stage on the sun-warmed brick walls of the historic downtown each September and October before finding a gap to slip through for winter, a pattern shared with other river towns across southern Indiana.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Bedford", slug: "bedford", stateSlug: "indiana" },
+      { name: "Rushville", slug: "rushville", stateSlug: "indiana" },
+      { name: "Angola", slug: "angola", stateSlug: "indiana" },
+      { name: "Greencastle", slug: "greencastle", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Tell City, IN | Ohio River Flood Termites & Mosquitoes",
+    metaDescription:
+      "Tell City, IN pest control for flood-driven termites and mosquitoes, carpenter ants, stink bugs and mice. Perry County Ohio River service. Free inspection.",
+  },
+  {
+    slug: "greencastle",
+    name: "Greencastle",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~9,900",
+    county: "Putnam County",
+    climate: "cold-humid",
+    climateDriver:
+      "Greencastle sits in Putnam County on the flat to gently rolling till plain of west central Indiana, roughly halfway between Indianapolis and Terre Haute, where cropland and wooded creek corridors like Big Walnut Creek meet a college town's rental housing stock. The humid continental climate brings warm, muggy summers and cold winters, and the combination of surrounding farmland and a large seasonal renter population, tied to DePauw University's academic calendar, creates two distinct pest pressures that a purely agricultural or purely residential town would not have.",
+    topPests: ["House Mice", "Bed Bugs", "Ticks", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Putnam County's farmland presses close against Greencastle on nearly every side, and when the fall harvest strips cover from the surrounding corn and soybean fields, mice head for the nearest structure, student rental or otherwise.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Peaks around August and January move-in periods, year-round risk",
+        note: "DePauw University's academic calendar drives a wave of turnover in Greencastle's off-campus rental housing each August and again in January, and bed bugs travel easily in secondhand furniture and moving boxes during that kind of seasonal churn.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "DePauw's 520-acre nature park, with more than nine miles of trails through fields and forest east of campus, puts hikers and dog owners in regular contact with tick habitat that a typical small Indiana town's residents rarely encounter so close to downtown.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on the sunniest walls of Greencastle's homes and rental houses each fall before finding a gap to slip through and hole up for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Greencastle's older homes near Big Walnut Creek and the wooded nature park see carpenter ant activity wherever a moisture problem has softened framing enough to make it worth excavating.",
+      },
+    ],
+    localHook:
+      "Greencastle is home to DePauw University, and the school's 520-acre nature park east of campus, with more than nine miles of trails through fields, forest, and an abandoned limestone quarry, sits right at the edge of the cropland that surrounds the rest of town. That combination, a college town's rental housing turnover plus a farm county's harvest calendar plus a wooded trail system, gives Greencastle a wider pest range than most towns its size in Putnam County.",
+    intro:
+      "Greencastle's pest calendar runs on two very different clocks. One is agricultural: Putnam County's cropland surrounds the city closely, and when the corn and soybean harvest strips cover from the fields each fall, house mice head straight for the nearest structure. The other is academic: DePauw University's fall and January move-in periods bring a wave of turnover through Greencastle's off-campus rental housing, and bed bugs travel easily in secondhand furniture and moving boxes during that kind of churn. DePauw's 520-acre nature park, with more than nine miles of trails through fields and forest just east of campus, adds a third pressure that a typical farm town does not have to think about, tick exposure for the hikers, runners, and dog owners who use those trails regularly. Stink bugs and carpenter ants round out the picture each year, following patterns common across west central Indiana.",
+    sections: [
+      {
+        heading: "Harvest mice and Greencastle's farmland edge",
+        body: "Putnam County's corn and soybean fields press close against Greencastle on several sides, and the pattern here is a familiar one for west central Indiana farm towns: when combines move through each September and October, the field mice that spent the summer in that cover lose it overnight and head for the nearest warm building. What sets Greencastle apart is how much of that pressure lands on off-campus student rental housing at the edge of town, properties that often see less consistent upkeep than an owner-occupied home and can have foundation gaps that go unnoticed for a full semester. Sealing obvious entry points before harvest season and setting interior traps at the first sign of activity matters just as much for a landlord managing several rental units as it does for a single homeowner.",
+      },
+      {
+        heading: "Bed bugs and DePauw's rental housing turnover",
+        body: "DePauw University's academic calendar creates two sharp turnover points each year, the start of fall semester in August and the return from winter break in January, and both bring a wave of moving activity through Greencastle's off-campus rental housing. Bed bugs do not care whether furniture came from a dorm, a previous tenant, or a secondhand shop, and they travel just as easily in a moving box as they do in a mattress. Rental properties that turn over tenants every year carry meaningfully higher bed bug risk than an owner-occupied home that has not changed hands in a decade, and early inspection after a move-in, before an infestation has time to spread through a whole unit, is far cheaper than treatment after the fact.",
+      },
+      {
+        heading: "Ticks on DePauw's nature park trails, plus fall pests",
+        body: "DePauw's 520-acre nature park east of campus, with more than nine miles of trails winding through fields, forest, and an old limestone quarry, is a genuine local asset, but it also puts hikers, runners, and dog owners in regular contact with tick habitat closer to downtown than most small Indiana towns have to manage. Tick season runs April through October and peaks in early summer, and anyone using the trails regularly should check for ticks after every visit rather than only during the height of summer. Away from the trails, stink bugs stage on sunny exterior walls each fall before pushing indoors, and carpenter ants work into older homes near Big Walnut Creek wherever a moisture problem has softened the framing, both familiar patterns across west central Indiana.",
+      },
+    ],
+    prevention: [
+      "Landlords should seal foundation gaps on off-campus rental units before the fall harvest and again before winter break.",
+      "Inspect secondhand furniture and moving boxes for bed bugs before bringing them into a rental unit, especially during August and January move-ins.",
+      "Check for ticks after every visit to DePauw's nature park trails, particularly April through July.",
+      "Address moisture problems in older homes near Big Walnut Creek promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General quarterly pest plans in Greencastle typically run $120 to $250 per year for a single-family home. Bed bug inspection and treatment for a rental unit runs $300 to $900 depending on unit size and infestation extent. Tick and flea treatment for a yard bordering wooded or trail-adjacent property usually runs $80 to $160 per visit.",
+    faqs: [
+      {
+        question: "Why do off-campus rentals in Greencastle see more bed bugs?",
+        answer:
+          "DePauw University's August and January move-in periods bring heavy furniture and moving-box turnover through Greencastle's rental housing, and bed bugs travel easily in that kind of churn. Early inspection right after a move-in is the most cost-effective way to catch a problem before it spreads.",
+      },
+      {
+        question: "Are ticks a real concern on DePauw's nature park trails?",
+        answer:
+          "Yes. The 520-acre nature park east of campus has more than nine miles of trails through fields and forest, and tick season runs April through October, peaking in early summer. Anyone using the trails regularly should check for ticks after each visit.",
+      },
+      {
+        question: "Does Greencastle's farmland cause a fall mice problem?",
+        answer:
+          "Yes. Putnam County's corn and soybean fields press close against town, and when the harvest strips their cover each September and October, field mice head for the nearest structure, including off-campus rental housing near the edge of town.",
+      },
+      {
+        question: "Are carpenter ants common near Big Walnut Creek in Greencastle?",
+        answer:
+          "They show up most often in older homes near the creek where a moisture problem, like a roof leak or plumbing issue, has softened the framing enough to make it easy for carpenter ants to excavate.",
+      },
+      {
+        question: "When are stink bugs worst in Greencastle?",
+        answer:
+          "September through November, when they gather on sunny exterior walls before finding a gap and pushing indoors for winter, a pattern common across west central Indiana.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bedford", slug: "bedford", stateSlug: "indiana" },
+      { name: "Rushville", slug: "rushville", stateSlug: "indiana" },
+      { name: "Angola", slug: "angola", stateSlug: "indiana" },
+      { name: "Tell City", slug: "tell-city", stateSlug: "indiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Greencastle, IN | Campus Bed Bugs & Harvest Mice",
+    metaDescription:
+      "Greencastle, IN pest control for off-campus bed bugs, harvest-season mice, nature park ticks, stink bugs and carpenter ants. Putnam County DePauw service.",
+  },
 ];

@@ -3407,4 +3407,559 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Parsons, KS pest control for termites and carpenter ants near the historic rail corridor, cockroaches, and fall mice. Free inspection.",
   },
+  {
+    slug: "gardner-ks",
+    name: "Gardner",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~25,400",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "Gardner sits at the western edge of the Kansas City metro in Johnson County, where new subdivisions built over the past two decades meet farmland and pasture that still rings the city on its south and west sides. The humid continental climate brings warm, muggy summers and cold winters, and Census Bureau data shows the city's population grew nearly 14 percent between 2019 and 2024 alone. That pace of construction keeps turning former cropland into new streets, and that stirs up pest pressure a slower-growing town would not see.",
+    topPests: ["Ticks", "Mosquitoes", "House Mice", "Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, heaviest in late spring",
+        note: "Gardner's newest subdivisions often back straight up to unmowed pasture or the tallgrass edges near Gardner Junction, the historic site where the Santa Fe Trail split from the Oregon and California Trails. Ticks move from that taller grass into yards with the first warm weeks of spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Stormwater detention ponds are a standard feature of Gardner's new subdivisions, built to handle runoff from all the new rooftops and driveways, and a pond that isn't graded or maintained well can hold standing water long enough to breed a full mosquito season.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Every acre of pasture or cropland graded for a new Gardner subdivision displaces the field mice living in it, and the finished homes going up next door are the nearest shelter once the weather turns cold.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Gardner's older homes near the original downtown core, some dating to the town's 19th century founding along the rail line, carry more wood-to-soil contact risk than the slab-built homes in the newer subdivisions to the north and east.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The mature shade trees lining Gardner's older established streets give carpenter ants a natural food source that the treeless newer subdivisions simply don't have yet.",
+      },
+    ],
+    localHook:
+      "Gardner's defining landmark isn't in the city itself but a mile southwest of it: Gardner Junction, the spot where the Santa Fe Trail split from the Oregon and California Trails starting around 1841. An estimated 500,000 pioneers passed through this junction between 1841 and 1884, choosing southwest toward Santa Fe or northwest toward Oregon and California. The National Park Service and the City of Gardner opened a park marking the site in 2008, and that same open prairie corridor southwest of town is still largely undeveloped today, even as the rest of Gardner has become one of the fastest-growing cities in the Kansas City metro.",
+    intro:
+      "Gardner's story is really two stories happening at once. One is a 19th century trail town: Gardner Junction, a mile southwest of the city, marks the spot where roughly half a million pioneers heading to Santa Fe split from those bound for Oregon and California between 1841 and 1884. The other is a 21st century boomtown, with Census Bureau data showing close to 14 percent population growth between 2019 and 2024 alone. Both stories shape the pest picture. The undeveloped prairie corridor near the old trail junction still pushes ticks into the newest subdivisions each spring, while the stormwater ponds required by all that new construction create fresh mosquito habitat if they aren't graded right. Meanwhile Gardner's older homes near downtown deal with the termite and carpenter ant pressure that comes with age, a different problem than the slab-built houses going up on the city's edges.",
+    sections: [
+      {
+        heading: "Ticks and mice from the land Gardner is still building on",
+        body: "Gardner's newest subdivisions are going up faster than almost anywhere else in the Kansas City metro, and a lot of that new construction sits right against pasture or cropland that hasn't been touched yet. That edge matters for two pests in particular. Ticks move out of unmowed grass, especially the corridor near Gardner Junction where the Santa Fe Trail once split toward Oregon and California, and into yards as soon as the weather warms in April. House mice work the opposite direction: every acre graded for a new street or foundation displaces the field mice that were living there, and the closest shelter is usually the finished home next door. Residents on Gardner's growing edges, closer to open ground than the established core, tend to see both pests earlier in the season and more of them than residents in the older part of town.",
+      },
+      {
+        heading: "Mosquitoes and Gardner's stormwater ponds",
+        body: "New subdivisions need somewhere for rainwater to go, and Gardner's answer, like most fast-growing suburbs, is a network of stormwater detention ponds built into each development. Those ponds do their job for drainage, but a pond that isn't graded correctly or maintained through the season can hold standing water for weeks at a time, and that is exactly what mosquitoes need to complete a breeding cycle. The season typically runs May through September in Gardner, with the worst weeks following a heavy spring rain. Homes closest to a detention pond, or to any low spot in a new development where water pools after storms, see more pressure than homes on higher, better-drained lots.",
+      },
+      {
+        heading: "Termites and carpenter ants in Gardner's older neighborhoods",
+        body: "Not every pest problem in Gardner traces back to new construction. The original downtown core, built up along the rail line in the 19th century, has decades more wood-to-soil contact and settled foundations than anything in the newer subdivisions, and that gives Eastern subterranean termites more opportunity to find their way in. Swarms typically appear in spring, with activity continuing through fall. Carpenter ants follow a similar pattern, drawn to the mature shade trees that line Gardner's older established streets, trees that the newer developments haven't had decades to grow yet. A home's age and its distance from downtown are both reasonable predictors of how much termite and carpenter ant pressure it's likely to see.",
+      },
+    ],
+    prevention: [
+      "Have properties near the Gardner Junction prairie corridor or any unmowed pasture edge checked for ticks starting in April.",
+      "Grade and maintain stormwater detention ponds through the season so they don't hold standing water long enough for mosquitoes to breed.",
+      "Seal foundation gaps on homes bordering new construction sites before grading displaces nearby field mice.",
+      "Schedule an annual termite inspection for older homes near Gardner's downtown core, where wood-to-soil contact is more common.",
+    ],
+    costNote:
+      "General quarterly pest plans in Gardner typically run $120 to $240 per year. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,300 for older homes near downtown. Mosquito treatments for a property near a stormwater pond run $80 to $150 per visit during the peak season.",
+    faqs: [
+      {
+        question: "Why does Gardner have so many ticks near new subdivisions?",
+        answer:
+          "A lot of Gardner's newest development sits right against pasture and cropland, including the undeveloped prairie corridor near Gardner Junction, the historic spot where the Santa Fe Trail split from the Oregon and California Trails. Ticks move out of that unmowed grass and into new yards as soon as the weather warms each spring.",
+      },
+      {
+        question: "Do Gardner's stormwater ponds cause mosquito problems?",
+        answer:
+          "They can. The detention ponds built into Gardner's new subdivisions handle rainwater runoff, but if one isn't graded or maintained well, it can hold standing water for weeks, long enough for a full mosquito breeding cycle. Season runs May through September.",
+      },
+      {
+        question: "Is Gardner growing fast enough to affect pest control?",
+        answer:
+          "Yes. Census Bureau data shows Gardner's population grew close to 14 percent between 2019 and 2024, and that pace of new construction keeps disturbing former farmland and pasture, which pushes displaced field mice and ticks toward the newest homes.",
+      },
+      {
+        question: "Are termites a bigger risk in older Gardner homes?",
+        answer:
+          "Generally, yes. Homes near Gardner's original downtown core, built up along the rail line in the 19th century, have more wood-to-soil contact and settled foundations than the slab-built homes in newer subdivisions, giving Eastern subterranean termites more opportunity.",
+      },
+      {
+        question: "What draws carpenter ants to Gardner's older neighborhoods?",
+        answer:
+          "The mature shade trees along Gardner's established older streets. Carpenter ants use those trees as a natural food source, something the newer, still-treeless subdivisions on the edge of town don't offer yet.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "El Dorado", slug: "el-dorado-ks", stateSlug: "kansas" },
+      { name: "Colby", slug: "colby-ks", stateSlug: "kansas" },
+      { name: "Concordia", slug: "concordia-ks", stateSlug: "kansas" },
+      { name: "Fort Scott", slug: "fort-scott-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Gardner, KS | Ticks, Mosquitoes & New-Subdivision Pests",
+    metaDescription:
+      "Gardner, KS pest control for ticks near Gardner Junction, mosquitoes from stormwater ponds, house mice, termites and carpenter ants. Johnson County service. Free inspection.",
+  },
+  {
+    slug: "el-dorado-ks",
+    name: "El Dorado",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~12,800",
+    county: "Butler County",
+    climate: "temperate",
+    climateDriver:
+      "El Dorado sits along the Walnut River in Butler County, on the western edge of the Flint Hills, Kansas' belt of shallow-soil tallgrass prairie that has never been plowed under because the limestone bedrock sits too close to the surface to farm. The humid continental climate brings warm summers and cold winters, and the combination of river bottomland, prairie grassland, and El Dorado Lake just northeast of the city gives El Dorado a wider range of pest habitat than a landlocked prairie town its size would typically have.",
+    topPests: ["Ticks", "Mosquitoes", "Spiders", "Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, heaviest in late spring and early summer",
+        note: "El Dorado sits on the western edge of the Flint Hills, and the tallgrass prairie trails around El Dorado Lake, inside the largest state park in Kansas, put hikers and nearby homeowners in regular contact with ticks through the warm months.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "El Dorado Lake was built by damming the Walnut River, and the steep, rocky shoreline plus the old river channels and submerged timber around it hold pockets of still water that keep mosquitoes breeding well into fall.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "The mix of prairie grass, river bottomland, and the large industrial footprint of the El Dorado Refinery gives spiders more outdoor habitat to work from than a typical small Kansas town, and they follow the cooling weather indoors each fall.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Homes along the Walnut River corridor through El Dorado sit close enough to the water table that soil moisture stays elevated for weeks after a heavy spring rain, conditions Eastern subterranean termites favor.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older El Dorado neighborhoods near downtown, with mature trees and decades-old wood framing, see steady carpenter ant pressure each growing season.",
+      },
+    ],
+    localHook:
+      "El Dorado is home to the El Dorado Refinery, the largest oil refinery in Kansas with a capacity of about 135,000 barrels a day, sitting alongside El Dorado Lake, a reservoir on the Walnut River that anchors El Dorado State Park, the largest state park in Kansas. That combination of heavy industry and Flint Hills prairie parkland within a few miles of each other is unusual for a city El Dorado's size, and it shapes the pest picture from both directions.",
+    intro:
+      "El Dorado carries two identities that most Kansas towns its size don't combine. It's a refinery town, home to the largest oil refinery in Kansas, and it's a Flint Hills prairie town, sitting on the western edge of the tallgrass belt with El Dorado Lake and the state's largest state park just northeast of downtown. The Walnut River runs through the middle of it, feeding both the lake and the river-bottom soil that keeps termites active through the warm months. Ticks move out of the unmowed prairie trails around the lake each spring, mosquitoes breed in the lake's rocky, timber-choked shoreline, and spiders find outdoor habitat in the mix of prairie grass and industrial ground around the refinery. Older neighborhoods near downtown add carpenter ants to the list, drawn to decades-old wood framing and mature shade trees.",
+    sections: [
+      {
+        heading: "Ticks on the Flint Hills trails around El Dorado Lake",
+        body: "El Dorado sits right on the western edge of the Flint Hills, Kansas' belt of tallgrass prairie that was never plowed because the limestone bedrock underneath sits too close to the surface to farm. El Dorado State Park, the largest state park in Kansas, covers a big stretch of that prairie around El Dorado Lake, and its trails see heavy foot and horse traffic through spring and summer. Ticks move out of the taller grass bordering those trails as soon as the weather warms in April, and the season runs heaviest through late spring and early summer. Homes and cabins near the park boundary, and anyone who spends time on the trails themselves, should check for ticks after every visit rather than waiting for symptoms.",
+      },
+      {
+        heading: "Mosquitoes around El Dorado Lake and the Walnut River",
+        body: "El Dorado Lake was formed by damming the Walnut River just northeast of the city, and the shoreline that resulted is anything but simple: steep, rocky banks, old river channels left behind when the lake filled, submerged railroad beds, and dead standing timber all hold pockets of still water that a typical reservoir doesn't have. Those pockets keep mosquitoes breeding well past the point where a cleaner shoreline would dry out, and the season in El Dorado commonly runs May through September, sometimes later in a wet year. Neighborhoods closest to the lake and to the Walnut River corridor through town see the heaviest pressure, especially after a stretch of summer rain.",
+      },
+      {
+        heading: "Termites, carpenter ants, and the refinery's role in El Dorado's pest picture",
+        body: "Away from the water, El Dorado's pest pressure comes from two other places. Homes along the Walnut River corridor through the middle of town sit close enough to the water table that soil moisture stays elevated for weeks after a heavy rain, exactly the kind of condition Eastern subterranean termites need to move in on older foundations. Carpenter ants show up in the same older neighborhoods near downtown, where decades-old wood framing and mature shade trees give them both a home and a food source. The city's other defining feature, the El Dorado Refinery, the largest in Kansas at roughly 135,000 barrels of daily capacity, adds a commercial dimension: its warehouse and industrial buildings need their own inspection and exclusion program, separate from a standard residential plan.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any visit to the El Dorado Lake trails or the Flint Hills prairie edge, especially April through July.",
+      "Clear or treat the standing water pockets along old river channels and timber near El Dorado Lake to cut mosquito breeding.",
+      "Have Walnut River corridor homes inspected annually for termites, especially after a wet spring.",
+      "Trim mature trees back from older El Dorado homes to reduce carpenter ant access near downtown.",
+    ],
+    costNote:
+      "General quarterly pest plans in El Dorado run $130 to $250 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,200 for river-corridor properties. Commercial pest programs for refinery-area warehouse and industrial buildings are quoted separately based on square footage.",
+    faqs: [
+      {
+        question: "Are ticks a real problem around El Dorado Lake?",
+        answer:
+          "Yes. El Dorado sits on the western edge of the Flint Hills, and the tallgrass prairie trails through El Dorado State Park, the largest state park in Kansas, put hikers and nearby homeowners in regular contact with ticks from April through the early summer.",
+      },
+      {
+        question: "Why do mosquitoes linger so long around El Dorado?",
+        answer:
+          "El Dorado Lake, formed by damming the Walnut River, has a shoreline full of old river channels, submerged timber, and rocky pockets that hold still water longer than a typical reservoir shoreline. That extends the mosquito season, commonly May through September.",
+      },
+      {
+        question: "Does the El Dorado Refinery affect pest control?",
+        answer:
+          "Its warehouse and industrial buildings need their own commercial inspection and exclusion program, separate from a standard home plan, simply because of the scale of the facility, the largest oil refinery in Kansas at about 135,000 barrels of daily capacity.",
+      },
+      {
+        question: "Are termites common along the Walnut River in El Dorado?",
+        answer:
+          "Yes, particularly on older homes close to the river corridor through town, where soil moisture stays elevated for weeks after a heavy spring rain, conditions Eastern subterranean termites favor.",
+      },
+      {
+        question: "What draws carpenter ants to older El Dorado neighborhoods?",
+        answer:
+          "Decades-old wood framing combined with mature shade trees near downtown. Both give carpenter ants a food source and easy access, more than the newer parts of the city offer.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Gardner", slug: "gardner-ks", stateSlug: "kansas" },
+      { name: "Colby", slug: "colby-ks", stateSlug: "kansas" },
+      { name: "Concordia", slug: "concordia-ks", stateSlug: "kansas" },
+      { name: "Fort Scott", slug: "fort-scott-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in El Dorado, KS | Flint Hills Ticks & Lake Mosquitoes",
+    metaDescription:
+      "El Dorado, KS pest control for Flint Hills ticks, El Dorado Lake mosquitoes, spiders, termites and carpenter ants. Butler County service near the refinery. Free inspection.",
+  },
+  {
+    slug: "colby-ks",
+    name: "Colby",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~5,400",
+    county: "Thomas County",
+    climate: "semi-arid",
+    climateDriver:
+      "Colby sits on the High Plains of far northwest Kansas, a nearly flat, wide-open landscape of wheat and corn ground at roughly 3,160 feet of elevation, well above and drier than most of the rest of the state. The semi-arid climate means low humidity, big day-to-night temperature swings, and less rainfall overall, which keeps most classic humidity-driven pests in check but does nothing to slow down the pests that follow Thomas County's grain fields and the rail and interstate corridors running through town.",
+    topPests: ["Field Crickets", "House Mice", "Indian Meal Moths", "Spiders", "Ants"],
+    pestProfile: [
+      {
+        name: "Field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Peaks August through October",
+        note: "The wheat and corn fields surrounding Colby dry out fast under the High Plains sun each late summer, and when that happens field crickets move toward the nearest cooler, damper ground, often a Colby foundation or garage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp surge after wheat harvest in June and again after fall harvest",
+        note: "Colby sits in the middle of Thomas County's wheat country, and when combines clear a field, whether the June wheat harvest or the fall corn and milo harvest, the mice living in it lose their cover in a single afternoon and head for the nearest structure.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round around grain storage",
+        note: "The rail line and the grain elevators that have anchored Colby's economy since the Union Pacific arrived in 1887 store enough wheat and grain that stored-product pests are a standing concern for any facility handling bulk grain, not just an occasional nuisance.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more active in late summer",
+        note: "Colby's dry climate and open High Plains terrain suit several web-building and ground spiders well, and the growth of the local hospitality industry along Interstate 70, which reached Colby in 1965, means more buildings with the loading docks and storage areas spiders favor.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Field ants and pavement ants both move into Colby yards and driveways from the surrounding dry grassland once the soil warms in spring.",
+      },
+    ],
+    localHook:
+      "Colby became the seat of Thomas County in 1885, a year after J.R. Colby, a Civil War veteran and local land assessor, secured the town's founding patent. The Union Pacific Railroad reached the city in 1887, and Interstate 70 arrived in 1965, turning Colby into a High Plains travel and grain-handling hub for a mostly rural, agricultural county.",
+    intro:
+      "Colby's location tells you most of what you need to know about its pests. This is High Plains wheat and corn country, flat and dry at over 3,100 feet of elevation, built up around a rail line that arrived in 1887 and an interstate that followed in 1965. The county seat of Thomas County since 1885, Colby still runs on grain: wheat comes off the fields each June, corn and milo follow in the fall, and every harvest sends field mice and crickets scrambling for the nearest building once their cover disappears. The grain elevators and storage facilities that keep that harvest moving carry their own stored-product pest risk. Spiders and ants round out the picture, both suited to Colby's dry climate and open terrain, and both drawn indoors as the weather turns.",
+    sections: [
+      {
+        heading: "Harvest-season mice and crickets on Colby's edge",
+        body: "Thomas County's wheat, corn, and milo fields run right up to Colby's city limits on most sides, and the harvest calendar drives a big share of the town's pest pressure. Wheat comes off in June, corn and milo follow in the fall, and each time a combine clears a field, the mice and crickets that were living in it lose their cover within hours. They don't have far to go. Homes and outbuildings on Colby's outer streets, closest to open field, see the sharpest spikes right after each harvest, while the dry High Plains summer between harvests pushes crickets toward any cooler, damper foundation gap they can find. Sealing obvious entry points before each harvest season matters more in Colby than in a town further from active cropland.",
+      },
+      {
+        heading: "Grain storage and stored-product pests",
+        body: "Colby has handled bulk grain since the Union Pacific Railroad reached the city in 1887, and the elevators and storage facilities built up around that rail line are still central to the local economy. Any facility storing wheat, corn, or milo at that scale carries a standing risk of Indian meal moths and other stored-product pests, which can spread through a grain bin or warehouse fast if an infested load goes unnoticed. Commercial pest programs for Colby's grain-handling facilities look different from a residential plan, built around inspection of incoming loads, pheromone monitoring traps, and rapid response, rather than a quarterly perimeter treatment. Getting ahead of a stored-product pest problem is far cheaper than fumigating a full bin after an infestation takes hold.",
+      },
+      {
+        heading: "Spiders and ants in Colby's dry High Plains climate",
+        body: "Colby's semi-arid climate, with its low humidity and big day-to-night temperature swings, suits several ground and web-building spider species well, and the growth of the local hospitality industry along Interstate 70, which reached town in 1965, has added more buildings with the loading docks and storage space spiders favor. Field ants and pavement ants move into Colby yards and driveways from the surrounding dry grassland once the soil warms each spring, and both spiders and ants tend to become more visible indoors in late summer as the outdoor ground dries out and food gets scarcer. A tight seal on doors, windows, and utility lines cuts down on both well before either becomes a real nuisance.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and garage entry points before the June wheat harvest and again before fall corn and milo harvest.",
+      "Set interior traps promptly after each harvest, when field mice are most likely to move indoors.",
+      "Ask about a commercial stored-product pest program for any facility storing bulk grain.",
+      "Treat exterior perimeters in early spring to reduce field ant and pavement ant entry as the soil warms.",
+    ],
+    costNote:
+      "General quarterly pest plans in Colby run $110 to $220 per year for a typical home. Harvest-season exclusion service to block mice and crickets before each harvest runs $130 to $250. Commercial stored-product pest programs for grain elevators and storage facilities are quoted separately based on facility size.",
+    faqs: [
+      {
+        question: "Why does Colby see so many mice after harvest?",
+        answer:
+          "Colby sits in the middle of Thomas County's wheat, corn, and milo country, and when combines clear a field, whether during the June wheat harvest or the fall row-crop harvest, the mice living there lose their cover fast and head for the nearest building, often a home or outbuilding on the edge of town.",
+      },
+      {
+        question: "Are grain elevators in Colby a pest risk?",
+        answer:
+          "Facilities storing bulk wheat, corn, or milo, an industry Colby has supported since the Union Pacific Railroad arrived in 1887, carry a standing risk of Indian meal moths and other stored-product pests. Commercial programs built around inspection and monitoring traps address that risk differently than a home pest plan.",
+      },
+      {
+        question: "Is Colby's dry climate good or bad for pest control?",
+        answer:
+          "Both. The semi-arid High Plains climate keeps some humidity-driven pests, like certain mosquitoes, in check, but it suits ground and web-building spiders well and does nothing to reduce field cricket or ant pressure from the surrounding dry grassland.",
+      },
+      {
+        question: "When are field crickets worst in Colby?",
+        answer:
+          "Typically August through October, as the High Plains summer dries out the wheat and corn fields around town and crickets move toward cooler, damper ground, often a foundation gap or garage.",
+      },
+      {
+        question: "Does Interstate 70 traffic affect Colby's pest pressure?",
+        answer:
+          "Indirectly. I-70 reached Colby in 1965 and helped build up the local hospitality industry, and the additional loading docks, storage areas, and truck traffic that came with it give spiders and some ants more building access than a town without that corridor would have.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Gardner", slug: "gardner-ks", stateSlug: "kansas" },
+      { name: "El Dorado", slug: "el-dorado-ks", stateSlug: "kansas" },
+      { name: "Concordia", slug: "concordia-ks", stateSlug: "kansas" },
+      { name: "Fort Scott", slug: "fort-scott-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Colby, KS | Harvest Mice, Grain Pests & Crickets",
+    metaDescription:
+      "Colby, KS pest control for harvest-season mice, field crickets, grain storage pests, spiders and ants. Thomas County High Plains service. Free inspection.",
+  },
+  {
+    slug: "concordia-ks",
+    name: "Concordia",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~5,100",
+    county: "Cloud County",
+    climate: "semi-arid",
+    climateDriver:
+      "Concordia sits in Cloud County in north-central Kansas, in the transition zone where the state's more humid east gives way to the drier semi-arid plains further west. Wheat and other grain crops dominate the farmland surrounding the city, and the mix of open cropland, the Republican River basin nearby, and Concordia's older building stock gives the town a pest calendar built around harvest cycles and stored grain more than any single climate factor.",
+    topPests: ["House Mice", "Indian Meal Moths", "Mosquitoes", "Ticks", "Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp surge after wheat harvest in June",
+        note: "Cloud County's wheat fields press close to Concordia on most sides, and when the June harvest clears them, field mice lose their cover fast and move toward the nearest building, a pattern that repeats with the fall row-crop harvest too.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round around grain storage",
+        note: "Concordia's grain elevators and farm storage, central to a county built on wheat farming, carry a standing stored-product pest risk that needs its own inspection routine separate from residential pest control.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The creeks and low ground that drain toward the Republican River basin north of Concordia hold water long enough after spring rain to support a full mosquito season.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through July",
+        note: "The grassed-over grounds of the former Camp Concordia, the WWII prisoner-of-war camp two miles northeast of the city that once held over 4,000 German prisoners, sit at the edge of open pasture where ticks are common through late spring.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Concordia's older residential streets, many built up decades before the camp closed in 1945, see steady ant activity moving in from surrounding farmland edges each spring.",
+      },
+    ],
+    localHook:
+      "Concordia is home to the site of Camp Concordia, the largest prisoner-of-war camp in Kansas during World War II. Built starting in February 1943, the camp held as many as 4,027 German prisoners, most captured under Field Marshal Erwin Rommel in North Africa, along with 880 American soldiers and 179 civilian employees at its peak in November 1943. The camp closed in November 1945, and a museum on the site, opened in 2015, now preserves its history alongside the wheat farmland that surrounds Concordia in every direction.",
+    intro:
+      "Concordia's history and its farmland define the town in equal measure. Two miles northeast of the city sat Camp Concordia, the largest WWII prisoner-of-war camp in Kansas, which held more than 4,000 German prisoners at its peak in 1943 before closing in 1945. A museum on the site now preserves that history. All around it, Cloud County's wheat fields keep doing what they've always done, and Concordia's pest calendar follows the harvest as much as it follows the season. Field mice pour toward town each June when the wheat comes off, the grain elevators that handle that harvest carry their own stored-product pest risk, and the creeks draining toward the nearby Republican River basin keep mosquitoes going through the summer. Ticks turn up on the grassed-over camp grounds and the pasture edges around them each spring.",
+    sections: [
+      {
+        heading: "Wheat harvest and Concordia's mouse problem",
+        body: "Cloud County is wheat country, and the fields that surround Concordia on nearly every side come off in a single concentrated push each June. When that happens, the field mice that were sheltering in the standing wheat lose their cover all at once, and the nearest structure, often a home or outbuilding at the edge of town, becomes the new address. A second, smaller wave follows the fall harvest of corn and other row crops. Homes closest to open farmland see the sharpest spikes in both cases, and sealing foundation gaps and utility penetrations before each harvest is a more effective strategy in Concordia than trying to trap mice after they've already moved in.",
+      },
+      {
+        heading: "Grain storage pests and the camp grounds",
+        body: "Concordia's economy runs on the same wheat farming that has defined Cloud County for well over a century, and the grain elevators handling that harvest carry a standing risk of Indian meal moths and other stored-product pests that spreads fast through a bin or warehouse if it goes unchecked. Away from the elevators, the grassed-over grounds of the former Camp Concordia, the WWII prisoner-of-war camp that once held over 4,000 German prisoners two miles northeast of the city, now sit at the edge of open pasture rather than the fenced, guarded compound they were in 1943. That kind of unmanaged grassland is exactly where ticks thrive each spring, and visitors to the camp museum or nearby pasture should check themselves after any visit.",
+      },
+      {
+        heading: "Mosquitoes and ants around Concordia",
+        body: "The creeks and low ground draining toward the Republican River basin north of Concordia hold water for weeks after a good spring rain, long enough to support a full mosquito season that typically runs May through September. Ants are a smaller but steady concern on Concordia's older residential streets, many built up decades before the camp closed in 1945, where activity moves in from the surrounding farmland edges as the soil warms each March. Neither pest is unique to Concordia, but both track closely with the town's mix of open farmland and older housing stock, and both respond well to a routine perimeter treatment applied before the season really gets going.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before the June wheat harvest and the fall row-crop harvest.",
+      "Ask about a stored-product pest program for any facility storing bulk grain near Concordia's elevators.",
+      "Check for ticks after visiting the Camp Concordia museum grounds or nearby pasture, especially April through July.",
+      "Clear low, water-holding ground near creeks draining toward the Republican River basin each spring.",
+    ],
+    costNote:
+      "General quarterly pest plans in Concordia run $110 to $220 per year for a typical home. Harvest-season exclusion service runs $130 to $250. Commercial stored-product pest programs for grain elevators are quoted separately based on facility size.",
+    faqs: [
+      {
+        question: "Why do mice surge in Concordia every June?",
+        answer:
+          "Cloud County's wheat fields surround Concordia closely, and the June harvest clears that cover in a concentrated push, sending field mice toward the nearest building. A smaller second wave follows the fall row-crop harvest.",
+      },
+      {
+        question: "Are ticks a concern at the old Camp Concordia site?",
+        answer:
+          "Yes. The grassed-over grounds of the former WWII prisoner-of-war camp, which once held over 4,000 German prisoners two miles northeast of the city, now sit at the edge of open pasture, and ticks are common there through late spring.",
+      },
+      {
+        question: "Do Concordia's grain elevators need pest control?",
+        answer:
+          "Yes. Facilities storing bulk wheat carry a standing risk of Indian meal moths and other stored-product pests, and commercial programs built around inspection and monitoring traps handle that risk differently than a home pest plan.",
+      },
+      {
+        question: "When is mosquito season worst in Concordia?",
+        answer:
+          "May through September, driven by the creeks and low ground draining toward the Republican River basin north of the city, which hold water for weeks after a good spring rain.",
+      },
+      {
+        question: "Is Concordia's pest pressure different from other north-central Kansas towns?",
+        answer:
+          "Broadly similar, since most of the region shares the same wheat farming and semi-arid to temperate transition climate, but Concordia's specific mix of active grain elevators and the former Camp Concordia's open grassland gives it its own combination of stored-product pest and tick pressure.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Gardner", slug: "gardner-ks", stateSlug: "kansas" },
+      { name: "El Dorado", slug: "el-dorado-ks", stateSlug: "kansas" },
+      { name: "Colby", slug: "colby-ks", stateSlug: "kansas" },
+      { name: "Fort Scott", slug: "fort-scott-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Concordia, KS | Harvest Mice, Grain Pests & Ticks",
+    metaDescription:
+      "Concordia, KS pest control for wheat harvest mice, grain storage pests, mosquitoes and ticks near the Camp Concordia site. Cloud County service. Free inspection.",
+  },
+  {
+    slug: "fort-scott-ks",
+    name: "Fort Scott",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~7,600",
+    county: "Bourbon County",
+    climate: "temperate",
+    climateDriver:
+      "Fort Scott sits on the Osage Plains in Bourbon County, on the south side of the Marmaton River in the far southeast corner of Kansas, close enough to the Missouri border that the oak-hickory woodland typical of the Ozark foothills starts to blend with the open prairie further west. The humid continental climate brings warm, humid summers and cold winters, and the combination of river bottomland, wooded edges, and a 19th century downtown core gives Fort Scott a wider pest mix than the drier prairie towns further west in Kansas.",
+    topPests: ["Termites", "Mosquitoes", "Carpenter Ants", "Ticks", "House Mice"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Fort Scott's historic downtown, built up around Fort Scott National Historic Site's 19th century military and frontier commerce, sits close to the Marmaton River, and the older brick and frame buildings there carry decades of wood-to-soil contact that Eastern subterranean termites exploit.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Marmaton River runs along the north side of Fort Scott, and the low bottomland it floods each spring holds standing water well into summer in wet years.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The oak-hickory woodland edges east and south of Fort Scott, part of the transition zone toward the Ozark foothills in nearby Missouri, put carpenter ants in regular contact with homes backing up to wooded lots.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "Fort Scott National Historic Site preserves five acres of restored tallgrass prairie right inside the city, and that patch of unmowed grass, along with the wooded trails around it, is a reliable source of ticks through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The farmland surrounding Fort Scott on the Osage Plains sends field mice toward town each fall as crops come off, a pattern shared with most of rural southeast Kansas.",
+      },
+    ],
+    localHook:
+      "Fort Scott National Historic Site, run by the National Park Service, preserves 20 historic structures, a parade ground, and five acres of restored tallgrass prairie inside the city itself. The fort was named for General Winfield Scott and served for a quarter century, from the 1840s through the Civil War era, as a military supply base and staging ground during the opening of the West, including the violent years of Bleeding Kansas. Fort Scott sits about 88 miles south of Kansas City and 54 miles north of Joplin, Missouri, on the Marmaton River.",
+    intro:
+      "Fort Scott's identity is built around its name. Fort Scott National Historic Site, preserved by the National Park Service right inside the city, protects 20 structures and five acres of restored tallgrass prairie from the fort's quarter century as a military supply base during the opening of the West, including the Bleeding Kansas years before the Civil War. That same patch of prairie inside the city limits is a real source of ticks each spring, while the Marmaton River, which runs along the north side of town, floods the surrounding bottomland enough some years to keep mosquitoes going all summer. Fort Scott's historic downtown, close to the river and built up over a century and a half, carries real termite risk in its older brick and frame buildings, and the oak-hickory woodland edges toward the Missouri border add carpenter ants to the mix.",
+    sections: [
+      {
+        heading: "Termites and Fort Scott's historic downtown",
+        body: "Fort Scott's downtown grew up around the fort itself, a military supply base that operated for a quarter century starting in the 1840s, and a lot of that 19th century brick and frame construction is still standing today. Sitting close to the Marmaton River, which runs along the north side of the city, those older buildings have accumulated decades of wood-to-soil contact and settled foundations, exactly the conditions Eastern subterranean termites need to move in. Swarms typically appear in spring, with activity continuing through fall. Property owners in and around the historic downtown, particularly buildings close to the river, should schedule an annual inspection rather than waiting for visible damage.",
+      },
+      {
+        heading: "Mosquitoes along the Marmaton River",
+        body: "The Marmaton River, a tributary that runs generally east through Bourbon County past Fort Scott on its way into Missouri, floods its bottomland on a fairly regular spring cycle. In a wet year, that low ground north of the city holds standing water well into summer, and mosquito season in Fort Scott commonly runs May through September as a result. Neighborhoods closest to the river see more pressure than the higher ground further south and east, and clearing gutters, dumping containers, and treating any pool of water that can't be drained matters more here than in a town without a river running through it.",
+      },
+      {
+        heading: "Ticks on the historic prairie, carpenter ants on the wooded edge",
+        body: "Fort Scott National Historic Site preserves five acres of restored tallgrass prairie inside the city limits, alongside the fort's original parade ground and 20 historic structures. That patch of unmowed prairie grass, and the wooded trails around it, is a reliable source of ticks from April through August, and anyone spending time on the site's grounds should check themselves afterward. East and south of town, where Fort Scott's oak-hickory woodland starts blending into the Ozark foothill terrain of nearby Missouri, carpenter ants find plenty of mature trees to work from, putting homes on wooded lots at higher risk than those in open, cleared neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for historic downtown buildings near the Marmaton River, especially older brick and frame structures.",
+      "Clear gutters and standing water each spring to reduce mosquito breeding along the Marmaton River bottomland.",
+      "Check for ticks after visiting Fort Scott National Historic Site's prairie grounds or wooded trails, April through August.",
+      "Trim trees back from homes on wooded lots east and south of town to reduce carpenter ant access.",
+    ],
+    costNote:
+      "General quarterly pest plans in Fort Scott run $110 to $230 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,200 for historic downtown buildings. Mosquito season treatments during a wet spring add $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Is Fort Scott's historic downtown at higher termite risk?",
+        answer:
+          "Yes. The 19th century brick and frame buildings near downtown, close to the Marmaton River, have decades of wood-to-soil contact and settled foundations, giving Eastern subterranean termites more opportunity than newer construction elsewhere in the city.",
+      },
+      {
+        question: "Are ticks common at Fort Scott National Historic Site?",
+        answer:
+          "Yes. The site preserves five acres of restored tallgrass prairie inside the city limits, and that unmowed grass, along with the wooded trails around it, is a reliable source of ticks from April through August.",
+      },
+      {
+        question: "Why does Fort Scott get mosquitoes from the Marmaton River?",
+        answer:
+          "The Marmaton River floods its bottomland on a fairly regular spring cycle, and in a wet year that low ground north of the city holds standing water well into summer, extending mosquito season to May through September.",
+      },
+      {
+        question: "Do carpenter ants come from the woods around Fort Scott?",
+        answer:
+          "Often. East and south of the city, Fort Scott's oak-hickory woodland starts blending into Ozark foothill terrain toward the Missouri border, and carpenter ants use those mature trees as a base, especially near homes on wooded lots.",
+      },
+      {
+        question: "How far is Fort Scott from Kansas City?",
+        answer:
+          "About 88 miles south. Fort Scott sits on the Marmaton River in Bourbon County, roughly 54 miles north of Joplin, Missouri, and its location near the state line is part of why its pest mix leans wetter and woodier than towns further west in Kansas.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Gardner", slug: "gardner-ks", stateSlug: "kansas" },
+      { name: "El Dorado", slug: "el-dorado-ks", stateSlug: "kansas" },
+      { name: "Colby", slug: "colby-ks", stateSlug: "kansas" },
+      { name: "Concordia", slug: "concordia-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fort Scott, KS | River Termites, Ticks & Mosquitoes",
+    metaDescription:
+      "Fort Scott, KS pest control for termites near downtown, Marmaton River mosquitoes, ticks at the historic site, and carpenter ants. Bourbon County service. Free inspection.",
+  },
 ];

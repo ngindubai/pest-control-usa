@@ -9723,4 +9723,559 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Charlotte, MI pest control for fall cluster flies and boxelder bugs, courthouse-era carpenter ants, and winter mice. Licensed Eaton County service. Free inspection.",
   },
+  {
+    slug: "wayne",
+    name: "Wayne",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~17,100",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wayne sits in the humid continental climate of southeastern Michigan, with warm, muggy summers and cold, snowy winters typical of the inner Detroit suburbs. The Lower Branch of the Rouge River cuts through town on its way toward Dearborn, and the parkland protecting it holds moisture well into summer. Add a dense, post-World War Two housing stock built up around the Michigan Avenue industrial corridor, and Wayne gets pest pressure from both the river corridor and its older, tightly packed neighborhoods.",
+    topPests: ["House Mice", "Carpenter Ants", "Mosquitoes", "Stink Bugs", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Wayne's post-war bungalows and small multi-family buildings along the Michigan Avenue corridor sit close together, and their aging sill plates give mice an easy way in once the fall cold sets in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The Lower Branch of the Rouge River runs through Wayne's protected parkland, and the mature trees lining Goudy Park put carpenter ants within easy reach of the homes that back up to the corridor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Low, slow-draining ground along the Lower Branch Rouge River floodplain holds standing water well past a spring rain, and Wayne's riverside blocks feel that pressure more than streets further from the water.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the sun-facing brick and vinyl siding of Wayne's ranch-style homes each fall before working their way in through window trim and utility gaps.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in multi-family buildings",
+        note: "The dense rental housing and older multi-family buildings near the Michigan Assembly Plant corridor give cockroaches the shared walls and plumbing chases they need to move between units unnoticed.",
+      },
+    ],
+    localHook:
+      "Ford's Michigan Assembly Plant, built on Michigan Avenue in 1957 and still turning out Bronco and Ranger trucks today, anchors Wayne's identity as much as anything else in town. The Lower Branch of the Rouge River, protected as county parkland as it winds through, is the other constant, and between the two, an old industrial corridor and a river corridor, Wayne's pest pressure comes from a genuinely different mix of sources than a purely residential suburb sees.",
+    intro:
+      "Wayne's pest pressure comes from two directions at once. The Lower Branch of the Rouge River runs through town on its way to Dearborn, and the county parkland protecting it keeps low ground damp long after a spring rain, which is exactly what mosquitoes and, at the margins, carpenter ants look for. Meanwhile, the Michigan Avenue corridor built up around Ford's Michigan Assembly Plant, running trucks off the line since 1957, left Wayne with a dense stock of post-war bungalows and small multi-family buildings whose aging sill plates and shared walls give mice and cockroaches an easy path indoors. Stink bugs round out the picture each fall, staging on sunny exterior walls before pushing inside for winter. A Wayne property's pest risk tracks closely with which of these two forces, river or corridor, it sits closer to.",
+    sections: [
+      {
+        heading: "The Rouge River corridor and Wayne's mosquito season",
+        body: "The Lower Branch of the Rouge River flows through Wayne on its way toward Dearborn, and the county parkland set aside to protect it, including Goudy Park, keeps the surrounding low ground damp for days after even a moderate rain. That standing water is where mosquitoes breed, and Wayne's riverside blocks see noticeably more pressure through the May-to-September season than streets on the higher ground toward the west side of town. The same wooded corridor gives carpenter ants a foothold too, particularly in yards backing directly onto the parkland where a dead branch or old stump sits within an ant colony's foraging range of the house. A wet spring in Wayne tends to mean a rough mosquito summer for that reason, and even a property two or three blocks back from the water can notice the difference once the season gets going.",
+      },
+      {
+        heading: "Post-war housing near the Michigan Avenue industrial corridor",
+        body: "Ford's Michigan Assembly Plant has run since 1957 on Michigan Avenue, and the neighborhoods that grew up around it are still mostly the same post-war bungalows and small multi-family buildings built to house the workforce. That housing stock is now well over sixty years old, and its aging sill plates, foundation gaps, and shared plumbing chases in the multi-family buildings give both mice and cockroaches an easy way to move between units. Fall is the worst stretch for mice, as the first cold snap sends them looking for a warmer building, while cockroach pressure in the denser rental blocks tends to run year-round rather than seasonally.",
+      },
+      {
+        heading: "Fall stink bugs across Wayne's neighborhoods",
+        body: "Stink bugs do not care whether a Wayne property sits near the river or the industrial corridor. Each September and October they gather on the sun-warmed brick and vinyl siding of ranch-style homes across town, working their way toward any gap around window trim, utility lines, or siding seams before the weather turns cold. Once inside, they hole up in attics and wall voids and largely stay out of sight until a warm day in late winter draws them back into living space. Sealing obvious gaps before the fall staging begins is the most effective single step a homeowner can take, and it pays off twice, since many of the same gaps let mice in a few weeks later.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and aging sill plates on post-war housing before the fall cold arrives.",
+      "Clear standing water and debris along Rouge River-adjacent yards each spring to cut mosquito breeding.",
+      "Remove dead branches and old stumps near parkland-adjacent lots to reduce carpenter ant nesting sites.",
+      "Seal window trim and utility gaps before September to keep fall stink bugs from moving indoors.",
+    ],
+    costNote:
+      "General quarterly pest plans in Wayne typically run $120 to $250 per year for a single-family home. Multi-family and rental-unit cockroach treatment is priced per unit and often runs $80 to $150 per visit. Mosquito season treatments along Rouge River-adjacent properties add $80 to $150 per visit during the wettest stretches. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Wayne's location on the Rouge River affect mosquito control?",
+        answer:
+          "Yes. The Lower Branch of the Rouge River runs through Wayne, and the county parkland protecting it keeps low ground damp well after a spring rain. Riverside blocks see noticeably more mosquito pressure through the summer than higher ground further from the water.",
+      },
+      {
+        question: "Why does the Michigan Avenue corridor see more pest pressure?",
+        answer:
+          "The neighborhoods built up around Ford's Michigan Assembly Plant, running since 1957, are still mostly post-war bungalows and small multi-family buildings. Their aging sill plates and shared plumbing chases give mice and cockroaches an easier path indoors than newer construction.",
+      },
+      {
+        question: "When are stink bugs worst in Wayne?",
+        answer:
+          "September through November, when stink bugs stage on sun-warmed exterior walls before working their way indoors for winter. Sealing window trim and utility gaps ahead of that window is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants a problem for homes near Wayne's parkland?",
+        answer:
+          "They can be. The wooded corridor protecting the Lower Branch of the Rouge River, including Goudy Park, puts carpenter ants within foraging range of yards that back directly onto the parkland, especially where a dead branch or stump has been left standing.",
+      },
+      {
+        question: "Is cockroach treatment different for Wayne's rental and multi-family buildings?",
+        answer:
+          "Yes. Shared walls and plumbing chases in Wayne's denser rental housing near the industrial corridor let cockroaches move between units, so treatment is usually priced and scheduled per unit rather than as a single whole-building visit.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Grand Haven", slug: "grand-haven", stateSlug: "michigan" },
+      { name: "Frankenmuth", slug: "frankenmuth", stateSlug: "michigan" },
+      { name: "Houghton", slug: "houghton", stateSlug: "michigan" },
+      { name: "Howell", slug: "howell", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wayne, MI | Rouge River Mosquitoes & Michigan Ave Mice",
+    metaDescription:
+      "Wayne, MI pest control for Rouge River mosquitoes, carpenter ants, post-war housing mice and cockroaches, and fall stink bugs. Licensed Wayne County service. Free inspection.",
+  },
+  {
+    slug: "grand-haven",
+    name: "Grand Haven",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~11,050",
+    county: "Ottawa County",
+    climate: "cold-humid",
+    climateDriver:
+      "Grand Haven sits on the eastern shore of Lake Michigan at the mouth of the Grand River, where the lake's moisture keeps humidity and cloud cover higher than towns just a few miles inland, a pattern locals call the lake effect. Winters bring heavy lake-effect snow off the open water, while summers stay cooler and more humid than inland Ottawa County. The combination of open water, river mouth marsh, and wooded dune terrain gives Grand Haven a wider mix of pest pressure than a typical inland Michigan town of its size.",
+    topPests: ["Mosquitoes", "Boxelder Bugs", "Carpenter Ants", "Silverfish", "Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The marshy ground where the Grand River meets Lake Michigan holds standing water through most of the warm season, and neighborhoods closest to the river mouth and the channel leading to the harbor see the heaviest mosquito pressure in town.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November, overwintering into spring",
+        note: "Grand Haven's lakefront-facing homes catch direct fall sun on their west walls, and boxelder bugs stage there by the hundreds before slipping into siding gaps and attic vents for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded dune ridges that line Grand Haven's shoreline neighborhoods put carpenter ants in regular contact with cottages and homes built among the trees, especially older lake cottages with softened deck or trim wood.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse in damp basements",
+        note: "The higher humidity that comes off Lake Michigan keeps Grand Haven's older basements and crawl spaces damper than homes further inland, which is exactly the environment silverfish need to thrive.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Dune grass and thick shoreline vegetation around Grand Haven's cottages give spiders plenty of cover close to the house, and cooling fall weather pushes them toward garages, sheds, and window wells looking for shelter.",
+      },
+    ],
+    localHook:
+      "Grand Haven was platted in 1835 at the mouth of the Grand River, and the twin lighthouses built in 1875 and 1905 still stand on the south pier, connected by a catwalk that has guided ships into the harbor for well over a century. That river-mouth, lake-facing setting, more than any single fact about the town, is what shapes its pest calendar.",
+    intro:
+      "Grand Haven's location at the mouth of the Grand River, where it empties into Lake Michigan beside the historic pier lighthouses built in 1875 and 1905, does more than draw summer visitors to the boardwalk. The marshy ground around the river mouth holds water through most of the warm season, giving mosquitoes a strong foothold in the neighborhoods closest to the channel. The open lake itself moderates temperatures and pushes humidity higher than inland Ottawa County, which keeps older basements damp enough for silverfish to thrive year-round. Wooded dune ridges along the shoreline put carpenter ants within reach of lake cottages, while boxelder bugs stage by the hundreds on sun-facing lakefront walls each fall before pushing indoors for winter. Few Michigan towns of Grand Haven's size see this particular mix of lake, river, and dune pest pressure all at once.",
+    sections: [
+      {
+        heading: "Mosquitoes at the Grand River mouth",
+        body: "Where the Grand River widens out and meets Lake Michigan, the surrounding ground stays marshy and slow to drain for most of the warm season. Neighborhoods closest to the river mouth and the channel leading out to the harbor, within sight of the 1875 and 1905 lighthouses on the south pier, see the heaviest mosquito pressure in town, typically running May through September. Properties further from the water, up on the higher dune ground toward the east side of Grand Haven, see noticeably less. Clearing gutters and dumping standing water after summer rain matters more here than in most inland Ottawa County towns simply because there is more wetland nearby to begin with. That gap between river-mouth blocks and higher dune ground is most noticeable in the days right after a heavy summer storm.",
+      },
+      {
+        heading: "Boxelder bugs and carpenter ants along the lakeshore",
+        body: "Grand Haven's lakefront-facing homes catch strong, direct fall sun on their west-facing walls, and boxelder bugs take full advantage, staging there by the hundreds each September and October before working into siding gaps, attic vents, and window trim ahead of winter. The wooded dune ridges that run along much of the shoreline create a second, separate pest pressure: carpenter ants. Older lake cottages built among the dune trees, especially ones with a history of roof leaks or softened deck wood, give carpenter ants an easy target, and cottages that sit empty for stretches of the off-season are particularly vulnerable to activity going unnoticed until it has spread.",
+      },
+      {
+        heading: "Humidity, silverfish, and fall spiders",
+        body: "Lake Michigan's open water keeps Grand Haven noticeably more humid than towns even a short drive inland, and that extra moisture settles into older basements and crawl spaces where it does not always fully dry out between rains. Silverfish thrive in exactly that kind of damp, dark environment, and Grand Haven's older lakeside housing stock gives them plenty of it year-round. Spiders follow a more seasonal pattern, sheltering in the dune grass and thick shoreline vegetation around cottages through summer before cooling fall weather pushes them toward garages, sheds, and window wells looking for a way in. Older lakeside homes without a working dehumidifier tend to carry the heaviest silverfish activity of any housing type in town, a pattern common across much of coastal West Michigan.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and dump standing water near river-mouth and channel-adjacent properties through the mosquito season.",
+      "Seal siding gaps and attic vents on lakefront-facing walls before September to reduce boxelder bug entry.",
+      "Have dune-adjacent lake cottages inspected annually for carpenter ants, especially after any roof or deck wood damage.",
+      "Run a dehumidifier in older basements and crawl spaces to reduce the damp conditions silverfish need.",
+    ],
+    costNote:
+      "General pest coverage for Grand Haven homes typically runs $130 to $270 per year for a quarterly plan, with lakefront and dune-adjacent cottages often at the higher end given the added carpenter ant and boxelder bug pressure. Seasonal mosquito treatment near the river mouth runs $80 to $160 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Grand Haven have more mosquitoes near the river mouth?",
+        answer:
+          "The marshy ground where the Grand River meets Lake Michigan holds standing water through most of the warm season. Neighborhoods closest to the channel and the historic 1875 and 1905 pier lighthouses see the heaviest pressure, typically May through September.",
+      },
+      {
+        question: "Are boxelder bugs a bigger problem on Grand Haven's lakefront?",
+        answer:
+          "Yes. Lakefront-facing homes catch strong, direct fall sun on their west walls, and boxelder bugs stage there by the hundreds each September and October before working into siding gaps and attic vents ahead of winter.",
+      },
+      {
+        question: "Do Grand Haven's dune cottages need extra carpenter ant attention?",
+        answer:
+          "Often, yes. The wooded dune ridges along the shoreline put carpenter ants in regular contact with older lake cottages, particularly ones with a history of roof leaks or softened deck wood, or ones left empty for stretches of the off-season.",
+      },
+      {
+        question: "Why are basements in Grand Haven more prone to silverfish?",
+        answer:
+          "Lake Michigan's open water keeps humidity higher in Grand Haven than towns further inland, and that extra moisture settles into older basements and crawl spaces, creating the damp environment silverfish need to thrive year-round.",
+      },
+      {
+        question: "What time of year are spiders worst around Grand Haven cottages?",
+        answer:
+          "Spiders shelter in dune grass and shoreline vegetation through summer, then move toward garages, sheds, and window wells as fall weather cools, looking for a way indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Wayne", slug: "wayne", stateSlug: "michigan" },
+      { name: "Frankenmuth", slug: "frankenmuth", stateSlug: "michigan" },
+      { name: "Houghton", slug: "houghton", stateSlug: "michigan" },
+      { name: "Howell", slug: "howell", stateSlug: "michigan" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Grand Haven, MI | Lake Michigan Mosquitoes & Boxelder Bugs",
+    metaDescription:
+      "Grand Haven, MI pest control for Grand River mouth mosquitoes, lakefront boxelder bugs, dune carpenter ants and basement silverfish. Licensed Ottawa County service. Free inspection.",
+  },
+  {
+    slug: "frankenmuth",
+    name: "Frankenmuth",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~5,200",
+    county: "Saginaw County",
+    climate: "cold-humid",
+    climateDriver:
+      "Frankenmuth sits along the Cass River in Saginaw County, in a humid continental climate with warm summers and cold winters typical of Michigan's Thumb-adjacent farm country. Open farmland surrounds the city on every side, and the Cass River corridor running through downtown adds wooded, moisture-holding ground that the surrounding fields do not have. Add the visitors who pass through Frankenmuth's restaurant and shopping district each year, and the town has a genuinely different pest calendar than a farm town of its size would otherwise carry.",
+    topPests: ["House Mice", "Cluster Flies", "Wasps", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through October",
+        note: "The corn and dry bean fields that surround Frankenmuth press close to the edges of town, and when the harvest clears cover each fall, field mice move toward the nearest building, including homes at the edge of town and the storage areas behind the city's restaurant district.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Frankenmuth's older German-built homes, many dating to the city's founding by Franconian Lutheran settlers in 1845, stage cluster flies on sunny brick walls each fall before the insects slip into wall voids for winter.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "The outdoor seating and pavilion areas tied to Frankenmuth's tourist district draw wasps looking for food scraps and sugary drinks all summer, a pressure that a typical Saginaw County farm town without heavy foot traffic does not deal with.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The Cass River corridor running through downtown Frankenmuth keeps the riverbank tree line consistently moist, and carpenter ants move from that wooded edge into older buildings and homes that back onto the river.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in food-service settings",
+        note: "Frankenmuth's dense concentration of restaurants and bakeries built around the city's Bavarian tourism draw carries a commercial cockroach risk that a farm town without that volume of food service would not otherwise face.",
+      },
+    ],
+    localHook:
+      "Frankenmuth was settled in August 1845 by Franconian Lutheran immigrants from Bavaria, who named the town from the German words for their home region and for courage, and it has stayed known as Little Bavaria ever since. That German building tradition and the Cass River running through downtown, combined with the restaurant and tourism district that now draws visitors from across the Midwest, give Frankenmuth a pest calendar shaped as much by food service and old construction as by the farmland around it.",
+    intro:
+      "Frankenmuth's pest calendar has two sources: the farmland ringing the city, and the restaurant and tourism district that has grown up around its identity as Little Bavaria since Franconian Lutheran settlers arrived in 1845. House mice pour out of the surrounding corn and dry bean fields each fall once the harvest clears their cover, heading for the nearest structure, including homes at the edge of town and storage space behind downtown restaurants. Cluster flies favor the older German-built homes that date back generations, staging on sunny brick each fall. Wasps are drawn to the outdoor seating tied to Frankenmuth's tourist economy all summer, a pressure most Saginaw County farm towns never see at this scale. Carpenter ants move in from the wooded Cass River corridor through downtown, and the sheer density of restaurants and bakeries built around the Bavarian tourism draw carries its own commercial cockroach risk.",
+    sections: [
+      {
+        heading: "Harvest-season mice from the farmland around Frankenmuth",
+        body: "Corn and dry bean fields press close against Frankenmuth on nearly every side, and when the fall harvest clears out that cover each September and October, field mice lose their hiding spots overnight. They head for the nearest structure, and that includes both the homes at the edge of town and the storage rooms behind downtown's restaurants and bakeries. Older German-built homes with aging sill plates take the brunt of residential pressure, while food-service businesses face a stricter standard: even a small mouse problem near a kitchen or storage area can shut down service until it is resolved. Sealing gaps before the harvest starts is the most effective step either type of property can take.",
+      },
+      {
+        heading: "Wasps and cockroaches tied to Frankenmuth's tourism economy",
+        body: "Frankenmuth draws heavy foot traffic through its restaurant, bakery, and shopping district built around its identity as Little Bavaria, and that volume of food service brings pest pressure a typical farm town of 5,200 people would not otherwise see. Wasps are drawn to the outdoor seating and pavilion areas all summer, chasing food scraps and sugary drinks, and stinging incidents near crowded patios are taken seriously by business owners for good reason. Commercial cockroach pressure runs along the same lines: the dense concentration of kitchens and food storage downtown gives cockroaches more opportunity to establish than a scattered handful of rural restaurants would provide, and treatment for these businesses typically follows a stricter, more frequent schedule than a residential quarterly plan. That stricter cadence is simply the cost of doing business in a town where food service reaches far more visitors each year than the resident population alone would ever generate.",
+      },
+      {
+        heading: "Cluster flies and carpenter ants near the Cass River",
+        body: "Frankenmuth's older homes, many built in the German architectural tradition that traces back to the town's 1845 founding, catch strong fall sun on their brick exteriors, and cluster flies stage there in numbers each September and October before slipping into wall voids and attics for the winter. They tend to reappear on warm days in late winter, working their way into living space by accident. The Cass River, running through the heart of downtown, keeps the riverbank tree line consistently moist through the growing season, and carpenter ants move from that wooded edge into older buildings and homes that back directly onto the river, particularly where old trim or deck wood has softened.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and sill plates on older homes before the fall harvest to keep field mice out.",
+      "Schedule stricter, more frequent commercial pest visits for restaurant and bakery kitchens through the tourist season.",
+      "Manage outdoor seating waste and sugary spills promptly through summer to reduce wasp activity near patios.",
+      "Have Cass River-adjacent buildings inspected annually for carpenter ants, especially where trim or deck wood has softened.",
+    ],
+    costNote:
+      "Residential quarterly pest plans in Frankenmuth typically run $120 to $240 per year. Commercial pest programs for restaurants and bakeries in the tourism district run more frequently and are priced separately based on kitchen size and food storage volume, often $150 to $400 per month. Seasonal wasp nest removal near outdoor seating runs $90 to $175 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Frankenmuth see so many mice each fall?",
+        answer:
+          "The corn and dry bean fields that surround Frankenmuth press close to the edges of town, and when the harvest clears their cover each September and October, field mice head for the nearest building, including homes and downtown restaurant storage areas.",
+      },
+      {
+        question: "Does Frankenmuth's restaurant district need different pest control than a typical Michigan farm town?",
+        answer:
+          "Yes. The dense concentration of restaurants and bakeries built around Frankenmuth's identity as Little Bavaria, a tradition dating to its 1845 founding by Franconian Lutheran settlers, carries commercial cockroach and wasp pressure that a scattered handful of rural food-service businesses would not otherwise generate.",
+      },
+      {
+        question: "Are wasps a problem for Frankenmuth's outdoor dining areas?",
+        answer:
+          "Yes, from May through September. The outdoor seating and pavilion areas tied to Frankenmuth's tourist economy draw wasps looking for food scraps and sugary drinks, and stinging incidents near crowded patios are a real concern for business owners.",
+      },
+      {
+        question: "Do carpenter ants come from the Cass River near downtown Frankenmuth?",
+        answer:
+          "Often, yes. The Cass River runs through the heart of downtown, and its consistently moist riverbank tree line puts carpenter ants in contact with older buildings and homes that back directly onto the water.",
+      },
+      {
+        question: "Are Frankenmuth's older German-built homes more prone to cluster flies?",
+        answer:
+          "Yes. Many of Frankenmuth's homes trace back to the town's 1845 founding by Franconian Lutheran settlers, and their brick exteriors catch strong fall sun that draws cluster flies to stage there each September and October before moving indoors for winter.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Wayne", slug: "wayne", stateSlug: "michigan" },
+      { name: "Grand Haven", slug: "grand-haven", stateSlug: "michigan" },
+      { name: "Houghton", slug: "houghton", stateSlug: "michigan" },
+      { name: "Howell", slug: "howell", stateSlug: "michigan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Frankenmuth, MI | Harvest Mice & Restaurant District Pests",
+    metaDescription:
+      "Frankenmuth, MI pest control for harvest-season mice, tourist-district wasps and cockroaches, Cass River carpenter ants and fall cluster flies. Licensed Saginaw County service.",
+  },
+  {
+    slug: "houghton",
+    name: "Houghton",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~8,540",
+    county: "Houghton County",
+    climate: "cold",
+    climateDriver:
+      "Houghton sits on the steep, forested slopes above the Portage Lake Waterway on the Keweenaw Peninsula, deep in Michigan's Upper Peninsula, where Lake Superior's proximity brings some of the heaviest snowfall totals in the eastern United States and a short, cool growing season. The dense hardwood and conifer forest that covers most of the surrounding terrain, combined with more than a century of mining-era timber construction still standing in town, shapes a pest calendar built around cold-hardy, wood-seeking species rather than the humidity-driven pests common in the Lower Peninsula.",
+    topPests: ["Carpenter Ants", "Powderpost Beetles", "Deer Mice", "Cluster Flies", "Spiders"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September, a shorter season than southern Michigan",
+        note: "The dense forest surrounding Houghton, including the wooded slopes above the Portage Lake Waterway, gives carpenter ants constant access to dead and downed wood, and older mining-era buildings near downtown carry decades of accumulated risk.",
+      },
+      {
+        name: "Powderpost beetles",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity in older structural timber",
+        note: "Many of Houghton's buildings date to the copper mining boom that ran from the 1840s into the 1960s, and the old structural timber in that mining-era building stock is exactly the kind of aged, untreated wood powderpost beetles target.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April, heaviest in deep winter",
+        note: "Houghton's long, harsh winters and heavy snowpack push deer mice out of the surrounding forest and toward any building offering warmth, a pattern that runs longer and starts earlier here than almost anywhere else in Michigan.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering through the long Houghton winter",
+        note: "Cluster flies stage on sun-exposed walls each September before Houghton's snow arrives, then spend the entire winter tucked into attics and wall voids of the town's older wood-frame buildings.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, concentrated in basements and outbuildings",
+        note: "The basements of Houghton's century-old mining-era buildings, many built directly into the steep hillside terrain, stay cool and undisturbed year-round, giving spiders a stable place to shelter through the long winter.",
+      },
+    ],
+    localHook:
+      "Houghton was built around the Michigan Mining School, founded in 1885 to train engineers for the copper boom that had already been running for four decades, and the school grew into what is now Michigan Technological University. The steep, forested Keweenaw Peninsula terrain and the mining-era buildings still standing from that boom, some now well over a century old, are what set Houghton's pest calendar apart from anywhere else in the Lower Peninsula.",
+    intro:
+      "Houghton's pest pressure has almost nothing in common with a typical Lower Peninsula Michigan town. Set on the steep, forested slopes above the Portage Lake Waterway in the heart of the Keweenaw Peninsula, Houghton grew up around the copper mining boom that ran from the 1840s into the 1960s and led directly to the founding of the Michigan Mining School in 1885, now Michigan Technological University. That mining-era building stock, much of it now more than a century old, gives powderpost beetles a steady supply of aged structural timber, while the dense surrounding forest keeps carpenter ants active through the short Upper Peninsula summer. Houghton's long, snow-heavy winters push deer mice toward any building offering warmth earlier and more aggressively than in southern Michigan, and cluster flies and spiders both settle into the town's older wood-frame construction for the cold months. Almost every pest issue here traces back to either the forest or the age of the buildings.",
+    sections: [
+      {
+        heading: "Mining-era construction and powderpost beetle risk",
+        body: "Houghton's identity is tied to the copper mining boom that ran from the 1840s into the 1960s, a boom that led directly to the 1885 founding of the Michigan Mining School, now Michigan Technological University. A lot of the structural timber used in buildings from that era is still standing, aged, untreated, and exactly the kind of wood powderpost beetles target. Unlike subterranean termites, which need soil contact, powderpost beetles can infest dry structural lumber directly, and Houghton's older downtown buildings carry decades of accumulated risk simply because of their age. Inspection of exposed floor joists, beams, and attic framing is worth doing on any building constructed before the mid-20th century, whether or not there is visible damage yet.",
+      },
+      {
+        heading: "Carpenter ants in the Keweenaw forest and deer mice in the cold",
+        body: "The steep, densely forested terrain surrounding Houghton, including the slopes above the Portage Lake Waterway, gives carpenter ants an abundant, close supply of dead and downed wood to nest in, and colonies expand into nearby structures during the short May-to-September window when the Upper Peninsula's cold climate allows outdoor activity. Deer mice follow a very different calendar, driven almost entirely by Houghton's long, harsh winters. As snow accumulates and outdoor food and shelter disappear, deer mice move toward buildings offering warmth starting as early as October, a full month or two earlier than the pattern seen in southern Michigan, and stay active indoors well into April.",
+      },
+      {
+        heading: "Cluster flies and spiders in Houghton's older buildings",
+        body: "Cluster flies stage on Houghton's sun-exposed walls each September, in the narrow window before heavy snow arrives, then spend the entire long winter tucked into attics and wall voids of the town's older wood-frame buildings, only reappearing on the rare warm day. Spiders take a similar approach but settle lower in the structure: the basements of Houghton's century-old mining-era buildings, many cut directly into the steep hillside terrain, stay cool, dark, and largely undisturbed year-round, giving spiders a stable place to shelter regardless of season. Both are manageable with routine sealing and monitoring, but Houghton's remoteness means scheduling service ahead of the first heavy snowfall matters more here than in towns with easier winter road access. Homeowners moving to Houghton from the Lower Peninsula often underestimate how much earlier that fall staging begins this far north.",
+      },
+    ],
+    prevention: [
+      "Inspect exposed structural timber in pre-1960s Houghton buildings for powderpost beetle activity, even without visible damage.",
+      "Have forest-adjacent properties checked for carpenter ants during the short May-to-September active season.",
+      "Seal foundation gaps and utility penetrations before October to keep deer mice out ahead of winter.",
+      "Schedule fall pest service before the first heavy snowfall, since winter road conditions can limit access.",
+    ],
+    costNote:
+      "General pest coverage in Houghton typically runs $150 to $280 per year given the added scope for cold-climate rodent exclusion. Powderpost beetle inspection and spot treatment for mining-era structural timber is quoted separately by building size, often $400 to $1,000. Deer mice exclusion service ahead of winter runs $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are powderpost beetles a bigger concern in Houghton than in southern Michigan?",
+        answer:
+          "Much of Houghton's building stock dates to the copper mining boom that ran from the 1840s into the 1960s, and that old, untreated structural timber is exactly what powderpost beetles target. Inspection of exposed beams and floor joists is worth doing on any pre-1960s building.",
+      },
+      {
+        question: "When are deer mice most active in Houghton?",
+        answer:
+          "Starting around October and running through April, a longer and earlier season than southern Michigan sees. Houghton's long, snow-heavy winters push deer mice out of the surrounding forest toward buildings offering warmth well before the coldest weather arrives.",
+      },
+      {
+        question: "How does the Keweenaw Peninsula forest affect carpenter ants in Houghton?",
+        answer:
+          "The dense forest on the slopes above the Portage Lake Waterway gives carpenter ants a constant, nearby supply of dead and downed wood. Colonies expand into structures during the short May-to-September window when the Upper Peninsula's cold climate allows outdoor activity.",
+      },
+      {
+        question: "Do Houghton's mining-era buildings need special pest inspection?",
+        answer:
+          "Yes. Many buildings trace back to the copper boom that led to the 1885 founding of the Michigan Mining School, now Michigan Technological University, and their aged structural timber and hillside-cut basements carry decades of accumulated powderpost beetle and spider risk.",
+      },
+      {
+        question: "Why should pest service in Houghton be scheduled before winter?",
+        answer:
+          "Houghton's heavy snowfall and remote Upper Peninsula location can limit road access once winter sets in. Scheduling fall exclusion service before the first significant snowfall avoids that gap in coverage.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wayne", slug: "wayne", stateSlug: "michigan" },
+      { name: "Grand Haven", slug: "grand-haven", stateSlug: "michigan" },
+      { name: "Frankenmuth", slug: "frankenmuth", stateSlug: "michigan" },
+      { name: "Howell", slug: "howell", stateSlug: "michigan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Houghton, MI | Keweenaw Carpenter Ants & Powderpost Beetles",
+    metaDescription:
+      "Houghton, MI pest control for Keweenaw Peninsula carpenter ants, mining-era powderpost beetles, winter deer mice and cluster flies. Licensed Houghton County service.",
+  },
+  {
+    slug: "howell",
+    name: "Howell",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~10,050",
+    county: "Livingston County",
+    climate: "cold-humid",
+    climateDriver:
+      "Howell sits amid Livingston County's rolling farmland and glacial lake country, in a humid continental climate with warm summers and cold winters typical of southeastern Michigan away from the immediate coastline. Dozens of small glacial lakes dot the county around Howell, and the farm fields ringing the city give it a pest calendar shaped by both standing water and harvest-season rodent migration, a combination that inland farm-and-lake towns see more of than either a purely agricultural or purely lakeside community would.",
+    topPests: ["House Mice", "Mosquitoes", "Fleas & Ticks", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The farmland surrounding Howell gives way to combines each fall, and field mice displaced by the harvest move toward the nearest shelter, often the older homes near Howell's historic courthouse square downtown.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Livingston County's dozens of small glacial lakes, many within a short drive of downtown Howell, keep breeding habitat close at hand all summer, and lakeside and low-lying properties around the city see the heaviest pressure.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak in late spring",
+        note: "Howell's mix of farmland edges, wooded lake shoreline, and recreational trails gives ticks the tall grass and brush cover they need, and pets and people spending time near any of Livingston County's lakes should check carefully after being outdoors.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sun-facing exterior walls of Howell homes each fall before finding a gap to slip through, the same pattern common across inland southeastern Michigan farm towns.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Howell's historic downtown includes wood-frame construction dating back to the city's founding as Livingston County's seat, and carpenter ants find opportunity anywhere old trim or deck wood has taken on moisture.",
+      },
+    ],
+    localHook:
+      "Howell was platted in 1833 and became the seat of Livingston County when the county was formally organized in 1836, a role it has held ever since despite a brief early challenge from nearby Brighton. The city's historic courthouse square anchors a downtown surrounded by dozens of small glacial lakes and working farmland, and that mix of standing water, open fields, and century-old construction gives Howell a wider pest calendar than most towns its size.",
+    intro:
+      "Howell has been the seat of Livingston County since the county organized in 1836, just three years after the city was first platted, and its historic courthouse square still anchors a downtown surrounded by farmland and dozens of small glacial lakes. That combination shapes the pest calendar here more than any other factor. Mice pour out of the surrounding fields each fall once the harvest clears their cover, heading for the nearest shelter, often the older homes near downtown. The county's many lakes keep mosquito breeding habitat close at hand all summer, and the same wooded shoreline and brushy trail edges give ticks the cover they need from spring through fall. Stink bugs follow the standard inland Michigan fall pattern, and carpenter ants find opportunity in the old wood-frame construction that makes up much of Howell's historic downtown.",
+    sections: [
+      {
+        heading: "Harvest-season mice near Howell's courthouse square",
+        body: "Livingston County's farmland presses close against Howell on several sides, and when combines move through the fields each September and October, the mice living in them lose their cover overnight. They head for the nearest building, and the older homes near Howell's historic courthouse square, some tracing back toward the city's founding era, are frequent targets thanks to aging sill plates and foundation gaps. Newer subdivisions at the edge of town are not exempt either, though the pressure tends to be lighter than in the historic core. Sealing obvious entry points before the harvest begins is the most effective single step a Howell homeowner can take. That pattern repeats closely enough each year that seasoned Howell homeowners plan their fall sealing work around the local harvest schedule rather than a fixed calendar date.",
+      },
+      {
+        heading: "Lake country mosquitoes and ticks around Howell",
+        body: "Dozens of small glacial lakes dot Livingston County within easy reach of downtown Howell, and that abundance of open water keeps mosquito breeding habitat close at hand throughout the May-to-September season, with lakeside and low-lying properties seeing the heaviest pressure. The same lake-and-farmland mix that supports mosquitoes also supports ticks, which favor the tall grass and brush found along wooded shoreline and recreational trail edges around the county's lakes. Tick activity peaks in late spring but runs from April through October, and anyone, or any pet, spending time near Livingston County's lakes or trails should check carefully after being outdoors, given the disease risk ticks can carry. Families who spend summer weekends at the lake often carry ticks back to the yard on clothing or gear without noticing, which is part of why a whole-property check works better than watching the lake access point alone.",
+      },
+      {
+        heading: "Stink bugs and carpenter ants in Howell's older construction",
+        body: "Stink bugs follow the pattern common across inland southeastern Michigan, gathering on the sun-facing exterior walls of Howell homes each September and October before finding a gap around window trim or siding to slip through ahead of winter. Carpenter ants present a more building-specific risk: Howell's historic downtown, anchored by the courthouse square that has served as the Livingston County seat since 1836, includes wood-frame construction old enough that trim, decking, or window sills have had decades to develop the kind of moisture damage carpenter ants exploit. Newer construction around Howell rarely sees the same level of carpenter ant pressure.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and sill plates on older downtown homes before the fall harvest to keep mice out.",
+      "Clear standing water and treat lakeside low ground each spring to reduce mosquito breeding.",
+      "Check people and pets for ticks after time spent near Livingston County's lakes or wooded trails, April through October.",
+      "Have historic downtown wood-frame properties inspected annually for carpenter ants, especially after any roof or trim moisture damage.",
+    ],
+    costNote:
+      "General quarterly pest plans in Howell typically run $125 to $260 per year. Seasonal mosquito treatment for lakeside properties runs $80 to $160 per visit through the summer. Tick treatment for yards near wooded or lake-adjacent lots runs $90 to $175 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Howell see so many mice each fall?",
+        answer:
+          "The farmland surrounding Howell presses close against the city, and when combines clear the fields each September and October, field mice lose their cover and head for the nearest shelter, often the older homes near the historic courthouse square downtown.",
+      },
+      {
+        question: "Are ticks a real concern around Howell's lakes?",
+        answer:
+          "Yes. Livingston County's dozens of small glacial lakes are ringed with wooded shoreline and brushy trail edges that ticks favor, with activity running April through October and peaking in late spring. Checking people and pets after outdoor time near any of the lakes is worth the habit.",
+      },
+      {
+        question: "Why is mosquito pressure high in Howell compared to inland farm towns?",
+        answer:
+          "Howell sits amid dozens of small glacial lakes within easy reach of downtown, and that abundance of open water keeps breeding habitat close at hand all summer, especially for lakeside and low-lying properties.",
+      },
+      {
+        question: "Does Howell's history as county seat affect its pest risk?",
+        answer:
+          "It does for carpenter ants specifically. Howell has been the Livingston County seat since the county organized in 1836, and the historic courthouse square downtown includes wood-frame construction old enough to have developed the moisture damage carpenter ants target.",
+      },
+      {
+        question: "Are stink bugs common in Howell homes?",
+        answer:
+          "Yes, following the standard inland southeastern Michigan pattern. Stink bugs gather on sun-facing exterior walls each September and October before finding a gap around window trim or siding to slip through ahead of winter.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wayne", slug: "wayne", stateSlug: "michigan" },
+      { name: "Grand Haven", slug: "grand-haven", stateSlug: "michigan" },
+      { name: "Frankenmuth", slug: "frankenmuth", stateSlug: "michigan" },
+      { name: "Houghton", slug: "houghton", stateSlug: "michigan" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Howell, MI | Livingston County Lake Mosquitoes & Ticks",
+    metaDescription:
+      "Howell, MI pest control for harvest-season mice, glacial lake mosquitoes and ticks, fall stink bugs and courthouse-era carpenter ants. Licensed Livingston County service.",
+  },
 ];

@@ -3257,4 +3257,559 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Grinnell, IA pest control for historic-district termites and boxelder bugs, Rock Creek mosquitoes, and fall mice. Free inspection.",
   },
+  {
+    slug: "carroll-ia",
+    name: "Carroll",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~10,150",
+    county: "Carroll County",
+    climate: "cold-humid",
+    climateDriver:
+      "Carroll sits on the Middle Raccoon River in west-central Iowa, about 90 miles west of Des Moines, in a humid continental climate with warm summers and cold winters. The city sits on a modest rise left by glacial moraine, but the fields ringing it on every side are intensely farmed corn and soybean ground with tiled, slow-draining bottomland along the river, conditions that push both harvest-season rodents and river-bottom moisture pests toward town.",
+    topPests: ["House Mice", "Eastern Subterranean Termites", "Mosquitoes", "Boxelder Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Carroll County's corn and soybean fields press against town on nearly every side, and when combines clear those fields each fall, mice lose their cover and move for the nearest foundation gap, especially on the west and south edges of Carroll closest to open cropland.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The Middle Raccoon River bottomland that runs along Carroll's east side holds moisture in the tiled farm soil well into summer, and older homes near that low ground carry more wood-to-soil contact than the newer subdivisions built up on the moraine rise.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Drainage ditches cut through the farmland around Carroll to manage the tiled bottomland, and those ditches hold standing water after a wet spring longer than the well-drained rise the older part of town sits on.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on the sun-facing brick and siding of Carroll homes each fall before slipping into wall voids and attics, a pattern common across the open prairie towns of west-central Iowa.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs follow the boxelder bugs' lead into the same sunny walls each fall, and Carroll's mix of older downtown buildings and newer homes at the field's edge both see the pressure once temperatures start dropping.",
+      },
+    ],
+    localHook:
+      "Carroll grew up on the Middle Raccoon River and still carries its county seat role for Carroll County, a stretch of west-central Iowa farmland about 90 miles west of Des Moines. The town itself sits on a slight rise from an old glacial moraine, but the corn and soybean ground on every side, tiled to drain the naturally wet bottomland, is what actually sets the pest calendar here.",
+    intro:
+      "Carroll's pest pressure follows its geography closely. The city sits on a modest rise left behind by glacial moraine, with the Middle Raccoon River running along its east side and corn and soybean fields pressing in from every direction. That combination means two very different pest problems overlap here. Farmland at the edge of town sends house mice indoors each fall once combines clear the fields, while the river bottomland, tiled to drain naturally wet soil, keeps ground moisture high enough to support termites and mosquitoes through the warm months. Boxelder bugs and stink bugs round out the calendar, staging on sunny walls each September before pushing indoors for winter. A Carroll property's distance from the river bottom, and how close it sits to open cropland, does more to predict its pest risk than almost anything else.",
+    sections: [
+      {
+        heading: "Harvest-season mice from the fields around Carroll",
+        body: "Carroll's neighborhoods sit close enough to open corn and soybean ground that the annual harvest is as much a pest event as a farm event. When combines move through Carroll County's fields each September and October, the mice living in that cover lose it overnight and start looking for someplace warmer and drier. The homes closest to cropland, particularly on the west and south edges of town, take the brunt of it, but older homes near downtown with aging foundations are not exempt. Sealing obvious gaps around sill plates, utility lines, and foundation cracks before harvest starts is the most effective single step a homeowner can take, and setting traps at the first sign of droppings or gnaw marks keeps a seasonal nuisance from turning into a winter-long problem indoors.",
+      },
+      {
+        heading: "Termites and mosquitoes along the Middle Raccoon River bottomland",
+        body: "The Middle Raccoon River runs along Carroll's east side, and the farmland it drains was tiled decades ago specifically because the natural soil held water so well. That moisture persists in the ground even with the tile system working, and it gives Eastern subterranean termites exactly the conditions they need to build mud tubes toward any wood-to-soil contact point they can find. Homes near the river bottom, especially older construction, should have an annual termite inspection rather than waiting for visible damage. The same wet ground and the drainage ditches cut through surrounding fields also hold standing water well into summer after a rainy spring, giving mosquitoes a longer breeding window in Carroll's lower-lying areas than in the neighborhoods built up on the moraine rise near downtown.",
+      },
+      {
+        heading: "Boxelder bugs and stink bugs each fall",
+        body: "Carroll's open prairie setting, with few windbreaks beyond the trees planted directly around homes and farmsteads, makes boxelder bugs and stink bugs a predictable fall visitor. Both species gather in large numbers on the warmest, sun-facing walls of a house in September and October, looking for a crack or gap that leads to a protected space to spend the winter. Once inside a wall void or attic, they stay there until a warm day, even in the middle of winter, draws them back toward the light, often into living space instead of back outside. Sealing exterior gaps before the weather turns and vacuuming up any bugs that do get in, rather than crushing them, keeps both the smell and the numbers down.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, sill plates, and utility penetrations before the fall harvest to stop field mice from moving in.",
+      "Schedule an annual termite inspection for homes near the Middle Raccoon River bottomland, especially older construction.",
+      "Clear standing water from drainage ditches and low spots on the property each spring to cut mosquito breeding.",
+      "Seal exterior cracks and gaps before September to keep boxelder bugs and stink bugs from wintering indoors.",
+    ],
+    costNote:
+      "General quarterly pest plans in Carroll typically run $120 to $240 per year for a standard home. Termite inspections are usually free, with treatment for river-bottom properties priced separately by structure size, often $500 to $1,100. Fall exclusion work to block mice, boxelder bugs, and stink bugs before winter runs $130 to $250.",
+    faqs: [
+      {
+        question: "Why does Carroll see so many mice every fall?",
+        answer:
+          "Carroll County's corn and soybean fields press in close to town on nearly every side, and when the harvest clears that cover each September and October, mice head straight for the nearest foundation gap. Homes near open cropland see the heaviest pressure.",
+      },
+      {
+        question: "Is termite risk higher near the Middle Raccoon River in Carroll?",
+        answer:
+          "Yes. The farmland along the Middle Raccoon River was tiled to drain naturally wet bottomland, and that ground stays moist enough to support subterranean termites well into summer. Older homes near the river should have an annual inspection.",
+      },
+      {
+        question: "When are boxelder bugs worst in Carroll?",
+        answer:
+          "September and October, when they gather on sunny exterior walls before pushing into wall voids and attics for winter. Carroll's open prairie setting, with few windbreaks beyond home and farmstead tree lines, gives them a lot of walls to choose from.",
+      },
+      {
+        question: "How long does mosquito season last in Carroll?",
+        answer:
+          "Typically May through September, with the longest breeding window in low-lying areas near the river bottomland and the drainage ditches cut through surrounding farmland. Neighborhoods built up on Carroll's moraine rise see less pressure.",
+      },
+      {
+        question: "Do stink bugs cause damage inside a Carroll home?",
+        answer:
+          "They are mostly a nuisance rather than a damage risk, but large numbers overwintering in an attic or wall void can be unpleasant when they emerge on warm winter days. Sealing exterior gaps before fall is the most effective prevention.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Creston", slug: "creston-ia", stateSlug: "iowa" },
+      { name: "Spencer", slug: "spencer-ia", stateSlug: "iowa" },
+      { name: "Webster City", slug: "webster-city-ia", stateSlug: "iowa" },
+      { name: "Oelwein", slug: "oelwein-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Carroll, IA | Middle Raccoon River Termites & Harvest Mice",
+    metaDescription:
+      "Carroll, IA pest control for river-bottom termites, harvest-season mice, mosquitoes, boxelder bugs and stink bugs. Carroll County service. Free inspection.",
+  },
+  {
+    slug: "creston-ia",
+    name: "Creston",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~7,400",
+    county: "Union County",
+    climate: "cold-humid",
+    climateDriver:
+      "Creston sits in the rolling hills of southwest Iowa, about 75 miles southwest of Des Moines, in a humid continental climate with warm summers and cold winters. The county seat of Union County is unusual for the area in how much open water sits close by, with a municipal lake inside city limits and several more recreational lakes within a short drive, a factor that shapes local pest pressure as much as the surrounding farmland does.",
+    topPests: ["Mosquitoes", "House Mice", "Cluster Flies", "Boxelder Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peaks after wet spells",
+        note: "Creston sits within a 25 mile radius of five recreational lakes, including McKinley Lake inside the city's own park system and Green Valley State Park just seven miles out, and all that surface water gives mosquitoes a longer breeding season than most southwest Iowa towns see.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The rolling prairie hills around Creston are worked hard for corn and soybeans, and when that farmland is harvested each fall, mice move toward the nearest town, including the neighborhoods closest to open fields on Creston's edges.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies gather on the sunniest walls of Creston homes each fall before slipping inside to overwinter, a pattern especially common in the older housing stock near the historic downtown that grew up around the town's railroad yards.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Creston's open, rolling hill terrain gives boxelder bugs plenty of sun-facing walls to gather on each fall before they find a gap into an attic or wall void for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded parkland around McKinley Lake and the trail corridor running out to Green Valley State Park put carpenter ants in regular contact with Creston homes that back up to tree cover, especially where old deck lumber or a stump sits near the house.",
+      },
+    ],
+    localHook:
+      "Creston grew up as a division point on the Chicago, Burlington and Quincy Railroad, and that rail-town core still anchors the older housing near downtown today. The bigger driver of Creston's pest calendar, though, is water: McKinley Lake sits inside the city's own park system, and four more recreational lakes, including Green Valley State Park just seven miles out, all fall within a 25 mile radius of town.",
+    intro:
+      "Creston's location in the rolling hills of southwest Iowa puts it closer to open water than almost any comparable town in the region. McKinley Lake sits right inside the city park system, and Green Valley State Park, Summit Lake, Twelve Mile Lake, and the Three Mile Recreation Area all lie within a short drive, giving mosquitoes a wide and steady breeding ground through the warm months. The corn and soybean farmland that surrounds Creston on every side sends house mice looking for shelter each fall once the harvest clears their cover. Cluster flies and boxelder bugs both stage on sunny walls each September before pushing into wall voids and attics for winter, a pattern that shows up hardest in the older homes near the historic downtown that grew up around Creston's railroad yards. Carpenter ants round out the picture wherever a property backs up to the wooded parkland around McKinley Lake or the trail corridor toward Green Valley.",
+    sections: [
+      {
+        heading: "Five lakes within 25 miles keep mosquito season long in Creston",
+        body: "Southwest Iowa is not known for an abundance of open water, which makes Creston's setting unusual. McKinley Lake sits inside the city's own municipal park, and Green Valley State Park, Summit Lake, Twelve Mile Lake, and the Three Mile Recreation Area are all within a short drive, adding up to more than 2,100 acres of water within 25 miles of town. That much surface water, along with the low-lying ground the Park to Park Trail runs through between McKinley Park and Green Valley, gives mosquitoes a longer and steadier breeding window than most towns in this part of Iowa see. Properties near any of these water features should expect mosquito pressure to run from May through September, with the heaviest stretches following a wet spring or a rainy week in midsummer.",
+      },
+      {
+        heading: "Harvest-season mice on Creston's farmland edges",
+        body: "Union County's rolling hills are worked as hard for corn and soybeans as the flatter ground elsewhere in Iowa, and Creston sits surrounded by that farmland on every side. When combines clear the fields each September and October, the mice sheltering in them lose their cover fast and start looking for a way indoors. Homes on Creston's outer edges, closest to open cropland, see the earliest and heaviest activity, though older homes near downtown are not immune once the weather turns cold. Sealing foundation gaps and utility penetrations before harvest season starts is the single most effective step, and setting interior traps at the first sign of droppings keeps a fall nuisance from becoming a winter-long infestation.",
+      },
+      {
+        heading: "Cluster flies, boxelder bugs, and carpenter ants around town",
+        body: "Creston's older housing stock near the historic downtown, much of it dating to the town's growth as a Chicago, Burlington and Quincy Railroad division point, gives cluster flies and boxelder bugs plenty of aging gaps to exploit each fall. Both species gather on the sunniest exterior walls in September and October before finding a way into an attic or wall void, then reappear on warm days throughout winter, often indoors. Carpenter ants are a separate concern tied to Creston's wooded parkland rather than its rail history, showing up most often in homes that back up to the tree cover around McKinley Lake or along the trail corridor toward Green Valley State Park, particularly where old deck lumber or a stump has been left near the foundation.",
+      },
+    ],
+    prevention: [
+      "Treat or drain standing water near McKinley Lake, Green Valley State Park, and other low-lying ground on the property each spring to cut mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to keep field mice from moving indoors.",
+      "Seal exterior cracks on sun-facing walls before September to reduce cluster fly and boxelder bug entry.",
+      "Remove old stumps and deck lumber near wooded lots to reduce carpenter ant nesting sites.",
+    ],
+    costNote:
+      "General quarterly pest plans in Creston typically run $115 to $230 per year for a standard home. Mosquito season treatments near McKinley Lake or other low-lying water features run $80 to $150 per visit during a wet stretch. Fall exclusion work to block cluster flies, boxelder bugs, and mice before winter runs $130 to $250.",
+    faqs: [
+      {
+        question: "Why is mosquito season longer in Creston than in nearby towns?",
+        answer:
+          "Creston sits close to five recreational lakes within a 25 mile radius, including McKinley Lake inside the city's own park system, giving mosquitoes far more breeding habitat than most southwest Iowa towns have nearby.",
+      },
+      {
+        question: "Does Creston's railroad history affect pest control today?",
+        answer:
+          "Indirectly. Creston grew up as a Chicago, Burlington and Quincy Railroad division point, and the older homes near that historic downtown core tend to have more of the aging gaps that let cluster flies and boxelder bugs in each fall.",
+      },
+      {
+        question: "When do field mice become a problem in Creston?",
+        answer:
+          "Mostly September through November, once the corn and soybean harvest clears the cover on farmland surrounding town and mice start looking for a warmer place to spend winter.",
+      },
+      {
+        question: "Are carpenter ants a risk for homes near Green Valley State Park?",
+        answer:
+          "Yes, properties backing up to the wooded parkland around McKinley Lake or the trail corridor toward Green Valley State Park see more carpenter ant activity than homes farther from tree cover, especially where old wood is left near the foundation.",
+      },
+      {
+        question: "How do I keep boxelder bugs out of my Creston home in the fall?",
+        answer:
+          "Seal cracks and gaps on the sunniest, south and west-facing walls before September, since that is where boxelder bugs gather before finding a way into an attic or wall void for winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Carroll", slug: "carroll-ia", stateSlug: "iowa" },
+      { name: "Spencer", slug: "spencer-ia", stateSlug: "iowa" },
+      { name: "Webster City", slug: "webster-city-ia", stateSlug: "iowa" },
+      { name: "Oelwein", slug: "oelwein-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Creston, IA | Lake Mosquitoes & Harvest Mice",
+    metaDescription:
+      "Creston, IA pest control for lake-driven mosquitoes near McKinley Lake and Green Valley State Park, harvest mice, cluster flies and boxelder bugs. Union County service.",
+  },
+  {
+    slug: "spencer-ia",
+    name: "Spencer",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~11,400",
+    county: "Clay County",
+    climate: "cold-humid",
+    climateDriver:
+      "Spencer sits along the Little Sioux River in the far northwest corner of Iowa, in a humid continental climate with warm summers and cold winters. As the county seat and commercial hub of Clay County, Spencer combines river-bottom moisture along its banks with the surrounding corn and soybean farmland typical of northwest Iowa, and a 2024 flood on the Little Sioux River underscored how directly that river shapes conditions in town.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "House Mice", "Flies", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, surges after river flooding",
+        note: "The Little Sioux River runs directly through Spencer, and the historic flood that hit the river in late June 2024 left standing water and saturated low ground across parts of town for weeks, conditions mosquitoes take full advantage of.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Properties near the Little Sioux River carry the same flood-driven soil moisture that fuels Spencer's mosquito problem, and that moisture is just as useful to subterranean termites looking for a wood-to-soil contact point on an older foundation.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Clay County's corn and soybean fields surround Spencer on nearly every side, and when the fall harvest clears that cover, mice move toward the nearest structure, including neighborhoods at the edge of town.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Peaks mid-September during the Clay County Fair",
+        note: "The Clay County Fair draws more than 300,000 visitors and a full schedule of livestock exhibits to the Clay County Fairgrounds each September, and the concentration of animals and food vendors over the run of the fair creates a short but real spike in filth fly pressure around the fairgrounds and nearby properties.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Spencer's open farmland setting gives boxelder bugs plenty of sun-facing walls to gather on each fall before slipping into an attic or wall void for winter.",
+      },
+    ],
+    localHook:
+      "Spencer is the county seat of Clay County and sits along the Little Sioux River in the far northwest corner of Iowa, a river that flooded the town badly in late June 2024. Spencer is also home to the Clay County Fair, one of the largest county fairs in the country, drawing more than 300,000 visitors each September to fairgrounds that sit close enough to the river to have felt that same 2024 flood firsthand.",
+    intro:
+      "Spencer's pest calendar carries the marks of two very different local events: the Little Sioux River, which runs through town and flooded badly in late June 2024, and the Clay County Fair, which brings more than 300,000 visitors and a full schedule of livestock to the Clay County Fairgrounds every September. The flood left saturated ground and standing water across low-lying parts of Spencer for weeks, conditions that fuel both mosquito breeding and termite activity on properties near the river. Clay County's surrounding corn and soybean farmland sends house mice looking for shelter each fall once the harvest clears their cover. And the fair itself, for the two weeks it runs, brings a short, sharp spike in fly pressure around the fairgrounds that a typical Spencer property never sees the rest of the year. Boxelder bugs round out the fall calendar on sunny walls across town.",
+    sections: [
+      {
+        heading: "Flood-driven mosquitoes and termites near the Little Sioux River",
+        body: "The Little Sioux River runs directly through Spencer, and the historic flood that struck the river in late June 2024 left standing water and saturated soil across parts of town for weeks afterward. That kind of moisture is exactly what mosquitoes need to breed and what Eastern subterranean termites need to move through soil toward a foundation. Properties near the river, and any property that took on water during that 2024 flood, should be inspected for termite activity and treated for standing water sources promptly rather than waiting for the next scheduled visit. Mosquito season in Spencer typically runs May through September, but it tends to run longer and heavier in years following significant river flooding, and the low-lying blocks nearest the fairgrounds and downtown feel that extended pressure the most.",
+      },
+      {
+        heading: "Harvest-season mice on Spencer's farmland edges",
+        body: "Clay County's corn and soybean fields press in close to Spencer on nearly every side, a hallmark of the farm belt across northwest Iowa. When combines move through those fields each September and October, the mice living in the standing crop lose their cover and start looking for a warmer, drier place to spend winter. Neighborhoods closest to open farmland see the earliest activity, but older housing anywhere in Spencer can see mice move in once the weather turns cold enough. Sealing foundation gaps and utility penetrations before harvest season begins, and setting traps at the first sign of activity, keeps a seasonal nuisance from settling in for the winter.",
+      },
+      {
+        heading: "The Clay County Fair and fall fly pressure",
+        body: "For roughly two weeks each September, the Clay County Fairgrounds hosts one of the largest county fairs in the country, drawing more than 300,000 visitors along with a full schedule of livestock exhibits and food vendors. That concentration of animals and food waste over a short run creates a real, if temporary, spike in filth fly activity around the fairgrounds and on nearby properties. Businesses and homes close to the fairgrounds benefit from a pre-fair exclusion check and, where relevant, a short-term fly management plan timed to the fair's dates rather than a standard year-round schedule. Boxelder bugs follow their own separate calendar, gathering on Spencer's sunny walls in September and October regardless of the fair.",
+      },
+    ],
+    prevention: [
+      "Have properties near the Little Sioux River inspected for termites annually, and again promptly after any flood.",
+      "Clear standing water and treat backwater pools near the river each spring to reduce mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to keep field mice from moving indoors.",
+      "Schedule a pre-fair exclusion check for properties near the Clay County Fairgrounds ahead of the September fair.",
+    ],
+    costNote:
+      "General quarterly pest plans in Spencer typically run $125 to $245 per year for a standard home. Termite inspections near the Little Sioux River are usually free, with treatment priced separately by structure size, often $500 to $1,200. Short-term fly management around the Clay County Fairgrounds during the September fair is quoted separately based on property proximity and scope.",
+    faqs: [
+      {
+        question: "Did the 2024 flood on the Little Sioux River affect pest risk in Spencer?",
+        answer:
+          "Yes. The historic flood in late June 2024 left saturated soil and standing water across low-lying parts of Spencer for weeks, and that moisture increases both mosquito breeding and termite activity on nearby properties.",
+      },
+      {
+        question: "Does the Clay County Fair bring more flies to Spencer?",
+        answer:
+          "For about two weeks each September, yes. The fair draws more than 300,000 visitors and a full schedule of livestock to the Clay County Fairgrounds, and the concentration of animals and food waste creates a short but noticeable spike in fly pressure nearby.",
+      },
+      {
+        question: "When should I worry about termites near the Little Sioux River?",
+        answer:
+          "Any property near the river, especially one that took on water during a flood, should have an annual termite inspection. Flood-driven soil moisture gives subterranean termites better access to foundations than they would have in a dry year.",
+      },
+      {
+        question: "Why does Spencer see so many mice every fall?",
+        answer:
+          "Clay County's corn and soybean fields surround Spencer closely, and when the harvest clears that cover each September and October, mice move toward the nearest structure, particularly in neighborhoods at the edge of town.",
+      },
+      {
+        question: "How long does mosquito season last in Spencer?",
+        answer:
+          "Typically May through September, though it tends to run longer and heavier in years following significant flooding on the Little Sioux River, since floodwater leaves standing pools that take weeks to fully drain.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Carroll", slug: "carroll-ia", stateSlug: "iowa" },
+      { name: "Creston", slug: "creston-ia", stateSlug: "iowa" },
+      { name: "Webster City", slug: "webster-city-ia", stateSlug: "iowa" },
+      { name: "Oelwein", slug: "oelwein-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Spencer, IA | Little Sioux River Flood Pests & Fair Season Flies",
+    metaDescription:
+      "Spencer, IA pest control for flood-driven mosquitoes and termites near the Little Sioux River, harvest mice, and Clay County Fair season flies. Free inspection.",
+  },
+  {
+    slug: "webster-city-ia",
+    name: "Webster City",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~7,769",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Webster City sits on the Boone River in north-central Iowa, along U.S. Route 20 about 17 miles east of Fort Dodge, in a humid continental climate with warm summers and cold winters. The river running along the city's east side, combined with the corn and soybean farmland that surrounds the rest of town, gives Webster City both a water-driven pest pattern and a farm-belt one at the same time.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "House Mice", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Boone River meanders along Webster City's east side on its way to the Des Moines River, and the backwater pools and saturated low ground it leaves each spring give mosquitoes a steady breeding season through the summer, especially in neighborhoods closest to the riverbank.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The same river-bottom moisture that drives Webster City's mosquito season keeps soil wet enough near the Boone River to support subterranean termite activity, and older homes on the city's east side, closest to the water, carry more wood-to-soil contact than newer construction further from the river.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Hamilton County's corn and soybean fields surround Webster City on most sides, and when the fall harvest clears that cover, mice move toward the nearest structure, particularly in neighborhoods at the edge of town along U.S. Route 20.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Webster City's open farmland setting gives boxelder bugs plenty of sun-facing walls to stage on each fall before slipping into an attic or wall void for winter.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies follow the same fall staging pattern as boxelder bugs, gathering on sunny walls before moving indoors, and Webster City's older homes away from the newer U.S. Route 20 corridor development see the heaviest activity.",
+      },
+    ],
+    localHook:
+      "Webster City sits on the Boone River, a waterway locals have long called 'Boone River Country,' with the river running along the city's east side before it eventually joins the Des Moines River. The city sits on U.S. Route 20, the four-lane east-west corridor through north-central Iowa, about 17 miles east of Fort Dodge and roughly 12 miles from Interstate 35, in the middle of Hamilton County's corn and soybean farmland.",
+    intro:
+      "Webster City's identity runs along the Boone River, which meanders past the city's east side on its way to the Des Moines River, giving the town its long-standing 'Boone River Country' nickname. That river shapes the local pest calendar directly: backwater pools and saturated low ground left behind each spring fuel a steady mosquito season, and the same river-bottom moisture keeps soil wet enough near the water to support subterranean termite activity on older homes closest to the bank. Hamilton County's surrounding corn and soybean fields bring a second, separate pressure each fall, sending house mice toward the nearest structure once the harvest clears their cover. Boxelder bugs and cluster flies round out the year, staging on sunny exterior walls each September before pushing indoors for winter, a pattern common across Webster City's older housing stock away from the newer development along U.S. Route 20.",
+    sections: [
+      {
+        heading: "Mosquitoes and termites along the Boone River",
+        body: "The Boone River runs along Webster City's east side before flowing into the Des Moines River, and every spring it leaves behind backwater pools and saturated low ground that can hold water for weeks. That standing water gives mosquitoes a longer, steadier breeding season than drier parts of Hamilton County see, typically running May through September and peaking after the wettest stretches. The same river-bottom moisture that fuels mosquito season keeps soil near the Boone River wet enough to support Eastern subterranean termites, and older homes on the city's east side, closest to the water, tend to carry more wood-to-soil contact points than newer construction built farther back near U.S. Route 20. An annual termite inspection is a reasonable baseline for any property within a few blocks of the river.",
+      },
+      {
+        heading: "Harvest-season mice on Webster City's farmland edges",
+        body: "Hamilton County's corn and soybean fields surround Webster City on most sides, and when combines move through those fields each September and October, the mice sheltering in them lose their cover fast. They head for the nearest warm, dry structure, and neighborhoods at the edge of town, particularly along the U.S. Route 20 corridor where newer development meets open farmland, see the earliest activity. Sealing foundation gaps, sill plates, and utility penetrations before harvest season starts is the most effective single step a homeowner can take, and setting interior traps at the first sign of droppings or gnaw marks keeps the problem from settling in for the winter.",
+      },
+      {
+        heading: "Boxelder bugs and cluster flies each fall",
+        body: "Webster City's open farmland setting, much like the rest of Hamilton County, gives boxelder bugs and cluster flies plenty of sun-facing walls to gather on each September and October. Both species stage outdoors before finding a gap into an attic or wall void to spend the winter, then reappear indoors on warm days throughout the colder months, often clustering near windows where the light draws them. The city's older housing stock, particularly homes away from the newer development along U.S. Route 20, tends to have more of the small gaps that let both pests in, simply because the construction predates modern sealing standards. Addressing exterior gaps before the weather turns is the most effective way to keep both out.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes near the Boone River, especially on the city's east side.",
+      "Clear backwater pools and standing water along the riverbank each spring to reduce mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to keep field mice from moving indoors.",
+      "Seal exterior cracks on sunny walls before September to reduce boxelder bug and cluster fly entry.",
+    ],
+    costNote:
+      "General quarterly pest plans in Webster City typically run $120 to $235 per year for a standard home. Termite inspections near the Boone River are usually free, with treatment priced separately by structure size, often $500 to $1,150. Fall exclusion work to block mice, boxelder bugs, and cluster flies before winter runs $130 to $250.",
+    faqs: [
+      {
+        question: "Does the Boone River increase termite risk in Webster City?",
+        answer:
+          "Yes. The river-bottom moisture along the Boone River, which runs along the city's east side, keeps soil wet enough to support subterranean termite activity, and older homes closest to the water carry more of the wood-to-soil contact points termites look for.",
+      },
+      {
+        question: "How long does mosquito season last in Webster City?",
+        answer:
+          "Typically May through September, with the heaviest pressure in neighborhoods closest to the Boone River, where backwater pools and saturated ground left behind each spring hold water for weeks.",
+      },
+      {
+        question: "Why does Webster City see more mice in the fall?",
+        answer:
+          "Hamilton County's corn and soybean fields surround the city on most sides, and when the harvest clears that cover each September and October, mice move toward the nearest structure, especially in neighborhoods along the U.S. Route 20 corridor.",
+      },
+      {
+        question: "Are boxelder bugs a serious problem in Webster City homes?",
+        answer:
+          "They are mostly a nuisance rather than a structural risk, but large numbers overwintering in a wall void or attic can be unpleasant when they emerge on warm winter days. Sealing exterior gaps before fall is the most effective prevention.",
+      },
+      {
+        question: "Do older Webster City homes see more cluster flies?",
+        answer:
+          "Yes. Homes away from the newer development along U.S. Route 20 tend to have more of the small exterior gaps that let cluster flies in each fall, since that construction predates modern sealing standards.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Carroll", slug: "carroll-ia", stateSlug: "iowa" },
+      { name: "Creston", slug: "creston-ia", stateSlug: "iowa" },
+      { name: "Spencer", slug: "spencer-ia", stateSlug: "iowa" },
+      { name: "Oelwein", slug: "oelwein-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Webster City, IA | Boone River Termites & Mosquitoes",
+    metaDescription:
+      "Webster City, IA pest control for Boone River termites and mosquitoes, harvest-season mice, boxelder bugs and cluster flies. Hamilton County service.",
+  },
+  {
+    slug: "oelwein-ia",
+    name: "Oelwein",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~5,800",
+    county: "Fayette County",
+    climate: "cold-humid",
+    climateDriver:
+      "Oelwein sits in Fayette County in northeast Iowa, in a humid continental climate with warm summers and cold winters. Otter Creek runs through town and feeds Lake Oelwein within the city limits, part of the Upper Wapsipinicon River watershed, and that creek-fed water sits alongside a large stock of century-old railroad-era buildings and homes that together set the town's pest pattern.",
+    topPests: ["House Mice", "Mosquitoes", "Cluster Flies", "Boxelder Bugs", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Oelwein's old railroad infrastructure, including the former Chicago Great Western Railway shops and roundhouse buildings that once made the town a major division point, still stands in places with the kind of aging gaps and storage clutter mice favor, and the surrounding Fayette County farmland adds a fall harvest surge on top of that.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Otter Creek runs through Oelwein and feeds Lake Oelwein within the city limits, and the standing water around that lake and the creek's low banks give mosquitoes a steady breeding ground through the warm months.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Oelwein's older housing stock, much of it built during the railroad boom of the early 1900s when the population swelled toward 5,000 workers and their families, gives cluster flies plenty of aging gaps to slip through each fall.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on the sunniest walls of Oelwein homes each fall before pushing into wall voids and attics for winter, a pattern common across the open farmland towns of northeast Iowa.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The moisture Otter Creek and Lake Oelwein hold in the surrounding ground gives subterranean termites a foothold near the water, and Oelwein's older railroad-era building stock nearby often has wood-to-soil contact points that predate modern termite protection.",
+      },
+    ],
+    localHook:
+      "Oelwein grew almost overnight after the Chicago Great Western Railway built its major locomotive shops here in 1899, earning the town its nickname, 'The Railroad City,' and pushing its population toward 5,000 by 1900. Otter Creek still runs through town today and feeds Lake Oelwein, a lake that sits within the city limits, and that combination of century-old rail infrastructure and creek-fed water is what actually shapes Oelwein's pest calendar now.",
+    intro:
+      "Oelwein earned its nickname, 'The Railroad City,' after the Chicago Great Western Railway built major locomotive shops here in 1899, and the rail-era buildings and housing stock that grew up around that boom still define much of the town today. That older construction, much of it built quickly to house a fast-growing workforce, gives mice, cluster flies, and subterranean termites more entry points than newer construction typically offers. Otter Creek runs through Oelwein and feeds Lake Oelwein within the city limits, and the standing water around that creek and lake gives mosquitoes a steady season through the warm months. Fayette County's surrounding farmland adds its own pressure each fall, sending mice looking for shelter once the harvest clears their cover. Boxelder bugs round out the calendar, staging on sunny walls each September before pushing indoors for winter.",
+    sections: [
+      {
+        heading: "Rail-era buildings and harvest mice in Oelwein",
+        body: "Oelwein's identity is tied to the Chicago Great Western Railway, which built major locomotive shops and a roundhouse here starting in 1899 and made the town a critical division point until the early 1980s. Many of the buildings and homes built during that boom, when the population swelled toward 5,000 almost overnight, are still standing, and their age gives mice more foundation gaps and storage clutter to exploit than newer construction offers. Fayette County's surrounding corn and soybean farmland adds a second wave of pressure each September and October, when the harvest clears field cover and mice move toward the nearest structure. Older homes near the former rail yards and newer homes at the edge of town both see activity, though the timing and severity differ.",
+      },
+      {
+        heading: "Otter Creek, Lake Oelwein, and mosquito season",
+        body: "Otter Creek runs directly through Oelwein and feeds Lake Oelwein, a lake that sits inside the city limits rather than out in the county, part of the wider Upper Wapsipinicon River watershed. That combination of moving water and a standing lake gives mosquitoes more breeding habitat close to town than a lot of comparable northeast Iowa towns have. Mosquito season typically runs May through September, with the heaviest activity near the creek's low banks and the shoreline around Lake Oelwein. The same creek-fed moisture also keeps nearby soil wetter than the surrounding farmland, conditions that give subterranean termites an easier path toward older foundations close to the water, particularly in the neighborhoods that grew up closest to the creek during the railroad era.",
+      },
+      {
+        heading: "Cluster flies and boxelder bugs in Oelwein's older housing",
+        body: "A lot of Oelwein's housing stock dates to the railroad boom of the early 1900s, when the Chicago Great Western Railway's expansion drew workers and families to town faster than the housing could always be built to modern standards. That age shows up every fall, when cluster flies and boxelder bugs both gather on sunny exterior walls in September and October before finding a gap into an attic or wall void for winter. Once inside, they reappear on warm days throughout the colder months, often in living space rather than the attic they entered through. Sealing exterior cracks and gaps before the weather turns is the most effective way to keep both out, regardless of how old the home is.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and storage areas in older rail-era buildings and homes to reduce mouse harborage.",
+      "Clear standing water near Otter Creek and Lake Oelwein each spring to cut mosquito breeding close to town.",
+      "Schedule an annual termite inspection for older homes near the creek and lake, where soil stays wettest.",
+      "Seal exterior cracks on sunny walls before September to reduce cluster fly and boxelder bug entry.",
+    ],
+    costNote:
+      "General quarterly pest plans in Oelwein typically run $110 to $220 per year for a standard home, reflecting the town's smaller size relative to other Fayette County service areas. Termite inspections near Otter Creek and Lake Oelwein are usually free, with treatment priced separately by structure size, often $450 to $1,050. Fall exclusion work to block mice, cluster flies, and boxelder bugs before winter runs $120 to $240.",
+    faqs: [
+      {
+        question: "Why does Oelwein's rail history matter for pest control today?",
+        answer:
+          "Much of Oelwein's older housing and commercial building stock dates to the railroad boom that followed the Chicago Great Western Railway's 1899 shop construction, and that age gives mice, cluster flies, and termites more entry points than newer construction typically has.",
+      },
+      {
+        question: "Does Lake Oelwein affect mosquito control needs in town?",
+        answer:
+          "Yes. Otter Creek feeds Lake Oelwein within the city limits, and the standing water around both gives mosquitoes more breeding habitat close to town than most comparable northeast Iowa towns have nearby.",
+      },
+      {
+        question: "When should Oelwein homeowners worry about field mice?",
+        answer:
+          "Mostly September through November, once Fayette County's corn and soybean harvest clears field cover and mice move toward the nearest structure, though the older buildings near the former rail yards can see activity year-round.",
+      },
+      {
+        question: "Are termites a risk near Otter Creek in Oelwein?",
+        answer:
+          "Yes. The creek and Lake Oelwein keep nearby soil wetter than the surrounding farmland, and that moisture gives subterranean termites an easier path toward older foundations close to the water. An annual inspection is worthwhile for these properties.",
+      },
+      {
+        question: "How do I stop cluster flies from getting into an older Oelwein home?",
+        answer:
+          "Seal exterior cracks and gaps on the sunniest walls before September, since that is where cluster flies stage before finding a way into an attic or wall void for winter, a common issue in Oelwein's railroad-era housing stock.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Carroll", slug: "carroll-ia", stateSlug: "iowa" },
+      { name: "Creston", slug: "creston-ia", stateSlug: "iowa" },
+      { name: "Spencer", slug: "spencer-ia", stateSlug: "iowa" },
+      { name: "Webster City", slug: "webster-city-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Oelwein, IA | Rail-Era Mice & Otter Creek Mosquitoes",
+    metaDescription:
+      "Oelwein, IA pest control for older rail-era homes, harvest mice, Otter Creek and Lake Oelwein mosquitoes, cluster flies and boxelder bugs. Fayette County service.",
+  },
 ];

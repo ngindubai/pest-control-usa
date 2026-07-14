@@ -3175,4 +3175,559 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Rayne, LA pest control for rice field mosquitoes, 1880s downtown termites, cockroaches, and fire ants. Free inspection.",
   },
+  {
+    slug: "deridder",
+    name: "DeRidder",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~9,700",
+    county: "Beauregard Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "DeRidder sits in the piney woods of west-central Louisiana's Beauregard Parish, close to the Kisatchie National Forest and the Fort Polk military reservation, in a humid subtropical climate with hot, muggy summers and mild winters. The sandy, well-drained soil under DeRidder's longleaf pine forest sheds water faster than the clay and bayou-bottom ground found closer to the coast, but the same heat and humidity that shape the rest of the state still drive a long, active pest season, and the surrounding pine timber brings its own set of forest-edge pests that a delta town rarely deals with.",
+    topPests: ["Eastern Subterranean Termites", "Ticks", "Fire Ants", "Wasps and Yellow Jackets", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "DeRidder's sandy piney-woods soil drains faster than the bayou country to the east, but the historic downtown built up around the 1926 Kansas City Southern depot still has enough old wood-to-soil contact points to keep subterranean termites a real risk in older commercial buildings and homes.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October, peak in spring",
+        note: "The longleaf pine forest of the Kisatchie National Forest presses close to DeRidder on multiple sides, and the deer and small-mammal traffic through that forest edge keeps tick numbers high on any property backing up to timberland or brush.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "DeRidder's sandy soil, typical of the piney woods, is easy for fire ant colonies to excavate, and open lawns and pastures around town see mound activity build through spring and stay active into fall.",
+      },
+      {
+        name: "Wasps and yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October",
+        note: "The pine forest edge around DeRidder gives ground-nesting yellow jackets and paper wasps plenty of undisturbed cover, and colonies often go unnoticed until someone mows over a ground nest or disturbs a paper nest tucked under eaves.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "DeRidder sees a steady flow of military families connected to the Fort Polk installation roughly 30 miles north, and turnover in the town's older rental housing near downtown gives house mice regular openings through neglected foundation gaps.",
+      },
+    ],
+    localHook:
+      "DeRidder grew up around a Kansas City Southern rail depot after track first reached town in 1897, an arrival that led directly to the city's 1903 incorporation. The second depot, a tile-roofed brick building finished in 1926, now houses the Beauregard Museum in the heart of historic downtown. That railroad-era core, combined with sandy piney-woods soil and the Fort Polk military reservation about 30 miles to the north, gives DeRidder a pest calendar quite different from the bayou towns most people associate with Louisiana.",
+    intro:
+      "DeRidder's pest pressure starts with geography most visitors would not expect from a Louisiana town: this is piney woods country, sandy and well-drained, a long way from the bayou bottoms and rice fields that define the southern half of the state. The Kisatchie National Forest presses close on multiple sides, and that timberland brings ticks, wasps, and fire ants into regular contact with DeRidder properties at the tree line. The town's historic downtown, anchored by the 1926 depot that now houses the Beauregard Museum, still carries the wood-to-soil contact points of railroad-era construction, and a steady flow of military families connected to Fort Polk keeps turnover high in older rental housing near the center of town. None of this looks like a swamp town's pest problem, but the humid subtropical heat that blankets all of Louisiana still keeps every one of these pests active for most of the year.",
+    sections: [
+      {
+        heading: "Piney woods pests: ticks, fire ants, and wasps",
+        body: "DeRidder's sandy soil and longleaf pine forest set it apart from bayou Louisiana, but that does not mean an easier pest picture, just a different one. The Kisatchie National Forest borders the city on multiple sides, and the deer and small-mammal traffic moving through that timber keeps tick populations high on any yard backing up to woods or brush, especially through spring. The same sandy ground that drains quickly after rain is exactly what fire ant colonies prefer for excavating a mound, so open lawns and pasture edges around DeRidder see steady mound-building activity from spring through fall. Ground-nesting yellow jackets and paper wasps round out the forest-edge trio, often going unnoticed until a mower disturbs a hidden nest or a paper nest under the eaves grows large enough to be obvious.",
+      },
+      {
+        heading: "Termites in DeRidder's railroad-era downtown",
+        body: "DeRidder incorporated in 1903, not long after the Kansas City Southern railroad reached town in 1897, and that history is still visible in the brick storefronts and the restored 1926 depot that now houses the Beauregard Museum. Buildings from that era, along with the older homes built up around them, often have wood-to-soil contact points that predate any modern termite protection. DeRidder's sandy soil drains faster than the clay and river-bottom ground found in south Louisiana, which does moderate termite pressure somewhat, but it does not eliminate it. An annual inspection is still the practical baseline for downtown commercial buildings and older homes near the historic core.",
+      },
+      {
+        heading: "Fort Polk, rental turnover, and house mice",
+        body: "The Fort Polk military reservation sits roughly 30 miles north of DeRidder, and the town sees a regular flow of military families cycling through its rental housing stock as assignments change. That turnover matters for pest control: a rental property that sits vacant between tenants, or one where a new household has not yet learned where the old gaps and cracks are, gives house mice an easier opening than a long-term owner-occupied home usually offers. The pressure builds year-round but surges each fall as cooler nights send mice looking for a way indoors, and older rental housing near downtown tends to see the heaviest activity.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps in older rental housing near downtown before each fall, when mice pressure surges.",
+      "Have downtown commercial buildings and homes dating to the railroad era inspected annually for termites.",
+      "Check yards backing onto Kisatchie National Forest timberland for tick activity before spring and summer outdoor use.",
+      "Treat fire ant mounds early in spring on sandy lawns and pasture edges before colonies expand.",
+    ],
+    costNote:
+      "General quarterly pest plans in DeRidder typically run $120 to $240 per year for a standard home. Termite inspections are usually free, with treatment for older downtown buildings priced by structure size, often $450 to $1,000. Tick and yard treatment for properties bordering timberland adds $70 to $130 per visit.",
+    faqs: [
+      {
+        question: "Does DeRidder's sandy soil change its termite risk?",
+        answer:
+          "It moderates it somewhat. DeRidder's piney-woods soil drains faster than the clay and river-bottom ground common in south Louisiana, but the town's historic downtown, built up around the 1926 Kansas City Southern depot, still has older wood-to-soil contact points that keep subterranean termites a real concern, particularly in the historic core.",
+      },
+      {
+        question: "Why are ticks such a problem near DeRidder?",
+        answer:
+          "The Kisatchie National Forest borders DeRidder on multiple sides, and the deer and small-mammal traffic moving through that pine forest keeps tick numbers high on any property backing up to timberland or brush, especially through the spring months.",
+      },
+      {
+        question: "Does Fort Polk affect pest control in DeRidder?",
+        answer:
+          "Indirectly, yes. Fort Polk sits about 30 miles north of DeRidder, and the steady flow of military families through the town's rental housing means more properties changing hands, which can leave foundation gaps unnoticed longer than in a long-term owner-occupied home, giving house mice an easier opening.",
+      },
+      {
+        question: "Are fire ants common in DeRidder yards?",
+        answer:
+          "Yes. DeRidder's sandy piney-woods soil is easy for fire ant colonies to excavate, and open lawns and pasture edges around town see mound activity build through spring and stay active into fall.",
+      },
+      {
+        question: "When are wasps worst around DeRidder?",
+        answer:
+          "April through October. The pine forest edge around town gives ground-nesting yellow jackets and paper wasps plenty of undisturbed cover, and nests often go unnoticed until they are disturbed by mowing or have grown large under an eave.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Minden", slug: "minden", stateSlug: "louisiana" },
+      { name: "Jennings", slug: "jennings", stateSlug: "louisiana" },
+      { name: "Abbeville", slug: "abbeville", stateSlug: "louisiana" },
+      { name: "Plaquemine", slug: "plaquemine", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in DeRidder, LA | Piney Woods Ticks & Fire Ants",
+    metaDescription:
+      "DeRidder, LA pest control for piney woods ticks, fire ants, wasps, termites and house mice near Fort Polk. Beauregard Parish service. Free inspection.",
+  },
+  {
+    slug: "minden",
+    name: "Minden",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~11,500",
+    county: "Webster Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Minden sits in the piney hills of north Louisiana's Webster Parish, on rolling, red clay terrain well north of the bayou country most people picture when they think of this state. Summers are hot and humid and winters are mild, and the loblolly and shortleaf pine forest of the Ark-La-Miss uplift surrounding town brings a steady population of wood-nesting ants and ticks into contact with Minden neighborhoods, while a rebuilt downtown core, dating largely to the years after a 1933 fire, adds an older-building pest profile many north Louisiana towns do not carry to the same degree.",
+    topPests: ["Carpenter Ants", "Ticks", "Termites", "Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The loblolly and shortleaf pine forest of the Ark-La-Miss uplift surrounds Minden on every side, and carpenter ants move out of that timber into homes with any moisture-softened wood, particularly older houses near the tree line.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through September",
+        note: "Webster Parish's rolling pine hills carry heavier deer and small-mammal traffic than the flatter farmland found farther south in the state, and that keeps tick pressure high on properties backing up to wooded lots or hunting land.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Minden's downtown was rebuilt after a fire destroyed nearly a quarter of it in February 1933, and those replacement buildings, now most of a century old themselves, still carry the wood-to-soil contact points that make subterranean termites a standing concern in the historic core.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "The humidity of a Louisiana summer does not let up just because Minden sits in the northern hill country, and older downtown buildings with aging plumbing see steady American and German cockroach pressure through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Minden's mix of century-old rebuilt downtown structures and older residential streets gives house mice easy foundation access each fall as the weather cools.",
+      },
+    ],
+    localHook:
+      "Minden's downtown lost nearly a quarter of its buildings to a fire in February 1933, and the city was still recovering when a tornado struck that May, killing 28 people and causing more than a million dollars in damage. The replacement buildings from that rebuilding period still make up much of the historic core today. Seven miles northeast of town, the Germantown Colony, a communal Utopian settlement founded by German followers of the mystic Count Leon in 1835, operated for 36 years before dispersing in 1871 and is now preserved as a state museum.",
+    intro:
+      "Minden's pest story is shaped less by bayou water and more by pine hills and rebuilt history. Webster Parish sits in the Ark-La-Miss uplift, a rolling, forested part of north Louisiana that looks and feels different from the flat farmland and wetlands most people associate with the state, and the loblolly pine timber surrounding town keeps carpenter ants and ticks a steady presence at the tree line. Minden's downtown carries its own story too: a 1933 fire destroyed nearly a quarter of the district, and the buildings that replaced it are themselves now close to a century old, old enough to have accumulated the same kind of wood-to-soil contact points that draw subterranean termites in any historic Louisiana core. Add the humidity that never really leaves this part of the state, and cockroaches and house mice round out a pest picture that owes as much to Minden's rebuilding as to its pine-hill setting.",
+    sections: [
+      {
+        heading: "Pine-hill pests: carpenter ants and ticks",
+        body: "Minden sits inside the Ark-La-Miss uplift, a band of rolling pine hills that runs through parts of Arkansas, Louisiana, and Mississippi, and that terrain sets Webster Parish apart from the flat delta and coastal prairie found across the rest of the state. Loblolly and shortleaf pine forest surrounds Minden on every side, and carpenter ants use that timber as a staging ground, moving into homes wherever a roof leak or plumbing issue has softened enough wood to make excavation easy. Ticks follow the same forest-edge pattern, riding in on the deer and small mammals that move through Webster Parish's wooded hunting land in numbers a flatter farming parish would not support. Properties backing onto wooded lots see the heaviest pressure from both.",
+      },
+      {
+        heading: "A downtown rebuilt after fire, and the termites that came with it",
+        body: "Minden's historic downtown does not date to the town's founding the way some Louisiana cores do. A fire in February 1933 destroyed nearly a quarter of the district, and the city was still recovering that May when a tornado killed 28 people and caused more than a million dollars in damage, a brutal several months by any measure. The buildings that replaced the burned district are themselves now approaching a century old, and they carry the same wood-to-soil contact points that make any Louisiana building of that age a target for subterranean termites. An annual inspection is the practical standard for Minden's rebuilt downtown core, and any property with a known moisture issue should be checked sooner.",
+      },
+      {
+        heading: "Cockroaches and house mice in older Minden buildings",
+        body: "North Louisiana's pine hills moderate summer heat only slightly, and the humidity that drives cockroach activity across the rest of the state is just as present in Minden. Older downtown buildings with aging plumbing see steady American and German cockroach pressure through the warm months, and the same aging building stock gives house mice regular foundation access each fall as temperatures drop. Neither pest is unique to Minden, but the town's mix of a rebuilt, near-century-old downtown and older residential streets gives both more opportunity than a newer subdivision would offer.",
+      },
+    ],
+    prevention: [
+      "Address moisture issues in wood construction near wooded lots promptly to reduce carpenter ant risk.",
+      "Check properties bordering pine forest or hunting land for ticks before spring and summer outdoor activity.",
+      "Schedule an annual termite inspection for downtown buildings dating to the 1930s rebuilding period.",
+      "Seal foundation gaps in older homes and downtown buildings before fall, when mice activity surges.",
+    ],
+    costNote:
+      "General quarterly pest plans in Minden typically run $120 to $240 per year for a standard home. Termite inspections are usually free, with treatment for downtown-era buildings priced by structure size, often $450 to $1,000. Tick and yard treatment for properties near wooded or hunting land adds $70 to $130 per visit.",
+    faqs: [
+      {
+        question: "Why is Minden's downtown a termite concern?",
+        answer:
+          "A fire destroyed nearly a quarter of downtown Minden in February 1933, and the buildings built to replace it are themselves now close to a century old, old enough to carry the wood-to-soil contact points that make subterranean termites a standing concern in the historic core.",
+      },
+      {
+        question: "Are ticks worse in Minden than farther south in Louisiana?",
+        answer:
+          "Minden sits in the pine-hill Ark-La-Miss uplift, and the heavier deer and small-mammal traffic through that wooded terrain keeps tick pressure high on properties near timberland or hunting land, a pattern more pronounced here than in the flatter farmland found in much of the rest of the state.",
+      },
+      {
+        question: "What is the Germantown Colony, and does it relate to Minden's pest history?",
+        answer:
+          "The Germantown Colony was a communal Utopian settlement seven miles northeast of Minden, founded by German followers of the mystic Count Leon in 1835 and operated until 1871. It is not itself a pest concern today, but it reflects the same rural, pine-forest setting that shapes carpenter ant and tick pressure across Webster Parish.",
+      },
+      {
+        question: "Do carpenter ants damage homes near Minden's pine forest?",
+        answer:
+          "They can. The loblolly and shortleaf pine timber surrounding Minden gives carpenter ants a large staging ground, and they move into homes wherever moisture has softened wood enough to make it easy to excavate, particularly houses near the tree line.",
+      },
+      {
+        question: "Why do older Minden buildings see more cockroaches and mice?",
+        answer:
+          "Minden's downtown core and many residential streets date to the rebuilding that followed the 1933 fire, and buildings approaching a century old tend to have more of the plumbing wear and foundation gaps that give cockroaches and house mice an opening, especially through summer humidity and fall cooldown.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "DeRidder", slug: "deridder", stateSlug: "louisiana" },
+      { name: "Jennings", slug: "jennings", stateSlug: "louisiana" },
+      { name: "Abbeville", slug: "abbeville", stateSlug: "louisiana" },
+      { name: "Plaquemine", slug: "plaquemine", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Minden, LA | Pine Hill Ants & Historic Termites",
+    metaDescription:
+      "Minden, LA pest control for carpenter ants, ticks, historic-downtown termites, cockroaches and house mice. Webster Parish service. Free inspection.",
+  },
+  {
+    slug: "jennings",
+    name: "Jennings",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~9,800",
+    county: "Jefferson Davis Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Jennings sits on the Cajun prairie of Jefferson Davis Parish in southwest Louisiana, flat rice and crawfish farmland with a humid subtropical climate that keeps summers hot and wet. Flood-irrigated rice fields ring the town and hold standing water for weeks each growing season, and more than a century of oil field development since the 1901 gusher northeast of town has left scattered tank batteries, pipeyards, and old field equipment across the parish that give rodents and insects shelter a purely farming community would not have to manage.",
+    topPests: ["Mosquitoes", "Rats", "Fire Ants", "Stored-Grain Pests", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The flood-irrigated rice fields that ring Jennings hold standing water for weeks at a stretch each growing season, and that standing water breeds mosquitoes at a rate a drier, non-farming Jefferson Davis Parish property would not see.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "More than a century of oil field development since the 1901 Jules Clement gusher northeast of town has left old tank batteries, pipeyards, and outbuildings scattered across the parish, and abandoned equipment of that kind gives rats shelter a strictly agricultural town would not have to deal with.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Open rice and crawfish farmland around Jennings gives fire ant colonies plenty of undisturbed ground for mound building, and the levee banks between flooded fields are a common place for new colonies to start.",
+      },
+      {
+        name: "Stored-grain pests",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in mill and storage settings",
+        note: "Jennings grew up around rice milling and storage, and the grain elevators and rice-drying facilities in and around town carry a stored-product pest risk, weevils and meal moths working through bagged or bulk grain, that a strictly residential town does not face.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "The same summer humidity that keeps rice fields productive around Jennings also keeps American cockroach pressure high in older homes and downtown storefronts with aging plumbing.",
+      },
+    ],
+    localHook:
+      "Jennings is the birthplace of Louisiana's oil industry. On September 21, 1901, the Jules Clement No. 1 well blew in on a rice farm about seven miles northeast of town after farmer Jules Clement noticed gas bubbles rising through his flooded field, launching a gusher that produced 7,000 barrels a day and opened the Jennings oil field. That field peaked at more than nine million barrels of production in 1906, and the rice farming that led to the discovery in the first place never stopped either, leaving Jennings with a pest calendar shaped by both industries at once.",
+    intro:
+      "Jennings occupies an unusual spot in Louisiana history: a rice-farming town on the Cajun prairie that also happens to be where the state's oil industry began. The Jules Clement No. 1 well blew in on a rice farm northeast of town in September 1901, after a flooded field tipped off a local farmer to gas seeping from the ground, and that discovery opened an oil field that once produced more than nine million barrels a year. More than a century later, both industries still shape Jennings's pest pressure. The flood-irrigated rice fields that ring the town hold standing water long enough to breed mosquitoes through most of the growing season, while old tank batteries and pipeyards scattered across the parish give rats shelter that a purely agricultural community would not otherwise have. Add grain storage facilities tied to the rice trade and the humidity that never really lets up, and Jennings ends up with a wider pest list than its population alone would suggest.",
+    sections: [
+      {
+        heading: "Rice-field mosquitoes and levee-bank fire ants",
+        body: "Rice farming works by flooding fields for weeks at a time, and that standing water, along with the crawfish ponds that often share the same ground in southwest Louisiana, gives mosquitoes an unusually long breeding season around Jennings, typically running from April through October. The levee banks built up between flooded fields serve a second purpose few farmers intend: they are dry, raised, undisturbed ground, exactly what fire ant colonies look for when building a mound. Properties near active rice or crawfish operations tend to see both pests more heavily than in-town residential lots farther from the fields, though neither problem stops at the farm boundary.",
+      },
+      {
+        heading: "Oil field infrastructure and rat pressure",
+        body: "The Jennings oil field, discovered in 1901 and once one of the most productive in the country, left behind more than a century of scattered infrastructure across Jefferson Davis Parish, old tank batteries, pipeyards, storage buildings, and equipment yards that were never fully cleared even after production slowed. That kind of structure gives rats cover and denning sites a strictly agricultural landscape would not provide, and properties near legacy oil field sites often see rat pressure that has more to do with old infrastructure than with anything happening on the property itself. Exclusion work, sealing entry points and clearing harborage near structures, matters more here than in a typical farm town.",
+      },
+      {
+        heading: "Stored-grain pests at Jennings's rice mills",
+        body: "Jennings grew up as a rice town well before the oil boom, and the mills and grain-drying facilities tied to that trade are still part of the local economy. Bulk and bagged rice storage carries a stored-product pest risk that a purely residential property never has to think about: weevils and meal moths can move through a facility quickly once established, and pheromone monitoring and inspection of incoming grain matter more for this kind of commercial site than a standard quarterly home visit. Facilities near active rice mills or grain elevators should budget for a dedicated commercial program rather than treating stored-grain pests as an afterthought.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds on levee banks and field edges early in spring before colonies expand.",
+      "Have properties near legacy oil field infrastructure checked for rat harborage and seal entry points.",
+      "Set up commercial stored-product pest monitoring for facilities handling bulk or bagged rice.",
+      "Clear standing water around residential properties near active rice or crawfish fields to limit mosquito breeding.",
+    ],
+    costNote:
+      "General quarterly pest plans in Jennings typically run $120 to $240 per year for a standard home. Rat exclusion work near legacy oil field sites is priced by property size, often $200 to $450. Commercial stored-grain pest programs for mills and elevators are quoted separately based on facility size and product handled.",
+    faqs: [
+      {
+        question: "Why is Jennings known as the birthplace of Louisiana's oil industry?",
+        answer:
+          "The Jules Clement No. 1 well blew in on a rice farm about seven miles northeast of Jennings on September 21, 1901, after gas bubbles noticed in a flooded rice field led to the discovery. The well opened the Jennings oil field, which once produced more than nine million barrels a year and launched Louisiana's petroleum industry.",
+      },
+      {
+        question: "Does Jennings's oil field history affect pest control today?",
+        answer:
+          "Yes. Old tank batteries, pipeyards, and equipment left from more than a century of oil field development around Jennings give rats shelter that a purely agricultural community would not otherwise have, and properties near legacy oil sites often need dedicated rat exclusion work.",
+      },
+      {
+        question: "How long does mosquito season last in Jennings?",
+        answer:
+          "Roughly April through October. The flood-irrigated rice fields and crawfish ponds around Jennings hold standing water for weeks at a time through the growing season, giving mosquitoes an unusually long breeding window compared to a non-farming property.",
+      },
+      {
+        question: "Are fire ants a problem on Jennings farmland?",
+        answer:
+          "Yes. The levee banks built up between flooded rice fields around Jennings are dry, raised, and undisturbed, exactly the conditions fire ant colonies look for, and mound activity builds through spring and summer on that kind of ground.",
+      },
+      {
+        question: "Do Jennings rice mills need special pest control?",
+        answer:
+          "Facilities handling bulk or bagged rice around Jennings carry a stored-product pest risk, mainly weevils and meal moths, that a residential property does not face. Those sites typically need a dedicated commercial program with inspection and pheromone monitoring rather than a standard quarterly visit.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "DeRidder", slug: "deridder", stateSlug: "louisiana" },
+      { name: "Minden", slug: "minden", stateSlug: "louisiana" },
+      { name: "Abbeville", slug: "abbeville", stateSlug: "louisiana" },
+      { name: "Plaquemine", slug: "plaquemine", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Jennings, LA | Rice Field Mosquitoes & Oil Field Rats",
+    metaDescription:
+      "Jennings, LA pest control for rice-field mosquitoes, oil field rats, fire ants, stored-grain pests and cockroaches. Jefferson Davis Parish service. Free inspection.",
+  },
+  {
+    slug: "abbeville",
+    name: "Abbeville",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~10,900",
+    county: "Vermilion Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Abbeville sits on the Vermilion River in Vermilion Parish, close enough to the Gulf Coast marsh that bayou and wetland moisture shapes the town's pest calendar more than almost anything else. The humid subtropical climate keeps summers long and wet, and the flat, poorly drained coastal prairie around Abbeville, laced with rice and sugarcane fields and crawfish ponds, holds standing water well into the fall, giving mosquitoes and moisture-driven termites a long season to work with.",
+    topPests: ["Mosquitoes", "Termites", "Fire Ants", "Flies", "Rodents"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Abbeville sits close enough to the Gulf Coast marsh that Vermilion River flooding and the rice, sugarcane, and crawfish farmland ringing town keep standing water present through most of the warm season, giving mosquitoes a long, active window.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round",
+        note: "Abbeville's downtown, built up around Magdalen Square after Father Antoine Megret laid out the town in 1843, sits on flat, constantly moist coastal prairie soil, and that ground moisture keeps subterranean termite pressure high in the older buildings surrounding the square.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The sugarcane and rice fields around Abbeville give fire ants wide open, undisturbed ground to build mounds in, and colonies expand quickly through the long warm season typical of coastal Vermilion Parish.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "Abbeville's oyster and seafood trade along the Vermilion River, a tradition dating back to the 19th century oystermen who used the river to move their harvest, draws flies to processing and storage areas near the waterfront that a purely residential property would not deal with.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Farmland and drainage canals around Abbeville give roof rats and other rodents easy cover, and older homes near the river commonly see fall rodent pressure build as field cover dies back.",
+      },
+    ],
+    localHook:
+      "Father Antoine Megret purchased land along the Vermilion River in 1843 and laid out Abbeville in the style of a French village, with Magdalen Square at its center. The town's oyster and seafood trade grew up along that same river soon after, run by 19th century oystermen who used the water as their route to market, and Abbeville still hosts the Giant Omelette Celebration each November, a tradition tied to a Napoleonic-era legend that draws cooks to prepare a 5,000-egg omelette outdoors on the square Father Megret laid out nearly two centuries ago.",
+    intro:
+      "Abbeville's location on the Vermilion River, close to the Gulf Coast marsh, sets the tone for nearly every pest problem the town deals with. Father Antoine Megret laid out Abbeville around Magdalen Square in 1843, styling the town after a French village, and the flat, poorly drained coastal prairie surrounding that square has stayed wet enough ever since to keep mosquitoes and moisture-driven termites active for most of the year. The rice, sugarcane, and crawfish farmland ringing town gives fire ants open ground for mound building, and Abbeville's long-running oyster and seafood trade along the river, a tradition older than the Giant Omelette Celebration the town is known for today, brings its own fly pressure to waterfront processing areas. Farmland and drainage canals add roof rats to the list, particularly as field cover thins out each fall.",
+    sections: [
+      {
+        heading: "River and coastal marsh moisture behind Abbeville's mosquito and termite pressure",
+        body: "Abbeville sits close enough to the Gulf Coast marsh that the town shares in the same standing-water conditions that define coastal Louisiana, and the Vermilion River running through the middle of it only adds to the effect. Rice fields, sugarcane land, and crawfish ponds surrounding Abbeville hold water for weeks at a stretch through the growing season, giving mosquitoes an active window that runs from April through October most years, longer than most inland Louisiana towns experience. The same ground moisture works against wood-frame construction: the flat, poorly drained coastal prairie soil around Magdalen Square, where Father Antoine Megret laid out the town in 1843, keeps subterranean termites active in older buildings essentially year-round, with swarms concentrated between February and May. Owners of century-old storefronts near the square should treat that swarm window as a reminder to check for damage, not a surprise.",
+      },
+      {
+        heading: "Fire ants on Abbeville's farmland",
+        body: "The sugarcane and rice fields that surround Abbeville give fire ant colonies exactly what they look for: open, undisturbed ground with minimal foot traffic. Mound building starts in spring and continues through fall in the long warm season typical of coastal Vermilion Parish, and properties near active farmland tend to see the heaviest pressure. Yards backing onto fields or vacant agricultural lots warrant earlier treatment than in-town lots farther from farming operations, since colonies near open fields have more room to expand before anyone notices.",
+      },
+      {
+        heading: "Flies near Abbeville's seafood trade, and fall rodent pressure",
+        body: "Abbeville's identity is tied to the Vermilion River almost as much as its founding is, and the 19th century oyster trade that used the river as a route to market left a lasting seafood industry along the waterfront. Processing and storage areas connected to that trade draw flies at a rate a purely residential property does not experience, and commercial operations near the water typically need a dedicated fly control program rather than standard residential service. Away from the waterfront, the farmland and drainage canals ringing Abbeville give roof rats and other rodents steady cover, and older homes near the river see rodent pressure build each fall as field vegetation dies back and rodents look for a warmer place to shelter.",
+      },
+    ],
+    prevention: [
+      "Clear standing water around properties near rice, sugarcane, or crawfish farmland to limit mosquito breeding.",
+      "Schedule an annual termite inspection for buildings near Magdalen Square and the historic downtown core.",
+      "Treat fire ant mounds early in spring on lawns backing onto farmland or vacant lots.",
+      "Seal foundation gaps in older river-adjacent homes before fall, when rodent pressure surges.",
+    ],
+    costNote:
+      "General quarterly pest plans in Abbeville typically run $120 to $250 per year for a standard home. Termite inspections are usually free, with treatment for older downtown buildings priced by structure size, often $500 to $1,100. Commercial fly control for waterfront seafood operations is quoted separately by facility size.",
+    faqs: [
+      {
+        question: "Why does Abbeville have such a long mosquito season?",
+        answer:
+          "Abbeville sits close to the Gulf Coast marsh, and the rice, sugarcane, and crawfish farmland surrounding town holds standing water for weeks through the growing season. That keeps mosquitoes active from roughly April through October, longer than a drier inland Vermilion Parish property would see.",
+      },
+      {
+        question: "Is Abbeville's historic downtown at risk for termites?",
+        answer:
+          "Yes. Father Antoine Megret laid out Abbeville around Magdalen Square in 1843, and the flat, poorly drained coastal prairie soil beneath that historic core stays moist enough to keep subterranean termites active in older buildings essentially year-round, with the heaviest swarming between February and May.",
+      },
+      {
+        question: "Does Abbeville's seafood industry attract flies?",
+        answer:
+          "Yes. Abbeville has run an oyster and seafood trade along the Vermilion River since the 19th century, and processing and storage areas connected to that trade see fly pressure that a purely residential property would not experience, usually needing a dedicated commercial fly control program.",
+      },
+      {
+        question: "Are fire ants a concern in Abbeville yards?",
+        answer:
+          "Fire ants are common on the sugarcane and rice farmland surrounding Abbeville, where open, undisturbed ground lets colonies build mounds through the long spring-to-fall warm season typical of coastal Vermilion Parish.",
+      },
+      {
+        question: "When is rodent pressure worst in Abbeville?",
+        answer:
+          "Fall. Farmland and drainage canals around Abbeville give roof rats and other rodents steady cover during the growing season, and older homes near the river see pressure build each fall as field vegetation dies back and rodents look for shelter indoors.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "DeRidder", slug: "deridder", stateSlug: "louisiana" },
+      { name: "Minden", slug: "minden", stateSlug: "louisiana" },
+      { name: "Jennings", slug: "jennings", stateSlug: "louisiana" },
+      { name: "Plaquemine", slug: "plaquemine", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Abbeville, LA | Vermilion River Mosquitoes & Termites",
+    metaDescription:
+      "Abbeville, LA pest control for river and marsh mosquitoes, coastal termites, fire ants, flies and rodents. Vermilion Parish service. Free inspection.",
+  },
+  {
+    slug: "plaquemine",
+    name: "Plaquemine",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~6,100",
+    county: "Iberville Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Plaquemine sits where Bayou Plaquemine meets the Mississippi River in Iberville Parish, a confluence that once made the town the fastest water route from the river to Louisiana's interior. The humid subtropical climate brings hot, wet summers, and the river-bottom soil around Plaquemine stays saturated for weeks after high water, a pattern that shapes termite and mosquito pressure across the town's older river-adjacent neighborhoods.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round",
+        note: "Plaquemine sits where Bayou Plaquemine meets the Mississippi River, and the river-bottom soil around town stays saturated for weeks after high water, giving subterranean termites steady access to older wood-frame homes and the buildings near the historic Plaquemine Lock site.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The same bayou and river confluence that once made Plaquemine a shipping shortcut leaves behind backwater pools and saturated low ground each time the Mississippi rises and falls, and that standing water breeds mosquitoes through most of the warm season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Open farmland and residential lots on Plaquemine's edges give fire ants undisturbed ground for mound building through spring and summer, a pattern common across Iberville Parish's flat river-bottom terrain.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "Humidity off the river keeps American and German cockroach pressure high in Plaquemine's older homes and downtown buildings, especially where aging plumbing adds a moisture source.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Plaquemine's population has declined from a peak above 7,100 in 2010, leaving a stock of older, sometimes lightly maintained buildings near downtown that give house mice easy foundation access each fall.",
+      },
+    ],
+    localHook:
+      "The Plaquemine Lock, completed in 1909 and designed by Colonel George W. Goethals, later chief engineer of the Panama Canal, once had the highest freshwater lift of any lock in the world at 51 feet and cut 180 miles off the water route between the Mississippi River and Louisiana's interior. The lock closed in 1961 after a larger set of locks opened at Port Allen, and the site is now a National Register of Historic Places landmark and state historic site sitting on Bayou Plaquemine right where it meets the Mississippi.",
+    intro:
+      "Plaquemine's whole layout traces back to a single fact of geography: this is where Bayou Plaquemine breaks off from the Mississippi River. That confluence made the town a natural shipping shortcut, formalized in 1909 by a lock so advanced for its time that its engineer, Colonel George W. Goethals, later built the Panama Canal. The lock closed in 1961, but the water that shaped the town never went anywhere, and the river-bottom soil around Plaquemine still stays saturated for weeks after the Mississippi rises and falls, driving both termite and mosquito pressure across the town's older neighborhoods. Plaquemine's population has fallen from a 2010 peak above 7,100, and that decline has left more of the town's older housing stock lightly maintained, giving cockroaches and house mice steadier access than a growing town would tolerate.",
+    sections: [
+      {
+        heading: "River confluence moisture and termite risk near the old lock",
+        body: "Plaquemine sits at the point where Bayou Plaquemine breaks away from the Mississippi River, a location significant enough that the U.S. Army Corps of Engineers built a lock here in 1909, once the highest freshwater lift lock in the world, to shortcut river traffic into Louisiana's interior by 180 miles. That same confluence keeps the ground around town saturated for weeks after the Mississippi rises and falls each year. Subterranean termites take full advantage, and older wood-frame homes near the river, along with buildings close to the historic Plaquemine Lock site itself, carry a termite risk that inland Iberville Parish properties do not share to the same degree. Year-round activity with a February through May swarm peak is typical here.",
+      },
+      {
+        heading: "Mosquitoes after the Mississippi rises and falls",
+        body: "The same water cycle that drives termite pressure in Plaquemine also breeds mosquitoes. When the Mississippi crests and recedes, it leaves backwater pools and saturated low ground along Bayou Plaquemine and the riverbank that hold water for weeks at a stretch, and that standing water gives mosquitoes an active season running roughly April through October. River-adjacent neighborhoods see noticeably more pressure than the farmland and residential streets farther from the water, and source reduction, clearing gutters and containers, treating pools that cannot be drained, does more good here than in a typical inland Iberville Parish town. A wet spring on the river tends to mean a heavier mosquito summer, so timing that cleanup right after high water pays off.",
+      },
+      {
+        heading: "Fire ants, cockroaches, and mice in a shrinking town",
+        body: "Plaquemine's population has fallen from a 2010 peak above 7,100, part of a longer economic shift away from the river commerce that the historic lock once anchored and toward the chemical and petrochemical industry that now dominates the area. That decline has left a larger share of the town's older housing lightly maintained, and cockroaches and house mice both find more opportunity in that kind of building stock, cockroaches drawn to aging plumbing and summer humidity, mice slipping through foundation gaps each fall. Away from downtown, the open farmland ringing Plaquemine gives fire ants the same undisturbed ground common across Iberville Parish's flat river-bottom terrain, with mound activity building through spring and summer.",
+      },
+    ],
+    prevention: [
+      "Have river-adjacent homes and buildings near the historic Plaquemine Lock inspected annually for termites.",
+      "Clear gutters, containers, and backwater pools each spring to reduce mosquito breeding near the river.",
+      "Seal foundation gaps in older, lightly maintained homes before fall, when mouse pressure surges.",
+      "Treat fire ant mounds early in spring on farmland-adjacent lawns before colonies expand.",
+    ],
+    costNote:
+      "General quarterly pest plans in Plaquemine typically run $110 to $230 per year for a standard home. Termite inspections are usually free, with treatment for river-adjacent and older homes priced by structure size, often $450 to $1,000. Mosquito season treatment after high water adds $70 to $140 per visit.",
+    faqs: [
+      {
+        question: "Does the Mississippi River affect pest control in Plaquemine?",
+        answer:
+          "Yes. Plaquemine sits where Bayou Plaquemine meets the Mississippi, and the river-bottom soil around town stays saturated for weeks after the river rises and falls, driving both termite pressure in older wood-frame homes and a long mosquito season in river-adjacent neighborhoods.",
+      },
+      {
+        question: "Is the historic Plaquemine Lock area at higher termite risk?",
+        answer:
+          "Yes. The Plaquemine Lock, completed in 1909 and closed in 1961, sits on ground that stays saturated after high water on the Mississippi, and older buildings near the site carry a termite risk that inland Iberville Parish properties do not share to the same degree.",
+      },
+      {
+        question: "Why does Plaquemine see more house mice than a growing town might?",
+        answer:
+          "Plaquemine's population has declined from a 2010 peak above 7,100, and that shift has left more of the town's older housing lightly maintained, giving house mice easier foundation access each fall than a well-maintained, growing housing stock would allow.",
+      },
+      {
+        question: "When is mosquito season worst in Plaquemine?",
+        answer:
+          "Roughly April through October, with the heaviest pressure in river-adjacent neighborhoods after the Mississippi crests and recedes, leaving backwater pools and saturated ground along Bayou Plaquemine that hold water for weeks.",
+      },
+      {
+        question: "Are fire ants common around Plaquemine?",
+        answer:
+          "Yes. The open farmland ringing Plaquemine gives fire ants the same undisturbed, flat river-bottom ground common across Iberville Parish, and mound activity builds through spring and summer on lawns near that farmland.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "DeRidder", slug: "deridder", stateSlug: "louisiana" },
+      { name: "Minden", slug: "minden", stateSlug: "louisiana" },
+      { name: "Jennings", slug: "jennings", stateSlug: "louisiana" },
+      { name: "Abbeville", slug: "abbeville", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Plaquemine, LA | River Confluence Termites & Mosquitoes",
+    metaDescription:
+      "Plaquemine, LA pest control for river-confluence termites, mosquitoes, fire ants, cockroaches and house mice near the historic Plaquemine Lock. Iberville Parish service.",
+  },
 ];

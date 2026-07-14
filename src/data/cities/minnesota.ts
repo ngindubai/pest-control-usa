@@ -5136,4 +5136,559 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Fergus Falls, MN pest control for lake-driven mosquitoes, shoreline ticks, lumber-era carpenter ants, and fall mice. Free inspection.",
   },
+  {
+    slug: "red-wing",
+    name: "Red Wing",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~16,800",
+    county: "Goodhue County",
+    climate: "cold-humid",
+    climateDriver:
+      "Red Wing sits where the Mississippi River bends against a wall of limestone bluffs in southeastern Minnesota, a humid continental climate with warm summers and long, cold winters. The river bottomland below the bluffs holds moisture long after the rest of the county has dried out, and the wooded bluff slopes ringing downtown add a second pest source that flatter Minnesota towns simply don't have.",
+    topPests: ["Termites", "Ticks", "Mosquitoes", "Carpenter Ants", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Red Wing's downtown grew up around the pottery trade that started when John Paul struck a rich clay deposit in 1861, and many of the brick and frame buildings from that era sit close enough to the river bottom that old wood-to-soil contact points are still a live issue.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "Barn Bluff and the wooded trail network above downtown draw hikers and climbers most of the year, and the brush and leaf litter along those bluff trails give ticks a foothold that a resident walking a flatter, open route rarely has to think about.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River bottomland below the bluffs holds backwater pools and saturated low ground well into summer, and Red Wing properties closest to the river see steadier mosquito pressure through the season than homes up on the bluff itself.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The hardwood stands covering Barn Bluff and the surrounding bluffline put carpenter ants in regular contact with homes built into or against the wooded slope, especially where an old tree stump or woodpile sits close to the foundation.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies stage on the sun-facing brick walls of Red Wing's historic pottery-era buildings each fall, then slip into wall voids and attics to overwinter, a pattern the town's older masonry construction makes easier than it should be.",
+      },
+    ],
+    localHook:
+      "Red Wing takes its name from a Dakota leader whose title translates roughly to 'red wing,' and the city that grew up on the site became a national pottery center after John Paul discovered a rich clay deposit here in 1861. That pottery trade, along with the Red Wing Shoe Company that followed, filled downtown with brick and frame buildings that now sit in the shadow of Barn Bluff, the limestone landmark that gives the city its distinctive skyline and its tick-prone hiking trails.",
+    intro:
+      "Red Wing's pest pressure comes from two directions at once: the Mississippi River bottomland below the city and the wooded limestone bluffs, Barn Bluff chief among them, that rise straight up from downtown. The river's backwater pools keep mosquitoes active most of the summer, while the bluff's hardwood cover gives ticks and carpenter ants habitat that a flatter prairie town further west wouldn't have. Red Wing's identity as a 19th century pottery and shoemaking center, built on a clay deposit John Paul found in 1861, left behind a downtown of aging brick and frame buildings, and those older structures are exactly where termites and fall cluster flies find their way in. A property's position, on the bluff, in the river bottom, or somewhere between, does more to predict its pest risk here than almost anything else.",
+    sections: [
+      {
+        heading: "Barn Bluff's wooded slopes and Red Wing's tick and carpenter ant risk",
+        body: "Barn Bluff rises nearly 200 feet directly behind downtown Red Wing, and its wooded slopes and switchback trails draw hikers, climbers, and dog walkers for most of the year. That same brush and leaf litter that makes the bluff worth visiting is exactly the habitat ticks need, and anyone spending regular time on the trail network above town should expect steadier exposure from April through October than a resident of a more open Minnesota prairie town would see. The bluffline's hardwood cover creates a second, related problem: carpenter ants. Homes built into or against the wooded slope, especially on the west side of the city where lots back directly onto timber, give carpenter ants easy access to old stumps, woodpiles, and any softened wood near the foundation. Checking woodpiles and clearing dead stumps away from the house cuts down on both nesting opportunity and the odds of a colony finding its way indoors.",
+      },
+      {
+        heading: "River bottomland, termites, and Red Wing's mosquito season",
+        body: "The Mississippi River curves around Red Wing's eastern edge, and the bottomland below the bluffs holds water long after higher ground has dried out each spring. Eastern subterranean termites exploit that persistent moisture, building mud tubes up foundation walls in search of wood, and Red Wing's downtown, built up during the city's 19th century run as a national pottery and shoemaking center, has plenty of old brick and frame buildings with wood-to-soil contact points that predate any modern termite barrier. The same river bottomland breeds mosquitoes through the warm months, with backwater pools and saturated low ground near Colvill Park and the riverfront holding water well into summer. Properties closest to the river see the steadiest mosquito pressure, typically May through September, while homes further up the bluff get some relief simply from elevation and drainage.",
+      },
+      {
+        heading: "Cluster flies and the pottery-era downtown",
+        body: "Red Wing's downtown still carries the brick and stone footprint of its pottery era, when companies like Red Wing Union Stoneware turned local clay into stoneware shipped across the country before the last kiln closed in 1967. Those older masonry buildings, along with the frame housing built alongside them, give cluster flies an easy target each fall. The flies stage on sun-warmed exterior walls in September and October, looking for any gap around a window frame or soffit, then spend winter tucked into wall voids and attics before a warm late-winter day draws them back into living space. It's a slow, quiet infestation rather than a dramatic one, but a building that gets it one fall usually gets it again unless the entry points get sealed.",
+      },
+    ],
+    prevention: [
+      "Check woodpiles, stumps, and brush near bluff-adjacent homes to reduce carpenter ant nesting sites.",
+      "Do a tick check after any hike on Barn Bluff or the surrounding trail network, spring through fall.",
+      "Have river-bottom and downtown pottery-era buildings inspected for termites annually.",
+      "Seal gaps around windows and soffits on older brick buildings before September to keep fall cluster flies out.",
+    ],
+    costNote:
+      "General pest coverage in Red Wing typically runs $100 to $220 per year for a quarterly plan. Termite inspections for downtown and river-bottom properties are usually free, with treatment priced separately by structure size, often $500 to $1,100. Tick and mosquito season treatments for bluff-adjacent and riverfront properties run $70 to $130 per visit.",
+    faqs: [
+      {
+        question: "Does Barn Bluff increase tick exposure in Red Wing?",
+        answer:
+          "Yes. Barn Bluff's wooded slopes and trail network sit right behind downtown Red Wing, and the brush and leaf litter along those trails give ticks habitat that a flatter prairie town wouldn't have. Anyone hiking regularly from April through October should check for ticks afterward.",
+      },
+      {
+        question: "Are termites a risk in Red Wing's downtown buildings?",
+        answer:
+          "Yes. Red Wing's downtown grew up during its run as a national pottery center after John Paul found a clay deposit here in 1861, and many of the resulting brick and frame buildings have old wood-to-soil contact points near the Mississippi River bottomland, where moisture stays high.",
+      },
+      {
+        question: "When is mosquito season worst in Red Wing?",
+        answer:
+          "May through September, with the steadiest pressure closest to the Mississippi River bottomland below the bluffs. Backwater pools near the riverfront hold water well into summer, while bluff-top properties get some relief from elevation and drainage.",
+      },
+      {
+        question: "Why do carpenter ants target homes near Barn Bluff?",
+        answer:
+          "The bluff's hardwood cover puts carpenter ants in regular contact with homes built into or against the wooded slope, especially where an old stump or woodpile sits close to the foundation.",
+      },
+      {
+        question: "Are cluster flies a problem in Red Wing every fall?",
+        answer:
+          "They can be. Cluster flies stage on the sun-warmed brick walls of Red Wing's older pottery-era downtown buildings each September and October before slipping into wall voids to overwinter. Sealing gaps around windows and soffits before fall is the most effective prevention.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Albert Lea", slug: "albert-lea", stateSlug: "minnesota" },
+      { name: "Worthington", slug: "worthington", stateSlug: "minnesota" },
+      { name: "North Mankato", slug: "north-mankato", stateSlug: "minnesota" },
+      { name: "Sartell", slug: "sartell", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Red Wing, MN | Bluff Ticks & River Termites",
+    metaDescription:
+      "Red Wing, MN pest control for Barn Bluff ticks, river-bottom termites, mosquitoes, carpenter ants and fall cluster flies. Goodhue County service. Free inspection.",
+  },
+  {
+    slug: "albert-lea",
+    name: "Albert Lea",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~18,300",
+    county: "Freeborn County",
+    climate: "cold-humid",
+    climateDriver:
+      "Albert Lea sits at the junction of Interstate 35 and Interstate 90 in south central Minnesota, a humid continental climate with warm summers and cold winters. The city is built around a chain of six lakes, Fountain Lake, Pickerel Lake, Albert Lea Lake, Goose Lake, School Lake, and Lake Chapeau, earning it the nickname 'Land Between the Lakes,' and that much shoreline in one place drives a mosquito and tick season heavier than most towns this size see.",
+    topPests: ["Mosquitoes", "Ticks", "Cluster Flies", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Albert Lea is built around six connected lakes, Fountain, Pickerel, Albert Lea, Goose, School, and Chapeau, and that much combined shoreline gives mosquitoes far more breeding habitat within the city limits than a typical single-lake Minnesota town.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "The wooded shoreline parks ringing Albert Lea's chain of lakes, including the trails near Fountain Lake and Bancroft Bay, give ticks cover that the open farmland east and west of the city doesn't have.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies gather on sun-warmed walls of Albert Lea homes each fall before slipping indoors to overwinter, a pattern that hits lake-adjacent older housing hardest.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older cabins and homes along Albert Lea's lakeshore see carpenter ant activity where moisture from lake proximity has softened wood over time.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoor",
+        note: "Albert Lea sits directly at the interchange of Interstate 35 and Interstate 90, and the hotels, truck stops, and restaurants clustered around that crossroads see a steadier German cockroach risk than the town's residential streets, driven by constant traveler traffic.",
+      },
+    ],
+    localHook:
+      "Albert Lea takes its name from Lieutenant Albert Miller Lea, a U.S. Army topographer who mapped the area's lakes in 1835, and the city grew up around the chain of six connected lakes, Fountain, Pickerel, Albert Lea, Goose, School, and Chapeau, that still define its identity as 'Land Between the Lakes.' Albert Lea also sits at the junction of Interstate 35 and Interstate 90, one of the few places in Minnesota where the state's two major interstates cross, and that crossroads location brings a steady flow of travelers through the hotels and truck stops near the interchange.",
+    intro:
+      "Few Minnesota towns this size are built around as much water as Albert Lea. The city sits on a chain of six connected lakes, Fountain, Pickerel, Albert Lea, Goose, School, and Chapeau, a layout that earned Albert Lea its 'Land Between the Lakes' nickname and gives mosquitoes and ticks far more shoreline to work with than a single-lake town would offer. The wooded parks ringing that shoreline add tick habitat through the warm months, while older lakeside homes see carpenter ants and fall cluster flies at rates the open farmland outside town doesn't. Albert Lea's other defining feature is its location at the junction of Interstate 35 and Interstate 90, one of only a handful of places in Minnesota where the state's two major interstates meet, and the hotels and truck stops clustered around that interchange carry a cockroach risk that has nothing to do with the lakes at all.",
+    sections: [
+      {
+        heading: "Why Albert Lea's chain of lakes means a heavier mosquito and tick season",
+        body: "Albert Lea is built around six connected bodies of water, Fountain Lake, Pickerel Lake, Albert Lea Lake, Goose Lake, School Lake, and Lake Chapeau, more combined shoreline inside one city than most Minnesota towns this size have to manage. Mosquitoes breed across that whole chain rather than in a single isolated pond, which means the season runs long and hits neighborhoods on every side of town, not just the ones directly on the water. The wooded shoreline parks that make the lakes worth visiting, including the trails around Fountain Lake and Bancroft Bay, give ticks the brush and leaf litter they need to build up through spring, summer, and fall. Anyone spending regular time on those shoreline trails should expect steadier tick exposure than a resident of the open farmland east or west of the city.",
+      },
+      {
+        heading: "Carpenter ants and cluster flies in Albert Lea's older lakeside homes",
+        body: "Albert Lea's older housing stock, much of it built close to the lakeshore in the decades after the city grew up around Lieutenant Albert Miller Lea's 1835 survey, carries a steady moisture exposure that carpenter ants take advantage of once wood starts to soften. Cabins and homes with any history of a leaky roof or poor grading near the water are the likeliest candidates. Cluster flies follow a separate but equally reliable pattern each fall, staging on sun-warmed exterior walls in September and October before finding a gap to slip through, then spending winter in wall voids and attics until a warm day draws them back toward living space. Both pests are manageable with routine sealing and moisture control, but lakeside properties need to stay ahead of them rather than waiting for a visible problem.",
+      },
+      {
+        heading: "The I-35 and I-90 interchange brings a different pest problem",
+        body: "Albert Lea sits at one of the only points in Minnesota where Interstate 35 and Interstate 90 cross, and that crossroads location has shaped the city's commercial strip as much as its lakes have shaped its neighborhoods. Hotels, truck stops, and restaurants cluster around the interchange to serve a constant flow of highway traffic, and that kind of traveler turnover brings a steadier German cockroach risk than most of Albert Lea's residential streets ever see. Cockroaches hitch rides in luggage, delivery boxes, and cargo, and a hospitality or food-service property near the interchange needs a monitoring program built for that reality rather than a standard residential quarterly plan. It is a pest pressure with nothing to do with the lakes at all, just a function of sitting where two interstates meet.",
+      },
+    ],
+    prevention: [
+      "Manage standing water and treat backwater areas near any of Albert Lea's six connected lakes each spring.",
+      "Check for ticks after time spent on shoreline trails around Fountain Lake or Bancroft Bay, spring through fall.",
+      "Address roof or grading moisture issues on lakeside homes promptly to reduce carpenter ant risk.",
+      "Hotels and restaurants near the I-35/I-90 interchange should run a year-round cockroach monitoring program rather than reactive treatment.",
+    ],
+    costNote:
+      "Quarterly pest plans for Albert Lea homes run $90 to $180 per year, with lakeshore properties often adding a seasonal mosquito program for $70 to $120 per visit May through September. Commercial cockroach monitoring for hotels and restaurants near the I-35/I-90 interchange is quoted separately by square footage and typically billed monthly.",
+    faqs: [
+      {
+        question: "Why does Albert Lea have such a strong mosquito season?",
+        answer:
+          "Albert Lea is built around six connected lakes, Fountain, Pickerel, Albert Lea, Goose, School, and Chapeau, and that much combined shoreline gives mosquitoes far more breeding habitat within city limits than a typical single-lake Minnesota town.",
+      },
+      {
+        question: "Is tick exposure worse near Albert Lea's lakes?",
+        answer:
+          "Yes, generally. The wooded shoreline parks around Albert Lea's chain of lakes, including trails near Fountain Lake and Bancroft Bay, give ticks cover that the open farmland outside the city doesn't have, so lakeside recreation carries steadier exposure April through October.",
+      },
+      {
+        question: "Do hotels near the Albert Lea interstate interchange need special pest control?",
+        answer:
+          "Often, yes. Albert Lea sits at one of the few points in Minnesota where Interstate 35 and Interstate 90 cross, and the hotels and truck stops near that interchange see steadier German cockroach pressure from constant traveler traffic than the city's residential streets.",
+      },
+      {
+        question: "Are carpenter ants common in Albert Lea's lakeside homes?",
+        answer:
+          "They can be. Older cabins and homes near Albert Lea's shoreline, especially those with a history of roof leaks or poor drainage, give carpenter ants the moisture they need to soften wood and establish a colony.",
+      },
+      {
+        question: "When do cluster flies show up in Albert Lea?",
+        answer:
+          "Cluster flies stage on sun-warmed exterior walls each September and October before slipping indoors to overwinter, a pattern that hits Albert Lea's older lake-adjacent housing hardest. Sealing gaps before fall is the most effective prevention.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Red Wing", slug: "red-wing", stateSlug: "minnesota" },
+      { name: "Worthington", slug: "worthington", stateSlug: "minnesota" },
+      { name: "North Mankato", slug: "north-mankato", stateSlug: "minnesota" },
+      { name: "Sartell", slug: "sartell", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Albert Lea, MN | Lake Mosquitoes & I-35/I-90 Pests",
+    metaDescription:
+      "Albert Lea, MN pest control for chain-of-lakes mosquitoes and ticks, carpenter ants, cluster flies and interstate-corridor cockroaches. Freeborn County service. Free inspection.",
+  },
+  {
+    slug: "worthington",
+    name: "Worthington",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~13,700",
+    county: "Nobles County",
+    climate: "cold",
+    climateDriver:
+      "Worthington sits on the open prairie of southwestern Minnesota, a harsher, drier stretch of the state's continental climate with fewer trees and more wind exposure than the river towns further east. The farmland surrounding the city on every side, combined with Lake Okabena at its center, sets a pest calendar built around harvest-season rodents and lake-driven mosquitoes rather than any wooded terrain.",
+    topPests: ["House Mice", "Cluster Flies", "Mosquitoes", "Boxelder Bugs", "Stored-Product Pests"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Nobles County's corn and soybean fields press against Worthington's neighborhoods on nearly every side, and when the fall harvest strips their cover, field mice move toward the nearest structure fast.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies gather on the sunniest exterior walls of Worthington homes each fall before slipping indoors, a pattern common across the open prairie towns of southwestern Minnesota.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Lake Okabena sits at the center of Worthington, and its shoreline and adjoining wetlands give mosquitoes a reliable breeding ground through the warm months, unusual for a town this deep into dry prairie farm country.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering",
+        note: "Boxelder bugs cluster on the sun-facing walls of Worthington homes each fall, drawn by the boxelder and maple trees planted as windbreaks around the open prairie farmsteads that ring the city.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round in processing and warehouse settings",
+        note: "Worthington's identity as the self-declared 'Turkey Capital of the World,' home to King Turkey Day since 1939, comes with a real agricultural processing footprint, and grain and poultry-handling facilities in and around the city carry stored-product pest risk that a typical residential property never has to manage.",
+      },
+    ],
+    localHook:
+      "Worthington has called itself the 'Turkey Capital of the World' since 1939, when the city launched King Turkey Day, an annual fall festival built around a turkey race that Worthington now runs against Cuero, Texas, to settle the title each year. The city sits on the shore of Lake Okabena, a Dakota name meaning nesting place of the herons, in the middle of Nobles County's open prairie farm country, and that mix of lake, farmland, and agricultural processing shapes Worthington's pest pressure more than any other local factor.",
+    intro:
+      "Worthington's pest calendar runs on two tracks: the open prairie farmland that surrounds the city on every side, and Lake Okabena, the water at its center that gives the self-declared 'Turkey Capital of the World' its name and its King Turkey Day festival, held every fall since 1939. House mice pour out of harvested corn and soybean fields each September and October looking for a warmer place to spend winter, and Worthington's mix of older farmhouse-style homes and newer subdivisions both feel the pressure. Cluster flies and boxelder bugs follow the same fall staging pattern common across southwestern Minnesota, gathering on sunny walls before pushing indoors. Lake Okabena adds a mosquito season that a typical dry prairie town further from water wouldn't see. And the grain and poultry-processing facilities that gave Worthington its turkey-town identity carry a stored-product pest risk of their own.",
+    sections: [
+      {
+        heading: "Harvest-season mice from the farmland surrounding Worthington",
+        body: "Nobles County's corn and soybean fields press right up against Worthington's neighborhoods, and when combines move through those fields each September and October, the field mice living in them lose their cover overnight. They head for the nearest structure, and for a lot of Worthington homes that means the house itself. Older farmhouse-style homes at the edge of town see the heaviest pressure, particularly where foundation gaps, uninsulated sill plates, or utility penetrations were never fully sealed, but newer subdivisions built at the field's edge are not exempt. Sealing obvious gaps before the harvest starts and setting interior traps at the first sign of activity keeps a seasonal nuisance from turning into a winter-long infestation, a pattern nearly every farm-adjacent Worthington property deals with in some form.",
+      },
+      {
+        heading: "Lake Okabena's mosquito season and fall's boxelder bugs and cluster flies",
+        body: "Lake Okabena sits at the center of Worthington, and its shoreline and adjoining wetlands give mosquitoes a breeding ground that a dry prairie town further from water simply wouldn't have. The season runs May through September, with pressure concentrated closest to the lake and along the wetland margins that feed into it. Fall brings a different problem entirely: boxelder bugs and cluster flies both cluster on the sun-facing walls of Worthington homes in September and October, drawn in part by the boxelder and maple trees planted as windbreaks around the open prairie farmsteads that surround the city. Once the weather turns, both pests slip into wall voids and attics to overwinter, and a warm day in late winter can send them back out into living space if entry points were never sealed.",
+      },
+      {
+        heading: "Stored-product pests at Worthington's grain and turkey-processing facilities",
+        body: "Worthington has called itself the Turkey Capital of the World since 1939, and King Turkey Day, the city's signature fall festival, celebrates an agricultural identity that comes with real industrial weight: grain elevators and poultry-processing operations in and around the city handle enormous volumes of stored feed and packaged product year-round. That kind of facility faces a different pest profile than a house or a small storefront. Indian meal moths and other stored-product pests can spread through a warehouse or processing floor quickly once an infested shipment or a gap in packaging goes unnoticed, and the consequences for a food-processing operation are more serious than for a home pantry. Commercial pest programs for these facilities focus on inspection of incoming grain and packaging, pheromone monitoring traps, and fast response, a different scope of work than a residential quarterly plan.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, sill plates, and utility penetrations before the fall harvest to keep field mice out.",
+      "Set interior traps at the first sign of mouse activity rather than waiting for numbers to grow.",
+      "Seal exterior gaps around windows and siding before September to reduce boxelder bug and cluster fly entry.",
+      "Grain and poultry-processing facilities should run pheromone monitoring traps year-round for stored-product pests.",
+    ],
+    costNote:
+      "General quarterly pest plans in Worthington run $95 to $190 per year for a typical home. Fall exclusion service targeting mice, boxelder bugs, and cluster flies before winter runs $130 to $260. Commercial stored-product pest programs for grain and poultry-processing facilities are quoted separately based on facility size and volume handled.",
+    faqs: [
+      {
+        question: "Why does Worthington see so many mice each fall?",
+        answer:
+          "Nobles County's corn and soybean fields surround Worthington closely, and when the harvest moves through in September and October, field mice lose their cover and head for the nearest structure. Older farmhouse-style homes at the edge of town and newer subdivisions built at the field's edge both feel the pressure.",
+      },
+      {
+        question: "Does Lake Okabena affect mosquito season in Worthington?",
+        answer:
+          "Yes. Lake Okabena sits at the center of Worthington, and its shoreline and adjoining wetlands give mosquitoes a breeding ground from May through September that a drier prairie town further from water wouldn't have.",
+      },
+      {
+        question: "Why is Worthington called the Turkey Capital of the World, and does it affect pest control?",
+        answer:
+          "Worthington has held King Turkey Day, its signature fall festival, since 1939, reflecting the city's real grain and poultry-processing industry. Those facilities handle large volumes of stored feed and packaged product, which carries stored-product pest risk that a typical Worthington home doesn't have.",
+      },
+      {
+        question: "Are boxelder bugs a fall problem in Worthington?",
+        answer:
+          "Yes. Boxelder bugs cluster on sun-facing walls each September and October, drawn partly by the boxelder and maple windbreak trees common around the prairie farmsteads that ring the city, then overwinter in wall voids until a warm day draws them back out.",
+      },
+      {
+        question: "What do commercial pest programs at Worthington's grain facilities cover?",
+        answer:
+          "Programs for grain elevators and poultry-processing tenants typically include inspection of incoming grain and packaging, pheromone monitoring traps for pests like Indian meal moths, and fast response protocols, a different scope than a standard residential quarterly plan.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Red Wing", slug: "red-wing", stateSlug: "minnesota" },
+      { name: "Albert Lea", slug: "albert-lea", stateSlug: "minnesota" },
+      { name: "North Mankato", slug: "north-mankato", stateSlug: "minnesota" },
+      { name: "Sartell", slug: "sartell", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Worthington, MN | Harvest Mice & Lake Okabena Mosquitoes",
+    metaDescription:
+      "Worthington, MN pest control for harvest-season mice, Lake Okabena mosquitoes, boxelder bugs, cluster flies and grain-facility stored-product pests. Nobles County service.",
+  },
+  {
+    slug: "north-mankato",
+    name: "North Mankato",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~14,100",
+    county: "Nicollet County",
+    climate: "cold-humid",
+    climateDriver:
+      "North Mankato sits on the north bank of the Minnesota River, directly across the water from Mankato, at a bend where the river valley's bluffs rise sharply above the floodplain. The humid continental climate brings warm, muggy summers and cold winters, and the combination of river-bottom moisture below and wooded bluff terrain above gives North Mankato two distinct pest environments inside one small city.",
+    topPests: ["Termites", "Mosquitoes", "Carpenter Ants", "House Mice", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "North Mankato's oldest neighborhoods were built with brick from the A.L. Wheeler and O.E. Bennet brickyard that opened here in 1886, and those brick and frame buildings near the Minnesota River bottomland often carry wood-to-soil contact points that predate any modern termite barrier.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Minnesota River bends sharply at North Mankato, and the backwater pools and saturated bottomland near that bend, close to Sibley Park across the water, hold moisture well into summer, giving mosquitoes more breeding ground than the bluff-top neighborhoods see.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded bluffs above the river valley, including the timber around Lookout Drive and Rasmussen Woods, put carpenter ants in regular contact with homes built along the upper edge of town.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The farmland bordering North Mankato to the west sends field mice toward the city's edge each fall as Minnesota's cold arrives, a pressure felt most in homes closest to the open fields.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies stage on the sun-warmed brick walls of North Mankato's older brickyard-era buildings each fall before finding a gap to slip through and overwinter in wall voids.",
+      },
+    ],
+    localHook:
+      "North Mankato sits at a bend in the Minnesota River where the water turns north, and Dakota communities had lived along that stretch of the valley for thousands of years before European settlers laid out the town in 1857 around two ferry landings serving the growing city of Mankato across the water. When the A.L. Wheeler and O.E. Bennet brickyard opened here in 1886, it supplied the brick for much of the town's early growth, and that brickyard-era construction still shapes the older neighborhoods closest to the river today.",
+    intro:
+      "North Mankato's pest pressure is set by its position at a sharp bend in the Minnesota River, where bluffs rise above a floodplain that has shaped the city since Dakota communities lived along this stretch of valley long before the town was platted in 1857. River-bottom moisture near the water gives termites and mosquitoes a foothold, especially in the older brick neighborhoods built up after the A.L. Wheeler and O.E. Bennet brickyard opened in 1886 and left the city with a stock of aging masonry construction. The wooded bluffs above the valley, around Lookout Drive and Rasmussen Woods, give carpenter ants a separate source of pressure entirely. And when the farmland bordering the city to the west gets harvested each fall, field mice head for the nearest structure, a seasonal pattern North Mankato shares with most of southern Minnesota's river towns.",
+    sections: [
+      {
+        heading: "Minnesota River bottomland, brickyard history, and North Mankato's termite risk",
+        body: "North Mankato grew up on the north bank of the Minnesota River, directly across from Mankato, and the river bottomland below the bluffs holds moisture for weeks after a wet spring. That persistent dampness is exactly what eastern subterranean termites need, and the city's older neighborhoods, many built with brick from the A.L. Wheeler and O.E. Bennet brickyard that opened here in 1886, often have wood-to-soil contact points at sill plates and porch framing that were standard practice at the time but are a real liability now. Properties within a few blocks of the river, and any building constructed during North Mankato's late 19th century brickyard-era growth, warrant an annual termite inspection rather than waiting for visible damage to show up.",
+      },
+      {
+        heading: "Mosquitoes at the river bend and carpenter ants on the bluffs above",
+        body: "The Minnesota River makes a sharp turn at North Mankato, and the backwater pools and saturated bottomland near that bend, close to the Sibley Park area across the water, hold standing water well into the summer. That gives mosquitoes a stronger foothold in North Mankato's river-adjacent neighborhoods than in the bluff-top areas above, and the season typically runs May through September. Up on the bluffs, a different pest takes over. The wooded terrain around Lookout Drive and Rasmussen Woods puts carpenter ants in regular contact with homes built along the upper edge of town, especially where a stump, woodpile, or old deck lumber sits close to the foundation. Both pests trace back to the same river valley geography, just from opposite ends of the elevation.",
+      },
+      {
+        heading: "Fall mice and cluster flies in North Mankato's older housing",
+        body: "North Mankato borders open farmland to the west, and when that farmland is harvested each September and October, field mice lose their cover and move toward the nearest structure, a pressure felt most by homes closest to the fields but not limited to them. Cluster flies follow a separate but equally predictable fall pattern, gathering on the sun-warmed brick walls of North Mankato's older brickyard-era buildings before finding a gap around a window frame or soffit and slipping inside to overwinter. Both pests are manageable with routine fall sealing, foundation gap repair, and interior trapping, but North Mankato's mix of river-bottom, bluff-edge, and farm-adjacent housing means the right approach depends heavily on where in the city a property sits.",
+      },
+    ],
+    prevention: [
+      "Have river-bottom and brickyard-era buildings inspected for termites annually, and again after any spring flooding.",
+      "Clear woodpiles and stumps near bluff-edge homes around Lookout Drive and Rasmussen Woods to reduce carpenter ant risk.",
+      "Seal foundation gaps before the fall harvest to keep field mice from moving in from the western farmland.",
+      "Seal window and soffit gaps on older brick buildings before September to reduce cluster fly entry.",
+    ],
+    costNote:
+      "General pest coverage in North Mankato runs $95 to $200 per year for a quarterly plan. Termite inspections for river-bottom and brickyard-era properties are usually free, with treatment priced separately by structure size, often $450 to $1,050. Fall exclusion service addressing mice and cluster flies together runs $120 to $240.",
+    faqs: [
+      {
+        question: "Are termites a risk in North Mankato's older brick buildings?",
+        answer:
+          "Yes. Many of North Mankato's older neighborhoods were built with brick from the A.L. Wheeler and O.E. Bennet brickyard that opened in 1886, and those buildings near the Minnesota River bottomland often have wood-to-soil contact points that predate modern termite protection.",
+      },
+      {
+        question: "Why does the Minnesota River bend affect mosquito pressure in North Mankato?",
+        answer:
+          "The river makes a sharp turn at North Mankato, and the backwater pools near that bend hold standing water well into summer, giving mosquitoes a stronger foothold in river-adjacent neighborhoods than in the bluff-top areas of the city, typically May through September.",
+      },
+      {
+        question: "Do carpenter ants come from the bluffs above North Mankato?",
+        answer:
+          "Often, yes. The wooded terrain around Lookout Drive and Rasmussen Woods puts carpenter ants in regular contact with homes on the upper edge of North Mankato, particularly where old deck lumber or a stump sits close to the foundation.",
+      },
+      {
+        question: "Does farmland near North Mankato bring mice into homes each fall?",
+        answer:
+          "Yes. The open farmland bordering North Mankato to the west sends field mice toward the city's edge once the harvest strips their cover each September and October, and homes closest to the fields see the heaviest pressure.",
+      },
+      {
+        question: "Are cluster flies common in North Mankato's older homes?",
+        answer:
+          "Yes. Cluster flies stage on the sun-warmed brick walls of North Mankato's brickyard-era buildings each fall before slipping through window or soffit gaps to overwinter in wall voids.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Red Wing", slug: "red-wing", stateSlug: "minnesota" },
+      { name: "Albert Lea", slug: "albert-lea", stateSlug: "minnesota" },
+      { name: "Worthington", slug: "worthington", stateSlug: "minnesota" },
+      { name: "Sartell", slug: "sartell", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in North Mankato, MN | River Termites & Bluff Carpenter Ants",
+    metaDescription:
+      "North Mankato, MN pest control for river-bottom termites, mosquitoes, bluff carpenter ants, fall mice and cluster flies. Nicollet County service. Free inspection.",
+  },
+  {
+    slug: "sartell",
+    name: "Sartell",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~19,800",
+    county: "Stearns County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sartell straddles the Mississippi River in central Minnesota, just upstream of St. Cloud, in a humid continental climate with warm summers and cold winters. The river and the dam that has spanned it since 1908 hold backwater well above and below the city, and Sartell's rapid growth from a population of about 700 in 1960 to nearly 20,000 today has pushed new subdivisions out onto former farmland at the city's edges.",
+    topPests: ["Mosquitoes", "House Mice", "Carpenter Ants", "Wasps and Bees", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Sartell Dam has backed up the Mississippi River since 1908, and the slow-moving water and backwater pools above and below the dam give mosquitoes a breeding ground that runs the length of the city's riverfront.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Sartell's population has grown from about 700 in 1960 to nearly 20,000 today, and much of that growth has meant new subdivisions built on former farmland at the city's edges, ground that still sends field mice toward the nearest structure each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded lots along Sartell's Mississippi riverfront give carpenter ants damp, shaded wood to work with, particularly in older homes near the river with any history of moisture damage.",
+      },
+      {
+        name: "Wasps and bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October, peak midsummer",
+        note: "The former Watab paper mill site, shuttered since a fatal 2012 explosion and fire, has sat largely vacant along the riverfront ever since, and the empty structures and equipment on that property give wasps and bees undisturbed nesting spots that a maintained building wouldn't allow.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Cluster flies gather on sun-warmed walls of Sartell's older mill-era housing near the river each fall before slipping indoors to overwinter, a pattern less common in the city's newer subdivisions further from the water.",
+      },
+    ],
+    localHook:
+      "Sartell grew up around the Watab Pulp and Paper Company mill, built alongside the Sartell Dam in 1905 and 1908 to convert Mississippi River flow into hydropower for newsprint production. The mill anchored the local economy for over a century, changing hands from St. Regis to International Paper to Verso, before a fatal explosion and fire on Memorial Day 2012 shut it down for good. Sartell has grown around that history since, expanding from roughly 700 residents in 1960 to nearly 20,000 today as St. Cloud's fastest-growing suburb, with new subdivisions spreading across what used to be farmland at the city's edges.",
+    intro:
+      "Sartell's pest pressure comes from two very different sources: the Mississippi River and dam that built the city, and the rapid residential growth that has reshaped it since. The Sartell Dam has backed up the river since 1908, originally to power the Watab paper mill that anchored the local economy for more than a century until a fatal 2012 explosion shut it down for good, and the backwater above and below that dam still breeds mosquitoes along the length of the riverfront each summer. The vacant mill site itself, largely undisturbed since the fire, gives wasps and bees nesting spots a maintained property wouldn't allow. Meanwhile Sartell's population has grown from about 700 in 1960 to nearly 20,000 today, and much of that growth has pushed new subdivisions onto former farmland, ground that still sends field mice toward the nearest house each fall.",
+    sections: [
+      {
+        heading: "The Sartell Dam, Mississippi River backwater, and mosquito season",
+        body: "The Sartell Dam has spanned the Mississippi River since 1908, built alongside the Watab paper mill to generate hydroelectric power for newsprint production. More than a century later, the dam still backs up slow-moving water above the structure and creates backwater pools below it, and that combination gives mosquitoes a breeding ground that runs the length of Sartell's riverfront rather than concentrating in one spot. The season typically runs May through September, with the heaviest pressure closest to the river on both the Stearns and Benton County sides of the city. Homes and businesses built right along the water should plan for a longer, steadier mosquito season than Sartell's newer subdivisions further from the river tend to see.",
+      },
+      {
+        heading: "Wasps and bees at the vacant former paper mill site",
+        body: "The Watab paper mill that anchored Sartell's economy for more than a hundred years, changing ownership from St. Regis to International Paper to Verso along the way, shut down for good after a Memorial Day 2012 explosion and fire killed one worker and injured four others. The site has sat largely vacant along the riverfront ever since, and that kind of undisturbed industrial property, with empty structures, old equipment, and untended vegetation, gives wasps and bees exactly the kind of quiet nesting spots a maintained building wouldn't allow. Neighboring properties and anyone working near the former mill site should expect a heavier wasp and bee presence through the warm months than a typical Sartell commercial address, simply because nothing has disturbed the site's nests in over a decade.",
+      },
+      {
+        heading: "New subdivisions, fall mice, and older river-adjacent housing",
+        body: "Sartell has grown from roughly 700 residents in 1960 to nearly 20,000 today, making it St. Cloud's fastest-growing suburb, and most of that growth has meant new subdivisions built on what used to be farmland at the city's edges. That converted farmland still behaves like farmland every fall: when the surrounding fields are harvested, field mice lose their cover and move toward the nearest structure, whether that structure is a brand-new build or an older farmhouse absorbed into the subdivision around it. Closer to the river, Sartell's older mill-era housing deals with a different seasonal pest, cluster flies, which stage on sun-warmed walls each September and October before slipping indoors to overwinter, a pattern the newer subdivisions further from the water see far less often.",
+      },
+    ],
+    prevention: [
+      "Manage standing water above and below the Sartell Dam on riverfront properties each spring to reduce mosquito breeding.",
+      "Commercial neighbors of the former Watab mill site should schedule wasp and bee nest inspections through the summer.",
+      "Seal foundation gaps on new subdivision homes built on former farmland before the fall harvest.",
+      "Seal window and soffit gaps on older river-adjacent homes before September to reduce cluster fly entry.",
+    ],
+    costNote:
+      "Quarterly pest plans for Sartell homes run $100 to $210 per year, with riverfront properties often adding a seasonal mosquito program for $75 to $130 per visit May through September. Wasp and bee nest removal for properties near the former mill site is typically a one-time service, priced by nest size and location.",
+    faqs: [
+      {
+        question: "Why is mosquito season so consistent along Sartell's riverfront?",
+        answer:
+          "The Sartell Dam has backed up the Mississippi River since 1908, and the slow-moving backwater above and below the dam gives mosquitoes breeding ground along the length of the riverfront rather than in just one spot, typically May through September.",
+      },
+      {
+        question: "Does the old Sartell paper mill site attract wasps and bees?",
+        answer:
+          "Yes. The Watab paper mill shut down after a fatal 2012 explosion and has sat largely vacant since, and that undisturbed industrial site gives wasps and bees nesting spots a maintained property wouldn't allow, so nearby addresses should expect heavier pressure through the warm months.",
+      },
+      {
+        question: "Do Sartell's new subdivisions still get fall mice?",
+        answer:
+          "Yes. Much of Sartell's growth, from about 700 residents in 1960 to nearly 20,000 today, has come from subdivisions built on former farmland, and that ground still sends field mice toward the nearest structure once the surrounding fields are harvested each fall.",
+      },
+      {
+        question: "Are cluster flies a problem in Sartell?",
+        answer:
+          "Mainly in the city's older mill-era housing near the river. Cluster flies stage on sun-warmed walls each September and October before slipping indoors to overwinter, a pattern less common in Sartell's newer subdivisions further from the water.",
+      },
+      {
+        question: "Are carpenter ants a concern along the Sartell riverfront?",
+        answer:
+          "They can be. Wooded lots along the Mississippi give carpenter ants damp, shaded wood to work with, particularly in older river-adjacent homes with any history of moisture damage.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Red Wing", slug: "red-wing", stateSlug: "minnesota" },
+      { name: "Albert Lea", slug: "albert-lea", stateSlug: "minnesota" },
+      { name: "Worthington", slug: "worthington", stateSlug: "minnesota" },
+      { name: "North Mankato", slug: "north-mankato", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sartell, MN | River Mosquitoes & Mill Site Wasps",
+    metaDescription:
+      "Sartell, MN pest control for Mississippi River dam mosquitoes, former mill site wasps and bees, fall mice in new subdivisions, carpenter ants and cluster flies. Free inspection.",
+  },
 ];
