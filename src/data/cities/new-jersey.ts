@@ -6859,4 +6859,462 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Manchester Township, NJ pest control for Pine Barrens ticks, retirement community termites, carpenter ants, and post-wildfire rodents. Free inspection.",
   },
+  {
+    slug: "morristown",
+    name: "Morristown",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~20,200",
+    county: "Morris County",
+    climate: "cold-humid",
+    climateDriver:
+      "Morristown sits inland in Morris County at roughly 315 feet of elevation, with cold winters and warm, humid summers that bring around 53 inches of rain a year. The town's pre-1930 housing stock, much of it built during a Gilded Age boom, and the wooded trail network running through and around it, set the conditions for both structural pests and ticks.",
+    topPests: ["Ticks", "Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Blacklegged and lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak in late spring",
+        note: "Morris County has one of the higher confirmed Lyme disease case counts in New Jersey, and a 2026 resident petition for more county tick control resources specifically named Morristown among the affected communities. Homes near Jockey Hollow or the Patriots Path trail corridor sit closest to tick habitat.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "The Victorian and Colonial Revival mansions built along Madison Avenue between 1880 and 1929, many still listed on the National Register of Historic Places, are exactly the kind of century-old wood-frame construction that gives termites the longest possible runway to establish.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Older wood-frame construction common to Morristown's pre-1930 housing stock accumulates moisture damage over time, which is exactly the kind of softened wood carpenter ants prefer to nest in.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Morristown's dense town center and older housing near the historic district give mice abundant entry points as temperatures drop each fall.",
+      },
+    ],
+    localHook:
+      "Morristown served as General Washington's Continental Army winter encampment site twice during the Revolutionary War, in the winter of 1777 and again from December 1779 through June 1780, a stretch cold enough that soldiers called it the hardest winter of the war. The Ford Mansion, Washington's headquarters, and the Jockey Hollow encampment grounds are preserved today as Morristown National Historical Park. Decades later, the town became a Gilded Age retreat for wealthy New Yorkers, and Madison Avenue earned the nickname the street of the 100 millionaires for the Victorian estates built there between 1880 and 1929, many still standing on the National Register of Historic Places. That pre-1930 housing stock, combined with wooded trails running through and around town, sets the pest picture here.",
+    intro:
+      "Pest control in Morristown starts with two facts that shape everything else: the town's housing is old, much of it built before 1930 during the Gilded Age when Madison Avenue drew wealthy families out from New York City, and the wooded trail network running through Jockey Hollow and along Patriots Path puts homes closer to tick habitat than most Morris County towns. Add a documented rise in local tick activity that led residents to petition Morris County for more control resources in 2026, and Morristown households have real reasons to take tick exposure seriously each spring through fall. Termites, carpenter ants, and house mice round out the picture, all favored by a housing stock old enough to have accumulated a century of wear.",
+    sections: [
+      {
+        heading: "Why Morris County's tick surge matters for Morristown homes",
+        body: "Morris County has one of the higher confirmed Lyme disease case counts in New Jersey, and in 2026 residents petitioned the county for more tick control resources, specifically naming Morristown among the affected communities. Both blacklegged (deer) ticks and lone star ticks are established here, and between them they carry Lyme disease, anaplasmosis, babesiosis, and ehrlichiosis. Homes near Jockey Hollow, part of Morristown National Historical Park, or along the Patriots Path trail corridor sit closer to the leaf litter and brush habitat these ticks need than homes in the town center. A yard perimeter treatment through spring and summer, combined with checking pets and family members after time on the trails, is the baseline defense for a Morristown property near either area.",
+      },
+      {
+        heading: "What a century of Gilded Age housing means for termite risk",
+        body: "The Victorian and Colonial Revival mansions built along Madison Avenue between 1880 and 1929, many still standing and listed on the National Register of Historic Places, represent exactly the kind of aging wood-frame construction that gives eastern subterranean termites the longest possible runway to establish and spread. A century or more of settling, moisture exposure, and small structural repairs creates entry points a newer home simply hasn't had time to develop. Termites swarm locally in spring and stay active underground year-round, so an annual inspection matters more for Morristown's older housing stock than it would in a newer development. Because many of these homes carry historic designation, any treatment plan has to account for original wood trim and foundation details that a standard suburban termite job wouldn't need to consider.",
+      },
+    ],
+    prevention: [
+      "Check yourself, family members, and pets for ticks after any time on Jockey Hollow or Patriots Path trails.",
+      "Schedule a yard perimeter tick treatment through the spring and summer months given Morris County's documented tick increase.",
+      "Get an annual termite inspection for pre-1930 homes, especially along Madison Avenue's historic corridor.",
+      "Seal foundation gaps and utility penetrations before fall to keep house mice out of older homes.",
+      "Address any moisture-damaged exterior wood promptly to reduce carpenter ant nesting sites.",
+    ],
+    costNote:
+      "Tick yard treatments in Morristown typically run $75 to $150 per application through the season. Termite inspection is usually free to $75, with treatment for an active colony ranging from $900 to $2,500 depending on the home's age and foundation. Carpenter ant and house mice exclusion work is often bundled into a single visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why has tick pressure increased around Morristown?",
+        answer:
+          "Morris County has documented one of the higher confirmed Lyme disease case counts in New Jersey, and in 2026 residents petitioned the county for more tick control resources, naming Morristown specifically among the communities seeing more activity. Both blacklegged and lone star ticks are established locally. A yard treatment through spring and summer, along with checking for ticks after outdoor time, is the most effective response.",
+      },
+      {
+        question: "Does living near Jockey Hollow or Patriots Path increase tick exposure?",
+        answer:
+          "Yes. Homes closest to Jockey Hollow, part of Morristown National Historical Park, or along the Patriots Path trail corridor sit nearer to the brush and leaf litter habitat that ticks rely on than homes closer to the town center. That doesn't mean avoiding the trails, but it does mean checking for ticks after use and treating the yard perimeter of a nearby property matters more.",
+      },
+      {
+        question: "Are the historic homes along Madison Avenue more prone to termites?",
+        answer:
+          "Many of them, yes. The Victorian and Colonial Revival mansions built there between 1880 and 1929, some still on the National Register of Historic Places, have had a century or more to accumulate the kind of wood aging and moisture exposure that gives eastern subterranean termites an easier path in. An annual inspection is a sensible baseline for a home of that age, and any treatment needs to work around original wood trim and foundation details specific to historic construction.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Point Pleasant", slug: "point-pleasant-nj", stateSlug: "new-jersey" },
+      { name: "Cranford", slug: "cranford", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Morristown, NJ | Ticks, Termites & Carpenter Ants",
+    metaDescription:
+      "Morristown, NJ pest control for Morris County ticks, historic-home termites, carpenter ants, and house mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cranford",
+    name: "Cranford",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~23,800",
+    county: "Union County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cranford sits in the Rahway River floodplain in central Union County, with the river running directly through downtown. Cold winters and humid summers combine with low-lying, flood-prone ground to sustain mosquito, rodent, and moisture-pest pressure well beyond what a Union County town on higher ground would see.",
+    topPests: ["Mosquitoes", "Norway Rats", "Termites", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Rahway River floodplain running through downtown Cranford holds standing water after storms far longer than higher ground elsewhere in Union County, giving mosquitoes reliable breeding sites through the warm months.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge after flood events",
+        note: "Flooding along the Rahway River, most recently during Hurricane Ida in September 2021, displaces rats from riverbank harborage and pushes them toward the nearest dry ground, often a nearby basement or crawlspace.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Cranford's low-lying floodplain position keeps soil around many homes consistently damp even between storms, close to ideal conditions for termites to establish and expand a colony.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest in damp basements",
+        note: "Damp basements and foundation gaps near the floodplain draw American cockroaches indoors, particularly in homes that have taken on water during a storm.",
+      },
+    ],
+    localHook:
+      "Downtown Cranford grew up along the Rahway River after John Crane built a mill there in 1720, and the river still runs directly through the center of town today, bordered by a chain of linear parks including Nomahegan, Lenape, and MacConnell. That same river geography turned against Cranford twice in recent memory: Hurricane Irene in 2011 caused roughly $100 million in damage across the Rahway River basin, and Hurricane Ida in September 2021 forced the fire department to pump out more than 400 homes, with damage exceeding $2 million and flooding reaching areas outside the official flood zone for the first time. The town is now a FEMA case study site for flood mitigation through home elevation.",
+    intro:
+      "Pest control in Cranford cannot be separated from the Rahway River, which runs directly through downtown and has flooded the town twice in the past fifteen years, first during Hurricane Irene in 2011 and again during Hurricane Ida in September 2021, when more than 400 homes needed to be pumped out. That much standing water, both during storms and in the soggy aftermath, is exactly what mosquitoes need to breed and exactly the kind of moisture that pushes Norway rats and American cockroaches out of riverbank harborage and into nearby homes. Termites benefit too, since floodplain soil rarely dries out completely. A Cranford pest program has to account for the river's history, not just the current season.",
+    sections: [
+      {
+        heading: "How Hurricane Ida's flooding still shapes pest pressure in Cranford",
+        body: "When Hurricane Ida hit Cranford in September 2021, the fire department pumped out more than 400 homes, and flooding reached areas that had never flooded before, outside the town's official flood zone. Storms of that scale do two things at once: standing water left behind in yards, window wells, and low spots becomes a mosquito breeding site within days, and rodents that normally live along the Rahway River's banks get displaced by the rising water and move toward the nearest dry ground, which is often a nearby basement or crawlspace. Homeowners who saw water in or around their property during Ida should treat the following spring's mosquito season and fall's rodent activity as a higher-than-normal risk, even if the immediate flood damage has been repaired.",
+      },
+      {
+        heading: "Why floodplain soil keeps termite and cockroach pressure elevated",
+        body: "Cranford's low-lying position in the Rahway River's floodplain means the ground under and around many homes rarely dries out completely, even between flood events. That sustained soil moisture is close to ideal for eastern subterranean termites, which need consistent dampness to build and expand a colony, and it draws American cockroaches toward foundation gaps and basement entry points where the air stays humid. A property closer to the river or in one of the neighborhoods that flooded during Ida warrants a shorter inspection interval than a Cranford home on higher ground away from the water.",
+      },
+      {
+        heading: "Why the riverside park system needs its own mosquito plan",
+        body: "Cranford's downtown is bordered by a chain of linear parks, Nomahegan, Lenape, and MacConnell among them, that follow the Rahway River through town, a legacy of the same waterway John Crane built a mill on back in 1720. That much connected parkland along moving and slow-moving water is a genuine amenity, but it also means homes backing onto any of these parks sit closer to mosquito breeding habitat than a property on a landlocked street elsewhere in town. Residents near the park system should treat their own yard's standing water, gutters, and low spots as part of a broader river corridor rather than an isolated issue, since a single untreated pocket of water near the parks can support breeding mosquitoes that reach several nearby blocks over a season.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yards, window wells, and low spots promptly after any storm to cut off mosquito breeding sites.",
+      "Inspect basements and crawlspaces for rodent activity each fall, especially on properties that flooded during Hurricane Ida in 2021.",
+      "Schedule a termite inspection annually for homes in or near the Rahway River floodplain given the area's sustained soil moisture.",
+      "Run a dehumidifier in damp basements to reduce American cockroach activity near foundation entry points.",
+      "Ask about French drain or sump pump improvements if your property has flooded more than once, since standing water is the common driver behind several of Cranford's pest issues.",
+    ],
+    costNote:
+      "Mosquito treatment for Cranford properties near the Rahway River typically runs $75 to $125 per visit through the season. Termite inspection is usually free to $75, with active treatment ranging from $900 to $2,500. Rodent exclusion after a flood event is often priced as a one-time sealing and baiting visit starting around $200. Free inspection included.",
+    faqs: [
+      {
+        question: "Did Hurricane Ida change the pest pressure in Cranford?",
+        answer:
+          "Yes. When Ida hit in September 2021, the fire department pumped out more than 400 homes, and flooding reached some areas outside the town's official flood zone for the first time. Standing water left behind became a mosquito breeding site within days, and rodents displaced from the Rahway River's banks moved into nearby basements and crawlspaces looking for dry ground. Properties that flooded during Ida should treat the following mosquito and rodent seasons as higher risk.",
+      },
+      {
+        question: "Why does Cranford see more termite activity than some neighboring towns?",
+        answer:
+          "Cranford's position in the Rahway River floodplain keeps the soil around many homes consistently damp, even between storms, which is close to ideal for eastern subterranean termites. Homes closer to the river or in neighborhoods that flooded during Hurricane Irene in 2011 or Hurricane Ida in 2021 tend to need shorter inspection intervals than Cranford properties on higher, drier ground.",
+      },
+      {
+        question: "What should I do about mosquitoes after my yard floods?",
+        answer:
+          "Clear any standing water in yards, window wells, and low spots as soon as it's safe to do so, since mosquitoes can begin breeding in stagnant water within about a week. This matters more in Cranford than in towns without a river running through downtown, given how often low-lying properties here end up holding water after a storm.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Morristown", slug: "morristown", stateSlug: "new-jersey" },
+      { name: "Somerville", slug: "somerville-nj", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Cranford, NJ | Mosquitoes, Rats & Termites",
+    metaDescription:
+      "Cranford, NJ pest control for Rahway River floodplain mosquitoes, post-flood rodents, termites, and American cockroaches. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bridgeton",
+    name: "Bridgeton",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~27,300",
+    county: "Cumberland County",
+    climate: "temperate",
+    climateDriver:
+      "Bridgeton sits on the tidal Cohansey River in South Jersey, close to Delaware Bay, surrounded by lowlands, wetlands, and active farmland. Mild, humid conditions and land that holds water longer than higher ground elsewhere in the state sustain steady mosquito and moisture-pest pressure.",
+    topPests: ["Mosquitoes", "Termites", "American Cockroaches", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Bridgeton's tidal Cohansey River and the surrounding South Jersey wetlands hold water longer than most of the state, which is exactly why Cumberland County's Mosquito Control Division is headquartered in the city itself.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "The Bridgeton Historic District's more than 2,000 properties, spanning Federal-era through 1920s construction, give the city one of the largest concentrations of century-old wood-frame housing in New Jersey.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest in damp basements",
+        note: "Damp conditions near the tidal river and surrounding wetlands draw American cockroaches toward foundation gaps and basement entry points around Bridgeton homes.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Heaviest September through October",
+        note: "Active farmland surrounding Bridgeton pushes stink bugs toward homes at the city's edge each fall as the crop season winds down and they look for a place to overwinter.",
+      },
+    ],
+    localHook:
+      "Bridgeton was incorporated as a city in 1865 and grew through the following century as an industrial center for glass manufacturing, a trade that continues today at the Ardagh Group's Bridgeton plant, along with sewing and machine works. The Bridgeton Historic District covers roughly a quarter of the city and includes more than 2,000 properties spanning Federal-era through 1920s architecture, one of the largest historic districts by property count in New Jersey. The city sits on the Cohansey River, a tidal waterway that flows into Delaware Bay, and Cumberland County's Mosquito Control Division is headquartered right in Bridgeton, a reflection of how much of the surrounding land is tidal wetland and lowland.",
+    intro:
+      "Pest control in Bridgeton reflects a city built where a tidal river meets a working county mosquito program and one of New Jersey's largest historic districts. The Cohansey River flows through Bridgeton on its way to Delaware Bay, and the surrounding South Jersey lowlands and wetlands are wet enough that Cumberland County chose to headquarter its Mosquito Control Division here. More than 2,000 properties in the Bridgeton Historic District date to the Federal era through the 1920s, wood-frame construction old enough to have accumulated real termite exposure. Add the farmland ringing the city, which pushes stink bugs toward homes each fall, and Bridgeton needs a pest program built around water, old wood, and agriculture all at once.",
+    sections: [
+      {
+        heading: "Why Cumberland County put its mosquito control headquarters in Bridgeton",
+        body: "Cumberland County's Mosquito Control Division operates out of Bridgeton itself, spraying countywide from May through October as needed, and that location isn't an accident. The Cohansey River runs tidal through the city on its way to Delaware Bay, and the South Jersey lowlands and wetlands surrounding Bridgeton hold water long after a normal rain would have dried elsewhere in the state. Properties near the river or on lower ground should expect more sustained mosquito pressure through the warm months than a Bridgeton home on higher, drier ground further from the water, and eliminating any standing water on the property itself remains the single most effective step a homeowner can take alongside the county's spraying program.",
+      },
+      {
+        heading: "What a 2,000-property historic district means for termite risk",
+        body: "The Bridgeton Historic District, covering roughly a quarter of the city and including more than 2,000 properties built from the Federal era through the 1920s, gives Bridgeton one of the largest concentrations of century-old wood-frame construction in New Jersey. That much accumulated age, combined with the moisture that comes from being close to a tidal river and surrounding wetlands, creates sustained conditions for eastern subterranean termites to establish and spread. A Bridgeton homeowner in one of the historic district's Victorian-era gingerbread doubles or Federal-style rowhouses should treat an annual termite inspection as standard practice rather than an occasional precaution, particularly given how much of the district's original wood trim and structural detail is worth protecting.",
+      },
+      {
+        heading: "Why farmland at the city's edge brings a fall stink bug push",
+        body: "Bridgeton sits surrounded by active farmland, part of the broader agricultural production that defines much of Cumberland County, and that proximity brings brown marmorated stink bugs closer to homes than a more built-out New Jersey city would see. As the crop season winds down each fall, stink bugs move off the fields looking for a place to overwinter, and homes at the edge of town, closest to open farmland, tend to be the first stop. Sealing gaps around windows, doors, and siding before the fall push begins is a more consistently useful step for a Bridgeton property near farmland than it would be for a home deeper in the city center.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water on the property to reduce mosquito breeding alongside Cumberland County's seasonal spraying program.",
+      "Schedule an annual termite inspection for homes in the Bridgeton Historic District given the age of the surrounding wood-frame construction.",
+      "Seal windows, doors, and siding gaps before fall if your property borders farmland, to keep stink bugs from moving indoors to overwinter.",
+      "Run a dehumidifier in basements near the Cohansey River to reduce American cockroach activity.",
+      "Keep gutters and downspouts clear so roof runoff doesn't add to standing water near the foundation.",
+    ],
+    costNote:
+      "Mosquito treatment for Bridgeton properties near the Cohansey River typically runs $75 to $125 per visit, on top of Cumberland County's countywide spraying program. Termite inspection for historic district homes is usually free to $75, with active treatment ranging from $900 to $2,500 depending on the property's age and foundation. Fall stink bug exclusion work for farmland-adjacent homes generally runs $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Bridgeton have its own county mosquito control headquarters?",
+        answer:
+          "Cumberland County's Mosquito Control Division is based in Bridgeton itself because the city sits on the tidal Cohansey River, close to Delaware Bay, surrounded by South Jersey lowlands and wetlands that hold water longer than most of the state. The division sprays countywide from May through October, but homeowners near the river or on lower ground still benefit from removing any standing water on their own property.",
+      },
+      {
+        question: "Are homes in the Bridgeton Historic District more prone to termites?",
+        answer:
+          "Many of them, yes. The district covers roughly a quarter of the city and includes more than 2,000 properties built from the Federal era through the 1920s, a concentration of century-old wood-frame construction that, combined with the moisture from Bridgeton's tidal river and surrounding wetlands, gives eastern subterranean termites sustained conditions to establish. An annual inspection is a sensible baseline for a home of that age in this setting.",
+      },
+      {
+        question: "Why do stink bugs show up in my Bridgeton home every fall?",
+        answer:
+          "Bridgeton is surrounded by active farmland, part of Cumberland County's broader agricultural base, and brown marmorated stink bugs move off the fields as the crop season ends each fall, looking for a place to spend the winter. Homes at the edge of town closest to open farmland tend to see the heaviest activity. Sealing gaps around windows, doors, and siding before the seasonal push begins is the most effective prevention step.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Somerville", slug: "somerville-nj", stateSlug: "new-jersey" },
+      { name: "Point Pleasant", slug: "point-pleasant-nj", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bridgeton, NJ | Mosquitoes, Termites & Stink Bugs",
+    metaDescription:
+      "Bridgeton, NJ pest control for Cohansey River mosquitoes, historic district termites, American cockroaches, and fall stink bugs. Free inspection.",
+  },
+  {
+    slug: "point-pleasant-nj",
+    name: "Point Pleasant",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~18,900",
+    county: "Ocean County",
+    climate: "hot-humid",
+    climateDriver:
+      "Point Pleasant sits on the narrow Barnegat Peninsula between Barnegat Bay and the Atlantic Ocean, bordered to the north by the Manasquan River and cut through by the Point Pleasant Canal. Hot, humid summers combine with an unusually high water-to-land ratio to sustain salt marsh mosquito and greenhead fly pressure through the warm months.",
+    topPests: ["Mosquitoes", "Greenhead Flies", "Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Salt marsh mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Point Pleasant Canal, completed in 1925, converted the upper Barnegat Bay into a tidal saltwater system, and the resulting salt marsh habitat sustains mosquito breeding through the warm months, especially near the bay and canal.",
+      },
+      {
+        name: "Greenhead flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late June through August",
+        note: "Greenhead flies are aggressive daytime biters near the bay, canal, and marsh edges, common to Ocean County's shoreline salt marsh habitat during peak summer.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Persistent moisture off Barnegat Bay keeps ants active near waterfront foundations and dock structures throughout the warmer months.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in seasonal vacancies",
+        note: "Point Pleasant's meaningful share of seasonal shore housing means some homes sit empty for months at a time, offering rats undisturbed harborage near docks and waterfront structures.",
+      },
+    ],
+    localHook:
+      "Point Pleasant was settled around 1665 as a logging, fishing, and farming community, known for a time as West Point Pleasant before taking its current name in 1956, and it became its own borough in 1920 when it split off from Brick Township. The Point Pleasant Canal, completed in 1925 and now the northernmost stretch of the Atlantic Intracoastal Waterway, cuts through town and permanently changed the upper Barnegat Bay from a stable freshwater area into a tidal saltwater bay. Two lift bridges along the canal open for boat traffic as often as 300 times a day. Sitting on the narrow Barnegat Peninsula between the bay and the Atlantic, with the Manasquan River forming its northern border, the borough carries an unusually high water-to-land ratio for a New Jersey municipality.",
+    intro:
+      "Pest control in Point Pleasant is shaped by water on nearly every side. The borough sits on the narrow Barnegat Peninsula between Barnegat Bay and the Atlantic Ocean, bordered to the north by the Manasquan River, and cut through by the Point Pleasant Canal, completed in 1925, which converted the upper bay from freshwater to a tidal saltwater system still felt in the marsh habitat around town today. That saltwater marsh breeds mosquitoes and greenhead flies through the warm months, and the moisture off the bay keeps ants active near waterfront homes. Point Pleasant also carries a meaningfully seasonal housing stock, with more than one in ten homes vacant for part of the year, which changes how rodents behave in the borough compared to a fully year-round New Jersey community.",
+    sections: [
+      {
+        heading: "Why the Point Pleasant Canal keeps mosquito and greenhead fly pressure high",
+        body: "The Point Pleasant Canal, completed in 1925, converted the upper Barnegat Bay from a stable freshwater area into a tidal saltwater bay, and that shift toward salt marsh habitat is exactly what salt marsh mosquitoes and greenhead flies need to thrive. Both are heaviest from late spring through early fall, and homes closest to the bay, the canal, or the Manasquan River see meaningfully more pressure than properties further inland on the peninsula. Greenhead flies in particular are aggressive daytime biters near marsh and dock areas, and screening porches and outdoor living spaces makes a bigger difference in Point Pleasant than it would in a New Jersey town without this much tidal marsh at its edges.",
+      },
+      {
+        heading: "How Point Pleasant's seasonal shore housing affects rodent activity",
+        body: "Point Pleasant's 2020 Census figures show more than one in ten homes sitting vacant, consistent with the borough's mix of year-round residents and seasonal shore properties. A home that sits empty for months at a time, particularly over the fall and winter when Norway rats and house mice are actively seeking shelter, offers exactly the kind of undisturbed harborage rodents look for, especially near docks, boat storage, and waterfront structures where food and nesting material are easy to find. A seasonal property owner who only checks in occasionally should have the exterior sealed and inspected before closing up for the off-season, since a rodent problem that starts in an empty home in October is often well established by the time the owner returns in spring.",
+      },
+    ],
+    prevention: [
+      "Screen porches and outdoor living spaces near the bay or canal to reduce greenhead fly and mosquito exposure through summer.",
+      "Seal foundation gaps and exterior entry points before closing up a seasonal home for the off-season.",
+      "Inspect docks, boat storage, and waterfront structures periodically for rodent nesting activity, especially in fall and winter.",
+      "Clear standing water from gutters and low spots near the property to limit salt marsh mosquito breeding close to home.",
+      "Treat moisture-prone areas near bayfront foundations to reduce ant activity drawn in by the damp air off the water.",
+    ],
+    costNote:
+      "Mosquito and greenhead fly treatment for Point Pleasant properties near the bay or canal typically runs $75 to $150 per visit through the season. Rodent exclusion for seasonal homes generally runs $150 to $300 for a full exterior seal and inspection. Ant treatment near bayfront foundations averages $120 to $220. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are greenhead flies such a problem near the water in Point Pleasant?",
+        answer:
+          "The Point Pleasant Canal, completed in 1925, turned the upper Barnegat Bay into a tidal saltwater system, and the salt marsh habitat that resulted is exactly what greenhead flies need to breed. They're aggressive daytime biters from late spring through early fall, and homes closest to the bay, canal, or Manasquan River see the heaviest activity. Screening porches and outdoor spaces near the water helps considerably.",
+      },
+      {
+        question: "Does a seasonal home in Point Pleasant have a higher rodent risk?",
+        answer:
+          "It can. Census figures show more than one in ten homes in the borough sitting vacant for part of the year, a reflection of Point Pleasant's mix of year-round and seasonal shore residents. An empty home, especially near docks or waterfront storage, offers rodents undisturbed harborage through fall and winter. Sealing the exterior and inspecting before closing up for the season is the most effective prevention.",
+      },
+      {
+        question: "Is Point Pleasant's mosquito season different from an inland New Jersey town?",
+        answer:
+          "Yes. Because the Point Pleasant Canal converted the upper Barnegat Bay to a tidal saltwater system, the borough deals with salt marsh mosquitoes in addition to the standing-water species found statewide. Homes near the bay, canal, or Manasquan River should expect more sustained pressure through the warm months than an inland town without this kind of marsh habitat.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bridgeton", slug: "bridgeton", stateSlug: "new-jersey" },
+      { name: "Morristown", slug: "morristown", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Point Pleasant, NJ | Mosquitoes, Flies & Rodents",
+    metaDescription:
+      "Point Pleasant, NJ pest control for Barnegat Bay mosquitoes, greenhead flies, seasonal home rodents, and bayfront ants. Free inspection.",
+  },
+  {
+    slug: "somerville-nj",
+    name: "Somerville",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~12,300",
+    county: "Somerset County",
+    climate: "temperate",
+    climateDriver:
+      "Somerville sits along the Raritan River in central New Jersey and is crossed by Peters Brook, with flat, low-lying terrain that has a documented history of serious flooding. Mild, humid summers and consistent rainfall keep the ground damp in low areas, sustaining termite, ant, and mosquito pressure.",
+    topPests: ["Ticks", "Termites", "Mosquitoes", "Spotted Lanternfly"],
+    pestProfile: [
+      {
+        name: "Blacklegged and lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Mid-spring through fall",
+        note: "Somerset County's established tick population is known to carry Lyme disease, Rocky Mountain spotted fever, and tularemia, and Somerville's neighborhoods bordering the Delaware and Raritan Canal State Park sit close to that habitat.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Somerville's Victorian-era housing stock, combined with soil that stayed saturated for weeks after the record flooding of Hurricane Floyd in September 1999, gives termites sustained conditions to establish near the Raritan River and Peters Brook.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Raritan River, Peters Brook, and the nearby Delaware and Raritan Canal all give mosquitoes standing and slow-moving water to breed in through the warm months.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Adults late summer through fall, egg masses over winter",
+        note: "Somerset County falls within New Jersey's spotted lanternfly quarantine zone. This invasive planthopper swarms trees and outdoor surfaces in late summer and lays egg masses over winter.",
+      },
+    ],
+    localHook:
+      "Somerville is the seat of Somerset County government, and its Wallace House preserves the site where George Washington spent the winter of 1778 to 1779 during the second Middlebrook encampment. Next door, the Old Dutch Parsonage was home to Reverend Jacob Rutsen Hardenbergh, a founder of Rutgers University. The borough sits along the Raritan River and is crossed by Peters Brook, and in September 1999 Hurricane Floyd dropped a record 13.34 inches of rain over three days, flooding low-lying parts of the borough and causing significant damage, a benchmark flood event that still comes up in local flood planning today.",
+    intro:
+      "Pest control in Somerville has to account for two things the town's history keeps close: the Raritan River and Peters Brook that cross the borough, and a documented record flood event in September 1999 when Hurricane Floyd dropped 13.34 inches of rain over three days. That much water in that short a time overwhelmed low-lying parts of Somerville and left a lasting mark on how the borough thinks about flood-prone ground. Add Somerset County's well-established tick population, present from mid-spring through fall and known to carry Lyme disease, Rocky Mountain spotted fever, and tularemia, and Somerville's older Victorian-era neighborhoods bordering the Delaware and Raritan Canal State Park, and the pest picture here leans heavily on moisture and wooded green space.",
+    sections: [
+      {
+        heading: "Somerville's Hurricane Floyd flood history compared to a typical Somerset County town",
+        body: "Most Somerset County towns saw meaningful rain during Hurricane Floyd in September 1999, but Somerville's position along the Raritan River and Peters Brook meant the borough took on a disproportionate share of the record 13.34 inches that fell over three days. That flood event set a benchmark that still shapes how the borough treats low-lying ground today, and it matters for pest control specifically because floodwater of that scale leaves soil saturated for weeks afterward, exactly the sustained moisture eastern subterranean termites and moisture-seeking ants need to establish. A Somerville property near the Raritan River or Peters Brook carries more of that legacy risk than a Somerset County home on higher, drier ground further from either waterway.",
+      },
+      {
+        heading: "Why Somerville's tick exposure differs from a more built-out Somerset town",
+        body: "Somerville's older neighborhoods, many built with the Victorian architecture the borough is known for along Main Street, sit closer to the Delaware and Raritan Canal State Park and its wooded trail corridor than a more fully developed Somerset County town would be. Ticks established in Somerset County are known to carry Lyme disease, Rocky Mountain spotted fever, and tularemia, and that canal-adjacent green space gives them a foothold much nearer to residential lots than in a town with less connected woodland. A Somerville homeowner near the canal park should treat spring through fall tick checks as more of a routine habit than a homeowner in a part of the county with less bordering green space would need to.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yards and low spots promptly after heavy rain, given Somerville's history of flooding along the Raritan River and Peters Brook.",
+      "Schedule an annual termite inspection for older Victorian-era homes, particularly those on lower ground near the river.",
+      "Check for ticks after time spent near the Delaware and Raritan Canal State Park trail corridor.",
+      "Seal foundation gaps on historic homes to limit ant and rodent access, especially in neighborhoods closest to the canal park.",
+      "Scrape spotted lanternfly egg masses from outdoor surfaces over winter to reduce next year's population.",
+    ],
+    costNote:
+      "Termite inspection for Somerville's older Victorian homes is typically free to $75, with treatment ranging from $900 to $2,500 depending on the property's age and foundation. Tick yard treatment for homes near the canal park runs $75 to $150 per application through the season. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Somerville still deal with effects from the 1999 Hurricane Floyd flood?",
+        answer:
+          "Indirectly, yes. The 13.34 inches of rain that fell over three days in September 1999 remains a benchmark flood event for the borough, and properties near the Raritan River or Peters Brook that took on water then tend to hold moisture longer after any heavy rain today. That sustained dampness is favorable ground for termites and moisture-seeking ants, which is why an annual inspection matters more for a low-lying Somerville property than for one on higher ground.",
+      },
+      {
+        question: "How much tick risk is there near the Delaware and Raritan Canal State Park in Somerville?",
+        answer:
+          "It's a real consideration. Somerset County's tick population, present from mid-spring through fall, is known to carry Lyme disease, Rocky Mountain spotted fever, and tularemia, and the canal park's wooded trail corridor sits close to several of Somerville's residential neighborhoods. Checking for ticks after time on the trails and keeping yards near the park trimmed back reduces exposure.",
+      },
+      {
+        question: "Are Somerville's Victorian homes more prone to termites?",
+        answer:
+          "Many of them, yes. The borough's older Victorian-era housing, concentrated in neighborhoods along and near Main Street, has had a century or more to accumulate the kind of wood aging and moisture exposure eastern subterranean termites use to establish a colony, and that risk is higher still for homes on lower ground near the Raritan River or Peters Brook. An annual inspection is the standard recommendation for a home of this age in Somerville.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Cranford", slug: "cranford", stateSlug: "new-jersey" },
+      { name: "Bridgeton", slug: "bridgeton", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Somerville, NJ | Ticks, Termites & Mosquitoes",
+    metaDescription:
+      "Somerville, NJ pest control for Somerset County ticks, flood-related termites, mosquitoes, and spotted lanternfly. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

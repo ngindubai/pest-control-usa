@@ -4624,4 +4624,454 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "River Falls, WI pest control for Kinnickinnic River mosquitoes, college-town bed bugs, carpenter ants, and fall mice. Free inspection.",
   },
+  {
+    slug: "platteville-wi",
+    name: "Platteville",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~11,850",
+    county: "Grant County",
+    climate: "cold-humid",
+    climateDriver:
+      "Platteville sits in the heart of Wisconsin's Driftless Area, the unglaciated corner of the state where steep wooded valleys and karst limestone bedrock replace the flatter till plains found elsewhere in Wisconsin. That limestone bedrock is riddled with sinkholes, springs, and old lead and zinc mine workings dating back to the 1800s, and it holds cool, damp air close to the ground even in summer. Winters are cold and humid with the freeze-thaw cycles typical of southern Wisconsin, but the karst terrain and mining history give Platteville a pest pressure profile that a flatter, unmined Wisconsin town simply doesn't share.",
+    topPests: ["Camel Crickets", "Deer Ticks", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Camel Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round in basements and crawlspaces, most noticeable in fall",
+        note: "Platteville's karst limestone bedrock and its long lead and zinc mining history left the ground under and around the city full of natural and man-made cavities, from sinkholes to old mine shafts near sites like the 1845 Bevans Mine. Homes built into hillsides with cool, damp basements or stone-lined crawlspaces give camel crickets exactly the humid, dark harborage they favor, and they wander indoors more readily here than in a Wisconsin town on flatter, unmined ground.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "The Driftless Area's steep, wooded valleys and ridge tops around Platteville hold far more unbroken brush and leaf litter than the till plains found in most of the rest of southern Wisconsin, and that terrain supports a denser deer tick population close to residential lots on the edges of town.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Many of Platteville's older homes near downtown were built from local limestone or wood framing during the city's mining-era growth in the 1800s and early 1900s, and moisture that collects around aging window frames, roof lines, and stone foundations gives carpenter ants a foothold that a newer subdivision home rarely offers.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, sharp surge in October and November",
+        note: "Grant County's surrounding farmland pushes field mice toward town as crops come off in the fall, and Platteville's mix of century-old mining-era housing and rural-edge subdivisions gives them plenty of foundation gaps to exploit once the weather turns.",
+      },
+    ],
+    localHook:
+      "Platteville grew up on lead and zinc mining, and the city still wears that history openly: the 1845 Bevans Mine offers tours through century-old tunnels, and the hillside overlooking town carries the world's largest hillside letter, a 214-by-241-foot whitewashed stone M built by Mining School students in 1937 and still maintained today. The city sits in the Driftless Area, the part of Wisconsin the last glaciers never flattened, which means karst limestone bedrock, sinkholes, and spring-fed valleys instead of the till plains found across most of the rest of the state. That combination of old mine workings and unglaciated, cave-riddled ground shapes pest pressure here in ways a flatter Wisconsin farm town doesn't experience.",
+    intro:
+      "Pest control in Platteville has to account for ground most Wisconsin towns don't have to think about. The city sits in the Driftless Area, the unglaciated southwestern corner of the state, where karst limestone bedrock and more than a century of lead and zinc mining left the earth under and around town full of sinkholes, springs, and old mine workings. That geology holds cool, damp air close to the surface even through summer, which is exactly what camel crickets look for in basements and crawlspaces. The same steep, wooded valley terrain that makes the Driftless Area distinctive also supports a denser deer tick population than the flatter farmland found across most of southern Wisconsin. Add in carpenter ants working aging mining-era wood and stone, plus the fall surge of field mice off the surrounding farmland, and a Platteville pest program looks different from one built for a town on flat, unmined ground.",
+    sections: [
+      {
+        heading: "Karst Terrain and Old Mine Workings Behind the Camel Cricket Problem",
+        body: "Camel crickets need dark, humid harborage close to a stable temperature, and Platteville's karst limestone geology provides an unusual amount of it. The Driftless Area's bedrock is naturally riddled with sinkholes and springs, and more than a century of lead and zinc mining added tunnels and shafts on top of that, including the 1845 Bevans Mine that still runs public tours today. Homes built into hillsides with stone-lined basements or crawlspaces sit close to that same cool, damp ground, and camel crickets move indoors from it far more readily than they would in a Wisconsin town built on flat, dry till soil. A dehumidifier in the basement and sealed foundation gaps do more here than in most other parts of the state.",
+      },
+      {
+        heading: "Why Deer Ticks Are a Bigger Concern in the Driftless Valleys",
+        body: "A resident on the edge of Platteville is closer to unbroken wooded valley than someone in a flatter, more open Wisconsin farm town, and that difference matters for deer ticks. The Driftless Area's ridge-and-valley terrain, carved by rivers rather than glaciers, keeps brush and leaf litter intact in places a bulldozer would have leveled elsewhere in the state. Checking for ticks after time in these wooded valleys, and keeping grass cut short right up to the treeline, reduces exposure more meaningfully in Platteville than it would for a home surrounded by open cropland.",
+      },
+    ],
+    prevention: [
+      "Run a dehumidifier in basements and stone-lined crawlspaces to reduce the damp conditions camel crickets need, especially in older mining-era homes.",
+      "Check for deer ticks after time spent in the wooded Driftless valleys around town, and keep grass cut short near any treeline.",
+      "Inspect aging window frames, roof lines, and stone foundations on older homes each spring for the moisture damage that draws carpenter ants.",
+      "Seal foundation gaps before the fall harvest pushes field mice off the surrounding farmland and into town.",
+      "Have a professional inspect any home near known sinkholes or old mine ground for additional pest entry points beyond the usual foundation gaps.",
+    ],
+    costNote:
+      "Camel cricket and general pest treatment in Platteville typically runs $100 to $200 per visit, with basement dehumidification recommendations included at no extra charge during inspection. Deer tick treatment for wooded residential lots ranges from $150 to $300. Carpenter ant treatment on older stone or wood-frame homes runs $150 to $300 depending on colony extent. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Platteville seem to have more camel crickets than other Wisconsin towns its size?",
+        answer:
+          "It comes down to what's under the city. Platteville sits on karst limestone bedrock in Wisconsin's Driftless Area, ground that naturally holds sinkholes and springs, and more than a century of lead and zinc mining added old tunnels and shafts on top of that, including the historic Bevans Mine. That combination keeps the ground unusually cool and damp close to the surface, and homes with basements or crawlspaces built into that same hillside terrain give camel crickets far more harborage to move indoors from than a town on flatter, unmined ground would offer.",
+      },
+      {
+        question: "Is the Driftless Area terrain around Platteville really worse for ticks?",
+        answer:
+          "The exposure is genuinely higher for homes near the wooded valleys, yes. The Driftless Area's ridge-and-valley terrain around Platteville was carved by rivers rather than flattened by glaciers, which left far more unbroken brush and leaf litter intact close to residential lots than a Wisconsin town on level farmland typically has. Deer ticks use that cover heavily. A property backing onto one of these wooded valleys usually sees more tick activity than a home a few blocks away on more open ground.",
+      },
+      {
+        question: "Does Platteville's mining history actually affect pest control today?",
+        answer:
+          "It does, mostly through what that history left in the ground. The old lead and zinc mine workings and the karst limestone bedrock they were dug into, still visible today in tours through the 1845 Bevans Mine, hold moisture close to the surface in a way that supports camel crickets and, in older mining-era homes, carpenter ants working softened wood and stone. A pest program built for Platteville accounts for that mining-era ground in a way a program for a newer, unmined Wisconsin town wouldn't need to.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Chippewa Falls", slug: "chippewa-falls-wi", stateSlug: "wisconsin" },
+      { name: "Portage", slug: "portage-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Platteville, WI | Grant County Driftless Area",
+    metaDescription:
+      "Platteville, WI pest control for camel crickets, deer ticks, carpenter ants, and fall house mice. Grant County Driftless Area karst terrain service. Free inspection.",
+  },
+  {
+    slug: "marinette-wi",
+    name: "Marinette",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~11,100",
+    county: "Marinette County",
+    climate: "cold-humid",
+    climateDriver:
+      "Marinette sits where the Menominee River empties into Green Bay on Lake Michigan, directly across the river from Menominee, Michigan. The Great Lakes proximity keeps humidity higher through the warm months than an inland Wisconsin town of similar size experiences, and Marinette County's wooded river valleys, home to more than a dozen documented waterfalls, hold moisture close to the ground well into the growing season. Winters are cold and humid with lake-driven snow, but the lake's moderating effect means the shoulder seasons run longer than in inland northern Wisconsin.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Cluster Flies", "House Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Menominee River's mouth at Green Bay and the wooded creek valleys that feed Marinette County's many waterfalls both hold slow-moving and standing water well into summer, giving mosquitoes more sustained breeding habitat close to town than a Wisconsin community without a river-and-bay combination like this one has.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Marinette County's waterfall-carved river valleys keep wood moist for longer stretches than drier inland terrain, and that moisture, combined with the city's older wood-frame housing built up during its lumber and shipbuilding history, gives carpenter ants steady access to softened wood near foundations and rooflines.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Entry surges in September and October, overwinters in wall voids",
+        note: "Marinette County's farmland, which surrounds the city outside its river and lake frontage, hosts the earthworm populations cluster fly larvae depend on, and adult flies move toward Marinette's buildings each fall looking for a wall void or attic space to overwinter in.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge in October and November",
+        note: "Marinette's older housing stock near the historic downtown and the Fincantieri Marinette Marine shipyard dates largely to the early 20th century, and aging foundations there give field mice displaced from county farmland more entry points each fall than newer construction on the city's outskirts would.",
+      },
+    ],
+    localHook:
+      "Marinette sits directly across the Menominee River from Menominee, Michigan, connected by a bridge that makes the two towns feel like one community split by a state line. The city has built naval vessels since 1942 at what is now Fincantieri Marinette Marine, a major U.S. Navy shipbuilder on the Menominee River, and Marinette County calls itself the Waterfall Capital of Wisconsin, with more than a dozen documented waterfalls across its wooded river valleys. That mix of river, bay, and waterfall country gives Marinette a wetter, more moisture-driven pest picture than an inland Wisconsin town of similar size.",
+    intro:
+      "Pest control in Marinette has to account for water on three fronts: the Menominee River at the city's edge, Green Bay just beyond it, and the wooded, waterfall-carved valleys that spread across the rest of Marinette County. That much moving and standing water keeps humidity higher through the warm months than an inland Wisconsin town experiences, and it gives mosquitoes more sustained breeding habitat close to residential areas from May through September. The same moisture works into wood along riverside and lakeside properties, which carpenter ants exploit through the growing season, particularly in the older wood-frame homes built up during Marinette's lumber and shipbuilding history. Cluster flies move into buildings each fall off the surrounding farmland, and field mice do the same as county crops come off. A pest program built for Marinette leans harder on moisture and river-corridor management than one built for a drier inland Wisconsin town would need to.",
+    sections: [
+      {
+        heading: "A Border River Town With More Standing Water Than Most",
+        body: "Marinette's position at the mouth of the Menominee River, directly across from Menominee, Michigan, and its shipbuilding history at what is now Fincantieri Marinette Marine put the city right against a working river and bay edge. That geography means more slow-moving water, more riverbank vegetation, and more humidity close to residential neighborhoods than a Wisconsin town set back from a major river mouth typically has. Mosquito pressure runs from May through September here, longer and more consistently than in a drier inland town, and it's concentrated most heavily in neighborhoods closest to the river and the bay shoreline.",
+      },
+      {
+        heading: "Waterfall Country and Carpenter Ant Pressure",
+        body: "Marinette County bills itself as the Waterfall Capital of Wisconsin, with more than a dozen documented falls cutting through wooded river valleys across the county. Those valleys stay damp for longer after rain than open, cleared farmland does, and that persistent moisture works into deck wood, fascia boards, and older wood-frame construction near the water. Carpenter ants take advantage of it from April through September, building satellite colonies in any softened wood they find and expanding outward from there as the season progresses. A home a short drive out toward the county's waterfall country typically needs closer annual wood inspection than one in Marinette's drier, more open outskirts, and catching a colony early, before it spreads from a damaged deck post into the wall framing, makes treatment considerably simpler.",
+      },
+    ],
+    prevention: [
+      "Reduce standing water near the Menominee River and Green Bay shoreline properties to limit mosquito breeding from May through September.",
+      "Inspect deck wood, fascia boards, and older wood-frame construction near the river or county waterfalls each spring for the moisture damage that draws carpenter ants.",
+      "Seal attic and wall void entry points before September, when cluster flies begin moving indoors to overwinter.",
+      "Seal foundation gaps on older homes near the historic downtown and shipyard district before the fall harvest pushes field mice into town.",
+      "Schedule a fall perimeter inspection timed to the county harvest rather than waiting until mice are already indoors.",
+    ],
+    costNote:
+      "Mosquito treatment for river and bay-adjacent properties in Marinette typically runs $80 to $150 per treatment cycle during peak season. Carpenter ant treatment on waterfront or near-waterfall properties ranges from $150 to $300. Cluster fly exclusion work averages $120 to $220. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near the Menominee River in Marinette really mean more mosquitoes?",
+        answer:
+          "Yes, meaningfully more than a Wisconsin home set back from a major river mouth. Marinette sits where the Menominee River meets Green Bay, and that combination of river, bay, and the wooded creek valleys feeding the county's many waterfalls holds slow-moving and standing water well into summer. Mosquito season runs from May through September here, and properties closest to the river and bay shoreline see the heaviest pressure.",
+      },
+      {
+        question: "Why does Marinette County's Waterfall Capital reputation matter for pest control?",
+        answer:
+          "The more than a dozen waterfalls across Marinette County sit in wooded river valleys that stay damp longer after rain than open farmland does, and that moisture works into wood near decks, fascia boards, and older construction. Carpenter ants use that softened wood as harborage from April through September, which is why homes closer to the county's waterfall country typically need more frequent wood inspection than those in drier, more open parts of town.",
+      },
+      {
+        question: "Is pest pressure different in Marinette because it's a twin city with Menominee, Michigan across the river?",
+        answer:
+          "The state line itself doesn't change pest behavior, insects and rodents don't check municipal boundaries, but the shared river geography does. Both Marinette and Menominee sit on the same river mouth with the same humidity and water access, so a Marinette property owner should expect the same river and bay-driven mosquito and moisture pest pressure regardless of which side of the bridge they're on.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Ashland", slug: "ashland-wi", stateSlug: "wisconsin" },
+      { name: "Portage", slug: "portage-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Marinette, WI | Marinette County Waterfall Capital",
+    metaDescription:
+      "Marinette, WI pest control for river and bay mosquitoes, carpenter ants, cluster flies, and fall house mice. Menominee River border city service. Free inspection.",
+  },
+  {
+    slug: "ashland-wi",
+    name: "Ashland",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~7,900",
+    county: "Ashland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ashland sits on the south shore of Lake Superior at Chequamegon Bay, the northernmost city in Wisconsin. Lake Superior's cold water keeps summers short and mild, but it also drives heavy lake-effect snow, averaging close to 100 inches a year, and pushes cold weather deeper into spring than almost anywhere else in the state. That short warm season compresses outdoor pest activity into fewer weeks, while the early, forceful onset of cold each fall drives rodents and overwintering insects indoors earlier than in southern Wisconsin.",
+    topPests: ["House Mice", "Cluster Flies", "Carpenter Ants", "Yellow Jacket Wasps"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, sharp surge beginning in September",
+        note: "Ashland's position on Lake Superior means the first hard frost typically arrives weeks earlier than in southern Wisconsin, and that early cold onset pushes mice into buildings sooner. The city's older housing near the historic lakefront and ore dock district, much of it built during Ashland's shipping and lumber era, has aging foundations with more gaps than newer construction.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Entry surges in September, overwinters in wall voids",
+        note: "Ashland's short growing season doesn't stop cluster flies from building populations in the farmland and grassy areas surrounding the city, and the early arrival of cold weather this far north means they begin searching for overwintering sites in wall voids and attics earlier than in most of the rest of Wisconsin.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August, a shorter window than southern Wisconsin",
+        note: "Ashland's compressed warm season gives carpenter ants a narrower window to forage and expand colonies than a southern Wisconsin town enjoys, but the humidity off Lake Superior and Chequamegon Bay keeps wood near the shoreline and older lakefront buildings consistently moist through that shorter stretch.",
+      },
+      {
+        name: "Yellow Jacket Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September, most aggressive in late August and September",
+        note: "The short northern summer compresses yellow jacket colony growth into fewer weeks than farther south, which means colonies here can reach aggressive, food-seeking size quickly once established, particularly around the harbor, lakefront parks, and outdoor gathering spots along Chequamegon Bay.",
+      },
+    ],
+    localHook:
+      "Ashland is Wisconsin's northernmost city, sitting on the south shore of Lake Superior at Chequamegon Bay. The Soo Line ore dock, built in 1916 and later extended to 1,800 feet, once loaded iron ore onto Great Lakes freighters until its last shipment in 1965; its concrete base still stands in the harbor, and the city took ownership of it in 2014. That shipping and lumber-era history left Ashland with an older lakefront building stock, and the lake itself keeps winters longer and summers shorter than almost anywhere else in Wisconsin.",
+    intro:
+      "Pest control in Ashland runs on a shorter clock than most of Wisconsin. As the state's northernmost city, sitting on Lake Superior at Chequamegon Bay, Ashland gets a compressed warm season and an early, forceful onset of cold each fall, frost here typically arrives weeks before it reaches southern Wisconsin. That timing pushes mice into buildings sooner than in Milwaukee or Madison, and it means carpenter ants and cluster flies both work on a tighter seasonal window. The lake's humidity keeps wood near the harbor and older lakefront buildings, many dating to Ashland's shipping and lumber era around the historic Soo Line ore dock, consistently damp even through that shorter season. A pest program here has to move earlier in the calendar than one built for a town farther south.",
+    sections: [
+      {
+        heading: "Why Ashland's Pest Season Starts and Ends Earlier",
+        body: "Lake Superior keeps Ashland's summers mild and its winters long, and that combination compresses the entire warm-season pest calendar into fewer weeks than a southern Wisconsin town gets. Carpenter ants have less time to forage and expand colonies before cold weather returns, and yellow jacket colonies that do establish tend to reach aggressive, food-seeking size quickly once the short summer gets underway, which is why late August and September see the sharpest spike in wasp activity around the harbor and lakefront parks. On the other end of the calendar, the first hard frost typically reaches Ashland weeks before it reaches Madison or Milwaukee, and mice respond to that early cold by moving into buildings sooner as well.",
+      },
+      {
+        heading: "The Historic Ore Dock District and Older Lakefront Housing",
+        body: "Ashland's economy grew up around Great Lakes shipping, and the Soo Line ore dock that once loaded iron ore for freighters bound across Lake Superior, built in 1916 and extended to 1,800 feet by 1925, still stands in the harbor today. The housing built up around that era, much of it older wood-frame construction near the lakefront, tends to have more aging foundation gaps and wood in contact with persistently humid lake air than newer construction elsewhere in the city. That combination gives mice, cluster flies, and carpenter ants more consistent points of entry near the historic district than a newer subdivision typically offers.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations by early September, well ahead of Ashland's early first frost, to get ahead of the fall mouse surge.",
+      "Treat yellow jacket nests in early summer while colonies are still small, since Ashland's compressed warm season pushes them to aggressive size quickly.",
+      "Inspect wood near the historic lakefront and harbor district each spring for the moisture damage that draws carpenter ants during the shorter growing season.",
+      "Seal attic and wall void entry points before cluster flies begin searching for overwintering sites in September.",
+      "Schedule pest inspections earlier in the fall than you would in southern Wisconsin, given how much sooner cold weather arrives this far north.",
+    ],
+    costNote:
+      "General pest and rodent exclusion service in Ashland typically runs $100 to $200 per visit. Yellow jacket nest treatment averages $120 to $220, less costly when done early in the shorter summer season before colonies reach peak size. Carpenter ant treatment on older lakefront homes ranges from $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do mice show up so early in Ashland compared to other Wisconsin cities?",
+        answer:
+          "Because winter arrives earlier here. Ashland is Wisconsin's northernmost city, sitting on Lake Superior at Chequamegon Bay, and the first hard frost typically reaches town weeks before it reaches Madison or Milwaukee. Mice respond to that early cold by moving indoors sooner, which is why sealing foundation gaps in late summer, rather than October, makes a bigger difference in Ashland than it would farther south.",
+      },
+      {
+        question: "Does the old Soo Line ore dock area have more pest problems than newer parts of Ashland?",
+        answer:
+          "The older lakefront housing built up around Ashland's shipping era, including the neighborhoods near the historic Soo Line ore dock built in 1916, tends to have more aging foundation gaps and wood exposed to persistent lake humidity than newer construction elsewhere in the city. That combination gives mice, carpenter ants, and cluster flies more entry points to work with in the historic district specifically.",
+      },
+      {
+        question: "Is the pest season really shorter in Ashland than the rest of Wisconsin?",
+        answer:
+          "Yes. Lake Superior keeps Ashland's summers mild and pushes cold weather deeper into spring and earlier into fall than almost anywhere else in the state, with lake-effect snow that averages close to 100 inches a year. That compresses carpenter ant and yellow jacket activity into a narrower warm-season window, though it doesn't reduce the intensity, colonies that do establish still reach aggressive size quickly once the short summer arrives.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Chippewa Falls", slug: "chippewa-falls-wi", stateSlug: "wisconsin" },
+      { name: "Marinette", slug: "marinette-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Ashland, WI | Ashland County Lake Superior",
+    metaDescription:
+      "Ashland, WI pest control for early-season house mice, cluster flies, carpenter ants, and yellow jackets. Wisconsin's northernmost Lake Superior port city. Free inspection.",
+  },
+  {
+    slug: "portage-wi",
+    name: "Portage",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~10,600",
+    county: "Columbia County",
+    climate: "cold-humid",
+    climateDriver:
+      "Portage sits at the historic mile-and-a-half portage between the Fox and Wisconsin Rivers, a stretch of marshy floodplain that French fur traders and Native peoples crossed for generations before Fort Winnebago was built there in 1828. The surrounding Lower Wisconsin River floodplain is recognized as a Wetland of International Importance, with floodplain forest, sloughs, and marsh that hold water long after the rest of Columbia County has dried out. Winters are cold and humid, and the floodplain's persistent moisture sustains pest pressure through the warm months well beyond what a Wisconsin town without a river confluence experiences.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "House Mice", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The floodplain wetlands between the Fox and Wisconsin Rivers, recognized internationally for their marsh, slough, and sedge meadow habitat, hold standing water well into summer after spring flooding recedes, giving Portage more sustained mosquito breeding ground close to town than a Columbia County community away from the river confluence has.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The floodplain forest surrounding Portage keeps deadwood and low-lying trees consistently damp, and that moisture works into decking, fascia, and older wood-frame homes near the river and canal, giving carpenter ants more harborage than drier, upland parts of Columbia County offer.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge in October and November",
+        note: "Columbia County's farmland surrounds Portage on higher ground above the floodplain, and the fall harvest pushes field mice toward town each year. The historic downtown business district, built along a hill overlooking the old Portage Canal, includes older buildings with foundation gaps that give displaced mice easy entry.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall entry in September and October, overwinters in wall voids",
+        note: "Boxelder trees are common along the floodplain forest edges near the Fox and Wisconsin Rivers, and the large boxelder bug populations they support move toward sun-warmed, south-facing walls each fall looking for a place to overwinter, a pattern more pronounced here than in a Columbia County town without as much floodplain forest edge.",
+      },
+    ],
+    localHook:
+      "Portage grew up at a natural crossing point: a mile-and-a-half strip of marshy floodplain separating the Fox and Wisconsin Rivers, portaged by canoe for generations before French explorers Jacques Marquette and Louis Jolliet passed through in 1673 on their route toward the Mississippi. The U.S. government built Fort Winnebago there in 1828, and the city grew up around the portage and later the Portage Canal, which connected the two rivers and was cleaned up in 2007 with a bike path now running alongside it. The surrounding Lower Wisconsin River floodplain wetlands are recognized as a Wetland of International Importance, and that marsh and river geography still shapes pest pressure in Portage today.",
+    intro:
+      "Pest control in Portage starts with the geography that gave the city its name: a mile-and-a-half strip of marshy floodplain between the Fox and Wisconsin Rivers, crossed by canoe for generations before Fort Winnebago was built there in 1828. That floodplain, now recognized as a Wetland of International Importance for its marsh, slough, and sedge meadow habitat, holds standing water well into summer after spring flooding recedes, and it gives Portage more sustained mosquito pressure than a Columbia County town away from the river confluence experiences. The same floodplain forest keeps wood damp enough to draw carpenter ants through the growing season and supports the boxelder tree populations that send bugs toward sunny walls each fall. Add in the farmland surrounding the city on higher ground, which pushes field mice toward town during the fall harvest, and a Portage pest program has to account for both river and farm pressure at once.",
+    sections: [
+      {
+        heading: "The Historic Portage and Why the Floodplain Still Matters",
+        body: "Portage exists because of a gap in the terrain barely two miles wide, the stretch of marsh and oak plain that separated the Fox and Wisconsin Rivers and that Native traders, and later French explorers including Marquette and Jolliet in 1673, had to portage canoes across. That same floodplain, now protected as part of the Lower Wisconsin Riverway and recognized internationally for its wetland value, still floods seasonally and holds water in its sloughs and marshes well after the surrounding upland farmland has dried out. For pest control, that means mosquito breeding habitat that persists longer into summer than a typical Wisconsin river town sees, concentrated most heavily in neighborhoods closest to the old portage route and the Portage Canal.",
+      },
+      {
+        heading: "Farmland Mice Meet River-Bottom Carpenter Ants",
+        body: "Portage sits at an unusual crossroads for pest pressure: Columbia County farmland surrounds the city on higher ground, sending field mice toward town each fall as crops come off, while the floodplain forest along the rivers keeps carpenter ants supplied with damp deadwood and softened structural wood through the warm season. A home on the upland side of Portage, closer to the surrounding farm fields, typically deals more with the fall mouse surge, while a home closer to the river or canal deals more with carpenter ants and mosquitoes. Knowing which side of town a property sits on says a lot about which pest is the bigger seasonal concern.",
+      },
+    ],
+    prevention: [
+      "Reduce standing water near the floodplain, sloughs, and any low-lying yard areas to limit mosquito breeding from May through September.",
+      "Inspect decking, fascia, and wood-frame construction near the river or canal each spring for the moisture damage that draws carpenter ants.",
+      "Seal foundation gaps on homes near the historic downtown and canal district before the fall harvest pushes field mice into town.",
+      "Seal south-facing wall gaps before September, when boxelder bugs begin seeking overwintering sites near floodplain forest edges.",
+      "Have a professional assess drainage on any property near the Fox-Wisconsin floodplain to reduce standing water pest pressure at the source.",
+    ],
+    costNote:
+      "Mosquito treatment for floodplain-adjacent Portage properties typically runs $80 to $150 per treatment cycle in peak season. Carpenter ant treatment near the river or canal ranges from $150 to $300. Boxelder bug exclusion work averages $100 to $200. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Portage seem to have more mosquitoes than other Columbia County towns?",
+        answer:
+          "It comes down to the floodplain the city was built around. Portage sits between the Fox and Wisconsin Rivers on a stretch of marsh recognized as a Wetland of International Importance, and that wetland holds standing water well into summer after spring flooding recedes. A Columbia County town away from that river confluence doesn't have the same amount of persistent standing water, so mosquito season runs longer and more heavily in Portage, especially in neighborhoods closest to the old portage route and canal.",
+      },
+      {
+        question: "Does living near the Portage Canal mean more carpenter ants?",
+        answer:
+          "Generally yes. The floodplain forest along the canal and the rivers it connects keeps deadwood and structural wood damp for longer stretches than the drier upland farmland surrounding Portage, and carpenter ants take advantage of that moisture from April through September. A home closer to the canal or river frontage typically needs more frequent wood inspection than one on the upland, farmland side of town.",
+      },
+      {
+        question: "Are Columbia County farm mice a bigger problem in Portage than the floodplain pests?",
+        answer:
+          "It depends on which side of town a property sits on. Portage is unusual in having farmland pushing field mice toward town from one direction each fall, while the Fox and Wisconsin River floodplain drives mosquito and carpenter ant pressure from the other. A home on the upland side, closer to the surrounding farm fields, typically sees the bigger fall mouse surge, while a home nearer the historic canal deals more with the river-driven pests.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Marinette", slug: "marinette-wi", stateSlug: "wisconsin" },
+      { name: "Platteville", slug: "platteville-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Portage, WI | Columbia County Fox-Wisconsin Rivers",
+    metaDescription:
+      "Portage, WI pest control for floodplain mosquitoes, carpenter ants, fall farm mice, and boxelder bugs. Historic Fox-Wisconsin River portage service. Free inspection.",
+  },
+  {
+    slug: "chippewa-falls-wi",
+    name: "Chippewa Falls",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~14,700",
+    county: "Chippewa County",
+    climate: "cold",
+    climateDriver:
+      "Chippewa Falls sits on the Chippewa River in west-central Wisconsin, about three miles west of Lake Wissota, a reservoir created by a hydroelectric dam completed in 1917. Well inland from any Great Lakes moderation, Chippewa County sees genuinely cold, snowy winters that suppress outdoor pests thoroughly but drive rodents indoors fast and early once the freeze sets in. Summers are warm and humid, and the river and reservoir combination keeps humidity and moisture pest pressure higher through the growing season than a Chippewa County town away from the water would see.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "House Mice", "Yellow Jacket Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Chippewa River corridor and nearby Lake Wissota, a reservoir formed by a 1917 hydroelectric dam, together hold more slow-moving and standing water through the warm season than a Chippewa County town without a river-and-reservoir combination has, giving mosquitoes a longer and more sustained breeding window.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Chippewa Falls grew up as a lumber town along the river, and the wooded river-valley terrain plus older wood-frame homes near the historic downtown give carpenter ants steady access to moisture-softened wood that a newer, drier subdivision doesn't offer in the same amount.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge in October and November",
+        note: "Chippewa County's farmland pushes field mice toward town each fall as crops come off, and Chippewa Falls's mix of century-old lumber-era housing near downtown and rural-edge homes gives them more foundation gaps to work with than newer construction would.",
+      },
+      {
+        name: "Yellow Jacket Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September, most aggressive in late August and September",
+        note: "Lake Wissota's shoreline draws heavy recreational use through the summer, docks, cabins, and lakeside cookouts, and that concentration of food scraps and outdoor activity gives yellow jacket colonies near the lake easier foraging than colonies farther from the water, which shows up as sharper late-summer sting risk around the shoreline specifically.",
+      },
+    ],
+    localHook:
+      "Chippewa Falls sits on the Chippewa River about three miles west of Lake Wissota, a reservoir created when a hydroelectric dam was completed there in 1917. The city is the birthplace of Seymour Cray, known as the father of supercomputing, and was headquarters for the original Cray Research, where the Cray-1, the first commercially successful supercomputer, was developed beginning in 1976; the Chippewa Falls Museum of Industry and Technology now holds the most complete collection of Cray supercomputers anywhere. The city is also home to the Jacob Leinenkugel Brewing Company, founded in 1867 and still operating along the river today.",
+    intro:
+      "Pest control in Chippewa Falls follows the river and reservoir that shape the city's geography. The Chippewa River runs through downtown, and Lake Wissota, a reservoir formed by a hydroelectric dam completed in 1917, sits a few miles east, together holding enough slow-moving and standing water to sustain mosquito breeding through most of the summer. That same river-valley moisture works into wood near the historic downtown, much of it built during the city's lumber-era growth, and gives carpenter ants a steady foothold from April through September. Chippewa County's surrounding farmland sends field mice toward town each fall as crops come off, and Lake Wissota's busy summer shoreline, with its docks, cabins, and cookouts, draws yellow jacket colonies that turn aggressive by late August. A pest program built for Chippewa Falls has to account for river, reservoir, and farmland pressure all at once, more than a landlocked Chippewa County community would need to.",
+    sections: [
+      {
+        heading: "A River and Reservoir Town: More Water Than Most Chippewa County Communities",
+        body: "Chippewa Falls sits directly on the Chippewa River, and Lake Wissota, the reservoir a few miles west created when a hydroelectric dam went in during 1917, adds a second major body of water close to town. That combination gives mosquitoes more slow-moving and standing water to breed in through the summer than a Chippewa County town set back from both the river and the lake would have. Neighborhoods closest to the riverfront downtown and the lake's shoreline development typically see the longest and heaviest mosquito season, running from May into September some years.",
+      },
+      {
+        heading: "Lumber-Era Homes and Lake Wissota's Summer Wasp Pressure",
+        body: "Chippewa Falls grew up as a 19th-century lumber town, and a good share of the older housing near downtown dates to that era, wood-frame construction with foundations and rooflines that have had more than a century to develop the moisture damage carpenter ants exploit. Out at Lake Wissota, a different pressure builds through summer: the docks, cabins, and lakeside gatherings that make the reservoir a popular recreation spot also concentrate food scraps and human activity that yellow jacket colonies key in on, and by late August those colonies are large enough to make shoreline properties a genuine sting risk until they're addressed. A cabin owner who spent June assuming the season would stay quiet often finds a softball-sized nest tucked under the eaves by the time Labor Day weekend arrives.",
+      },
+    ],
+    prevention: [
+      "Reduce standing water near the Chippewa River and Lake Wissota shoreline properties to limit mosquito breeding from May through September.",
+      "Inspect wood-frame construction near the historic downtown each spring for the moisture damage that draws carpenter ants.",
+      "Seal foundation gaps before the fall harvest pushes Chippewa County field mice toward town.",
+      "Treat yellow jacket nests near Lake Wissota docks and cabins in early summer, before late-August colonies reach aggressive size.",
+      "Keep food and garbage secured at lakeside properties through the summer to reduce yellow jacket foraging near outdoor gathering areas.",
+    ],
+    costNote:
+      "Mosquito treatment for river and lake-adjacent Chippewa Falls properties typically runs $80 to $150 per treatment cycle in peak season. Carpenter ant treatment on older downtown homes ranges from $150 to $300. Yellow jacket nest treatment near Lake Wissota averages $120 to $220, less costly when addressed before colonies peak in late August. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Lake Wissota make yellow jackets worse in Chippewa Falls?",
+        answer:
+          "For shoreline properties specifically, yes. Lake Wissota, the reservoir formed when a hydroelectric dam was completed in 1917, draws heavy summer recreational use, docks, cabins, and lakeside cookouts, and that concentration of food scraps and outdoor activity gives yellow jacket colonies near the water easier foraging than colonies farther inland get. By late August and into September, those lake-adjacent colonies tend to be more aggressive and more likely to require professional treatment than ones in a drier part of town.",
+      },
+      {
+        question: "Why do older homes near downtown Chippewa Falls get more carpenter ants?",
+        answer:
+          "Chippewa Falls grew up as a 19th-century lumber town along the Chippewa River, and much of the older housing near downtown dates to that era. Wood-frame homes that old have had more than a century for window frames, roof lines, and foundations to develop the moisture damage carpenter ants look for, especially given the river valley's humidity. A newer home on the edge of town, away from both the river and that older building stock, typically sees less carpenter ant pressure.",
+      },
+      {
+        question: "Is mosquito season longer in Chippewa Falls than in a Chippewa County town without a river or lake?",
+        answer:
+          "Generally yes. Chippewa Falls sits directly on the Chippewa River, with Lake Wissota, a reservoir a few miles west, adding a second major body of water close to town. That combination holds more slow-moving and standing water through the summer than a Chippewa County community set back from both, so mosquito pressure tends to run both longer and heavier here, particularly in neighborhoods near the riverfront downtown or the lake's shoreline.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Platteville", slug: "platteville-wi", stateSlug: "wisconsin" },
+      { name: "Ashland", slug: "ashland-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Chippewa Falls, WI | Chippewa County Lake Wissota",
+    metaDescription:
+      "Chippewa Falls, WI pest control for river and lake mosquitoes, carpenter ants, fall farm mice, and Lake Wissota yellow jackets. Free inspection.",
+  },
 ];

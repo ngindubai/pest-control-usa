@@ -2522,4 +2522,469 @@ export const oregonCities: CityLocation[] = [
     metaTitle: "Pest Control in Pendleton, OR | Licensed Local Exterminators",
     metaDescription: "Rodents, black widow spiders and ants in Pendleton, OR wheat country. Licensed pest control with free inspection and same-day service.",
   },
+  {
+    slug: "astoria-or",
+    name: "Astoria",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~10,200",
+    county: "Clatsop County",
+    climate: "temperate",
+    climateDriver:
+      "Astoria sits at the mouth of the Columbia River, where the river meets the Pacific Ocean on Oregon's north coast, with hillside terrain rising to about 600 feet above the harbor. The marine climate keeps temperatures mild year round, but it also delivers some of the heaviest rainfall in the state, commonly cited between roughly 65 and 85 inches a year depending on elevation and which part of town is measured. That steady, near constant moisture keeps soil, crawlspaces, and older wood siding damp for most of the calendar, conditions that favor dampwood termites, carpenter ants, and humidity loving pests more than almost anywhere else in Oregon.",
+    topPests: ["Carpenter Ants", "Dampwood Termites", "Spiders", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year round, peak swarming April through June",
+        note: "Astoria's persistent coastal humidity keeps wood framing and crawlspaces damp in a way drier Oregon towns rarely experience, and the city's many century old hillside homes give carpenter ants soft, moisture damaged wood to excavate galleries in.",
+      },
+      {
+        name: "Dampwood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year round in damp wood",
+        note: "Unlike the subterranean termites common in drier parts of the state, dampwood termites thrive directly in Astoria's consistently wet wood, particularly around older homes with wood siding or framing in contact with damp soil on the hillside lots above downtown.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year round, most visible September through November",
+        note: "Damp basements and crawlspaces in Astoria's Victorian and Queen Anne era hillside homes give hobo spiders and giant house spiders, both common along the Oregon coast, steady shelter that becomes more noticeable as fall rains intensify.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year round",
+        note: "Older, less insulated hillside homes in Astoria hold onto indoor humidity in bathrooms, basements, and attics for most of the year, exactly the environment silverfish need to stay active through every season rather than just a summer stretch.",
+      },
+    ],
+    localHook:
+      "Astoria was founded in 1811 as Fort Astoria, a fur trading post backed by John Jacob Astor, making it the oldest American settlement west of the Rocky Mountains and the oldest incorporated city in Oregon. The Lewis and Clark Expedition wintered nearby at Fort Clatsop in 1805 and 1806. Today the hillsides above the harbor are covered in ornate Victorian and Queen Anne era homes, and the 164 step Astoria Column on Coxcomb Hill overlooks the mouth of the Columbia River. That combination of century old wood construction and some of the heaviest rainfall on the Oregon coast shapes nearly every pest call in town.",
+    intro:
+      "Pest control in Astoria has to account for a coastal climate that rarely lets up. Sitting where the Columbia River meets the Pacific on Oregon's north coast, the city sees rainfall that regularly tops 65 to 85 inches a year depending on elevation, and the hillside terrain above the harbor holds moisture in the soil, crawlspaces, and older wood framing for most of the calendar. That steady dampness is exactly what dampwood termites and carpenter ants need to stay active, while hobo spiders and silverfish take advantage of the humidity indoors. Astoria's housing stock adds another layer: many homes on the hillsides date to the Victorian and Queen Anne era, more than a century of wood construction that has had plenty of time to develop the moisture damage these pests look for. A pest program built for Astoria typically leans harder on moisture control and termite inspection than one built for a drier inland Oregon town.",
+    sections: [
+      {
+        heading: "Why Astoria's Older Hillside Homes Need a Different Termite Approach",
+        body: "Most of Oregon's termite pressure comes from subterranean species that build mud tubes up from the soil, but Astoria's climate supports dampwood termites too, a species that infests wood directly without needing contact with the ground, as long as that wood stays consistently wet. Century old homes on Astoria's hillsides, many with wood siding, sills, or porch framing sitting close to damp soil or shaded from direct sun for most of the day, give dampwood termites exactly the conditions they need. An inspection here typically checks these damp, shaded contact points first, along with crawlspaces and foundation sills, rather than only looking for the mud tubes a subterranean termite inspection in a drier Oregon town would focus on.",
+      },
+      {
+        heading: "What a Pest Inspection Looks Like on Astoria's Hillside Lots",
+        body: "Astoria's steep hillside lots change how a technician works compared to a flatter inland town. Retaining walls, crawlspace access built into a slope, and older foundations that were never fully sealed against the hill's natural moisture flow all need a closer look. A typical visit starts with a walk around the exterior to find damp siding, moss buildup, or gutters that are dumping water too close to the foundation, all common contributors to the dampwood termite and carpenter ant activity this climate supports. From there, a technician checks the crawlspace for moisture readings and any existing damage before recommending treatment, and many Astoria homes benefit from moisture control work, better ventilation, a vapor barrier, redirected downspouts, alongside any direct pest treatment.",
+      },
+      {
+        heading: "Living With Coastal Humidity: Spiders and Silverfish Indoors",
+        body: "Astoria's near constant humidity does not just affect wood pests. Hobo spiders and giant house spiders, both established along the Oregon coast, find damp basements and crawlspaces in older hillside homes an easy place to settle, and homeowners often notice more spider activity as fall rains pick up and the spiders move toward drier, warmer indoor spaces. Silverfish follow the same pattern indoors, favoring bathrooms, basements, and attics that hold onto moisture longer than the rest of the house. Reducing indoor humidity with fans, dehumidifiers in problem areas, and sealed storage for paper and cardboard, a silverfish food source, makes a real difference alongside any direct treatment.",
+      },
+    ],
+    prevention: [
+      "Redirect downspouts and grade soil away from the foundation to reduce the moisture that draws dampwood termites and carpenter ants to Astoria's older hillside homes.",
+      "Schedule a termite inspection that specifically checks damp, shaded wood contact points, not just soil grade, given how common dampwood termites are along this stretch of coast.",
+      "Improve crawlspace ventilation or add a vapor barrier to cut down the humidity that keeps silverfish and moisture pests active indoors year round.",
+      "Trim vegetation and clear debris away from siding and foundation walls to remove damp harborage spiders use to approach the house.",
+      "Address any moss covered or visibly damp siding promptly, since it is often the first sign of the sustained moisture problem that eventually invites wood destroying pests.",
+    ],
+    costNote:
+      "Termite inspection in Astoria typically runs free to $85, with treatment for dampwood or subterranean termites ranging from $950 to $2,600 depending on how much of the structure is affected. Carpenter ant treatment averages $150 to $350. Spider and silverfish treatment for a typical hillside home runs $120 to $250. Many local providers include the first inspection free.",
+    faqs: [
+      {
+        question: "Why does Astoria get more termite damage than drier parts of Oregon?",
+        answer:
+          "Astoria's coastal location at the mouth of the Columbia River brings some of the heaviest rainfall in the state, commonly 65 to 85 inches a year, which keeps soil and wood framing damp for most of the calendar. That constant moisture supports dampwood termites directly, not just the subterranean species found in drier inland towns, so older hillside homes with damp or shaded wood contact points see more sustained termite pressure than a typical Willamette Valley or eastern Oregon home would.",
+      },
+      {
+        question: "Are Astoria's Victorian era homes more vulnerable to pests?",
+        answer:
+          "Often, yes. Many of the ornate Victorian and Queen Anne homes on Astoria's hillsides, some dating back over a century, have wood siding, sills, or porch framing that has had decades to develop the moisture damage carpenter ants and dampwood termites look for. A pest inspection on one of these older homes typically spends more time checking damp wood contact points than it would on a newer, better sealed structure.",
+      },
+      {
+        question: "Does Astoria's rain make spiders and silverfish worse indoors?",
+        answer:
+          "It does. Hobo spiders and giant house spiders, both established along the Oregon coast, and silverfish all favor the damp basements, crawlspaces, and bathrooms common in Astoria's older, less insulated homes. As fall rain intensifies, more of these pests move toward the drier warmth indoors, which is why sightings tend to climb noticeably from September through November.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "The Dalles", slug: "the-dalles", stateSlug: "oregon" },
+      { name: "Cottage Grove", slug: "cottage-grove-or", stateSlug: "oregon" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Astoria, OR | Clatsop County Coastal Exterminators",
+    metaDescription: "Astoria, OR pest control for dampwood termites, carpenter ants, spiders, and silverfish in this heavy rainfall coastal city. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "the-dalles",
+    name: "The Dalles",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~16,000",
+    county: "Wasco County",
+    climate: "semi-arid",
+    climateDriver:
+      "The Dalles sits in the eastern Columbia River Gorge, in the rain shadow cast by the Cascade Mountains, and the difference from western Oregon is dramatic. Annual precipitation here runs around 13 to 14 inches, a fraction of what falls just 20 miles west in Hood River, and summers are hot and dry while winters stay comparatively wet and cold. The hills south of town are covered in Bing cherry orchards and vineyards that depend on irrigation rather than rainfall, and that mix of dry native ground and irrigated farmland shapes which pests show up at area homes and when.",
+    topPests: ["Yellowjackets", "Pavement Ants", "Rodents", "Black Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September, peak during cherry harvest",
+        note: "The Dalles is surrounded by extensive Bing cherry orchards and vineyards on the hills south of town, and ripening fruit each summer draws heavy yellowjacket activity into orchard adjacent neighborhoods and backyard fruit trees alike.",
+      },
+      {
+        name: "Pavement Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The Dalles' hot, dry summers push ants toward the moisture around irrigation lines, foundations, and landscaped yards, the few consistently damp spots in an otherwise dry rain shadow climate.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Dry grassland and orchard edges around The Dalles give deer mice and house mice cover through the growing season, and both move toward homes, garages, and outbuildings once irrigation stops and temperatures drop after harvest.",
+      },
+      {
+        name: "Black Widow Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Summer through fall",
+        note: "The Dalles' dry climate and the area's rural outbuildings, woodpiles, and irrigation equipment give black widows the undisturbed harborage they favor, a pattern typical of this stretch of the Columbia River Gorge.",
+      },
+    ],
+    localHook:
+      "The Dalles was incorporated in 1857, making it the fourth oldest city in Oregon, and the site served as a Native American trading and rendezvous location for thousands of years before that. Lewis and Clark camped nearby at what is now called Rock Fort Camp in October 1805 and again in April 1806, a site now on the National Register of Historic Places, and over 70 buildings and sites in the city carry that same historic designation. The hills south of town hold some of the region's largest cherry orchards, including Orchard View Farms, one of the state's biggest growers, and that fruit economy is a real factor in what pests show up here each summer.",
+    intro:
+      "Pest control in The Dalles reflects its position in the rain shadow of the Cascades, on the dry eastern side of the Columbia River Gorge. Annual rainfall here runs only about 13 to 14 inches, far less than the wetter towns closer to Portland, which keeps native ground dry for most of the year and pushes ants and rodents toward the moisture found around homes, irrigation lines, and landscaped yards. The extensive cherry orchards and vineyards on the hills south of town add another layer: ripening fruit each July and August draws heavy yellowjacket activity that a purely residential Oregon town would not see at the same scale. A pest program built for The Dalles typically weighs orchard season wasp response and dry climate rodent pressure more heavily than a Willamette Valley town further west would need to.",
+    sections: [
+      {
+        heading: "Living Next to Cherry Country: What The Dalles' Orchards Mean for Wasps",
+        body: "The Dalles has some of the highest per capita sweet cherry production in the region, with large operations like Orchard View Farms covering the hills south of town alongside area vineyards. Ripening Bing cherries each July draw yellowjackets in numbers that homes further from the orchards rarely see, and that pressure often spills into neighborhoods bordering the fruit growing areas well before harvest wraps up. Checking eaves, sheds, and any exposed food or trash for early nest activity in late spring, before colonies reach their August and September peak, is the most effective way to stay ahead of it. A technician working in The Dalles typically treats more active wasp calls through late summer than one working a purely residential Oregon town further from orchard country.",
+      },
+      {
+        heading: "Why The Dalles' Dry Gorge Climate Changes What Pests You Will See",
+        body: "Thirteen to fourteen inches of rain a year is a fraction of what falls in western Oregon, and that difference shapes pest pressure in The Dalles more than almost anything else. Termites and moisture loving pests common on the coast or in the Willamette Valley are far less of a concern here, since the dry native ground rarely holds the sustained dampness those species need. Instead, ants and rodents concentrate wherever moisture does exist, irrigated yards, garden beds, and foundation areas near hose bibs or downspouts, and black widow spiders take advantage of the dry, undisturbed outbuildings and equipment sheds common on larger Gorge area properties. A pest plan here focuses more on these dry climate specialists than on the termite heavy approach a western Oregon home would need.",
+      },
+      {
+        heading: "The Dalles' Historic Downtown and Rock Fort Camp: Older Buildings, Different Risks",
+        body: "More than 70 buildings and sites in The Dalles carry National Register of Historic Places status, and Rock Fort Camp, where Lewis and Clark camped in 1805 and 1806, sits along the same stretch of river that shaped the town's early trading history. Many of the brick and wood storefronts downtown date to the late 1800s, and older mortar joints, foundation vents, and roof lines give ants, rodents, and the occasional wasp nest more entry points than a newer building would have. A commercial pest program for one of these historic structures typically pairs a slower, more thorough exterior inspection with monitoring rather than broad treatment, since preserving the original masonry and woodwork matters as much as controlling the pest activity itself.",
+      },
+    ],
+    prevention: [
+      "Check eaves, sheds, and outdoor eating areas for early yellowjacket nest activity in late spring, before orchard season pulls wasp numbers up through August and September.",
+      "Keep fallen fruit cleared from yards near orchard adjacent neighborhoods to avoid drawing wasps and ants toward the house.",
+      "Seal gaps around foundations and outbuildings before fall, when dry season rodents move toward structures as irrigation stops and temperatures drop.",
+      "Inspect woodpiles, sheds, and irrigation equipment for black widow spiders before handling them, especially in late summer and fall.",
+      "Direct irrigation and downspouts away from the foundation to avoid creating the isolated damp spots ants concentrate around in this otherwise dry climate.",
+    ],
+    costNote:
+      "Wasp and yellowjacket nest removal in The Dalles typically runs $150 to $350 depending on nest size and location, with orchard season calls sometimes priced higher for multiple nests. Ant treatment averages $120 to $250. Rodent exclusion, sealing entry points plus an initial trapping visit, runs $150 to $350. Most local providers include the first inspection free.",
+    faqs: [
+      {
+        question: "Why does The Dalles have so many wasps in late summer?",
+        answer:
+          "The extensive Bing cherry orchards and vineyards on the hills south of The Dalles, including large operations like Orchard View Farms, ripen through July and August, and that fruit draws yellowjacket activity well beyond what a purely residential Oregon town would see. Nests that start small in spring often grow through the summer alongside the fruit, which is why checking eaves and outbuildings early makes a real difference.",
+      },
+      {
+        question: "Does The Dalles have the same termite risk as western Oregon?",
+        answer:
+          "No, and the difference is significant. The Dalles sits in the rain shadow of the Cascades and receives only about 13 to 14 inches of rain a year, compared to 40 or more inches in much of western Oregon. That dry climate rarely gives termites the sustained soil moisture they need to establish, so ants, rodents, and black widow spiders are the more common concerns for a typical The Dalles home.",
+      },
+      {
+        question: "Why are black widow spiders common around The Dalles?",
+        answer:
+          "The Dalles' dry, rain shadow climate and the area's rural outbuildings, woodpiles, and irrigation equipment give black widows the undisturbed, low moisture harborage they favor. Properties near orchards or open grassland on the edge of town tend to see more activity, so having sheds and equipment storage inspected before handling them in late summer and fall is a reasonable precaution.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Astoria", slug: "astoria-or", stateSlug: "oregon" },
+      { name: "Baker City", slug: "baker-city", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in The Dalles, OR | Wasco County Exterminators",
+    metaDescription: "The Dalles, OR pest control for yellowjackets, ants, rodents, and black widow spiders in Columbia Gorge cherry country. Free inspection, same-day service.",
+  },
+  {
+    slug: "silverton-or",
+    name: "Silverton",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~10,500",
+    county: "Marion County",
+    climate: "temperate",
+    climateDriver:
+      "Silverton sits in the Willamette Valley about 14 miles northeast of Salem, on the eastern edge of the valley floor where the terrain begins to rise into the Waldo Hills. Silver Creek runs directly through town on its way from Silver Falls to the Pudding River, and the valley's winter rain pattern, roughly 40 to 50 inches a year with about half of it falling between December and February, keeps soil and structures damp for a large part of the calendar. Summers are mild and mostly dry, but that long wet season is enough to sustain steady termite and ant pressure most of the year.",
+    topPests: ["Termites", "Carpenter Ants", "Spiders", "Wasps"],
+    pestProfile: [
+      {
+        name: "Subterranean and Dampwood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year round in damp soil and wood",
+        note: "Silverton's winter rain pattern, close to half the year's total falling December through February, keeps valley floor soil consistently moist enough to support both subterranean and dampwood termite activity around older homes near Silver Creek.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Homes near Silverton's creek corridor and the wooded edges around Silver Falls State Park give carpenter ants damp, shaded wood to nest in, especially in older siding or exposed porch framing.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year round, most active September through November",
+        note: "The wooded Silver Creek greenway running through town gives hobo spiders and other Willamette Valley species easy access to yards and foundations, with more visible activity as they move toward shelter in fall.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Silverton's mix of home gardens, the nearby Oregon Garden, and Silver Falls State Park's heavy summer foot traffic all draw wasps toward outdoor eating areas and eaves through late summer.",
+      },
+    ],
+    localHook:
+      "Silverton takes its name from Silver Creek, which flows through downtown on its way from Silver Falls to the Pudding River and eventually the Willamette River. The city has earned the nickname Oregon's Mural Capital, with more than 30 outdoor murals maintained by the Silverton Mural Society since 1992. Silverton is also home to the story of Bobbie the Wonder Dog, a Scotch Collie who became internationally known in 1923 and 1924 for finding his way back to Silverton over roughly 2,800 miles after being separated from his family while traveling in Indiana, a story still marked with a statue, a mural, and an annual pet parade in town.",
+    intro:
+      "Pest control in Silverton follows the rhythm of the Willamette Valley's wet winters and mild summers. Roughly 40 to 50 inches of rain falls here each year, with close to half of it concentrated between December and February, and that sustained wet season keeps valley floor soil damp enough to support both subterranean and dampwood termites for most of the calendar. Silver Creek, which runs directly through town on its way to the Pudding River, adds a wooded, shaded corridor that carpenter ants and spiders use as a base to move into nearby yards and homes. Wasps become the bigger concern in summer, drawn by home gardens and the steady foot traffic through the nearby Oregon Garden and Silver Falls State Park. A Silverton pest program typically treats termite risk as a near year round concern rather than a seasonal one.",
+    sections: [
+      {
+        heading: "Silverton's Termite Pressure Compared to a Drier Eastern Oregon Town",
+        body: "The gap between Silverton and a town on the dry side of the Cascades is significant. Willamette Valley towns like Silverton see 40 to 50 inches of rain a year, concentrated heavily in the winter months, while a rain shadow town on the eastern side of the state might get a third of that or less. That extra moisture is exactly what subterranean and dampwood termites need to establish and expand colonies, which is why an annual termite inspection matters more consistently for a Silverton home than it would for a home in a drier part of the state where termite activity slows or stops for much of the year. Homes near Silver Creek, where soil stays damp even during the drier summer months, tend to see the most consistent activity.",
+      },
+      {
+        heading: "How Silverton's Silver Creek Corridor Compares to a Fully Built Out Salem Neighborhood",
+        body: "Silverton's Silver Creek greenway runs directly through the middle of town, giving spiders, carpenter ants, and occasional wildlife a wooded corridor that reaches much closer to residential yards than it would in a more fully built out neighborhood in nearby Salem. A home backing onto the creek corridor typically sees more spider and ant pressure than one a few blocks away on a street without that wooded edge, simply because the shaded, damp habitat those pests rely on sits closer at hand. Trimming vegetation back from the house and clearing debris along a creek adjacent property line makes a more noticeable difference in Silverton than it would in a neighborhood without that same access to wooded, undeveloped ground.",
+      },
+      {
+        heading: "Bobbie the Wonder Dog and Silverton's Older Downtown Buildings",
+        body: "Many of the buildings around Silverton's downtown murals date back to the early 1900s, the same era that produced the story of Bobbie the Wonder Dog, and older wood framing and foundation work in that part of town gives carpenter ants and termites more entry points than a newer building would have. A commercial pest inspection downtown typically checks basement access, foundation vents, and any wood trim in contact with damp soil first, since preserving these historic storefronts means catching moisture damage early rather than after it has spread through original framing.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Silverton's consistent winter soil moisture, which keeps both subterranean and dampwood termites active for most of the year.",
+      "Trim vegetation and clear debris along any property line bordering the Silver Creek corridor to reduce spider and ant access to the house.",
+      "Seal gaps around foundation sills and damp wood contact points, particularly on older homes near downtown, to limit carpenter ant entry.",
+      "Check eaves and outdoor eating areas for wasp nests starting in early summer, before Oregon Garden and Silver Falls State Park visitor season peaks.",
+      "Keep gutters clear and downspouts directed away from the foundation to avoid adding to the valley's already high winter soil moisture near the house.",
+    ],
+    costNote:
+      "Termite inspection in Silverton is typically free to $80, with treatment for subterranean or dampwood termites ranging from $900 to $2,500 depending on infestation extent. Carpenter ant treatment averages $130 to $280. Wasp nest removal runs $130 to $300 depending on nest size and location. Free inspection included with most local providers.",
+    faqs: [
+      {
+        question: "Is termite risk really worse in Silverton than in other parts of Oregon?",
+        answer:
+          "It's more consistent rather than necessarily worse in any one season. Silverton's position in the Willamette Valley brings 40 to 50 inches of rain a year, with close to half of it falling between December and February, which keeps soil moisture high enough to support subterranean and dampwood termites for most of the calendar. A drier eastern Oregon town sees a fraction of that rainfall, so termite activity there is far less sustained through the year.",
+      },
+      {
+        question: "Why do homes near Silverton's Silver Creek see more spider activity?",
+        answer:
+          "Silver Creek runs directly through downtown Silverton on its way to the Pudding River, and the wooded, shaded corridor along the creek gives hobo spiders and other Willamette Valley species easy access to nearby yards. A home backing onto that greenway typically sees more spider activity than one a few blocks away without that same wooded edge close by.",
+      },
+      {
+        question: "Does Silverton's Oregon Garden and Silver Falls State Park traffic affect local pest calls?",
+        answer:
+          "Indirectly, yes. Both draw heavy summer foot traffic and outdoor dining nearby, and that combination of food, sugary drinks, and trash tends to pull wasp activity toward eaves and patios in Silverton at a higher rate through July and August than a town without that same seasonal visitor pattern would see.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cottage Grove", slug: "cottage-grove-or", stateSlug: "oregon" },
+      { name: "Baker City", slug: "baker-city", stateSlug: "oregon" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Silverton, OR | Marion County Exterminators",
+    metaDescription: "Silverton, OR pest control for termites, carpenter ants, spiders, and wasps in Oregon's Mural Capital. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "baker-city",
+    name: "Baker City",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~10,100",
+    county: "Baker County",
+    climate: "semi-arid",
+    climateDriver:
+      "Baker City sits at an elevation of about 3,451 feet in a valley between the Wallowa Mountains to the east and the Elkhorn and Blue Mountains to the west, with the Powder River running directly through downtown. The high desert setting gets only about 9 inches of rain a year, well below the Oregon average, but winters bring real cold and meaningful snowfall, and the wide swing between hot, dry summer days and freezing winter nights shapes which pests can survive here at all. This is a dry, cold climate profile closer to the Rocky Mountain West than to the wet, mild towns of western Oregon.",
+    topPests: ["Deer Mice", "Black Widow Spiders", "Wasps", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Deer Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, heaviest as temperatures drop",
+        note: "Baker City's dry grassland and sagebrush surroundings are prime deer mouse habitat, and the species is a known regional carrier of hantavirus, which makes fall and winter exclusion work around garages, sheds, and cabins more than a comfort issue here.",
+      },
+      {
+        name: "Black Widow Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Summer through fall",
+        note: "Baker City's dry climate and the area's mining era outbuildings, woodpiles, and equipment sheds give black widows the undisturbed, low moisture harborage they favor across this stretch of eastern Oregon.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer through fall",
+        note: "The eaves of Baker City's many century old downtown buildings, along with rural outbuildings on the valley floor, offer wasps ready nesting sites, and colonies grow more aggressive foraging for food as native sources dry up in late summer.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Cottonwood and boxelder trees along the Powder River corridor through downtown Baker City give boxelder bugs a steady breeding source, and the insects seek out sunny building walls to overwinter each fall.",
+      },
+    ],
+    localHook:
+      "Baker City was incorporated in 1874 and named for Edward Dickinson Baker, the only sitting United States Senator ever killed in military combat, who died at the Battle of Ball's Bluff in 1861. Gold discovered near the Powder River in 1861 sparked a regional gold rush that built nearby mining towns like Sumpter, Bourne, and Auburn, and by 1900 Baker City was the largest city between Salt Lake City and Portland. The Baker Historic District, on the National Register of Historic Places, covers about 42 acres downtown with more than 130 buildings, most built between the 1880s and 1915, including the restored 1889 Geiser Grand Hotel. The city sat on the Oregon Trail, and the National Historic Oregon Trail Interpretive Center nearby still shows original wagon ruts.",
+    intro:
+      "Pest control in Baker City looks different than almost anywhere in western Oregon, mostly because the climate is so different. Sitting at about 3,451 feet in a valley between the Wallowa Mountains and the Elkhorn and Blue Mountains, Baker City gets only around 9 inches of rain a year, and the cold, snowy winters common here rule out the moisture loving termites and dampwood pests that dominate the western part of the state. Instead, deer mice moving in from the surrounding dry grassland, black widow spiders in mining era outbuildings, and wasps nesting in the eaves of Baker City's many century old downtown buildings are the pests homeowners deal with most. Boxelder bugs add a fall nuisance along the Powder River corridor, where cottonwood and boxelder trees run through downtown. A pest plan built for Baker City looks closer to what a Rocky Mountain West town would need than what a coastal or Willamette Valley Oregon home requires.",
+    sections: [
+      {
+        heading: "Why Baker City's High Desert Valley Means Different Pests Than Western Oregon",
+        body: "Baker City's roughly 9 inches of annual rain, a fraction of what falls in the Willamette Valley or on the coast, keeps the ground far too dry to support the termite and dampwood pest pressure common in western Oregon. Instead, the dry grassland and sagebrush surrounding the valley favor deer mice and black widow spiders, both of which thrive in low moisture conditions that would slow termites down entirely. Cold winters with real snowfall add another factor: rather than staying active year round like a coastal pest population might, most of Baker City's pest activity concentrates into a shorter window, spiders and wasps through summer and fall, rodents pushing indoors as the cold sets in. A pest program here focuses on that seasonal push rather than the near constant moisture management a western Oregon home needs.",
+      },
+      {
+        heading: "Deer Mice and Baker City's Cold Winters: What Homeowners Should Watch For",
+        body: "As temperatures drop and snow covers the grassland and sagebrush around Baker City, deer mice look for warmer shelter, and garages, sheds, cabins, and any home with an unsealed foundation gap are common targets. Deer mice are a known regional carrier of hantavirus, so cleanup of droppings or nesting material should be handled carefully, with ventilation and without dry sweeping that can put particles into the air. Sealing entry points before the first hard freeze each fall is the most effective way to keep deer mice from establishing indoors in the first place, since once a population is inside a cold, insulated structure, they tend to stay through the winter.",
+      },
+      {
+        heading: "Protecting Baker City's Historic Downtown and Rural Outbuildings",
+        body: "More than 130 buildings in Baker City's Historic District date to between the 1880s and 1915, including the restored Geiser Grand Hotel, and older mortar, foundation vents, and eaves on these buildings give wasps and rodents more entry points than a newer structure would have. Outside of downtown, the mining era outbuildings, barns, and equipment sheds scattered across the valley floor are prime black widow spider territory, since they offer dry, undisturbed, rarely handled corners the spiders favor. A pest inspection for either a historic downtown building or a rural outbuilding typically spends more time on exterior entry points and dry, low traffic storage areas than a routine inspection of a newer in town home would need.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, vents, and garage or shed entry points before the first hard freeze each fall to keep deer mice from establishing indoors for the winter.",
+      "Handle any rodent droppings or nesting material with care and ventilation given the regional hantavirus risk tied to deer mice, and avoid dry sweeping the area.",
+      "Inspect woodpiles, mining era outbuildings, and equipment sheds for black widow spiders before handling them, especially in late summer and fall.",
+      "Check eaves on both downtown historic buildings and rural outbuildings for early wasp nest activity starting in early summer.",
+      "Rake fallen boxelder and cottonwood seed pods away from sunny building walls each fall to reduce boxelder bug overwintering sites.",
+    ],
+    costNote:
+      "Rodent exclusion in Baker City, sealing entry points plus an initial trapping visit, typically runs $150 to $350. Black widow spider treatment for an outbuilding or shed averages $120 to $250. Wasp nest removal runs $130 to $300 depending on nest size and location. Most local providers include the first inspection free.",
+    faqs: [
+      {
+        question: "Why are deer mice such a concern in Baker City?",
+        answer:
+          "Baker City's high desert valley, surrounded by dry grassland and sagebrush at about 3,451 feet elevation, is prime deer mouse habitat, and the species is a known regional carrier of hantavirus. As cold weather sets in each fall, deer mice move toward garages, sheds, and any home with an unsealed foundation gap, which is why sealing entry points before the first hard freeze matters more here than in a milder Oregon climate.",
+      },
+      {
+        question: "Does Baker City have the termite problems western Oregon towns deal with?",
+        answer:
+          "Not to the same degree. Baker City gets only about 9 inches of rain a year, a fraction of what falls in the Willamette Valley or on the coast, and that dry climate rarely gives termites the sustained moisture they need to establish. Deer mice, black widow spiders, and wasps are the more common concerns for a typical Baker City home.",
+      },
+      {
+        question: "Why do Baker City's historic downtown buildings need special pest attention?",
+        answer:
+          "More than 130 buildings in the Baker Historic District, including the restored 1889 Geiser Grand Hotel, date to between the 1880s and 1915, and older mortar, foundation vents, and eaves on these structures give wasps and rodents more entry points than a newer building would have. A pest inspection downtown typically spends extra time on those exterior entry points to protect the original construction.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "The Dalles", slug: "the-dalles", stateSlug: "oregon" },
+      { name: "Silverton", slug: "silverton-or", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Baker City, OR | Baker County Exterminators",
+    metaDescription: "Baker City, OR pest control for deer mice, black widow spiders, wasps, and boxelder bugs in this high desert Oregon Trail town. Free inspection, same-day service.",
+  },
+  {
+    slug: "cottage-grove-or",
+    name: "Cottage Grove",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~10,600",
+    county: "Lane County",
+    climate: "temperate",
+    climateDriver:
+      "Cottage Grove sits at the southern end of the Willamette Valley, where the Row River meets the Coast Fork Willamette River at the edge of town. The valley climate here brings roughly 47 inches of rain a year, concentrated in wet, overcast winters, with warm, mostly dry summers that rarely see an average monthly temperature above the low 70s. The city's own records document a history of flooding where the rivers meet, and that river confluence setting, combined with the valley's long wet season, gives moisture pests and mosquitoes more sustained opportunity here than in a Willamette Valley town further from a floodplain.",
+    topPests: ["Mosquitoes", "Termites", "Carpenter Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peaks after spring flooding",
+        note: "Cottage Grove sits where the Row River meets the Coast Fork Willamette, and the city's own flood history shows the rivers have overtopped their banks repeatedly, leaving standing water behind that gives mosquitoes prime breeding habitat each spring.",
+      },
+      {
+        name: "Subterranean and Dampwood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year round",
+        note: "The southern Willamette Valley's roughly 47 inches of annual rain keeps soil and older wood framing damp through most of the year, sustaining termite activity around Cottage Grove's homes much like the rest of the valley.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Homes near the Row River and Coast Fork Willamette corridors give carpenter ants damp, shaded wood to nest in, particularly around older siding and porch framing close to the water.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Cottage Grove's covered bridges, riverside parks, and backyard gardens draw wasps toward outdoor gathering spots through late summer, a pattern typical of Willamette Valley towns with heavy river and park frontage.",
+      },
+    ],
+    localHook:
+      "Cottage Grove is known as the Covered Bridge Capital of Oregon, home to six covered bridges, and Lane County as a whole has more covered bridges than any county west of the Mississippi River. Buster Keaton filmed his 1926 silent movie The General in and around Cottage Grove, including a famous locomotive crash scene that made the wrecked train a local attraction until it was scrapped during World War Two. Gold discovered in the nearby Bohemia Mountains in 1863 sparked a mining boom that left ghost towns and abandoned mines in the hills above town after the industry declined in the 1920s. The city's location where the Row River meets the Coast Fork Willamette River has also brought a documented history of flooding, recorded in the city's own historic records.",
+    intro:
+      "Pest control in Cottage Grove reflects its spot at the southern end of the Willamette Valley, right where the Row River meets the Coast Fork Willamette River. That river confluence setting, combined with about 47 inches of rain a year concentrated in wet winters, gives mosquitoes and moisture pests more sustained opportunity here than in a valley town set back from a floodplain. The city's own historic records document repeated flooding where the two rivers meet, and standing water left behind after high water is exactly what mosquitoes need to breed each spring. Termites and carpenter ants stay active through most of the wet season too, particularly in older homes near the river corridors. Wasps become the bigger concern in summer, drawn by Cottage Grove's covered bridges, riverside parks, and backyard gardens. A pest program here typically pairs standard valley termite and ant work with more mosquito attention than most other Willamette Valley towns need.",
+    sections: [
+      {
+        heading: "Cottage Grove's River Confluence Mosquito Pressure Compared to a Non Riverfront Valley Town",
+        body: "Sitting where the Row River meets the Coast Fork Willamette gives Cottage Grove a documented flood history that a Willamette Valley town without that same river confluence simply does not share. When water recedes after a high water event, it leaves behind standing pools in low lying yards, ditches, and undeveloped ground near the rivers, and that standing water is exactly what mosquitoes need to breed. A home a few blocks from the river typically sees a shorter, less intense mosquito season than one directly along the Row River or Coast Fork corridor, where standing water lingers longer after spring rains. Clearing gutters, filling low spots in the yard, and dumping any standing water in containers matters more for a riverside Cottage Grove property than it would for a home set back from the floodplain.",
+      },
+      {
+        heading: "How Cottage Grove's Historic Downtown Compares to a Newer Willamette Valley Subdivision for Termite Risk",
+        body: "Cottage Grove's downtown and older residential streets include homes built well before modern moisture barriers and treated foundation lumber were standard, and those older structures generally see more termite and carpenter ant activity than a newer subdivision home built to current code. The valley's roughly 47 inches of annual rain affects both equally, but an older home's untreated sills, single pane foundation vents, and decades of small moisture intrusions give termites and ants more existing entry points to work with. A termite inspection on one of Cottage Grove's older homes typically takes longer and checks more potential entry points than the same inspection would on a newer, better sealed subdivision house nearby.",
+      },
+      {
+        heading: "Cottage Grove's Bohemia Mining District Compares Differently for Rural Properties",
+        body: "The hills above Cottage Grove, toward the Bohemia Mountains where gold was discovered in 1863, are dotted with abandoned mines and the remains of ghost towns left behind once the mining boom faded in the 1920s. Rural properties on the edge of town, closer to that old mining district than to the river confluence downtown, tend to deal with a different pest mix than a downtown home does: fewer mosquitoes, since they sit above the floodplain, but more rodent and spider activity around old outbuildings, sheds, and any structure with exposed foundation gaps. A pest inspection for one of these outlying properties typically spends more time checking rodent entry points and dry storage areas than the mosquito and moisture focused visit a downtown, river adjacent home would need.",
+      },
+    ],
+    prevention: [
+      "Clear gutters, fill low spots in the yard, and empty any standing water in containers each spring, especially on properties near the Row River or Coast Fork Willamette corridor.",
+      "Schedule a termite inspection that accounts for older foundation sills and vents if your Cottage Grove home predates modern moisture barrier standards.",
+      "Seal gaps around damp, shaded wood contact points near river adjacent siding and porch framing to limit carpenter ant entry.",
+      "Check eaves and outdoor gathering areas near covered bridges, parks, and gardens for early wasp nest activity starting in early summer.",
+      "Keep firewood and yard debris away from exterior walls, since Cottage Grove's damp valley climate gives moisture pests plenty of cover already.",
+    ],
+    costNote:
+      "Mosquito treatment for a Cottage Grove property near the river corridors typically runs $80 to $150 per visit or $300 to $600 for a seasonal program. Termite inspection is free to $80, with treatment ranging from $900 to $2,500 depending on infestation extent. Carpenter ant treatment averages $130 to $280. Free inspection included with most local providers.",
+    faqs: [
+      {
+        question: "Why does Cottage Grove have more mosquito activity than other Willamette Valley towns?",
+        answer:
+          "Cottage Grove sits directly where the Row River meets the Coast Fork Willamette River, and the city's own historic records document repeated flooding at that confluence. Standing water left behind after high water events gives mosquitoes prime breeding habitat each spring, which is a bigger factor here than in a Willamette Valley town set back from a floodplain.",
+      },
+      {
+        question: "Are Cottage Grove's older homes near downtown more prone to termites?",
+        answer:
+          "Generally, yes. Many homes in and around Cottage Grove's downtown, known for its six covered bridges and status as the Covered Bridge Capital of Oregon, predate modern moisture barrier standards, and older untreated sills and foundation vents give termites and carpenter ants more entry points than a newer subdivision home would have.",
+      },
+      {
+        question: "Does Cottage Grove's river setting affect wasp activity too?",
+        answer:
+          "It contributes, yes. The riverside parks, covered bridges, and backyard gardens that make Cottage Grove a popular stop draw people and food outdoors through the summer, and that combination pulls wasp activity toward eaves and patios at a similar or higher rate than a typical Willamette Valley town without the same river and park frontage.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Silverton", slug: "silverton-or", stateSlug: "oregon" },
+      { name: "Astoria", slug: "astoria-or", stateSlug: "oregon" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Cottage Grove, OR | Lane County Exterminators",
+    metaDescription: "Cottage Grove, OR pest control for mosquitoes, termites, carpenter ants, and wasps near the Row River and Coast Fork Willamette. Free inspection, licensed and insured.",
+  },
 ];

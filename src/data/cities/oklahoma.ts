@@ -3024,4 +3024,474 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Pryor Creek, OK pest control for Grand River mosquitoes and ticks, older-home termites, and new-construction ants near MidAmerica Industrial Park. Free inspection.",
   },
+  {
+    slug: "weatherford-ok",
+    name: "Weatherford",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~12,100",
+    county: "Custer County",
+    climate: "semi-arid",
+    climateDriver:
+      "Weatherford sits in Custer County on Oklahoma's semi-arid western plains, where drier High Plains air moving in from the west thins out the Gulf humidity that keeps eastern Oklahoma so damp. Summers still turn hot, but rainfall arrives less consistently than in Tulsa or Oklahoma City, which shifts local pest pressure toward irrigation-dependent termite activity and late-summer field cricket swarms drawn to the bright exterior lighting around Southwestern Oklahoma State University and the Stafford Air and Space Museum.",
+    topPests: ["Field Crickets", "Subterranean Termites", "Brown Recluse Spiders", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Field Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Late summer through fall",
+        note: "Field crickets swarm toward exterior lighting each late summer, and Southwestern Oklahoma State University's campus and the Stafford Air and Space Museum, which lights its rocket and spacecraft displays after dark, both draw heavy concentrations that work their way indoors through unsealed gaps.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active through warmer months",
+        note: "Custer County's semi-arid climate means less consistent ambient soil moisture than eastern Oklahoma, so termite colonies here depend more on irrigated lawns and leaking gutters than on steady statewide humidity, though the county remains within Oklahoma's termite pressure zone.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Oklahoma State University Extension confirms the species as a common household find across the entire state, and Weatherford garages, attics, and storage boxes turn up brown recluse spiders regularly despite the drier western Oklahoma climate.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants have pushed into western Oklahoma pastureland and residential lawns over recent decades and rebuild mounds quickly after any rain in Custer County.",
+      },
+    ],
+    localHook:
+      "Weatherford is the hometown of General Thomas P. Stafford, one of only 24 people to fly to the moon, and the Stafford Air and Space Museum, a 63,000-square-foot facility built in his honor, anchors the city alongside Southwestern Oklahoma State University. The town sits along the old Route 66 corridor in Custer County, on Oklahoma's drier western plains, a genuinely different climate than the humid eastern half of the state.",
+    intro:
+      "Weatherford's location on the semi-arid plains of Custer County makes it one of the drier stops in western Oklahoma, but that dryness doesn't mean pest pressure disappears, it just changes shape. Field crickets swarm building exteriors here every late summer, drawn by the lighting around Southwestern Oklahoma State University's campus and the Stafford Air and Space Museum, the 63,000-square-foot facility built to honor Weatherford native and Apollo-Soyuz commander General Thomas P. Stafford. Subterranean termites remain active across Custer County despite lower rainfall than eastern Oklahoma sees, and brown recluse spiders, common across the entire state according to Oklahoma State University Extension, turn up regularly in garages and storage areas. Fire ants have pushed into western Oklahoma pastureland and lawns over recent decades and rebuild mounds fast after any rain. A Weatherford pest plan accounts for a drier climate than Tulsa or Oklahoma City sees, while still covering the same baseline termite and spider risk found statewide.",
+    sections: [
+      {
+        heading: "What Drives Pest Pressure in Weatherford",
+        body: "Custer County sits in Oklahoma's semi-arid zone, where Gulf humidity thins out against drier High Plains air moving in from the west. Summers still get hot and rainfall still arrives, just less consistently and in smaller totals than eastern Oklahoma sees. That matters for termites: colonies here depend more on irrigated lawns, leaking gutters, and any consistently damp soil near a foundation, rather than the steady ambient ground moisture that sustains termites in the humid eastern half of the state. It also means Weatherford's pest calendar runs a bit later and shorter than Tulsa's, with fewer weeks of peak mosquito and cockroach activity, but the underlying species list, termites, brown recluse spiders, fire ants, is the same statewide list every Oklahoma homeowner deals with.",
+      },
+      {
+        heading: "The Cricket Problem Around Campus and the Museum",
+        body: "Field crickets are a genuine seasonal nuisance in Weatherford, not a rare event. Late summer nights draw large numbers of them toward lit building exteriors, and Southwestern Oklahoma State University's campus buildings and the Stafford Air and Space Museum, with its exterior lighting illuminating rocket and spacecraft displays after dark, both attract heavy concentrations. Crickets that gather on exterior walls work their way in through door gaps, unsealed utility penetrations, and gaps around window frames, and once inside they chew fabric and paper and leave a persistent smell in large numbers. Reducing exterior lighting where possible, switching to yellow bulbs less attractive to insects, and sealing entry points are the most effective steps for any Weatherford property near a lit public building or a well-lit parking area.",
+      },
+      {
+        heading: "What an Inspection Covers",
+        body: "A Weatherford inspection starts with the foundation perimeter, checking for termite mud tubes and moisture sources like sprinkler overspray or a leaking hose bib, since irrigation is usually the deciding factor for termite risk in this drier climate. Next comes the exterior wall check for cricket entry points, especially on any side of the home facing outdoor lighting. Garages, attics, and storage boxes get checked for brown recluse activity, consistent with OSU Extension's confirmation that the species is a regular household find across Oklahoma. Yard and foundation edges get checked for fire ant mounds last, since mound location often shifts after rain. Most Weatherford inspections run under an hour for an average single-family home.",
+      },
+    ],
+    prevention: [
+      "Switch exterior lighting to yellow or sodium bulbs to reduce field cricket swarming around your home in late summer.",
+      "Seal gaps around doors, windows, and utility penetrations before cricket season peaks.",
+      "Check irrigation systems and gutters for consistent moisture that can draw subterranean termites to the foundation.",
+      "Inspect garages, attics, and stored boxes for brown recluse spiders, especially after long periods of disuse.",
+      "Treat fire ant mounds promptly after rain, when colonies are most active in Custer County lawns and pastures.",
+    ],
+    costNote:
+      "Termite inspection in Weatherford is typically free to $75, with treatment ranging from $900 to $2,200 depending on foundation type and infestation extent. Field cricket exterior treatment, common for properties near campus or heavily lit parking areas, usually runs $100 to $200 per visit. Fire ant mound treatment for a standard yard averages $75 to $150. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do field crickets swarm buildings in Weatherford every late summer?",
+        answer:
+          "Weatherford's field crickets are drawn to exterior lighting, and few places in town generate more of it after dark than Southwestern Oklahoma State University's campus and the Stafford Air and Space Museum, which lights its rocket and spacecraft displays into the evening. Large numbers gather on lit walls and work their way in through unsealed gaps, which is why reducing exterior lighting and sealing entry points matters more here than in a less brightly lit part of Custer County.",
+      },
+      {
+        question: "Is termite risk lower in Weatherford than in eastern Oklahoma?",
+        answer:
+          "It's generally lower but not absent. Custer County's semi-arid climate means less consistent ambient soil moisture than eastern Oklahoma gets, so Weatherford termite colonies depend more heavily on irrigation, gutter leaks, and other localized moisture sources near the foundation rather than steady statewide humidity. A property with a well-watered lawn or a leaking hose bib can still see real termite pressure despite the drier regional climate.",
+      },
+      {
+        question: "Are brown recluse spiders really a problem in Weatherford homes?",
+        answer:
+          "Yes. Oklahoma State University Extension confirms the species as a common household find across the entire state, not just the humid eastern half, and Weatherford garages, attics, and storage boxes turn up brown recluse spiders regularly. The drier western Oklahoma climate doesn't change that range.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Purcell", slug: "purcell-ok", stateSlug: "oklahoma" },
+      { name: "Grove", slug: "grove-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Weatherford, OK | Custer County Service",
+    metaDescription:
+      "Weatherford, OK pest control for field crickets, subterranean termites, brown recluse spiders, and fire ants. Custer County service near SWOSU. Free inspection.",
+  },
+  {
+    slug: "sallisaw-ok",
+    name: "Sallisaw",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~8,700",
+    county: "Sequoyah County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sallisaw sits in the Cookson Hills, the Ozark foothills of far eastern Oklahoma near the Arkansas border, where the climate runs humid subtropical rather than the drier semi-arid pattern found in western Oklahoma. Hilly, wooded terrain and year-round rainfall keep the ground consistently damp, a sharp contrast to the dry, dust-choked plains John Steinbeck imagined the Joad family fleeing in The Grapes of Wrath, since the real Sallisaw was never part of the Dust Bowl.",
+    topPests: ["Subterranean Termites", "Ticks", "Brown Recluse Spiders", "Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active most of the year",
+        note: "Sallisaw's Ozark-foothill terrain and humid subtropical climate, a sharp contrast to the dry Dust Bowl plains Steinbeck's novel made famous, keep soil moisture consistent enough to sustain termite colonies through most of the year.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The wooded, hilly Cookson Hills terrain surrounding Sallisaw, the same forested landscape that hides Sequoyah's 1829 cabin a few miles outside town, gives ticks steady brush and leaf-litter habitat that a flatter, more open western Oklahoma town would not have.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are a confirmed common household find across Oklahoma, and Sallisaw's older homes and outbuildings see the same regular activity found statewide.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Older homes clustered around Sallisaw's historic 1886 railroad-era core see regular activity from odorous house ants and carpenter ants drawn to moisture-affected wood.",
+      },
+    ],
+    localHook:
+      "Steinbeck picked Sallisaw as the fictional starting point for the Joad family's journey west in The Grapes of Wrath, but the real Sallisaw, hilly and heavily wooded in the Cookson Hills well east of Oklahoma's semiarid plains, never actually experienced the Dust Bowl conditions the novel describes. Sequoyah's Cabin, the 1829 home of the Cherokee scholar who created the Cherokee syllabary, stands about 10 miles outside town as a National Historic Landmark. Sallisaw was founded in 1886 when the Missouri Pacific Railroad reached the site, and it's now the seat of Sequoyah County.",
+    intro:
+      "Sallisaw carries a strange kind of fame: it's the town Steinbeck sent the fictional Joad family fleeing from in The Grapes of Wrath, a story built on dust and drought. The real Sallisaw looks nothing like that. Sitting in the hilly, wooded Cookson Hills of far eastern Oklahoma, well outside the actual Dust Bowl region, Sallisaw's humid subtropical climate keeps the ground damp most of the year rather than parched. That difference matters directly for pest pressure. Subterranean termites stay active across most of the calendar here, feeding on the same year-round soil moisture the fictional drought never touched. Ticks thrive in the wooded hills surrounding town, including the forest around Sequoyah's Cabin, the 1829 National Historic Landmark a few miles outside Sallisaw. Brown recluse spiders, common statewide, and ants in older homes near the historic 1886 railroad core complete the picture. A Sallisaw pest plan looks far more like an Ozark foothill town's than the dust-driven story that made the name famous.",
+    sections: [
+      {
+        heading: "The Fictional Dust Bowl Versus the Real Ozark Foothills",
+        body: "The Grapes of Wrath made Sallisaw a household name for a drought and dust storm crisis it never lived through. The real geography here is hilly and wooded, part of the Cookson Hills stretching toward the Arkansas border, and the climate is humid subtropical, not the dry, dust-prone plains climate the novel's opening chapters describe. That contrast plays out in the pest calendar. Instead of dust-driven concerns, Sallisaw homeowners deal with moisture pests, subterranean termites that need consistently damp soil, and ticks that need shaded, leaf-littered ground, both conditions the actual Cookson Hills terrain supplies and the fictional Dust Bowl plains would not.",
+      },
+      {
+        heading: "Termite Pressure Here Versus Drier Western Oklahoma Counties",
+        body: "Sallisaw's termite pressure runs more consistent through the year than a town on Oklahoma's western plains would see. The Cookson Hills terrain holds rainfall in the soil longer, and the humid subtropical summers rarely produce the kind of extended dry stretch that slows termite colony activity elsewhere in the state. Where a western Oklahoma inspection program can lean more on tracking irrigation and localized moisture sources, a Sallisaw property needs a termite check built around near-year-round activity, especially in the older homes clustered around the 1886 railroad-era downtown core.",
+      },
+      {
+        heading: "Sequoyah's Cabin Woodland Versus the Town Center: Where Ticks Concentrate",
+        body: "Tick exposure in Sallisaw isn't uniform across town. The wooded hills surrounding Sequoyah's Cabin, the 1829 log home of the Cherokee scholar who created the Cherokee syllabary, sit a few miles outside the city and carry considerably heavier tick habitat than Sallisaw's more open downtown core does. A property backing up to Cookson Hills woodland faces meaningfully more tick pressure than one closer to the town center, and pets or family members spending time on wooded trails near the cabin site should be checked for ticks more often than someone staying closer to Main Street.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections on a near-year-round basis given the Cookson Hills' consistent soil moisture.",
+      "Check for ticks after time spent on wooded trails near Sequoyah's Cabin or any brushy edge of town.",
+      "Seal foundation gaps on older homes in Sallisaw's historic railroad-era core.",
+      "Inspect garages and storage areas for brown recluse spiders, common statewide.",
+      "Treat ant entry points around kitchens and bathrooms in older housing stock.",
+    ],
+    costNote:
+      "Termite inspection in Sallisaw is typically free to $75, with treatment running $900 to $2,400 depending on foundation type and how established the colony is. Tick treatment for wooded residential lots near the Cookson Hills averages $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Did Sallisaw actually experience the Dust Bowl like in The Grapes of Wrath?",
+        answer:
+          "No. Steinbeck used Sallisaw as the fictional starting point for the Joad family's journey, but the real Sallisaw sits in the hilly, wooded Cookson Hills of far eastern Oklahoma, well outside the actual Dust Bowl region, and its humid subtropical climate keeps the ground damp rather than dust-dry. That real geography is exactly why Sallisaw's pest pressure runs toward moisture-loving termites and ticks rather than anything dust related.",
+      },
+      {
+        question: "Is tick risk higher near Sequoyah's Cabin than in downtown Sallisaw?",
+        answer:
+          "Yes. The wooded hills around Sequoyah's Cabin, the 1829 National Historic Landmark a few miles outside town, carry considerably more brush and leaf-litter habitat than Sallisaw's more open downtown core, and ticks concentrate in exactly that kind of cover. A property near the cabin's woodland or any similar wooded edge should plan for more frequent tick checks than one closer to Main Street.",
+      },
+      {
+        question: "How consistent is termite activity in Sallisaw through the year?",
+        answer:
+          "More consistent than in drier parts of Oklahoma. The Cookson Hills terrain around Sallisaw holds rainfall in the soil longer, and the humid subtropical summers rarely bring the extended dry spells that slow termite colonies in western Oklahoma, so an annual inspection matters more here than a once-every-few-years check might elsewhere in the state.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Purcell", slug: "purcell-ok", stateSlug: "oklahoma" },
+      { name: "Poteau", slug: "poteau-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Sallisaw, OK | Sequoyah County Service",
+    metaDescription:
+      "Sallisaw, OK pest control for subterranean termites, ticks, brown recluse spiders, and ants. Sequoyah County service in the Cookson Hills. Free inspection.",
+  },
+  {
+    slug: "grove-ok",
+    name: "Grove",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~7,200",
+    county: "Delaware County",
+    climate: "hot-humid",
+    climateDriver:
+      "Grove sits on the shore of Grand Lake o' the Cherokees in far northeastern Oklahoma, close enough to the Missouri border that the humid subtropical climate here feels more like the Ozarks than the drier plains further west. The lake's 46,500 surface acres and miles of shoreline coves hold standing water long after any rain, which keeps mosquito season running longer around Grove than in a landlocked Oklahoma town of similar size.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Ticks", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Grand Lake's 46,500 surface acres and miles of shoreline coves give mosquitoes far more standing-water breeding habitat around Grove than a landlocked Oklahoma town of similar size would have, especially in the calm coves away from the main channel.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active most of the year",
+        note: "The humid subtropical climate near the lake, combined with older lake-cabin construction around Grove, keeps soil moisture consistent enough to sustain termite colonies for most of the year.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The wooded shoreline trails around Har-Ber Village Museum and other lakeside paths give ticks the brush and leaf-litter habitat they need close to residential lots.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Common across Oklahoma, brown recluse spiders turn up regularly in boat storage buildings and garages around Grove the same way they do statewide.",
+      },
+    ],
+    localHook:
+      "Grove got its start in 1888 as a post office along an old trail through the Cherokee Nation's Delaware District, in a spot named for a stand of trees near a spring. Today it's the seat of Delaware County and sits directly on Grand Lake o' the Cherokees, a 46,500-acre reservoir that has turned the town into something of a retirement and vacation destination for boaters and anglers. Har-Ber Village Museum, a collection of relocated 19th century log cabins, a schoolhouse, a jail, and other pioneer-era buildings, sits right on the lakeshore within city limits.",
+    intro:
+      "If you've spent any time on Grand Lake, you already know the water shapes everything about life in Grove, including your pest season. The lake's 46,500 surface acres and its many quiet coves hold standing water for days after a storm passes, and that's exactly what mosquitoes need to keep breeding well past the point a landlocked Oklahoma town would see them taper off. Termites stay busy too, especially in the older cabins built decades ago along the shoreline, back before Grove became the retirement and boating destination it is now. Ticks turn up on the wooded trails around Har-Ber Village Museum and other shoreline paths, and brown recluse spiders, common across the whole state, show up in boat storage buildings and garages the way they do everywhere else in Oklahoma. Living on the lake is a genuine trade-off: the same water that makes Grove worth the drive also stretches out the pest calendar a few extra weeks each side of summer.",
+    sections: [
+      {
+        heading: "What Living on Grand Lake Means for Your Pest Season",
+        body: "Here's the good news: mosquito pressure around Grove isn't a mystery once you understand the lake's shape. Grand Lake o' the Cherokees runs southwest to northeast across roughly 46,500 surface acres, and its many sheltered coves hold calm, still water that a breezier main channel doesn't. Those coves are where mosquitoes lay eggs and where standing water lingers longest after rain. A property tucked into one of those quiet inlets is going to see a longer mosquito season than a home on open water or set back from the shoreline. Clearing gutters, dumping any container that holds water after a storm, and treating standing water near the dock all matter more here than they would inland.",
+      },
+      {
+        heading: "Older Lake Cabins Need a Different Kind of Termite Check",
+        body: "What catches people out in Grove is assuming a cabin that's held up fine for decades doesn't need regular termite attention. Many of the older cabins around Grand Lake predate the retirement and vacation boom that reshaped the town, and their age means more accumulated exposure to subterranean termites in the lakeshore soil than a newer build has had. A cabin used seasonally rather than year round is even easier for termite activity to go unnoticed in, since nobody's checking the crawl space every week. An annual inspection catches that kind of quiet damage before a spring opening reveals a bigger problem.",
+      },
+      {
+        heading: "Walking the Har-Ber Village Trail? Check for Ticks After",
+        body: "Har-Ber Village Museum's nature trail and the wooded shoreline paths around it are a genuine local favorite, and they're also where Grove residents pick up the most ticks. The brush and leaf litter along those lakeside paths give ticks exactly the cover they need, and a walk through the museum grounds or any similar wooded stretch near the water is worth a tick check afterward, for both people and pets. It's a small habit that heads off a bigger problem before it starts.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and dump standing water near your dock or shoreline property after every rain.",
+      "Schedule an annual termite inspection for older lake cabins, especially those used only seasonally.",
+      "Check for ticks after walking the Har-Ber Village trail or any wooded shoreline path.",
+      "Inspect boat storage buildings and garages for brown recluse spiders.",
+      "Ask about mosquito treatment for shoreline coves where water sits still after storms.",
+    ],
+    costNote:
+      "Mosquito treatment for shoreline and lakeside properties around Grove typically runs $75 to $150 per visit or $300 to $600 for a full season program. Termite inspection for older lake cabins is usually free to $75, with treatment from $900 to $2,500 depending on the extent of damage. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Grove have a longer mosquito season than inland Oklahoma towns?",
+        answer:
+          "Grand Lake o' the Cherokees covers roughly 46,500 surface acres around Grove, and its many sheltered coves hold calm standing water for days after a storm, longer than a landlocked town's drainage typically allows. That extended standing water gives mosquitoes more time and more breeding sites, which stretches Grove's mosquito season further into spring and fall than a town without a large lake would see.",
+      },
+      {
+        question: "Do older cabins around Grand Lake need more termite attention?",
+        answer:
+          "Yes. Many of the cabins built around Grove before the town's retirement and vacation boom have decades more accumulated exposure to subterranean termites in the lakeshore soil than newer construction, and cabins used only seasonally make it easier for early termite activity to go unnoticed. An annual inspection is the simplest way to catch it before a spring opening turns up a bigger repair.",
+      },
+      {
+        question: "Is Har-Ber Village Museum a tick risk?",
+        answer:
+          "The museum's nature trail and the wooded shoreline paths around it do carry real tick habitat, the same brush and leaf litter that ticks need anywhere in northeastern Oklahoma. It's not a reason to skip the trail, just a reason to check yourself, your family, and any pets for ticks after a visit.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Poteau", slug: "poteau-ok", stateSlug: "oklahoma" },
+      { name: "Weatherford", slug: "weatherford-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Grove, OK | Delaware County Grand Lake Service",
+    metaDescription:
+      "Grove, OK pest control for mosquitoes, termites, ticks, and brown recluse spiders. Delaware County service on Grand Lake o' the Cherokees. Free inspection.",
+  },
+  {
+    slug: "poteau-ok",
+    name: "Poteau",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~9,100",
+    county: "LeFlore County",
+    climate: "hot-humid",
+    climateDriver:
+      "Poteau sits in the Ouachita Mountain foothills of southeastern Oklahoma, in the valley below Cavanal Hill, and the humid subtropical climate here supports the same wooded, moisture-holding terrain found across the rest of the Ouachita range. The Poteau River runs along the edge of town as part of the wider Arkansas River watershed, adding floodplain moisture to a setting that's already damp most of the year.",
+    topPests: ["Ticks", "Subterranean Termites", "Mosquitoes", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The wooded, brushy Ouachita foothill terrain covering Cavanal Hill's roughly 1,960 feet of rise above the Poteau River valley extends into residential lots on the edges of town, giving ticks steady cover close to homes.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active most of the year",
+        note: "Humid foothill soil and Poteau River valley moisture keep the ground damp most of the year, sustaining termite colonies at levels typical of the wider Ouachita Mountain region.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Low-lying spots in the Poteau River valley hold standing water well after rain, part of the same Arkansas River watershed the McClellan-Kerr Arkansas River Navigation System uses for barge traffic, keeping mosquitoes active longer than on higher ground.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Common statewide, brown recluse spiders regularly turn up in Poteau garages and outbuildings, consistent with the species' confirmed range across Oklahoma.",
+      },
+    ],
+    localHook:
+      "Poteau is the seat of LeFlore County, sitting in the valley below Cavanal Hill, a peak locally promoted as the 'World's Highest Hill' because its roughly 1,960 feet of rise from the Poteau River valley to its 2,385-foot summit clears the informal 2,000-foot threshold said to separate a hill from a mountain. A paved road climbs about 4.5 miles to the top. The Poteau River here is part of the Arkansas River watershed that the McClellan-Kerr Arkansas River Navigation System, a 445-mile inland waterway connecting the Tulsa Port of Catoosa to the Mississippi River, uses to move barge traffic through eastern Oklahoma and Arkansas.",
+    intro:
+      "If you've driven up Cavanal Hill for the view, you've already seen how much forest surrounds Poteau on every side. The peak, locally billed as the 'World's Highest Hill' for its roughly 1,960 feet of rise above the Poteau River valley, is covered in exactly the kind of wooded, brushy terrain that keeps LeFlore County's tick population fed year after year. That same forested, hilly ground makes Poteau service calls different from a flatter Oklahoma town's. Properties spread out across the Ouachita foothills take longer to reach than a compact subdivision would, and the Poteau River valley below town holds enough standing water after rain to keep mosquitoes active well into fall. Subterranean termites stay busy in the humid, wooded soil, and brown recluse spiders, common statewide, turn up in garages and outbuildings the way they do everywhere in Oklahoma. Getting service scheduled around LeFlore County's spread-out, hilly addresses takes a little more planning than a grid-pattern town would need.",
+    sections: [
+      {
+        heading: "Cavanal Hill's Wooded Slopes Bring Ticks Right to Town",
+        body: "Here's what catches people out: you don't have to hike to the top of Cavanal Hill to run into ticks. The same wooded, brushy terrain that covers the hill's roughly 1,960 feet of rise above the Poteau River valley extends right down into residential lots on the edges of Poteau, and ticks don't need much more than shaded brush and leaf litter to establish themselves. A yard backing up to any of that Ouachita foothill woodland sees noticeably more tick activity than a property closer to downtown, and pets that spend time in that kind of cover often pick up ticks before anyone in the house notices.",
+      },
+      {
+        heading: "Scheduling Service Around Poteau's Spread-Out LeFlore County Addresses",
+        body: "Poteau and the surrounding LeFlore County countryside cover a lot of hilly, forested ground, and that changes how service gets scheduled compared to a more compact town. Properties tucked into the foothills around Cavanal Hill or spread along the Poteau River can take longer to reach than a home in a tight subdivision, so routes here get planned with more buffer time built in. Same-day emergency response is still available for urgent issues, but a routine appointment in the more rural stretches of LeFlore County works best booked a day or two ahead rather than as a same-morning call, simply because of the driving distance involved.",
+      },
+      {
+        heading: "The Poteau River Valley's Mosquito Season",
+        body: "The Poteau River runs along the edge of town as part of the Arkansas River watershed that feeds the McClellan-Kerr Arkansas River Navigation System's barge traffic all the way to the Mississippi. Closer to home, that same river valley holds standing water in low-lying spots well after a rain has passed, which keeps mosquitoes breeding through more of the year than higher ground elsewhere in LeFlore County sees. Properties near the river bottom should expect a longer mosquito season than one set back on higher, better-drained ground.",
+      },
+    ],
+    prevention: [
+      "Clear brush and keep grass cut short on any lot bordering Cavanal Hill's wooded terrain to reduce tick habitat.",
+      "Check pets and family members for ticks after time spent on hillside trails or brushy yard edges.",
+      "Schedule routine service a day or two ahead for rural LeFlore County addresses given the driving distance involved.",
+      "Clear standing water in low-lying spots near the Poteau River after rain.",
+      "Inspect garages and outbuildings for brown recluse spiders.",
+    ],
+    costNote:
+      "Tick treatment for wooded residential lots near Cavanal Hill typically runs $150 to $300. Termite inspection is free to $75, with treatment from $900 to $2,400 depending on foundation type. Mosquito treatment for river-bottom properties averages $75 to $150 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Poteau have more ticks than a flatter Oklahoma town?",
+        answer:
+          "Cavanal Hill, the peak locally called the 'World's Highest Hill' for its roughly 1,960 feet of rise above the Poteau River valley, is covered in the same wooded, brushy Ouachita foothill terrain that extends into residential lots on the edges of town. That kind of shaded brush and leaf litter is exactly what ticks need, and yards bordering that woodland see more tick activity than a property closer to downtown Poteau.",
+      },
+      {
+        question: "How does Poteau's hilly LeFlore County terrain affect scheduling?",
+        answer:
+          "Properties spread across the foothills around Cavanal Hill or along the Poteau River can take longer to reach than a home in a compact subdivision, so routine appointments in the more rural parts of LeFlore County are usually best booked a day or two in advance. Same-day emergency response is still available when something urgent comes up.",
+      },
+      {
+        question: "Is the Poteau River a mosquito concern for nearby properties?",
+        answer:
+          "Yes. The river valley holds standing water in low-lying spots well after rain passes, keeping mosquitoes active longer than on higher, better-drained ground elsewhere in LeFlore County. Properties near the river bottom should plan for a longer mosquito season than one set back from the water.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sallisaw", slug: "sallisaw-ok", stateSlug: "oklahoma" },
+      { name: "Grove", slug: "grove-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Poteau, OK | LeFlore County Cavanal Hill Service",
+    metaDescription:
+      "Poteau, OK pest control for ticks, subterranean termites, mosquitoes, and brown recluse spiders. LeFlore County service near Cavanal Hill. Free inspection.",
+  },
+  {
+    slug: "purcell-ok",
+    name: "Purcell",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~6,900",
+    county: "McClain County",
+    climate: "temperate",
+    climateDriver:
+      "Purcell sits on the south bank of the Canadian River in south-central Oklahoma, a transitional climate zone between the state's humid east and drier west. The river's floodplain runs along the edge of the historic downtown, and the older buildings dating back to the 1887 arrival of the Gulf, Colorado and Santa Fe Railway sit close enough to that bottomland to carry real termite and mosquito exposure most upland McClain County properties don't face to the same degree.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active most of the year",
+        note: "The Canadian River floodplain holds moisture longer than upland McClain County ground, giving termite colonies near the historic downtown core more consistent conditions to expand.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Standing water in low spots near the Canadian River bottomland keeps mosquitoes breeding on river-adjacent Purcell properties longer than on drier ground further from the water.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants are established across McClain County's pastureland and rebuild mounds quickly after rain, particularly on properties set back from the river toward open pasture.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Common statewide according to Oklahoma State University Extension, brown recluse spiders turn up in Purcell garages and storage areas the same way they do across the rest of Oklahoma.",
+      },
+    ],
+    localHook:
+      "Purcell was born in 1887 when the Gulf, Colorado and Santa Fe Railway reached the south bank of the Canadian River and named the new depot town for Santa Fe vice president Edward B. Purcell. Because the Chickasaw Nation's early residents built the local economy on cattle, horses, and hogs, and because the town sat directly on the border of the Unassigned Lands ahead of the 1889 Land Run, Purcell grew fast into what was called the Queen City of the Chickasaw Nation and the second-largest cotton shipping point in Indian Territory. It's the seat of McClain County today.",
+    intro:
+      "Purcell's pest pressure comes down to one factor more than any other: how close a property sits to the Canadian River. The town was built on the river's south bank in 1887, when the Gulf, Colorado and Santa Fe Railway reached the site and the Chickasaw Nation's cattle economy turned it into a shipping hub known as the Queen City of the Chickasaw Nation. That same river bottomland still holds moisture that drives subterranean termite activity and mosquito breeding today. Fire ants are established across McClain County's pastureland and rebuild mounds fast after rain. Brown recluse spiders, common statewide according to Oklahoma State University Extension, turn up in garages and storage areas the way they do everywhere in Oklahoma. The historic downtown core, built up during Purcell's railroad boom, adds another factor: older buildings with more decades of accumulated termite exposure than the newer construction further from the river.",
+    sections: [
+      {
+        heading: "What Drives Pest Pressure in Purcell",
+        body: "The Canadian River floodplain is the single biggest factor in Purcell's pest calendar. Bottomland soil near the river holds moisture longer than the upland pasture and residential ground elsewhere in McClain County, which gives subterranean termite colonies more consistent conditions to expand and gives mosquitoes more standing water to breed in after rain. Purcell's historic downtown, built up during the railroad boom that followed the Santa Fe's 1887 arrival, sits close enough to that floodplain that its older buildings carry real accumulated termite exposure. Properties further from the river, out on McClain County's drier pastureland, deal more with fire ants than with river-driven moisture pests.",
+      },
+      {
+        heading: "The Order of Work for a Purcell Inspection",
+        body: "A Purcell inspection starts at the foundation closest to the Canadian River side of the property, checking for termite mud tubes and moisture buildup, since river-bottom proximity is the strongest predictor of termite risk here. Next comes a check of gutters, downspouts, and any low ground where water pools after rain, since that standing water is what drives mosquito breeding on river-adjacent lots. Yard and pasture edges get checked for fire ant mounds, more relevant on properties set back from the river toward McClain County's open pastureland. Garages, attics, and storage boxes get a final check for brown recluse spiders, a statewide baseline risk that doesn't change based on river proximity.",
+      },
+      {
+        heading: "Why the Canadian River Floodplain Changes the Math",
+        body: "A property two blocks from the Canadian River and a property two miles out on McClain County pastureland are not the same pest risk, even though they're both technically Purcell addresses. The floodplain lot needs a termite inspection built around near-constant bottomland moisture and a mosquito plan that accounts for standing water after every rain. The pastureland lot deals with fire ants more than moisture pests, and drier upland soil means termite risk depends more on irrigation and roof drainage than on ambient ground moisture. Knowing which side of that line a property falls on changes what an effective pest plan actually looks like.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspection more frequently for properties near the Canadian River floodplain given its consistent moisture.",
+      "Clear gutters and address standing water on river-adjacent lots after every rain to reduce mosquito breeding.",
+      "Treat fire ant mounds promptly in McClain County pastureland, especially after rain.",
+      "Inspect the historic downtown core's older buildings for accumulated termite exposure.",
+      "Check garages and storage areas for brown recluse spiders.",
+    ],
+    costNote:
+      "Termite inspection in Purcell is typically free to $75, with treatment from $900 to $2,500 depending on how close the property sits to the Canadian River floodplain. Mosquito treatment for river-adjacent lots runs $75 to $150 per visit. Fire ant mound treatment for pastureland properties averages $75 to $175. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near the Canadian River increase pest risk in Purcell?",
+        answer:
+          "Yes. The river's floodplain holds moisture longer than the upland pasture and residential ground elsewhere in McClain County, which gives subterranean termites more consistent conditions and gives mosquitoes more standing water to breed in after rain. A property close to the river needs a different inspection schedule than one further out on drier pastureland.",
+      },
+      {
+        question: "Why does Purcell's historic downtown need extra termite attention?",
+        answer:
+          "The downtown core built up during the railroad boom that followed the Santa Fe railway's 1887 arrival sits close to the Canadian River floodplain, and its older buildings have decades more accumulated termite exposure than newer construction further from the water. That combination of age and river proximity is why the historic core gets a more frequent inspection schedule.",
+      },
+      {
+        question: "Is fire ant pressure different out on McClain County pastureland versus in town?",
+        answer:
+          "Yes. Properties set back from the Canadian River, out on McClain County's drier pastureland, deal more with fire ants than with the river-driven termite and mosquito pressure that closer-in Purcell properties see. Fire ant mounds rebuild quickly after rain in that open pastureland setting.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Weatherford", slug: "weatherford-ok", stateSlug: "oklahoma" },
+      { name: "Sallisaw", slug: "sallisaw-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Purcell, OK | McClain County Canadian River Service",
+    metaDescription:
+      "Purcell, OK pest control for subterranean termites, mosquitoes, fire ants, and brown recluse spiders. McClain County service near the Canadian River. Free inspection.",
+  },
 ];

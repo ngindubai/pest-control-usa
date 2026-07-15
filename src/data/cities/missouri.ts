@@ -5404,4 +5404,459 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Fulton, MO pest control for termites in historic campus buildings, carpenter ants, fall mice, and courthouse-square cockroaches. Free inspection.",
   },
+  {
+    slug: "maryville-mo",
+    name: "Maryville",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~10,633",
+    county: "Nodaway County",
+    climate: "cold-humid",
+    climateDriver:
+      "Maryville sits in the far northwest corner of Missouri, closer to the Iowa border than to Kansas City, where cold-humid continental conditions bring hard winters and humid, storm-prone summers. The rolling loess hills and Missouri River bluffs west of town hold moisture well into the growing season, and Nodaway County's mix of row-crop farmland and small-town lots gives both field pests and structural pests plenty of edge habitat to move between.",
+    topPests: ["Termites", "Boxelder Bugs", "House Mice", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Nodaway County's farmland soil holds moisture consistently through the growing season, and Maryville's mix of century-old downtown buildings and newer subdivisions both give eastern subterranean termite colonies wood contact to exploit close to the ground.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Congregate in fall, active into early winter",
+        note: "Northwest Missouri State University's campus is home to the official Missouri State Arboretum, with more than 1,700 trees across 130-plus species. That much mature maple and boxelder growth close to campus housing and nearby neighborhoods gives boxelder bugs an unusually large local population to draw from each fall when they swarm sunny walls looking for a way inside.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp increase October through December",
+        note: "Maryville's cold winters push mice indoors hard once the first real frost hits, and the turnover of off-campus student rentals near the university means gaps around foundations and utility lines do not always get caught before the season's first mice move in.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November, overwinter in wall voids",
+        note: "Like much of Missouri's cold-humid northern belt, Maryville's older homes, especially those built before modern sealing standards, see cluster flies gather on sunny exterior walls each fall and slip into attic vents and siding gaps to overwinter.",
+      },
+    ],
+    localHook:
+      "Maryville is home to Northwest Missouri State University, whose campus holds the official Missouri State Arboretum: more than 1,700 trees across over 130 species, maintained since 1993 around a Collegiate Gothic Administration Building listed on the National Register of Historic Places in 2010. The city was platted in 1845 and named for Mary Graham, wife of an early postmaster, and today that dense, mature tree canopy sits right beside the student housing and older neighborhoods that ring campus, a combination that shapes Maryville's pest pressure as much as the region's cold winters do.",
+    intro:
+      "Pest control in Maryville has to account for two things most Nodaway County properties share: a cold-humid northern Missouri climate that pushes pests indoors hard every fall, and an unusually large amount of mature tree cover concentrated around the Northwest Missouri State University campus, home to the official Missouri State Arboretum. That density of maples and boxelders feeds a heavier than average boxelder bug population each autumn, while eastern subterranean termites keep working the farmland-adjacent soil around downtown and the newer subdivisions on the edge of town. Add cluster flies working their way into older homes each September and a fall mouse surge driven by both cold weather and student-rental turnover, and Maryville's pest calendar runs busiest from Labor Day through the first hard freeze.",
+    sections: [
+      {
+        heading: "Why the Arboretum Shapes Maryville's Boxelder Bug Season",
+        body: "Most Missouri towns deal with boxelder bugs in the fall. Maryville deals with more of them, because Northwest Missouri State University's campus carries the official Missouri State Arboretum designation and has since 1993, with upward of 1,700 individual trees spanning more than 130 species maintained across campus grounds. Boxelder bugs feed and breed almost exclusively on boxelder, maple, and ash seeds, and a concentration of mature trees at that scale, sitting directly next to dorms, off-campus rentals, and the neighborhoods closest to campus, means the fall congregation on sunny, south-facing walls tends to be heavier here than in a Nodaway County town without that tree density. Sealing exterior gaps before the first warm fall afternoons draw bugs toward the building is the most effective single step, since once they are inside a wall void, they are far harder to remove than to keep out.",
+      },
+      {
+        heading: "Termites and Farmland Soil Around Nodaway County",
+        body: "Nodaway County's economy still runs on row-crop farming, and that same soil, worked and irrigated for corn and soybeans, holds moisture well into the growing season on the properties that back up to farmland at Maryville's edges. Eastern subterranean termites need sustained soil moisture and wood contact to build a colony, and Maryville's mix of century-old buildings downtown, some dating close to the city's 1845 founding, and newer construction on former farmland both offer that access if foundations are not properly inspected. A spring swarm of winged termites indoors is usually the first visible sign a colony nearby has matured enough to send out reproductives, and it is worth treating as a call to schedule an inspection rather than a one-off nuisance.",
+      },
+      {
+        heading: "Cold Winters, Student Turnover, and Maryville's Fall Mouse Surge",
+        body: "Maryville sits far enough into Missouri's northwest corner that its winters run colder and arrive earlier than most of the state, and house mice respond to that first hard frost by moving indoors in large numbers through October, November, and into December. The off-campus rental housing near Northwest Missouri State University adds a second pressure point: turnover between tenants means small foundation and utility gaps do not always get caught and sealed before a new lease starts, and mice that find an opening in September or October settle in for a Missouri winter rather than move on. Landlords and homeowners who seal obvious gaps before the season's first cold snap consistently see fewer mice than those who wait until an infestation is already established.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and vents before early fall to reduce boxelder bug entry near mature tree cover, especially close to the Northwest Missouri State University campus.",
+      "Schedule a termite inspection for any home or building bordering farmland on Maryville's edges, where soil moisture stays consistent through the growing season.",
+      "Ask about a landlord's exclusion history before signing an off-campus rental lease, since unsealed gaps carry over between tenants.",
+      "Seal foundation and utility-line gaps before the first hard frost to reduce the fall mouse surge.",
+      "Check attic vents and siding for cluster fly entry points each September in older homes.",
+    ],
+    costNote:
+      "Termite inspection in Maryville is typically free to $75, with treatment ranging from $850 to $2,400 depending on infestation extent and foundation type. Boxelder bug exterior treatment near heavy tree cover averages $125 to $225. Mouse exclusion in off-campus rental housing typically runs $150 to $325 depending on entry points. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Maryville seem to have more boxelder bugs than nearby Nodaway County towns?",
+        answer: "It largely comes down to Northwest Missouri State University's campus, which holds the official Missouri State Arboretum designation with more than 1,700 trees across over 130 species. Boxelder bugs feed and breed on boxelder, maple, and ash seeds, and that much mature tree cover sitting right next to campus housing and the surrounding neighborhoods gives the local population more to draw from each fall than a Nodaway County property farther from that concentration of trees.",
+      },
+      {
+        question: "Does living near farmland increase termite risk around Maryville?",
+        answer: "It can. Nodaway County's row-crop farmland holds soil moisture well into the growing season, and eastern subterranean termites need that sustained moisture along with wood contact to build a colony. Homes and buildings on Maryville's edges, closest to active farmland, generally warrant a closer look at foundation wood contact than a property well inside the older parts of town.",
+      },
+      {
+        question: "Why do mice show up in Maryville rentals near campus every fall?",
+        answer: "Maryville's location in Missouri's far northwest corner means winter arrives earlier and colder than most of the state, and mice respond by moving indoors hard through October and November. Off-campus rental housing near Northwest Missouri State University adds turnover between tenants, which means foundation and utility gaps do not always get sealed before a new lease begins, giving mice an opening right as the cold sets in.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Moberly", slug: "moberly-mo", stateSlug: "missouri" },
+      { name: "West Plains", slug: "west-plains-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Maryville, MO | Nodaway County Missouri",
+    metaDescription:
+      "Maryville, MO pest control for boxelder bugs near the NWMSU arboretum, termites, fall mice, and cluster flies. Nodaway County service. Free inspection.",
+  },
+  {
+    slug: "moberly-mo",
+    name: "Moberly",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~13,783",
+    county: "Randolph County",
+    climate: "cold-humid",
+    climateDriver:
+      "Moberly sits in north-central Missouri's cold-humid belt, where hard winters and humid, thunderstorm-heavy summers shape a pest calendar built around indoor overwintering pressure. The city grew up as a railroad division point, and its historic core still carries more than a century of rail yard and repair-shop infrastructure, buildings whose age gives moisture and pests more opportunity than newer construction on the edge of town.",
+    topPests: ["Termites", "Carpenter Ants", "House Mice", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Moberly's downtown grew up fast around its 1866 founding as a railroad junction, and the brick commercial buildings from that boom, many well over a century old, give eastern subterranean termites more wood-contact entry points than the newer construction on the city's edges.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture damage in aging window frames and roof lines on Moberly's historic rail-era buildings gives carpenter ants the softened wood they favor for nesting, a pattern more common downtown than in newer residential subdivisions.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through November",
+        note: "North-central Missouri's cold-humid climate brings a real winter, and older homes near Moberly's downtown and rail yard tend to carry more of the small foundation gaps mice use to enter than newer housing on the edge of town.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, steadiest in commercial buildings",
+        note: "The restaurant and retail space concentrated in Moberly's historic downtown core, built up around the old rail yard and repair shops, gives German cockroaches the shared walls and steady warmth they need to persist between adjoining units.",
+      },
+    ],
+    localHook:
+      "Moberly grew up almost overnight after being platted in 1866 as a junction for the North Missouri Railroad, earning it the nickname the Magic City for how fast it grew into a division point and repair-shop hub, home to one of the earliest large railroad repair plants west of the Mississippi when it opened in 1872. Norfolk Southern still runs a rail yard through town today, and Moberly was also the childhood home of Army General Omar Bradley. That railroad-era growth left a downtown core of century-plus brick commercial buildings that shapes the city's pest pressure as much as its cold, humid climate does.",
+    intro:
+      "Pest control in Moberly reflects a city built fast around a 19th-century railroad boom. Platted in 1866 and grown quickly enough to earn the nickname the Magic City, Moberly's downtown still carries the century-plus brick commercial buildings that went up around its rail yard and repair shops, buildings whose age gives termites and carpenter ants more entry points than newer construction on the edge of town. North-central Missouri's cold-humid climate adds a hard winter that pushes house mice indoors every fall, and the concentration of older restaurant and retail space downtown keeps German cockroach pressure steadier in the commercial core than in Moberly's newer residential subdivisions.",
+    sections: [
+      {
+        heading: "Termite and Carpenter Ant Risk: Moberly's Railroad-Era Downtown Versus Newer Construction",
+        body: "Moberly's identity is tied to its 1866 founding as a railroad junction, and the growth that followed was fast enough to earn the city its Magic City nickname. That boom left behind a downtown core of brick commercial buildings, many well over a century old, built around the rail yard and repair shops that made Moberly a division point. Older wood framing, aging foundations, and decades of settling give both eastern subterranean termites and carpenter ants more points of entry than a newer building offers, and moisture that collects in aging window frames or roof lines gives carpenter ants the softened wood they prefer for nesting. A building's age in Moberly's historic core is a more reliable predictor of termite and carpenter ant risk than its exact location in town.",
+      },
+      {
+        heading: "Moberly's Commercial Core Versus Its Newer Retail Space: Comparing Cockroach Pressure",
+        body: "The same downtown district that grew up around Moberly's rail yard and repair shops still concentrates much of the city's restaurant and retail activity, and German cockroaches thrive in exactly that kind of setting: shared walls, steady warmth, and a reliable food source. Commercial kitchens and older multi-tenant buildings near the historic core see more consistent cockroach pressure than newer standalone commercial space on Moberly's outer edges, and a recurring service program tends to work better here than a single treatment, since roaches can move between adjoining units through shared plumbing chases and wall voids.",
+      },
+      {
+        heading: "Older Homes Versus Newer Homes: Comparing Moberly's Fall Mouse Surge",
+        body: "North-central Missouri's cold-humid climate gives Moberly a real winter, and house mice respond to the season's first hard frost by pushing indoors in large numbers through October and November. Older homes near downtown and the rail yard, many built during or shortly after the railroad boom, tend to have more of the small foundation and utility gaps mice use to get inside than newer housing on the edge of town. Sealing those gaps before the weather turns consistently produces a quieter winter than waiting until mice are already established indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any building in Moberly's historic downtown core given its railroad-era age.",
+      "Address moisture damage in older brick commercial buildings promptly to keep carpenter ants from nesting in softened wood.",
+      "Keep a recurring cockroach service in place for restaurants and multi-tenant buildings near the rail yard and downtown.",
+      "Seal foundation and utility-line gaps before the first fall frost to reduce mouse entry.",
+      "Ask for a treatment plan based on a building's construction era rather than its neighborhood alone.",
+    ],
+    costNote:
+      "Termite inspections for Moberly's historic downtown buildings typically run $150 to $325. Carpenter ant treatment for moisture-damaged commercial wood often runs $200 to $450. Recurring German cockroach service for restaurants and multi-tenant buildings typically runs $75 to $150 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Moberly's historic downtown have a higher termite risk than newer parts of the city?",
+        answer: "Generally yes. Moberly's downtown grew up fast after its 1866 founding as a railroad junction, earning the city its Magic City nickname, and many of the brick commercial buildings from that era are well over a century old. Older wood framing and aging foundations give eastern subterranean termites more points of entry than newer construction on Moberly's outer edges.",
+      },
+      {
+        question: "Why do restaurants near Moberly's rail yard deal with more cockroaches?",
+        answer: "The commercial core that grew up around Moberly's rail yard and repair shops still concentrates much of the city's restaurant and retail space, and German cockroaches thrive in that kind of shared-wall, steady-warmth setting. A recurring service program tends to work better than a single treatment here, since roaches can move between adjoining units through shared plumbing.",
+      },
+      {
+        question: "How much does Moberly's cold winter affect pest activity?",
+        answer: "It's a major factor for house mice specifically. North-central Missouri's cold-humid climate brings a real winter, and mice push indoors hard once the first real frost hits, usually through October and November. Older homes near Moberly's downtown and rail yard tend to have more entry points than newer housing, which is why sealing gaps before the season's first cold snap matters.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Maryville", slug: "maryville-mo", stateSlug: "missouri" },
+      { name: "Mexico", slug: "mexico-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Moberly, MO | Randolph County Missouri",
+    metaDescription:
+      "Moberly, MO pest control for termites and carpenter ants in the historic railroad-era downtown, German cockroaches, and fall mice. Free inspection.",
+  },
+  {
+    slug: "marshall-mo",
+    name: "Marshall",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~13,806",
+    county: "Saline County",
+    climate: "temperate",
+    climateDriver:
+      "Marshall sits in west-central Missouri's temperate climate belt, in the Missouri River bottomland region of Saline County, a county named for its salt springs. Warm, humid summers and moderate winters, milder than northern Missouri but without the sustained heat of the state's southern Ozarks, give both structural and moisture pests a long working season without the harshest extremes of either end of the state.",
+    topPests: ["Termites", "Carpenter Ants", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Missouri Valley College's original building, Baity Hall, has stood in Marshall since the college's 1889 founding, and wood-frame construction from that era, on campus and in the surrounding older residential blocks, gives eastern subterranean termites more entry points than a newer Marshall subdivision would have.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture-softened wood in Marshall's older buildings near the Missouri Valley College campus and downtown square gives carpenter ants the nesting sites they favor, more so than in newer construction on the city's outer edges.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Saline County took its name from the salt springs early settlers found along the Missouri River, and that same river bottomland terrain holds standing water long into the warm months, giving mosquitoes an extended breeding season around Marshall.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, overwinter indoors",
+        note: "Saline County's row-crop farmland, mostly corn and soybeans, gives stink bugs a large outdoor population before frost, and as temperatures drop they move toward the nearest sunny exterior wall on homes closest to active farmland.",
+      },
+    ],
+    localHook:
+      "Marshall is the county seat of Saline County, a name drawn from the salt springs early settlers found along the Missouri River bottomland here. The city grew up around Missouri Valley College, founded in 1889, whose original building, Baity Hall, still stands on the National Register of Historic Places with its wooden staircase, vaulted wood ceilings, and stained glass windows intact. That river-bottomland setting and the persistence of century-old wood-frame construction on and around the Missouri Valley College campus both play into how pest pressure builds in Marshall through the year.",
+    intro:
+      "Pest control in Marshall starts with two features of Saline County geography: the Missouri River bottomland that gave the county its name, drawn from natural salt springs found along the river, and the wood-frame buildings that have stood since the city's 19th-century growth, including Baity Hall at Missouri Valley College, the college's original 1889 structure. That bottomland terrain sustains a long mosquito season, the older wood construction on and around campus carries more termite and carpenter ant risk than newer subdivisions, and Saline County's surrounding row-crop farmland brings a predictable fall stink bug push into homes on the edge of town. Marshall's temperate climate, milder than northern Missouri but without the Ozarks' sustained summer heat, keeps most of these pests active across a long working season rather than concentrated into a short peak.",
+    sections: [
+      {
+        heading: "Termites and Carpenter Ants Around Marshall's Historic Wood Buildings",
+        body: "Missouri Valley College's original building, Baity Hall, has stood in Marshall since the college's founding in 1889 and is listed on the National Register of Historic Places for its wooden staircase, vaulted wood ceilings, and stained glass. Wood construction of that age, on campus and in the surrounding older residential blocks, gives eastern subterranean termites and carpenter ants far more entry points and moisture-softened wood to exploit than a newer subdivision on Marshall's outer edges would offer. A spring termite swarm indoors, or a trail of large black ants near a windowsill, is worth treating as a signal to schedule an inspection on any property built before modern construction standards, particularly anything near the college campus or Marshall's historic downtown square.",
+      },
+      {
+        heading: "Why Missouri River Bottomland Keeps Marshall's Mosquito Season Long",
+        body: "Saline County took its name from the salt springs early settlers found along the Missouri River, and that same river bottomland terrain, low, flat, and prone to holding water after spring rain, gives mosquitoes an extended breeding season around Marshall. Standing water in low farm fields, roadside ditches, and any low-lying yard drainage all contribute, and the county's agricultural land use means there is more of that terrain close to town than in a more fully built-out Missouri city of similar size. Removing standing water around a single property, in gutters, containers, and low spots, still meaningfully cuts bite exposure right at the house even though the broader bottomland keeps producing mosquitoes for the rest of the area through the warm months.",
+      },
+      {
+        heading: "Stink Bugs and Marshall's Row-Crop Farmland",
+        body: "Saline County's economy runs heavily on row-crop agriculture, corn and soybeans worked across the bottomland and the higher ground around Marshall, and stink bugs are a genuine agricultural pest in that setting before they ever become a household nuisance. As temperatures drop in fall, stink bugs move off harvested fields and toward the nearest structure with a sunny exterior wall, which often means homes on Marshall's edges closest to active farmland. Once inside, they tend to overwinter in wall voids and attics rather than breed there, so sealing exterior gaps before the fall harvest wraps up is more effective than trying to address them once they are already indoors for the winter.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any wood-frame home or building near the Missouri Valley College campus or Marshall's historic downtown square.",
+      "Address moisture damage in older wood construction promptly to reduce carpenter ant nesting.",
+      "Remove standing water in gutters, containers, and low-lying yard spots given the Missouri River bottomland's extended mosquito season.",
+      "Seal exterior gaps before fall harvest wraps up on nearby farmland to reduce stink bug entry.",
+      "Ask for a termite and carpenter ant inspection based on a building's construction era, not just its neighborhood.",
+    ],
+    costNote:
+      "Termite inspection in Marshall is typically free to $75, with treatment ranging from $900 to $2,500 for older wood-frame properties near campus and downtown. Mosquito treatment for bottomland-adjacent yards averages $75 to $150 per visit. Stink bug exclusion work typically runs $150 to $300 depending on the number of entry points. Free inspection included.",
+    faqs: [
+      {
+        question: "Are older buildings near Missouri Valley College at higher risk for termites?",
+        answer: "Generally yes. Missouri Valley College's original building, Baity Hall, has stood since the college's 1889 founding, and wood-frame construction from that era, on campus and in the surrounding older residential blocks, gives eastern subterranean termites and carpenter ants more entry points than a newer Marshall subdivision would have.",
+      },
+      {
+        question: "Why does Marshall have a longer mosquito season than some other Missouri towns?",
+        answer: "It comes down to the Missouri River bottomland that gave Saline County its name, drawn from the salt springs settlers found along the river. That low, flat terrain holds standing water after spring rain longer than higher ground does, giving mosquitoes an extended breeding season across the warm months around Marshall.",
+      },
+      {
+        question: "Why do stink bugs show up in Marshall homes every fall?",
+        answer: "Saline County's row-crop farmland, mostly corn and soybeans, gives stink bugs a large outdoor population before frost. As temperatures drop, they move off harvested fields toward the nearest sunny exterior wall, which often means homes closest to active farmland on Marshall's edges, and they overwinter in wall voids rather than breed indoors.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Mexico", slug: "mexico-mo", stateSlug: "missouri" },
+      { name: "West Plains", slug: "west-plains-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Marshall, MO | Saline County Missouri",
+    metaDescription:
+      "Marshall, MO pest control for termites near Missouri Valley College, bottomland mosquitoes, carpenter ants, and fall stink bugs. Free inspection.",
+  },
+  {
+    slug: "west-plains-mo",
+    name: "West Plains",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~12,700",
+    county: "Howell County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Plains sits in the Ozark Mountains of south-central Missouri, close enough to the Arkansas border to share more of that state's hot, humid summers than the cooler summers found in northern Missouri. The Ozark Plateau's mix of forest, spring-fed rivers, and rocky karst terrain around Howell County gives ticks, mosquitoes, and termites all the habitat and moisture they need across a long warm season.",
+    topPests: ["Termites", "Ticks", "Mosquitoes", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Howell County's karst limestone terrain, part of the Ozark Plateau, holds soil moisture longer through the year than the flatter, better-drained ground found in northern Missouri, giving eastern subterranean termite colonies more sustained conditions around West Plains.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "West Plains sits close to the spring-fed rivers of the Ozark National Scenic Riverways, and the wooded, brushy terrain along those waterways supports lone star tick and dog tick populations typical of this part of the Ozarks.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Slower pools and low, damp ground near the spring branches and creeks that feed the Ozark National Scenic Riverways give mosquitoes reliable breeding habitat close to West Plains through the warm months.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "West Plains falls within the brown recluse spider's core range, and University of Missouri Extension is direct that this makes the spider a common household pest across the Ozarks, found in basements, storage areas, and garages.",
+      },
+    ],
+    localHook:
+      "West Plains is the county seat of Howell County, laid out in 1858 in the Ozark Mountains of south-central Missouri, close enough to the Arkansas line to draw more of that state's summer heat than most of Missouri sees. The town was burned during a Civil War raid in 1863 and stood empty until the war's end. Today it sits near the spring-fed rivers of the Ozark National Scenic Riverways, and that same karst limestone terrain, riddled with springs and sinkholes, shapes the region's tick, mosquito, and termite pressure as much as its southern latitude does.",
+    intro:
+      "Pest control in West Plains reflects its position deep in the Ozark Mountains, closer to Arkansas than to most of Missouri, where hot and humid summers run longer than in the northern half of the state. Howell County's karst limestone terrain, defined by springs, sinkholes, and the spring-fed rivers of the nearby Ozark National Scenic Riverways, holds moisture in ways that keep termite colonies active most of the year and give mosquitoes reliable breeding habitat through a long warm season. The same wooded, brushy terrain that makes the Ozarks scenic gives ticks plenty of edge habitat close to residential lots, and West Plains sits within the brown recluse spider's core range, a fact University of Missouri Extension is direct about for this part of the state.",
+    sections: [
+      {
+        heading: "Termite Pressure in West Plains' Ozark Karst Terrain",
+        body: "Howell County's position in the Ozark Plateau means the ground underneath West Plains is largely limestone karst, riddled with springs and sinkholes that keep soil moisture higher through more of the year than in the flatter, better-drained ground found farther north in Missouri. Eastern subterranean termites depend on exactly that kind of sustained moisture, and combined with the region's milder winters, colonies around West Plains tend to stay active across more of the calendar than termites in a colder part of the state. An annual inspection matters more here than a once-every-few-years check would in a town with a harder, longer winter to slow termite activity down.",
+      },
+      {
+        heading: "Ticks and Mosquitoes Near the Ozark National Scenic Riverways",
+        body: "West Plains sits close to the spring-fed rivers that make up the Ozark National Scenic Riverways, and that combination of clear spring water, wooded riverbank, and rocky karst terrain supports both ticks and mosquitoes at levels typical of this part of the Ozarks. Lone star ticks and dog ticks use the brush and leaf litter found along wooded property edges, while mosquitoes breed in the slower pools and low, damp ground near spring branches and creeks that feed into the larger river system. Homes closest to wooded riverbank or spring-branch terrain tend to see noticeably more of both pests through the warm months than a property well inside town on cleared, mowed ground.",
+      },
+      {
+        heading: "Brown Recluse Spiders in West Plains Homes",
+        body: "West Plains falls within the core range of the brown recluse spider, and University of Missouri Extension is clear that this makes the spider a common household pest across much of the Ozarks rather than a rare find. Brown recluses favor undisturbed harborage, basements, storage areas, woodpiles, closets, and garages, all common features of Howell County homes. Extension research also notes that a household can share space with a meaningful number of brown recluses without ever being bitten, since the spider avoids contact and only bites defensively. Reducing clutter in storage areas, sealing basement gaps, and shaking out stored clothing and shoes before wearing them are the practical, low-drama responses that matter more than fear of the spider itself.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the Ozark karst terrain's sustained soil moisture and mild winters.",
+      "Check for ticks after time spent near wooded riverbank or spring-branch terrain, and keep grass cut short near the home's perimeter.",
+      "Remove standing water near spring branches, creeks, and low yard drainage to reduce mosquito breeding close to the house.",
+      "Reduce clutter in basements, garages, and storage areas to limit brown recluse harborage.",
+      "Shake out stored clothing, shoes, and boxes before use, a simple habit that meaningfully cuts brown recluse bite risk.",
+    ],
+    costNote:
+      "Termite inspection in West Plains is typically free to $75, with treatment ranging from $900 to $2,600 depending on infestation extent and foundation type. Tick treatment for wooded residential lots averages $150 to $300. Brown recluse spider treatment for basements and storage areas typically runs $150 to $350. Free inspection included.",
+    faqs: [
+      {
+        question: "Is termite risk higher in West Plains than in other parts of Missouri?",
+        answer: "It tends to run more consistent through the year rather than more severe in any one season. Howell County's karst limestone terrain, part of the Ozark Plateau, holds soil moisture longer than the flatter ground found farther north in Missouri, and the region's milder winters give eastern subterranean termite colonies more months of active conditions, which is why an annual inspection matters more here than it might elsewhere in the state.",
+      },
+      {
+        question: "How much of a tick risk is there near the Ozark National Scenic Riverways in West Plains?",
+        answer: "It's a real concern for anyone spending time along the wooded riverbank or spring-branch terrain near West Plains. Lone star ticks and dog ticks both use that brush and leaf litter habitat, and homes closest to wooded or spring-fed terrain typically see more tick activity than properties on cleared, mowed ground closer to the center of town.",
+      },
+      {
+        question: "Are brown recluse spiders really that common in West Plains?",
+        answer: "Yes. West Plains sits within the brown recluse's core range, and University of Missouri Extension describes the spider as a common household pest across the Ozarks, not a rare one. They favor undisturbed spaces like basements, storage areas, and woodpiles, all typical features of Howell County homes, though they avoid human contact and only bite defensively.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Marshall", slug: "marshall-mo", stateSlug: "missouri" },
+      { name: "Maryville", slug: "maryville-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in West Plains, MO | Howell County Missouri",
+    metaDescription:
+      "West Plains, MO pest control for karst-terrain termites, Ozark Riverways ticks and mosquitoes, and brown recluse spiders. Free inspection.",
+  },
+  {
+    slug: "mexico-mo",
+    name: "Mexico",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~11,507",
+    county: "Audrain County",
+    climate: "temperate",
+    climateDriver:
+      "Mexico sits in northeast-central Missouri's temperate climate belt, roughly halfway between Columbia and Hannibal, with warm, humid summers and moderate winters. Audrain County's mix of open farmland and the clay-rich soil that once fed the city's fire brick industry both play into how moisture and structural pests move through Mexico's older housing stock.",
+    topPests: ["Termites", "Carpenter Ants", "Flies", "House Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Mexico's historic downtown square, built up as the Audrain County seat with multi-story brick commercial buildings dating back well over a century to the community's growth around the fire brick and saddle horse industries, gives eastern subterranean termites more wood-contact entry points than the city's newer residential subdivisions.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture damage in aging window frames and roof lines on Mexico's older brick commercial buildings downtown gives carpenter ants the softened wood they favor for nesting, a pattern more common in the historic square than in newer construction.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, heaviest near working stables",
+        note: "Mexico earned the nickname the Saddle Horse Capital of the World after C.T. Quisenberry introduced the Missouri Clay horse here in 1867, and horse farms and stables tracing back to that history, including the historic Simmons Stables, still operate in and around town. Working stables are reliable fly-breeding sites, and properties near them typically see heavier stable and house fly pressure through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Mexico's moderate but real winters push mice indoors each fall, and the older homes near the historic downtown square carry more of the small foundation gaps mice use to get inside than newer housing on the edge of town.",
+      },
+    ],
+    localHook:
+      "Mexico built two national reputations in the same century: it was the Saddle Horse Capital of the World after C.T. Quisenberry introduced the Missouri Clay horse here in 1867, a bloodline that shaped the American Saddlebred and produced the famous show horse Rex McDonald in 1890, and separately the Fire Brick Capital of the World, once home to the A.P. Green Fire Brick Company, whose bricks were used in construction at NASA's Cape Canaveral launch site before the last major plants closed in 2002. The historic downtown square, still anchored by the Audrain County Courthouse and ringed by multi-story brick buildings from that era, and the horse farms that carry on the saddlebred tradition, both shape how pest pressure plays out across Mexico today.",
+    intro:
+      "Pest control in Mexico draws on the city's two historic industries: the Fire Brick Capital of the World legacy that left a downtown square full of multi-story, century-old brick commercial buildings, and the Saddle Horse Capital of the World reputation that keeps working horse farms and stables active in and around town. The older brick buildings downtown carry more termite and carpenter ant risk than Mexico's newer subdivisions, the horse farms tracing back to the Missouri Clay bloodline introduced in 1867 create reliable fly-breeding habitat nearby, and Audrain County's temperate climate brings a real fall mouse surge into the city's older housing stock as the weather turns. A Mexico pest program generally weighs a property's age and its proximity to working stables more than its exact address in town.",
+    sections: [
+      {
+        heading: "Termites and Carpenter Ants in Mexico's Historic Fire Brick District",
+        body: "Mexico's downtown square built up around its identity as the Fire Brick Capital of the World, home for decades to the A.P. Green Fire Brick Company before its plants closed in 2002, and that era left behind multi-story brick commercial buildings that still anchor the square around the Audrain County Courthouse. Brick exteriors do not stop termites, since the wood framing, floor joists, and roof structure inside an older commercial building still offer the same soil contact and moisture access a termite colony needs, and decades of settling create the same kind of small gaps carpenter ants exploit for nesting in softened, moisture-damaged wood. A building's age in Mexico's historic square is a far more useful predictor of termite and carpenter ant risk than whether its exterior happens to be brick or wood.",
+      },
+      {
+        heading: "Fly Pressure Near Mexico's Working Horse Farms",
+        body: "Mexico earned its Saddle Horse Capital of the World reputation after C.T. Quisenberry brought the Missouri Clay horse here in 1867, a bloodline that helped shape the American Saddlebred breed and produced the celebrated show horse Rex McDonald in 1890. That legacy is not just history: working horse farms and stables, including operations tracing back to the historic Simmons Stables, still function in and around Mexico today, and any property that boards or breeds horses generates manure and bedding waste that stable flies and house flies breed in reliably through the warm months. Properties adjacent to or near an active stable typically deal with meaningfully more fly pressure through spring, summer, and fall than a home well inside a residential subdivision away from horse operations.",
+      },
+      {
+        heading: "Mexico's Fall Mouse Surge in Older Downtown Housing",
+        body: "Audrain County's temperate climate gives Mexico a real but not extreme winter, and house mice respond to the season's first sustained cold snap by moving indoors through the fall months. The older homes closest to Mexico's historic downtown square, many built during or after the city's fire brick and saddle horse boom years, tend to carry more of the small foundation and utility gaps mice use to enter than newer housing on the city's edges. Sealing those gaps in September, ahead of the surge, produces a quieter winter than waiting until mice are already established behind walls.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for brick commercial buildings in Mexico's historic downtown square, since brick exteriors do not protect the wood framing inside.",
+      "Address moisture damage in aging window frames and roof lines downtown promptly to reduce carpenter ant nesting.",
+      "Ask about fly control options if your property is near an active horse farm or stable.",
+      "Seal foundation and utility-line gaps before fall to reduce the seasonal mouse surge in older homes.",
+      "Request a treatment plan based on a building's age and proximity to stables rather than its neighborhood alone.",
+    ],
+    costNote:
+      "Termite inspection in Mexico is typically free to $75, with treatment for older downtown commercial buildings ranging from $900 to $2,600. Fly control service for properties near working stables typically runs $100 to $200 per visit during peak season. Mouse exclusion in older homes near downtown often runs $150 to $325. Free inspection included.",
+    faqs: [
+      {
+        question: "Do the brick buildings in downtown Mexico still have termite risk?",
+        answer: "Yes. Mexico's downtown square grew up around its history as the Fire Brick Capital of the World, and while many of the commercial buildings there have brick exteriors, the wood framing, floor joists, and roof structure inside are just as exposed to eastern subterranean termites as any wood-sided building of the same age. Brick does not change the age-related risk, it only changes what you see from the sidewalk.",
+      },
+      {
+        question: "Why do properties near Mexico's horse farms deal with more flies?",
+        answer: "Mexico has been known as the Saddle Horse Capital of the World since C.T. Quisenberry introduced the Missouri Clay horse here in 1867, and working stables descended from that tradition, including operations tied to the historic Simmons Stables, are still active around town. Manure and bedding waste from any working horse operation is a reliable fly-breeding source, so nearby properties typically see heavier fly pressure through the warm months than homes farther from active stables.",
+      },
+      {
+        question: "Does Mexico's winter really drive a mouse problem indoors?",
+        answer: "It's a genuine seasonal pattern. Audrain County's temperate climate brings a real cold snap most falls, and house mice move indoors in response, particularly into the older homes near Mexico's historic downtown square that tend to have more small foundation and utility gaps than newer construction on the edge of town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Moberly", slug: "moberly-mo", stateSlug: "missouri" },
+      { name: "Marshall", slug: "marshall-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mexico, MO | Audrain County Missouri",
+    metaDescription:
+      "Mexico, MO pest control for termites and carpenter ants downtown, flies near horse farms, and fall mice. Audrain County service. Free inspection.",
+  },
 ];
