@@ -2812,4 +2812,514 @@ export const idahoCities: CityLocation[] = [
     metaTitle: "Pest Control in Payette, ID | Wasps, Mice & Stink Bugs",
     metaDescription: "Pest control in Payette, Idaho for yellow jackets, house mice, ants, and stink bugs near the Payette and Snake River confluence. Free inspection. Licensed technicians.",
   },
+  {
+    slug: "emmett-id",
+    name: "Emmett",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~8,800",
+    county: "Gem County",
+    climate: "semi-arid",
+    climateDriver:
+      "Emmett sits along the Payette River in the Emmett Valley, the seat of Gem County and one of Idaho's oldest fruit-growing regions. Growers here have shipped sweet cherries out of the valley since the 1930s, and the annual Cherry Festival still draws tens of thousands of visitors every June. The semi-arid valley climate brings hot, dry summers and cold winters, and that orchard economy shapes local pest pressure in a way flatter farm towns don't see.",
+    topPests: ["Yellow Jackets", "Box Elder Bugs", "House Mice", "Stink Bugs", "Ants"],
+    pestProfile: [
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, worst July through September during fruit drop",
+        note: "Emmett's cherry orchards and backyard fruit trees give wasp colonies a heavy sugar food source once fruit starts falling each summer, and colonies near picnic areas or U-pick rows grow large and defensive by the height of Cherry Festival season.",
+      },
+      {
+        name: "Box elder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "University of Idaho Extension documents box elder bugs gathering on sunny, south and west facing walls each fall before moving into wall voids for winter, and Emmett's tree-lined streets and canal rows supply the box elder and maple hosts these bugs need close to homes.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in October and November",
+        note: "Homes near orchard blocks or the canal system that feeds Emmett's fruit ground see a fall push of mice once irrigation water is shut off and field cover thins out for winter.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Stink bugs feed on ripening fruit and are drawn to Emmett's orchard blocks, aggregating on sunny walls in fall alongside box elder bugs before they look for winter shelter indoors.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Irrigation from the Payette River canal system keeps soil moisture high through Emmett's dry summers, and ants follow that moisture from canal banks and lawns into homes.",
+      },
+    ],
+    localHook:
+      "Emmett's identity as one of Idaho's original cherry-growing towns creates fruit-drawn pest pressure that flatter, non-orchard farm towns don't share. Wasps and stink bugs build through the summer fruit season, box elder bugs cluster on canal-cooled walls each fall, and the old irrigation system that waters the orchards keeps ants active most of the year.",
+    intro:
+      "Emmett sits along the Payette River in the Emmett Valley, the seat of Gem County and one of Idaho's oldest fruit-growing regions. Growers here have shipped sweet cherries out of the valley since the 1930s, and the annual Cherry Festival still draws tens of thousands of visitors every June. That orchard economy shapes the town's pest pressure in a way flatter farm towns don't see: wasps and stink bugs follow the fruit, box elder bugs cluster on canal-cooled homes each fall, and irrigation from the Payette keeps ant colonies active most of the year.",
+    sections: [
+      {
+        heading: "Why do wasps swarm Emmett's orchards and backyard fruit trees every summer?",
+        body: "Yellow jackets and paper wasps key in on ripening and fallen fruit, and Emmett has more of both than most Idaho towns its size. Once cherries start dropping in the orchard blocks and on backyard trees around town, wasp colonies switch from hunting insects to scavenging sugar, and their numbers build fast through July and August. A nest that starts small in a woodpile or shed in May can hold thousands of workers by the time Cherry Festival crowds fill downtown in June, and colonies close to picnic areas or U-pick rows turn aggressive once foragers associate people with food. Clearing fallen fruit promptly and checking sheds, eaves, and woodpiles for early nests in spring gives homeowners the best shot at staying ahead of a bad August.",
+      },
+      {
+        heading: "Are box elder bugs worse in an orchard town like Emmett?",
+        body: "Box elder bugs feed on the seeds of box elder, maple, and some fruit trees, and Emmett's tree-lined older neighborhoods and canal banks give them plenty of host plants close to houses. University of Idaho Extension notes these bugs look for sunny, south or west facing walls to gather on each fall before slipping into wall voids and attics for winter, and a home standing alone near mature trees or a canal row tends to draw larger numbers than one surrounded by other structures. They don't bite or damage the structure itself, but a fall cluster on a warm wall can run into the hundreds, and once they're inside a wall void, some always find their way into living space through outlets and window frames over winter. Sealing gaps before September works better than treating bugs already inside.",
+      },
+      {
+        heading: "What draws mice into homes near Emmett's canal-fed orchard land?",
+        body: "Emmett's orchards and hay ground are fed by an old canal system built after the Black Canyon Dam went in during the 1920s, and those canal banks and irrigated field edges are steady mouse habitat year round. As temperatures drop in fall and irrigation water is shut off for the season, mice living along ditch banks and orchard rows lose both food and cover at the same time, and they move toward the nearest heated structure. Homes backing onto orchard blocks or canal easements see this every October and November, often before any droppings or noise are noticed. Sealing gaps around foundation vents, utility penetrations, and garage doors before harvest wraps up is the most reliable way to keep that fall migration outside.",
+      },
+    ],
+    prevention: [
+      "Pick up fallen or overripe fruit from cherry and other orchard trees through summer to cut wasp food sources.",
+      "Check sheds, eaves, and woodpiles for early-season wasp nests in May and June, before colonies grow large.",
+      "Seal south and west facing wall gaps before September to block fall box elder bug entry.",
+      "Close off foundation vents, utility penetrations, and garage door gaps before the fall irrigation shutoff pushes mice toward homes.",
+      "Keep irrigation lines and canal-adjacent lawn edges trimmed to reduce ant trail cover near the foundation.",
+    ],
+    costNote:
+      "Emmett pest plans often pair a summer wasp and stink bug program timed to the fruit season with fall rodent exclusion before the canal system shuts off for winter. Homes right along orchard blocks or canal banks may need a slightly heavier fall visit than in-town properties. Ask providers whether their plan adjusts for orchard-adjacent lots.",
+    faqs: [
+      {
+        question: "Does Emmett's Cherry Festival crowd make wasp problems worse downtown?",
+        answer:
+          "It can. The festival lands in mid-June, right as early cherry varieties ripen and wasp colonies are shifting from protein to sugar foraging. Vendors and picnic areas near fallen fruit or open trash draw foragers in bigger numbers than a quiet residential street would, and a nest near a festival route that goes unnoticed in May can be a real problem by the second week of June. Property owners along the festival route benefit from a spring nest check timed before the event.",
+      },
+      {
+        question: "Why do box elder bugs seem to pick certain Emmett homes over the neighbors?",
+        answer:
+          "Box elder bugs favor buildings with a lot of unobstructed sun exposure on the south or west side, and a home standing near mature box elder, maple, or fruit trees with a canal or ditch bank nearby checks every box they look for. A neighboring house shaded by other structures or lacking those host trees close by will see far fewer, even on the same block.",
+      },
+      {
+        question: "Is the Payette River itself a mosquito source for Emmett?",
+        answer:
+          "The river channel moves too much to breed large mosquito numbers on its own, but the irrigation canals, standing puddles in orchard rows, and backyard water features fed from that system are a different story. Standing water anywhere in the irrigation network gives mosquitoes the still water they need, so managing puddles and clogged ditches on a property matters more than proximity to the river itself.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Weiser", slug: "weiser-id", stateSlug: "idaho" },
+      { name: "Fruitland", slug: "fruitland-id", stateSlug: "idaho" },
+      { name: "Hailey", slug: "hailey-id", stateSlug: "idaho" },
+      { name: "Shelley", slug: "shelley-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Emmett, ID | Wasps, Mice & Box Elder Bugs",
+    metaDescription:
+      "Emmett pest control for yellow jackets, box elder bugs, and mice around Gem County's cherry orchards and canal system. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "weiser-id",
+    name: "Weiser",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~5,900",
+    county: "Washington County",
+    climate: "semi-arid",
+    climateDriver:
+      "Weiser sits where the Weiser River meets the Snake River, at about 2,100 feet on the Oregon border in Washington County. The semi-arid valley climate brings hot, dry summers and cold winters, and the river confluence plus the farmland surrounding town keep both mosquitoes and rodents active through the growing season. Every June the National Oldtime Fiddlers' Contest brings thousands of visitors to a town of under 6,000, timing that matters for downtown pest pressure.",
+    topPests: ["Mosquitoes", "Box Elder Bugs", "Yellow Jackets", "House Mice", "Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak June and July",
+        note: "The confluence of the Weiser and Snake Rivers, along with the irrigation canals serving the surrounding farmland, gives mosquitoes more standing and slow-moving water to breed in than towns away from a river junction, with pressure typically peaking right around Fiddle Week in June.",
+      },
+      {
+        name: "Box elder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Weiser's historic downtown has taller brick buildings that hold heat longer than newer construction, and mature box elder and maple trees on nearby residential streets give these fall aggregators plenty of hosts close to those sunny walls.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October",
+        note: "Ground-nesting colonies along farmland-facing fence lines and field edges around Weiser grow undisturbed through summer and are often at full strength, and defensive, by August.",
+      },
+      {
+        name: "House and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Washington County's grain and orchard ground surrounds Weiser closely enough that most edge-of-town homes back onto farmland, and mice move toward those structures once fields are harvested each fall.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Irrigation-fed lawns and garden beds near the river confluence keep soil moisture high, and ants follow that moisture into foundations through Weiser's dry summer months.",
+      },
+    ],
+    localHook:
+      "Weiser's spot at the confluence of two rivers, surrounded by Washington County farmland, creates a mosquito and rodent pressure profile that shifts with the seasons more sharply than towns set back from the water. The town also swells several times its normal size every June for the National Oldtime Fiddlers' Contest, timing that downtown property owners should plan pest management around.",
+    intro:
+      "Weiser sits right where the Weiser River joins the Snake River, on the Oregon border in Washington County, and that confluence shapes the town's pest calendar as much as its economy. The surrounding irrigated farmland and river corridor give mosquitoes more breeding water than a typical high desert town sees, and box elder bugs and mice both use the mature trees and field edges around the historic downtown as a base to work in from. Weiser draws thousands of visitors each June for the National Oldtime Fiddlers' Contest, and downtown property owners often see mosquito and wasp pressure peak at exactly the same time.",
+    sections: [
+      {
+        heading: "Why does Weiser see more mosquitoes than towns away from a river confluence?",
+        body: "Two rivers meeting at Weiser create more slow-moving side channels, backwater pools, and irrigation diversions than a single river town has, and all of that standing or slow water is mosquito breeding habitat. Add the canals feeding Washington County's farm ground, and Weiser has a wider mosquito season than towns set back from the water. Pressure typically builds through May, peaks in June and July right around the National Oldtime Fiddlers' Contest, and eases as canal water is cut back in late summer. Homeowners with a yard low enough to hold water after irrigation, or a property near an unmaintained ditch, tend to see the heaviest activity. Removing any standing water on the property is the most direct step, since adult mosquitoes rarely travel far from where they hatch.",
+      },
+      {
+        heading: "Do Weiser's older downtown buildings draw more box elder bugs?",
+        body: "They do, for a couple of reasons. Weiser's historic downtown has taller brick and masonry buildings that hold heat longer into the evening than newer construction, and mature box elder and maple trees line many of the older residential streets nearby. University of Idaho Extension notes these bugs gather on sunny, south or west facing walls each fall looking for a warm place to overwinter, and a tall brick building standing near host trees checks both boxes at once. They don't damage the structure, but a fall cluster can be dense enough to be a genuine nuisance on an entrance or a front porch, and once inside wall voids, a portion always work their way into living space over the winter months.",
+      },
+      {
+        heading: "What should Weiser homeowners near farmland watch for with fall mice?",
+        body: "Washington County's grain fields and orchard ground surround Weiser closely enough that most homes on the edge of town back onto some kind of agricultural land. As fields are harvested and irrigation shuts down in September and October, mice lose both food and cover in the same stretch of weeks and move toward the nearest heated building. Older farmhouses and homes on larger rural lots see this first, often through scratching in walls or attics before any droppings turn up in cabinets. Sealing entry points, gaps around foundation vents, utility lines, and garage door seals, before harvest wraps up gives mice fewer ways in right when pressure is highest.",
+      },
+    ],
+    prevention: [
+      "Empty or treat any standing water on the property before June, when the river confluence and canal system push mosquito pressure to its peak.",
+      "Trim mature box elder and maple trees back from sunny walls to reduce fall aggregation sites.",
+      "Check for ground-nesting yellow jackets along farmland-facing fence lines and field edges by early summer.",
+      "Seal foundation vents, utility gaps, and garage door seals before September, when farmland mice move toward buildings.",
+      "Keep gutters and low yard areas draining well through summer to avoid attracting mosquitoes and moisture-seeking ants.",
+    ],
+    costNote:
+      "Weiser pest plans commonly combine a mosquito reduction program timed before Fiddle Week in June with fall rodent exclusion once the surrounding farmland is harvested. Downtown commercial properties may want mosquito treatment prioritized ahead of the festival crowds. Ask providers whether they service Washington County directly or route through a regional Treasure Valley plan.",
+    faqs: [
+      {
+        question: "Does the National Oldtime Fiddlers' Contest change pest pressure in Weiser?",
+        answer:
+          "Indirectly, yes. The contest lands in June, already peak mosquito and early wasp season for Weiser because of the river confluence and surrounding irrigation. It doesn't change the biology, but it does mean downtown businesses and rental properties hosting visitors that week benefit from having mosquito and wasp control handled before the crowds arrive rather than during the event.",
+      },
+      {
+        question: "Why do mice keep coming back to homes on the edge of Weiser after treatment?",
+        answer:
+          "Homes bordering Washington County farmland sit next to a large, ongoing mouse population that treatment inside one house doesn't reduce. As long as the surrounding fields keep producing mice, and most do year after year, new individuals will keep testing a home's exterior for gaps. Exclusion work, sealing the entry points rather than just removing the mice already inside, is what actually breaks the cycle for these edge-of-town properties.",
+      },
+      {
+        question: "Is Weiser's mosquito season really longer than nearby towns?",
+        answer:
+          "It tends to be. The Weiser and Snake River confluence, combined with the irrigation canals across Washington County farmland, gives mosquitoes more breeding water for a longer stretch of the season than towns without a river junction see. Homeowners here often need to keep an eye on standing water into early fall, later than would be typical elsewhere in the Treasure Valley.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Emmett", slug: "emmett-id", stateSlug: "idaho" },
+      { name: "Fruitland", slug: "fruitland-id", stateSlug: "idaho" },
+      { name: "Hailey", slug: "hailey-id", stateSlug: "idaho" },
+      { name: "Shelley", slug: "shelley-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Weiser, ID | Mosquitoes, Wasps & Mice",
+    metaDescription:
+      "Weiser pest control for mosquitoes, box elder bugs, wasps, and mice near the Weiser and Snake River confluence. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fruitland-id",
+    name: "Fruitland",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~6,900",
+    county: "Payette County",
+    climate: "semi-arid",
+    climateDriver:
+      "Fruitland sits directly across the Snake River from Ontario, Oregon, in Payette County, at about 2,190 feet. Named for the apple orchards that once ringed the townsite, it still carries the nickname the Big Apple of Idaho. The semi-arid Treasure Valley climate brings hot, dry summers, and the river crossing plus surrounding orchard and produce ground shape a pest pressure profile built around fruit and irrigation.",
+    topPests: ["Stink Bugs", "Box Elder Bugs", "Yellow Jackets", "House Mice", "Ants"],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Late summer through fall, peaking at apple harvest",
+        note: "Fruitland's apple orchards give stink bugs a reliable food source later into the season than towns growing earlier-ripening fruit, and they aggregate on sunny walls once harvest wraps up in September and October.",
+      },
+      {
+        name: "Box elder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Box elder bugs gather on the same sunny, south and west facing walls as Fruitland's stink bugs each fall, drawn by the mature trees planted through the town's orchard blocks and older streets.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, worst at fall harvest",
+        note: "Colonies switch from hunting insects to scavenging sugar as apple harvest approaches, and fallen or damaged fruit in orchard rows gives them a steady food source right when harvest crews are working close by.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Fruitland's produce ground along the Snake River bottomland is steady mouse habitat, and homes near the river corridor or irrigation ditches see more fall activity than in-town lots set back from the water.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The irrigation network feeding Fruitland's orchard and produce ground keeps soil moisture higher near the river than on drier ground elsewhere in Payette County, and ants follow those moisture trails into homes.",
+      },
+    ],
+    localHook:
+      "Fruitland's apple orchard heritage and its position directly on the Snake River, across from Ontario, Oregon, mean fruit-drawn pests peak later in the year than in Idaho's cherry-growing towns. Stink bugs and wasps build through the fall apple harvest rather than an early summer crop, and the river crossing brings its own moisture-driven pest considerations for homes near the bottomland.",
+    intro:
+      "Fruitland faces Ontario, Oregon, straight across the Snake River, and the town still carries its old nickname, the Big Apple of Idaho, from the orchards that gave it a name. Those orchard blocks, along with produce ground running along the river bottomland, mean Fruitland's pest calendar runs later into fall than towns built around earlier-ripening fruit. Stink bugs and yellow jackets build through the apple harvest, box elder bugs cluster on sunny walls once the weather cools, and homes near the river or irrigation ditches deal with a steadier ant and mouse presence than drier in-town lots.",
+    sections: [
+      {
+        heading: "Why do stink bugs show up on Fruitland homes right around apple harvest?",
+        body: "Stink bugs feed directly on ripening fruit, and Fruitland's apple orchards give them a reliable food source later into the season than towns growing earlier fruit varieties. As harvest wraps up through September and into October, stink bugs shift from feeding in the orchard to looking for winter shelter, and they aggregate on sunny walls the same way box elder bugs do, sometimes on the very same buildings. Homes closest to orchard blocks or with mature fruit trees in the yard see the heaviest numbers. They don't bite or damage a home's structure, but disturbing a cluster indoors, in a vent or attic space, releases their characteristic odor, so sealing entry points before fall aggregation starts is worth doing ahead of harvest rather than after.",
+      },
+      {
+        heading: "Does sitting right on the Snake River change Fruitland's pest pressure?",
+        body: "It does, mostly through moisture. The river bottomland and the irrigation network feeding the surrounding orchard and produce ground keep soil and air moisture higher near the water than on higher ground elsewhere in Payette County. That favors ants following moisture trails into foundations, and it gives mosquitoes more slow water and side-channel habitat to breed in through the summer. Homes right along the river corridor or backing onto irrigation ditches typically see both earlier and heavier pest activity than similar homes set back from the water, simply because the moisture that supports Fruitland's orchards also supports the pests drawn to it.",
+      },
+      {
+        heading: "Why do wasps get worse in Fruitland right around apple harvest?",
+        body: "Yellow jackets switch from hunting insects to scavenging sugar as summer turns to fall, and a working apple orchard gives them a steady supply of fallen and damaged fruit right when that shift happens. Colonies that started small in spring can be at full strength by September, right as harvest crews and homeowners alike move through orchard rows and backyard trees picking fruit. Nests are often in the ground or in old equipment left at field edges, easy to miss until someone is working close by. Picking up dropped apples promptly and checking equipment and ground cover before harvest begins cuts down on stings during the busiest weeks of the season.",
+      },
+    ],
+    prevention: [
+      "Pick up dropped or damaged apples from orchard blocks and yard trees through the fall harvest window.",
+      "Seal wall gaps and vents before September, when stink bugs and box elder bugs begin their fall aggregation.",
+      "Check ground cover and old equipment at field edges for yellow jacket nests before harvest crews move through.",
+      "Manage irrigation ditches and standing water along the river bottomland to reduce mosquito breeding sites.",
+      "Keep foundation areas dry and monitor for ant trails on homes near the river corridor.",
+    ],
+    costNote:
+      "Fruitland pest plans typically time stink bug and wasp treatment to the fall apple harvest, later than towns built around earlier fruit crops. Homes along the Snake River bottomland may also want mosquito and moisture-related ant treatment factored in. Ask providers whether their program accounts for orchard harvest timing specific to apples rather than stone fruit.",
+    faqs: [
+      {
+        question: "Is Fruitland's stink bug season really later than other Idaho orchard towns?",
+        answer:
+          "Generally yes. Fruitland's orchards are built around apples, which ripen and get harvested later in the year than cherries or other stone fruit grown in some other Idaho towns. Stink bug and box elder bug aggregation on homes tends to build through September and October here, later than towns where the dominant local fruit crop comes off in June or July.",
+      },
+      {
+        question: "Does being across the river from Ontario, Oregon affect Fruitland's pest control needs?",
+        answer:
+          "Not because of the state line itself, but the river corridor does matter. Fruitland sits on the Idaho side of the Snake River bottomland, and homes closest to the river or the irrigation network feeding it deal with more moisture-driven pest pressure, ants and mosquitoes especially, than homes farther from the water.",
+      },
+      {
+        question: "Why do wasp nests in Fruitland seem to appear suddenly at harvest time?",
+        answer:
+          "They don't actually appear suddenly, they've usually been building quietly since spring in a ground burrow or piece of field equipment. What changes at harvest is visibility and food supply. Fallen apples give colonies a concentrated sugar source right as people start working through orchard rows, so a nest that was easy to avoid in July becomes a real risk in September simply because more people are moving through the area where it sits.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Emmett", slug: "emmett-id", stateSlug: "idaho" },
+      { name: "Weiser", slug: "weiser-id", stateSlug: "idaho" },
+      { name: "Hailey", slug: "hailey-id", stateSlug: "idaho" },
+      { name: "Shelley", slug: "shelley-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fruitland, ID | Stink Bugs, Wasps & Mice",
+    metaDescription:
+      "Fruitland pest control for stink bugs, box elder bugs, and wasps near the Snake River apple orchards. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hailey-id",
+    name: "Hailey",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~9,800",
+    county: "Blaine County",
+    climate: "cold",
+    climateDriver:
+      "Hailey is the seat of Blaine County and sits in the narrow Wood River Valley at about 5,320 feet, well above the elevation of Idaho's Snake River Plain towns. The Big Wood River runs through town, and the valley's ski country economy around nearby Sun Valley and Ketchum means many homes and cabins back directly onto sagebrush hillsides and forest edges. Winters run colder and snowier here than in southern Idaho's lower desert towns, which shifts the pest mix toward species tied to wild land edges rather than farmland.",
+    topPests: ["Hobo Spiders", "Deer Mice", "Box Elder Bugs", "Yellow Jackets", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Mid-July through early September, adult males wandering",
+        note: "University of Idaho Extension identifies the hobo spider as established statewide, with adult males wandering indoors mid-July through early September searching for mates. Current Extension research does not consider the species medically significant, though Hailey's homes bordering sage and open hillside see more wandering males than denser neighborhoods.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, higher near open land",
+        note: "Hailey's mountain-edge homes and cabins bordering sage and forest see more deer mice than in-town properties. Public health guidance recommends wetting rodent droppings and nesting material before cleanup, rather than dry sweeping, in any home with signs of deer mice.",
+      },
+      {
+        name: "Box elder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Box elder bugs gather on sunny walls each fall before moving into wall voids for winter, a pattern University of Idaho Extension documents statewide, though Hailey's shorter, colder season compresses their active window compared to the Snake River Plain.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Ground-nesting colonies build through the valley's shorter mountain summer, reaching full strength by late August in yards along the valley floor near the Big Wood River.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, winged swarmers in spring",
+        note: "The Wood River Valley's wood-frame homes and cabins, many with log siding or decking exposed to valley moisture, give carpenter ants more damp or weathered wood to colonize than the drier, less wood-heavy construction typical of southern Idaho's desert towns.",
+      },
+    ],
+    localHook:
+      "Hailey's elevation and setting in the Wood River Valley, more than a thousand feet higher than Boise and considerably colder, shift the town's pest mix toward species tied to sage and forest edges rather than irrigated farmland. Hobo spiders wandering in from open hillside, deer mice from mountain-edge lots, and carpenter ants in wood-frame cabins near the Big Wood River are the calls that come up here more than in the state's lower desert towns.",
+    intro:
+      "Hailey sits in the narrow Wood River Valley at roughly 5,320 feet, the seat of Blaine County and considerably higher and colder than most of Idaho's Snake River Plain towns. The Big Wood River runs through the middle of town, and the valley's tie to Sun Valley and Ketchum's tourism economy means plenty of homes and cabins back straight onto sagebrush hillside or forest edge rather than a farm field. University of Idaho Extension documents the hobo spider as established statewide, and Hailey's wild-land-adjacent lots see more wandering males each late summer than denser neighborhoods do. Deer mice, carpenter ants in wood-frame construction, and a shorter but still active wasp season round out the picture.",
+    sections: [
+      {
+        heading: "Why do hobo spiders turn up in Hailey homes every late summer?",
+        body: "Adult male hobo spiders leave their outdoor webs from mid-July through early September looking for mates, and that wandering behavior is what brings them indoors, not an attraction to houses themselves. University of Idaho Extension has documented the species statewide since the early 1990s, and its current research does not treat the hobo spider as medically significant, despite an older reputation. Hailey homes backing onto sagebrush hillside or open lots near the valley floor tend to see more wandering males than homes in denser, more built-up parts of town, simply because there's more outdoor hobo spider habitat right next door. A spider found high on a wall or ceiling is very likely something else, since hobo spiders are poor climbers and stay closer to ground level.",
+      },
+      {
+        heading: "Is mouse cleanup different for a mountain-edge home in Hailey?",
+        body: "It can be, mainly because homes here are more likely to see deer mice rather than the house mice more common in farm towns down on the valley floor below. Public health guidance for any home with signs of deer mice, droppings, nesting material, gnaw marks, recommends wetting the area with a disinfectant before sweeping or vacuuming, rather than dry sweeping dust that can be inhaled. Cabins and homes near Hailey's sage and forest edges that sit unused for stretches over winter are the properties most likely to need this kind of careful cleanup come spring. A straightforward exclusion inspection sealing gaps around foundations and vents reduces how often that cleanup is needed in the first place.",
+      },
+      {
+        heading: "Do Hailey's wood-frame homes near the Big Wood River see more carpenter ants?",
+        body: "Yes, more than the stucco and lighter-frame construction typical of southern Idaho's drier towns. Carpenter ants look for moist or slightly weathered wood to hollow out for nesting, and Hailey has more of that available: cabin decking exposed to valley moisture, log and heavy timber construction near the river, and homes shaded by forest that stay damp longer after storms. They don't eat the wood the way termites do, but a colony can weaken a beam or a deck support over time if it goes unaddressed. Large winged ants appearing indoors in spring, or piles of coarse sawdust near a windowsill or deck post, are signs worth acting on quickly rather than waiting to see if they go away.",
+      },
+    ],
+    prevention: [
+      "Trim sagebrush and ground vegetation back from foundations to reduce wandering hobo spider traffic near entry points.",
+      "Wet down any area with signs of deer mice droppings or nesting material before cleaning, rather than dry sweeping.",
+      "Seal foundation gaps and vents at cabins and mountain-edge homes before winter, when deer mice look for shelter.",
+      "Check deck posts, log siding, and other exposed wood for carpenter ant sawdust piles each spring.",
+      "Locate and treat ground-nesting yellow jacket colonies along valley-floor yards by early summer.",
+    ],
+    costNote:
+      "Hailey pest plans often include a wood structure inspection for carpenter ants alongside standard exterior treatment, given the amount of cabin and heavy timber construction in the Wood River Valley. Mountain-edge and seasonal properties may also want a rodent exclusion check before extended vacancy. Ask providers whether they service Blaine County's outlying cabin properties, not just in-town addresses.",
+    faqs: [
+      {
+        question: "Are hobo spiders in Hailey actually dangerous?",
+        answer:
+          "Current University of Idaho Extension research does not consider the hobo spider medically significant, despite an older reputation for a dangerous bite. What Hailey homeowners are usually dealing with is a wandering adult male, mid-July through early September, that came in from nearby sagebrush or open land looking for a mate rather than seeking out the house itself.",
+      },
+      {
+        question: "Why do carpenter ants seem more common in Hailey than in southern Idaho towns?",
+        answer:
+          "Hailey sits in the Wood River Valley at over 5,000 feet, with more log and heavy timber construction, deck posts, and forest-shaded homes than the stucco and lighter-frame houses typical of Idaho's drier, lower desert towns. That kind of construction holds more moisture in the wood, which is exactly what carpenter ants look for when choosing a spot to nest.",
+      },
+      {
+        question: "Do deer mice in Hailey need to be handled differently than house mice elsewhere in Idaho?",
+        answer:
+          "The trapping and exclusion approach is similar, but cleanup afterward is where it matters. Public health guidance recommends wetting any area with deer mice droppings or nesting material before cleaning rather than sweeping it dry, a precaution that matters more for Hailey's mountain-edge cabins and seasonal homes than for in-town house mouse activity.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Emmett", slug: "emmett-id", stateSlug: "idaho" },
+      { name: "Weiser", slug: "weiser-id", stateSlug: "idaho" },
+      { name: "Fruitland", slug: "fruitland-id", stateSlug: "idaho" },
+      { name: "Shelley", slug: "shelley-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hailey, ID | Hobo Spiders, Mice & Ants",
+    metaDescription:
+      "Hailey pest control for hobo spiders, deer mice, and carpenter ants in the Wood River Valley. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "shelley-id",
+    name: "Shelley",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~5,200",
+    county: "Bingham County",
+    climate: "cold",
+    climateDriver:
+      "Shelley sits on the Snake River Plain in Bingham County at about 4,600 feet, surrounded by some of the heaviest potato ground in a county that grows roughly 60,000 acres of potatoes a year. The high desert climate here runs colder through winter than Idaho's lower Treasure Valley towns, and the farmland ringing Shelley on every side keeps rodent and insect pressure tied closely to the planting and harvest calendar.",
+    topPests: ["Voles", "Field Mice", "Yellow Jackets", "Box Elder Bugs", "Ants"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, most visible in spring",
+        note: "Irrigated lawns and ditch banks around Shelley's potato ground give meadow voles the dense grass cover they need, and University of Idaho Extension identifies voles as one of the more damaging lawn pests across southern Idaho's farm towns.",
+      },
+      {
+        name: "Field and house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp rise in September",
+        note: "Bingham County's roughly 60,000 acres of potato ground surrounding Shelley displace field mice every fall as harvest equipment moves through, right around the same weeks as the town's Spud Day festival, and those mice move toward the nearest heated building.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October",
+        note: "Undisturbed farmland edges, irrigation ditch banks, fence lines, and unused field corners around Shelley give ground-nesting colonies room to grow largely unnoticed through the summer.",
+      },
+      {
+        name: "Box elder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Box elder bugs cluster on sunny south and west facing walls each fall, a pattern documented statewide by University of Idaho Extension, before working into wall voids for winter shelter.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Irrigation supporting the surrounding potato ground keeps residential lawn moisture high through Shelley's dry summers, and ants follow those moisture trails toward foundations.",
+      },
+    ],
+    localHook:
+      "Shelley sits inside some of the heaviest potato ground in a county that produces close to 60,000 acres of the crop a year, and that farmland drives the town's pest calendar more directly than almost anything else. Field mice pressure builds hardest in the weeks around harvest, right when Shelley hosts its Spud Day festival each September, and voles work the same irrigated lawns the potato ground depends on.",
+    intro:
+      "Shelley sits on the Snake River Plain in Bingham County, ringed by potato ground that makes the county one of the heaviest potato-producing areas in the state, close to 60,000 acres a year. That farmland shapes Shelley's pest pressure directly: field mice displaced by harvest equipment move toward town every September, right as Shelley hosts its long-running Spud Day festival, and meadow voles work the same irrigated lawns that keep the surrounding fields productive. Add a colder Snake River Plain winter than towns lower in the Treasure Valley, and box elder bugs, wasps, and ants round out a pest mix built almost entirely around the farmland at the edge of every yard in town.",
+    sections: [
+      {
+        heading: "Why does mouse pressure spike in Shelley right around potato harvest?",
+        body: "Harvest equipment moving through Bingham County's roughly 60,000 acres of potato ground each September physically displaces the field mice living in and around those fields, and with nowhere left to shelter, they move toward the nearest structure that offers warmth and cover. That timing lines up closely with Shelley's Spud Day festival on the third Saturday of September, so homeowners often notice new mouse activity in the same weeks the town is celebrating the very crop driving that activity. Homes closest to field edges see it first, typically through scratching sounds in walls before any droppings show up indoors. Sealing foundation gaps, vents, and utility penetrations before September gives mice fewer entry points right when displacement pressure is highest.",
+      },
+      {
+        heading: "What is drawing voles into Shelley's lawns near the potato fields?",
+        body: "Meadow voles need dense grass cover to move through safely while avoiding predators, and an irrigated residential lawn next to potato ground gives them exactly that, cover on one side and food on the other. University of Idaho Extension identifies voles as a genuinely damaging lawn pest across southern Idaho's farm towns, not just a cosmetic nuisance, since their surface runways and root gnawing can kill grass in winding patterns across a yard. The damage isn't usually visible until snow melts in spring and reveals a season's worth of tunneling. Mowing shorter into fall and reducing the grass cover voles depend on for winter movement works better long term than trying to treat the damage after it appears.",
+      },
+      {
+        heading: "Are wasps worse in Shelley because of the surrounding farmland?",
+        body: "Ground-nesting yellow jackets do well along the undisturbed edges of farmland, irrigation ditch banks, fence lines, and unused field corners, all common around a town as closely surrounded by potato ground as Shelley is. Colonies that start in those field-edge locations in spring can grow largely undisturbed through summer, since nobody is walking that ground regularly, and by August they're often at full strength before anyone notices the nest. Homes backing directly onto field edges or irrigation corridors see this more than in-town lots farther from the farmland. Walking property lines near field edges in early summer, while nests are still small, is the most effective way to catch them before they become a real risk.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, vents, and utility penetrations before September, when potato harvest displaces field mice toward homes.",
+      "Mow lawns shorter through September and October to reduce the grass cover voles need for winter movement.",
+      "Walk field-edge property lines and ditch banks in early summer to find and treat yellow jacket nests while small.",
+      "Seal south and west facing wall gaps before fall box elder bug aggregation begins.",
+      "Address irrigation leaks near the foundation to reduce ant trails into the home.",
+    ],
+    costNote:
+      "Shelley pest plans commonly time rodent exclusion to land ahead of the September potato harvest, when field mice pressure is at its highest, alongside a vole treatment program for irrigated lawns. Homes directly bordering field edges may need a slightly heavier fall visit than in-town properties. Ask providers whether their plan accounts for Bingham County's harvest calendar.",
+    faqs: [
+      {
+        question: "Does Shelley's Spud Day festival timing line up with worse mouse problems?",
+        answer:
+          "It does, though the connection is really about harvest timing rather than the festival itself. Spud Day falls on the third Saturday of September, right in the middle of Bingham County's potato harvest, which is exactly when field mice displaced from the surrounding roughly 60,000 acres of potato ground start moving toward town looking for shelter. Homeowners often notice new activity in the same weeks the town is celebrating the crop responsible for it.",
+      },
+      {
+        question: "Why do voles keep coming back to my Shelley lawn every year?",
+        answer:
+          "As long as the irrigated lawn and the surrounding potato ground both keep producing the dense grass cover and food supply voles need, the habitat that supports them doesn't go away between seasons. Mowing shorter in fall and reducing the grass cover available for winter runways helps, but a lawn immediately next to farmland will keep facing renewed pressure from the surrounding population most years.",
+      },
+      {
+        question: "Is Shelley's location right in the potato ground a bigger factor than the cold winters?",
+        answer:
+          "Both matter, but the potato ground has the bigger day to day effect. Bingham County's roughly 60,000 acres of surrounding potato farmland drives the timing of Shelley's field mouse and vole pressure directly, while the colder Snake River Plain winter mostly affects how early in fall pests start moving indoors rather than which pests show up at all.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Emmett", slug: "emmett-id", stateSlug: "idaho" },
+      { name: "Weiser", slug: "weiser-id", stateSlug: "idaho" },
+      { name: "Fruitland", slug: "fruitland-id", stateSlug: "idaho" },
+      { name: "Hailey", slug: "hailey-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Shelley, ID | Voles, Mice & Wasps",
+    metaDescription:
+      "Shelley pest control for meadow voles, field mice, and yellow jackets near Bingham County's potato farmland. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

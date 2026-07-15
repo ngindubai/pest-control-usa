@@ -8292,4 +8292,518 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Pest control in Potsdam, NY, home of Clarkson University and SUNY Potsdam. Cockroaches, bed bugs, fall mice and boxelder bugs. Free inspection.",
   },
+  {
+    slug: "new-city",
+    name: "New City",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~34,100",
+    county: "Rockland County",
+    climate: "temperate",
+    climateDriver:
+      "New City is the seat of Rockland County government, an unincorporated hamlet built up around the 1929 Rockland County Courthouse rather than a traditional downtown. That mix of county office buildings, dense multi-family housing near the hamlet center, and wooded residential subdivisions along the Hackensack River and Lake DeForest gives it a wider pest picture than its size would suggest. Rockland County is one of the New York counties the state health department lists as having endemic Lyme disease, so wooded lot lines here carry real tick exposure.",
+    topPests: ["Deer Ticks", "Eastern Subterranean Termites", "German Cockroaches", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "April through November, peak in late spring",
+        note: "Rockland County is one of the New York counties the state health department lists as having endemic Lyme disease. New City's wooded residential lots backing onto undeveloped county land put ticks within reach of backyards, not just trails.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Spring swarms, active underground year-round",
+        note: "The Hackensack River floodplain keeps soil moisture high through much of the hamlet, and older wood-frame homes near the river and Lake DeForest see regular termite pressure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "The county office buildings clustered around the courthouse and the multi-family housing near the hamlet center give German roaches the warm, humid indoor spaces they need to establish.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture-damaged wood near the Hackensack River and older shade trees throughout New City's residential subdivisions give carpenter ants entry points that a visual inspection alone often misses.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavier September through November",
+        note: "Temperate does not mean mild in a Rockland County winter, and mice push into New City's homes and county buildings alike once the fall cold sets in.",
+      },
+    ],
+    localHook:
+      "New City runs on county government rather than a Main Street. It grew up around the 1929 Rockland County Courthouse, and that mix of office buildings, apartment complexes near the hamlet center, and wooded single-family subdivisions along the Hackensack River gives it a pest profile that spans an entire county's worth of housing types in one hamlet.",
+    intro:
+      "Pest control in New City, NY starts with an odd fact: this is Rockland County's seat of government, yet it has no incorporated downtown of its own. The hamlet grew up around the Beaux-Arts Rockland County Courthouse, built in 1929, and that arrangement of county office buildings, multi-family rentals near the hamlet center, and wooded residential subdivisions further out means New City sees a wider range of pest pressure than its population alone would suggest. Deer ticks are the most serious concern given Rockland County's place on New York's list of Lyme-endemic counties, especially where lawns back onto undeveloped land. Eastern subterranean termites and carpenter ants show up in older homes near the Hackensack River and Lake DeForest, where soil moisture runs high. German cockroaches favor the warmer multi-family buildings near the county offices, and house mice make their move into every kind of structure once the fall cold sets in.",
+    sections: [
+      {
+        heading: "Rockland County's seat of government shapes the pest map",
+        body: "Most county seats grow around a Main Street. New City grew around a courthouse. The Rockland County Courthouse, a 1929 Beaux-Arts building of Indiana limestone with a National Register listing, anchors a hamlet built more around office buildings and civic functions than retail. The multi-family housing that supports county workers and nearby residents clusters close to that hub, and German cockroaches move readily between those units through shared walls and plumbing, the same pattern that drives roach pressure in denser parts of the state. Homes further from the hamlet center, spread across wooded subdivisions, face a different set of pests entirely.",
+      },
+      {
+        heading: "Deer ticks and the wooded edge around New City",
+        body: "New York State's health department lists Rockland County among the counties where Lyme disease is endemic, and New City's layout puts a lot of households right at the tick-exposure line. Subdivisions built into wooded lots along the edges of undeveloped county land give deer ticks a short trip from leaf litter into a backyard, without anyone needing to hike a trail to pick one up. Mowing lawn edges back from the tree line, keeping woodpiles away from the house, and checking pets and kids after yard time all matter here more than they would in a denser, more paved hamlet center.",
+      },
+      {
+        heading: "Hackensack River moisture and the structural pests it feeds",
+        body: "The Hackensack River runs through New City on its way south, and the floodplain around it keeps soil moisture elevated for a good stretch of the year. That moisture is exactly what eastern subterranean termites need to keep colonies active below ground and what draws carpenter ants into damp or damaged wood framing. Older homes near the river and around Lake DeForest are the properties most worth a periodic termite inspection, since termite damage can progress for years inside wall framing before it becomes visible.",
+      },
+    ],
+    prevention: [
+      "Keep grass mowed short and leaf litter cleared along wooded lot lines to cut down on tick habitat.",
+      "Have older homes near the Hackensack River and Lake DeForest checked periodically for termite activity.",
+      "Seal gaps around foundations and utility penetrations before fall to slow mouse entry.",
+      "Multi-family buildings near the hamlet center benefit from coordinated cockroach treatment across units rather than a single lease.",
+    ],
+    costNote:
+      "Inspections in New City are typically free. Termite inspections for older homes near the river run as a standalone service, and tick-focused yard treatments are usually priced by lot size. County office buildings and multi-family properties near the courthouse are quoted separately from single-family service.",
+    faqs: [
+      {
+        question: "Why does New City have a Lyme disease risk if it isn't a rural town?",
+        answer:
+          "Rockland County is one of the counties New York State's health department lists as having endemic Lyme disease, and New City's wooded residential subdivisions sit right against undeveloped county land. A deer tick does not need a forest trail to reach a backyard here, just a lawn edge close to leaf litter or brush.",
+      },
+      {
+        question: "Is New City's courthouse area actually a pest risk?",
+        answer:
+          "The county office buildings and the multi-family housing clustered around the 1929 Rockland County Courthouse create the same warm, shared-wall conditions that let German cockroaches spread between units. It is a different risk profile than the wooded subdivisions elsewhere in the hamlet, but a real one.",
+      },
+      {
+        question: "Do homes near Lake DeForest have more termite issues?",
+        answer:
+          "Homes near Lake DeForest and along the Hackensack River floodplain sit in soil that holds more moisture for more of the year, which favors eastern subterranean termites and carpenter ants exploiting damp wood framing. A periodic inspection is worth it for older homes in that part of New City specifically.",
+      },
+      {
+        question: "When are ticks worst in New City?",
+        answer:
+          "Deer ticks are active from spring through fall in Rockland County, with nymphs peaking in late spring and early summer, which is when most Lyme disease transmission happens because the nymphs are small enough to go unnoticed.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Mamaroneck", slug: "mamaroneck", stateSlug: "new-york" },
+      { name: "Seneca Falls", slug: "seneca-falls", stateSlug: "new-york" },
+      { name: "Herkimer", slug: "herkimer", stateSlug: "new-york" },
+      { name: "Fredonia", slug: "fredonia", stateSlug: "new-york" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New City, NY | Ticks, Termites & Cockroaches",
+    metaDescription:
+      "New City, NY pest control for deer ticks, subterranean termites, German cockroaches and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mamaroneck",
+    name: "Mamaroneck",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~19,800",
+    county: "Westchester County",
+    climate: "temperate",
+    climateDriver:
+      "Mamaroneck sits on Long Island Sound at the mouth of the Mamaroneck River, and its enclosed tidal harbor and surrounding marsh give the village a wetter, buggier microclimate than inland Westchester towns at the same latitude. Salt marsh and harbor-adjacent wetlands support heavier mosquito breeding through summer, while the wooded residential streets further from the water carry the same tick risk found across the rest of Westchester County, one of the state's Lyme-endemic counties.",
+    topPests: ["Deer Ticks", "Mosquitoes", "German Cockroaches", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "April through November",
+        note: "Westchester County is one of the New York counties the state health department lists as having endemic Lyme disease, and Mamaroneck's tree-lined residential streets away from the harbor carry that same wooded-yard exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak in midsummer",
+        note: "The tidal marsh and calm water around Mamaroneck Harbor give mosquitoes standing water to breed in right through the warm months, a pressure that inland Westchester villages without harbor frontage do not carry to the same degree.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "The dense multi-family housing near the village center and the Metro-North train station gives German roaches the shared walls and plumbing they need to move between units.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Older homes near the harbor and along the Mamaroneck River carry enough moisture damage in aging wood framing to draw carpenter ants looking for a nesting site.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October",
+        note: "Brown marmorated stink bugs cluster on sun-facing walls and siding each fall looking for a way into homes for the winter, a pattern common throughout Westchester County.",
+      },
+    ],
+    localHook:
+      "Mamaroneck's name comes from a Siwanoy phrase describing where the sweet waters meet the sea, and the enclosed harbor at that meeting point still shapes the village today. The tidal marsh around it breeds mosquitoes all summer, while the wooded residential streets set back from the water carry the same deer tick exposure found across the rest of Westchester County.",
+    intro:
+      "Pest control in Mamaroneck, NY has to account for a harbor village built where a tidal river meets Long Island Sound. Mamaroneck Harbor and the marsh around it give mosquitoes calm, warm water to breed in for most of the summer, a pressure that villages further inland at the same latitude do not carry. Deer ticks are the other major concern, since Westchester County sits on New York State's list of Lyme-endemic counties, and Mamaroneck's tree-lined residential streets away from the water are no exception. Closer to the village center and the Metro-North station, dense multi-family housing sustains German cockroaches that spread between apartments through shared walls, while older homes near the harbor and the Mamaroneck River see carpenter ants exploiting moisture-damaged wood. Every fall, brown marmorated stink bugs add a seasonal nuisance on sun-facing siding across the village.",
+    sections: [
+      {
+        heading: "A harbor and a marsh change the mosquito math",
+        body: "Mamaroneck Harbor is an enclosed bay at the mouth of the Mamaroneck River, and the tidal marsh around its edges holds standing water through most of the warm season. That combination gives mosquitoes far more breeding habitat than an inland Westchester village would have at the same latitude, and it means mosquito pressure here runs from May into September rather than tapering off after a wet spring. Homes closest to the harbor and the marsh edges see the heaviest pressure, particularly in the evening hours when mosquitoes are most active.",
+      },
+      {
+        heading: "Deer ticks do not care that Mamaroneck is a harbor village",
+        body: "It is easy to think of tick risk as a rural, wooded-trail problem, but Westchester County's Lyme-endemic status applies just as much to Mamaroneck's tree-lined residential streets as it does to towns further from the water. Yards backing onto wooded lots or overgrown edges carry the same exposure found throughout the county, and a harbor view does not change that. Keeping grass cut short at the treeline and checking for ticks after time outdoors matters in Mamaroneck's leafier neighborhoods just as much as anywhere else in the county.",
+      },
+      {
+        heading: "Village center density and harbor-side moisture",
+        body: "Near the Metro-North station and the village center, older multi-family buildings sit close enough together that German cockroaches move easily from one unit to the next through shared plumbing and walls, the same pattern seen throughout Westchester's denser villages. Closer to the harbor and along the Mamaroneck River, the older homes carry more moisture in their wood framing, which draws carpenter ants looking to nest in damaged sills and framing members. Each fall, both areas see brown marmorated stink bugs gathering on sun-warmed walls and siding as the weather cools, looking for a way inside before winter.",
+      },
+    ],
+    prevention: [
+      "Empty standing water around gutters, birdbaths and containers near the harbor and marsh edges weekly through summer.",
+      "Mow grass short and clear brush at the treeline to reduce tick habitat in wooded residential yards.",
+      "Seal gaps around window trim and siding before September to cut down on fall stink bug entry.",
+      "Coordinate cockroach treatment across multi-family buildings near the village center rather than treating one unit alone.",
+    ],
+    costNote:
+      "Inspections in Mamaroneck are typically free. Mosquito treatments for harbor-adjacent properties are often set up as a seasonal program rather than a single visit, and tick yard treatments are priced by lot size.",
+    faqs: [
+      {
+        question: "Why does Mamaroneck have more mosquitoes than nearby inland towns?",
+        answer:
+          "Mamaroneck Harbor and the tidal marsh around it hold standing water through most of the warm season, giving mosquitoes far more breeding habitat than an inland Westchester village at the same latitude would have. Properties closest to the harbor and marsh edges see the heaviest pressure.",
+      },
+      {
+        question: "Is Lyme disease really a risk in a village like Mamaroneck?",
+        answer:
+          "Yes. Westchester County is one of the counties New York State's health department lists as having endemic Lyme disease, and that applies to Mamaroneck's wooded residential streets just as much as it does to more rural parts of the county. A harbor view does not reduce tick exposure in a yard that backs onto brush or woods.",
+      },
+      {
+        question: "Do the multi-family buildings near the Mamaroneck train station have a cockroach problem?",
+        answer:
+          "The dense, older multi-family housing near the Metro-North station and the village center can sustain German cockroaches that move between units through shared walls and plumbing. Coordinated treatment across a building works better than a single unit treating alone.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "New City", slug: "new-city", stateSlug: "new-york" },
+      { name: "Seneca Falls", slug: "seneca-falls", stateSlug: "new-york" },
+      { name: "Herkimer", slug: "herkimer", stateSlug: "new-york" },
+      { name: "Fredonia", slug: "fredonia", stateSlug: "new-york" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mamaroneck, NY | Mosquitoes, Ticks & Cockroaches",
+    metaDescription:
+      "Mamaroneck, NY pest control for harbor mosquitoes, deer ticks, German cockroaches and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "seneca-falls",
+    name: "Seneca Falls",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~6,800",
+    county: "Seneca County",
+    climate: "cold-humid",
+    climateDriver:
+      "Seneca Falls sits in the Finger Lakes region between Cayuga and Seneca Lakes, and the Cayuga-Seneca Canal runs straight through the middle of the village, carrying the Seneca River with it. That slow-moving canal water breeds mosquitoes through the summer, while the region's cold, humid winters push house mice hard into the village's historic 19th-century housing stock every fall. The vineyards and orchards surrounding the village support fall boxelder bug and cluster fly invasions typical of the wider Finger Lakes countryside.",
+    topPests: ["Mosquitoes", "House Mice", "Carpenter Ants", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Cayuga-Seneca Canal and the Seneca River that run through the heart of the village give mosquitoes calm water to breed in all summer, right in the middle of downtown rather than at the village's edge.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavier September through November",
+        note: "Seneca Falls' 19th-century wood-frame housing, much of it dating to the village's canal and mill era, has the aging foundations and utility gaps that let mice push indoors hard once the Finger Lakes cold sets in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The historic homes surrounding the Women's Rights National Historical Park and the village's older residential streets carry enough moisture damage in original wood framing to draw carpenter ants.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "The orchards and maple plantings common throughout Seneca County's countryside host large boxelder bug populations that cluster on sun-facing walls each fall looking for winter shelter.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "cluster-fly-control",
+        activeSeason: "September through October, again in spring",
+        note: "Cluster flies breed in the earthworm-rich soil of the farmland surrounding Seneca Falls and move into homes and outbuildings for the winter in large numbers.",
+      },
+    ],
+    localHook:
+      "Seneca Falls is where the Cayuga-Seneca Canal cuts straight through the middle of the village, carrying the Seneca River with it and linking Cayuga and Seneca Lakes. It is also the birthplace of the American women's rights movement, home to the 1848 Seneca Falls Convention, the National Women's Hall of Fame, and the Women's Rights National Historical Park. That mix of 19th-century canal-era housing and canal-fed waterways gives the village a pest picture built around water and old wood, not the usual small-town pattern.",
+    intro:
+      "Pest control in Seneca Falls, NY runs on two things: the canal and the calendar. The Cayuga-Seneca Canal, carrying the Seneca River, cuts through the middle of the village linking Cayuga and Seneca Lakes, and that slow water breeds mosquitoes through the warm months right in the heart of downtown. Winter runs the rest of the schedule. Seneca County's cold, humid climate pushes house mice hard into the village's 19th-century canal-era homes each fall, many of them near the historic district surrounding the Women's Rights National Historical Park, where original wood framing carries enough age-related moisture damage to draw carpenter ants. The vineyards and orchards that ring the village add a countryside layer on top of the canal-town one, with boxelder bugs and cluster flies both showing up hard each September as the weather turns and farmland insects look for a way indoors.",
+    sections: [
+      {
+        heading: "A canal through downtown means mosquitoes are not just a backyard problem",
+        body: "Most upstate villages deal with mosquitoes at their wooded edges. Seneca Falls has the Cayuga-Seneca Canal and the Seneca River running straight through its downtown, which puts calm, slow-moving water within a short flight of businesses and homes in the historic core, not just properties at the village limits. That geography stretches the mosquito season closer to the full length of the warm months and makes downtown properties near the canal worth the same evening precautions as a lakeside cottage.",
+      },
+      {
+        heading: "Canal-era housing meets a Finger Lakes winter",
+        body: "A lot of Seneca Falls' housing dates to the village's 19th-century canal and mill boom, and that age shows up in aging foundations, older window and door fitting, and wood framing with decades of settling behind it. Seneca County's winters are cold and humid enough to push house mice into that housing hard every September and October, and the same aging wood, especially where moisture has gotten in over the years, gives carpenter ants an entry point in homes near the historic district around the Women's Rights National Historical Park.",
+      },
+      {
+        heading: "Orchards and vineyards bring the countryside indoors each fall",
+        body: "Seneca Falls sits inside Finger Lakes farm country, ringed by orchards and vineyards that support the region's wine and fruit industry. That same agricultural land hosts large boxelder bug populations tied to the maple trees common throughout the countryside, and cluster flies that breed in farmland soil rich with earthworms. Both show up on the sun-facing walls of homes at the edge of the village each September and October, looking for a way inside before the cold really sets in, a seasonal wave that is heavier here than it would be in a village further from working farmland.",
+      },
+    ],
+    prevention: [
+      "Businesses and homes near the Cayuga-Seneca Canal should reduce standing water in gutters and low spots through summer.",
+      "Have canal-era homes near the historic district inspected periodically for carpenter ant activity in original wood framing.",
+      "Seal foundation gaps before September to reduce fall mouse entry into older housing.",
+      "Caulk siding and window trim before fall to cut down on boxelder bug and cluster fly entry near farmland edges.",
+    ],
+    costNote:
+      "Inspections in Seneca Falls are typically free. Properties directly along the canal sometimes benefit from a seasonal mosquito program rather than a single treatment, and general rodent and structural pest plans for the village's older homes are quoted after inspection.",
+    faqs: [
+      {
+        question: "Why are mosquitoes worse in downtown Seneca Falls than in other small villages?",
+        answer:
+          "The Cayuga-Seneca Canal and the Seneca River run straight through the middle of the village, giving mosquitoes calm water to breed in right in the historic downtown rather than only at the village edges. That geography stretches the mosquito season for properties near the canal.",
+      },
+      {
+        question: "Does Seneca Falls' history as a canal town affect its pest issues today?",
+        answer:
+          "Yes. Much of the village's housing dates to the 19th-century canal and mill era, and that age means more aging wood framing and foundation gaps than newer construction would have. That combination is a big part of why carpenter ants and fall mice pressure both show up hard in the historic district near the Women's Rights National Historical Park.",
+      },
+      {
+        question: "Are boxelder bugs a big deal in Seneca Falls?",
+        answer:
+          "Yes, seasonally. The orchards and vineyards surrounding the village support large boxelder bug populations tied to the area's maple trees, and they cluster on sun-facing walls each September and October looking for winter shelter, especially on homes near the village's farmland edges.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "New City", slug: "new-city", stateSlug: "new-york" },
+      { name: "Mamaroneck", slug: "mamaroneck", stateSlug: "new-york" },
+      { name: "Herkimer", slug: "herkimer", stateSlug: "new-york" },
+      { name: "Fredonia", slug: "fredonia", stateSlug: "new-york" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Seneca Falls, NY | Mosquitoes, Mice & Carpenter Ants",
+    metaDescription:
+      "Seneca Falls, NY pest control for canal-area mosquitoes, house mice, carpenter ants and boxelder bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "herkimer",
+    name: "Herkimer",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~7,200",
+    county: "Herkimer County",
+    climate: "cold-humid",
+    climateDriver:
+      "Herkimer sits on the north side of the Mohawk River at the mouth of West Canada Creek, and the historic Erie Canal corridor runs right through the county seat. The valley setting traps cold air and humidity in winter, driving house mice into the village's older homes each fall, while the creek and river together create enough standing and slow water to sustain a real mosquito season each summer.",
+    topPests: ["House Mice", "Carpenter Ants", "Cluster Flies", "Boxelder Bugs", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavier September through November",
+        note: "Herkimer's older village homes, many dating to the canal and early industrial era, sit in a Mohawk Valley cold pocket that pushes mice indoors hard each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The moisture where West Canada Creek meets the Mohawk River keeps ground and foundation moisture high enough in nearby homes to draw carpenter ants into damaged wood framing.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "cluster-fly-control",
+        activeSeason: "September through October, again in spring",
+        note: "The farmland surrounding Herkimer village supports the earthworm populations cluster flies breed in, and they move into homes and outbuildings in large numbers each fall.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Maple and boxelder trees common throughout the Mohawk Valley host boxelder bug populations that cluster on sun-facing walls looking for a way inside each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The confluence of West Canada Creek and the Mohawk River, along with the historic canal corridor, gives mosquitoes calm water to breed in throughout the warmer months.",
+      },
+    ],
+    localHook:
+      "Herkimer is the seat of Herkimer County, sitting where West Canada Creek meets the Mohawk River, with the historic Erie Canal corridor running through the village. It's also the gateway to the Herkimer Diamond Mines, where visitors dig for the doubly terminated quartz crystals known as Herkimer diamonds. That mix of river confluence, canal history, and creek-side mining tourism gives Herkimer a pest picture tied closely to its water.",
+    intro:
+      "Pest control in Herkimer, NY is shaped by where the village sits: at the meeting of West Canada Creek and the Mohawk River, right along the historic Erie Canal corridor. That confluence gives mosquitoes plenty of calm water to breed in each summer, a pressure felt most by homes and campgrounds closest to the creek. Winter changes the picture completely. Herkimer County's cold, humid Mohawk Valley climate pushes house mice hard into the village's older homes each September and October, many of them dating to the canal and early industrial era with the aging foundations to match. That same age and the moisture near the creek and river draw carpenter ants into damaged wood framing, while the farmland ringing the village supports cluster flies and the maple-heavy tree cover feeds a real boxelder bug population each fall.",
+    sections: [
+      {
+        heading: "A creek and a river meeting in the middle of the county seat",
+        body: "West Canada Creek flows into the Mohawk River right at Herkimer, and that confluence, along with the historic Erie Canal corridor running through the village, means there is more slow-moving and standing water within reach of homes here than in a Mohawk Valley village set back from the water. Mosquitoes take full advantage of it from May through September, and the creek's popularity with campers and Herkimer Diamond Mines visitors means seasonal outdoor exposure is worth planning around, not just backyard barbecues.",
+      },
+      {
+        heading: "Cold Mohawk Valley winters and Herkimer's older housing",
+        body: "Herkimer's village core includes plenty of housing from the canal and early industrial era, and that age brings the foundation gaps and utility penetrations that house mice exploit once the Mohawk Valley's cold, humid winter sets in. The push typically starts in September and runs heavy through November. The same aging wood framing, especially in homes closer to the creek and river where ground moisture runs higher, gives carpenter ants an opening that a quick look at the exterior often misses.",
+      },
+      {
+        heading: "Farmland and maple cover bring fall invaders indoors",
+        body: "The countryside around Herkimer is a mix of working farmland and maple-heavy woodlots, and both feed a predictable fall pest wave. Cluster flies breed in the earthworm-rich soil of surrounding fields and move into homes and outbuildings by the hundreds each September and October looking for a place to overwinter. Boxelder bugs follow a similar pattern from the valley's maple and boxelder trees, clustering on sun-warmed walls and siding before working their way inside through any gap they can find.",
+      },
+    ],
+    prevention: [
+      "Homes and campgrounds near West Canada Creek and the Mohawk River should reduce standing water and apply repellent through the mosquito season.",
+      "Seal foundation gaps in older canal-era homes before September to reduce fall mouse entry.",
+      "Have homes near the creek and river inspected periodically for carpenter ant activity in damp wood framing.",
+      "Caulk siding and window trim before fall to reduce boxelder bug and cluster fly entry near farmland edges.",
+    ],
+    costNote:
+      "Inspections in Herkimer are typically free. Seasonal mosquito treatment for properties near the creek and river is often set up as a program through summer, and general rodent and structural pest plans for the village's older homes are quoted after inspection.",
+    faqs: [
+      {
+        question: "Why does Herkimer have more mosquitoes than other Mohawk Valley villages?",
+        answer:
+          "Herkimer sits right where West Canada Creek meets the Mohawk River, along the historic Erie Canal corridor, which gives mosquitoes more slow-moving and standing water to breed in than a village set back from both waterways would have. Homes and campgrounds closest to the creek see the most pressure.",
+      },
+      {
+        question: "Does Herkimer's older housing make pest control harder?",
+        answer:
+          "A good share of Herkimer's village core dates to the canal and early industrial era, and that age means more foundation gaps and aging wood framing than newer construction. That's the main reason fall mouse pressure and carpenter ant activity both run higher here than in a village with mostly newer housing stock.",
+      },
+      {
+        question: "Are the Herkimer Diamond Mines relevant to pest control?",
+        answer:
+          "Indirectly. The mines and the campgrounds along West Canada Creek draw seasonal visitor traffic right along the creek where mosquito breeding water is heaviest, so campers and nearby homeowners both benefit from the same mosquito season precautions from May through September.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "New City", slug: "new-city", stateSlug: "new-york" },
+      { name: "Mamaroneck", slug: "mamaroneck", stateSlug: "new-york" },
+      { name: "Seneca Falls", slug: "seneca-falls", stateSlug: "new-york" },
+      { name: "Fredonia", slug: "fredonia", stateSlug: "new-york" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Herkimer, NY | Mice, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Herkimer, NY pest control for house mice, carpenter ants, mosquitoes and boxelder bugs near West Canada Creek. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fredonia",
+    name: "Fredonia",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~9,900",
+    county: "Chautauqua County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fredonia sits a few miles inland from Lake Erie's south shore in Chautauqua County, close enough for lake-effect snow to pile up through winter while the lake moderates summer humidity. The village is surrounded by the Concord grape belt, the largest Concord grape growing region on earth, and that farmland, combined with SUNY Fredonia's rental housing turnover, shapes the local pest calendar as much as the weather does.",
+    topPests: ["House Mice", "German Cockroaches", "Boxelder Bugs", "Carpenter Ants", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavier October through November",
+        note: "Chautauqua County's lake-effect winters push mice hard into Fredonia's older village homes and student rental housing alike each fall.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "SUNY Fredonia's dense student rental housing turns over every semester, and that churn is a well-documented driver of German cockroach introductions in college towns generally.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "The maple trees and grape belt farmland surrounding Fredonia support boxelder bug populations that cluster on sun-facing walls each fall looking for a way inside.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fredonia's older wood-frame homes, some dating to the village's 19th-century natural gas boom, carry enough moisture damage in original framing to draw carpenter ants.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "cluster-fly-control",
+        activeSeason: "September through October, again in spring",
+        note: "The vineyards and farmland surrounding the village support the earthworm populations cluster flies breed in, and they move indoors in large numbers each fall.",
+      },
+    ],
+    localHook:
+      "Fredonia sits in the middle of the Lake Erie Concord grape belt, the largest Concord grape growing region in the world, and it holds a genuine footnote in American industrial history: in 1821, William Hart dug the first well in the United States built specifically to produce natural gas, right on the banks of Canadaway Creek. Add SUNY Fredonia's student population, and the village runs on a mix of farmland, gas-boom history, and college rental turnover that most Chautauqua County villages don't have.",
+    intro:
+      "Pest control in Fredonia, NY runs on three overlapping forces: Lake Erie's lake-effect winters, the Concord grape belt farmland surrounding the village, and SUNY Fredonia's student rental housing. Chautauqua County's proximity to the lake means real snow accumulation and a hard, cold winter that pushes house mice into homes and rentals alike every fall. The college brings a different kind of pressure. Dense student rental housing turns over every August and January, and that churn is a well-documented driver of German cockroach introductions in college towns across the country, Fredonia included. The vineyards and farmland that make Chautauqua County the largest Concord grape growing region on earth add a countryside layer, feeding boxelder bugs and cluster flies that show up hard each September, while some of the village's older homes, a few dating back to the 1821 natural gas boom on Canadaway Creek, see carpenter ants exploiting age-related moisture damage in original wood framing.",
+    sections: [
+      {
+        heading: "College rental turnover and the cockroach pattern it feeds",
+        body: "SUNY Fredonia brings a substantial student population into a village of under 10,000 people, and the rental housing that supports them turns over hard twice a year, once in late summer and again in January. That kind of move-in and move-out activity, with furniture, boxes, and secondhand items changing hands on a tight schedule, is a well-documented driver of German cockroach introductions in college towns generally, and Fredonia's dense student rental stock is no exception. Landlords who schedule inspections around the academic calendar rather than waiting for a complaint tend to catch problems before they spread between units.",
+      },
+      {
+        heading: "Lake-effect winter pushes mice into every kind of housing",
+        body: "Fredonia sits close enough to Lake Erie's south shore to take real lake-effect snow through the winter months, and that cold arrives earlier and stays longer than it would further from the lake. House mice respond by pushing into homes, rentals, and outbuildings hard each October and November, and the village's mix of older single-family homes and dense student housing both offer plenty of small gaps for mice to exploit once the temperature drops.",
+      },
+      {
+        heading: "The Concord grape belt shapes the fall insect calendar",
+        body: "Chautauqua County grows roughly two-thirds of New York State's total grape harvest, almost all of it Concord grapes destined for juice, jelly, and wine, and that farmland surrounds Fredonia on every side. The maple trees and vineyard rows support large boxelder bug populations that cluster on sun-warmed walls and siding each September and October, and cluster flies breeding in the farmland's earthworm-rich soil move indoors by the hundreds around the same time. Homes at the edge of the village, closest to the vineyard rows, tend to see both insects earliest each fall.",
+      },
+      {
+        heading: "Older gas-boom homes and carpenter ants",
+        body: "A handful of Fredonia's older homes trace back to the village's early natural gas history, when William Hart's 1821 well on Canadaway Creek made Fredonia one of the first places in the country to light homes and shops with natural gas. Homes of that age carry original wood framing that has had two centuries to develop moisture damage in the wrong spots, and carpenter ants are quick to exploit any softened sill or joist they find. A periodic inspection catches that kind of damage well before it becomes structural.",
+      },
+    ],
+    prevention: [
+      "Landlords serving SUNY Fredonia's student rental market should schedule inspections around the fall and spring semester turnover.",
+      "Seal foundation and utility gaps before October to reduce lake-effect-season mouse entry.",
+      "Caulk siding and window trim before September to cut down on boxelder bug and cluster fly entry near vineyard edges.",
+      "Have older homes, especially those from the village's 19th-century core, checked periodically for carpenter ant activity.",
+    ],
+    costNote:
+      "Inspections in Fredonia are typically free. Landlords with multiple student rental units often set up recurring service timed to semester turnover, and general rodent and structural pest plans for single-family homes are quoted after an initial visit.",
+    faqs: [
+      {
+        question: "Why does Fredonia have more cockroach activity than similarly sized villages?",
+        answer:
+          "SUNY Fredonia's dense student rental housing turns over twice a year, and that kind of frequent move-in and move-out activity is a well-documented driver of German cockroach introductions in college towns generally. It pushes Fredonia's cockroach pressure higher than a village of under 10,000 people would otherwise see.",
+      },
+      {
+        question: "Does Fredonia's location in the grape belt affect pest control?",
+        answer:
+          "Yes. Chautauqua County grows roughly two-thirds of New York State's grape harvest, nearly all of it Concord grapes, and that farmland ringing Fredonia supports large boxelder bug and cluster fly populations that move toward homes each September and October, especially at the edge of the village closest to the vineyards.",
+      },
+      {
+        question: "Are Fredonia's older homes more prone to carpenter ants?",
+        answer:
+          "Some of Fredonia's oldest homes date back to the village's early 1800s natural gas history, and that age gives original wood framing more time to develop the kind of moisture damage carpenter ants look for. A periodic inspection is worth it for the village's older housing stock in particular.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "New City", slug: "new-city", stateSlug: "new-york" },
+      { name: "Mamaroneck", slug: "mamaroneck", stateSlug: "new-york" },
+      { name: "Seneca Falls", slug: "seneca-falls", stateSlug: "new-york" },
+      { name: "Herkimer", slug: "herkimer", stateSlug: "new-york" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fredonia, NY | Mice, Cockroaches & Boxelder Bugs",
+    metaDescription:
+      "Fredonia, NY pest control for house mice, German cockroaches, boxelder bugs and carpenter ants near the grape belt. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

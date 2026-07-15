@@ -2721,4 +2721,324 @@ export const arkansasCities: CityLocation[] = [
     metaTitle: "Pest Control in Malvern, AR | Termites, Mosquitoes & Carpenter Ants",
     metaDescription: "Malvern AR pest control for subterranean termites, carpenter ants, mosquitoes, and ticks near the Ouachita River and Hot Spring County clay soil. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "marion-ar",
+    name: "Marion",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~13,600",
+    county: "Crittenden County",
+    climate: "hot-humid",
+    climateDriver:
+      "Marion is the county seat of Crittenden County, sitting where the Mississippi River forms both the eastern and southern edge of the city. The ground beneath Marion is Delta bottomland sediment more than 100 feet deep in places, among the most fertile farmland in the country and still planted heavily in soybeans, corn, and cotton. That thick, water-holding alluvial soil, combined with the flat, slow-draining backswamp terrain typical of this part of the Delta, keeps subterranean termite colonies active for most of the year and gives standing water plenty of low ground to collect in after a storm.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Mice and Rats", "German Cockroaches"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "Crittenden County's Delta alluvial soil runs more than 100 feet deep in places and holds moisture consistently enough to keep subterranean termite colonies active through most of the year." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "March through October", note: "Crittenden County is inside Arkansas's federal imported fire ant quarantine zone, and Marion's farmland, parks, and residential lawns give mounds open, sunny ground to spread into." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "The flat, slow-draining backswamp terrain around Marion, along with irrigation and drainage ditches serving the surrounding row-crop farmland, holds standing water through the warm months." },
+      { name: "Mice and Rats", serviceSlug: "rodent-control", activeSeason: "Fall through early winter, peak October through December", note: "Each fall's soybean, corn, and cotton harvest clears the cover and food source field rodents rely on, pushing them toward homes and outbuildings at the edge of Marion." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches remain the primary indoor pest in Marion's kitchens and multi-family housing, thriving wherever warmth and moisture are reliable." },
+    ],
+    localHook:
+      "Crittenden County's soil is not just fertile, it is deep: alluvial sediment beneath Marion runs more than 100 feet before hitting bedrock, built up over thousands of years by Mississippi River flooding. That depth of moisture-holding soil is part of why Marion's termite pressure runs consistently high, and it is the same soil that made this stretch of the Delta some of the most valuable cotton ground in the antebellum South and still supports large-scale row-crop farming today.",
+    intro:
+      "Pest control in Marion, AR starts with what is under the ground. Crittenden County sits on Delta bottomland sediment running more than 100 feet deep in places, built up over centuries by the Mississippi River, which forms the city's eastern and southern boundary. That thick, moisture-holding soil is part of what makes this ground some of the most productive farmland in the country, still planted in soybeans, corn, and cotton, and it is also what keeps subterranean termite colonies fed and active through most of the year. Crittenden County is inside Arkansas's federal fire ant quarantine zone, so mounds are a regular sight in yards and along roadsides from spring through fall. Mosquitoes breed readily in the flat, slow-draining backswamp terrain around town, and each fall's harvest pushes field mice and rats toward homes and outbuildings looking for shelter. If you live in Marion, the same Delta soil that grows the crops around you shapes what is trying to get into your house.",
+    sections: [
+      {
+        heading: "Why does Crittenden County's deep alluvial soil matter for termites in Marion?",
+        body: "The sediment under Marion is not ordinary topsoil. Crittenden County sits entirely within the Mississippi Alluvial Plain, and the ground here has been built up by river flooding into deposits that run more than 100 feet deep in places, among the thickest and most fertile soil found anywhere in the country. That depth matters for pest pressure because alluvial soil holds moisture differently than shallower or sandier ground: it stays damp longer after rain and keeps a more consistent moisture profile through dry spells. Subterranean termites depend on steady soil moisture to build the mud tubes that carry them from the ground into a home's wood framing, so Marion's rich Delta soil gives colonies exactly the conditions they need to stay active for most of the year rather than slowing down in a dry summer stretch. Homes built directly on this bottomland, especially older construction without a modern termite barrier, carry real risk that is worth checking every year rather than waiting for visible damage.",
+      },
+      {
+        heading: "What does Marion's spot in the fire ant quarantine zone mean for homeowners?",
+        body: "Crittenden County is one of more than 40 Arkansas counties inside the federal imported fire ant quarantine area, and Marion's mix of farmland, parks, and residential lawns gives mounds plenty of open ground to spread into. Fire ants build their mounds in sunny, disturbed soil, which describes a lot of Marion: new subdivisions, field edges, and roadside ditches all qualify. Mounds are most active from March through October and can grow fast after a rain, when colonies push soil up in search of better drainage. A fire ant sting is not a rare event here, it is a routine hazard of yard work, and the quarantine means nursery stock and soil moved out of the county has to meet certain treatment standards before it can be shipped elsewhere. For a Marion homeowner, the practical takeaway is that a lawn left untreated will usually have mounds within a season, not eventually.",
+      },
+      {
+        heading: "How does fall harvest around Marion change rodent pressure?",
+        body: "Crittenden County's row-crop economy, soybeans, corn, and cotton, means Marion sits surrounded by farmland that gets harvested hard in a short window each fall. When that ground gets cleared and plowed, field mice and rats that had been living in the cover of standing crops lose their food source and shelter at the same time, and they move toward the nearest structure that offers both, which is often a house, garage, or shed at the edge of town. That is why rodent calls in Marion tend to cluster in October through December rather than spreading evenly through the year. Sealing gaps around foundations and utility lines before harvest season, rather than after mice are already inside, is the more effective approach, and it is a pattern specific to farm-adjacent towns like Marion rather than something every Arkansas city deals with equally.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Crittenden County's deep, moisture-holding alluvial soil.",
+      "Treat fire ant mounds each spring before the county's quarantine-zone colonies expand into lawns and play areas.",
+      "Seal foundation gaps and utility entry points before the fall harvest pushes field rodents toward structures.",
+      "Clear standing water from gutters, low yard areas, and drainage ditches through the mosquito season.",
+      "Keep firewood and mulch away from the foundation, since damp Delta soil also favors carpenter ants and other wood-seeking pests.",
+    ],
+    costNote:
+      "Pest control in Marion typically runs $90 to $160 for a standard home treatment, with termite protection quoted separately after an inspection given Crittenden County's soil conditions. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Why does Marion have such a hard fire ant problem compared to other parts of Arkansas?", answer: "Crittenden County is inside the federal imported fire ant quarantine zone, one of more than 40 Arkansas counties where colonies are established enough to trigger transport restrictions on nursery stock and soil. Marion's mix of farmland, parks, and newer residential lawns gives fire ants abundant sunny, disturbed ground to build mounds in, and the mild Delta winters rarely get cold enough for long enough to knock colonies back. Treating a lawn only once a summer usually is not enough here, a spring and a fall treatment is the more realistic schedule." },
+      { question: "Is Marion's soil actually different from West Memphis or other nearby Delta towns?", answer: "Not fundamentally, Marion and its Crittenden County neighbors all sit on the same Mississippi Alluvial Plain, but Marion's location at the county's inland edge, away from the immediate river port and bridge corridor, means its pest pressure leans more toward the farmland side of the Delta profile: fire ants in open ground, rodents tied to harvest cycles, and termites fed by the same deep, water-holding soil found throughout the county. The underlying soil chemistry is shared, but what surrounds a given property changes which pest shows up first." },
+      { question: "When is the best time to get ahead of rodents in Marion?", answer: "Late summer, before the fall harvest, is the most useful window. Once soybean, corn, and cotton fields around Marion get cleared in October and November, field mice and rats lose their cover and food source at the same time and start looking for a new place to shelter, often a nearby house or outbuilding. Sealing entry points and cleaning up harborage like woodpiles or clutter near the foundation in August or September, ahead of that seasonal push, works better than trying to catch up after rodents are already indoors." },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "De Queen", slug: "de-queen-ar", stateSlug: "arkansas" },
+      { name: "Pea Ridge", slug: "pea-ridge-ar", stateSlug: "arkansas" },
+      { name: "Arkadelphia", slug: "arkadelphia-ar", stateSlug: "arkansas" },
+      { name: "Monticello", slug: "monticello-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Marion, AR | Termites, Fire Ants & Mosquitoes",
+    metaDescription: "Marion AR pest control for subterranean termites, fire ants, and mosquitoes in Crittenden County's Delta farmland. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "de-queen-ar",
+    name: "De Queen",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~6,000",
+    county: "Sevier County",
+    climate: "hot-humid",
+    climateDriver:
+      "De Queen sits where the Cossatot and Rolling Fork river valleys meet in the foothills of the Ouachita Mountains, in far southwest Arkansas near the Oklahoma border. Settlers were drawn to this stretch of Sevier County as early as 1810 for the fertile valley soil, and De Queen itself grew up as a railroad town at the close of the nineteenth century. The river valleys hold moisture in the surrounding bottomland long after the uplands have dried out, and Sevier County's spot inside Arkansas's federal fire ant quarantine zone means mounds are a regular part of yard work here.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Ticks", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "The Cossatot and Rolling Fork river bottomland around De Queen holds moisture longer than the drier upland terrain nearby, keeping subterranean termite colonies fed through most of the year." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "March through October", note: "Sevier County is inside Arkansas's federal imported fire ant quarantine zone, and mounds appear reliably in De Queen's lawns and roadside ditches after spring rain." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through October", note: "The wooded corridors along the Cossatot and Rolling Fork rivers give deer and other wildlife a travel route through Sevier County, sustaining tick populations in the brush along both waterways." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "The river valleys and surrounding bottomland hold standing water through the warm months, adding to what residential yards in De Queen produce on their own." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches remain the primary indoor pest in De Queen's kitchens and multi-family housing, thriving wherever warmth and moisture persist." },
+    ],
+    localHook:
+      "De Queen was built as a railroad town in the 1890s, named for a Dutch investor who helped finance the rail line through Sevier County, and it grew into the county seat anchored today by a large poultry processing plant, the county's largest employer. The Cossatot and Rolling Fork river valleys that first drew settlers here in the early 1800s still shape the ground: bottomland along both rivers holds moisture well after the surrounding Ouachita foothills have dried, keeping termite and tick pressure higher near the water than in town.",
+    intro:
+      "Pest control in De Queen, AR is shaped by two rivers and a quarantine line. The Cossatot and Rolling Fork valleys meet here in the Ouachita Mountain foothills of far southwest Arkansas, ground that drew settlers as early as 1810 for its fertile bottomland and later made De Queen a railroad town. That same bottomland holds moisture longer than the drier upland terrain nearby, which keeps subterranean termite colonies fed through most of the year and gives ticks good cover in the wooded river corridors. Sevier County also sits inside Arkansas's federal imported fire ant quarantine zone, so mounds show up reliably in lawns and roadside ditches from March through October. Add a large poultry processing plant as the county's main employer and De Queen's mix of rural, river valley, and small town pest pressure looks different from the bigger cities farther east.",
+    sections: [
+      {
+        heading: "How do the Cossatot and Rolling Fork valleys affect termite pressure in De Queen?",
+        body: "De Queen sits where two rivers, the Cossatot and the Rolling Fork, come together in the Ouachita Mountain foothills, and both have carved out bottomland that holds water differently than the higher, rockier ground typical of this part of southwest Arkansas. Settlers were drawn to these valleys as early as 1810 specifically because the soil held moisture well enough to farm reliably, and that same trait now works in favor of subterranean termite colonies, which need steady ground moisture to build the mud tubes that connect soil to structural wood. Homes closer to either river valley tend to sit on damper ground for more of the year than homes on the higher foothill terrain elsewhere in town, and that difference is worth factoring into how often a property gets inspected.",
+      },
+      {
+        heading: "What does Sevier County's fire ant quarantine status mean for De Queen homeowners?",
+        body: "Sevier County is one of more than 40 Arkansas counties inside the federal imported fire ant quarantine zone, which restricts how soil and nursery stock can be moved out of the county without treatment. For a De Queen homeowner, the practical effect is less about paperwork and more about what is already in the yard: fire ants build mounds readily in the open, sunny ground around homes, farmland, and roadsides throughout the county, and they are active from March through October with the heaviest mound-building after spring rain. A lawn that goes untreated for a season will typically show new mounds rather than staying clear, so a spring and fall treatment schedule fits this area better than a single annual application.",
+      },
+      {
+        heading: "Why do ticks matter more in De Queen's river valley terrain?",
+        body: "The wooded corridors along the Cossatot and Rolling Fork rivers give deer and other wildlife a natural travel route through Sevier County, and that wildlife traffic is what sustains tick populations in the brush and tall grass along both waterways. Time spent near either river, whether for fishing, hiking, or simply yard work on a property backing up to the tree line, carries a real chance of picking up ticks from March through October. It is a different exposure pattern than what a homeowner in the middle of town without river-adjacent tree cover would typically face, which is why De Queen's pest pressure is not the same on every block.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring, with added attention for homes near the Cossatot or Rolling Fork river bottomland.",
+      "Treat fire ant mounds in spring and again in fall given Sevier County's quarantine-zone colony pressure.",
+      "Check for ticks after any time spent along the river corridors or in wooded yard edges.",
+      "Keep grass cut short and clear brush piles near the tree line to reduce tick habitat close to the house.",
+      "Seal cracks and gaps where foundations meet siding, since river valley humidity keeps termite and ant activity high most of the year.",
+    ],
+    costNote:
+      "Pest control in De Queen typically runs $85 to $155 for a standard home treatment, with termite protection quoted separately after an inspection given the area's river valley soil conditions. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Does De Queen's location near two rivers actually change pest risk, or is that true of most of Arkansas?", answer: "It does make a real difference. De Queen sits specifically where the Cossatot and Rolling Fork river valleys meet, and the bottomland along both rivers holds moisture longer than the higher, rockier Ouachita foothill ground found elsewhere in Sevier County. That extra moisture is exactly what subterranean termites and ticks both rely on, so homes closer to either river valley tend to see steadier pest pressure through the year than homes on higher ground across town, even though both are technically in the same county and climate zone." },
+      { question: "Why does Sevier County's fire ant quarantine matter if I'm not moving soil anywhere?", answer: "The quarantine itself is a shipping restriction, but it exists because Sevier County has an established, breeding fire ant population, not an occasional stray colony. For a De Queen homeowner who never plans to move soil or nursery stock out of the county, the quarantine is really just a signal of how consistently mounds show up in local lawns and along roadsides from March through October. It is a useful shorthand for how seriously to take spring fire ant treatment rather than something that changes how you use your own yard." },
+      { question: "Is there anything about De Queen's poultry industry that pest control companies should know about?", answer: "The poultry processing plant is the county's largest employer and shapes a lot of the local economy, but it does not change the standard residential pest profile for most De Queen homes away from the immediate plant grounds. Termites, fire ants, and ticks tied to the river valleys and foothill terrain remain the main things a typical homeowner in town needs to plan around, and a standard inspection and treatment schedule covers that well." },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Marion", slug: "marion-ar", stateSlug: "arkansas" },
+      { name: "Pea Ridge", slug: "pea-ridge-ar", stateSlug: "arkansas" },
+      { name: "Arkadelphia", slug: "arkadelphia-ar", stateSlug: "arkansas" },
+      { name: "Monticello", slug: "monticello-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in De Queen, AR | Termites, Fire Ants & Ticks",
+    metaDescription: "De Queen AR pest control for termites, fire ants, and ticks near the Cossatot and Rolling Fork river valleys. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pea-ridge-ar",
+    name: "Pea Ridge",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~9,500",
+    county: "Benton County",
+    climate: "temperate",
+    climateDriver:
+      "Pea Ridge sits on the Ozark Plateau in the far northwest corner of Arkansas, ground defined by the Mississippian-age Boone Formation limestone, a rock layer prone to karst features like sinkholes and small caves. Elkhorn Mountain and Round Mountain, both preserved inside Pea Ridge National Military Park along the edge of town, rise to around 1,600 and 1,520 feet. The higher elevation and cooler Ozark winters here suppress some pests that thrive in lowland Arkansas, and Benton County sits outside the state's federal fire ant quarantine zone, unlike most of the rest of the state.",
+    topPests: ["Brown Recluse Spiders", "Subterranean Termites", "Ticks", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Wooded lots common across the karst terrain of the Ozark Plateau give brown recluse spiders plenty of undisturbed woodpiles, stone piles, and crawl spaces to shelter in around Pea Ridge." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active spring through fall", note: "The Boone Formation limestone under Pea Ridge is prone to karst-driven uneven drainage, which can create damp pockets near foundations that favor termite activity even on ground that looks well drained." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through October", note: "Pea Ridge National Military Park preserves more than 4,300 acres of woods and open field bordering town, and the deer and wildlife that use it sustain tick populations along the park boundary and connected tree lines." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The wooded Ozark terrain around Pea Ridge gives carpenter ants damp deadwood habitat, and new construction clearing old wooded lots often displaces colonies toward nearby homes." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches remain the main indoor pest in Pea Ridge's kitchens and the newer multi-family housing built to serve the area's rapid growth." },
+    ],
+    localHook:
+      "Pea Ridge is best known for the 1862 Civil War battle preserved at Pea Ridge National Military Park, more than 4,300 acres of protected woods and open field bordering the edge of town. That undeveloped battlefield land, combined with the karst limestone terrain typical of the Ozark Plateau here, means deer and other wildlife move through habitat right next to some of the fastest-growing residential subdivisions in northwest Arkansas, a combination that shapes which pests show up at the tree line.",
+    intro:
+      "Pest control in Pea Ridge, AR looks different from most of the state, starting with what is missing. Benton County sits outside Arkansas's federal fire ant quarantine zone, and the cooler winters typical of this stretch of the Ozark Plateau keep fire ant colonies from establishing here the way they do across southern and central Arkansas. What Pea Ridge does have is karst limestone terrain, part of the Mississippian-age Boone Formation prone to sinkholes and small caves, along with Elkhorn Mountain and Round Mountain rising within Pea Ridge National Military Park at the edge of town. The park's more than 4,300 preserved acres of woods and open field keep deer and wildlife close to some of the fastest-growing subdivisions in northwest Arkansas, which sustains tick populations along the tree line. Add brown recluse spiders, common throughout the wooded Ozarks, and a construction boom disturbing old wooded lots, and Pea Ridge's pest pressure runs on a different pattern than the Delta towns farther east.",
+    sections: [
+      {
+        heading: "Why doesn't Pea Ridge deal with the fire ant pressure common elsewhere in Arkansas?",
+        body: "More than 40 Arkansas counties sit inside the federal imported fire ant quarantine zone, but Benton County is not one of them. Fire ants generally struggle to establish permanent colonies where winters are cold enough and long enough to knock back young colonies before they mature, and the Ozark Plateau's higher elevation gives Pea Ridge noticeably cooler winters than the lowland Delta and central Arkansas towns where fire ants are firmly established. That does not mean fire ants are impossible here, isolated colonies can still turn up, but they are not the reliable, season-long lawn problem that homeowners in southern or eastern Arkansas plan around every spring.",
+      },
+      {
+        heading: "How does the karst terrain around Pea Ridge affect termite and spider risk?",
+        body: "The ground under Pea Ridge is part of the Mississippian-age Boone Formation, a limestone layer that dissolves unevenly over time into sinkholes, small caves, and uneven subsurface drainage, a process geologists call karstification. That uneven drainage means moisture does not move through the soil as predictably as it does in flatter, more uniform ground, which can create damp pockets near foundations even on a property that looks well drained on the surface. Subterranean termites take advantage of those pockets, and the wooded lots common on karst terrain throughout the Ozarks also give brown recluse spiders plenty of undisturbed woodpiles, stone piles, and crawl spaces to shelter in. An inspection that accounts for the uneven drainage typical of karst ground catches more than a standard surface check would.",
+      },
+      {
+        heading: "Does Pea Ridge's rapid growth change pest exposure for new homeowners?",
+        body: "Pea Ridge has been one of the fastest-growing cities in Arkansas in recent years, and new subdivisions are going up on land that was wooded Ozark terrain until recently. Clearing that land disturbs the brush piles, fallen wood, and undergrowth where ticks and brown recluse spiders had been established, and displaced populations do not simply disappear, they move to the nearest remaining cover, which is often the landscaping and outbuildings of the new homes going in next door. A newly built home near Pea Ridge National Military Park's preserved acreage or any remaining tree line is more exposed to this displacement effect than one further into an older, already developed part of town, which is why a pre-move-in inspection is worth the extra step here.",
+      },
+    ],
+    prevention: [
+      "Get a termite inspection that accounts for the uneven, karst-driven drainage typical of Boone Formation limestone ground.",
+      "Check for ticks after time spent near Pea Ridge National Military Park's woods and fields or any wooded property edge.",
+      "Clear brush piles and stacked wood away from the foundation, especially on lots recently cleared for new construction.",
+      "Have new-construction homes near remaining tree cover inspected before move-in, since displaced ticks and spiders relocate to the nearest shelter.",
+      "Seal foundation gaps and check crawl spaces for brown recluse spiders, common throughout the wooded Ozark Plateau.",
+    ],
+    costNote:
+      "Pest control in Pea Ridge typically runs $90 to $160 for a standard home treatment, with termite inspection and protection quoted separately given the area's karst soil conditions. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Do I still need fire ant treatment if I live in Pea Ridge?", answer: "Probably not as a routine, season-long treatment the way you would in most of Arkansas. Benton County sits outside the state's federal fire ant quarantine zone, and Pea Ridge's Ozark Plateau elevation gives it cooler winters than the parts of the state where fire ants are firmly established. Isolated mounds can still appear, so it is worth a look during a general inspection, but it should not be the main pest concern driving your treatment schedule here the way it would be for a homeowner in southern or eastern Arkansas." },
+      { question: "Why does Pea Ridge National Military Park matter for pest control on my property?", answer: "The park preserves more than 4,300 acres of undeveloped woods and open field right at the edge of town, and that much intact habitat keeps deer and other wildlife moving through the area, which sustains tick populations in the brush along the park boundary and any connected tree line. If your property backs up to the park or to woods that connect to it, you are more exposed to tick activity than a home in an older, fully built-out part of Pea Ridge farther from that green space." },
+      { question: "Is karst terrain something I should mention when scheduling a termite inspection in Pea Ridge?", answer: "Yes, it is worth flagging. The Boone Formation limestone under Pea Ridge is prone to karst features like sinkholes and uneven subsurface drainage, which means moisture can pool in unexpected spots near a foundation even when the surface looks well drained. A technician who knows to check for that uneven drainage pattern, rather than assuming flat, uniform soil, is more likely to catch a termite entry point before it becomes a bigger problem." },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Marion", slug: "marion-ar", stateSlug: "arkansas" },
+      { name: "De Queen", slug: "de-queen-ar", stateSlug: "arkansas" },
+      { name: "Arkadelphia", slug: "arkadelphia-ar", stateSlug: "arkansas" },
+      { name: "Monticello", slug: "monticello-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Pea Ridge, AR | Termites, Spiders & Ticks",
+    metaDescription: "Pea Ridge AR pest control for subterranean termites, brown recluse spiders, and ticks on Ozark karst terrain near the battlefield park. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "arkadelphia-ar",
+    name: "Arkadelphia",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~10,300",
+    county: "Clark County",
+    climate: "hot-humid",
+    climateDriver:
+      "Arkadelphia sits along the Ouachita River just south of where it meets the Caddo River, at the foothills of the Ouachita Mountains in south-central Arkansas. DeGray Lake, a Caddo River reservoir built by the Army Corps of Engineers with more than 200 miles of shoreline, sits just north of town and keeps humidity and mosquito breeding habitat high through the warm months. Clark County is inside Arkansas's federal fire ant quarantine zone, and the two universities anchoring downtown, Henderson State and Ouachita Baptist, add dense, high-turnover rental housing to the local pest picture.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "The wooded foothill terrain along the Ouachita River south of its meeting point with the Caddo stays damp longer than open ground, giving subterranean termite colonies steady conditions near Arkadelphia's river corridor neighborhoods." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "March through October", note: "Clark County is inside Arkansas's federal imported fire ant quarantine zone, and mounds are a routine sight in Arkadelphia's lawns and open ground after spring rain." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "DeGray Lake's more than 200 miles of shoreline just north of town creates extensive slow-water breeding habitat that adds to what the Ouachita and Caddo river corridors already produce." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "The dense, high-turnover rental housing around Henderson State University and Ouachita Baptist University sustains German cockroach populations better than typical single-family housing does." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The wooded Ouachita Mountains foothill terrain south of Arkadelphia gives carpenter ants damp deadwood habitat close to older, tree-shaded neighborhoods near the river." },
+    ],
+    localHook:
+      "Arkadelphia is one of the few small cities anywhere with two four-year universities, Henderson State University and Ouachita Baptist University, sitting across US Highway 67 from each other, a rivalry known locally as the Battle of the Ravine. A few miles north, DeGray Lake's more than 200 miles of shoreline gives Arkadelphia one of the largest reservoirs in south-central Arkansas, and both the river confluence and the lake shape a pest profile built around water and dense student housing.",
+    intro:
+      "Pest control in Arkadelphia, AR has to account for both a lake and two college campuses. The city sits along the Ouachita River just south of its meeting point with the Caddo River, foothill ground at the edge of the Ouachita Mountains, and DeGray Lake, a Caddo River reservoir with more than 200 miles of shoreline, sits just north of town. That much shoreline and river frontage keeps mosquito breeding habitat active from spring through fall. Clark County is also inside Arkansas's federal imported fire ant quarantine zone, so mounds are a normal part of lawn care here. Henderson State University and Ouachita Baptist University face each other across US Highway 67 downtown, and the dense, high-turnover rental housing built up around both campuses adds cockroach and rodent pressure that a typical Arkansas town without a large student population does not deal with in the same concentration.",
+    sections: [
+      {
+        heading: "Why does DeGray Lake's shoreline mean more mosquito pressure for Arkadelphia?",
+        body: "DeGray Lake was built by the Army Corps of Engineers on the Caddo River just north of Arkadelphia, and its more than 200 miles of shoreline, spread across coves, inlets, and the shallow upper reaches where the Caddo feeds in, gives mosquitoes an enormous amount of edge habitat to breed in. Unlike a straightforward river channel, a reservoir shoreline that long creates dozens of quiet, low-flow pockets where standing water sits undisturbed through the warm months, which is exactly where mosquito larvae thrive. Arkadelphia properties closer to the lake or the Ouachita and Caddo river corridors feel that pressure more directly, especially from late spring through early fall, though residential yards throughout town add their own share through gutters and containers that hold water after rain.",
+      },
+      {
+        heading: "How does having two universities change pest pressure in Arkadelphia?",
+        body: "Henderson State University and Ouachita Baptist University sit close enough together that their combined enrollment adds a meaningful amount of dense, high-turnover housing to a city Arkadelphia's size, everything from dormitories to older rental houses split into multiple units near campus. That kind of housing turnover, with tenants moving in and out every school year and shared kitchens seeing heavy use, tends to sustain German cockroach populations better than single-family housing does, since a new infestation in one unit can spread to neighbors before anyone treats it. Property managers near both campuses generally need a more consistent, building-wide pest schedule than a typical Arkadelphia homeowner would, precisely because the turnover keeps reintroducing the problem.",
+      },
+      {
+        heading: "What does the Ouachita River foothill terrain mean for termites and carpenter ants in Arkadelphia?",
+        body: "South of its meeting point with the Caddo, the Ouachita River runs through foothill terrain at the edge of the Ouachita Mountains, wooded ground that stays damp longer than open farmland thanks to tree cover and river-adjacent low spots. That moisture supports subterranean termite colonies in the soil beneath Arkadelphia homes and gives carpenter ants plenty of damp, decaying deadwood to nest in nearby before they move into a structure's rooflines or deck framing. Older neighborhoods built closer to the river corridor, where mature tree cover is heaviest, tend to see both pests more consistently than newer subdivisions on cleared, higher ground farther from the water.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring, particularly for homes near the Ouachita or Caddo river corridors.",
+      "Treat fire ant mounds in spring and fall given Clark County's federal quarantine-zone colony pressure.",
+      "Clear standing water from gutters and yard containers through the warm months, since DeGray Lake's shoreline adds to citywide mosquito pressure.",
+      "Rental property owners near Henderson State and Ouachita Baptist should keep a building-wide pest schedule rather than treating unit by unit.",
+      "Trim tree contact with rooflines and manage deck moisture to reduce carpenter ant risk near the wooded river terrain.",
+    ],
+    costNote:
+      "Pest control in Arkadelphia typically runs $90 to $165 for a standard home treatment, with termite protection quoted separately after an inspection. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Does living near DeGray Lake actually mean more mosquitoes in Arkadelphia, or is that overstated?", answer: "It's a real effect, not an exaggeration. DeGray Lake has more than 200 miles of shoreline, and a reservoir that size creates far more slow-water edge habitat, coves, inlets, and shallow backwater, than a straight river channel would. That habitat holds still water through the warm months, which is exactly what mosquito larvae need. Properties closer to the lake or the connecting Ouachita and Caddo river corridors do see more consistent mosquito pressure than homes on higher, drier ground farther into town, so it is a legitimate reason to prioritize mosquito control if you are near the water." },
+      { question: "Why would a rental property near Ouachita Baptist or Henderson State need different pest control than a regular Arkadelphia house?", answer: "The turnover is the key difference. Both universities support a lot of dense rental housing nearby, and tenants moving in and out every school year means a cockroach or bed bug problem in one unit can spread to neighboring units before anyone notices or treats it, especially in older houses split into multiple apartments. A single-family home with the same owners for years does not have that constant reintroduction risk, which is why property managers near either campus generally do better with a scheduled, building-wide treatment plan instead of waiting for individual tenant complaints." },
+      { question: "Is Arkadelphia's fire ant pressure different because of the Ouachita Mountains foothill terrain?", answer: "Not because of the foothills specifically, Clark County is inside Arkansas's federal fire ant quarantine zone regardless of local terrain, so mounds show up in sunny, open ground throughout the county from lawns to farmland to roadsides. The foothill terrain matters more for termites and carpenter ants, which respond to moisture and tree cover, than for fire ants, which mainly need open, disturbed soil and warm enough winters, both of which Arkadelphia has plenty of." },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Marion", slug: "marion-ar", stateSlug: "arkansas" },
+      { name: "De Queen", slug: "de-queen-ar", stateSlug: "arkansas" },
+      { name: "Pea Ridge", slug: "pea-ridge-ar", stateSlug: "arkansas" },
+      { name: "Monticello", slug: "monticello-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Arkadelphia, AR | Termites, Fire Ants & Mosquitoes",
+    metaDescription: "Arkadelphia AR pest control for termites, fire ants, and mosquitoes near DeGray Lake and the Ouachita River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "monticello-ar",
+    name: "Monticello",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~8,200",
+    county: "Drew County",
+    climate: "hot-humid",
+    climateDriver:
+      "Monticello sits in the pine timberland of southeast Arkansas, and Drew County's economy has been built on the timber industry for generations, an identity the University of Arkansas at Monticello keeps active today through the state's only forestry school and more than 1,000 acres of forestry research land at the edge of town. Warm, humid conditions and the heavy tree cover surrounding Monticello keep carpenter ants and ticks active most of the year, and Drew County is inside Arkansas's federal fire ant quarantine zone as well.",
+    topPests: ["Carpenter Ants", "Fire Ants", "Ticks", "Subterranean Termites", "Mosquitoes"],
+    pestProfile: [
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "The working pine timberland surrounding Monticello, managed for harvest by an economy built on forestry, supplies a steady supply of damp, decaying deadwood that carpenter ants prefer for nesting." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "March through October", note: "Drew County is inside Arkansas's federal imported fire ant quarantine zone, and Monticello's residential lawns and cleared pastureland give mounds open, sunny ground to spread into." },
+      { name: "Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March through October", note: "The managed pine forest bordering much of Monticello supports deer and other wildlife that carry ticks between timber tracts and residential edges." },
+      { name: "Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Swarms March through May, active most of the year", note: "Warm, humid southeast Arkansas conditions and the heavy tree cover around Monticello keep subterranean termite colonies active for most of the year." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "April through October, peak June through August", note: "Low-lying, tree-shaded ground around Monticello holds moisture through the warm months, adding to what residential yards produce on their own." },
+    ],
+    localHook:
+      "Monticello is home to the only forestry school in Arkansas, part of the University of Arkansas at Monticello, which manages more than 1,000 acres of pine timberland used for forestry research and instruction right at the edge of town. Timber, from harvesting to milling, remains a foundation of Drew County's economy, and the pine plantation terrain surrounding Monticello is exactly the kind of damp, wooded ground that keeps carpenter ants and ticks active well beyond the short window either pest manages in a more built-up town.",
+    intro:
+      "Pest control in Monticello, AR is shaped by trees as much as by weather. Drew County's economy has run on the timber industry for generations, and the University of Arkansas at Monticello keeps that identity going today as the state's only forestry school, with more than 1,000 acres of pine research land right at the edge of the city. All that pine timberland and plantation forestry surrounding Monticello gives carpenter ants abundant damp deadwood to nest in before they move toward a house, and the same wooded ground supports tick populations well past the short season either pest manages in less forested parts of the state. Drew County also sits inside Arkansas's federal imported fire ant quarantine zone, so mounds are a routine part of yard care in town. Add the warm, humid conditions typical of southeast Arkansas and Monticello's pest pressure leans heavily on what the surrounding timberland supports.",
+    sections: [
+      {
+        heading: "Why does Drew County's timber economy shape carpenter ant pressure in Monticello?",
+        body: "Drew County has built its economy on timber for generations, and the University of Arkansas at Monticello's forestry program, the only one in the state, manages more than 1,000 acres of pine research land right at the city's edge, which gives a sense of just how much of the ground around Monticello is planted, harvested, or regenerating pine forest. That much timberland means a steady supply of the damp, decaying deadwood carpenter ants prefer for nesting, whether it's a fallen limb in a working pine stand or an old stump left behind after a harvest. Colonies expand from that natural habitat into nearby homes once they establish, usually through a roofline shaded by overhanging trees or through deck framing that holds moisture. Homes on wooded lots at the edge of Monticello's timberland see this more than homes in the more open, built-up center of town.",
+      },
+      {
+        heading: "What does Monticello's spot in the fire ant quarantine zone mean day to day?",
+        body: "Drew County is one of more than 40 Arkansas counties inside the federal imported fire ant quarantine zone, and Monticello's mix of residential lawns, cleared pastureland, and roadside ditches gives fire ants plenty of open, sunny ground to colonize. Mounds are most active from March through October and tend to multiply fast after a good rain, when colonies push up fresh soil in search of better drainage. For a Monticello homeowner, that means a single treatment early in the season usually is not enough, since new mounds can appear well into fall, and mowing over an active mound is a fast way to get stung.",
+      },
+      {
+        heading: "How does the pine plantation terrain around Monticello affect tick exposure?",
+        body: "The working pine forest and timberland surrounding Monticello, much of it managed for harvest rather than left wild, still provides enough understory brush and ground cover to support deer and other wildlife that carry ticks between wooded tracts and residential edges. Anyone spending time near a timber tract, a hunting lease, or simply a wooded property line on the edge of town has a real chance of picking up ticks from spring through fall. That risk is not unique to Monticello, but the sheer amount of managed pine forest bordering the city means more residential properties sit directly against that tick habitat than would be the case in a town without the same forestry footprint.",
+      },
+    ],
+    prevention: [
+      "Trim tree limbs and manage deck or roofline moisture to remove the damp deadwood carpenter ants need near wooded lots.",
+      "Treat fire ant mounds through spring and into fall given Drew County's quarantine-zone colony pressure.",
+      "Check for ticks after any time spent on timber tracts, hunting leases, or wooded property edges around Monticello.",
+      "Schedule a termite inspection each spring given the area's warm, humid conditions and heavy tree cover.",
+      "Clear brush and leaf litter near the foundation, since pine timberland habitat sits close to many Monticello properties.",
+    ],
+    costNote:
+      "Pest control in Monticello typically runs $85 to $155 for a standard home treatment, with termite protection quoted separately after an inspection. A free inspection is the standard starting point for pricing.",
+    faqs: [
+      { question: "Does Monticello's timber industry actually affect pest control, or is that just local color?", answer: "It's genuinely relevant. Drew County's economy has run on timber for generations, and the University of Arkansas at Monticello, home to the state's only forestry school, manages more than 1,000 acres of pine research land right at the city's edge. That much surrounding pine timberland, working forest managed for harvest rather than left wild, supplies a steady source of damp, decaying deadwood that carpenter ants prefer, and it keeps deer and other tick-carrying wildlife moving close to residential edges. A home on a wooded lot near that timberland genuinely sees more of both pests than one in the middle of town." },
+      { question: "Why do fire ant mounds keep coming back in Monticello after I treat my lawn once?", answer: "Drew County is inside Arkansas's federal imported fire ant quarantine zone, meaning colonies are established well enough countywide that a single early-season treatment usually will not hold through the whole active period, which runs March through October. New mounds tend to appear after rain throughout that stretch as colonies relocate to find better drainage. A spring and a fall treatment fits Monticello's fire ant pressure better than one application and moving on." },
+      { question: "Is it worth worrying about ticks in Monticello if I don't hunt or spend time in the woods?", answer: "Less so, but not zero. Monticello's tick pressure is tied mainly to the pine timberland and managed forest bordering much of the city, so the highest exposure is for anyone on a timber tract, hunting lease, or a property backing directly onto wooded ground. A homeowner in a more open, built-up part of town without nearby tree cover faces meaningfully lower tick exposure, though it is still worth a check after any yard work near brush or leaf litter." },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Marion", slug: "marion-ar", stateSlug: "arkansas" },
+      { name: "De Queen", slug: "de-queen-ar", stateSlug: "arkansas" },
+      { name: "Pea Ridge", slug: "pea-ridge-ar", stateSlug: "arkansas" },
+      { name: "Arkadelphia", slug: "arkadelphia-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Monticello, AR | Termites, Fire Ants & Carpenter Ants",
+    metaDescription: "Monticello AR pest control for termites, fire ants, and carpenter ants in Drew County's pine timberland. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

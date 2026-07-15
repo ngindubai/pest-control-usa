@@ -1786,4 +1786,544 @@ export const westVirginiaCities: CityLocation[] = [
     metaDescription:
       "New Martinsville WV pest control for mosquitoes, house mice, bed bugs and eastern subterranean termites. Wetzel County Ohio River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "south-charleston-wv",
+    name: "South Charleston",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~13,450",
+    county: "Kanawha County",
+    climate: "hot-humid",
+    climateDriver:
+      "South Charleston sits on a river terrace above the Kanawha, directly across the water from Charleston, in the same warm, humid valley air that keeps termite colonies active and stretches the mosquito season into fall. The city grew up around the Criel Mound, an earthwork built by the Adena culture around 250 to 150 BC and one of the largest burial mounds left in the state, then became a center of heavy industry when the U.S. Navy chose the site for an ordnance plant in 1917 and Union Carbide bought riverfront land in 1925 for chemical production that continued for most of the 20th century. That combination gives South Charleston a wider pest range than most of its Kanawha Valley neighbors: American cockroaches favor the older industrial and warehouse buildings left from that manufacturing era, while deer ticks and stink bugs still work the wooded terrace ground nearby.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "American Cockroaches",
+      "Brown Marmorated Stink Bugs",
+      "Deer Ticks",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "West Virginia University Extension confirms eastern subterranean termite pressure throughout the Kanawha Valley. South Charleston's older residential streets, many built in the early 20th century alongside the city's industrial growth, have wood near soil contact and foundation moisture that support colony establishment. Spring swarms near windows and foundation walls are the usual first sign.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in structures",
+        note: "South Charleston's industrial history left a concentration of older plant, warehouse, and utility buildings along the Kanawha River, first from the Navy's ordnance works and later from Union Carbide's chemical operations. American cockroaches favor the basement spaces, drainage lines, and mechanical rooms common to that older building stock, and they are a steady concern for commercial properties in the city's industrial corridor.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide nuisance in West Virginia, and the wooded ridges south of South Charleston push heavy fall aggregation into the city's neighborhoods each September. WVU Extension identifies the species as one of the primary fall pest complaints reported by West Virginia homeowners.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The wooded terrace ground and park land surrounding the Criel Mound and the ridges south of the city support the deer population that keeps tick numbers up. Lyme disease is a documented, well-established risk across West Virginia, and outdoor time in these wooded pockets close to the city carries real tick exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Kanawha River floodplain and the drainage ditches built through South Charleston's older industrial corridor hold standing water after summer storms, creating breeding habitat close to both residential streets and commercial buildings.",
+      },
+    ],
+    localHook:
+      "Few West Virginia cities pack South Charleston's contrast into one square mile: the Criel Mound, a 2,000 year old Adena earthwork that once stood 33 feet tall, sits within blocks of the industrial corridor the U.S. Navy started in 1917 and Union Carbide expanded through most of the 20th century. That layered history means South Charleston deals with both the American cockroach pressure typical of older industrial buildings and the deer tick exposure of the wooded terrace ground around the mound, a pairing not many towns in the valley share.",
+    intro:
+      "Pest control in South Charleston, WV has to account for the city's unusual mix of ancient earthwork and 20th century heavy industry. Eastern subterranean termites are documented throughout the Kanawha Valley by WVU Extension, and the city's older residential streets give them the conditions they need. American cockroaches are a steady concern in the aging plant and warehouse buildings left behind by the Navy's ordnance works and Union Carbide's decades of chemical production along the river. Brown marmorated stink bugs push into the city each fall from the wooded ridges to the south, deer ticks are active in the terrace woodland around the Criel Mound, and the Kanawha River floodplain keeps mosquito season running from April through October.",
+    sections: [
+      {
+        heading: "Termites and cockroaches in South Charleston's industrial corridor",
+        body: "South Charleston's identity was built on heavy industry. The U.S. Navy selected the site for an ordnance plant in 1917, and Union Carbide bought riverfront property in 1925 for chemical production that ran for most of the century afterward. That history left behind a dense corridor of older plant buildings, warehouses, and utility structures along the Kanawha River, and those buildings create favorable conditions for two persistent structural pests. Eastern subterranean termites, confirmed by WVU Extension throughout the Kanawha Valley, find wood-to-soil contact and moisture in the older residential neighborhoods that grew up alongside the plants. Spring swarms in March through May near foundation walls and windows are typically the first visible sign, and annual inspections are a practical step for any property with an older foundation or crawl space. American cockroaches take a different route into the same building stock. This is a large, reddish brown species that favors basement mechanical rooms, drainage lines, and utility chases rather than kitchens, and it thrives in the older industrial and commercial buildings concentrated in South Charleston's corridor. An inspection that identifies which of the two pests, or both, is present shapes a very different treatment plan for each.",
+      },
+      {
+        heading: "Deer ticks and stink bugs near the Criel Mound",
+        body: "The wooded terrace ground surrounding the Criel Mound and the ridges south of the city are more than a historic site: they are active deer tick habitat. The mound itself, built by the Adena culture roughly 2,000 years ago and once standing 33 feet tall before its top was leveled in 1840, sits inside parkland that borders the same kind of brushy, wooded edge that supports deer and, in turn, ticks. Lyme disease is a well-documented risk across West Virginia, and outdoor time in these wooded pockets close to South Charleston's neighborhoods carries genuine exposure, particularly from March through November. Brown marmorated stink bugs add a second seasonal pressure each fall, moving off the wooded ridges south of the city and aggregating on warm building exteriors before pushing through gaps around windows, siding, and utility penetrations. WVU Extension documents this as one of the state's most consistent fall nuisance complaints. Sealing exterior gaps in August, ahead of the main September aggregation, is the most effective single step a South Charleston property owner can take against the fall invasion.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given WVU Extension's documented eastern subterranean termite pressure across the Kanawha Valley, particularly for older homes near the industrial corridor.",
+      "Ask about basement and utility-room inspection for American cockroaches in older commercial or industrial buildings along the river corridor.",
+      "Check for ticks after any time in the wooded terrace ground around the Criel Mound or the ridges south of the city from March through November.",
+      "Seal exterior gaps around windows, doors, and utilities in August before the fall stink bug invasion from the surrounding wooded ridges.",
+    ],
+    costNote:
+      "South Charleston pest control is typically quoted as a recurring general plan for ants, cockroaches, and rodents, with termite protection priced separately by linear footage. American cockroach programs for older industrial and commercial buildings are usually quoted after an inspection of basement and utility spaces. A free inspection identifies what is present before any service is recommended.",
+    faqs: [
+      {
+        question: "Why do American cockroaches show up in South Charleston's older buildings?",
+        answer: "South Charleston's industrial corridor dates back to a Navy ordnance plant built in 1917 and decades of Union Carbide chemical production starting in 1925. That history left a concentration of older plant, warehouse, and utility buildings with the basement moisture and drainage infrastructure American cockroaches prefer. They are a different species and problem than the German cockroaches found in kitchens, and an inspection identifies which is present before treatment begins.",
+      },
+      {
+        question: "Is the Criel Mound area a tick risk in South Charleston?",
+        answer: "Yes. The wooded parkland around the Criel Mound, the Adena earthwork built roughly 2,000 years ago near the center of the city, supports deer and the ticks that travel with them. Lyme disease is a documented risk throughout West Virginia, and tick checks after outdoor time in this terrace woodland from March through November are the most effective personal protection step.",
+      },
+      {
+        question: "Are termites a serious risk in South Charleston?",
+        answer: "Yes. WVU Extension confirms eastern subterranean termite pressure throughout the Kanawha Valley, and South Charleston's older residential streets, built up alongside the city's early 20th century industrial growth, have foundation moisture and wood-to-soil contact that support colonies. Spring swarms between March and May near windows and foundations are the usual first sign.",
+      },
+      {
+        question: "When are stink bugs worst in South Charleston?",
+        answer: "September and October, as the brown marmorated stink bug moves off the wooded ridges south of the city looking for a warm place to spend winter. WVU Extension documents stink bugs as one of the state's most consistent fall nuisance complaints. Sealing gaps around windows, siding, and utility lines in August reduces how many make it inside before the main fall aggregation begins.",
+      },
+      {
+        question: "What time of year is mosquito pressure highest in South Charleston?",
+        answer: "April through October, driven by the Kanawha River floodplain and the drainage ditches running through the city's older industrial corridor. Standing water left after summer storms in these low-lying areas produces new breeding habitat close to both homes and commercial buildings.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Nitro", slug: "nitro-wv", stateSlug: "west-virginia" },
+      { name: "Dunbar", slug: "dunbar-wv", stateSlug: "west-virginia" },
+      { name: "Hurricane", slug: "hurricane-wv", stateSlug: "west-virginia" },
+      { name: "Ranson", slug: "ranson-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in South Charleston, WV | Termites, Cockroaches & Stink Bugs",
+    metaDescription:
+      "South Charleston WV pest control for termites, American cockroaches, stink bugs and deer ticks. Kanawha County industrial corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "nitro-wv",
+    name: "Nitro",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~6,400",
+    county: "Kanawha County",
+    climate: "hot-humid",
+    climateDriver:
+      "Nitro sits on a wide stretch of Kanawha River bottomland that the federal government transformed almost overnight in 1917 and 1918, building a 1,772 acre smokeless powder plant, Explosive Plant C, to supply World War I. The bottomland setting that made the site useful for wartime construction is the same low, moisture-holding ground that supports termite colonies and a long mosquito season today. The city's history as a rapidly built wartime town, and its later life as a chemical manufacturing center, left an older mix of residential and industrial buildings that both draw pests common to the Kanawha Valley: termites, stink bugs, and house mice moving in from the surrounding bottomland fields each fall.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Mosquitoes",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "WVU Extension confirms eastern subterranean termite activity throughout the Kanawha Valley. Nitro's bottomland setting and its stock of housing built quickly during the 1917 to 1918 construction boom, much of it now over a century old, create the moisture and wood-to-soil contact termites need. Spring swarms near foundations are the usual first sign.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide nuisance pest in West Virginia. Nitro's position in the Kanawha River valley, with wooded slopes rising on both sides of the bottomland, channels fall stink bug movement directly into the city's older residential blocks each September.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "The open bottomland fields surrounding Nitro, land that was cleared from pasture and cornfield for the 1917 explosives plant construction, still support house mice that move toward buildings as temperatures drop each fall. Older homes with foundation gaps are the most exposed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Nitro's low bottomland position along the Kanawha River, roughly 14 miles below Charleston, creates standing water and floodplain conditions that support a long mosquito season, particularly after summer rain events in the lower-lying parts of the city.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent concern in Nitro's older housing stock, much of it built rapidly during the World War I construction boom and now over a century old, with moisture damage around windows, decks, and foundations that gives colonies an entry point.",
+      },
+    ],
+    localHook:
+      "Nitro exists because of eleven months in 1917 and 1918: the federal government picked this stretch of Kanawha River bottomland to build Explosive Plant C, a smokeless powder plant that put more than 110,000 people on the payroll and turned 1,772 acres of pasture and cornfield into a functioning wartime town before the war even ended. The bottomland that made the site useful for fast construction is the same low, moisture-retaining ground that keeps termite and mosquito pressure active in Nitro today, and the century-old housing built during that boom is now old enough to need real termite and carpenter ant attention.",
+    intro:
+      "Pest control in Nitro, WV starts with the land itself: a stretch of Kanawha River bottomland the federal government transformed in under a year to build a World War I explosives plant. That low, moisture-holding ground supports eastern subterranean termite colonies, documented by WVU Extension throughout the Kanawha Valley, and stretches the mosquito season well into fall. Nitro's housing stock, much of it built during the rapid 1917 to 1918 construction boom, is now more than a century old and shows the wear that termites and carpenter ants both exploit. Stink bugs push into the city each September from the wooded valley slopes, and house mice move in from the surrounding bottomland fields as the weather turns.",
+    sections: [
+      {
+        heading: "How Nitro's bottomland history shapes its termite and mosquito pressure",
+        body: "Nitro was not a town that grew up gradually. In 1917, with World War I underway and the country facing a gunpowder shortage, the federal government chose a wide stretch of Kanawha River bottomland roughly 14 miles below Charleston for Explosive Plant C, a smokeless powder facility built in just eleven months by a workforce that grew past 110,000 people. That bottomland, low and close to the river, was useful for fast construction, but it is also the same kind of ground that holds moisture and supports both termite colonies and mosquito breeding today. WVU Extension confirms eastern subterranean termite pressure throughout the Kanawha Valley, and the century-old housing built during and after the wartime construction boom often has the wood-to-soil contact and aging foundations that give colonies an opening. Spring swarms in March through May are the clearest sign. The same bottomland setting extends the mosquito season from April through October, since standing water collects easily in the low ground after summer storms, particularly in yards and drainage areas close to the river.",
+      },
+      {
+        heading: "Stink bugs and house mice moving off Nitro's valley slopes and fields",
+        body: "Two pests define the fall season in Nitro for different reasons tied to the same geography. Brown marmorated stink bugs, a documented statewide nuisance in West Virginia, move off the wooded slopes rising on both sides of the Kanawha River valley each September, and Nitro's position on the valley floor puts the city directly in their path as they seek warm places to spend winter. Sealing gaps around windows, siding, and utility penetrations in August, before the main aggregation begins, is the most effective step. House mice take a different route into the city, moving in from the open bottomland fields that surround Nitro, land originally cleared from pasture and cornfield for the 1917 plant construction and still largely open today. As field cover dies back each fall, mice head for the nearest warm structure, and older homes with foundation gaps or unsealed utility entries are the most exposed. Exclusion work done in September, before the first hard frost, catches both problems while the fixes are still simple.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given WVU Extension's documented termite pressure across the Kanawha Valley, especially for the century-old housing built during Nitro's 1917 to 1918 construction boom.",
+      "Address standing water in low-lying yards and drainage areas near the river from April through October to reduce mosquito breeding on Nitro's bottomland.",
+      "Seal exterior gaps around windows, doors, and utilities in August before the fall stink bug movement off the surrounding valley slopes.",
+      "Seal foundation and utility gaps in September, before the first fall frost, to keep house mice from the surrounding open fields out of older homes.",
+    ],
+    costNote:
+      "Nitro pest control typically runs as a recurring general plan for ants, mice, and seasonal invaders, with termite protection quoted separately based on linear footage of foundation. Stink bug exclusion is most effective when done in August, ahead of the September aggregation. A free inspection identifies what a specific property needs before any work is recommended.",
+    faqs: [
+      {
+        question: "Why does Nitro, WV have this name, and does it affect pest control today?",
+        answer: "Nitro was built in 1917 and 1918 as a World War I smokeless powder plant, Explosive Plant C, on a stretch of Kanawha River bottomland, and the name comes from the nitrocellulose used in the powder. That bottomland setting, chosen for fast wartime construction, is the same low, moisture-holding ground that supports termite colonies and a long mosquito season in Nitro today.",
+      },
+      {
+        question: "Is termite pressure worse in Nitro because of its older housing?",
+        answer: "It is a real factor. Much of Nitro's housing stock was built quickly during the 1917 to 1918 construction boom and is now more than a century old, with the aging foundations and wood-to-soil contact that eastern subterranean termites favor. WVU Extension confirms termite pressure throughout the Kanawha Valley, and spring swarms between March and May are the usual first sign.",
+      },
+      {
+        question: "Why do house mice come from the fields around Nitro?",
+        answer: "The open land surrounding Nitro was originally cleared from pasture and cornfield to build the 1917 explosives plant, and much of it remains open field today. As that field cover dies back each fall, house mice move toward the nearest warm structure, and older homes with foundation gaps see the most consistent pressure between October and March.",
+      },
+      {
+        question: "When should I prepare for stink bugs in Nitro?",
+        answer: "August, ahead of the September aggregation. Brown marmorated stink bugs move off the wooded slopes on both sides of the Kanawha Valley each fall, and Nitro's position on the valley floor puts it directly in their path. Sealing windows, siding, and utility gaps before the main invasion works better than removing bugs once they are inside.",
+      },
+      {
+        question: "How long does mosquito season last in Nitro?",
+        answer: "Typically April through October. Nitro's low bottomland position along the Kanawha River holds standing water after summer storms, and the floodplain setting that made the site useful for the city's 1917 construction also extends the mosquito breeding season compared to higher ground elsewhere in the valley.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "South Charleston", slug: "south-charleston-wv", stateSlug: "west-virginia" },
+      { name: "Dunbar", slug: "dunbar-wv", stateSlug: "west-virginia" },
+      { name: "Hurricane", slug: "hurricane-wv", stateSlug: "west-virginia" },
+      { name: "Ranson", slug: "ranson-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Nitro, WV | Termites, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Nitro WV pest control for termites, stink bugs, mosquitoes and house mice. Kanawha River bottomland specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dunbar-wv",
+    name: "Dunbar",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~7,200",
+    county: "Kanawha County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dunbar sits directly across the Kanawha River from Charleston, on ground that was home to Native American mound sites, eleven of them identified within what are now the city's residential areas, before the Dunbar Development Company laid out the town in 1919. Glass and bottling plants opened here in 1912, and the city's warm, humid river-valley position, combined with its older industrial and residential building stock, supports active termite colonies, fall stink bug invasions, and a long mosquito season close to the river.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "WVU Extension confirms eastern subterranean termite pressure throughout the Kanawha Valley. Dunbar's housing stock, much of it built in the years following the city's 1921 incorporation, includes older foundations and wood near soil contact that support colony establishment. Spring swarms near windows and foundation walls are the typical first sign.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a steady concern in Dunbar's older wood-frame homes, many built on the residential land where eleven Native American mounds were once identified, ground with the kind of moisture retention that contributes to the rotted or damaged wood carpenter ants prefer for nesting.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide nuisance across West Virginia, and Dunbar's position directly across the river from Charleston puts it in the same fall aggregation path as its larger neighbor, with bugs moving off nearby wooded ground each September looking for a warm place to overwinter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Dunbar's location on the Kanawha River floodplain creates mosquito breeding habitat close to residential neighborhoods, and standing water in low-lying yards after summer storms extends local pressure through the warm months.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in structures",
+        note: "The glass and bottling plants that opened in Dunbar in 1912, along with the city's other older industrial buildings, created the kind of basement and utility infrastructure where American cockroaches are commonly found in West Virginia's older commercial corridors.",
+      },
+    ],
+    localHook:
+      "Dunbar's residential streets sit on ground with a documented layer of history most Kanawha Valley towns do not share at this scale: eleven Native American mounds were once identified across what is now the city's residential area, on land originally granted to George Washington before it passed down and was eventually developed. Glass and bottling plants arrived in 1912, and the Dunbar Development Company laid out the modern town in 1919, ahead of incorporation in 1921. That layered ground, old mound sites under later industrial and residential construction, holds the moisture that keeps termites and carpenter ants active in the city's older homes.",
+    intro:
+      "Pest control in Dunbar, WV reflects a city built on old and layered ground directly across the Kanawha River from Charleston. Eastern subterranean termites are documented throughout the Kanawha Valley by WVU Extension, and Dunbar's older housing stock, much of it dating to the years around the city's 1921 incorporation, gives them the wood and moisture conditions they need. Carpenter ants work the same older wood-frame homes. Brown marmorated stink bugs push into the city each fall from nearby wooded ground, mosquitoes breed along the river floodplain from April through October, and American cockroaches remain a concern in the older industrial buildings tied to Dunbar's 1912 glass and bottling plants.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in Dunbar's older residential streets",
+        body: "Dunbar's development followed an unusual sequence. Native American mound builders occupied the land first, with eleven separate mounds once identified across what are now the city's residential blocks, before the Dunbar Development Company laid out the modern town in 1919 and the city incorporated in 1921. That long history of settlement on the same ground means Dunbar's older residential streets sit on soil with real moisture retention, and the wood-frame homes built there in the decades since incorporation are now old enough to show real termite and carpenter ant exposure. WVU Extension confirms eastern subterranean termite activity throughout the Kanawha Valley, and spring swarms near foundations and windows between March and May are typically the first sign homeowners notice. Carpenter ants work the same buildings from a different angle, excavating clean galleries in wood softened by long-term moisture exposure rather than eating the wood outright. Annual inspections that check for both pests are a practical step for any Dunbar homeowner with an older foundation, since the treatments for each are different and an accurate identification matters.",
+      },
+      {
+        heading: "Stink bugs, cockroaches, and river mosquitoes in Dunbar",
+        body: "Dunbar's position directly across the Kanawha River from Charleston means it shares the same fall stink bug pressure as its larger neighbor. Brown marmorated stink bugs, confirmed by WVU Extension as a statewide nuisance pest, move off wooded ground near the city each September and aggregate on warm building exteriors before pushing through gaps around windows, siding, and utility lines. Sealing those gaps in August, ahead of the main invasion, is the most effective single step. Dunbar's industrial history adds a second structural concern: glass and bottling plants opened in the city in 1912, and the older commercial buildings tied to that era, along with other aging structures downtown, have the kind of basement and utility infrastructure that supports American cockroaches, a larger species that favors drains and mechanical rooms over kitchens. The Kanawha River floodplain running along the city's edge closes out the seasonal picture, holding standing water after summer storms and keeping the mosquito season active from April through October in the lower-lying parts of town.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given WVU Extension's documented termite pressure across the Kanawha Valley, particularly for Dunbar's older residential streets.",
+      "Have carpenter ant activity checked alongside any termite inspection, since older wood-frame homes in Dunbar can carry both pests at once.",
+      "Seal exterior gaps around windows, doors, and utilities in August before the fall stink bug invasion moves in from nearby wooded ground.",
+      "Address standing water in low-lying yards near the Kanawha River floodplain from April through October to limit mosquito breeding.",
+    ],
+    costNote:
+      "Dunbar pest control is typically quoted as a recurring general plan covering ants, cockroaches, and seasonal invaders, with termite protection priced separately by linear footage. Stink bug exclusion work is most effective in August and September. A free inspection identifies what is present at a specific property before any service is recommended.",
+    faqs: [
+      {
+        question: "Does Dunbar's history as a mound site affect pest control today?",
+        answer: "Indirectly, yes. Eleven Native American mounds were once identified across what is now Dunbar's residential area, and the long-settled, moisture-retentive ground beneath the city's older streets contributes to the conditions that support termite colonies and carpenter ant nesting in the wood-frame homes built there since the city's 1919 layout and 1921 incorporation.",
+      },
+      {
+        question: "Are termites a concern in Dunbar, WV?",
+        answer: "Yes. WVU Extension confirms eastern subterranean termite pressure throughout the Kanawha Valley, and Dunbar's older housing stock, much of it built in the years following the city's 1921 incorporation, has the wood-to-soil contact and foundation moisture that support colonies. Spring swarms between March and May near windows and foundations are the usual first sign.",
+      },
+      {
+        question: "Why do American cockroaches turn up in Dunbar's older commercial buildings?",
+        answer: "Dunbar's glass and bottling plants opened in 1912, and the older commercial and industrial buildings tied to that era have the basement moisture and drainage infrastructure American cockroaches favor. This is a different species than the German cockroach found in kitchens, and treatment differs depending on which is present.",
+      },
+      {
+        question: "How bad are stink bugs in Dunbar each fall?",
+        answer: "Dunbar sits directly across the Kanawha River from Charleston and shares the same fall stink bug pressure. WVU Extension documents brown marmorated stink bugs as a statewide nuisance, and bugs move off nearby wooded ground each September looking for warm shelter. Sealing exterior gaps in August, before the main aggregation, reduces how many get inside.",
+      },
+      {
+        question: "When is mosquito season worst in Dunbar?",
+        answer: "April through October, driven by the Kanawha River floodplain running along the edge of the city. Standing water in low-lying yards after summer storms is the main local driver, and addressing it directly is more effective than relying on spray treatment alone.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "South Charleston", slug: "south-charleston-wv", stateSlug: "west-virginia" },
+      { name: "Nitro", slug: "nitro-wv", stateSlug: "west-virginia" },
+      { name: "Hurricane", slug: "hurricane-wv", stateSlug: "west-virginia" },
+      { name: "Ranson", slug: "ranson-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dunbar, WV | Termites, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Dunbar WV pest control for termites, carpenter ants, stink bugs and mosquitoes. Kanawha River specialists serving Kanawha County. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hurricane-wv",
+    name: "Hurricane",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~6,800",
+    county: "Putnam County",
+    climate: "temperate",
+    climateDriver:
+      "Hurricane sits in the broad, flat Teays Valley, the abandoned course of a preglacial river that once drained this part of West Virginia before the Pleistocene ice sheets rerouted it, leaving behind wide, well-drained bottomland unlike the steep, narrow river valleys found closer to Charleston. That flatter terrain has drawn heavy suburban growth along the Interstate 64 corridor in recent decades, and new subdivisions built against the surrounding farm fields and woodlots put homeowners in regular contact with the deer ticks, house mice, and stink bugs already established in that habitat.",
+    topPests: [
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Deer Ticks",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter, heaviest at first frost",
+        note: "Hurricane's rapid suburban growth along the Interstate 64 corridor has put many new homes directly against former farm fields and fence rows in the Teays Valley, prime house mouse habitat. As field cover dies back each fall, mice move toward the nearest structure, and gaps around new construction siding and utility penetrations give them easy entry.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a documented statewide nuisance pest in West Virginia. Hurricane's mix of older downtown buildings and newer subdivisions ringing the city both see heavy fall aggregation as bugs move in from surrounding farmland and woodlots each September.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The woodlots and fence rows bordering Hurricane's newer subdivisions, remnants of the farmland the Teays Valley's flat terrain once supported, sustain the deer population that keeps tick numbers active. Lyme disease is a well-documented risk across West Virginia, and new construction built directly against these wooded edges brings homeowners into regular tick contact.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "WVU Extension confirms eastern subterranean termite activity across West Virginia, including the Teays Valley. Hurricane's older homes near the historic Main Street corridor, some tracing back to the town's 1873 railroad-era growth, have the wood-to-soil contact and aging foundations that support colony establishment.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent concern in Hurricane's older homes near downtown, where moisture damage around decks, windows, and foundations gives colonies an entry point into structural wood.",
+      },
+    ],
+    localHook:
+      "Hurricane takes its name from a 1774 survey party working under commission from George Washington, who found a stand of trees near the mouth of a creek all bent in one direction and called the spot the place of the hurricane. That creek gave the town its name, but the more consequential geography is the broad Teays Valley the town sits in: the abandoned bed of a preglacial river system that flowed here long before the Pleistocene ice age rerouted it, leaving flat, well-drained land that has made Hurricane one of West Virginia's fastest-growing suburban areas along the Interstate 64 corridor. New subdivisions built against the valley's remaining farm fields and woodlots inherit the deer ticks, house mice, and stink bugs already established in that habitat.",
+    intro:
+      "Pest control in Hurricane, WV is shaped by the town's position in the Teays Valley, the wide, flat bed of an ancient river system abandoned during the Pleistocene ice age. That flat terrain has made Hurricane one of the fastest-growing suburban towns along the Interstate 64 corridor, and new subdivisions built against the valley's remaining farm fields and woodlots put homeowners in regular contact with house mice, deer ticks, and stink bugs already living in that habitat. Eastern subterranean termites and carpenter ants remain a concern in the older homes near Hurricane's historic Main Street, which traces back to the town's growth after the railroad arrived in 1873.",
+    sections: [
+      {
+        heading: "How new subdivisions in the Teays Valley change Hurricane's pest picture",
+        body: "Hurricane sits inside the Teays Valley, a broad, flat expanse of land that was once the course of a major preglacial river before the Pleistocene ice sheets pushed it out of existence, leaving behind well-drained bottomland unlike the steep, narrow river valleys found in much of the rest of West Virginia. That flat, buildable terrain is exactly why Hurricane has grown so quickly along the Interstate 64 corridor over the past several decades, with new subdivisions replacing what used to be farm fields and fence rows. The pests that already lived in that farmland habitat, house mice, deer ticks, and stink bugs among them, do not disappear when a foundation is poured next to it. A new home built where a hayfield used to sit is often only a few yards from the same woodlot edge or fence row where these pests were established long before construction began. Gaps around new siding, utility penetrations, and foundation vents that go unsealed during the building process give mice and insects an easy way inside once the surrounding field cover dies back each fall. An exclusion inspection soon after moving in, ahead of the first hard frost, is one of the more practical steps a new Hurricane homeowner can take.",
+      },
+      {
+        heading: "Deer ticks, termites, and Hurricane's older Main Street homes",
+        body: "Deer ticks are an active concern in the woodlots and fence rows that border Hurricane's newer subdivisions, remnants of the farmland the flat Teays Valley terrain supported for generations. Lyme disease is a well-documented risk across West Virginia, and new construction built directly against these wooded edges puts homeowners in regular contact with tick habitat during ordinary yard work. Checking for ticks after any outdoor time near a wooded property line, particularly from March through November, is the most effective personal protection step. Hurricane's older housing tells a different story. The town's Main Street corridor developed after a railroad line was laid through Hurricane in 1873, and the homes built in the decades that followed are old enough now to carry real termite and carpenter ant exposure. WVU Extension confirms eastern subterranean termite activity across West Virginia, and spring swarms between March and May near foundations and windows are usually the first visible sign in these older properties. Carpenter ants work the same aging wood from a different angle, favoring moisture-damaged framing around decks and window sills.",
+      },
+    ],
+    prevention: [
+      "Schedule a pest exclusion inspection soon after moving into a new Hurricane subdivision, ahead of the first fall frost, to seal gaps around siding and utility penetrations before mice and insects move in from surrounding fields.",
+      "Check for ticks after any outdoor time near wooded property lines or fence rows bordering Hurricane's newer subdivisions, from March through November.",
+      "Schedule an annual termite inspection for older homes near Hurricane's historic Main Street corridor given WVU Extension's documented termite activity across West Virginia.",
+      "Seal exterior gaps around windows, doors, and utilities in August before the fall stink bug invasion moves in from surrounding farmland.",
+    ],
+    costNote:
+      "Hurricane pest control for new subdivisions is often priced as a one-time exclusion inspection soon after move-in, followed by a recurring general plan covering ants, mice, and seasonal invaders. Termite protection and tick yard treatments for older Main Street area homes are quoted separately. A free inspection identifies what a specific property needs before any service is recommended.",
+    faqs: [
+      {
+        question: "Why does a new home in Hurricane, WV still get mice and ticks?",
+        answer: "Hurricane sits in the flat Teays Valley, land that supported farming for generations before recent suburban growth along Interstate 64. A new subdivision built where a hayfield or fence row used to be still sits directly against the same woodlot edges where house mice and deer ticks were already established, and unsealed gaps around new construction give them an easy way inside once cold weather sets in.",
+      },
+      {
+        question: "What is the Teays Valley, and does it matter for pest control in Hurricane?",
+        answer: "The Teays Valley is the abandoned bed of a preglacial river system that flowed through this part of West Virginia before the Pleistocene ice age rerouted it, leaving broad, flat, well-drained land. That flat terrain is why Hurricane has grown so quickly as a suburb, and the farmland habitat the valley once supported still shapes the mice, tick, and stink bug pressure new subdivisions run into.",
+      },
+      {
+        question: "Are deer ticks a real risk in Hurricane, WV?",
+        answer: "Yes. The woodlots and fence rows around Hurricane's newer subdivisions support the deer population that keeps tick numbers active, and Lyme disease is a well-documented risk statewide in West Virginia. Tick checks after outdoor time near wooded property lines, especially from March through November, are the most effective protection.",
+      },
+      {
+        question: "Are Hurricane's older Main Street homes at risk for termites?",
+        answer: "Yes. Hurricane's historic Main Street corridor developed after a railroad line reached the town in 1873, and the homes built in the decades that followed are old enough to carry real termite exposure. WVU Extension confirms eastern subterranean termite activity across West Virginia, and spring swarms between March and May are usually the first sign.",
+      },
+      {
+        question: "When should Hurricane homeowners prepare for stink bugs?",
+        answer: "August, ahead of the September aggregation. Brown marmorated stink bugs move in from the farmland surrounding Hurricane each fall, and both the older downtown and the newer subdivisions see heavy pressure. Sealing gaps around windows, siding, and utility lines before the main invasion is more effective than removing bugs once they are inside.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "South Charleston", slug: "south-charleston-wv", stateSlug: "west-virginia" },
+      { name: "Nitro", slug: "nitro-wv", stateSlug: "west-virginia" },
+      { name: "Dunbar", slug: "dunbar-wv", stateSlug: "west-virginia" },
+      { name: "Ranson", slug: "ranson-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Hurricane, WV | Mice, Ticks & Stink Bugs",
+    metaDescription:
+      "Hurricane WV pest control for house mice, deer ticks, stink bugs and termites. Putnam County Teays Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ranson-wv",
+    name: "Ranson",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~5,730",
+    county: "Jefferson County",
+    climate: "temperate",
+    climateDriver:
+      "Ranson sits in the lower Shenandoah Valley of West Virginia's Eastern Panhandle, incorporated in 1910 as a planned manufacturing town built along the Baltimore and Ohio Railroad's Valley Branch next to Charles Town. Jefferson County is one of seven West Virginia counties state health officials classify as endemic for Lyme disease, and the brown marmorated stink bug first established in this same Eastern Panhandle region in 2004. In 2021, a large stone wool insulation plant began production on a site that had been Jefferson Orchards farmland, one sign of how quickly former agricultural ground here is converting to industrial and residential use, bringing new construction directly against the field and woodland edges where ticks and mice already live.",
+    topPests: [
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, peak risk May through July",
+        note: "Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease by state health officials. Ranson's mix of older railroad-era neighborhoods and newer development built against former orchard and farmland edges keeps residents in regular contact with the wooded and brushy habitat deer ticks favor.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "The brown marmorated stink bug first became established in West Virginia's Eastern Panhandle in 2004. Ranson's former orchard land, including the site later developed for a large stone wool insulation plant, sat inside the same fruit-growing region WVU Extension's nearby Tree Fruit Research Center has tracked the species in since its arrival.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter, heaviest at first frost",
+        note: "Ranson's continued conversion of former agricultural land, including orchard ground, to industrial and residential development means many properties sit directly against remaining field edges and fence rows, prime house mouse habitat as field cover dies back each fall.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Ranson's older neighborhoods, laid out after the town's 1910 incorporation as a planned manufacturing community along the B&O Railroad's Valley Branch, include wood-frame homes old enough to carry the moisture damage carpenter ants favor for nesting.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "WVU Extension confirms eastern subterranean termite activity across West Virginia's Eastern Panhandle. Ranson's early 20th century railroad-era housing stock has the wood-to-soil contact and aging foundations that support colony establishment.",
+      },
+    ],
+    localHook:
+      "Ranson was incorporated in 1910 as a planned manufacturing town, laid out along the Baltimore and Ohio Railroad's Valley Branch next to Charles Town and named for Dr. James Ranson, a local farmer and dentist. More than a century later, the same pattern of agricultural land converting to industry continued when a stone wool insulation plant began production in 2021 on ground that had been Jefferson Orchards, part of the fruit-growing land the Eastern Panhandle has long been known for. That shift from orchard to factory floor is a genuinely local marker of how fast Jefferson County is changing, and it sits inside the same Lyme disease endemic county where deer ticks remain a documented, ongoing concern.",
+    intro:
+      "Pest control in Ranson, WV starts with the town's position in the lower Shenandoah Valley and its history of fast change, from a planned 1910 railroad manufacturing town to a community absorbing new industrial and residential growth on former orchard land. Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease, and deer ticks remain active in the wooded and brushy edges around Ranson's older neighborhoods and newer development alike. The brown marmorated stink bug became established in this exact region in 2004 and remains a heavy fall nuisance. House mice move in from remaining field edges each fall, carpenter ants and eastern subterranean termites work the town's early 20th century housing stock, and a licensed local technician can identify which of these pressures applies to a given property.",
+    sections: [
+      {
+        heading: "From Jefferson Orchards to a factory floor: what Ranson's land-use shift means for pests",
+        body: "Ranson was built with a plan from the start. The town was incorporated in 1910 as a manufacturing community laid out along the Baltimore and Ohio Railroad's Valley Branch, right next to the older town of Charles Town, and named for Dr. James Ranson, a farmer and dentist who lived on part of the land the town was built on. More than a hundred years later, the same underlying pattern, agricultural land giving way to industry, played out again when a large stone wool insulation plant began commercial production in 2021 on a site that had been Jefferson Orchards, part of the fruit-growing land the Eastern Panhandle has been known for going back generations. That kind of land conversion changes the local pest picture in a specific way. Former orchard and farm ground does not stop being habitat for house mice and stink bugs just because a factory or a new subdivision goes up next to it. Properties built at the edge of what used to be orchard rows or open field are often only a short distance from cover where these pests were established long before construction started, and the transition period right after new development is when exclusion work matters most.",
+      },
+      {
+        heading: "Why Jefferson County's Lyme disease status matters for Ranson residents",
+        body: "West Virginia health officials classify Jefferson County as one of seven counties in the state where Lyme disease is endemic, a designation that reflects the deer tick population well established in the Blue Ridge foothill woodland and river valley terrain of the lower Shenandoah Valley. Ranson's older railroad-era neighborhoods and its newer development along former orchard and farmland edges both sit close enough to this habitat that outdoor activity, from yard work to walking a dog along a wooded property line, carries genuine tick exposure. The active season runs from March through November, with the highest risk in late spring and early summer when nymphal ticks are small enough to go unnoticed. Checking for ticks after any outdoor time in brushy or wooded areas, and treating the yard perimeter with a residual barrier spray, are the two most effective steps a Ranson homeowner can take. The brown marmorated stink bug adds a second, unrelated fall concern: the species became established in this same Eastern Panhandle region back in 2004, and WVU Extension's nearby Tree Fruit Research Center has tracked its spread through the area's orchard country ever since.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after yard work or outdoor time from March through November, since Jefferson County is one of seven West Virginia counties classified as endemic for Lyme disease.",
+      "Have new construction on former orchard or farmland sites inspected for exclusion gaps before the first fall frost, when house mice move toward structures.",
+      "Apply exterior perimeter sealant and spray treatment in August, ahead of the September brown marmorated stink bug aggregation tracked in this region since 2004.",
+      "Schedule an annual termite inspection for Ranson's early 20th century railroad-era homes given WVU Extension's documented termite activity across the Eastern Panhandle.",
+    ],
+    costNote:
+      "Ranson pest control typically runs as a recurring general plan covering ants, mice, and seasonal invaders, with tick yard treatments and stink bug exclusion work quoted separately based on lot size. Termite protection for older railroad-era homes is priced by linear footage of foundation. A free inspection identifies which pressures apply to a specific property before any work is recommended.",
+    faqs: [
+      {
+        question: "Does the Rockwool plant site's history as Jefferson Orchards matter for pest control in Ranson?",
+        answer: "It does, indirectly. The stone wool insulation plant that began production in 2021 sits on land that was Jefferson Orchards, part of the Eastern Panhandle's fruit-growing country. Former orchard and farmland at the edges of Ranson's newer development still function as habitat for house mice and stink bugs, and properties built close to that remaining field cover see pressure once the growing season ends each fall.",
+      },
+      {
+        question: "Is Lyme disease really a concern in Ranson, WV?",
+        answer: "Yes. Jefferson County is one of seven West Virginia counties that state health officials classify as endemic for Lyme disease. Ranson's older neighborhoods and newer development along former orchard and farmland edges both sit close to the wooded and brushy terrain deer ticks favor. Checking for ticks after outdoor activity is the most effective personal protection step.",
+      },
+      {
+        question: "Why was Ranson, WV built where it is?",
+        answer: "Ranson was incorporated in 1910 as a planned manufacturing town laid out along the Baltimore and Ohio Railroad's Valley Branch next to Charles Town, and named for Dr. James Ranson, a local farmer and dentist. That railroad-era housing stock is now old enough to carry real termite and carpenter ant exposure, which WVU Extension documents across the Eastern Panhandle.",
+      },
+      {
+        question: "When did stink bugs become a problem in Ranson?",
+        answer: "The brown marmorated stink bug first established in West Virginia within this exact Eastern Panhandle region in 2004, and WVU Extension's nearby Tree Fruit Research Center has tracked its spread through the area's orchard country since. Ranson sees heavy fall aggregation each September as bugs seek warm shelter, and sealing exterior gaps in August is the most effective preparation.",
+      },
+      {
+        question: "Do new subdivisions in Ranson still get house mice from old farmland?",
+        answer: "Yes. As former orchard rows and open fields around Ranson continue converting to industrial and residential use, properties built at the edge of what remains still sit close to mouse habitat. Field cover dying back each fall pushes mice toward the nearest structure, and unsealed gaps around new construction give them an easy way inside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "South Charleston", slug: "south-charleston-wv", stateSlug: "west-virginia" },
+      { name: "Nitro", slug: "nitro-wv", stateSlug: "west-virginia" },
+      { name: "Dunbar", slug: "dunbar-wv", stateSlug: "west-virginia" },
+      { name: "Hurricane", slug: "hurricane-wv", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Ranson, WV | Deer Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Ranson WV pest control for deer ticks, stink bugs, house mice and carpenter ants. Jefferson County Eastern Panhandle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

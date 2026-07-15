@@ -8077,4 +8077,544 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaTitle: "Pest Control in Media, PA | Termites & Tick Treatment",
     metaDescription: "Licensed pest control in Media, PA. Termite, tick, carpenter ant, and mouse treatment for Delaware County's historic borough homes.",
   },
+  {
+    slug: "horsham-pa",
+    name: "Horsham",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~27,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Horsham sits in Montgomery County's Philadelphia suburbs, where cold winters and humid summers meet a mix of office parks, wooded stream corridors, and the vacant runways of the former Naval Air Station Joint Reserve Base Willow Grove, closed since 2011. That combination of maintained lawns bordering overgrown former base land and creek-side woods gives ticks, mice, and stink bugs more edge habitat than a fully built-out suburb would have.",
+    topPests: ["Blacklegged Ticks", "Brown Marmorated Stink Bugs", "Carpenter Ants", "House Mice", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall, peak in late spring",
+        note: "Penn State Extension has documented blacklegged ticks in every Pennsylvania county, and testing across southeastern Pennsylvania regularly finds a large share carrying the bacteria that causes Lyme disease. Horsham's overgrown former base land and creek corridors give ticks the brushy edge habitat they favor.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate on structures August through October",
+        note: "The Lehigh Valley to the north has had this invasive species established longest, but Penn State Extension confirms it is now well established across the wider Philadelphia suburbs, including Montgomery County. Fall aggregations on sunny building faces are common in Horsham.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Moisture-softened wood along creek corridors and older subdivisions gives carpenter ants plenty of nesting material. They often show up first as large dark ants near a kitchen or bathroom with a history of a slow leak.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Cooling fall weather pushes mice out of Horsham's open fields and former base land into nearby homes and office parks through foundation and utility gaps.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Termites are documented throughout Montgomery County, and Horsham's mix of mid-century and newer subdivisions both sit on soil that termites work from underneath, largely undetected until a swarm appears indoors.",
+      },
+    ],
+    localHook:
+      "Horsham's defining feature right now is the 862 acre former Naval Air Station Joint Reserve Base Willow Grove, closed in 2011 and still working through redevelopment. Overgrown fields and old runway edges sit right next to established neighborhoods, and that unmanaged land is exactly the kind of brushy, waist-high habitat blacklegged ticks prefer.",
+    intro:
+      "Pest control in Horsham has a somewhat unusual local factor: hundreds of acres of the former Naval Air Station Joint Reserve Base Willow Grove, closed since 2011, sitting between the township's established subdivisions and office parks while redevelopment plans move forward slowly. That overgrown former base land, combined with wooded creek corridors threading through the township, gives blacklegged ticks more brushy edge habitat than a fully developed Montgomery County suburb usually has. Add house mice pushing indoors every fall, carpenter ants working moisture-damaged wood along the creeks, brown marmorated stink bugs aggregating on building faces each autumn, and eastern subterranean termites working quietly underground in older subdivisions, and a Horsham homeowner benefits from a plan that treats the yard edge as seriously as the house itself.",
+    sections: [
+      {
+        heading: "Why does a closed Navy base matter for pest control?",
+        body: "Naval Air Station Joint Reserve Base Willow Grove closed in September 2011 after a Base Realignment and Closure decision, and the 862 acre site has moved slowly through township planning ever since, with homes, an office park, and green space all part of the eventual plan. In the meantime, large sections of former runway, taxiway, and grass buffer sit unmowed and undeveloped, right at the edge of established Horsham neighborhoods. That kind of unmanaged, brushy transition zone is precisely where blacklegged ticks wait on tall grass for a host to brush past, and it's also cover for the rodents that both carpenter ants and house mice will follow into nearby yards. A property that backs onto the former base benefits from a tick-focused perimeter treatment along that edge specifically, rather than a single blanket treatment applied evenly across a whole lot.",
+      },
+      {
+        heading: "How do stink bugs and termites show up differently here?",
+        body: "Horsham does not have the decades of established brown marmorated stink bug pressure that the Lehigh Valley to the north carries, but Penn State Extension confirms the species is now solidly established across the greater Philadelphia suburbs, and township homes still see the same late-summer aggregations on sunny brick and siding. Sealing gaps around windows, soffits, and utility penetrations in July, before the bugs start gathering in August, remains the most effective single step. Eastern subterranean termites are a quieter problem. They work from the soil upward through foundation cracks and wood-to-soil contact points that are common in both Horsham's older sections and its newer construction, and a colony can be established for years before a spring swarm of winged reproductives gives it away indoors. An annual foundation and crawl space check catches termite activity long before a swarm does.",
+      },
+    ],
+    prevention: [
+      "Mow and clear brush along any yard edge bordering the former Willow Grove base land to reduce tick habitat.",
+      "Seal window, soffit, and utility gaps in July before stink bugs begin their August aggregation.",
+      "Schedule an annual foundation and crawl space check for eastern subterranean termite activity.",
+      "Fix slow leaks near kitchens and bathrooms promptly to keep carpenter ants from nesting in softened wood.",
+      "Seal foundation and utility gaps before October to keep mice from moving indoors for the winter.",
+    ],
+    costNote:
+      "General pest coverage in Horsham is often priced as a recurring quarterly plan, while tick-focused perimeter treatment along a wooded or former base land edge is usually a separate line item. Termite and stink bug exclusion work is quoted after an inspection. A free assessment is the fastest way to get an accurate number.",
+    faqs: [
+      {
+        question: "Does the old Willow Grove Navy base really affect pest control in Horsham?",
+        answer:
+          "Yes. The 862 acre former Naval Air Station Joint Reserve Base Willow Grove closed in 2011, and large sections of former runway and grass buffer remain undeveloped while redevelopment plans proceed. That unmanaged land borders established neighborhoods and gives blacklegged ticks and the rodents that follow them more brushy edge habitat than a fully built suburb typically has.",
+      },
+      {
+        question: "Is Horsham part of the stink bug problem the Lehigh Valley is known for?",
+        answer:
+          "Not the origin point. Brown marmorated stink bugs were first documented in the US in Allentown, in the Lehigh Valley to the north. But Penn State Extension confirms the species is now well established across the wider Philadelphia suburbs, including Horsham, so the same fall aggregation on building exteriors happens here too.",
+      },
+      {
+        question: "How common is Lyme disease risk in Horsham yards?",
+        answer:
+          "Real enough to plan around. Penn State Extension has documented blacklegged ticks in every Pennsylvania county, and testing across southeastern Pennsylvania regularly finds a large share carrying the bacteria that causes Lyme disease. Horsham's overgrown former base land and creek corridors are exactly the brushy edge habitat these ticks prefer.",
+      },
+      {
+        question: "When do mice become a problem in Horsham homes?",
+        answer:
+          "Mostly in fall, when cooling weather pushes mice out of open fields, including the former base land, and into nearby homes and office parks through foundation and utility gaps. Sealing those gaps before October is the most effective single step.",
+      },
+      {
+        question: "What does termite treatment cost in Horsham?",
+        answer:
+          "It depends on the extent of activity found during inspection, since termites work underground for years before a swarm reveals them indoors. General pest plans are usually quoted as a recurring service, while termite work is quoted separately after a full foundation and crawl space check. A free inspection gives the most accurate answer.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Northampton", slug: "northampton-pa", stateSlug: "pennsylvania" },
+      { name: "Columbia", slug: "columbia-pa", stateSlug: "pennsylvania" },
+      { name: "Elizabethtown", slug: "elizabethtown-pa", stateSlug: "pennsylvania" },
+      { name: "Sayre", slug: "sayre-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Horsham, PA | Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Horsham, PA pest control for deer ticks, brown marmorated stink bugs, carpenter ants and mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "northampton-pa",
+    name: "Northampton",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~10,400",
+    county: "Northampton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Northampton sits on the Lehigh River in Northampton County, just across the water from Lehigh County's cement belt towns. Cold winters and humid summers define the Lehigh Valley climate here, the same conditions that helped brown marmorated stink bugs become established in this region longer than almost anywhere else in the country. Northampton's legacy of century old cement plant buildings, quarry pits, and rail sidings from its Atlas Portland Cement Company era adds rodent harborage that newer suburbs do not have.",
+    topPests: ["Brown Marmorated Stink Bugs", "Norway Rats", "Carpenter Ants", "House Mice", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate August through October, active again in late winter",
+        note: "The Lehigh Valley, spanning Lehigh and Northampton counties, is where this invasive species has been established the longest in the country, and Penn State Extension continues to rank the region among the most heavily affected. Northampton's older brick and stone buildings give them plenty of gaps to overwinter in.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, higher near old industrial sites",
+        note: "Atlas Portland Cement Company operated in Northampton from 1895 to 1982, once the largest cement plant in the world, and the old plant buildings, quarry pits, and rail infrastructure left behind still provide harborage for rats near the borough's industrial edges.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Older wood-frame homes near the Lehigh River, many built during the cement boom to house plant workers, have had a century to develop the moisture damage carpenter ants exploit.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Mice move from the borough's vacant industrial lots and quarry edges into nearby homes as the weather cools each fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Termites are documented throughout Northampton County, and the borough's older housing stock built during the cement era gives them decades of wood-to-soil contact points to work from.",
+      },
+    ],
+    localHook:
+      "From 1895 to 1982, the Atlas Portland Cement Company plant in Northampton was, at its peak, the largest cement plant in the world, supplying cement for projects like the Panama Canal and the Empire State Building. That industrial boom left the borough with a legacy of century old plant buildings, quarry pits, and rail sidings along the Lehigh River, and those structures now give rats and overwintering stink bugs more harborage than a borough without that history would have.",
+    intro:
+      "Pest control in Northampton has to work around more than a century of cement industry history. The Atlas Portland Cement Company operated here from 1895 to 1982, at one point the largest cement plant on earth, and it left behind old plant buildings, quarry pits, and rail infrastructure along the Lehigh River that still provide harborage for Norway rats today. The borough also sits inside the Lehigh Valley, the region where brown marmorated stink bugs have been established longest in the entire country, and Penn State Extension continues to rank this area among the most heavily affected. Add carpenter ants working into moisture-damaged wood in century old homes built for cement workers, house mice pushing indoors each fall from vacant industrial lots, and eastern subterranean termites working quietly in older foundations, and a Northampton property benefits from a technician who understands both the borough's industrial past and its river valley climate.",
+    sections: [
+      {
+        heading: "How does Northampton's cement industry past affect pest control today?",
+        body: "The Atlas Portland Cement Company plant here ran from 1895 until 1982, and during the early twentieth century it was the largest cement producer in the world, supplying material for projects as far away as the Panama Canal and the Empire State Building. That scale of industry meant extensive infrastructure: kilns, storage buildings, rail sidings, and the quarry pits the plant mined from. Much of that infrastructure still stands, in various states of use and disuse, and old industrial buildings and quarry edges are reliable rat harborage in almost any town that has them. Norway rats den in wall voids, beneath concrete slabs, and along rail bed ballast, and they forage from those sites into nearby yards and homes, particularly in fall as outdoor food sources dry up. A rodent program in Northampton that accounts for the borough's industrial edges, not just its residential blocks, catches activity that a purely home-focused inspection would miss.",
+      },
+      {
+        heading: "Why is stink bug pressure so persistent in the Lehigh Valley?",
+        body: "Northampton sits directly across the Lehigh River from Lehigh County, where brown marmorated stink bugs were first documented in the United States in the 1990s. Since then, this river valley has had the longest continuous established population of the species anywhere in the country, and Penn State Extension continues to identify the Lehigh Valley as one of the most heavily affected regions. Northampton's stock of older brick and stone homes, many dating to the cement boom, offers abundant gaps around window casings, roof lines, and foundation joints for the bugs to work into each fall. Sealing those gaps in July, before the August aggregation begins, remains the most effective step a homeowner can take, since stink bugs that make it into a wall void before winter are difficult to reach with any treatment until they emerge indoors on their own.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in July before the annual stink bug aggregation begins in August.",
+      "Treat old industrial buildings, quarry edges, and rail sidings as rodent harborage, not just residential yards.",
+      "Fix leaks in century old wood-frame homes promptly to prevent carpenter ant nesting.",
+      "Seal foundation and utility gaps before October to keep house mice from moving indoors.",
+      "Schedule an annual termite inspection for foundations dating to Northampton's cement industry boom.",
+    ],
+    costNote:
+      "General pest and rodent plans in Northampton are usually quoted as a recurring service, with added attention to industrial-adjacent properties near the old cement plant sites. Stink bug exclusion and termite work are quoted after an inspection since both depend on the extent of the property's older construction. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Does Northampton's cement plant history really attract rats?",
+        answer:
+          "It can. Atlas Portland Cement Company operated a plant here from 1895 to 1982 that was, at its peak, the largest in the world, and the old buildings, quarry pits, and rail sidings it left behind are the kind of infrastructure Norway rats reliably use for harborage in any town that has it.",
+      },
+      {
+        question: "Is Northampton part of the original brown marmorated stink bug outbreak?",
+        answer:
+          "It's part of the same river valley, though the species was first documented just across the Lehigh River in Lehigh County in the 1990s. Northampton has had stink bugs established for the same long stretch, and Penn State Extension still ranks the Lehigh Valley among the most heavily affected regions in the country.",
+      },
+      {
+        question: "Why do older Northampton homes get carpenter ants?",
+        answer:
+          "Many of the borough's homes were built during the cement industry boom in the early twentieth century, and a century of moisture exposure gives carpenter ants softened wood to nest in, especially around porches, roof lines, and window trim that have had water damage over the years.",
+      },
+      {
+        question: "When do mice move into Northampton homes?",
+        answer:
+          "Mostly in fall, as vacant industrial lots and quarry edges around the borough cool down and mice head for nearby homes through foundation and utility gaps. Sealing those gaps before October is the most reliable prevention step.",
+      },
+      {
+        question: "What does pest control cost for an older Northampton property?",
+        answer:
+          "General pest and rodent plans are typically quoted as a recurring service. Stink bug exclusion and termite work depend on the extent of the home's older construction and are quoted after a full inspection, which is free.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Horsham", slug: "horsham-pa", stateSlug: "pennsylvania" },
+      { name: "Columbia", slug: "columbia-pa", stateSlug: "pennsylvania" },
+      { name: "Elizabethtown", slug: "elizabethtown-pa", stateSlug: "pennsylvania" },
+      { name: "Sayre", slug: "sayre-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Northampton, PA | Stink Bugs & Rats",
+    metaDescription:
+      "Northampton, PA pest control for brown marmorated stink bugs, Norway rats, carpenter ants and termites. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "columbia-pa",
+    name: "Columbia",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~10,200",
+    county: "Lancaster County",
+    climate: "cold-humid",
+    climateDriver:
+      "Columbia sits on the east bank of the Susquehanna River in Lancaster County, across from Wrightsville in York County, at the site of the original Wright's Ferry crossing founded in 1726. Cold winters and humid summers are typical of the Susquehanna Valley, and the river itself, along with the borough's low-lying floodplain streets, keeps humidity and standing water higher here than in Lancaster County's inland farm towns.",
+    topPests: ["Norway Rats", "Mosquitoes", "Eastern Subterranean Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, elevated near the riverfront",
+        note: "Columbia's history as a 19th century canal terminus and transport hub left riverfront warehouses and older commercial buildings that still provide harborage for Norway rats along the Susquehanna.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "The Susquehanna floodplain and low-lying streets near the riverbank hold standing water after heavy rain, giving mosquitoes more breeding sites than Lancaster County's higher inland towns.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Columbia's colonial and Victorian-era housing stock, some dating close to the town's 1788 platting, has had centuries to develop the wood-to-soil contact points termites exploit.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Older riverfront homes with a history of flooding-related moisture damage give carpenter ants abundant softened wood to nest in.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Rowhome-style construction common in Columbia's historic district lets mice move between attached units through shared wall voids.",
+      },
+    ],
+    localHook:
+      "Columbia was founded in 1726 at Wright's Ferry, the first commercial Susquehanna River crossing in the region, and by 1790 the town was seriously considered by Congress as the site of the permanent US capital. That river-town history left Columbia with a dense historic core of colonial and Victorian homes and old riverfront commercial buildings, and both the age of the construction and the proximity to the floodplain shape its pest pressure today.",
+    intro:
+      "Pest control in Columbia has to account for a river town's particular mix of old construction and low-lying ground. The borough was founded in 1726 at Wright's Ferry, once the first commercial Susquehanna River crossing in the area, and was seriously considered in 1790 as the site of the permanent US capital before Washington DC won out. Its historic core of colonial and Victorian homes, along with old riverfront warehouses from its 19th century run as a canal terminus, has had centuries to develop the wood-to-soil contact points that eastern subterranean termites and carpenter ants exploit. The Susquehanna floodplain and the borough's low-lying streets also hold standing water longer than Lancaster County's inland farm towns, which keeps mosquito pressure higher through the warm months. Add Norway rats working the riverfront's older commercial buildings and house mice moving between attached homes in the historic district, and a Columbia property benefits from a plan built around its river-town geography, not a generic suburban approach.",
+    sections: [
+      {
+        heading: "Why does Columbia's river-town history matter for pest control?",
+        body: "Columbia's identity is tied to the Susquehanna River from its founding in 1726 as Wright's Ferry through its 19th century run as a terminus of the Pennsylvania Canal. That transport history left the borough with a cluster of old riverfront warehouses and commercial buildings, and structures like that, especially near a waterway, are reliable rat harborage almost anywhere they exist. Norway rats den along foundations, in wall voids, and beneath old loading docks, foraging out into nearby residential blocks as weather cools and outdoor food sources dry up. Columbia's colonial and Victorian-era housing, some of it dating close to the town's 1788 platting, compounds the issue: a couple of centuries of settling foundations and wood-to-soil contact points give both eastern subterranean termites and carpenter ants far more opportunity than a newer subdivision would offer. A termite and rodent inspection that covers both the historic residential core and the older riverfront commercial buildings gives a fuller picture than checking one or the other alone.",
+      },
+      {
+        heading: "How much does the Susquehanna floodplain raise mosquito pressure?",
+        body: "Columbia sits low against the Susquehanna River, and the same geography that made it valuable as an 18th century ferry crossing and canal terminus means parts of the borough hold standing water longer after a heavy rain than Lancaster County's higher inland farm towns do. Mosquitoes need still water to complete their larval stage, and clogged storm drains, low yard corners, and any container that collects rain near the riverbank all become breeding sites through the warm months. Reducing standing water around a property, from gutters to unused planters, is the first line of defense, and yard treatment focused on shaded, moisture-holding areas near the flood-prone parts of town cuts down on breeding sites that a blanket treatment might miss. Homes and businesses closer to the riverbank generally see more pressure than those on Columbia's higher ground toward the borough's eastern edge.",
+      },
+    ],
+    prevention: [
+      "Inspect old riverfront warehouses and commercial buildings for rat harborage, not just residential blocks.",
+      "Schedule a termite inspection for any home in Columbia's historic colonial or Victorian-era core.",
+      "Clear gutters and remove standing water near the floodplain to reduce mosquito breeding sites.",
+      "Fix flood-related moisture damage promptly to keep carpenter ants from nesting in softened wood.",
+      "Seal shared-wall gaps in rowhome-style construction to slow mice moving between attached units.",
+    ],
+    costNote:
+      "General pest and mosquito yard treatment in Columbia is often priced as a recurring seasonal plan, while termite and rat work depend on the extent of the property's age and riverfront exposure and are quoted after inspection. A free assessment is the place to start.",
+    faqs: [
+      {
+        question: "Was Columbia really considered for the US capital?",
+        answer:
+          "Yes. In 1790, Congress seriously considered Columbia, then a growing Susquehanna River town, as the site of the permanent United States capital before choosing the site that became Washington DC. That near miss is a point of local pride, and the historic core built up around that era is now some of the oldest housing stock feeding today's termite and carpenter ant activity.",
+      },
+      {
+        question: "Why does Columbia have more mosquitoes than nearby Lancaster County towns?",
+        answer:
+          "Columbia sits low against the Susquehanna River floodplain, and parts of the borough hold standing water after heavy rain longer than Lancaster County's higher inland farm towns. That extra standing water gives mosquitoes more places to breed through the warm months.",
+      },
+      {
+        question: "Are old riverfront buildings in Columbia a rat problem?",
+        answer:
+          "They can be. Columbia's run as a 19th century Pennsylvania Canal terminus left a cluster of old warehouses and commercial buildings along the river, and structures like that reliably provide harborage for Norway rats, which forage out into nearby residential blocks as the weather cools.",
+      },
+      {
+        question: "How old is the termite risk in Columbia's historic district?",
+        answer:
+          "Some of Columbia's housing dates close to the borough's 1788 platting, and a couple of centuries of settling foundations and wood-to-soil contact give eastern subterranean termites far more opportunity than newer construction would. An annual inspection is the most reliable way to catch activity early.",
+      },
+      {
+        question: "Do mice move between homes in Columbia's older neighborhoods?",
+        answer:
+          "In areas with rowhome-style construction, yes. Mice travel through shared wall voids between attached units, so sealing gaps on one side of a shared wall often isn't enough on its own to solve the problem.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Horsham", slug: "horsham-pa", stateSlug: "pennsylvania" },
+      { name: "Northampton", slug: "northampton-pa", stateSlug: "pennsylvania" },
+      { name: "Elizabethtown", slug: "elizabethtown-pa", stateSlug: "pennsylvania" },
+      { name: "Sayre", slug: "sayre-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Columbia, PA | Termites, Rats & Mosquitoes",
+    metaDescription:
+      "Columbia, PA pest control for termites, Norway rats, mosquitoes and carpenter ants along the Susquehanna. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "elizabethtown-pa",
+    name: "Elizabethtown",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~11,600",
+    county: "Lancaster County",
+    climate: "cold-humid",
+    climateDriver:
+      "Elizabethtown sits in central Lancaster County, surrounded by the working farmland and Amish and Pennsylvania Dutch communities the county is known for. Cold winters and humid summers support both the borough's residential streets and the crop fields around it, and that farmland edge is the single biggest factor in Elizabethtown's pest pressure, especially each fall when nearby fields are harvested.",
+    topPests: ["Brown Marmorated Stink Bugs", "House Mice", "Carpenter Ants", "Blacklegged Ticks", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Move from fields into structures September through October",
+        note: "Lancaster County's crop fields and orchards are documented brown marmorated stink bug habitat, and Penn State Extension research has found that roughly 30 percent of vineyard growers across southeastern Pennsylvania, a region that includes Lancaster County, have reported vine damage from the species. As nearby fields around Elizabethtown are harvested each fall, stink bugs move from the stubble into borough homes seeking a place to overwinter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall",
+        note: "Elizabethtown's position at the edge of active farmland means mice have a large rural population nearby that pushes toward buildings as fields are harvested and cooling weather sets in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Older wood-frame homes in the borough, some dating to Elizabethtown's 19th century growth around the rail line, give carpenter ants moisture-softened wood to nest in.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Hedgerows and field edges surrounding Elizabethtown, common throughout rural Lancaster County, are documented tick habitat, and Penn State Extension notes blacklegged ticks are established in every Pennsylvania county.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Termites are present throughout Lancaster County, and Elizabethtown's mix of older borough homes and newer development on former farmland both sit on soil that supports termite activity.",
+      },
+    ],
+    localHook:
+      "Elizabethtown is a college town at the edge of Lancaster County's Amish and Pennsylvania Dutch farm country, home to Elizabethtown College and its Young Center for Anabaptist and Pietist Studies, a leading research center on the region's Amish communities. That farmland setting is exactly why stink bugs are a bigger seasonal event here than in Lancaster County's more urban towns: they move off harvested fields and straight into borough homes each fall.",
+    intro:
+      "Pest control in Elizabethtown is shaped by what surrounds it more than what's inside the borough limits. This Lancaster County college town, home to Elizabethtown College and its Young Center for Anabaptist and Pietist Studies, sits right at the edge of the working farmland and Amish and Pennsylvania Dutch communities the county is known for. That farmland edge means brown marmorated stink bugs move from harvested crop fields into borough homes each September and October looking for somewhere to spend the winter, a pattern more pronounced here than in Lancaster's more built-up towns. House mice follow a similar seasonal push from the surrounding fields. Add hedgerow-driven tick exposure, carpenter ants working into older wood-frame homes near the borough's original rail-era core, and eastern subterranean termites present throughout the county, and an Elizabethtown property benefits from pest coverage built around its farmland surroundings, not a one-size-fits-all suburban plan.",
+    sections: [
+      {
+        heading: "Why do stink bugs hit Elizabethtown harder each fall?",
+        body: "Brown marmorated stink bugs are a documented agricultural pest across Lancaster County, and Penn State Extension research has found that roughly 30 percent of vineyard growers across southeastern Pennsylvania have reported vine damage from the species, alongside pressure on other row crops and orchards. Elizabethtown sits close enough to active farmland that the borough gets a direct version of the fall pattern researchers describe on the farms themselves: as crop fields around town are harvested in September and October, the stink bugs living in that stubble and in fencerow vegetation lose their food source and shelter at once, and they move toward the nearest structures, which are often borough homes. That's a different pattern from the fall aggregation towns further from farmland see, where stink bugs are mostly moving off nearby trees and wooded ridges rather than harvested fields. Sealing exterior gaps before the local harvest window each year is the most useful single step for an Elizabethtown homeowner.",
+      },
+      {
+        heading: "Does being near Amish farmland change tick or rodent risk?",
+        body: "Elizabethtown's setting at the edge of Lancaster County's Amish and Pennsylvania Dutch farm country brings hedgerows, fencerows, and field edges close to many borough properties, and those transition zones are exactly where blacklegged ticks wait for a host to brush past. Penn State Extension has documented the species in every Pennsylvania county, and a property backing onto a hedgerow or unmowed field margin carries more exposure than one in the middle of a built-up block. House mice follow a similar pattern from the rural side of town, moving toward buildings as nearby fields are harvested and the weather cools, joining the mice already working their way in from within the borough itself. A perimeter check that pays attention to which side of an Elizabethtown property faces open farmland, rather than treating every yard the same, targets the real source of both problems more efficiently.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps before the local fall harvest window when stink bugs move off nearby fields.",
+      "Treat hedgerows and field-edge transition zones near the property for ticks, not just the lawn itself.",
+      "Schedule an annual termite inspection for both older borough homes and newer construction on former farmland.",
+      "Fix moisture damage in older wood-frame homes promptly to prevent carpenter ant nesting.",
+      "Seal foundation gaps before fields are harvested to keep mice from moving indoors early.",
+    ],
+    costNote:
+      "General pest coverage in Elizabethtown is often priced as a recurring plan, with stink bug exclusion timed to the local harvest window as an add-on service each fall. Termite and tick-focused treatment are quoted after an inspection. A free assessment gives the most accurate number.",
+    faqs: [
+      {
+        question: "Why does Elizabethtown get so many stink bugs in the fall compared to other towns?",
+        answer:
+          "Elizabethtown sits at the edge of active Lancaster County farmland, and Penn State Extension research shows brown marmorated stink bugs are a documented agricultural pest here, with roughly 30 percent of southeastern Pennsylvania vineyard growers reporting vine damage. When nearby fields are harvested each September and October, the stink bugs move directly from that stubble into borough homes looking for a place to overwinter.",
+      },
+      {
+        question: "Is Elizabethtown College connected to any of this?",
+        answer:
+          "Not to the pest pressure itself, but Elizabethtown College's Young Center for Anabaptist and Pietist Studies is a leading research center on the Amish and Pennsylvania Dutch communities that surround the borough, and that same farmland setting is what drives Elizabethtown's fall stink bug and rodent activity.",
+      },
+      {
+        question: "How much of a tick risk do the hedgerows around Elizabethtown create?",
+        answer:
+          "A real one for properties backing onto farmland edges. Penn State Extension has documented blacklegged ticks in every Pennsylvania county, and hedgerows and unmowed field margins around Elizabethtown are the kind of brushy transition zone the species favors.",
+      },
+      {
+        question: "When do mice become a problem in Elizabethtown?",
+        answer:
+          "Mostly as nearby fields are harvested each fall and the weather cools, pushing mice from the surrounding farmland toward borough homes at the same time mice already inside the borough are seeking shelter for winter.",
+      },
+      {
+        question: "What does termite treatment cost in Elizabethtown?",
+        answer:
+          "It depends on the extent of activity found, since both older borough homes and newer construction on former farmland can have termite activity. General pest plans are usually a recurring service, and termite work is quoted separately after a free inspection.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Horsham", slug: "horsham-pa", stateSlug: "pennsylvania" },
+      { name: "Northampton", slug: "northampton-pa", stateSlug: "pennsylvania" },
+      { name: "Columbia", slug: "columbia-pa", stateSlug: "pennsylvania" },
+      { name: "Sayre", slug: "sayre-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elizabethtown, PA | Stink Bugs & Mice",
+    metaDescription:
+      "Elizabethtown, PA pest control for brown marmorated stink bugs, house mice, ticks and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sayre-pa",
+    name: "Sayre",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~5,400",
+    county: "Bradford County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sayre sits in Bradford County's northern tier, in a river valley just south of the New York border where the Susquehanna and Chemung rivers meet. Winters here are colder and arrive earlier than in southeastern Pennsylvania, and that colder edge of the state's cold-humid climate pushes rodents and cluster flies toward buildings sooner each year than towns closer to Philadelphia see.",
+    topPests: ["House Mice", "Cluster Flies", "Carpenter Ants", "Blacklegged Ticks", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in early fall",
+        note: "Bradford County's northern tier climate cools earlier than the rest of Pennsylvania, and mice in and around Sayre typically push indoors in early fall rather than waiting for the later fall push seen farther south.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Enter structures September through October, reappear on warm winter days",
+        note: "Cluster flies are a well documented overwintering pest of rural and semi-rural Pennsylvania homes, and Sayre's older railroad-era housing stock, with the small gaps typical of century-old wood-frame construction, gives them plenty of entry points each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms, active year-round indoors",
+        note: "Sayre's homes built during the Lehigh Valley Railroad's shop-town era, many over a century old now, have had decades to develop the moisture damage carpenter ants exploit.",
+      },
+      {
+        name: "Blacklegged (deer) ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Penn State Extension has documented blacklegged ticks in every Pennsylvania county, including Bradford County, and the wooded hillsides of the Allegheny Plateau surrounding Sayre's river valley provide tick habitat close to town.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in late spring, later than warmer parts of the state",
+        note: "Termites are present in Bradford County, though the colder northern tier climate generally means slower colony development and a later spring swarm than Pennsylvania sees farther south.",
+      },
+    ],
+    localHook:
+      "Sayre grew up entirely around the Lehigh Valley Railroad, which built a massive repair shop complex here starting in the 1870s that once included the second largest locomotive shop in the world before it closed in the late 1980s. That railroad-era housing, now more than a century old in many cases, sits in a river valley at the Susquehanna and Chemung confluence, right where Pennsylvania meets New York, and both the age of the construction and the colder northern tier climate shape the borough's pest pressure.",
+    intro:
+      "Pest control in Sayre has to account for both a colder climate and a century of railroad history. This Bradford County borough grew up around the Lehigh Valley Railroad's massive repair shop complex, built starting in the 1870s and home at one point to the second largest locomotive shop in the world, before the shops closed in the late 1980s. That left Sayre with a stock of century-old, wood-frame homes sitting in a river valley at the Susquehanna and Chemung confluence, just south of the New York border. Being this far north in Pennsylvania's Allegheny Plateau means winter arrives earlier than in the southeastern part of the state, which pushes house mice and cluster flies toward buildings sooner each fall. Add carpenter ants working into moisture-damaged railroad-era wood, blacklegged ticks in the wooded hillsides around the valley, and eastern subterranean termites working on a slower, colder-climate timeline, and a Sayre property benefits from a plan built around the northern tier's particular seasonal rhythm.",
+    sections: [
+      {
+        heading: "How does Sayre's colder climate change the pest calendar?",
+        body: "Sayre sits far enough north, in the Allegheny Plateau along the New York border, that its cold-humid climate runs on a different schedule than the rest of Pennsylvania. Cold weather arrives earlier here than in Philadelphia or Harrisburg, and that shift shows up directly in pest pressure. House mice start looking for a way indoors in early fall rather than waiting for the later fall push seen farther south, and cluster flies, a well documented overwintering pest of rural and semi-rural Pennsylvania homes, begin working into sunny wall voids and attic spaces around the same time, then reappear inside on warm days through the winter as they wake up and search for a way back out. Eastern subterranean termites run the opposite direction: colony development is generally slower in a colder climate, so Sayre's spring swarms tend to arrive later in the season than in warmer parts of the state. A pest plan timed to Sayre's actual local calendar, rather than a statewide average, catches both the early entries and the late swarm.",
+      },
+      {
+        heading: "Why do so many Sayre homes have carpenter ant and mouse entry points?",
+        body: "Sayre exists because of the Lehigh Valley Railroad, which built a 250-acre shop complex here starting in the 1870s that grew to include 21 major buildings and, on its completion in 1904, the second largest locomotive shop in the world. The housing built around that era to shelter railroad workers is now well over a century old in many cases, and that age matters for pest pressure. Wood-frame construction from the early 1900s has had a long time to develop the small gaps around foundations, sills, and trim that both house mice and cluster flies use to get inside, and any history of a roof or gutter leak gives carpenter ants softened wood to nest in. Because the railroad shops closed in the late 1980s and some of that era's housing has seen only modest updates since, an inspection that focuses on foundation gaps, sill areas, and any history of water damage tends to find more in Sayre than a generic walk-through would.",
+      },
+    ],
+    prevention: [
+      "Seal foundation, sill, and utility gaps in late summer, earlier than in southern Pennsylvania, ahead of Sayre's early fall pest push.",
+      "Caulk sunny-side gaps around windows and attic vents to reduce cluster flies entering for winter.",
+      "Fix roof and gutter leaks in century-old railroad-era homes promptly to prevent carpenter ant nesting.",
+      "Treat wooded hillside edges of the property for ticks through spring and summer.",
+      "Schedule a termite inspection in late spring, when Sayre's colder-climate swarms typically appear.",
+    ],
+    costNote:
+      "General pest and cluster fly exclusion work in Sayre is usually priced as a recurring plan timed to the borough's earlier fall pest push. Termite and carpenter ant work depend on the age and condition of the home and are quoted after an inspection, which is free.",
+    faqs: [
+      {
+        question: "Why do pests show up earlier in Sayre than in southern Pennsylvania?",
+        answer:
+          "Sayre sits in Bradford County's northern tier, near the New York border, where cold weather arrives earlier than in Philadelphia or Harrisburg. That earlier cold pushes house mice and cluster flies toward buildings in early fall rather than the later fall timing seen farther south.",
+      },
+      {
+        question: "What are cluster flies and why does Sayre get them?",
+        answer:
+          "Cluster flies are a well documented overwintering pest of rural and semi-rural Pennsylvania homes. They gather on sunny walls in early fall looking for gaps into attics and wall voids, and Sayre's stock of century-old, railroad-era wood-frame homes gives them plenty of small entry points to find.",
+      },
+      {
+        question: "Does Sayre's railroad history affect its pest problems?",
+        answer:
+          "Yes. The Lehigh Valley Railroad built a massive shop complex in Sayre starting in the 1870s, and the housing built around that era for railroad workers is now well over a century old in many cases. That age gives carpenter ants, mice, and cluster flies more gaps and moisture-damaged wood to work with than newer construction would.",
+      },
+      {
+        question: "Is tick exposure a concern in Sayre?",
+        answer:
+          "Yes. Penn State Extension has documented blacklegged ticks in every Pennsylvania county, including Bradford County, and the wooded hillsides of the Allegheny Plateau around Sayre's river valley provide habitat close to many properties in town.",
+      },
+      {
+        question: "When do termites swarm in Sayre compared to the rest of Pennsylvania?",
+        answer:
+          "Generally later. Sayre's colder northern tier climate slows termite colony development compared to warmer parts of the state, so spring swarms here tend to arrive later in the season than in Philadelphia or Lancaster County.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Horsham", slug: "horsham-pa", stateSlug: "pennsylvania" },
+      { name: "Northampton", slug: "northampton-pa", stateSlug: "pennsylvania" },
+      { name: "Columbia", slug: "columbia-pa", stateSlug: "pennsylvania" },
+      { name: "Elizabethtown", slug: "elizabethtown-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sayre, PA | Mice, Cluster Flies & Ants",
+    metaDescription:
+      "Sayre, PA pest control for house mice, cluster flies, carpenter ants and ticks in Bradford County. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

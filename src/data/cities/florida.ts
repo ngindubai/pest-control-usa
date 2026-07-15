@@ -12331,4 +12331,539 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Palatka pest control for subterranean termites, American and German cockroaches, mosquitoes and fire ants near the St. Johns River. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mount-dora",
+    name: "Mount Dora",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~18,200",
+    county: "Lake County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mount Dora sits on a hilltop above Lake Dora, one of the higher points in peninsular Florida, but the elevation does little to dry things out. A thick, mature canopy of live oaks shades the historic downtown almost all day, holding humidity close to the ground even when the surrounding lake country bakes in full sun.",
+    topPests: ["Subterranean termites", "American cockroaches", "Fire ants", "Mosquitoes", "Roof rats"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most months",
+        note: "Mount Dora's downtown includes wood-frame homes and commercial buildings dating back over a century, and the shaded, humid ground under the oak canopy gives subterranean colonies an easy, sheltered route to older foundations.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed in the damp leaf litter that collects under the live oak canopy and along the lakefront, then work their way toward homes once the outdoor debris dries out on top.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Lake County's former citrus grove land, much of it now subdivided into residential lots, still carries heavy fire ant pressure, and mounds rebuild fast in open lawns after summer storms.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Lake Dora and the smaller connected lakes ringing downtown give mosquitoes shoreline breeding habitat within a short flight of most neighborhoods.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The dense, mature tree cover that gives Mount Dora its shaded streets also gives roof rats an elevated path between the canopy and rooflines, especially on older homes near downtown.",
+      },
+    ],
+    localHook:
+      "Mount Dora's hilltop setting and its canopy of century-old live oaks are what set it apart from the flat, open lake towns nearby. The shade keeps the ground damp under the trees even on dry days, and the age of the downtown building stock gives termites more entry points than newer construction elsewhere in Lake County.",
+    intro:
+      "Pest control in Mount Dora, FL has to account for a strange local fact: this is one of the higher points in the Florida peninsula, yet the mature live oak canopy over downtown keeps the ground beneath it shaded and humid nearly all day. That combination of century-old wood-frame buildings and canopy-driven moisture gives subterranean termites an unusually easy path to older foundations, while the same shaded leaf litter feeds American cockroach populations that eventually move indoors. Add fire ants left over from the area's citrus grove past and the mosquitoes breeding along Lake Dora's shoreline, and Mount Dora's pest pressure looks less like a typical hill town and more like a shaded lake community carrying damp ground conditions most of the year.",
+    sections: [
+      {
+        heading: "Why the oak canopy keeps termite risk high downtown",
+        body: "Mount Dora's historic district includes homes and commercial buildings that predate modern termite-resistant construction standards by decades, many of them wood-frame structures sitting under a dense, unbroken canopy of mature live oaks. That canopy blocks enough sun to keep the soil around foundations damp well after a storm has passed elsewhere in Lake County, and subterranean termites use that persistent moisture to travel between the ground and untreated wood without much resistance. Swarms tend to appear in spring, but colonies can keep working through the rest of the year given how little the shaded ground actually dries out. Homeowners in the oldest parts of downtown, particularly those with crawl spaces or wood siding close to grade, carry more of this risk than newer homes built on cleared, sun-exposed lots farther from the historic core.",
+      },
+      {
+        heading: "Fire ants on former grove land, mosquitoes off the lake",
+        body: "A lot of Mount Dora's residential land used to be citrus grove before it was subdivided, and fire ants that thrived in that open, sunny ground did not disappear when the houses went up. Mounds show up reliably in new lawns and rebuild within days of a heavy rain, which makes a single treatment a short-term fix rather than a real solution. Separately, Lake Dora and the smaller lakes that ring the downtown area give mosquitoes shoreline habitat close to nearly every neighborhood, with activity picking up from spring through fall and spiking hardest after the summer rainy season sets in. The two problems do not overlap much in cause, one is about disturbed soil history, the other about standing water, so an effective plan usually treats the lawn and the shoreline edge separately rather than assuming one visit handles both.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes in the historic downtown area, especially those with crawl spaces under the oak canopy.",
+      "Rake back leaf litter from the foundation to reduce the damp harborage that feeds American cockroaches.",
+      "Apply fire ant bait to lawns on former grove land each spring and fall.",
+      "Clear gutters and any standing water near Lake Dora's shoreline to cut mosquito breeding through the warm months.",
+    ],
+    costNote:
+      "Most Mount Dora homes run a recurring plan for cockroaches, ants, and general pests, typically $40 to $65 a month, with termite protection quoted separately after a free inspection given the extra risk carried by the historic downtown's older wood-frame buildings.",
+    faqs: [
+      {
+        question: "Why does Mount Dora have more termite risk than nearby lake towns?",
+        answer:
+          "Mount Dora's downtown sits under a dense, mature live oak canopy that keeps the ground shaded and damp even when the rest of Lake County dries out after a storm. Combined with wood-frame buildings over a century old, that persistent moisture gives subterranean termites an easier path to older foundations than most newer construction in the area.",
+      },
+      {
+        question: "Are fire ants a problem on former citrus grove land in Mount Dora?",
+        answer:
+          "Yes. Much of Mount Dora's residential land was citrus grove before it was subdivided, and fire ants that thrived in that open ground are still active in the resulting lawns. Mounds rebuild quickly after rain, so bait treatment applied in spring and fall works better than a single one-time application.",
+      },
+      {
+        question: "Does Lake Dora make mosquitoes worse in town?",
+        answer:
+          "Lake Dora and the smaller lakes surrounding downtown give mosquitoes shoreline breeding habitat within reach of most neighborhoods. Activity runs from spring through fall and increases sharply after summer rain, so clearing standing water near the shoreline and in gutters matters year after year.",
+      },
+      {
+        question: "Do roof rats get into homes near Mount Dora's tree canopy?",
+        answer:
+          "They can. The same mature tree cover that shades Mount Dora's streets gives roof rats an elevated route into attics and rooflines on older homes near downtown, since they travel through canopy and along utility lines rather than across open ground.",
+      },
+      {
+        question: "How often should an older Mount Dora home get inspected for termites?",
+        answer:
+          "Once a year is the standard recommendation, and it matters more for wood-frame homes in the shaded historic downtown than for newer construction on cleared, sun-exposed lots elsewhere in Lake County.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Milton", slug: "milton-fl", stateSlug: "florida" },
+      { name: "Live Oak", slug: "live-oak-fl", stateSlug: "florida" },
+      { name: "Immokalee", slug: "immokalee", stateSlug: "florida" },
+      { name: "Pahokee", slug: "pahokee", stateSlug: "florida" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Mount Dora, FL | Termites, Ants & Mosquitoes",
+    metaDescription:
+      "Mount Dora pest control for subterranean termites, fire ants, mosquitoes and roof rats near Lake Dora's historic downtown. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "milton-fl",
+    name: "Milton",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~10,900",
+    county: "Santa Rosa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Milton sits along the Blackwater River at the edge of Blackwater River State Forest, one of the largest remaining stretches of longleaf pine forest in the state. Hot, wet Panhandle summers and mild winters keep the river and forest floor humid most of the year, feeding termite and cockroach activity right up to the edge of town.",
+    topPests: ["Eastern subterranean termites", "Fire ants", "American cockroaches", "Mosquitoes", "Carpenter ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note: "Milton's historic mill-town core includes older wood-frame homes close to the Blackwater River, where humid ground gives subterranean colonies steady access to untreated wood.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Cleared lots on the edge of Milton's newer subdivisions, many carved out of former pine timber land, see fast fire ant colonization once the ground is disturbed and left open to sun.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed in the damp leaf litter and mulch near the riverbank and in wooded yards backing onto the state forest, then move indoors once the surface dries out.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "The Blackwater River and its connected creeks and wetlands give mosquitoes breeding habitat close to town through most of the warm season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible in spring",
+        note: "Homes backing onto the pine forest see more carpenter ant pressure than homes farther into town, since damp, decaying pine debris at the forest edge gives colonies an easy place to nest before moving into structural wood.",
+      },
+    ],
+    localHook:
+      "Milton's location on the Blackwater River, right at the edge of one of Florida's largest remaining longleaf pine forests, is the single fact that shapes pest pressure here more than anything else. The river keeps humidity high along the older mill-town core, and the forest edge feeds a steady supply of wood-nesting ants and termites into the nearest neighborhoods.",
+    intro:
+      "Pest control in Milton, FL starts with the Blackwater River, which cuts through the middle of town and borders Blackwater River State Forest just beyond the city limits. As a historic Panhandle mill town, Milton has an older housing stock near downtown that sits close to the river's humidity for most of the year, giving Eastern subterranean termites easy access to untreated wood in crawl spaces and sills. The forest edge adds its own pressure, feeding carpenter ants and American cockroaches into yards that back onto pine timber land, while newer subdivisions cleared from that same land see fire ants move in fast once the ground is disturbed. Mosquitoes off the river round out a pest calendar that runs close to year-round given the mild Panhandle winters.",
+    sections: [
+      {
+        heading: "A river town's termite risk",
+        body: "Milton's downtown grew up around river commerce and timber milling, and a good share of the older homes near the water date back well before modern termite-resistant construction. The Blackwater River keeps the ground under those buildings humid for most of the year, and Eastern subterranean termites use that moisture to move from the soil into sills, floor joists, and crawl space framing without much resistance. Swarm season typically runs February through May in this part of the Panhandle, but colonies keep feeding underground the rest of the year in a climate this mild. Homes closest to the river and its tributary creeks carry more of this risk than newer construction set back from the water, which is why an annual inspection matters more here than it might in a drier inland town.",
+      },
+      {
+        heading: "Living next to Blackwater River State Forest",
+        body: "A lot of Milton backs directly onto Blackwater River State Forest, one of the largest contiguous stands of longleaf pine left in Florida, and that proximity cuts both ways for pest pressure. Damp, decaying pine debris along the forest edge gives carpenter ants and American cockroaches an easy outdoor base to build from before they ever reach a house, so homes on the tree line see noticeably more activity than homes farther into the older grid streets downtown. At the same time, newer subdivisions cleared out of that same forest land run into the opposite problem: freshly disturbed, sun-exposed soil that fire ants colonize within weeks of grading. The forest that makes Milton a genuinely appealing place to live is the same forest that keeps feeding these three species into the nearest yards.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for older homes near downtown and the riverfront.",
+      "Clear damp pine debris and mulch away from the foundation on lots backing onto the state forest.",
+      "Apply fire ant bait to lawns in newly cleared subdivisions each spring and fall.",
+      "Clear standing water near the river and in gutters to cut mosquito breeding through the warm months.",
+    ],
+    costNote:
+      "Most Milton homes run a recurring plan for ants, cockroaches, and general pests, typically $40 to $60 a month, with termite protection quoted separately after a free inspection given the added risk near the river and the older mill-town core.",
+    faqs: [
+      {
+        question: "Why is termite risk higher near Milton's riverfront?",
+        answer:
+          "Milton's older mill-town core sits close to the Blackwater River, which keeps the ground humid for most of the year. That moisture gives Eastern subterranean termites an easy path from the soil into crawl spaces and sills on older wood-frame homes, so an annual inspection matters more here than farther from the water.",
+      },
+      {
+        question: "Does living next to Blackwater River State Forest bring more pests?",
+        answer:
+          "Homes backing onto the state forest tend to see more carpenter ant and American cockroach activity, since damp pine debris along the tree line gives both an easy outdoor base to build from before moving toward a structure. Clearing debris and mulch away from the foundation reduces that pressure.",
+      },
+      {
+        question: "Are fire ants worse in Milton's newer subdivisions?",
+        answer:
+          "Yes. Many of Milton's newer subdivisions were cleared out of former pine timber land, and fire ants colonize that freshly disturbed, sun-exposed soil within weeks of grading. Bait treatment applied in spring and fall keeps mound density down better than a single application.",
+      },
+      {
+        question: "Are mosquitoes a bigger problem near the Blackwater River?",
+        answer:
+          "The river and its connected creeks and wetlands give mosquitoes breeding habitat close to town through most of the warm season, from spring through fall. Clearing gutters and standing water near the water's edge helps keep bites down.",
+      },
+      {
+        question: "When do termites swarm in Milton?",
+        answer:
+          "Swarm season typically runs February through May in this part of the Florida Panhandle, though colonies keep feeding underground through the rest of the year given how mild local winters are.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mount Dora", slug: "mount-dora", stateSlug: "florida" },
+      { name: "Live Oak", slug: "live-oak-fl", stateSlug: "florida" },
+      { name: "Immokalee", slug: "immokalee", stateSlug: "florida" },
+      { name: "Pahokee", slug: "pahokee", stateSlug: "florida" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Milton, FL | Termites, Fire Ants & Carpenter Ants",
+    metaDescription:
+      "Milton pest control for subterranean termites, fire ants, carpenter ants and mosquitoes near the Blackwater River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "live-oak-fl",
+    name: "Live Oak",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~6,900",
+    county: "Suwannee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Live Oak is the Suwannee County seat, bordered on three sides by the Suwannee River and surrounded by working pine timber land that has supplied local sawmills for more than a century. The river keeps humidity high near downtown, and the surrounding forestry and hay and peanut farmland keeps termite and fire ant pressure steady through the warm months.",
+    topPests: ["Subterranean termites", "German cockroaches", "American cockroaches", "Fire ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Live Oak's historic downtown, built up during its railroad and timber boom over a century ago, still has wood-frame buildings close to the Suwannee River's humidity, giving termites steady access to older wood.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoors",
+        note: "German cockroaches establish inside kitchens and bathrooms in rural and in-town homes alike, spreading through shared plumbing in older housing without tight modern sealing.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed outdoors in mulch, woodpiles, and pine straw common on properties near the timber land surrounding town before moving indoors as conditions dry out.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Open hay fields, peanut farmland, and cleared pastures around Live Oak give fire ants plenty of sunny, disturbed ground, and mounds rebuild quickly after summer rain.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "The Suwannee River and its floodplain give mosquitoes breeding habitat close to town for most of the warm season, especially after heavy rain raises the river.",
+      },
+    ],
+    localHook:
+      "Live Oak's identity as a river and timber town, the Suwannee County seat surrounded on three sides by the Suwannee River and ringed by working pine forestry and farmland, is what sets its pest pressure apart from Florida's coastal cities. The river brings humidity, and the farmland and timber acreage bring fire ants and outdoor cockroach pressure that a beach town never sees.",
+    intro:
+      "Pest control in Live Oak, FL is shaped by two things: the Suwannee River, which borders the town on three sides, and the working pine timber and farmland that surrounds it. As the Suwannee County seat and a former railroad boomtown, Live Oak has a historic downtown with wood-frame buildings that sit close to the river's humidity most of the year, giving subterranean termites reliable access to older wood. German cockroaches take hold indoors in older housing, while American cockroaches breed outdoors in the pine straw and mulch common on properties near the timber land. Fire ants thrive in the area's open hay and peanut fields, and mosquitoes breed along the river's floodplain after rain. It adds up to a pest calendar driven by river humidity on one side and farmland and forestry on the other.",
+    sections: [
+      {
+        heading: "A railroad and timber town's termite risk",
+        body: "Live Oak was, for a stretch around 1905, the fifth-largest city in Florida on the strength of its railroads and sawmills, and a good share of that era's wood-frame construction still stands in the historic downtown. The Suwannee River, which borders the county on three sides, keeps the ground under those older buildings humid for most of the year, and subterranean termites use that moisture to reach untreated sills and floor framing without much resistance. Swarms typically show up in spring, but colonies keep feeding through the rest of the year in this climate. Homes in the oldest parts of downtown, especially those with crawl spaces close to grade, carry more termite risk than newer construction on higher, drier lots outside the historic core.",
+      },
+      {
+        heading: "Farmland fire ants and two kinds of cockroach",
+        body: "Suwannee County's economy still runs on timber, pine straw, and row crops like hay and peanuts, and the open, sun-exposed ground that farming and forestry require is exactly what fire ants prefer for mound building. Colonies rebuild fast after summer rain, which makes a single yard treatment a short-term fix rather than a lasting one. Cockroaches split into two separate problems here: American cockroaches breed outdoors in the pine straw and mulch found on properties near the surrounding timber land, working their way indoors once the surface dries, while German cockroaches establish directly inside kitchens and bathrooms and spread through shared plumbing in older rural and in-town housing that was not built with today's sealing standards. Treating only the yard, or only the kitchen, tends to leave the other population untouched.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for wood-frame homes in the historic downtown near the river.",
+      "Clear pine straw and mulch away from the foundation to reduce American cockroach harborage.",
+      "Seal kitchen and bathroom cracks in older homes to stop German cockroaches from establishing indoors.",
+      "Apply fire ant bait to lawns and field edges each spring and fall.",
+    ],
+    costNote:
+      "Most Live Oak homes run a recurring plan for cockroaches, ants, and general pests, typically $35 to $55 a month, with termite protection quoted separately after a free inspection given the added risk in the city's older river-adjacent building stock.",
+    faqs: [
+      {
+        question: "Why is termite risk higher in Live Oak's historic downtown?",
+        answer:
+          "Live Oak's downtown includes wood-frame buildings from its 1900s railroad and timber boom, and the Suwannee River, which borders the county on three sides, keeps the ground humid most of the year. That combination gives subterranean termites easy access to older wood, so an annual inspection matters more here than in newer construction outside the historic core.",
+      },
+      {
+        question: "What is the difference between the cockroaches found in Live Oak?",
+        answer:
+          "American cockroaches breed outdoors in pine straw and mulch near the surrounding timber land before moving indoors, while German cockroaches establish directly inside kitchens and bathrooms and spread through shared plumbing. Older rural and in-town housing without tight modern sealing sees both.",
+      },
+      {
+        question: "Are fire ants a problem on Suwannee County farmland?",
+        answer:
+          "Yes. The open hay fields, peanut farmland, and cleared pasture around Live Oak give fire ants plenty of sunny, disturbed ground, and mounds rebuild quickly after rain. Bait treatment in spring and fall works better than a single application.",
+      },
+      {
+        question: "Does the Suwannee River make mosquitoes worse in Live Oak?",
+        answer:
+          "Yes. The river and its floodplain give mosquitoes breeding habitat close to town for most of the warm season, with activity picking up after heavy rain raises the river.",
+      },
+      {
+        question: "How often should a Live Oak home get a termite inspection?",
+        answer:
+          "Once a year is the standard recommendation, and it matters more for older wood-frame homes near the historic downtown and the river than for newer construction on higher ground elsewhere in Suwannee County.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Mount Dora", slug: "mount-dora", stateSlug: "florida" },
+      { name: "Milton", slug: "milton-fl", stateSlug: "florida" },
+      { name: "Immokalee", slug: "immokalee", stateSlug: "florida" },
+      { name: "Pahokee", slug: "pahokee", stateSlug: "florida" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Live Oak, FL | Termites, Cockroaches & Fire Ants",
+    metaDescription:
+      "Live Oak pest control for subterranean termites, German and American cockroaches, fire ants and mosquitoes near the Suwannee River. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "immokalee",
+    name: "Immokalee",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~25,000",
+    county: "Collier County",
+    climate: "tropical",
+    climateDriver:
+      "Immokalee sits inland from Naples on flat, low farmland at the edge of the Everglades watershed, with Lake Trafford marking the western edge of town. Warm temperatures and heavy seasonal rain, combined with irrigated agricultural fields, keep humidity and standing water levels high through most of the year.",
+    topPests: ["Rats and mice", "Mosquitoes", "American cockroaches", "Subterranean termites", "Fire ants"],
+    pestProfile: [
+      {
+        name: "Rats and mice",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak during harvest season",
+        note: "Immokalee's agricultural warehouses, packing houses, and open tomato fields give rodents food and cover close to homes and businesses, with pressure rising as harvest activity picks up.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, heaviest in the rainy season",
+        note: "Lake Trafford at the western edge of town and the irrigation systems that serve surrounding farmland both hold standing water that mosquitoes use to breed close to residential areas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs thrive in Immokalee's warm, humid climate and breed outdoors around drains, mulch, and irrigation ditches before working their way into homes and farm buildings.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round",
+        note: "The area's warm, moist soil supports subterranean termite activity year-round, and older homes and outbuildings on agricultural properties carry higher risk than newer, sealed construction.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "The open farmland surrounding Immokalee gives fire ants extensive disturbed, sunny ground to colonize, and mounds rebuild fast after the heavy rains common to the area.",
+      },
+    ],
+    localHook:
+      "Immokalee's identity as one of the nation's major tomato-growing centers, with Lake Trafford anchoring its western edge, is what shapes pest pressure here more than anything else. Agricultural warehouses and irrigated fields draw rodents and mosquitoes toward homes in a way that a beach town or a suburban subdivision never sees.",
+    intro:
+      "Pest control in Immokalee, FL is tied closely to agriculture. This inland Collier County community is one of the country's major centers for fresh tomato production, and the packing houses, warehouses, and open fields that support that industry also draw rats and mice looking for food and shelter close to homes and businesses. Lake Trafford, which marks the western edge of town, and the irrigation systems that serve surrounding farmland both hold standing water that keeps mosquitoes active for most of the year. American cockroaches and subterranean termites thrive in the same warm, moist conditions, and fire ants colonize the open farmland ringing the community. It is a pest calendar shaped as much by agriculture as by climate.",
+    sections: [
+      {
+        heading: "Why agricultural buildings draw rodents into Immokalee",
+        body: "Immokalee's economy runs on the packing houses, warehouses, and open tomato fields that support one of the nation's major fresh-market tomato regions, and that agricultural infrastructure gives rats and mice exactly what they need: food, cover, and a short distance to travel to reach nearby homes. Pressure rises noticeably during harvest season, when produce handling and storage activity peaks and rodents follow the food supply toward buildings at the edge of farmland. Homes and businesses close to packing operations or open fields carry more of this risk than properties farther into residential areas, which is why exclusion work, sealing gaps around foundations and utility entry points, matters as much here as bait and trapping.",
+      },
+      {
+        heading: "Lake Trafford, irrigation, and standing water",
+        body: "Lake Trafford sits at the western edge of Immokalee and, along with the irrigation systems that serve the surrounding farmland, keeps standing water available to mosquitoes for most of the year rather than just during a defined rainy season. That water source is closer to residential areas than the marshes and retention ponds that drive mosquito pressure in a typical suburban community, which is part of why activity here tends to run heavier and longer into the year. The same warm, humid conditions that keep the lake and irrigation ditches productive for agriculture also keep American cockroaches and subterranean termites active close to year-round, so a property in Immokalee benefits from a plan that treats standing water, structural entry points, and soil-level termite risk together rather than as separate problems.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around foundations and utility entry points near warehouses and packing buildings to reduce rodent access.",
+      "Clear or treat standing water near Lake Trafford and irrigation ditches close to residential areas.",
+      "Schedule an annual termite inspection for older homes and outbuildings on agricultural properties.",
+      "Apply fire ant bait to open farmland edges and residential lawns each spring and fall.",
+    ],
+    costNote:
+      "Most Immokalee homes and small businesses run a recurring plan for rodents, cockroaches, and general pests, typically $40 to $65 a month, with termite protection and larger commercial rodent programs quoted separately after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Immokalee have more rodent pressure than other Collier County towns?",
+        answer:
+          "Immokalee's economy centers on tomato farming, and the packing houses, warehouses, and open fields that support it give rats and mice steady access to food and shelter close to homes and businesses. Pressure rises during harvest season, so sealing foundation gaps and utility entry points matters more here than in areas without that agricultural infrastructure.",
+      },
+      {
+        question: "Does Lake Trafford make mosquitoes worse in Immokalee?",
+        answer:
+          "Yes. Lake Trafford at the western edge of town, along with irrigation systems serving the surrounding farmland, keeps standing water available to mosquitoes for most of the year, which is part of why activity here tends to run heavier and longer than in areas without that water source close to residential neighborhoods.",
+      },
+      {
+        question: "Are termites a risk on Immokalee's agricultural properties?",
+        answer:
+          "Yes. Warm, moist soil supports subterranean termite activity year-round, and older homes and outbuildings on agricultural properties carry more risk than newer, sealed construction. An annual inspection is the standard way to catch activity before structural damage occurs.",
+      },
+      {
+        question: "Are fire ants common on the farmland around Immokalee?",
+        answer:
+          "Yes. The open farmland surrounding Immokalee gives fire ants extensive disturbed, sunny ground to colonize, and mounds rebuild quickly after the area's heavy seasonal rain. Bait treatment applied in spring and fall works better than a single application.",
+      },
+      {
+        question: "Is pest pressure worse during Immokalee's harvest season?",
+        answer:
+          "Rodent activity in particular tends to rise during harvest season, when produce handling and storage peaks and rats and mice follow the food supply toward nearby buildings. Businesses near packing operations should plan for extra vigilance during that stretch of the year.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Mount Dora", slug: "mount-dora", stateSlug: "florida" },
+      { name: "Milton", slug: "milton-fl", stateSlug: "florida" },
+      { name: "Live Oak", slug: "live-oak-fl", stateSlug: "florida" },
+      { name: "Pahokee", slug: "pahokee", stateSlug: "florida" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Immokalee, FL | Rodents, Mosquitoes & Termites",
+    metaDescription:
+      "Immokalee pest control for rats, mice, mosquitoes, American cockroaches and termites near Lake Trafford and area farmland. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pahokee",
+    name: "Pahokee",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~5,700",
+    county: "Palm Beach County",
+    climate: "hot-humid",
+    climateDriver:
+      "Pahokee sits directly on the southeastern shore of Lake Okeechobee, behind the Herbert Hoover Dike, on flat, low ground made up of Pahokee muck, a deep, organic peat soil formed under decades of flooding before the Everglades Agricultural Area was drained for farming. That muck holds moisture close to the surface almost year-round, on top of the lake's own humidity.",
+    topPests: ["Mosquitoes", "Rats", "Fire ants", "American cockroaches", "Subterranean termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, heaviest in the rainy season",
+        note: "The canals and drainage network built around Lake Okeechobee and the Herbert Hoover Dike give mosquitoes breeding habitat close to town for most of the year, with activity climbing sharply after summer rain.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak during sugarcane harvest",
+        note: "The sugarcane fields that surround Pahokee provide cover for rats through the growing season, and populations tend to move toward homes and farm buildings as harvest clears the fields.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Pahokee muck, the organic soil that dominates the Everglades Agricultural Area around town, holds moisture well and gives fire ants disturbed, open ground to colonize between farm fields and residential lots.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs breed along canal banks and drainage ditches close to the lake, then move indoors once conditions on the surface dry out.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round",
+        note: "Older homes in Pahokee built closer to grade, rather than on raised slabs, carry more termite exposure given how consistently damp the muck soil stays underneath.",
+      },
+    ],
+    localHook:
+      "Pahokee's location directly on Lake Okeechobee's shore, behind the Herbert Hoover Dike, and the locally named Pahokee muck soil beneath it are what set this town apart from any coastal Florida city. The muck holds water close to the surface nearly year-round, and the sugarcane farming that soil supports brings its own seasonal rodent pressure that a beach community never deals with.",
+    intro:
+      "Pest control in Pahokee, FL starts with the ground itself. This Palm Beach County town sits directly on Lake Okeechobee's southeastern shore, behind the Herbert Hoover Dike, on Pahokee muck, a deep organic peat soil that formed over centuries of flooding before the surrounding Everglades Agricultural Area was drained for sugarcane and vegetable farming. That muck holds moisture close to the surface nearly year-round, on top of the humidity coming off the lake itself, which keeps mosquitoes, fire ants, and American cockroaches active for most of the calendar. The sugarcane fields ringing town add their own pressure, giving rats cover through the growing season before harvest pushes them toward homes and farm buildings. It is a pest calendar shaped by lake, dike, and muck in equal measure.",
+    sections: [
+      {
+        heading: "Why Pahokee muck keeps pest pressure high",
+        body: "The soil under Pahokee has its own name for a reason. Pahokee muck is one of the dominant organic soil types in the Everglades Agricultural Area, a deep peat layer that built up over centuries of standing water before 20th-century drainage projects turned the land around Lake Okeechobee into some of the richest farmland in the country. That soil never fully lost its water-holding character, so it stays damp close to the surface even during dry stretches, which keeps fire ants, American cockroaches, and subterranean termites active on a schedule that would slow down considerably in a town built on sandier, faster-draining ground. Older homes built closer to grade rather than on raised slabs carry more termite exposure as a result, since the muck underneath them rarely dries out enough to interrupt subterranean colony activity for long.",
+      },
+      {
+        heading: "Sugarcane fields, the lake, and where rats end up",
+        body: "Pahokee's economy runs on the sugarcane and vegetable fields that surround it, and those fields give rats plenty of cover to build up numbers through the growing season, largely out of sight of town. Harvest changes that: as fields get cut and cleared, rats lose their cover in a short window of time and move toward the nearest structures, which means homes and farm buildings at the edge of cane fields see a real seasonal spike rather than a steady year-round baseline. Separately, the canal and drainage network built to manage water around Lake Okeechobee and the Herbert Hoover Dike gives mosquitoes breeding habitat close to town through most of the year, with the heaviest activity following summer rain. Between the fields on one side and the canals on the other, Pahokee's pest pressure comes from its agricultural and flood-control geography as much as from its climate.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for older homes built closer to grade on Pahokee muck.",
+      "Seal foundation gaps and utility entry points before sugarcane harvest to reduce rat pressure moving toward structures.",
+      "Apply fire ant bait to lawns and field edges each spring and fall.",
+      "Clear standing water near canals and drainage ditches to cut mosquito breeding through the warm months.",
+    ],
+    costNote:
+      "Most Pahokee homes and small farm operations run a recurring plan for rodents, ants, and general pests, typically $35 to $55 a month, with termite protection quoted separately after a free inspection given the added risk carried by the town's muck soil and older building stock.",
+    faqs: [
+      {
+        question: "What is Pahokee muck and why does it matter for pest control?",
+        answer:
+          "Pahokee muck is the deep, organic peat soil that dominates the Everglades Agricultural Area around town, formed over centuries of flooding before the land was drained for farming. It holds moisture close to the surface nearly year-round, which keeps fire ants, cockroaches, and subterranean termites more active than they would be on sandier, faster-draining ground.",
+      },
+      {
+        question: "Do sugarcane fields bring rats closer to homes in Pahokee?",
+        answer:
+          "Yes. Sugarcane fields around Pahokee give rats cover to build up numbers through the growing season, and when harvest clears the fields, rats lose that cover quickly and move toward the nearest homes and farm buildings. Sealing foundation gaps before harvest season reduces that pressure.",
+      },
+      {
+        question: "Does being on Lake Okeechobee make mosquitoes worse in Pahokee?",
+        answer:
+          "Yes. The canal and drainage network built around the lake and the Herbert Hoover Dike gives mosquitoes breeding habitat close to town for most of the year, with the heaviest activity following summer rain.",
+      },
+      {
+        question: "Are older homes in Pahokee more exposed to termites?",
+        answer:
+          "Homes built closer to grade rather than on raised slabs tend to carry more termite exposure, since the muck soil underneath rarely dries out enough to slow subterranean colony activity for long. An annual inspection is the standard way to catch this early.",
+      },
+      {
+        question: "Is fire ant pressure worse in the Everglades Agricultural Area around Pahokee?",
+        answer:
+          "Yes. The muck soil holds moisture well and gives fire ants disturbed, open ground to colonize between farm fields and residential lots, with mounds rebuilding quickly after rain.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Mount Dora", slug: "mount-dora", stateSlug: "florida" },
+      { name: "Milton", slug: "milton-fl", stateSlug: "florida" },
+      { name: "Live Oak", slug: "live-oak-fl", stateSlug: "florida" },
+      { name: "Immokalee", slug: "immokalee", stateSlug: "florida" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pahokee, FL | Mosquitoes, Rats & Fire Ants",
+    metaDescription:
+      "Pahokee pest control for mosquitoes, rats, fire ants and termites near Lake Okeechobee and the Everglades Agricultural Area. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
