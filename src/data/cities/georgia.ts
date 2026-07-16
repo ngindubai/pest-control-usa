@@ -10227,4 +10227,564 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Fort Oglethorpe, GA pest control for ticks near the Chickamauga battlefield park, termites in older former-military housing, carpenter ants, stink bugs and mice. Free inspection.",
   },
+  {
+    slug: "monroe-ga",
+    name: "Monroe",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~15,000",
+    county: "Walton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Monroe sits in the Georgia Piedmont about 45 miles east of Atlanta, in Walton County. Hot, humid summers and mild winters are typical of the Piedmont, but the detail that shapes pest pressure here most is the town's history as a cotton mill center. Walton Monroe Mills opened in 1895, and the wood-frame mill village built up around it still stands today, much of it inside the Monroe and Walton Mills Historic District.",
+    topPests: ["Eastern Subterranean Termites", "Fire Ants", "Mosquitoes", "American & German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active most of the year",
+        note: "The Monroe and Walton Mills Historic District covers 120 acres and lists 236 contributing buildings, most of them wood-frame mill village homes built around the turn of the 20th century. That much wood-to-soil contact on housing this age gives Monroe real, ongoing subterranean termite pressure that a single treatment years ago will not have solved for good.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Piedmont clay soils around Monroe hold moisture well, and fire ant colonies rebuild mounds fast after rain on lawns, ball fields, and cleared lots alike.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Warm, humid Piedmont summers combined with the creeks and drainage ditches that run through Monroe's older neighborhoods give mosquitoes plenty of places to breed close to homes.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Crawl spaces under Monroe's older mill village homes give American cockroaches an easy route indoors during summer heat, while German cockroaches establish separately in kitchens and spread through cabinets.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture-damaged wood is common in century-old mill village construction, and that softened wood is exactly what carpenter ants look for when choosing a place to nest.",
+      },
+    ],
+    localHook:
+      "Monroe grew up around Walton Monroe Mills, a cotton mill that opened in 1895, and the wood-frame mill village built to house its workers still covers much of downtown today. The Monroe and Walton Mills Historic District protects 120 acres and 236 of those buildings, which means a large share of the town's housing stock is well past its first century and carries the termite exposure that comes with it.",
+    intro:
+      "Pest control in Monroe starts with a question most Georgia towns don't have to ask: how much of the housing stock predates 1920? Walton Monroe Mills opened in 1895, and the mill village built around it, hundreds of wood-frame homes now protected inside the Monroe and Walton Mills Historic District, gives the town a genuine, ongoing subterranean termite problem that newer construction elsewhere in the Piedmont doesn't share to the same degree. Hot, humid summers layer fire ants, mosquitoes, and both American and German cockroaches on top of that termite pressure, and the older housing stock complicates control for more than just termites.",
+    sections: [
+      {
+        heading: "Why Monroe's mill village housing changes the termite conversation",
+        body: "Most Georgia towns have a mix of old and new construction, but Monroe's downtown is unusually concentrated with wood-frame homes built in a single stretch around the turn of the 20th century, when Walton Monroe Mills was hiring workers faster than housing could go up. The Monroe and Walton Mills Historic District now protects 236 of those buildings across 120 acres, and buildings that age have had a full century of wood-to-soil contact to accumulate termite exposure, whether or not a treatment was ever documented. An annual inspection matters more for a Monroe home in or near that district than it would for a comparable newer home in an Atlanta exurb, since decades of untreated exposure can hide real structural damage behind an intact-looking wall.",
+      },
+      {
+        heading: "Fire ants and mosquitoes in a Piedmont summer",
+        body: "Walton County's red clay soil holds water well after a storm, which is good news for fire ant colonies looking to rebuild a flattened mound and bad news for anyone trying to keep a lawn ant-free through a Georgia summer. The same humidity that keeps the clay soil damp also feeds Monroe's mosquito season, which runs roughly April through October and draws heavily on the creeks and roadside ditches that cut through the town's older neighborhoods. Removing standing water near the house and treating fire ant mounds early in spring, before a colony has a chance to spread across a yard, both do real work here.",
+      },
+      {
+        heading: "Cockroaches and carpenter ants in century-old construction",
+        body: "American and German cockroaches take different paths into a Monroe home, and knowing which one is present changes the plan. American roaches, sometimes called palmetto bugs locally, breed outdoors in crawl spaces and mulch and push indoors when summer heat gets intense, a common route in mill village homes with older, less sealed crawl space vents. German roaches skip that outdoor stage and establish directly in kitchens. Carpenter ants add a third concern specific to older construction: they don't eat wood the way termites do, but they excavate it to nest, and moisture-damaged fascia boards or window frames on a century-old home give them plenty to work with.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any home in or near the Monroe and Walton Mills Historic District, regardless of treatment history.",
+      "Remove standing water in yards and clear roadside ditches to shorten the mosquito season.",
+      "Treat fire ant mounds early in spring before colonies spread across the lawn.",
+      "Seal and screen older crawl space vents to slow American cockroach entry.",
+      "Repair moisture-damaged wood promptly to remove the soft timber carpenter ants prefer.",
+    ],
+    costNote:
+      "Termite inspections for Monroe's older mill village homes are typically free, with treatment plans priced by the age and construction of the structure. General pest coverage for fire ants, cockroaches, and seasonal mosquitoes usually runs $150 to $280 per year.",
+    faqs: [
+      {
+        question: "Are termites a bigger risk in Monroe than in newer Georgia towns?",
+        answer:
+          "Yes, for homes in or near the Monroe and Walton Mills Historic District. That district protects 236 mostly wood-frame buildings built around the turn of the 20th century, and a century of wood-to-soil contact means real termite exposure even where no damage is visible yet. An annual inspection is the practical way to catch it early.",
+      },
+      {
+        question: "Why does Monroe have so much older wood-frame housing?",
+        answer:
+          "Walton Monroe Mills, a cotton mill, opened in 1895 and needed housing for its workforce quickly, which produced the wood-frame mill village that still makes up much of downtown Monroe today. Much of it is now protected as a historic district, but the age of the construction is exactly what gives the town its elevated termite exposure.",
+      },
+      {
+        question: "Is fire ant treatment necessary year-round in Monroe?",
+        answer:
+          "Mounds are most visible in spring through fall, but colonies survive Monroe's mild Piedmont winters and rebuild quickly after rain, so treating in early spring before mounds spread is more effective than waiting until summer.",
+      },
+      {
+        question: "What is the difference between American and German cockroaches in Monroe homes?",
+        answer:
+          "American cockroaches breed outdoors, often in older crawl spaces, and move indoors when it's hot. German cockroaches establish directly in kitchens and spread through cabinets. Because Monroe's older homes have more crawl space entry points, both species show up here more than in newer construction.",
+      },
+      {
+        question: "How long does Monroe's mosquito season last?",
+        answer:
+          "Roughly April through October, driven by warm, humid Piedmont summers and the creeks and drainage ditches running through the town's older neighborhoods. Removing standing water near the house shortens the season meaningfully.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Villa Rica", slug: "villa-rica-ga", stateSlug: "georgia" },
+      { name: "Jefferson", slug: "jefferson-ga", stateSlug: "georgia" },
+      { name: "Commerce", slug: "commerce-ga", stateSlug: "georgia" },
+      { name: "Camilla", slug: "camilla-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Monroe, GA | Mill Village Termites & Fire Ants",
+    metaDescription:
+      "Monroe, GA pest control for subterranean termites in historic mill village homes, fire ants, mosquitoes, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "villa-rica-ga",
+    name: "Villa Rica",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~17,000",
+    county: "Carroll County",
+    climate: "hot-humid",
+    climateDriver:
+      "Villa Rica sits in the Georgia Piedmont on the ridge that divides the Chattahoochee and Tallapoosa river basins, mostly in Carroll County. Hilly, wooded terrain and hot, humid summers are typical of this part of the Piedmont, and the same hills that once held Georgia's second-largest gold mining district, after Dahlonega, now hold a mix of century-old in-town housing and newly cleared subdivisions built for Atlanta commuters.",
+    topPests: ["Eastern Subterranean Termites", "Fire Ants", "Ticks", "Mosquitoes", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round, heaviest spring swarming",
+        note: "Villa Rica's older downtown, built up during its 1830s gold rush years and the decades after, has had a long time to accumulate wood-to-soil termite contact, and many of those buildings predate any documented soil treatment.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Newly cleared subdivision lots on former wooded or farm land around Villa Rica consistently show the heaviest fire ant mound density in their first two or three seasons after construction, before established grass and predators catch up.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Villa Rica's hilly, wooded lots along the Chattahoochee-Tallapoosa ridge put newer homes backing onto uncleared woodland in regular tick contact, especially where deer travel between remaining forest patches.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Small creeks and farm ponds are common across Villa Rica's rolling terrain, and they hold water through the humid Piedmont summer long enough to sustain a full mosquito season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Mature hardwood stands on Villa Rica's hillside lots feed carpenter ant colonies that move into moisture-damaged decks, fascia boards, and window frames on nearby homes.",
+      },
+    ],
+    localHook:
+      "Villa Rica ranked second only to Dahlonega for Georgia gold production during the state's 1830s gold rush, with 19 commercial mines recorded in the district, and the town's Spanish name translates to rich town. That mining-era downtown now sits alongside newly cleared subdivisions built on the same hilly, wooded ridge for Atlanta commuters, and the two eras of construction carry noticeably different pest exposure.",
+    intro:
+      "What happens when a 19th-century gold mining town becomes a modern Atlanta suburb without tearing down its downtown first? In Villa Rica, it means two very different pest profiles sitting a few streets apart. The older core, built up during the 1830s gold rush and the decades that followed, has had a long run of wood-to-soil termite exposure. The newly cleared subdivisions rising on the same hilly, wooded ridge show something different: fresh fire ant colonies moving into disturbed soil, and ticks moving in from the uncleared woodland many of these lots still back onto. Add a hot, humid Piedmont summer that keeps small creeks and farm ponds full, and Villa Rica ends up needing two different pest conversations depending on which part of town a property sits in.",
+    sections: [
+      {
+        heading: "Old gold rush downtown versus new subdivision, two termite and fire ant stories",
+        body: "Villa Rica's downtown carries real termite risk simply from age. Buildings that went up during or soon after the 1830s gold rush, when the town's 19 commercial mines made it Georgia's second-largest gold producer after Dahlonega, have had close to two centuries of wood-to-soil contact, much of it without a documented treatment history. Drive a few minutes out to one of the newer subdivisions cut into the surrounding hills for Atlanta commuters, though, and the pest story flips. Freshly cleared and graded lots consistently show the heaviest fire ant mound density in their first two or three seasons, before grass fully establishes and natural predators catch up, which means a brand-new home here can face a fire ant problem an older in-town property largely does not.",
+      },
+      {
+        heading: "Why ticks are a bigger concern on Villa Rica's newer lots",
+        body: "Many of Villa Rica's newest subdivisions sit on land cleared from the same wooded ridge that divides the Chattahoochee and Tallapoosa river basins, and a lot of those properties back directly onto whatever woodland wasn't cleared. That proximity puts homeowners, kids, and pets in regular tick contact through spring, summer, and into fall, especially where deer move between the remaining forest patches at dusk. It is a pattern more common on the newer, hillside edge of town than in the older, more built-out downtown core.",
+      },
+      {
+        heading: "Carpenter ants and mosquitoes across Villa Rica's rolling terrain",
+        body: "The hardwood stands that cover much of Villa Rica's hilly terrain support healthy carpenter ant populations, and any home nearby with a moisture-damaged deck, fascia board, or window frame gives them an easy nesting opportunity. The same rolling terrain holds numerous small creeks and farm ponds that stay full through the hot, humid Piedmont summer, sustaining a mosquito season that typically runs from April into October across both the old and new parts of town alike.",
+      },
+    ],
+    prevention: [
+      "Get an inspection before assuming an older downtown Villa Rica building has no termite history, since documentation from the gold rush era rarely survives.",
+      "Expect the heaviest fire ant pressure in the first two to three seasons after a lot is cleared for new construction.",
+      "Check for ticks after time spent on wooded lots that back onto uncleared forest, especially at dusk.",
+      "Remove standing water near creeks and empty farm pond overflow areas where possible to cut mosquito breeding.",
+      "Repair moisture-damaged decks and fascia promptly to remove the soft wood carpenter ants target.",
+    ],
+    costNote:
+      "Termite inspections in Villa Rica's older downtown are typically free, with treatment priced by the building's age and construction. New-construction fire ant treatment and yard service for newer subdivisions generally runs $130 to $250 per year, with tick and mosquito coverage added for wooded lots.",
+    faqs: [
+      {
+        question: "Why do newer Villa Rica subdivisions have worse fire ant problems than the old downtown?",
+        answer:
+          "Freshly cleared and graded lots consistently show the heaviest fire ant mound density in their first two or three seasons after construction, before grass fully establishes and natural predators catch up. Villa Rica's older, more built-out downtown doesn't see the same spike.",
+      },
+      {
+        question: "Does Villa Rica's gold rush history affect termite risk today?",
+        answer:
+          "Yes, indirectly. The town's downtown was built up during and after its 1830s gold rush years, when it was Georgia's second-largest gold producer after Dahlonega, and buildings that old have had close to two centuries to accumulate wood-to-soil termite contact, much of it undocumented.",
+      },
+      {
+        question: "Are ticks a real concern in Villa Rica?",
+        answer:
+          "Yes, particularly on newer subdivisions built on the hilly, wooded ridge that divides the Chattahoochee and Tallapoosa river basins. Lots backing onto uncleared woodland see regular tick contact through spring, summer, and fall.",
+      },
+      {
+        question: "How long does mosquito season last in Villa Rica?",
+        answer:
+          "Roughly April through October. The rolling terrain around Villa Rica holds numerous small creeks and farm ponds that stay full through the hot, humid Piedmont summer, giving mosquitoes a long stretch of standing water to breed in.",
+      },
+      {
+        question: "Do carpenter ants damage Villa Rica homes the way termites do?",
+        answer:
+          "Not in the same way. Carpenter ants excavate moisture-damaged wood to nest rather than eating it for food the way termites do, but the mature hardwood stands common on Villa Rica's hillside lots keep local populations healthy, and any nearby home with damaged decking or fascia is a target.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Monroe", slug: "monroe-ga", stateSlug: "georgia" },
+      { name: "Jefferson", slug: "jefferson-ga", stateSlug: "georgia" },
+      { name: "Commerce", slug: "commerce-ga", stateSlug: "georgia" },
+      { name: "Camilla", slug: "camilla-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Villa Rica, GA | Termites, Fire Ants & Ticks",
+    metaDescription:
+      "Villa Rica, GA pest control for termites in the old gold rush downtown, fire ants on new lots, ticks, and mosquitoes. Free inspection.",
+  },
+  {
+    slug: "jefferson-ga",
+    name: "Jefferson",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~13,000",
+    county: "Jackson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Jefferson is the Jackson County seat, in the Georgia Piedmont, with hot summers that routinely reach the 90s and humid conditions most of the year. The detail that shapes pest pressure here more than the weather is the local economy. After the boll weevil devastated cotton farming in 1921, Jefferson's farmers shifted toward beef cattle and poultry, and poultry farming and processing remain part of the local economy today.",
+    topPests: ["House Flies", "Fire Ants", "Eastern Subterranean Termites", "Mice & Rats", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warm months, worse near poultry operations",
+        note: "Jefferson's poultry farms and processing, a direct legacy of the 1921 shift away from cotton, produce organic waste that breeds flies in warm weather, and prevailing winds can carry that pressure into nearby neighborhoods.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Fire ants are established across the pastureland and lawns surrounding Jefferson, rebuilding mounds quickly after the region's frequent summer rain.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active much of the year",
+        note: "Jefferson grew about 40 percent between the 2010 and 2020 census counts, and the resulting mix of older Piedmont farmhouses and new subdivisions means real termite exposure on the older properties in particular.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain and feed storage tied to Jefferson's poultry operations draws rodents toward the edges of town, and they move into home foundations as temperatures drop each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Farm ponds and drainage on the agricultural land surrounding Jefferson hold water through the humid Piedmont summer, sustaining a full mosquito season.",
+      },
+    ],
+    localHook:
+      "In 1921 the boll weevil devastated cotton farming across Jackson County, and Jefferson's farmers turned to beef cattle and poultry instead, an economic shift whose legacy is still visible in the poultry farms and processing that remain part of the local economy a century later.",
+    intro:
+      "A century-old insect crisis still shapes what pest control looks like in Jefferson today. When the boll weevil wiped out cotton farming here in 1921, local farmers turned to beef cattle and poultry, and that pivot toward poultry farming left a lasting mark: house flies and rodents drawn to feed and waste around today's operations are a real, ongoing concern for nearby homes. Jefferson has also grown fast, up about 40 percent between the 2010 and 2020 census counts, which means older Piedmont farmhouses with real termite exposure now sit next to brand-new subdivisions. Fire ants and a full April-to-October mosquito season round out the picture in this hot, humid part of the Piedmont.",
+    sections: [
+      {
+        heading: "How a 1921 crop failure still shapes Jefferson's pest pressure",
+        body: "The boll weevil's arrival in 1921 ended cotton as Jackson County's dominant crop almost overnight, and Jefferson's farmers rebuilt the local economy around beef cattle and, especially, poultry. That shift wasn't just historical. Poultry farming and processing remain part of Jefferson's economy today, and any operation handling feed, waste, and birds at scale creates conditions house flies and rodents both exploit. Homes near these operations, or simply downwind of them on a hot day, can see fly pressure that a typical Piedmont town without that agricultural legacy would not.",
+      },
+      {
+        heading: "Fast growth means old farmhouses and new subdivisions side by side",
+        body: "Jefferson's population grew from 9,432 in the 2010 census to 13,233 in 2020, a roughly 40 percent jump that reflects the town's pull as a growing Atlanta-area commuter destination. That growth hasn't replaced the older housing stock, though, it has grown up around it. Older Piedmont farmhouses scattered through and around Jefferson carry genuine subterranean termite exposure that a new subdivision home simply hasn't had time to accumulate, and rodents pushed out of surrounding agricultural buildings by cooler fall weather often find those older foundations easiest to enter.",
+      },
+      {
+        heading: "Fire ants and a long mosquito season",
+        body: "Fire ants are well established in the pastureland and lawns around Jefferson and rebuild mounds fast after the area's frequent summer storms. The same rain, combined with farm ponds and drainage ditches across the surrounding agricultural land, keeps mosquitoes active from April into October most years. Treating fire ant mounds early in the season and clearing standing water near the house both make a real difference given how long Jefferson's warm season runs.",
+      },
+    ],
+    prevention: [
+      "Homes near poultry operations should schedule fly control before warm weather peaks, not after flies are already noticeable indoors.",
+      "Seal foundation gaps before fall, when rodents displaced from agricultural buildings look for a way into nearby homes.",
+      "Get an annual termite inspection for older Piedmont farmhouses in and around Jefferson.",
+      "Treat fire ant mounds early in spring before colonies spread across pastureland or lawns.",
+      "Clear farm pond overflow and drainage ditches where possible to shorten the mosquito season.",
+    ],
+    costNote:
+      "Fly and rodent control near Jefferson's poultry operations is typically priced by proximity and property size. Termite inspections for older farmhouses are usually free, with treatment plans following. General pest coverage for fire ants and mosquitoes runs $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why are flies a bigger issue in Jefferson than in other Piedmont towns?",
+        answer:
+          "Jefferson's economy shifted toward poultry farming after the boll weevil destroyed cotton crops in 1921, and poultry operations remain part of the local economy today. Feed and waste from those operations breed flies in warm weather, and homes nearby or downwind can see real pressure.",
+      },
+      {
+        question: "Has Jefferson's fast growth changed its pest control needs?",
+        answer:
+          "Yes. The town grew about 40 percent between the 2010 and 2020 census counts, and new subdivisions have gone up around, not instead of, older Piedmont farmhouses. Those older properties carry real termite exposure that the newer homes haven't had time to accumulate.",
+      },
+      {
+        question: "Do rodents move from farms into Jefferson homes?",
+        answer:
+          "It happens, especially in fall. Grain and feed storage tied to local poultry operations draws mice and rats toward the edges of town, and they look for a way into nearby home foundations as the weather cools.",
+      },
+      {
+        question: "Is fire ant treatment necessary year-round in Jefferson?",
+        answer:
+          "Colonies are established across the pastureland and lawns around Jefferson and survive Piedmont winters, but mounds are most visible from spring through fall. Treating early in the season, before mounds spread, works better than waiting.",
+      },
+      {
+        question: "How long is mosquito season in Jefferson?",
+        answer:
+          "Typically April through October. Farm ponds and drainage across the agricultural land surrounding Jefferson hold water through the humid summer, and that standing water is what sustains the season.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Monroe", slug: "monroe-ga", stateSlug: "georgia" },
+      { name: "Villa Rica", slug: "villa-rica-ga", stateSlug: "georgia" },
+      { name: "Commerce", slug: "commerce-ga", stateSlug: "georgia" },
+      { name: "Camilla", slug: "camilla-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Jefferson, GA | Flies, Termites & Fire Ants",
+    metaDescription:
+      "Jefferson, GA pest control for flies near poultry operations, termites in older farmhouses, fire ants, mice, rats, and mosquitoes. Free inspection.",
+  },
+  {
+    slug: "commerce-ga",
+    name: "Commerce",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~7,400",
+    county: "Jackson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Commerce sits in the foothills of the Appalachians about 70 miles northeast of Atlanta on Interstate 85. It was founded in 1818 as Harmony Grove, and its economy has moved through two very different industrial eras, cotton textile milling starting with Harmony Grove Mills in 1893, then poultry broiler production from the 1930s and 1940s onward, with Jackson County becoming one of Georgia's top poultry-producing counties.",
+    topPests: ["Eastern Subterranean Termites", "House Flies", "Mice & Rats", "Fire Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active most of the year",
+        note: "Housing built during Commerce's textile mill era, anchored by Harmony Grove Mills, which opened in 1893, has had well over a century to accumulate wood-to-soil termite contact, much of it never documented.",
+      },
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warm months, worse near poultry operations",
+        note: "Jackson County has been one of Georgia's leading poultry-producing counties since broiler production took hold here in the 1930s and 1940s, and the feed and waste those operations generate breed flies that drift toward town in summer heat.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain storage and feed handling tied to Commerce's poultry industry draws rodents toward town, and they push into home foundations as fall temperatures drop.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Fire ants are well established on the pastureland and cleared lots around Commerce and rebuild mounds quickly after the area's frequent summer rain.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through November",
+        note: "Commerce's position in the Appalachian foothills corridor puts it inside the range where brown marmorated stink bugs have become established, and homes see reliable fall aggregations on sun-warmed exterior walls.",
+      },
+    ],
+    localHook:
+      "Commerce was founded in 1818 as Harmony Grove, and its economy has run through two distinct industrial eras since, cotton milling that began with Harmony Grove Mills in 1893, then poultry broiler production that took hold from the 1930s and 1940s onward and made Jackson County one of Georgia's top poultry-producing counties.",
+    intro:
+      "Two industries built Commerce, and both left a pest legacy still visible today. The town's textile mill era, which started when Harmony Grove Mills opened in 1893, produced wood-frame housing that has had more than a century to accumulate subterranean termite exposure. Its poultry era, which took hold from the 1930s and 1940s and made Jackson County one of Georgia's top poultry-producing counties, brought house flies and rodents that thrive around feed and waste handling. Layer in fire ants across the surrounding pastureland and reliable fall stink bug invasions tied to Commerce's spot in the Appalachian foothills corridor, and the result is a pest profile shaped almost entirely by the town's own economic history.",
+    sections: [
+      {
+        heading: "Two industrial eras, two different pest problems",
+        body: "Harmony Grove Mills opened in Commerce in 1893 and anchored a textile industry that built much of the town's older wood-frame housing stock, homes that have now had well over a century to develop the wood-to-soil contact subterranean termites need. When poultry broiler production took hold from the 1930s and 1940s onward, it built Jackson County into one of Georgia's top poultry-producing counties, and that industry brought its own pest legacy: house flies breeding in feed and waste, and mice and rats drawn to grain storage that push into nearby home foundations once fall weather cools. A Commerce home built during the mill era faces different pest exposure than one built to house poultry industry workers decades later, and treatment plans should reflect which era a given property actually belongs to.",
+      },
+      {
+        heading: "Fire ants and fall stink bugs in the foothills corridor",
+        body: "The pastureland and cleared lots surrounding Commerce support well-established fire ant colonies that rebuild mounds quickly after summer rain, a hazard worth treating early in the season rather than after mounds have already spread. Commerce's location in the Appalachian foothills corridor, about 70 miles northeast of Atlanta along Interstate 85, also puts it inside the range where brown marmorated stink bugs have become established across north Georgia. Homes here can expect the same reliable September-through-November indoor invasions on sun-warmed exterior walls that show up in other foothill towns nearby.",
+      },
+      {
+        heading: "What growth along Interstate 85 means for pest control here",
+        body: "Commerce's spot on Interstate 85 has pulled new warehouse and distribution development into town over the past two decades, and that growth keeps adding freshly cleared, graded land next to the older mill-era streets downtown. Newly disturbed soil around that construction tends to draw fire ants looking for open ground before grass takes hold, while the older homes closer to the original Harmony Grove Mills footprint keep carrying the termite and rodent pressure their age already gives them. A pest plan built for Commerce works best when it accounts for which side of that divide a property sits on, rather than treating the whole town as one uniform case.",
+      },
+    ],
+    prevention: [
+      "Get a termite inspection for any Commerce home dating to the Harmony Grove Mills textile era, regardless of documented treatment history.",
+      "Schedule fly control before summer heat peaks for properties near poultry operations.",
+      "Seal foundation gaps before fall, when rodents from surrounding grain storage look for a way indoors.",
+      "Treat fire ant mounds early in spring across pastureland and lawns.",
+      "Seal exterior gaps around windows and doors before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Termite inspections for Commerce's older mill-era homes are typically free, with treatment priced by structure age. Fly and rodent control near poultry operations is priced by proximity and property size, and general pest coverage for fire ants and stink bugs runs $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why do some Commerce homes have more termite exposure than others?",
+        answer:
+          "Homes built during Commerce's textile mill era, which began when Harmony Grove Mills opened in 1893, have had well over a century to accumulate wood-to-soil termite contact. A home from that era without documented treatment carries real, ongoing exposure.",
+      },
+      {
+        question: "Does Commerce's poultry industry affect pest pressure in town?",
+        answer:
+          "Yes. Jackson County became one of Georgia's top poultry-producing counties after broiler production took hold in the 1930s and 1940s, and feed and waste handling from those operations breeds flies and draws rodents that can reach nearby homes, especially in fall.",
+      },
+      {
+        question: "Are stink bugs a fall problem in Commerce?",
+        answer:
+          "Yes. Commerce sits in the Appalachian foothills corridor northeast of Atlanta, an area where brown marmorated stink bugs are established, and homes typically see indoor invasions on sun-warmed walls from September through November.",
+      },
+      {
+        question: "Is fire ant treatment necessary year-round in Commerce?",
+        answer:
+          "Colonies survive the winter but are most visible from spring through fall, when mounds rebuild quickly after rain across the pastureland surrounding town. Early spring treatment works better than waiting until mounds have spread.",
+      },
+      {
+        question: "What was Commerce called before it was named Commerce?",
+        answer:
+          "Harmony Grove, from its founding in 1818 until the name changed. The town's economic history since then, first cotton milling, then poultry broiler production, is the main reason its pest pressure looks the way it does today.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Monroe", slug: "monroe-ga", stateSlug: "georgia" },
+      { name: "Villa Rica", slug: "villa-rica-ga", stateSlug: "georgia" },
+      { name: "Jefferson", slug: "jefferson-ga", stateSlug: "georgia" },
+      { name: "Camilla", slug: "camilla-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Commerce, GA | Mill-Era Termites & Poultry Flies",
+    metaDescription:
+      "Commerce, GA pest control for termites in mill-era homes, flies and rodents near poultry operations, fire ants, and fall stink bugs. Free inspection.",
+  },
+  {
+    slug: "camilla-ga",
+    name: "Camilla",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~5,200",
+    county: "Mitchell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Camilla is the Mitchell County seat, on Georgia's upper coastal plain east of the Flint River, in what climate researchers describe as the hottest, most humid part of the state, with 46 to 58 inches of rain a year. Row-crop farming, cotton, peanuts, pecans, sweet corn, and soybeans, along with broiler poultry, drives the local economy, and thousands of center-pivot irrigation systems draw on the Upper Floridan aquifer to keep those crops watered through dry stretches.",
+    topPests: ["Mosquitoes", "Flies", "Fire Ants", "American Cockroaches", "Mice & Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst during irrigation season",
+        note: "The center-pivot irrigation systems watering row crops around Camilla create standing water pools even during dry stretches, which extends mosquito breeding well beyond what rainfall alone would produce in Georgia's hottest, most humid region.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warm months, worse near agricultural and poultry operations",
+        note: "Row-crop and broiler poultry operations around Camilla generate organic waste that breeds flies, and prevailing wind can carry that pressure into town on a hot day.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "The upper coastal plain's sandy loam soil around Camilla supports dense fire ant colonies on cleared farmland, lawns, and pasture edges alike.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Camilla's position in Georgia's hottest, most humid climate zone keeps American cockroaches active almost continuously, moving between irrigation ditches, storm drains, and older downtown buildings.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain storage and farm buildings surrounding Camilla draw rodents toward the edges of town, and they move into home foundations as fall temperatures drop.",
+      },
+    ],
+    localHook:
+      "Camilla sits on Georgia's upper coastal plain in a region climate researchers describe as the hottest and most humid in the state, and the thousands of center-pivot irrigation systems that keep the surrounding cotton, peanut, and pecan farms watered through dry spells create standing water even when it hasn't rained in weeks.",
+    intro:
+      "Can irrigated farmland make a town's mosquito season longer than the weather alone would explain? In Camilla, yes. The center-pivot irrigation systems that water the cotton, peanuts, pecans, and other row crops surrounding town draw on the Upper Floridan aquifer and create standing water pools regardless of rainfall, stretching mosquito breeding across a wider window than a typical Georgia coastal plain town sees. That same farm economy, combined with broiler poultry operations, brings flies and rodents into the mix, and Camilla's position in what researchers call the hottest, most humid part of Georgia keeps fire ants and American cockroaches active nearly year-round.",
+    sections: [
+      {
+        heading: "Why irrigated farmland means a longer mosquito season",
+        body: "Most Georgia towns see mosquito pressure track rainfall fairly closely, heavier after storms, lighter during dry stretches. Camilla doesn't follow that pattern as cleanly. Thousands of center-pivot irrigation systems water the row crops surrounding town, drawing on the Upper Floridan aquifer, and those systems create standing water in fields and low spots even during weeks without measurable rain. That means mosquito breeding here can continue through dry periods that would slow the season elsewhere on the coastal plain, and properties near irrigated farmland should expect a season that runs longer than the calendar alone would suggest.",
+      },
+      {
+        heading: "Flies and rodents tied to Camilla's farm economy",
+        body: "Cotton, peanuts, pecans, sweet corn, soybeans, and broiler poultry all support Mitchell County's economy, and each leaves some trace in local pest pressure. Row-crop residue and poultry waste both breed flies in warm weather, and grain storage tied to the surrounding farm operations draws mice and rats toward the edges of town. As temperatures drop each fall, those rodents look for an easier way indoors, and older homes near agricultural buildings see the earliest pressure.",
+      },
+      {
+        heading: "Cockroaches and fire ants in Georgia's hottest, most humid region",
+        body: "Camilla sits in a part of Georgia that climate researchers describe as its hottest and most humid, with 46 to 58 inches of rain a year, and that heat and humidity keep American cockroaches active close to year-round rather than slowing meaningfully in cooler months. The sandy loam soil common on the upper coastal plain also supports dense fire ant colonies, whether on cleared farmland, pasture edges, or ordinary residential lawns, and mounds here rebuild fast after any rain.",
+      },
+    ],
+    prevention: [
+      "Expect a longer mosquito season near irrigated farmland and treat standing water in fields and low spots, not just the yard.",
+      "Schedule fly control before warm weather peaks for properties near row-crop or poultry operations.",
+      "Seal foundation gaps before fall, when rodents from surrounding farm buildings look for a way indoors.",
+      "Treat fire ant mounds early in spring on cleared land, pastures, and lawns alike.",
+      "Seal cracks and drainage connections to limit American cockroach movement from ditches into buildings.",
+    ],
+    costNote:
+      "Mosquito treatment for properties near irrigated farmland around Camilla is often priced on a more frequent schedule than a typical coastal plain town, given the extended breeding window. General pest coverage for fire ants, cockroaches, flies, and rodents runs $150 to $270 per year.",
+    faqs: [
+      {
+        question: "Why does Camilla have mosquitoes even when it hasn't rained?",
+        answer:
+          "The thousands of center-pivot irrigation systems watering row crops around Camilla create standing water regardless of rainfall, which extends mosquito breeding well beyond the normal rain-driven season seen in most Georgia coastal plain towns.",
+      },
+      {
+        question: "Are American cockroaches active year-round in Camilla?",
+        answer:
+          "Close to it. Camilla sits in a region climate researchers describe as Georgia's hottest and most humid, and that heat and humidity keep American cockroaches moving between irrigation ditches, storm drains, and buildings nearly continuously rather than slowing in cooler months.",
+      },
+      {
+        question: "Do Camilla's poultry and row-crop farms affect fly pressure in town?",
+        answer:
+          "Yes. Poultry waste and row-crop residue both breed flies in warm weather, and prevailing wind can carry that pressure from surrounding farm operations into nearby neighborhoods.",
+      },
+      {
+        question: "Is fire ant treatment necessary year-round in Camilla?",
+        answer:
+          "Mounds are most visible spring through fall, but colonies survive the mild coastal plain winters here and rebuild quickly after any rain, so early spring treatment on farmland, pasture, and lawns alike works better than waiting.",
+      },
+      {
+        question: "Do rodents move from farms into Camilla homes?",
+        answer:
+          "It happens, especially in fall. Grain storage and farm buildings surrounding Camilla draw mice and rats toward the edges of town, and they look for a way into nearby home foundations as temperatures drop.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Monroe", slug: "monroe-ga", stateSlug: "georgia" },
+      { name: "Villa Rica", slug: "villa-rica-ga", stateSlug: "georgia" },
+      { name: "Jefferson", slug: "jefferson-ga", stateSlug: "georgia" },
+      { name: "Commerce", slug: "commerce-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Camilla, GA | Irrigation Mosquitoes & Farm Flies",
+    metaDescription:
+      "Camilla, GA pest control for mosquitoes tied to irrigated farmland, flies and rodents from agriculture, fire ants, and American cockroaches. Free inspection.",
+  },
 ];
