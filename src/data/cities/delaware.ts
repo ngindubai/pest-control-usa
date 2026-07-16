@@ -1325,4 +1325,567 @@ export const delawareCities: CityLocation[] = [
     metaDescription:
       "Glasgow DE pest control for termites, deer ticks, mosquitoes and spotted lanternfly near Lums Pond State Park. New Castle County. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bear-de",
+    name: "Bear",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~23,100",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Bear sits along the U.S. Route 40 corridor in central New Castle County, on land that was small corn and cattle farms before rapid suburban and retail growth swept through in the 1980s and 1990s. The mid-Atlantic's humid summers and the flat, poorly drained character of that former farmland sustain mosquito breeding in roadside ditches and low spots, while the dense mix of subdivisions built in a single generation gives termites and stink bugs continuous new wood and foundation gaps to work with.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "Spotted Lanternfly",
+      "Mosquitoes",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented eastern subterranean termite zone, and Bear's fast build-out from farmland into subdivisions and strip retail during the 1980s and 1990s means many homes are now old enough that any original soil treatment has lapsed. Homes without a current inspection record are the ones at highest risk.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "The Route 40 corridor through Bear is lined with the kind of big-box stores, strip centers, and closely spaced homes that give stink bugs abundant sun-warmed wall space to gather on each September before pushing inside for the winter.",
+      },
+      {
+        name: "Spotted lanternfly",
+        activeSeason: "Nymphs April through July, adults July through November",
+        note: "The Delaware Department of Agriculture has confirmed spotted lanternfly throughout New Castle County, and the roadside tree of heaven that grows along Bear's commercial corridors and retention areas gives the invasive pest an easy foothold near homes and businesses.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Bear's flat terrain and the drainage ditches left over from its farming past hold standing water longer than better-drained ground nearby, and that water is what keeps the mosquito season going through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The tightly spaced subdivisions built during Bear's 1980s and 1990s growth years often share similar foundation designs, and mice that find a gap in one home's foundation typically find the same weak point in the identical house next door each fall.",
+      },
+    ],
+    localHook:
+      "Local tradition holds that Bear takes its name from a roadside tavern that once stood where U.S. Route 40 crosses Delaware Route 7, its sign painted with a large bear, on the old post road between Wilmington and Dover that George Washington is said to have traveled. That crossroads stayed rural farmland, mostly corn and cattle, until the 1980s and 1990s brought a wave of subdivisions and shopping centers that turned Bear into one of New Castle County's largest unincorporated communities almost overnight.",
+    intro:
+      "Pest control in Bear, DE starts with a simple fact: most of this community was built in the span of about fifteen years, on land that was farmland right up until the 1980s. Eastern subterranean termites are active throughout New Castle County, and homes from Bear's rapid growth era are now old enough that termite protection installed at construction can no longer be assumed to be working. Spotted lanternfly has been confirmed countywide and finds easy footholds along Bear's commercial corridors. Stink bugs gather each fall on the area's abundant retail and residential wall space, mosquitoes breed in the low, poorly drained spots left from decades of farming, and mice move through the tightly spaced subdivisions each autumn.",
+    sections: [
+      {
+        heading: "From farm crossroads to Route 40 corridor",
+        body: "Bear's pest picture is really a story about timing. The area was rural farmland, mostly corn and cattle operations, well into the twentieth century, and its name is said to trace back to a tavern with a bear painted on its sign that once stood at the crossroads of the old Wilmington-to-Dover post road, roughly where U.S. Route 40 meets Delaware Route 7 today. That quiet crossroads changed fast starting in the 1980s, when developers began converting farmland into subdivision after subdivision, and shopping centers followed the rooftops. The result is a community where a large share of the housing stock is thirty to forty years old, old enough that any termite soil treatment applied when the homes were built has likely reached or passed its effective life. New Castle County is a documented eastern subterranean termite zone, and Bear homeowners without a recent inspection record should treat that as a gap to close rather than something to assume is still covered. The same rapid build-out gave brown marmorated stink bugs plenty of sun-warmed exterior wall space, from big-box retail to closely spaced rooftops, to gather on every September before pushing inside for winter.",
+      },
+      {
+        heading: "Mosquitoes and mice on Bear's flat, former farmland",
+        body: "The land under Bear's subdivisions was chosen for farming precisely because it was flat, and flat land drains slowly. Roadside ditches, low spots between developments, and old drainage patterns that once served corn and cattle fields now hold water long enough after summer storms to breed mosquitoes from May through October. Homeowners closest to those low areas see the heaviest pressure. Bear's subdivisions were also largely built to a handful of repeated house plans, which means a foundation gap that lets mice into one home is very often present in the identical model two doors down. House mice push indoors each fall as outdoor temperatures drop, and in a neighborhood of near-identical construction, an infestation in one home is a warning sign for its neighbors, not just a private problem.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection if your Bear home was built during the 1980s or 1990s growth boom and has no recent documentation of soil treatment.",
+      "Eliminate standing water in roadside ditches, low yard spots, and containers to reduce on-property mosquito breeding.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry into homes and retail buildings alike.",
+      "Remove tree of heaven from the property and report spotted lanternfly sightings to the Delaware Department of Agriculture.",
+      "Check foundation gaps each fall, especially if a neighboring home with the same floor plan has reported mice.",
+    ],
+    costNote:
+      "Bear pest control pricing reflects a large, densely built suburban market. Termite inspections are typically free, with annual protection plans priced by home size and construction age. General quarterly service covering ants, mice, and stink bugs is the most common plan for the area's subdivisions. Mosquito yard treatment is usually quoted separately for homes near low-lying or poorly drained areas.",
+    faqs: [
+      {
+        question: "Why is Bear, DE named Bear?",
+        answer:
+          "Local tradition traces the name to a tavern that once stood at the crossroads now formed by U.S. Route 40 and Delaware Route 7, on the old post road between Wilmington and Dover. The tavern's sign reportedly featured a large painted bear, and the name stuck long after the tavern itself disappeared.",
+      },
+      {
+        question: "Are termites a concern in Bear's newer subdivisions?",
+        answer:
+          "Yes. Much of Bear was built out during the 1980s and 1990s on former farmland, which means a large share of the housing stock is now thirty to forty years old. New Castle County is a documented eastern subterranean termite zone, and any soil treatment applied when these homes were built has likely reached the end of its effective life. An inspection is the way to find out where a property stands.",
+      },
+      {
+        question: "Why do mosquitoes seem worse in some parts of Bear than others?",
+        answer:
+          "Bear sits on land that was farmed for generations because it is flat, and flat land drains slowly. Roadside ditches and low spots that once served cropland now hold standing water after summer storms, and homes closest to those areas see the heaviest mosquito pressure from May through October.",
+      },
+      {
+        question: "Has spotted lanternfly reached Bear, DE?",
+        answer:
+          "Yes. The Delaware Department of Agriculture has confirmed spotted lanternfly throughout New Castle County, and the tree of heaven growing along Bear's retail corridors and retention areas gives the invasive pest an easy path to establish near homes and businesses.",
+      },
+      {
+        question: "Do stink bugs affect Bear's shopping centers as well as homes?",
+        answer:
+          "Yes. The strip centers and big-box stores along the Route 40 corridor provide the same kind of sun-warmed exterior wall space that stink bugs use on houses, and commercial buildings in Bear see the same September and October aggregation pattern as residential ones.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Hockessin", slug: "hockessin-de", stateSlug: "delaware" },
+      { name: "Claymont", slug: "claymont-de", stateSlug: "delaware" },
+      { name: "Brookside", slug: "brookside-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bear, DE | Termites, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Bear DE pest control for eastern subterranean termites, stink bugs, spotted lanternfly and mosquitoes. New Castle County Route 40 corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hockessin-de",
+    name: "Hockessin",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~13,500",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Hockessin sits in a wooded valley in northern New Castle County, close enough to the Pennsylvania line that Mill Creek and Hockessin Run drain the same rolling countryside on both sides of the state border. The valley's wooded terrain and history of dairy farms, orchards, and mushroom houses give it more tree cover and more standing wood structures per acre than the flatter suburbs closer to Wilmington, conditions that favor ticks in the woodland edges and termites and carpenter ants in the area's older farm buildings.",
+    topPests: [
+      "Deer Ticks",
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "Spotted Lanternfly",
+    ],
+    pestProfile: [
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "Delaware has one of the nation's higher Lyme disease rates, and Hockessin's wooded valley terrain along Mill Creek and Hockessin Run, with deer moving freely between Delaware and the adjoining Pennsylvania countryside, sustains tick populations that reach well into residential yards backing onto woods.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented termite zone, and Hockessin's mix of older farmhouses, converted barns, and wood-frame homes built into the wooded valley gives termites the wood-to-soil contact points they need, particularly around porches and additions built at grade.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance throughout northern Delaware, and Hockessin's older farm structures and newer homes alike see the same September and October push toward sun-warmed walls and any available gap.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Hockessin's history as a dairy and mushroom farming area left behind a number of old barns, outbuildings, and farmhouses with decades of moisture exposure, and carpenter ants readily nest in that softened wood.",
+      },
+      {
+        name: "Spotted lanternfly",
+        activeSeason: "Nymphs April through July, adults July through November",
+        note: "The Delaware Department of Agriculture has confirmed spotted lanternfly in New Castle County, and it is a genuine threat to Hockessin's remaining small orchards and mushroom operations, not just an urban nuisance.",
+      },
+    ],
+    localHook:
+      "Hockessin's identity is still tied to the mushroom houses that have operated in the valley for generations. Stinson Mushrooms, started by a family in 1959, remains one of the last original mushroom growing operations in Delaware, harvesting from roughly 24,000 square feet of climate-controlled mushroom houses every week. That agricultural history, combined with the wooded valley terrain that straddles the Pennsylvania line, gives Hockessin a pest profile shaped as much by farmland and woods as by suburban growth.",
+    intro:
+      "Pest control in Hockessin, DE has to account for a place that still functions partly like farm country even as it has grown into a New Castle County suburb. Black-legged deer ticks are a real Lyme disease concern in the wooded valley along Mill Creek and Hockessin Run, where deer move freely across the nearby Pennsylvania border. Eastern subterranean termites are active throughout the county and find easy wood-to-soil contact in Hockessin's older farmhouses and converted barns. Carpenter ants follow the same moisture-damaged wood. Stink bugs make their usual fall push indoors, and spotted lanternfly threatens the valley's remaining orchards and mushroom operations.",
+    sections: [
+      {
+        heading: "Hockessin's wooded valley and deer tick risk",
+        body: "Hockessin sits low in a valley cut by Mill Creek and Hockessin Run, close enough to the Pennsylvania state line that the same rolling, wooded countryside continues on both sides of the border without much of a break. That continuity matters for ticks, because deer move through the area without regard for the state line, and black-legged deer ticks travel with them into the woodland edges that border many Hockessin properties. Delaware consistently reports one of the higher Lyme disease rates in the country, and nymph-stage ticks, active from May through July, are the highest-risk stage because they are small enough to go unnoticed until after they have attached. Residents with wooded yards or who use the area's trails and parks should do a full tick check after time outdoors during those months, and a yard perimeter treatment applied in spring reduces the population close to the house.",
+      },
+      {
+        heading: "Farm buildings, mushroom houses, and structural pests",
+        body: "Long before Hockessin became a suburb, it was dairy and mushroom farming country, and that history is still visible in the barns, outbuildings, and farmhouses scattered through the valley. Stinson Mushrooms, a family operation running mushroom houses since 1959, is one of the last of its kind still active in Delaware, and its climate-controlled grow houses are a reminder of how much wood construction in Hockessin has spent decades exposed to humidity and moisture. That exposure is exactly what carpenter ants look for, and it is also why eastern subterranean termites, active throughout New Castle County, find such easy wood-to-soil contact points in older farm structures and the additions and porches built onto them over the years. Spotted lanternfly is a newer threat to the same agricultural legacy: the Delaware Department of Agriculture has confirmed the invasive pest countywide, and Hockessin's remaining small orchards and mushroom operations are genuine targets, not just an inconvenience for homeowners with a few ornamental trees.",
+      },
+    ],
+    prevention: [
+      "Apply a yard perimeter tick treatment each spring if your Hockessin property backs onto woods or is near Mill Creek or Hockessin Run.",
+      "Schedule an annual termite inspection for older farmhouses, converted barns, and any home with wood additions built at grade.",
+      "Address moisture in old farm outbuildings and garages promptly to remove the softened wood carpenter ants target.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+      "Report spotted lanternfly sightings near orchards or mushroom operations to the Delaware Department of Agriculture.",
+    ],
+    costNote:
+      "Termite protection in Hockessin runs $200 to $550 per year depending on the age and construction of the structure, with older farm buildings often priced at the higher end. Tick yard treatment costs $100 to $200 per application, and a spring and fall schedule is common for wooded properties. General pest plans for ants and stink bugs run $150 to $270 per year.",
+    faqs: [
+      {
+        question: "Is Lyme disease a real risk in Hockessin, DE?",
+        answer:
+          "Yes. Delaware has one of the higher Lyme disease rates in the country, and Hockessin's wooded valley terrain along Mill Creek and Hockessin Run, close to the Pennsylvania border, sustains active deer tick populations. Nymph-stage ticks are most active from May through July and are the hardest to spot.",
+      },
+      {
+        question: "Are there still working mushroom farms in Hockessin?",
+        answer:
+          "Yes. Stinson Mushrooms, a family business running mushroom houses since 1959, remains one of the last original mushroom growing operations in Delaware, still harvesting from about 24,000 square feet of grow houses every week.",
+      },
+      {
+        question: "Why do old farm buildings in Hockessin have termite problems?",
+        answer:
+          "Hockessin's dairy and mushroom farming history left behind barns, outbuildings, and farmhouses that often have wood in direct contact with soil, a setup that predates modern termite protection standards. New Castle County is a documented eastern subterranean termite zone, and these older structures carry elevated risk.",
+      },
+      {
+        question: "Is spotted lanternfly a threat to Hockessin's orchards?",
+        answer:
+          "Yes. The Delaware Department of Agriculture has confirmed spotted lanternfly throughout New Castle County, and Hockessin's remaining small orchards and mushroom operations are genuine agricultural targets for this invasive pest, not just a nuisance for homeowners.",
+      },
+      {
+        question: "Do carpenter ants damage Hockessin's older wood-frame homes?",
+        answer:
+          "Yes, particularly in structures with a history of moisture exposure, which describes a lot of the valley's older farm buildings and converted barns. Carpenter ants nest in wood that has been softened by years of dampness, and addressing the moisture source is as important as treating the ants themselves.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Bear", slug: "bear-de", stateSlug: "delaware" },
+      { name: "Claymont", slug: "claymont-de", stateSlug: "delaware" },
+      { name: "Pike Creek", slug: "pike-creek-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hockessin, DE | Deer Ticks, Termites & Carpenter Ants",
+    metaDescription:
+      "Hockessin DE pest control for deer ticks, termites, carpenter ants, stink bugs and spotted lanternfly. New Castle County wooded valley specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "claymont-de",
+    name: "Claymont",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~9,900",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Claymont occupies Delaware's northernmost point on the Delaware River, where Naamans Creek meets the tidal river just south of the Pennsylvania line. The community grew up quickly in the early 1900s around a steel mill and two chemical plants, leaving a legacy of tightly built worker rowhouses close to the water. That combination of old wood-frame construction and a tidal creek marsh right at the edge of town shapes a pest picture built around termites in the housing stock and mosquitoes along the waterfront.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Claymont's worker housing dates largely to the early 1900s, when Worth Steel, General Chemical, and National Aniline Chemical all built plants in town and rowhouses went up quickly to house their employees. That century-plus-old wood-frame construction, often with sills close to grade, sits squarely in New Castle County's documented termite zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Naamans Creek empties into the Delaware River at Claymont, and the tidal marsh at that confluence has sustained mosquito populations since long before the town took its current name, a condition that hasn't changed with the neighborhood around it.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a consistent fall nuisance throughout northern Delaware, and the gaps common in Claymont's older rowhouses and worker-era homes give them the same easy entry each September that termites and mice exploit.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Decades of river humidity and aging rooflines on Claymont's early twentieth century housing stock create the kind of softened wood carpenter ants nest in, particularly in homes close to Naamans Creek and the Delaware River waterfront.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Claymont's rowhouses and closely built worker-era homes share foundation walls and utility runs in ways that let mice move between adjoining units each fall as they search for warmth.",
+      },
+    ],
+    localHook:
+      "Claymont began as a settlement called Naamans, named for a Lenape chief, at the mouth of Naamans Creek where it meets the Delaware River. The name changed to Claymont in 1856 after Reverend John B. Clemson moved his family to the area from their West Virginia estate, Claymont Court. What followed was a rapid industrial buildout: Worth Steel in 1916, General Chemical in 1912, and National Aniline Chemical in 1914 all built plants here, and the rowhouses put up for their workers still make up much of the town's housing stock today.",
+    intro:
+      "Pest control in Claymont, DE is shaped by two things that haven't changed since the town's industrial heyday: a housing stock built quickly for steel and chemical plant workers more than a century ago, and a waterfront location where Naamans Creek meets the tidal Delaware River. Eastern subterranean termites are active throughout New Castle County and find easy wood-to-soil contact in Claymont's old rowhouses. The Naamans Creek marsh sustains a mosquito season from May through October. Stink bugs, carpenter ants, and house mice round out the picture, all finding the same aging construction gaps that have been part of Claymont's housing for generations.",
+    sections: [
+      {
+        heading: "From Naamans to Claymont: a century of industrial-era housing",
+        body: "The settlement now called Claymont started as Naamans, a name that traced back to a Lenape chief associated with the creek that still runs through town. That changed in 1856, when the Reverend John B. Clemson relocated his family here from Claymont Court, their estate in what is now West Virginia, and the new name stuck. The bigger transformation came later, when Worth Steel opened a mill in 1916 and General Chemical and National Aniline Chemical built plants in 1912 and 1914, drawing workers who needed housing fast. The rowhouses and modest wood-frame homes built during that period are still a large share of Claymont's housing stock, and construction from that era commonly placed sills and framing close to or in direct contact with soil, a setup that predates any modern termite barrier standard. New Castle County is a documented eastern subterranean termite zone, and Claymont's concentration of century-old housing carries real, ongoing risk that calls for regular professional inspection rather than a one-time treatment.",
+      },
+      {
+        heading: "Naamans Creek, the Delaware River, and Claymont's mosquito season",
+        body: "Claymont sits at the point where Naamans Creek empties into the tidal Delaware River, the same geography that gave the original Naamans settlement its name centuries before the town became an industrial center. That tidal marsh at the creek's mouth has produced mosquitoes for as long as anyone has kept records, and the neighborhoods closest to the water, many of them the same rowhouse blocks built for early twentieth century plant workers, see the most consistent pressure from May through October. Eliminating standing water on the property, from clogged gutters to forgotten containers, is the practical step within a homeowner's control, since the marsh itself is not going away. Carpenter ants and house mice follow a related pattern in Claymont's older housing: decades of river humidity have softened wood in enough of the town's early century structures that both pests find ready nesting and entry opportunities, and stink bugs use the same aging gaps each September to push indoors for the winter.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Claymont rowhouse or early twentieth century home without recent documentation of soil treatment.",
+      "Eliminate standing water on the property, especially in neighborhoods closest to Naamans Creek and the Delaware River waterfront.",
+      "Address roof and moisture issues promptly in older homes to remove the softened wood carpenter ants target.",
+      "Seal foundation gaps and shared utility runs to slow the spread of mice between adjoining rowhouses.",
+      "Seal gaps around windows and door frames before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Claymont runs $200 to $550 per year depending on the age and construction of the home, with the town's oldest rowhouses often priced toward the higher end. Mosquito yard treatment for waterfront properties near Naamans Creek costs $80 to $180 per visit. General pest plans for ants and mice run $150 to $270 per year.",
+    faqs: [
+      {
+        question: "Why is Claymont, DE at higher risk for termites than newer Delaware suburbs?",
+        answer:
+          "Much of Claymont's housing stock dates to the early 1900s, when Worth Steel, General Chemical, and National Aniline Chemical built plants in town and rowhouses went up quickly for their workers. That century-plus-old construction often has wood framing close to or in contact with soil, and New Castle County is a documented eastern subterranean termite zone. Regular inspection is the standard recommendation.",
+      },
+      {
+        question: "Where did the name Claymont come from?",
+        answer:
+          "The settlement was originally called Naamans, after a Lenape chief associated with Naamans Creek. It was renamed Claymont in 1856 when the Reverend John B. Clemson moved his family here from Claymont Court, their estate in what is now West Virginia.",
+      },
+      {
+        question: "Are mosquitoes bad near Naamans Creek in Claymont?",
+        answer:
+          "Yes. The tidal marsh where Naamans Creek meets the Delaware River has sustained mosquito populations for generations, and the Claymont neighborhoods closest to that confluence see the most consistent pressure from May through October.",
+      },
+      {
+        question: "Do Claymont's old rowhouses have shared pest problems between units?",
+        answer:
+          "Yes, particularly with house mice, which move through shared foundation walls and utility runs between adjoining rowhouses built during Claymont's early twentieth century industrial growth. An infestation in one unit is often a sign the whole block needs attention.",
+      },
+      {
+        question: "Why do carpenter ants show up in Claymont's older homes?",
+        answer:
+          "Decades of humidity off the Delaware River waterfront have softened wood in a lot of Claymont's early century housing stock, and carpenter ants nest in exactly that kind of moisture-damaged wood. Fixing the underlying roof or moisture issue matters as much as treating the ants.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bear", slug: "bear-de", stateSlug: "delaware" },
+      { name: "Hockessin", slug: "hockessin-de", stateSlug: "delaware" },
+      { name: "Pike Creek", slug: "pike-creek-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Claymont, DE | Termites, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "Claymont DE pest control for termites, mosquitoes, stink bugs and carpenter ants. Historic Delaware River waterfront and Naamans Creek specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pike-creek-de",
+    name: "Pike Creek",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~7,800",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Pike Creek sits in Mill Creek Hundred west of Wilmington, in a suburb built up around the wooded valley of the stream that gives the community its name. The creek's floodplain and tree canopy hold moisture and shade that surrounding, more open suburbs don't have, and that combination sustains ticks and mosquitoes through the warm months while the area's mature wood-frame housing carries the same termite and carpenter ant pressure common to the rest of New Castle County.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Deer Ticks",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented termite zone, and Pike Creek's wood-frame homes, many built from the 1960s through the 1980s along the creek valley, are old enough that original soil treatments need reassessment.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "The wooded floodplain along Pike Creek itself gives deer tick populations the cover and moisture they need, and yards backing onto that corridor see the most consistent exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Pike Creek's namesake stream floods its banks periodically and leaves standing water in the surrounding low ground, sustaining mosquito breeding through the warm season closer to the water than in the drier neighborhoods further out.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs make their usual fall push into Pike Creek homes each September and October, aggregating on sun-warmed exterior walls before finding a way inside for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The mature tree cover along the Pike Creek valley means falling limbs and shaded, slow-drying siding are common, and carpenter ants nest readily in the moisture-softened wood that results.",
+      },
+    ],
+    localHook:
+      "Nobody has ever turned up a record of anyone named Pike who lived along the stream this community is named for. The most documented theory traces the name back to a colonial-era landowner known locally as Pecco, whose name may itself echo the Finnish word for creek, puro. Over generations, Pecco's Creek is thought to have shifted to Peck's Creek and finally to Pike Creek, a small piece of etymological drift that still shapes the map of Mill Creek Hundred today.",
+    intro:
+      "Pest control in Pike Creek, DE follows the wooded stream valley the community is named for. Eastern subterranean termites are active throughout New Castle County, and the area's wood-frame homes, many dating from the 1960s through the 1980s, carry the same structural risk as the rest of the county. Deer ticks find cover in the creek's wooded floodplain, and mosquitoes breed in the low ground the stream periodically floods. Stink bugs make their usual fall entry, and carpenter ants nest in wood softened by the valley's shade and moisture.",
+    sections: [
+      {
+        heading: "The creek behind the name and its tick and mosquito pressure",
+        body: "Pike Creek takes its name from the stream that still runs through the heart of the community, though the name's own history is murkier than most local landmarks. The most credible theory traces it to a colonial-era landowner known by the name or nickname Pecco, whose name may connect to puro, the Finnish word for creek, with Pecco's Creek gradually shifting through Peck's Creek to the Pike Creek used today. No record has ever surfaced of anyone actually named Pike living in the area, which makes the linguistic drift more likely than a literal namesake. Whatever its origin, the creek's wooded floodplain is a real, active source of pest pressure for the neighborhoods built up around it. The tree cover and periodic flooding keep the ground moist enough to sustain deer ticks, most active from May through July at the nymph stage when they are hardest to spot, and mosquitoes, which breed through the warm months in the low ground closest to the stream. Yards backing directly onto the creek corridor see the most consistent exposure to both.",
+      },
+      {
+        heading: "Termites, carpenter ants, and stink bugs in Pike Creek's wood-frame homes",
+        body: "Much of Pike Creek was built up from the 1960s through the 1980s, and that generation of wood-frame construction is now old enough that any termite soil treatment applied at the time needs a fresh look. New Castle County is a documented eastern subterranean termite zone, and homes throughout Mill Creek Hundred, Pike Creek included, carry the same baseline risk as the rest of the county. The valley's mature tree canopy adds a second layer of pressure specific to this area: shaded siding and trim dry out more slowly after rain than in more open suburbs, and that persistent moisture is exactly what carpenter ants look for when choosing where to nest. Brown marmorated stink bugs round out the seasonal picture, aggregating on sun-warmed exterior walls each September and October before pushing through any available gap to spend the winter indoors, a pattern that plays out across Pike Creek's homes regardless of their age or proximity to the creek itself.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection if your Pike Creek home dates from the 1960s through the 1980s and has no recent soil treatment record.",
+      "Apply a yard perimeter tick treatment each spring for properties backing onto the Pike Creek corridor.",
+      "Eliminate standing water in low areas near the creek and in yard containers to reduce mosquito breeding.",
+      "Address shaded, slow-drying siding and trim promptly to remove the moisture-softened wood carpenter ants target.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Pike Creek runs $200 to $550 per year depending on home age and construction. Tick yard treatment for properties near the creek corridor costs $100 to $200 per application. Mosquito yard spray runs $80 to $180 per visit, and general pest plans for ants and stink bugs cost $150 to $270 per year.",
+    faqs: [
+      {
+        question: "Where does the name Pike Creek come from?",
+        answer:
+          "The most documented theory traces it to a colonial-era landowner known as Pecco, whose name may connect to the Finnish word for creek, puro. Pecco's Creek is thought to have shifted over generations to Peck's Creek and finally Pike Creek. No record has ever turned up of anyone actually named Pike living in the area.",
+      },
+      {
+        question: "Are deer ticks a real risk in Pike Creek, DE?",
+        answer:
+          "Yes. The wooded floodplain along Pike Creek itself provides cover and moisture that sustains deer tick populations, and yards backing directly onto the creek corridor see the most consistent exposure. Nymph-stage ticks are most active from May through July.",
+      },
+      {
+        question: "Is termite risk in Pike Creek different from the rest of New Castle County?",
+        answer:
+          "Not fundamentally. Pike Creek carries the same baseline eastern subterranean termite risk as the rest of New Castle County's documented termite zone, though the area's wood-frame homes from the 1960s through the 1980s are now old enough that original soil treatments deserve a fresh inspection.",
+      },
+      {
+        question: "Why do carpenter ants show up more in Pike Creek's shaded yards?",
+        answer:
+          "The valley's mature tree canopy keeps siding and trim damp longer after rain than in more open suburbs nearby, and that persistent moisture is exactly the condition carpenter ants look for when choosing a nesting site.",
+      },
+      {
+        question: "Does the Pike Creek stream flood nearby yards?",
+        answer:
+          "The creek floods its banks periodically, and the low ground closest to the water holds standing water long enough after these events to sustain mosquito breeding through the warm season. Properties further from the stream see lighter pressure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Hockessin", slug: "hockessin-de", stateSlug: "delaware" },
+      { name: "Claymont", slug: "claymont-de", stateSlug: "delaware" },
+      { name: "Brookside", slug: "brookside-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pike Creek, DE | Termites, Deer Ticks & Mosquitoes",
+    metaDescription:
+      "Pike Creek DE pest control for termites, deer ticks, mosquitoes, stink bugs and carpenter ants. Mill Creek Hundred wooded valley specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "brookside-de",
+    name: "Brookside",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~15,000",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Brookside was built starting in 1951 as a single planned development on 285 acres just outside Newark, put up quickly to house young families, many working as engineers at DuPont's nearby Louviers facility, which opened in 1952. More than seventy years later, the over 1,300 homes from that original build-out share similar age, similar construction, and the same mature tree canopy that has grown in since, conditions that put termites, carpenter ants, and mice on a similar clock across the whole community.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Brookside's homes were built quickly starting in 1951 to a handful of repeated plans, and New Castle County is a documented termite zone. More than seventy years on, many of these homes are old enough that any original soil treatment has reached the end of its useful life.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The tree canopy planted or left standing when Brookside was developed has matured over seven decades into full shade over much of the community, and that shade keeps trim and siding damp long enough for carpenter ants to find a foothold.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance throughout New Castle County, and Brookside's original postwar construction has the same aging gaps around windows and doors that let them inside each September and October.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Brookside sits close to the Christina Creek watershed on Newark's edge, and low-lying yards near that drainage see mosquito pressure build through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Because so much of Brookside was built to the same handful of house plans in a short window in the early 1950s, a foundation gap that lets mice into one home is often present in identical homes throughout the development, and the fall surge tends to show up block by block.",
+      },
+    ],
+    localHook:
+      "Brookside was built starting in 1951 by developer Raymond A. Burkland, who had already helped create Levittown, New Jersey, and brought the same kind of fast, planned tract housing to Delaware on 285 acres next to Newark. The timing was no accident: DuPont's Louviers research facility opened nearby in 1952, and Brookside's more than 1,300 homes were built largely to house the young engineers and their families who worked there.",
+    intro:
+      "Pest control in Brookside, DE is shaped by a single fact: nearly the whole community was built in a few years in the early 1950s, to a handful of repeated house plans, for young families moving in to work at DuPont's new Louviers facility. Eastern subterranean termites are active throughout New Castle County, and Brookside's now seventy-plus-year-old housing stock carries that risk in a fairly uniform way across the development. Carpenter ants exploit the shade from trees that have matured over the decades since, stink bugs make their usual fall entry through aging construction gaps, mosquitoes breed near the Christina Creek drainage on Newark's edge, and mice move through nearly identical foundations block by block each fall.",
+    sections: [
+      {
+        heading: "A planned postwar suburb reaches seventy years old",
+        body: "Brookside exists because developer Raymond A. Burkland, who had already built the postwar suburb of Levittown, New Jersey, saw an opportunity to bring the same kind of fast, affordable tract housing to Delaware. Starting in 1951, he laid out more than 1,300 homes on 285 acres just outside Newark, timed almost perfectly with the 1952 opening of DuPont's Louviers research facility nearby, which needed housing for the young engineers it was hiring. That history explains why Brookside's pest picture looks different from a community built up gradually over decades: nearly the entire development is now in the same narrow age band, more than seventy years old, and built to a limited number of house plans. New Castle County is a documented eastern subterranean termite zone, and homes from Brookside's original build-out are old enough that whatever soil treatment, if any, was applied at construction has long since stopped providing protection. A current inspection, not an assumption based on the neighborhood's reputation, is the only way to know where an individual home stands.",
+      },
+      {
+        heading: "Mature trees, aging construction, and Brookside's other seasonal pests",
+        body: "The trees that shade Brookside's streets today were mostly planted or left standing when the development went in during the early 1950s, and seventy years of growth has turned much of the community into a shaded, mature suburb quite different from the open subdivisions built on former farmland elsewhere in New Castle County. That shade keeps siding, trim, and eaves damp longer after rain, and carpenter ants nest readily in the softened wood that results, particularly on homes where routine maintenance has lapsed. Brown marmorated stink bugs follow the same countywide pattern seen everywhere in the mid-Atlantic, aggregating on sun-warmed walls each September and October before finding their way through the same aging window and door gaps common to homes of Brookside's era. Mosquitoes are a more localized concern, breeding in low ground near the Christina Creek watershed at the edge of the development closest to Newark. House mice round out the picture in a way particular to a community built this uniformly: because so many homes share the same foundation design, a gap that lets mice into one house is very often present in the identical model nearby, and a fall infestation in one home is worth treating as an early warning for the block.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for Brookside homes dating to the original 1951 to early 1950s build-out, especially without recent treatment documentation.",
+      "Address damp, shaded siding and trim promptly to remove the moisture-softened wood carpenter ants target.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+      "Eliminate standing water near the Christina Creek drainage edge of the community to reduce mosquito breeding.",
+      "Check foundation gaps each fall, especially if a neighboring home with the same original floor plan has reported mice.",
+    ],
+    costNote:
+      "Termite protection in Brookside runs $200 to $550 per year, with pricing shaped more by the home's original construction era than by its current condition. General pest plans covering ants, stink bugs, and mice run $150 to $270 per year. Mosquito yard treatment for properties near the Christina Creek edge of the community is typically quoted separately.",
+    faqs: [
+      {
+        question: "Who built Brookside, DE and when?",
+        answer:
+          "Developer Raymond A. Burkland, who had already built the postwar suburb of Levittown, New Jersey, started Brookside in 1951 on 285 acres next to Newark, eventually building more than 1,300 homes to house young families, many working at DuPont's nearby Louviers facility, which opened in 1952.",
+      },
+      {
+        question: "Are Brookside's older homes at higher termite risk?",
+        answer:
+          "Yes. Nearly the entire community was built in the early 1950s, and New Castle County is a documented eastern subterranean termite zone. Homes now more than seventy years old are past the point where any original soil treatment can be assumed to still be working, and an inspection is the only way to confirm current protection.",
+      },
+      {
+        question: "Why are carpenter ants common in Brookside's shaded yards?",
+        answer:
+          "The tree canopy planted or left standing when Brookside was developed in the early 1950s has matured over seven decades, and that shade keeps siding and trim damp longer after rain than in more open, newer subdivisions. Carpenter ants nest readily in that persistently moist wood.",
+      },
+      {
+        question: "Does one house's mouse problem in Brookside mean neighbors are at risk too?",
+        answer:
+          "Often, yes. Brookside was built to a limited number of repeated house plans, so a foundation gap that lets mice into one home is frequently present in the identical model nearby. A fall infestation in one house is a reasonable prompt to check a neighboring home of the same design.",
+      },
+      {
+        question: "Is there a mosquito problem near Brookside's edge closest to Newark?",
+        answer:
+          "Yes, in the low ground near the Christina Creek watershed at that edge of the community. Homes further from the drainage see lighter pressure through the May to October mosquito season.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Bear", slug: "bear-de", stateSlug: "delaware" },
+      { name: "Pike Creek", slug: "pike-creek-de", stateSlug: "delaware" },
+      { name: "Hockessin", slug: "hockessin-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Brookside, DE | Termites, Carpenter Ants & Mice",
+    metaDescription:
+      "Brookside DE pest control for termites, carpenter ants, stink bugs and mice. Newark-area postwar suburb specialists in New Castle County. Call 1-800-PEST-USA.",
+  },
 ];

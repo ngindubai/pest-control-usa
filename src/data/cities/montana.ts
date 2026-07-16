@@ -2493,4 +2493,117 @@ export const montanaCities: CityLocation[] = [
     metaDescription:
       "Helena Valley Southeast, MT pest control for house mice, voles, wasps and wood ticks. Lewis and Clark County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "helena-valley-west-central-mt",
+    name: "Helena Valley West Central",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~8,700",
+    county: "Lewis and Clark County",
+    climate: "semi-arid",
+    climateDriver:
+      "Helena Valley West Central sits about five miles north of downtown Helena, in the broad basin between the Scratchgravel Hills to the west and Interstate 15 along its eastern edge. The valley floor holds the same semi-arid conditions found across Lewis and Clark County: dry air, wide swings between day and night temperatures, and winters cold enough to push wildlife toward heated buildings. What sets this community's pest pressure apart from the hay-ground suburbs on the other side of Helena is the Scratchgravel Hills themselves, a block of open, well-drained rangeland that draws hikers, mountain bikers, and trail runners onto dirt trails nearly every month of the year, bringing the ticks and ground-nesting wasps that come with that terrain much closer to the subdivisions built against its base.",
+    topPests: [
+      "House mice",
+      "Pavement ants",
+      "Wasps and yellow jackets",
+      "Rocky Mountain wood ticks",
+      "Boxelder bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp fall surge September through winter",
+        note: "House mice are the state's most common rodent pest, and Helena Valley West Central's rapid subdivision growth since 2000, from 6,983 residents to 8,670, has pushed new construction directly against undeveloped BLM rangeland on the Scratchgravel Hills, giving mice an unbroken path toward newly built homes each fall.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active May through September",
+        note: "Pavement ants nest under concrete slabs, driveways, and sidewalks, and the subdivision expansion that added roughly 1,700 residents to Helena Valley West Central since 2000 created large amounts of exactly the kind of disturbed, newly poured ground this species prefers.",
+      },
+      {
+        name: "Wasps and yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, peak in August",
+        note: "Ground-nesting yellow jackets are common where the open grass and sagebrush of the Scratchgravel Hills meets residential lawns, and colonies reach peak aggression in August as foraging activity increases ahead of the fall die-off.",
+      },
+      {
+        name: "Rocky Mountain wood ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through July, heaviest May and June",
+        note: "The Scratchgravel Hills' dry, well-drained, south-facing slopes shed snow earlier than most Lewis and Clark County terrain, extending the trail season and, with it, the window when Rocky Mountain wood ticks are active and in contact with hikers, mountain bikers, and equestrians on the area's roughly 35 miles of trail.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation, overwinters in structures",
+        note: "Boxelder bugs gather each fall on sun-warmed exterior walls facing the Scratchgravel Hills before pushing indoors through unsealed gaps, a pattern especially noticeable on newer homes built closest to the hillside.",
+      },
+    ],
+    localHook:
+      "The Scratchgravel Hills rise to 5,252 feet along the western edge of Helena Valley West Central, and the Bureau of Land Management manages roughly 5,800 acres of that terrain as a public recreation area with about 35 miles of trail open to hikers, mountain bikers, equestrians, and disc golfers. The same well-drained, minimally snow-covered slopes that keep those trails usable nearly year-round also keep the community's tick season active earlier and longer than in low-lying Helena Valley farmland, since trail users are moving through brush and grass on the hillside itself rather than mowed lawn.",
+    intro:
+      "Pest control in Helena Valley West Central follows the pattern of a suburb built directly against public rangeland. This unincorporated community, roughly five miles north of downtown Helena and bordered by Interstate 15 on its east side, grew from 6,983 residents in 2000 to 8,670 at the 2020 census, adding well over a thousand new homes in two decades. Much of that growth sits close to the Scratchgravel Hills, a Bureau of Land Management recreation area on the community's western edge with about 35 miles of trail used by hikers, mountain bikers, and equestrians. House mice remain the top rodent pest here, as in the rest of Montana, with a heavy fall surge as the cold arrives. Pavement ants take hold in the driveways and walkways of the newer subdivisions, ground-nesting wasps are common where hillside grass meets residential yards, and Rocky Mountain wood ticks are a real spring and early summer concern for anyone using the Scratchgravel Hills trail system. Boxelder bugs round out the fall nuisance calendar.",
+    sections: [
+      {
+        heading: "A subdivision boom pressed against open BLM rangeland",
+        body: "Helena Valley West Central's population grew by nearly 25 percent between the 2000 and 2020 census counts, rising from 6,983 to 8,670 residents across 3,483 housing units, almost all of it filling in the valley floor between downtown Helena and the Scratchgravel Hills. Unlike the irrigated hay ground that shaped growth on Helena's southeast side, this stretch of the valley pushed up against open, undeveloped BLM land that was set aside as a formal recreation area in 2009 and has never been farmed or grazed at the same intensity. That means newer homes built closest to the hillside sit directly against habitat that has supported the same wild mouse and ground-nesting wasp populations for decades, with nothing in between to slow their movement into a yard. Sealing foundation gaps and utility penetrations before the fall cold arrives is the most effective single step a homeowner here can take, particularly on the newer streets closest to the hills.",
+      },
+      {
+        heading: "Ticks on the Scratchgravel trail system",
+        body: "The Scratchgravel Hills draw a steady stream of hikers, mountain bikers, trail runners, and equestrians onto roughly 35 miles of dirt trail nearly every month of the year, since the area's well-drained soil and open, south-facing slopes shed snow faster than most Montana terrain. That same quality that makes the trails usable in February also means the Rocky Mountain wood tick's active season starts earlier here than in shadier, wetter parts of the county, typically running from April through July with the heaviest activity in May and June. Anyone using the trail system, along with any pets that go with them, should be checked for ticks after time on the hillside, particularly where a trail brushes through taller grass rather than open, mowed ground near the disc golf course. Residents whose yards back directly onto BLM land face the same exposure without ever leaving home.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before fall on homes built closest to the Scratchgravel Hills, where wild mouse populations move toward heated structures every year.",
+      "Check for Rocky Mountain wood ticks after hiking, biking, or riding the Scratchgravel Hills trail system, especially from April through July.",
+      "Treat pavement ant colonies at the nest in spring, before foragers establish trails across newer driveways and walkways.",
+      "Have ground-nesting wasp colonies near hillside-adjacent yards treated in early summer, before nests reach peak size in August.",
+      "Clear boxelder bugs from sun-warmed exterior walls each fall before they find gaps into the building.",
+    ],
+    costNote:
+      "Pest control in Helena Valley West Central is most often built around a fall rodent exclusion visit for homes closest to the Scratchgravel Hills, paired with a spring tick treatment for yards backing onto BLM land or households active on the trail system. Wasp and boxelder bug service is typically seasonal and added as needed. A free inspection identifies which pressures apply to a specific property before a plan is recommended.",
+    faqs: [
+      {
+        question: "Why has Helena Valley West Central grown so much since 2000?",
+        answer:
+          "The community added nearly 1,700 residents between the 2000 and 2020 census counts, growing from 6,983 to 8,670 people across 3,483 housing units. Almost all of that growth filled in the valley floor between downtown Helena and the Scratchgravel Hills with new subdivisions, which is why homes built in the last two decades face more direct exposure to the wild rodent and insect populations native to the surrounding hillside.",
+      },
+      {
+        question: "Are ticks really a concern in Helena Valley West Central?",
+        answer:
+          "Yes, particularly for anyone using the Scratchgravel Hills trail system or living on a property that backs onto it. The hills' well-drained, open slopes shed snow early and stay usable for hiking and mountain biking nearly year-round, and that same terrain supports Rocky Mountain wood ticks from April through July, peaking in May and June. Checking pets and people after time on the trails is the most effective precaution.",
+      },
+      {
+        question: "Does Helena Valley West Central have its own pest control program?",
+        answer:
+          "No. It is an unincorporated census-designated place in Lewis and Clark County, with no city government of its own, which means there is no municipal pest management program. Every homeowner and property manager is responsible for handling rodent, insect, and wasp pressure independently.",
+      },
+      {
+        question: "Why do new subdivisions here get more pavement ants?",
+        answer:
+          "Pavement ants nest under concrete slabs, driveways, and sidewalks, and Helena Valley West Central's rapid subdivision growth since 2000 created a large amount of exactly that kind of fresh, disturbed ground. The ants forage indoors in spring and summer, especially in kitchens, and newer developments closest to the Scratchgravel Hills tend to see the most activity.",
+      },
+      {
+        question: "What is the Scratchgravel Hills recreation area?",
+        answer:
+          "It is a roughly 5,800 acre area managed by the Bureau of Land Management along Helena Valley West Central's western edge, with about 35 miles of trail used by hikers, mountain bikers, equestrians, and disc golfers. The Butte Field Office designated it a formal recreation area in 2009, and its dry, well-drained slopes are part of why tick season starts earlier here than in wetter parts of Lewis and Clark County.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Helena Valley Southeast", slug: "helena-valley-southeast-mt", stateSlug: "montana" },
+      { name: "Lockwood", slug: "lockwood-mt", stateSlug: "montana" },
+      { name: "Four Corners", slug: "four-corners-mt", stateSlug: "montana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Helena Valley West Central, MT | Mice, Ticks & Wasps",
+    metaDescription:
+      "Helena Valley West Central, MT pest control for house mice, ticks, wasps and boxelder bugs. Lewis and Clark County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

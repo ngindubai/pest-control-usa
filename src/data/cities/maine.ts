@@ -2077,4 +2077,539 @@ export const maineCities: CityLocation[] = [
     metaDescription:
       "Presque Isle ME pest control for house mice, voles, carpenter ants, cluster flies and yellow jackets. Aroostook County specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kennebunk-me",
+    name: "Kennebunk",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~11,500",
+    county: "York County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kennebunk sits on the York County coast, where the Kennebunk River meets the Atlantic and a stretch of the Rachel Carson National Wildlife Refuge's tidal salt marsh runs along the town's shoreline. That marsh, one of eleven divisions of the refuge spread between Kittery and Cape Elizabeth, protects breeding habitat for shorebirds but also breeds saltmarsh greenhead flies in large numbers each summer. Combine the marsh with York County's long-standing deer tick presence and Kennebunk's older beach cottages and sea captain's homes, and the town carries a coastal pest calendar built around biting insects as much as structural pests.",
+    topPests: [
+      "Deer Ticks",
+      "Greenhead Flies",
+      "Carpenter Ants",
+      "House Mice",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "York County was among the first parts of Maine to see high Lyme disease rates and remains a consistently affected area, with Maine CDC recording a rate of 152.7 cases per 100,000 residents in 2023. Kennebunk's wooded lots near the Rachel Carson refuge and the brushy edges along the Kennebunk River give ticks ready habitat close to homes.",
+      },
+      {
+        name: "Greenhead flies (saltmarsh horse flies)",
+        serviceSlug: "fly-control",
+        activeSeason: "Peak activity mid-June through early August",
+        note: "Greenhead flies breed in the tidal salt marsh of the Rachel Carson National Wildlife Refuge that borders Kennebunk's shoreline. Females need a blood meal to produce eggs and deliver a sharp, painful bite, making late June through July the toughest stretch for anyone working or relaxing near Kennebunk's beaches and marsh-adjacent yards.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Kennebunk's older sea captain's homes and beach cottages, many built well over a century ago near the coast, carry the kind of moisture-softened wood around sills, windows, and porches that carpenter ants need to establish a colony.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Kennebunk's mix of year-round homes and seasonal beach cottages that sit closed up for the winter gives mice an easy, undisturbed place to nest once cold weather arrives, with activity often not discovered until the following spring's reopening.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "The freshwater wetlands upstream of the Kennebunk River and the fringes of the tidal marsh both hold standing water long enough each summer to sustain a full mosquito season alongside the greenhead flies.",
+      },
+    ],
+    localHook:
+      "Kennebunk shares its shoreline with a stretch of the Rachel Carson National Wildlife Refuge's tidal salt marsh, and that same protected marsh that shelters shorebirds also breeds the greenhead flies that make late June and July a genuinely tough stretch for anyone spending time near the beach.",
+    intro:
+      "Ask a Kennebunk homeowner what pest bothers them most in July and the answer is often not a tick or an ant, it's the greenhead fly. The tidal salt marsh that forms part of the Rachel Carson National Wildlife Refuge borders Kennebunk's coastline, and that marsh breeds large numbers of these biting flies each summer right alongside the shorebirds it was established to protect. Deer ticks remain the more serious long-term health concern, with York County among Maine's longest-affected Lyme disease areas. Carpenter ants work the moisture-softened wood in Kennebunk's older sea captain's homes and beach cottages, house mice move into seasonal properties left closed for the winter, and mosquitoes round out a summer that already has the greenheads to contend with.",
+    sections: [
+      {
+        heading: "Deer Ticks Near the Rachel Carson Refuge Marshes",
+        body: "York County was one of the first parts of Maine where Lyme disease became a serious public health concern, and Maine CDC's 2023 data put the county's rate at 152.7 cases per 100,000 residents, a level that has held fairly steady even as the fastest recent growth in Lyme cases has shifted toward Midcoast counties farther up the coast. Kennebunk's geography still gives deer ticks plenty of places to work: the wooded buffer around the Rachel Carson refuge, the brushy banks of the Kennebunk River, and the shrubby transition zones between mowed lawns and marsh edges throughout town. Nymphal ticks, active in late May and June, are the smallest and most likely to go unnoticed on a body, which makes that window the highest-risk period for an unrecognized bite. A tick check after any time spent near the refuge trails or riverside brush, combined with seasonal yard treatment along wooded and marsh-adjacent property lines, is the standard local recommendation.",
+      },
+      {
+        heading: "Greenhead Flies: Kennebunk's Toughest Summer Weeks",
+        body: "The same tidal salt marsh that makes the Rachel Carson National Wildlife Refuge valuable habitat for shorebirds also happens to be ideal breeding ground for greenhead flies, a type of saltmarsh horse fly common to the New England coast. Only the females bite, and they need the blood meal to develop their eggs, which is why late June through early August brings a wave of aggressive, painful bites to anyone near Kennebunk's beaches, marsh boardwalks, or waterfront yards. Unlike mosquitoes, greenheads are active in bright daylight and are not deterred by most over-the-counter repellents, which is part of why the season has a real reputation locally. There is no practical way to eliminate greenhead breeding habitat, since it sits inside a federally protected refuge, but targeted mosquito and biting-fly barrier treatments on private yards near the marsh edge, along with fans on porches and decks (greenheads are weak fliers and avoid moving air), meaningfully cut down on the misery during the worst weeks.",
+      },
+    ],
+    prevention: [
+      "Perform tick checks after any time spent near the Rachel Carson refuge trails, the Kennebunk River banks, or other brushy edges in town.",
+      "Schedule biting-fly barrier treatment for marsh-adjacent yards before the greenhead season peaks in late June.",
+      "Repair softened wood around sills, porches, and windows on older Kennebunk homes to remove the moisture carpenter ants need.",
+      "Seal foundation gaps on seasonal cottages before closing them up for the winter to keep mice from moving in undetected.",
+    ],
+    costNote:
+      "Kennebunk pest programs commonly combine spring and early-summer tick treatment with a biting-fly barrier application timed to the greenhead peak, since both problems come from the same marsh-edge habitat. Carpenter ant work is quoted separately once a colony is confirmed. A free inspection is the right starting point for any property near the coast or the refuge.",
+    faqs: [
+      {
+        question: "Why are greenhead flies such a problem on Kennebunk beaches in summer?",
+        answer:
+          "Greenhead flies breed in the tidal salt marsh that forms part of the Rachel Carson National Wildlife Refuge along Kennebunk's shoreline. Only females bite, needing the blood meal to lay eggs, and they are most aggressive from mid-June through early August. They fly in daylight, are not reliably deterred by common repellents, and avoid moving air, so a porch fan and a scheduled barrier treatment are the most effective local responses.",
+      },
+      {
+        question: "Is Kennebunk in a high tick risk area?",
+        answer:
+          "Yes. York County was among the first parts of Maine to see significant Lyme disease activity, and Maine CDC recorded a county rate of 152.7 cases per 100,000 residents in 2023. Kennebunk's wooded refuge buffer and riverside brush give deer ticks habitat close to homes, so seasonal tick checks and yard treatment along wooded edges are recommended.",
+      },
+      {
+        question: "Do Kennebunk's older sea captain's homes get carpenter ants?",
+        answer:
+          "Yes, frequently. Many of Kennebunk's sea captain's homes and beach cottages are more than a century old and have accumulated moisture damage around sills, porches, and window frames over that time. Carpenter ants exploit that softened wood to build galleries. Large black ants foraging indoors in spring usually mean a colony spent the winter established inside the structure.",
+      },
+      {
+        question: "When should Kennebunk homeowners seal up seasonal cottages against mice?",
+        answer:
+          "Before closing a cottage for the winter, ideally by mid-October. Kennebunk has a large number of seasonal beach properties that sit unoccupied for months, and mice that find a gap in the foundation or siding can nest undisturbed all winter. Sealing entry points before the cottage closes is far easier than dealing with an established colony come spring reopening.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Yarmouth", slug: "yarmouth-me", stateSlug: "maine" },
+      { name: "Rockland", slug: "rockland-me", stateSlug: "maine" },
+      { name: "Winslow", slug: "winslow-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kennebunk, ME | Ticks, Greenhead Flies & Ants",
+    metaDescription:
+      "Kennebunk ME pest control for deer ticks, greenhead flies, carpenter ants, house mice and mosquitoes near the Rachel Carson refuge. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "yarmouth-me",
+    name: "Yarmouth",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~9,000",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Yarmouth sits where the Royal River, the second-largest source of fresh water flowing into Casco Bay, empties into the bay itself, a mile downstream from the waterfalls that once powered the town's mills. That combination of tidal estuary, freshwater river, and Casco Bay shoreline creates a damp, marshy pest environment, while the town's mix of historic mill buildings, working marinas, and older homes near the falls gives carpenter ants and mice plenty of structural targets.",
+    topPests: [
+      "Deer Ticks",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "House Mice",
+      "Wasps and Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Cumberland County's Lyme disease rate has climbed gradually, from 117.8 cases per 100,000 residents in 2014 to 124.6 in 2024 per Maine CDC. Yarmouth's wooded riverside trails along the Royal River and the brushy edges around North Yarmouth's border give deer ticks consistent habitat.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Yarmouth's historic mill buildings near the Royal River falls, along with older homes throughout the village center, carry decades of moisture exposure from the river and harbor air that carpenter ants exploit to establish colonies.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "The slower, tidal-influenced stretch of the Royal River near its mouth in Casco Bay, along with the marshy edges of the harbor, hold standing water long enough each summer to sustain a reliable mosquito season.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Yarmouth's working marinas and boatyards, several seasonally closed through the winter, along with the town's older housing stock, give mice both a source population and an easy point of entry once fall temperatures drop.",
+      },
+      {
+        name: "Bald-faced hornets and yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most aggressive August and September",
+        note: "Yellow jackets nest in the ground around Yarmouth's waterfront parks and residential yards, and the town's harborside picnic areas and the annual Yarmouth Clam Festival grounds see particularly heavy late-summer activity when colonies peak.",
+      },
+    ],
+    localHook:
+      "The Royal River, the second-largest source of fresh water flowing into Casco Bay, empties into the harbor at Yarmouth just a mile past the waterfalls that once powered the town's mills, and that same estuary now shapes a pest calendar built around river-edge ticks, marina buildings, and harborside wasps.",
+    intro:
+      "The Royal River defines Yarmouth. It is the second-largest freshwater source flowing into Casco Bay, and it empties into the harbor less than a mile from the falls that once ran the town's mills. That river corridor, along with the working marinas and boatyards lining the waterfront, sets the pattern for pest pressure here. Deer ticks work the wooded trails along the Royal River, carpenter ants exploit moisture-damaged wood in the historic mill buildings and older homes near the falls, mosquitoes breed in the tidal stretch near the river's mouth, house mice move into marina buildings each fall, and yellow jackets nest heavily around the waterfront parks that host the annual Yarmouth Clam Festival.",
+    sections: [
+      {
+        heading: "Deer Ticks Along the Royal River Corridor",
+        body: "Cumberland County's Lyme disease rate has risen steadily but gradually, moving from 117.8 cases per 100,000 residents in 2014 to 124.6 in 2024, according to Maine CDC data, a more moderate climb than the sharper increases recorded in some Midcoast counties over the same period. Yarmouth's own geography still supports a meaningful deer tick population. The wooded trail network along the Royal River, the brushy border with North Yarmouth, and the shrubby transition zones around the town's numerous small ponds all provide the leaf litter and understory cover deer ticks and their rodent hosts prefer. Nymphal ticks are most active in May and June and are small enough to go unnoticed for the one to two days it typically takes to transmit Lyme disease, which makes early-season vigilance the most useful habit for anyone using the riverside trails regularly. Seasonal treatment of tick habitat along wooded property edges, paired with tick checks after time on the trails, remains the standard recommendation.",
+      },
+      {
+        heading: "Carpenter Ants in Yarmouth's Mill Buildings and Marinas",
+        body: "Yarmouth grew up around the Royal River's waterfalls, which powered a series of mills within a mile of the river's mouth, and many of the buildings from that era still stand in the village center today, now repurposed as offices, shops, and homes. Decades of exposure to river dampness and harbor humidity have left softened wood in the sills, window frames, and foundations of several of these older structures, exactly the kind of material carpenter ants need to excavate a nesting gallery. The town's working marinas and boatyards along the waterfront add a second layer of exposure, since boat sheds and dock buildings sit directly over damp ground for months at a time. Large black ants foraging indoors in spring, particularly in an older mill-era building or a marina structure with no obvious ant activity outside, typically indicate a colony that overwintered inside the wall or subfloor. An annual inspection of Yarmouth's older commercial and residential buildings near the river catches most infestations before structural damage sets in.",
+      },
+    ],
+    prevention: [
+      "Treat wooded trail edges along the Royal River and the North Yarmouth border each spring for deer ticks, and check for attached ticks after time on the trails.",
+      "Inspect older mill-era buildings and marina structures each spring for softened wood around sills and foundations, the condition carpenter ants need to establish a colony.",
+      "Seal marina and boatyard buildings before their seasonal winter closure to keep mice from nesting undisturbed.",
+      "Locate and treat ground-nesting yellow jacket colonies around waterfront parks before the Yarmouth Clam Festival and other late-summer events draw crowds.",
+    ],
+    costNote:
+      "Yarmouth pest programs frequently combine tick treatment along river-edge properties with carpenter ant inspection for the town's older mill and marina buildings, since both trace back to the same river and harbor moisture. Yellow jacket nest removal is priced separately once a nest is located. A free inspection determines the right combination for a given property.",
+    faqs: [
+      {
+        question: "Why does the Royal River matter so much for pests in Yarmouth?",
+        answer:
+          "The Royal River is the second-largest source of fresh water flowing into Casco Bay, and it shapes nearly every part of Yarmouth's pest picture. Its wooded trail corridor supports deer ticks, the dampness from its waterfalls left generations of moisture damage in the mill buildings that carpenter ants now exploit, and its tidal stretch near the harbor breeds mosquitoes each summer.",
+      },
+      {
+        question: "Do Yarmouth's historic mill buildings have carpenter ant problems?",
+        answer:
+          "Many do. Yarmouth's village center grew up around mills powered by the Royal River's falls, and several of those buildings, along with nearby marina structures, have accumulated decades of moisture damage from river and harbor humidity. That softened wood is exactly what carpenter ants need to nest. Large black ants indoors in spring usually mean an established colony.",
+      },
+      {
+        question: "Are yellow jackets a problem at Yarmouth's waterfront events?",
+        answer:
+          "Yes, late summer is the peak. Yellow jackets nest in the ground around Yarmouth's harborside parks, and colonies reach maximum size and aggression in August and September, right around the time of the annual Yarmouth Clam Festival. Locating and treating nests before major waterfront events reduces the risk of a sting incident in a crowd.",
+      },
+      {
+        question: "Is Yarmouth a high Lyme disease risk area?",
+        answer:
+          "Cumberland County's Lyme disease rate has climbed gradually, from 117.8 per 100,000 in 2014 to 124.6 in 2024 according to Maine CDC, a steadier rise than some Midcoast counties have seen. Yarmouth's wooded riverside trails still support a real deer tick population, so tick checks after outdoor activity remain worthwhile.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Rockland", slug: "rockland-me", stateSlug: "maine" },
+      { name: "Winslow", slug: "winslow-me", stateSlug: "maine" },
+      { name: "Skowhegan", slug: "skowhegan-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Yarmouth, ME | Ticks, Carpenter Ants & Wasps",
+    metaDescription:
+      "Yarmouth ME pest control for deer ticks, carpenter ants, mosquitoes, house mice and yellow jackets near the Royal River and Casco Bay. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "winslow-me",
+    name: "Winslow",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~7,900",
+    county: "Kennebec County",
+    climate: "cold-humid",
+    climateDriver:
+      "Winslow sits directly across the Kennebec River from Waterville, at the exact point where the Sebasticook River joins the Kennebec, a confluence that has shaped the town since Fort Halifax was built there in 1754. That two-river setting brings recurring high water and flood risk, most dramatically in April 1987 when the Kennebec's flood waters swept away the historic Fort Halifax blockhouse. The dampness that comes with living at a river confluence, combined with Winslow's legacy of paper mill and riverside building stock, drives moisture-dependent pests like carpenter ants and mosquitoes alongside the cold-weather rodent pressure typical of central Maine.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Deer Ticks",
+      "Cluster Flies",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Winslow's older riverside buildings, including former mill structures near the Kennebec, provide easy access points for house mice moving indoors as central Maine's cold sets in each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "The recurring high water at Winslow's river confluence has left moisture damage in the wood of many older homes and former mill buildings near the Kennebec and Sebasticook, exactly the condition carpenter ants need to establish a colony.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Kennebec County is in Maine CDC's established Lyme disease zone, and some inland areas of the county have seen an upsurge in reported cases in recent years. Winslow's wooded riverbanks and the brushy ground near the old Fort Halifax site give ticks consistent cover.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, warm-day emergence through winter",
+        note: "Cluster flies gather each fall in the wall voids and attics of Winslow's older farmhouses and riverside buildings, the same structures that carry decades of dampness from the town's flood history, and emerge indoors on mild winter days.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "The low-lying ground at the Kennebec and Sebasticook confluence holds standing water well into summer after spring high water recedes, giving mosquitoes an extended breeding window close to the town center.",
+      },
+    ],
+    localHook:
+      "Winslow sits at the exact point where the Sebasticook River joins the Kennebec, the same peninsula where Fort Halifax's blockhouse stood from 1754 until the April 1987 flood swept it downriver, and that history of recurring high water still drives the moisture-dependent pests that trouble the town's oldest riverside buildings.",
+    intro:
+      "Winslow occupies the peninsula where the Sebasticook River flows into the Kennebec, directly across from Waterville, a confluence that has defined the town since Fort Halifax was built there in 1754 and that flooded dramatically enough in April 1987 to carry the historic blockhouse downriver. Living at a two-river confluence means recurring dampness, and that dampness shapes Winslow's pest calendar. House mice and cluster flies both find easy entry into the town's older riverside buildings and former mill structures each fall, carpenter ants exploit the moisture damage those same buildings have accumulated over decades, deer ticks work the wooded riverbanks near the old fort site, and mosquitoes breed in the low ground that holds water long after spring high water recedes.",
+    sections: [
+      {
+        heading: "Living at the Confluence: Winslow's Flood History and Moisture-Driven Pests",
+        body: "Fort Halifax was built in 1754 at the peninsula where the Sebasticook River meets the Kennebec, and the blockhouse that stood there for over two centuries was considered the oldest wooden fort structure of its type in New England, until the flood waters of April 1, 1987 tore it from its foundation and swept it downriver. It was rebuilt, but the flood was a reminder of what living at a two-river confluence means for the town: recurring high water, especially during spring ice-out and heavy rain events. That dampness has soaked into the wood of Winslow's older buildings for generations, including structures connected to the Hollingsworth & Whitney paper mill that once anchored the local economy along the Kennebec. Moisture-softened wood in these older buildings, whether a converted mill structure or a home built decades before modern flood-resistant construction standards, is precisely what carpenter ants need to excavate a colony. The same dampness supports cluster flies, which gather in large numbers each fall in wall voids and attics before emerging on mild winter days. Addressing pest pressure in Winslow's oldest buildings usually starts with identifying where flood-era moisture is still trapped in the structure.",
+      },
+      {
+        heading: "Mice and Ticks Along Winslow's River Corridor",
+        body: "Winslow's location directly across the Kennebec from Waterville puts it inside Maine CDC's established Lyme disease zone for Kennebec County, and some inland parts of the county, Winslow's rural stretches included, have seen reported Lyme cases climb in recent years. The wooded riverbanks along both the Kennebec and Sebasticook, along with the brushy ground surrounding the Fort Halifax historic site, give deer ticks consistent cover close to residential neighborhoods. House mice present a different seasonal pattern. Winslow's older riverside buildings and former mill structures offer countless small gaps for mice to exploit as central Maine's cold arrives each September, and once established indoors for the winter, a mouse population can be difficult to remove without a thorough sealing and trapping program. Because so much of Winslow's older housing sits close to the river, exclusion work often has to account for foundation settling caused by decades of seasonal flooding, not just simple gaps around utility lines.",
+      },
+    ],
+    prevention: [
+      "Inspect older riverside buildings and former mill structures near the Kennebec and Sebasticook each spring for flood-related moisture damage, the condition carpenter ants and cluster flies both depend on.",
+      "Seal foundation gaps on older Winslow homes before September, accounting for settling caused by decades of seasonal high water.",
+      "Treat wooded riverbank areas and the ground near the Fort Halifax historic site each spring for deer ticks, and check for attached ticks after time along the river.",
+      "Apply fall perimeter treatment to older buildings to intercept cluster flies before they move into wall voids for the winter.",
+    ],
+    costNote:
+      "Winslow pest programs commonly start with a moisture and structural assessment for older riverside buildings, since carpenter ants and cluster flies both trace back to flood-related dampness in this town more than almost anywhere else in central Maine. Tick and mosquito treatment are typically scheduled for spring. A free inspection identifies which combination fits a given property.",
+    faqs: [
+      {
+        question: "Why does Winslow have so much carpenter ant activity in its older buildings?",
+        answer:
+          "Winslow sits at the confluence of the Kennebec and Sebasticook rivers, a location with a long history of flooding, most notably the April 1987 flood that swept away the historic Fort Halifax blockhouse. Decades of that recurring dampness have softened the wood in many of the town's older homes and former mill buildings, which is exactly the condition carpenter ants need to excavate a colony.",
+      },
+      {
+        question: "Is Winslow at risk for Lyme disease?",
+        answer:
+          "Yes. Winslow is in Kennebec County, which Maine CDC places in the state's established Lyme disease zone, and some inland parts of the county have reported rising case numbers in recent years. Winslow's wooded riverbanks along the Kennebec and Sebasticook, and the brushy ground near the Fort Halifax historic site, give deer ticks steady cover close to homes.",
+      },
+      {
+        question: "Why do mice move into Winslow homes every fall?",
+        answer:
+          "Central Maine's cold arrives reliably by September, and Winslow's older riverside buildings and former mill structures have accumulated the kind of small gaps and settled foundations, some worsened by decades of seasonal flooding, that give mice easy access. Sealing those entry points before the fall push begins is more effective than trapping an established indoor population.",
+      },
+      {
+        question: "What happened to the Fort Halifax blockhouse in Winslow?",
+        answer:
+          "Fort Halifax was built in 1754 at the peninsula where the Sebasticook River meets the Kennebec, and its blockhouse was considered the oldest wooden fort structure of its type in New England. On April 1, 1987, flood waters on the Kennebec tore the blockhouse from its foundation and swept it downriver. It was later rebuilt, but the flood remains a reminder of how much river moisture shapes this town, including its ongoing carpenter ant and cluster fly pressure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Skowhegan", slug: "skowhegan-me", stateSlug: "maine" },
+      { name: "Kennebunk", slug: "kennebunk-me", stateSlug: "maine" },
+      { name: "Yarmouth", slug: "yarmouth-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Winslow, ME | Mice, Carpenter Ants & Ticks",
+    metaDescription:
+      "Winslow ME pest control for house mice, carpenter ants, deer ticks, cluster flies and mosquitoes at the Kennebec and Sebasticook confluence. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rockland-me",
+    name: "Rockland",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~6,900",
+    county: "Knox County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rockland sits on Penobscot Bay in Knox County, where a working waterfront built around commercial fishing and the lobster industry has anchored the local economy since Rockland became the county's lobster landing hub in 1850. Knox County has also seen one of the sharpest recent increases in Lyme disease anywhere in Maine, with the county's reported rate climbing from 267.2 cases per 100,000 residents in 2014 to 675.3 in 2024 according to Maine CDC, a change tied to the broader surge documented across Midcoast counties. Between the tick pressure and a working harbor that draws rodents to its fish houses and boatyards, Rockland's pest calendar covers both woods and waterfront.",
+    topPests: [
+      "Deer Ticks",
+      "Norway Rats",
+      "Carpenter Ants",
+      "House Mice",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Knox County has recorded one of the steepest Lyme disease rate increases in Maine, from 267.2 cases per 100,000 residents in 2014 to 675.3 in 2024 per Maine CDC, part of a documented surge across Midcoast counties. Rockland's wooded lots and brushy field edges inland from the harbor give deer ticks consistent habitat.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active September through winter as they seek shelter and food indoors",
+        note: "Coastal Maine towns, including several along the Midcoast, have reported a documented rise in rat activity in recent years. Rockland's working waterfront, with its active fish houses, seafood processing, and boatyards, gives Norway rats a reliable year-round food source close to older harbor buildings.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Rockland's older Victorian-era homes near the harbor, built during the city's 19th-century lime and granite boom, carry the kind of coastal moisture damage that gives carpenter ants an easy foothold.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Rockland's older harbor-area buildings and inland residential neighborhoods both see a reliable fall increase in mouse activity as Knox County's coastal cold sets in.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September, most defensive in August",
+        note: "Yellow jacket colonies reach peak size and aggression in August, which lines up directly with the Maine Lobster Festival's crowds along Rockland's harbor front, making nest identification ahead of the festival a genuine local concern.",
+      },
+    ],
+    localHook:
+      "Rockland has been Knox County's lobster landing hub since 1850, and the same working waterfront that makes it the self-styled Lobster Capital of the World also gives Norway rats a reliable food source near its fish houses, while the county's Lyme disease rate has more than doubled since 2014, among the steepest increases recorded anywhere in Maine.",
+    intro:
+      "Rockland has run on lobster since the city became Knox County's landing hub in 1850, and its working waterfront, with its fish houses, boatyards, and the harbor that hosts the annual Maine Lobster Festival, still shapes the local pest picture today. Norway rats find a reliable year-round food source around the working harbor's seafood operations. Deer ticks are the more serious concern countywide: Knox County's Lyme disease rate has climbed from 267.2 cases per 100,000 residents in 2014 to 675.3 in 2024, one of the steepest increases documented anywhere in Maine. Carpenter ants work the moisture-exposed wood of Rockland's older Victorian homes from the city's 19th-century lime and granite boom, house mice move indoors each fall, and yellow jackets peak in August, right alongside the Lobster Festival crowds.",
+    sections: [
+      {
+        heading: "Rockland's Tick Surge: Knox County's Rising Lyme Numbers",
+        body: "Few counties in Maine have seen Lyme disease rates rise as fast as Knox County. Maine CDC data shows the county's rate climbing from 267.2 cases per 100,000 residents in 2014 to 675.3 in 2024, part of a broader pattern that public health reporting has tied to a surge concentrated in Midcoast and Down East counties, a shift away from the historically higher-risk southern Maine counties. Rockland's own mix of wooded residential lots, brushy field edges inland from the harbor, and the transition zones where mowed yards meet undeveloped land all support a growing deer tick population. Nymphal ticks, most active in May and June, are small enough to attach unnoticed, and Rockland's numbers suggest the risk of an unrecognized bite is meaningfully higher today than it was even a decade ago. Tick checks after any time spent in wooded or brushy areas away from the immediate waterfront, along with seasonal treatment of yard edges bordering undeveloped land, are the most useful steps a Rockland property owner can take given the county's trajectory.",
+      },
+      {
+        heading: "Rats and Rodents Along Rockland's Working Waterfront",
+        body: "Rockland's identity has been built on its working waterfront since 1850, when the city became Knox County's primary lobster landing point, and that identity persists today in its active fish houses, boatyards, and commercial fishing fleet. Coastal Maine communities generally have reported a documented increase in rat activity over the past decade, and Rockland's working harbor, with a steady supply of fish waste and bait near older wood-frame buildings, gives Norway rats consistent access to food and shelter close to the water. Rats are strong burrowers and can establish themselves under docks, in seawalls, and inside the crawl spaces of older harbor buildings, often going unnoticed until a population is well established. Away from the water, Rockland's older Victorian-era homes, many built during the city's 19th-century lime kiln and granite quarrying boom, carry the kind of coastal moisture damage in sills and foundations that carpenter ants exploit, while house mice move into both waterfront and inland buildings each fall as the coastal cold sets in. A property's location relative to the working harbor is usually the first thing that determines which of these pests is the bigger concern.",
+      },
+    ],
+    prevention: [
+      "Treat wooded and brushy yard edges away from the immediate waterfront each spring for deer ticks, given Knox County's sharply rising Lyme disease rate.",
+      "Inspect harbor-area buildings and docks for burrow entry points and food sources that draw Norway rats, particularly near fish houses and bait storage.",
+      "Repair moisture-damaged sills and foundations on Rockland's older Victorian homes to remove the conditions carpenter ants need.",
+      "Locate and treat ground-nesting yellow jacket colonies near the waterfront before the August Maine Lobster Festival draws crowds to the harbor.",
+    ],
+    costNote:
+      "Rockland pest programs vary sharply by location: properties near the working waterfront typically need rat exclusion and monitoring alongside standard seasonal service, while inland residential properties focus more on tick treatment and carpenter ant prevention in older homes. A free inspection identifies which combination fits a given property.",
+    faqs: [
+      {
+        question: "Why has Lyme disease risk grown so much in Rockland and Knox County?",
+        answer:
+          "Maine CDC data shows Knox County's Lyme disease rate rising from 267.2 cases per 100,000 residents in 2014 to 675.3 in 2024, one of the steepest increases recorded in the state, part of a documented surge across Midcoast and Down East counties. Rockland's wooded residential lots and brushy field edges away from the immediate waterfront support the deer tick population behind that trend, making seasonal yard treatment and tick checks more important than in past years.",
+      },
+      {
+        question: "Does Rockland's working waterfront attract rats?",
+        answer:
+          "Coastal Maine towns have generally reported a documented rise in rat activity over the past decade, and Rockland's active fish houses, boatyards, and lobster industry operations, a fixture of the city's economy since 1850, give Norway rats a reliable food source near older harbor buildings. Regular inspection of docks and waterfront structures for burrow entry points is the recommended defense.",
+      },
+      {
+        question: "Do Rockland's older Victorian homes get carpenter ants?",
+        answer:
+          "Yes, many do. A number of Rockland's Victorian-era homes date to the city's 19th-century lime kiln and granite quarrying boom, and coastal humidity has left moisture damage in sills and foundations over the decades since. Carpenter ants exploit that softened wood. Large black ants foraging indoors in spring usually indicate a colony that overwintered inside the structure.",
+      },
+      {
+        question: "Are yellow jackets a concern during the Maine Lobster Festival in Rockland?",
+        answer:
+          "Yes. Yellow jacket colonies reach peak size and aggression in August, the same month Rockland hosts the Maine Lobster Festival along its harbor front. Ground-nesting colonies near festival grounds and waterfront parks are worth locating and treating ahead of the event to reduce the risk of a sting incident in a crowd.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Winslow", slug: "winslow-me", stateSlug: "maine" },
+      { name: "Skowhegan", slug: "skowhegan-me", stateSlug: "maine" },
+      { name: "Kennebunk", slug: "kennebunk-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rockland, ME | Ticks, Rats & Carpenter Ants",
+    metaDescription:
+      "Rockland ME pest control for deer ticks, Norway rats, carpenter ants, house mice and yellow jackets on the Penobscot Bay working waterfront. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "skowhegan-me",
+    name: "Skowhegan",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~8,600",
+    county: "Somerset County",
+    climate: "cold-humid",
+    climateDriver:
+      "Skowhegan sits in the Kennebec River Valley as the county seat of Somerset County, home to the Skowhegan State Fair, the nation's oldest consecutively running agricultural fair, first held in 1819. The surrounding farmland that has supported that fair for over two centuries, combined with the Kennebec River running through town, creates a pest environment built around farmland rodents, moisture-driven structural pests, and a rising deer tick presence, since Maine CDC lists Somerset among the counties with an above-average Lyme disease rate.",
+    topPests: [
+      "House Mice",
+      "Voles",
+      "Carpenter Ants",
+      "Cluster Flies",
+      "Deer Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through May, heaviest pressure October through December",
+        note: "The farmland surrounding Skowhegan and its fairgrounds maintains a large rodent population close to the town, and central Maine's cold arrives early enough each fall that mice move toward heated buildings by September in most years.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Active spring and fall, tunneling under snow all winter",
+        note: "Meadow voles are common in the farm fields and orchards around Skowhegan, including land near the fairgrounds, and their winter tunneling under snow cover leaves runway damage to lawns and gardens that becomes visible only at the spring thaw.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor sightings signal an overwintered colony",
+        note: "Skowhegan's older river-valley farmhouses, some standing since the town's 19th-century mill era on the Kennebec, carry the kind of moisture damage from river dampness and settled foundations that carpenter ants need to nest.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, warm-day emergence through winter",
+        note: "Skowhegan's older farm buildings and downtown structures are a fall gathering point for cluster flies, which overwinter in wall voids in large numbers and emerge into living spaces on mild winter days.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC listed Somerset among the state's eight counties with a Lyme disease rate above the statewide average in 2023. The farmland edges and wooded borders around Skowhegan give deer ticks and their rodent hosts consistent cover.",
+      },
+    ],
+    localHook:
+      "Skowhegan has hosted the nation's oldest consecutively running agricultural fair since 1819, and the same farmland that has supported the Skowhegan State Fair for more than two centuries still drives the town's mouse, vole, and tick pressure today.",
+    intro:
+      "Skowhegan's identity runs through its fairgrounds. The Skowhegan State Fair, first held in 1819, is the oldest consecutively running agricultural fair in the country, and the farmland that has sustained it for more than two hundred years still shapes the town's pest calendar. House mice and voles both draw on that surrounding farmland, with voles doing their damage under snow cover and mice moving into buildings each fall. Carpenter ants work the moisture-damaged wood in Skowhegan's older river-valley farmhouses, cluster flies gather each autumn in the same older structures, and deer ticks have become enough of a concern that Maine CDC now lists Somerset County among the state's above-average Lyme disease counties.",
+    sections: [
+      {
+        heading: "Mice and Voles Around Skowhegan's Fairgrounds and Farmland",
+        body: "The farmland that has supported the Skowhegan State Fair since its first run in 1819 remains active agricultural land today, and that scale of surrounding fields keeps rodent populations high year-round. House mice respond to central Maine's early cold by moving toward heated buildings starting in September in most years, and Skowhegan's downtown commercial buildings along with homes bordering the fairgrounds and nearby farmland see consistent fall entry. Voles behave differently, staying outdoors through the cold months and tunneling extensively under snow cover across lawns, garden beds, and the edges of farm fields near the fairgrounds. That damage, visible as flattened runways in the grass and chewed bulbs, only shows up each spring once the snow melts, well after the tunneling happened. Skowhegan properties bordering farmland or the fairgrounds see the heaviest vole pressure. Addressing both pests effectively means working on separate schedules: fall exclusion and trapping for mice completed before the September push, and perimeter vole treatment in early spring before the growing season resumes.",
+      },
+      {
+        heading: "Carpenter Ants, Cluster Flies, and Rising Tick Risk in Skowhegan",
+        body: "Skowhegan grew up around the Kennebec River's mills, and many of the town's older farmhouses and downtown buildings carry decades of moisture damage from river dampness, settled foundations, and inadequate crawl space barriers, conditions carpenter ants readily exploit to establish a colony. The first sign in most Skowhegan buildings is large black ants foraging indoors each spring from a colony that overwintered in the wall space. Cluster flies present a related but separate fall problem, seeking overwintering sites in the attics and wall voids of the same older farm and downtown structures starting in late August, with a single wall sometimes holding hundreds of flies by October that emerge unexpectedly on mild winter days. Deer ticks round out Skowhegan's pest picture and represent the newest concern: Maine CDC named Somerset among the eight Maine counties with a Lyme disease rate above the 2023 statewide average, a marked change from the county's historically lower tick pressure. The farmland edges and wooded borders throughout Skowhegan give ticks and their rodent hosts the same cover that has always supported the area's mouse and vole populations, meaning a property already managing rodents for farmland reasons should now factor ticks into the same seasonal plan.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations on Skowhegan buildings by early September, ahead of the annual fall mouse push from surrounding farmland.",
+      "Treat lawn and garden perimeters for voles each April, before the growing season begins and while winter tunneling damage is still visible.",
+      "Inspect older river-valley farmhouses and downtown buildings each spring for moisture-damaged wood, the condition carpenter ants need to establish a colony.",
+      "Treat farmland edges and wooded property borders each spring for deer ticks, now that Somerset County sits above the statewide Lyme disease average.",
+    ],
+    costNote:
+      "Skowhegan pest programs are typically built around the farmland-driven fall rodent push, with exclusion work scheduled in late summer. Vole treatment for fields and lawns bordering farmland runs separately each spring, and tick treatment has become a more common addition given the county's rising Lyme numbers. A free inspection determines the right combination for a given property.",
+    faqs: [
+      {
+        question: "Why do mice move into Skowhegan buildings so reliably every fall?",
+        answer:
+          "Skowhegan sits surrounded by farmland that has supported the Skowhegan State Fair since 1819, and that scale of agricultural land keeps a large rodent population close to town year-round. As central Maine's cold sets in, often by September, house mice move toward heated buildings, with downtown commercial structures and homes near the fairgrounds seeing the most consistent activity. Sealing entry points in late summer gets ahead of the push.",
+      },
+      {
+        question: "Are voles a problem for Skowhegan lawns near the fairgrounds?",
+        answer:
+          "Yes. Meadow voles are common throughout the farm fields and orchards around Skowhegan, including land bordering the fairgrounds, and they tunnel extensively under snow cover all winter. The runway damage to grass and chewed garden bulbs only becomes visible each spring when the snow melts. Treating lawn and garden perimeters in April limits the damage that builds up before the next winter.",
+      },
+      {
+        question: "Is Skowhegan now considered a higher-risk area for Lyme disease?",
+        answer:
+          "Yes, that risk has grown. Maine CDC listed Somerset County among the eight counties with a Lyme disease rate above the statewide average in 2023, a change from the county's historically lower tick pressure. Skowhegan's farmland edges and wooded borders give deer ticks and their rodent hosts the same habitat that has always supported the area's mouse and vole populations.",
+      },
+      {
+        question: "What causes carpenter ants in Skowhegan's older farmhouses?",
+        answer:
+          "Moisture damage from river dampness tied to the Kennebec, settled foundations, and inadequate crawl space vapor barriers is the usual cause, common in both Skowhegan's older river-valley farmhouses and its downtown buildings dating to the town's mill era. Large black ants indoors each spring typically mean a colony spent the winter established inside the structure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kennebunk", slug: "kennebunk-me", stateSlug: "maine" },
+      { name: "Yarmouth", slug: "yarmouth-me", stateSlug: "maine" },
+      { name: "Rockland", slug: "rockland-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Skowhegan, ME | Mice, Voles & Carpenter Ants",
+    metaDescription:
+      "Skowhegan ME pest control for house mice, voles, carpenter ants, cluster flies and deer ticks in Somerset County's Kennebec Valley. Call 1-800-PEST-USA.",
+  },
 ];

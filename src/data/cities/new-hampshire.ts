@@ -2180,4 +2180,359 @@ export const newHampshireCities: CityLocation[] = [
     metaTitle: "Pest Control in Somersworth, NH | Ticks, Termites & Carpenter Ants",
     metaDescription: "Somersworth NH pest control for deer ticks, carpenter ants, termites, mice and yellowjackets. Salmon Falls River Hilltop City specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "berlin-nh",
+    name: "Berlin",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~9,300",
+    county: "Coos County",
+    climate: "cold-humid",
+    climateDriver: "Berlin sits on the Androscoggin River at the edge of the White Mountains, the largest city in New Hampshire's Great North Woods and the northernmost city in the state. The surrounding national forest and a colder, shorter warm season than the rest of New Hampshire shape a pest calendar that looks different here: NH DHHS tick surveillance has historically collected too few ticks in Coos County to calculate a reliable infection rate, a sign of lower tick density rather than an absence of risk, while the forest edge running through nearly every Berlin neighborhood keeps deer and other wildlife close to homes for most of the year.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Boxelder Bugs", "Yellowjackets"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active May through September, a shorter season than southern NH", note: "Coos County's colder climate and shorter warm season mean NH DHHS tick surveillance has historically collected too few ticks locally to calculate a reliable infection rate, unlike the consistently high rates reported in New Hampshire's southern counties. That data gap reflects lower tick density, not zero risk, and Berlin's forest edge neighborhoods along the Androscoggin still warrant a tick check after any time outdoors." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through August, a shorter active season than southern NH", note: "UNH Cooperative Extension identifies carpenter ants as New Hampshire's most common structural pest complaint, and Berlin's mix of early 1900s mill worker housing and homes near the Androscoggin River gives them plenty of moisture softened wood to nest in." },
+      { name: "House mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through October", note: "Berlin's cold arrives earlier and harder than in southern New Hampshire, and that earlier cold pushes mice into the city's older wood-frame housing, much of it built for the Brown Company's mill and paper workforce, sooner than towns farther south typically see." },
+      { name: "Boxelder bugs", serviceSlug: "boxelder-bug-control", activeSeason: "Congregate on sun-warmed walls September through October, indoors through winter", note: "Berlin's North Country homes, especially those with light colored siding facing south or west, draw large fall boxelder bug congregations looking for a way indoors to spend the winter, a pattern common across the colder parts of northern New England." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through September, most aggressive in August", note: "Ground nests are common in the wooded lots and trails near the Androscoggin River and the surrounding White Mountain National Forest land, with colonies reaching their most defensive size in August before an early frost typically ends the season sooner than in southern NH." },
+    ],
+    localHook: "Berlin earned the nickname the City That Trees Built after the Brown Company's paper and pulp mills, once employing more than 9,000 men across three million acres of timberland, dominated the local economy for a century before the last mill closed in 2006. That mill history, the Androscoggin River it grew up around, and the far north location at the edge of the White Mountains together give Berlin a pest calendar with a shorter tick and insect season than the rest of New Hampshire, but real wildlife pressure from the national forest surrounding the city on nearly every side.",
+    intro: "Berlin is New Hampshire's northernmost city, built on the Androscoggin River at the edge of the White Mountains and the Great North Woods, and that far north position changes which pests matter most compared to the rest of the state. Deer ticks are present, but Coos County's colder climate has historically produced too few ticks in state surveillance samples to calculate a reliable infection rate, unlike the high rates reported farther south. Carpenter ants remain the dependable structural pest in Berlin's mill era housing along the river. Mice push into homes earlier each fall than in southern New Hampshire, boxelder bugs swarm sun warmed siding every September, and yellowjackets nest through the wooded lots bordering the surrounding national forest.",
+    sections: [
+      {
+        heading: "Why Berlin's Far North Location Changes the Pest Calendar",
+        body: "Berlin's position at the northern edge of New Hampshire, well past the state's more populated southern tier, means both a shorter warm season and a different tick picture than most of the pages on this site describe. NH DHHS tick surveillance conducted through the 2010s consistently found that Coos County produced too few collected ticks to calculate a reliable infection rate, a result the department attributes to lower tick density rather than an absence of the species. That is a meaningfully different situation from counties like Rockingham or Strafford, where infection rates in collected ticks regularly exceed 50 percent. It does not mean Berlin residents should skip tick checks. Deer, and the forest habitat that supports them, run right up against residential yards throughout the city, since Berlin is bordered by national forest land on multiple sides. There is also no record of confirmed eastern subterranean termite activity this far north. New Hampshire's termite probability data places elevated risk in the southern part of the state, and Berlin's colder climate and shorter frost-free season make significant termite activity unlikely, though a professional inspection remains the only way to rule it out for any specific structure."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Fall Invaders in Berlin's Mill Housing",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Berlin's housing stock, much of it built in the early 1900s for workers at the Brown Company's paper and pulp mills, carries the kind of moisture affected wood carpenter ants seek out for nesting, particularly in homes close to the Androscoggin River. Large black ants appearing indoors each spring from a consistent spot usually mean a colony already spent the winter in the structure. Mice follow a similarly predictable pattern but on an earlier calendar than southern New Hampshire, since Berlin's cold arrives sooner and harder given the city's elevation and northern latitude. Sealing foundation gaps in August, rather than waiting for the first frost, gives Berlin homeowners a real head start. Fall also brings boxelder bugs and their look-alike relatives to Berlin homes in large numbers, especially structures with light colored siding facing south or west that warms in the September sun. These insects gather on exterior walls looking for a crack or gap to slip through and spend the winter indoors, a nuisance more than a structural threat, but one that caulking and weatherstripping before September can meaningfully reduce."
+      },
+    ],
+    prevention: [
+      "Do a tick check after any time on wooded North Country trails or yards bordering forest, even though local infection rate data is limited.",
+      "Seal foundation gaps and utility penetrations in older mill worker housing before September, since Berlin's cold arrives earlier than in southern NH.",
+      "Inspect river-adjacent homes each spring for the moisture damage that draws carpenter ants.",
+      "Caulk gaps around south and west facing siding before September to reduce fall boxelder bug entry.",
+    ],
+    costNote: "Berlin pest pricing runs in line with Coos County and North Country rates generally. Carpenter ant and mouse work are quoted after a free inspection. Boxelder bug exclusion is typically a one-time exterior sealing service done ahead of the fall swarm. Tick yard treatment is available on request even though local county surveillance data remains limited.",
+    faqs: [
+      {
+        question: "Why is there so little tick surveillance data for Berlin, NH?",
+        answer: "NH DHHS tick surveillance has historically collected too few ticks in Coos County to calculate a reliable infection rate, a gap the department attributes to lower tick density in the colder, shorter-season North Country compared to southern New Hampshire counties, where infection rates in collected ticks regularly top 50 percent. That does not mean zero risk. Berlin's national forest borders keep deer and tick habitat close to residential yards, and a tick check after outdoor time is still worthwhile."
+      },
+      {
+        question: "Does Berlin have a termite problem?",
+        answer: "There is no record of confirmed eastern subterranean termite activity this far north. New Hampshire's termite probability data places elevated risk in the southern part of the state, and Berlin's colder climate and shorter frost-free season make significant activity unlikely. A professional inspection is still the only way to rule it out for a specific home, particularly one with a history of moisture problems."
+      },
+      {
+        question: "Why do boxelder bugs swarm on Berlin homes every fall?",
+        answer: "Homes with light colored siding facing south or west warm up in the September sun and attract large boxelder bug congregations looking for cracks and gaps to slip through before winter. This is a common pattern across the colder parts of northern New England, and it is a nuisance rather than a structural risk. Caulking and weatherstripping exterior gaps before September is the most effective prevention step."
+      },
+      {
+        question: "How fast do mice move into Berlin homes each fall?",
+        answer: "Faster than in most of southern New Hampshire. Berlin's northern latitude and elevation bring cold weather earlier and harder, and mice respond by pushing into heated structures sooner. Homeowners who seal foundation gaps and utility penetrations in August, ahead of the first hard frost, generally avoid the worst of the fall push that catches homes still prepared for warmer weather."
+      },
+      {
+        question: "When are carpenter ants most active in Berlin?",
+        answer: "May through August is the active window, with spring the most visible period as overwintering colonies resume foraging. Berlin's early 1900s mill worker housing near the Androscoggin River is particularly prone to the moisture damaged wood carpenter ants prefer, and a colony spotted indoors each spring usually means one has already established itself in the structure."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Franklin", slug: "franklin-nh", stateSlug: "new-hampshire" },
+      { name: "Lebanon", slug: "lebanon-nh", stateSlug: "new-hampshire" },
+      { name: "Newmarket", slug: "newmarket-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Berlin, NH | Ticks, Carpenter Ants & Boxelder Bugs",
+    metaDescription: "Berlin NH pest control for deer ticks, carpenter ants, mice and fall boxelder bugs. North Country and Androscoggin River specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "franklin-nh",
+    name: "Franklin",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~8,800",
+    county: "Merrimack County",
+    climate: "cold-humid",
+    climateDriver: "Franklin is the only place in New Hampshire where the Pemigewasset and Winnipesaukee Rivers converge to form the Merrimack River, and the falls at that confluence, which drop as much as 90 feet per mile through downtown, once powered the city's 19th century mills and now power Mill City Park, a whitewater course built along the old falls. That same river confluence and the wetlands feeding it keep tick and mosquito habitat close to a downtown that sits almost entirely along the water.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mice", "Mosquitoes", "Yellowjackets"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active April through October", note: "Merrimack County reports consistent Lyme disease case numbers in NH DHHS annual surveillance, and the wooded riverbanks where the Pemigewasset and Winnipesaukee meet keep deer and tick host populations established close to Franklin's downtown neighborhoods." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Franklin's mill era housing near the river falls carries decades of dampness worked into its sills and window frames, and carpenter ants, UNH Cooperative Extension's pick for New Hampshire's most common structural pest, nest readily in that softened wood." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Franklin's older mill worker housing near downtown and the river has more foundation gaps and settling than newer construction, and New Hampshire's cold falls push mice toward heated buildings fast once September arrives." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "The wetlands and slower side channels around the Pemigewasset and Winnipesaukee confluence, the same water that feeds Mill City Park's whitewater course, provide standing water breeding habitat that keeps mosquitoes active through a full southern New Hampshire summer." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through September, most aggressive in August", note: "Ground nests are common along the wooded sections of the Winnipesaukee River Trail and in riverside parks near the falls, with colonies reaching their most defensive size right as summer kayaking and whitewater traffic peaks." },
+    ],
+    localHook: "Franklin sits exactly where the Pemigewasset and Winnipesaukee Rivers join to form the Merrimack, and the city has leaned into that geography, opening Mill City Park's whitewater course along the same falls that once ran its 19th century textile mills. That river confluence, and the wetlands surrounding it, are also what keep deer ticks and mosquitoes a steady part of Franklin's pest picture.",
+    intro: "Franklin is the only city in New Hampshire built where two rivers, the Pemigewasset and the Winnipesaukee, come together to form a third, the Merrimack, and that confluence does double duty. It is why the town built a whitewater park at its old mill falls, and it is why deer ticks, mosquitoes, and other moisture loving pests remain a fact of life for anyone living near the water. Carpenter ants work the damp wood in Franklin's mill era housing each spring. Mice push into older buildings every fall. Mosquitoes breed in the wetlands feeding the river confluence through a full summer, and yellowjackets nest along the riverside trails that draw kayakers and hikers alike.",
+    sections: [
+      {
+        heading: "Ticks and Mosquitoes at the River Confluence",
+        body: "Franklin's entire downtown sits within walking distance of the point where the Pemigewasset and Winnipesaukee Rivers merge, and that concentration of water, wetland, and wooded riverbank shapes the city's tick and mosquito pressure more than almost anything else. Merrimack County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and the forested banks along both rivers, particularly the stretches near the Winnipesaukee River Trail, keep deer and the tick populations that depend on them close to residential streets. The nymphal tick stage, active from May into July, is the highest risk period because these ticks are small enough to go unnoticed during a walk along the riverside trail or routine yard work. Mosquitoes tell a similar story from the water side. The wetlands and slower channels around the confluence, including the calmer stretches near Mill City Park's whitewater course, hold standing water long enough each summer to sustain a full mosquito season from late May through September, longer than towns without this kind of river convergence typically see. Properties within a few blocks of downtown or either riverbank see the most consistent pressure from both pests."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Yellowjackets in Franklin's Mill Housing",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Franklin's 19th and early 20th century mill worker housing, much of it built close to the falls that once powered the textile industry here, has absorbed decades of river dampness into its sills, window frames, and other exposed wood. That softened wood is exactly what carpenter ant colonies look for when choosing a nest site, and large black ants appearing indoors each spring from one consistent spot usually mean a colony already spent the winter in the structure. Mice follow a familiar fall pattern across Franklin's older housing stock, with foundation gaps and general settling in the mill era buildings near downtown giving them more entry points than newer construction on the city's outskirts. Sealing those gaps in August, ahead of the September cold, is meaningfully cheaper than dealing with an established indoor population by November. Yellowjackets round out the warm season pest calendar, nesting in the ground along the wooded sections of the Winnipesaukee River Trail and in riverside park areas near the falls, with colonies reaching their most aggressive state in August, just as the summer's whitewater and kayaking traffic peaks along the same stretch of river."
+      },
+    ],
+    prevention: [
+      "Treat wooded yard edges near either riverbank for deer ticks each spring and again in late summer.",
+      "Seal foundation gaps and utility penetrations in older mill era housing before September, ahead of the fall mouse push.",
+      "Inspect homes near the river falls each spring for the moisture damage that draws carpenter ants.",
+      "Start mosquito barrier treatment by late May for any property within a few blocks of the river confluence or its feeding wetlands.",
+    ],
+    costNote: "Franklin pest pricing is standard for inland Merrimack County. Tick yard programs run in spring and late summer and can be paired with mosquito barrier service for riverside properties. Carpenter ant and mouse work are quoted after a free inspection, and yellowjacket nest treatment is priced per nest and most effective before colonies reach their August peak.",
+    faqs: [
+      {
+        question: "Does Franklin's new whitewater park attract more mosquitoes?",
+        answer: "The whitewater course itself moves too fast to breed mosquitoes, but the slower channels and wetlands feeding the Pemigewasset and Winnipesaukee confluence nearby do hold standing water long enough each summer to sustain a full mosquito season. Properties within a few blocks of downtown or either riverbank see the most consistent pressure from late May through September."
+      },
+      {
+        question: "Why do carpenter ants show up in Franklin's older mill buildings every spring?",
+        answer: "Franklin's 19th and early 20th century mill worker housing, built close to the falls that once powered the town's textile industry, has absorbed decades of river dampness into its sills and window frames. That moisture softened wood is exactly what carpenter ants look for when establishing a nest, and a colony that overwintered in a structure typically becomes visible again as ants resume foraging each spring."
+      },
+      {
+        question: "How serious is Lyme disease risk in Franklin, NH?",
+        answer: "Meaningful. Merrimack County shows consistent annual Lyme disease case reporting in NH DHHS surveillance, and the wooded riverbanks around Franklin's Pemigewasset and Winnipesaukee confluence, including areas near the Winnipesaukee River Trail, keep tick habitat close to residential neighborhoods. The nymphal tick stage active from May into July carries the highest transmission risk since these ticks are so easy to miss."
+      },
+      {
+        question: "When should Franklin homeowners deal with mice?",
+        answer: "Ideally in August, before New Hampshire's fall cold sets in. Franklin's older mill era housing near downtown has more foundation gaps than newer construction on the city's outskirts, and sealing those gaps ahead of September gives mice fewer ways in once they start looking for a warm building."
+      },
+      {
+        question: "Are yellowjackets a concern along the Winnipesaukee River Trail?",
+        answer: "Yes, particularly in August and September when ground nests along the trail's wooded sections and near riverside parks reach their maximum size and most defensive state. Hikers and kayakers using the trail during peak summer season should watch for ground nests, and any nest found close to a home is best treated in June or early July while the colony is still small."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-nh", stateSlug: "new-hampshire" },
+      { name: "Newmarket", slug: "newmarket-nh", stateSlug: "new-hampshire" },
+      { name: "Raymond", slug: "raymond-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Franklin, NH | Ticks, Carpenter Ants & Mosquitoes",
+    metaDescription: "Franklin NH pest control for deer ticks, carpenter ants, mice and mosquitoes. Pemigewasset and Winnipesaukee River confluence specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lebanon-nh",
+    name: "Lebanon",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~15,400",
+    county: "Grafton County",
+    climate: "cold-humid",
+    climateDriver: "Lebanon anchors New Hampshire's Upper Valley along the Connecticut River, which forms the state's western border with Vermont, with the Mascoma River running through downtown on its way to join the Connecticut in the West Lebanon village. The city is home to Dartmouth-Hitchcock Medical Center, the largest medical facility between Boston and Burlington, but the same forested Upper Valley hillsides that make Lebanon a desirable place to live have also produced some of New Hampshire's highest reported Lyme disease rates, with neighboring Grafton County towns among the state's highest in 2019 state health surveillance.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mice", "Brown Marmorated Stink Bugs", "Mosquitoes"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active April through October", note: "Grafton County has posted among New Hampshire's highest Lyme disease case rates in state health surveillance, with some Upper Valley towns near Lebanon reporting 200 or more cases per 100,000 residents in 2019. Lebanon's forested hillsides and river corridors along both the Connecticut and Mascoma keep exposure real for anyone spending time in a yard bordering woods." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Lebanon's older Upper Valley housing stock, along with newer construction built to house the steady flow of medical center staff and students, both carry the kind of moisture affected wood that carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, prefer for nesting." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Lebanon's older downtown and West Lebanon village housing has more foundation gaps and settling than newer subdivisions, and the cold that arrives each September across the Upper Valley pushes mice toward heated buildings quickly." },
+      { name: "Brown marmorated stink bugs", serviceSlug: "stink-bug-control", activeSeason: "Congregate on building exteriors September through October, indoors through winter", note: "This invasive species has become a common fall home invader across New Hampshire, and Lebanon's mix of older homes and newer medical center adjacent construction both see stink bugs gathering on sun warmed exterior walls looking for a way inside before the first hard freeze." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "The Connecticut River floodplain along Lebanon's western edge and the Mascoma River corridor running through downtown both hold standing water long enough in wet years to sustain a meaningful summer mosquito population." },
+    ],
+    localHook: "Lebanon is best known as the home of Dartmouth-Hitchcock Medical Center, the largest hospital between Boston and Burlington, but the same Upper Valley forest and river corridors that draw patients, students, and staff to a quiet part of New Hampshire have also produced some of the state's highest reported Lyme disease numbers, with neighboring Grafton County towns among New Hampshire's worst affected in 2019 state surveillance.",
+    intro: "Lebanon is best known as the home of Dartmouth-Hitchcock Medical Center, the largest medical facility between Boston and Burlington, but the same Upper Valley forest and river corridors that make the city a desirable place to live also put it in one of New Hampshire's higher risk areas for Lyme disease. Grafton County has posted some of the state's highest tick borne disease rates in recent state health surveillance. Carpenter ants work moisture damaged wood in both Lebanon's older housing and its newer medical center adjacent construction. Mice arrive every fall, brown marmorated stink bugs gather on exterior walls each September looking for a way indoors, and the Connecticut and Mascoma River corridors keep mosquitoes active through a full summer.",
+    sections: [
+      {
+        heading: "Grafton County's High Lyme Disease Rates and What They Mean for Lebanon",
+        body: "New Hampshire already carries one of the highest Lyme disease rates in the country, and within the state, Grafton County's Upper Valley towns have stood out further still. State health surveillance from 2019 showed towns near Lebanon, including Hanover and Lyme, reporting 200 or more Lyme disease cases per 100,000 residents, among the highest rates recorded anywhere in New Hampshire that year. Lebanon itself sits at the center of that same forested, river-cut Upper Valley terrain, with wooded hillsides running close to residential neighborhoods on both sides of the Connecticut River and along the Mascoma corridor through downtown. The nymphal tick stage, active from May into July, poses the greatest transmission risk because these ticks are tiny enough to go unnoticed during normal yard work or a walk near the river. Anyone living in or moving to Lebanon, particularly households with property backing to forest or the many trails that run through the Upper Valley, should treat tick exposure as a real and ongoing concern rather than a rare event, and yard treatment each spring and again in late summer is the most effective residential response available."
+      },
+      {
+        heading: "Carpenter Ants, Fall Stink Bugs, and Mice Around the Medical Center",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Lebanon's housing stock gives them opportunity on two fronts: older homes in downtown and the West Lebanon village that have absorbed decades of moisture into their sills and window frames, and newer construction built to house the steady flow of staff, students, and traveling patients drawn to Dartmouth-Hitchcock Medical Center, where construction moisture and unfinished landscaping can create similar conditions in the first few years. Large black ants appearing indoors each spring from a consistent spot usually mean a colony has already established itself over the winter. Brown marmorated stink bugs have become a familiar fall nuisance across New Hampshire in recent years, and Lebanon sees its share each September as the invasive insects gather in large numbers on sun warmed exterior walls, looking for cracks and gaps to slip through before the first hard freeze. They are not a structural threat, but sealing exterior gaps before September meaningfully cuts down how many end up indoors for the winter. Mice remain the most predictable fall arrival of all, pushing into Lebanon's older housing especially hard once September brings the Upper Valley's first sustained cold nights, while the Connecticut and Mascoma River floodplains keep mosquitoes active through a full summer in wetter years."
+      },
+    ],
+    prevention: [
+      "Treat yard edges bordering Upper Valley forest or trails for deer ticks each spring and again in late summer, given Grafton County's elevated Lyme disease rates.",
+      "Seal foundation gaps and utility penetrations in older Lebanon housing before September, ahead of the fall mouse push.",
+      "Caulk exterior gaps before September to reduce the number of brown marmorated stink bugs that end up indoors for winter.",
+      "Inspect both older homes and newer medical center adjacent construction each spring for the moisture damage that draws carpenter ants.",
+    ],
+    costNote: "Lebanon pest pricing reflects Upper Valley and Grafton County rates generally. Tick yard programs run in spring and late summer given the county's elevated case numbers. Carpenter ant and mouse work are quoted after a free inspection, and exterior sealing for fall stink bug prevention is typically bundled with a general pest exclusion visit.",
+    faqs: [
+      {
+        question: "Is Lebanon really a high risk area for Lyme disease?",
+        answer: "Yes. Grafton County has recorded some of New Hampshire's highest Lyme disease rates in recent state health surveillance, with Upper Valley towns near Lebanon reporting 200 or more cases per 100,000 residents in 2019, among the highest anywhere in the state that year. Lebanon's own forested hillsides and river corridors along the Connecticut and Mascoma keep tick exposure a real, ongoing concern rather than a rare event."
+      },
+      {
+        question: "Do the newer buildings near Dartmouth-Hitchcock Medical Center get carpenter ants too?",
+        answer: "They can. Construction moisture and unfinished landscaping in the first few years after a building goes up can create the same kind of softened wood that carpenter ants seek out in Lebanon's much older downtown housing. It is not limited to historic buildings, and any new construction near the medical center campus should be inspected each spring just like an older home."
+      },
+      {
+        question: "Why do stink bugs swarm Lebanon homes every September?",
+        answer: "Brown marmorated stink bugs are an invasive species that has become a common fall nuisance across New Hampshire, and they gather in large numbers on sun warmed exterior walls each September looking for cracks to slip through before winter. They are not a structural threat, but caulking exterior gaps ahead of September meaningfully reduces how many make it indoors."
+      },
+      {
+        question: "When should Lebanon homeowners prepare for fall mice?",
+        answer: "August is the ideal window. The Upper Valley's cold arrives with the first sustained September nights, and Lebanon's older downtown and West Lebanon housing has more foundation gaps than newer subdivisions, giving mice ready entry once temperatures drop. Sealing those gaps before September costs far less than dealing with an established indoor population in November."
+      },
+      {
+        question: "Does the Connecticut River affect mosquito levels in Lebanon?",
+        answer: "Yes. The Connecticut River floodplain along Lebanon's western edge, along with the Mascoma River corridor running through downtown, holds standing water long enough in wet years to sustain a meaningful mosquito population each summer, with the most consistent pressure from late May through September near either river."
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newmarket", slug: "newmarket-nh", stateSlug: "new-hampshire" },
+      { name: "Raymond", slug: "raymond-nh", stateSlug: "new-hampshire" },
+      { name: "Berlin", slug: "berlin-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Lebanon, NH | Ticks, Carpenter Ants & Stink Bugs",
+    metaDescription: "Lebanon NH pest control for deer ticks, carpenter ants, mice and stink bugs. Upper Valley and Dartmouth-Hitchcock area specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "newmarket-nh",
+    name: "Newmarket",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~9,400",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver: "Newmarket grew up around seven textile mills on the Lamprey River, and those same mill buildings, converted to mixed use apartments between 2010 and 2012, sit just upstream from where the river turns tidal and empties into the Great Bay estuary. That tidewater edge, close to downtown, extends New Hampshire's mosquito season beyond what most inland towns see, while the seacoast region's slight to moderate termite probability zone and the moisture heavy mill buildings both keep termites and carpenter ants part of the town's pest profile.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Carpenter Ants", "Eastern Subterranean Termites", "Mice"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active April through October", note: "Rockingham County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and the wooded banks along the Lamprey River, including the trails near the Great Bay estuary, keep deer and tick host populations established close to Newmarket's residential streets." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September, longer near the tidal estuary", note: "The Lamprey River turns tidal just above downtown Newmarket on its way to the Great Bay estuary, and the salt marsh and tidal wetlands that come with that transition hold breeding habitat that keeps mosquitoes active later into the season than inland Rockingham County towns typically see." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Newmarket's converted mill buildings and older downtown housing along the Lamprey River carry decades of river dampness worked into the wood, and carpenter ants, UNH Cooperative Extension's pick for New Hampshire's most common structural pest, nest readily in that softened material." },
+      { name: "Eastern subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Spring swarm season, active underground year-round", note: "New Hampshire's termite probability zone data places the state's seacoast region, including Newmarket, in a slight to moderate risk category. Older mill buildings and downtown structures with wood-to-soil contact or crawl spaces near the river are the properties most worth a professional inspection." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Newmarket's converted mill apartments and older single family housing near downtown have more foundation gaps and shared wall penetrations than newer construction, and New Hampshire's cold falls push mice into heated buildings quickly once September arrives." },
+    ],
+    localHook: "Newmarket's seven Lamprey River textile mills once employed 700 workers producing hundreds of thousands of yards of cotton and silk each week, and those same mill buildings, redeveloped into 116 residential units between 2010 and 2012, sit just upstream from where the Lamprey turns tidal and joins the Great Bay estuary. That tidewater edge, unusual this far up a New Hampshire river, is what stretches Newmarket's mosquito season longer than most towns its size see.",
+    intro: "Newmarket grew up around seven textile mills on the Lamprey River, and those same mill buildings, now converted apartments, sit just upstream from where the river turns tidal and empties into the Great Bay estuary. That tidewater edge, more than anything else, shapes which pests show up in town. Mosquitoes get a longer season than inland Rockingham County towns thanks to the salt marsh and tidal wetlands near downtown. Deer ticks remain a real concern along the river's wooded banks. Carpenter ants and, less commonly, eastern subterranean termites both find opportunity in the converted mill buildings' moisture affected wood, and mice arrive every fall in both the mill apartments and older single family housing nearby.",
+    sections: [
+      {
+        heading: "Tidal Water and Ticks Along the Lamprey River",
+        body: "Newmarket's downtown sits close to where the Lamprey River stops being a freshwater stream and starts being tidal water on its way into the Great Bay estuary, a transition point marked by the Macallen Dam and its fish ladder just upstream from the historic mill district. That salt influenced tidal stretch, combined with the marsh and wetland habitat surrounding Great Bay, holds standing and brackish water long enough each summer to keep mosquitoes active later into the season than towns further inland in Rockingham County typically experience. Deer ticks tell a related but separate story. Rockingham County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and the wooded riverbanks running through and around Newmarket, including trails near the Great Bay National Estuarine Research Reserve, keep deer and the tick populations that depend on them close to residential neighborhoods. The nymphal tick stage, most active from May into July, carries the highest transmission risk because it is easy to miss during ordinary yard work or a walk along the river."
+      },
+      {
+        heading: "Carpenter Ants, Termites, and Mice in Newmarket's Converted Mill Housing",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Newmarket's redeveloped mill buildings, along with older downtown housing near the same stretch of river, carry decades of dampness worked into their wood framing from more than a century sitting beside the Lamprey. That softened wood gives carpenter ant colonies exactly the nesting conditions they look for, and large black ants appearing indoors each spring from a consistent spot usually mean a colony already spent the winter in the building. Eastern subterranean termites are a less common but real concern here as well. New Hampshire's termite probability zone data places the seacoast region, which includes Newmarket, in a slight to moderate risk category, and older mill buildings or downtown structures with crawl spaces or wood-to-soil contact near the river are the ones most worth a professional termite inspection, since damage develops out of sight and is often not discovered until it is significant. Mice round out the year, arriving reliably each fall in both the converted mill apartments, where shared walls and utility penetrations between units offer more entry points than a typical single family home, and the older housing stock nearby, with the heaviest pressure once September brings the first sustained cold nights."
+      },
+    ],
+    prevention: [
+      "Start mosquito barrier treatment by late May for properties near downtown or the tidal Lamprey River, where the season runs longer than in inland Rockingham County towns.",
+      "Treat wooded yard edges along the Lamprey River for deer ticks each spring and again in late summer.",
+      "Schedule a professional termite inspection for older mill buildings or downtown structures with crawl spaces near the river.",
+      "Seal shared wall penetrations and foundation gaps in mill apartment buildings before September, ahead of the fall mouse push.",
+    ],
+    costNote: "Newmarket pest pricing is consistent with seacoast Rockingham County rates. Mosquito barrier treatment for near-estuary properties often runs longer into the fall than inland service areas. Termite inspections are free, with treatment quoted after confirmed activity. Carpenter ant and mouse work for both mill apartment buildings and single family homes are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Newmarket have a longer mosquito season than other Rockingham County towns?",
+        answer: "The Lamprey River turns tidal just above downtown Newmarket on its way into the Great Bay estuary, and the salt marsh and tidal wetlands that come with that transition hold breeding habitat that keeps mosquitoes active later into the fall than inland towns in the county typically see. Properties near downtown or the estuary should plan on mosquito service running past Labor Day."
+      },
+      {
+        question: "Do Newmarket's converted mill apartments get termites?",
+        answer: "It is a real possibility. New Hampshire's termite probability zone data places the seacoast region, including Newmarket, in a slight to moderate risk category, and the mill buildings redeveloped into apartments between 2010 and 2012 include older wood framing with a long history of river dampness. Crawl spaces or wood-to-soil contact make a professional inspection worthwhile for these buildings."
+      },
+      {
+        question: "How serious is tick risk near the Great Bay estuary in Newmarket?",
+        answer: "Meaningful. Rockingham County shows consistent Lyme disease case reporting in NH DHHS surveillance, and the wooded trails and riverbanks near the Great Bay National Estuarine Research Reserve keep deer tick habitat close to Newmarket's residential neighborhoods. The nymphal stage, active May into July, is the highest risk period because these ticks are so small."
+      },
+      {
+        question: "Why do carpenter ants show up in Newmarket's old mill buildings?",
+        answer: "Newmarket's mill buildings sat beside the Lamprey River for more than a century before their 2010 to 2012 residential conversion, and that time absorbed decades of river dampness into the original wood framing. Carpenter ants seek out exactly that kind of moisture softened wood, and a colony that overwintered in a building typically becomes visible again each spring."
+      },
+      {
+        question: "Are mice worse in Newmarket's mill apartments than in regular homes?",
+        answer: "They can be, because shared walls and utility penetrations between units in converted mill buildings give mice more potential entry points than a typical single family home has. Sealing those gaps before September, ahead of the fall cold, is the most effective step property managers and residents can take in either type of building."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Raymond", slug: "raymond-nh", stateSlug: "new-hampshire" },
+      { name: "Berlin", slug: "berlin-nh", stateSlug: "new-hampshire" },
+      { name: "Franklin", slug: "franklin-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Newmarket, NH | Ticks, Mosquitoes & Termites",
+    metaDescription: "Newmarket NH pest control for deer ticks, mosquitoes, carpenter ants and termites. Lamprey River and Great Bay estuary specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "raymond-nh",
+    name: "Raymond",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~10,900",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver: "Raymond sits at the point where two separate watersheds, the Lamprey River and the Exeter River, both drain the town on their way toward the Piscataqua and the Great Bay estuary, and that unusual double river geography, spread across a mostly rural, low density town, gives Raymond more wooded and wetland edge per household than most of its Rockingham County neighbors. That extra forest and wetland frontage keeps deer tick and mosquito pressure a steady concern across the town's rural properties.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mice", "Yellowjackets", "Mosquitoes"],
+    pestProfile: [
+      { name: "Deer ticks (black-legged ticks)", serviceSlug: "flea-tick-treatment", activeSeason: "Active April through October", note: "Rockingham County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and Raymond's position draining two separate river systems, the Lamprey and the Exeter, gives the town more wooded riverbank and wetland edge than most nearby communities, sustaining deer and tick host populations close to rural properties." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Active May through September, spring emergence most visible", note: "Raymond's mix of older farmhouses and newer construction along the Route 27 corridor both carry moisture affected wood in older sills and window frames, and carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, nest readily in both building types." },
+      { name: "Mice", serviceSlug: "rodent-control", activeSeason: "Year-round indoors, surge September through November", note: "Raymond's rural and low density layout means most properties border woods or field edges directly, and that proximity gives mice ready access to homes once New Hampshire's cold falls set in each September." },
+      { name: "Yellowjackets", serviceSlug: "wasp-bee-removal", activeSeason: "June through October, most aggressive August and September", note: "Ground nests are common across Raymond's rural lawns, farmland edges, and the wooded corridors along both the Lamprey and Exeter Rivers, with colonies reaching their most defensive size by late summer." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Late May through September", note: "The floodplains and wetlands feeding both the Lamprey and Exeter Rivers give Raymond more mosquito breeding habitat than a typical single river town, and low lying rural properties near either river see the most consistent pressure through the summer." },
+    ],
+    localHook: "Raymond is unusual for draining into two separate river systems, the Lamprey and the Exeter, both part of the larger Piscataqua watershed feeding the Great Bay estuary. That double river frontage, spread across a mostly rural and low density town along the Route 27 corridor between Concord and Portsmouth, gives Raymond more wooded and wetland edge per resident than most of southern Rockingham County, and it shows up directly in the town's tick and mosquito pressure.",
+    intro: "Raymond sits at the point where two separate watersheds, the Lamprey River and the Exeter River, both drain the town on their way to the Great Bay estuary, and that unusual double river geography, spread across a mostly rural, low density town, gives Raymond more wooded and wetland edge per household than most of its Rockingham County neighbors. Deer ticks and mosquitoes both benefit from that extra habitat, with Rockingham County's consistent Lyme disease numbers and two river floodplains feeding a longer mosquito season than a single river town would see. Carpenter ants and mice follow familiar New Hampshire seasonal patterns in Raymond's older farmhouses and newer rural construction, and yellowjackets nest heavily across the town's farmland and wooded river corridors each summer.",
+    sections: [
+      {
+        heading: "Two Rivers, More Woods: Ticks and Mosquitoes in Raymond",
+        body: "Most New Hampshire towns of Raymond's size sit along a single river or watershed, but Raymond is drained by two, the Lamprey River running through the main village near Route 27 and the Exeter River crossing the town's southern edge, both eventually feeding the Piscataqua River and the Great Bay estuary. That double river geography, combined with Raymond's mostly rural, low density development pattern, means a larger share of the town sits close to wooded riverbank or wetland edge than in more built up Rockingham County communities. Rockingham County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and Raymond's abundant forest edge along both rivers keeps deer and the tick populations that depend on them close to rural properties throughout the town, not just near a single waterway. The same two river floodplains also mean more standing water and wetland habitat feeding into a longer mosquito season, particularly on low lying properties near either the Lamprey or the Exeter, where mosquito pressure runs consistently from late May through September. Anyone with a rural Raymond property bordering woods or wetland along either river should plan on tick checks through the warm season and consider mosquito barrier treatment if the property sits within the floodplain of either waterway."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Yellowjackets on Raymond's Rural Properties",
+        body: "Carpenter ants are New Hampshire's most common structural pest complaint according to UNH Cooperative Extension, and Raymond's mix of older farmhouses, some dating back well over a century, and newer homes built along the Route 27 corridor between Concord and Portsmouth both provide the moisture affected wood carpenter ants prefer for nesting, whether through decades of settling in an old sill or construction era dampness in a newer structure. Large black ants appearing indoors each spring from a consistent spot usually mean an established colony spent the winter in the building. Mice are an especially predictable fall arrival in a town like Raymond, where the rural, low density layout means most properties border woods or open field directly rather than another yard, giving mice a short, direct path indoors once September's cold nights begin. Sealing foundation gaps and utility penetrations before the season turns is the most effective step available to rural Raymond homeowners. Yellowjackets close out the summer and early fall pest calendar, nesting in the ground across Raymond's farmland, rural lawns, and the wooded corridors running along both the Lamprey and Exeter Rivers, with colonies reaching their most aggressive state in August and September, when a nest disturbed during routine yard work or a fall cleanup is the most common source of stings."
+      },
+    ],
+    prevention: [
+      "Do a tick check after any time spent along wooded riverbank or wetland edge near either the Lamprey or Exeter River.",
+      "Seal foundation gaps and utility penetrations on rural Raymond properties before September, ahead of the fall mouse push.",
+      "Inspect both older farmhouses and newer Route 27 corridor construction each spring for the moisture damage that draws carpenter ants.",
+      "Treat yellowjacket ground nests in June or early July, before colonies reach their dangerous late summer size.",
+    ],
+    costNote: "Raymond pest pricing is standard for rural Rockingham County. Tick yard programs run in spring and late summer and can be paired with mosquito barrier treatment for properties near either river's floodplain. Carpenter ant and mouse work are quoted after a free inspection, and yellowjacket nest treatment is priced per nest.",
+    faqs: [
+      {
+        question: "Why does Raymond have more tick and mosquito pressure than nearby towns?",
+        answer: "Raymond is unusual in draining into two separate watersheds, the Lamprey River and the Exeter River, and that double river geography, combined with the town's mostly rural, low density layout, gives Raymond more wooded riverbank and wetland edge per resident than more built up Rockingham County communities. That extra habitat supports both deer tick populations and a longer mosquito breeding season."
+      },
+      {
+        question: "How serious is Lyme disease risk in Raymond, NH?",
+        answer: "Meaningful. Rockingham County shows consistent Lyme disease case reporting in NH DHHS annual surveillance, and Raymond's abundant wooded frontage along both the Lamprey and Exeter Rivers keeps deer tick habitat close to rural properties throughout the town. Anyone with a property bordering woods or wetland along either river should do regular tick checks through the warm season."
+      },
+      {
+        question: "Are mice a bigger problem in rural Raymond than in nearby suburban towns?",
+        answer: "Often, yes. Raymond's rural, low density development means most properties border woods or open field directly rather than another yard, giving mice a shorter, more direct path indoors once the fall cold arrives in September. Sealing foundation gaps and utility penetrations ahead of that push matters more here than in denser suburban neighborhoods."
+      },
+      {
+        question: "Why does Raymond have two rivers instead of one?",
+        answer: "Raymond sits at a point where the Lamprey River, running through the main village near Route 27, and the Exeter River, crossing the town's southern edge, both drain the area on their way to the Piscataqua and Great Bay estuary. That double watershed is unusual for a town of Raymond's size and gives it more combined riverbank and wetland habitat than towns fed by a single river."
+      },
+      {
+        question: "When are yellowjackets most dangerous on Raymond's rural properties?",
+        answer: "August and September, when ground nests across the town's farmland, rural lawns, and wooded river corridors reach their maximum size and workers become most defensive. Disturbing a ground nest during routine yard work or fall cleanup is the most common way people get stung. Treating a nest in June or early July, while it is still small, is safer and more effective."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Berlin", slug: "berlin-nh", stateSlug: "new-hampshire" },
+      { name: "Franklin", slug: "franklin-nh", stateSlug: "new-hampshire" },
+      { name: "Lebanon", slug: "lebanon-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Raymond, NH | Ticks, Carpenter Ants & Mosquitoes",
+    metaDescription: "Raymond NH pest control for deer ticks, carpenter ants, mice and mosquitoes. Lamprey and Exeter River watershed specialists. Call 1-800-PEST-USA.",
+  },
 ];
