@@ -6868,4 +6868,559 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Greencastle, IN pest control for off-campus bed bugs, harvest-season mice, nature park ticks, stink bugs and carpenter ants. Putnam County DePauw service.",
   },
+  {
+    slug: "lebanon-in",
+    name: "Lebanon",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~17,800",
+    county: "Boone County (county seat)",
+    climate: "cold-humid",
+    climateDriver:
+      "Lebanon is the seat of Boone County, and since 2022 thousands of acres of farmland just south of town have been converted into the LEAP Lebanon Innovation and Research District, the state's largest advanced manufacturing project, anchored by an Eli Lilly manufacturing campus and an LG Energy Solution battery plant. That scale of ground disturbance, next to a downtown built around a courthouse square more than a century old, gives Lebanon a pest picture shaped by both a construction boom and an aging housing stock at its core.",
+    topPests: ["Field Mice", "Subterranean Termites", "Stink Bugs", "Carpenter Ants", "Spiders"],
+    pestProfile: [
+      {
+        name: "Field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Thousands of acres of corn and soybean fields south of town have been graded for the LEAP district since 2022, and the mice that once lived in that cover are moving into the older neighborhoods and subdivisions closest to the construction line.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "Many homes near Lebanon's courthouse square date to the early 1900s, and wood-to-soil contact on original foundations gives subterranean termite colonies an easy path into framing that has often never been treated.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "New subdivisions built on former farmland along US 52 give brown marmorated stink bugs plenty of sunny new exterior wall to stage on before they push indoors for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Moisture around older wood siding and porch columns downtown gives carpenter ants an easy foothold, especially on homes that have not been repainted or resealed in several years.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, heaviest in fall",
+        note: "Construction-site lighting and disturbed soil around the LEAP district have pushed more wolf spiders and cellar spiders toward nearby garages and basements than Boone County homeowners are used to seeing.",
+      },
+    ],
+    localHook:
+      "Lebanon is the seat of Boone County, and since 2022 thousands of acres of farmland just south of town have been converted into the LEAP Lebanon Innovation and Research District, the state's largest advanced manufacturing project, anchored by an Eli Lilly manufacturing campus and an LG Energy Solution battery plant.",
+    intro:
+      "Lebanon, Indiana sits at the center of Boone County's fastest period of growth in its history. The LEAP Lebanon Innovation and Research District has turned thousands of acres of corn and soybean fields south of town into one of the largest active construction zones in the Midwest, and that kind of ground disturbance has a direct pest consequence: field mice, voles, and other rodents that lived in that farmland for generations are losing their habitat overnight and moving toward the nearest structures, which increasingly means the older neighborhoods ringing downtown Lebanon. At the same time, homes near the historic courthouse square date to the early twentieth century and were built with wood-to-soil contact that gives subterranean termites an easy route inside. A pest plan built for Lebanon has to account for both a booming construction perimeter and a genuinely old housing stock at its center.",
+    sections: [
+      {
+        heading: "Why the LEAP District Is Pushing Rodents Into Lebanon's Neighborhoods",
+        body: "The LEAP Lebanon Innovation and Research District broke ground south of town in 2022 and has since graded thousands of acres of former farmland for an Eli Lilly manufacturing campus and an LG Energy Solution battery plant, among other projects. Field mice and voles that spent generations in that cover do not simply disappear when the ground is cleared. They move, and the nearest cover after open farmland is usually a garage, a shed, or a crawl space in the closest residential subdivision. Homeowners in neighborhoods bordering the construction perimeter have reported more fall and winter rodent activity in the past two years than in the prior decade, and sealing foundation gaps before the ground freezes matters more here than it does in a town without an active megaproject at its edge.",
+      },
+      {
+        heading: "Termites in Lebanon's Century-Old Courthouse Square Homes",
+        body: "A meaningful share of Lebanon's housing near the Boone County Courthouse predates 1930, built in an era when wood-to-soil contact on foundations was standard practice rather than a defect to correct. That contact gives subterranean termite colonies, which forage underground and can go undetected for years, a direct path into structural framing. Spring swarms are the most visible sign, when winged reproductives emerge from a mature colony, but the colony itself is active underground through every season. A home inspection that checks foundation contact points, not just visible damage, catches most problems before they become expensive.",
+      },
+      {
+        heading: "Fall Stink Bugs Along Boone County's New Subdivisions",
+        body: "New residential construction along US 52 and the subdivisions feeding Lebanon's growing population have replaced open field edges with fresh siding and sunny exterior walls, exactly the surface brown marmorated stink bugs prefer to stage on each September through November before pushing indoors for winter. Newer homes are not immune simply because they are new; unsealed utility penetrations and gaps around new siding give stink bugs the same entry points an older home would offer. Sealing those gaps before fall is the most effective single step a Lebanon homeowner in a newer subdivision can take.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and crawl space gaps on homes bordering the LEAP construction perimeter before the ground freezes each fall.",
+      "Have an older courthouse square area home inspected for wood-to-soil foundation contact, a direct termite entry point in Lebanon's early twentieth-century housing stock.",
+      "Caulk gaps around new siding and utility penetrations on newer US 52 subdivision homes before stink bug season begins in September.",
+      "Keep exterior lighting away from garage and basement entry points to reduce spider activity drawn in by nearby construction-site lighting.",
+    ],
+    costNote:
+      "General quarterly pest control plans in Lebanon typically run $130 to $260 per year for a single-family home. Termite inspection and treatment for an older courthouse square area home runs $500 to $1,500 depending on colony extent and foundation type. Rodent exclusion work for a home bordering the LEAP construction perimeter, sealing entry points and setting interior traps, usually runs $150 to $350.",
+    faqs: [
+      {
+        question: "Is Lebanon's rodent problem really connected to the LEAP construction project?",
+        answer:
+          "Yes. Since 2022, thousands of acres of farmland south of Lebanon have been cleared for the LEAP Lebanon Innovation and Research District, and field mice displaced by that construction have been moving into nearby neighborhoods in greater numbers, particularly in fall and winter.",
+      },
+      {
+        question: "Why do so many homes near Lebanon's courthouse square have termite issues?",
+        answer:
+          "Many of those homes date to the early 1900s and were built with wood-to-soil foundation contact, a construction standard of the era that gives subterranean termite colonies an easy, direct path into structural framing.",
+      },
+      {
+        question: "When are stink bugs worst in Lebanon's newer subdivisions?",
+        answer:
+          "September through November, when brown marmorated stink bugs stage on sunny exterior walls, including fresh siding in new US 52 corridor developments, before pushing indoors for winter.",
+      },
+      {
+        question: "Are carpenter ants common in downtown Lebanon?",
+        answer:
+          "They show up most in older homes with wood siding or porch columns that have not been repainted or resealed recently, where trapped moisture gives carpenter ants an easy foothold.",
+      },
+      {
+        question: "Has construction activity changed spider activity in Lebanon?",
+        answer:
+          "Some homeowners near the LEAP construction perimeter have reported more wolf spiders and cellar spiders around garages and basements, likely linked to disturbed soil and construction lighting drawing insects, and in turn spiders, closer to structures.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Danville", slug: "danville-in", stateSlug: "indiana" },
+      { name: "Chesterton", slug: "chesterton-in", stateSlug: "indiana" },
+      { name: "Cedar Lake", slug: "cedar-lake-in", stateSlug: "indiana" },
+      { name: "Batesville", slug: "batesville-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lebanon, IN | Boone County Exterminators",
+    metaDescription:
+      "Licensed pest control in Lebanon, IN. Rodent exclusion, termite treatment, and stink bug control near the LEAP district and courthouse square. Free inspection.",
+  },
+  {
+    slug: "danville-in",
+    name: "Danville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~12,500",
+    county: "Hendricks County (county seat)",
+    climate: "cold-humid",
+    climateDriver:
+      "Danville sits along White Lick Creek in central Hendricks County, one of the fastest-growing counties in the Indianapolis metro area, where a courthouse square built in 1914 anchors a town that has nearly tripled in size since 1990. The creek corridor and the converted B&O Trail rail-to-trail path both run close to town, giving Danville more wooded and wetland edge than a typical Indianapolis bedroom suburb.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Carpenter Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "White Lick Creek and the low, poorly-drained ground along its floodplain through Danville give mosquitoes reliable breeding water most of the summer, especially after a wet spring.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "The B&O Trail, a rail-to-trail corridor that runs through wooded and grassy edge habitat near town, puts hikers, runners, and dog owners in regular contact with tick habitat closer to the courthouse square than most Hendricks County residents expect.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "Homes near Danville's 1914 courthouse square are old enough that wood-to-soil foundation contact is common, giving termite colonies a direct route into framing that has often never been treated.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Moisture damage near White Lick Creek's floodplain gives carpenter ants an easy foothold in older homes and outbuildings close to the water.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through early fall",
+        note: "Eaves and porch overhangs on the many older homes ringing Danville's square are common paper wasp nesting sites each summer.",
+      },
+    ],
+    localHook:
+      "Danville is the seat of Hendricks County, one of the fastest-growing counties in the Indianapolis metro area, and the town sits along White Lick Creek with the B&O Trail, a converted rail line turned walking and biking path, running through wooded edge habitat close to its 1914 courthouse square.",
+    intro:
+      "Danville, Indiana anchors Hendricks County government from a courthouse square built in 1914, but the town around it has changed fast, nearly tripling in population since 1990 as the Indianapolis metro area has pushed west. What has not changed is the geography: White Lick Creek still runs along the edge of town, and the B&O Trail, a rail-to-trail path built on a former railroad corridor, still cuts through wooded and grassy habitat close to downtown. That combination, a historic core with old foundations and a creek and trail corridor with genuine wetland and wooded edge, gives Danville a pest picture that a typical flat Indianapolis suburb does not share: real mosquito and tick pressure alongside the termite and carpenter ant risk that comes with a housing stock more than a century old in places.",
+    sections: [
+      {
+        heading: "Why White Lick Creek Drives Danville's Mosquito Season",
+        body: "White Lick Creek runs along Danville's edge and floods into low, poorly-drained ground during a wet spring, leaving standing water that mosquitoes use to breed through the warmer months. Mosquito pressure in Danville tracks rainfall closely: a wet April and May typically means a heavier June and July than a dry spring does. Homeowners near the creek corridor see meaningfully more mosquito activity than those in newer subdivisions farther from the water, and clearing gutters and eliminating standing water on the property itself is the first line of defense before a targeted treatment is worth considering.",
+      },
+      {
+        heading: "Ticks on the B&O Trail and What That Means for Downtown",
+        body: "The B&O Trail follows a former rail corridor through wooded and grassy edge habitat, connecting close to Danville's downtown rather than sitting well outside town the way some trail systems do. That proximity means tick exposure is not just a rural Hendricks County problem, it reaches residents who live within walking distance of the courthouse square. Tick season runs April through October and peaks in late spring and early summer, and anyone using the trail regularly, or with a yard bordering wooded trail-adjacent land, should check for ticks after every outing.",
+      },
+      {
+        heading: "Termites and Carpenter Ants in Danville's Historic Square",
+        body: "Danville's courthouse square dates to 1914, and a number of homes nearby are old enough to carry the same wood-to-soil foundation contact common to that era, a direct route for subterranean termite colonies. Closer to White Lick Creek, chronic moisture in older homes and outbuildings gives carpenter ants an easy foothold in softened wood framing. Neither problem is unique to Danville, but the combination of a century-old core and a creekside moisture pattern makes both worth checking during a routine inspection rather than only after damage becomes visible.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and eliminate standing water near White Lick Creek's floodplain before mosquito season builds in May.",
+      "Check for ticks after every outing on the B&O Trail, particularly April through July when nymph activity peaks.",
+      "Have homes near the 1914 courthouse square inspected for wood-to-soil foundation contact, a direct termite entry point.",
+      "Address moisture problems in older homes and outbuildings near the creek promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General quarterly pest plans in Danville typically run $120 to $250 per year for a single-family home. Mosquito treatment for a yard bordering White Lick Creek runs $80 to $160 per visit during peak season. Termite inspection and treatment for an older courthouse square area home runs $500 to $1,400 depending on colony extent and foundation type.",
+    faqs: [
+      {
+        question: "Why does Danville have more mosquitoes than nearby Indianapolis suburbs?",
+        answer:
+          "White Lick Creek runs along the edge of town and floods low, poorly-drained ground during wet springs, leaving standing water that gives mosquitoes reliable breeding habitat through the summer in a way that newer, flatter subdivisions farther from the creek do not experience as strongly.",
+      },
+      {
+        question: "Is tick exposure really a concern that close to downtown Danville?",
+        answer:
+          "Yes. The B&O Trail, a converted rail corridor, runs through wooded and grassy edge habitat close to the courthouse square, putting trail users within a short walk of downtown at real risk of tick exposure from April through October.",
+      },
+      {
+        question: "Are termites common in homes near Danville's courthouse square?",
+        answer:
+          "The square dates to 1914, and a number of nearby homes carry the wood-to-soil foundation contact typical of that era, which gives subterranean termite colonies an easy route into structural framing.",
+      },
+      {
+        question: "When are wasps worst around Danville's older homes?",
+        answer:
+          "Summer through early fall, when paper wasps commonly build nests under eaves and porch overhangs, a frequent feature on the older homes ringing the square.",
+      },
+      {
+        question: "Do carpenter ants show up near White Lick Creek specifically?",
+        answer:
+          "They are more common in older homes and outbuildings close to the creek's floodplain, where chronic moisture softens wood framing enough to make it easy for carpenter ants to excavate.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-in", stateSlug: "indiana" },
+      { name: "Chesterton", slug: "chesterton-in", stateSlug: "indiana" },
+      { name: "Cedar Lake", slug: "cedar-lake-in", stateSlug: "indiana" },
+      { name: "Batesville", slug: "batesville-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Danville, IN | Hendricks County Exterminators",
+    metaDescription:
+      "Licensed pest control in Danville, IN. Mosquito control near White Lick Creek, tick treatment along the B&O Trail, and termite service. Free inspection.",
+  },
+  {
+    slug: "chesterton-in",
+    name: "Chesterton",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~14,700",
+    county: "Porter County",
+    climate: "cold-humid",
+    climateDriver:
+      "Chesterton sits in Porter County's Duneland area, within a few miles of both Indiana Dunes National Park and Indiana Dunes State Park, where dune and swale wetlands sit close to Lake Michigan. Lake-effect moisture off the lake keeps humidity and precipitation higher through Chesterton than in most of central Indiana, and the dune swale wetlands hold standing water well into summer.",
+    topPests: ["Mosquitoes", "Ticks", "Boxelder Bugs", "Carpenter Ants", "Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The dune and swale wetlands that make the Indiana Dunes ecologically unique also hold standing water well into summer, giving Chesterton heavier mosquito pressure than towns farther from Lake Michigan's shoreline.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Trails connecting Chesterton to Indiana Dunes State Park and the national park put hikers in regular contact with dune-adjacent grassland and woodland tick habitat close to town.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder and maple trees common along Chesterton's older residential streets host large boxelder bug populations that stage on sunny walls each fall before pushing indoors for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Higher humidity off Lake Michigan keeps wood framing damper longer after rain, giving carpenter ants a foothold in older Duneland area homes faster than in drier parts of the state.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, heaviest in fall",
+        note: "Homes bordering wooded dune trail corridors see more wolf spider and cellar spider activity than those in Chesterton's more built-up downtown blocks.",
+      },
+    ],
+    localHook:
+      "Chesterton anchors Porter County's Duneland area, and trails from town connect directly to Indiana Dunes State Park and Indiana Dunes National Park, where dune and swale wetlands sit within a few miles of Lake Michigan's shoreline.",
+    intro:
+      "Chesterton, Indiana is the hub of Porter County's Duneland area, close enough to Indiana Dunes National Park and Indiana Dunes State Park that trails from town connect directly into both. That proximity to Lake Michigan shapes the town's pest pressure in ways a central Indiana town does not share. Dune and swale wetlands hold standing water well into summer, lake-effect moisture keeps humidity higher through the warm months, and the wooded trail corridors linking Chesterton to the dunes put hikers and dog owners in regular contact with tick habitat. At the same time, the boxelder and maple trees lining Chesterton's older residential streets bring a heavier fall boxelder bug season than most Indiana towns see.",
+    sections: [
+      {
+        heading: "Why the Dune Swale Wetlands Drive Chesterton's Mosquito Season",
+        body: "The dune and swale wetlands that give the Indiana Dunes their ecological value, ridges of sand separated by low wet troughs, hold standing water well into summer even in a normal rainfall year. That water, combined with lake-effect humidity off Lake Michigan, gives Chesterton a longer and heavier mosquito season than towns farther from the shoreline. Homeowners on the north side of town closer to the dunes typically see more mosquito pressure than those in neighborhoods farther south, and eliminating standing water on the property itself matters more here than in a drier part of the state.",
+      },
+      {
+        heading: "Ticks on the Trails Connecting Chesterton to the Dunes",
+        body: "Several trails link Chesterton directly to Indiana Dunes State Park and the national park, running through wooded and grassy habitat that supports active tick populations from April through October, peaking in late spring. Because those trails connect close to town rather than requiring a drive, tick exposure reaches residents who simply walk out from a Chesterton neighborhood rather than only visitors to the park itself. Checking for ticks after every trail outing, not just after a park visit, is the right habit for anyone in Duneland.",
+      },
+      {
+        heading: "Fall Boxelder Bugs on Chesterton's Older Residential Streets",
+        body: "Boxelder and maple trees are common along Chesterton's older residential streets, and boxelder bugs feed almost exclusively on the seeds of boxelder trees, meaning a heavy seed year translates directly into a heavier fall boxelder bug population. These insects are more a nuisance than a structural threat, but they gather by the hundreds on sunny south and west-facing walls each September through November before finding gaps to push indoors for winter. Sealing those gaps before fall arrives is more effective than treating an active indoor cluster.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water on the property through summer, especially on the north side of town closer to the dune swale wetlands.",
+      "Check for ticks after every outing on trails connecting Chesterton to Indiana Dunes State Park or the national park.",
+      "Seal gaps around windows and siding before September on homes near boxelder or maple trees to reduce fall boxelder bug intrusion.",
+      "Address moisture around wood framing quickly after rain, since Lake Michigan's humidity keeps wood damp longer than in central Indiana.",
+    ],
+    costNote:
+      "General quarterly pest plans in Chesterton typically run $130 to $260 per year for a single-family home. Mosquito treatment for a property near the dune swale wetlands runs $90 to $170 per visit during peak season. Boxelder bug exterior treatment ahead of fall typically runs $100 to $200.",
+    faqs: [
+      {
+        question: "Why does Chesterton have a longer mosquito season than towns farther from Lake Michigan?",
+        answer:
+          "The dune and swale wetlands near Indiana Dunes hold standing water well into summer, and lake-effect humidity off Lake Michigan keeps conditions favorable for mosquitoes longer than in drier, more inland parts of Indiana.",
+      },
+      {
+        question: "Are ticks a real risk that close to downtown Chesterton?",
+        answer:
+          "Yes. Several trails connect directly from town into Indiana Dunes State Park and the national park, so tick exposure from wooded and grassy habitat reaches residents on a routine neighborhood walk, not just park visitors.",
+      },
+      {
+        question: "Why does Chesterton see so many boxelder bugs in the fall?",
+        answer:
+          "Boxelder and maple trees are common along the town's older residential streets, and boxelder bugs feed on their seeds, so a heavy seed year brings a correspondingly heavy population staging on sunny walls each September through November.",
+      },
+      {
+        question: "Does Lake Michigan humidity affect carpenter ant risk in Chesterton?",
+        answer:
+          "It can. Higher humidity off the lake keeps wood framing damp longer after rain than in central Indiana, giving carpenter ants an easier foothold in older Duneland area homes.",
+      },
+      {
+        question: "Which part of Chesterton sees the heaviest mosquito pressure?",
+        answer:
+          "Neighborhoods on the north side of town, closer to the dune swale wetlands, typically see more mosquito activity through the summer than areas farther south.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-in", stateSlug: "indiana" },
+      { name: "Danville", slug: "danville-in", stateSlug: "indiana" },
+      { name: "Cedar Lake", slug: "cedar-lake-in", stateSlug: "indiana" },
+      { name: "Batesville", slug: "batesville-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Chesterton, IN | Duneland Exterminators",
+    metaDescription:
+      "Licensed pest control in Chesterton, IN. Mosquito control near the dune wetlands, tick treatment on Indiana Dunes trails, boxelder bug service. Free inspection.",
+  },
+  {
+    slug: "cedar-lake-in",
+    name: "Cedar Lake",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~16,100",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cedar Lake is built around the lake of the same name, often cited as one of Indiana's largest natural lakes, in the far northwest corner of the state within the Chicago metropolitan area. The lake and its surrounding wetland fringe, along with a large stock of older seasonal cottages built for lake recreation decades before the town became a year-round Chicago-area suburb, shape a pest picture built around water and aging structures.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Subterranean Termites", "Raccoons", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Cedar Lake itself, one of Indiana's largest natural lakes, along with the marshy fringe around its shoreline, gives Cedar Lake more standing water and reliable mosquito breeding habitat through summer than towns without a lake at their center.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Many of Cedar Lake's older cottages, built decades ago for seasonal lake recreation rather than year-round living, have wood framing that has absorbed lake moisture for years, giving carpenter ants an easy foothold.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "Older lake cottages converted to year-round homes as Cedar Lake grew into a Chicago-area suburb often were never built or treated with modern termite protection in mind.",
+      },
+      {
+        name: "Raccoons",
+        serviceSlug: "raccoon-removal",
+        activeSeason: "Year-round, heaviest in fall",
+        note: "Raccoons are common around Cedar Lake's shoreline and marshy fringe, and they regularly den in the crawl spaces and attics of older lake cottages that offer easy access points.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Grassy and wooded shoreline areas around the lake support active tick populations that reach yards backing onto the water more than those on Cedar Lake's inland residential streets.",
+      },
+    ],
+    localHook:
+      "Cedar Lake is built around the lake of the same name, frequently cited as one of Indiana's largest natural lakes, in the far northwest corner of the state within the Chicago metropolitan area, a town whose housing stock still carries a large number of older cottages built decades ago for seasonal lake recreation.",
+    intro:
+      "Cedar Lake, Indiana takes its name from the lake at its center, one of Indiana's largest natural lakes and the reason the town exists in its current form. What began as a cluster of seasonal cottages for Chicago-area lake recreation has grown into a year-round Lake County suburb of more than 16,000 people, but a meaningful share of the housing stock is still built on that original seasonal foundation: older cottages never designed for a Midwest winter's full moisture cycle. That history, combined with the lake and its marshy shoreline fringe sitting at the center of town rather than at its edge, gives Cedar Lake a pest picture built around water and aging wood framing in equal measure.",
+    sections: [
+      {
+        heading: "Why Cedar Lake's Namesake Lake Drives Its Mosquito Season",
+        body: "Cedar Lake sits at the literal center of town, and its marshy shoreline fringe holds standing water through the warmer months in a way that gives mosquitoes reliable breeding habitat close to a much larger share of homes than in a typical Indiana town where water is peripheral rather than central. Properties directly on or near the shoreline see the heaviest pressure, but the lake's size means mosquito activity reaches well into inland neighborhoods too, particularly after a wet spring.",
+      },
+      {
+        heading: "Older Lake Cottages and Cedar Lake's Termite and Carpenter Ant Risk",
+        body: "A significant share of Cedar Lake's housing began as seasonal cottages built for lake recreation decades before the town became a year-round Chicago-area suburb. Those structures were not always built with the same foundation standards or moisture protection as a home designed from the start for year-round Indiana winters, and wood framing that has absorbed lake moisture for years gives both carpenter ants and subterranean termites an easier foothold than in newer inland construction. A cottage converted to a full-time residence is worth a foundation and framing inspection even if it shows no visible damage.",
+      },
+      {
+        heading: "Raccoons and Cedar Lake's Shoreline Wildlife Pressure",
+        body: "The lake's marshy fringe and wooded shoreline support an active raccoon population, and older cottages with gaps around rooflines, vents, or crawl space access give raccoons an easy denning spot, especially heading into fall when they seek shelter for winter. Raccoon activity in an attic or crawl space is not just a nuisance; raccoons can carry disease and cause real structural damage tearing at insulation and wiring, so removal is worth handling promptly rather than waiting it out.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water around shoreline and marshy fringe properties through summer to reduce mosquito breeding close to the lake.",
+      "Have older lake cottages, especially those converted to year-round living, inspected for foundation moisture and termite risk.",
+      "Seal roofline gaps, vents, and crawl space access points on lake cottages before fall to keep raccoons from denning for winter.",
+      "Check for ticks after time spent in grassy or wooded shoreline areas, particularly April through July.",
+    ],
+    costNote:
+      "General quarterly pest plans in Cedar Lake typically run $130 to $260 per year for a single-family home. Mosquito treatment for a shoreline or lakefront property runs $90 to $180 per visit during peak season. Raccoon removal and exclusion from an attic or crawl space typically runs $250 to $600 depending on access point repairs needed.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so high in Cedar Lake compared to nearby towns?",
+        answer:
+          "Cedar Lake, one of Indiana's largest natural lakes, sits at the center of town rather than at its edge, and its marshy shoreline fringe holds standing water through the warmer months, giving mosquitoes reliable breeding habitat close to a large share of homes.",
+      },
+      {
+        question: "Are older Cedar Lake cottages really more prone to termites?",
+        answer:
+          "Many were originally built decades ago as seasonal lake recreation cottages rather than year-round homes, and wood framing that has absorbed lake moisture for years without modern protection gives subterranean termites an easier path in than newer inland construction typically offers.",
+      },
+      {
+        question: "Is raccoon activity common around Cedar Lake homes?",
+        answer:
+          "Yes, particularly on shoreline and marshy fringe properties. The lake's wooded edges support an active raccoon population, and older cottages with roofline or crawl space gaps are common denning targets heading into fall.",
+      },
+      {
+        question: "When are ticks worst around Cedar Lake's shoreline?",
+        answer:
+          "April through October, peaking in late spring and early summer, and yards backing onto grassy or wooded shoreline sections see more exposure than Cedar Lake's more inland residential streets.",
+      },
+      {
+        question: "Do carpenter ants show up mostly in older cottages here?",
+        answer:
+          "They are more common in cottages that have absorbed lake moisture over decades of seasonal use, since that dampened wood framing is easier for carpenter ants to excavate than drier, newer construction.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-in", stateSlug: "indiana" },
+      { name: "Danville", slug: "danville-in", stateSlug: "indiana" },
+      { name: "Chesterton", slug: "chesterton-in", stateSlug: "indiana" },
+      { name: "Batesville", slug: "batesville-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Cedar Lake, IN | Lake County Exterminators",
+    metaDescription:
+      "Licensed pest control in Cedar Lake, IN. Mosquito control near the shoreline, termite service for older lake cottages, raccoon removal. Free inspection.",
+  },
+  {
+    slug: "batesville-in",
+    name: "Batesville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~7,400",
+    county: "Ripley County (partly in Franklin County)",
+    climate: "temperate",
+    climateDriver:
+      "Batesville sits mostly in Ripley County near the Franklin County line, in the rolling farmland of southeastern Indiana, on till plains left behind by the last glaciation. The town is headquarters to Hillenbrand Inc, the parent company of Batesville Casket Company, and its German heritage still shows in a downtown built by nineteenth-century German settlers, surrounded by farmhouses on the acreage beyond town.",
+    topPests: ["Field Mice", "Cluster Flies", "Subterranean Termites", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Batesville is surrounded by corn and soybean farmland on the till plains of southeastern Indiana, and when harvest strips that cover each fall, field mice move toward the nearest farmhouse or outbuilding.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October, again in early spring",
+        note: "Cluster flies overwinter in wall voids and attic spaces, and the older German-built homes downtown and farmhouses on the surrounding acreage offer exactly the kind of gaps these flies use to get inside each fall.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active year-round underground",
+        note: "Batesville's downtown includes homes built by nineteenth-century German settlers, old enough that wood-to-soil foundation contact is common and gives termite colonies a direct route inside.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Farmhouses at the edge of Batesville's surrounding farmland see heavy fall stink bug staging on sunny exterior walls before the insects push indoors for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Older barns and outbuildings on farm properties around Batesville often have enough trapped moisture in aging wood to give carpenter ants an easy foothold.",
+      },
+    ],
+    localHook:
+      "Batesville is home to Hillenbrand Inc, the parent company of Batesville Casket Company, and sits on the till plains of southeastern Indiana near the Ripley and Franklin county line, a downtown built largely by nineteenth-century German settlers and now surrounded by the corn and soybean farmland typical of the region.",
+    intro:
+      "Batesville, Indiana is best known as the headquarters of Hillenbrand Inc and the Batesville Casket Company, a manufacturing employer that has anchored the town's economy for generations, but its pest pressure has less to do with industry and more to do with geography. The town sits on the till plains of southeastern Indiana, rolling farmland left behind by the last glaciation, near the Ripley and Franklin county line, and its downtown was built largely by nineteenth-century German settlers whose homes still stand today. That combination, an old German-settled core and a ring of active corn and soybean farmland just beyond town, produces a pest picture built around fall harvest disruption and an aging housing stock rather than anything tied to Batesville's manufacturing base.",
+    sections: [
+      {
+        heading: "How Batesville's Surrounding Farmland Drives a Fall Mouse Problem",
+        body: "Corn and soybean fields press close to Batesville on several sides, typical of the till plain farmland across southeastern Indiana, and the pattern each September and October is a familiar one for a farm town this size: when combines strip that cover, field mice head for the nearest warm structure, whether that is a downtown home, a farmhouse, or an outbuilding on the acreage beyond town. Sealing foundation gaps before harvest and setting interior traps at the first sign of activity is far cheaper than dealing with a full indoor infestation by December.",
+      },
+      {
+        heading: "Cluster Flies in Batesville's German-Built Homes",
+        body: "A number of homes in downtown Batesville date back to the town's nineteenth-century German settlement, and older wood-frame construction of that era tends to have more small gaps around siding, soffits, and trim than a modern build. Cluster flies use exactly those gaps to get into wall voids and attics each fall, where they overwinter in large numbers before reemerging as a nuisance indoors on warm late-winter days. Sealing exterior gaps before September is a more effective long-term fix than repeatedly vacuuming up flies once they are already inside.",
+      },
+      {
+        heading: "Termites and Fall Stink Bugs on the Farm Properties Around Batesville",
+        body: "Homes near Batesville's historic downtown carry the same wood-to-soil foundation contact common to nineteenth-century construction, a direct route for subterranean termite colonies that forage underground year-round and are most visible during a spring swarm. Out on the farm properties ringing town, stink bugs stage heavily on sunny exterior walls each September through November before pushing indoors for winter, a pattern that hits farmhouses and outbuildings with more exterior wall exposure harder than tightly clustered downtown blocks.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps on downtown and farm properties before harvest strips field cover each September and October.",
+      "Caulk gaps around siding, soffits, and trim on older German-built homes before cluster flies begin seeking overwintering spots in September.",
+      "Have downtown homes built in the nineteenth century inspected for wood-to-soil foundation contact, a direct termite entry point.",
+      "Address trapped moisture in older barns and outbuildings promptly to reduce carpenter ant risk on farm properties.",
+    ],
+    costNote:
+      "General quarterly pest plans in Batesville typically run $110 to $230 per year for a single-family home, slightly lower than the larger Indianapolis-area suburbs in this region. Termite inspection and treatment for a downtown historic home runs $450 to $1,300 depending on colony extent and foundation type. Cluster fly exterior sealing ahead of fall typically runs $90 to $180.",
+    faqs: [
+      {
+        question: "Why does Batesville see such a heavy fall mouse problem?",
+        answer:
+          "Corn and soybean farmland presses close to town on several sides, part of the till plain farm country typical of southeastern Indiana, and when the harvest strips that cover each September and October, field mice move toward the nearest structure, whether downtown or out on a farm property.",
+      },
+      {
+        question: "Are cluster flies specific to Batesville's older German-built homes?",
+        answer:
+          "They are more common there because nineteenth-century construction tends to have more small exterior gaps around siding and trim, which cluster flies use to reach wall voids and attics where they overwinter each fall.",
+      },
+      {
+        question: "Is termite risk higher in downtown Batesville than in newer parts of town?",
+        answer:
+          "Yes. A number of downtown homes date to the town's nineteenth-century German settlement and carry the wood-to-soil foundation contact typical of that era, giving subterranean termite colonies a direct path into framing.",
+      },
+      {
+        question: "Do stink bugs affect farm properties around Batesville more than downtown?",
+        answer:
+          "Farmhouses and outbuildings on the acreage ringing town tend to have more exposed exterior wall area than tightly clustered downtown blocks, so they see heavier fall stink bug staging before the insects push indoors for winter.",
+      },
+      {
+        question: "Is Batesville's pest pressure connected to Hillenbrand or the casket company?",
+        answer:
+          "No. Batesville's pest patterns come from its farmland surroundings and its older German-settled downtown, not from the town's manufacturing base.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-in", stateSlug: "indiana" },
+      { name: "Danville", slug: "danville-in", stateSlug: "indiana" },
+      { name: "Chesterton", slug: "chesterton-in", stateSlug: "indiana" },
+      { name: "Cedar Lake", slug: "cedar-lake-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Batesville, IN | Ripley County Exterminators",
+    metaDescription:
+      "Licensed pest control in Batesville, IN. Field mouse, termite, and cluster fly control for southeastern Indiana farm and downtown homes. Free inspection.",
+  },
 ];

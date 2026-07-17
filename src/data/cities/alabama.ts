@@ -4907,4 +4907,559 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Sylacauga, AL pest control for carpenter ants and ticks near the Talladega National Forest, termites, mosquitoes and stink bugs. Talladega County service. Free inspection.",
   },
+  {
+    slug: "hartselle-al",
+    name: "Hartselle",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~16,200",
+    county: "Morgan County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hartselle grew up as a stop on the South and North Alabama Railroad, and when the original 1870 town site half a mile north of downtown proved too steep for a train platform, the settlement relocated to its present spot in 1873. Sixty nine buildings in that relocated core, including the 1914 depot, carry National Register significance today, and the farmland and timber tracts that once shipped out by rail still ring the town, keeping Tennessee Valley agricultural pest pressure close to residential streets.",
+    topPests: ["Eastern Subterranean Termites", "Stink Bugs", "Fire Ants", "House Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Hartselle's historic downtown commercial district holds dozens of buildings dating to the early 1900s, many built close to grade before modern termite barriers were standard, and Morgan County's clay soil holds moisture well enough to keep colonies working most of the year.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, again in early spring",
+        note: "The soybean and cotton acreage that still surrounds Hartselle draws stink bugs in from the field edges every fall, and homes near the old rail corridor and outlying farmland see them stage on sunny exterior walls before slipping inside for winter.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "All 67 Alabama counties, Morgan included, fall under the federal imported fire ant quarantine, and Hartselle's open lawns and ball fields rebuild mounds quickly after rain even though the cooler Tennessee Valley winters slow them more than in south Alabama.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through February",
+        note: "As cotton and soybean fields around Hartselle are harvested each fall, mice move toward the nearest shelter, and older homes near the rail corridor with gaps around foundation vents and utility lines are the first stop.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Timber shipped out of Hartselle built the town's early economy, and the mature tree cover left behind still shades older neighborhoods, where moisture-damaged eaves and wood-to-soil contact points give carpenter ants an easy way indoors.",
+      },
+    ],
+    localHook:
+      "Hartselle's town center once had to be picked up and moved half a mile because the original site was too steep for the railroad. The rebuilt depot district, chartered in 1875, still anchors a town ringed by working farmland.",
+    intro:
+      "Pest control in Hartselle has to account for a town shaped by two forces at once: a National Register historic depot district full of century-old buildings, and the soybean and cotton fields that still surround it. Eastern subterranean termites find easy entry through the older construction downtown, where original foundations predate modern barrier standards. Stink bugs move in from the surrounding farmland every autumn. Fire ants are present under the same statewide quarantine that covers all of Alabama, though Morgan County's cooler winters slow them compared to the Gulf Coast. Add house mice pushed toward buildings by the fall harvest and carpenter ants working the town's mature tree canopy, and Hartselle's pest pressure looks less like a typical suburb and more like a working agricultural rail town.",
+    sections: [
+      {
+        heading: "Why does Hartselle's historic depot district need extra termite attention?",
+        body: "Sixty nine buildings in Hartselle's central business district, including the 1914 depot building itself, have been recognized for their age and architecture. Many were built before the mid-twentieth century, when modern termite barriers and treated lumber were not standard practice. Morgan County's clay-heavy soil holds moisture close to these older foundations, and colonies can work undetected for years in a slab or crawl space built to century-old standards. Annual inspection matters more here than in newer subdivisions.",
+      },
+      {
+        heading: "How does the farmland around Hartselle change fall pest pressure?",
+        body: "Hartselle sits inside a working Tennessee Valley agricultural belt, and the soybean and cotton fields that ring the town are not just scenery. When those fields are harvested each fall, stink bugs and house mice both lose their outdoor food source at the same time and move toward the nearest structure. Homes on the edge of town, closer to the tree lines and fence rows separating yards from cropland, tend to see both problems arrive within a few weeks of each other in October and November.",
+      },
+      {
+        heading: "Are fire ants as aggressive in Hartselle as farther south in Alabama?",
+        body: "Morgan County is inside the federal imported fire ant quarantine along with the rest of Alabama's 67 counties, so the pest is established here. That said, Hartselle's Tennessee Valley location means winters run cooler than Mobile or Montgomery, and colonies slow down more between December and February than they do in south Alabama. Mounds still return reliably every spring in yards, ball fields, and the grassy margins along the old rail corridor.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any structure in or near the historic depot district built before 1970.",
+      "Seal foundation gaps and utility penetrations before the fall harvest pushes field mice toward buildings.",
+      "Treat fire ant mounds in spring before Tennessee Valley temperatures warm enough for rapid colony rebuilding.",
+      "Trim tree limbs away from rooflines to cut carpenter ant access to moisture-damaged eaves.",
+    ],
+    costNote:
+      "Fire ant broadcast treatment in Hartselle typically runs $75 to $160 for a standard residential lot. Termite inspection is commonly free from licensed companies serving Morgan County, with treatment for a historic-district structure running $650 to $1,400 depending on construction and extent of activity. Fall rodent exclusion and trapping programs run $150 to $300. Quarterly general pest control averages $85 to $140 per visit.",
+    faqs: [
+      {
+        question: "Why are so many buildings in downtown Hartselle at higher termite risk?",
+        answer:
+          "Hartselle's central business district includes buildings dating back to the years after the town relocated to its present site in 1873, several nominated for the National Register of Historic Places. Construction from that era sits closer to grade than modern building codes allow, without the treated lumber and physical barriers used today, so subterranean termite colonies in Morgan County's moisture-holding clay soil can reach the wood more easily.",
+      },
+      {
+        question: "Does Hartselle's location near farmland bring in more stink bugs than a typical Alabama town?",
+        answer:
+          "Yes. Hartselle sits inside an active Tennessee Valley agricultural belt with soybean and cotton acreage bordering many residential neighborhoods. Stink bugs feed in those fields through summer, then move toward the nearest structures once the crop is harvested in September and October, staging on sun-warmed exterior walls before working their way in for winter.",
+      },
+      {
+        question: "Is Morgan County part of the Alabama fire ant quarantine?",
+        answer:
+          "Yes. All 67 Alabama counties fall under the federal imported fire ant quarantine, Morgan County included. Colonies here are established, though the cooler Tennessee Valley winters slow surface activity more than in the Gulf Coast counties. Spring bait treatment before temperatures climb gives the best season-long control.",
+      },
+      {
+        question: "What draws house mice into Hartselle homes each fall?",
+        answer:
+          "The soybean and cotton harvest around Hartselle removes the outdoor food and cover mice have relied on all summer, and they move toward the nearest shelter, often a home with unsealed foundation vents or gaps around utility lines. Homes closer to the fields on the edge of town see this pressure earliest, typically starting in October.",
+      },
+      {
+        question: "How does Hartselle's tree cover affect carpenter ant risk?",
+        answer:
+          "The town's older neighborhoods grew up under mature trees planted when timber shipping was central to Hartselle's economy, and that canopy now shades roofs and eaves where moisture collects. Carpenter ants exploit that damp wood, entering through eaves and wood-to-soil contact points from March through October.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Saraland", slug: "saraland-al", stateSlug: "alabama" },
+      { name: "Gardendale", slug: "gardendale-al", stateSlug: "alabama" },
+      { name: "Pell City", slug: "pell-city-al", stateSlug: "alabama" },
+      { name: "Calera", slug: "calera-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hartselle, AL | Morgan County Depot District Exterminators",
+    metaDescription:
+      "Licensed pest control in Hartselle, AL. Termite protection for the historic depot district, fall stink bugs and mice, fire ant treatment. Free inspection.",
+  },
+  {
+    slug: "saraland-al",
+    name: "Saraland",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~16,400",
+    county: "Mobile County",
+    climate: "hot-humid",
+    climateDriver:
+      "Saraland sits in central Mobile County along Bayou Sara Creek, close enough to Mobile Bay to carry the same heavy Gulf Coast humidity that drives some of the highest termite and mosquito pressure in the state. The city was a scattered rural crossroads until Mobile's postwar growth reached it, incorporating in 1957 with just 125 residents before expanding into the bedroom community it is today.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Fleas & Ticks"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through July at dusk, active year-round",
+        note: "Mobile County carries some of the heaviest Formosan termite pressure documented in Alabama, and Saraland's warm, saturated coastal soil lets these more aggressive colonies expand faster and do more structural damage in less time than native subterranean termites.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Bayou Sara Creek and the Cofield Park boat launch area give mosquitoes reliable breeding water most of the year, and the Gulf Coast's extended warm season keeps multiple generations cycling through Saraland yards well into fall.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible after heavy rain",
+        note: "Saraland's low-lying drainage and proximity to bayou wetlands push American cockroaches, the large reddish-brown species some residents call palmetto bugs, up from sewers and storm drains into garages and ground-floor rooms during heavy rain events.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Mobile County is fully inside the federal imported fire ant quarantine, and Saraland's mild coastal winters mean colonies almost never go dormant, rebuilding mounds within days of a broadcast treatment wearing off.",
+      },
+      {
+        name: "Fleas and ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "The humid, densely vegetated lots common around Saraland's residential streets and along the bayou keep flea and tick populations viable through most of the warm season, a real concern for pets that spend time in shaded yards.",
+      },
+    ],
+    localHook:
+      "Saraland grew from a rural crossroads called Alvarez Station into a city of over 16,000 in less than seventy years, and its position on Bayou Sara Creek in central Mobile County puts it squarely in Alabama's heaviest Formosan termite and mosquito pressure zone.",
+    intro:
+      "Pest control in Saraland means dealing with the most demanding pest pressure Alabama's climate produces. This is Mobile County, home to some of the state's worst Formosan subterranean termite activity, an invasive species that expands colonies faster and causes more structural damage than the native termites found farther north. Bayou Sara Creek and the wetlands around it keep mosquitoes breeding from spring through fall. American cockroaches push up from storm drains after heavy rain. Fire ants, present under the same statewide quarantine covering every Alabama county, barely slow down in Saraland's mild coastal winters. Fleas and ticks round out the list on the humid, well-vegetated residential lots common across the city.",
+    sections: [
+      {
+        heading: "Why is Formosan termite pressure so severe in Saraland?",
+        body: "Formosan subterranean termites are an invasive species first established along the Gulf Coast, and Mobile County remains one of the most heavily affected areas in Alabama. Unlike native eastern subterranean termites, Formosan colonies can number in the millions and build aerial nests independent of soil contact when moisture is available. Saraland's warm, saturated soil and humid air give these colonies exactly the conditions they need to expand quickly, which is why swarms here, typically at dusk from April through July, deserve immediate attention rather than a wait and see approach.",
+      },
+      {
+        heading: "How does Bayou Sara Creek affect mosquito control in Saraland?",
+        body: "Bayou Sara Creek runs through the heart of Saraland, feeding Walter V. Cofield Park and the boat launch that residents use for recreation, and that same water network is what sustains mosquito breeding for most of the year. Low-lying yards near the creek and its tributaries hold standing water longer after rain than higher ground elsewhere in the city. A barrier spray program timed to the warm season, paired with removing standing water on the property itself, gives the most consistent relief.",
+      },
+      {
+        heading: "What brings American cockroaches into Saraland homes?",
+        body: "The large reddish-brown American cockroach lives primarily outdoors and below ground in sewers, storm drains, and damp crawl spaces, entering structures when conditions push it to look for new shelter. Saraland's low elevation and bayou-adjacent drainage mean heavy rain events regularly flood these underground harborages, and displaced cockroaches move into garages, ground-floor bathrooms, and utility rooms. Drain treatment and exterior perimeter work address the source rather than just the cockroaches that make it indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a Formosan termite inspection annually given Mobile County's elevated risk, rather than waiting for a swarm to appear.",
+      "Clear standing water from yards near Bayou Sara Creek weekly during the March through November mosquito season.",
+      "Treat exterior drains and foundation gaps after heavy rain to reduce American cockroach entry.",
+      "Apply fire ant bait broadcast treatment in early spring before Saraland's mild winter fully breaks.",
+    ],
+    costNote:
+      "Formosan termite treatment in Saraland typically runs $900 to $1,900 for a standard residential structure, depending on construction type and extent of colony activity, reflecting the higher treatment intensity Formosan colonies require compared to native termites. Mosquito barrier spray programs run $70 to $130 per monthly application. Fire ant treatment averages $80 to $190 for a standard lot. Quarterly general pest control runs $95 to $165 per visit given the elevated coastal pest load.",
+    faqs: [
+      {
+        question: "Why do Saraland homes need different termite treatment than towns farther north in Alabama?",
+        answer:
+          "Saraland sits in Mobile County, one of the areas of Alabama most affected by the invasive Formosan subterranean termite. Formosan colonies grow larger and faster than native eastern subterranean termites and can form aerial nests in structures with a reliable moisture source, independent of soil contact. That means Saraland properties often need more aggressive treatment protocols and more frequent monitoring than a typical inland Alabama town.",
+      },
+      {
+        question: "Does Bayou Sara Creek make mosquito problems worse in Saraland than nearby Mobile neighborhoods?",
+        answer:
+          "Saraland's position directly along Bayou Sara Creek, plus the Cofield Park boat launch area, gives it more consistent breeding water close to residential streets than areas without a similar creek network. Properties within a few blocks of the bayou typically need a longer treatment season, often into November, compared to higher ground elsewhere in the metro area.",
+      },
+      {
+        question: "Is all of Mobile County under the fire ant quarantine?",
+        answer:
+          "Yes. Mobile County, along with all 67 Alabama counties, is inside the federal imported fire ant quarantine. Saraland's mild coastal winters mean colonies rarely go fully dormant, so mounds can reappear within days of a treatment wearing off, particularly after rain.",
+      },
+      {
+        question: "Why do American cockroaches show up in Saraland garages after storms?",
+        answer:
+          "American cockroaches live in sewers, storm drains, and damp underground spaces, and Saraland's low elevation near Bayou Sara Creek means heavy rain regularly floods those harborages. Displaced cockroaches move upward into garages and ground-floor rooms looking for dry shelter, which is why sightings spike after major storm events.",
+      },
+      {
+        question: "How long does flea and tick season last in Saraland?",
+        answer:
+          "Roughly March through October, longer than colder parts of the state, because Saraland's humid Gulf Coast climate and densely vegetated residential lots keep both pests viable later into fall. Pets spending time in shaded yards near the bayou face the highest exposure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Hartselle", slug: "hartselle-al", stateSlug: "alabama" },
+      { name: "Gardendale", slug: "gardendale-al", stateSlug: "alabama" },
+      { name: "Pell City", slug: "pell-city-al", stateSlug: "alabama" },
+      { name: "Calera", slug: "calera-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Saraland, AL | Mobile County Formosan Termite Exterminators",
+    metaDescription:
+      "Licensed pest control in Saraland, AL. Formosan termite treatment, mosquito control near Bayou Sara Creek, fire ants and American cockroaches. Free inspection.",
+  },
+  {
+    slug: "gardendale-al",
+    name: "Gardendale",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~16,400",
+    county: "Jefferson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Gardendale grew out of an 1820s farm settlement once known locally as Jugtown, and today it borders Turkey Creek Nature Preserve, a Jefferson County greenway whose creek waters are the only place on earth the endangered Vermilion and Rush darters are found. That preserve's wooded, spring-fed terrain, combined with the Valley and Ridge topography shared with nearby Birmingham, keeps ground moisture and shade high enough to sustain heavy termite and carpenter ant pressure through most of the year.",
+    topPests: ["Eastern Subterranean Termites", "Carpenter Ants", "Ticks", "Fire Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Jefferson County is a confirmed high-pressure termite zone, and Gardendale's mix of older homes near the historic Jugtown-era core and newer construction along the wooded Turkey Creek corridor gives colonies plenty of moist, shaded soil to work through most of the year.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The forested terrain around Turkey Creek Nature Preserve, much of it protected greenway bordering residential lots, gives carpenter ants an unbroken path from moisture-damaged tree cover straight into eaves and window frames on adjacent homes.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "Turkey Creek Nature Preserve draws hikers year-round to its trails and swimming holes, and the tick population along those wooded paths is real enough that anyone walking a dog or a child through the preserve should check for ticks afterward.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Jefferson County sits inside the statewide federal fire ant quarantine, and Gardendale's open subdivision lawns rebuild mounds quickly after rain, much like the rest of the Birmingham metro area.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Turkey Creek and its smaller tributaries running through Gardendale hold slow-moving, shaded water that mosquitoes use to breed through the warm months, adding pressure beyond the standing water found in typical suburban yards.",
+      },
+    ],
+    localHook:
+      "Gardendale sits next to Turkey Creek Nature Preserve, the only place on earth where the endangered Rush darter and Vermilion darter fish are found, and that same spring-fed, wooded terrain keeps termite and carpenter ant pressure high in the neighborhoods that border it.",
+    intro:
+      "Pest control in Gardendale is shaped by its neighbor: Turkey Creek Nature Preserve, a wooded, spring-fed greenway that protects two fish species found nowhere else in the world. That same terrain, moist, shaded, and thick with mature trees, sustains subterranean termites and carpenter ants through most of the year in the homes that border it. Jefferson County is a confirmed high-pressure termite zone, and Gardendale's older Jugtown-era core adds vulnerable, aging construction to the mix. Ticks are a real concern for anyone using the preserve's trails, fire ants persist under the same statewide quarantine that covers every Alabama county, and Turkey Creek's tributaries give mosquitoes breeding water beyond a typical suburban yard.",
+    sections: [
+      {
+        heading: "Does living near Turkey Creek Nature Preserve raise pest risk in Gardendale?",
+        body: "It does, mainly for carpenter ants, ticks, and moisture-loving termites. The preserve's protected wooded terrain means the tree cover, fallen timber, and shaded ground moisture that these pests rely on sits directly against residential property lines rather than being cleared back the way it would be in a typical subdivision. Homes on streets bordering the greenway tend to see earlier and heavier carpenter ant activity each spring than homes farther into Gardendale's newer developments.",
+      },
+      {
+        heading: "How serious is termite pressure in Gardendale's older neighborhoods?",
+        body: "Jefferson County is a confirmed high-pressure zone for eastern subterranean termites, the same zone that covers Birmingham and its close suburbs. Gardendale's original core, built up around the farm settlement once called Jugtown, includes homes old enough to predate modern termite barriers, while Valley and Ridge topography across the area keeps soil moisture elevated. Annual inspection is the standard recommendation, and it matters more for pre-1990s construction than for newer builds with modern foundation barriers. Termite inspections are commonly free from licensed providers serving Jefferson County, with treatment for an average home typically running $600 to $1,250 depending on how much colony activity a technician finds.",
+      },
+      {
+        heading: "Should Gardendale families worry about ticks from Turkey Creek trails?",
+        body: "Yes, particularly households that use the preserve regularly. The trails and swimming holes that make Turkey Creek Nature Preserve a popular destination also support a real tick population from March through October. Pets and children who spend time on the wooded trails or in tall grass along the creek should be checked for ticks after each visit, and yards backing directly onto the preserve benefit from a perimeter tick treatment through the warm months.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, particularly for homes near Gardendale's older Jugtown-era core.",
+      "Trim tree limbs and clear fallen wood along property lines bordering Turkey Creek Nature Preserve to reduce carpenter ant access.",
+      "Check pets and children for ticks after any visit to the preserve's trails or swimming areas.",
+      "Treat fire ant mounds each spring before Jefferson County's warm season lets colonies rebuild at full strength.",
+    ],
+    costNote:
+      "Fire ant treatment in Gardendale averages $80 to $180 for a standard residential lot, consistent with the wider Birmingham metro area. Termite inspection is commonly free from licensed companies serving Jefferson County, with treatment for a standard home running $600 to $1,250. Tick treatment for properties bordering Turkey Creek Nature Preserve typically runs $150 to $300 per perimeter application. Quarterly general pest control averages $90 to $155 per visit.",
+    faqs: [
+      {
+        question: "Why do carpenter ants seem worse for homes near Turkey Creek Nature Preserve in Gardendale?",
+        answer:
+          "Homes bordering the preserve sit directly against protected, unmanaged wooded terrain rather than a cleared buffer, so moisture-damaged fallen timber and tree cover extend right up to the property line. Carpenter ants move from that natural habitat into eaves, window frames, and any wood-to-soil contact point on adjacent structures far more easily than they would from a typical landscaped yard.",
+      },
+      {
+        question: "Is Jefferson County a high termite risk zone, and does that include Gardendale?",
+        answer:
+          "Yes. Jefferson County, including Gardendale, is a confirmed high-pressure zone for eastern subterranean termites. Gardendale's older core, built up from the original 1820s Jugtown-era farm settlement, includes construction old enough to predate modern termite barriers, and the area's moisture-holding soil keeps colonies active most of the year.",
+      },
+      {
+        question: "How bad is the tick population around Turkey Creek Nature Preserve?",
+        answer:
+          "Real enough that pets and children using the preserve's trails or swimming holes should be checked afterward. The tick season runs roughly March through October, and yards backing directly onto the preserve's wooded terrain see more consistent tick pressure than properties farther from the greenway.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Gardendale?",
+        answer:
+          "Jefferson County sits inside the federal imported fire ant quarantine covering all of Alabama, and Gardendale's mild winters mean colonies stay active most of the year, with mounds rebuilding quickly in open lawns after rain, similar to the rest of the Birmingham metro area.",
+      },
+      {
+        question: "Does Turkey Creek add to Gardendale's mosquito problem beyond typical yard breeding?",
+        answer:
+          "It does. Turkey Creek and its smaller tributaries running through Gardendale hold slow-moving, shaded water that supports mosquito breeding from March through October, on top of any standing water in gutters or containers around individual homes. Properties near the creek typically need a longer treatment season than those farther from the water.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Hartselle", slug: "hartselle-al", stateSlug: "alabama" },
+      { name: "Saraland", slug: "saraland-al", stateSlug: "alabama" },
+      { name: "Pell City", slug: "pell-city-al", stateSlug: "alabama" },
+      { name: "Calera", slug: "calera-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Gardendale, AL | Jefferson County Turkey Creek Exterminators",
+    metaDescription:
+      "Licensed pest control in Gardendale, AL. Termite protection, carpenter ants and ticks near Turkey Creek Nature Preserve, fire ant treatment. Free inspection.",
+  },
+  {
+    slug: "pell-city-al",
+    name: "Pell City",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~14,100",
+    county: "St. Clair County (county seat)",
+    climate: "hot-humid",
+    climateDriver:
+      "Pell City sits on the shore of Logan Martin Lake, a Coosa River reservoir created when Alabama Power completed Logan Martin Dam in 1964. The lake's coves, inlets, and second-home shoreline lots give the city far more standing and slow-moving water close to residential property than a typical inland St. Clair County town, extending the mosquito season and keeping soil moisture high around lakeside foundations.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Fire Ants", "Carpenter Ants", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, longer near the shoreline",
+        note: "Logan Martin Lake's many coves and inlets warm quickly in summer and hold still water that mosquitoes use to breed for most of the warm season, giving lakefront Pell City properties a longer and heavier mosquito season than homes farther from the water.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Pell City was founded in 1890 as a railroad and manufacturing town, and homes near that older core sit on Coosa River valley clay soil that holds moisture well, giving subterranean termite colonies favorable conditions much of the year.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "St. Clair County is inside the statewide federal fire ant quarantine, and the open, mowed lawns common on Pell City's lakeside and second-home lots give colonies plenty of undisturbed ground to rebuild in after treatment.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Docks, boathouses, and shoreline decking around Logan Martin Lake stay damp for much of the year, and that moisture-retaining wood is exactly what draws carpenter ants to lakefront structures before they move into adjoining homes.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "The wooded shoreline trails and undeveloped lake-adjacent lots around Pell City support a real tick population through the warm season, a concern for pets and families using the lake's recreational areas.",
+      },
+    ],
+    localHook:
+      "Pell City was founded in 1890 as a railroad and iron town, nearly failed in the Panic of 1893, and was reborn on the shore of Logan Martin Lake after Alabama Power finished the dam in 1964, giving the city a shoreline economy its founders never planned for.",
+    intro:
+      "Pest control in Pell City has to answer for both a working town and a lake town at once. Logan Martin Lake, formed by a 1964 Alabama Power dam on the Coosa River, surrounds much of the city with coves and shoreline lots that keep mosquitoes breeding longer than an inland St. Clair County property would see. The older core, dating to the town's 1890 railroad founding, sits on moisture-holding Coosa River valley clay that keeps subterranean termite colonies working most of the year. Fire ants persist under the same statewide quarantine covering all of Alabama, docks and shoreline decking draw carpenter ants toward lakefront homes, and the wooded trails around the lake carry a real tick population through the warm months.",
+    sections: [
+      {
+        heading: "How does Logan Martin Lake change mosquito control in Pell City?",
+        body: "Logan Martin Lake's more than 270 miles of shoreline gives Pell City an unusual amount of lake-adjacent property for a town its size. Coves and inlets along that shoreline warm quickly in summer and hold still water, which mosquitoes use to breed reliably from spring through fall. Properties directly on the water typically need a monthly barrier spray program through the warm season, while homes further inland see a shorter, more typical Alabama mosquito window.",
+      },
+      {
+        heading: "Why do docks and boathouses attract carpenter ants around Pell City?",
+        body: "Wood structures built directly over or beside Logan Martin Lake, docks, boathouses, and shoreline decking, stay damp for much of the year even in dry weather, simply from proximity to the water. That constant moisture softens the wood enough for carpenter ants to tunnel into it, and colonies established in a dock or boathouse move readily into the nearest home once the original wood source is exhausted.",
+      },
+      {
+        heading: "Is termite risk different in Pell City's older railroad-era neighborhoods?",
+        body: "Pell City's core dates to its 1890 founding as a railroad and iron manufacturing town, and homes in that older section were built well before modern termite barrier standards existed. The Coosa River valley's clay soil holds moisture close to these foundations, sustaining subterranean termite activity through most of the year. Newer construction closer to the lake tends to have modern barriers, but older in-town homes still warrant annual inspection. Termite inspection is commonly offered at no cost by licensed providers serving St. Clair County, with treatment for a standard home typically running $600 to $1,250 depending on the extent of activity found.",
+      },
+    ],
+    prevention: [
+      "Run a monthly mosquito barrier spray program on lake-adjacent properties from March through October.",
+      "Inspect docks, boathouses, and shoreline decking for moisture damage that could draw carpenter ants toward the home.",
+      "Schedule an annual termite inspection for homes in Pell City's older railroad-era core.",
+      "Apply fire ant bait broadcast treatment across the full property rather than spot-treating individual mounds on larger lakeside lots.",
+    ],
+    costNote:
+      "Mosquito barrier treatment on Logan Martin Lake properties in Pell City typically runs $70 to $130 per monthly application through the active season. Termite inspection is commonly free from licensed companies serving St. Clair County, with treatment for a standard home running $600 to $1,250. Fire ant treatment averages $75 to $175 for a standard residential lot. Quarterly general pest control runs $90 to $150 per visit.",
+    faqs: [
+      {
+        question: "Do lakefront homes in Pell City need a longer mosquito treatment season?",
+        answer:
+          "Yes. Logan Martin Lake's coves and inlets hold still water that warms quickly in summer, giving lakefront properties reliable mosquito breeding sites well beyond what an inland St. Clair County yard would see. A monthly barrier spray program from March through October is typical for shoreline homes, while inland properties often need a shorter season.",
+      },
+      {
+        question: "Why do carpenter ants show up near docks and boathouses in Pell City?",
+        answer:
+          "Wood built directly over or next to Logan Martin Lake stays damp far more consistently than wood elsewhere on the property, simply from proximity to the water. That constant moisture is exactly what carpenter ants look for, and once a colony establishes in a dock or boathouse, it readily expands into the nearest home.",
+      },
+      {
+        question: "Is Pell City's older downtown at higher termite risk than newer lakeside construction?",
+        answer:
+          "Generally yes. Pell City's core dates to its 1890 founding as a railroad and iron town, and homes from that era predate modern termite barrier requirements. The Coosa River valley's clay soil holds moisture close to older foundations. Newer lakeside construction usually includes modern barriers, but annual inspection still matters for both.",
+      },
+      {
+        question: "Is St. Clair County part of Alabama's fire ant quarantine?",
+        answer:
+          "Yes. St. Clair County, including Pell City, is inside the federal imported fire ant quarantine covering all 67 Alabama counties. The open, mowed lawns common on lakeside and second-home lots give colonies plenty of undisturbed ground to rebuild in after treatment, so broadcast bait across the full lot tends to outperform spot treatment.",
+      },
+      {
+        question: "Are ticks a concern for families using Pell City's lake trails?",
+        answer:
+          "Yes, particularly on the wooded and undeveloped shoreline lots around Logan Martin Lake. Tick season runs roughly March through October, and pets or children spending time on lake trails or in tall grass near the water should be checked afterward.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hartselle", slug: "hartselle-al", stateSlug: "alabama" },
+      { name: "Saraland", slug: "saraland-al", stateSlug: "alabama" },
+      { name: "Gardendale", slug: "gardendale-al", stateSlug: "alabama" },
+      { name: "Calera", slug: "calera-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pell City, AL | Logan Martin Lake Exterminators",
+    metaDescription:
+      "Licensed pest control in Pell City, AL. Mosquito control for Logan Martin Lake properties, termite treatment, fire ants and carpenter ants. Free inspection.",
+  },
+  {
+    slug: "calera-al",
+    name: "Calera",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~18,500",
+    county: "Shelby County",
+    climate: "hot-humid",
+    climateDriver:
+      "Calera's name is the Spanish word for lime, adopted in 1869 after the town spent the Civil War years as a center of lime kiln production known locally as Limeville. That industrial history sits alongside rapid recent growth: Calera is one of the fastest-growing cities in Alabama, driven by its position on the I-65 corridor between Birmingham and Montgomery, which means large tracts of freshly graded subdivision soil now sit next to century-old quarry land.",
+    topPests: ["Eastern Subterranean Termites", "Fire Ants", "Stink Bugs", "Mosquitoes", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Shelby County carries significant subterranean termite pressure, and Calera's mix of new slab-on-grade subdivisions and older homes near the historic lime kiln district both sit on moisture-retentive soil that keeps colonies active most of the year.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Shelby County is inside the statewide federal fire ant quarantine, and Calera's rapid new-home construction means freshly graded, freshly sodded lawns, exactly the disturbed, easy-to-colonize soil fire ants move into fastest.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, again in early spring",
+        note: "Farmland and undeveloped tracts on Calera's growing edges still border new subdivisions, and stink bugs move from those fields onto sunny exterior walls each fall before working into homes for winter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "New subdivision construction around Calera often leaves grading and drainage ponds that hold water longer than mature landscaping would, giving mosquitoes extra breeding opportunities on top of the standing water in yards.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through February",
+        note: "As Calera's remaining farmland edges are cleared for new development, displaced rodents move toward the nearest shelter, and gaps around foundations on both new and older construction give them an entry point through the fall and winter.",
+      },
+    ],
+    localHook:
+      "Calera was known as Limeville during the Civil War for its lime kiln industry, took its present Spanish name for lime in 1869, and is now one of Alabama's fastest-growing cities on the I-65 corridor, where century-old quarry land now borders brand-new subdivisions.",
+    intro:
+      "Pest control in Calera has to serve two very different kinds of property at once. The town's lime kiln history, which gave Calera its name in 1869, left behind older construction near the historic quarry district, while rapid I-65 corridor growth has filled the city's edges with new subdivisions built on freshly graded soil. Shelby County carries real subterranean termite pressure across both. Fire ants move fastest into the disturbed, freshly sodded lawns that come with new construction. Stink bugs still drift in from the farmland bordering Calera's growing edges each fall, new drainage ponds and grading add extra mosquito breeding opportunities, and displaced house mice look for shelter as remaining fields are cleared for development.",
+    sections: [
+      {
+        heading: "Does Calera's rapid growth change fire ant risk for new homeowners?",
+        body: "It does, and not in the direction most new residents expect. Freshly graded and sodded lawns, common across Calera's new subdivisions, are exactly the kind of disturbed, easy-to-colonize soil fire ants move into fastest, often faster than established, mature lawns nearby. Shelby County sits inside the federal fire ant quarantine covering all of Alabama, and new homeowners are frequently surprised at how quickly mounds appear in a yard that had no ant activity during construction. Fire ant treatment on a standard Calera lot typically runs $80 to $200, and new-construction lawns sometimes need a second application within the first season as the colony re-establishes on freshly graded soil.",
+      },
+      {
+        heading: "How does Calera's lime kiln history affect termite risk today?",
+        body: "The historic district around Calera's original lime production center, once known as Limeville, includes homes and structures old enough to predate modern termite barrier standards. Shelby County carries real subterranean termite pressure overall, and older construction near the historic quarry area faces the same clay-soil moisture retention that newer, better-barriered subdivisions elsewhere in Calera are built to handle. Termite inspection is commonly free from licensed providers serving Shelby County, with treatment for an average home typically running $650 to $1,300 depending on the extent of colony activity found.",
+      },
+      {
+        heading: "Why do stink bugs and mice still show up in Calera's newest subdivisions?",
+        body: "Even as Calera grows into one of Shelby County's fastest-developing cities, undeveloped farmland and cleared tracts still border many newer neighborhoods. Stink bugs feed in those fields through summer and move toward the nearest structure each fall. House mice displaced when remaining acreage is cleared for the next phase of development follow the same pattern, looking for the closest available shelter, often a nearby home with unsealed foundation gaps.",
+      },
+    ],
+    prevention: [
+      "Treat new subdivision lawns for fire ants proactively rather than waiting for the first mound to appear.",
+      "Schedule a termite inspection for any structure near Calera's historic lime kiln district built before modern barrier standards.",
+      "Seal foundation gaps on new construction before nearby land clearing pushes mice toward the nearest shelter.",
+      "Remove standing water from grading depressions and drainage ponds common on newly built lots.",
+    ],
+    costNote:
+      "Fire ant treatment in Calera averages $80 to $200 for a standard residential lot, with new-construction lawns sometimes requiring a second application within the first season. Termite inspection is commonly free from licensed companies serving Shelby County, with treatment for a standard home running $650 to $1,300. Quarterly general pest control averages $90 to $150 per visit, and fall rodent exclusion work for new-construction gaps runs $150 to $300.",
+    faqs: [
+      {
+        question: "Why did Calera get fire ant mounds so quickly after our subdivision was built?",
+        answer:
+          "Freshly graded and sodded soil, common across Calera's new subdivisions, is more attractive to fire ant colonies than established, undisturbed lawns nearby. Shelby County is inside the statewide fire ant quarantine, and new construction often sees mounds appear faster than longtime residents in older parts of Calera would expect, sometimes within the first season after landscaping goes in.",
+      },
+      {
+        question: "Does Calera's name really come from its lime industry?",
+        answer:
+          "Yes. The town was known as Limeville, Lime City, and several similar names during the Civil War era, when lime kiln production was central to the local economy. The name Calera, Spanish for lime, was formally adopted in 1869. Homes and structures near that historic quarry district today are old enough to warrant a termite inspection given the age of the construction.",
+      },
+      {
+        question: "Are stink bugs a fall problem in Calera's newer neighborhoods?",
+        answer:
+          "Yes, particularly in subdivisions built on the edges of the city where farmland and cleared tracts still border residential development. Stink bugs move from those fields onto sunny exterior walls each September and October, then work their way inside for winter, a pattern that continues even as more of Calera's edges are developed.",
+      },
+      {
+        question: "Why do new Calera subdivisions sometimes have worse mosquito problems than older neighborhoods?",
+        answer:
+          "New construction often leaves behind grading depressions and drainage ponds that hold water longer than the mature, established landscaping found in older parts of Calera. That extra standing water adds mosquito breeding opportunities on top of what a typical yard produces, particularly from March through October.",
+      },
+      {
+        question: "Is Shelby County a high termite risk area, and does that include Calera?",
+        answer:
+          "Yes. Shelby County carries significant subterranean termite pressure, and that applies to both Calera's older lime-kiln-era construction and its newer I-65 corridor subdivisions. Clay soil across the area holds moisture well, keeping colonies active most of the year regardless of a home's age.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Hartselle", slug: "hartselle-al", stateSlug: "alabama" },
+      { name: "Saraland", slug: "saraland-al", stateSlug: "alabama" },
+      { name: "Gardendale", slug: "gardendale-al", stateSlug: "alabama" },
+      { name: "Pell City", slug: "pell-city-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Calera, AL | Shelby County I-65 Corridor Exterminators",
+    metaDescription:
+      "Licensed pest control in Calera, AL. Termite treatment, fire ant control for new subdivisions, stink bugs and mosquitoes. Free inspection.",
+  },
 ];

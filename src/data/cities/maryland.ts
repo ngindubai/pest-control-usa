@@ -3750,4 +3750,559 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in Elkridge, MD | Termites & Commercial Rodents",
     metaDescription: "Elkridge MD pest control for subterranean termites, carpenter ants, deer ticks and warehouse rodent control. Howard County, near BWI. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "towson-md",
+    name: "Towson",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~59,000",
+    county: "Baltimore County (county seat)",
+    climate: "temperate",
+    climateDriver:
+      "Towson sits on the Piedmont plateau just north of Baltimore's fall line, at roughly 400 feet of elevation, which keeps its summers a shade less muggy than the tidal neighborhoods closer to the harbor. It is the county seat of Baltimore County and the second-most populous unincorporated county seat in the country after Ellicott City, and its housing stock, dense postwar rowhouses, garden apartments, and mid-century single-family blocks packed close to Towson University, sustains steady pest pressure year-round.",
+    topPests: ["German Cockroaches", "Bed Bugs", "House Mice", "Brown Marmorated Stink Bugs", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Towson's dense mix of garden apartments and older multi-family buildings near the county seat gives German cockroaches easy routes between units through shared plumbing and wall voids.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, spikes around August and January move-ins",
+        note: "Towson University's large student rental population turns over twice a year, and that churn of furniture, mattresses, and secondhand items moving between apartments is a documented driver of bed bug introductions in college towns.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through February",
+        note: "Older Baltimore County housing near downtown Towson has enough foundation settling and utility gaps that mice find a way in once nights turn cold, and they stay active in wall voids all winter.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Maryland is one of the states hit hardest by this invasive species, and Towson's tree-lined residential streets give adults plenty of cover before they push into attics and wall gaps for winter.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Maryland Extension documents moderate to high termite pressure across the state, and Towson's older wood-frame homes near the courthouse and university carry the same crawl-space exposure as the rest of the Piedmont.",
+      },
+    ],
+    localHook:
+      "Towson is the seat of Baltimore County and, at roughly 59,000 residents, the second-most populous unincorporated county seat in the United States after Ellicott City. Towson University sits at the center of town, and the twice-yearly turnover of student rental housing is a real, documented driver of bed bug introductions that a generic pest page would not mention.",
+    intro:
+      "Pest control in Towson has to account for two things most Baltimore County suburbs do not combine: a dense, older residential core packed with garden apartments and rowhouses, and a large university with constant rental turnover. That combination sustains German cockroaches moving through shared walls, a real bed bug risk tied to twice-yearly student move-ins, and the usual Maryland fall stink bug invasion. House mice push into older construction once the weather turns, and University of Maryland Extension confirms the moderate to high subterranean termite pressure that runs across the whole state applies here too. A slightly higher, drier Piedmont setting than downtown Baltimore does not spare Towson from any of it.",
+    sections: [
+      {
+        heading: "Why Towson's rental turnover raises bed bug risk",
+        body: "Towson University enrolls a large student population, and most of that housing turns over twice a year, in August and again in January. Bed bugs travel in furniture, mattresses, and boxes, not on their own, so a heavy season of move-ins and move-outs is a genuine risk factor, not a scare tactic. Students furnishing an apartment secondhand or moving out of a building with an active infestation elsewhere in the complex are the two most common introduction paths. A pre-move inspection and prompt treatment at the first sign of bites or shed skins keep a single-unit problem from spreading through a building.",
+      },
+      {
+        heading: "German cockroaches in Towson's apartment stock",
+        body: "The garden apartments and older multi-family buildings clustered around downtown Towson and the university give German cockroaches a connected network of plumbing voids and wall cavities to move through. One unit treating its own kitchen rarely solves the problem if neighboring units are not addressed at the same time, since the population simply retreats and repopulates once pressure eases. Property managers who coordinate building-wide treatment see the problem actually resolve, while single tenants working alone are fighting the shared structure itself.",
+      },
+      {
+        heading: "Termites and stink bugs on the Piedmont side of the county",
+        body: "Towson's slightly elevated, drier setting on the Piedmont plateau does not exempt it from Maryland's statewide pest pressure. University of Maryland Extension rates the state moderate to high for subterranean termite activity, and Towson's older single-family homes near the courthouse carry the same crawl-space and sill-plate exposure as anywhere else in Baltimore County. Brown marmorated stink bugs, established across Maryland since the 1990s spread out of Pennsylvania, aggregate on Towson's tree-lined blocks every September before pushing indoors for winter. Sealing gaps in August, ahead of that aggregation, is the single most effective step a homeowner can take.",
+      },
+    ],
+    prevention: [
+      "Inspect secondhand furniture and mattresses before bringing them into a Towson rental, especially during August and January student move-in periods.",
+      "Coordinate cockroach treatment across all units in a building rather than treating a single apartment in isolation.",
+      "Seal exterior gaps around windows, siding, and utility lines by August to reduce fall stink bug entry.",
+      "Schedule an annual termite inspection given University of Maryland Extension's documented moderate to high statewide pressure.",
+    ],
+    costNote:
+      "Towson pest control is typically quoted as a recurring general plan for cockroaches, ants, and mice, with bed bug treatment and termite inspection priced separately based on unit count and severity. Rental properties near the university often benefit from a building-wide service agreement. A free inspection identifies what is actually present before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why does Towson have a higher bed bug risk than some other Baltimore County suburbs?",
+        answer:
+          "Towson University's large student population turns over rental housing twice a year, in August and January, and bed bugs travel in furniture, mattresses, and moving boxes during exactly that kind of turnover. It is a documented risk pattern in college towns, not unique to any one building, but it does mean Towson rentals benefit from pre-move inspections that a purely residential suburb would not need as urgently.",
+      },
+      {
+        question: "Is Towson's rat and cockroach pressure as bad as Baltimore's?",
+        answer:
+          "Towson's German cockroach pressure is real in its dense apartment stock, but the city's severe rowhouse-alley rat problem is largely a downtown Baltimore phenomenon. Towson's slightly higher Piedmont elevation and lower-density single-family blocks mean less of that specific alley-corridor pressure, though older multi-family buildings near the university still need coordinated cockroach control.",
+      },
+      {
+        question: "Do I need termite protection in Towson?",
+        answer:
+          "Yes. University of Maryland Extension rates the entire state moderate to high for subterranean termite pressure, and Towson's older wood-frame homes near downtown and the courthouse carry the same crawl-space exposure common across Baltimore County. Annual inspection is the standard precaution.",
+      },
+      {
+        question: "When do stink bugs show up in Towson?",
+        answer:
+          "Brown marmorated stink bugs aggregate on building exteriors from September through November as they search for overwintering sites, then push through gaps around windows, siding, and eaves. Sealing those gaps in August, before the fall push begins, is the most effective single step a Towson homeowner can take.",
+      },
+      {
+        question: "What time of year are mice worst in Towson?",
+        answer:
+          "October through February, once nighttime temperatures drop and mice look for a way into heated buildings. Towson's older housing stock near downtown has enough foundation settling and utility gaps to give them access, so sealing those points before October is worth doing ahead of the cold.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dundalk", slug: "dundalk-md", stateSlug: "maryland" },
+      { name: "Thurmont", slug: "thurmont-md", stateSlug: "maryland" },
+      { name: "Brunswick", slug: "brunswick-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Towson, MD | Baltimore County Exterminators",
+    metaDescription:
+      "Licensed pest control in Towson, MD. German cockroaches, bed bugs, stink bugs and termite service for Baltimore County's county seat. Free inspection.",
+  },
+  {
+    slug: "dundalk-md",
+    name: "Dundalk",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~65,800",
+    county: "Baltimore County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dundalk sits on the tidal waterfront of Baltimore Harbor and the Patapsco River in eastern Baltimore County, built starting in 1916 as a planned company town for Bethlehem Steel's Sparrows Point shipyard and mill workers. That waterfront, industrial legacy pairs a mile of tidal marsh and shoreline with dense rowhouse and postwar bungalow blocks built close together, and the humid harbor air keeps summers heavy and mosquito breeding steady.",
+    topPests: ["Mosquitoes", "Norway Rats", "Subterranean Termites", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The tidal marsh along Bear Creek and Baltimore Harbor's shoreline gives Dundalk some of the steadiest mosquito breeding habitat in the county, with peak pressure through July and August.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Dundalk's rowhouse blocks and the legacy industrial waterfront near the old Bethlehem Steel site give rats the same kind of sheltered corridors and food access that drive Baltimore's downtown rat pressure, just a few miles east.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Maryland Extension confirms moderate to high statewide termite pressure, and Dundalk's company-town housing stock, much of it built in the 1910s and 1920s, has the older wood framing and crawl spaces that carry real exposure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Dundalk's tight rowhouse and bungalow blocks give stink bugs plenty of siding gaps and eaves to gather on before pushing indoors for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, interior colonies year-round",
+        note: "The humid harbor air and older wood-frame construction near the waterfront create moisture pockets in siding and window frames that favor carpenter ant colonies.",
+      },
+    ],
+    localHook:
+      "Dundalk was built starting in 1916 as a planned company town for Bethlehem Steel, one of the earliest federal Garden City developments in the country, to house workers at the Sparrows Point shipyard and mill. That dense, waterfront rowhouse and bungalow layout, combined with a mile of tidal marsh along Baltimore Harbor, still shapes the pest pressure the town sees today.",
+    intro:
+      "Dundalk's pest pressure comes straight out of its geography and its history. The town sits on tidal marsh along Baltimore Harbor and the Patapsco River, which sustains a long, active mosquito season, and it was built as a dense company town for Bethlehem Steel's shipyard workforce starting in 1916, which means rowhouse and bungalow blocks packed close together with the same rat-friendly alley corridors found in downtown Baltimore. Add University of Maryland Extension's confirmed statewide termite pressure bearing down on housing stock that is now more than a century old in places, a solid fall stink bug season, and carpenter ants finding moisture in older wood siding near the waterfront, and Dundalk needs a plan built around both its harbor and its history.",
+    sections: [
+      {
+        heading: "Why Dundalk's harbor waterfront drives a long mosquito season",
+        body: "Bear Creek and the tidal marsh along Baltimore Harbor give Dundalk some of the most reliable mosquito breeding habitat in eastern Baltimore County. The season runs April through October, with peak pressure in July and August when standing water in marsh edges, storm drains, and yard containers all breed at once. Because so much of the habitat is tidal and public, the piece an individual homeowner controls is standing water on their own property, gutters, containers, anything holding water for more than a few days near the shoreline.",
+      },
+      {
+        heading: "The company-town layout and Dundalk's rat pressure",
+        body: "Dundalk's rowhouse and bungalow blocks were laid out deliberately in the 1910s and 1920s to house Bethlehem Steel's shipyard and mill workforce, and that dense, close-set design gives rats the same kind of sheltered movement corridors that drive rat complaints a few miles west in downtown Baltimore. Alleys, shared foundations, and older waterfront commercial buildings near the former steel site all provide harborage. Sealing foundation gaps and securing garbage lids matters as much here as it does in the city proper.",
+      },
+      {
+        heading: "A century-old housing stock and termite risk",
+        body: "Much of Dundalk's original company housing dates to the 1910s and 1920s, which means wood framing and crawl spaces that are now over a hundred years old in some blocks. University of Maryland Extension rates the whole state moderate to high for subterranean termite pressure, and older housing stock like Dundalk's, especially anywhere original foundation mortar or sill plates have never been updated, carries real exposure. Annual inspection is worth prioritizing here given the age of the building stock alone.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from gutters, containers, and marsh-adjacent yard drainage weekly during the April through October mosquito season.",
+      "Seal foundation gaps and secure garbage container lids to reduce rat harborage in Dundalk's rowhouse and bungalow blocks.",
+      "Schedule an annual termite inspection given the age of Dundalk's early twentieth-century company housing.",
+      "Seal siding gaps and window frames by August to reduce fall stink bug aggregation and entry.",
+    ],
+    costNote:
+      "Dundalk pest control is commonly split between a recurring general plan for rodents and ants and a separate termite inspection given the older housing stock. Mosquito service is priced separately and is most effective as a season-long barrier program given the tidal habitat nearby. A free inspection establishes what is actually present before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why is Dundalk's rat problem similar to Baltimore's?",
+        answer:
+          "Dundalk was built as a dense company town for Bethlehem Steel's shipyard workforce starting in 1916, with rowhouse and bungalow blocks laid out close together. That same kind of sheltered alley and foundation network that sustains Baltimore's downtown rat pressure exists in Dundalk too, just tied to the old steel industry's housing pattern rather than the city's own rowhouse core.",
+      },
+      {
+        question: "How bad are mosquitoes near the Dundalk waterfront?",
+        answer:
+          "Significant. The tidal marsh along Bear Creek and Baltimore Harbor sustains breeding from April through October, with the heaviest pressure in July and August. Homes closest to the shoreline see the most activity, and removing standing water on the property is the most effective step an individual homeowner can take.",
+      },
+      {
+        question: "Is Dundalk's housing stock at higher termite risk because it's older?",
+        answer:
+          "Yes, generally. Much of Dundalk's original company housing dates to the 1910s and 1920s. University of Maryland Extension rates Maryland moderate to high for subterranean termite pressure statewide, and older wood framing and crawl spaces that have never had foundation work done carry more exposure than newer construction would.",
+      },
+      {
+        question: "When should I seal my Dundalk home against stink bugs?",
+        answer:
+          "By August, ahead of the September through November aggregation period. Brown marmorated stink bugs gather on exterior walls and siding looking for overwintering sites, then push through any gap they can find, especially in Dundalk's older, closely-spaced rowhouse and bungalow blocks.",
+      },
+      {
+        question: "Do carpenter ants target Dundalk's older wood-frame homes?",
+        answer:
+          "Yes. The humid harbor air combined with aging wood siding and window frames near the waterfront creates moisture pockets that favor carpenter ant colonies. Addressing any moisture source, leaking gutters, poor grading, damaged siding, is the most effective long-term prevention step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Towson", slug: "towson-md", stateSlug: "maryland" },
+      { name: "Thurmont", slug: "thurmont-md", stateSlug: "maryland" },
+      { name: "Brunswick", slug: "brunswick-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dundalk, MD | Baltimore Harbor Exterminators",
+    metaDescription:
+      "Licensed pest control in Dundalk, MD. Mosquitoes, rats, termites and stink bug service for Baltimore County's harbor waterfront. Free inspection.",
+  },
+  {
+    slug: "thurmont-md",
+    name: "Thurmont",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~7,000",
+    county: "Frederick County",
+    climate: "cold-humid",
+    climateDriver:
+      "Thurmont sits at the base of Catoctin Mountain in northern Frederick County, about ten miles from the Pennsylvania border, right next to Cunningham Falls State Park and Catoctin Mountain Park, home to the presidential retreat at Camp David. The higher, forested terrain around the town means colder winters than Frederick County's valley floor and steady pressure from woodland pests: deer ticks, wildlife, and rodents pushing toward warm buildings once the mountain air turns cold.",
+    topPests: ["Deer Ticks", "White-Footed Mice", "Eastern Gray Squirrels", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November, year-round in mild stretches",
+        note: "The forested slopes of Catoctin Mountain and Cunningham Falls State Park surrounding Thurmont put the town in the Maryland Department of Health's moderate to high-risk zone for Lyme disease, with tick activity extending later into the year than in more open parts of the county.",
+      },
+      {
+        name: "White-footed mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through winter",
+        note: "Thurmont's proximity to dense mountain forest means white-footed mice, a common woodland species and Lyme disease reservoir host, are a more frequent home intruder here than in Frederick County's more developed valley towns.",
+      },
+      {
+        name: "Eastern gray squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Year-round, most active fall for nesting",
+        note: "The heavy tree cover from Catoctin Mountain right up to residential lots gives squirrels easy access to rooflines and attic vents, and fall nesting activity is a regular seasonal call in Thurmont.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Thurmont sees the same statewide fall aggregation as the rest of Maryland, with the town's older Main Street buildings and surrounding homes offering plenty of siding gaps.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, interior colonies year-round",
+        note: "Moisture from the mountain's higher rainfall and forest shade creates the damp wood conditions carpenter ants favor, particularly in older homes near the park boundary.",
+      },
+    ],
+    localHook:
+      "Thurmont sits at the foot of Catoctin Mountain, next to the park that contains Camp David, the presidential retreat, about ten miles south of the Pennsylvania border. That mountain forest setting, cooler and wetter than the rest of Frederick County's valley floor, drives a different pest mix than the county's more developed towns: heavier tick pressure, woodland rodents, and squirrels working roof lines from the tree canopy.",
+    intro:
+      "Thurmont's pest pressure is shaped by one fact above all others: it sits right at the base of Catoctin Mountain, next to the state park that surrounds Camp David. That forested, higher-elevation setting means the Maryland Department of Health places the area in the moderate to high-risk zone for Lyme disease, with deer ticks staying active later into the year than in Frederick's valley towns. White-footed mice and eastern gray squirrels, both woodland species, are more frequent home intruders here than in more developed parts of the county. Add the statewide fall stink bug invasion and carpenter ants finding moisture in the shaded, damp conditions the mountain creates, and Thurmont needs a plan built around its forest edge, not a generic county template.",
+    sections: [
+      {
+        heading: "Why Thurmont's tick risk runs higher than the rest of Frederick County",
+        body: "Catoctin Mountain Park and Cunningham Falls State Park wrap around Thurmont on three sides, and that dense forest habitat is exactly what deer ticks need. The Maryland Department of Health places this part of Frederick County in the moderate to high-risk zone for Lyme disease, and because Thurmont sits closer to continuous forest than the towns further out in the valley, tick activity here tends to run from April into November, with occasional activity in mild winter stretches. A mowed buffer between lawn and tree line, along with tick checks after any time spent on the park trails, are the most effective personal precautions.",
+      },
+      {
+        heading: "Woodland rodents and squirrels working the forest edge",
+        body: "White-footed mice are a true woodland species and a documented reservoir host for Lyme disease, and Thurmont's proximity to continuous mountain forest means they show up in homes here more often than in Frederick County's more built-out towns. Eastern gray squirrels use the same tree canopy to reach rooflines and attic vents, and fall nesting season brings a steady run of squirrel calls. Sealing roof and attic entry points before fall, and keeping firewood and brush piles away from the foundation, reduces both problems at once.",
+      },
+      {
+        heading: "Statewide pests still apply at the mountain's edge",
+        body: "Thurmont is not exempt from the pest pressure the rest of Maryland deals with. Brown marmorated stink bugs aggregate on Main Street buildings and residential siding every September through November, the same statewide pattern seen across the state. Carpenter ants find the moisture they need in Thurmont's shaded, higher-rainfall conditions near the park boundary, particularly in older homes with damp crawl spaces or leaking gutters. Neither problem is unique to the mountain, but both compound the woodland-specific pressure Thurmont already carries.",
+      },
+    ],
+    prevention: [
+      "Maintain a mowed buffer zone between lawns and the surrounding forest edge to reduce deer tick exposure.",
+      "Check for tick bites after any time spent on Catoctin Mountain or Cunningham Falls trails, especially April through November.",
+      "Seal roof and attic entry points before fall to reduce squirrel and white-footed mouse intrusion from the tree canopy.",
+      "Keep firewood and brush piles away from the foundation to reduce rodent harborage near the home.",
+    ],
+    costNote:
+      "Thurmont pest control commonly combines a recurring general plan for ants and rodents with seasonal tick treatment for yards bordering the park land. Wildlife exclusion work for squirrels is typically quoted separately based on the entry points found. A free inspection identifies current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk higher in Thurmont than the rest of Frederick County?",
+        answer:
+          "Yes, generally. The Maryland Department of Health places this part of Frederick County in the moderate to high-risk zone for Lyme disease, and Thurmont's location right against Catoctin Mountain Park and Cunningham Falls State Park means more continuous forest edge than the county's valley towns have. Tick activity here tends to run longer into the fall as a result.",
+      },
+      {
+        question: "Why does Thurmont see more white-footed mice than nearby towns?",
+        answer:
+          "White-footed mice are a woodland species, and Thurmont sits closer to continuous mountain forest than most of Frederick County's other towns. They are also a documented Lyme disease reservoir host, which is part of why tick and rodent management often get discussed together here.",
+      },
+      {
+        question: "What time of year are squirrels most active in Thurmont?",
+        answer:
+          "Fall, when eastern gray squirrels are actively nesting and using the tree canopy from Catoctin Mountain to reach rooflines and attic vents. Sealing roof entry points before fall is the most effective way to head off an attic problem before it starts.",
+      },
+      {
+        question: "Do I still need stink bug protection this close to the mountain?",
+        answer:
+          "Yes. Brown marmorated stink bugs follow the same statewide September through November aggregation pattern in Thurmont as anywhere else in Maryland. The town's older Main Street buildings and residential siding offer the same kind of entry gaps, so sealing before fall still matters.",
+      },
+      {
+        question: "Are carpenter ants a problem in Thurmont's older homes?",
+        answer:
+          "Yes, particularly near the park boundary where the mountain's shade and higher rainfall keep wood siding and crawl spaces damper for longer. Addressing moisture sources, gutters, grading, damaged siding, is the most effective long-term step against carpenter ant colonies here.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Towson", slug: "towson-md", stateSlug: "maryland" },
+      { name: "Dundalk", slug: "dundalk-md", stateSlug: "maryland" },
+      { name: "Brunswick", slug: "brunswick-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Thurmont, MD | Catoctin Mountain Exterminators",
+    metaDescription:
+      "Licensed pest control in Thurmont, MD. Deer ticks, woodland rodents, squirrels and stink bug service near Catoctin Mountain Park. Free inspection.",
+  },
+  {
+    slug: "brunswick-md",
+    name: "Brunswick",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~8,300",
+    county: "Frederick County",
+    climate: "temperate",
+    climateDriver:
+      "Brunswick sits on the north bank of the Potomac River in southwestern Frederick County, directly across from Loudoun County, Virginia, and grew up as a major B&O Railroad town built around one of the railroad's largest marshaling yards. The C&O Canal towpath runs along the riverfront, and the town's low-lying position in the river valley means more moisture and occasional flood exposure than Frederick County's higher inland towns.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Carpenter Ants", "House Mice", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Potomac River, the C&O Canal towpath, and the low-lying floodplain around Brunswick create steady standing-water breeding habitat, with the canal's calmer stretches especially productive through summer.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Maryland Extension confirms moderate to high statewide termite pressure, and Brunswick's older railroad-era housing near the historic depot carries the wood-frame, crawl-space exposure common to river towns of that vintage.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, interior colonies year-round",
+        note: "Brunswick's riverfront position and occasional flood exposure keep wood framing in older, low-lying homes damper than in Frederick County's higher towns, which is exactly the condition carpenter ants look for.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through winter",
+        note: "The railroad-era homes clustered near Brunswick's historic depot and Main Street have enough age and settling to give mice access once cold weather sets in.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Brunswick sees the same statewide fall aggregation as the rest of Maryland, gathering on the town's older brick and frame buildings before pushing indoors for winter.",
+      },
+    ],
+    localHook:
+      "Brunswick grew up around one of the B&O Railroad's largest marshaling yards, and the C&O Canal towpath still runs along its Potomac riverfront today. That combination, a working river town built low in the valley, with a historic canal and a river across from Virginia, creates a moisture-driven pest profile that Frederick County's higher inland towns do not share.",
+    intro:
+      "Brunswick's pest pressure follows directly from its position in the Potomac River valley. The town grew as a B&O Railroad hub with one of the line's largest marshaling yards, and it sits low along the river with the C&O Canal towpath running right through it, which means more standing water, more humidity, and more flood-related moisture than Frederick County's higher, drier towns see. Mosquitoes breed steadily along the river and canal through the warm months, and University of Maryland Extension's statewide moderate to high termite rating lands squarely on Brunswick's older railroad-era housing stock. Carpenter ants exploit the same dampness, house mice move into aging homes once the cold sets in, and the fall stink bug invasion arrives on schedule with the rest of the state.",
+    sections: [
+      {
+        heading: "The Potomac River and C&O Canal drive Brunswick's mosquito season",
+        body: "Brunswick's location on the north bank of the Potomac, directly across from Loudoun County, Virginia, puts the town right next to two significant water features: the river itself and the C&O Canal towpath, which historically moved coal and goods between Cumberland and Georgetown. Both create standing and slow-moving water that breeds mosquitoes steadily from April through October, with the canal's calmer stretches particularly productive in summer. Homes closest to the riverfront and towpath see the heaviest pressure, and removing standing water on the property itself is the most effective step an individual homeowner controls.",
+      },
+      {
+        heading: "Why Brunswick's railroad-era housing carries real termite exposure",
+        body: "Brunswick's identity as a B&O Railroad town, home to one of the railroad's largest marshaling yards, means much of its housing near the historic depot and Main Street dates to the railroad's heyday in the late 1800s and early 1900s. University of Maryland Extension rates the whole state moderate to high for subterranean termite pressure, and older wood-frame homes with original crawl spaces in a river valley town like Brunswick carry that exposure directly. Annual inspection matters more here than in newer subdivisions built to modern foundation standards.",
+      },
+      {
+        heading: "Low-lying moisture and Brunswick's carpenter ant pressure",
+        body: "Brunswick's position low in the Potomac River valley, with occasional flood exposure from the river, keeps ambient moisture higher than in Frederick County's hillier, higher-elevation towns. That dampness is exactly what carpenter ants need to establish colonies in wood framing, particularly around older homes near the riverfront or canal towpath where flooding or drainage issues have affected the structure at some point. Addressing moisture sources directly, damaged siding, poor grading, gutters that dump water against the foundation, is the most effective long-term prevention step in a town built this close to the river.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from yard containers, gutters, and any low-lying areas near the Potomac or C&O Canal towpath during mosquito season.",
+      "Schedule an annual termite inspection given the age of Brunswick's railroad-era housing stock near the historic depot.",
+      "Address moisture sources such as damaged siding and poor drainage to reduce carpenter ant risk in low-lying, flood-exposed homes.",
+      "Seal exterior gaps around windows and siding by August to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Brunswick pest control typically combines a recurring general plan for ants and mice with a separate termite inspection given the age of the town's railroad-era housing. Mosquito service along the river and canal is usually structured as a season-long barrier program. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why does Brunswick have a longer mosquito season than inland Frederick County towns?",
+        answer:
+          "Brunswick sits directly on the Potomac River with the C&O Canal towpath running through town, and both features create standing and slow-moving water that breeds mosquitoes steadily from April through October. Inland Frederick County towns without a major river or canal do not carry the same level of breeding habitat.",
+      },
+      {
+        question: "Is termite risk higher in Brunswick because of the railroad-era housing?",
+        answer:
+          "Yes, generally. Brunswick grew around one of the B&O Railroad's largest marshaling yards, and much of the housing near the historic depot dates to that era. University of Maryland Extension rates Maryland moderate to high for subterranean termite pressure statewide, and older wood-frame construction with original crawl spaces carries more of that exposure than newer building.",
+      },
+      {
+        question: "Does flooding near the Potomac make carpenter ants worse in Brunswick?",
+        answer:
+          "It can. Brunswick's low position in the river valley means more ambient moisture and occasional flood exposure than Frederick County's higher towns, and that dampness is exactly what carpenter ants look for in wood framing. Homes with past flood or drainage issues are worth inspecting specifically for this.",
+      },
+      {
+        question: "When should I prepare my Brunswick home for stink bugs?",
+        answer:
+          "By August, ahead of the September through November fall aggregation. Brown marmorated stink bugs gather on Brunswick's older brick and frame buildings looking for overwintering sites before pushing through any gap they find in siding, windows, or eaves.",
+      },
+      {
+        question: "Do older homes near Brunswick's Main Street have more mouse problems?",
+        answer:
+          "Often, yes. The railroad-era homes near the historic depot and Main Street have enough age and settling to give house mice access once October's cold weather sets in. Sealing foundation gaps and utility penetrations before then is the most effective prevention step.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Towson", slug: "towson-md", stateSlug: "maryland" },
+      { name: "Dundalk", slug: "dundalk-md", stateSlug: "maryland" },
+      { name: "Thurmont", slug: "thurmont-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brunswick, MD | Potomac River Exterminators",
+    metaDescription:
+      "Licensed pest control in Brunswick, MD. Mosquitoes, termites, carpenter ants and mouse control for this Frederick County river town. Free inspection.",
+  },
+  {
+    slug: "stevensville-md",
+    name: "Stevensville",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~8,900",
+    county: "Queen Anne's County",
+    climate: "hot-humid",
+    climateDriver:
+      "Stevensville sits on Kent Island at the eastern terminus of the Chesapeake Bay Bridge in Queen Anne's County, founded in 1850 as a steamboat terminal and now the most populous community in the county. The Chester River, the Chesapeake Bay shoreline, and the tidal marsh that surrounds the island create some of the most productive mosquito and biting-fly habitat on Maryland's Eastern Shore, and the humid, water-locked setting keeps conditions damp well into fall.",
+    topPests: ["Mosquitoes", "Greenhead Flies", "Subterranean Termites", "Carpenter Ants", "Fleas & Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The tidal marsh ringing Kent Island and the Chester River shoreline give Stevensville some of the most productive mosquito breeding habitat on the Eastern Shore, with the season extending later into fall than inland Queen Anne's County.",
+      },
+      {
+        name: "Greenhead flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late June through August",
+        note: "Salt marsh greenhead flies are a well-known summer nuisance on the Chesapeake's Eastern Shore, breeding in the same tidal marsh grass that surrounds Kent Island and delivering a genuinely painful bite to anyone spending time outdoors near the water.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Maryland Extension confirms moderate to high statewide termite pressure, and Stevensville's humid, water-adjacent conditions push that risk higher for older homes near the island's original steamboat-era core.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, interior colonies year-round",
+        note: "The Bay's constant humidity and Kent Island's low, water-table-close elevation create damp wood conditions in siding and window frames that carpenter ants favor throughout the growing season.",
+      },
+      {
+        name: "Fleas and ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "The marsh grass and brushy edges around Stevensville's newer subdivisions give ticks cover close to yards, and the island's mild, humid climate extends the active season longer than inland parts of the county.",
+      },
+    ],
+    localHook:
+      "Stevensville is the eastern terminus of the Chesapeake Bay Bridge on Kent Island, founded in 1850 as a steamboat terminal and now Queen Anne's County's most populous community. The tidal marsh that surrounds the island does not just breed mosquitoes, it also supports greenhead flies, a genuinely painful summer biting insect specific to Chesapeake salt marsh that most inland Maryland pest pages never have reason to mention.",
+    intro:
+      "Pest control in Stevensville starts with water. The town sits on Kent Island at the eastern end of the Chesapeake Bay Bridge, founded in 1850 as a steamboat terminal, and the tidal marsh ringing the island is some of the most productive mosquito habitat on the Eastern Shore. That same marsh also breeds greenhead flies, a summer biting nuisance specific to Chesapeake salt marsh that inland Maryland towns rarely deal with. University of Maryland Extension's statewide moderate to high termite rating lands on Stevensville's older steamboat-era housing with extra force given the humid, water-adjacent conditions, and carpenter ants and ticks round out a pest profile shaped entirely by the island's position between the Bay and the Chester River.",
+    sections: [
+      {
+        heading: "Why greenhead flies are a real Stevensville summer problem",
+        body: "From late June through August, salt marsh greenhead flies emerge from the tidal marsh grass that surrounds Kent Island, and they deliver a bite sharp enough that most Eastern Shore residents know it on contact. Unlike mosquitoes, they are most active during the day and are drawn to dark colors and movement, which makes yard work, boating, and beach time near the marsh genuinely unpleasant during peak weeks. Traps placed away from high-traffic areas and avoiding dark clothing near marsh edges during late June through August reduce exposure, though full elimination is not realistic given the scale of the surrounding tidal habitat.",
+      },
+      {
+        heading: "Kent Island's tidal marsh and Stevensville's mosquito season",
+        body: "Stevensville's mosquito season runs April through October, longer than most inland Queen Anne's County communities, because the tidal marsh and the Chester River shoreline hold water and stay humid well into fall. Both salt marsh and freshwater breeding species are present, and standing water anywhere on a residential property, gutters, containers, low spots in the yard, adds directly to the pressure already coming off the marsh. Barrier treatment focused on shaded resting areas near the water's edge is the most effective property-level response during peak summer months.",
+      },
+      {
+        heading: "Termites and carpenter ants in a steamboat-era island town",
+        body: "Stevensville's original core dates back to its 1850 founding as a steamboat terminal, and that older housing sits in one of the most consistently humid parts of Maryland, ringed by the Bay and the Chester River. University of Maryland Extension's moderate to high statewide termite rating applies with extra weight here, since the constant moisture in the air and close-to-surface water table keep wood framing damper for longer than it would stay in a drier inland town. Carpenter ants exploit the same conditions in siding and window frames. Annual termite inspection and prompt attention to any moisture damage are both worth prioritizing on Kent Island specifically.",
+      },
+    ],
+    prevention: [
+      "Avoid dark clothing and limit outdoor activity near marsh edges during peak greenhead fly season, late June through August.",
+      "Remove standing water from gutters and yard containers weekly given Stevensville's extended April through October mosquito season.",
+      "Schedule an annual termite inspection given the extra moisture pressure on Kent Island's older, water-adjacent housing.",
+      "Maintain a mowed buffer between yards and marsh grass or brushy edges to reduce tick exposure near newer subdivisions.",
+    ],
+    costNote:
+      "Stevensville pest control commonly combines a recurring general plan for ants and ticks with a season-long mosquito barrier program given the island's tidal marsh exposure. Termite inspection is quoted separately and is worth prioritizing given the humid, water-adjacent housing conditions. A free inspection identifies current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "What are greenhead flies and why are they a problem in Stevensville?",
+        answer:
+          "Greenhead flies are a salt marsh biting fly common on the Chesapeake's Eastern Shore, active from late June through August. They breed in the tidal marsh grass surrounding Kent Island, bite during the day rather than at dusk like mosquitoes, and deliver a notably painful bite. Avoiding dark clothing and heavy activity near marsh edges during peak weeks reduces exposure.",
+      },
+      {
+        question: "Why does Stevensville's mosquito season last longer than inland Queen Anne's County towns?",
+        answer:
+          "Stevensville sits directly on Kent Island's tidal marsh and the Chester River shoreline, both of which hold water and stay humid well into fall. That extends the mosquito season into October here, later than inland communities in the county see, and property-level standing water removal remains important throughout that whole window.",
+      },
+      {
+        question: "Is termite risk worse on Kent Island than elsewhere in Maryland?",
+        answer:
+          "It runs on the higher end of University of Maryland Extension's statewide moderate to high rating. Stevensville's constant Bay humidity and close-to-surface water table keep wood framing damper for longer than in drier inland towns, which is part of why annual inspection is worth prioritizing for the island's older, steamboat-era housing specifically.",
+      },
+      {
+        question: "Do Stevensville's newer subdivisions still have tick exposure?",
+        answer:
+          "Yes. The marsh grass and brushy edges common around Kent Island give ticks cover close to yards even in newer developments, and the island's mild, humid climate extends the active season from April through November, longer than colder inland parts of Maryland.",
+      },
+      {
+        question: "What is Stevensville's history as a steamboat terminal?",
+        answer:
+          "Stevensville was founded in 1850 as a steamboat terminal on Kent Island, and it grew substantially after the Chesapeake Bay Bridge's second span opened in 1973, connecting the Eastern Shore directly to the western side of the Bay. It is now Queen Anne's County's most populous community.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Towson", slug: "towson-md", stateSlug: "maryland" },
+      { name: "Dundalk", slug: "dundalk-md", stateSlug: "maryland" },
+      { name: "Thurmont", slug: "thurmont-md", stateSlug: "maryland" },
+      { name: "Brunswick", slug: "brunswick-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Stevensville, MD | Kent Island Exterminators",
+    metaDescription:
+      "Licensed pest control in Stevensville, MD. Mosquitoes, greenhead flies, termites and tick control for Kent Island near the Bay Bridge. Free inspection.",
+  },
 ];

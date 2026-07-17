@@ -250,13 +250,13 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 3 T3 in progress. Chunk 112 complete 2026-07-16. 2701 total city pages built (75 T1 + 300 T2 + 2326 T3). T2 COMPLETE.
-- **City pages built:** 2701. T1 complete (75). T2 complete (300). T3 in progress: 2326 built of ~5,000 target.
+- **Phase:** Phase 3 T3 in progress. Chunks 113-114 complete 2026-07-17. 2751 total city pages built (75 T1 + 300 T2 + 2376 T3). T2 COMPLETE.
+- **City pages built:** 2751. T1 complete (75). T2 complete (300). T3 in progress: 2376 built of ~5,000 target.
 - **State hub pages:** 51 (all states plus DC have a hub; 8 were added 2026-07-02, see SEO-BUILD-PLAN-2026-07-02.md).
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=552, B=515, C=555, D=537, E=542 (all within 15-25% target).
-- **Next block:** Chunk 113, T3 continues. Note: South Dakota, North Dakota, and Wyoming are now confirmed T3-exhausted (no real place over the 5,000 population floor remains unbuilt in any of the three); Montana is nearly there too.
-- **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=563, B=528, C=563, D=547, E=550 (all within 15-25% target).
+- **Next block:** Chunk 115, T3 continues. Note: South Dakota, North Dakota, and Wyoming are now confirmed T3-exhausted (no real place over the 5,000 population floor remains unbuilt in any of the three); Montana is nearly there too.
+- **Deploy:** Always push directly to `main` under normal operation; deploy.yml fires automatically and the site goes live on every push. **Exception, chunks 113-114 (2026-07-17):** this session's harness explicitly scoped work to branch `claude/ecstatic-fermat-20hzqg` and required never pushing elsewhere without explicit permission, which overrides this default for that one run. Those 50 pages are committed to that branch only, not `main`, and are not live until a human reviews and merges it.
 - **SEO remediation:** 2026-07-02, an SEO audit and build plan ran against this repo. Build restoration, sitemap/discoverability, dash sweep, and schema/trust cleanup are complete. See `SEO-AUDIT-2026-07-02.html` and `SEO-BUILD-PLAN-2026-07-02.md` for the full record and remaining Block 3 (answer-first content) work.
 - **Design and conversion audit:** 2026-07-03, a browser-based design and conversion audit ran against the live site across all 5 templates plus core static pages. Fixed sitewide dead nav links (4 new real service pages built, `services_count` now 27), a 48-vs-50-states contradiction, a crushed data-table column on Templates A/E, added a sitewide sticky mobile call bar and a lead form on every city template, gave Template D a real hero, and fixed a fabricated company history on the About page that contradicted the real site numbers by 20 to 40x. See `DESIGN-BUILD-PLAN-2026-07-03.md` for the full record.
 

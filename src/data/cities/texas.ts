@@ -16494,4 +16494,534 @@ export const texasCities: CityLocation[] = [
     metaTitle: "Pest Control in Rockport, TX | Mosquitoes, Termites & No-See-Ums",
     metaDescription: "Rockport TX pest control for mosquitoes, biting midges, termites, and fire ants near Aransas Bay. Free inspection for coastal Aransas County homes.",
   },
+  {
+    slug: "terrell-tx",
+    name: "Terrell",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~19,000",
+    county: "Kaufman County",
+    climate: "hot-humid",
+    climateDriver:
+      "Terrell sits in the blackland prairie of Kaufman County, about thirty miles east of Dallas, where heavy clay soil holds moisture long after rain and swells and cracks through the seasons. The Texas and Pacific Railway reached the site in 1873, and Terrell State Hospital, which opened in 1885 and grew into one of the largest psychiatric hospitals west of the Mississippi by 1920, still anchors the north side of town. That clay-heavy prairie soil, combined with the city's mix of century-old neighborhoods near downtown and newer subdivisions pushing out along the Dallas commute corridor, shapes which pests show up and where.",
+    topPests: ["Red Imported Fire Ants", "Subterranean Termites", "American Cockroaches", "Mosquitoes", "House Mice"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, mounds swell after rain",
+        note: "Kaufman County's blackland clay holds water after storms, and fire ant mounds rebuild fast in that moisture, showing up in lawns, along driveways, and in the open fields ringing Terrell's newer subdivisions.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through May",
+        note: "The same clay soil that swells and cracks around Terrell's foundations creates channels that subterranean termites use to reach wood framing, a particular risk in the pre-1950 homes near the historic downtown square.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer heat",
+        note: "American cockroaches move in from storm drains and crawl spaces during Terrell's hot, humid summers, and older homes near downtown with raised foundations see more activity than newer slab construction.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Standing water in drainage ditches and the low-lying creek bottoms that feed the Trinity River watershed give mosquitoes plenty of breeding habitat through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As temperatures drop, mice push into homes and outbuildings on the edges of town where farmland gives way to newer development, and into the older wood-frame houses near the hospital grounds.",
+      },
+    ],
+    localHook:
+      "Terrell grew up around the Texas and Pacific Railway line in 1873, and its heavy blackland clay soil, the same ground that made the surrounding farmland valuable and later helped anchor Terrell State Hospital's campus, holds rainwater long enough to keep fire ants and termites active for most of the year.",
+    intro:
+      "Pest control in Terrell starts with the ground itself. Kaufman County's blackland prairie clay swells when it rains and cracks when it dries, and that constant movement opens gaps around foundations that fire ants and subterranean termites both exploit. Terrell's history as a railroad town, founded in 1873 along the Texas and Pacific line, and later home to Terrell State Hospital, has left a mix of century-old homes near downtown and new subdivisions spreading along the Dallas commute corridor, and each type of housing brings its own pest pressure. Fire ant mounds appear fast in wet clay after storms. Older wood-frame homes near the hospital and downtown square carry more termite and cockroach risk than newer slab construction. Mosquitoes breed in the drainage ditches and creek bottoms that feed the Trinity River watershed. None of this is unusual for North Texas, but Terrell's specific mix of soil, housing age, and growth pattern determines where a technician looks first.",
+    sections: [
+      {
+        heading: "Why Terrell's clay soil keeps fire ants and termites active",
+        body: "Kaufman County sits on the blackland prairie, a band of heavy clay soil that runs from the Red River down through Central Texas. That clay absorbs and holds water differently than the sandy soils found further west, staying damp for days after a storm and then cracking into deep fissures as it dries out. Fire ants take advantage of the moisture to build and rebuild mounds quickly, especially in the open lots and drainage easements common in Terrell's newer subdivisions. Subterranean termites use the same cracks to travel between the soil and wood framing without ever breaking the surface, which is why older homes near the downtown square and the hospital grounds, many built before slab-on-grade construction became standard, see more termite activity than newer builds on the edge of town.",
+      },
+      {
+        heading: "Terrell's older housing stock and cockroach and rodent pressure",
+        body: "The neighborhoods surrounding Terrell State Hospital and the downtown square include some of the city's oldest housing, much of it built with raised pier-and-beam foundations rather than concrete slabs. Those crawl spaces, and the gaps they create around plumbing and utility lines, give American cockroaches and house mice an easy way inside, particularly as outdoor temperatures shift in summer and fall. Newer subdivisions on slab foundations see less of this pressure but are not immune, especially where construction sits close to farmland or drainage easements that support outdoor rodent populations.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks and utility gaps promptly since Kaufman County's clay soil movement reopens them season after season.",
+      "Keep mulch and soil beds a few inches below the brick or siding line on older pier-and-beam homes near downtown to reduce cockroach and termite access.",
+      "Clear standing water from drainage ditches, gutters, and low spots on the property, since Terrell's creek-bottom terrain holds water long after rain.",
+      "Schedule fire ant mound treatment after heavy rain events, when Kaufman County's clay soil moisture drives the fastest mound rebuilding.",
+    ],
+    costNote:
+      "Terrell homeowners typically pay $40 to $65 a month for a recurring general pest plan covering ants, cockroaches, and seasonal invaders, in line with the wider Dallas exurb market. Termite treatment is quoted separately after a free inspection, since clay-soil movement and foundation age both affect the price. Fire ant broadcast treatment for a standard lot runs about $80 to $150.",
+    faqs: [
+      {
+        question: "Why does Terrell have so many fire ant mounds after it rains?",
+        answer:
+          "Kaufman County sits on blackland prairie clay, which holds moisture for days after a storm. Fire ants use that damp soil to rebuild mounds quickly, which is why lawns and open lots around Terrell often show fresh mounds within a week of heavy rain.",
+      },
+      {
+        question: "Are older homes near Terrell State Hospital more prone to termites?",
+        answer:
+          "Yes. Many homes in the neighborhoods around the hospital and downtown square were built with pier-and-beam foundations before slab construction became standard, and the crawl spaces underneath give subterranean termites more points of contact with wood framing than a modern slab home has.",
+      },
+      {
+        question: "What time of year are mosquitoes worst in Terrell?",
+        answer:
+          "Mosquito activity in Terrell typically runs from March through October, driven by standing water in drainage ditches and the low-lying creek bottoms that feed the Trinity River watershed. Eliminating standing water around the property is the most effective first step.",
+      },
+      {
+        question: "Do I need termite treatment if my Terrell home is on a slab foundation?",
+        answer:
+          "Slab foundations reduce but do not eliminate termite risk. Kaufman County's clay soil still cracks and shifts around slab edges, giving subterranean termites access points near plumbing penetrations and expansion joints. A free inspection is the best way to check.",
+      },
+      {
+        question: "How fast do fire ant mounds come back after treatment in Terrell?",
+        answer:
+          "Broadcast bait treatments typically suppress a fire ant colony for several weeks to a few months, but Kaufman County's clay soil and moisture levels mean new colonies can move into treated areas after significant rain. Seasonal retreatment, especially in spring and after major storms, keeps mounds down.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Kilgore", slug: "kilgore-tx", stateSlug: "texas" },
+      { name: "Andrews", slug: "andrews-tx", stateSlug: "texas" },
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Burnet", slug: "burnet-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Terrell, TX | Kaufman County Exterminators",
+    metaDescription: "Licensed pest control in Terrell, TX. Fire ants, termites, cockroaches, and mosquitoes in Kaufman County. Free inspection.",
+  },
+  {
+    slug: "kilgore-tx",
+    name: "Kilgore",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~13,500",
+    county: "Gregg County (extends into Rusk County)",
+    climate: "hot-humid",
+    climateDriver:
+      "Kilgore sits in the East Texas piney woods across southern Gregg County and northern Rusk County, where thick pine and hardwood forest and average annual rainfall over 45 inches keep the ground consistently damp. The town's identity was built on the 1930 discovery of the East Texas Oil Field, and at the height of the boom more than 1,100 derricks stood within the city limits, including the concentration downtown known as the World's Richest Acre. Many of Kilgore's neighborhoods still sit on lots platted during that 1930s boom, with older wood-frame construction close to mature pine tree cover.",
+    topPests: ["Eastern Subterranean Termites", "Carpenter Ants", "Fire Ants", "Mosquitoes", "Ticks"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Kilgore's heavy East Texas rainfall and the wood-frame homes built during the 1930s oil boom, many close to mature pine cover, create steady moisture and wood contact that eastern subterranean termites depend on.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring and summer",
+        note: "The mature pine and hardwood forest surrounding Kilgore supplies a constant source of dead and moisture-damaged wood, and carpenter ants move from that timber into structures, particularly older homes with wood trim close to tree lines.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants thrive in the open lots and yards throughout Kilgore, and East Texas's higher rainfall compared to the western part of the state supports larger, more persistent colonies than drier regions see.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Kilgore's high humidity and dense tree cover give mosquitoes an extended breeding season in low-lying drainage compared to drier parts of Texas.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "The wooded lots and brush common around Kilgore properties, a legacy of the piney woods terrain the city was built into, put pets and people at higher tick exposure risk than in more open, developed parts of the state.",
+      },
+    ],
+    localHook:
+      "Kilgore was built almost overnight after the 1930 discovery of the East Texas Oil Field, and at the height of the boom the block downtown known as the World's Richest Acre held the densest concentration of oil derricks in the world. That rapid 1930s construction boom, combined with Kilgore's heavy piney woods rainfall, left a lasting mix of older wood-frame homes and thick tree cover that still shapes the city's termite and carpenter ant pressure today.",
+    intro:
+      "Kilgore's pest pressure traces straight back to the town's oil boom origins and its position deep in the East Texas piney woods. The 1930 discovery of the East Texas Oil Field turned Kilgore from a small rail stop into a boomtown almost overnight, and many of the neighborhoods built during that rush still stand today: wood-frame construction set close to the pine and hardwood forest that gives this part of Texas over 45 inches of rain a year. That combination of older wood construction and heavy, consistent moisture is exactly what eastern subterranean termites and carpenter ants need. Fire ants and mosquitoes add to the picture in warmer months, and the wooded lots common across Kilgore mean tick exposure is a real concern for anyone spending time outdoors. This is a different pest profile than the drier cities of Central and West Texas, driven by rainfall and tree cover rather than heat and dryness.",
+    sections: [
+      {
+        heading: "How Kilgore's oil boom history shaped its termite risk",
+        body: "When the East Texas Oil Field came in during 1930, Kilgore's population exploded and housing went up fast to keep pace, much of it wood-frame construction on modest lots close to the pine forest the town was carved out of. Nearly a century later, many of those homes and the neighborhoods that grew up around them still stand, and the combination of aging wood construction, East Texas's heavy year-round rainfall, and proximity to forest cover creates ideal conditions for eastern subterranean termites. Termite swarms typically appear in Kilgore between February and April, and any home with wood-to-soil contact, old form boards left in place from original construction, or a crawl space close to tree roots carries elevated risk. A soil-applied liquid barrier treatment or bait system, installed after a free inspection, is the standard defense.",
+      },
+      {
+        heading: "Carpenter ants and the piney woods forest edge",
+        body: "Kilgore's setting inside the East Texas piney woods means most properties sit close to mature pine and hardwood trees, and that forest supplies a constant stream of moisture-damaged and decaying wood that carpenter ants use to build satellite colonies. Unlike termites, carpenter ants do not eat wood, they excavate it for nesting space, which means their presence often signals an existing moisture problem such as a leaking roofline or damaged siding. Homeowners who notice sawdust-like debris near window frames, deck posts, or eaves should treat it as an early warning sign rather than a cosmetic issue.",
+      },
+    ],
+    prevention: [
+      "Address roof leaks and damaged siding quickly, since carpenter ants nest in existing moisture damage rather than sound wood.",
+      "Keep firewood and tree debris stacked away from the foundation, given how close most Kilgore lots sit to piney woods forest cover.",
+      "Schedule a termite inspection every one to two years for homes built during or shortly after the 1930s oil boom, especially those with original wood-to-soil contact points.",
+      "Clear standing water and check gutters regularly through the extended March-to-November mosquito season East Texas humidity produces.",
+    ],
+    costNote:
+      "Kilgore pest control runs $40 to $60 a month for a general plan, in line with the wider East Texas piney woods region. Termite treatment is quoted separately after a free inspection, since the extent of any wood-to-soil contact and the age of the structure both affect the price. Carpenter ant treatment for an active colony typically costs more than a routine ant service because of the need to locate and treat the nest directly.",
+    faqs: [
+      {
+        question: "Does Kilgore's oil boom history still affect pest control today?",
+        answer:
+          "Indirectly, yes. The rapid construction that followed the 1930 East Texas Oil Field discovery left Kilgore with a large stock of wood-frame homes nearly a century old, many close to the pine forest the town grew up in. That combination of aging wood construction and heavy East Texas rainfall is exactly what drives the city's elevated termite and carpenter ant activity.",
+      },
+      {
+        question: "How do I tell carpenter ants from termites in my Kilgore home?",
+        answer:
+          "Carpenter ants leave behind smooth, sawdust-like debris called frass near their nesting sites, since they excavate wood rather than eat it. Termite damage looks different: wood often appears hollowed out along the grain with a honeycomb pattern, and termites do not leave debris outside their tunnels. A technician can confirm which pest is present during a free inspection.",
+      },
+      {
+        question: "Why are ticks a bigger concern in Kilgore than in Dallas or Houston?",
+        answer:
+          "Kilgore sits inside the East Texas piney woods, and most residential lots border wooded or brushy terrain rather than open, mowed development. That forest edge habitat supports higher tick populations than the more developed suburban terrain typical of larger metro areas.",
+      },
+      {
+        question: "When do termites swarm in Kilgore?",
+        answer:
+          "Termite swarms in Kilgore and the surrounding Gregg and Rusk County area typically occur between February and April, when warm, humid conditions after rain trigger winged reproductives to leave the colony. Seeing discarded wings near windowsills or doors is a strong sign of an active colony nearby.",
+      },
+      {
+        question: "Is fire ant pressure worse in Kilgore than in West Texas?",
+        answer:
+          "Yes. East Texas's higher year-round rainfall, well over 45 inches annually around Kilgore compared to under 20 inches in much of West Texas, supports larger and more persistent fire ant colonies. Mounds rebuild faster here after treatment than in drier parts of the state.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Terrell", slug: "terrell-tx", stateSlug: "texas" },
+      { name: "Andrews", slug: "andrews-tx", stateSlug: "texas" },
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Burnet", slug: "burnet-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Kilgore, TX | Gregg & Rusk County Exterminators",
+    metaDescription: "Licensed pest control in Kilgore, TX. Termites, carpenter ants, fire ants, and ticks in the East Texas piney woods. Free inspection.",
+  },
+  {
+    slug: "andrews-tx",
+    name: "Andrews",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~13,700",
+    county: "Andrews County (county seat)",
+    climate: "semi-arid",
+    climateDriver:
+      "Andrews sits at roughly 3,000 to 3,400 feet on the southern High Plains of the Permian Basin, where the Koppen classification marks the area as semi-arid and average annual rainfall is under 15 inches. Sandy soils dominate most of Andrews County, giving way to red clay loam only in the east, and that dry, sandy ground supports the oil and gas economy that has defined the city, along with shortgrass prairie and shinnery oak rangeland, since the Permian Basin boom reached the area.",
+    topPests: ["Striped Bark Scorpions", "Black Widow Spiders", "Woodrats", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October",
+        note: "Andrews County's sandy, semi-arid ground and the shortgrass prairie surrounding the city give striped bark scorpions abundant daytime shelter, and they move into garages and homes at night searching for moisture.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widows favor the same dry, undisturbed spaces striped bark scorpions use, and oil-field equipment yards, sheds, and stacked pipe around Andrews' work sites create ideal harborage.",
+      },
+      {
+        name: "Woodrats (packrats)",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, worst in fall",
+        note: "Woodrats build large stick-and-debris nests in the sandy shinnery oak country around Andrews, and those nests move into sheds, vehicles, and outbuildings as the weather cools.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer heat",
+        note: "American cockroaches enter Andrews homes and commercial buildings from outdoor harborage during the driest, hottest stretch of summer, seeking the moisture indoor plumbing provides.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, tied to rain events",
+        note: "Fire ants are present in Andrews but far less dense than in humid East Texas, since the county's under-15-inch annual rainfall limits colony expansion; mounds appear mainly after the occasional heavy rain event.",
+      },
+    ],
+    localHook:
+      "Andrews sits on the sandy, semi-arid southern High Plains at the heart of the Permian Basin, where under 15 inches of annual rainfall and sandy soils that support shinnery oak rangeland create conditions where scorpions and black widow spiders are a routine household pest rather than a rare encounter.",
+    intro:
+      "Pest control in Andrews follows the same script as much of the Permian Basin: a dry, semi-arid climate and sandy soil that favor a small set of hardy desert-adapted species over the broader pest list found in humid East Texas. Striped bark scorpions and black widow spiders are the two species that define pest management here, both thriving in the sandy, undisturbed ground and the oil-field equipment yards scattered around the city. Woodrats build large stick nests in the shinnery oak country surrounding Andrews and move into sheds and vehicles as temperatures drop. American cockroaches push indoors during peak summer heat looking for moisture, and fire ants are present but thinner on the ground than in wetter parts of the state, since Andrews County gets under 15 inches of rain most years. This is a smaller, more specific pest list than a Houston or Dallas home deals with, but each species on it requires real attention.",
+    sections: [
+      {
+        heading: "Scorpions and black widows in Andrews' oil-field-adjacent housing",
+        body: "Andrews County's sandy, semi-arid terrain, sitting between 3,000 and 3,400 feet on the southern High Plains, gives striped bark scorpions and black widow spiders the dry, crevice-rich habitat they favor. Both species shelter during the day in cracks, woodpiles, and undisturbed storage, then forage or hunt at night, which is when most homeowners encounter them indoors, in garages, or near stacked equipment. Because Andrews' economy runs on oil and gas work, many properties have sheds, pipe yards, or work vehicles that sit undisturbed for stretches of time, exactly the kind of harborage both species use. A perimeter treatment combined with sealing weep holes and utility gaps reduces indoor encounters significantly.",
+      },
+      {
+        heading: "Why woodrats are a bigger issue in Andrews than in wetter parts of Texas",
+        body: "The shinnery oak and mesquite rangeland surrounding Andrews supports a healthy woodrat population, and these rodents build large, visible stick-and-debris nests, sometimes called middens, in brush piles, under sheds, and around outbuildings. As cooler fall weather sets in, woodrats move closer to structures and sometimes into vehicles or storage buildings left undisturbed. Removing brush piles near the home, sealing gaps under sheds, and trapping active middens are the standard response, since woodrats are larger and more persistent than house mice and often require targeted removal rather than routine bait stations.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and utility gaps with wire mesh to block scorpion and cockroach entry into Andrews homes.",
+      "Check stored equipment, work boots, and gloves in sheds and pipe yards given the black widow and scorpion presence common around oil-field work sites.",
+      "Clear brush piles and debris near the foundation, since Andrews County's shinnery oak terrain supports large woodrat populations that build nests close to structures.",
+      "Treat fire ant mounds promptly after the occasional heavy rain event, when Andrews' typically dry soil briefly supports faster colony expansion.",
+    ],
+    costNote:
+      "Andrews pest control typically runs $40 to $65 a month for a recurring plan covering scorpions, spiders, and cockroaches, similar to pricing elsewhere in the Permian Basin. Woodrat removal, including midden cleanup, usually costs $100 to $250 depending on how many nests are found. A free inspection gives an exact quote based on the property and its proximity to brush or equipment yards.",
+    faqs: [
+      {
+        question: "Are striped bark scorpions dangerous in Andrews?",
+        answer:
+          "Striped bark scorpions are the species found throughout the Permian Basin, including Andrews County. Their sting is painful and produces localized swelling and burning, but is rarely dangerous for a healthy adult. Children, older adults, and anyone with a known allergic reaction should be monitored more closely after a sting.",
+      },
+      {
+        question: "Why do I have woodrat nests near my Andrews property?",
+        answer:
+          "Andrews County's sandy shinnery oak rangeland supports a healthy woodrat population, and these rodents build large stick-and-debris nests in brush piles, under sheds, and around outbuildings. As temperatures drop in fall, woodrats move closer to structures looking for shelter, which is why nests often appear near homes and equipment yards this time of year.",
+      },
+      {
+        question: "Are fire ants as big a problem in Andrews as in Houston?",
+        answer:
+          "No. Andrews County receives under 15 inches of rain in an average year, compared to over 45 inches in the Houston area, and that limited moisture restricts fire ant colony expansion significantly. Mounds are still present and appear mainly after heavy rain events, but colony density here is far lower than in humid East Texas.",
+      },
+      {
+        question: "How do black widow spiders get into Andrews homes and sheds?",
+        answer:
+          "Black widows favor dry, undisturbed spaces, and the equipment yards, pipe storage, and sheds common on oil-field-adjacent Andrews properties provide exactly that kind of harborage. They typically enter structures through gaps around doors, vents, and utility penetrations, and are most often found in garages, under stacked material, or in outdoor storage.",
+      },
+      {
+        question: "What time of year are scorpions worst in Andrews?",
+        answer:
+          "Striped bark scorpion activity in Andrews runs roughly April through October, with the heaviest indoor encounters during the hottest summer stretch when scorpions move toward moisture. Sealing weep holes and utility gaps before the season starts reduces indoor sightings substantially.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Terrell", slug: "terrell-tx", stateSlug: "texas" },
+      { name: "Kilgore", slug: "kilgore-tx", stateSlug: "texas" },
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Burnet", slug: "burnet-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Andrews, TX | Permian Basin Exterminators",
+    metaDescription: "Licensed pest control in Andrews, TX. Scorpions, black widow spiders, woodrats, and cockroaches in the Permian Basin. Free inspection.",
+  },
+  {
+    slug: "dumas-tx",
+    name: "Dumas",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~14,500",
+    county: "Moore County (county seat)",
+    climate: "semi-arid",
+    climateDriver:
+      "Dumas sits roughly 50 miles north of Amarillo in Moore County, on the semi-arid Texas Panhandle high plains. The county is one of the state's leading grain sorghum producing areas and hosts some of the highest concentrations of cattle feedlots in the country, alongside grain elevators and natural gas production. That agricultural base, combined with cold winters and low humidity, drives a pest profile centered on flies, grain-associated pests, and rodents rather than the humid-climate pests common in East Texas.",
+    topPests: ["House Flies", "Deer Mice", "Paper Wasps", "Boxelder Bugs", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, worst near feedlot operations",
+        note: "Moore County's cattle feedlot industry, among the largest concentrations in the country, produces heavy fly pressure that spreads into surrounding neighborhoods and commercial properties during warm months.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The grain elevators and sorghum farmland surrounding Dumas support a large rodent population, and deer mice push into homes, outbuildings, and storage structures as Panhandle winters set in.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "Barns, equipment sheds, and grain storage structures common around Dumas properties give paper wasps ample nesting sites, and colonies grow through the summer agricultural season.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs gather on sun-warmed exterior walls each fall looking for a place to overwinter, a pattern seen across the Panhandle's high plains as temperatures start to drop earlier than in southern Texas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, tied to grain storage and moisture",
+        note: "American cockroaches establish around grain elevators, feed stores, and agricultural buildings throughout Moore County, and move into nearby homes and businesses seeking food and moisture.",
+      },
+    ],
+    localHook:
+      "Dumas sits at the center of one of the country's densest concentrations of cattle feedlots, alongside major grain sorghum farming and grain elevator operations, and that agricultural economy drives the town's fly and rodent pressure in a way that sets it apart from pest control in Texas cities without a working feedlot and grain industry nearby.",
+    intro:
+      "Pest control in Dumas is shaped directly by the agriculture that built the town. Moore County is home to some of the highest concentrations of cattle feedlots in the United States, along with major grain sorghum production and grain elevator operations, and that combination produces heavy fly pressure and rodent activity unlike what a homeowner in Austin or San Antonio deals with. House flies breeding in and around feedlot operations spread into residential and commercial areas during warm months. Deer mice move from the surrounding grain and sorghum fields into homes and outbuildings as Panhandle winters arrive. Paper wasps nest readily in the barns and equipment sheds common on Dumas properties, and boxelder bugs gather on exterior walls each fall as the high plains cool down earlier than southern Texas. American cockroaches establish around grain storage and move into nearby structures. This is agricultural-economy pest pressure, and it calls for a different approach than a suburban Dallas or Houston pest plan.",
+    sections: [
+      {
+        heading: "Why fly pressure is higher in Dumas than in most Texas cities",
+        body: "Moore County's cattle feedlot industry is one of the largest in the country, and feedlot operations are a well-documented source of heavy house fly and stable fly breeding, particularly through the warmer months. Flies disperse from these operations into surrounding residential neighborhoods and commercial properties, and wind direction and proximity to feedlot operations both affect how much pressure a given Dumas property sees. Reducing outdoor attractants such as pet waste and open trash, combined with exterior fly bait stations and door and window screening in good repair, are the standard residential response. Commercial properties near agricultural operations often need a more aggressive perimeter fly control program.",
+      },
+      {
+        heading: "Deer mice, grain storage, and the Panhandle's cold winter push",
+        body: "Dumas sits in the middle of major grain sorghum farmland, and the grain elevators and storage structures throughout Moore County support large rodent populations, including deer mice. As Panhandle winters arrive earlier and colder than in most of Texas, mice push into homes, garages, and outbuildings searching for shelter and food. Deer mice are a known hantavirus carrier, and any Dumas resident cleaning out a rarely used shed, barn, or storage structure should ventilate the space first and avoid dry sweeping, which can stir up contaminated dust. Sealing foundation gaps and garage door thresholds before the fall cold arrives is the most effective prevention step.",
+      },
+    ],
+    prevention: [
+      "Reduce outdoor attractants like pet waste and open trash containers, given the elevated fly pressure from Moore County's feedlot operations.",
+      "Seal foundation gaps and garage door thresholds before the Panhandle's early, cold fall arrives, since deer mice push indoors as temperatures drop.",
+      "Inspect barns, equipment sheds, and grain storage structures for paper wasp nests each spring before colonies grow through the summer.",
+      "Caulk gaps around windows and siding before September, when boxelder bugs begin gathering on sun-warmed exterior walls looking for overwintering sites.",
+    ],
+    costNote:
+      "Dumas pest control runs about $40 to $60 a month for a general residential plan, though properties near feedlot or grain storage operations often need a more intensive fly and rodent program priced separately after a free inspection. Wasp nest removal from barns and sheds typically runs $100 to $200 depending on nest size and accessibility.",
+    faqs: [
+      {
+        question: "Why does Dumas have more flies than other Texas towns its size?",
+        answer:
+          "Moore County is home to some of the highest concentrations of cattle feedlots in the country, and feedlot operations are a documented source of heavy fly breeding during warm months. Flies disperse from these operations into surrounding residential and commercial areas, which is why fly pressure in Dumas often runs higher than in a similarly sized city without a nearby feedlot industry.",
+      },
+      {
+        question: "Do deer mice around Dumas carry hantavirus?",
+        answer:
+          "Deer mice are one of the primary hantavirus carriers in the United States and are common in the grain and sorghum farmland surrounding Dumas. The main risk comes from disturbing dust in rarely used sheds, barns, or storage buildings where mice have been active. Airing out the space and using a wet cleaning method rather than dry sweeping reduces the risk.",
+      },
+      {
+        question: "When do boxelder bugs show up in Dumas?",
+        answer:
+          "Boxelder bugs typically begin gathering on sun-warmed exterior walls in Dumas from September through November, as the Panhandle's high plains cool down earlier than southern Texas. They are a nuisance pest rather than a structural threat, but large numbers gathering on siding and around windows are common each fall.",
+      },
+      {
+        question: "Are paper wasps a problem in Dumas barns and sheds?",
+        answer:
+          "Yes. The barns, equipment sheds, and grain storage structures common on Dumas properties give paper wasps abundant nesting sites, and colonies build through the agricultural season from May through September. Inspecting these structures each spring, before colonies grow large, is the most effective prevention step.",
+      },
+      {
+        question: "Why do American cockroaches show up near grain elevators in Dumas?",
+        answer:
+          "American cockroaches are drawn to the food source and moisture that grain elevators, feed stores, and agricultural storage buildings provide throughout Moore County. Populations that establish around these facilities can move into nearby homes and businesses, particularly in the fall when outdoor conditions become less favorable.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Terrell", slug: "terrell-tx", stateSlug: "texas" },
+      { name: "Kilgore", slug: "kilgore-tx", stateSlug: "texas" },
+      { name: "Andrews", slug: "andrews-tx", stateSlug: "texas" },
+      { name: "Burnet", slug: "burnet-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dumas, TX | Moore County Panhandle Exterminators",
+    metaDescription: "Licensed pest control in Dumas, TX. Flies, rodents, wasps, and cockroaches near Panhandle feedlots and grain operations. Free inspection.",
+  },
+  {
+    slug: "burnet-tx",
+    name: "Burnet",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~6,900",
+    county: "Burnet County (county seat)",
+    climate: "semi-arid",
+    climateDriver:
+      "Burnet sits in the Texas Hill Country on the Edwards Plateau, about 60 miles northwest of Austin, where pink granite outcrops and the chain of Highland Lakes, including nearby Inks Lake and Lake Buchanan on the Colorado River, shape the terrain. The semi-arid limestone and granite ground, combined with the thick cedar and oak brush typical of the Hill Country, creates habitat for ticks, scorpions, and fire ants that differs from both the humid pine forests of East Texas and the flat farmland of the Panhandle.",
+    topPests: ["Ticks", "Striped Bark Scorpions", "Fire Ants", "Mosquitoes", "Field Mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "The cedar and oak brush covering much of Burnet County gives ticks, including the lone star tick, dense cover close to homes and trails, and pets and hikers around Longhorn Cavern State Park and the surrounding Hill Country face regular exposure.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October",
+        note: "Burnet's granite outcrops, the same pink granite exposed at nearby Inks Lake, provide the rock crevices striped bark scorpions use for daytime shelter before moving toward homes at night.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants are established throughout the irrigated lawns and developed areas around Burnet, though the rocky limestone soil common across the Hill Country limits colony density compared to the blackland prairie further east.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Highland Lakes chain surrounding Burnet, including Inks Lake and Lake Buchanan on the Colorado River, gives mosquitoes reliable breeding water through most of the year, especially in shoreline vegetation and low-flow coves.",
+      },
+      {
+        name: "Field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As cooler weather arrives, field mice move from the brushy Hill Country terrain surrounding Burnet into garages, sheds, and homes on the edges of town looking for shelter.",
+      },
+    ],
+    localHook:
+      "Burnet sits where the granite of the Llano Uplift meets the limestone of the Edwards Plateau, the same pink granite exposed nine miles west at Inks Lake State Park, and that mix of rock crevices and thick Hill Country cedar brush gives both scorpions and ticks more habitat close to town than a typical Central Texas suburb sees.",
+    intro:
+      "Burnet's position in the Texas Hill Country, where granite outcrops meet limestone plateau about 60 miles northwest of Austin, shapes a pest profile built around rock and brush rather than humidity or farmland. Striped bark scorpions use the area's granite crevices, the same pink granite visible at nearby Inks Lake State Park, as daytime shelter before moving toward homes at night. Ticks thrive in the thick cedar and oak brush that covers much of Burnet County, putting pets and anyone hiking near Longhorn Cavern State Park or the Highland Lakes trails at real risk through the warm months. Fire ants are present in developed, irrigated areas but held back somewhat by the county's rocky limestone soil. Mosquitoes breed reliably along the shoreline of Inks Lake, Lake Buchanan, and the other Highland Lakes on the Colorado River. Field mice push toward structures as Hill Country temperatures drop in fall. Each of these species ties directly to Burnet's specific geology and terrain.",
+    sections: [
+      {
+        heading: "How Burnet's granite outcrops shelter scorpions",
+        body: "Burnet sits at a geological boundary point, where the exposed pink granite of the Llano Uplift, the same rock visible at Inks Lake State Park nine miles west of town, meets the limestone of the Edwards Plateau. Striped bark scorpions use the cracks and crevices in both rock types as daytime shelter, then forage at night, often ending up near or inside homes built close to rock outcrops or using native stone in their construction. A property with exposed granite or limestone features, retaining walls, or stacked rock close to the structure carries a higher scorpion risk than a home set further back on cleared, graded ground. Sealing weep holes and gaps where utility lines enter the home reduces indoor encounters.",
+      },
+      {
+        heading: "Ticks in the Hill Country cedar and oak brush around Burnet",
+        body: "Much of Burnet County outside the developed parts of town is covered in thick Ashe juniper, commonly called cedar, and live oak brush, exactly the cover ticks use to wait for a host to brush past. The lone star tick is well established throughout the Texas Hill Country and is active from spring through fall, with pets and hikers near Longhorn Cavern State Park and the trails around the Highland Lakes facing the most consistent exposure. Regular yard maintenance that clears brush and tall grass near the home, combined with a perimeter tick treatment before the spring season starts, reduces the risk of ticks establishing close to the house.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and utility gaps on homes built with or near exposed granite or limestone, since Burnet's rock outcrops shelter scorpions close to structures.",
+      "Clear cedar and oak brush and mow tall grass regularly near the home, given the tick habitat that covers much of Burnet County outside developed areas.",
+      "Check pets for ticks after time spent near Longhorn Cavern State Park, the Highland Lakes trails, or any brushy Hill Country terrain.",
+      "Eliminate standing water near Inks Lake, Lake Buchanan, or any shoreline property, since these are consistent mosquito breeding sites through most of the year.",
+    ],
+    costNote:
+      "Burnet pest control typically runs $45 to $70 a month for a general plan covering scorpions, ticks, and fire ants, slightly above the statewide average given the extra attention granite and limestone properties require for scorpion exclusion. Tick treatment for brushy lots near Hill Country trails is often priced as an add-on to a standard plan. A free inspection gives homeowners an exact quote.",
+    faqs: [
+      {
+        question: "Why are scorpions common in Burnet homes built near rock outcrops?",
+        answer:
+          "Burnet sits where the granite of the Llano Uplift meets the limestone of the Edwards Plateau, and striped bark scorpions use cracks in both rock types as daytime shelter. Homes built close to exposed granite, limestone retaining walls, or stacked rock landscaping give scorpions an easy path from natural rock crevices into the structure.",
+      },
+      {
+        question: "How bad are ticks near Longhorn Cavern State Park and the Burnet trails?",
+        answer:
+          "The lone star tick is well established throughout the Hill Country cedar and oak brush that surrounds Burnet, and pets and hikers using the trails near Longhorn Cavern State Park or the Highland Lakes face consistent exposure from spring through fall. Checking for ticks after any time spent in brushy terrain and keeping yard brush cleared near the home are the most effective precautions.",
+      },
+      {
+        question: "Do the Highland Lakes make mosquitoes worse in Burnet?",
+        answer:
+          "Yes. Inks Lake, Lake Buchanan, and the other lakes in the Highland Lakes chain on the Colorado River give mosquitoes reliable breeding water through most of the year, especially in shoreline vegetation and slow-moving coves. Properties near the lakeshore typically see more mosquito pressure than homes further from water.",
+      },
+      {
+        question: "Are fire ants as dense in Burnet as in Austin?",
+        answer:
+          "Somewhat less. Fire ants are established in Burnet's developed and irrigated areas, but the rocky limestone soil common across the Hill Country limits colony density compared to the deeper, moisture-holding soils found in and around Austin. Mounds are still a regular sight on lawns and in open lots.",
+      },
+      {
+        question: "What time of year should I treat for scorpions in Burnet?",
+        answer:
+          "Striped bark scorpion activity in Burnet runs roughly April through October, with the heaviest indoor encounters during the hottest summer months. Sealing weep holes and rock-adjacent gaps before scorpion season starts in spring gives the best results.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Terrell", slug: "terrell-tx", stateSlug: "texas" },
+      { name: "Kilgore", slug: "kilgore-tx", stateSlug: "texas" },
+      { name: "Andrews", slug: "andrews-tx", stateSlug: "texas" },
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Burnet, TX | Hill Country Exterminators",
+    metaDescription: "Licensed pest control in Burnet, TX. Scorpions, ticks, fire ants, and mosquitoes in the Texas Hill Country. Free inspection.",
+  },
 ];

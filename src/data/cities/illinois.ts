@@ -11019,4 +11019,534 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Yorkville, IL pest control for Fox River mosquitoes, downtown termites, new-subdivision mice and moraine-hill carpenter ants. Kendall County service. Free inspection.",
   },
+  {
+    slug: "pontiac-il",
+    name: "Pontiac",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~11,100",
+    county: "Livingston County (county seat)",
+    climate: "cold-humid",
+    climateDriver:
+      "Pontiac sits on the Vermilion River in the flat corn and soybean country of Livingston County, about ninety miles southwest of Chicago along old Route 66. Cold, snowy winters and humid summers are typical of central Illinois, and the farmland surrounding the city pushes rodents toward town every fall as fields are cut.",
+    topPests: ["House Mice", "Cluster Flies", "Boxelder Bugs", "Eastern Subterranean Termites", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "When the surrounding corn and soybean fields are harvested each October, mice lose their outdoor cover fast and move toward the nearest structure, which in Pontiac often means older homes near the historic downtown square.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October, reappearing on warm winter days",
+        note: "Cluster flies breed in earthworm-rich farmland soil around Pontiac and then seek out sun-warmed exterior walls in early fall, slipping into attics and wall voids where they stay dormant until a mild afternoon wakes them up indoors.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder trees along the Vermilion River corridor host large boxelder bug populations that migrate to south-facing walls as temperatures drop, often congregating by the hundreds on light-colored siding near downtown.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Pontiac's downtown includes brick and wood-frame buildings dating back over a century, some tied to the city's Route 66 heritage, and older wood framing without a modern termite barrier carries real long-term risk.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late spring through summer",
+        note: "Rural and semi-rural properties on Pontiac's edges give paper wasps plenty of eave lines, sheds, and fence posts to build on, and nests are often not noticed until they're the size of a fist.",
+      },
+    ],
+    localHook:
+      "Pontiac sits directly on the old Route 66 alignment through Livingston County, and the fields that surround the city on every side are exactly why fall rodent pressure hits town so hard once harvest starts.",
+    intro:
+      "Pest control in Pontiac, Illinois follows the farm calendar as much as the weather. Livingston County's corn and soybean fields ring the city on every side, and when combines start rolling each October, field mice and voles that lost their cover head straight for the nearest foundation. Add a historic downtown with genuinely old wood-frame construction along the Route 66 corridor, a river running through town that feeds the boxelder trees, and a mild but humid central Illinois summer, and you get a pest calendar that shifts hard from outdoor nuisance bugs to indoor rodent pressure right around the first frost. Homeowners here do best when they treat the harvest, not the thermometer, as the trigger for fall pest prep.",
+    sections: [
+      {
+        heading: "Why does harvest season bring mice into Pontiac homes?",
+        body: "Livingston County is heavily planted in corn and soybeans, and Pontiac sits right in the middle of that farmland. Field mice and voles live in the crop rows all summer with plenty of food and cover. Once combines strip the fields bare in September and October, that cover disappears overnight, and the nearest warm structure, often a house on the edge of town, becomes the obvious next stop. Sealing foundation gaps before harvest wraps up beats waiting until mice are already inside.",
+      },
+      {
+        heading: "What makes downtown Pontiac's older buildings a termite concern?",
+        body: "Pontiac's downtown square and several residential blocks nearby include wood-frame and brick construction that predates modern termite barriers, some of it connected to the city's long history along Route 66. Eastern subterranean termites work silently through wood-to-soil contact points and can be active for years before visible damage shows. An annual inspection is the only reliable way to catch a colony early in a building this age. Termite inspections for downtown or historic Pontiac properties are usually offered at no cost, with treatment quoted afterward based on the extent of activity found.",
+      },
+      {
+        heading: "Why are boxelder bugs such a visible fall problem here?",
+        body: "The Vermilion River corridor that runs through Pontiac supports mature boxelder trees, and boxelder bugs that feed on their seed pods all summer look for a warm, light-colored wall to overwinter on once temperatures drop. South and west-facing siding near downtown and along the riverfront can end up covered in clusters by late September. They're a nuisance rather than a structural threat, but sealing gaps around windows and siding keeps them from getting inside.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before the fall harvest strips nearby fields bare, when mice pressure spikes hardest.",
+      "Caulk around windows, siding, and soffits on south and west-facing walls to reduce fall boxelder bug and cluster fly entry.",
+      "Have older downtown and Route 66-corridor properties inspected annually for termite activity given the age of the wood framing.",
+      "Knock down small paper wasp nests on sheds, fences, and eaves early in summer before colonies grow large.",
+    ],
+    costNote:
+      "Pest control in Pontiac generally runs $75 to $130 for a general inspection and treatment. Fall rodent exclusion and sealing packages for homes near farmland typically cost $250 to $500 depending on the number of entry points. Termite inspections for downtown or historic properties are usually free, with treatment quoted after the inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why do I get mice in my Pontiac house every October?",
+        answer: "Livingston County's corn and soybean harvest strips the fields around Pontiac bare in late September and October, and field mice that lose their outdoor cover move toward the nearest structure. Sealing gaps before harvest finishes is more effective than waiting until mice are already inside the walls.",
+      },
+      {
+        question: "Should older homes near downtown Pontiac worry about termites?",
+        answer: "Yes. Pontiac's downtown and several nearby residential blocks include wood-frame construction dating back over a century, some of it tied to the city's Route 66 history. That age, combined with older foundations that may lack a modern termite barrier, is a real risk. An annual inspection is the standard recommendation.",
+      },
+      {
+        question: "Why are there so many boxelder bugs on my siding in Pontiac in the fall?",
+        answer: "The Vermilion River corridor through Pontiac supports mature boxelder trees, and the bugs that feed on their seed pods all summer cluster on warm, light-colored walls once fall arrives, looking for a place to overwinter. Sealing gaps around windows and siding is the most effective prevention.",
+      },
+      {
+        question: "Do I need year-round pest control in Pontiac, or just seasonal treatment?",
+        answer: "Most Pontiac homes do well with a seasonal approach: fall exclusion work for mice, cluster flies, and boxelder bugs, plus a termite check timed to spring swarms. Year-round monthly plans make more sense for properties directly bordering farmland with heavier pressure.",
+      },
+      {
+        question: "What time of year do paper wasps build nests in Pontiac?",
+        answer: "Paper wasp queens start new nests in late spring, and colonies grow through the summer on sheds, eaves, and fence lines, especially on the more rural edges of Pontiac. Checking these spots in May and June, before nests grow large, makes removal simpler and safer.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Olney", slug: "olney-il", stateSlug: "illinois" },
+      { name: "Chester", slug: "chester-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pontiac, IL | Livingston County Exterminators",
+    metaDescription:
+      "Licensed pest control in Pontiac, IL. Fall mice exclusion, boxelder bugs, termite inspections for downtown buildings. Free inspection.",
+  },
+  {
+    slug: "rantoul-il",
+    name: "Rantoul",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~12,200",
+    county: "Champaign County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rantoul sits on flat farmland in Champaign County, about fifteen miles north of Champaign-Urbana. A large share of the village's housing was built in the 1940s and 1950s to support the former Chanute Air Force Base, which closed in 1993, and that mid-century construction combined with surrounding row crops shapes the pest pressure the village sees today.",
+    topPests: ["House Mice", "Field Crickets", "Brown Marmorated Stink Bugs", "Eastern Subterranean Termites", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Rantoul is surrounded by corn and soybean fields on nearly every side, and mice displaced by harvest move quickly into the older post-war neighborhoods built around the former air base.",
+      },
+      {
+        name: "Field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Late summer through early fall",
+        note: "Field crickets from the surrounding farmland move toward foundations and porch lights as vegetation dries out in late summer, and Rantoul's flat, open terrain gives them a straight, unobstructed path into yards and window wells.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October",
+        note: "Stink bugs feeding on nearby soybean fields cluster on sun-warmed exterior walls each fall looking for overwintering spots, a pattern common across central Illinois farm towns like Rantoul.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Much of Rantoul's housing stock dates to the Chanute Air Force Base era of the 1940s and 1950s, and homes of that age with original foundations benefit from a periodic termite check.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Odorous house ants nest under slab foundations common in Rantoul's mid-century base housing and trail indoors after rain hunting sweets and moisture.",
+      },
+    ],
+    localHook:
+      "Rantoul's neighborhoods were largely built to house Chanute Air Force Base personnel before the base closed in 1993, and that mid-century housing stock, ringed by open farmland, is the detail that shapes both the village's termite risk and its fall rodent pressure.",
+    intro:
+      "Pest control in Rantoul, Illinois has to account for two things most Champaign County towns share only partly: a housing stock built quickly in the 1940s and 1950s around the former Chanute Air Force Base, and open farmland pressing in on nearly every side. That combination means older slab foundations and original construction meeting a steady stream of field mice, crickets, and stink bugs displaced by the harvest each fall. Chanute closed in 1993, but the neighborhoods it left behind are still home to most of Rantoul's residents, and their age is a real factor in termite and ant pressure that a newer subdivision would not face in the same way.",
+    sections: [
+      {
+        heading: "How does Rantoul's air base history affect pest control today?",
+        body: "Chanute Air Force Base drove rapid neighborhood construction through the 1940s and 1950s, and much of that housing is still standing and occupied decades after the base closed in 1993. Original slab foundations and aging exterior seals in homes of that era give ants, crickets, and overwintering stink bugs easier entry points than a newer build would have, which is why exclusion work matters more here than in a younger subdivision. Fall exclusion packages that seal these original entry points typically run $250 to $475 depending on how many gaps a technician finds around the foundation and utility penetrations.",
+      },
+      {
+        heading: "Why do field crickets show up in Rantoul yards every fall?",
+        body: "Rantoul sits on flat, open farmland with few natural barriers between crop fields and residential streets. As vegetation dries out in late summer, field crickets move toward foundations, porch lights, and window wells in large numbers. They're mostly a noise and nuisance issue rather than a structural one, but heavy populations can still find their way indoors through small gaps.",
+      },
+      {
+        heading: "What termite risk do Rantoul's older homes carry?",
+        body: "A large share of Rantoul's housing dates to the base-era construction boom, and homes from that period were not built with the termite barriers required in modern construction. Eastern subterranean termites work through soil contact points invisibly for long stretches, so a periodic inspection is the only reliable way to catch a colony in a home this age before real damage occurs. Termite inspections are usually offered at no cost, with treatment quoted after a technician assesses the extent of activity in a home's original foundation and framing.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps on base-era homes before fall harvest pushes field mice toward town.",
+      "Caulk exterior cracks and gaps to keep late-summer field crickets from finding a way into window wells and basements.",
+      "Have homes built during the Chanute-era housing boom inspected periodically for termite activity given their age.",
+      "Check slab foundation edges for odorous house ant trails after heavy rain, especially in older neighborhoods.",
+    ],
+    costNote:
+      "Pest control in Rantoul generally runs $70 to $120 for a general inspection and treatment. Fall exclusion packages for base-era homes typically run $250 to $475 depending on the number of entry points found. Termite inspections are usually free, with treatment quoted after assessment. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why does Rantoul have so many older homes needing pest exclusion work?",
+        answer: "Much of Rantoul's housing was built in the 1940s and 1950s to support Chanute Air Force Base, which closed in 1993. That original construction, including slab foundations and aging exterior seals, gives pests more entry points than a newer home would have, which is why exclusion work is a bigger part of pest control here.",
+      },
+      {
+        question: "Why are field crickets such a problem in Rantoul in late summer?",
+        answer: "Rantoul sits on flat, open farmland with little separating crop fields from residential streets. As vegetation dries out in late summer, crickets move toward foundations, porches, and window wells in large numbers looking for shelter and moisture.",
+      },
+      {
+        question: "Do stink bugs come from the farmland around Rantoul?",
+        answer: "Yes. Brown marmorated stink bugs feed on soybean fields surrounding the village through the growing season, then cluster on sun-warmed exterior walls each September and October looking for a spot to overwinter, a pattern typical of central Illinois farm towns.",
+      },
+      {
+        question: "Should I get a termite inspection for a Rantoul home built during the base era?",
+        answer: "Yes, periodically. Homes from the 1940s and 1950s Chanute-era construction boom predate modern termite barrier requirements. Eastern subterranean termites can work through original foundations for years before damage becomes visible, so a periodic check is the responsible standard.",
+      },
+      {
+        question: "What draws house mice into Rantoul neighborhoods each fall?",
+        answer: "Rantoul is surrounded by corn and soybean fields on nearly every side. Once those fields are harvested each fall, mice lose their outdoor cover and move toward the nearest structure, often the older neighborhoods closest to the fields' edge.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pontiac", slug: "pontiac-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Olney", slug: "olney-il", stateSlug: "illinois" },
+      { name: "Chester", slug: "chester-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rantoul, IL | Champaign County Exterminators",
+    metaDescription:
+      "Licensed pest control in Rantoul, IL. Fall mice exclusion, stink bugs, termite inspections for base-era homes. Free inspection.",
+  },
+  {
+    slug: "beardstown-il",
+    name: "Beardstown",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~5,750",
+    county: "Cass County (county seat)",
+    climate: "cold-humid",
+    climateDriver:
+      "Beardstown sits directly on the east bank of the Illinois River at the mouth of the Sangamon River in west-central Illinois. The river's backwaters and low-lying floodplain drive heavy mosquito pressure through the warm months, and a large pork processing plant in town shapes both the local workforce and the pest concerns of nearby housing.",
+    topPests: ["Mosquitoes", "German Cockroaches", "Norway Rats", "Eastern Subterranean Termites", "House Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Illinois River backwaters and sloughs around Beardstown create ideal standing-water breeding habitat, and low-lying yards near the riverfront see the heaviest pressure through summer.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Beardstown's large pork processing plant is a major local employer, and the warm, food-handling environment it and nearby commercial kitchens create is a classic German cockroach breeding ground that can spread into surrounding residential blocks.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, heaviest in fall",
+        note: "The riverfront, older commercial buildings downtown, and the food-processing activity in town give Norway rats reliable food and shelter, and colder months push them toward building foundations and crawl spaces.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Beardstown's older river-town housing stock, some of it a century old, includes wood-frame construction without modern termite barriers, and the moist riverside soil conditions favor colony activity.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As farmland surrounding Beardstown is harvested each fall, mice move toward the nearest structures, and older foundations near downtown and the riverfront give them easy entry.",
+      },
+    ],
+    localHook:
+      "Beardstown sits where the Sangamon River meets the Illinois River, and it was here in 1858 that Abraham Lincoln successfully defended a client in the famous Almanac Trial, a case still tied to the town's downtown courthouse square today.",
+    intro:
+      "Pest control in Beardstown, Illinois is shaped by its location on the Illinois River as much as anything else. The river's backwaters and low floodplain drive some of the heaviest mosquito pressure in west-central Illinois through the summer months, while the town's large pork processing plant, a major employer that has drawn a substantial workforce to the area, adds cockroach and rodent pressure typical of any community built around food processing. Add a downtown with genuinely old river-town construction dating back over a century and you get a pest calendar that spans standing water, commercial food handling, and aging wood framing all at once.",
+    sections: [
+      {
+        heading: "Why is mosquito pressure so heavy in Beardstown?",
+        body: "Beardstown sits directly on the Illinois River at the mouth of the Sangamon River, and the backwaters, sloughs, and low-lying floodplain around town create extensive standing-water breeding habitat. Properties closest to the riverfront see the worst of it through the warm months. Eliminating standing water on private property helps, but perimeter treatment makes the biggest difference for homes near the water's edge. Seasonal mosquito barrier treatments for these riverfront properties typically run $65 to $100 per visit through the warm months, and clearing standing water from gutters and yard containers reduces breeding closer to the home.",
+      },
+      {
+        heading: "How does the pork processing plant affect local pest pressure?",
+        body: "Beardstown's pork processing facility is one of the town's largest employers, and food-handling operations of that scale create the warm, food-rich conditions German cockroaches thrive in. That pressure can extend into nearby residential blocks and commercial kitchens if it isn't managed with a regular inspection schedule, which is why commercial properties near food processing in Beardstown benefit from more frequent service than a typical residential account. Commercial cockroach programs sized to a food-processing facility are quoted separately from a standard residential visit, so nearby kitchens can be priced for the volume of activity a technician actually finds.",
+      },
+      {
+        heading: "What should older Beardstown river-town homes watch for?",
+        body: "Much of downtown Beardstown, including buildings near the courthouse square tied to the town's Lincoln-era history, dates back over a century. That age, combined with the moist soil conditions common in a river town, raises the stakes for subterranean termite activity and gives Norway rats easier access through aging foundations. An annual check catches both before they become a bigger problem. Termite inspections in Beardstown are typically free, with treatment quoted only after a technician assesses the extent of activity found in a structure this age.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in yards and gutters through the summer to cut mosquito breeding near the riverfront.",
+      "Keep commercial kitchens and food-handling areas near the processing plant on a regular inspection schedule to prevent German cockroach spread.",
+      "Seal foundation gaps on older downtown buildings before fall to keep Norway rats and house mice out.",
+      "Have century-old river-town homes inspected annually for termite activity given the area's moist soil conditions.",
+    ],
+    costNote:
+      "Pest control in Beardstown generally runs $70 to $115 for a general inspection and treatment. Seasonal mosquito barrier treatments for riverfront properties run $65 to $100 per visit through the summer. Commercial cockroach programs near food-processing areas are quoted by facility size. Termite inspections are typically free, with treatment quoted after assessment.",
+    faqs: [
+      {
+        question: "Why does Beardstown have such heavy mosquito pressure compared to other Cass County towns?",
+        answer: "Beardstown sits directly on the Illinois River where it meets the Sangamon River, and the backwaters and low floodplain surrounding town create extensive standing-water breeding habitat. Properties closest to the riverfront see the heaviest pressure, especially through the warm summer months.",
+      },
+      {
+        question: "Does the pork processing plant in Beardstown attract cockroaches to nearby homes?",
+        answer: "Large food processing operations create warm, food-rich conditions that German cockroaches breed in easily, and that pressure can spread into nearby commercial kitchens and residential blocks without regular treatment. Facilities and homes near the plant benefit from a more frequent inspection schedule than a typical residential property.",
+      },
+      {
+        question: "Are Beardstown's downtown buildings at risk for termites?",
+        answer: "Yes. Much of downtown Beardstown, including buildings near the historic courthouse square where Abraham Lincoln argued the 1858 Almanac Trial, dates back over a century. Older wood framing combined with moist riverside soil conditions raises termite risk, so an annual inspection is the responsible standard for buildings this age.",
+      },
+      {
+        question: "When is the best time to treat for mosquitoes in Beardstown?",
+        answer: "Mosquito pressure in Beardstown typically runs from May through September, with the heaviest activity following spring and summer rises in the Illinois River. Starting perimeter treatment in late spring, before populations peak, gives the best results for riverfront properties.",
+      },
+      {
+        question: "Why do I see more rats near the Beardstown riverfront in fall?",
+        answer: "Norway rats in river towns like Beardstown rely on the food and shelter that downtown buildings and processing facilities provide year-round, but colder weather pushes them to seek out warmer building foundations and crawl spaces, which is why fall sightings near downtown tend to increase.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Pontiac", slug: "pontiac-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Olney", slug: "olney-il", stateSlug: "illinois" },
+      { name: "Chester", slug: "chester-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Beardstown, IL | Cass County Exterminators",
+    metaDescription:
+      "Licensed pest control in Beardstown, IL. Riverfront mosquito treatment, cockroach control, rat exclusion, termite inspections. Free inspection.",
+  },
+  {
+    slug: "olney-il",
+    name: "Olney",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~8,400",
+    county: "Richland County (county seat)",
+    climate: "temperate",
+    climateDriver:
+      "Olney sits in southeastern Illinois, warmer and more humid through the summer than the northern half of the state, which extends the active season for Eastern subterranean termites and mosquitoes well beyond what a Chicago-area suburb experiences. The city is also known nationally for a protected population of albino gray squirrels living in its parks and residential neighborhoods.",
+    topPests: ["Eastern Subterranean Termites", "Ticks", "Mosquitoes", "Carpenter Ants", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Olney's position in southern Illinois gives termite colonies a longer active window than towns farther north, and the city's older residential neighborhoods near downtown carry real risk from years of unchecked colony activity.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Olney's city parks and wooded areas, the same habitat that supports its well-known white squirrel population, also support tick activity, and properties bordering wooded lots see the highest exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "East Fork Lake and the wetland areas near Olney give mosquitoes ample breeding habitat through the warm months, with properties closest to the water seeing the steadiest pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The wooded parkland that runs through and around Olney gives carpenter ants ready access to moisture-damaged wood, and homes bordering tree lines are the ones most likely to see indoor activity.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October",
+        note: "Stink bugs from the farmland surrounding Richland County cluster on sun-warmed walls each fall looking for a way indoors to overwinter, a pattern common across southeastern Illinois.",
+      },
+    ],
+    localHook:
+      "Olney is home to a protected population of albino gray squirrels, a local landmark tracked every October in an official city squirrel count, and the same wooded parkland that supports them also drives the city's tick and carpenter ant pressure.",
+    intro:
+      "Pest control in Olney, Illinois runs on a longer calendar than towns farther north in the state. Southeastern Illinois summers are warmer and more humid, which stretches the active season for subterranean termites and mosquitoes well past what a northern Illinois suburb sees. Olney is best known for its protected white squirrel population, tallied every fall in a city-run count, and the wooded parks and residential tree cover that support those squirrels also shape real pest pressure from ticks and carpenter ants. East Fork Lake nearby adds mosquito breeding habitat to the mix, rounding out a pest calendar that leans heavily on the city's mature tree canopy and warmer southern climate.",
+    sections: [
+      {
+        heading: "Why does Olney's longer termite season matter for homeowners?",
+        body: "Richland County sits far enough south that Eastern subterranean termites stay active longer each year than they would in central or northern Illinois. Older homes near downtown Olney, some without a modern termite barrier, carry real risk from colonies working undetected through wood framing over multiple seasons. An annual inspection is the standard recommendation given that extended activity window. Termite inspections in Olney are typically offered at no cost, with treatment priced afterward based on the structure's age and the soil conditions found around the foundation.",
+      },
+      {
+        heading: "Do Olney's parks and white squirrel habitat affect tick exposure?",
+        body: "The wooded parkland that supports Olney's well-known albino squirrel population also provides good tick habitat, particularly along trail edges and in yards bordering tree cover. Properties near East Fork Lake or the city's larger parks see the most exposure. Regular yard maintenance and perimeter treatment reduce the risk without affecting the squirrel habitat residents value. Perimeter tick treatment for yards bordering wooded parkland generally runs $75 to $130 per application, priced to cover the property without disturbing the habitat nearby.",
+      },
+      {
+        heading: "Where does Olney's mosquito pressure come from?",
+        body: "East Fork Lake and the wetland areas surrounding Olney provide substantial mosquito breeding habitat through the warm months. Homes closest to the water see the steadiest pressure, though standing water in gutters and yard containers anywhere in the city contributes as well. Reducing standing water on the property is the first step, with professional perimeter treatment covering the rest. Seasonal mosquito programs near East Fork Lake are priced by property size rather than a flat rate, since lakefront exposure varies so much from block to block.",
+      },
+    ],
+    prevention: [
+      "Have older downtown Olney homes inspected annually for termite activity given the region's longer active season.",
+      "Treat yards bordering wooded parkland for ticks before peak activity in late spring.",
+      "Drain standing water around the property weekly through summer to reduce mosquito breeding near East Fork Lake.",
+      "Inspect and treat moisture-damaged wood near tree lines to prevent carpenter ant colonies from establishing.",
+    ],
+    costNote:
+      "Pest control in Olney generally runs $75 to $125 for a general inspection and treatment. Termite inspections are typically free, with treatment quoted after assessment based on structure and soil conditions. Tick perimeter treatment for properties bordering wooded parkland runs $75 to $130 per application. Seasonal mosquito programs near East Fork Lake are priced by property size.",
+    faqs: [
+      {
+        question: "Why do homes in Olney need termite inspections more often than in northern Illinois?",
+        answer: "Olney's location in southeastern Illinois means Eastern subterranean termites stay active longer each year than they do farther north. That extended season, combined with older downtown homes that may lack a modern termite barrier, is why an annual inspection is the standard recommendation here.",
+      },
+      {
+        question: "Does Olney's white squirrel population affect pest control recommendations?",
+        answer: "The wooded parks and residential tree cover that support Olney's protected albino squirrel population also provide good tick habitat. Properties bordering those wooded areas see more tick exposure, so perimeter treatment for yards near parkland is a common recommendation that doesn't interfere with the squirrel habitat.",
+      },
+      {
+        question: "Is East Fork Lake a source of mosquito problems for Olney residents?",
+        answer: "Yes. East Fork Lake and the surrounding wetland areas provide substantial breeding habitat, and homes closest to the water see the steadiest mosquito pressure from May through September. Reducing standing water on the property and using perimeter treatment are the most effective approaches.",
+      },
+      {
+        question: "Are carpenter ants a serious problem in Olney?",
+        answer: "Carpenter ants are common in Olney homes that border the city's wooded parkland, since they colonize moisture-damaged wood near tree lines and can move into a structure from there. They don't eat wood the way termites do, but an established colony can still cause real damage over time, so early treatment matters.",
+      },
+      {
+        question: "When should I treat my Olney property for stink bugs?",
+        answer: "Brown marmorated stink bugs from the farmland surrounding Richland County typically start clustering on exterior walls in September looking for a way indoors to overwinter. Sealing gaps around windows and siding before that fall push begins is the most effective prevention.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pontiac", slug: "pontiac-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Chester", slug: "chester-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Olney, IL | Richland County Exterminators",
+    metaDescription:
+      "Licensed pest control in Olney, IL. Termite inspections, tick treatment near parkland, mosquito control near East Fork Lake. Free inspection.",
+  },
+  {
+    slug: "chester-il",
+    name: "Chester",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~6,800",
+    county: "Randolph County (county seat)",
+    climate: "temperate",
+    climateDriver:
+      "Chester sits on a limestone bluff above the Mississippi River in far southern Illinois, the warmest and most humid part of the state. That combination of southern latitude, river humidity, and limestone bluff terrain extends the active season for termites and supports species like the brown recluse spider that are less common farther north in Illinois.",
+    topPests: ["Eastern Subterranean Termites", "Brown Recluse Spiders", "Mosquitoes", "German Cockroaches", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Chester's far-southern location gives termite colonies one of the longest active windows in Illinois, and the city's older bluff-top and river-adjacent buildings, some dating to the 1800s, carry real long-term risk.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active in warmer months",
+        note: "Southern Illinois falls within the documented range of the brown recluse spider, and Chester's older homes with limestone foundations, crawl spaces, and outbuildings give them the dark, undisturbed spaces they prefer.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River backwaters below Chester's bluff create standing-water breeding habitat, and low-lying areas near the river see the heaviest pressure through summer.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Chester's warm, humid river-valley summers and older downtown commercial buildings create favorable conditions for German cockroaches to establish in kitchens and food-service spaces.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, most active in humid months",
+        note: "The humidity that rises off the Mississippi River combined with older masonry buildings on Chester's bluff gives silverfish the damp, dark conditions they need in basements and closets.",
+      },
+    ],
+    localHook:
+      "Chester is known nationally as the birthplace of Elzie Segar, the cartoonist who created Popeye the Sailor, and the same Mississippi River bluff setting that shaped his hometown also drives the city's termite and mosquito pressure today.",
+    intro:
+      "Pest control in Chester, Illinois has to account for one of the warmest, most humid corners of the state. Chester sits on a limestone bluff above the Mississippi River in far southern Illinois, close enough to the river to see real mosquito pressure in summer and far enough south that termite colonies stay active longer than almost anywhere else in the state. The city is best known as the hometown of Popeye creator Elzie Segar, and its historic downtown reflects that age, with river-town buildings old enough to carry genuine termite and cockroach risk if they go unchecked. Southern Illinois's climate also puts Chester within brown recluse spider range, a detail that sets it apart from pest pressure in central or northern parts of the state.",
+    sections: [
+      {
+        heading: "Why does Chester have a longer termite season than most of Illinois?",
+        body: "Chester's position on the Mississippi River in far southern Illinois gives it a warmer, more humid climate than the rest of the state, which keeps Eastern subterranean termite colonies active for a longer stretch of the year. Combined with a historic downtown that includes buildings dating to the 1800s, that extended activity window is why annual inspections matter more here than in a northern Illinois suburb. Termite inspections in Chester are typically offered at no cost, with treatment priced afterward based on the structure's age and the soil conditions found near the bluff.",
+      },
+      {
+        heading: "Are brown recluse spiders really a concern in Chester?",
+        body: "Yes. Southern Illinois falls within the documented range of the brown recluse spider, and Chester's older homes with limestone foundations, crawl spaces, and outbuildings provide the dark, undisturbed spaces the species prefers. They're not aggressive and bites are uncommon, but reducing clutter in storage areas and sealing foundation gaps lowers the odds of an encounter. Brown recluse treatment for a home with confirmed activity generally runs $100 to $200, priced to how widespread the infestation is once a technician inspects storage areas and crawl spaces.",
+      },
+      {
+        heading: "What drives mosquito pressure below Chester's bluff?",
+        body: "The Mississippi River backwaters at the base of Chester's bluff create extensive standing-water habitat, and neighborhoods closer to river level see noticeably more mosquito activity through summer than homes higher on the bluff. Reducing standing water on the property and treating the perimeter before peak season are the most effective steps for river-adjacent homes.",
+      },
+    ],
+    prevention: [
+      "Have historic downtown and bluff-top buildings inspected annually for termite activity given the region's extended active season.",
+      "Reduce clutter in basements, crawl spaces, and outbuildings to limit brown recluse spider habitat.",
+      "Drain standing water near the Mississippi River backwaters weekly through summer to reduce mosquito breeding.",
+      "Seal gaps around older masonry foundations to keep silverfish out of humid basements and closets.",
+    ],
+    costNote:
+      "Pest control in Chester generally runs $75 to $125 for a general inspection and treatment. Termite inspections are typically free, with treatment quoted after assessment of structure and soil conditions. Brown recluse spider treatment for homes with confirmed activity runs $100 to $200 depending on the extent of the infestation. Seasonal mosquito programs for river-adjacent properties are priced by property size.",
+    faqs: [
+      {
+        question: "Why is termite season longer in Chester than in central Illinois?",
+        answer: "Chester sits in far southern Illinois along the Mississippi River, the warmest and most humid part of the state, which keeps Eastern subterranean termite colonies active longer each year than in central or northern Illinois. Combined with the age of many downtown buildings, that extended season is why annual inspections are the standard recommendation for Chester properties.",
+      },
+      {
+        question: "Do brown recluse spiders actually live in Chester, Illinois?",
+        answer: "Yes. Chester falls within the documented range of the brown recluse spider in southern Illinois, and older homes with limestone foundations and undisturbed crawl spaces or outbuildings provide the habitat they prefer. Reducing clutter and sealing gaps are the most effective prevention steps.",
+      },
+      {
+        question: "Why does the Popeye connection matter for pest control in Chester?",
+        answer: "Chester is the birthplace of Popeye creator Elzie Segar, and the historic downtown tied to that history includes buildings old enough to carry real termite and cockroach risk without regular inspection. The town's age and its river-bluff setting are directly connected to its pest pressure today.",
+      },
+      {
+        question: "Which parts of Chester see the worst mosquito pressure?",
+        answer: "Neighborhoods closer to river level, near the Mississippi River backwaters at the base of Chester's bluff, see noticeably more mosquito activity through the summer than homes higher on the bluff. Reducing standing water and treating the perimeter before peak season helps the most for river-adjacent properties.",
+      },
+      {
+        question: "Are German cockroaches common in Chester's downtown restaurants?",
+        answer: "Chester's warm, humid summers and older commercial buildings downtown create favorable conditions for German cockroaches to establish in kitchens and food-service spaces. A regular inspection schedule is the most effective way for commercial operations to stay ahead of an infestation.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Pontiac", slug: "pontiac-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Olney", slug: "olney-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Chester, IL | Randolph County Exterminators",
+    metaDescription:
+      "Licensed pest control in Chester, IL. Termite inspections, brown recluse spider treatment, mosquito control near the Mississippi River. Free inspection.",
+  },
 ];
