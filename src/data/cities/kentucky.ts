@@ -3576,4 +3576,594 @@ export const kentuckyCities: CityLocation[] = [
     metaDescription:
       "London, KY pest control for foothill carpenter ants, I-75 corridor cockroaches, courthouse-area termites, fall stink bugs and mice. Laurel County service.",
   },
+  {
+    slug: "newport-ky",
+    name: "Newport",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~14,150",
+    county: "Campbell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Newport sits right where the Licking River meets the Ohio, directly across from Cincinnati, in a humid subtropical climate of hot, sticky summers and cold winters. The two rivers meeting here once made Newport one of the most flood-prone cities in the region, cresting at 80 feet in the historic 1937 flood and putting more than 2,500 homes underwater. A concrete floodwall finished in 1951 now holds the rivers back, but the same low, flat river-bottom ground that made the flooding possible still traps heat and humidity behind the levee long after a storm passes.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Norway Rats", "German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Newport's Mansion Hill and East Newport historic districts are full of 19th century rowhouses built with wood framing close to the ground, exactly the wood-to-soil contact that lets subterranean termites move from soil into a structure unnoticed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The floodwall finished in 1951 keeps the Ohio and Licking Rivers out of downtown Newport, but the same flat, low-lying ground that made the city flood-prone in the first place still holds standing water in yards and low spots for days after a hard rain.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through winter",
+        note: "The dense restaurant and bar corridor around Newport on the Levee gives Norway rats a steady food source close to the riverbank, and the older sewer and drainage infrastructure under the historic downtown gives them a way to move between buildings.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Newport's dense stock of older apartment buildings and rowhouses, many converted from single-family homes into multiple units over the decades, gives German cockroaches the shared walls and plumbing they need to spread between units.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Wood framing in Newport's older rowhouses that has held moisture for years, especially near roof lines and window sills that predate modern flashing, is common carpenter ant nesting material.",
+      },
+    ],
+    localHook:
+      "Newport is a two-river city. The Ohio and the Licking meet right at its edge, and that geography cut both ways for more than a century, a source of trade and now of riverfront entertainment at Newport on the Levee, but also the reason the 1937 flood put more than 2,500 homes under water at a crest of 80 feet. The 1951 floodwall changed the flood risk, not the underlying ground, and that low, flat river-bottom terrain still shapes how long standing water and humidity linger here after a storm.",
+    intro:
+      "Pest control in Newport starts with the city's position at the confluence of the Ohio and Licking Rivers. That river-bottom ground gave Newport one of the worst flood histories in the region before the 1951 floodwall went in, and it still holds humidity and standing water close to the surface for mosquitoes to use. The historic rowhouses in Mansion Hill and East Newport bring their own pressure, wood framing close to the ground for termites and carpenter ants, and shared walls for German cockroaches. Norway rats round out the picture, drawn to the restaurants and bars along the Levee.",
+    sections: [
+      {
+        heading: "Why a floodwall didn't end Newport's pest pressure",
+        body: "It's tempting to think the 1951 floodwall solved Newport's water problem, and in one sense it did. The Ohio and Licking Rivers haven't reached downtown the way they did in 1937, when the crest hit 80 feet and swallowed more than 2,500 homes. But a wall that keeps a river out doesn't change the ground behind it. Newport still sits on flat, low river-bottom soil that drains slowly, and after a summer storm that water has nowhere fast to go. For mosquitoes, that's all that matters. They don't need a flood, just a few days of standing water in a yard, a gutter, or a low spot behind a building. The flood risk changed in 1951. The mosquito season didn't.",
+      },
+      {
+        heading: "Rowhouses and the termite risk nobody notices",
+        body: "Walk through Mansion Hill or East Newport and you're looking at wood framing that has been close to the ground for well over a hundred years. That's not a design flaw, it's just how rowhouses were built in the 1800s, but it happens to be exactly the setup subterranean termites need. They travel through soil and enter a structure wherever wood touches or nearly touches the ground, often without leaving any obvious sign until the damage is well underway. A rowhouse with a shared foundation wall can also let termite activity move from one unit to the next, which makes an inspection in an older Newport block worth doing at the building level, not just the individual home.",
+      },
+      {
+        heading: "Norway rats and the Levee corridor",
+        body: "Newport on the Levee turned a stretch of riverfront into one of Northern Kentucky's busiest entertainment and dining strips, and busy restaurants generate the kind of steady food waste that Norway rats key in on. Combine that with the older drainage and sewer lines running under Newport's historic downtown, some of it well over a century old, and rats have both a food source and a way to travel between buildings that a newer commercial strip wouldn't offer. Property owners near the Levee corridor tend to see rat pressure concentrated around dumpsters, loading areas, and older foundation gaps rather than spread evenly across the neighborhood.",
+      },
+      {
+        heading: "German cockroaches in a city of converted apartments",
+        body: "A lot of Newport's older housing started as single-family rowhouses and was converted into multiple apartment units over the decades. That conversion history matters for pest control because German cockroaches spread through shared plumbing chases and wall voids, and a building that has been subdivided several times often has more of those hidden connections than its original floor plan suggests. Treating one unit rarely solves a German cockroach problem in this kind of building. It usually takes a coordinated effort across the whole structure, which is why landlords in Newport's older blocks are often better served by a building-wide plan than a unit-by-unit response.",
+      },
+      {
+        heading: "Carpenter ants and roofline moisture in older homes",
+        body: "Carpenter ants don't eat wood, they excavate it, and they need that wood softened by moisture first. In Newport's older rowhouses, the usual culprits are roof lines and window sills that predate modern flashing and weatherproofing, spots where water has had decades to find a way in. A carpenter ant sighting indoors between March and October is worth treating as a signal to check those areas rather than just addressing the ants themselves, since the moisture problem behind the infestation will keep drawing new colonies back if it's left alone.",
+      },
+    ],
+    prevention: [
+      "Check window sills and roof flashing on older rowhouses each spring for the moisture that draws carpenter ants.",
+      "Clear gutters and remove standing water after storms, since Newport's flat ground drains slowly even behind the floodwall.",
+      "Seal gaps around shared walls in converted apartment buildings to limit German cockroach movement between units.",
+      "Keep dumpsters and outdoor dining areas near the Levee corridor closed and cleared to reduce Norway rat activity.",
+    ],
+    costNote:
+      "Newport pest pricing typically separates a recurring general pest plan from termite protection, which is quoted after an inspection given the age of the city's rowhouse stock. Mosquito treatment is often added seasonally from April through October. A free inspection is the best starting point to see what's actually present.",
+    faqs: [
+      {
+        question: "Why does Newport still have mosquito problems if the floodwall keeps the rivers out?",
+        answer:
+          "The floodwall built in 1951 protects Newport from the Ohio and Licking Rivers themselves, but it doesn't change the flat, low-lying ground behind it. That terrain drains slowly, so standing water from ordinary summer storms lingers in yards and low spots for days, which is all mosquitoes need for a long April through October season.",
+      },
+      {
+        question: "Are the rowhouses in Newport's historic districts more prone to termites?",
+        answer:
+          "Yes. Many of the 19th century rowhouses in Mansion Hill and East Newport were built with wood framing close to the ground, which gives subterranean termites an easy path from soil into the structure. Regular inspection matters more in these older blocks than in newer construction.",
+      },
+      {
+        question: "What's driving rat activity near Newport on the Levee?",
+        answer:
+          "The restaurant and bar corridor along the Levee generates steady food waste, and the older drainage and sewer infrastructure running under Newport's historic downtown gives Norway rats a way to move between buildings. Consistent dumpster management is one of the most effective controls in that area.",
+      },
+      {
+        question: "How bad was the 1937 flood in Newport?",
+        answer:
+          "The Ohio River crested at 80 feet in January 1937, the highest flood ever recorded in the valley, and more than 2,500 Newport homes were flooded. The city's floodwall, completed in 1951, was built to hold back a flood three feet higher than that crest.",
+      },
+      {
+        question: "Does an apartment in a converted Newport rowhouse need its own pest treatment?",
+        answer:
+          "It depends on the building. Many of Newport's apartments were carved out of single-family rowhouses over the decades, and German cockroaches move easily through the shared plumbing and wall voids those conversions leave behind. A building-wide plan is often more effective than treating one unit alone.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Independence", slug: "independence-ky", stateSlug: "kentucky" },
+      { name: "Shepherdsville", slug: "shepherdsville-ky", stateSlug: "kentucky" },
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Newport, KY | Termites, Mosquitoes & Rats",
+    metaDescription:
+      "Newport, KY pest control for rowhouse termites, river-bottom mosquitoes, Norway rats and German cockroaches. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "independence-ky",
+    name: "Independence",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~28,700",
+    county: "Kenton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Independence sits in the rolling farmland and hayfields south of the Cincinnati metro core, in the same hot-humid Ohio Valley climate as the rest of Northern Kentucky. What sets it apart is the pace of change on the ground. Subdivisions like Revere's Crossing, Sycamore Creek, and Maher Meadows have gone up on what was pasture and cropland within the last two decades, and new construction built right at that field and woodland edge tends to inherit whatever pest pressure the surrounding farmland already had.",
+    topPests: ["Ticks", "Stink Bugs", "Subterranean Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "New subdivisions like Revere's Crossing and Sycamore Creek sit at the edge of what was recently pasture and wooded farmland, and that transition zone between mowed lawn and unmanaged field edge is prime tick habitat for families whose yards back up to it.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "The hayfields and row crops that still surround Independence's newer subdivisions push stink bugs toward the nearest structure each fall, and a new build at a former field edge often sees pressure a more established, farther-in neighborhood does not.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Independence's rapid pace of new construction means a lot of homes are still under builder warranty, but termite protection is typically separate from that warranty and worth confirming rather than assuming.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Grading and construction runoff around new Independence subdivisions can leave damp, low spots near foundations, and any lumber or landscaping timber left over from a build that stays wet is a likely carpenter ant target.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "As farmland around Independence gives way to rooftops, the mice that once lived in hedgerows and field edges move into the nearest structure instead, and new homes with fresh but incompletely sealed utility penetrations give them an opening.",
+      },
+    ],
+    localHook:
+      "Independence is one of the fastest-growing cities in Kenton County, and that growth is visible on the ground. Subdivisions with names like Revere's Crossing, Sycamore Creek, and Maher Meadows have replaced pasture and hayfields within the last two decades, and a 126-lot expansion at Freedom Park and a new mixed-use project at Downs of Nicholson show the pace isn't slowing. New construction at a former field edge inherits the pest pressure of the farmland it replaced, which is why pest control in Independence looks different from pest control in an older, more established Northern Kentucky suburb.",
+    intro:
+      "Pest control in Independence is shaped less by any single geographic feature and more by how fast the city is changing. Subdivisions are replacing pasture and cropland at a steady clip, and new homes built at that farmland edge tend to see the ticks, stink bugs, and field mice that were already living in the hedgerows and fence lines nearby. Termites and carpenter ants are a standard Ohio Valley concern here as anywhere else in the region, but the newer construction means many Independence homeowners are dealing with pest pressure for the first time rather than managing an established problem.",
+    sections: [
+      {
+        heading: "New subdivisions, old field pressure",
+        body: "A home in Revere's Crossing or Sycamore Creek might be brand new, but the ground underneath it was pasture or hayfield until recently, and the wildlife that lived along those field edges didn't relocate just because a subdivision went in. Ticks that once stayed in unmowed grass along a fence line now have manicured lawns right next door, and the transition zone where lawn meets whatever's left of the original field edge is exactly where deer and the ticks they carry tend to concentrate. Families in Independence's newest neighborhoods are often surprised by tick exposure precisely because the house feels so far removed from anything resembling wilderness.",
+      },
+      {
+        heading: "Why stink bugs hit new construction harder some falls",
+        body: "Independence is still ringed by working hayfields and row crops even as its subdivisions expand, and stink bugs that spend the growing season in those fields start looking for shelter once the weather turns in September. A newly built home sitting closer to an active field, than an older, more established neighborhood further from the farmland edge, tends to catch more of that fall movement. Sealing gaps around siding, soffits, and utility penetrations before the September shift is more effective than trying to manage the bugs once they've already worked their way in.",
+      },
+      {
+        heading: "Termite coverage and the builder warranty gap",
+        body: "New homeowners in Independence sometimes assume that a builder's warranty covers termite protection, and it usually doesn't. Standard new-construction warranties are built around workmanship and materials, not ongoing pest pressure, which means termite protection is a separate decision a homeowner has to make deliberately rather than one that comes bundled in. Given how much of Independence's housing stock is new, this gap is worth checking early rather than assuming it's handled, since subterranean termites don't care how old a structure is once they've found a way to the wood framing.",
+      },
+      {
+        heading: "Carpenter ants and construction-grade drainage",
+        body: "Grading around a new build doesn't always settle the way it's supposed to, and Independence's rapid pace of subdivision construction means there are plenty of yards where a low spot near the foundation stays damp longer than the plans intended. Any scrap lumber, landscaping timber, or fence post left in that kind of spot becomes an easy target for carpenter ants looking for softened wood. It's worth walking the perimeter of a newer Independence home after a wet spring to check for standing water near the foundation, since fixing the drainage does more long-term good than treating the ants alone.",
+      },
+      {
+        heading: "Where the field mice go when the field disappears",
+        body: "Every acre of hayfield or pasture that becomes a subdivision in Independence displaces whatever mice were already living in its hedgerows and fence lines, and those mice don't simply vanish, they look for the next available shelter, which is often the nearest new house. Fresh construction isn't immune here either, utility penetrations and foundation gaps in a brand new home aren't always sealed as tightly as they should be, and a first Independence winter can be an unwelcome introduction to indoor mouse activity for a family used to thinking of their house as too new to have a pest problem.",
+      },
+    ],
+    prevention: [
+      "Check where lawn meets any remaining field or wooded edge for tick habitat each spring, especially in newer subdivisions.",
+      "Seal siding, soffit, and utility gaps before September to intercept fall stink bug movement from nearby fields.",
+      "Confirm termite protection separately from any builder warranty rather than assuming new construction is covered.",
+      "Walk the foundation perimeter after a wet spring to catch drainage low spots that draw carpenter ants.",
+    ],
+    costNote:
+      "Independence pest pricing often starts with a foundation and perimeter check given how much of the city's housing stock is new construction. Termite protection is quoted separately from any builder warranty. A free inspection is the fastest way to see what a specific property actually needs.",
+    faqs: [
+      {
+        question: "Does new construction in Independence still need termite protection?",
+        answer:
+          "Yes. A builder's warranty on a new Independence home typically covers workmanship and materials, not ongoing termite pressure. Subterranean termites are active throughout the Ohio Valley regardless of a structure's age, so termite protection is a separate decision worth making early.",
+      },
+      {
+        question: "Why are ticks a bigger concern in newer Independence subdivisions?",
+        answer:
+          "Neighborhoods like Revere's Crossing and Sycamore Creek were built on what was recently pasture or hayfield, and the transition zone where a mowed lawn meets any remaining field or wooded edge is where deer and ticks concentrate. New construction doesn't remove that pressure just because the house is new.",
+      },
+      {
+        question: "What is driving the pace of growth in Independence?",
+        answer:
+          "Independence is one of the fastest-growing cities in Kenton County, with new subdivisions and a 126-lot expansion at Freedom Park adding housing on former farmland, plus a mixed-use project underway at Downs of Nicholson. That pace of new construction is the main factor shaping pest pressure here.",
+      },
+      {
+        question: "Are stink bugs worse in Independence than in more established Northern Kentucky suburbs?",
+        answer:
+          "Homes built closer to Independence's remaining hayfields and row crops tend to see more fall stink bug movement than an older, more established neighborhood farther from active farmland. Sealing entry points before September helps regardless of how close a home sits to a field.",
+      },
+      {
+        question: "Is it normal for a brand new Independence home to get mice in winter?",
+        answer:
+          "It happens more often than new homeowners expect. Converting farmland to subdivisions displaces the mice that lived in the original hedgerows and fence lines, and utility penetrations in new construction aren't always sealed as tightly as they should be, which gives them an opening in that first winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Newport", slug: "newport-ky", stateSlug: "kentucky" },
+      { name: "Morehead", slug: "morehead-ky", stateSlug: "kentucky" },
+      { name: "Louisville", slug: "louisville", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Independence, KY | Ticks, Stink Bugs & Termites",
+    metaDescription:
+      "Independence, KY pest control for new-subdivision ticks, fall stink bugs, subterranean termites and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "morehead-ky",
+    name: "Morehead",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~7,150",
+    county: "Rowan County",
+    climate: "cold-humid",
+    climateDriver:
+      "Morehead sits in the Appalachian foothills of northeastern Kentucky, inside the Daniel Boone National Forest, where the terrain and the tree cover give it colder winters and a shorter growing season than the Bluegrass or western parts of the state. Triplett Creek runs directly through town, and the forested watershed around Cave Run Lake just south of the city keeps the surrounding hills damp and heavily wooded. That combination of elevation, forest cover, and a large university population creates a pest mix different from most other Kentucky towns.",
+    topPests: ["Carpenter Ants", "Stink Bugs", "Ticks", "Camel Crickets", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The hardwood forest surrounding Morehead, most of it part of the Daniel Boone National Forest, is natural carpenter ant territory, and any moisture-softened wood near a home, especially along Triplett Creek, gives a colony an easy step from forest to structure.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Morehead's colder foothill winters send stink bugs looking for a way indoors earlier in the fall than in warmer parts of Kentucky, and older homes near the edge of town, closer to the tree line, tend to see the heaviest pressure.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "The wooded trails and shoreline around Cave Run Lake draw hikers and anglers from well outside Rowan County, and that same forest habitat, the Musky Capital of the South, supports a healthy tick population that travels home with pets and gear.",
+      },
+      {
+        name: "Camel crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round, heaviest in damp basements fall through winter",
+        note: "Damp, dark crawlspaces and basements near Triplett Creek are typical camel cricket habitat, and Morehead's forested, hilly terrain gives them plenty of natural cover to move between the outdoors and a foundation gap.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, peaks around university move-in and move-out",
+        note: "Morehead State University brings a large, transient student population through town twice a year, and that steady turnover of rented rooms, dorms, and shared apartments is the most common way bed bugs get introduced and spread in a college town.",
+      },
+    ],
+    localHook:
+      "Morehead is a university town inside a national forest. Morehead State University keeps the median age low and the housing turnover high, while the surrounding Daniel Boone National Forest and the Cave Run Lake watershed just south of town keep the hills damp, wooded, and cooler than most of the rest of Kentucky. That combination, forest pests meeting a transient student population, gives Morehead a pest profile that looks different from a farm town or a river city elsewhere in the state.",
+    intro:
+      "Pest control in Morehead has to account for two things most Kentucky towns don't combine: a genuine forest setting and a large university population. The Daniel Boone National Forest and the Cave Run Lake watershed keep carpenter ants, ticks, and camel crickets active in the hills right around town, while Morehead State University's twice-yearly move-in and move-out cycle is the main driver of bed bug introductions into rented housing. Stink bugs move in earlier here than in warmer parts of the state, another sign of the colder foothill winters this elevation and tree cover produce.",
+    sections: [
+      {
+        heading: "A forest town, not a farm town",
+        body: "Most Kentucky pest pressure traces back to farmland, river bottoms, or limestone soil, but Morehead's is different. Most of Rowan County sits inside the Daniel Boone National Forest, and that much unbroken hardwood forest right at the edge of town means carpenter ants, ticks, and other forest-edge pests are a baseline presence rather than an occasional visitor. A home on Morehead's outskirts is often a stone's throw from real forest, not a mowed field, and that changes what shows up at the foundation.",
+      },
+      {
+        heading: "Cave Run Lake and the tick season",
+        body: "Cave Run Lake, the 8,270-acre reservoir the Army Corps of Engineers finished in 1973 just south of Morehead, draws hikers, anglers, and boaters from well beyond Rowan County, and the forested shoreline that makes it good fishing water also makes it good tick habitat. Anyone spending time on the lake's trails or shoreline during the April through October season can bring ticks home on clothing, gear, or a pet before ever noticing them, which is why a tick check after a lake trip matters as much as any yard treatment.",
+      },
+      {
+        heading: "Why bed bugs follow the university calendar",
+        body: "Morehead State University keeps a large share of Morehead's population young and moving. Students clear out of dorms and rented apartments in May, and a new group moves in every August, and that turnover, secondhand furniture, shared moving trucks, dorm rooms cycling through new occupants, is exactly the kind of movement that lets bed bugs travel between units and buildings. Landlords and property managers near campus tend to see bed bug calls cluster around those two windows each year rather than spread evenly across the calendar, which makes a pre-move-in inspection worth scheduling ahead of the August rush.",
+      },
+      {
+        heading: "Camel crickets along Triplett Creek",
+        body: "Triplett Creek runs right through the middle of Morehead, and the damp, shaded ground near it is where camel crickets thrive. They don't bite and don't spread disease, but a basement or crawlspace near the creek that stays damp through the fall and winter can end up with a lot of them, especially in older homes without a vapor barrier. Drying out the crawlspace does more to solve a camel cricket problem long term than any amount of spraying, since the crickets are really just following the moisture indoors.",
+      },
+      {
+        heading: "Fall arrives early at this elevation",
+        body: "Morehead's position in the Appalachian foothills means fall's first cold snap tends to arrive a few weeks ahead of the Bluegrass or western Kentucky, and stink bugs respond to that shift the same way they do everywhere else, by looking for a warm place to spend the winter. Homes at the edge of town, closer to the tree line than to open ground, tend to see the earliest and heaviest stink bug activity each September, which makes early sealing around siding and windows worth doing sooner here than in a lower-elevation Kentucky town.",
+      },
+    ],
+    prevention: [
+      "Check pets and gear for ticks after any trip to Cave Run Lake's trails or shoreline.",
+      "Schedule a bed bug inspection before August move-in if renting near Morehead State University.",
+      "Dry out basements and crawlspaces near Triplett Creek to discourage camel crickets from moving indoors.",
+      "Seal siding and window gaps in early September, ahead of Morehead's earlier foothill cold snap.",
+    ],
+    costNote:
+      "Morehead pest pricing varies with the season and the property, student rentals near campus often add a bed bug inspection around move-in and move-out, while homes near the forest edge or Triplett Creek may need a broader carpenter ant or camel cricket assessment. A free inspection is the best way to scope the right plan.",
+    faqs: [
+      {
+        question: "Why does Morehead see more forest pests than other Kentucky towns?",
+        answer:
+          "Most of Rowan County sits inside the Daniel Boone National Forest, and that much continuous hardwood forest right at the edge of Morehead keeps carpenter ants, ticks, and other forest-edge pests present as a baseline rather than an occasional problem, unlike a farm town or river city elsewhere in the state.",
+      },
+      {
+        question: "Does Cave Run Lake affect tick exposure in Morehead?",
+        answer:
+          "Yes. The forested trails and shoreline around Cave Run Lake, the 8,270-acre reservoir south of town, draw visitors from outside Rowan County and support a healthy tick population. Anyone hiking or fishing there during peak season, May through July, should check for ticks afterward.",
+      },
+      {
+        question: "Why do bed bugs show up around Morehead State University specifically?",
+        answer:
+          "The university's twice-yearly move-in and move-out cycle creates a lot of turnover in rented rooms and shared apartments in a short window, and that movement of people, furniture, and moving trucks is a common way bed bugs spread between units. Calls tend to cluster around May and August.",
+      },
+      {
+        question: "Are camel crickets dangerous in a Morehead basement?",
+        answer:
+          "No, camel crickets don't bite people or spread disease, but a damp basement or crawlspace near Triplett Creek can end up with a lot of them if the moisture isn't addressed. Drying out the space solves the underlying issue better than repeated treatment alone.",
+      },
+      {
+        question: "Does fall pest activity start earlier in Morehead than in the rest of Kentucky?",
+        answer:
+          "Generally yes. Morehead's elevation and forest cover in the Appalachian foothills bring the first real cold snap a few weeks earlier than the Bluegrass or western Kentucky, and stink bugs and other pests looking for winter shelter respond to that shift on the same earlier schedule.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Independence", slug: "independence-ky", stateSlug: "kentucky" },
+      { name: "Campbellsville", slug: "campbellsville-ky", stateSlug: "kentucky" },
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Morehead, KY | Carpenter Ants, Ticks & Bed Bugs",
+    metaDescription:
+      "Morehead, KY pest control for forest carpenter ants, Cave Run Lake ticks, camel crickets and campus bed bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "campbellsville-ky",
+    name: "Campbellsville",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~11,400",
+    county: "Taylor County",
+    climate: "temperate",
+    climateDriver:
+      "Campbellsville sits among the rolling hills and fertile farmland of south central Kentucky, in a milder transition zone than the muggier Bluegrass core to the north. Tobacco, livestock, and timber farming have shaped Taylor County's land use for two centuries, and Green River Lake, built in 1969 after the destructive 1937 flood, adds shoreline and moisture to the mix just outside town. That blend of working farmland and lake recreation gives Campbellsville a pest pressure built around agriculture more than any single climate extreme.",
+    topPests: ["Stink Bugs", "Flies", "Ticks", "Subterranean Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "The tobacco, corn, and soybean fields that still ring Campbellsville push stink bugs toward the nearest buildings every fall, and homes closer to Taylor County's working farmland tend to see heavier pressure than those further into town.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through September",
+        note: "Livestock operations around Campbellsville, part of the agricultural base that's shaped Taylor County since its founding, are a steady source of fly pressure for nearby homes and businesses through the warm months.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "Green River Lake State Park draws hikers, campers, and anglers to the wooded shoreline just outside Campbellsville, and that same habitat supports ticks that travel home on people, pets, and gear.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Campbellsville's downtown dates to 1817, and older buildings and homes near the historic core, along with working farms like the Homeplace on Green River, carry the standard subterranean termite risk common to century-old Kentucky wood framing.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Old fence board, barn siding, and outbuilding lumber are common across Taylor County's farms, and any of it that stays damp is a likely carpenter ant target close to a home.",
+      },
+    ],
+    localHook:
+      "Campbellsville was founded in 1817 by the Campbell brothers on land grants from Virginia, and agriculture, tobacco, livestock, and timber, has shaped the town ever since. Green River Lake, built in 1969 in the wake of the destructive 1937 flood, now draws recreation to the same land that once flooded. That mix of working farmland and lake shoreline gives Campbellsville a pest pressure built around agriculture and moisture rather than any single dramatic climate feature.",
+    intro:
+      "Pest control in Campbellsville follows the rhythm of the farmland around it. Stink bugs move toward town every fall as the surrounding tobacco, corn, and soybean fields wind down. Flies build up through the summer near the livestock operations that have defined Taylor County's economy for two centuries. Green River Lake's wooded shoreline adds tick pressure for anyone spending time on its trails, and the mix of century-old buildings downtown and old farm lumber scattered across the county keeps termites and carpenter ants a standing concern.",
+    sections: [
+      {
+        heading: "A fall migration that starts in the fields",
+        body: "Stink bugs don't appear out of nowhere in Campbellsville every September, they've spent the growing season in the tobacco, corn, and soybean fields that still surround the city, and they start moving toward shelter as those fields dry down and the weather turns. A home sitting closer to active farmland catches more of that migration than one deeper into town, which is part of why stink bug pressure in Campbellsville can vary block by block depending on how close a property sits to open cropland. Sealing gaps around siding and windows before the fields are harvested gets ahead of the worst of it.",
+      },
+      {
+        heading: "Livestock, flies, and the summer stretch",
+        body: "Taylor County's agricultural base includes a fair amount of livestock, and any operation with animals nearby is going to generate more fly pressure through the warm months than a purely residential area would. Homes and businesses near working farms tend to notice the increase most in July and August, when fly populations peak alongside the heat. Good sanitation, keeping trash and compost managed, screens in good repair, does more to blunt this seasonal spike than reactive treatment once the flies are already inside.",
+      },
+      {
+        heading: "Green River Lake's dual role",
+        body: "Green River Lake exists because of a flood. It was built in 1969, more than three decades after the 1937 flood that devastated the region, specifically to control that kind of water in the future. Today it's a recreation draw, campers, anglers, and hikers use the state park and the wooded shoreline around it, but that same forested habitat that makes the lake area scenic also supports a healthy tick population. Time spent on the lake's trails between April and October is worth following up with a tick check, especially during the May through July peak.",
+      },
+      {
+        heading: "Termite risk in a town built in 1817",
+        body: "Campbellsville's downtown core dates back to its founding by the Campbell brothers in 1817, and buildings and homes of that age have had two centuries for wood-to-soil contact points to develop, whether from original construction or later additions and repairs. The Homeplace on Green River, a working farm for more than 200 years and listed on the National Register of Historic Places, is a reminder of just how much of Taylor County's built environment predates modern termite barriers. An annual inspection matters more for this older stock than it would for recent construction.",
+      },
+      {
+        heading: "Carpenter ants and the farm lumber problem",
+        body: "Fence board, barn siding, and outbuilding lumber accumulate on working farms over decades, and Taylor County has plenty of farms that have been in operation for generations. Any of that old wood that's holding moisture, a low fence post, a barn wall shaded from the sun, is a target for carpenter ants looking for softened wood to excavate. The ants themselves don't do structural damage to the extent termites do, but a colony working through old farm lumber near a house is worth addressing before it moves closer.",
+      },
+    ],
+    prevention: [
+      "Seal siding and window gaps before the fall harvest to get ahead of stink bug movement from nearby fields.",
+      "Keep trash, compost, and outdoor food sources managed near livestock areas to reduce summer fly pressure.",
+      "Check for ticks after any visit to Green River Lake State Park's trails or shoreline.",
+      "Replace or treat old fence board and barn lumber that stays damp, a common carpenter ant target on Taylor County farms.",
+    ],
+    costNote:
+      "Campbellsville pest pricing often depends on proximity to active farmland, properties near working fields or livestock may need seasonal stink bug or fly treatment added to a standard plan. Termite inspection is priced separately given the age of much of the downtown building stock. Start with a free inspection to see what applies.",
+    faqs: [
+      {
+        question: "Why does Campbellsville get so many stink bugs in the fall?",
+        answer:
+          "The tobacco, corn, and soybean fields that still surround the city are where stink bugs spend the growing season, and they move toward the nearest shelter, often homes and businesses, as those fields dry down each September through November. Properties closer to active farmland tend to see more pressure.",
+      },
+      {
+        question: "Is Green River Lake a source of tick exposure near Campbellsville?",
+        answer:
+          "Yes. The wooded shoreline and trails around Green River Lake State Park, built in 1969 following the 1937 flood, support a healthy tick population. Visitors during the peak May through July season should check for ticks after time on the trails or shoreline.",
+      },
+      {
+        question: "How old is Campbellsville's downtown, and does that affect termite risk?",
+        answer:
+          "Campbellsville was founded in 1817 by the Campbell brothers, and buildings and homes near the historic downtown core have had two centuries to develop wood-to-soil contact points. That age makes annual termite inspection more important here than for newer construction.",
+      },
+      {
+        question: "Are flies a bigger issue in Campbellsville than in other Kentucky towns?",
+        answer:
+          "Taylor County's agricultural base includes livestock operations, and properties near working farms tend to see more fly pressure through July and August than a purely residential area would. Sanitation and screen maintenance are the most effective first line of defense.",
+      },
+      {
+        question: "Does farm lumber around Campbellsville attract carpenter ants?",
+        answer:
+          "It can. Old fence board, barn siding, and outbuilding lumber are common on Taylor County's farms, some in operation for generations, and any of it that stays damp is a target for carpenter ants looking for softened wood to nest in.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Morehead", slug: "morehead-ky", stateSlug: "kentucky" },
+      { name: "Shepherdsville", slug: "shepherdsville-ky", stateSlug: "kentucky" },
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Campbellsville, KY | Stink Bugs, Flies & Termites",
+    metaDescription:
+      "Campbellsville, KY pest control for farm-driven stink bugs, summer flies, Green River Lake ticks and termites. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "shepherdsville-ky",
+    name: "Shepherdsville",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~14,200",
+    county: "Bullitt County",
+    climate: "hot-humid",
+    climateDriver:
+      "Shepherdsville sits directly on the Salt River in Bullitt County's floodplain, just south of Louisville, in the same hot, humid Ohio Valley climate as the rest of the metro area. The river has flooded the town repeatedly since its 1793 charter, fifteen feet deep through downtown in 1937 and again in April 2025, when the Salt River crested near 37 feet and more than 100 people needed rescue. That flood history reflects flat, low ground that holds moisture and standing water long after the water itself recedes.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "House Mice", "Carpenter Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Salt River floodplain that has put downtown Shepherdsville under water repeatedly, most recently in April 2025 when the river crested near 37 feet, leaves behind the kind of standing water and saturated ground that keeps mosquitoes breeding well after any single flood event has passed.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Shepherdsville's history dates to 1793, when Adam Shepherd built a mill and store along the Salt River, and the older buildings near that historic core carry the wood-to-soil contact that gives subterranean termites an easy path indoors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Flat, low-lying ground near the Salt River holds cover for field mice year-round, and those populations move toward nearby homes and businesses as temperatures drop each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Repeated flood exposure along the Salt River has left plenty of water-damaged wood in and around Shepherdsville's older structures over the decades, and that softened wood is exactly what carpenter ants look for.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible in warmer months",
+        note: "Damp basements and crawlspaces near the Salt River floodplain give American cockroaches the moisture they need to persist through Shepherdsville's colder months, especially in older downtown buildings.",
+      },
+    ],
+    localHook:
+      "Shepherdsville has flooded before, in 1909, in 1937, when the water reached fifteen feet through downtown, and again in April 2025, when the Salt River crested near 37 feet and Shepherdsville Fire Department rescued more than 100 people across Bullitt County. The city's entire history since its 1793 charter has played out on this same flat river ground, and that same ground is what keeps mosquito breeding habitat and damp foundation conditions in play for months, flood year or not.",
+    intro:
+      "Pest control in Shepherdsville has to account for the Salt River, which has flooded this town repeatedly since Adam Shepherd built his mill and store here in the 1790s. The most recent major flood came in April 2025, when the river crested near 37 feet and more than 100 people needed rescue across Bullitt County. Even in years without a major flood, the same low, flat ground keeps mosquito habitat active and basements damp. The city's older downtown buildings add a standard Ohio Valley termite and carpenter ant risk on top of that river pressure.",
+    sections: [
+      {
+        heading: "A river that keeps coming back",
+        body: "Shepherdsville's relationship with the Salt River goes back to the city's founding. Adam Shepherd built his mill and store along the river in the 1790s, and the town has flooded repeatedly ever since, submerged in 1909, under fifteen feet of water through downtown in 1937, and again in April 2025, when the river crested near 37 feet and more than 100 people had to be rescued across Bullitt County. That's not a once-a-century event. It's a pattern, and it means the flat, low ground that makes Shepherdsville vulnerable to flooding is the same ground that keeps standing water and dampness in play long after any single flood recedes.",
+      },
+      {
+        heading: "Why mosquito season doesn't need a flood",
+        body: "A major flood like the one in April 2025 gets the headlines, but Shepherdsville's mosquito pressure doesn't depend on an event that dramatic. The Salt River floodplain sits low and flat enough that ordinary spring and summer rain leaves standing water in yards, ditches, and low spots for days at a time, and that's all mosquitoes need. The active season runs April through October, and properties closer to the river or in low-lying parts of town tend to see it start earlier and last longer than higher ground elsewhere in Bullitt County.",
+      },
+      {
+        heading: "Termites in a town founded in 1793",
+        body: "Shepherdsville's downtown core carries more than two centuries of history, and buildings that old have had plenty of time to develop the wood-to-soil contact points that subterranean termites use to move from ground into structure. Add in the river's repeated flood history, which has soaked foundations and framing more than once over the decades, and you get an older building stock that benefits more than most from a regular termite inspection rather than a reactive one after damage shows up.",
+      },
+      {
+        heading: "What repeated flooding does to wood",
+        body: "Every time the Salt River has come up over the decades, some amount of wood in and around Shepherdsville's older structures has gotten wet and stayed wet longer than it should have. That kind of history leaves behind softened, moisture-damaged wood that carpenter ants are drawn to, even in buildings where the original flood damage was repaired years ago. A carpenter ant sighting in an older Shepherdsville home is worth treating as a prompt to check for hidden moisture, not just as an ant problem on its own.",
+      },
+      {
+        heading: "American cockroaches and the damp basement problem",
+        body: "American cockroaches are built for damp, and Shepherdsville's floodplain location gives them plenty of it. Basements and crawlspaces near the Salt River that never fully dry out, whether from flood history, high groundwater, or just poor drainage, are the kind of habitat American cockroaches need to persist through the colder months. They're a different species from the German cockroaches common in kitchens elsewhere, and they call for a different approach, one focused on drying out the space as much as treating it directly.",
+      },
+    ],
+    prevention: [
+      "Clear yard drainage and remove standing water promptly given how slowly Shepherdsville's flat, low ground drains.",
+      "Schedule a termite inspection for any home or building near the historic downtown core given its age and flood history.",
+      "Check basements and crawlspaces for lingering dampness that draws American cockroaches through the colder months.",
+      "Address any water-damaged or softened wood promptly, since it's a common carpenter ant target after past flooding.",
+    ],
+    costNote:
+      "Shepherdsville pest pricing often factors in proximity to the Salt River floodplain, properties in low-lying areas may need mosquito treatment added for the April through October season. Termite inspection is priced separately given the age of the historic downtown. A free inspection is the best way to see what a specific property needs.",
+    faqs: [
+      {
+        question: "How often has Shepherdsville flooded?",
+        answer:
+          "Repeatedly. The city has flooded since at least 1909, with fifteen feet of water through downtown in 1937, and most recently in April 2025, when the Salt River crested near 37 feet and Shepherdsville Fire Department rescued more than 100 people across Bullitt County.",
+      },
+      {
+        question: "Does Shepherdsville have mosquito problems even without a major flood?",
+        answer:
+          "Yes. The Salt River floodplain's flat, low ground drains slowly, so ordinary spring and summer rain leaves standing water for days at a time. The active mosquito season runs April through October and tends to start earlier and last longer near the river.",
+      },
+      {
+        question: "Why is termite risk elevated in Shepherdsville's older downtown?",
+        answer:
+          "Shepherdsville's downtown core dates to Adam Shepherd's original mill and store from the 1790s, and buildings that old have had over two centuries to develop the wood-to-soil contact that lets subterranean termites move from ground into structure.",
+      },
+      {
+        question: "Are American cockroaches different from the roaches found elsewhere in Kentucky?",
+        answer:
+          "Yes. American cockroaches need consistently damp conditions, which Shepherdsville's floodplain location and older, sometimes flood-affected basements provide. They're a different species from the German cockroaches common in kitchens and call for a different treatment approach focused on moisture.",
+      },
+      {
+        question: "Does past flooding affect carpenter ant risk in Shepherdsville?",
+        answer:
+          "It can. Decades of periodic flooding have left water-damaged wood in and around some of Shepherdsville's older structures, and that softened wood is exactly what carpenter ants look for, even in buildings where the original flood damage was repaired years ago.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Campbellsville", slug: "campbellsville-ky", stateSlug: "kentucky" },
+      { name: "Newport", slug: "newport-ky", stateSlug: "kentucky" },
+      { name: "Louisville", slug: "louisville", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Shepherdsville, KY | Mosquitoes, Termites & Roaches",
+    metaDescription:
+      "Shepherdsville, KY pest control for Salt River mosquitoes, downtown termites, house mice and American cockroaches. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

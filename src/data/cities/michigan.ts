@@ -10278,4 +10278,614 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Howell, MI pest control for harvest-season mice, glacial lake mosquitoes and ticks, fall stink bugs and courthouse-era carpenter ants. Licensed Livingston County service.",
   },
+  {
+    slug: "grand-ledge-mi",
+    name: "Grand Ledge",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~7,800",
+    county: "Eaton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Grand Ledge sits on the Grand River about ten miles west of Lansing, inside the same humid continental climate as the rest of mid-Michigan: cold, snowy winters and warm summers with real humidity. The river cuts straight through downtown and rises with spring snowmelt most years, and the sandstone bluffs the city is named for line several miles of the riverbank through Fitzgerald and Oak Park. A river-corridor city with exposed rock ledges along its banks has a different pest calendar than a typical inland Eaton County town without either feature.",
+    topPests: ["House Mice", "Mosquitoes", "Wasps & Hornets", "Cluster Flies", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Grand Ledge sits close enough to Eaton County's working farmland that the fall harvest displaces field mice toward the nearest shelter, and the older homes near downtown, some dating to the 1880s, offer plenty of it.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, worst after spring flooding",
+        note: "The Grand River floods its banks in most springs, and the standing water left behind in the low ground near Island Park and along the river corridor keeps mosquito breeding habitat active well into summer.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "The sandstone ledges that give the city its name are full of natural crevices, and paper wasps and yellowjackets use them to build nests undisturbed along the riverside trails at Fitzgerald Park.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, overwinter indoors",
+        note: "Cluster flies work the gaps in older homes' siding and window trim each fall, and Grand Ledge's century-old housing stock near downtown gives them more entry points than a newer subdivision would.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Downtown Grand Ledge includes wood-frame commercial buildings and homes dating to the late 1800s, and the humidity rising off the river keeps window sills and porch framing damp enough to draw carpenter ants looking for softened wood.",
+      },
+    ],
+    localHook:
+      "Grand Ledge is the only Eaton County city built around a river running through its downtown and named for a mile of exposed sandstone bluffs, and that geography drives its pest pressure in two directions at once: the river floods low ground most springs and stretches the mosquito season, while the rock ledges give wasps and hornets natural crevices to nest in right along the popular Fitzgerald Park trails.",
+    intro:
+      "Pest control in Grand Ledge starts with its geography. The Grand River cuts through the middle of downtown and floods low ground most springs, and the sandstone ledges lining the riverbank, the ones the city is named for, run for miles through Fitzgerald and Oak Park. Those two features shape a pest calendar unlike a typical inland Eaton County town: a longer mosquito season in the flooded low ground, wasp and hornet nests tucked into rock crevices along the riverside trails, and cluster flies working the gaps in the older homes near downtown each fall. Add the farmland pressing against the city's edges and the fall mouse surge that comes with harvest, and Grand Ledge looks genuinely different from its neighbors.",
+    sections: [
+      {
+        heading: "Spring flooding and a mosquito season that runs long",
+        body: "The Grand River floods its banks in most years, usually in March or April as the winter snowpack melts fast, and the water that spreads across the low ground near Island Park and along the river corridor does not always drain quickly once it recedes. That leftover standing water gives mosquitoes breeding habitat that starts earlier and lasts longer than it would in a Grand Ledge without a flood-prone river running through its center. Homes and businesses closest to the river corridor see the heaviest pressure, particularly through June and July when the water has warmed enough for larvae to develop fast. Clearing gutters, fixing low spots that hold water after a flood recedes, and treating standing water early in the season are the most effective steps a riverside Grand Ledge property can take before the mosquito population builds.",
+      },
+      {
+        heading: "Wasps and hornets in the ledges themselves",
+        body: "The sandstone bluffs that give Grand Ledge its name run for roughly a mile along the Grand River through Fitzgerald and Oak Park, and the natural cracks and hollows in that rock are exactly what paper wasps and yellowjackets look for when choosing a nest site. A colony tucked into a ledge crevice is largely out of reach of casual disturbance, which lets it grow through the summer undetected until foraging workers become obvious near trail heads or picnic areas. Because the ledges are a popular hiking and climbing destination, wasp activity there is as much a public safety question as a pest control one, and nests found close to trails or overlooks typically need professional removal rather than a homeowner spray can reach safely.",
+      },
+      {
+        heading: "Fall mice: farmland pressure meets an old downtown",
+        body: "Eaton County's cornfields and soybean fields come right up to Grand Ledge's edges on several sides, and when combines clear those fields each September and October, the mice that had been living in them lose their cover fast. They move toward the nearest shelter, and the older homes near the historic downtown, several dating back to the city's 1880s incorporation era, offer settled foundations and aging sill plates with plenty of small gaps. Newer homes on the edges of town see less pressure, but they are not immune, especially in years with an early harvest. Sealing obvious gaps around the foundation and utility lines before the harvest begins remains the single most effective step a Grand Ledge homeowner can take.",
+      },
+      {
+        heading: "Cluster flies and the century-old housing stock",
+        body: "Cluster flies do not breed indoors, they spend summer in nearby fields feeding on earthworms, then look for a way into a building each fall to overwinter in wall voids and attic spaces. Grand Ledge's older homes near downtown, many built well before modern sealing standards existed, give them more entry points than a newer subdivision on the edge of town would offer. A cluster fly problem shows up as slow, sluggish flies appearing indoors on warm days in late winter and early spring, when the overwintering flies wake up and try to find their way back outside. Sealing exterior gaps in September, before the flies start looking for winter shelter, is far more effective than treating an active indoor cluster months later.",
+      },
+      {
+        heading: "Carpenter ants and the humidity off the river",
+        body: "Carpenter ants do not eat wood, they excavate galleries through wood that is already damp or soft, and Grand Ledge's downtown commercial buildings and older homes, some dating to the late 1800s, sit close enough to the river that ambient humidity keeps exposed wood, window sills, and porch framing wetter for longer after a rain than a home farther from the water would experience. Seeing large black ants indoors in spring is the visible sign, but the useful response addresses whatever moisture source is feeding the colony, whether that is a leaking gutter, a compromised roofline, or a window that has taken on water for years without anyone noticing.",
+      },
+      {
+        heading: "What a Grand Ledge inspection actually looks at",
+        body: "A pest inspection in Grand Ledge starts differently depending on where a property sits relative to the river. A home near Island Park or the river corridor gets a close look at drainage and standing water risk for mosquitoes. A downtown commercial building or an older residential street gets checked for the foundation gaps and moisture-damaged wood that drive mice, cluster flies, and carpenter ants. Properties near the ledges themselves, especially anything close to the Fitzgerald Park trail system, get a look for wasp and hornet activity in the rock crevices nearby. A free inspection identifies which of these apply before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and low spots that hold water after spring flooding to cut down mosquito breeding near the river.",
+      "Seal foundation gaps and sill plates on older downtown homes before the fall harvest brings mice indoors.",
+      "Have wasp or hornet nests near the Fitzgerald Park ledges removed by a professional rather than disturbed by hand.",
+      "Fix leaking gutters, rooflines, or window trim promptly to keep carpenter ants from finding softened wood.",
+    ],
+    costNote:
+      "General quarterly pest plans in Grand Ledge typically run $120 to $250 per year. Mosquito treatment for river-corridor and low-lying properties runs $80 to $160 per visit through the season. Wasp and hornet nest removal near the ledges is quoted separately given the access involved. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Grand Ledge get more mosquitoes than nearby Eaton County towns?",
+        answer:
+          "The Grand River floods low ground near downtown and Island Park most springs, and that standing water does not always drain fast once the flood recedes. The result is mosquito breeding habitat that starts earlier and runs longer than a Grand Ledge without a flood-prone river through its center would see.",
+      },
+      {
+        question: "Are the Grand Ledge sandstone bluffs actually a wasp risk?",
+        answer:
+          "Yes. The natural crevices in the mile of sandstone ledges through Fitzgerald and Oak Park give paper wasps and yellowjackets places to nest largely undisturbed, and because the ledges are a popular hiking and climbing spot, nests near trails or overlooks are worth professional removal rather than a DIY approach.",
+      },
+      {
+        question: "Why do mice move into Grand Ledge homes every fall?",
+        answer:
+          "Eaton County farmland presses against the city's edges, and when combines clear the fields each September and October, displaced mice head for the nearest shelter, often the older homes near Grand Ledge's historic downtown.",
+      },
+      {
+        question: "What causes cluster flies in Grand Ledge homes?",
+        answer:
+          "Cluster flies spend summer in nearby fields and look for a way indoors each fall to overwinter. Grand Ledge's older housing stock near downtown, built before modern sealing standards, gives them more entry points than newer construction on the edge of town.",
+      },
+      {
+        question: "Is carpenter ant damage common in downtown Grand Ledge?",
+        answer:
+          "It shows up in the wood-frame buildings and homes dating to the late 1800s, particularly where humidity off the nearby river keeps window sills, porches, or rooflines damp. Addressing the moisture source is what actually resolves an established colony.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "St. Johns", slug: "st-johns-mi", stateSlug: "michigan" },
+      { name: "Hastings", slug: "hastings-mi", stateSlug: "michigan" },
+      { name: "East Lansing", slug: "east-lansing", stateSlug: "michigan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Grand Ledge, MI | Mosquitoes, Mice & Wasps",
+    metaDescription:
+      "Grand Ledge, MI pest control for river-flood mosquitoes, fall mice and ledge-nesting wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "st-johns-mi",
+    name: "St. Johns",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~7,700",
+    county: "Clinton County",
+    climate: "cold-humid",
+    climateDriver:
+      "St. Johns sits in the flat farm country of central Clinton County, in the same humid continental climate as the rest of mid-Michigan: cold winters with real snow, and warm, humid summers. The land around the city is largely former wetland, drained over a century ago into some of the richest muck soil in the state, soil so fertile it made Clinton County the country's leading spearmint and peppermint growing region by the early twentieth century. That same muck ground drains slowly after a heavy rain, which shapes St. Johns' pest pressure differently than a town on firmer, better-drained soil would experience.",
+    topPests: ["House Mice", "Mosquitoes", "Stink Bugs", "Flies", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Clinton County's cornfields and soybean fields ring St. Johns on nearly every side, and when the harvest clears them each fall, displaced mice move toward the nearest buildings, often the older homes near the Clinton County Courthouse downtown.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through August, heaviest in low-lying muck fields",
+        note: "The same muck soil that made Clinton County a leading mint-growing region drains slowly after rain, and the standing water left in low farm ground around St. Johns keeps mosquito breeding habitat active well into summer.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on the sun-facing walls of St. Johns homes each fall before finding a gap around siding or window trim, a pattern common across mid-Michigan farm towns.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Heaviest June through September",
+        note: "St. Johns sits close enough to Clinton County's dairy and livestock operations that properties on the edge of town see heavier fly pressure through summer than homes deeper into the city grid.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs cluster on sun-facing walls near mature boxelder and maple trees each fall, common on St. Johns' older residential streets with established shade trees.",
+      },
+    ],
+    localHook:
+      "St. Johns grew up on muck soil so fertile it made Clinton County the world's largest producer of native spearmint by the mid-1900s, and that same poorly drained soil still leaves standing water in the farmland ringing the city each spring, which stretches the mosquito season longer than a town on firmer ground would see.",
+    intro:
+      "St. Johns sits in the middle of Clinton County's flat farm country, on muck soil so fertile it once made the area one of the world's leading spearmint and peppermint growing regions. That soil drains slowly after rain, and the standing water it holds in the low farm ground around the city keeps mosquito breeding habitat active well into summer. The cornfields and soybean fields pressing against St. Johns on nearly every side also drive a fall mouse surge at harvest time, and stink bugs and boxelder bugs follow the standard mid-Michigan pattern of gathering on sunny walls before the first hard frost arrives.",
+    sections: [
+      {
+        heading: "Muck soil, a mint industry, and a longer mosquito season",
+        body: "St. Johns owes its shape to soil most farm towns would consider a liability. The wetlands drained across Clinton County in the late 1800s left behind muck ground so rich that mint growers flocked to the area starting around 1913, and by the mid-1900s the county was producing more native spearmint than anywhere else in the world. That same muck soil, shallow-rooted crops aside, does not drain quickly after a heavy spring rain. Low fields around St. Johns hold standing water for days at a time, and that water becomes mosquito breeding habitat that starts earlier in the season and persists later into summer than a St. Johns built on better-drained ground would experience. Properties near the lowest farm ground east and south of the city see the heaviest pressure.",
+      },
+      {
+        heading: "Harvest sends mice into town every fall",
+        body: "The cornfields and soybean fields that surround St. Johns on nearly every side are home to a large field mouse population all summer, one that loses its cover the moment combines start clearing the fields each September and October. Displaced mice do not travel far. They head for the nearest shelter, and St. Johns' older homes near the Clinton County Courthouse downtown, along with farmhouses on the city's edges, offer settled foundations and aging entry points that are easy to find. The surge is predictable enough that many longtime residents plan an inspection and sealing pass for late summer, before the harvest begins, rather than waiting until mice are already inside.",
+      },
+      {
+        heading: "Fly pressure near Clinton County's dairy operations",
+        body: "Not every part of St. Johns sees the same fly pressure. Properties closer to the working dairy and livestock farms on the edges of Clinton County deal with heavier fly activity through the warm months than homes deeper into the city's residential grid, since flies breeding around livestock operations range out into the surrounding area looking for food and shelter. This is more a matter of proximity than anything wrong with a given property, but it does mean an edge-of-town home or business benefits from tighter exclusion, well-fitted screens, sealed trash storage, and a proactive fly control plan through the summer, in a way that a home several blocks into town typically does not need to the same degree.",
+      },
+      {
+        heading: "Stink bugs and boxelder bugs on the fall walls",
+        body: "Brown marmorated stink bugs and boxelder bugs both follow the same basic playbook across mid-Michigan farm towns, and St. Johns is no exception. Both species gather on the sun-facing exterior walls of homes each September and October, drawn to the warmth radiating off siding as the days cool, then work their way in through gaps around window trim, siding, and utility penetrations before the first hard frost. Boxelder bugs tend to concentrate near mature boxelder and maple trees, common on St. Johns' older residential streets, while stink bugs show up more broadly across the city. Neither causes structural damage, but both are a persistent fall nuisance that sealing exterior gaps in late summer helps prevent.",
+      },
+      {
+        heading: "Cockroaches in the downtown commercial core",
+        body: "St. Johns' compact downtown around the Clinton County Courthouse is mostly older commercial buildings with shared walls and aging plumbing, conditions that let German cockroaches move between adjoining storefronts and upper-floor apartments once they establish. Unlike the seasonal pests on this list, cockroaches do not care what the Michigan weather is doing outside, since they live entirely indoors and breed year-round wherever they find food, moisture, and a way through a wall void. A single restaurant or apartment treating on its own often sees a roach population simply retreat into a neighboring unit during service and return once the pressure lets up, which is why building-wide coordination matters more downtown than it does on a single-family residential block.",
+      },
+      {
+        heading: "How St. Johns compares to lake-country towns nearby",
+        body: "St. Johns' pest pressure looks little like the lake-country towns just to its east in Livingston County. Its profile is shaped entirely by flat, historically wet farmland and an old agricultural economy built on mint, not lake-effect moisture or tick-friendly wooded shoreline. Mosquitoes here track farm drainage rather than lake access, and ticks are a minor concern rather than a headline one the way they are in a county ringed with glacial lakes. A pest control plan built for a lake town does not transfer cleanly to St. Johns, and treating its farmland and muck-soil pressures on their own terms works far better.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and check crawlspace vents before the fall harvest brings mice into town.",
+      "Clear or treat standing water in low yard areas each spring to reduce muck-field mosquito breeding.",
+      "Fit tight screens and seal trash storage on edge-of-town properties near dairy and livestock operations.",
+      "Seal gaps around siding and window trim in late summer to keep fall stink bugs and boxelder bugs out.",
+    ],
+    costNote:
+      "General quarterly pest plans in St. Johns typically run $120 to $245 per year. Seasonal mosquito treatment for low-lying farmland-adjacent properties runs $80 to $155 per visit through the summer. Commercial cockroach service for downtown buildings is quoted separately based on the number of units involved. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is St. Johns known for mint?",
+        answer:
+          "St. Johns sits on muck soil drained from Clinton County's wetlands in the late 1800s, soil so fertile that mint growers arrived starting around 1913. By the mid-1900s Clinton County was producing more native spearmint than any other place in the world, a history still celebrated locally today.",
+      },
+      {
+        question: "Does St. Johns' mint-farming soil affect its mosquito season?",
+        answer:
+          "Yes. The muck soil that made Clinton County a top mint producer also drains slowly after rain, and the standing water it holds in low farm ground around St. Johns keeps mosquito breeding habitat active longer into summer than firmer, better-drained ground would allow.",
+      },
+      {
+        question: "Why do mice show up in St. Johns every fall?",
+        answer:
+          "The cornfields and soybean fields surrounding the city lose their cover each September and October when combines clear the harvest. Displaced mice head for the nearest shelter, often the older homes near the Clinton County Courthouse downtown.",
+      },
+      {
+        question: "Is fly pressure worse in some parts of St. Johns than others?",
+        answer:
+          "Yes. Properties near the working dairy and livestock farms on the edges of Clinton County see heavier fly activity through summer than homes deeper into the city's residential grid, simply due to proximity to the source.",
+      },
+      {
+        question: "Are St. Johns' pest problems similar to Livingston County lake towns?",
+        answer:
+          "Not really. St. Johns' pressure comes from flat farmland and historic muck soil rather than lake-effect moisture, so mosquitoes track farm drainage instead of lake access, and ticks are a minor concern rather than a major one.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Grand Ledge", slug: "grand-ledge-mi", stateSlug: "michigan" },
+      { name: "Eaton Rapids", slug: "eaton-rapids-mi", stateSlug: "michigan" },
+      { name: "Midland", slug: "midland", stateSlug: "michigan" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in St. Johns, MI | Mice, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "St. Johns, MI pest control for muck-field mosquitoes, fall mice, stink bugs and flies. Licensed Clinton County service. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "eaton-rapids-mi",
+    name: "Eaton Rapids",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~5,200",
+    county: "Eaton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Eaton Rapids sits at the confluence of the Grand River and Spring Brook in southern Eaton County, in the same humid continental climate as the rest of mid-Michigan, cold and snowy in winter, warm and humid in summer. A canal dug in the 1840s to power local mills split the river's flow and left the entire downtown business district sitting on an island, the reason the city is still called the Island City. That much water running through the center of a small town, crossed by six vehicle bridges and three foot bridges, shapes its pest pressure differently than an Eaton County town set back from any river.",
+    topPests: ["Mosquitoes", "House Mice", "Carpenter Ants", "Cluster Flies", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Eaton Rapids' downtown island sits between the Grand River and the Spring Brook millrace, and the slower-moving water along both channels gives mosquitoes breeding habitat within a few blocks of nearly every downtown business and home.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The working farmland surrounding Eaton Rapids on nearly every side sends displaced mice toward the city each fall harvest, and the older homes on the island and along the riverbanks offer settled foundations with plenty of entry points.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Eaton Rapids' downtown island includes commercial buildings and homes going back to the 1800s spa-resort era, and the humidity off two waterways keeps exposed wood damp enough to draw carpenter ants looking for softened framing.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, overwinter indoors",
+        note: "Cluster flies work the gaps in Eaton Rapids' older riverside homes each fall, and the age of the housing stock near the island gives them more entry points than newer construction on the city's outer edges.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse in humid basements",
+        note: "The high water table around Eaton Rapids' island district keeps some older basements and crawlspaces damp year-round, conditions silverfish favor in homes close to either the Grand River or Spring Brook.",
+      },
+    ],
+    localHook:
+      "Eaton Rapids built a canal in the 1840s to power its mills, and the project split the Grand River's flow so completely that the entire downtown business district now sits on an island, crossed by six vehicle bridges and three foot bridges, a layout that puts moving water within a few blocks of nearly every downtown property and keeps mosquito pressure higher there than in an Eaton County town set back from any river.",
+    intro:
+      "Eaton Rapids earned its Island City nickname honestly. A canal dug in the 1840s to power local mills split the Grand River's flow around Spring Brook, and the result put the entire downtown business district on an island crossed by nine bridges in total. That much moving water within a few blocks of downtown keeps mosquito pressure higher through summer than a typical inland Eaton County town would see, and the humidity off two waterways feeds carpenter ant activity in the older buildings near the island. Add the farmland surrounding the city and the fall mouse surge that comes with harvest, and Eaton Rapids' geography does real work shaping its pest calendar.",
+    sections: [
+      {
+        heading: "Living on an island: what it means for mosquitoes",
+        body: "Eaton Rapids' downtown sits on a genuine island, created when a mill canal dug in the 1840s diverted part of the Grand River's flow into what became Spring Brook. Nine bridges, six for vehicles and three for pedestrians, connect the island to the rest of the city, and that much slow-moving water running past two banks instead of one gives mosquitoes far more breeding edge within walking distance of downtown than a landlocked Eaton County town would have. Properties directly on the island or along either bank see the heaviest pressure through June, July, and August, and standing water in low yard areas compounds whatever the river and millrace are already providing.",
+      },
+      {
+        heading: "Fall mice arrive with the harvest",
+        body: "Farmland surrounds Eaton Rapids on nearly every side outside the compact downtown core, and the fields lose their cover fast once combines move through each September and October. Displaced field mice do not travel far looking for shelter, and the older homes on the island and lining both riverbanks, many with settled foundations dating well back into the 1900s, give them easy entry points around sills and utility penetrations. The pattern repeats closely enough each year that an inspection and sealing pass in late summer, ahead of the harvest, tends to save Eaton Rapids homeowners a more difficult fall.",
+      },
+      {
+        heading: "Carpenter ants in the old spa-era buildings",
+        body: "Eaton Rapids spent part of the late 1800s as a mineral springs resort town, drawing visitors to bathe in water believed to have healing properties, and the commercial buildings and homes from that era still stand around the downtown island today. Sitting between two waterways keeps ambient humidity higher there than elsewhere in the city, and that humidity keeps window sills, porch framing, and rooflines on older buildings damp for longer after a rain. Carpenter ants exploit exactly that kind of softened wood, excavating galleries rather than eating the wood itself, and an established colony in one of these older buildings usually traces back to a moisture source worth finding and fixing rather than just an ant problem worth spraying.",
+      },
+      {
+        heading: "Cluster flies and silverfish in older riverside homes",
+        body: "Two pests in Eaton Rapids trace back to the same root cause: age and dampness. Cluster flies spend summer breeding in nearby fields, then look for a way into a building each September and October to overwinter in wall voids, and the older homes near the island and along the riverbanks offer more gaps than newer construction farther out. Silverfish favor the same kind of conditions from the other direction, thriving in damp basements and crawlspaces year-round rather than showing up seasonally. The high water table around Eaton Rapids' island district keeps some older basements humid enough to sustain a silverfish population even through a dry Michigan summer.",
+      },
+      {
+        heading: "Why the bridges matter for pest control, not just traffic",
+        body: "Nine bridges connecting Eaton Rapids' downtown island to the rest of the city is mostly a traffic and civic-history fact, but it says something useful about pest control too: every property on or near that island sits within a short distance of moving water on at least one side, often two. That proximity is the single biggest factor separating a downtown Eaton Rapids property's pest risk from a farmhouse on the city's outer edge. Mosquito and moisture-related pest pressure concentrates near the water, while the farmland-driven mouse surge concentrates on the outer edges each fall, and an effective plan treats those as genuinely different problems rather than one blanket approach.",
+      },
+      {
+        heading: "What a free inspection covers in Eaton Rapids",
+        body: "An inspection in Eaton Rapids starts with location. A downtown or riverside property gets checked for standing water risk, basement humidity, and the kind of moisture damage that draws carpenter ants, since those factors matter most so close to two waterways. A home on the city's outer edge gets a closer look at foundation gaps and sill plates ahead of the fall harvest, when displaced field mice are most likely to move in. Both get a general pest review covering cluster flies and silverfish, since age and humidity affect older homes across the entire city, not just the island itself.",
+      },
+    ],
+    prevention: [
+      "Treat or eliminate standing water near the river, millrace, and low yard areas each spring to cut mosquito breeding.",
+      "Seal foundation gaps and sill plates on older island and riverside homes before the fall harvest brings mice indoors.",
+      "Fix leaking gutters or rooflines promptly on older downtown buildings to keep carpenter ants from finding damp wood.",
+      "Run a dehumidifier in older basements near the river to reduce the humidity that draws silverfish.",
+    ],
+    costNote:
+      "General quarterly pest plans in Eaton Rapids typically run $115 to $240 per year. Mosquito treatment for island and riverside properties runs $85 to $165 per visit through the season. Carpenter ant treatment for older downtown buildings is quoted separately based on the extent of moisture damage found. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is Eaton Rapids called the Island City?",
+        answer:
+          "A canal dug in the 1840s to power local mills split the Grand River's flow into what became Spring Brook, and the result put the entire downtown business district on a true island, connected to the rest of the city by nine bridges, six for vehicles and three on foot.",
+      },
+      {
+        question: "Does living on Eaton Rapids' island mean worse mosquito pressure?",
+        answer:
+          "Yes. Properties on or near the downtown island sit within a short distance of moving water on at least one side, often two, which gives mosquitoes more breeding edge nearby than a landlocked Eaton County property would face.",
+      },
+      {
+        question: "Why do mice move into Eaton Rapids homes every fall?",
+        answer:
+          "Farmland surrounds the city outside the compact downtown core, and when combines clear the fields each September and October, displaced mice head for the nearest shelter, often older homes on the island or along the riverbanks.",
+      },
+      {
+        question: "Are the older buildings near Eaton Rapids' island prone to carpenter ants?",
+        answer:
+          "Many are. Eaton Rapids was a mineral springs resort town in the late 1800s, and the buildings from that era sit between two waterways where humidity keeps wood damp longer after a rain, exactly what carpenter ants look for.",
+      },
+      {
+        question: "Why do some Eaton Rapids basements have silverfish year-round?",
+        answer:
+          "The high water table around the island district keeps some older basements and crawlspaces humid even through dry summer stretches, and that consistent dampness lets silverfish persist year-round rather than appearing only seasonally.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "St. Johns", slug: "st-johns-mi", stateSlug: "michigan" },
+      { name: "Mason", slug: "mason-mi", stateSlug: "michigan" },
+      { name: "Charlotte", slug: "charlotte-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Eaton Rapids, MI | Island City Mosquitoes & Mice",
+    metaDescription:
+      "Eaton Rapids, MI pest control for island-district mosquitoes, fall mice and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mason-mi",
+    name: "Mason",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~8,300",
+    county: "Ingham County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mason sits in central Ingham County about twelve miles south of Lansing, in the same humid continental climate found across mid-Michigan, cold and snowy winters, warm and humid summers. Sycamore Creek runs along the edge of the historic courthouse square downtown, and farmland presses in from most directions outside the city's residential core. Mason has been the Ingham County seat since 1840, and the 72-acre Ingham County Fairgrounds sits at the edge of town, hosting one of the state's largest county fairs each summer, a use that shapes local pest pressure in a way most county seat towns this size do not share.",
+    topPests: ["House Mice", "Flies", "Mosquitoes", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Farmland surrounding Mason on most sides sends field mice toward the city each fall harvest, and the older homes near the 1905 courthouse square downtown offer settled foundations that are easy for displaced mice to find.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Heaviest late July through August",
+        note: "The 72-acre Ingham County Fairgrounds on the edge of Mason hosts livestock barns each summer during the county fair, and homes and businesses closest to the fairgrounds see a real seasonal jump in fly pressure during and just after fair week.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Sycamore Creek runs along the edge of downtown Mason, and the low, slow-moving stretches near the courthouse square and Rayner Park give mosquitoes breeding habitat within easy reach of the city center.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on the sun-facing walls of Mason homes each fall before finding gaps around siding and window trim, the standard pattern across inland Ingham County.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Mason's courthouse square district includes homes and commercial buildings old enough to have developed moisture damage around rooflines and window trim, exactly the conditions carpenter ants target.",
+      },
+    ],
+    localHook:
+      "Mason has been the Ingham County seat since 1840, and the 72-acre county fairgrounds at the edge of town host livestock barns each summer during the Ingham County Fair, a use most towns Mason's size do not have, and one that gives the city a real, predictable jump in fly pressure during fair week that a typical residential courthouse town does not see.",
+    intro:
+      "Mason has been the seat of Ingham County since 1840, and its historic courthouse square downtown, built between 1902 and 1905, sits close to Sycamore Creek and the farmland pressing in from most sides of the city. The creek gives mosquitoes breeding habitat within easy reach of downtown, and the surrounding fields drive a fall mouse surge each harvest, the standard pattern for a mid-Michigan county seat. What sets Mason apart is the 72-acre Ingham County Fairgrounds at the edge of town, which hosts livestock barns each summer during one of the state's largest county fairs and brings a real, predictable jump in fly pressure that most towns this size never have to plan around.",
+    sections: [
+      {
+        heading: "The county fair and Mason's summer fly pressure",
+        body: "The Ingham County Fair, held each summer at the 72-acre fairgrounds on Mason's edge, brings in livestock, food vendors, and thousands of visitors over the course of a week, and livestock barns are reliable fly breeding sites no matter how well they are managed during the event. Homes and businesses closest to the fairgrounds see a real jump in fly activity during and just after fair week, as flies range out from the barns looking for food sources nearby. This is a predictable, calendar-driven surge rather than a year-round problem, and properties near the fairgrounds benefit from tightening up screens and exclusion measures in the weeks leading into the fair rather than waiting to react once the flies show up.",
+      },
+      {
+        heading: "Sycamore Creek and downtown mosquito pressure",
+        body: "Sycamore Creek runs along the edge of Mason's historic courthouse square and through Rayner Park, and the slower, shallower stretches of the creek near downtown give mosquitoes breeding habitat within a few blocks of the city center rather than out on the agricultural edges where a resident might expect it. Properties along the creek corridor and near the park see the heaviest pressure through the warm months, particularly after a wet stretch when the creek's edges hold standing water longer. Clearing debris that traps water along a property's stretch of the creek, where allowed, and treating any standing water on the property itself are the most direct steps a downtown Mason resident can take.",
+      },
+      {
+        heading: "Fall mice and the courthouse square's older housing",
+        body: "Farmland surrounds Mason on most sides outside the compact downtown core, and the fields lose their cover fast each September and October as combines move through. Displaced field mice do not travel far, and the older homes near the historic courthouse square, some dating back well over a century, give them settled foundations and aging entry points that are easy to find. The surge follows the harvest schedule closely enough each year that many longtime Mason residents plan an inspection and sealing pass for late summer rather than waiting until the first cold snap forces the issue.",
+      },
+      {
+        heading: "Stink bugs on the fall walls",
+        body: "Mason follows the standard inland Ingham County pattern for brown marmorated stink bugs: the insects gather in visible numbers on sun-facing exterior walls each September and October, drawn to the warmth radiating off siding as outdoor temperatures drop, then work their way indoors through gaps around window trim, siding, and utility penetrations ahead of the first hard frost. They cause no structural damage, but their tendency to release a strong odor when disturbed or crushed makes them a genuine fall nuisance in and around Mason's residential streets, particularly on homes with west or south-facing exposures that stay warm into the evening.",
+      },
+      {
+        heading: "Carpenter ants near the historic courthouse",
+        body: "Mason's courthouse square district, anchored by the Beaux-Arts courthouse built between 1902 and 1905, includes commercial buildings and homes with more than a century of exposure to Michigan weather, plenty of time for rooflines, window trim, and porch framing to develop the kind of moisture damage carpenter ants target. The ants do not eat the wood they tunnel through, they excavate galleries in wood already softened by water, most often around a leaking gutter or a compromised roof edge. Seeing large black ants indoors each spring is the visible sign, but the response that actually resolves the problem addresses the moisture source rather than just the ants themselves.",
+      },
+      {
+        heading: "Planning pest control around Mason's fair calendar",
+        body: "Mason's pest calendar has an extra variable most towns its size do not deal with: a major county fair that brings livestock to the edge of town every summer. A property near the fairgrounds benefits from timing exclusion work, tighter screens, and sealed trash storage ahead of fair week rather than after flies have already become a problem. Properties elsewhere in the city follow the more familiar mid-Michigan pattern: mosquito season along the creek corridor, a fall mouse surge tied to the harvest, and stink bugs and carpenter ants on their usual seasonal schedules. A pest control plan that accounts for both patterns serves Mason better than one built around only the typical courthouse-town profile.",
+      },
+    ],
+    prevention: [
+      "Tighten screens and seal trash storage on fairgrounds-adjacent properties in the weeks before the Ingham County Fair each summer.",
+      "Clear debris that traps standing water along Sycamore Creek where the property line allows, to reduce mosquito breeding.",
+      "Seal foundation gaps and sill plates on courthouse-square-area homes before the fall harvest brings mice indoors.",
+      "Fix leaking gutters and roof edges promptly on older downtown buildings to keep carpenter ants from finding damp wood.",
+    ],
+    costNote:
+      "General quarterly pest plans in Mason typically run $120 to $245 per year. Seasonal fly control for fairgrounds-adjacent properties runs $75 to $150 timed around fair week. Mosquito treatment for creek-corridor properties runs $80 to $155 per visit through the summer. Free inspection included.",
+    faqs: [
+      {
+        question: "Does the Ingham County Fair really affect pest control in Mason?",
+        answer:
+          "Yes. The fairgrounds host livestock barns each summer during the Ingham County Fair, one of Michigan's largest, and homes and businesses closest to the grounds see a real, predictable jump in fly activity during and just after fair week.",
+      },
+      {
+        question: "Why does downtown Mason see mosquitoes even away from farm fields?",
+        answer:
+          "Sycamore Creek runs along the edge of the historic courthouse square and through Rayner Park, and its slower stretches near downtown give mosquitoes breeding habitat within a few blocks of the city center, closer than many residents expect.",
+      },
+      {
+        question: "Why do mice move into Mason homes every fall?",
+        answer:
+          "Farmland surrounds the city on most sides outside the downtown core, and when combines clear the fields each September and October, displaced mice head for the nearest shelter, often the older homes near the courthouse square.",
+      },
+      {
+        question: "Are carpenter ants common in Mason's older buildings?",
+        answer:
+          "They show up regularly near the historic courthouse square, where commercial buildings and homes built around the 1902-to-1905 courthouse era have had over a century to develop the roofline and window-trim moisture damage carpenter ants target.",
+      },
+      {
+        question: "Are stink bugs a big problem in Mason?",
+        answer:
+          "They follow the standard inland Ingham County pattern, gathering on sun-facing exterior walls each September and October before working indoors through gaps ahead of the first hard frost. They do not damage structures but are a persistent fall nuisance.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Eaton Rapids", slug: "eaton-rapids-mi", stateSlug: "michigan" },
+      { name: "Hastings", slug: "hastings-mi", stateSlug: "michigan" },
+      { name: "East Lansing", slug: "east-lansing", stateSlug: "michigan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Mason, MI | Fair-Season Flies & Fall Mice",
+    metaDescription:
+      "Mason, MI pest control for fair-season flies, mosquitoes, fall mice and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hastings-mi",
+    name: "Hastings",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~7,500",
+    county: "Barry County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hastings sits on the Thornapple River at the center of Barry County, in the same humid continental climate as the rest of mid-Michigan, cold winters, warm and humid summers, but with a wrinkle most inland county seats do not share: Barry County is a genuine lake district, dotted with dozens of small glacial lakes including Gun Lake ten miles to the west and the nine lakes inside the 5,000-acre Yankee Springs Recreation Area nearby. That much open water within a short drive of downtown gives Hastings a longer mosquito season and a real tick presence that a farm-only county seat would not have.",
+    topPests: ["Mosquitoes", "Ticks", "House Mice", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Thornapple River runs through the middle of Hastings, and the dozens of small glacial lakes scattered across Barry County, including Gun Lake and the lakes inside Yankee Springs Recreation Area, keep breeding habitat abundant across the county all summer.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak in late spring",
+        note: "Barry County's lake-and-woodland mix, especially around Yankee Springs Recreation Area's trails and shoreline, gives ticks the tall grass and brush cover they favor, and residents spending time near any of the county's lakes should check carefully after time outdoors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Farmland outside Hastings' compact downtown core loses its cover each fall harvest, and displaced field mice move toward the nearest shelter, often older homes on the city's residential streets near the river.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on sun-facing walls of Hastings homes each fall before slipping in through gaps around siding and window trim, the standard pattern across inland southwest Michigan.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Hastings' older neighborhoods along the Thornapple River include homes with enough age and river-corridor humidity to develop the kind of moisture damage carpenter ants target around window sills and rooflines.",
+      },
+    ],
+    localHook:
+      "Barry County is a genuine lake district, not just a river town, with dozens of small glacial lakes scattered around Hastings and the 5,000-acre Yankee Springs Recreation Area's nine lakes just southwest of the city, and that much open water within easy reach of downtown gives Hastings a longer mosquito season and a real tick presence that a farm-only county seat this size would not carry.",
+    intro:
+      "Hastings sits on the Thornapple River at the center of Barry County, a county known less for farmland alone and more for the dozens of small glacial lakes scattered across it, including Gun Lake and the nine lakes inside Yankee Springs Recreation Area nearby. That much open water gives Hastings a mosquito season that runs longer than a typical inland Michigan county seat, and a real tick presence tied to the county's lake-and-woodland mix. Farmland outside the compact downtown still drives a fall mouse surge each harvest, and stink bugs and carpenter ants follow the familiar southwest Michigan pattern, but it is the lakes that set Hastings apart from a landlocked farm town its size.",
+    sections: [
+      {
+        heading: "Why Barry County's lakes matter more than its farmland here",
+        body: "Most mid-Michigan county seats build their pest profile around farmland alone, but Barry County is different. Dozens of small glacial lakes are scattered across the county around Hastings, and the 5,000-acre Yankee Springs Recreation Area, hugging the eastern edge of Gun Lake about ten miles west of downtown, adds nine more lakes to that count. That much surface water keeps mosquito breeding habitat abundant across the county all summer, not just in low farm ground the way a landlocked county seat would experience it. Properties near any of Barry County's lakes, or along the Thornapple River corridor through Hastings itself, see the heaviest pressure from May through September.",
+      },
+      {
+        heading: "Ticks around Yankee Springs and the county's lake trails",
+        body: "The same lake-and-woodland mix that supports Barry County's mosquito population also supports ticks, which favor the tall grass and brush found along wooded shoreline and the trail systems threading through Yankee Springs Recreation Area and other lakeside recreation spots around the county. Tick activity in Barry County runs from April through October and peaks in late spring, and anyone, or any pet, spending time on the county's lake trails or shoreline should check thoroughly after time outdoors, given the disease risk ticks can carry. Hastings residents who spend weekends at Gun Lake or hiking Yankee Springs often carry ticks back into town on clothing or gear without noticing.",
+      },
+      {
+        heading: "Fall mice on Hastings' Thornapple River streets",
+        body: "Farmland still surrounds Hastings outside its compact downtown core, and it follows the same harvest-driven pattern found across inland Michigan: combines clear the fields each September and October, and the field mice that had been living in them lose their cover fast. Displaced mice head for the nearest shelter, and Hastings' older residential streets near the Thornapple River, with settled foundations and aging entry points, are a common landing spot. The pattern is predictable enough each year that sealing obvious gaps before the harvest begins remains the most effective single step a Hastings homeowner can take.",
+      },
+      {
+        heading: "Stink bugs and carpenter ants along the river",
+        body: "Stink bugs follow the standard inland southwest Michigan pattern in Hastings, gathering on sun-facing exterior walls each September and October before finding a gap around window trim or siding to slip through ahead of winter, a fall nuisance rather than a structural threat. Carpenter ants present a different kind of risk in Hastings' older neighborhoods along the Thornapple River, where river-corridor humidity keeps window sills, porch framing, and rooflines damp for longer after a rain than homes farther from the water. That moisture is exactly what carpenter ants target when excavating galleries in softened wood, and an established colony usually points back to a specific leak or damp spot worth finding.",
+      },
+      {
+        heading: "Seasonal properties and the Gun Lake pressure difference",
+        body: "Hastings sits close enough to Gun Lake and the smaller lakes scattered across Barry County that many area residents split their time between a home in town and a cottage or seasonal property at the water. Lakeside properties carry meaningfully higher mosquito and tick pressure through the warm months than a Hastings home several blocks from any water, simply due to proximity to breeding habitat and tick-friendly brush. A pest control plan that treats every Barry County property identically misses this distinction, and a seasonal lake property generally benefits from more aggressive mosquito treatment and more frequent tick checks than a downtown Hastings home needs.",
+      },
+      {
+        heading: "What a Hastings inspection accounts for",
+        body: "An inspection in Hastings starts by placing the property on the county's map. A home or cottage near Gun Lake, Yankee Springs, or one of Barry County's smaller lakes gets a close look at mosquito breeding risk and tick habitat nearby. A downtown or river-corridor property gets checked for the moisture damage that draws carpenter ants and the foundation gaps mice use each fall. Every property gets the standard fall review for stink bugs regardless of location, since that pattern holds steady across the whole county. A free inspection sorts out which of these applies before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Treat or eliminate standing water on lakeside and river-corridor properties each spring to reduce mosquito breeding.",
+      "Check people and pets for ticks after time spent near Gun Lake, Yankee Springs, or any of Barry County's other lakes.",
+      "Seal foundation gaps and sill plates on older river-area homes before the fall harvest brings mice indoors.",
+      "Fix leaking gutters or roof edges promptly along the Thornapple River corridor to keep carpenter ants from finding damp wood.",
+    ],
+    costNote:
+      "General quarterly pest plans in Hastings typically run $120 to $250 per year. Seasonal mosquito treatment for lakeside and river-corridor properties runs $85 to $170 per visit through the summer. Tick treatment for yards near wooded or lake-adjacent lots runs $90 to $175 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Hastings have a longer mosquito season than a typical inland Michigan town?",
+        answer:
+          "Barry County is dotted with dozens of small glacial lakes, plus the nine lakes inside the 5,000-acre Yankee Springs Recreation Area near Gun Lake, and all that open water keeps mosquito breeding habitat abundant across the county from May through September, longer than a landlocked farm county would see.",
+      },
+      {
+        question: "Are ticks a real concern around Hastings?",
+        answer:
+          "Yes. The lake-and-woodland mix around Yankee Springs Recreation Area and Barry County's other lake trails favors ticks, with activity running April through October and peaking in late spring. Checking people and pets after time on the county's trails or shoreline is worth the habit.",
+      },
+      {
+        question: "Why do mice move into Hastings homes each fall?",
+        answer:
+          "Farmland surrounds Hastings outside its compact downtown, and when combines clear the fields each September and October, displaced field mice head for the nearest shelter, often the older residential streets near the Thornapple River.",
+      },
+      {
+        question: "Do lakeside properties near Hastings need different pest control than in-town homes?",
+        answer:
+          "Generally yes. A cottage or seasonal property near Gun Lake or one of Barry County's smaller lakes carries higher mosquito and tick pressure through the warm months than a downtown Hastings home several blocks from any water.",
+      },
+      {
+        question: "Are carpenter ants a problem in Hastings' older neighborhoods?",
+        answer:
+          "They show up in older homes along the Thornapple River, where river-corridor humidity keeps window sills, porch framing, and rooflines damp longer after a rain, the moisture carpenter ants target when excavating galleries in softened wood.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mason", slug: "mason-mi", stateSlug: "michigan" },
+      { name: "Grand Ledge", slug: "grand-ledge-mi", stateSlug: "michigan" },
+      { name: "Kentwood", slug: "kentwood", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Hastings, MI | Lake Mosquitoes & Ticks",
+    metaDescription:
+      "Hastings, MI pest control for lake mosquitoes, ticks, fall mice and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

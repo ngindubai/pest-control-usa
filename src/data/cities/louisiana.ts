@@ -3730,4 +3730,598 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Plaquemine, LA pest control for river-confluence termites, mosquitoes, fire ants, cockroaches and house mice near the historic Plaquemine Lock. Iberville Parish service.",
   },
+  {
+    slug: "ponchatoula",
+    name: "Ponchatoula",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~7,800",
+    county: "Tangipahoa Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Ponchatoula sits on flat, sandy loam coastal plain ground between Ponchatoula Creek and the Tangipahoa River, with the vast Manchac Swamp and Lake Maurepas just south of town. Frequent rainfall and high humidity keep that swampy ground saturated for much of the year, and Tangipahoa Parish runs its own mosquito abatement district because of it. Warm, wet conditions with only brief winter cold keep Formosan termites and cockroaches active nearly year-round.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Raccoons"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in late spring, active year-round",
+        note: "Formosan termites are established throughout Tangipahoa Parish, and Ponchatoula's sandy loam soil holds moisture near Ponchatoula Creek and the Tangipahoa River long enough to keep colonies fed close to town.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peaks after summer rain",
+        note: "Tangipahoa Parish operates its own mosquito abatement district out of concern for exactly this kind of pressure, since the wetlands ringing Manchac Swamp and Lake Maurepas sit just south of town and hold breeding water long after a storm passes.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The drainage ditches and damp culverts that keep Ponchatoula's low ground from flooding double as a year-round cockroach corridor into nearby homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "The farmland surrounding Ponchatoula, much of it planted in the strawberries the town is famous for, gives fire ants wide stretches of undisturbed edge ground to colonize.",
+      },
+      {
+        name: "Raccoons",
+        serviceSlug: "raccoon-removal",
+        activeSeason: "Year-round, more active in fall",
+        note: "Manchac Swamp presses right up against Ponchatoula's southern edge, and raccoons move out of that wetland into attics and crawl spaces when cooler weather thins out easier food sources.",
+      },
+    ],
+    localHook:
+      "Ponchatoula calls itself the Strawberry Capital of the World and fills up every April for the Louisiana Strawberry Festival, but the swamp at its back door does more to shape its pest pressure than the strawberry fields do. Manchac Swamp and Lake Maurepas sit just south of town, and Tangipahoa Parish runs its own dedicated mosquito abatement district because of it.",
+    intro:
+      "Pest control in Ponchatoula starts with water. The town sits on sandy loam ground between Ponchatoula Creek and the Tangipahoa River, with Manchac Swamp and Lake Maurepas just to the south, and that wet, low setting is exactly why Tangipahoa Parish runs its own mosquito abatement district. Formosan termites are established throughout the parish and exploit the same damp soil, drainage ditches double as a cockroach corridor into older homes, and the strawberry farmland ringing town gives fire ants plenty of undisturbed edge ground. Raccoons pushing out of the swamp add a wildlife angle most Louisiana towns this size don't deal with as often.",
+    sections: [
+      {
+        heading: "Formosan termites on damp, sandy ground",
+        body: "Formosan subterranean termites are established across Tangipahoa Parish, and Ponchatoula's soil gives them exactly the conditions they need to thrive. The sandy loam that makes the area good for strawberry farming also holds moisture near Ponchatoula Creek and the Tangipahoa River, and that dampness keeps colonies active with little seasonal letup. Swarms typically appear in late spring, often on warm, humid evenings, and a swarm near a home is a solid signal to schedule an inspection soon after. Because Formosan colonies grow large and cause damage faster than native subterranean termites, an annual check is worth keeping on the calendar for any older home in town, especially ones near the creek.",
+      },
+      {
+        heading: "Why Tangipahoa Parish runs its own mosquito district",
+        body: "Ponchatoula's mosquito season runs long, roughly March through November, and gets worse after any heavy summer rain. That's not an accident of geography, it's the direct result of Manchac Swamp and Lake Maurepas sitting just south of town, holding wetland habitat close enough that Tangipahoa Parish decided a dedicated abatement district was worth funding. Homeowners can help the district's work along by clearing gutters, flowerpots, and any container that holds water after a storm, since those small pools breed mosquitoes just as effectively as the swamp does, only much closer to the porch.",
+      },
+      {
+        heading: "Cockroaches along the drainage ditches",
+        body: "Ponchatoula's low ground needs a network of drainage ditches and culverts to stay dry, and American cockroaches use that same network as a route into nearby homes. They breed in the damp, shaded conditions those ditches provide and move indoors whenever conditions push them to look for a drier spot, which in a town this humid can be often. Sealing gaps where utility lines and pipes enter a foundation, and keeping mulch and debris pulled back from the house, cuts down on how easily they can make that move from ditch to kitchen.",
+      },
+      {
+        heading: "Fire ants in the strawberry fields",
+        body: "The farmland ringing Ponchatoula, much of it in the strawberries that give the town its nickname, gives red imported fire ants wide stretches of undisturbed ground along field edges and fence lines. Mounds build through spring and peak in the heat of summer, and a yard backing onto open farmland tends to see more mound activity than one deeper into a subdivision. Treating mounds early in the season, before they mature, keeps them from spreading toward the house as the weather warms.",
+      },
+      {
+        heading: "Raccoons moving in from Manchac Swamp",
+        body: "Manchac Swamp sits close enough to Ponchatoula's southern edge that raccoons regularly cross from wetland to neighborhood, especially once cooler fall weather thins out the easy food available in the swamp itself. Attics, chimneys, and crawl spaces all look like reasonable den sites to a raccoon looking for shelter, and a homeowner near the swamp edge is more likely to hear scratching overhead than one further into town. Capping chimneys and screening attic vents before fall keeps that swamp-to-attic move from happening in the first place.",
+      },
+      {
+        heading: "A festival town on a swamp's schedule",
+        body: "Strawberry season gets Ponchatoula its name, but the pest calendar here really runs on the swamp at its edge. Manchac Swamp and Lake Maurepas keep the mosquito season long enough to justify a parish-wide abatement district, the same damp ground that grows good strawberries also feeds Formosan termite colonies, and raccoons treat the wetland and the neighborhood next to it as one connected space. Understanding that the swamp, not the calendar, sets the pace is the difference between chasing pest problems here and staying ahead of them.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual Formosan termite inspection, especially for homes near Ponchatoula Creek.",
+      "Clear gutters and standing water containers through mosquito season, March to November.",
+      "Seal foundation gaps and pipe entries to block cockroaches moving in from drainage ditches.",
+      "Cap chimneys and screen attic vents each fall before raccoons look for winter den sites.",
+    ],
+    costNote:
+      "General quarterly pest plans in Ponchatoula typically run $100 to $220 per year for a standard home. Termite inspections are usually free, with treatment for Formosan colonies priced by structure size, often $500 to $1,200. Wildlife exclusion work for raccoons, including chimney caps and vent screens, is generally quoted separately after an inspection.",
+    faqs: [
+      {
+        question: "Why does Tangipahoa Parish have its own mosquito abatement district?",
+        answer:
+          "Ponchatoula sits next to Manchac Swamp and Lake Maurepas, wetlands that hold breeding habitat close to town for most of the year, so Tangipahoa Parish funds a dedicated mosquito abatement district rather than leaving control entirely to individual homeowners.",
+      },
+      {
+        question: "Are Formosan termites a problem in Ponchatoula?",
+        answer:
+          "Yes. Formosan subterranean termites are established across Tangipahoa Parish, and Ponchatoula's sandy, moisture-holding soil near Ponchatoula Creek and the Tangipahoa River gives colonies exactly the damp conditions they favor. Annual inspections are recommended for older homes.",
+      },
+      {
+        question: "Why do raccoons show up in Ponchatoula attics?",
+        answer:
+          "Manchac Swamp sits right at Ponchatoula's southern edge, and raccoons move between the wetland and nearby neighborhoods, especially in fall when easy food in the swamp thins out. Homes closest to the swamp edge see this most often.",
+      },
+      {
+        question: "How long does mosquito season last in Ponchatoula?",
+        answer:
+          "Roughly March through November, with the worst stretches following summer rainstorms. The wetlands around Manchac Swamp and Lake Maurepas keep breeding habitat close by all season.",
+      },
+      {
+        question: "Are fire ants common around Ponchatoula's strawberry farms?",
+        answer:
+          "Yes. The farmland surrounding town, much of it in strawberries, gives fire ants wide stretches of undisturbed edge ground, and mound activity builds from spring through summer near any yard backing onto open fields.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Broussard", slug: "broussard", stateSlug: "louisiana" },
+      { name: "Donaldsonville", slug: "donaldsonville", stateSlug: "louisiana" },
+      { name: "Denham Springs", slug: "denham-springs-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ponchatoula, LA | Formosan Termites & Mosquitoes",
+    metaDescription:
+      "Ponchatoula, LA pest control for Formosan termites, mosquitoes, cockroaches, fire ants and raccoons near Manchac Swamp. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "broussard",
+    name: "Broussard",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~15,300",
+    county: "Lafayette Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Broussard sits on the flat Cajun prairie of Lafayette Parish, where rice fields are flooded after harvest to raise crawfish, a rotation that keeps large amounts of standing water across the flat prairie ground for months at a time. Research on Louisiana ricelands has linked crawfish ponds and irrigation canals directly to elevated mosquito breeding. The town's rapid growth has also converted former pastureland and rice ground into new subdivisions, disturbing soil that fire ants had held undisturbed for years.",
+    topPests: ["Mosquitoes", "Fire Ants", "Formosan Termites", "American Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peaks after fields flood",
+        note: "Published research on Louisiana ricelands has directly linked crawfish ponds and irrigation canals, the same rice-to-crawfish rotation common around Broussard, to elevated mosquito breeding.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "Broussard's rapid growth has turned former pastureland and rice ground into new subdivisions, and the disturbed soil left behind new construction is exactly the kind of open ground fire ants colonize fastest.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in late spring, active year-round",
+        note: "Formosan termites are established across Lafayette Parish, and Broussard's flat, poorly draining prairie ground keeps enough moisture near foundations to support active colonies.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The irrigation canals and drainage ditches that manage water for the area's rice and crawfish farms also give cockroaches a damp, sheltered route toward nearby homes.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, higher near harvest",
+        note: "Roof rats and Norway rats both move toward the shelter of homes and outbuildings when nearby rice and sugarcane fields are cut and cleared at harvest.",
+      },
+    ],
+    localHook:
+      "Broussard has roughly doubled in population since 2010, one of the fastest-growing towns in Acadiana, and most of that growth has gone up on land that used to be rice fields flooded seasonally to raise crawfish. That rotation between rice and crawfish farming has been directly tied by published research to higher mosquito breeding in the ponds and canals it depends on.",
+    intro:
+      "Broussard's pest pressure is a story about growth meeting farmland. The town has close to doubled in size since 2010, and much of that new construction sits on ground that used to rotate between rice fields and flooded crawfish ponds, a practice research has linked directly to elevated mosquito breeding in the canals and ponds it needs. Fire ants move fast into the disturbed soil that comes with new subdivisions, Formosan termites are established across Lafayette Parish and find enough moisture in the flat prairie ground to stay active, and rats and cockroaches both use the area's irrigation canals as a route toward newer homes.",
+    sections: [
+      {
+        heading: "Mosquitoes and the rice-to-crawfish rotation",
+        body: "Much of the farmland around Broussard rotates between growing rice and raising crawfish, flooding the same fields at different times of year to do both. That rotation is good for Acadiana's food culture, but published research on Louisiana ricelands has tied crawfish ponds and the irrigation canals that feed them directly to higher mosquito breeding than drier farmland produces. Mosquito season here runs roughly March through October and tends to spike after fields are flooded for the crawfish cycle. Homeowners near farmland can't do much about the ponds themselves, but keeping gutters and yard containers clear cuts down on the mosquitoes breeding closer to the house.",
+      },
+      {
+        heading: "Fire ants moving into new subdivisions",
+        body: "Broussard's growth has been fast, nearly doubling in population since 2010, and a lot of that new construction sits on former pastureland and rice ground. Freshly disturbed soil is exactly what fire ants look for when colonizing new territory, so newer subdivisions built at the edge of town often see more mound activity in their first few years than older, established neighborhoods do. Treating mounds while they're small, rather than waiting for them to mature over a full growing season, keeps a new yard from turning into a serious problem by its second summer.",
+      },
+      {
+        heading: "Formosan termites on Cajun prairie ground",
+        body: "Formosan subterranean termites are established across Lafayette Parish, and Broussard's flat prairie land, with poor natural drainage, holds enough moisture near home foundations to keep colonies fed. Swarms usually appear in late spring on warm, humid evenings, and any swarm spotted near a house is worth an inspection soon after. Because these colonies grow large and cause damage faster than native termites, an annual check is a reasonable habit for any home here, new construction included, since termites don't much care how old a foundation is.",
+      },
+      {
+        heading: "Cockroaches and rats along the canals",
+        body: "The irrigation canals and drainage ditches that keep water moving for the area's rice and crawfish farms serve a second purpose neither farmers nor homeowners want, they give American cockroaches a damp, sheltered corridor toward nearby houses. Rats follow a similar path, especially around harvest, when cutting and clearing nearby fields pushes them out of farmland and toward the shelter of homes and outbuildings. Sealing gaps at the foundation and keeping outdoor food sources covered reduces how easily either pest makes that move from canal or field to kitchen.",
+      },
+      {
+        heading: "A prairie town outgrowing its farmland roots",
+        body: "Broussard's pest picture is really the story of a fast-growing town built on Acadiana farmland that hasn't fully caught up with the change. The rice and crawfish rotation still drives the mosquito pressure, the farmland at the edges still pushes fire ants and rats toward new subdivisions, and Formosan termites treat new construction no differently than old. Homes closest to the remaining farmland tend to see the sharpest version of all four, which is worth factoring in when deciding how aggressive a pest control plan needs to be.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and yard containers through mosquito season, worse after nearby fields flood.",
+      "Treat fire ant mounds early in new subdivisions built on former farmland.",
+      "Book an annual Formosan termite inspection regardless of how new the home is.",
+      "Seal foundation gaps to keep canal-adjacent cockroaches and harvest-season rats out.",
+    ],
+    costNote:
+      "General quarterly pest plans in Broussard typically run $110 to $230 per year for a standard home. Termite inspections are usually free, with treatment for Formosan colonies priced by structure size, often $500 to $1,200. Mosquito season add-on treatment for homes near farmland runs roughly $70 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why does Broussard have more mosquitoes than some nearby towns?",
+        answer:
+          "Broussard sits amid farmland that rotates between rice fields and flooded crawfish ponds, and published research on Louisiana ricelands has directly linked that combination of ponds and irrigation canals to higher mosquito breeding than drier farmland produces.",
+      },
+      {
+        question: "Is fire ant pressure worse in Broussard's newer subdivisions?",
+        answer:
+          "Often, yes. Broussard has nearly doubled in population since 2010, and much of that construction sits on former pastureland and rice ground, freshly disturbed soil that fire ants colonize quickly.",
+      },
+      {
+        question: "Do Formosan termites affect new construction in Broussard?",
+        answer:
+          "Yes. Formosan subterranean termites are established across Lafayette Parish and don't distinguish between old and new foundations, so Broussard's flat, poorly draining prairie ground supports active colonies near new homes just as it does older ones.",
+      },
+      {
+        question: "Why do rats show up near Broussard at harvest time?",
+        answer:
+          "Cutting and clearing the rice and sugarcane fields around town displaces field rats, and they move toward the shelter of nearby homes and outbuildings, so calls tend to rise for a few weeks around harvest.",
+      },
+      {
+        question: "How fast has Broussard grown?",
+        answer:
+          "Broussard's population has climbed from about 8,200 in 2010 to roughly 15,000 today, one of the faster growth rates in Acadiana, and that expansion onto former farmland is a big part of why fire ants and rats show up in newer neighborhoods.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Ponchatoula", slug: "ponchatoula", stateSlug: "louisiana" },
+      { name: "Leesville", slug: "leesville", stateSlug: "louisiana" },
+      { name: "New Iberia", slug: "new-iberia", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Broussard, LA | Mosquitoes & Fire Ants",
+    metaDescription:
+      "Broussard, LA pest control for mosquitoes, fire ants and Formosan termites near Acadiana rice and crawfish farmland. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "leesville",
+    name: "Leesville",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~5,600",
+    county: "Vernon Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Leesville sits in the piney woods of Vernon Parish, ringed by the Kisatchie National Forest's Vernon Unit and its more than 85,000 acres of longleaf pine, with the Fort Polk training grounds just south of town. That forest and training land supports heavy tick populations, particularly the lone star tick and the Gulf Coast tick, in a way south Louisiana's swampy parishes don't see to the same degree. The sandier, better-draining soil here means less standing water than the coast, but summer humidity and long stretches of pine cover still keep fire ants and native subterranean termites active most of the year.",
+    topPests: ["Ticks", "Fire Ants", "Termites", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Lone star and Gulf Coast ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October, year-round in mild winters",
+        note: "The Kisatchie National Forest's Vernon Unit wraps around Leesville with more than 85,000 acres of pine and hardwood cover, habitat that supports heavier tick populations than the state's swampier parishes typically see.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "Leesville's sandier, better-draining soil doesn't slow fire ants down the way heavier clay elsewhere can, and open ground around Fort Polk's training areas gives colonies plenty of undisturbed space.",
+      },
+      {
+        name: "Native subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active year-round in mild weather",
+        note: "Vernon Parish sits inland of the heaviest Formosan termite infestation zones near the coast, so native subterranean termites, slower-moving but still damaging, are the primary termite concern for Leesville homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "The dense pine and hardwood forest surrounding Leesville gives carpenter ants abundant dead and damp wood to nest in before some colonies move into nearby structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through September",
+        note: "Leesville's better-draining sandy soil keeps mosquito season shorter and less severe than coastal Louisiana, but low spots and forest edges near Fort Polk still hold enough water each summer to breed them.",
+      },
+    ],
+    localHook:
+      "Leesville is boxed in by the Kisatchie National Forest's Vernon Unit, over 85,000 acres of longleaf pine just outside town, and sits next to Fort Polk, one of the Army's largest training installations. That much forest cover, combined with sandy soil rather than coastal swamp, gives Leesville a pest profile built around ticks and fire ants more than the termite and mosquito pressure that dominates most of the rest of the state.",
+    intro:
+      "Leesville's pest pressure looks different from the rest of Louisiana because its geography does. Instead of coastal swamp, the town sits ringed by the Kisatchie National Forest's Vernon Unit, more than 85,000 acres of longleaf pine next to the Fort Polk training grounds, and that much forest cover supports heavier tick populations, especially lone star and Gulf Coast ticks, than the state's wetter parishes see. Sandier soil here drains better than the coastal clay to the south, which keeps mosquito season shorter, but it does nothing to slow fire ants or the native subterranean termites and carpenter ants that work through the area's abundant pine and hardwood.",
+    sections: [
+      {
+        heading: "Why Leesville has more ticks than most of Louisiana",
+        body: "The Kisatchie National Forest's Vernon Unit wraps around Leesville with over 85,000 acres of pine and hardwood cover, and that much undisturbed forest is prime tick habitat. Lone star ticks and Gulf Coast ticks are both active across the area, with tick season generally running March through October and continuing through mild winters. Anyone spending time in the forest, around Fort Polk's training areas, or even just in a yard backing onto tree cover should check for ticks after being outside, and keeping grass cut short and brush cleared near the house reduces how many make it that far.",
+      },
+      {
+        heading: "Fire ants in sandy, well-draining soil",
+        body: "Leesville's soil drains better than the heavy clay and swampy ground found across much of the rest of the state, but that doesn't slow fire ants down, if anything the open, disturbed ground around Fort Polk's training areas and the newer construction near town gives colonies plenty of room to establish. Mounds build through spring and peak in summer heat. Because the sandy soil here doesn't hold water long enough to flood mounds out the way heavier clay sometimes does elsewhere in Louisiana, treating mounds directly tends to work better here than waiting on rain to handle it.",
+      },
+      {
+        heading: "Native subterranean termites, not Formosan",
+        body: "Formosan subterranean termites, the aggressive invasive species that dominates termite concerns in New Orleans and the rest of coastal Louisiana, are far less established this far inland. Leesville's termite pressure instead comes mostly from native subterranean termites, which build smaller colonies and cause damage more slowly, but are still capable of serious structural harm over time if left unchecked. Spring swarms are the clearest warning sign, and an inspection after spotting one is worth scheduling promptly, especially for older homes near the forest edge.",
+      },
+      {
+        heading: "Carpenter ants working the surrounding pine forest",
+        body: "The dense pine and hardwood forest that rings Leesville gives carpenter ants no shortage of dead, damp wood to nest in without ever touching a house. Some colonies eventually expand into structures anyway, hollowing out damp or damaged wood around windows, decks, and rooflines rather than eating it the way termites do. A homeowner who notices small piles of coarse sawdust near a windowsill or deck post is usually looking at carpenter ant activity worth having checked before it spreads further into the structure.",
+      },
+      {
+        heading: "A shorter, milder mosquito season",
+        body: "Leesville catches a break coastal Louisiana doesn't: sandier soil that drains faster means mosquito season here runs roughly April through September rather than nearly year-round, and it's generally less severe. That said, low spots in the yard and shaded forest edges near Fort Polk still hold enough water through the summer to breed mosquitoes, so clearing standing water after rain still matters, just on a shorter calendar than towns closer to the coast.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after time in the forest or near Fort Polk's training areas, and keep grass cut short near the house.",
+      "Treat fire ant mounds directly rather than waiting on rain to knock them back.",
+      "Schedule a termite inspection after any spring swarm, especially for homes near the forest edge.",
+      "Have carpenter ant activity around decks and windowsills checked before it spreads indoors.",
+    ],
+    costNote:
+      "General quarterly pest plans in Leesville typically run $95 to $200 per year for a standard home, on the lower end for Louisiana given the shorter mosquito season. Termite inspections are usually free, with treatment for native subterranean termites priced by structure size, often $400 to $900. Tick and flea treatment for yards near the forest edge is usually quoted separately.",
+    faqs: [
+      {
+        question: "Why does Leesville have such a bad tick problem?",
+        answer:
+          "Leesville sits ringed by the Kisatchie National Forest's Vernon Unit, over 85,000 acres of pine and hardwood next to the Fort Polk training grounds, and that much forest cover supports heavier lone star and Gulf Coast tick populations than Louisiana's swampier parishes typically see.",
+      },
+      {
+        question: "Are Formosan termites a concern in Leesville?",
+        answer:
+          "Not to the degree they are in coastal Louisiana. Leesville's termite pressure comes mostly from native subterranean termites, which are slower to cause damage than the invasive Formosan species but still worth an annual inspection.",
+      },
+      {
+        question: "Is mosquito season shorter in Leesville than the rest of Louisiana?",
+        answer:
+          "Yes. Leesville's sandier, better-draining soil keeps mosquito season to roughly April through September, shorter and generally milder than the near year-round pressure seen in coastal parishes.",
+      },
+      {
+        question: "Does Fort Polk affect pest control around Leesville?",
+        answer:
+          "Indirectly. The training grounds and the forest around them keep large amounts of undisturbed pine and hardwood cover near town, which supports the area's tick and carpenter ant populations more than a fully developed town would.",
+      },
+      {
+        question: "What are the small sawdust piles near my deck in Leesville?",
+        answer:
+          "That's usually carpenter ants, which are common in the pine and hardwood forest surrounding Leesville and sometimes expand into damp or damaged wood on decks, windowsills, and rooflines.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Broussard", slug: "broussard", stateSlug: "louisiana" },
+      { name: "Tallulah", slug: "tallulah", stateSlug: "louisiana" },
+      { name: "DeRidder", slug: "deridder", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Leesville, LA | Ticks & Fire Ants",
+    metaDescription:
+      "Leesville, LA pest control for ticks, fire ants and termites near the Kisatchie National Forest and Fort Polk. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "donaldsonville",
+    name: "Donaldsonville",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~6,800",
+    county: "Ascension Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Donaldsonville sits where Bayou Lafourche branches off the Mississippi River, a confluence that has kept the ground here saturated since the town was founded in 1750. Its historic district, one of the largest collections of antebellum and early 1900s buildings in any Louisiana river town, sits on that same low, damp ground. The warm, humid climate and the river's seasonal rise and fall keep termites and mosquitoes pressing on both the historic core and the newer neighborhoods around it.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in late spring, active year-round",
+        note: "Donaldsonville's historic district, one of the largest collections of antebellum and early 1900s river-town buildings in Louisiana, sits on the same low ground where the Mississippi River meets Bayou Lafourche, ground that holds moisture well enough to keep Formosan colonies fed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The seasonal rise and fall of the Mississippi River near the Bayou Lafourche confluence leaves backwater pools close to town for weeks at a stretch, extending the mosquito season on both sides of the river.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The age of Donaldsonville's historic core, much of it dating to the antebellum period, means older foundations and plumbing that give cockroaches easier entry than newer construction would.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "The farmland and open ground beyond Donaldsonville's historic core, part of the River Parishes corridor between Baton Rouge and New Orleans, gives fire ants plenty of undisturbed territory.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats and Norway rats both find steady shelter and food along the riverfront and in older buildings near the historic district, especially after high water displaces them from lower ground.",
+      },
+    ],
+    localHook:
+      "Donaldsonville was founded in 1750 at the point where Bayou Lafourche branches off the Mississippi River, and it briefly served as the capital of Louisiana from 1829 to 1831. Its historic district holds one of the largest collections of antebellum and early 1900s buildings of any river town above New Orleans, and that same low, damp confluence ground is what keeps Formosan termites and mosquitoes pressing on the town today.",
+    intro:
+      "Donaldsonville's pest pressure traces straight back to its location. The town sits where Bayou Lafourche splits off from the Mississippi River, ground that has stayed damp since the town was founded in 1750, and that same low setting now supports one of Louisiana's largest historic river-town districts along with a steady Formosan termite problem. The river's seasonal rise and fall leaves backwater pools that stretch the mosquito season, older foundations in the historic core give American cockroaches easy entry, and the open farmland beyond downtown gives fire ants room to spread. Rats round out the picture, moving into the historic district and riverfront buildings especially after high water pushes them out of lower ground.",
+    sections: [
+      {
+        heading: "Formosan termites in a historic river town",
+        body: "Donaldsonville's historic district holds one of the largest collections of antebellum and early 1900s buildings of any Louisiana river town above New Orleans, and that architectural depth comes with a cost, the same low, damp ground at the Mississippi and Bayou Lafourche confluence that made the site valuable in 1750 also keeps Formosan subterranean termite colonies fed today. Swarms typically appear in late spring, and given how much of the town's historic value sits in original wood construction, an annual inspection matters more here than in a town with mostly newer housing stock.",
+      },
+      {
+        heading: "How the river's rise and fall extends mosquito season",
+        body: "The Mississippi River doesn't stay at one level, and its seasonal rise and fall near the Bayou Lafourche confluence regularly leaves backwater pools sitting close to town for weeks after high water recedes. That stretches Donaldsonville's mosquito season out to roughly March through October, longer than towns further from a major river typically see. Clearing yard containers and low spots that hold water after the river drops helps, though the backwater pools themselves are largely a function of the river's own cycle.",
+      },
+      {
+        heading: "Cockroaches in the historic core's older buildings",
+        body: "Much of Donaldsonville's historic district dates to the antebellum period, and buildings that old tend to have foundations, plumbing, and gaps that have widened over nearly two centuries, all of which give American cockroaches easier entry than a newer building offers. The humidity keeps them breeding year-round with no winter cold snap to interrupt the cycle. Sealing gaps at the foundation and around older plumbing runs is worth doing carefully in a historic building, since preserving the structure matters as much as controlling the pest.",
+      },
+      {
+        heading: "Fire ants beyond the historic district",
+        body: "Step outside Donaldsonville's historic core and the ground opens into the farmland and open lots typical of the River Parishes corridor between Baton Rouge and New Orleans, and red imported fire ants take full advantage of that undisturbed space. Mound activity builds through spring and peaks in summer heat, concentrated more on the newer, farmland-adjacent edges of town than in the dense historic core. Treating mounds early in the season keeps them from establishing near yards and walkways before the weather turns hot.",
+      },
+      {
+        heading: "Rats displaced by high water",
+        body: "Roof rats and Norway rats both find steady shelter in Donaldsonville's older riverfront buildings, and high water on the Mississippi pushes them further, displacing rats from lower ground and sending them looking for drier shelter in nearby structures. That displacement doesn't always reverse once the water recedes, rats that find workable shelter during high water often stay put rather than returning to their original spot. A historic building near the river is worth checking after any significant high-water event, even one that never actually floods the structure itself.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual Formosan termite inspection for historic district buildings with original wood construction.",
+      "Clear standing water in low spots and containers after the river recedes each season.",
+      "Seal foundation and plumbing gaps in older buildings carefully to preserve historic material.",
+      "Treat fire ant mounds early each spring on farmland-adjacent lots at the edge of town.",
+    ],
+    costNote:
+      "General quarterly pest plans in Donaldsonville typically run $110 to $230 per year for a standard home. Termite inspections are usually free, with treatment for historic district buildings priced by structure size and construction, often $500 to $1,200 given the age of much of the housing stock. Post-flood rodent and mosquito treatment is quoted separately after an inspection.",
+    faqs: [
+      {
+        question: "Why is Formosan termite pressure high in Donaldsonville's historic district?",
+        answer:
+          "Donaldsonville sits where Bayou Lafourche meets the Mississippi River, ground that has stayed damp since the town was founded in 1750, and that same moisture keeps Formosan subterranean termite colonies active in and around the antebellum and early 1900s buildings that make up the historic district.",
+      },
+      {
+        question: "Does the Mississippi River affect mosquito season in Donaldsonville?",
+        answer:
+          "Yes. The river's seasonal rise and fall near the Bayou Lafourche confluence leaves backwater pools close to town for weeks at a time, stretching mosquito season to roughly March through October.",
+      },
+      {
+        question: "Are older homes in Donaldsonville more prone to cockroaches?",
+        answer:
+          "Generally yes. Much of the historic district dates to the antebellum period, and foundations, plumbing, and entry gaps that have widened over nearly two centuries give American cockroaches easier access than newer construction typically allows.",
+      },
+      {
+        question: "Is fire ant pressure worse near Donaldsonville's edges than downtown?",
+        answer:
+          "Usually. The farmland and open lots of the River Parishes corridor beyond the historic core give fire ants more undisturbed ground than the dense downtown district offers, so mound activity tends to concentrate on the town's edges.",
+      },
+      {
+        question: "Why do rats show up in Donaldsonville buildings after high water?",
+        answer:
+          "High water on the Mississippi displaces rats from lower ground near the river, and they move into nearby buildings for shelter. Many stay put even after the water recedes if the new spot has food and shelter.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Tallulah", slug: "tallulah", stateSlug: "louisiana" },
+      { name: "Ponchatoula", slug: "ponchatoula", stateSlug: "louisiana" },
+      { name: "Zachary", slug: "zachary", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Donaldsonville, LA | Historic District Termites",
+    metaDescription:
+      "Donaldsonville, LA pest control for Formosan termites, mosquitoes and fire ants near the historic river district. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tallulah",
+    name: "Tallulah",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~5,700",
+    county: "Madison Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Tallulah sits in the flat Mississippi River Delta of Madison Parish, where heavy, poorly draining clay soil, known locally as gumbo, underlies the cotton, soybean, and corn fields that surround the town. That clay holds water on the surface far longer than the sandier soils found elsewhere in Louisiana, keeping mosquito breeding habitat close to town after every rain. Harvest season each fall also pushes field rodents toward the shelter of nearby homes and outbuildings as the surrounding cropland is cut and cleared.",
+    topPests: ["Mosquitoes", "House Mice", "Termites", "Fire Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, worse after rain",
+        note: "Madison Parish's heavy gumbo clay soil drains far slower than the sandy ground found elsewhere in the state, so standing water from rain or irrigation on the cotton, soybean, and corn fields around Tallulah lingers long enough to breed mosquitoes close to town.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks at fall harvest",
+        note: "Madison Parish consistently ranks among Louisiana's top corn-producing parishes, and cutting and clearing that much cropland each fall displaces field mice, which move toward the shelter of nearby homes and outbuildings in large numbers.",
+      },
+      {
+        name: "Native subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active year-round in mild weather",
+        note: "Tallulah's clay-heavy delta soil holds moisture near foundations much like coastal Louisiana's does, and native subterranean termites take advantage of it, though the town is far enough inland that Formosan termites are not yet the dominant concern here.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "The field edges and fallow ground between Tallulah's rowcrop fields give fire ants long, undisturbed borders to colonize, and mound density along those field margins tends to run higher than in town.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Tallulah's population has declined significantly since its 2010 peak, leaving more of the town's older housing lightly maintained, conditions that give American cockroaches easier entry than a well-maintained, growing housing stock would allow.",
+      },
+    ],
+    localHook:
+      "Madison Parish's soil is heavy gumbo clay, the kind of ground that made this stretch of the Mississippi Delta valuable cotton country in the antebellum era and still drains slowly enough today to keep standing water sitting on the surface long after a storm passes. Madison Parish also consistently ranks among Louisiana's top corn-producing parishes, and the harvest that clears those fields each fall sends field mice looking for new shelter in town.",
+    intro:
+      "Tallulah's pest pressure runs on the agricultural calendar as much as the weather. The heavy gumbo clay soil that made this stretch of the Mississippi Delta valuable cotton and soybean country drains slowly enough to keep standing water close to town after every rain, extending mosquito season well past what sandier ground elsewhere in Louisiana sees. Madison Parish's position among the state's top corn-producing parishes means fall harvest regularly displaces field mice toward nearby homes, fire ants colonize the undisturbed ground between rowcrop fields, and a population that has declined since 2010 has left more of the town's older housing lightly maintained, which works in cockroaches' favor.",
+    sections: [
+      {
+        heading: "Why gumbo clay keeps mosquito season going",
+        body: "The heavy clay soil across Madison Parish, known locally as gumbo, is part of what made this stretch of the Mississippi Delta such valuable cotton country in the antebellum era, and it still shapes the area today. Clay this dense drains far more slowly than the sandy soils found in other parts of Louisiana, so water from rain or field irrigation tends to sit on the surface for days rather than soaking in quickly. That standing water, spread across the cotton, soybean, and corn fields ringing Tallulah, keeps mosquito breeding habitat within easy reach of town from March through October.",
+      },
+      {
+        heading: "House mice at harvest time",
+        body: "Madison Parish consistently ranks among the top corn-producing parishes in Louisiana, and that much cropland means a significant fall harvest event every year. When combines move through and clear the fields, house mice lose their cover all at once and head for the nearest shelter, which is often the nearest home or outbuilding. Tallulah residents typically see a sharp rise in mouse activity for a few weeks around harvest, and sealing foundation gaps before the fields come down is more effective than waiting until mice are already inside.",
+      },
+      {
+        heading: "Termites in delta clay, not Formosan territory",
+        body: "Tallulah's clay-heavy soil holds moisture near home foundations in a way that supports active termite colonies, much like the swampier ground of coastal Louisiana does, but this far inland the termite pressure comes mainly from native subterranean termites rather than the invasive Formosan species that dominates New Orleans and the coast. Native colonies grow more slowly and cause damage over a longer timeline, but they're still a real risk for older homes. Spring swarms are the clearest sign of nearby activity worth acting on.",
+      },
+      {
+        heading: "Fire ants along the field margins",
+        body: "The undisturbed ground between Tallulah's cotton, soybean, and corn fields gives red imported fire ants long stretches of border to colonize without interference, and mound density along those field margins tends to run noticeably higher than it does within town itself. Mounds build through spring and peak in summer heat. A yard backing onto farmland is more likely to see fire ant pressure spill over than one further into a residential block, which is worth factoring into how aggressively mounds get treated each spring.",
+      },
+      {
+        heading: "Cockroaches in a shrinking town's older housing",
+        body: "Tallulah's population has fallen noticeably since a 2010 peak, part of a broader population decline across Madison Parish, and that shift has left a larger share of the town's housing stock older and less consistently maintained. American cockroaches take advantage of exactly those conditions, aging plumbing, foundation gaps, and general wear giving them easier entry than a newer, better-maintained home would allow. Humidity keeps them breeding year-round with no cold season to slow them down.",
+      },
+    ],
+    prevention: [
+      "Clear standing water after rain, since Madison Parish's heavy clay soil drains slowly and holds mosquito breeding water longer.",
+      "Seal foundation gaps before fall harvest, when field mice move toward homes in large numbers.",
+      "Schedule a termite inspection after any spring swarm, especially for older delta-area homes.",
+      "Treat fire ant mounds early each spring on yards backing onto farmland.",
+    ],
+    costNote:
+      "General quarterly pest plans in Tallulah typically run $90 to $200 per year for a standard home. Termite inspections are usually free, with treatment for native subterranean termites priced by structure size, often $400 to $900. Fall mouse exclusion work around harvest season is generally quoted separately after an inspection.",
+    faqs: [
+      {
+        question: "Why does Tallulah have such a long mosquito season?",
+        answer:
+          "Madison Parish's heavy gumbo clay soil drains much more slowly than the sandy ground found elsewhere in Louisiana, so standing water from rain or field irrigation sits close to town for days at a time, stretching mosquito season out to roughly March through October.",
+      },
+      {
+        question: "Why do house mice increase in Tallulah every fall?",
+        answer:
+          "Madison Parish consistently ranks among Louisiana's top corn-producing parishes, and when the fall harvest clears that much cropland at once, field mice lose their cover and move toward the nearest shelter, often a home or outbuilding in town.",
+      },
+      {
+        question: "Are Formosan termites a concern in Tallulah?",
+        answer:
+          "Not as much as native subterranean termites. Tallulah is far enough inland from the coast that Formosan termites are not the dominant species here, though the delta's clay-heavy soil still holds enough moisture to support active native termite colonies.",
+      },
+      {
+        question: "Is fire ant pressure worse near farmland in Tallulah?",
+        answer:
+          "Yes. The undisturbed ground between the cotton, soybean, and corn fields surrounding Tallulah gives fire ants long stretches of border to colonize, and mound density tends to run higher along those field margins than within town.",
+      },
+      {
+        question: "Why does Tallulah see more cockroach activity in older homes?",
+        answer:
+          "Tallulah's population has declined since a 2010 peak, leaving more of the town's housing stock older and less consistently maintained, conditions that give American cockroaches easier entry than newer, well-kept homes typically allow.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Leesville", slug: "leesville", stateSlug: "louisiana" },
+      { name: "Donaldsonville", slug: "donaldsonville", stateSlug: "louisiana" },
+      { name: "Monroe", slug: "monroe-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Tallulah, LA | Delta Mosquitoes & Termites",
+    metaDescription:
+      "Tallulah, LA pest control for mosquitoes, house mice and termites in the Mississippi Delta farm country. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

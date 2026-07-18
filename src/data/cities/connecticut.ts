@@ -3040,4 +3040,554 @@ export const connecticutCities: CityLocation[] = [
     metaDescription:
       "Simsbury pest control for deer ticks, carpenter ants, subterranean termites and mosquitoes. Hartford County Talcott Mountain and Farmington River Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fairfield-ct",
+    name: "Fairfield",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~61,500",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fairfield sits directly on Long Island Sound in Fairfield County, part of the Greater Bridgeport Planning Region. The Sound's proximity moderates winter cold somewhat compared to inland Connecticut, but summers stay hot and humid. The town's salt marsh and tidal wetland acreage along the shoreline hold moisture year round, and that damp, brackish ground next to older wood-frame homes drives a different pest mix than the state's inland towns see.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Carpenter Ants", "Subterranean Termites", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Sherwood Island State Park, Connecticut's first state park, opened to the public in 1914 and its woodland and marsh edge borders neighborhoods on Fairfield's western shoreline, giving deer ticks a direct route into residential yards.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September, heaviest near tidal marsh",
+        note: "The salt marsh bordering Sherwood Island and the town's other tidal wetlands hold standing water through the warm months, and properties near the marsh edge see more mosquito pressure than homes further inland.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Fairfield's housing stock includes colonial-era homes dating back to the town's 1639 settlement by the Bankside Farmers, and the damp sill framing common in that older construction is exactly what carpenter ants look for near the shoreline.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Moisture-retentive ground near the marsh and Sound keeps soil conditions favorable for subterranean termite colonies close to older shoreline properties.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, push indoors during rain",
+        note: "Odorous house ants nest in the mulch beds and stone walls common to Fairfield's older residential streets and forage indoors readily during wet spring weather.",
+      },
+    ],
+    localHook:
+      "Fairfield is home to Sherwood Island State Park, Connecticut's first state park, opened to the public in 1914 along the town's Long Island Sound shoreline. The park's mix of sandy beach, salt marsh, and oak woodland sits directly against residential neighborhoods on Fairfield's western side, and that same marsh and woodland edge that draws beachgoers each summer also supports the deer population and standing water that drive tick and mosquito pressure in the surrounding streets. Fairfield's history as one of Connecticut's oldest towns, settled in 1639, means much of its housing stock near the shoreline predates modern construction standards.",
+    intro:
+      "Pest control in Fairfield runs along the line where Long Island Sound meets old New England neighborhoods. Sherwood Island State Park, the state's oldest state park, borders shoreline streets with salt marsh and woodland that keep deer ticks and mosquitoes active from spring through fall. Inland, the colonial-era housing stock left from Fairfield's 1639 settlement gives carpenter ants and subterranean termites the damp, aging wood they favor. Odorous house ants round out the spring pest calendar, moving in from mulch beds and stone walls during wet weather. A Fairfield pest plan has to account for both the marsh edge and the age of the housing, since the two drive different problems at different times of year.",
+    sections: [
+      {
+        heading: "Sherwood Island State Park and Fairfield's tick and mosquito pressure",
+        body: "Sherwood Island State Park has been open to the public since 1914, making it Connecticut's first state park, and its salt marsh, sandy beach, and oak woodland sit directly against residential streets on Fairfield's western shoreline. That mix of habitat supports the deer population that carries deer ticks and the standing water that mosquitoes need to breed. Homes closest to the park boundary or any tidal marsh see more of both pests than properties further inland, especially during the tick nymphal peak in May and June. Clearing brush from yard margins near the marsh and treating the perimeter each spring cuts down on both problems at once, since the habitat that supports one tends to support the other.",
+      },
+      {
+        heading: "Why Fairfield's old shoreline homes draw carpenter ants and termites",
+        body: "Fairfield was settled in 1639 by a group known as the Bankside Farmers, and that long history left the town with a meaningful stock of colonial-era and early-20th-century homes, many of them close to the Sound. Older wood-frame construction near tidal marsh and moisture-retentive shoreline soil is exactly the combination carpenter ants and subterranean termites need. Carpenter ants swarm in spring looking for damp, softened wood in sills and framing, while subterranean termite colonies stay active in the moist ground near foundations through most of the year. An annual inspection matters more for these older shoreline properties than it does for newer inland construction, where drier soil and modern building standards cut the risk substantially.",
+      },
+      {
+        heading: "Managing ants and general pests around Fairfield's older streets",
+        body: "Odorous house ants are the most common spring complaint in Fairfield's older residential neighborhoods. They nest in mulch beds, under stone walls, and in yard debris that's common on properties with mature landscaping, and they push indoors readily whenever it rains. The trail across a kitchen counter is usually just the visible end of a colony living outside, so treating the exterior perimeter and clearing excess mulch away from the foundation does more than spraying indoors ever will. Combined with the shoreline's tick, mosquito, and wood-destroying insect pressure, general ant and pest management is worth building into a standing seasonal plan rather than a one-time call.",
+      },
+    ],
+    prevention: [
+      "Clear brush and leaf litter from yard edges near Sherwood Island State Park or any tidal marsh to reduce deer tick habitat.",
+      "Eliminate standing water near marsh-adjacent properties to cut mosquito breeding through the warm months.",
+      "Schedule an annual termite and carpenter ant inspection for homes built before modern construction standards, especially near the shoreline.",
+      "Clear excess mulch and yard debris away from the foundation to reduce odorous house ant nesting sites.",
+    ],
+    costNote:
+      "Fairfield pest control starts with a free inspection. Tick and mosquito programs near Sherwood Island State Park and other marsh areas generally run as seasonal treatments through spring and summer, and termite inspection for older shoreline homes is typically free to $75, with treatment priced once the inspection identifies the extent of the issue.",
+    faqs: [
+      {
+        question: "Why do homes near Sherwood Island State Park see more ticks and mosquitoes?",
+        answer:
+          "Sherwood Island has been open since 1914 as Connecticut's first state park, and its salt marsh, beach, and woodland sit right against residential streets on Fairfield's shoreline. That habitat supports the deer population deer ticks rely on and the standing water mosquitoes need to breed, so nearby homes see more of both pests than properties further inland, especially during the May and June tick nymphal peak.",
+      },
+      {
+        question: "Does Fairfield's age as a town affect pest risk?",
+        answer:
+          "Yes. Fairfield was settled in 1639, and a meaningful share of its housing stock, especially near the shoreline, predates modern building standards. Older wood-frame construction with aging sills and foundations is more vulnerable to carpenter ants and subterranean termites than newer inland construction, which is part of why annual inspection matters more for these properties.",
+      },
+      {
+        question: "When are deer ticks most active in Fairfield?",
+        answer:
+          "Deer ticks are active from March through November in Connecticut, with the nymphal stage, the hardest to spot and responsible for most Lyme disease transmission, peaking in May and June. Properties near Sherwood Island State Park or any marsh and woodland edge should plan a spring perimeter treatment ahead of that peak.",
+      },
+      {
+        question: "What draws odorous house ants into Fairfield kitchens?",
+        answer:
+          "Odorous house ants nest outdoors in mulch beds, stone walls, and yard debris and forage indoors for sweets, especially during rainy spring weather. The ants you see on a counter are coming from an outdoor colony, so treating the exterior perimeter and reducing mulch near the foundation is more effective than treating indoors alone.",
+      },
+      {
+        question: "Are subterranean termites a real concern on Connecticut's shoreline?",
+        answer:
+          "Yes, particularly near tidal marsh and moisture-retentive soil like Fairfield's shoreline areas. Subterranean termite colonies need consistent ground moisture to stay active, and older homes near the Sound tend to carry more of that risk than drier inland properties. An annual inspection catches activity before it becomes structural damage.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Greenwich", slug: "greenwich", stateSlug: "connecticut" },
+      { name: "Guilford", slug: "guilford", stateSlug: "connecticut" },
+      { name: "Trumbull", slug: "trumbull", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fairfield, CT | Deer Ticks, Mosquitoes & Termites",
+    metaDescription:
+      "Fairfield CT pest control for deer ticks, mosquitoes, carpenter ants and subterranean termites near Sherwood Island State Park. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greenwich",
+    name: "Greenwich",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~63,500",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "Greenwich is Connecticut's southwesternmost town, on Long Island Sound at the New York border. The Sound's proximity moderates winter cold slightly compared to inland Fairfield County, and humid summers keep tick and mosquito pressure high near the shoreline. Greenwich Point, a peninsula of beach, salt marsh, and woodland jutting into the Sound, along with the town's large stock of century-old estate properties, gives Greenwich a pest mix driven as much by old wood construction as by the coastline itself.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mosquitoes", "Subterranean Termites", "Carpenter Bees"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Greenwich Point's beach, salt marsh, and woodland peninsula juts into Long Island Sound and borders residential streets on the town's shoreline, giving deer ticks a direct path from natural habitat into yards.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Greenwich's large stock of early-20th-century estate homes, many built during the town's era as a retreat for New York's wealthy, carries the aging wood trim and framing that draws carpenter ants each spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September",
+        note: "The salt marsh bordering Greenwich Point and other shoreline wetlands hold water through the warm months, and low-lying properties near the Sound see the heaviest mosquito pressure.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Moisture-retentive shoreline soil near the Sound keeps subterranean termite colonies active near older Greenwich properties close to the water.",
+      },
+      {
+        name: "Carpenter Bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Active April through July",
+        note: "Greenwich's stock of large estate-era homes with exposed wood trim, decks, and eaves gives carpenter bees the untreated wood surfaces they drill into each spring.",
+      },
+    ],
+    localHook:
+      "Greenwich Point, known locally as Tod's Point, is a town-owned peninsula of sandy beach, salt marsh, and woodland that juts into Long Island Sound on Greenwich's southern edge. The same natural habitat that makes the point one of the most visited parks on the Connecticut shoreline also borders residential neighborhoods with the deer population and standing water that drive tick and mosquito activity. Greenwich's history as a retreat for wealthy New Yorkers beginning in the late 1800s left the town with a large stock of estate-era homes, many with the kind of exposed, aging wood trim that draws carpenter ants and carpenter bees.",
+    intro:
+      "Pest control in Greenwich follows the town's two defining features: its Long Island Sound shoreline and its stock of century-old estate homes. Greenwich Point's beach, marsh, and woodland peninsula supports deer ticks and mosquitoes on the shoreline side of town, active from spring through fall. Inland, the large early-20th-century homes built during Greenwich's era as a retreat for wealthy New Yorkers carry the aging wood trim and framing that carpenter ants and carpenter bees favor each spring. Subterranean termites add a third layer of risk near the moisture-retentive soil close to the water. A Greenwich pest plan generally needs to cover both the coastline and the age of the housing rather than treating the town as a single uniform suburb.",
+    sections: [
+      {
+        heading: "Greenwich Point and shoreline tick and mosquito pressure",
+        body: "Greenwich Point, known locally as Tod's Point, is a town-owned peninsula of sandy beach, salt marsh, and oak and honey locust woodland reaching into Long Island Sound. It draws heavy summer foot traffic, but the same habitat that makes it popular also supports the deer population and standing water that drive tick and mosquito activity in the surrounding neighborhoods. Homes closest to the point or any marsh edge see more pressure from both pests than properties set back from the water, particularly during the deer tick nymphal peak in May and June. Clearing brush from yard margins and treating the perimeter each spring ahead of that peak is the standard precaution for shoreline properties.",
+      },
+      {
+        heading: "Why Greenwich's estate-era homes draw carpenter ants and bees",
+        body: "Greenwich became a retreat for wealthy New Yorkers starting in the late 1800s, and that history left the town with a large inventory of estate-era homes built with exposed wood trim, decks, and eaves. Untreated or aging wood surfaces are exactly what carpenter bees drill into each spring to lay eggs, leaving the round entry holes homeowners notice on fascia boards and deck rails. Carpenter ants target the same kind of aging wood, though they nest inside damp sill framing and wall voids rather than drilling into open surfaces. Both pests are more common on older Greenwich properties than on newer construction, where treated and sealed wood trim gives them far less to work with.",
+      },
+      {
+        heading: "Termite risk near the Greenwich shoreline",
+        body: "Moisture-retentive soil near Long Island Sound keeps subterranean termite colonies active close to older Greenwich properties, especially those near the water or built on lower-lying ground. Termites work from the soil up into foundation sills and framing, and by the time visible damage shows, a colony has often been active for a year or more. An annual inspection is the only reliable way to catch activity early, particularly for the town's older shoreline homes where damp ground and aging wood construction combine to create consistent conditions. Newer, better-drained inland construction carries meaningfully less of this risk.",
+      },
+    ],
+    prevention: [
+      "Clear brush and leaf litter from yard edges near Greenwich Point or any marsh habitat to reduce deer tick exposure.",
+      "Eliminate standing water on low-lying, shoreline-adjacent properties to cut mosquito breeding through summer.",
+      "Seal or treat exposed wood trim, deck rails, and eaves on older estate-era homes to deter carpenter bees each spring.",
+      "Schedule an annual termite inspection for shoreline properties on moisture-retentive soil near the Sound.",
+    ],
+    costNote:
+      "Greenwich pest control starts with a free inspection. Tick and mosquito programs near Greenwich Point run as seasonal treatments through spring and summer, carpenter bee treatment on exposed wood trim is typically priced per visit, and termite inspection for older shoreline homes is usually free to $75 with treatment priced once the inspection confirms activity.",
+    faqs: [
+      {
+        question: "Why does Greenwich Point drive so much tick and mosquito activity nearby?",
+        answer:
+          "Greenwich Point's beach, salt marsh, and woodland peninsula supports the deer population deer ticks rely on and the standing water mosquitoes need to breed. Residential streets closest to the point or any marsh edge see more of both pests than homes set back from the shoreline, especially during the deer tick nymphal peak in May and June.",
+      },
+      {
+        question: "Why do older Greenwich homes get carpenter bees?",
+        answer:
+          "Greenwich's history as a retreat for wealthy New Yorkers beginning in the late 1800s left the town with many estate-era homes built with exposed wood trim, decks, and eaves. Carpenter bees drill into untreated or aging wood surfaces each spring to lay eggs, and older Greenwich properties with more of that exposed wood see more activity than newer construction with sealed or treated trim.",
+      },
+      {
+        question: "Is subterranean termite risk higher near the Greenwich shoreline?",
+        answer:
+          "Yes. Moisture-retentive soil near Long Island Sound keeps termite colonies active close to older, lower-lying properties near the water. Since termite damage often goes unnoticed until a colony has been active for a year or more, an annual inspection matters more for these shoreline homes than for newer, better-drained inland construction.",
+      },
+      {
+        question: "What is the difference between carpenter ants and carpenter bees in Greenwich?",
+        answer:
+          "Carpenter ants nest inside damp wood, sills, and wall voids and don't create the visible entry holes carpenter bees do. Carpenter bees drill round holes directly into exposed, untreated wood surfaces like deck rails and fascia boards. Both target the aging wood common in Greenwich's estate-era housing stock, but they need different treatment approaches.",
+      },
+      {
+        question: "When should Greenwich homeowners treat for deer ticks?",
+        answer:
+          "Late winter through early spring, ahead of the March through November active season and before the May and June nymphal peak, is the best window. Properties near Greenwich Point or any wooded and marsh edge benefit most from a spring perimeter treatment combined with yard habitat reduction.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Fairfield", slug: "fairfield-ct", stateSlug: "connecticut" },
+      { name: "Windsor", slug: "windsor-ct", stateSlug: "connecticut" },
+      { name: "Milford", slug: "milford-ct", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Greenwich, CT | Deer Ticks, Carpenter Bees & Termites",
+    metaDescription:
+      "Greenwich CT pest control for deer ticks, carpenter ants, carpenter bees and subterranean termites near Greenwich Point. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "windsor-ct",
+    name: "Windsor",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~29,500",
+    county: "Hartford County",
+    climate: "cold-humid",
+    climateDriver:
+      "Windsor sits at the confluence of the Farmington River and the Connecticut River in northern Hartford County, Connecticut's oldest town, settled in 1633. Away from the coast, Windsor sees colder winters and less humidity moderation than shoreline towns, with a full cold-humid four-season climate. The river-valley floodplain and the former shade-tobacco farmland that lines both rivers hold moisture well and, once harvested, gave way to fields, forest, and wetland that still shape the town's pest pressure today.",
+    topPests: ["Brown Marmorated Stink Bugs", "House Mice", "Deer Ticks", "Carpenter Ants", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Windsor sits in the heart of the Farmington and Connecticut River valleys, where a century of shade-tobacco and other row-crop farming built up agricultural land that produces heavy stink bug populations moving into structures each fall.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through November",
+        note: "Windsor's mix of colonial-era homes near the town's 1633 settlement core and mid-century construction along the river valley gives mice ample entry points as Connecticut's cold winters push them indoors.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Northwest Park's 473 acres of former tobacco farmland, reverted to forest, fields, and wetland, borders Windsor neighborhoods and gives deer ticks the kind of habitat that puts residential yards at real risk.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "Older farmhouse-era homes throughout Windsor, many left from the town's decades as the center of Connecticut's shade-tobacco industry, carry the aging sill wood carpenter ants nest in each spring.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The moisture-retentive floodplain soil along the Farmington and Connecticut Rivers, the same ground that made Windsor valuable tobacco land, gives subterranean termite colonies consistent conditions near older river-valley homes.",
+      },
+    ],
+    localHook:
+      "Windsor is Connecticut's oldest town, settled in 1633 at the point where the Farmington River meets the Connecticut River. For much of the 20th century, the surrounding valley was the historic center of Connecticut's shade-grown tobacco industry, a corridor running north into Massachusetts that local growers and historians still call Tobacco Valley. Much of that former farmland has reverted to forest, fields, and wetland, including Northwest Park's 473 acres, and that reverted agricultural land now shapes the stink bug, tick, and general pest pressure Windsor properties see today.",
+    intro:
+      "Pest control in Windsor covers a town shaped by two rivers and a century of tobacco farming. The Farmington and Connecticut River valleys once supported Connecticut's shade-tobacco industry, and the reverted farmland, forest, and wetland left behind, including Northwest Park's 473 acres, now drives stink bug pressure each fall and deer tick exposure from spring through fall. Windsor's status as Connecticut's oldest town, settled in 1633, means a meaningful share of its housing stock is old enough to carry the aging wood carpenter ants and subterranean termites favor. And as the cold river-valley winters arrive, house mice make Windsor's older construction their own. A Windsor pest plan generally has to account for both the agricultural history of the land and the age of the buildings.",
+    sections: [
+      {
+        heading: "Tobacco Valley's legacy and Windsor's stink bug and tick pressure",
+        body: "Windsor sits at the heart of what growers and historians call Tobacco Valley, the stretch of the Farmington and Connecticut River valleys that supported Connecticut's shade-grown tobacco industry for most of the 20th century. Much of that farmland has since reverted to forest, fields, and wetland, including the 473 acres of Northwest Park, and that reverted land supports two very different pest pressures. Row-crop and orchard agriculture in the surrounding region builds up stink bug populations that move into Windsor structures each September as temperatures drop, while the same forest and field edge supports the deer population deer ticks depend on from spring through fall. Properties bordering reverted farmland or wooded park edges see more of both pests than homes on newer, more developed lots.",
+      },
+      {
+        heading: "Connecticut's oldest town and its older housing stock",
+        body: "Windsor was settled in 1633, making it Connecticut's oldest town, and that long history left the town with a meaningful inventory of colonial-era and farmhouse-era homes near the historic settlement core and along the river valley. Older wood-frame construction with aging sills and foundation framing is exactly what carpenter ants and subterranean termites need, and the moisture-retentive floodplain soil along both rivers, the same soil quality that made the valley valuable tobacco land, keeps termite colonies active near older river-valley properties. Carpenter ants swarm each spring looking for the same damp wood, usually in sills, porch framing, or anywhere moisture has softened the structure over time.",
+      },
+      {
+        heading: "Why house mice are a fall and winter constant in Windsor",
+        body: "Windsor's cold river-valley winters, without the coastal moderation shoreline towns get from Long Island Sound, push house mice firmly into heated buildings starting in October. The town's older construction, whether colonial-era homes near the settlement core or mid-century houses along the valley, tends to have more foundation gaps and utility penetrations than newer builds, giving mice more ways in. Once inside, they stay active through the winter regardless of outdoor temperature. Exclusion work done before October, sealing foundation gaps and utility penetrations, is far more effective than trying to trap an established indoor population once the cold sets in.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October to limit house mice entry as winter approaches.",
+      "Clear brush and leaf litter from yard edges near Northwest Park or any reverted farmland to reduce deer tick habitat.",
+      "Schedule an annual termite and carpenter ant inspection for older homes near the Farmington or Connecticut River floodplain.",
+      "Seal gaps around windows and utility lines before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Windsor pest control starts with a free inspection. Stink bug programs combine exclusion work with a perimeter treatment in late summer, mouse programs include exclusion and trapping, and termite inspection for older river-valley homes is typically free to $75 with treatment priced once the inspection confirms activity.",
+    faqs: [
+      {
+        question: "Why are stink bugs a problem in Windsor every fall?",
+        answer:
+          "Windsor sits in the Farmington and Connecticut River valleys, historically known as Tobacco Valley for the shade-grown tobacco industry that once dominated the region. The agricultural and reverted farmland in and around Windsor builds up stink bug populations through summer that move into structures each September as temperatures drop, similar to the pattern seen throughout the Connecticut River Valley.",
+      },
+      {
+        question: "Does Windsor's tobacco farming history still affect pest risk today?",
+        answer:
+          "Yes, indirectly. The moisture-retentive floodplain soil along the Farmington and Connecticut Rivers that once made the valley valuable tobacco land is the same soil quality that keeps subterranean termite colonies active near older river-valley homes. Reverted farmland, including Northwest Park's 473 acres, also supports deer tick habitat that borders residential neighborhoods.",
+      },
+      {
+        question: "When do house mice become a problem in Windsor?",
+        answer:
+          "October is the primary entry month, as Windsor's cold river-valley winters push mice into heated buildings. As Connecticut's oldest town, settled in 1633, Windsor has an older housing stock with more foundation gaps than newer construction, which gives mice more entry points once the weather turns.",
+      },
+      {
+        question: "Is Northwest Park a source of tick exposure for nearby homes?",
+        answer:
+          "Yes. Northwest Park's 473 acres of reverted tobacco farmland, now forest, fields, and wetland, border Windsor neighborhoods and support the deer population deer ticks depend on. Properties near the park boundary should plan a spring perimeter treatment ahead of the May and June nymphal peak.",
+      },
+      {
+        question: "Are older Windsor homes more likely to have carpenter ants or termites?",
+        answer:
+          "Generally yes. Windsor's long history means a meaningful share of its housing stock, particularly near the original settlement core and along the river valley, is old enough to carry the aging, moisture-softened wood both pests target. An annual inspection is the most reliable way to catch either before damage becomes structural.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Greenwich", slug: "greenwich", stateSlug: "connecticut" },
+      { name: "Norwich", slug: "norwich", stateSlug: "connecticut" },
+      { name: "East Hartford", slug: "east-hartford", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Windsor, CT | Stink Bugs, Mice & Deer Ticks",
+    metaDescription:
+      "Windsor CT pest control for stink bugs, house mice, deer ticks and subterranean termites in the Farmington River Valley. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "norwich",
+    name: "Norwich",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~40,100",
+    county: "New London County",
+    climate: "cold-humid",
+    climateDriver:
+      "Norwich sits where the Yantic and Shetucket Rivers join to form the Thames River, which flows south to Long Island Sound. The inland confluence location keeps Norwich's winters colder than shoreline towns, though the Thames estuary gives some tempering compared to towns further from tidewater. Norwich's 19th-century run as one of New England's major textile-mill centers left the city with a wide range of housing eras, from colonial-era homes to Victorian mill-worker housing to modern construction, each carrying different pest vulnerabilities.",
+    topPests: ["House Mice", "German Cockroaches", "Deer Ticks", "Carpenter Ants", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through November",
+        note: "Norwich's Victorian-era mill-worker housing in neighborhoods like Taftville, built around the Ponemah Mill once billed as the largest cotton mill under one roof in the world, gives house mice extensive entry points as Connecticut's cold winters set in.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Norwich's dense multi-family housing left from its mill-town era and its concentration of older commercial buildings downtown sustain German cockroach populations that spread through shared plumbing and utility runs.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Mohegan Park's 360 wooded acres, centered on Spaulding Pond, border Norwich neighborhoods and give deer ticks forested habitat close to residential yards on the city's edges.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "The mix of colonial-era, Victorian, and early-20th-century construction throughout Norwich includes plenty of aging, moisture-damaged wood framing that carpenter ants target each spring.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "The moisture where the Yantic, Shetucket, and Thames Rivers converge keeps soil conditions favorable for subterranean termite colonies near older river-adjacent Norwich properties.",
+      },
+    ],
+    localHook:
+      "Norwich sits at the confluence of the Yantic and Shetucket Rivers, which join to form the Thames River and flow south to Long Island Sound, a location that made the city a historic seaport known as Chelsea Landing and later one of New England's major 19th-century textile-mill centers. The Ponemah Mill in the Taftville section was once billed as the largest cotton mill under one roof in the world, and many of the company houses built for its workers are still occupied homes today. That range of construction eras, from colonial through Victorian mill housing, gives Norwich a wider variety of pest vulnerabilities than towns with more uniform, newer housing stock.",
+    intro:
+      "Pest control in Norwich has to account for a city built in layers. The river confluence that made Norwich a historic seaport and mill center, Chelsea Landing on the Thames, the Yantic, and the Shetucket, still shapes termite pressure near the water today. The Victorian-era mill-worker housing left from the city's 19th-century textile boom, including the neighborhoods built around the Ponemah Mill in Taftville, gives house mice and German cockroaches plenty of entry points in the city's denser sections. And Mohegan Park's 360 wooded acres on the city's edge put deer ticks within reach of neighborhoods that border the park. Few Connecticut cities pack this much construction history and this much water into one pest profile.",
+    sections: [
+      {
+        heading: "Norwich's mill-era housing and its rodent and cockroach pressure",
+        body: "Norwich became one of New England's major 19th-century textile-mill centers, and the Ponemah Mill in the Taftville section was once billed as the largest cotton mill under one roof in the world. The company houses built for mill workers in Taftville and other mill neighborhoods are largely still occupied today, and that older, denser housing stock gives house mice more entry points once Connecticut's cold winters push them indoors starting in October. The same neighborhoods, along with Norwich's older downtown commercial buildings, sustain German cockroach populations that move between units through shared plumbing and utility runs rather than coming in from outdoors. Exclusion work and sealed food storage matter more in these older, denser sections than anywhere else in the city.",
+      },
+      {
+        heading: "River confluence moisture and termite risk near the Thames",
+        body: "Norwich sits where the Yantic and Shetucket Rivers meet to form the Thames River, a confluence that made the city a working seaport known historically as Chelsea Landing. That same water, along with the moisture it keeps in the surrounding soil, gives subterranean termite colonies consistent conditions near older properties close to any of the three rivers. Termites work upward from the soil into sills and foundation framing, and damage often goes unnoticed until a colony has been established for a year or more. Properties near the river confluence, particularly those with older construction from the city's mill-era growth, benefit from an annual termite inspection rather than waiting for visible signs.",
+      },
+      {
+        heading: "Mohegan Park and deer tick exposure on Norwich's edges",
+        body: "Mohegan Park's 360 wooded acres, centered on Spaulding Pond, sit on Norwich's edge and border residential neighborhoods with forested habitat that supports deer and the ticks they carry. Homes closest to the park boundary, or any of the city's more wooded and rural-residential sections outside the mill-era core, see meaningfully more deer tick activity than the denser downtown streets. The nymphal stage, active in May and June, is the hardest to spot and responsible for most Lyme disease transmission in Connecticut, which makes a spring perimeter treatment a reasonable standard for any Norwich property bordering the park or similar wooded terrain.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in older mill-era housing before October to limit house mice entry.",
+      "Store food in sealed containers and address moisture under sinks in older multi-family buildings to reduce German cockroach activity.",
+      "Schedule an annual termite inspection for properties near the Yantic, Shetucket, or Thames Rivers.",
+      "Clear brush and leaf litter from yard edges near Mohegan Park to reduce deer tick habitat.",
+    ],
+    costNote:
+      "Norwich pest control starts with a free inspection. Mouse and cockroach programs in the city's older mill-era housing include exclusion and targeted baiting, termite inspection near the rivers is typically free to $75, and tick treatment near Mohegan Park runs as a spring perimeter service.",
+    faqs: [
+      {
+        question: "Why does Norwich's mill history matter for pest control today?",
+        answer:
+          "Norwich's 19th-century run as a major textile-mill center, centered on mills like the Ponemah Mill in Taftville once billed as the largest cotton mill under one roof in the world, left the city with extensive Victorian-era worker housing that is still occupied today. That older, denser housing stock has more entry points for house mice and more of the shared plumbing runs German cockroaches use to spread between units than newer construction.",
+      },
+      {
+        question: "Is termite risk higher near the Norwich river confluence?",
+        answer:
+          "Yes. Norwich sits where the Yantic and Shetucket Rivers join to form the Thames, and that water keeps the surrounding soil moist enough to support consistent subterranean termite activity near older properties close to any of the three rivers. An annual inspection is the most reliable way to catch a colony before it causes structural damage.",
+      },
+      {
+        question: "How much does Mohegan Park affect tick exposure in Norwich?",
+        answer:
+          "Meaningfully, for homes nearby. The park's 360 wooded acres around Spaulding Pond border residential neighborhoods on the city's edge, and that forested habitat supports the deer population deer ticks depend on. Properties closest to the park see more tick activity than Norwich's denser downtown streets, especially during the May and June nymphal peak.",
+      },
+      {
+        question: "When do house mice become a problem in Norwich homes?",
+        answer:
+          "October is the primary entry month as Connecticut's cold winters arrive. Norwich's mill-era housing, including the company houses built in neighborhoods like Taftville, tends to have more foundation gaps and utility penetrations than newer construction, which gives mice more ways into heated buildings once the weather turns.",
+      },
+      {
+        question: "Are German cockroaches common outside of Norwich's downtown?",
+        answer:
+          "They're most concentrated in the city's older, denser multi-family housing and commercial buildings, including neighborhoods left from Norwich's mill-town era, where shared plumbing and utility runs let them spread between units. They're less common in newer, single-family construction outside the historic core, though they can still be introduced through infested furniture or boxes.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Windsor", slug: "windsor-ct", stateSlug: "connecticut" },
+      { name: "Guilford", slug: "guilford", stateSlug: "connecticut" },
+      { name: "Groton", slug: "groton", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Norwich, CT | House Mice, Cockroaches & Deer Ticks",
+    metaDescription:
+      "Norwich CT pest control for house mice, German cockroaches, deer ticks and subterranean termites near the Thames River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "guilford",
+    name: "Guilford",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T3",
+    population: "~22,000",
+    county: "New Haven County",
+    climate: "cold-humid",
+    climateDriver:
+      "Guilford sits on Long Island Sound in New Haven County, with a shoreline historic district and an inland upland of forest and ridge around Bluff Head and Northwoods. The Sound moderates winter cold along the coast, while the inland forested section stays colder and drier. Salt marsh along the East Creek and West River, remnants of the town's long agricultural history, keeps humidity and standing water high near the shoreline through the warm months.",
+    topPests: ["Mosquitoes", "Deer Ticks", "Carpenter Ants", "Subterranean Termites", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late April through September",
+        note: "Salt marshes along the East Creek and West River still line Guilford's historic town center, a legacy of the town's agricultural economy, and that standing water sustains mosquito breeding through the warm months.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Bluff Head and the 870-acre Northwoods area, part of the New England Trail inland from the shoreline, give Guilford a substantial forested upland that supports deer tick habitat bordering residential properties.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring swarms April through June",
+        note: "The Guilford Historic Town Center holds over 600 structures, most built between the late 1600s and early 1900s including the Henry Whitfield House from 1639, and that dense concentration of very old timber-frame construction is prime carpenter ant territory each spring.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Moisture-retentive marsh-adjacent soil near the East Creek and West River gives subterranean termite colonies consistent conditions close to Guilford's oldest shoreline properties.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, push indoors during rain",
+        note: "Odorous house ants nest readily in the stone walls and mulch beds common to Guilford's historic district and forage indoors during wet spring weather.",
+      },
+    ],
+    localHook:
+      "The Guilford Historic Town Center holds more than 600 structures, most built between the late 1600s and early 1900s, including the Henry Whitfield House, built in 1639 and recognized as the oldest stone house in New England. Salt marshes along the East Creek and West River still border the historic district, a remnant of the agricultural economy that shaped the town for centuries. A few miles inland, Bluff Head and the 870-acre Northwoods area, part of the New England Trail, give Guilford a forested upland that stands in sharp contrast to the marsh and shoreline of the historic center, coastal marsh on one side of town and wooded ridge on the other.",
+    intro:
+      "Pest control in Guilford has to bridge two very different terrains within one town. The Guilford Historic Town Center, with more than 600 structures dating back as far as the 1639 Henry Whitfield House, sits against salt marshes along the East Creek and West River that drive mosquito and termite pressure near the shoreline. Inland, Bluff Head and the 870-acre Northwoods area along the New England Trail give deer ticks a wooded upland far from the coast. Carpenter ants and odorous house ants round out the picture in the historic district's dense concentration of very old timber-frame homes and stone walls. Few Connecticut towns pack this much geographic contrast, marsh to ridge, into one pest profile.",
+    sections: [
+      {
+        heading: "Salt marsh and mosquito pressure near Guilford's historic center",
+        body: "Salt marshes along the East Creek and West River still line the edges of the Guilford Historic Town Center, a remnant of the agricultural economy that shaped the town for generations before it became one of Connecticut's best-preserved colonial districts. That marsh holds standing water through the warm months, and properties closest to the creek and river see meaningfully more mosquito activity than homes further from the water. The same moisture supports subterranean termite colonies in the soil near Guilford's oldest homes, many of them timber-frame structures from the late 1600s through early 1900s that sit directly against the marsh edge. Eliminating standing water where possible and scheduling an annual termite check are both worth prioritizing for shoreline properties in the historic district.",
+      },
+      {
+        heading: "Bluff Head, Northwoods, and inland tick exposure",
+        body: "A few miles inland from Guilford's marsh and shoreline, Bluff Head and the 870-acre Northwoods area form a forested upland that's part of the New England Trail, a stretch of wooded ridge that stands in sharp contrast to the historic center's coastal marsh. That forest supports the deer population deer ticks depend on, and properties bordering Northwoods or any similarly wooded inland section see more tick pressure than the marsh-adjacent historic district does. The nymphal stage, active in May and June, is small enough to go unnoticed and responsible for most Lyme disease transmission in Connecticut, which makes a spring perimeter treatment a sound precaution for any Guilford property near the wooded upland.",
+      },
+      {
+        heading: "Carpenter ants in Guilford's centuries-old timber-frame homes",
+        body: "The Guilford Historic Town Center holds more than 600 structures, most built between the late 1600s and early 1900s, including the Henry Whitfield House from 1639, recognized as the oldest stone house in New England. That concentration of very old timber-frame construction, much of it with original sill and framing wood, gives carpenter ants exactly the damp, aging material they favor each spring. Odorous house ants add to the spring pest calendar, nesting in the historic district's stone walls and mulch beds and pushing indoors readily during wet weather. Both pests are more common in Guilford's oldest sections than in the town's newer residential development further from the shoreline.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water near marsh-adjacent properties along the East Creek or West River to reduce mosquito breeding.",
+      "Clear brush and leaf litter from yard edges near Northwoods or Bluff Head to reduce deer tick habitat.",
+      "Schedule an annual termite inspection for timber-frame homes in the historic district, especially those near the marsh.",
+      "Clear mulch and stone-wall debris away from foundations to reduce odorous house ant nesting sites.",
+    ],
+    costNote:
+      "Guilford pest control starts with a free inspection. Mosquito and termite programs near the marsh and historic district are priced by property, and tick treatment near Bluff Head and Northwoods runs as a spring perimeter service. Carpenter ant and odorous house ant treatment for the historic district's older timber-frame homes is typically quoted after inspection.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure worse near Guilford's historic center?",
+        answer:
+          "Salt marshes along the East Creek and West River still border the Guilford Historic Town Center, a remnant of the town's long agricultural history, and that standing water sustains mosquito breeding through the warm months. Properties closest to the marsh see more activity than homes further inland toward Bluff Head and Northwoods.",
+      },
+      {
+        question: "Are deer ticks worse near Northwoods than in downtown Guilford?",
+        answer:
+          "Yes, generally. Northwoods and Bluff Head form an 870-acre forested upland along the New England Trail a few miles inland from the marsh and shoreline, and that wooded terrain supports more deer activity than the historic center does. Properties bordering Northwoods should plan a spring perimeter treatment ahead of the May and June nymphal peak.",
+      },
+      {
+        question: "Do Guilford's historic homes have more pest problems than newer construction?",
+        answer:
+          "Often, yes. The Guilford Historic Town Center holds more than 600 structures, most built between the late 1600s and early 1900s, including the 1639 Henry Whitfield House. That much original timber-frame construction, especially in sill and foundation wood, gives carpenter ants more of what they're looking for than Guilford's newer residential development further from the shoreline.",
+      },
+      {
+        question: "What is the oldest building in Guilford and does it affect pest treatment nearby?",
+        answer:
+          "The Henry Whitfield House, built in 1639, is recognized as the oldest stone house in New England and sits within the historic district near the salt marsh. Properties of that age and construction type in the surrounding district typically need more attention to wood-destroying insects like carpenter ants and subterranean termites than newer homes.",
+      },
+      {
+        question: "When should Guilford homeowners near the marsh treat for mosquitoes?",
+        answer:
+          "Late April through September covers the active season, with the heaviest pressure in the mid-summer months. Properties near the East Creek, West River, or any other marsh edge benefit from eliminating standing water early in the season, before mosquito populations build up through June and July.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Norwich", slug: "norwich", stateSlug: "connecticut" },
+      { name: "Fairfield", slug: "fairfield-ct", stateSlug: "connecticut" },
+      { name: "Middletown", slug: "middletown-ct", stateSlug: "connecticut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Guilford, CT | Mosquitoes, Deer Ticks & Carpenter Ants",
+    metaDescription:
+      "Guilford CT pest control for mosquitoes, deer ticks, carpenter ants and subterranean termites near the historic town center. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
