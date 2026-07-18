@@ -20353,4 +20353,264 @@ export const californiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Coalinga, CA | Ground Squirrels & Termites",
     metaDescription: "Pest control in Coalinga, CA for ground squirrels, black widow spiders, termites, and warm-season flies near Fresno County ranch land. Free inspection."
   },
+  {
+    slug: "banning",
+    name: "Banning",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~31,900",
+    county: "Riverside County",
+    climate: "semi-arid",
+    climateDriver: "Banning sits inside the San Gorgonio Pass, the low gap between the San Bernardino and San Jacinto mountains that funnels prevailing coastal wind straight toward the desert and makes the pass one of the windiest stretches in the country, dense enough with turbines to power a large wind farm. That constant airflow keeps the pass drier and hotter than the coastal side of the mountains but still short of true low desert conditions, a transition zone that suits black widow spiders, scorpions, and both major termite types more than a purely coastal or purely desert town would.",
+    topPests: ["Black Widow Spiders", "Subterranean Termites", "Drywood Termites", "Scorpions", "Ants"],
+    pestProfile: [
+      { name: "Black widow spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most active spring through fall", note: "Banning's hot, dry pass climate is exactly the kind of desert-edge condition black widows tolerate best, and they favor the undisturbed corners of block walls, woodpiles, and storage sheds found on many pass-area properties." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round underground activity, spring swarms", note: "Subterranean termites turn up wherever a Banning property holds onto moisture, since irrigated lawns, planter beds, and leaking spigots give colonies the one thing the surrounding dry pass terrain otherwise denies them." },
+      { name: "Drywood termites", serviceSlug: "termite-treatment", activeSeason: "Year-round, swarms in fall", note: "Banning sits close enough to the desert edge of Riverside County that the western drywood termite's range reaches it too, and these colonies live straight inside dry wood framing and furniture rather than needing any soil contact at all." },
+      { name: "Scorpions", serviceSlug: "scorpion-control", activeSeason: "Year-round, most active April through October", note: "The desert transition at the eastern edge of the San Gorgonio Pass puts Banning within range where scorpions turn up in block walls, woodpiles, and under debris, especially on properties closer to the desert-facing side of town." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Irrigated landscaping against Banning's arid backdrop gives ants a reliable water source, and colonies push toward homes and businesses hardest during the hottest, driest stretches of summer." }
+    ],
+    localHook: "Banning built its identity on being a stagecoach stop, and its downtown still markets the town as 'Stagecoach Town, U.S.A.,' with an annual Stagecoach Days festival running since 1957. The same San Gorgonio Pass that made Banning a natural travel route also makes it one of the windiest places in the country, windy enough to host one of the largest wind turbine farms in the United States, and that wind-driven, desert-edge climate is what pushes black widows, scorpions, and termites into Banning properties harder than in a typical coastal Southern California town.",
+    intro: "Pest Control in Banning, CA has to account for one thing most Southern California towns do not: wind. Banning sits inside the San Gorgonio Pass, the gap between the San Bernardino and San Jacinto mountains that channels coastal air toward the desert with enough force to power one of the largest wind turbine farms in the country. That same pass marks a genuine climate transition, drier and hotter than the coastal side of the mountains, short of the true low desert further east, and it is exactly the kind of edge condition that suits black widow spiders, scorpions, and both subterranean and drywood termites. Banning's downtown still trades on its stagecoach-era roots, styling itself 'Stagecoach Town, U.S.A.' and running its Stagecoach Days festival since 1957, but the pests that show up in its homes and businesses have far more to do with wind and aridity than with history.",
+    sections: [
+      { heading: "Wind, Aridity, and Banning's Spider and Scorpion Pressure", body: "The wind that put Banning's turbines on the map does more than generate power, it also dries the pass out faster than the coastal side of the mountains and pushes daytime temperatures higher through summer. Black widow spiders tolerate that kind of hot, dry edge condition better than most spiders, and they gather in exactly the undisturbed spots pass-area properties tend to have: stacked firewood, block wall crevices, storage sheds, and the underside of patio furniture left in one place too long. Scorpions favor the same kind of shelter, and Banning's position at the desert-facing edge of the pass puts it within range where they turn up in walls, woodpiles, and debris piles, more so on properties closer to the desert side of town than on the cooler, damper coastal side of the pass." },
+      { heading: "Two Kinds of Termites at a Desert Edge", body: "Most California towns lean on one termite type or the other, but Banning gets meaningful pressure from both. Subterranean termites need soil contact and a steady moisture source, so colonies concentrate wherever a property holds onto water that the surrounding dry pass terrain does not supply on its own: irrigated lawns, planter beds against the foundation, a leaking hose bib. Drywood termites work differently. Banning sits close enough to the desert edge of Riverside County that the western drywood termite's range reaches the town, and these colonies infest dry wood framing, furniture, and even porch posts directly, with no soil or moisture requirement at all. That combination means an inspection here has to check both the wet spots and the dry structural wood, rather than assuming one termite type covers the whole risk." },
+      { heading: "Irrigated Landscaping and Banning's Ant Pressure", body: "Banning's summers run hot and dry, and the irrigated lawns, hedges, and planter beds that keep properties looking good through that heat also give ants a water source the surrounding pass terrain does not otherwise offer. Colonies push toward kitchens, bathrooms, and any consistently damp spot indoors hardest during the driest, hottest weeks of summer, when outdoor moisture options dry up fastest. Keeping irrigation off building foundations, trimming vegetation back from exterior walls, and sealing entry points around utility lines all cut down on the pressure that Banning's climate otherwise pushes toward the house." }
+    ],
+    prevention: [
+      "Clear stacked firewood, block wall crevices, and storage sheds where black widow spiders and scorpions shelter, especially on properties closer to the desert side of the pass.",
+      "Fix leaking hose bibs and keep irrigation off the foundation to remove the moisture subterranean termites need in Banning's otherwise dry pass climate.",
+      "Have exposed wood framing, porch posts, and furniture inspected for drywood termites, which need no soil contact at all to infest a structure here.",
+      "Keep irrigated landscaping trimmed back from exterior walls to reduce the water source that draws ants toward the house during Banning's hottest, driest weeks."
+    ],
+    costNote: "General pest plans in Banning covering ants, spiders, and general perimeter pests typically run $35 to $65 a month. Termite inspection is usually free to $100, with treatment cost depending on whether subterranean or drywood activity is found and how far it has spread. Scorpion-focused exterior treatment for properties on the desert-facing side of town runs $90 to $175 per visit.",
+    faqs: [
+      { question: "Why is Banning so windy, and does that affect pest control?", answer: "Banning sits inside the San Gorgonio Pass, a natural gap between the San Bernardino and San Jacinto mountains that channels wind hard enough to power one of the largest turbine farms in the country. That wind dries the pass out faster than the coastal side of the mountains, and the resulting hot, dry edge climate is exactly what suits black widow spiders and scorpions." },
+      { question: "Does Banning get both subterranean and drywood termites?", answer: "Yes, and that is less common than it sounds. Subterranean termites concentrate around irrigated, moisture-holding parts of a property, while drywood termites, whose range reaches Banning from the nearby desert, infest dry wood framing and furniture directly with no soil contact needed." },
+      { question: "Are scorpions common in Banning?", answer: "Banning sits at the desert-facing edge of the San Gorgonio Pass, close enough to true desert terrain that scorpions turn up in block walls, woodpiles, and debris, more often on properties toward the eastern, desert side of town." },
+      { question: "What is Stagecoach Days, and does it have anything to do with pest pressure?", answer: "Stagecoach Days is Banning's annual festival, running since 1957 and tied to the town's history as a nineteenth century stagecoach stop. It does not affect pest pressure directly, but Banning's older downtown-adjacent housing stock from that era can have more gaps and aging wood that drywood termites and ants can exploit." },
+      { question: "Why do ants get worse in Banning during summer?", answer: "Banning's summers are hot and dry, and irrigated lawns and planter beds become one of the few reliable water sources around, which pulls ant colonies toward homes hardest during the driest, hottest stretches of the season." }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Reedley", slug: "reedley", stateSlug: "california" },
+      { name: "Fortuna", slug: "fortuna", stateSlug: "california" },
+      { name: "Auburn", slug: "auburn", stateSlug: "california" },
+      { name: "Twentynine Palms", slug: "twentynine-palms", stateSlug: "california" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Banning, CA | Spiders, Scorpions & Termites",
+    metaDescription: "Pest control in Banning, CA for black widow spiders, scorpions, and termites in the windy San Gorgonio Pass. Free inspection, licensed and insured."
+  },
+  {
+    slug: "reedley",
+    name: "Reedley",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~25,800",
+    county: "Fresno County",
+    climate: "mediterranean",
+    climateDriver: "Reedley sits in the San Joaquin Valley about twenty miles southeast of Fresno, where dry, sunny summers and mild, wet winters support the fruit and nut orchards that ring the town on every side. That same orchard economy, built on Kings River irrigation, gives roof rats, ants, and orchard-adjacent wasps far more food and cover than a non-agricultural Central Valley town would offer.",
+    topPests: ["Roof Rats", "Field Ants", "Subterranean Termites", "Wasps", "Spiders"],
+    pestProfile: [
+      { name: "Roof rats", serviceSlug: "rat-control", activeSeason: "Year-round, peaks as stone fruit and grapes ripen", note: "Reedley has called itself the World's Fruit Basket since 1946 and still runs some of the largest fruit packing and cold storage operations in the country, and roof rats nest directly in the citrus, stone fruit, and nut trees that supply that industry, moving into nearby homes once orchard food runs short after harvest." },
+      { name: "Field ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Gray field ants are the most common ant problem in San Joaquin Valley orchards and vineyards, and around Reedley they actively protect the aphids and scale insects that produce the honeydew they feed on, which undercuts natural pest control in the same trees." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round underground activity, spring swarms", note: "Subterranean termites are the dominant termite type across the Central Valley, and Reedley's Kings River irrigation network gives colonies a steady moisture source near foundations and orchard-adjacent structures alike." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "Summer through harvest season", note: "Fallen and overripe fruit from the orchards surrounding Reedley draws wasps in heavy numbers as harvest approaches, and nests built in packing sheds, fences, and eaves become a real concern for anyone working outdoors through late summer." },
+      { name: "Spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most visible in fall", note: "Reedley's packing sheds, cold storage buildings, and orchard equipment provide the undisturbed corners spiders favor, and the foothills bordering the valley to the east add pressure from species less common in purely urban Central Valley settings." }
+    ],
+    localHook: "Reedley has marketed itself as 'The World's Fruit Basket' since 1946, and the title holds up: the town ships more fresh fruit than almost anywhere else in the country and still runs around thirty packing and cold storage facilities, including one of the largest of its kind anywhere. Founder Thomas Law Reed first planted wheat here for Gold Rush era miners before Kings River irrigation turned the area into orchard country, and that same orchard economy is what drives Reedley's roof rat, ant, and wasp pressure today.",
+    intro: "Pest Control in Reedley, CA means working around one of the most productive fruit growing regions in the country, not just a Central Valley farm town. Reedley has called itself 'The World's Fruit Basket' since 1946, and the roughly thirty fruit and vegetable packing and cold storage facilities still operating here, drawing on Kings River irrigation across stone fruit, grape, and citrus orchards, back that claim up. That scale of orchard agriculture is exactly what shapes the town's pest pressure. Roof rats nest directly in citrus and stone fruit trees and move toward homes once orchard food thins out after harvest. Gray field ants, the valley's most common orchard ant, protect the very aphids and scale insects that damage the trees. Wasps build up hard as fruit ripens and falls, and subterranean termites concentrate wherever Kings River irrigation keeps the ground consistently damp.",
+    sections: [
+      { heading: "Orchards, Roof Rats, and Reedley's Fruit Basket Economy", body: "Reedley's identity as 'The World's Fruit Basket,' a name the town has carried since 1946, is not just a marketing line, it is the reason roof rats are the area's most persistent pest. Roof rats nest directly in citrus, stone fruit, and nut trees, the same crops that supply the roughly thirty packing and cold storage facilities still running around town, and populations track the harvest calendar closely. Once an orchard's fruit is picked and cold storage volumes fill up for shipping, food in the trees themselves thins out fast, and that is exactly when rats start moving toward homes and outbuildings bordering agricultural land. The town's roots go back to founder Thomas Law Reed, who first grew wheat here for Gold Rush era miners before Kings River water turned the area into the orchard country it is today, a shift that also set up the rat pressure Reedley still manages now." },
+      { heading: "Field Ants and the Trade-off Orchards Create", body: "Gray field ants are the ant species UC entomologists identify most often in San Joaquin Valley orchards and vineyards, and Reedley properties bordering agricultural land see them constantly. The complication is that these ants do not just forage for food on their own, they actively tend and protect aphids and scale insects on orchard trees in exchange for the sugary honeydew those insects produce, which shields the very pests that damage the crop from natural predators that would otherwise keep them in check. That same behavior shows up on residential properties too, where ant trails often lead straight back to a honeydew source on a shade tree or ornamental shrub rather than to food scraps indoors, which changes where treatment needs to focus." },
+      { heading: "Wasps at Harvest and Termites Along the Irrigation Lines", body: "As stone fruit, grapes, and other crops ripen and start to fall in the orchards around Reedley, wasps show up in numbers that outpace what a typical residential neighborhood sees elsewhere in the valley. Overripe and fallen fruit is exactly the kind of sugar source wasps key in on, and nests built into packing sheds, fence lines, and eaves become a real hazard for anyone working outdoors through late summer harvest season. Subterranean termites follow a different pattern tied to the same irrigation infrastructure that makes the orchards possible. As the dominant termite type across the Central Valley, they need steady soil moisture to survive, and Reedley's Kings River-fed irrigation network gives colonies exactly that near foundations, planted beds, and any structure close to a consistently watered field edge." }
+    ],
+    prevention: [
+      "Keep fallen and overripe fruit cleared from yards bordering orchard land to cut down on both roof rat food and wasp activity at harvest time.",
+      "Check ornamental shrubs and shade trees for aphid or scale activity, since gray field ant trails on Reedley properties often lead back to a honeydew source rather than food indoors.",
+      "Fix leaking irrigation lines and keep watered beds away from the foundation to remove the moisture subterranean termites rely on in Reedley's otherwise dry summer climate.",
+      "Have packing sheds, fences, and eaves checked for wasp nests before late summer harvest work begins."
+    ],
+    costNote: "General pest plans in Reedley covering ants, spiders, and general perimeter pests typically run $35 to $60 a month. Roof rat exclusion and trapping on properties bordering orchard land runs $200 to $400 depending on the number of entry points. Wasp nest removal ahead of harvest season runs $90 to $175 per visit.",
+    faqs: [
+      { question: "Why does Reedley have so many roof rats?", answer: "Reedley calls itself 'The World's Fruit Basket,' and the citrus, stone fruit, and nut orchards that back up that name give roof rats a place to nest directly in the trees. Once fruit is harvested and orchard food thins out, rats move toward homes and outbuildings bordering that agricultural land." },
+      { question: "Do ants in Reedley actually protect other pests?", answer: "Yes. Gray field ants, the ant species most common in San Joaquin Valley orchards, tend aphids and scale insects for the honeydew they produce, which shields those pests from natural predators. The same behavior shows up on residential properties with honeydew-producing insects on shade trees or shrubs." },
+      { question: "When are wasps worst in Reedley?", answer: "Wasp activity builds hard as Reedley's stone fruit, grapes, and other crops ripen and start to fall through harvest season, since overripe fruit is a strong sugar source. Nests in packing sheds, fences, and eaves become a real concern for anyone working outdoors during that stretch." },
+      { question: "Are termites a problem in a dry Central Valley town like Reedley?", answer: "Subterranean termites, the dominant termite type across the Central Valley, need steady soil moisture, and Reedley's Kings River-fed irrigation network gives colonies exactly that near foundations and any consistently watered field edge, even though the surrounding summer climate runs dry." },
+      { question: "What is the history behind Reedley's fruit industry?", answer: "Founder Thomas Law Reed first grew wheat here to supply Gold Rush era miners. Kings River irrigation later turned the area into the orchard country that earned Reedley its 'World's Fruit Basket' name in 1946, and that same orchard economy still drives the town's roof rat, ant, and wasp pressure today." }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Banning", slug: "banning", stateSlug: "california" },
+      { name: "Fortuna", slug: "fortuna", stateSlug: "california" },
+      { name: "Auburn", slug: "auburn", stateSlug: "california" },
+      { name: "Twentynine Palms", slug: "twentynine-palms", stateSlug: "california" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Reedley, CA | Roof Rats & Orchard Pests",
+    metaDescription: "Pest control in Reedley, CA for roof rats, field ants, wasps, and termites tied to Fresno County's fruit orchard economy. Free inspection, licensed and insured."
+  },
+  {
+    slug: "fortuna",
+    name: "Fortuna",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~12,300",
+    county: "Humboldt County",
+    climate: "temperate",
+    climateDriver: "Fortuna sits on the Eel River in western Humboldt County, just far enough inland to sit beyond the coastal fog belt that blankets Eureka and the Humboldt Bay towns, but it still carries the same mild, wet winters, cool summers, and near-constant humidity typical of California's redwood coast. That persistent dampness favors dampwood termites and moisture-loving pests here in a way that has almost nothing in common with the aridity-driven pest pressure found through most of the rest of the state.",
+    topPests: ["Dampwood Termites", "Subterranean Termites", "Carpenter Ants", "Roof Rats", "House Mice"],
+    pestProfile: [
+      { name: "Dampwood termites", serviceSlug: "termite-treatment", activeSeason: "August through early October, as fall weather cools", note: "Dampwood termites are a defining structural pest issue in Humboldt County in a way they are not through most of California, and colonies here typically show up as the weather cools each fall, feeding on wood that stays consistently damp from the region's persistent coastal humidity." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Spring through summer", note: "Subterranean termites are also active around Fortuna, more so in spring and summer, and the region's cooler, more stable year round climate lets colonies stay active for a longer stretch of the year than in hotter parts of California." },
+      { name: "Carpenter ants", serviceSlug: "ant-control", activeSeason: "Year-round, most active spring through fall", note: "Fortuna's humid coastal forest setting suits carpenter ants well, and they tunnel into damp or already softened wood around decks, fascia boards, and any structure with a persistent moisture problem." },
+      { name: "Roof rats", serviceSlug: "rat-control", activeSeason: "Heaviest fall through winter, during the rainy season", note: "Roof rats around Fortuna seek warm, dry shelter once the rainy season sets in, and the tree cover typical of a town this close to redwood forest gives them a direct route onto rooflines via overhanging branches." },
+      { name: "House mice", serviceSlug: "mice-control", activeSeason: "Fall through winter", note: "House mice follow the same rainy season pattern as roof rats, moving indoors for warmth and shelter once Humboldt County's wet winter weather sets in for good." }
+    ],
+    localHook: "Fortuna has changed its name twice since it was first settled around a landslide in the 1880s, going from 'Slide' to 'Springville' before settling on 'Fortuna,' Latin for fortune, in 1888. It grew up as a timber town built around the Springville Mill and the Newburg Lumber Company, and today calls itself a gateway to the redwood forests surrounding it on nearly every side. That redwood forest and the near-constant coastal humidity it holds onto are exactly what makes dampwood termites and moisture-loving pests a bigger issue here than almost anywhere else in California.",
+    intro: "Pest Control in Fortuna, CA runs on a different set of rules than almost anywhere else in the state, because Fortuna's pest pressure is built on moisture, not heat. The town sits on the Eel River in western Humboldt County, just beyond the coastal fog belt that blankets Eureka, but it still carries the same mild, wet winters and persistent humidity that define California's redwood coast. Fortuna grew up as a timber town, originally settled around a landslide and named 'Slide' before becoming 'Springville' and finally 'Fortuna' in 1888, and the redwood forest surrounding it today still shapes the town's pest issues more than anything else. Dampwood termites, a structural problem far more specific to Humboldt County than to the rest of California, show up hardest as fall weather cools. Carpenter ants and subterranean termites take advantage of the same persistent dampness, and roof rats and house mice move indoors once the rainy season sets in for good.",
+    sections: [
+      { heading: "Why Dampwood Termites Define Fortuna's Pest Pressure", body: "Most of California splits its termite conversation between subterranean and drywood species, but Fortuna is one of the few places in the state where dampwood termites are the pest worth naming first. These termites need wood that stays consistently wet, not just damp for a season, and Humboldt County's coastal humidity and heavy annual rainfall keep fascia boards, deck posts, and any wood in contact with soil or standing moisture wet enough to support them for most of the year. Activity typically shows up hardest as fall weather cools and rain returns in earnest, often in wood that already has some rot or water damage rather than sound, dry lumber. That makes Fortuna's termite risk look almost nothing like the risk profile in a hot, dry Central Valley or Southern California town, where the entire problem usually centers on soil contact and irrigation instead." },
+      { heading: "Carpenter Ants and Two Kinds of Termites in a Humid Climate", body: "Carpenter ants thrive in the same humid, forested setting that makes Fortuna a genuine gateway to the redwoods, and they tunnel into wood that is already damp or softened, decks, fascia boards, and any structure with a standing moisture problem are typical targets. Subterranean termites turn up here too, more active in spring and summer than in fall, and Humboldt County's cooler, more stable year-round climate lets colonies stay active over a longer stretch of the calendar than termites manage in hotter parts of California. Between the two termite types and carpenter ants, almost every wood-pest issue in Fortuna traces back to the same root cause: persistent moisture that the region's coastal climate never really lets a structure shake off, unlike towns further inland where a dry summer resets the clock each year." },
+      { heading: "Redwood Cover and Fortuna's Rainy Season Rodent Pressure", body: "Fortuna's setting close to redwood forest means most properties have some degree of tree cover right up against the house, and that cover gives roof rats a direct route onto rooflines via overhanging branches once the rainy season sets in. Both roof rats and house mice follow the same seasonal pattern, moving indoors for warmth and shelter as Humboldt County's wet winter weather takes hold, rather than showing the more even year-round activity typical of drier parts of the state. Trimming branches back from rooflines and sealing gaps where utility lines enter the house both matter more in Fortuna during the fall changeover than at any other point in the year." }
+    ],
+    prevention: [
+      "Have any wood with existing water damage or rot inspected for dampwood termites before fall rains set in.",
+      "Trim redwood and other tree cover back from rooflines to remove the branch access roof rats use to reach the house during the rainy season.",
+      "Address standing moisture around decks and fascia boards promptly, since carpenter ants and both local termite types all key in on the same damp wood.",
+      "Seal gaps where utility lines enter the home ahead of winter, when house mice move indoors for shelter."
+    ],
+    costNote: "General pest plans in Fortuna covering ants and general perimeter pests typically run $40 to $70 a month, reflecting the extra attention the region's persistent humidity requires. Termite inspection is usually free to $100, with treatment cost depending on whether dampwood or subterranean activity is found. Roof rat and mouse exclusion work ahead of the rainy season runs $180 to $400 depending on the number of entry points sealed.",
+    faqs: [
+      { question: "Why are dampwood termites such a big deal in Fortuna specifically?", answer: "Dampwood termites need wood that stays consistently wet, and Humboldt County's coastal humidity and heavy rainfall keep fascia boards, deck posts, and moisture-exposed wood wet enough to support them for most of the year in a way that is unusual even for coastal California." },
+      { question: "Does Fortuna get less fog than Eureka?", answer: "Yes. Fortuna sits just far enough inland on the Eel River to fall beyond the coastal fog belt that blankets Eureka and the Humboldt Bay towns, but it still carries the same mild, wet, humid climate that drives moisture-loving pests." },
+      { question: "When do roof rats move into Fortuna homes?", answer: "Roof rats around Fortuna move indoors heaviest in fall and winter, once the rainy season sets in, and the redwood and other tree cover common close to town gives them a direct route onto rooflines via overhanging branches." },
+      { question: "Why does Fortuna's termite risk look different from the rest of California?", answer: "Most of the state splits its termite risk between subterranean and drywood species tied to soil contact or dry structural wood. Fortuna sees meaningful dampwood termite activity too, a species that needs consistently wet wood, which is far more specific to humid Humboldt County than to most of California." },
+      { question: "Where did the name Fortuna come from?", answer: "The town was first called 'Slide' after a nearby landslide, then 'Springville,' before settling on 'Fortuna,' Latin for fortune, in 1888. It grew up as a timber town around the Springville Mill, and the redwood forest that industry left standing nearby still shapes the town's pest pressure today." }
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Banning", slug: "banning", stateSlug: "california" },
+      { name: "Reedley", slug: "reedley", stateSlug: "california" },
+      { name: "Auburn", slug: "auburn", stateSlug: "california" },
+      { name: "Twentynine Palms", slug: "twentynine-palms", stateSlug: "california" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fortuna, CA | Dampwood Termites & Rodents",
+    metaDescription: "Pest control in Fortuna, CA for dampwood termites, carpenter ants, and rainy season rodents in Humboldt County's redwood coast climate. Free inspection."
+  },
+  {
+    slug: "auburn",
+    name: "Auburn",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~13,700",
+    county: "Placer County",
+    climate: "mediterranean",
+    climateDriver: "Auburn sits in the Sierra Nevada foothills at around 1,300 feet elevation, where hot, dry summers average in the low 90s and mild, wet winters support the oak woodland and grassland that surround the town on most sides. That foothill wildland setting, not the town's Gold Rush history, is what drives its western black-legged tick, ground squirrel, and wasp pressure today.",
+    topPests: ["Western Black-Legged Ticks", "Ground Squirrels", "Wasps", "Subterranean Termites", "Ants"],
+    pestProfile: [
+      { name: "Western black-legged ticks", serviceSlug: "flea-tick-treatment", activeSeason: "Nearly year-round, adults most active December through April", note: "The western black-legged tick is the primary Lyme disease vector in California, and Placer County's foothill vector control district documents it as abundant in the oak woodland and grassland surrounding Auburn for most of the year, with adult activity peaking in the cooler months." },
+      { name: "Ground squirrels", serviceSlug: "squirrel-removal", activeSeason: "Spring through fall", note: "Placer County's own wildlife management guidance flags ground squirrel burrowing as a common problem on foothill and rural properties around Auburn, where open oak woodland and grassland border residential lots directly." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "Summer through early fall", note: "Auburn's oak woodland and grassland setting supports heavy wasp activity through summer, and nests built into eaves, sheds, and dry brush near property lines become a real concern as the dry season progresses." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round underground activity, spring swarms", note: "Subterranean termites are present through the Sierra foothills up into higher mountain elevations, and Auburn's older Gold Rush era Old Town buildings alongside newer foothill construction both give colonies places to establish near any consistent moisture source." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "Spring through fall", note: "Auburn's hot, dry foothill summers push ants toward irrigated landscaping and any home with a reliable water source, much as they do in the Central Valley below." }
+    ],
+    localHook: "Gold was first found near Auburn in May 1848, and its Old Town today is one of the few Gold Rush era commercial districts left largely intact in California, complete with the 1894 Placer County Courthouse. Unlike most mining camps of that era, Auburn survived the end of the gold rush because it became the Placer County seat in 1851, and it still sits at the edge of the same oak woodland and grassland foothill terrain that shapes its tick, squirrel, and wasp pressure today.",
+    intro: "Pest Control in Auburn, CA has as much to do with the oak woodland at its edges as it does with the Gold Rush history that put the town on the map. Gold was first found near Auburn in 1848, and the town's Old Town district, anchored by the 1894 Placer County Courthouse, remains one of the few intact Gold Rush era commercial districts left in the state, a status Auburn earned by becoming the Placer County seat in 1851 rather than fading once the gold ran out. That history matters less to pest control than the foothill terrain surrounding town: Auburn sits roughly 1,300 feet up in the Sierra Nevada foothills, where hot, dry summers and mild, wet winters support the oak woodland and grassland pressing right against residential edges. That setting is what drives Auburn's western black-legged tick, ground squirrel, and wasp activity more than anything else.",
+    sections: [
+      { heading: "Ticks and Lyme Disease Risk in Auburn's Foothill Terrain", body: "Placer County's own mosquito and vector control district documents the western black-legged tick as abundant in the foothill terrain surrounding Auburn for nearly the entire year, and this species is the primary carrier of Lyme disease in California. Adult ticks are most active from December through April, while the smaller nymph and larval stages pick up activity from April into June, which means there is rarely a season where checking for ticks after time in oak woodland or tall grass is unnecessary. Properties bordering open grassland or oak woodland at Auburn's edges carry the highest exposure, and pets that roam those areas can bring ticks back into the house just as easily as a hiker returning from a foothill trail." },
+      { heading: "Ground Squirrels and Wasps in Auburn's Oak Woodland", body: "The same oak woodland and open grassland that supports Auburn's tick population also supports a healthy ground squirrel presence, and Placer County's own wildlife management guidance specifically flags squirrel burrowing as a common issue on foothill and rural properties around town, where undeveloped land borders residential lots directly. Burrows near foundations, sheds, and fence lines can undermine soil and create real structural concerns over time, beyond the more obvious garden damage. Wasps take advantage of the same terrain from a different angle, building nests into eaves, storage sheds, and dry brush near property edges through summer, with activity building steadily as the dry season progresses and food sources elsewhere in the foothills become scarcer, pushing colonies closer to homes and outdoor living spaces." },
+      { heading: "Termites and Ants Between Old Town and New Construction", body: "Auburn's building stock spans two very different eras, Gold Rush era Old Town structures dating back to the 1800s and newer foothill construction built out toward the oak woodland edges, and subterranean termites do not much care about the difference as long as a consistent moisture source is nearby. Colonies establish wherever irrigation, a leaking line, or damp foundation soil gives them what the surrounding dry summer terrain otherwise withholds, in older downtown buildings just as readily as in newer homes. Ants follow a similar logic through Auburn's hot, dry summers, moving toward any property with irrigated landscaping or a reliable water source, a pattern familiar to anyone who has dealt with ants in the Central Valley just downhill from Auburn's foothill elevation." }
+    ],
+    prevention: [
+      "Check people and pets for ticks after time spent in oak woodland or tall grass around Auburn, especially between December and June when activity runs highest.",
+      "Address ground squirrel burrows near foundations, sheds, and fence lines before tunneling undermines soil close to structures.",
+      "Have eaves, sheds, and dry brush near property lines checked for wasp nests before late summer, when colonies push closest to the house.",
+      "Fix leaking irrigation lines and keep watered beds off the foundation to remove the moisture subterranean termites need in Auburn's dry summer climate."
+    ],
+    costNote: "General pest plans in Auburn covering ants and general perimeter pests typically run $35 to $65 a month. Tick and flea yard treatment for properties bordering oak woodland or grassland runs $80 to $160 per visit. Ground squirrel exclusion and burrow treatment runs $150 to $350 depending on the number of active burrows.",
+    faqs: [
+      { question: "Is Lyme disease a real risk in Auburn?", answer: "Placer County's vector control district documents the western black-legged tick, California's primary Lyme disease carrier, as abundant in the oak woodland and grassland surrounding Auburn for most of the year, with adult ticks most active from December through April." },
+      { question: "Why does Auburn have so many ground squirrels?", answer: "Auburn sits right against oak woodland and open grassland, and Placer County's own wildlife guidance flags squirrel burrowing as a common problem on foothill and rural properties where that undeveloped land borders homes directly." },
+      { question: "When are wasps worst in Auburn?", answer: "Wasp activity builds through summer and peaks in late summer and early fall, as food sources elsewhere in the surrounding oak woodland become scarcer and colonies push closer to eaves, sheds, and outdoor living spaces near homes." },
+      { question: "Do Auburn's historic Old Town buildings have more termite problems?", answer: "Not necessarily more than newer construction. Subterranean termites around Auburn establish wherever a consistent moisture source exists, whether that is an older Gold Rush era building downtown or a newer home built out toward the oak woodland edge." },
+      { question: "What makes Auburn's Old Town historically significant?", answer: "Gold was first found near Auburn in 1848, and its Old Town district, anchored by the 1894 Placer County Courthouse, is one of the few Gold Rush era commercial districts left largely intact in California, a status tied to Auburn becoming the county seat in 1851 rather than fading like most mining camps." }
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Banning", slug: "banning", stateSlug: "california" },
+      { name: "Reedley", slug: "reedley", stateSlug: "california" },
+      { name: "Fortuna", slug: "fortuna", stateSlug: "california" },
+      { name: "Twentynine Palms", slug: "twentynine-palms", stateSlug: "california" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Auburn, CA | Ticks, Squirrels & Termites",
+    metaDescription: "Pest control in Auburn, CA for ticks, ground squirrels, wasps, and termites in the Sierra Nevada foothill oak woodland. Free inspection, licensed and insured."
+  },
+  {
+    slug: "twentynine-palms",
+    name: "Twentynine Palms",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~27,000",
+    county: "San Bernardino County",
+    climate: "desert",
+    climateDriver: "Twentynine Palms sits in the southern Mojave Desert at nearly 2,000 feet elevation, where summer highs reach 100 degrees or higher on close to ninety days a year and annual rainfall totals only about six to seven inches. That extreme aridity and heat, combined with the sprawling Marine Corps base and the Joshua Tree National Park terrain surrounding town, are what put scorpions, black widow spiders, and both major rodent types front and center here.",
+    topPests: ["Scorpions", "Black Widow Spiders", "Subterranean Termites", "Pack Rats", "Cockroaches"],
+    pestProfile: [
+      { name: "Scorpions", serviceSlug: "scorpion-control", activeSeason: "Year-round, most active April through October", note: "Scorpions are a well documented structural pest across Mojave Desert communities like Twentynine Palms, commonly found living inside block walls, and while a sting is painful, the venom is built to subdue small prey rather than to seriously harm a person." },
+      { name: "Black widow spiders", serviceSlug: "spider-control", activeSeason: "Year-round, most active spring through fall", note: "Black widow spiders tolerate Twentynine Palms' extreme heat and aridity better than most spiders, and they favor outdoor structures like sheds, garages, and the housings around AC units common on High Desert properties." },
+      { name: "Subterranean termites", serviceSlug: "termite-treatment", activeSeason: "Year-round underground activity near moisture", note: "Subterranean termites turn up around Twentynine Palms wherever a property holds onto moisture that the surrounding Mojave Desert terrain otherwise denies them, irrigated landscaping and any consistent leak included." },
+      { name: "Pack rats", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "Pack rats, along with roof rats, are among the most common rodent problems documented across High Desert communities near Twentynine Palms, often building visible debris nests against fences, sheds, and vehicles left outdoors." },
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round, worst in summer heat", note: "Cockroach pressure is a documented issue across the wider Mojave and Coachella Valley desert community region that includes Twentynine Palms, typically worst where indoor air conditioning creates a moisture and temperature contrast against the extreme outdoor heat." }
+    ],
+    localHook: "Twentynine Palms takes its name from the Oasis of Mara, a desert spring the Chemehuevi people called a word meaning 'land of little water,' where prospectors in the 1870s counted twenty-nine Washingtonia palm trees. The town is home to the Marine Corps Air Ground Combat Center, the largest Marine Corps training base in the world at roughly 1,100 square miles, and also serves as the main entrance to Joshua Tree National Park, a combination of military installation and true Mojave Desert terrain that shapes its scorpion, spider, and rodent pressure more than anything else.",
+    intro: "Pest Control in Twentynine Palms, CA means working in genuine Mojave Desert conditions, not just a hot Southern California suburb. The town takes its name from the Oasis of Mara, where prospectors in the 1870s counted twenty-nine palm trees around a spring the Chemehuevi people knew as a place of little water, and it now serves both as the main gateway to Joshua Tree National Park and as home to the Marine Corps Air Ground Combat Center, the largest Marine Corps training base in the world. Summer highs top 100 degrees on close to ninety days a year, and annual rainfall runs only about six to seven inches, extreme even by California desert standards. That heat and aridity are exactly what push scorpions and black widow spiders into homes and outbuildings, while pack rats, roof rats, and cockroaches all take advantage of any shelter or moisture a property provides against the surrounding desert.",
+    sections: [
+      { heading: "Scorpions and Black Widows in Genuine Mojave Desert Heat", body: "Twentynine Palms sits deep enough into the Mojave Desert, at nearly 2,000 feet elevation with summer highs reaching 100 degrees or more on close to ninety days a year, that its scorpion and black widow spider pressure looks nothing like a coastal or even an inland Southern California town. Scorpions are a well documented structural pest across High Desert communities like Twentynine Palms, and they commonly turn up living inside block walls, which are common in local construction, as well as under woodpiles and debris. A sting is genuinely painful but rarely dangerous to a healthy adult, since the venom is built to subdue small prey rather than to harm people. Black widow spiders handle the same extreme heat and aridity better than most spiders do, and they favor outdoor structures, sheds, garages, and AC unit housings, all common features on Twentynine Palms properties." },
+      { heading: "Termites Where the Desert Otherwise Offers No Moisture", body: "Annual rainfall around Twentynine Palms totals only about six to seven inches, some of the driest conditions found anywhere in California, and subterranean termites have almost nothing to work with here unless a property supplies moisture on its own. Irrigated landscaping, a leaking spigot, or any consistently damp planter bed near a foundation gives colonies exactly the water source the surrounding desert terrain otherwise denies them entirely. That narrow footprint is actually useful for prevention: an inspection can focus tightly on the irrigated or moisture-prone parts of a property rather than treating the whole perimeter as equally at risk, since the dry desert ground beyond that footprint offers termites essentially nothing." },
+      { heading: "Pack Rats, Roof Rats, and Cockroaches Around Twentynine Palms Properties", body: "Pack rats and roof rats both rank among the most commonly reported rodent problems across High Desert communities near Twentynine Palms, and pack rats in particular tend to build obvious debris nests, twigs, cactus pieces, and scavenged material, against fences, sheds, and any vehicle or equipment left outdoors for a stretch. Cockroaches add a different kind of pressure across the wider Mojave and Coachella Valley desert region that includes Twentynine Palms, and that pressure tends to concentrate wherever indoor air conditioning creates a sharp moisture and temperature contrast against the extreme outdoor heat, exactly the kind of environment air-conditioned homes across town provide against the desert heat outside." }
+    ],
+    prevention: [
+      "Check block walls, woodpiles, and debris for scorpions before reaching in by hand, since Twentynine Palms sits deep enough into the Mojave Desert for them to be a genuine year-round concern.",
+      "Clear sheds, garages, and AC unit housings of clutter to reduce the shelter black widow spiders favor in the High Desert heat.",
+      "Fix leaking irrigation lines and keep watered beds off the foundation, since subterranean termites around Twentynine Palms depend entirely on moisture the surrounding desert does not otherwise provide.",
+      "Clear pack rat debris nests away from fences, sheds, and outdoor vehicles promptly before they grow larger."
+    ],
+    costNote: "General pest plans in Twentynine Palms covering scorpions, spiders, and general perimeter pests typically run $40 to $75 a month, reflecting the extra attention Mojave Desert conditions require. Termite inspection is usually free to $100, with treatment cost tied to how close any moisture source sits to the structure. Pack rat and roof rat exclusion runs $180 to $400 depending on the number of entry points sealed.",
+    faqs: [
+      { question: "Are scorpion stings dangerous in Twentynine Palms?", answer: "Scorpions are a well documented pest across Twentynine Palms and the wider Mojave Desert, commonly found in block walls and under debris. A sting is painful, but for a healthy adult it is rarely dangerous, since the venom is meant to subdue small prey rather than harm people." },
+      { question: "Why does a desert town like Twentynine Palms have termites at all?", answer: "Subterranean termites need soil moisture, and Twentynine Palms only gets about six to seven inches of rain a year, so colonies here concentrate almost entirely around irrigated landscaping or a leak rather than spreading through the surrounding dry desert ground." },
+      { question: "What is the Oasis of Mara, and does it relate to the town's pest pressure?", answer: "The Oasis of Mara is the desert spring that gave Twentynine Palms its name, after prospectors in the 1870s counted twenty-nine palm trees growing around it. It is not a significant pest driver today, but it shows how rare a natural water source is in this part of the Mojave, which is exactly why any irrigated or moisture-holding property draws termites and other pests so strongly by comparison." },
+      { question: "Does the Marine Corps base affect pest control in Twentynine Palms?", answer: "The Marine Corps Air Ground Combat Center is the largest Marine Corps training base in the world and anchors the town's economy, but the area's scorpion, spider, and rodent pressure comes from the surrounding Mojave Desert terrain itself rather than from the base specifically." },
+      { question: "What rodents are most common around Twentynine Palms?", answer: "Pack rats and roof rats both rank among the most commonly reported rodent problems in High Desert communities near Twentynine Palms, with pack rats especially known for building visible debris nests against fences, sheds, and outdoor vehicles." }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Banning", slug: "banning", stateSlug: "california" },
+      { name: "Reedley", slug: "reedley", stateSlug: "california" },
+      { name: "Fortuna", slug: "fortuna", stateSlug: "california" },
+      { name: "Auburn", slug: "auburn", stateSlug: "california" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Twentynine Palms, CA | Scorpions & Rodents",
+    metaDescription: "Pest control in Twentynine Palms, CA for scorpions, black widow spiders, termites, and desert rodents near Joshua Tree. Free inspection, licensed and insured."
+  },
 ];

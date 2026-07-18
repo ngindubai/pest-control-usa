@@ -3750,4 +3750,529 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in Elkridge, MD | Termites & Commercial Rodents",
     metaDescription: "Elkridge MD pest control for subterranean termites, carpenter ants, deer ticks and warehouse rodent control. Howard County, near BWI. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bethesda-md",
+    name: "Bethesda",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~69,400",
+    county: "Montgomery County",
+    climate: "temperate",
+    climateDriver:
+      "Bethesda is an unincorporated Washington DC suburb built out mostly from the 1930s through the 1960s, and its defining pest driver today is its tree canopy. Decades of mature oak, maple, and tulip poplar growth along the community's stream valley parks give wood-destroying and moisture-loving insects a steady supply of shade, leaf litter, and damp soil right up against home foundations, while Montgomery County's countywide spotted lanternfly quarantine has made this invasive planthopper a fresh, real problem on top of the older pest list.",
+    topPests: ["Spotted Lanternfly", "Carpenter Ants", "Eastern Subterranean Termites", "Deer Ticks", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Nymphs April through July, adults July through November, egg masses overwinter",
+        note: "Montgomery County is under Maryland's statewide spotted lanternfly quarantine and is one of the most heavily infested counties in the state, with the population increasing sharply between 2024 and 2025. Bethesda's street trees and backyard plantings, especially near any tree of heaven, see the invasive planthopper swarm in late summer and leave sticky honeydew residue on decks, cars, and siding.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Bethesda's mature tree canopy, planted throughout its stream valley parks since the mid-20th century, keeps soil and mulch beds damp well into summer, and carpenter ants move from that moisture into wood framing on the community's many mid-century homes wherever a roofline or window sill has started to soften.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "A large share of Bethesda's housing stock was built between the 1930s and 1960s, and homes of that age were framed before modern termite pretreatment was standard practice, so an annual inspection matters more here than in newer Montgomery County subdivisions.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Bethesda's network of wooded stream valley parks, part of Montgomery County's long-running stream valley park system, gives deer ticks cover close to backyards, and anyone gardening or walking a dog along those wooded edges should check for ticks afterward.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Downtown Bethesda's dense restaurant corridor around Bethesda Row and the Woodmont Triangle generates the kind of steady food waste that keeps Norway rats active year-round, and the older sewer and alley infrastructure beneath that commercial core gives them easy movement between buildings.",
+      },
+    ],
+    localHook:
+      "Bethesda is one of Maryland's most populated unincorporated communities, built out mostly from the 1930s through the 1960s along Washington DC's northwest border, and it now sits inside Montgomery County's spotted lanternfly quarantine zone, one of the most heavily infested counties in the state.",
+    intro:
+      "Pest control in Bethesda, MD starts with a fact most homeowners do not expect: this is one of the more heavily infested spotted lanternfly counties in Maryland, and the invasive planthopper has become a genuine late-summer nuisance on top of the pests Bethesda has always dealt with. Decades of mature tree canopy planted through the community's stream valley parks keep soil damp and shaded, which suits carpenter ants and deer ticks just fine, while the town's mostly mid-century housing stock, built well before modern termite pretreatment, still carries real subterranean termite exposure. Add a busy downtown restaurant corridor around Bethesda Row that keeps Norway rats fed year-round, and Bethesda needs a pest plan built around both its wooded residential streets and its dense commercial core.",
+    sections: [
+      {
+        heading: "A quarantine county for spotted lanternfly",
+        body: "Montgomery County's spotted lanternfly population climbed sharply between 2024 and 2025, and the county sits inside Maryland's statewide quarantine order for the invasive planthopper. Bethesda's mature street trees, especially any tree of heaven growing along utility rights-of-way or in overgrown yards, draw large late-summer swarms that leave a sticky honeydew film on cars, decks, and siding underneath. Scraping and reporting egg masses each winter, which are laid on flat outdoor surfaces including furniture and tree bark, is the single most effective step a Bethesda homeowner can take before the following season's population builds.",
+      },
+      {
+        heading: "Mid-century homes and mature trees mean real termite and ant pressure",
+        body: "A large share of Bethesda's housing dates to the 1930s through the 1960s, an era before termite pretreatment was standard on new construction, and decades of tree growth since then have left soil around many foundations consistently shaded and damp. That combination supports both subterranean termites working up from the soil and carpenter ants moving in from moisture-softened wood at rooflines and window sills. An annual inspection catches either problem long before it becomes a structural repair.",
+      },
+      {
+        heading: "Stream valley parks bring deer ticks close to home",
+        body: "Bethesda's residential streets are threaded with wooded stream valley parkland, part of a stream valley park system that runs throughout Montgomery County, and that wooded edge habitat supports deer ticks right up against backyard property lines. Anyone who gardens, walks a dog, or lets kids play near those tree lines benefits from a tick check afterward, particularly from April through September when nymphs are most active and hardest to spot.",
+      },
+      {
+        heading: "A dense restaurant corridor keeps rodent pressure steady",
+        body: "Bethesda's downtown, anchored by the Bethesda Row and Woodmont Triangle restaurant districts, runs a volume of food service that most Montgomery County suburbs do not see, and that volume of food waste sustains Norway rat activity through every season rather than just a fall surge. Older alley and sewer infrastructure beneath that commercial core gives rats an easy path between buildings, which is why commercial exclusion work matters as much as trap placement downtown.",
+      },
+    ],
+    prevention: [
+      "Scrape and report spotted lanternfly egg masses from tree bark, outdoor furniture, and vehicles each winter before the spring hatch.",
+      "Schedule an annual termite inspection for homes built before the 1970s, especially near mature tree cover.",
+      "Trim tree limbs and clear damp mulch away from siding to reduce carpenter ant entry points.",
+      "Check for ticks after time in or near Bethesda's stream valley parks, especially April through September.",
+    ],
+    costNote:
+      "Termite inspection in Bethesda is commonly free to $150, with treatment running $250 to $650 per year depending on the home's age and foundation type. Spotted lanternfly management for a residential lot typically runs $100 to $300 per season. Commercial rodent exclusion for downtown restaurant properties runs $200 to $500 per month depending on building size.",
+    faqs: [
+      {
+        question: "Is spotted lanternfly a serious problem in Bethesda?",
+        answer: "Yes. Montgomery County is under Maryland's spotted lanternfly quarantine and the invasive planthopper's population increased sharply between 2024 and 2025, making it one of the more heavily infested counties in the state. It swarms trees and outdoor surfaces in late summer and lays egg masses that overwinter on siding, furniture, and vehicles.",
+      },
+      {
+        question: "Why do older Bethesda homes have more termite risk?",
+        answer: "Much of Bethesda was built between the 1930s and the 1960s, before termite pretreatment was standard on new construction, and decades of mature tree growth since then have kept soil around many of those foundations shaded and damp, both of which favor subterranean termite activity.",
+      },
+      {
+        question: "Do Bethesda's parks bring ticks into residential yards?",
+        answer: "Yes. Bethesda's stream valley parks, part of Montgomery County's wider stream valley park network, sit close to many residential streets, and deer ticks move from that wooded cover to yard edges, particularly from April through September.",
+      },
+      {
+        question: "Why does downtown Bethesda have a rat problem?",
+        answer: "The Bethesda Row and Woodmont Triangle restaurant corridor generates a steady volume of food waste that keeps Norway rats active all year, and older alley and sewer infrastructure beneath that commercial district gives them easy movement between buildings.",
+      },
+      {
+        question: "When should I have my Bethesda property checked for spotted lanternfly?",
+        answer: "Check tree bark and outdoor surfaces for egg masses each winter, since scraping them before the spring hatch is the most effective single step. Adults are most visible and most damaging from July through November.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Catonsville", slug: "catonsville-md", stateSlug: "maryland" },
+      { name: "Halfway", slug: "halfway-md", stateSlug: "maryland" },
+      { name: "Fruitland", slug: "fruitland-md", stateSlug: "maryland" },
+      { name: "California", slug: "california-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bethesda, MD | Lanternfly, Termites & Rats",
+    metaDescription: "Bethesda MD pest control for spotted lanternfly, carpenter ants, subterranean termites, deer ticks and rat control. Montgomery County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "catonsville-md",
+    name: "Catonsville",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~42,700",
+    county: "Baltimore County",
+    climate: "temperate",
+    climateDriver:
+      "Catonsville grew up as one of the country's earliest streetcar suburbs, its wealthy Victorian and Craftsman summer homes converted into year-round houses once electric streetcar service reached Baltimore in the 1890s. The Old Catonsville Historic District still holds roughly 300 of those homes, and their century-plus-old wood framing sits alongside the town's edge along Patapsco Valley State Park, giving Catonsville real pest pressure from both old construction and nearby forest.",
+    topPests: ["Carpenter Ants", "Eastern Subterranean Termites", "Deer Ticks", "Brown Marmorated Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The roughly 300 Victorian, Craftsman, and Colonial Revival homes in the Old Catonsville Historic District, most built between the 1880s and 1920s as the streetcar line reached town, have wood framing that has taken on moisture damage over a century or more, and carpenter ants exploit exactly that kind of softened wood.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Catonsville's status as one of the first commuter suburbs in the country means a large share of its housing predates modern termite pretreatment entirely, and homes in and around the historic district carry meaningfully higher termite risk than newer Baltimore County construction.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Patapsco Valley State Park borders Catonsville's southern edge, and the park's wooded trails and floodplain, popular with the town's mountain biking community, support deer ticks that move onto adjacent properties.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs aggregate on exterior walls across the Baltimore region each fall, and Catonsville's mix of older frame homes with original single-pane windows and gaps around trim gives them an easy path indoors as temperatures drop.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Original construction gaps common in century-old Victorian and Craftsman homes, around foundation sills and where old plumbing and wiring pass through walls, give house mice an easy way into Catonsville's historic housing stock as the weather cools.",
+      },
+    ],
+    localHook:
+      "Catonsville became one of the first commuter suburbs in the United States after electric streetcar service reached it in the 1890s, and the roughly 300 Victorian, Craftsman, and Colonial Revival homes of the Old Catonsville Historic District, listed on the National Register of Historic Places, still line its streets today alongside the wooded edge of Patapsco Valley State Park.",
+    intro:
+      "Pest control in Catonsville, MD has to work around a housing stock that is genuinely unusual for Baltimore County. As one of the earliest streetcar suburbs in the country, Catonsville's Old Catonsville Historic District still holds roughly 300 Victorian, Craftsman, and Colonial Revival homes dating back to the 1880s, and wood framing that old carries real termite and carpenter ant exposure that newer construction simply does not have. Patapsco Valley State Park runs along the town's edge too, adding deer ticks to the list from its wooded trails and floodplain. A standard Baltimore-area fall stink bug season and the house mice that find their way into century-old construction gaps round out what a Catonsville pest plan actually needs to cover.",
+    sections: [
+      {
+        heading: "A historic district with century-old wood framing",
+        body: "The Old Catonsville Historic District, listed on the National Register of Historic Places, holds roughly 300 homes built mostly between the 1880s and 1920s as wealthy Baltimore merchants converted their summer retreats into year-round residences once electric streetcar service arrived. That much original wood framing, much of it never built with modern termite barriers, gives Catonsville a real subterranean termite problem that shows up more in this district than in the town's newer subdivisions. Carpenter ants follow the same pattern, moving into whatever trim or sill has taken on moisture over the decades.",
+      },
+      {
+        heading: "Patapsco Valley State Park brings deer ticks to the edge of town",
+        body: "Catonsville sits along the edge of Patapsco Valley State Park, a large wooded corridor that follows the Patapsco River and draws hikers and mountain bikers from across the region. That same forest supports deer tick populations, and properties closest to the park's trails and floodplain see ticks move onto lawns and garden beds, particularly through the warmer months when nymphs are active and easy to miss.",
+      },
+      {
+        heading: "Older construction still lets stink bugs and mice inside every fall",
+        body: "Brown marmorated stink bugs aggregate on sunny exterior walls across the Baltimore region every September and October, and Catonsville's older frame homes, many with original single-pane windows and trim that has shifted over a century, give them more entry points than newer construction would. House mice follow the same seasonal pattern, working through small gaps around foundation sills and old utility penetrations as the weather turns. A thorough fall exclusion pass, sealing trim gaps and utility openings before the first cold snap, does more to stop both pests than any single indoor treatment applied after they have already found a way in.",
+      },
+      {
+        heading: "UMBC and the Rails to Trails corridor add their own pest considerations",
+        body: "The University of Maryland Baltimore County campus sits within Catonsville, and its dining halls, dormitories, and grounds bring a commercial-scale pest management need alongside the town's residential concerns, particularly for rodents and stored-product pests around food service areas. The Catonsville Rails to Trails corridor, built along the old streetcar right-of-way, threads wooded and grassy sections through the middle of town, giving ticks and mosquitoes another green corridor to move along in addition to the Patapsco Valley State Park edge.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes in or near the Old Catonsville Historic District.",
+      "Seal gaps around trim, sills, and utility penetrations on older homes before fall to block mice and stink bugs.",
+      "Check for ticks after hiking or biking in Patapsco Valley State Park.",
+      "Address any moisture damage in older wood framing promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "Termite inspection for Catonsville's older homes is commonly free to $150, with treatment running $250 to $600 per year depending on foundation and framing age. General pest plans covering ants, stink bugs, and mice run $140 to $260 per year. Tick treatment for properties near Patapsco Valley State Park typically adds $80 to $150 per season.",
+    faqs: [
+      {
+        question: "Why does Catonsville have more termite risk than other Baltimore County suburbs?",
+        answer: "Catonsville was one of the earliest streetcar suburbs in the country, and the Old Catonsville Historic District still holds roughly 300 Victorian, Craftsman, and Colonial Revival homes built mostly from the 1880s through the 1920s, well before modern termite pretreatment existed, so wood framing in and around that district carries real exposure.",
+      },
+      {
+        question: "Does Patapsco Valley State Park affect pest pressure in Catonsville?",
+        answer: "Yes. The park borders Catonsville's edge and its wooded trails and floodplain support deer ticks that move onto neighboring lawns and gardens, especially on properties closest to the park boundary.",
+      },
+      {
+        question: "How old are the homes in Catonsville's historic district?",
+        answer: "Most homes in the Old Catonsville Historic District date from the 1880s through the 1920s, built as Baltimore's electric streetcar line turned what had been summer retreats for wealthy merchants into a year-round commuter suburb, one of the first in the country.",
+      },
+      {
+        question: "Why do house mice get into older Catonsville homes every fall?",
+        answer: "Century-old Victorian and Craftsman construction has small gaps around foundation sills and original utility penetrations that were never built to modern sealing standards, and house mice use exactly those gaps to move indoors as the weather cools.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Bethesda", slug: "bethesda-md", stateSlug: "maryland" },
+      { name: "Halfway", slug: "halfway-md", stateSlug: "maryland" },
+      { name: "Fruitland", slug: "fruitland-md", stateSlug: "maryland" },
+      { name: "California", slug: "california-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Catonsville, MD | Termites, Ants & Ticks",
+    metaDescription: "Catonsville MD pest control for subterranean termites, carpenter ants, deer ticks and house mice. Historic district homes, Baltimore County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fruitland-md",
+    name: "Fruitland",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~5,900",
+    county: "Wicomico County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fruitland sits on Maryland's Lower Eastern Shore next to Salisbury, in a county that carries one of the highest concentrations of poultry operations on the shore, home ground to the Perdue and Tyson poultry industry. That agricultural base, combined with a flat coastal plain drained by the Wicomico River, gives Fruitland real fly and rodent pressure tied to poultry operations on top of the humid, mosquito-friendly climate common across the Lower Shore.",
+    topPests: ["House Flies", "Rodents", "Mosquitoes", "Brown Marmorated Stink Bugs", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October, peaks in summer heat",
+        note: "Wicomico County has one of the highest concentrations of poultry operations on Maryland's Eastern Shore, and manure-breeding flies from those confined poultry housing systems are a documented regional pest issue that extends into residential areas near agricultural land around Fruitland.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Poultry feed storage draws rodents throughout Wicomico County's agricultural operations, and producers are routinely advised to secure feed against exactly this kind of activity, which pushes rodent pressure outward into surrounding residential and commercial properties near Fruitland.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Fruitland's flat coastal plain position along the Wicomico River, part of the tidal Chesapeake Bay watershed, leaves standing water in low-lying yards and drainage ditches through the humid Eastern Shore summer, sustaining mosquito breeding for most of the warm season.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Row crop farming, common throughout Wicomico County, gives stink bugs an agricultural food source through the growing season before they move onto exterior walls and into homes each fall looking for shelter.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "The Lower Eastern Shore's hot, humid climate keeps soil moisture high for most of the year, and Fruitland's older homes near Salisbury see steady subterranean termite pressure as a result.",
+      },
+    ],
+    localHook:
+      "Fruitland sits immediately south of Salisbury on Maryland's Lower Eastern Shore, in Wicomico County, home to one of the highest concentrations of poultry operations on the shore and the birthplace of the regional poultry industry that Perdue and Tyson both grew out of.",
+    intro:
+      "Pest control in Fruitland, MD is shaped by what surrounds it. Wicomico County carries one of the highest concentrations of poultry operations anywhere on Maryland's Eastern Shore, and that agricultural base brings a real, documented fly and rodent pressure into Fruitland that a purely residential Eastern Shore town would not see. The Wicomico River's tidal, flat coastal plain adds a long mosquito season on top of that, running from May through October in the region's hot, humid climate. Row crop farming nearby feeds the same fall stink bug invasion every Lower Shore town deals with, while Fruitland's older housing stock near Salisbury carries the steady subterranean termite pressure that comes with a humid climate and moist soil most of the year.",
+    sections: [
+      {
+        heading: "A poultry-driven fly and rodent problem",
+        body: "Wicomico County has one of the highest concentrations of poultry operations on Maryland's Eastern Shore, and confined poultry housing systems are a documented source of manure-breeding flies in the surrounding region. Poultry feed storage is a known draw for rodents as well, enough that producers are routinely advised to secure feed against them. Fruitland sits close enough to that agricultural base that both pressures extend into residential and commercial properties around town, not just onto the farms themselves.",
+      },
+      {
+        heading: "A tidal river and flat coastal plain mean a long mosquito season",
+        body: "Fruitland's position on the flat coastal plain of the Lower Eastern Shore, along the tidal Wicomico River, leaves low-lying yards and drainage ditches holding standing water through most of the warm season. Combined with the region's hot, humid summer climate, that gives Fruitland a mosquito season that runs from May well into October, longer than towns farther inland or at higher elevation.",
+      },
+      {
+        heading: "Row crops bring stink bugs, and humidity keeps termites active",
+        body: "Row crop agriculture is common throughout Wicomico County, and brown marmorated stink bugs feed on those crops through the growing season before shifting to homes and buildings each fall in search of shelter, a pattern that plays out across the Lower Shore every September and October. Meanwhile, the region's consistently humid climate keeps soil moisture elevated for most of the year, which sustains steady subterranean termite activity in Fruitland's older homes near the Salisbury line.",
+      },
+      {
+        heading: "A Salisbury-adjacent town with its own pest identity",
+        body: "Fruitland sits close enough to Salisbury that the two are often treated as one metro area, but Fruitland's own mix of older residential streets, agricultural edges, and Wicomico River frontage gives it a pest profile that is not identical to its larger neighbor. Properties closest to the county's poultry operations and row crop fields see more fly, rodent, and stink bug pressure, while homes nearer the river deal with a longer mosquito season, and a pest plan built for Fruitland specifically accounts for both.",
+      },
+    ],
+    prevention: [
+      "Keep exterior trash and food waste sealed to reduce fly and rodent activity near agricultural land.",
+      "Clear standing water from yards and drainage ditches through the May to October mosquito season.",
+      "Seal exterior gaps before fall to keep stink bugs from moving indoors.",
+      "Schedule an annual termite inspection given the region's consistently humid soil conditions.",
+    ],
+    costNote:
+      "General pest plans covering flies, rodents, and stink bugs in Fruitland run $140 to $260 per year. Mosquito treatment for the May through October season typically runs $60 to $100 per visit or $400 to $700 for a full-season program. Termite inspection is commonly free to $150, with treatment running $250 to $600 per year.",
+    faqs: [
+      {
+        question: "Why does Fruitland have more fly pressure than other Maryland towns?",
+        answer: "Wicomico County has one of the highest concentrations of poultry operations on Maryland's Eastern Shore, and manure-breeding flies from confined poultry housing are a documented regional issue that extends into residential areas around Fruitland.",
+      },
+      {
+        question: "Is the rodent problem near Fruitland tied to agriculture?",
+        answer: "Yes, at least in part. Poultry feed storage across Wicomico County draws rodents, and that pressure extends into residential and commercial properties near the agricultural land surrounding Fruitland.",
+      },
+      {
+        question: "How long does mosquito season last in Fruitland?",
+        answer: "Fruitland's flat coastal plain position along the tidal Wicomico River, combined with the Lower Eastern Shore's hot, humid climate, gives it a mosquito season that typically runs from May through October.",
+      },
+      {
+        question: "Why do stink bugs invade Fruitland homes every fall?",
+        answer: "Row crop farming is common throughout Wicomico County, and brown marmorated stink bugs feed on those crops through the growing season before moving onto exterior walls and into homes each September and October looking for shelter.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bethesda", slug: "bethesda-md", stateSlug: "maryland" },
+      { name: "Catonsville", slug: "catonsville-md", stateSlug: "maryland" },
+      { name: "Halfway", slug: "halfway-md", stateSlug: "maryland" },
+      { name: "California", slug: "california-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fruitland, MD | Flies, Rodents & Mosquitoes",
+    metaDescription: "Fruitland MD pest control for house flies, rodents, mosquitoes, stink bugs and termites. Wicomico County, Lower Eastern Shore. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "halfway-md",
+    name: "Halfway",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~11,900",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Halfway sits in the Hagerstown Valley, a limestone karst landscape where roughly 89 percent of the valley floor is underlain by carbonate rock riddled with sinkholes and cave systems, more than 2,100 mapped karst features in the surrounding quadrangles. That geology holds moisture in low-lying depressions across the valley, and Halfway's location directly between Hagerstown and Williamsport, ringed by dairy and grain farmland and its own retail corridor along Route 40, adds agricultural and commercial pest pressure on top of the valley's natural terrain.",
+    topPests: ["House Mice", "Carpenter Ants", "Eastern Subterranean Termites", "Brown Marmorated Stink Bugs", "Field Crickets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Halfway's retail and warehouse corridor along Route 40, sitting between Hagerstown and Williamsport, borders the dairy and grain farmland that fills the Hagerstown Valley, and that mix of agricultural buildings and commercial storage gives house mice steady access to shelter and food.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The Hagerstown Valley's limestone karst geology holds moisture in low-lying sinkhole depressions across the valley floor, and homes built near those wetter pockets see carpenter ants move into any wood framing that has picked up moisture damage.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Washington County's Hagerstown Valley carries a real subterranean termite presence, and the valley's karst limestone bedrock, with its network of caves and cavities, tends to hold soil moisture in ways that support termite activity near foundations built over it.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Halfway's surrounding farmland gives stink bugs an agricultural food source through the growing season, and the invasion onto exterior walls each fall is as reliable here as anywhere else in the Hagerstown Valley.",
+      },
+      {
+        name: "Field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "August through October",
+        note: "The grain and dairy farmland surrounding Halfway pushes field crickets toward homes and commercial buildings each late summer as crop fields are harvested, and the insects move indoors looking for warmth and shelter as fall approaches.",
+      },
+    ],
+    localHook:
+      "Halfway sits directly between Hagerstown and Williamsport, on the floor of the Hagerstown Valley, a limestone karst landscape where about 89 percent of the valley is underlain by carbonate rock and more than 2,100 karst features, including caves and sinkholes, have been mapped in the surrounding quadrangles.",
+    intro:
+      "Pest control in Halfway, MD starts with the ground itself. The Hagerstown Valley sits on a limestone karst landscape, with roughly 89 percent of the valley floor underlain by carbonate rock and more than 2,100 mapped sinkholes and cave features in the surrounding area, and that geology holds moisture in low-lying pockets across the valley in a way that shapes local pest pressure. Halfway's position directly between Hagerstown and Williamsport, along a retail and warehouse corridor on Route 40, sits right up against the dairy and grain farmland that fills the rest of the valley, bringing house mice, field crickets, and stink bugs in from the surrounding fields each season. Add the humidity that karst terrain holds near foundations, and Halfway needs a pest plan that accounts for both its geology and its farmland neighbors.",
+    sections: [
+      {
+        heading: "Karst limestone geology shapes moisture and pest pressure",
+        body: "The Hagerstown Valley is one of Maryland's four collapse-sinkhole regions, with about 89 percent of the valley floor underlain by carbonate rock that has developed extensive karst features over time, more than 2,100 of them mapped across the surrounding quadrangles, along with more than 50 known caves. That kind of terrain holds soil moisture in low-lying sinkhole depressions longer than it would drain on non-carbonate ground, and homes built near those wetter pockets see more carpenter ant and subterranean termite activity as a result.",
+      },
+      {
+        heading: "A retail corridor between two towns, ringed by farmland",
+        body: "Halfway earned its name from sitting roughly halfway between Hagerstown and Williamsport, and today it carries a genuine retail and warehouse corridor along Route 40 while still bordering the dairy and grain farmland that covers most of the Hagerstown Valley. That mix gives house mice access to both agricultural buildings and commercial storage nearby, and pest pressure in Halfway runs a little differently than in a purely residential Washington County subdivision.",
+      },
+      {
+        heading: "Harvest season brings crickets and stink bugs indoors",
+        body: "As the grain and dairy farmland surrounding Halfway comes through late-summer harvest, field crickets and brown marmorated stink bugs both start moving off the fields and toward the nearest shelter, which often means homes and commercial buildings along the Route 40 corridor. That seasonal shift runs from roughly August through November, and sealing obvious exterior gaps before harvest season begins reduces how much of that movement ends up indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for homes near low-lying, moisture-holding areas of the Hagerstown Valley.",
+      "Seal foundation and utility gaps before harvest season to reduce field cricket and stink bug entry.",
+      "Secure exterior food storage at commercial and warehouse buildings along the Route 40 corridor to limit mouse activity.",
+      "Address moisture damage in wood framing promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General pest plans covering mice, ants, and stink bugs in Halfway run $140 to $260 per year. Termite inspection is commonly free to $150, with treatment running $250 to $600 per year. Commercial rodent exclusion for retail and warehouse properties along Route 40 runs $150 to $400 per month depending on building size.",
+    faqs: [
+      {
+        question: "Does the Hagerstown Valley's geology really affect pest control in Halfway?",
+        answer: "Yes. About 89 percent of the Hagerstown Valley floor is underlain by limestone karst bedrock with more than 2,100 mapped sinkholes and cave features, and that terrain holds soil moisture in low-lying depressions in a way that supports both carpenter ant and subterranean termite activity near foundations built over it.",
+      },
+      {
+        question: "Why does Halfway have more mouse activity than a typical residential town?",
+        answer: "Halfway sits between Hagerstown and Williamsport along a Route 40 retail and warehouse corridor that borders the dairy and grain farmland filling the rest of the Hagerstown Valley, and that mix of commercial storage and agricultural buildings gives house mice more access points than a purely residential area would.",
+      },
+      {
+        question: "Why do field crickets show up in Halfway homes in late summer?",
+        answer: "The grain and dairy farmland surrounding Halfway pushes field crickets toward the nearest shelter as crop fields are harvested from roughly August through October, and homes and commercial buildings along the Route 40 corridor are the closest option.",
+      },
+      {
+        question: "How did Halfway get its name?",
+        answer: "Halfway is named for its location roughly halfway between Hagerstown and Williamsport in Washington County, on the floor of the Hagerstown Valley.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bethesda", slug: "bethesda-md", stateSlug: "maryland" },
+      { name: "Catonsville", slug: "catonsville-md", stateSlug: "maryland" },
+      { name: "Fruitland", slug: "fruitland-md", stateSlug: "maryland" },
+      { name: "California", slug: "california-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Halfway, MD | Mice, Termites & Stink Bugs",
+    metaDescription: "Halfway MD pest control for house mice, carpenter ants, termites, stink bugs and field crickets. Hagerstown Valley, Washington County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "california-md",
+    name: "California",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~13,600",
+    county: "St. Mary's County",
+    climate: "hot-humid",
+    climateDriver:
+      "California sits on the Cedar Point peninsula in St. Mary's County, at the confluence of the Patuxent River and the Chesapeake Bay, anchored by Naval Air Station Patuxent River. Wooded neighborhoods, drainage areas, and tidal river frontage that grew up around the base since the mid-20th century combine with a hot, humid Southern Maryland climate to sustain a long mosquito season, while the community's aging housing stock adds real termite and rodent pressure.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Deer Ticks", "Rodents", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "California's position on the Cedar Point peninsula, at the confluence of the Patuxent River and the Chesapeake Bay, surrounds the community with tidal water and drainage areas, and the dense tree canopy in its wooded neighborhoods holds enough humidity and standing water to breed mosquitoes for most of the warm season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Much of California's housing was built up quickly since the mid-20th century as Naval Air Station Patuxent River grew, and that aging housing stock, combined with Southern Maryland's hot, humid climate, carries steady subterranean termite exposure.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The wooded neighborhoods that surround Naval Air Station Patuxent River give deer ticks cover close to homes, and residents spending time in yard edges or nearby wooded lots should check for ticks through the warmer months.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "California's aging housing stock, much of it built rapidly to house the base's growing workforce over the decades, has enough gaps and entry points that rodents find their way in reliably as temperatures drop each fall.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs are a reliable fall nuisance across Southern Maryland, and California's mix of older base-era homes and newer construction both see the same aggregation pattern on sunny exterior walls each fall.",
+      },
+    ],
+    localHook:
+      "California, Maryland sits on the Cedar Point peninsula at the confluence of the Patuxent River and the Chesapeake Bay, home to Naval Air Station Patuxent River, and the community grew up around the base's expansion from a modest waterfront settlement into one of St. Mary's County's largest population centers.",
+    intro:
+      "Pest control in California, MD has to account for a peninsula built around a naval air station. Sitting where the Patuxent River meets the Chesapeake Bay, California is surrounded by tidal water and wooded drainage areas that keep mosquitoes active from April through October in Southern Maryland's hot, humid climate. The community's housing stock grew up quickly as Naval Air Station Patuxent River expanded over the decades, and that aging construction carries real termite and rodent exposure that a newer community would not have to the same degree. Wooded neighborhoods around the base add deer ticks to the mix, and a standard Southern Maryland fall stink bug season rounds out what a California pest plan needs to cover.",
+    sections: [
+      {
+        heading: "A peninsula surrounded by tidal water means a long mosquito season",
+        body: "California sits on the Cedar Point peninsula at the point where the Patuxent River meets the Chesapeake Bay, and that waterfront position, combined with wooded drainage areas throughout the community's residential neighborhoods, keeps humidity and standing water available for mosquito breeding through most of the warm season. Southern Maryland's hot, humid climate stretches that season from April into October, longer than towns farther from tidal water would typically see.",
+      },
+      {
+        heading: "Base-era housing carries real termite and rodent exposure",
+        body: "Much of California's housing stock was built rapidly as Naval Air Station Patuxent River expanded its workforce over the decades since the mid-20th century, and that aging construction, paired with Southern Maryland's consistently humid climate, gives the community steady subterranean termite pressure. The same aging housing stock has enough gaps and entry points that rodents move in reliably as fall temperatures drop, making exclusion work as important as routine treatment.",
+      },
+      {
+        heading: "Wooded neighborhoods add ticks, and fall brings the usual stink bugs",
+        body: "The wooded residential neighborhoods surrounding the naval air station give deer ticks cover close to yards, and anyone spending time near those tree lines through the warmer months should check for ticks afterward. Brown marmorated stink bugs follow the same fall pattern seen across Southern Maryland, aggregating on sunny exterior walls each September and October before pushing indoors as temperatures drop.",
+      },
+      {
+        heading: "A community built around a working military installation",
+        body: "California's growth has tracked the expansion of Naval Air Station Patuxent River closely, and that history shows up in the pest picture as much as in the housing stock. Neighborhoods built in waves over the decades to house base personnel and contractors sit close together along wooded lots and tidal frontage, and a pest control plan here needs to account for homes of several different construction eras rather than one uniform building type, alongside the peninsula's water exposure on nearly every side.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yards and drainage areas through the April to October mosquito season.",
+      "Schedule an annual termite inspection given the area's aging housing stock and humid climate.",
+      "Seal gaps in older homes before fall to reduce rodent and stink bug entry.",
+      "Check for ticks after time in or near wooded neighborhood edges, especially April through September.",
+    ],
+    costNote:
+      "Mosquito treatment in California typically runs $60 to $100 per visit or $400 to $700 for a full-season program given the length of the local season. Termite inspection is commonly free to $150, with treatment running $250 to $600 per year. General pest plans covering rodents and stink bugs run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why is mosquito season so long in California, MD?",
+        answer: "California sits on the Cedar Point peninsula where the Patuxent River meets the Chesapeake Bay, surrounded by tidal water and wooded drainage areas, and Southern Maryland's hot, humid climate keeps mosquitoes active from April through October.",
+      },
+      {
+        question: "Does California's connection to Naval Air Station Patuxent River affect pest pressure?",
+        answer: "Yes. Much of California's housing stock was built quickly as the base expanded its workforce over the decades, and that aging construction carries steady subterranean termite and rodent exposure that newer housing elsewhere in the county does not have to the same degree.",
+      },
+      {
+        question: "Are deer ticks a real concern in California, MD?",
+        answer: "Yes. The wooded neighborhoods surrounding Naval Air Station Patuxent River give deer ticks cover close to residential yards, and residents spending time near those tree lines from April through September should check for ticks afterward.",
+      },
+      {
+        question: "How is California, MD different from nearby Lexington Park?",
+        answer: "Both communities grew up around Naval Air Station Patuxent River and share Southern Maryland's hot, humid climate and long mosquito season, but California sits directly on the Cedar Point peninsula at the Patuxent River and Chesapeake Bay confluence, giving it slightly more direct tidal water exposure along its residential edges.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bethesda", slug: "bethesda-md", stateSlug: "maryland" },
+      { name: "Catonsville", slug: "catonsville-md", stateSlug: "maryland" },
+      { name: "Fruitland", slug: "fruitland-md", stateSlug: "maryland" },
+      { name: "Halfway", slug: "halfway-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in California, MD | Mosquitoes, Termites & Ticks",
+    metaDescription: "California MD pest control for mosquitoes, subterranean termites, deer ticks and rodents. St. Mary's County, Patuxent River peninsula. Call 1-800-PEST-USA.",
+  },
 ];

@@ -11019,4 +11019,579 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Yorkville, IL pest control for Fox River mosquitoes, downtown termites, new-subdivision mice and moraine-hill carpenter ants. Kendall County service. Free inspection.",
   },
+  {
+    slug: "taylorville-il",
+    name: "Taylorville",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~10,600",
+    county: "Christian County",
+    climate: "cold-humid",
+    climateDriver:
+      "Taylorville sits in the corn and soybean belt of central Illinois, with the usual humid continental swing of hot, sticky summers and cold winters. What sets its pest picture apart is the housing stock: more than a quarter of homes here were built before 1940, back when Christian County ran sixteen working coal mines and Taylorville grew fast to house the miners. That older wood-frame construction, not the farmland alone, is the biggest single factor in how pests get into Taylorville homes.",
+    topPests: ["House Mice", "Carpenter Ants", "Termites", "Stink Bugs", "Silverfish"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The corn and soybean fields ringing Taylorville get cleared out each fall, and the mice that lose their cover head straight for the nearest foundation gap, often in the older neighborhoods built closest to the county's old mining camps.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "With close to 28 percent of Taylorville's housing built before 1940, there is no shortage of old wood, softened by decades of small roof leaks and settling foundations, for carpenter ants to excavate.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Homes built during Taylorville's early-20th-century coal boom often carry wood-to-soil contact points that modern foundation codes were written to eliminate, a real and specific risk older Taylorville properties carry that newer construction elsewhere in Christian County does not.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on sun-warmed siding across Taylorville each fall before slipping in through any gap they can find, a pattern tied to the farmland that surrounds the town on every side.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse in humid basements",
+        note: "Basements under Taylorville's older coal-era homes tend to hold more moisture than a modern poured foundation, and silverfish take advantage of that humidity to feed on paper, wallpaper paste, and stored boxes.",
+      },
+    ],
+    localHook:
+      "Christian County once ran sixteen coal mines and lived through the violent coal mine wars of the 1930s, a history the town still marks today with its own Christian County Coal Mine Museum. Taylorville grew up fast around that industry, and close to 28 percent of its homes were built before 1940. That combination, an old, coal-era housing stock ringed by modern corn and soybean fields, gives Taylorville a pest profile that owes as much to its buildings as to its farmland.",
+    intro:
+      "Taylorville's pest pressure starts with its buildings before it ever gets to its farmland. Close to 28 percent of homes here predate 1940, built during the decades when Christian County's sixteen coal mines drew workers and their families into town fast. That older wood-frame construction carries wood-to-soil contact points and moisture-softened lumber that newer homes elsewhere in the county simply do not have, which is why termites and carpenter ants show up more often in Taylorville's historic blocks than in its newer subdivisions. The corn and soybean fields that surround the town still matter too: house mice pour toward the nearest foundation gap every fall harvest, and stink bugs stage on exterior walls each September looking for a way in. Add in the damp basements common under the older coal-era homes, and silverfish round out a pest picture shaped as much by history as by geography.",
+    sections: [
+      {
+        heading: "A coal town's old housing stock and its termite risk",
+        body: "Christian County ran sixteen coal mines in its heyday, and Taylorville grew fast to house the families who worked them. That growth left the town with a lot of pre-1940 construction, close to 28 percent of its housing stock by some counts, built to the standards of its era rather than to a modern building code. Wood-to-soil contact points that today's foundation codes are designed to prevent still turn up in these older homes, giving subterranean termites an easy path in each spring and summer swarm season. Newer construction on Taylorville's edges generally does not carry this same risk, since it was built well after those contact-point rules were standard practice. An inspection focused on foundation age is the fastest way to tell which Taylorville homes need the closest termite attention.",
+      },
+      {
+        heading: "Carpenter ants in Taylorville's older neighborhoods",
+        body: "The same old wood that draws termites into Taylorville's historic blocks also draws carpenter ants, though the two pests look for slightly different conditions. Carpenter ants need wood that has already softened from moisture, a small roof leak left too long, a gutter that overflows against a wall, a foundation that has settled and let water in around a sill plate. Taylorville's older homes have had decades to accumulate exactly that kind of small, slow damage, and once ants find a soft spot they excavate galleries rather than eat the wood outright. Regular attention to roof and gutter maintenance in the town's oldest neighborhoods does more to prevent carpenter ant colonies than any single treatment applied after the fact.",
+      },
+      {
+        heading: "Fall harvest mice and stink bugs from the surrounding farmland",
+        body: "Taylorville sits inside Christian County's corn and soybean belt, and the fields ringing the town get cut each September and October. House mice that had been living in that field cover lose it all at once and move toward the nearest structure, which for a lot of Taylorville homes means whatever foundation gap or utility penetration is easiest to find. Stink bugs follow a similar seasonal pattern, gathering on sun-warmed exterior walls through the fall before slipping through a gap to overwinter indoors. Sealing obvious entry points before harvest season starts is the single most effective step a Taylorville homeowner can take against both pests at once.",
+      },
+      {
+        heading: "Damp basements and silverfish",
+        body: "A lot of Taylorville's coal-era homes were built with basements that hold more ambient moisture than a modern poured foundation manages today, and silverfish thrive in exactly that kind of humid, undisturbed space. They feed on paper, wallpaper paste, and the cardboard boxes that tend to pile up in an older basement over the years, and they are mostly a nuisance rather than a structural threat, unlike termites or carpenter ants. Running a dehumidifier and keeping stored paper goods off a damp basement floor cuts down on silverfish activity more reliably than any single spot treatment.",
+      },
+    ],
+    prevention: [
+      "Have pre-1940 homes near Taylorville's older neighborhoods inspected annually for termite activity around foundation wood-to-soil contact points.",
+      "Fix small roof and gutter leaks promptly to keep carpenter ants from finding softened wood to excavate.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to block house mice and stink bugs at once.",
+      "Run a dehumidifier in older basements to reduce the moisture that draws silverfish.",
+    ],
+    costNote:
+      "General quarterly pest plans in Taylorville typically run $120 to $230 per year. Termite inspections are usually free, with treatment for older, pre-1940 homes often running $500 to $1,200 depending on the extent of wood-to-soil contact found. Fall exclusion service for mice and stink bugs adds $130 to $250.",
+    faqs: [
+      {
+        question: "Why do older Taylorville homes have more termite risk?",
+        answer:
+          "Close to 28 percent of Taylorville's housing was built before 1940, during Christian County's coal-mining boom, and that older construction often has wood-to-soil contact points that modern foundation codes were written to prevent. Newer homes on the edges of town generally do not carry that same risk.",
+      },
+      {
+        question: "Are carpenter ants common in Taylorville?",
+        answer:
+          "They can be in the older neighborhoods, wherever a roof leak, overflowing gutter, or settled foundation has softened wood enough for ants to excavate. Regular exterior maintenance is the best prevention.",
+      },
+      {
+        question: "When do house mice become a problem in Taylorville?",
+        answer:
+          "Mostly September through November, when the corn and soybean fields around town get harvested and the mice that lose their field cover move toward the nearest home.",
+      },
+      {
+        question: "Does Taylorville's coal mining history affect pest control today?",
+        answer:
+          "Indirectly, yes. The town's rapid growth during the coal boom left it with a large share of homes built before 1940, and that older housing stock is the biggest single factor behind Taylorville's termite and carpenter ant risk today.",
+      },
+      {
+        question: "Why do Taylorville basements get silverfish?",
+        answer:
+          "Many of the town's older coal-era homes have basements that hold more moisture than a modern foundation, and silverfish feed on paper and cardboard in exactly that kind of damp, undisturbed space.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Antioch", slug: "antioch-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Taylorville, IL | Coal-Era Homes & Termite Risk",
+    metaDescription:
+      "Taylorville, IL pest control for pre-1940 coal-era homes, termites, carpenter ants, fall harvest mice and stink bugs. Christian County service. Free inspection.",
+  },
+  {
+    slug: "mount-vernon-il",
+    name: "Mount Vernon",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~14,600",
+    county: "Jefferson County",
+    climate: "temperate",
+    climateDriver:
+      "Mount Vernon was built on the high ground between Casey Creek and the Big Muddy River, and before Rend Lake was dammed in 1971 about fifteen miles south, the low ground around town held a hardwood swamp that stayed waist-deep in water through much of winter and after wet summers. Southern Illinois summers run warm and humid, and even with the dam evening out the worst flooding, that low, moisture-holding bottomland still shapes how mosquitoes and moisture-loving pests behave around town.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, worse after wet stretches",
+        note: "The Casey Creek and Big Muddy River bottomland around Mount Vernon was a genuine hardwood swamp before the Rend Lake dam went in, and low-lying yards near that old footprint still hold water longer after summer storms than the higher ground the town itself sits on.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Rend Lake, about fifteen miles south, draws Mount Vernon families out to wooded trails and campgrounds all summer, and the deer and brush habitat around the lake carries tick pressure that travels home on people and pets after a day outdoors.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Older Mount Vernon homes built on the lower ground closer to the historic swamp footprint hold more soil moisture against their foundations than homes on the town's higher ground, a real difference in termite exposure across town.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Wooded lots on Mount Vernon's edges, especially where tree cover has not been cleared for farmland, give carpenter ants the old stumps and softened wood they need to establish a colony.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Jefferson County's soybean fields get harvested each fall, and the mice that lose their cover move toward Mount Vernon's outer neighborhoods first, before working deeper into town over the winter.",
+      },
+    ],
+    localHook:
+      "Mount Vernon sits on high ground between Casey Creek and the Big Muddy River, and the bottomland around that high ground was a real hardwood swamp before Rend Lake was dammed in 1971, roughly fifteen miles south. Local flood records go back to 1892, a century of documented high water on the Big Muddy that the Rend Lake project was built specifically to control. That history of low, water-holding ground right next to the town's higher core is the clearest single reason Mount Vernon deals with more mosquito pressure than towns further from the old swamp footprint.",
+    intro:
+      "Mount Vernon was built on the one piece of high ground between Casey Creek and the Big Muddy River, and that choice of location still shapes the town's pest picture more than a century later. The bottomland surrounding that high ground held a genuine hardwood swamp, waist-deep in water through much of winter, before the Rend Lake dam went in about fifteen miles south in 1971 to bring the flooding under control. Recorded floods on the Big Muddy go back to 1892, and even with the dam in place, low-lying yards near that old swamp footprint hold rainwater longer than the higher ground downtown sits on, which keeps mosquito season active from May through September. Rend Lake itself draws families out to wooded trails all summer, and that same wooded, brushy habitat carries ticks home on people and pets. Older homes on Mount Vernon's lower ground face more termite pressure than homes up on the higher core, while carpenter ants stick mostly to wooded lots at the edge of town, and fall brings the usual push of field mice off the surrounding soybean acreage.",
+    sections: [
+      {
+        heading: "The swamp Mount Vernon was built next to",
+        body: "Before the Army Corps of Engineers completed the Rend Lake dam in 1971, roughly fifteen miles south of town, the low ground around Mount Vernon's high core was a real hardwood swamp, holding water waist-deep through much of the winter and after any wet summer. Flood records for the Big Muddy River and Casey Creek watershed go back to 1892, documenting more than a century of high water that made the dam project necessary in the first place. That history did not vanish when the dam went in. Low-lying yards and older subdivisions closer to the historic swamp footprint still hold standing water longer after a heavy rain than the higher ground Mount Vernon's original townsite occupies, and that difference in drainage is the single clearest predictor of which parts of town see the heaviest mosquito pressure each summer.",
+      },
+      {
+        heading: "Rend Lake and the ticks that travel home from it",
+        body: "Rend Lake sits about fifteen miles south of Mount Vernon and functions as the area's main outdoor recreation draw, with wooded trails, campgrounds, and brushy shoreline that local families visit all summer long. That same habitat, tree cover mixed with tall brush and a healthy deer population, is exactly what ticks need to thrive, and the risk does not stay at the lake. Ticks ride home on clothing, pets, and gear after a day outdoors, which is why tick checks after a Rend Lake trip matter as much as any yard treatment closer to home. April through October covers the active season, with the heaviest pressure in the warm, humid stretch from late spring through midsummer.",
+      },
+      {
+        heading: "Termites on the lower ground, carpenter ants at the wooded edges",
+        body: "Mount Vernon's older homes built on the lower ground closer to the historic swamp footprint sit on soil that holds more moisture against a foundation than the higher ground the town's original core occupies, and that moisture is exactly the condition subterranean termites need to establish a colony and swarm each spring. Carpenter ants take a different route into Mount Vernon homes, favoring the wooded lots at the edges of town where old stumps and untouched tree cover give them the softened wood they excavate rather than eat outright. A property's ground elevation and its distance from remaining tree cover both matter more here than they would in a flatter, more uniformly farmed county.",
+      },
+      {
+        heading: "Fall mice off the soybean fields",
+        body: "Jefferson County's soybean acreage surrounds Mount Vernon on most sides, and harvest each September and October strips the field cover that house mice had been using all summer. Displaced mice move toward the nearest structure, and Mount Vernon's outer neighborhoods, closest to the farmland, typically see pressure build first before it works deeper into town as the weather turns cold. Sealing foundation gaps and door sweeps before harvest season is the most effective single step a homeowner on the edge of town can take.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from low-lying yards near the historic swamp footprint before mosquito season builds each May.",
+      "Check for ticks after any trip to Rend Lake's trails or campgrounds, on both people and pets.",
+      "Have homes on Mount Vernon's lower ground inspected annually for termite activity tied to foundation moisture.",
+      "Seal foundation gaps at the edge of town before the fall soybean harvest displaces field mice.",
+    ],
+    costNote:
+      "General quarterly pest plans in Mount Vernon typically run $125 to $240 per year. Termite inspections are usually free, with treatment for lower-ground homes often $500 to $1,100. Seasonal tick treatment for yards near wooded lots adds $90 to $160 per visit.",
+    faqs: [
+      {
+        question: "Why does Mount Vernon have more mosquitoes than nearby towns?",
+        answer:
+          "Mount Vernon was built on high ground next to bottomland that was a real hardwood swamp before the Rend Lake dam went in during 1971. Low-lying yards near that old swamp footprint still hold rainwater longer than the town's higher core, which keeps mosquito pressure elevated each summer.",
+      },
+      {
+        question: "Are ticks a concern for Mount Vernon families who visit Rend Lake?",
+        answer:
+          "Yes. Rend Lake's wooded trails and brushy shoreline, about fifteen miles south of town, carry tick habitat, and ticks ride home on clothing, pets, and gear after a day outdoors, so a tick check after any lake trip is a good habit.",
+      },
+      {
+        question: "Do older Mount Vernon homes face more termite risk?",
+        answer:
+          "Homes on the lower ground closer to the historic swamp footprint sit on soil that holds more moisture against the foundation, which is the condition subterranean termites look for. Homes on the town's higher original core generally see less of this pressure.",
+      },
+      {
+        question: "When do house mice move into Mount Vernon homes?",
+        answer:
+          "Mostly September through November, when the soybean fields surrounding Jefferson County get harvested and the mice that lose their cover move toward the nearest structure, usually starting in neighborhoods closest to the farmland.",
+      },
+      {
+        question: "Has flooding always been a problem near Mount Vernon?",
+        answer:
+          "Documented flood records for the Big Muddy River and Casey Creek watershed go back to 1892. The Rend Lake dam, completed in 1971 about fifteen miles south, was built to bring that century of flooding under control.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Taylorville", slug: "taylorville-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Antioch", slug: "antioch-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Mount Vernon, IL | Swamp History Mosquitoes & Ticks",
+    metaDescription:
+      "Mount Vernon, IL pest control for historic-swamp mosquitoes, Rend Lake ticks, lower-ground termites and fall harvest mice. Jefferson County service. Free inspection.",
+  },
+  {
+    slug: "antioch-il",
+    name: "Antioch",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~14,900",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Antioch sits at the southern gateway to the Chain O'Lakes, an interconnected system of about a dozen lakes covering roughly 7,200 acres, the largest concentration of inland recreational water anywhere in northeastern Illinois. Northern Illinois runs cold, snowy winters and warm, humid summers, and with that much shoreline, wetland, and slow-moving channel water around town, Antioch sees more mosquito and tick pressure through the warm months than a typical Lake County community without lake frontage.",
+    topPests: ["Mosquitoes", "Ticks", "Carpenter Ants", "House Mice", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Chain O'Lakes' roughly 7,200 acres of connected water and wetland give mosquitoes far more breeding habitat around Antioch than a landlocked town has, and Lake County's health department runs an ongoing mosquito surveillance and testing program across the county through the warm months as a result.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Wooded shoreline lots along the Chain O'Lakes carry the brush and deer traffic ticks need, and homeowners on those lots see more activity than residents further from the water.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older cabins and lake homes built close to the shoreline tend to hold more moisture in their wood framing than homes further inland, and carpenter ants take advantage of that softened wood wherever it turns up.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, worse in seasonal cottages left vacant",
+        note: "A number of Antioch's lake properties see reduced use over the winter, and mice move into those quiet structures far more easily than into a year-round occupied home nearby.",
+      },
+      {
+        name: "Wasps and bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through September",
+        note: "Docks, boathouses, and the eaves of lakeside homes give wasps sheltered nesting spots close to the water, and activity around Antioch's shoreline properties tends to run higher than inland homes see.",
+      },
+    ],
+    localHook:
+      "Antioch calls itself the gateway to the Chain O'Lakes, and the name is not just marketing: about a dozen interconnected lakes cover roughly 7,200 acres just outside town, making it the largest concentration of inland recreational water anywhere in northeastern Illinois. Lake County's health department runs a mosquito surveillance and testing program across the county from late spring into fall, a direct response to how much standing and slow-moving water this stretch of Lake County holds compared to towns without lake frontage.",
+    intro:
+      "Antioch's identity and its pest pressure both trace back to the same feature: the Chain O'Lakes, a roughly 7,200-acre network of about a dozen connected lakes that starts right at the edge of town. That much shoreline, wetland, and slow channel water gives mosquitoes far more breeding ground than a typical inland Lake County community deals with, which is part of why the county health department runs an active mosquito surveillance program through the warm months. Wooded shoreline lots bring ticks along with the scenery, and homeowners closest to the water tend to see more of both pests than residents further inland. Seasonal lake cottages, many used only part of the year, give house mice a quiet place to settle in undisturbed, while docks and boathouses give wasps sheltered spots to nest close to the water. Carpenter ants round out the picture wherever older lake homes hold moisture in their wood framing.",
+    sections: [
+      {
+        heading: "Living at the gateway to the Chain O'Lakes",
+        body: "Antioch sits at the southern edge of the Chain O'Lakes, a network of roughly a dozen interconnected lakes covering about 7,200 acres, the largest concentration of inland recreational water anywhere in northeastern Illinois. That much open water, marshy shoreline, and slow-moving connecting channel gives mosquitoes considerably more breeding habitat than towns without lake frontage ever have to manage. Lake County's health department runs a mosquito surveillance and testing program from late spring into fall across the county, trapping and checking for mosquito-borne disease risk as part of routine public health monitoring. For homeowners, the practical takeaway is the same one the county program is built around: standing water anywhere on a property, a clogged gutter, an unused kiddie pool, a low spot that does not drain, adds to the breeding pressure already coming off the lakes themselves.",
+      },
+      {
+        heading: "Ticks along the shoreline and wooded lake lots",
+        body: "The wooded, brushy lots common along Antioch's stretch of the Chain O'Lakes carry the deer traffic and understory cover ticks rely on, and homeowners on those lots see more tick activity through the season than residents in the town's more open, inland subdivisions. April through October covers the active period, with the brushiest shoreline properties needing the closest attention. Keeping grass cut short and brush cleared back from the yard's edge along any wooded lot line reduces the tick habitat directly next to a home.",
+      },
+      {
+        heading: "Seasonal cottages and house mice",
+        body: "Not every property on Antioch's lakes is occupied year-round, and the cottages and cabins that see reduced use over the winter months give house mice an easy, undisturbed place to settle in. A structure that sits quiet for weeks at a time is far easier for mice to move into and go unnoticed than a home with people coming and going daily. Owners of seasonal lake properties benefit from a fall inspection and sealing pass before closing up for the winter, since that is the window when displaced mice are actively looking for new shelter.",
+      },
+      {
+        heading: "Wasps and bees around docks and boathouses",
+        body: "Docks, boathouses, and the eaves of lakeside homes give wasps sheltered, protected spots to build a nest close to the water, and Antioch's shoreline properties tend to see more of this activity through the spring and summer than homes further inland. A nest built into a boathouse rafter or under a dock's overhang can go unnoticed for weeks until traffic on the water disturbs it, which is why a spring check of these structures before the season picks up is worth the time for anyone who owns lake frontage.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water on the property, clogged gutters, unused containers, low spots, to cut mosquito breeding beyond what the lakes already contribute.",
+      "Keep grass and brush cut back along wooded shoreline lot lines to reduce tick habitat.",
+      "Inspect and seal seasonal lake cottages each fall before closing up for the winter.",
+      "Check docks, boathouses, and eaves each spring for early wasp nest activity before it grows.",
+    ],
+    costNote:
+      "General seasonal pest plans in Antioch typically run $140 to $260 per year, reflecting the added mosquito and tick pressure lake-adjacent properties carry. Mosquito treatments for shoreline yards run $80 to $160 per visit, and wasp nest removal for docks or boathouses is usually $100 to $200 depending on the nest's location.",
+    faqs: [
+      {
+        question: "Why does Antioch have more mosquitoes than other Lake County towns?",
+        answer:
+          "Antioch sits at the gateway to the Chain O'Lakes, roughly 7,200 acres of interconnected lakes and wetland just outside town. That much water and shoreline gives mosquitoes far more breeding habitat than a landlocked community has, which is why Lake County's health department runs mosquito surveillance across the county through the warm months.",
+      },
+      {
+        question: "Are ticks a bigger problem near Antioch's lakes?",
+        answer:
+          "Yes, particularly on wooded shoreline lots. The brush and deer traffic common along the Chain O'Lakes give ticks more habitat than Antioch's more open, inland neighborhoods have.",
+      },
+      {
+        question: "Do seasonal cottages on Antioch's lakes get mice?",
+        answer:
+          "Often, yes. Cottages used only part of the year sit quiet for long stretches, which makes them easier for house mice to move into undetected than a home occupied daily. A fall inspection before closing up for winter helps catch this early.",
+      },
+      {
+        question: "Why do wasps like Antioch's docks and boathouses?",
+        answer:
+          "Docks, boathouses, and lakeside eaves offer sheltered, protected spots close to the water, exactly what wasps look for when building a nest, and shoreline properties around Antioch see more of this activity than inland homes.",
+      },
+      {
+        question: "What is the Chain O'Lakes and why does it matter for pest control?",
+        answer:
+          "It's a network of about a dozen interconnected lakes covering roughly 7,200 acres just outside Antioch, the largest concentration of inland recreational water in northeastern Illinois. That much water and wetland is the single biggest reason Antioch deals with more mosquito and tick pressure than towns without lake frontage.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Taylorville", slug: "taylorville-il", stateSlug: "illinois" },
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Antioch, IL | Chain O'Lakes Mosquitoes & Ticks",
+    metaDescription:
+      "Antioch, IL pest control for Chain O'Lakes mosquitoes, shoreline ticks, seasonal cottage mice and dock wasp nests. Lake County service. Free inspection.",
+  },
+  {
+    slug: "beardstown-il",
+    name: "Beardstown",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~5,950",
+    county: "Cass County",
+    climate: "cold-humid",
+    climateDriver:
+      "Beardstown sits directly on the Illinois River in west-central Illinois, protected today by a floodwall built after the historic 1993 Midwest flood pushed the river to a record crest. That river-bottom location, paired with grain terminals moving corn and soybeans onto barges and a large food-processing plant that anchors the local economy, gives Beardstown a pest picture built around moisture, stored grain, and organic waste management more than a typical inland farm town its size.",
+    topPests: ["Rodents", "Flies", "Mosquitoes", "Termites", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "The grain terminals along Beardstown's riverfront handle corn and soybeans bound for barge transport, and any spilled or stored grain that is not managed carefully draws rats and mice looking for an easy, reliable food source.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Worse April through October",
+        note: "Beardstown's mix of grain handling, food processing, and river-bottom moisture gives flies more to work with than a typical small Illinois town, and commercial kitchens and waste areas across town benefit from routine fly management as standard practice.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Low ground behind Beardstown's floodwall holds rainwater longer than the higher parts of town, and that standing water is where the local mosquito season gets its start each spring.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Older homes in Beardstown's historic riverfront core predate the floodwall and modern treated-lumber standards, and their foundations carry more of the wood-to-soil contact points subterranean termites look for than newer construction elsewhere in Cass County.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "The corn and soybean fields surrounding Beardstown on all sides send stink bugs toward the nearest exterior wall each fall, a pattern common across the farmland ringing most of Cass County.",
+      },
+    ],
+    localHook:
+      "Beardstown sits directly on the Illinois River, and on April 27, 1993, the river reached one of the highest crests ever recorded at the town during the historic Midwest flood that year. A floodwall built in the years since now separates the town from direct river access. That same river frontage supports active grain terminals moving corn and soybeans onto barges, and a large food-processing plant anchors the local economy today, together giving Beardstown a commercial pest picture, grain, moisture, and organic waste, that a typical inland Cass County farm town does not have to manage at the same scale.",
+    intro:
+      "Beardstown's whole identity runs through the Illinois River, for better and for worse. The town sits directly on the riverbank, and the historic 1993 Midwest flood pushed the water to one of the highest crests ever recorded here, a flood so severe the town built a floodwall in the years afterward to keep the river at arm's length. That same river frontage is also what makes Beardstown's economy work: grain terminals load corn and soybeans onto barges bound downriver, and a large food-processing plant employs a substantial share of the town. Grain handling and food processing both come with a real, manageable rodent and fly pressure that a typical small farm town does not face at the same scale, while the low ground behind the floodwall still holds rainwater long enough each spring to get mosquito season going. Older homes in the historic riverfront core carry more termite risk than newer construction, and the cropland ringing the rest of town sends the usual fall wave of stink bugs toward exterior walls.",
+    sections: [
+      {
+        heading: "A river town behind a floodwall",
+        body: "Beardstown sits directly on the bank of the Illinois River, and on April 27, 1993, during the historic Midwest flood that year, the river reached one of the highest crests ever recorded at the town, a genuine record event that reshaped how Beardstown manages its relationship with the water. A floodwall built in the years since now stands between most of the town and direct river access, and the low ground just behind that wall still holds rainwater longer than the town's higher ground after a heavy storm. That slower-draining ground is where Beardstown's mosquito season gets its start each May, running through September and picking up again after any significant rain event.",
+      },
+      {
+        heading: "Grain terminals and commercial rodent control",
+        body: "Beardstown's riverfront supports active grain terminals that move corn and soybeans off Cass County farmland and onto barges for transport downriver, and any facility handling that volume of stored grain faces a rodent pressure that a residential property simply does not. Spilled grain around loading areas, gaps in storage structures, and the steady presence of feed all give rats and mice a reliable food source if sanitation and exclusion are not managed as a routine part of operations. Commercial accounts along Beardstown's grain corridor typically need a scheduled inspection program built around harvest season timing, when grain volume and rodent pressure both peak together, rather than a standard quarterly residential visit.",
+      },
+      {
+        heading: "Food processing, flies, and organic waste management",
+        body: "A large food-processing plant anchors a significant share of Beardstown's local economy, and facilities of that kind, along with the commercial kitchens and waste-handling areas found throughout any town with this scale of food industry, need routine fly management built into standard operations. Flies breed quickly around any organic waste that sits too long, and Beardstown's warm, humid river-bottom summers only speed that process along. Regular waste removal schedules, sealed containers, and drain maintenance handle most of this pressure before it becomes a bigger problem, the same standard integrated pest management approach any food-handling facility should already have in place.",
+      },
+      {
+        heading: "Termites downtown, stink bugs at the farmland edge",
+        body: "Beardstown's historic riverfront core predates both the modern floodwall and the treated-lumber standards common in newer construction, and homes in that older part of town carry more wood-to-soil contact points for subterranean termites to exploit each spring and summer swarm season. Newer homes built further from the historic core generally do not share this same level of exposure. Meanwhile, the corn and soybean fields that ring the rest of Beardstown send stink bugs toward the nearest sun-warmed exterior wall each September through November, a fall pattern shared with most of the farmland surrounding Cass County.",
+      },
+    ],
+    prevention: [
+      "Clear standing water behind the floodwall's low ground each spring before mosquito season builds.",
+      "Grain-handling and food-processing facilities should schedule rodent inspections around harvest-season volume peaks.",
+      "Keep waste containers sealed and drains maintained at commercial kitchens to reduce fly breeding through the warm months.",
+      "Have homes in Beardstown's historic riverfront core inspected annually for termite activity tied to older foundation construction.",
+    ],
+    costNote:
+      "General quarterly pest plans for Beardstown homes typically run $120 to $235 per year. Commercial rodent and fly management for grain-handling and food-processing facilities is quoted separately by facility size, often starting around $150 per visit. Termite treatment for older riverfront homes commonly runs $500 to $1,150.",
+    faqs: [
+      {
+        question: "Did the 1993 flood affect Beardstown's pest picture today?",
+        answer:
+          "Indirectly. The record 1993 crest led the town to build a floodwall, and the low ground just behind that wall still holds rainwater longer than higher parts of town, which is why mosquito season starts there first each spring.",
+      },
+      {
+        question: "Why does Beardstown need commercial rodent control?",
+        answer:
+          "The town's riverfront grain terminals handle large volumes of corn and soybeans bound for barge transport, and spilled or stored grain draws rats and mice unless sanitation and exclusion are managed as routine practice, a scale of concern beyond typical residential pest control.",
+      },
+      {
+        question: "Are older Beardstown homes more likely to have termites?",
+        answer:
+          "Homes in the historic riverfront core, built before modern treated-lumber standards and the floodwall, tend to carry more wood-to-soil contact points than newer construction elsewhere in Cass County.",
+      },
+      {
+        question: "When are stink bugs worst in Beardstown?",
+        answer:
+          "September through November, when the corn and soybean fields surrounding the town get harvested and stink bugs stage on sun-warmed exterior walls looking for a way inside.",
+      },
+      {
+        question: "Does Beardstown's food-processing industry attract flies?",
+        answer:
+          "Facilities handling food processing and the organic waste that comes with it need routine fly management as standard practice, since flies breed quickly in warm, humid river-bottom summers if waste removal and drain maintenance fall behind.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Taylorville", slug: "taylorville-il", stateSlug: "illinois" },
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+      { name: "Antioch", slug: "antioch-il", stateSlug: "illinois" },
+      { name: "Rantoul", slug: "rantoul-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Beardstown, IL | River Town Rodents & Termites",
+    metaDescription:
+      "Beardstown, IL pest control for grain-terminal rodents, food-plant flies, floodwall-area mosquitoes and riverfront termites. Cass County service. Free inspection.",
+  },
+  {
+    slug: "rantoul-il",
+    name: "Rantoul",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~12,500",
+    county: "Champaign County",
+    climate: "cold-humid",
+    climateDriver:
+      "The Army picked Rantoul for Chanute Field back in 1917 specifically because the surrounding ground was some of the flattest, most level prairie in Illinois, close to both a rail line and the University of Illinois. That same flat, open farmland, mostly corn and soybeans today, still rings the town on every side, and roughly half of Rantoul's housing dates to the 1940s through the 1960s, when Chanute Air Force Base was at its largest and the town grew fast to house it.",
+    topPests: ["House Mice", "Carpenter Ants", "Termites", "Stink Bugs", "Field Crickets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The flat cropland surrounding Rantoul gets harvested each fall, and mice displaced from those fields move first into the older base-era neighborhoods built closest to the farmland's edge.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "A large share of Rantoul's homes date to the 1940s through 1960s boom years around Chanute Air Force Base, and that aging wood-frame construction gives carpenter ants softened wood to work wherever moisture has gotten in over the decades.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Rantoul's mid-century, base-boom housing carries more of the wood-to-soil contact points subterranean termites look for than the town's newer construction built after Chanute closed in 1993.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "With flat, open farmland running right up to the edge of town in most directions, stink bugs have an easy, short path to Rantoul's exterior walls every fall.",
+      },
+      {
+        name: "Field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "August through October",
+        note: "Rantoul's flat prairie setting puts a lot of homes within a short distance of open cropland, and field crickets move toward foundations looking for warmth as the fields cool off each fall.",
+      },
+    ],
+    localHook:
+      "The Army chose Rantoul for Chanute Field in 1917 because the ground here was about as flat and level as Illinois prairie gets, and close enough to both a rail line and the University of Illinois ground school to make sense logistically. Chanute grew into the Air Force's largest advanced aircraft-maintenance training base before it closed in 1993 under a national round of base closures, and the housing boom that came with it left Rantoul with a lot of homes dating to the 1940s through 1960s. That combination, flat farmland ringing an aging, mid-century town, is what shapes Rantoul's pest picture today.",
+    intro:
+      "Rantoul exists in its current form because of flat ground. The Army picked the site for Chanute Field in 1917 for exactly that reason, level prairie close to a rail line and the University of Illinois, and the base that grew from it became the Air Force's largest advanced aircraft-maintenance training facility before closing in 1993. The housing built to support that base during its 1940s-through-1960s peak still makes up a large share of Rantoul's homes today, and that aging wood-frame construction is the biggest single factor behind the town's termite and carpenter ant risk. The same flat, open cropland that made Rantoul useful to the Army a century ago still rings the town on every side, sending house mice, stink bugs, and field crickets toward the nearest foundation each fall as the harvest clears their cover. A property's age tells you more about its pest risk here than its exact location in town does.",
+    sections: [
+      {
+        heading: "Chanute Field and Rantoul's flat, open setting",
+        body: "In 1917, the Army needed a site for a new pilot training camp, and Rantoul got picked largely because the ground around it was some of the flattest, most level prairie anywhere in Illinois, with a rail line and the University of Illinois ground school both close by. Chanute Field grew over the following decades into Chanute Air Force Base, the Air Force's largest advanced aircraft-maintenance training facility by World War Two, before closing in 1993 as part of a national round of base closures. That flat terrain never went away. It still surrounds Rantoul today as open corn and soybean farmland, and it remains the same feature driving fall pest pressure toward town that it always has, just without the runways.",
+      },
+      {
+        heading: "Base-era homes and the termite and carpenter ant risk they carry",
+        body: "Rantoul's population boomed alongside Chanute Air Force Base through the 1940s, 50s, and 60s, and a large share of the town's housing stock dates to exactly that period. Homes built during those decades generally do not have the wood-to-soil contact protections that became standard in construction after Chanute closed in 1993, giving subterranean termites an easier path in each spring and summer swarm season. The same aging wood gives carpenter ants an opening wherever decades of small moisture issues, a leaking gutter, a slow roof leak, have softened it enough to excavate. Newer construction built since the base closed generally carries less of both risks.",
+      },
+      {
+        heading: "Fall mice and field crickets from the surrounding farmland",
+        body: "The corn and soybean fields that ring Rantoul in nearly every direction get harvested each September and October, and both house mice and field crickets respond to that harvest by moving toward the nearest structure as their field cover disappears. Mice head for foundation gaps and utility penetrations looking for winter shelter, while field crickets are drawn more by the warmth a home's foundation holds onto as outdoor temperatures drop through August, September, and October. Homes closest to the farmland's edge typically see both pests first, before pressure works further into the older, base-era core of town.",
+      },
+      {
+        heading: "Managing pests across Rantoul's old and newer neighborhoods",
+        body: "Rantoul's pest picture really comes down to two overlapping factors: a home's age and its distance from the surrounding farmland. Older, base-era homes need closer attention to termites and carpenter ants tied to their wood-frame construction, while properties nearer the cropland edge, of any age, see more seasonal pressure from mice, stink bugs, and field crickets each fall. Sealing obvious entry points before harvest season and keeping an eye on foundation moisture in older homes covers most of what a Rantoul homeowner needs to think about year to year.",
+      },
+    ],
+    prevention: [
+      "Have base-era homes from the 1940s through 1960s inspected annually for termite activity around foundation wood-to-soil contact.",
+      "Address small roof and gutter leaks promptly in older Rantoul homes to keep carpenter ants from finding softened wood.",
+      "Seal foundation gaps and utility penetrations before the fall harvest to block mice, stink bugs, and field crickets at once.",
+      "Pay closer attention to exclusion at homes nearest the surrounding farmland's edge, where seasonal pest pressure builds first.",
+    ],
+    costNote:
+      "General quarterly pest plans in Rantoul typically run $120 to $230 per year. Termite inspections are usually free, with treatment for older base-era homes often $500 to $1,150. Fall exclusion service for mice, stink bugs, and field crickets adds $130 to $250.",
+    faqs: [
+      {
+        question: "Why was Rantoul chosen for an Air Force base?",
+        answer:
+          "The Army selected the site in 1917 for Chanute Field because the surrounding ground was some of the flattest, most level prairie in Illinois, and close to both a rail line and the University of Illinois ground school. Chanute later grew into the Air Force's largest advanced aircraft-maintenance training base before closing in 1993.",
+      },
+      {
+        question: "Do Rantoul's older homes have more termite risk?",
+        answer:
+          "Many of them do. A large share of Rantoul's housing was built during the 1940s through 1960s to support Chanute Air Force Base, and that older wood-frame construction generally lacks the foundation protections standard in homes built after the base closed in 1993.",
+      },
+      {
+        question: "When do field crickets show up in Rantoul?",
+        answer:
+          "Mostly August through October, as the open farmland surrounding town cools off and crickets move toward the warmth a home's foundation holds onto.",
+      },
+      {
+        question: "Are house mice a fall problem in Rantoul?",
+        answer:
+          "Yes. The corn and soybean fields ringing the town get harvested each September and October, and mice that lose their field cover move toward the nearest foundation gap, usually starting in neighborhoods closest to the farmland's edge.",
+      },
+      {
+        question: "Is Chanute Air Force Base still active in Rantoul?",
+        answer:
+          "No, it closed in 1993 as part of a national round of base closures, but the housing built during its 1940s-through-1960s peak still makes up a large share of Rantoul's homes and is the main factor behind the town's termite and carpenter ant risk today.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Taylorville", slug: "taylorville-il", stateSlug: "illinois" },
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+      { name: "Antioch", slug: "antioch-il", stateSlug: "illinois" },
+      { name: "Beardstown", slug: "beardstown-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rantoul, IL | Base-Era Homes & Fall Farmland Pests",
+    metaDescription:
+      "Rantoul, IL pest control for base-era termites, carpenter ants, fall harvest mice, stink bugs and field crickets. Champaign County service. Free inspection.",
+  },
 ];

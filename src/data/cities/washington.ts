@@ -7534,4 +7534,530 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Snohomish WA pest control for carpenter ants, Norway rats, spiders and silverfish near the historic downtown antique district. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bainbridge-island",
+    name: "Bainbridge Island",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~24,600",
+    county: "Kitsap County",
+    climate: "temperate",
+    climateDriver:
+      "Bainbridge Island sits in Puget Sound and is reachable only by an 8.6 mile ferry crossing from Seattle's Colman Dock or by the Agate Pass Bridge connecting it to the Kitsap Peninsula. Large tracts of second growth forest cover much of the island, in parks like the Grand Forest and the Bloedel Reserve, and that tree cover combines with a cool, wet marine climate to keep the ground and older wood-frame homes damp for long stretches of the year, especially near the historic Winslow waterfront.",
+    topPests: ["Carpenter Ants", "Norway Rats", "Moles", "Spiders", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The island's forested parks, including the Grand Forest and Bloedel Reserve, keep humidity high across much of Bainbridge, and older wood-frame homes near the historic Winslow waterfront hold onto that moisture longer than newer construction, giving carpenter ants softened wood to tunnel into.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Washington State Ferries has run its main vessel maintenance facility at Eagle Harbor since 1951, a waterfront complex with ten separate shops and more than 100 workers, and that concentration of harborside infrastructure, docks and food service gives Norway rats steady shelter close to nearby Winslow homes and businesses.",
+      },
+      {
+        name: "Moles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Fall through spring",
+        note: "Bainbridge's many acres of lawn and pasture, spread across a mostly residential island with extensive parkland, sit on moist soil that keeps earthworm populations high all winter, and moles follow the worms, leaving raised tunnel ridges across yards from October through April.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible late summer through fall",
+        note: "The island's cool, damp climate suits web-building spiders well, and fall is when males wander indoors looking for mates, making late summer through fall the season islanders notice them most, especially around porch lights near the water.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Ground-nesting yellowjacket colonies build steadily through summer in the island's forested parks and open lawns, and by early fall those colonies reach peak size, right when trail traffic through places like the Grand Forest is still heavy.",
+      },
+    ],
+    localHook:
+      "Bainbridge Island is reachable only by an 8.6 mile Washington State Ferries crossing from Seattle's Colman Dock, and the Eagle Harbor terminal on the island's east side has housed the ferry system's main vessel maintenance facility since 1951, a complex with ten shops and more than 100 workers. Large forested parks, including the Grand Forest and the Bloedel Reserve, cover much of the island's interior.",
+    intro:
+      "Bainbridge Island is a Puget Sound island reachable only by ferry or by the Agate Pass Bridge from the Kitsap Peninsula, and that geography shapes its pest pressure in a few specific ways. The Eagle Harbor ferry terminal has housed Washington State Ferries' main maintenance facility since 1951, a waterfront complex of ten shops and more than 100 workers that gives Norway rats steady shelter close to nearby Winslow homes. Away from the harbor, large forested parks like the Grand Forest and the Bloedel Reserve keep humidity high across the island, and older wood-frame homes near the historic Winslow waterfront hold onto that dampness long enough for carpenter ants to move into softened wood. The island's mostly residential lawns and pastures, sitting on moist soil that supports earthworms all winter, draw moles from fall through spring. Spiders show up most in fall, and yellowjacket colonies nesting in the island's parks peak by early autumn, right as trail traffic is still busy.",
+    sections: [
+      {
+        heading: "Ferry Terminal Infrastructure and Rat Pressure at Eagle Harbor",
+        body: "Washington State Ferries has operated its main vessel and terminal maintenance facility at Eagle Harbor since 1951, a complex that today includes electrical, machine, pipefitting, carpentry and other shops employing more than 100 workers. That kind of long-running waterfront infrastructure, close to docks, warehouses and food service for ferry workers and commuters, gives Norway rats steady food and shelter within easy reach of the homes and small businesses clustered around Winslow. Properties near the harbor benefit from routine exterior checks for burrow entry points and gnaw marks, since a rat population anchored at a stable food source rarely stays fully contained to the waterfront.",
+      },
+      {
+        heading: "Forest Cover and Carpenter Ants in Older Winslow Homes",
+        body: "Much of Bainbridge Island's interior is covered by second growth forest, preserved in parks like the Grand Forest and the private but publicly toured Bloedel Reserve, and that tree cover holds moisture close to the ground even during the region's drier summer months. Combine that with a housing stock in and around historic Winslow that includes plenty of older wood-frame construction, built before modern moisture barriers were standard, and you get conditions carpenter ants take advantage of wherever a windowsill, roofline or foundation sill has stayed damp. Homeowners near the island's forested interior should watch for the fine sawdust-like frass carpenter ants leave near their tunnels, since catching an early colony is far simpler than dealing with an established one.",
+      },
+      {
+        heading: "Moles in Bainbridge's Lawns and Pastures",
+        body: "Bainbridge Island is largely residential and semi-rural, with enough open lawn and pasture acreage across its parks and properties that moles have plenty of ground to work with. The island's moist soil, kept damp by the same marine climate that drives its carpenter ant pressure, supports healthy earthworm populations through the winter, and moles follow that food source, pushing up the raised surface ridges and volcano-shaped mounds that show up on lawns from around October through April. Because moles are after the worms and grubs in the soil rather than the grass itself, lawn treatments alone rarely solve a mole problem, exclusion and trapping do the real work.",
+      },
+    ],
+    prevention: [
+      "Check exterior walls and crawl spaces near the Eagle Harbor waterfront for rat entry points, especially where ferry-related infrastructure sits close to residential streets.",
+      "Improve attic and crawl space ventilation in older wood-frame homes near Winslow to reduce the moisture carpenter ants need.",
+      "Address lawn and pasture moisture and monitor for mole tunnel ridges between fall and spring rather than waiting until damage is extensive.",
+      "Seal foundation gaps and repair screens before fall, when yellowjacket colonies in the island's forested parks reach peak size.",
+    ],
+    costNote:
+      "General pest plans covering ants, spiders and seasonal rodents on Bainbridge Island run $160 to $290 a year. Mole trapping and exclusion for larger residential lots typically costs $200 to $400 depending on tunnel extent. Carpenter ant treatment for older Winslow-area homes runs $150 to $350.",
+    faqs: [
+      {
+        question: "Why does Bainbridge Island have such a persistent rat problem near the ferry terminal?",
+        answer: "Washington State Ferries has run its main vessel maintenance facility at Eagle Harbor since 1951, a complex with ten shops and more than 100 workers. That long-running waterfront infrastructure gives Norway rats stable food and shelter close to the homes and businesses clustered around nearby Winslow, which is why routine exterior checks matter more for properties near the harbor.",
+      },
+      {
+        question: "Are moles really a problem on Bainbridge Island lawns?",
+        answer: "Yes. The island has a lot of residential and park lawn and pasture acreage sitting on consistently moist soil, which keeps earthworm populations high through winter. Moles follow that food source and leave raised tunnel ridges from around October through April, and because they're after the worms rather than the grass, exclusion and trapping work better than lawn treatments alone.",
+      },
+      {
+        question: "Why are carpenter ants common in older Bainbridge Island homes?",
+        answer: "Much of the island's interior is covered in second growth forest, including the Grand Forest and the Bloedel Reserve, and that tree cover keeps humidity high even in summer. Older wood-frame homes near historic Winslow predate modern moisture barriers, so they hold onto dampness longer, and carpenter ants exploit whatever wood has softened as a result.",
+      },
+      {
+        question: "When are yellowjackets worst on Bainbridge Island?",
+        answer: "Colonies that start small in spring build through summer in the island's forested parks and open lawns, reaching peak size by early fall. That timing overlaps with continued foot traffic through trails like the Grand Forest, so watch the ground for hidden nest entrances into October.",
+      },
+      {
+        question: "Does living on an island change how pest control works on Bainbridge?",
+        answer: "The basics are the same, but the ferry-dependent waterfront brings its own rat pressure near Eagle Harbor, and the amount of forested parkland across the island supports more carpenter ants and ground-nesting wasps than a typical mainland suburb of similar size.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Blaine", slug: "blaine", stateSlug: "washington" },
+      { name: "Hoquiam", slug: "hoquiam", stateSlug: "washington" },
+      { name: "Othello", slug: "othello", stateSlug: "washington" },
+      { name: "North Bend", slug: "north-bend", stateSlug: "washington" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bainbridge Island, WA | Carpenter Ants & Rats",
+    metaDescription:
+      "Bainbridge Island WA pest control for carpenter ants, Norway rats, moles and yellowjackets near Eagle Harbor and Winslow. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "blaine",
+    name: "Blaine",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~6,100",
+    county: "Whatcom County",
+    climate: "temperate",
+    climateDriver:
+      "Blaine sits on Semiahmoo Bay and Drayton Harbor at the very top of Washington, directly against the Canadian border, where the Peace Arch and Pacific Highway crossings rank among the busiest land crossings in the Pacific Northwest. The city is surrounded by Whatcom County farmland that grows more red raspberries than anywhere else in the country and supports around 70 dairy operations, and that mix of marine dampness and working farmland just outside the city limits shapes a pest picture built around moisture, livestock and fruit.",
+    topPests: ["Filth Flies", "Norway Rats", "Yellowjackets", "Carpenter Ants", "Spiders"],
+    pestProfile: [
+      {
+        name: "Filth Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Heaviest June through September",
+        note: "Whatcom County is home to roughly 70 dairy operations averaging around 550 cows each, and manure and feed on farms just outside Blaine's city limits sustain large fly populations that drift into edge-of-town homes and businesses each summer.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Blaine's working waterfront on Drayton Harbor and the Semiahmoo Spit marina, combined with steady commercial truck traffic through the Peace Arch and Pacific Highway border crossings, gives Norway rats reliable shelter and food scraps close to both the harbor and the freight corridor.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Whatcom County's roughly 8,500 acres of red raspberry fields, more than 65 percent of the country's entire frozen raspberry supply, ripen right through peak wasp season, and yellowjackets follow the fruit into farm edges and backyard gardens around Blaine.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Blaine's marine climate off Semiahmoo Bay stays damp for long stretches, and older wood-frame homes near the waterfront hold that moisture long enough for carpenter ants to establish themselves in softened sills and window frames.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible late summer through fall",
+        note: "Cool, damp air off the bay supports a healthy spider population year-round, with webs most noticeable in fall as males move indoors.",
+      },
+    ],
+    localHook:
+      "Blaine sits directly on the US-Canada border, where the Peace Arch and Pacific Highway crossings are among the busiest land border crossings in the Pacific Northwest, and the city is ringed by Whatcom County farmland that produces more than 65 percent of the country's frozen red raspberry supply from about 8,500 acres, alongside roughly 70 dairy farms.",
+    intro:
+      "Blaine is Washington's northernmost coastal city, built where Semiahmoo Bay meets the Canadian border at the Peace Arch and Pacific Highway crossings, two of the busiest land crossings in the Pacific Northwest. That border traffic and Blaine's working waterfront on Drayton Harbor give Norway rats steady shelter close to both the harbor and the freight corridor running through town. Just outside the city limits, Whatcom County's farmland does even more to shape the local pest picture: about 70 dairy operations keep filth flies active all summer, and roughly 8,500 acres of red raspberry fields, more than 65 percent of the nation's frozen raspberry supply, pull yellowjackets toward farm edges and home gardens as the fruit ripens. The area's marine dampness off the bay adds carpenter ants and spiders to the list, both common wherever older wood-frame construction holds onto moisture.",
+    sections: [
+      {
+        heading: "Border Location and Waterfront Rat Pressure",
+        body: "Blaine's two border crossings, the Peace Arch and the Pacific Highway crossing, carry heavy commercial and passenger traffic between Washington and British Columbia, and that steady freight corridor sits close to Blaine's working waterfront on Drayton Harbor and the Semiahmoo Spit marina. Docks, warehouses and roadside food service near a busy freight route are exactly the kind of infrastructure Norway rats exploit, since they offer both cover and a consistent food source. Homes and small businesses near the harbor or along the main truck corridor benefit from routine exterior inspections rather than waiting for an obvious sign like gnawed siding or droppings near a foundation.",
+      },
+      {
+        heading: "Dairy and Raspberry Country: Flies and Wasps at the Edge of Town",
+        body: "Whatcom County is one of the top dairy producing counties in the country, with around 70 farms averaging roughly 550 cows apiece, and manure and feed on farms surrounding Blaine sustain large fly populations through the warmer months, especially June through September. The same farmland grows more than 65 percent of the nation's frozen red raspberry supply across roughly 8,500 acres, and as that fruit ripens each summer, yellowjackets follow it toward farm edges, orchard rows and backyard gardens closer to town. Properties bordering open farmland should expect more fly and wasp pressure in summer than a comparable home farther from Whatcom County's working fields.",
+      },
+      {
+        heading: "Marine Dampness and Carpenter Ants Near the Bay",
+        body: "Blaine's location on Semiahmoo Bay keeps the air damp through much of the year, similar to the rest of the Whatcom County coastline, and older wood-frame homes near the waterfront hold onto that moisture longer than newer, better-sealed construction. Carpenter ants take advantage of whatever wood has softened as a result, usually starting around window frames, roof lines or foundation sills where water tends to collect. Spiders thrive in the same damp conditions and become most visible from late summer through fall, when web-building activity peaks and males start wandering indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule fly control ahead of summer for Blaine properties bordering dairy or farm operations, since fly pressure builds well before it becomes obvious indoors.",
+      "Inspect exterior walls near Drayton Harbor and the main border-crossing corridor for rat entry points, particularly around older commercial buildings.",
+      "Seal fruit-bearing garden plants and secure outdoor trash before yellowjacket season peaks in late summer, especially on properties near raspberry fields.",
+      "Ventilate crawl spaces and attics in older waterfront homes to reduce the moisture carpenter ants rely on.",
+    ],
+    costNote:
+      "General pest plans for ants, spiders and seasonal rodents in Blaine run $140 to $260 a year. Fly control for properties bordering farmland typically costs $120 to $220 per season. Yellowjacket nest removal during peak season runs $100 to $200 per visit.",
+    faqs: [
+      {
+        question: "Why does Blaine have more flies than a typical small Washington town?",
+        answer: "Whatcom County is home to roughly 70 dairy operations averaging around 550 cows each, and manure and feed on farms surrounding Blaine sustain heavy fly populations through the summer, especially June through September, that drift into edge-of-town properties.",
+      },
+      {
+        question: "Are yellowjackets worse in Blaine because of the raspberry farms?",
+        answer: "The farmland around Blaine grows more than 65 percent of the country's frozen red raspberry supply across roughly 8,500 acres, and as that fruit ripens each summer, yellowjackets follow it toward field edges and nearby home gardens, which is why late summer sees the heaviest activity.",
+      },
+      {
+        question: "Does Blaine's location on the border affect its pest pressure?",
+        answer: "Indirectly, yes. The Peace Arch and Pacific Highway crossings carry heavy commercial traffic close to Blaine's working waterfront on Drayton Harbor, and that combination of freight infrastructure and harbor docks gives Norway rats steady shelter and food near both the crossing corridor and the marina.",
+      },
+      {
+        question: "Why are carpenter ants common in older Blaine homes near the water?",
+        answer: "Blaine's marine climate off Semiahmoo Bay stays damp for long stretches, and older wood-frame homes near the waterfront hold onto that moisture longer than newer construction, giving carpenter ants softened wood to tunnel into around windows and rooflines.",
+      },
+      {
+        question: "When should Blaine properties near farmland book fly control?",
+        answer: "Before summer starts, ideally by late spring. Fly pressure from surrounding dairy operations builds through June before most homeowners notice it indoors, so early treatment works better than waiting for an obvious problem in July or August.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bainbridge Island", slug: "bainbridge-island", stateSlug: "washington" },
+      { name: "Hoquiam", slug: "hoquiam", stateSlug: "washington" },
+      { name: "North Bend", slug: "north-bend", stateSlug: "washington" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Blaine, WA | Flies, Rats & Yellowjackets",
+    metaDescription:
+      "Blaine WA pest control for filth flies, Norway rats, yellowjackets and carpenter ants near the Peace Arch border and Whatcom farmland. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hoquiam",
+    name: "Hoquiam",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~8,800",
+    county: "Grays Harbor County",
+    climate: "temperate",
+    climateDriver:
+      "Hoquiam sits on the north side of the Grays Harbor estuary where the Hoquiam River meets the harbor, next to Bowerman Basin, one of only four major Pacific Flyway staging areas for migrating shorebirds, drawing as many as a million birds some seasons. The Pacific storm track brings roughly 80 inches of rain a year to the area, and a housing stock that includes landmark timber-era construction like the 1897 Hoquiam's Castle keeps moisture-driven pests active for most of the year.",
+    topPests: ["Carpenter Ants", "Norway Rats", "Silverfish", "Spiders", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Hoquiam gets around 80 inches of rain a year, and the timber-era wood-frame construction found across the city, including landmark buildings like the 1897 Hoquiam's Castle, holds onto that moisture long enough for carpenter ants to establish themselves in softened sills and rooflines.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Hoquiam's location on the tidal Grays Harbor estuary, next to the working Port of Grays Harbor, gives Norway rats shoreline burrows and easy access to warehouse and dock areas close to residential neighborhoods.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round",
+        note: "The near-constant humidity from roughly 80 inches of annual rainfall makes Hoquiam's older homes and historic buildings, including timber-boom-era houses with original wood trim and paper wall coverings, a steady food source for silverfish.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible late summer through fall",
+        note: "The area's heavy, near-constant rainfall supports a large spider population, and activity peaks in fall as males move indoors.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Colonies build through summer in the brushy, low-lying land bordering the Grays Harbor estuary and Bowerman Basin, reaching peak size by early fall.",
+      },
+    ],
+    localHook:
+      "Hoquiam sits next to Bowerman Basin, part of the Grays Harbor National Wildlife Refuge and one of only four major Pacific Flyway staging areas in the country for migrating shorebirds, hosting as many as a million birds during peak spring migration. The city gets roughly 80 inches of rain a year, and its 1897 Hoquiam's Castle mansion is one of the best-known examples of the timber-boom-era construction found across the city.",
+    intro:
+      "Hoquiam sits where the Hoquiam River meets the tidal Grays Harbor estuary, right next to Bowerman Basin, one of only four major Pacific Flyway staging sites in the country for migrating shorebirds, which draws as many as a million birds during peak spring migration. That estuary setting brings roughly 80 inches of rain a year, well above what a city like Seattle typically sees, and the city's timber-boom-era housing stock, including the landmark 1897 Hoquiam's Castle mansion, holds onto that moisture longer than newer construction would. Carpenter ants and silverfish both take advantage of the dampness soaked into older wood-frame buildings, while Norway rats find steady shelter along the tidal shoreline near the working Port of Grays Harbor. Spiders and yellowjackets round out the picture, both common wherever the region's near-constant humidity and brushy estuary-edge vegetation give them room to thrive.",
+    sections: [
+      {
+        heading: "Estuary Location and Rat Pressure Near the Port",
+        body: "Hoquiam sits directly on the tidal Grays Harbor estuary, next to the working Port of Grays Harbor, and that combination of shoreline burrows, warehouse space and dock activity gives Norway rats reliable shelter within easy reach of nearby residential streets. The estuary's tides regularly reshape the shoreline, which pushes rats to seek higher, drier ground during unusually high water, similar to the flood-driven rat movement seen in other Washington river towns. Properties near the port or the Hoquiam River should treat a shoreline rat check as routine maintenance rather than something to deal with only after signs of activity appear.",
+      },
+      {
+        heading: "80 Inches of Rain and Carpenter Ants in Timber-Era Homes",
+        body: "Hoquiam receives around 80 inches of rain in an average year, driven by the Pacific storm track rolling directly off the ocean into Grays Harbor. Much of the city's housing dates to the early 1900s timber boom, including landmark buildings like the 1897 Hoquiam's Castle mansion, a 10,000 square foot wood-frame structure that still stands on the hillside above town. That older construction, combined with near-constant rainfall, holds moisture in wood longer than newer sealed buildings would, and carpenter ants move into whatever sills, window frames or roof lines have stayed soft as a result. Homeowners in Hoquiam's older neighborhoods should have exterior wood checked for softness or frass buildup at least once a year.",
+      },
+      {
+        heading: "Silverfish in Hoquiam's Historic Buildings",
+        body: "The same humidity that drives Hoquiam's carpenter ant pressure creates ideal breeding conditions for silverfish, particularly in older homes and historic structures that still hold original wood trim, wallpaper and paper-based finishes from the timber-boom era. Silverfish feed on the starches in paper, glue and certain fabrics, and a building that stays consistently damp gives them a stable environment to breed in year-round rather than just seasonally. Owners of Hoquiam's older homes and any building with historic paper or textile fixtures should watch for the insects' distinctive silvery, wingless bodies in bathrooms, basements and closets.",
+      },
+    ],
+    prevention: [
+      "Schedule a shoreline rat check for Hoquiam properties near the Port of Grays Harbor or the Hoquiam River, especially after unusually high tides.",
+      "Have exterior wood on older timber-era homes checked yearly for softness or frass, since Hoquiam's roughly 80 inches of annual rain keeps moisture pressure high.",
+      "Monitor paper goods, wallpaper and textiles in historic buildings for silverfish activity, particularly in basements and bathrooms.",
+      "Seal foundation gaps and repair screens before fall, when yellowjacket colonies along the estuary's brushy edges reach peak size.",
+    ],
+    costNote:
+      "General pest plans for ants, spiders and seasonal rodents in Hoquiam run $150 to $270 a year. Carpenter ant treatment for older timber-era homes typically costs $160 to $350 depending on the extent of moisture damage. Silverfish treatment for historic buildings runs $120 to $240.",
+    faqs: [
+      {
+        question: "Why does Hoquiam get so much more rain than nearby Washington cities?",
+        answer: "Hoquiam sits on the Grays Harbor estuary directly in the path of the Pacific storm track, and the area receives roughly 80 inches of rain in an average year, well above what a city like Seattle typically sees. That near-constant dampness is the main reason moisture-driven pests like carpenter ants and silverfish stay active for most of the year.",
+      },
+      {
+        question: "Is Hoquiam's Castle a real risk factor for pest pressure in the city?",
+        answer: "The 1897 Hoquiam's Castle mansion is one of the best-known examples of the timber-boom-era wood-frame construction found across Hoquiam, and that same style of older building, without modern moisture barriers, is exactly the kind of structure carpenter ants and silverfish exploit once dampness sets into the wood or trim.",
+      },
+      {
+        question: "Why are Norway rats a problem near the Port of Grays Harbor in Hoquiam?",
+        answer: "The working port gives rats warehouse space, dock structures and shoreline burrows all close together, and the estuary's shifting tides occasionally push them toward higher ground near residential streets, which is why routine shoreline checks matter for properties near the port.",
+      },
+      {
+        question: "Are silverfish common in Hoquiam's older homes?",
+        answer: "Yes. The city's near-constant humidity, driven by around 80 inches of rain a year, creates ideal breeding conditions for silverfish, especially in older homes and historic buildings that still have original wood trim, wallpaper or paper-based finishes from the timber-boom era.",
+      },
+      {
+        question: "Does the Bowerman Basin shorebird refuge affect pest control in Hoquiam?",
+        answer: "Not directly for pest species, but the same tidal estuary setting that makes Bowerman Basin one of the country's four major Pacific Flyway shorebird staging areas also keeps the surrounding land damp and brushy, conditions that support the yellowjacket and spider activity common along Hoquiam's estuary edges.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Bainbridge Island", slug: "bainbridge-island", stateSlug: "washington" },
+      { name: "Blaine", slug: "blaine", stateSlug: "washington" },
+      { name: "Othello", slug: "othello", stateSlug: "washington" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hoquiam, WA | Carpenter Ants & Rats",
+    metaDescription:
+      "Hoquiam WA pest control for carpenter ants, Norway rats, silverfish and spiders near Grays Harbor and Bowerman Basin. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "othello",
+    name: "Othello",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~8,900",
+    county: "Adams County",
+    climate: "semi-arid",
+    climateDriver:
+      "Othello sits in the Columbia Basin, a stretch of eastern Washington that was mostly semi-arid scrubland until the Columbia Basin Project's irrigation canals reached the area in the early 1950s and turned it into major farmland. The town now processes about 1.5 billion pounds of frozen potato products a year, roughly 15 percent of North America's supply, earning it the nickname French fry capital of the world, and every March up to 35,000 sandhill cranes stop in the surrounding fields and wetlands on their way to Alaska. Hot, dry summers and cold winters, combined with heavy irrigation and food processing, shape a pest picture built around agriculture rather than coastal moisture.",
+    topPests: ["House Mice", "Filth Flies", "Wasps", "Spiders", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heaviest fall through winter",
+        note: "Othello's surrounding farmland grows wheat, alfalfa hay, potatoes and other irrigated crops, and food processing plants like McCain Foods and J.R. Simplot, which together handle about 1.5 billion pounds of frozen potato product a year, give house mice steady shelter and food that pushes them toward nearby homes and outbuildings once fields are harvested each fall.",
+      },
+      {
+        name: "Filth Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Heaviest summer",
+        note: "The scale of Othello's potato processing operation, more than 700 local jobs tied to it, along with surrounding livestock feed and irrigated cropland, sustains large fly populations through the hottest months of the Columbia Basin summer.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer through fall",
+        note: "Leftover crop residue in the fields around Othello, the same leftover corn and grain that draws up to 35,000 sandhill cranes into the area every March, also supports insect populations that feed growing wasp colonies through summer, with orchard fruit nearby adding to the draw as it ripens.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round",
+        note: "Irrigation circles and canal systems across the Columbia Basin keep pockets of humidity higher than the surrounding desert, and spiders take advantage of that moisture both outdoors and around building foundations.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder and other seed-bearing trees planted as windbreaks along Othello's irrigation canals and farm boundaries host boxelder bugs through summer, and the insects move toward warm building walls in large numbers each fall looking for a place to overwinter.",
+      },
+    ],
+    localHook:
+      "Othello was mostly semi-arid scrubland until the Columbia Basin Project's irrigation canals arrived in the early 1950s, and the town now processes roughly 1.5 billion pounds of frozen potato products a year, about 15 percent of all of North America's supply, earning the nickname French fry capital of the world. Every March, as many as 35,000 sandhill cranes stop in the fields and wetlands around Othello on their way to Alaska breeding grounds, one of the larger crane concentrations anywhere in the Pacific Northwest.",
+    intro:
+      "Othello sits in the irrigated heart of the Columbia Basin, transformed from semi-arid scrubland into major farm country once the Columbia Basin Project's canals reached the area in the early 1950s. The town today processes about 1.5 billion pounds of frozen potato products a year, roughly 15 percent of North America's supply, work that supports more than 700 local jobs at plants run by McCain Foods and J.R. Simplot. That scale of food processing, combined with surrounding wheat, alfalfa and potato fields, gives house mice and filth flies steady shelter close to town, especially as harvest winds down each fall. Wasps follow leftover crop residue and ripening orchard fruit into late summer, the same conditions that draw as many as 35,000 sandhill cranes into the surrounding fields and wetlands each March. Spiders stay active year-round wherever irrigation keeps pockets of humidity higher than the surrounding desert, and boxelder bugs move toward buildings each fall from windbreak trees planted along the canals.",
+    sections: [
+      {
+        heading: "Irrigated Farmland and House Mice Around Othello",
+        body: "The Columbia Basin Project brought irrigation canals to the Othello area in the early 1950s, turning what had been semi-arid scrubland into productive farmland growing wheat, alfalfa hay, potatoes, apples and other crops. That agricultural base, along with the food processing plants operating in and around town, gives house mice consistent shelter and food sources close to residential areas. As fields are harvested each fall and temperatures drop, mice that had been living in field edges and irrigation infrastructure move toward the nearest warm building, which is typically a home, garage or outbuilding on the edge of town. Fall is the season Othello properties should be most alert to new mouse activity.",
+      },
+      {
+        heading: "Potato Processing and Fly Pressure in the Columbia Basin",
+        body: "Othello has earned the nickname French fry capital of the world, processing roughly 1.5 billion pounds of frozen potato products a year at facilities run by McCain Foods and J.R. Simplot, work that accounts for more than 700 local jobs and about 15 percent of North America's frozen potato output. That scale of food processing, alongside the livestock feed and irrigated cropland surrounding the town, sustains large fly populations through the hottest months of the Columbia Basin summer. Homes and businesses near processing facilities or agricultural operations should expect more fly pressure in summer than a comparable property farther from the basin's working farmland.",
+      },
+      {
+        heading: "Sandhill Cranes, Leftover Crops and Late-Summer Wasps",
+        body: "Every March, as many as 35,000 sandhill cranes settle into the fields and wetlands around Othello, feeding on leftover corn and grain from the fall harvest before continuing on to Alaska breeding grounds, a migration significant enough that the town holds an annual Sandhill Crane Festival in their honor. The same leftover crop residue that feeds the cranes also supports insect populations that wasp colonies rely on through the growing season, and as orchard fruit like apples and cherries ripens nearby in late summer, yellowjackets and other wasps move toward that food source in growing numbers. That overlap makes late summer through early fall the period when wasp activity around Othello peaks.",
+      },
+    ],
+    prevention: [
+      "Inspect for mouse entry points around foundations and outbuildings each fall as Othello's surrounding fields are harvested.",
+      "Schedule fly control ahead of summer for properties near food processing facilities or agricultural operations.",
+      "Keep ripening fruit trees monitored and outdoor trash sealed in late summer, when wasp activity around Othello peaks.",
+      "Check building exteriors near canal-side windbreak trees each fall for boxelder bugs seeking a way indoors to overwinter.",
+    ],
+    costNote:
+      "General pest plans for mice, flies and seasonal wasps in Othello run $140 to $260 a year. Fall rodent exclusion for properties near farmland or processing facilities typically costs $150 to $300. Boxelder bug treatment for canal-adjacent properties runs $100 to $200.",
+    faqs: [
+      {
+        question: "Why does Othello have more house mice than a typical eastern Washington town?",
+        answer: "Othello sits in farmland irrigated by the Columbia Basin Project since the early 1950s, and both the surrounding crop fields and the town's large potato processing plants give house mice steady shelter and food. As fields are harvested each fall, mice move toward the nearest warm building, which makes fall the season Othello properties see the most new activity.",
+      },
+      {
+        question: "Is Othello really called the French fry capital of the world?",
+        answer: "Yes. Othello processes roughly 1.5 billion pounds of frozen potato products a year at plants run by McCain Foods and J.R. Simplot, about 15 percent of North America's frozen potato output, and that scale of food processing is part of why fly pressure runs higher here in summer than in a non-agricultural town of similar size.",
+      },
+      {
+        question: "Do the sandhill cranes that visit Othello every March affect pest control?",
+        answer: "Not directly, but the same leftover crop residue that draws up to 35,000 sandhill cranes into the fields around Othello each March also feeds the insect populations that wasp colonies rely on later in the season, so the two are connected through the same agricultural leftovers.",
+      },
+      {
+        question: "Why are boxelder bugs common in Othello in the fall?",
+        answer: "Windbreak trees planted along the area's irrigation canals and farm boundaries host boxelder bugs through the summer, and each fall the insects move toward warm building walls in large numbers looking for a place to spend the winter, which is why they show up on sunny, south-facing walls in the Columbia Basin every year.",
+      },
+      {
+        question: "Is Othello's climate different from western Washington towns for pest pressure?",
+        answer: "Yes. Othello sits in the semi-arid Columbia Basin with hot, dry summers and cold winters, very different from the damp marine climate west of the Cascades, so the pest pressure here is driven by irrigation and food processing agriculture rather than coastal humidity.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "North Bend", slug: "north-bend", stateSlug: "washington" },
+      { name: "Hoquiam", slug: "hoquiam", stateSlug: "washington" },
+      { name: "Bainbridge Island", slug: "bainbridge-island", stateSlug: "washington" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Othello, WA | Mice, Flies & Wasps",
+    metaDescription:
+      "Othello WA pest control for house mice, filth flies, wasps and boxelder bugs in the irrigated Columbia Basin. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-bend",
+    name: "North Bend",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~8,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "North Bend sits at the eastern edge of the Snoqualmie Valley, about 30 miles east of Seattle on Interstate 90 right where the highway begins its climb toward Snoqualmie Pass. The 4,167 foot Mount Si looms directly over town and draws between 80,000 and 100,000 hikers a year on its main trail alone, and that forested foothill setting forces incoming Pacific storms upward, wringing out more rain than North Bend would see closer to Puget Sound. The same forest edge that hikers pass through is also habitat for the western blacklegged tick, Washington's Lyme disease vector, though the disease itself remains rare statewide.",
+    topPests: ["Carpenter Ants", "Western Blacklegged Ticks", "Mice", "Spiders", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "North Bend's position against the Cascade foothills forces incoming storms to drop more rain here than they would closer to Puget Sound, and that extra moisture, combined with forested lots throughout town, keeps carpenter ants active in any wood that stays damp around windows, rooflines or foundations.",
+      },
+      {
+        name: "Western Blacklegged Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Mount Si draws between 80,000 and 100,000 hikers a year to its main trail alone, and nearby Rattlesnake Ledge and Twin Falls add more forested, brushy trail mileage, all habitat for the western blacklegged tick, the state's Lyme disease vector, though confirmed Lyme cases remain rare across Washington overall.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As temperatures drop and North Bend's surrounding forest cools faster than the lowland areas closer to Seattle, mice move from the tree line into homes and outbuildings at the edge of town looking for warmth.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible late summer through fall",
+        note: "The area's heavier-than-average rainfall for a King County suburb supports a large spider population, with the most visible activity in fall as males wander indoors.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Ground colonies build through summer along the forested trail corridors leading to Mount Si and Rattlesnake Ledge, putting hikers and nearby homeowners at risk of an accidental sting from a hidden nest by early fall.",
+      },
+    ],
+    localHook:
+      "North Bend sits directly beneath 4,167 foot Mount Si, the most climbed peak in Washington State, drawing between 80,000 and 100,000 hikers a year on its trail alone, right where Interstate 90 begins its climb toward Snoqualmie Pass. That same forested foothill terrain is also home to the western blacklegged tick, the state's documented vector for Lyme disease, even though confirmed Lyme cases remain rare statewide.",
+    intro:
+      "North Bend sits where the Snoqualmie Valley meets the Cascade foothills, about 30 miles east of Seattle, directly beneath 4,167 foot Mount Si, the most climbed peak in the state and a trail that alone draws between 80,000 and 100,000 hikers a year. That elevation gain forces incoming Pacific storms to drop more rain on North Bend than they would closer to Puget Sound, and the extra moisture keeps carpenter ants active in any wood around town that stays damp. The same forested trail corridors that bring in hikers, Mount Si, Rattlesnake Ledge and Twin Falls among them, are also habitat for the western blacklegged tick, Washington's documented Lyme disease vector, though the disease itself stays rare statewide. Mice move from the cooling tree line toward warm buildings each fall and winter, spiders become most visible as the wetter months set in, and yellowjacket colonies nesting along the same trail corridors reach peak size and aggression by early fall.",
+    sections: [
+      {
+        heading: "Mount Si, Trail Traffic and Tick Exposure at the Forest Edge",
+        body: "Mount Si rises 4,167 feet directly above North Bend and is the most climbed peak in Washington State, drawing an estimated 80,000 to 100,000 hikers a year to its main trail alone, with Rattlesnake Ledge and Twin Falls adding more forested mileage nearby. That much forest and brush along well-used trail corridors is habitat for the western blacklegged tick, the species Washington's Department of Health identifies as the state's vector for Lyme disease and anaplasmosis. Confirmed Lyme disease cases remain rare across Washington, typically only a handful reported statewide each year, but hikers and homeowners along North Bend's forested edges still benefit from a tick check after time spent on brushy trails, since the tick generally needs to stay attached for at least 36 hours to transmit disease.",
+      },
+      {
+        heading: "Carpenter Ants in North Bend's Foothill Construction",
+        body: "North Bend's position right against the Cascade foothills means incoming storms rise and cool faster here than they do over flatter ground closer to Seattle, and that orographic lift wrings out noticeably more rain over the course of a year. Combined with the forested lots common throughout North Bend's neighborhoods, that extra moisture gives carpenter ants a longer window to find softened wood around windows, roof lines and foundation sills than a comparable Puget Sound lowland suburb would offer. Homeowners should have exterior wood checked periodically for the fine, sawdust-like frass that signals an active colony, particularly on shaded, north-facing walls that dry out more slowly.",
+      },
+      {
+        heading: "Cold-Weather Mice as an I-90 Gateway Town Cools Down",
+        body: "As North Bend's higher elevation and forest cover cool faster than the surrounding lowlands each fall, mice living along the tree line at the edge of town start looking for warmer shelter, and homes, garages and outbuildings closest to the forest are usually the first option they find. That seasonal push tends to arrive earlier in North Bend than it does in flatter parts of King County closer to Puget Sound, simply because the temperature drop happens sooner at this elevation. Sealing obvious gaps around foundations and utility lines before the weather turns is a more effective strategy here than waiting until mice are already inside.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after hiking Mount Si, Rattlesnake Ledge or Twin Falls, and remove any attached tick within 36 hours to reduce disease transmission risk.",
+      "Inspect shaded, north-facing exterior wood for carpenter ant frass, since North Bend's foothill rainfall keeps that wood damp longer than lowland construction.",
+      "Seal foundation gaps and utility penetrations before fall, when North Bend's higher elevation cools sooner than nearby lowland suburbs.",
+      "Avoid disturbing ground-level vegetation along forested trail corridors in early fall, when yellowjacket colonies reach peak size.",
+    ],
+    costNote:
+      "General pest plans for ants, spiders and seasonal rodents in North Bend run $150 to $280 a year. Flea and tick treatment for properties bordering forested trailheads typically costs $100 to $200 per visit. Fall rodent exclusion runs $150 to $300 depending on the size of the home.",
+    faqs: [
+      {
+        question: "Are ticks a real concern in North Bend given how popular Mount Si is with hikers?",
+        answer: "Yes, in the sense that the western blacklegged tick, Washington's documented Lyme disease vector, lives in the same forested and brushy terrain that draws 80,000 to 100,000 hikers a year to Mount Si. Confirmed Lyme cases stay rare statewide, but a tick generally needs to be attached for at least 36 hours to transmit disease, so checking yourself after a hike on Mount Si, Rattlesnake Ledge or Twin Falls is worth the extra few minutes.",
+      },
+      {
+        question: "Why does North Bend get more rain than nearby Seattle suburbs?",
+        answer: "North Bend sits right against the Cascade foothills, and that elevation change forces incoming Pacific storms upward, wringing more rain out of them than they'd drop over flatter ground closer to Puget Sound. That extra moisture is a big part of why carpenter ants stay active in North Bend's forested residential lots.",
+      },
+      {
+        question: "When do mice become a problem in North Bend homes?",
+        answer: "Typically starting in fall, and often earlier than in flatter parts of King County. North Bend's higher elevation and forest cover cool down sooner, which pushes mice out of the tree line and toward the nearest warm building before the season really turns in lowland Puget Sound suburbs.",
+      },
+      {
+        question: "Is Mount Si's popularity connected to North Bend's pest pressure?",
+        answer: "Indirectly. The mountain itself doesn't cause pest problems, but the forested, brushy trail corridors that make it Washington's most climbed peak, with 80,000 to 100,000 hikers a year, are the same habitat that supports the area's tick and yellowjacket activity.",
+      },
+      {
+        question: "Are yellowjackets dangerous along North Bend's hiking trails?",
+        answer: "Ground-nesting colonies build steadily through summer along corridors like Mount Si and Rattlesnake Ledge, reaching peak size and aggression by early fall. Most stings happen when a hiker or homeowner accidentally disturbs a hidden ground nest, so watching where you step off-trail matters more in September than earlier in the summer.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Blaine", slug: "blaine", stateSlug: "washington" },
+      { name: "Othello", slug: "othello", stateSlug: "washington" },
+      { name: "Bainbridge Island", slug: "bainbridge-island", stateSlug: "washington" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in North Bend, WA | Carpenter Ants & Ticks",
+    metaDescription:
+      "North Bend WA pest control for carpenter ants, ticks, mice and yellowjackets near Mount Si and the Cascade foothills. Call 1-800-PEST-USA.",
+  },
 ];

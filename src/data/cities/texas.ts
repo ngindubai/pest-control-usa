@@ -16494,4 +16494,559 @@ export const texasCities: CityLocation[] = [
     metaTitle: "Pest Control in Rockport, TX | Mosquitoes, Termites & No-See-Ums",
     metaDescription: "Rockport TX pest control for mosquitoes, biting midges, termites, and fire ants near Aransas Bay. Free inspection for coastal Aransas County homes.",
   },
+  {
+    slug: "dumas-tx",
+    name: "Dumas",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~14,500",
+    county: "Moore County",
+    climate: "semi-arid",
+    climateDriver:
+      "Dumas sits on the High Plains of the Texas Panhandle, a dry, wind scoured stretch of grassland with over 260 days of sunshine a year and only about 20 inches of rain. Moore County carries one of the highest concentrations of cattle feedlots in the country, with more than 185,000 head on feed in a recent count, and that concentration of livestock is the single biggest driver of the town's pest pressure. Cold, often harsh Panhandle winters push mice and overwintering insects indoors looking for warmth the moment temperatures drop.",
+    topPests: ["Stable Flies & House Flies", "Cluster Flies", "House Mice", "Field Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Stable flies and house flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Worst April through October",
+        note: "Moore County's dense concentration of cattle feedlots, one of the highest in the nation, breeds filth flies in the manure and spilled feed around feed bunks and pens, and prevailing Panhandle winds carry them well into town.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November",
+        note: "As High Plains temperatures drop in fall, cluster flies gather on sun warmed exterior walls and slip into attics and wall voids to overwinter, then reappear inside on warm winter days.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Worst October through February",
+        note: "Dumas's cold Panhandle winters send mice looking for indoor shelter earlier and more aggressively than in milder parts of the state, especially near grain storage and older foundations.",
+      },
+      {
+        name: "Field ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Field ants build mounds in Dumas lawns and along foundation lines, particularly in the sandy loam soils common across Moore County's farmland.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, reappearing on warm days through winter",
+        note: "These black and orange bugs gather by the hundreds on south and west facing walls each fall looking for a way inside to spend the winter.",
+      },
+    ],
+    localHook:
+      "Moore County is home to one of the highest concentrations of cattle feedlots in the United States, with an inventory of more than 185,000 head of cattle, and that single fact drives more of Dumas's pest calendar than any other local factor.",
+    intro:
+      "Dumas sits out on the High Plains of the Texas Panhandle, and its pest pressure has almost nothing to do with the humid coastal problems that dominate pest control conversations in most of Texas. Moore County carries one of the highest concentrations of cattle feedlots in the country, with an inventory of more than 185,000 head, and that scale of livestock production means stable flies and house flies breeding in manure and spilled feed are the defining nuisance for homes and businesses across town, not just the feedlots themselves. Add in a dry, wind scoured climate with over 260 days of sunshine and cold winters that regularly drop well below freezing, and you get a second, very different pest problem: mice, cluster flies, and boxelder bugs all looking for a warm way indoors the moment fall temperatures fall.",
+    sections: [
+      {
+        heading: "Feedlot flies are Dumas's defining pest problem",
+        body: "Moore County's cattle feedlot industry, one of the largest concentrations in the nation by head count, means stable flies and house flies aren't a backyard nuisance here, they're a regional scale insect population with a breeding ground bigger than any single property. Stable flies breed in the mix of manure, spilled feed, and moisture around feed bunks and pens, and Panhandle winds can carry adult flies for miles into residential neighborhoods and businesses on the edges of town. Homes and commercial properties near feedyards typically need a more aggressive fly management plan than the standard suburban approach, including exterior residual treatments around entry points, screens in good repair, and attention to any standing water or organic debris on the property that could let flies breed closer to home.",
+      },
+      {
+        heading: "Cold Panhandle winters push mice and overwintering bugs indoors",
+        body: "Dumas gets real winter, colder and windier than most of Texas, and that hits pest pressure two ways. First, house mice start looking for indoor shelter earlier in the fall than they would farther south, working their way in through gaps around foundations, utility lines, and garage doors, and older homes and buildings near grain storage tend to see the most pressure. Second, cluster flies and boxelder bugs both gather by the hundreds on sun warmed exterior walls each September and October, looking for cracks and gaps that lead into attics and wall voids where they can spend the winter dormant. Both reappear on unusually warm winter days, which can be startling for homeowners who assumed the problem was solved once the weather turned cold. Sealing exterior gaps before fall is the single best defense against both.",
+      },
+      {
+        heading: "Ants in Dumas lawns and foundations",
+        body: "Field ants build mounds across Dumas lawns and along foundation lines throughout the growing season, favoring the sandy loam soils common on Moore County farmland and residential lots alike. They're mostly a nuisance rather than a structural threat, but a large colony near a foundation is worth monitoring, and mound activity typically peaks in spring and again after the area's occasional summer rains.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door thresholds before fall to block house mice and overwintering cluster flies and boxelder bugs.",
+      "Keep exterior lighting and entry points in mind for fly pressure if your property sits near a feedyard, since stable flies and house flies can travel well beyond the pens themselves.",
+      "Clear any standing water, spilled feed, or organic debris from yards to avoid giving filth flies an additional breeding site closer to home.",
+      "Treat field ant mounds near the foundation in spring and after summer rains, when new mound activity is heaviest.",
+    ],
+    costNote:
+      "General pest plans covering ants, mice, and seasonal invaders in Dumas typically run $30 to $55 a month. Fly management for properties near feedlots often costs more, commonly $50 to $100 a month depending on proximity and severity. One time exterior sealing to block fall invaders like cluster flies and boxelder bugs usually runs $150 to $350 depending on the size of the home.",
+    faqs: [
+      {
+        question: "Why does Dumas have such a bad fly problem?",
+        answer:
+          "Moore County has one of the highest concentrations of cattle feedlots in the country, with more than 185,000 head of cattle on feed, and stable flies and house flies breeding in that scale of manure and spilled feed can travel well beyond the feedyards themselves on Panhandle winds.",
+      },
+      {
+        question: "When do mice become a problem in Dumas homes?",
+        answer:
+          "Dumas's cold High Plains winters send house mice looking for indoor shelter earlier than in most of Texas, typically starting in October, especially near grain storage, older foundations, and outbuildings.",
+      },
+      {
+        question: "What are the black and orange bugs on my house in Dumas every fall?",
+        answer:
+          "Those are almost certainly boxelder bugs, which gather by the hundreds on south and west facing exterior walls each September and October looking for cracks that lead into attics and wall voids where they spend the winter.",
+      },
+      {
+        question: "Are cluster flies dangerous?",
+        answer:
+          "No, cluster flies don't bite, sting, or spread disease, but large numbers gathering in attics and wall voids each fall is a genuine nuisance, and they can reappear inside on unusually warm winter days.",
+      },
+      {
+        question: "Do I need pest control if I don't live near a feedlot?",
+        answer:
+          "Yes, most Dumas properties still deal with field ants, house mice, and fall invaders like cluster flies and boxelder bugs regardless of proximity to a feedyard, though homes closer to Moore County's feedlots typically see heavier fly pressure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Dripping Springs", slug: "dripping-springs-tx", stateSlug: "texas" },
+      { name: "Henderson", slug: "henderson-tx", stateSlug: "texas" },
+      { name: "Rio Grande City", slug: "rio-grande-city-tx", stateSlug: "texas" },
+      { name: "Port Lavaca", slug: "port-lavaca-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dumas, TX | Feedlot Flies, Mice & Boxelder Bugs",
+    metaDescription:
+      "Dumas TX pest control for stable flies, house mice, and fall invaders near Moore County's cattle feedlots. Licensed, insured, free inspection.",
+  },
+  {
+    slug: "dripping-springs-tx",
+    name: "Dripping Springs",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~7,400",
+    county: "Hays County",
+    climate: "semi-arid",
+    climateDriver:
+      "Dripping Springs sits in the Texas Hill Country on rocky karst limestone terrain covered in dense Ashe juniper, locally called cedar. Summers regularly reach the upper 90s and past 100 degrees, while winters stay mild, and the city has been one of the fastest growing in Texas, climbing from 5,122 residents at the 2020 census to roughly 7,400 today. That growth means new subdivisions are being cut directly into cedar brush and limestone outcrops that previously sat undisturbed, and disturbing that habitat tends to push ticks, scorpions, and rodents toward the homes now built in it.",
+    topPests: ["Striped Bark Scorpions", "Ticks", "Fire Ants", "Black Widow Spiders", "House Mice"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, worst in warm months",
+        note: "Common across the Hill Country's limestone terrain, striped bark scorpions hide in rock walls, wood piles, and under stones during the day and are most often found indoors after new construction disturbs the rocky ground they were living in.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall, peaks April to July",
+        note: "Dense cedar brush and the deer that browse through it give ticks abundant cover along the edges of yards backing up to undeveloped Hill Country land.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worst after rain",
+        note: "Fire ants mound aggressively in Dripping Springs lawns, particularly on properties recently cleared for new construction where the soil has been disturbed.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, worst in fall",
+        note: "Black widows favor the same rock piles, stacked stone walls, and firewood stacks that are common features of Hill Country landscaping and construction.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Worst fall through winter",
+        note: "New subdivisions built into former cedar brush see mice displaced from cleared land looking for a new place to shelter as the weather cools.",
+      },
+    ],
+    localHook:
+      "Dripping Springs was one of the fastest growing cities in Texas in recent years, expanding from 5,122 residents at the 2020 census to roughly 7,400 today, and nearly all of that new construction is being cut directly into dense Ashe juniper brush and limestone outcrops that previously went undisturbed.",
+    intro:
+      "Dripping Springs' pest pressure is a direct result of what the town is built on and how fast it's growing. The Hill Country's karst limestone terrain, blanketed in dense Ashe juniper that everyone here just calls cedar, is prime habitat for striped bark scorpions, ticks, and black widow spiders long before a single house goes up. The trouble is that Dripping Springs has been one of the fastest growing cities in Texas, adding new residents at a double digit annual rate and climbing from 5,122 people at the 2020 census to roughly 7,400 today. Every acre of cedar brush cleared for a new subdivision displaces whatever was living in it, and what was living in it tends to show up in garages, closets, and under patio furniture in the months that follow.",
+    sections: [
+      {
+        heading: "Scorpions and ticks in Hill Country cedar brush",
+        body: "Striped bark scorpions are a fact of life almost anywhere in the Hill Country, hiding under rocks, in stacked stone walls, and inside firewood piles during the day and coming out to hunt at night. They're rarely dangerous, a sting is painful but not typically medically serious for a healthy adult, but they're a persistent nuisance indoors, especially in homes built on or near limestone outcrops. Ticks are a separate concern tied to the same cedar brush, since deer move through it constantly and carry ticks onto the edges of yards that back up to undeveloped land. Tick pressure in Dripping Springs peaks from April through July and drops off through the hotter, drier part of summer.",
+      },
+      {
+        heading: "New construction is pushing pests into Dripping Springs subdivisions",
+        body: "Dripping Springs has grown faster than almost anywhere in Texas recently, and that growth is happening on land that was, until very recently, dense cedar brush and rocky limestone habitat. Clearing that land for a new subdivision doesn't eliminate the scorpions, ticks, and rodents that lived there, it displaces them, and the closest available shelter is usually the newly built homes next door. Residents in Dripping Springs' newer developments often report more pest activity in their first year or two than longtime residents of older, more established parts of town, simply because the surrounding habitat disturbance is more recent.",
+      },
+      {
+        heading: "Fire ants and black widows around Hill Country landscaping",
+        body: "Fire ants mound aggressively in Dripping Springs lawns, especially where soil has been recently disturbed for construction or landscaping, and mound activity spikes noticeably after rain. Black widow spiders favor the same rock walls, stacked stone features, and firewood piles that show up constantly in Hill Country landscaping, so anyone stacking wood or building a dry stone wall on their property should expect to check it regularly.",
+      },
+    ],
+    prevention: [
+      "Check rock walls, wood piles, and stacked stone landscaping features regularly for scorpions and black widow spiders, both common in Hill Country limestone terrain.",
+      "Keep grass trimmed and treat the edges of yards backing up to cedar brush or undeveloped land to reduce tick exposure, especially April through July.",
+      "Expect somewhat higher pest pressure in the first year or two after moving into a new subdivision built on recently cleared cedar brush.",
+      "Treat fire ant mounds after rain, when new mound activity in Dripping Springs lawns is heaviest.",
+    ],
+    costNote:
+      "General pest plans covering scorpions, ants, and spiders in Dripping Springs typically run $35 to $65 a month. Seasonal tick treatment for yards backing up to cedar brush usually adds $60 to $120 per visit. One time exterior treatment for a newly built home in a recently cleared subdivision often runs $150 to $300.",
+    faqs: [
+      {
+        question: "Why does Dripping Springs have so many scorpions?",
+        answer:
+          "Dripping Springs sits on Hill Country limestone terrain that's naturally good scorpion habitat, and the striped bark scorpion in particular hides in rock walls, wood piles, and stone landscaping features common throughout the area, showing up indoors most often after nearby land gets cleared for new construction.",
+      },
+      {
+        question: "Is Dripping Springs growing fast enough to affect pest control?",
+        answer:
+          "Yes. Dripping Springs has been one of the fastest growing cities in Texas, going from 5,122 residents at the 2020 census to roughly 7,400 today, and most of that growth is new construction cut directly into cedar brush that previously housed the scorpions, ticks, and rodents now showing up in nearby homes.",
+      },
+      {
+        question: "Are the ticks in Dripping Springs dangerous?",
+        answer:
+          "Ticks in the Hill Country, carried in on deer moving through dense cedar brush, can carry disease, so removing an attached tick promptly and watching for a rash or fever afterward is worth doing, and tick pressure here peaks from April through July.",
+      },
+      {
+        question: "Do new subdivisions in Dripping Springs really get more pests?",
+        answer:
+          "Often yes, at least in the first year or two. Clearing cedar brush for a new development displaces the scorpions, ticks, and rodents that were already living there, and the newly built homes nearby are the closest available shelter.",
+      },
+      {
+        question: "When are fire ants worst in Dripping Springs?",
+        answer:
+          "Fire ant mound activity in Dripping Springs peaks in spring and after any summer rain, and newly disturbed soil from construction or landscaping tends to see the heaviest new mound activity.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Henderson", slug: "henderson-tx", stateSlug: "texas" },
+      { name: "Rio Grande City", slug: "rio-grande-city-tx", stateSlug: "texas" },
+      { name: "Port Lavaca", slug: "port-lavaca-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dripping Springs, TX | Scorpions, Ticks & Fire Ants",
+    metaDescription:
+      "Dripping Springs TX pest control for scorpions, ticks, and fire ants in Hill Country cedar brush. Free inspection for Hays County homes and new construction.",
+  },
+  {
+    slug: "henderson-tx",
+    name: "Henderson",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~13,400",
+    county: "Rusk County",
+    climate: "hot-humid",
+    climateDriver:
+      "Henderson sits deep in the East Texas Piney Woods, a humid subtropical climate with roughly 47 inches of rain a year and dense forest cover of pine, oak, and hickory across Rusk County. That combination of heat, humidity, and heavy tree cover is close to ideal for termites and carpenter ants, and Henderson's historic downtown, built up rapidly during the East Texas oil boom of the early 1930s when the town's population more than tripled in three years, adds a stock of older wood frame buildings that are especially exposed to both.",
+    topPests: ["Eastern Subterranean Termites", "Carpenter Ants", "Mosquitoes", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round, swarms in spring",
+        note: "Rusk County's humid subtropical climate and roughly 47 inches of annual rain keep soil moisture high enough for subterranean termite colonies to stay active for most of the year, and Henderson's older downtown buildings, many dating to the 1930s oil boom, see regular activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The Piney Woods' dense pine, oak, and hickory forest gives carpenter ants abundant dead and moist wood to nest in, and they readily move into home eaves, decks, and any wood already softened by moisture.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Lake Cherokee, Martin Creek Lake, and Lake Striker all sit near Henderson, and the standing water and shoreline vegetation around them give mosquitoes plenty of breeding habitat through the warmer months.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in humidity",
+        note: "Henderson's humid Piney Woods air and older building stock downtown, some dating back to the 1930s oil boom, give American cockroaches the moisture and hiding spots they need.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worst after rain",
+        note: "Fire ants mound throughout Rusk County lawns and pastures, with the heaviest new mound activity following the region's frequent rain.",
+      },
+    ],
+    localHook:
+      "Henderson's population more than tripled between 1930 and 1933, from about 3,000 to 10,000, after the East Texas oilfield was discovered in Rusk County, and much of the older wood frame construction from that boom still stands downtown today, giving termites and carpenter ants an unusually large stock of vulnerable older buildings to work with.",
+    intro:
+      "Henderson's pest pressure starts with the same thing that makes it a classic East Texas Piney Woods town: dense pine, oak, and hickory forest wrapped around a humid subtropical climate that gets roughly 47 inches of rain a year. That's close to ideal territory for eastern subterranean termites and carpenter ants, both of which thrive on moisture and abundant wood. Henderson adds a wrinkle most Piney Woods towns don't have quite the same way: the East Texas oilfield was discovered in Rusk County in 1930, and the town's population more than tripled in three years as a result, leaving behind a downtown full of wood frame buildings from that era that are still standing and still exposed to decades of termite and carpenter ant pressure. Add three nearby lakes, Lake Cherokee, Martin Creek Lake, and Lake Striker, and mosquitoes round out Henderson's pest calendar through the warm months.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in Henderson's older buildings",
+        body: "Rusk County's humid subtropical climate keeps the ground damp enough that eastern subterranean termite colonies stay active for most of the year rather than going fully dormant in winter, and swarms are most visible in spring. Henderson's downtown holds a real concentration of older wood frame buildings dating back to the rapid construction boom of the early 1930s, when the discovery of the East Texas oilfield pushed the town's population from about 3,000 to 10,000 in just three years. Buildings from that era, along with the dense pine, oak, and hickory forest surrounding town, give both termites and carpenter ants no shortage of wood to work with. Carpenter ants don't eat wood the way termites do, but they excavate it to build nests, favoring wood that's already softened by moisture, and they show up regularly in eaves, decks, and window frames.",
+      },
+      {
+        heading: "Mosquitoes from Henderson's lakes",
+        body: "Lake Cherokee, Martin Creek Lake State Park, and Lake Striker all sit within easy reach of Henderson, and all three give mosquitoes plenty of shoreline vegetation and standing water to breed in through the warmer months, typically April through October. Properties closer to any of the three lakes tend to see heavier pressure than those farther into town, and a monthly yard treatment targeting shaded, humid vegetation where adult mosquitoes rest during the day is the most effective way to bring numbers down.",
+      },
+      {
+        heading: "Cockroaches and fire ants in Rusk County's humidity",
+        body: "American cockroaches thrive in Henderson's humid Piney Woods air, and the town's older buildings downtown give them plenty of moisture and hiding spots to work with year-round. Fire ants, meanwhile, are a lawn and pasture problem across Rusk County generally, mounding throughout the growing season with the sharpest jump in new mounds coming after the area's frequent rain.",
+      },
+    ],
+    prevention: [
+      "Have older wood frame buildings in Henderson's downtown, especially those dating to the 1930s oil boom era, inspected regularly for both termites and carpenter ants.",
+      "Apply monthly mosquito treatment to shaded yard vegetation if your property sits near Lake Cherokee, Martin Creek Lake, or Lake Striker.",
+      "Address any moisture problems around eaves, decks, and window frames promptly, since softened wood is what draws carpenter ants indoors.",
+      "Treat fire ant mounds after rain, when Rusk County sees the sharpest increase in new mound activity.",
+    ],
+    costNote:
+      "Termite inspection and treatment in Henderson typically runs $200 to $550 a year depending on structure size and age, with older downtown buildings often at the higher end. General pest plans covering ants and cockroaches cost $30 to $55 a month. Mosquito yard treatment for lakefront properties usually runs $80 to $150 per visit.",
+    faqs: [
+      {
+        question: "Why are termites such a problem in Henderson?",
+        answer:
+          "Rusk County's humid subtropical climate keeps soil moisture high enough for eastern subterranean termite colonies to stay active most of the year, and Henderson's downtown has an unusually large stock of older wood frame buildings dating to the rapid construction boom of the early 1930s, when the East Texas oilfield discovery tripled the town's population in three years.",
+      },
+      {
+        question: "Do the lakes near Henderson cause a mosquito problem?",
+        answer:
+          "Yes, Lake Cherokee, Martin Creek Lake, and Lake Striker all sit close to Henderson and give mosquitoes standing water and shoreline vegetation to breed in from April through October, with properties closest to the water seeing the heaviest pressure.",
+      },
+      {
+        question: "What's the difference between termites and carpenter ants in Henderson?",
+        answer:
+          "Termites eat wood for food, while carpenter ants excavate it to build nests without eating it, but both target moisture softened wood and both show up regularly in Henderson's older buildings and in homes with eaves or decks that stay damp.",
+      },
+      {
+        question: "Are fire ants worse in Henderson than the rest of Texas?",
+        answer:
+          "Fire ants are a statewide problem, but Rusk County's frequent rain drives a noticeably sharp jump in new mound activity after every significant rainfall, more so than drier parts of the state.",
+      },
+      {
+        question: "Is Henderson's downtown really more exposed to termites?",
+        answer:
+          "Yes, the discovery of the East Texas oilfield in Rusk County in 1930 triggered a construction boom that tripled Henderson's population by 1933, and a meaningful share of that wood frame construction is still standing downtown today, decades further into the kind of termite exposure that comes with age and East Texas humidity.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Dripping Springs", slug: "dripping-springs-tx", stateSlug: "texas" },
+      { name: "Rio Grande City", slug: "rio-grande-city-tx", stateSlug: "texas" },
+      { name: "Port Lavaca", slug: "port-lavaca-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Henderson, TX | Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Henderson TX pest control for termites, carpenter ants, and mosquitoes near Rusk County's lakes and historic downtown. Licensed, insured, free inspection.",
+  },
+  {
+    slug: "rio-grande-city-tx",
+    name: "Rio Grande City",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~15,300",
+    county: "Starr County",
+    climate: "hot-arid",
+    climateDriver:
+      "Rio Grande City sits directly on the Rio Grande in the brush country of deep South Texas, and its hot semi-arid climate is one of the most extreme in the country: the city holds the nationwide all-time record high temperatures for both February and March, and summer heat above 100 degrees is routine. That heat, combined with irrigated farmland along the river and dense native brush surrounding town, shapes a pest calendar built around heat tolerant, brush dwelling species rather than the humid coastal pests found in the rest of the Rio Grande Valley.",
+    topPests: ["Kissing Bugs (Triatomines)", "Africanized Honey Bees", "Scorpions", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Kissing bugs (triatomines)",
+        activeSeason: "Most active at night, spring through fall",
+        note: "Starr County sits within the South Texas brush country range of the triatomine bug, and Texas A&M AgriLife researchers have documented rising numbers of these insects, which can carry the parasite that causes Chagas disease, across the wider Rio Grande Valley region.",
+      },
+      {
+        name: "Africanized honey bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Year-round, most defensive in warm months",
+        note: "Africanized honey bees became established in this part of South Texas after moving north across the border in the 1990s, and colonies can be far more defensive than typical honeybees, making removal a job for a licensed professional.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, worst in warm months",
+        note: "The dry brush country surrounding Rio Grande City gives scorpions abundant cover under rocks, brush piles, and debris, and they readily move indoors seeking shade from the region's extreme summer heat.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worst after rain",
+        note: "Fire ants mound throughout Rio Grande City's irrigated lawns and farmland, with irrigation water along the river giving them more consistent moisture than the surrounding dry brush.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older buildings along Rio Grande City's historic downtown, including structures near the Fort Ringgold grounds, see steady cockroach activity given the region's heat.",
+      },
+    ],
+    localHook:
+      "Rio Grande City holds the nationwide all-time record high temperatures for both February and March, and the city grew up around Fort Ringgold, a U.S. Army post that stood guard on the Rio Grande from 1848 until 1944, one of the oldest continuously settled places in South Texas.",
+    intro:
+      "Rio Grande City's pest pressure is shaped first and foremost by heat. This stretch of the Rio Grande in Starr County holds the nationwide all-time record high temperatures for both February and March, and summer days above 100 degrees are simply routine. That extreme, dry heat, combined with the dense native brush country surrounding town and irrigated farmland along the river itself, favors a different set of pests than the humid coastal towns farther east in the Rio Grande Valley. Scorpions and Africanized honey bees, both suited to hot, dry brush habitat, are a bigger part of the picture here, and Starr County's location within the documented range of the triatomine bug, or kissing bug, adds a genuine public health dimension that Texas A&M AgriLife researchers have been tracking across the region. Rio Grande City's history reaches back to Fort Ringgold, a U.S. Army post that guarded this stretch of river from 1848 until 1944, and the historic downtown that grew up around it still stands today.",
+    sections: [
+      {
+        heading: "Kissing bugs and the region's Chagas disease research",
+        body: "Starr County lies within the South Texas brush country range of the triatomine bug, commonly called the kissing bug, and Texas A&M AgriLife researchers have documented rising numbers of these insects across the wider Rio Grande Valley in recent years. These bugs can carry the parasite that causes Chagas disease, a genuine and growing public health concern that regional researchers are actively studying. Kissing bugs are most active at night and are drawn to lights, and they tend to hide in cracks, under porches, and around outdoor pet bedding during the day. Anyone who finds one indoors should avoid handling it directly and have it identified by a pest professional, and sealing exterior gaps and keeping outdoor lighting away from entry points are the most practical first steps.",
+      },
+      {
+        heading: "Africanized honey bees and scorpions in South Texas brush country",
+        body: "Africanized honey bees became established in this part of South Texas in the 1990s after moving north across the border, and colonies here can be considerably more defensive than typical European honeybees, reacting faster and in greater numbers to disturbance. Any bee colony found on a Rio Grande City property, especially in a wall void, shed, or old outbuilding, is worth having assessed and removed by a licensed professional rather than handled directly. Scorpions are a separate, more routine concern, thriving in the dry brush, rock piles, and debris that surround much of the area and moving indoors readily to escape the region's extreme summer heat.",
+      },
+      {
+        heading: "Fire ants and cockroaches along the river",
+        body: "Rio Grande City's irrigated lawns and nearby farmland give fire ants more consistent moisture than the dry brush country around them, and mound activity climbs noticeably after rain or irrigation. American cockroaches are a steady year-round presence in the area's older buildings, including structures near the historic Fort Ringgold grounds, where the region's heat and older construction combine to give them plenty of places to hide.",
+      },
+    ],
+    prevention: [
+      "Seal exterior cracks and gaps and keep outdoor lighting positioned away from entry points to reduce kissing bug entry, especially around outdoor pet areas.",
+      "Never attempt to remove a bee colony on your own property in Rio Grande City, since Africanized honey bees in this part of South Texas can be unusually defensive.",
+      "Check rock piles, brush, and debris near the home regularly for scorpions, which move indoors seeking shade during the region's extreme summer heat.",
+      "Treat fire ant mounds after rain or irrigation, when activity in Rio Grande City lawns and farmland increases.",
+    ],
+    costNote:
+      "General pest plans covering ants, cockroaches, and scorpions in Rio Grande City typically run $30 to $60 a month. Bee colony removal, which should always go to a licensed professional given the presence of Africanized bees in the area, usually costs $150 to $400 depending on colony size and location. Kissing bug identification and exterior sealing services vary by scope but commonly start around $150.",
+    faqs: [
+      {
+        question: "Are kissing bugs really a concern in Rio Grande City?",
+        answer:
+          "Starr County sits within the documented South Texas brush country range of the triatomine bug, or kissing bug, and Texas A&M AgriLife researchers have tracked rising numbers of these insects across the Rio Grande Valley, since some can carry the parasite that causes Chagas disease. Anyone who finds one indoors should avoid handling it and have it identified professionally.",
+      },
+      {
+        question: "Why is Rio Grande City so much hotter than other parts of Texas?",
+        answer:
+          "Rio Grande City holds the nationwide all-time record high temperatures for both February and March, and its hot, dry brush country climate along the Rio Grande produces routine triple digit heat through the summer, which shapes a pest calendar built around heat tolerant species like scorpions and Africanized honey bees.",
+      },
+      {
+        question: "Are the bees in Rio Grande City dangerous?",
+        answer:
+          "Africanized honey bees became established in this part of South Texas in the 1990s and can be considerably more defensive than typical honeybees, so any colony found on a property here should be removed by a licensed professional rather than handled directly.",
+      },
+      {
+        question: "What is Fort Ringgold and does it affect pest control in Rio Grande City?",
+        answer:
+          "Fort Ringgold was a U.S. Army post that guarded this stretch of the Rio Grande from 1848 until 1944, and the historic downtown that grew up around it includes older buildings that see steady year-round cockroach activity given the region's heat.",
+      },
+      {
+        question: "When are fire ants worst in Rio Grande City?",
+        answer:
+          "Fire ant mound activity in Rio Grande City increases noticeably after rain or irrigation, since the area's irrigated lawns and farmland hold more consistent moisture than the surrounding dry brush country.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Dripping Springs", slug: "dripping-springs-tx", stateSlug: "texas" },
+      { name: "Henderson", slug: "henderson-tx", stateSlug: "texas" },
+      { name: "Port Lavaca", slug: "port-lavaca-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rio Grande City, TX | Kissing Bugs, Bees & Scorpions",
+    metaDescription:
+      "Rio Grande City TX pest control for kissing bugs, Africanized bees, and scorpions in Starr County's brush country. Licensed, insured, free inspection.",
+  },
+  {
+    slug: "port-lavaca-tx",
+    name: "Port Lavaca",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~11,400",
+    county: "Calhoun County",
+    climate: "hot-humid",
+    climateDriver:
+      "Port Lavaca sits on the west shore of Lavaca Bay, an arm of Matagorda Bay on the central Texas Gulf Coast, in a humid subtropical climate with hot, sticky summers and mild winters. The town built its early economy on shrimping, leading the nation in shrimp production during the 1920s, and today sits next to the large Point Comfort industrial complex, home to Formosa Plastics and Alcoa, where many residents work. That mix of bay front humidity, a historic fishing town core, and a large industrial neighbor shapes a pest calendar built around moisture and salt air.",
+    topPests: ["Mosquitoes", "Biting Midges (No-See-Ums)", "Termites", "American Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst March through November",
+        note: "Lavaca Bay's shoreline marsh and the town's mild winters give mosquitoes breeding habitat for most of the year, with the heaviest pressure from spring through fall.",
+      },
+      {
+        name: "Biting midges (no-see-ums)",
+        serviceSlug: "fly-control",
+        activeSeason: "Worst spring and fall, calm humid evenings",
+        note: "These tiny biting gnats swarm along the bay shoreline on calm evenings and are small enough to pass through standard window screens.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round",
+        note: "Port Lavaca's Gulf Coast humidity keeps termite colonies active for most of the year, and the town's older shrimping era buildings near downtown see regular activity.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in humidity",
+        note: "Often called palmetto bugs on the coast, American cockroaches thrive in Port Lavaca's bay front humidity and show up consistently around the harbor and older buildings downtown.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ants mound throughout Port Lavaca lawns much like the rest of the Gulf Coast, with rain triggering the sharpest jump in new mounds.",
+      },
+    ],
+    localHook:
+      "Port Lavaca led the nation in shrimp production during the 1920s, and Hurricane Carla struck the area in September 1961 with gusts recorded up to 170 miles per hour, seriously damaging the town's original bay causeway, part of which was rebuilt as the Port Lavaca State Fishing Pier still used today.",
+    intro:
+      "Port Lavaca's pest pressure comes straight off Lavaca Bay, and the town's working history on the water only adds to it. Port Lavaca led the nation in shrimp production back in the 1920s, and that fishing town core, combined with the large Point Comfort industrial complex next door, home to Formosa Plastics and Alcoa and a major employer for area residents, gives Port Lavaca a mix of bay front humidity, an older waterfront building stock, and a steady flow of commercial and industrial properties that all need pest coverage. The town's humid subtropical climate keeps mosquitoes, termites, and American cockroaches active for most of the year, and Hurricane Carla's direct hit in September 1961, which packed gusts up to 170 miles per hour and destroyed the original bay causeway, is a reminder of just how exposed this stretch of coast is to major storms and the standing water they leave behind.",
+    sections: [
+      {
+        heading: "Mosquitoes and biting midges on Lavaca Bay",
+        body: "Port Lavaca's position on the west shore of Lavaca Bay gives mosquitoes shoreline marsh and standing water to breed in for most of the year, with pressure heaviest from March through November. Biting midges, or no-see-ums, are a separate problem tied to the same bay front habitat, swarming on calm, humid evenings in spring and fall and biting through gaps small enough to slip past standard window screens. Waterfront properties near the harbor and along the bay see the heaviest pressure from both, though a monthly yard treatment targeting shaded vegetation helps properties even several blocks inland.",
+      },
+      {
+        heading: "A shrimping town's older buildings meet Gulf Coast humidity",
+        body: "Port Lavaca's identity as a historic shrimping hub, the town led the nation in shrimp production during the 1920s, left behind a core of older waterfront buildings that are now decades into steady exposure to Gulf Coast humidity. That combination of age and moisture is close to ideal for eastern subterranean termites, which stay active in Port Lavaca nearly year round rather than slowing through a real winter, and for American cockroaches, often called palmetto bugs on the coast, which show up consistently around the harbor and older downtown buildings. Regular professional inspection is worth it for any older structure near the water.",
+      },
+      {
+        heading: "Industrial neighbors and hurricane exposure",
+        body: "Port Lavaca sits directly next to the large Point Comfort industrial complex, home to Formosa Plastics and Alcoa, and a meaningful share of the area's commercial and industrial properties need pest coverage built around their specific facilities rather than a standard residential plan. Hurricane Carla made a direct hit on this stretch of coast in September 1961 with gusts recorded up to 170 miles per hour, seriously damaging the original bay causeway, and that level of storm exposure is a useful reminder that mosquito pressure can spike hard in the weeks after any major flooding event along Calhoun County's coast. Fire ants round out the picture, mounding throughout Port Lavaca lawns with the sharpest jump in new mounds following any rain.",
+      },
+    ],
+    prevention: [
+      "Apply monthly yard treatment to shaded vegetation near the bay to reduce resting adult mosquitoes and biting midges.",
+      "Have older waterfront and downtown buildings inspected regularly for termites, since Port Lavaca's coastal humidity keeps colonies active nearly year round.",
+      "Ask about commercial pest coverage built around your specific facility if your business operates near the Point Comfort industrial complex.",
+      "Watch for a rise in mosquito activity in the weeks after any major flooding event, given Port Lavaca's hurricane exposure on this stretch of coast.",
+      "Treat fire ant mounds after any rain, which can happen in any season along the Gulf Coast.",
+    ],
+    costNote:
+      "Mosquito and biting midge yard treatment in Port Lavaca typically costs $80 to $180 per visit, with monthly plans recommended for waterfront properties. Termite protection runs $180 to $500 per year depending on structure age and size. Commercial pest coverage for businesses near the Point Comfort industrial complex is usually quoted separately based on facility size and schedule.",
+    faqs: [
+      {
+        question: "Why does Port Lavaca have so many mosquitoes?",
+        answer:
+          "Port Lavaca sits on the west shore of Lavaca Bay, and the shoreline marsh combined with the town's mild winters gives mosquitoes breeding habitat for most of the year, with the heaviest pressure from March through November.",
+      },
+      {
+        question: "Does Hurricane Carla still matter for pest control in Port Lavaca?",
+        answer:
+          "Not directly today, but Carla's September 1961 landfall, with gusts recorded up to 170 miles per hour, is a useful example of the pattern: major flooding along this stretch of coast reliably brings a spike in mosquito activity in the weeks that follow.",
+      },
+      {
+        question: "Are termites active in Port Lavaca year round?",
+        answer:
+          "Close to it. Port Lavaca's Gulf Coast humidity barely lets up in winter, keeping eastern subterranean termite colonies active nearly year round, and the town's older shrimping era buildings near downtown are especially exposed.",
+      },
+      {
+        question: "Does Port Lavaca's industrial complex affect pest control needs?",
+        answer:
+          "Yes, Port Lavaca sits next to the large Point Comfort industrial complex, home to Formosa Plastics and Alcoa, and businesses operating near that complex typically need commercial pest coverage scheduled around their own facility rather than a standard residential plan.",
+      },
+      {
+        question: "What is a palmetto bug in Port Lavaca?",
+        answer:
+          "Palmetto bug is the coastal nickname for the American cockroach, which thrives in Port Lavaca's humidity and shows up consistently around the harbor and older buildings downtown throughout the year.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Dumas", slug: "dumas-tx", stateSlug: "texas" },
+      { name: "Dripping Springs", slug: "dripping-springs-tx", stateSlug: "texas" },
+      { name: "Henderson", slug: "henderson-tx", stateSlug: "texas" },
+      { name: "Rio Grande City", slug: "rio-grande-city-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Port Lavaca, TX | Mosquitoes, Termites & Commercial Coverage",
+    metaDescription:
+      "Port Lavaca TX pest control for mosquitoes, termites, and fire ants near Lavaca Bay and the Point Comfort industrial complex. Free inspection.",
+  },
 ];

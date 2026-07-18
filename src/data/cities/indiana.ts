@@ -6868,4 +6868,579 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Greencastle, IN pest control for off-campus bed bugs, harvest-season mice, nature park ticks, stink bugs and carpenter ants. Putnam County DePauw service.",
   },
+  {
+    slug: "west-lafayette",
+    name: "West Lafayette",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~45,000",
+    county: "Tippecanoe County",
+    climate: "cold-humid",
+    climateDriver:
+      "West Lafayette sits in Indiana's cold humid continental belt, with snowy winters that send rodents looking for a warm structure and warm, humid summers that keep the city's biggest wetland producing mosquitoes from May into October.",
+    topPests: ["Mosquitoes", "House Mice", "Bed Bugs", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through early fall, heaviest June through August",
+        note: "The Celery Bog Nature Area's 100-acre wetland core, a former truck farm that reverted to marsh once rising groundwater ended its run as farmland in the late 1970s, sits inside city limits with paved trails running right up against residential streets on West Lafayette's north side.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge with the first hard frost",
+        note: "West Lafayette's dense multi-family student apartment blocks near campus and State Street give mice more shared wall cavities and utility penetrations to travel through, unit to unit and building to building, than a typical single-family street sees.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Peaks around August move-in and winter break, year-round risk",
+        note: "Purdue's enrollment tops 50,000, and the wave of move-ins each August through high-rise and garden-style student apartment complexes brings secondhand furniture and shared laundry rooms into close contact, a setup bed bugs travel through easily.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs stage on sun-warmed brick apartment exteriors near campus each fall before slipping through window seals and siding gaps to overwinter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older homes near the Wabash River and along the Celery Bog's marsh edge see carpenter ant activity wherever moisture has softened framing enough to be worth excavating.",
+      },
+    ],
+    localHook:
+      "The Celery Bog Nature Area's 100-acre wetland core, part of a 195-acre city park, was a working celery farm supplying more than 80 regional grocers for much of the twentieth century before rising water tables ended that use in the late 1970s and let the ground revert to marsh. A wetland this size sitting inside city limits, a few blocks from residential streets on West Lafayette's north side, is unusual for an Indiana city this size, and it means West Lafayette carries a mosquito season most similarly sized Hoosier towns do not.",
+    intro:
+      "West Lafayette's pest pressure comes from two things most Indiana towns its size do not have together: a 100-acre urban wetland and a university with more than 50,000 students. The Celery Bog Nature Area, a former celery farm that reverted to marsh once the water table rose too high to keep farming it, sits inside city limits with paved trails running close to residential streets on the north side, and it keeps mosquitoes active from May into October some years. Meanwhile, Purdue's dense student housing, from high-rise apartment towers near campus to garden-style complexes along State Street, gives house mice more connected wall space to travel through than a single-family neighborhood offers, and it brings a wave of bed bug risk each August when move-in season fills those units with secondhand furniture and moving boxes. Stink bugs and carpenter ants round out the year, familiar patterns for west central Indiana river towns.",
+    sections: [
+      {
+        heading: "Celery Bog's marsh and West Lafayette's mosquito season",
+        body: "The Celery Bog Nature Area is genuinely unusual for a city West Lafayette's size: a 100-acre wetland core inside a 195-acre park, sitting close enough to residential streets on the north side that mosquitoes bred in its marsh and prairie habitat regularly find their way into nearby yards. The area was farmed for vegetables, celery among them, supplying dozens of regional grocers for much of the twentieth century, until the soil gave out and groundwater rose high enough in the late 1970s that the fields reverted to marsh on their own. Mosquito season here runs from late spring through early fall and is heaviest in June, July, and August, and homeowners near the Celery Bog's edge should treat standing water on their own property as seriously as anyone living near a farm pond or drainage ditch.",
+      },
+      {
+        heading: "Dense student housing and West Lafayette's mice pressure",
+        body: "Purdue's campus drives an unusual amount of multi-family housing density for a city this size, high-rise apartment towers and garden-style complexes packed close together near State Street and the edges of campus. That density works against residents facing a mouse problem: shared walls, connected utility chases, and common laundry and trash areas give a mouse far more ways to move between units than it would have on a street of detached single-family homes. Mice pressure here runs year-round but surges hardest with the first hard frost, when outdoor populations look for a heated building fast, and a single unsealed gap in a shared wall can let a problem spread through several apartments before anyone reports it.",
+      },
+      {
+        heading: "Bed bugs and Purdue's August move-in season",
+        body: "With enrollment above 50,000, Purdue's fall move-in each August sends a wave of moving trucks, secondhand furniture, and shared moving boxes through West Lafayette's student housing stock, and a second smaller wave follows the return from winter break in January. Bed bugs do not care whether a mattress or couch came from a dorm, a previous tenant, or a curbside find, and dense apartment buildings with shared hallways and laundry rooms give them more chances to spread between units than a single rental house would. Inspecting any secondhand furniture before bringing it into a unit, and calling for an inspection at the first sign of bites, keeps a manageable problem from turning into a building-wide one.",
+      },
+      {
+        heading: "Fall invaders near campus and the river",
+        body: "Brown marmorated stink bugs gather on sun-facing brick apartment walls near campus every September through November, working into window seals and siding gaps before the weather turns cold enough to force the issue. Away from campus, older homes near the Wabash River and along the edges of the Celery Bog's marsh see carpenter ants working into framing that a slow moisture problem, a gutter that overflows or a foundation crack that lets groundwater in, has already softened. Neither pest is unique to West Lafayette, but the combination of dense campus housing and wetland-adjacent older neighborhoods gives the city a wider mix of seasonal invaders than a typical small Indiana town manages at once.",
+      },
+    ],
+    prevention: [
+      "Remove standing water on your own property near the Celery Bog's edge, since mosquitoes bred there travel easily into adjoining yards.",
+      "Seal shared-wall gaps and utility penetrations in multi-family buildings promptly, since mice move easily between connected units.",
+      "Inspect secondhand furniture and moving boxes before bringing them into student housing, especially during August move-in.",
+      "Seal window and siding gaps on campus-adjacent buildings before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "General quarterly pest plans in West Lafayette typically run $120 to $260 per year for a single-family home. Bed bug inspection and treatment for an apartment unit runs $300 to $900 depending on unit size and how far an infestation has spread. Mosquito treatment for a yard near the Celery Bog usually runs $70 to $150 per visit during peak season.",
+    faqs: [
+      {
+        question: "Why does West Lafayette have such a strong mosquito season?",
+        answer:
+          "The Celery Bog Nature Area's 100-acre wetland core sits inside city limits, close to residential streets on the north side, and mosquitoes bred there are active from May into October in a typical year. Removing standing water on your own property helps limit how many make it into your yard.",
+      },
+      {
+        question: "Do West Lafayette's student apartments see more mice than single-family homes?",
+        answer:
+          "Yes. Dense multi-family buildings near campus and State Street give mice shared walls and utility chases to travel through between units, something a detached single-family home does not have, and pressure surges hardest with the first hard frost each year.",
+      },
+      {
+        question: "When is bed bug risk highest in West Lafayette?",
+        answer:
+          "August, when Purdue's fall move-in brings a wave of secondhand furniture and moving boxes through student housing, with a smaller second wave around the January return from winter break.",
+      },
+      {
+        question: "Are carpenter ants a problem near the Wabash River in West Lafayette?",
+        answer:
+          "They show up most in older homes near the river and along the Celery Bog's marsh edge, usually where a slow moisture problem like an overflowing gutter has already softened the wood framing enough to make it worth excavating.",
+      },
+      {
+        question: "When are stink bugs worst in West Lafayette?",
+        answer:
+          "September through November, when they gather on sun-facing brick walls near campus before working through window seals and siding gaps to overwinter indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbia City", slug: "columbia-city", stateSlug: "indiana" },
+      { name: "Madison", slug: "madison", stateSlug: "indiana" },
+      { name: "Portland", slug: "portland", stateSlug: "indiana" },
+      { name: "North Manchester", slug: "north-manchester", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in West Lafayette, IN | Celery Bog Mosquitoes & Campus Pests",
+    metaDescription:
+      "West Lafayette, IN pest control for Celery Bog mosquitoes, dense student housing mice, August bed bugs, stink bugs and carpenter ants. Tippecanoe County service.",
+  },
+  {
+    slug: "columbia-city",
+    name: "Columbia City",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~10,200",
+    county: "Whitley County",
+    climate: "cold-humid",
+    climateDriver:
+      "Columbia City sits on a flat glacial till plain in northeast Indiana, where cold winters push rodents indoors and the corn and soybean fields ringing town give way each fall to a wave of pest activity headed for the nearest structure.",
+    topPests: ["House Mice", "Mosquitoes", "Ticks", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Whitley County's corn and soybean fields cover the flat glacial till plain right up to Columbia City's edges, and when the harvest strips that cover each fall, mice head for the nearest warm building in numbers.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Blue River runs directly through downtown Columbia City before joining the Eel River a few miles downstream, and the slow, low-banked stretches along its route give mosquitoes plenty of breeding water close to homes.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "The 4.6-mile Blue River Trail runs from Morsches Park on the northeast side to just south of downtown, and its wooded, brushy stretches put dog walkers and joggers closer to tick habitat than most Whitley County residents encounter.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sunny exterior walls of Columbia City homes each fall before finding a gap to slip through for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older homes near the Blue River see carpenter ant activity wherever a moisture problem has softened framing enough to make it worth excavating.",
+      },
+    ],
+    localHook:
+      "The Blue River runs directly through downtown Columbia City before joining the Eel River, itself a Wabash tributary, a few miles downstream, and the 4.6-mile paved Blue River Trail follows that corridor from Morsches Park on the northeast side to south of downtown. That gives Columbia City more river-adjacent recreation, and more river-adjacent pest exposure, mosquitoes along the slow water and ticks in the trail's wooded stretches, than most Whitley County farm towns see this close to their downtown.",
+    intro:
+      "Columbia City's pest calendar runs on the flat glacial till plain that surrounds it. Whitley County's corn and soybean fields press close against town on nearly every side, and when the fall harvest strips their cover each September and October, house mice head straight for the nearest structure. The Blue River complicates that picture by running directly through downtown before it joins the Eel River a few miles downstream, and the 4.6-mile Blue River Trail that follows its banks from Morsches Park to south of downtown gives residents a real recreational asset that also brings mosquito breeding water and tick habitat closer to daily life than a typical inland farm town has to manage. Stink bugs and carpenter ants round out the year, patterns familiar across northeast Indiana.",
+    sections: [
+      {
+        heading: "Farmland edges and Columbia City's fall mice pressure",
+        body: "Whitley County's corn and soybean fields cover the flat glacial till plain right up to Columbia City's edges, and the pattern here follows what most northeast Indiana farm towns see: when combines move through each September and October, field mice that spent the summer in that cover lose it overnight and head for the nearest warm building. Homes and outbuildings on the edge of town take the brunt of that pressure, and sealing obvious gaps around foundations and utility lines before harvest season, then setting interior traps at the first sign of droppings, matters more here than in a neighborhood set back from open fields.",
+      },
+      {
+        heading: "The Blue River and Columbia City's mosquito season",
+        body: "The Blue River flows directly through downtown Columbia City on its way to a confluence with the Eel River a few miles southwest, and its slower, low-banked stretches give mosquitoes reliable breeding water close to homes along the corridor. Mosquito season here runs May through September, and residents near the river or the Blue River Trail should clear any standing water on their own property, gutters, unused containers, low spots that pool after rain, since that kind of water close to a natural mosquito source multiplies the pressure fast.",
+      },
+      {
+        heading: "Ticks along the Blue River Trail",
+        body: "The 4.6-mile Blue River Trail runs from Morsches Park on the northeast side through wooded and brushy stretches to just south of downtown, and that terrain puts trail users, especially dog walkers and joggers who leave the paved path, in closer contact with tick habitat than most Whitley County residents deal with this near their homes. Tick season runs April through October and peaks in late spring and early summer, and anyone using the trail regularly should check for ticks after each outing rather than waiting until the height of summer to start looking.",
+      },
+      {
+        heading: "Stink bugs and carpenter ants each fall",
+        body: "Stink bugs stage on the sunniest exterior walls of Columbia City homes every September through November before finding a gap to slip through and overwinter indoors, a pattern that repeats across northeast Indiana regardless of how close a given home sits to the river or the fields. Carpenter ants show up in older homes near the Blue River corridor where a slow moisture problem, a leaking gutter or a cracked foundation, has softened framing enough to make it worth excavating, and catching that moisture issue early is usually cheaper than treating an established colony.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility line penetrations on homes near open farmland before the fall harvest.",
+      "Clear standing water on properties near the Blue River corridor throughout mosquito season, May through September.",
+      "Check for ticks after every visit to the Blue River Trail's wooded stretches, particularly April through July.",
+      "Address moisture problems in older homes near the river promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General quarterly pest plans in Columbia City typically run $110 to $230 per year for a single-family home. Mosquito treatment for a yard near the Blue River corridor usually runs $70 to $150 per visit during peak season. Tick and flea treatment for a property bordering wooded or trail-adjacent land runs $80 to $160 per visit.",
+    faqs: [
+      {
+        question: "Why does Columbia City get a fall mice surge?",
+        answer:
+          "Whitley County's corn and soybean fields press close against town, and when the harvest strips their cover each September and October, field mice head for the nearest structure, hitting homes on the edge of town hardest.",
+      },
+      {
+        question: "Is the Blue River Trail a tick risk in Columbia City?",
+        answer:
+          "The wooded and brushy stretches along the 4.6-mile trail put dog walkers and joggers closer to tick habitat than most Whitley County residents encounter, especially April through July. Checking for ticks after every visit is the simplest safeguard.",
+      },
+      {
+        question: "Does the Blue River cause mosquito problems in Columbia City?",
+        answer:
+          "Yes. Its slow, low-banked stretches through downtown give mosquitoes breeding water close to homes from May through September, and clearing standing water on your own property near the corridor limits how much of that pressure reaches your yard.",
+      },
+      {
+        question: "Are carpenter ants common in older Columbia City homes?",
+        answer:
+          "They turn up most often near the Blue River corridor, where a moisture problem like a leaking gutter or cracked foundation has softened wood framing enough for a colony to take hold.",
+      },
+      {
+        question: "When are stink bugs worst in Columbia City?",
+        answer:
+          "September through November, when they gather on sunny exterior walls before finding a gap and pushing indoors for winter, the same pattern seen across northeast Indiana.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "West Lafayette", slug: "west-lafayette", stateSlug: "indiana" },
+      { name: "North Manchester", slug: "north-manchester", stateSlug: "indiana" },
+      { name: "Portland", slug: "portland", stateSlug: "indiana" },
+      { name: "Madison", slug: "madison", stateSlug: "indiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Columbia City, IN | Blue River Pests & Harvest Mice",
+    metaDescription:
+      "Columbia City, IN pest control for Blue River mosquitoes and ticks, fall harvest mice, stink bugs and carpenter ants. Licensed Whitley County service.",
+  },
+  {
+    slug: "madison",
+    name: "Madison",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~12,000",
+    county: "Jefferson County",
+    climate: "temperate",
+    climateDriver:
+      "Madison sits on the Ohio River in southern Indiana, a milder river valley than the rest of the state, with humid summers and periodic river flooding that keep moisture-driven pests active in its historic downtown longer into the year than a typical inland Hoosier town.",
+    topPests: ["Termites", "Silverfish", "Carpenter Ants", "Ticks", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note: "Madison's Historic District spans more than 130 blocks of structures dating from 1812 to 1920, the largest contiguous National Historic Landmark district of its kind, and that much aging wood-frame and masonry construction near the river gives subterranean termites a lot of foundation and sill-plate contact to work with.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse after flooding or heavy rain",
+        note: "The Ohio River has flooded Madison repeatedly, most severely in 1937 when the crest reached 475.9 feet, and older basements and crawl spaces in the historic district hold humidity long after a flood or a heavy rain event, conditions silverfish thrive in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Nineteenth century homes in the historic district often have original wood framing that a slow moisture problem, common in a river town with a high water table, has softened enough for carpenter ants to excavate.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May through July",
+        note: "Clifty Falls State Park borders Madison on the west, its canyon walls rising roughly 400 feet above the Ohio River valley, and hikers on its ravine trails around Big Clifty Creek run into tick habitat that most southern Indiana river towns do not have this close to downtown.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on sun-warmed exterior walls of Madison's historic homes each fall before finding a gap in aging window trim or siding to overwinter.",
+      },
+    ],
+    localHook:
+      "Madison's Historic District covers more than 130 blocks of buildings dating from 1812 to 1920, the largest contiguous National Historic Landmark district in the country, and it sits directly against the Ohio River, which crested at 475.9 feet during the historic 1937 flood and has flooded the town again in more recent years. That combination, dense nineteenth century wood and masonry construction plus a river with a real flood history, gives Madison a moisture-driven pest pattern few other Indiana towns its size have to manage.",
+    intro:
+      "Madison's pest pressure traces straight back to its two defining features: a National Historic Landmark district built between 1812 and 1920, and the Ohio River it sits beside. The historic district spans more than 130 blocks, the largest contiguous district of its kind in the country, and that much aging wood-frame and masonry construction gives subterranean termites and carpenter ants plenty of foundation contact and softened framing to work with. The river adds a second layer of pressure. Madison has flooded repeatedly, most severely in 1937 when the crest hit 475.9 feet, and the humidity that lingers in older basements and crawl spaces after high water or even a heavy rain keeps silverfish active well beyond what an inland Hoosier town would see. Clifty Falls State Park, bordering the city on the west with canyon walls rising some 400 feet above the river valley, brings ticks into the mix for anyone using its ravine trails. Stink bugs round out the fall calendar.",
+    sections: [
+      {
+        heading: "Historic construction and Madison's termite pressure",
+        body: "Madison's Historic District holds more than 130 blocks of buildings dating from 1812 to 1920, the largest contiguous National Historic Landmark district of its kind in the country, and that density of aging wood-frame and brick construction gives subterranean termites an unusually large amount of foundation and sill-plate contact to exploit. Termites swarm in spring but stay active underground year-round, and a homeowner in a nineteenth century structure should treat an annual inspection as closer to essential than optional, since damage to original framing in a historic home is both harder and more expensive to repair correctly than in a modern build.",
+      },
+      {
+        heading: "River flooding and silverfish in older basements",
+        body: "The Ohio River has flooded Madison more than once, and the 1937 flood, which crested at 475.9 feet, remains the benchmark event against which every later flood gets measured, including more recent high water years. Older basements and crawl spaces in the historic district tend to hold humidity for weeks after a flood or even a single heavy rain event, and that trapped moisture is exactly what silverfish need to establish themselves. Dehumidifying a flood-affected basement promptly, rather than waiting for it to dry on its own, is the single most effective step against a silverfish problem taking hold.",
+      },
+      {
+        heading: "Clifty Falls and Madison's tick exposure",
+        body: "Clifty Falls State Park borders Madison directly on the west, and its canyon along Big Clifty Creek, with waterfalls and ground rising roughly 400 feet above the Ohio River valley, is a genuine draw for hikers and a genuine source of tick exposure closer to downtown than most southern Indiana river towns have to think about. Tick season runs April through October and peaks in late spring through midsummer, and anyone hiking the park's ravine trails regularly should check for ticks after every visit rather than only during the hottest weeks of summer.",
+      },
+      {
+        heading: "Carpenter ants and fall stink bugs in the historic district",
+        body: "Nineteenth century homes in Madison's historic district often carry original wood framing, and wherever a slow moisture problem, a leaking roof valley or a foundation crack that lets river-adjacent groundwater seep in, has softened that wood, carpenter ants tend to find it. Fall brings stink bugs into the picture as well, staging on the sun-facing brick and clapboard walls that make up so much of the historic district before working through aging window trim or siding gaps to overwinter, a seasonal pattern that repeats across the district each September through November.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes in the historic district, given the age and density of wood-frame construction near the river.",
+      "Dehumidify basements and crawl spaces promptly after any flooding or heavy rain to reduce silverfish risk.",
+      "Check for ticks after every hike on Clifty Falls State Park's ravine trails, particularly April through July.",
+      "Repair roof and foundation moisture issues in historic homes promptly to reduce carpenter ant risk.",
+    ],
+    costNote:
+      "General quarterly pest plans in Madison typically run $120 to $260 per year for a single-family home, with historic homes sometimes running toward the higher end given foundation access challenges. Termite inspection and treatment for a historic property runs $400 to $1,200 depending on the extent of activity. Tick and flea treatment for a yard near Clifty Falls State Park usually runs $80 to $160 per visit.",
+    faqs: [
+      {
+        question: "Why does Madison have more termite risk than a typical Indiana town this size?",
+        answer:
+          "The Historic District's more than 130 blocks of buildings dating from 1812 to 1920 give subterranean termites an unusual amount of aging foundation and sill-plate contact to work with. An annual inspection matters more here than in a newer neighborhood.",
+      },
+      {
+        question: "Does river flooding make Madison's pest problems worse?",
+        answer:
+          "Yes, particularly for silverfish. The Ohio River has flooded Madison repeatedly, and older basements and crawl spaces in the historic district hold humidity for weeks after a flood or heavy rain, conditions silverfish need to establish themselves.",
+      },
+      {
+        question: "Are ticks a concern at Clifty Falls State Park near Madison?",
+        answer:
+          "Yes. The park's canyon trails along Big Clifty Creek put hikers in tick habitat closer to downtown than most southern Indiana river towns manage, and tick season runs April through October, peaking in late spring and early summer.",
+      },
+      {
+        question: "Are carpenter ants common in Madison's historic homes?",
+        answer:
+          "They show up most where a slow moisture problem, like a leaking roof valley or a foundation crack letting in river-adjacent groundwater, has already softened original wood framing enough to make it worth excavating.",
+      },
+      {
+        question: "When do stink bugs invade homes in Madison?",
+        answer:
+          "September through November, when they stage on sun-facing brick and clapboard walls throughout the historic district before working through aging window trim or siding gaps to overwinter.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "West Lafayette", slug: "west-lafayette", stateSlug: "indiana" },
+      { name: "Columbia City", slug: "columbia-city", stateSlug: "indiana" },
+      { name: "Portland", slug: "portland", stateSlug: "indiana" },
+      { name: "North Manchester", slug: "north-manchester", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Madison, IN | Historic District Termites & River Flooding Pests",
+    metaDescription:
+      "Madison, IN pest control for historic district termites, flood-related silverfish, Clifty Falls ticks, carpenter ants and stink bugs. Jefferson County service.",
+  },
+  {
+    slug: "portland",
+    name: "Portland",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~6,200",
+    county: "Jay County",
+    climate: "cold-humid",
+    climateDriver:
+      "Portland sits on the heavy, poorly draining clay soils left behind when the region's historic swampland was drained for farming, and its cold winters push rodents indoors while the restored wetlands nearby keep mosquitoes active through the warm months.",
+    topPests: ["Mosquitoes", "House Mice", "Voles", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Jay County was once part of the 13,000-acre Limberlost Swamp, drained between 1888 and 1910 for farmland, and the restored wetlands nearby, Loblolly Marsh Nature Preserve among them, put standing water and mosquito breeding habitat only a few miles from Portland.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The heavy clay soils left behind by the drained Limberlost Swamp hold water poorly, and the corn and soybean fields that now cover that ground still push field mice toward the nearest building the moment harvest strips their cover each fall.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, most visible in fall and winter",
+        note: "The same heavy, slow-draining farmland soils that once made up the Limberlost basin give voles thick grass cover to tunnel through along field edges and yards bordering cropland outside Portland.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sunny exterior walls of Portland homes each fall before finding a gap to slip through for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older homes on Portland's poorly draining lots see carpenter ant activity wherever standing water near a foundation has softened framing enough to make it worth excavating.",
+      },
+    ],
+    localHook:
+      "Portland sits near the heart of what was once the 13,000-acre Limberlost Swamp, one of Indiana's largest historic wetlands, drained between 1888 and 1910 by a steam-powered dredge and farmed for eighty years before local conservationists began restoring parts of it in 1991. Loblolly Marsh Nature Preserve, 463 acres of that restoration a short drive from town, sits alongside heavy clay farmland that still drains poorly, giving Jay County a mosquito and standing-water pest pattern tied directly to a swamp that officially no longer exists.",
+    intro:
+      "Portland's pest pressure has one unusual root: the town sits near the center of what used to be the Limberlost Swamp, a 13,000-acre wetland that covered parts of Jay and Adams counties before it was drained for farmland between 1888 and 1910. Eighty years of farming later, local conservationists began restoring pieces of that wetland in 1991, and Loblolly Marsh Nature Preserve, 463 acres of restored swamp a short drive from town, now sits alongside farmland that still carries the same heavy, slow-draining clay soils the swamp left behind. That combination gives Portland a mosquito season tied to real standing water nearby, plus a fall mice surge when Jay County's corn and soybean harvest strips cover off the surrounding fields. Voles work the same poorly draining ground along field edges, and stink bugs and carpenter ants round out the year.",
+    sections: [
+      {
+        heading: "The Limberlost's legacy and Portland's mosquito season",
+        body: "Jay County was once home to a large piece of the 13,000-acre Limberlost Swamp, drained by a steam-powered dredge between 1888 and 1910 and farmed for the next eighty years before Ken Brunswick's Limberlost Swamp Remembered restoration effort began reclaiming parts of it in 1991. Loblolly Marsh Nature Preserve, 463 acres of that restored wetland, now sits a short drive from Portland, and its standing water keeps mosquitoes active from May through September in a way that a typical inland Indiana farm town, without a nearby wetland of this size, does not experience to the same degree.",
+      },
+      {
+        heading: "Heavy clay soils and Portland's fall mice",
+        body: "The Limberlost basin left behind heavy, slow-draining clay soils across the farmland surrounding Portland, ground that now grows the corn and soybeans Jay County's economy depends on. That poorly draining farmland still follows the same seasonal pattern common across the region: when the harvest strips cover from the fields each September and October, house mice lose their outdoor shelter overnight and head for the nearest structure, and homes on the edge of town take the brunt of that push.",
+      },
+      {
+        heading: "Voles along Portland's field edges",
+        body: "Voles thrive in the thick grass cover that the same heavy, poorly draining soils support along field edges and unmowed yard borders outside Portland, and their tunnel systems are most visible in fall and winter once vegetation dies back and reveals the surface runways underneath. A vole problem tends to show up as girdled bark on young trees and shrubs near a property line, and catching it before winter, when voles do the most damage to dormant plants, is far easier than repairing the damage afterward.",
+      },
+      {
+        heading: "Stink bugs and carpenter ants each fall",
+        body: "Stink bugs stage on sunny exterior walls of Portland homes every September through November before finding a gap to slip through and overwinter, a pattern consistent with the rest of east central Indiana. Carpenter ants, meanwhile, tend to turn up in older homes on Portland's flatter, poorly draining lots wherever water pooling near a foundation has had time to soften the framing above it, a slower-building problem than the fall invaders but one that is cheaper to catch early.",
+      },
+    ],
+    prevention: [
+      "Remove standing water on properties near restored wetland areas throughout mosquito season, May through September.",
+      "Seal foundation gaps on homes near open farmland before the fall harvest strips cover from the fields.",
+      "Mow grass short along field edges and property lines to reduce vole tunneling habitat, especially before winter.",
+      "Grade soil away from foundations on poorly draining lots to reduce carpenter ant risk from softened framing.",
+    ],
+    costNote:
+      "General quarterly pest plans in Portland typically run $110 to $220 per year for a single-family home. Mosquito treatment for a yard near wetland or restored marsh areas usually runs $70 to $150 per visit during peak season. Vole and mole control for a property bordering farmland runs $90 to $180 per treatment.",
+    faqs: [
+      {
+        question: "Why does Portland have more mosquitoes than a typical small Indiana town?",
+        answer:
+          "Portland sits close to the restored wetlands of the historic Limberlost Swamp, including Loblolly Marsh Nature Preserve, and that standing water keeps mosquitoes active from May through September more than an inland farm town without a nearby wetland would experience.",
+      },
+      {
+        question: "Does Jay County's farmland cause a fall mice problem in Portland?",
+        answer:
+          "Yes. The heavy clay soils left behind by the drained Limberlost Swamp still grow corn and soybeans right up to town, and when the harvest strips that cover each September and October, mice head for the nearest structure.",
+      },
+      {
+        question: "Are voles a problem near Portland?",
+        answer:
+          "They are common along field edges and unmowed property lines where the area's heavy, poorly draining soils support thick grass cover, and their tunnel damage is most visible in fall and winter once vegetation dies back.",
+      },
+      {
+        question: "What was the Limberlost Swamp near Portland?",
+        answer:
+          "A roughly 13,000-acre wetland covering parts of Jay and Adams counties, drained for farmland between 1888 and 1910. Restoration efforts starting in 1991 brought back parts of it, including the 463-acre Loblolly Marsh Nature Preserve near town.",
+      },
+      {
+        question: "When are stink bugs worst in Portland?",
+        answer:
+          "September through November, when they gather on sunny exterior walls before finding a gap and pushing indoors for winter, a pattern common across east central Indiana.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "West Lafayette", slug: "west-lafayette", stateSlug: "indiana" },
+      { name: "Columbia City", slug: "columbia-city", stateSlug: "indiana" },
+      { name: "Madison", slug: "madison", stateSlug: "indiana" },
+      { name: "North Manchester", slug: "north-manchester", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Portland, IN | Limberlost Swamp Mosquitoes & Farm Mice",
+    metaDescription:
+      "Portland, IN pest control for wetland mosquitoes near the historic Limberlost Swamp, fall harvest mice, voles, stink bugs and carpenter ants. Jay County service.",
+  },
+  {
+    slug: "north-manchester",
+    name: "North Manchester",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~5,200",
+    county: "Wabash County",
+    climate: "cold-humid",
+    climateDriver:
+      "North Manchester sits directly on the Eel River in north central Indiana, where a long history of river flooding keeps low-lying ground damp for weeks at a stretch and cold winters push rodents and overwintering insects into any structure with a gap to offer.",
+    topPests: ["House Mice", "Silverfish", "Mosquitoes", "Bed Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Wabash County's farmland surrounds North Manchester closely, and the fall harvest that strips cover from those fields sends mice looking for the nearest building, a pattern low-lying homes near the Eel River feel especially fast.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse after flooding or heavy rain",
+        note: "The Eel River has flooded North Manchester repeatedly since at least 1883, when a spring thaw sent water into cellars and low-lying lots across town, and basements near the river hold humidity long after high water recedes, ideal conditions for silverfish.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Eel River's flood-prone low ground leaves standing water in yards and low spots near downtown for days after a heavy rain, giving mosquitoes breeding habitat closer to homes than a town on higher ground would see.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Peaks around August move-in, year-round risk",
+        note: "Manchester University's August move-in brings a wave of furniture and moving-box turnover through North Manchester's off-campus student rentals each fall.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather on sunny exterior walls of North Manchester homes each fall before finding a gap to slip through for winter.",
+      },
+    ],
+    localHook:
+      "The Eel River runs directly through North Manchester, and it has flooded the town repeatedly since at least February 1883, when a newspaper account described the river reaching its highest level in memory, filling cellars and covering sidewalks across low-lying parts of town. Combined with Manchester University's seasonal student housing turnover, that flood history gives North Manchester a moisture-driven pest pattern, silverfish and mosquitoes especially, layered on top of the usual small college town's bed bug risk.",
+    intro:
+      "North Manchester's pest pressure comes down to water and a small university. The Eel River runs directly through town and has flooded it repeatedly, with a documented event as far back as February 1883 that filled cellars and covered sidewalks, and 1913 remembered locally as another especially severe flood year. That flood history keeps humidity high in basements and low-lying yards near the river for days or weeks after high water recedes, conditions that push silverfish activity well above what a town on higher ground would see and that leave standing water for mosquitoes to breed in through the warm months. Manchester University adds a second, more familiar pressure. Its August move-in brings furniture and moving-box turnover through off-campus student rentals, and bed bugs travel easily in that kind of churn. Fall mice pressure from the farmland ringing town and the usual stink bug invasion round out the calendar.",
+    sections: [
+      {
+        heading: "The Eel River's flood history and North Manchester's silverfish",
+        body: "North Manchester has a documented flood history stretching back to at least February 1883, when the Eel River reportedly reached its highest level in living memory, filling cellars, covering sidewalks, and damaging railroad bridges across town, with 1913 remembered locally as another especially bad flood year. Basements and crawl spaces in homes near the river tend to hold humidity for a long stretch after any flood or even a heavy rain event, and that trapped moisture is exactly the kind of environment silverfish need to establish themselves. Dehumidifying a damp basement promptly after high water, rather than letting it dry out on its own, is the most effective single step against a silverfish problem taking hold.",
+      },
+      {
+        heading: "Standing water and mosquitoes near the river",
+        body: "The same low-lying ground that floods during major Eel River events also leaves smaller pockets of standing water in yards and low spots near downtown after an ordinary heavy rain, and that water gives mosquitoes breeding habitat closer to homes than a town built on higher ground would have to deal with. Mosquito season runs May through September, and residents on flood-prone or low-lying lots near the river should treat standing water on their own property as a priority, since it compounds whatever natural breeding water the river's floodplain already provides.",
+      },
+      {
+        heading: "Bed bugs and Manchester University's August turnover",
+        body: "Manchester University's fall move-in each August sends a wave of moving activity through North Manchester's off-campus student rental housing, and bed bugs travel just as easily in a moving box or a secondhand couch as they do in a used mattress. It is a smaller-scale version of the turnover a larger college town sees, but the risk works the same way: inspecting furniture before it comes into a rental unit, and calling for an inspection at the first sign of bites, catches a problem while it is still contained to one unit rather than spreading through a whole rental property.",
+      },
+      {
+        heading: "Fall mice and stink bugs",
+        body: "Wabash County's farmland presses close against North Manchester, and low-lying homes near the Eel River feel the fall mice surge especially fast once the harvest strips cover from nearby fields each September and October, since a flood-softened foundation or sill plate can already have small gaps that are easy for a mouse to widen. Stink bugs follow their usual regional pattern, staging on sunny exterior walls from September through November before working through a gap to overwinter indoors, regardless of a home's distance from the river.",
+      },
+    ],
+    prevention: [
+      "Dehumidify basements and crawl spaces promptly after any flooding or heavy rain, especially in homes near the Eel River.",
+      "Clear standing water on low-lying properties throughout mosquito season, May through September.",
+      "Inspect secondhand furniture and moving boxes before bringing them into off-campus student rentals, especially during August move-in.",
+      "Seal foundation gaps on homes near open farmland before the fall harvest, checking flood-softened areas first.",
+    ],
+    costNote:
+      "General quarterly pest plans in North Manchester typically run $110 to $230 per year for a single-family home. Bed bug inspection and treatment for a rental unit runs $300 to $900 depending on unit size and infestation extent. Basement dehumidification and silverfish treatment after flooding usually runs $150 to $350 depending on square footage.",
+    faqs: [
+      {
+        question: "Why does North Manchester have a silverfish problem after flooding?",
+        answer:
+          "The Eel River has flooded the town repeatedly since at least 1883, and basements near the river hold humidity for a long stretch after high water recedes. That trapped moisture is exactly what silverfish need to establish themselves, so dehumidifying quickly after any flood matters.",
+      },
+      {
+        question: "Does the Eel River increase mosquito pressure in North Manchester?",
+        answer:
+          "Yes. Low-lying ground near the river holds standing water after heavy rain even outside of major flood events, giving mosquitoes breeding habitat closer to homes from May through September than a town on higher ground would see.",
+      },
+      {
+        question: "Why do off-campus rentals in North Manchester see bed bug risk?",
+        answer:
+          "Manchester University's August move-in brings furniture and moving-box turnover through off-campus student housing, and bed bugs travel easily in that kind of churn, so inspecting items before they come into a rental unit matters.",
+      },
+      {
+        question: "How bad has Eel River flooding been in North Manchester's history?",
+        answer:
+          "A documented flood in February 1883 reportedly reached the highest level in memory at the time, filling cellars and covering sidewalks, and 1913 is remembered locally as another especially severe flood year.",
+      },
+      {
+        question: "When are stink bugs worst in North Manchester?",
+        answer:
+          "September through November, when they gather on sunny exterior walls before finding a gap and pushing indoors for winter, the same pattern seen across north central Indiana regardless of proximity to the river.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "West Lafayette", slug: "west-lafayette", stateSlug: "indiana" },
+      { name: "Columbia City", slug: "columbia-city", stateSlug: "indiana" },
+      { name: "Madison", slug: "madison", stateSlug: "indiana" },
+      { name: "Portland", slug: "portland", stateSlug: "indiana" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in North Manchester, IN | Eel River Flood Pests & Campus Bed Bugs",
+    metaDescription:
+      "North Manchester, IN pest control for Eel River flood-related silverfish and mosquitoes, campus bed bugs, fall mice and stink bugs. Wabash County service.",
+  },
 ];

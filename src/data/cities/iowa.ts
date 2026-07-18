@@ -3812,4 +3812,579 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Oelwein, IA pest control for older rail-era homes, harvest mice, Otter Creek and Lake Oelwein mosquitoes, cluster flies and boxelder bugs. Fayette County service.",
   },
+  {
+    slug: "decorah",
+    name: "Decorah",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~7,500",
+    county: "Winneshiek County",
+    climate: "cold-humid",
+    climateDriver:
+      "Decorah sits in Iowa's unglaciated Driftless Area, where cold winters and humid summers pair with steep limestone bluffs, karst sinkholes, and cold, spring-fed streams instead of the flatter, till-covered farmland found across most of the state. That thinner, rockier soil drains faster than deep till, which lightens some pest pressure while the forested bluff valleys add more damp, decaying wood than a typical Iowa town offers.",
+    topPests: ["House Mice", "Carpenter Ants", "Cluster Flies", "Boxelder Bugs", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Decorah's downtown and hillside housing stock, much of it built during the town's 1850s Norwegian settlement era, gives mice more foundation gaps to work with than newer construction, and the surrounding farmland's fall harvest pushes field mice toward the nearest building each year.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "The forested limestone bluffs that line the Upper Iowa River valley hold more damp, decaying wood in fallen timber and old tree cover than the row-crop farmland typical of central Iowa, and homes built into or near those bluffs see more carpenter ant pressure as a result.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Decorah's older downtown buildings, many still in use from the town's Norwegian settlement era, give cluster flies plenty of aging gaps to slip through each September before overwintering in wall voids and attics.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on the sunniest bluff-facing walls in Decorah each fall before pushing into wall voids and attics for winter, a pattern common across the Driftless Area's forested valley towns.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August, lighter than most Iowa towns",
+        note: "Trout Run and the Upper Iowa River both run cold and fast even in midsummer, and that moving, spring-fed water does not support mosquito breeding the way stagnant ponds do, though low spots and farm ponds outside town still produce a normal early-summer hatch.",
+      },
+    ],
+    localHook:
+      "Decorah sits in Iowa's only Driftless Area, the stretch of northeast Iowa that the last Ice Age's glaciers never leveled, leaving steep limestone bluffs, karst sinkholes, and cold, spring-fed streams like Trout Run in place of the flatter, till-covered farmland found across most of the state. That unglaciated terrain, along with the well-preserved 19th-century downtown built during Decorah's Norwegian settlement era, shapes which pests find an easy way into local homes.",
+    intro:
+      "Decorah's pest pressure looks different from most of Iowa because the ground underneath it is different. The Driftless Area's limestone bluffs and karst topography, sinkholes, exposed rock, and thin soil over bedrock, hold moisture in ways the flatter till plains farther south don't, and the forested valleys that follow the Upper Iowa River and Trout Run give carpenter ants more damp, decaying wood to nest in than a typical Iowa town offers. Decorah's older downtown buildings, many dating to the town's Norwegian immigrant settlement in the 1850s, add their own aging gaps for mice and cluster flies each fall. Mosquitoes are actually a smaller concern here than in flatter parts of the state: Trout Run and the Upper Iowa River are cold, fast-moving, spring-fed water, which doesn't breed mosquitoes the way stagnant ponds do, though isolated low spots and farm ponds outside town still produce a normal summer season. Boxelder bugs round out the calendar, staging on the sunniest bluff-facing walls each September.",
+    sections: [
+      {
+        heading: "Karst topography and carpenter ants in Decorah",
+        body: "Decorah's ground is unlike most of Iowa's. The Driftless Area was bypassed by the glaciers that flattened and covered the rest of the state with till, so the land here keeps its original limestone bedrock close to the surface, along with sinkholes and the steep, forested bluffs that line the Upper Iowa River valley. Those forested slopes hold more moisture in fallen and standing timber than the row-crop farmland typical of central Iowa, and that damp, decaying wood is exactly what carpenter ants look for when they nest. Homes built into or near the bluffs, especially those with wood in contact with damp soil or old retaining structures, see more carpenter ant activity than homes on the flatter ground at the edge of town.",
+      },
+      {
+        heading: "Trout Run, the Upper Iowa River, and a lighter mosquito season",
+        body: "Trout Run, an eleven-mile spring-fed trout stream, and the Upper Iowa River both run cold and keep moving even in July, and that matters for mosquito control because mosquitoes need still water to lay eggs and complete their larval stage. Fast, cold, spring-fed water doesn't support that breeding cycle the way a stagnant pond or a slow farm ditch does elsewhere in Iowa. That doesn't mean Decorah is mosquito-free, though. Low spots off the bluffs, cattle tanks, and the occasional blocked drainage ditch still produce a normal early-summer hatch, but the pressure is generally lighter than river towns built on slower, warmer water.",
+      },
+      {
+        heading: "Older downtown buildings and fall pests",
+        body: "Decorah's downtown grew up during the town's Norwegian immigrant settlement in the 1850s, and a lot of that original building stock, along with the homes built up the hillsides around it, is still standing and still in use. That age gives house mice and cluster flies more foundation gaps and attic access points than newer construction offers, particularly once the surrounding farmland's harvest clears field cover each fall and pushes mice toward the nearest building. Boxelder bugs follow a similar pattern, gathering on the sunniest bluff-facing exterior walls in September before working into wall voids for the winter.",
+      },
+      {
+        heading: "Termite risk on thin, rocky Driftless soil",
+        body: "Termite pressure in Decorah tends to run lighter than in Iowa towns built on deep, moisture-holding till, since the shallow soil over limestone bedrock here drains faster and doesn't hold groundwater against a foundation the same way. That said, older homes near the river valleys, where soil sits deeper and damper, still carry real risk, especially where wood framing or porch posts sit close to grade. A periodic inspection is still worth scheduling for any home more than a few decades old near the water.",
+      },
+    ],
+    prevention: [
+      "Keep firewood, mulch, and wood-to-soil contact away from home foundations, especially on bluff-adjacent lots, to reduce carpenter ant access.",
+      "Clear or aerate stagnant low spots and cattle tanks each spring to keep Decorah's already-light mosquito season from building up.",
+      "Seal foundation and attic gaps in older downtown and hillside homes before fall to block mice and cluster flies.",
+      "Schedule a termite inspection every few years for older homes near the Upper Iowa River valley, where soil stays damper.",
+    ],
+    costNote:
+      "General quarterly pest plans in Decorah typically run $115 to $225 a year for a standard home. Carpenter ant treatment, common on bluff-adjacent properties, often runs $150 to $350 depending on how established the nest is. Termite inspections are usually free, with treatment priced separately by structure size, typically $450 to $1,000.",
+    faqs: [
+      {
+        question: "Does Decorah's Driftless Area terrain really change its pest pressure?",
+        answer:
+          "Yes. The limestone bluffs, karst sinkholes, and thin, rocky soil found only in this unglaciated part of northeast Iowa hold moisture differently than the flatter till plains elsewhere in the state, which is part of why carpenter ants are more of a concern here relative to termites.",
+      },
+      {
+        question: "Are mosquitoes a big problem in Decorah?",
+        answer:
+          "Less than in many Iowa towns. Trout Run and the Upper Iowa River are cold, fast-moving, spring-fed water that doesn't support mosquito breeding the way stagnant ponds do, though low spots and farm ponds outside town still produce a normal summer season.",
+      },
+      {
+        question: "Why do older Decorah homes see more mice and cluster flies?",
+        answer:
+          "A lot of Decorah's downtown and hillside housing dates to the town's 1850s Norwegian settlement era, and that age gives both pests more foundation gaps and attic access points than newer construction offers, especially each fall.",
+      },
+      {
+        question: "Is termite risk high in Decorah?",
+        answer:
+          "Generally lower than in towns built on deeper, moisture-holding soil, since Decorah's shallow ground over limestone bedrock drains faster. Older homes in the river valleys, where soil runs deeper and damper, still carry real risk and are worth a periodic inspection.",
+      },
+      {
+        question: "When do boxelder bugs show up in Decorah?",
+        answer:
+          "Mostly September through October, when they gather on the sunniest bluff-facing walls before pushing into wall voids for winter, a pattern common across the Driftless Area's forested valley towns.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Centerville", slug: "centerville", stateSlug: "iowa" },
+      { name: "Orange City", slug: "orange-city", stateSlug: "iowa" },
+      { name: "Keokuk", slug: "keokuk", stateSlug: "iowa" },
+      { name: "Charles City", slug: "charles-city", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Decorah, IA | Driftless Area Carpenter Ants",
+    metaDescription:
+      "Decorah, IA pest control for Driftless Area carpenter ants, older downtown mice and cluster flies, and a lighter mosquito season from cold spring-fed streams. Winneshiek County service.",
+  },
+  {
+    slug: "centerville",
+    name: "Centerville",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~5,400",
+    county: "Appanoose County",
+    climate: "cold-humid",
+    climateDriver:
+      "Centerville has the same cold winters and humid summers as the rest of Iowa, but southern Iowa's terrain runs more wooded and pastured than the flat row-crop plains farther north, and that mix of timber, grazing land, and nearby Rathbun Lake gives Centerville's pests more varied habitat than a typical central Iowa town sees.",
+    topPests: ["House Mice", "Carpenter Ants", "Mosquitoes", "Cluster Flies", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Centerville's housing stock grew fast during the coal-boom years after 1868, when the Centerville Block Coal Company and its rivals drew immigrant families to town, and that older building stock still gives mice more foundation gaps than newer construction, especially once the surrounding pastureland's cover thins out each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Southern Iowa's wooded, pastured landscape holds more decaying timber and tree cover near homes than the flatter row-crop counties farther north, and that gives carpenter ants more places to nest close to Centerville properties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Rathbun Lake, the large reservoir formed by damming the Chariton River and dedicated in 1971, sits in Appanoose County and adds regional breeding habitat on top of the farm ponds already common across the area's pastureland.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "The homes and commercial buildings built around Centerville's town square during the early 1900s coal era give cluster flies plenty of aging gaps to exploit each September before they overwinter indoors.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on sunny exterior walls around Centerville each fall, a routine nuisance in a town with as much mature tree cover as the square and surrounding neighborhoods carry.",
+      },
+    ],
+    localHook:
+      "Centerville grew almost overnight after coal was discovered here in 1868, and the Centerville Block Coal Company's boom years, when regional production topped 600,000 tons a year by the late 1930s, drew Swedish, Italian, Croatian, and Albanian immigrant families and left behind the largest courthouse square in Iowa. That coal-era housing stock, plus the more wooded, pastured terrain typical of southern Iowa, is what actually shapes Centerville's pest pressure today.",
+    intro:
+      "Centerville doesn't look like a lot of Iowa towns, and that starts with its history. Coal built this place, starting in 1868 and running hard through the Centerville Block Coal Company's peak years in the 1930s, when immigrant families from Sweden, Italy, Croatia, and Albania came to work the mines. The housing that boom left behind, much of it now well over a century old, gives mice and cluster flies more foundation gaps and attic access than newer construction offers. Southern Iowa's terrain adds its own pressure: this part of the state runs more wooded and pastured than the flat row-crop plains up north, and that mix of timber and grazing land gives carpenter ants more decaying wood to work with close to town. Rathbun Lake, a large reservoir in the same county, adds mosquito breeding habitat on top of the farm ponds already scattered across the area's pastureland. Boxelder bugs round things out, gathering on sunny walls each September before pushing indoors for winter.",
+    sections: [
+      {
+        heading: "Coal-boom housing and fall mice in Centerville",
+        body: "Centerville's population and building stock both grew fast after coal was discovered in 1868, and the Centerville Block Coal Company's expansion through the early 1900s pulled in Swedish, Italian, Croatian, and Albanian immigrant families faster than the town could always build to modern standards. A lot of that housing is still standing today, clustered around what is now the largest courthouse square in Iowa, and its age gives mice more foundation gaps and basement access points than newer construction typically has. Once fall arrives and the pastureland surrounding Centerville loses its cover, field mice move toward the nearest building, and the coal-era homes closest to downtown tend to see the heaviest pressure.",
+      },
+      {
+        heading: "Southern Iowa's wooded, pastured landscape and carpenter ants",
+        body: "Southern Iowa looks different from the flat, row-crop-dominated plains farther north. The terrain around Centerville runs more wooded and pastured, a mix of timber stands and grazing land rather than continuous corn and soybean fields, and that landscape holds more standing and fallen decaying wood near homes than a typical central Iowa property sees. Carpenter ants nest in exactly that kind of moisture-holding wood, and homes with mature trees close by or wood-to-soil contact points around porches and decks carry more risk here than in flatter, more cultivated parts of the state.",
+      },
+      {
+        heading: "Rathbun Lake and Centerville's mosquito season",
+        body: "Rathbun Lake, formed by damming the Chariton River and dedicated in 1971, is one of the larger reservoirs in this part of Iowa and sits within Appanoose County. That kind of large, standing water body adds regional mosquito breeding habitat on top of the farm ponds and pasture-country low spots already common across the area. Mosquito season in Centerville typically runs May through September, with the heaviest activity following any stretch of rain that leaves water standing in low pasture ground.",
+      },
+      {
+        heading: "Cluster flies and boxelder bugs around the town square",
+        body: "The homes and commercial buildings built up around Centerville's town square during the coal boom carry the same aging entry points that make cluster flies and boxelder bugs a reliable fall nuisance. Both pests gather on sunny exterior walls in September before finding a gap into an attic or wall void for the winter, then reappear on warm days through the colder months. The mature tree cover common around the square and older residential streets gives both pests plenty of staging ground before they move indoors.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and basement gaps in coal-era homes near the town square to reduce mouse harborage.",
+      "Remove wood-to-soil contact points and trim tree limbs touching the house to cut carpenter ant access.",
+      "Clear standing water in pasture low spots and farm ponds each spring to reduce mosquito breeding tied to Rathbun Lake's regional habitat.",
+      "Seal exterior cracks on sunny walls before September to reduce cluster fly and boxelder bug entry.",
+    ],
+    costNote:
+      "General quarterly pest plans in Centerville typically run $110 to $210 a year for a standard home, in line with other Appanoose County service areas. Carpenter ant and termite inspections are usually free, with treatment priced separately by structure size, often $400 to $950. Fall exclusion work to block mice, cluster flies, and boxelder bugs before winter runs $120 to $230.",
+    faqs: [
+      {
+        question: "Does Centerville's coal-mining history still affect pest control today?",
+        answer:
+          "Yes. Much of Centerville's older housing dates to the coal boom that followed the 1868 discovery of coal here, and that age gives mice and cluster flies more foundation gaps and attic access than newer construction typically has.",
+      },
+      {
+        question: "Why are carpenter ants more of a concern in Centerville than in central Iowa?",
+        answer:
+          "Southern Iowa's terrain runs more wooded and pastured than the flat row-crop plains farther north, and that landscape holds more decaying wood near homes, exactly the conditions carpenter ants look for when they nest.",
+      },
+      {
+        question: "Does Rathbun Lake affect mosquito pressure in Centerville?",
+        answer:
+          "It adds to it. Rathbun Lake is a large reservoir in Appanoose County, and standing water of that size adds regional mosquito breeding habitat on top of the farm ponds already common across the surrounding pastureland.",
+      },
+      {
+        question: "When should Centerville homeowners worry about field mice?",
+        answer:
+          "Mostly September through November, once the pastureland around Centerville loses its cover and field mice move toward the nearest building, with the coal-era homes closest to downtown typically seeing the heaviest pressure.",
+      },
+      {
+        question: "How do I stop boxelder bugs from getting into an older Centerville home?",
+        answer:
+          "Seal exterior cracks on the sunniest walls before September, since that's where boxelder bugs stage before finding a way into an attic or wall void for winter, common in the mature tree cover around Centerville's town square.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Decorah", slug: "decorah", stateSlug: "iowa" },
+      { name: "Orange City", slug: "orange-city", stateSlug: "iowa" },
+      { name: "Keokuk", slug: "keokuk", stateSlug: "iowa" },
+      { name: "Charles City", slug: "charles-city", stateSlug: "iowa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Centerville, IA | Coal-Era Homes & Rathbun Lake",
+    metaDescription:
+      "Centerville, IA pest control for coal-boom-era housing, southern Iowa carpenter ants, and Rathbun Lake mosquitoes. Licensed, insured service in Appanoose County.",
+  },
+  {
+    slug: "orange-city",
+    name: "Orange City",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~6,400",
+    county: "Sioux County",
+    climate: "cold-humid",
+    climateDriver:
+      "Orange City sees the same cold winters and humid summers as the rest of Iowa, but Sioux County's economy leans heavily on row-crop and livestock farming, hogs especially, and that concentration of agricultural operations surrounding the town brings more fly and rodent pressure into Orange City than a lot of Iowa communities see.",
+    topPests: ["House Mice", "Flies", "Boxelder Bugs", "Carpenter Ants", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Sioux County's row-crop and livestock farms surround Orange City on every side, and the grain storage and outbuildings that come with them give mice a clear path from field to town, especially once the fall harvest clears their cover.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through October, peaking in warm months",
+        note: "Sioux County's concentration of hog and cattle operations brings more nuisance fly pressure into Orange City than a lot of comparable northwest Iowa towns see, particularly on properties closest to the surrounding farmland.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on sunny exterior walls around Orange City each fall before working into wall voids and attics for winter, a routine pattern across this part of northwest Iowa.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Moisture around older windows, rooflines, and deck framing gives carpenter ants an opening in Orange City homes, particularly on the tree-lined streets near the town's original 1870s settlement core.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Sioux County's flat, heavily irrigated and drained farmland keeps soil moisture fairly consistent near town, and that gives subterranean termites a steady path toward older foundations with wood-to-soil contact.",
+      },
+    ],
+    localHook:
+      "Orange City was settled in 1870 by Dutch Calvinist immigrants who arrived from the earlier Dutch colony at Pella, Iowa, and the town still carries that heritage today, most visibly at Northwestern College, founded in 1882. Sioux County's economy remains anchored in row-crop and livestock farming, hogs especially, and it's that concentration of agricultural operations surrounding Orange City, not the town's Dutch roots, that actually drives its fly and rodent pressure.",
+    intro:
+      "Orange City wears its Dutch heritage openly, from the architecture downtown to Northwestern College, founded in 1882 not long after Dutch Calvinist settlers arrived from Pella in 1870. But the pest pressure homeowners here deal with has more to do with what surrounds the town than what founded it. Sioux County is heavy row-crop and livestock country, hogs especially, and that concentration of farm operations sends more nuisance flies and field mice toward Orange City than a lot of comparable Iowa towns experience. Boxelder bugs and carpenter ants add their own seasonal pressure, the first staging on sunny walls each fall and the second working into moisture points around older homes through the growing season. Termites round out the picture, moving steadily through the area's consistently moist, heavily drained farmland soil toward any foundation with wood-to-soil contact.",
+    sections: [
+      {
+        heading: "Sioux County's hog and cattle operations and fly pressure",
+        body: "Sioux County's economy runs on row-crop and livestock agriculture, and hog production in particular is a major part of that mix. The concentration of livestock operations surrounding Orange City brings more nuisance fly pressure into town than a typical Iowa community sees, especially on properties nearest the surrounding farmland and during the warmer months when fly populations build fastest. Homes and businesses at the edge of town, closest to the farm operations, generally see the most consistent pressure.",
+      },
+      {
+        heading: "Row-crop harvest and fall mice in Orange City",
+        body: "The same row-crop farmland that surrounds Orange City on every side also drives its mouse pressure. Grain storage buildings and farm outbuildings give mice cover through the growing season, but once the fall harvest clears the fields, they move toward the nearest heated structure, which often means the homes and businesses closest to the edge of town. That surge typically runs from September through November and tends to hit older buildings with foundation gaps hardest.",
+      },
+      {
+        heading: "Boxelder bugs and carpenter ants in town",
+        body: "Orange City's tree-lined streets, especially near the original 1870s settlement core downtown, give boxelder bugs plenty of sunny walls to gather on each September before they push into wall voids for winter. Carpenter ants follow a slower seasonal pattern, working into moisture points around older windows, rooflines, and deck framing from April through September. Both pests tend to concentrate in the town's older residential blocks rather than newer construction at the edges.",
+      },
+      {
+        heading: "Termite risk on Sioux County's flat, drained farmland",
+        body: "Sioux County's farmland is flat and heavily managed for drainage to support row-crop production, and that keeps soil moisture fairly steady near town rather than fluctuating the way it might in hillier terrain. That consistency gives subterranean termites a reliable path toward older foundations, particularly where wood framing, porch posts, or old additions sit close to grade. An inspection every few years is a reasonable precaution for any home built before modern termite barriers were standard.",
+      },
+    ],
+    prevention: [
+      "Seal grain storage and outbuilding access points on properties near farmland to reduce mouse movement into town.",
+      "Manage outdoor trash and organic waste closely on properties nearest livestock operations to cut nuisance fly pressure.",
+      "Seal exterior cracks on sunny walls before September to reduce boxelder bug entry.",
+      "Schedule a termite inspection every few years for older homes with wood-to-soil contact near foundations.",
+    ],
+    costNote:
+      "General quarterly pest plans in Orange City typically run $115 to $220 a year for a standard home. Fly and rodent pressure tied to nearby livestock operations sometimes calls for added service on properties closest to farmland, often $100 to $180 more per year. Termite inspections are usually free, with treatment priced separately by structure size, typically $450 to $1,000.",
+    faqs: [
+      {
+        question: "Why does Orange City have more fly pressure than some Iowa towns?",
+        answer:
+          "Sioux County's economy is heavy in row-crop and livestock farming, hogs especially, and the concentration of agricultural operations surrounding Orange City brings more nuisance fly pressure into town than a lot of comparable Iowa communities see.",
+      },
+      {
+        question: "Does Orange City's Dutch heritage affect its pest pressure?",
+        answer:
+          "Not directly. Orange City was settled by Dutch Calvinist immigrants in 1870 and still carries that heritage, notably at Northwestern College, but the pest pressure homeowners deal with comes from the surrounding row-crop and livestock farmland, not the town's history.",
+      },
+      {
+        question: "When do field mice become a problem in Orange City?",
+        answer:
+          "Mostly September through November, once the row-crop harvest around Orange City clears field cover and mice move toward the nearest heated building, with older structures near the edge of town typically seeing the heaviest pressure.",
+      },
+      {
+        question: "Is termite risk a concern in Orange City?",
+        answer:
+          "Yes, on older homes. Sioux County's flat, heavily drained farmland keeps soil moisture fairly consistent near town, giving subterranean termites a steady path toward foundations with wood-to-soil contact, so a periodic inspection is worthwhile.",
+      },
+      {
+        question: "How do I reduce boxelder bugs around my Orange City home?",
+        answer:
+          "Seal exterior cracks on sunny walls before September, since that's where boxelder bugs gather before finding a way into an attic or wall void for winter, especially common on the tree-lined streets near downtown.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Decorah", slug: "decorah", stateSlug: "iowa" },
+      { name: "Centerville", slug: "centerville", stateSlug: "iowa" },
+      { name: "Keokuk", slug: "keokuk", stateSlug: "iowa" },
+      { name: "Charles City", slug: "charles-city", stateSlug: "iowa" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Orange City, IA | Farm-Country Flies & Mice",
+    metaDescription:
+      "Orange City, IA pest control for Sioux County livestock-driven flies and mice, boxelder bugs, carpenter ants, and termites. Licensed, insured local service.",
+  },
+  {
+    slug: "keokuk",
+    name: "Keokuk",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~9,600",
+    county: "Lee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Keokuk sits where the Mississippi River meets Lock and Dam No. 19, and the town's cold winters and humid summers are shaped further by a long history of major river flooding, including a record 1965 crest, a major 1993 flood, and a stretch of record-breaking river levels from 2019 into 2020. That flood history is the single biggest driver of Keokuk's mosquito season.",
+    topPests: ["Mosquitoes", "House Mice", "Cluster Flies", "Carpenter Ants", "Eastern Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, with post-flood surges",
+        note: "Iowa State University Extension notes that floodwater mosquito eggs can lie dormant in soil for years and hatch within seven to ten days once standing water forms, a mechanism especially relevant in Keokuk given the town's repeated major Mississippi River floods.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Keokuk's older river-port housing and warehouse buildings near the historic downtown give mice more foundation gaps and storage clutter to exploit than newer construction offers, especially as temperatures drop each fall.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "A lot of Keokuk's residential and commercial building stock predates modern construction standards, and that age gives cluster flies plenty of aging gaps to slip through each September before overwintering indoors.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "The moisture the Mississippi River holds in the ground near Keokuk gives carpenter ants an easier path into wood framing close to the water than drier inland properties typically see.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "River-adjacent soil near Keokuk stays wetter than ground further from the Mississippi, and that moisture gives subterranean termites a foothold near older foundations with wood-to-soil contact, particularly in the historic downtown blocks closest to the water.",
+      },
+    ],
+    localHook:
+      "Keokuk sits where the Mississippi River meets Lock and Dam No. 19, an Army Corps of Engineers structure built between 1910 and 1913 with a 4,620-foot movable dam section, and the town has weathered some of the largest floods on this stretch of river, including a record 1965 crest, a major 1993 flood, and a stretch of record-breaking river levels from 2019 into 2020. That flood history, more than anything else, is what drives Keokuk's mosquito season.",
+    intro:
+      "Keokuk's pest calendar starts with the Mississippi River. The town sits right at Lock and Dam No. 19, an Army Corps of Engineers structure finished in 1913, and it has weathered some of the largest floods on this stretch of the river, a record crest in 1965, a major flood in 1993, and record-breaking river levels stretching from 2019 into 2020. Iowa State University Extension confirms that floodwater mosquito eggs can sit dormant in soil for years and hatch within a week or two once standing water forms again, which makes flood recovery periods some of the heaviest mosquito stretches Keokuk sees. The town's older river-port housing and warehouse buildings near the historic downtown add their own pressure each fall, giving mice and cluster flies more entry points than newer construction offers. River-adjacent moisture in the ground also gives carpenter ants and subterranean termites an easier path into wood near the water than drier properties further inland experience.",
+    sections: [
+      {
+        heading: "Flood history and mosquito season in Keokuk",
+        body: "Keokuk has seen some of the most significant flooding on this stretch of the Mississippi River, including a record 1965 crest, a major flood event in 1993, and a stretch of record-breaking river levels running from 2019 into 2020. Iowa State University Extension's disaster recovery guidance is clear on the mechanism at work after events like these: floodwater mosquito eggs can lie dormant in soil for years, and once standing water forms again, whether from a fresh flood or simply heavy rain pooling in low ground, those eggs hatch within roughly seven to ten days. That means the weeks following any high water event tend to bring a sharper mosquito surge than a normal summer would produce on its own.",
+      },
+      {
+        heading: "Lock and Dam 19, river moisture, and termite pressure",
+        body: "Lock and Dam No. 19, built between 1910 and 1913 and still operated today by the Army Corps of Engineers and Ameren Missouri, anchors Keokuk's stretch of the Mississippi. The consistent moisture that the river and its dam pool hold in the surrounding ground gives subterranean termites a steadier path toward older foundations near the water than inland properties typically face. Carpenter ants benefit from the same conditions, since damp wood framing close to the river gives them an easier place to nest than drier lumber further from the water.",
+      },
+      {
+        heading: "Older river-port housing and fall pests",
+        body: "Keokuk's historic downtown and the neighborhoods that grew up around its river trade carry a lot of older building stock, some of it warehouse and commercial buildings converted or standing since the town's peak years as a river port. That age gives house mice and cluster flies more foundation gaps and storage clutter to exploit, and both pests tend to move indoors hard each September and October as outdoor temperatures drop and the surrounding countryside's harvest clears field cover.",
+      },
+      {
+        heading: "Scheduling pest service around Keokuk's flood calendar",
+        body: "Because Keokuk's worst mosquito stretches follow flood events rather than a fixed calendar date, the most useful approach is treating the weeks after any major high water, not just a standard spring or summer schedule. A licensed technician can time larvicide and adult mosquito treatment to the standing water left behind once river levels recede, which is generally more effective than a fixed seasonal visit alone in a town with Keokuk's flood history.",
+      },
+    ],
+    prevention: [
+      "Treat standing water left behind after any flood event promptly, since floodwater mosquito eggs can hatch within a week to ten days.",
+      "Seal foundation and storage gaps in older river-port buildings to reduce mouse harborage.",
+      "Schedule a termite inspection for older homes near the river, where ground moisture stays highest.",
+      "Address wood-to-soil contact points on river-adjacent properties to reduce carpenter ant nesting.",
+    ],
+    costNote:
+      "General quarterly pest plans in Keokuk typically run $120 to $230 a year for a standard home. Post-flood mosquito treatment is priced separately from a standard plan and depends on the extent of standing water, often $150 to $350 per treatment. Termite inspections near the river are usually free, with treatment priced separately by structure size, often $450 to $1,050.",
+    faqs: [
+      {
+        question: "Does Keokuk's flood history affect its mosquito season?",
+        answer:
+          "Significantly. Iowa State University Extension confirms that floodwater mosquito eggs can lie dormant in soil for years and hatch within seven to ten days once standing water forms, and Keokuk's history of major Mississippi River floods, including 1965, 1993, and 2019 to 2020, makes post-flood periods some of its heaviest mosquito stretches.",
+      },
+      {
+        question: "What is Lock and Dam No. 19 and does it affect pest control in Keokuk?",
+        answer:
+          "Lock and Dam No. 19 is an Army Corps of Engineers structure built between 1910 and 1913 on the Mississippi River at Keokuk. The consistent moisture it and the river hold in nearby ground gives termites and carpenter ants an easier path into wood close to the water.",
+      },
+      {
+        question: "Why does Keokuk have more mice in older buildings?",
+        answer:
+          "A lot of Keokuk's downtown and near-downtown building stock dates back to the town's peak years as a Mississippi River port, and that age gives mice more foundation gaps and storage clutter to exploit, especially each fall.",
+      },
+      {
+        question: "Should I get a termite inspection if I live near the river in Keokuk?",
+        answer:
+          "Yes. River-adjacent soil near Keokuk stays wetter than ground further inland, and that moisture gives subterranean termites a steadier foothold near older foundations with wood-to-soil contact.",
+      },
+      {
+        question: "When is the best time to schedule mosquito treatment in Keokuk?",
+        answer:
+          "In addition to a normal spring and summer schedule, the weeks right after any major flood or heavy rain event are worth treating specifically, since that is when dormant floodwater mosquito eggs hatch and standing water is at its highest.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Decorah", slug: "decorah", stateSlug: "iowa" },
+      { name: "Centerville", slug: "centerville", stateSlug: "iowa" },
+      { name: "Orange City", slug: "orange-city", stateSlug: "iowa" },
+      { name: "Charles City", slug: "charles-city", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Keokuk, IA | Mississippi River Flood Mosquitoes",
+    metaDescription:
+      "Keokuk, IA pest control for flood-driven mosquitoes near Lock and Dam 19, older river-port housing mice, cluster flies, and termites. Lee County service.",
+  },
+  {
+    slug: "charles-city",
+    name: "Charles City",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~7,200",
+    county: "Floyd County",
+    climate: "cold-humid",
+    climateDriver:
+      "Charles City sits on the Cedar River, and its cold winters and humid summers are shaped further by a record 2008 flood that reworked parts of the town's floodplain. That flood history, along with the older housing stock closest to downtown, is what drives most of Charles City's pest pressure today.",
+    topPests: ["Mosquitoes", "House Mice", "Cluster Flies", "Boxelder Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, with post-flood surges",
+        note: "The Cedar River crested at a record 25.33 feet in Charles City on June 9, 2008, and the city later bought and demolished 17 of the hardest-hit floodplain homes. Those cleared, disturbed lots are the kind of ground where Iowa State University Extension says floodwater mosquito eggs can lie dormant for years, hatching within seven to ten days of standing water forming.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Charles City's older housing stock near downtown and the Cedar River gives mice more foundation gaps than newer construction, and the surrounding farmland's fall harvest pushes field mice toward the nearest building each year.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "A lot of Charles City's residential building stock predates modern construction standards, and that age gives cluster flies plenty of aging gaps to slip through each September before overwintering indoors.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Boxelder bugs gather on sunny exterior walls around Charles City each fall before working into wall voids and attics for winter, a routine pattern across this part of north-central Iowa.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "The moisture the Cedar River holds in the ground near Charles City gives carpenter ants an easier path into wood framing close to the water, particularly in older homes near the river that weathered the 2008 flood.",
+      },
+    ],
+    localHook:
+      "Charles City sits on the Cedar River, and on June 9, 2008, that river crested at 25.33 feet, more than two and a half feet above the previous record, in a rise so fast the water climbed roughly a foot every 45 minutes at one point. The flood swept away the town's historic suspension bridge and damaged an estimated 1,000 homes across Floyd County; the city later bought out and demolished 17 of the worst-hit floodplain properties. Those cleared, disturbed floodplain lots are part of why Charles City's mosquito season is worth taking seriously today.",
+    intro:
+      "Charles City's pest story is tied directly to the Cedar River. On June 9, 2008, the river crested at a record 25.33 feet, more than two and a half feet above the prior record, rising so fast at points that the water climbed roughly a foot every 45 minutes. The flood swept away the town's historic suspension bridge and damaged an estimated 1,000 homes across Floyd County, and the city later bought out and demolished 17 of the hardest-hit floodplain properties. Those cleared lots matter for pest control because Iowa State University Extension confirms floodwater mosquito eggs can lie dormant in disturbed soil for years, hatching within seven to ten days once standing water forms again. Charles City's older housing stock adds its own pressure each fall, giving mice and cluster flies more entry points than newer construction offers, while boxelder bugs stage on sunny walls each September and carpenter ants work into river-adjacent moisture points through the growing season.",
+    sections: [
+      {
+        heading: "The 2008 flood and Charles City's mosquito season",
+        body: "The Cedar River's record 25.33-foot crest on June 9, 2008, was the worst flooding Charles City had seen, breaking the prior 1999 record by more than two and a half feet and rising so quickly that the river climbed roughly a foot every 45 minutes at its peak. The flood swept away the town's historic suspension bridge and damaged an estimated 1,000 homes across Floyd County, part of the broader 2008 Iowa floods that caused an estimated ten billion dollars in statewide damage. That kind of flood event leaves a lasting mark on local mosquito pressure, since the standing water it creates gives floodwater mosquito species the conditions they need to lay eggs across a much wider area than a normal wet season would.",
+      },
+      {
+        heading: "Cleared floodplain lots and standing water",
+        body: "After the 2008 flood, Charles City used a Community Development Block Grant hazard mitigation program to buy out and demolish 17 of the properties hit hardest by the Cedar River's record crest. Those lots remain disturbed, undeveloped ground within the floodplain today. Iowa State University Extension's guidance on mosquitoes after flooding notes that floodwater mosquito eggs can lie dormant in soil for years and hatch within roughly seven to ten days once the ground floods or holds standing water again, which makes these cleared lots a real, ongoing part of Charles City's mosquito picture rather than a one-time 2008 event.",
+      },
+      {
+        heading: "Older housing stock and fall pests",
+        body: "Charles City's residential neighborhoods near downtown and the river include plenty of older housing, and that age gives house mice and cluster flies more foundation gaps and attic access than newer construction offers. Once the farmland surrounding Floyd County clears its harvest cover each fall, field mice move toward the nearest building, and the older homes closest to the river and downtown tend to see the heaviest pressure. Boxelder bugs follow their own fall pattern, gathering on sunny exterior walls in September before pushing into wall voids for winter.",
+      },
+      {
+        heading: "Carpenter ants along the Cedar River",
+        body: "Homes near the Cedar River, including many that weathered the 2008 flood, sit on ground that holds more moisture than properties further from the water. That dampness gives carpenter ants an easier path into wood framing, particularly around porches, decks, and any structure with wood-to-soil contact close to the riverbank. Regular inspection of river-adjacent wood is a reasonable precaution given the area's flood history and the moisture it leaves behind even years later.",
+      },
+    ],
+    prevention: [
+      "Treat standing water on cleared floodplain lots and low ground promptly, since dormant floodwater mosquito eggs can hatch within a week to ten days.",
+      "Seal foundation and attic gaps in older homes near downtown and the river to block mice and cluster flies.",
+      "Seal exterior cracks on sunny walls before September to reduce boxelder bug entry.",
+      "Address wood-to-soil contact points on river-adjacent properties to reduce carpenter ant nesting.",
+    ],
+    costNote:
+      "General quarterly pest plans in Charles City typically run $115 to $220 a year for a standard home. Post-flood or post-heavy-rain mosquito treatment is priced separately and depends on the extent of standing water, often $150 to $350 per treatment. Carpenter ant and termite inspections near the river are usually free, with treatment priced separately by structure size, typically $450 to $1,000.",
+    faqs: [
+      {
+        question: "How did the 2008 flood affect Charles City?",
+        answer:
+          "The Cedar River crested at a record 25.33 feet on June 9, 2008, more than two and a half feet above the previous record, swept away the town's historic suspension bridge, and damaged an estimated 1,000 homes across Floyd County. The city later bought out and demolished 17 of the hardest-hit floodplain properties.",
+      },
+      {
+        question: "Do the cleared floodplain lots in Charles City still affect mosquito pressure?",
+        answer:
+          "Yes. Iowa State University Extension confirms floodwater mosquito eggs can lie dormant in disturbed soil for years and hatch within seven to ten days once standing water forms, which keeps these cleared, undeveloped lots part of Charles City's ongoing mosquito picture.",
+      },
+      {
+        question: "Why do older Charles City homes see more mice and cluster flies?",
+        answer:
+          "A lot of the housing near downtown and the river predates modern construction standards, and that age gives both pests more foundation gaps and attic access, especially each fall once the surrounding farmland's harvest clears field cover.",
+      },
+      {
+        question: "Is carpenter ant risk higher near the Cedar River in Charles City?",
+        answer:
+          "Yes. Ground near the river holds more moisture than properties farther away, and that dampness gives carpenter ants an easier path into wood framing, particularly around older porches, decks, and wood-to-soil contact points.",
+      },
+      {
+        question: "When should Charles City homeowners schedule mosquito treatment?",
+        answer:
+          "In addition to a normal spring and summer schedule, the period right after any heavy rain or flood event is worth treating specifically, since that is when dormant floodwater mosquito eggs hatch on the town's low and cleared floodplain ground.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Decorah", slug: "decorah", stateSlug: "iowa" },
+      { name: "Centerville", slug: "centerville", stateSlug: "iowa" },
+      { name: "Orange City", slug: "orange-city", stateSlug: "iowa" },
+      { name: "Keokuk", slug: "keokuk", stateSlug: "iowa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Charles City, IA | Cedar River Flood Mosquitoes",
+    metaDescription:
+      "Charles City, IA pest control for Cedar River flood-driven mosquitoes, older housing mice and cluster flies, boxelder bugs, and carpenter ants. Floyd County service.",
+  },
 ];

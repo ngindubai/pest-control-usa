@@ -3962,4 +3962,564 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Fort Scott, KS pest control for termites near downtown, Marmaton River mosquitoes, ticks at the historic site, and carpenter ants. Bourbon County service. Free inspection.",
   },
+  {
+    slug: "abilene-ks",
+    name: "Abilene",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~6,450",
+    county: "Dickinson County",
+    climate: "temperate",
+    climateDriver:
+      "Abilene sits on the Smoky Hill River in Dickinson County, in north central Kansas, at the spot where the Kansas Pacific Railroad met the Chisholm Trail in 1867 and turned the town into the busiest cattle shipping point in the country for nearly two decades. The humid continental climate brings warm, humid summers and cold winters, and the mix of river bottomland, a century and a half of downtown construction, and the 23 acre landscaped grounds of the Eisenhower Presidential Library complex gives Abilene a pest picture shaped as much by its history as by its geography.",
+    topPests: ["Termites", "Mosquitoes", "Ticks", "Boxelder Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Abilene's downtown grew up fast between 1867 and 1885, when cattleman Joseph McCoy made the town the northern terminus of the Chisholm Trail and as many as 700,000 cattle and 5,000 cowboys passed through in a single peak year. The brick and frame buildings raised during that boom have well over a century of wood to soil contact by now, and Eastern subterranean termites take full advantage of it.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Smoky Hill River runs along Abilene's south side, and it doesn't flood quietly. The July 1951 flood crested three feet above the previous 1903 record, and the bottomland the river leaves behind after any heavy spring rain holds standing water long enough to keep mosquitoes breeding well into summer.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "The Dwight D. Eisenhower Presidential Library, Museum, and boyhood home sit together on a 23 acre landscaped complex in the middle of Abilene, including the Place of Meditation. The lawns, garden beds, and shaded walking paths across those grounds, along with the grassy riverbank nearby, give ticks a foothold most Kansas downtown areas don't have.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September and October, again briefly in spring",
+        note: "Boxelder and maple trees line a lot of Abilene's older streets and the banks of the Smoky Hill River, and the boxelder bugs that feed on their seed pods gather by the hundreds on warm, sun-facing walls each fall looking for a crack to spend the winter behind.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Dickinson County wheat, corn, and sorghum fields surround Abilene on every side, and once the fall harvest clears their food and cover outdoors, field mice move toward houses, garages, and outbuildings on the edge of town in a pattern that repeats every year.",
+      },
+    ],
+    localHook:
+      "Abilene became the first great Kansas cattle town in 1867, when cattle buyer Joseph McCoy picked it as the shipping point where the newly arrived Kansas Pacific Railroad could meet the herds coming up the Chisholm Trail from Texas. At its peak in 1871, roughly 700,000 cattle and more than 5,000 cowboys passed through in a single year. Abilene later became home to Dwight D. Eisenhower, whose family moved to the city in 1892, and the Eisenhower Presidential Library, Museum, and family home now sit together on 23 acres in the middle of town.",
+    intro:
+      "Abilene wears its history on its streets. This is the town Joseph McCoy built into the first great Kansas cattle shipping point in 1867, when the Kansas Pacific Railroad reached far enough west to meet the Chisholm Trail herds coming up from Texas, and for nearly two decades afterward hundreds of thousands of cattle and thousands of cowboys passed through every year. That downtown boom left behind brick and frame buildings that are still standing, and still feeding termites, more than a century and a half later. The Smoky Hill River along the south side of town has flooded hard before, badly enough in 1951 to crest three feet above the prior record, and the bottomland it leaves behind keeps mosquitoes going most of the summer. Ticks turn up on the 23 acre grounds of the Eisenhower Presidential Library and family home right in the middle of the city, boxelder bugs pile up on warm walls every fall, and the wheat and sorghum country surrounding Abilene sends field mice toward town once harvest clears the fields.",
+    sections: [
+      {
+        heading: "Termites in Abilene's cattle-trail-era downtown",
+        body: "Between 1867 and 1885, Abilene was the busiest cattle shipping point in the country, the place where Joseph McCoy convinced Texas drovers to bring their herds north to meet the Kansas Pacific Railroad. At the peak of that boom in 1871, an estimated 700,000 cattle and more than 5,000 cowboys moved through town in a single year, and the money that generated built a downtown fast, in brick and heavy timber meant to last. It has lasted, which is part of the problem. Buildings with well over a century of wood to soil contact, settled foundations, and old plumbing penetrations give Eastern subterranean termites easy points of entry, and swarms are common every spring with activity continuing into fall. Owners of older downtown property should treat an annual inspection as standard practice rather than something to schedule only after spotting damage.",
+      },
+      {
+        heading: "Mosquitoes and the Smoky Hill River",
+        body: "The Smoky Hill River runs along the south edge of Abilene, and its flood record is a matter of public record: the river crested three feet above the previous high water mark during the flood of July 1951, when both the Smoky Hill and nearby Mud Creek rose well past flood stage. A flood of that scale is rare, but the smaller, routine flooding the river produces most wet springs still leaves standing water across the bottomland south of town for days at a time. That water, combined with roadside ditches and low farm ground nearby, keeps Abilene's mosquito season running from May through September most years, with the worst pressure falling on properties closest to the river itself.",
+      },
+      {
+        heading: "Ticks around the Eisenhower Center's grounds",
+        body: "The Dwight D. Eisenhower Presidential Library, Museum, boyhood home, and Place of Meditation sit together on a 23 acre complex in the heart of Abilene, drawing visitors from across the country to walk its lawns and garden paths. Grounds that size, kept green and shaded in the middle of a Kansas farm town, are also grounds where ticks can establish themselves in the taller grass edges and along the treeline, especially April through August. The same is true of the grassy banks along the Smoky Hill River nearby. Anyone spending time on the Eisenhower grounds or the riverbank should do a tick check afterward, particularly during the late spring weeks when nymph activity peaks.",
+      },
+      {
+        heading: "Boxelder bugs on warm walls, field mice at harvest",
+        body: "Abilene's older neighborhoods and the banks of the Smoky Hill River are lined with boxelder and maple trees, and every September the boxelder bugs that feed on their seed pods start gathering in the hundreds on warm, sun-facing exterior walls, looking for a gap to spend the winter behind. They're a nuisance rather than a structural threat, but a heavy year can mean hundreds of bugs working their way indoors through window frames and siding gaps. Outside of town, Dickinson County's wheat, corn, and sorghum fields ring Abilene on every side, and the same pattern plays out every fall: once harvest strips the fields of food and cover, house mice head for the nearest structure, whether that's a home, a garage, or a farm outbuilding on the edge of the city.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for downtown Abilene buildings dating to the cattle-trail era, especially older brick storefronts.",
+      "Clear gutters and low-lying drainage each spring to reduce mosquito breeding along the Smoky Hill River bottomland.",
+      "Check for ticks after visiting the Eisenhower Center grounds or the riverbank, April through August.",
+      "Seal gaps around windows and siding before September to keep boxelder bugs from moving indoors for winter.",
+      "Inspect garages and outbuildings on the edge of town each fall as harvest pushes field mice toward shelter.",
+    ],
+    costNote:
+      "General quarterly pest plans in Abilene run $110 to $220 per year for a typical home. Termite inspections are usually free, with treatment for older downtown buildings often priced at $500 to $1,100 depending on structure size. A one-time boxelder bug perimeter treatment ahead of fall typically runs $90 to $160.",
+    faqs: [
+      {
+        question: "Why does Abilene have so many termites downtown?",
+        answer:
+          "Abilene's downtown was built up fast between 1867 and 1885, when the town was the northern terminus of the Chisholm Trail cattle drives. Those brick and frame buildings now carry well over a century of wood to soil contact, exactly what Eastern subterranean termites need to establish a colony.",
+      },
+      {
+        question: "Does the Eisenhower Center have a tick problem?",
+        answer:
+          "The Eisenhower Presidential Library, Museum, and family home sit on a 23 acre landscaped complex in the middle of Abilene, and the lawns, garden beds, and shaded paths there, along with the nearby riverbank, give ticks a foothold from April through August.",
+      },
+      {
+        question: "How bad can Smoky Hill River flooding get in Abilene?",
+        answer:
+          "It has been serious before. The July 1951 flood crested three feet above the prior 1903 record. Even a normal wet spring leaves standing water in the bottomland south of town, which extends Abilene's mosquito season from May through September.",
+      },
+      {
+        question: "What causes boxelder bugs to swarm Abilene homes each fall?",
+        answer:
+          "Boxelder and maple trees along Abilene's older streets and the Smoky Hill River produce the seed pods boxelder bugs feed on. Every September they gather by the hundreds on warm, sun-facing walls looking for a way in for winter.",
+      },
+      {
+        question: "Do field mice move into Abilene at harvest time?",
+        answer:
+          "Yes. Dickinson County's wheat, corn, and sorghum fields surround the city, and once fall harvest clears that food and cover, house mice move toward homes, garages, and outbuildings on the edge of town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Augusta", slug: "augusta-ks", stateSlug: "kansas" },
+      { name: "Ulysses", slug: "ulysses-ks", stateSlug: "kansas" },
+      { name: "Pratt", slug: "pratt-ks", stateSlug: "kansas" },
+      { name: "De Soto", slug: "de-soto-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Abilene, KS | Cattle-Trail Termites & River Mosquitoes",
+    metaDescription:
+      "Abilene, KS pest control for termites in the historic cattle-trail downtown, Smoky Hill River mosquitoes, ticks near the Eisenhower Center, and fall boxelder bugs. Dickinson County service. Free inspection.",
+  },
+  {
+    slug: "augusta-ks",
+    name: "Augusta",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~9,250",
+    county: "Butler County",
+    climate: "temperate",
+    climateDriver:
+      "Augusta sits where the Whitewater River meets the Walnut River in Butler County, southeast of Wichita, on ground first settled in 1868 and incorporated in 1871. The humid continental climate brings hot, humid summers and cold winters, and Augusta's identity as one of the fastest-growing oil boomtowns in Kansas history, its population nearly tripling in a single year after oil was struck in 1914, left the city with an unusually large stock of century-old wood-frame housing packed close to two rivers.",
+    topPests: ["Termites", "Cockroaches", "Mosquitoes", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Augusta's population jumped from around 1,400 in 1915 to 3,575 in 1916 after the Burgess No. 1 well struck oil in June 1914, and the wood-frame houses built fast to handle that boom are still standing in Augusta's older neighborhoods today, more than a century of wood to soil contact deep.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "The same wave of quickly built early 20th century housing near downtown Augusta comes with aging drain lines, cracked foundation seams, and crawlspace vents that give German and American cockroaches an easy route into older kitchens and basements.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Augusta sits right at the confluence of the Whitewater River and the Walnut River, and the wide floodplain where the two rivers meet holds pooled water for days after a heavy rain, keeping mosquito pressure high through the warm months for homes closest to the confluence.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Mature trees along both river corridors, combined with a century of aging wood framing downtown, give carpenter ants a strong foothold in Augusta, especially in neighborhoods closest to where the Whitewater and Walnut Rivers come together.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Butler County wheat and cattle country surrounds Augusta, and like most of south central Kansas, the city sees field mice move toward homes and outbuildings each fall once harvest clears the surrounding fields.",
+      },
+    ],
+    localHook:
+      "Augusta was founded in 1868 by C.N. James, who built a log home and trading post at the confluence of the Whitewater and Walnut Rivers and named the settlement after his wife. The town was incorporated in 1871, but its real growth came decades later: after the Burgess No. 1 well struck oil in the Arbuckle Formation on June 20, 1914, Augusta's population jumped from about 1,400 residents in 1915 to 3,575 in 1916. By 1918 the Augusta and El Dorado area had eight oil refineries running, including the White Eagle Oil Company founded in Augusta in 1916.",
+    intro:
+      "Augusta grew up twice: once slowly, as a river-confluence trading post founded in 1868, and once almost overnight, when oil struck in June 1914 and the population nearly tripled inside a year. That second growth spurt is why Augusta has so much century-old wood-frame housing packed into neighborhoods near downtown, built fast to house oil field workers and refinery hands, and why termites and cockroaches both find easy entry points that a more gradually built town wouldn't have. The city still sits where C.N. James placed it, right at the confluence of the Whitewater River and the Walnut River, and that floodplain keeps mosquito season going strong from May through September. Mature trees along both rivers add carpenter ants to the mix, and the wheat and cattle country surrounding Augusta sends house mice toward town every fall.",
+    sections: [
+      {
+        heading: "Termites and cockroaches in Augusta's oil-boom housing",
+        body: "Augusta's defining event was the discovery of oil on June 20, 1914, when the Burgess No. 1 well struck commercial quantities in the Arbuckle Formation at around 800 feet down. What followed was explosive by small-town Kansas standards: Augusta's population went from roughly 1,400 in 1915 to 3,575 the very next year, and by 1918 the Augusta and El Dorado area had eight refineries operating, including the White Eagle Oil Company founded right in Augusta in 1916. Housing built that fast to keep up with an oil boom wasn't always built to last a hundred years, but a lot of it is still standing, and it's aged the way wood-frame construction does: settled foundations, aging drain lines, and cracked crawlspace vents. That combination gives Eastern subterranean termites a way in from the outside and German and American cockroaches a way in from the plumbing, and both are a bigger issue in Augusta's older core than in its newer subdivisions.",
+      },
+      {
+        heading: "Mosquitoes at the Whitewater and Walnut confluence",
+        body: "C.N. James picked this spot in 1868 specifically because it sat where the Whitewater River meets the Walnut River, good ground for a trading post but also, more than a century and a half later, good ground for mosquitoes. The wide floodplain created by two rivers coming together holds pooled water for days after any real rain, and homes closest to the confluence deal with noticeably heavier mosquito pressure than neighborhoods on higher ground toward the edge of town. The season typically runs May through September, stretching longer in a wet year, and standing water anywhere near the rivers, from clogged culverts to low yard drainage, adds to the problem.",
+      },
+      {
+        heading: "Carpenter ants and fall mice",
+        body: "The mature cottonwoods and elms along both the Whitewater and Walnut River corridors give carpenter ants plenty of nesting material, and when those trees stand next to a century of aging wood framing downtown, the ants move indoors readily, especially March through October. Away from the rivers, Augusta sits in the middle of Butler County wheat and cattle country, and the pattern here matches most of south central Kansas: once fall harvest clears the fields of food and cover, house mice head for the nearest building with a way in, whether that's a home on the edge of town or a barn out in the county.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for wood-frame homes near downtown Augusta built during the 1914 to 1920 oil boom.",
+      "Have aging drain lines and crawlspace vents checked in older Augusta homes to close off cockroach entry points.",
+      "Clear culverts and yard drainage near the Whitewater and Walnut River confluence to cut mosquito breeding.",
+      "Trim mature trees back from home exteriors along the river corridors to reduce carpenter ant access.",
+    ],
+    costNote:
+      "General quarterly pest plans in Augusta run $115 to $235 per year for a typical home. Termite treatment for older wood-frame properties near downtown often runs $500 to $1,150 depending on structure size, and a one-time cockroach treatment for an older kitchen or basement typically costs $150 to $300.",
+    faqs: [
+      {
+        question: "Why does Augusta have so much old housing prone to pests?",
+        answer:
+          "Oil struck in June 1914, and Augusta's population jumped from about 1,400 in 1915 to 3,575 in 1916. Homes built that fast to house the boom are still standing today, decades older on average than housing in a town that grew at a normal pace.",
+      },
+      {
+        question: "Is cockroach pressure worse in older Augusta homes?",
+        answer:
+          "Yes. The early 20th century housing near downtown, built during the oil boom, tends to have aging drain lines and crawlspace vents that give German and American cockroaches an easy route indoors.",
+      },
+      {
+        question: "Why do mosquitoes gather at the Augusta river confluence?",
+        answer:
+          "Augusta sits where the Whitewater River meets the Walnut River, and that confluence floodplain holds pooled water for days after a heavy rain, keeping mosquito season running May through September for nearby homes.",
+      },
+      {
+        question: "Are carpenter ants common along Augusta's rivers?",
+        answer:
+          "Yes, particularly where mature cottonwoods and elms along the Whitewater and Walnut River corridors meet Augusta's century-old wood framing downtown.",
+      },
+      {
+        question: "Does Butler County farmland bring mice into Augusta?",
+        answer:
+          "It does. Butler County wheat and cattle country surrounds the city, and once fall harvest clears the fields, house mice move toward the nearest home or outbuilding.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Abilene", slug: "abilene-ks", stateSlug: "kansas" },
+      { name: "Ulysses", slug: "ulysses-ks", stateSlug: "kansas" },
+      { name: "Pratt", slug: "pratt-ks", stateSlug: "kansas" },
+      { name: "De Soto", slug: "de-soto-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Augusta, KS | Oil-Boom Termites & River Mosquitoes",
+    metaDescription:
+      "Augusta, KS pest control for termites and cockroaches in century-old oil-boom housing, mosquitoes at the Whitewater and Walnut confluence, and carpenter ants. Butler County service. Free inspection.",
+  },
+  {
+    slug: "ulysses-ks",
+    name: "Ulysses",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~5,480",
+    county: "Grant County",
+    climate: "semi-arid",
+    climateDriver:
+      "Ulysses is the Grant County seat on the High Plains of far southwest Kansas, semi-arid shortgrass country where center-pivot irrigation and dryland wheat, corn, sorghum, and alfalfa cover nearly 800,000 acres of the county. Hot summers, cold winters, and low rainfall define the climate, but Grant County's real pest driver is livestock: the county is home to more than 180,000 cattle and some of the larger cattle feeding operations in the country, including a 98,000-head feedyard just outside Ulysses.",
+    topPests: ["Flies", "House Mice", "Indian Meal Moths", "Striped Bark Scorpions", "Spiders"],
+    pestProfile: [
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Heaviest May through September",
+        note: "Grant County Feeders, a feedyard with capacity for about 98,000 head of cattle completed near Ulysses in 1974, is one of the larger cattle feeding operations in the country, and house flies and stable flies breeding in and around that scale of operation drift into Ulysses on breezy days far more than a typical Kansas farm town would see.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge at fall harvest",
+        note: "Grant County has nearly 800,000 acres in wheat, corn, sorghum, and alfalfa production, and the fall harvest reliably pushes field mice toward Ulysses' grain elevators and the homes and businesses clustered around them.",
+      },
+      {
+        name: "Indian meal moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Spring through fall, worse near grain storage",
+        note: "Ulysses' grain elevators sit at the center of a county built on wheat, corn, sorghum, and cattle feed, and that concentration of stored grain draws Indian meal moths and other stored-product pests into nearby homes and businesses more than in towns without an elevator row.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Warm months, more visible after dry spells",
+        note: "The striped bark scorpion is documented across the Kansas High Plains, and Grant County's position deep in that semi-arid shortgrass region means occasional scorpion encounters, especially indoors during dry stretches, are a real part of the local pest picture.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "The mix of irrigated cropland edges and open shortgrass prairie around Ulysses gives spiders plenty of outdoor habitat, and like most High Plains towns, they move indoors as the weather cools each fall.",
+      },
+    ],
+    localHook:
+      "Ulysses, named for Ulysses S. Grant, is the seat of Grant County, a place built almost entirely around agriculture and cattle. The county has nearly 800,000 acres in production and is home to more than 180,000 cattle, and Grant County Feeders, a 98,000-head feedyard completed near Ulysses in 1974, is among the larger cattle feeding operations in the country. Grant County is also a hub for the growing dairy industry in southwest Kansas.",
+    intro:
+      "Ulysses is a farm and feedyard town first. Grant County has close to 800,000 acres in wheat, corn, sorghum, and alfalfa, and more than 180,000 cattle on the ground, a scale of livestock production that shapes the pest picture here more than the semi-arid climate does on its own. Grant County Feeders, a feedyard built to hold around 98,000 head just outside Ulysses, is one of the larger cattle feeding operations in the country, and the flies that breed around an operation that size drift into town on any breezy day between May and September. Fall harvest sends field mice toward the grain elevators downtown, those same elevators draw Indian meal moths into nearby buildings, and the shortgrass prairie surrounding Ulysses is documented range for the striped bark scorpion, along with the usual fall wave of spiders looking for a way indoors.",
+    sections: [
+      {
+        heading: "Flies downwind of Grant County's cattle feedyards",
+        body: "Grant County Feeders, completed near Ulysses in 1974 with capacity for roughly 98,000 head of cattle, is one of the larger cattle feeding operations anywhere in the country, part of a county that runs more than 180,000 head of cattle total. Operations at that scale generate house flies and stable flies in numbers that a smaller farm operation simply doesn't, and on a breezy day, especially through the hottest stretch of summer from May to September, that fly pressure carries into Ulysses itself. Homes and businesses on the side of town closest to the feedyard see noticeably more fly activity than those farther away, and exterior fly control, tight-fitting screens, and prompt trash management all matter more here than in a Kansas town without large-scale cattle feeding nearby.",
+      },
+      {
+        heading: "Mice and Indian meal moths at the grain elevators",
+        body: "Grant County has close to 800,000 acres in wheat, corn, sorghum, and alfalfa, and Ulysses sits at the center of where that grain gets stored and shipped. Every fall, once harvest clears the fields of food and cover, field mice move toward the nearest shelter, and the grain elevators downtown, along with the homes and shops clustered around them, are the first stop. That same concentration of stored grain is exactly what Indian meal moths look for, and buildings near elevator row see more pantry and stored-product moth activity than homes on the edge of town, particularly through the warmer months when moth reproduction speeds up.",
+      },
+      {
+        heading: "Scorpions and spiders on the High Plains",
+        body: "The striped bark scorpion has a documented range across the Kansas High Plains, and Grant County, deep in the semi-arid shortgrass country of far southwest Kansas, sits well within it. Encounters are occasional rather than constant, but they do happen, especially indoors during dry spells when scorpions look for cooler, damper spots. Spiders are a steadier presence, moving between the irrigated cropland edges and the open prairie around Ulysses for most of the year and then heading indoors as temperatures drop each fall, a pattern typical of the High Plains generally.",
+      },
+    ],
+    prevention: [
+      "Install and maintain tight-fitting window and door screens on the side of the property closest to any large feedyard to cut fly entry.",
+      "Store pantry grain products in sealed containers near Ulysses' elevator district to reduce Indian meal moth infestations.",
+      "Seal gaps around foundations and utility penetrations each fall as harvest pushes field mice toward buildings.",
+      "Shake out shoes, gloves, and stored boxes before use during dry summer stretches, when scorpions are more likely to seek shelter indoors.",
+    ],
+    costNote:
+      "General quarterly pest plans in Ulysses run $100 to $210 per year for a typical home, with fly control add-ons for properties near large feedyards often running an extra $40 to $90 per visit in peak summer months. Scorpion and spider perimeter treatments typically cost $80 to $150.",
+    faqs: [
+      {
+        question: "Why does Ulysses have such a heavy fly problem?",
+        answer:
+          "Grant County Feeders, a feedyard with capacity for about 98,000 head of cattle just outside Ulysses, is one of the larger cattle feeding operations in the country, and flies breeding around it drift into town on breezy days, especially May through September.",
+      },
+      {
+        question: "Are grain elevators in Ulysses linked to pest problems?",
+        answer:
+          "Yes. Ulysses' elevators store grain from nearly 800,000 acres of Grant County farmland, and that concentration of stored grain draws both field mice at fall harvest and Indian meal moths through the warmer months.",
+      },
+      {
+        question: "Do scorpions really show up in Ulysses homes?",
+        answer:
+          "Occasionally. The striped bark scorpion has a documented range across the Kansas High Plains, and Grant County sits well within it, so indoor encounters during dry stretches are a real, if infrequent, part of local pest calls.",
+      },
+      {
+        question: "Does fall harvest bring mice into Ulysses?",
+        answer:
+          "Yes. Once harvest clears the surrounding wheat, corn, and sorghum fields of food and cover, field mice move toward the grain elevators and the buildings clustered around them.",
+      },
+      {
+        question: "Is Ulysses' fly season worse than other Kansas towns?",
+        answer:
+          "Generally yes, because of the scale of cattle feeding nearby. Grant County runs more than 180,000 head of cattle, and a 98,000-head feedyard that close to town produces more fly pressure than a typical farm operation would.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Abilene", slug: "abilene-ks", stateSlug: "kansas" },
+      { name: "Augusta", slug: "augusta-ks", stateSlug: "kansas" },
+      { name: "Pratt", slug: "pratt-ks", stateSlug: "kansas" },
+      { name: "De Soto", slug: "de-soto-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Ulysses, KS | Feedyard Flies & Grain Elevator Pests",
+    metaDescription:
+      "Ulysses, KS pest control for flies near Grant County's large cattle feedyards, mice and moths at the grain elevators, and High Plains scorpions and spiders. Free inspection.",
+  },
+  {
+    slug: "pratt-ks",
+    name: "Pratt",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~6,580",
+    county: "Pratt County",
+    climate: "semi-arid",
+    climateDriver:
+      "Pratt sits in south central Kansas on the South Fork Ninnescah River, in a county known locally for its sandy soil Pratt Sandhills country as much as for its wheat and cattle. The semi-arid climate brings hot summers and cold winters with lower humidity than towns further east, but the Kansas Department of Wildlife and Parks' Pratt Fish Hatchery, an 87 pond facility just outside the city, adds a concentration of open water that a typical High Plains town of Pratt's size doesn't have.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "House Mice", "Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, worse near the hatchery",
+        note: "The Kansas Department of Wildlife and Parks operates the Pratt Fish Hatchery about two miles east of town, an 87 pond facility with two concrete raceways raising walleye, saugeye, and channel catfish among other species, and that much open water keeps mosquito pressure higher on Pratt's east side than the surrounding farmland sees.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "The Pratt Sandhills wildlife area nearby preserves native sand sagebrush prairie on the sandy soil the region is named for, and the unmowed grass along its trails is a reliable source of ticks for anyone hiking or hunting there through the warm months.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Homes along the South Fork Ninnescah River, which runs past the southeastern edge of Pratt where a federal stream gauge tracks its flow, sit in soil that holds moisture longer after rain, giving Eastern subterranean termites more opportunity in the river-adjacent neighborhoods than in the drier parts of town.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Pratt County wheat and cattle country surrounds the city, and the same fall pattern common across south central Kansas holds here: once harvest clears the fields, house mice move toward homes, garages, and farm buildings.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "The sandy soil prairie edge around the Sandhills wildlife area, combined with the hatchery's ponds and the river corridor, gives spiders a wider range of outdoor habitat around Pratt than a landlocked prairie town its size typically has.",
+      },
+    ],
+    localHook:
+      "The Kansas Department of Wildlife and Parks' Pratt Fish Hatchery sits about two miles east of Pratt, with 87 culture ponds and two concrete raceways raising walleye, wiper, sauger, saugeye, largemouth bass, channel catfish, and bluegill, alongside an education center with a grassland diorama depicting the state's short, mixed, and tallgrass prairies. Pratt also sits close to the Pratt Sandhills, a public wildlife area of native sand sagebrush prairie on the sandy soil that gives the region its name, and the South Fork Ninnescah River runs past the city's southeastern edge.",
+    intro:
+      "Pratt has more open water working in its favor, and against it, than most towns its size in south central Kansas. The state's Pratt Fish Hatchery, about two miles east of the city, spreads 87 ponds and two raceways across the landscape raising everything from walleye to channel catfish, and that much standing water is a mosquito breeding ground the rest of Pratt County simply doesn't have. The South Fork Ninnescah River, tracked by a federal stream gauge on the city's southeastern edge, keeps soil damp long enough after rain to give termites an edge in river-adjacent neighborhoods. Nearby, the Pratt Sandhills preserve a stretch of native sand sagebrush prairie on the sandy soil the area is known for, and its trails are a dependable source of ticks through the warm months. Add the fall mouse pressure common to every wheat and cattle county in this part of Kansas, plus a steady spider population working the prairie edge and the hatchery grounds, and Pratt's pest picture is more varied than its size would suggest.",
+    sections: [
+      {
+        heading: "Mosquitoes and the Pratt Fish Hatchery's 87 ponds",
+        body: "The Kansas Department of Wildlife and Parks built its Pratt Fish Hatchery about two miles east of the city, and the facility runs 87 culture ponds plus two concrete raceways to raise walleye, wiper, sauger, saugeye, largemouth bass, channel catfish, and bluegill for stocking programs across the state. A concentration of open water on that scale is unusual for a High Plains town of Pratt's size, and it functions as a significant mosquito breeding source from May through September. Properties on the east side of Pratt, closest to the hatchery grounds, typically see more mosquito pressure through the summer than homes on the west side of town.",
+      },
+      {
+        heading: "Ticks on the Pratt Sandhills, termites on the Ninnescah",
+        body: "The Pratt Sandhills wildlife area protects a stretch of native sand sagebrush prairie growing on the sandy soil that gives this part of Kansas its name, and its trails see steady use from hikers and hunters through spring and summer. Ticks move out of the unmowed grass bordering those trails from April through August, and anyone spending time there should check afterward. On the other side of town, the South Fork Ninnescah River runs along Pratt's southeastern edge, close enough that a federal stream gauge on Country Club Road tracks its flow, and homes along that stretch of river sit in soil that holds moisture for weeks after a heavy rain, exactly the condition Eastern subterranean termites need to establish and spread.",
+      },
+      {
+        heading: "Fall mice and year-round spiders",
+        body: "Away from the water features that make Pratt's pest picture unusual, the basics still apply. Pratt County is wheat and cattle country like most of south central Kansas, and every fall, once harvest strips the surrounding fields of food and cover, house mice move toward the nearest building, whether that's a home in town or a barn out in the county. Spiders stay active in Pratt year-round, working the sandy prairie edge near the Sandhills, the grounds around the fish hatchery, and the river corridor, and they become more visible indoors each fall as the weather cools and they look for a way in.",
+      },
+    ],
+    prevention: [
+      "Treat standing water and maintain screens on homes closest to the Pratt Fish Hatchery to reduce mosquito breeding, May through September.",
+      "Check for ticks after visiting the Pratt Sandhills wildlife area trails, April through August.",
+      "Schedule an annual termite inspection for homes along the South Fork Ninnescah River corridor.",
+      "Seal foundation gaps each fall as harvest pushes field mice toward Pratt homes and outbuildings.",
+    ],
+    costNote:
+      "General quarterly pest plans in Pratt run $110 to $225 per year for a typical home. Termite inspections are usually free, with treatment for river-corridor homes often priced at $500 to $1,100 depending on structure size. Mosquito treatments for properties near the fish hatchery typically add $80 to $150 per visit in peak season.",
+    faqs: [
+      {
+        question: "Why are mosquitoes worse near the Pratt Fish Hatchery?",
+        answer:
+          "The state hatchery, about two miles east of Pratt, runs 87 culture ponds and two raceways. That much open water is a significant mosquito breeding source, and homes closest to the hatchery grounds see the heaviest pressure from May through September.",
+      },
+      {
+        question: "Are ticks common at the Pratt Sandhills?",
+        answer:
+          "Yes. The Sandhills wildlife area preserves native sand sagebrush prairie, and the unmowed grass along its trails is a reliable source of ticks for hikers and hunters from April through August.",
+      },
+      {
+        question: "Is termite risk higher along the Ninnescah River in Pratt?",
+        answer:
+          "It is. Homes along the South Fork Ninnescah River, which runs past Pratt's southeastern edge, sit in soil that holds moisture for weeks after rain, conditions Eastern subterranean termites favor.",
+      },
+      {
+        question: "Does harvest season bring mice into Pratt?",
+        answer:
+          "Yes. Pratt County is wheat and cattle country, and once harvest clears the surrounding fields of food and cover, house mice move toward the nearest home, garage, or farm building.",
+      },
+      {
+        question: "Are spiders a year-round issue in Pratt?",
+        answer:
+          "They are. Spiders work the sandy prairie edge near the Sandhills, the hatchery grounds, and the river corridor for most of the year, becoming more visible indoors each fall as they look for a way in.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Abilene", slug: "abilene-ks", stateSlug: "kansas" },
+      { name: "Augusta", slug: "augusta-ks", stateSlug: "kansas" },
+      { name: "Ulysses", slug: "ulysses-ks", stateSlug: "kansas" },
+      { name: "De Soto", slug: "de-soto-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pratt, KS | Hatchery Mosquitoes & Sandhills Ticks",
+    metaDescription:
+      "Pratt, KS pest control for mosquitoes near the state fish hatchery's 87 ponds, ticks on the Sandhills prairie trails, and Ninnescah River termites. Pratt County service. Free inspection.",
+  },
+  {
+    slug: "de-soto-ks",
+    name: "De Soto",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~6,650",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "De Soto sits on the south bank of the Kansas River in northwestern Johnson County, part of the Kansas City metro but built around more than 9,000 acres that spent over half a century as the Sunflower Army Ammunition Plant, the largest ammunition plant in the world during its World War Two operation. The humid continental climate brings hot, humid summers and cold winters, and Kansas sits in USDA Termite Infestation Probability Zone 2, but De Soto's real pest driver right now is the scale of construction reshaping the former Sunflower site for Panasonic's new battery plant.",
+    topPests: ["Termites", "Rodents", "Mosquitoes", "Spiders", "Ticks"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Kansas sits in USDA Termite Infestation Probability Zone 2, and De Soto's moisture-retaining river bottom soil along the Kansas River supports active Eastern subterranean termite colonies in both the city's older original downtown and its fast-growing new subdivisions.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, worse during active construction",
+        note: "The Sunflower Army Ammunition Plant operated on more than 9,000 acres south of De Soto from World War Two through the Vietnam era before closing in 1998, and the large-scale earthmoving now underway on that same ground for Panasonic's battery plant is disturbing established field rodent habitat, pushing mice and rats toward new subdivisions, jobsite trailers, and older De Soto neighborhoods alike.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "De Soto sits on the south bank of the Kansas River, which crested at a record 42.3 feet during the flood of July 1951, and the river's floodplain still holds standing water long enough after a wet spring to keep mosquito season running through the summer.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Eastern Kansas, including Johnson County, is within the brown recluse spider's core range as confirmed by Kansas State University Research and Extension, and De Soto's mix of older river bottom homes and newly disturbed construction ground gives spiders plenty of places to hide before moving indoors each fall.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "The wooded floodplain along the Kansas River south of De Soto, much of it inside the boundary of the former Sunflower site, still carries the tall grass and brush cover ticks need, and outdoor work or recreation anywhere near the river corridor calls for a tick check afterward.",
+      },
+    ],
+    localHook:
+      "The Sunflower Army Ammunition Plant operated on more than 9,000 acres just south of De Soto from 1942 through the Vietnam era, at its peak employing close to 15,000 workers and producing over 200 million pounds of propellant during World War Two alone. The Army declared the plant excess in 1998 and sold the property in 2005, and in 2022 Panasonic chose the same ground for a battery plant reported at roughly 4 billion dollars, one of the largest single economic development projects in Kansas history, with more than 6,000 acres of the former plant annexed into De Soto that same year.",
+    intro:
+      "De Soto has spent its whole history tied to one enormous piece of ground south of town. For more than half a century, that land was the Sunflower Army Ammunition Plant, once the largest ammunition plant in the world, employing close to 15,000 people at its wartime peak before closing in 1998. Today the same acreage is a Panasonic battery plant construction site, one of the biggest economic development projects in state history, and the scale of earthmoving involved is disturbing field rodent populations that had gone undisturbed for years, pushing mice and rats toward new subdivisions and older neighborhoods alike. De Soto still sits where it always has, on the south bank of the Kansas River, a river that crested at a record 42.3 feet in the 1951 flood and still floods the bottomland enough most years to keep mosquitoes active all summer. Eastern Kansas puts De Soto in the brown recluse spider's core range, the wooded river floodplain carries ticks through the warm months, and Kansas' termite risk zone covers both the historic downtown and the new construction alike.",
+    sections: [
+      {
+        heading: "Termites in a town built on two industrial booms",
+        body: "Kansas sits entirely within USDA Termite Infestation Probability Zone 2, a designation that applies just as much to De Soto's original downtown, built up long before the Sunflower Army Ammunition Plant ever existed, as it does to the subdivisions going up now around the Panasonic construction site. River bottom soil along the Kansas River holds moisture longer than higher ground, and that moisture is exactly what Eastern subterranean termites need to establish a colony and keep it going. Older De Soto homes near downtown, with decades of settled foundations, carry real termite risk, and so do newer homes built on disturbed, still-settling ground near the construction boom, for different reasons but with the same result.",
+      },
+      {
+        heading: "Rodents and the Panasonic construction boom",
+        body: "The Sunflower Army Ammunition Plant covered more than 9,000 acres just south of De Soto from 1942 until it closed in 1998, and for decades that ground sat largely undisturbed, first as an active munitions plant and then as land moving slowly through cleanup and redevelopment. That changed in 2022, when Panasonic selected the site for a battery plant reported at roughly 4 billion dollars, and more than 6,000 acres of the former plant were annexed into De Soto the same year. Construction at that scale means heavy equipment tearing up ground that field mice and rats had used undisturbed for a long time, and displaced rodents don't disappear, they relocate, often toward the nearest structure with food, warmth, or shelter, whether that's a jobsite trailer, a new subdivision, or an older De Soto neighborhood nearby.",
+      },
+      {
+        heading: "Mosquitoes on the Kansas River, spiders and ticks in the floodplain",
+        body: "De Soto sits on the south bank of the Kansas River, a river with a real flood history: it crested at a record 42.3 feet during the flood of July 1951, and even in an ordinary wet spring, the bottomland along its banks holds standing water long enough to extend mosquito season from May through September. That same wooded floodplain, much of it inside the boundary of the old Sunflower property, still carries tall grass and brush that ticks depend on, most active April through August. Eastern Kansas is within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and De Soto's combination of older river-adjacent housing and newly disturbed construction ground gives spiders places to shelter outdoors before the fall cooldown sends them looking for a way inside.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for both older De Soto homes near downtown and newer construction on disturbed ground.",
+      "Seal foundation gaps and garage entry points as construction activity near the Panasonic site pushes rodents toward nearby homes.",
+      "Clear gutters and low drainage along the Kansas River floodplain each spring to reduce mosquito breeding.",
+      "Check for ticks after outdoor work or recreation near the wooded river floodplain, April through August.",
+    ],
+    costNote:
+      "General quarterly pest plans in De Soto run $120 to $245 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,200. Rodent exclusion work for properties near active construction zones typically runs $150 to $350 depending on the number of entry points.",
+    faqs: [
+      {
+        question: "Is the Panasonic construction site causing rodent problems in De Soto?",
+        answer:
+          "It's a factor. The former Sunflower Army Ammunition Plant ground sat largely undisturbed for years, and the large-scale earthmoving now underway for the Panasonic battery plant is pushing displaced field mice and rats toward nearby subdivisions, jobsites, and older neighborhoods.",
+      },
+      {
+        question: "What was the Sunflower Army Ammunition Plant?",
+        answer:
+          "A more than 9,000 acre munitions plant just south of De Soto that operated from 1942 through the Vietnam era, employing close to 15,000 workers at its World War Two peak before closing in 1998. Panasonic's battery plant now occupies part of the same site.",
+      },
+      {
+        question: "How bad is Kansas River flood risk in De Soto?",
+        answer:
+          "It has been severe before. The river crested at a record 42.3 feet during the flood of July 1951, and even a normal wet spring leaves standing water in the floodplain long enough to extend mosquito season through the summer.",
+      },
+      {
+        question: "Are brown recluse spiders a concern in De Soto?",
+        answer:
+          "Yes. Eastern Kansas, including Johnson County, is within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension.",
+      },
+      {
+        question: "Are ticks common near De Soto's river floodplain?",
+        answer:
+          "Yes, particularly April through August. The wooded floodplain along the Kansas River, much of it inside the boundary of the former Sunflower site, still carries the tall grass and brush cover ticks need.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Abilene", slug: "abilene-ks", stateSlug: "kansas" },
+      { name: "Augusta", slug: "augusta-ks", stateSlug: "kansas" },
+      { name: "Ulysses", slug: "ulysses-ks", stateSlug: "kansas" },
+      { name: "Pratt", slug: "pratt-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in De Soto, KS | Panasonic-Boom Rodents & River Mosquitoes",
+    metaDescription:
+      "De Soto, KS pest control for rodents displaced by the Panasonic construction boom, Kansas River mosquitoes, brown recluse spiders, and floodplain ticks. Johnson County service. Free inspection.",
+  },
 ];
