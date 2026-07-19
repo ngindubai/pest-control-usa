@@ -3137,5 +3137,123 @@ export const nebraskaCities: CityLocation[] = [
     metaTitle: "Pest Control in Schuyler, NE | Filth Flies, Mosquitoes & Platte River Pest Control",
     metaDescription:
       "Schuyler NE pest control for filth flies near the Cargill plant, Platte River mosquitoes, house mice and boxelder bugs in Colfax County. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "wayne-ne",
+    name: "Wayne",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "~6,100",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wayne sits in Nebraska's northeast corn and soybean country, a stretch of the state that runs colder and wetter than the Panhandle, with winters that dip below zero more nights than the rest of Nebraska sees. Wayne State College, founded here in 1891 as Nebraska Normal College, fills a good share of the town's older housing stock with rental units that turn over every August, layering a college calendar on top of the usual farm town seasonal one.",
+    topPests: ["Mice", "Cluster Flies", "Boxelder Bugs", "Cockroaches", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Wayne County's corn and soybean fields empty out at harvest, and mice that spent summer in the stubble move toward the nearest foundation gap once the cold sets in, whether that's a farmhouse or a downtown rental a block from campus.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September into October",
+        note: "Cluster flies breed in earthworm rich cropland soil around Wayne and gather on sun warmed, south facing walls each fall looking for a crack into a wall void, and the town's older two story homes near Wayne State College have plenty of them.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Early fall",
+        note: "Boxelder trees along Wayne's older residential streets give these bugs a place to breed all summer before they cluster on siding and window frames ahead of the first hard freeze.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, spikes each August",
+        note: "German cockroaches hitch rides in furniture and boxes during the August move-in rush around Wayne State College, and one infested rental can seed several neighboring units in the same converted house before anyone notices.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Paper wasps build under the eaves of Wayne's downtown storefronts and campus buildings, and nests reach their largest size right before students return for fall semester.",
+      },
+    ],
+    localHook:
+      "Wayne is a Wayne County farm town built around Wayne State College, founded in 1891 as Nebraska Normal College, and that college gives the town a second pest calendar most farm towns its size don't have: an August rental turnover that moves German cockroaches from one converted house to the next just as harvest starts pushing field mice toward the same buildings.",
+    intro:
+      "Pest control in Wayne, Nebraska has to account for two overlapping calendars: the farm calendar that governs most of northeast Nebraska, and the college calendar set by Wayne State College, founded here in 1891 as Nebraska Normal College. Wayne County's corn and soybean fields push field mice toward buildings once harvest clears their cover each fall, the same weeks cluster flies work their way into wall voids on the town's older, south facing homes. Boxelder bugs cluster on siding ahead of the first freeze, and paper wasps build under downtown eaves and reach their peak size right before students return each August. That same move-in rush is when German cockroaches most often travel from one converted rental to the next, riding in on furniture and boxes. A farm town's usual pest calendar and a college town's rental turnover run side by side in Wayne rather than one replacing the other.",
+    sections: [
+      {
+        heading: "Why does harvest season change Wayne's mouse pressure?",
+        body: "Wayne County is corn and soybean country, and field mice spend the growing season living in that cover, feeding on spilled grain and insects along the field edges. Once combines clear the stubble each fall, that food and shelter disappear almost overnight, and the mice look for the next best option, which is often the nearest building. In Wayne that can mean a farmhouse on the edge of town, a garage near the grain elevators, or one of the older homes near campus converted into rental units decades ago. The timing tracks the harvest calendar more than the calendar date, so a late harvest can push the mouse surge into November instead of October. Sealing foundation gaps and utility penetrations before combines start rolling gives Wayne homeowners a real head start on the season.",
+      },
+      {
+        heading: "Is Wayne's cluster fly problem tied to its farmland?",
+        body: "It is. Cluster flies lay eggs in soil that supports a healthy earthworm population, and Wayne County's cropland fits that description well. The flies aren't drawn to garbage or food like a house fly, they're after a place to spend the winter, and a sun warmed, south facing wall gives them exactly that. Once inside a wall void they stay dormant through the cold months, then reappear on warm winter days, crawling out through light fixtures or window frames looking confused and sluggish. Wayne's older two story homes near Wayne State College, many with the aging trim and siding gaps a newer build wouldn't have, see this more than the town's newer construction. Exclusion work done before the flies start looking for a way in each September is far more effective than removing them once they're inside a wall.",
+      },
+      {
+        heading: "What does the August rental turnover mean for pest control near campus?",
+        body: "Every August, a large share of Wayne's off campus rental housing changes hands as one group of Wayne State College students moves out and another moves in. That turnover is exactly the kind of disruption German cockroaches exploit: an infestation in one apartment can travel to the next simply by riding along in a couch, a box of kitchen items, or a mattress during move-in week. Landlords who treat units between tenants, rather than waiting for a complaint, cut off that path before it starts. The same turnover period overlaps with the peak size of paper wasp nests under nearby eaves, so a pest check timed to move-in season in Wayne is really addressing two separate problems at once, not just one.",
+      },
+      {
+        heading: "When are boxelder bugs and wasps worst in Wayne?",
+        body: "Both track the calendar closely, but for different reasons. Boxelder bugs feed on the seeds of box elder and maple trees through the summer, and Wayne's older residential blocks have plenty of both. As days shorten in early fall, the bugs cluster in large numbers on sun warmed siding, brick, and window frames, searching for a crack to spend the winter behind. Paper wasps follow a different arc: colonies build steadily from spring through summer and peak in size in August and September, just before the first hard freeze kills off all but the new queens. Downtown storefront eaves and the older buildings on and around the Wayne State College campus are common nest sites. Sealing exterior gaps before the boxelder bugs start clustering and having wasp nests removed before students return each fall covers most of what Wayne sees this time of year.",
+      },
+      {
+        heading: "What should a Wayne pest control plan cover?",
+        body: "A workable plan for Wayne has to handle the farm town side and the college town side at the same time. That means fall exclusion work timed to the harvest, not just the calendar date, cluster fly sealing on older south facing homes before September, wasp nest removal under downtown and campus eaves before the peak late summer size, and a cockroach check for rental units at each August turnover rather than waiting for a tenant complaint. None of these pests are unusual on their own for a northeast Nebraska farm town, but the college calendar layered on top of the farm calendar is what makes Wayne's actual pest year different from a similarly sized town without a state college in it.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before combines start clearing Wayne County's corn and soybean fields each fall.",
+      "Treat older, south facing homes for cluster fly exclusion before late August, ahead of the fall push toward wall voids.",
+      "Have rental units near Wayne State College inspected between tenants each August rather than waiting for a complaint.",
+      "Remove wasp nests from downtown storefront and campus eaves before they reach peak size in late summer.",
+    ],
+    costNote:
+      "General pest inspections in Wayne typically run $100 to $200, and most local providers offer a free initial inspection. Rental property owners near Wayne State College sometimes arrange a standing seasonal contract timed to the August turnover, since treating a unit between tenants costs less than responding to an active cockroach complaint after a new lease starts.",
+    faqs: [
+      {
+        question: "Does Wayne State College affect pest control in the rest of town?",
+        answer:
+          "Only indirectly, through the rental housing that surrounds campus. The August turnover, when one group of students moves out and another moves in, is the main window for German cockroaches to travel between units, so landlords near Wayne State College who treat between tenants see fewer repeat problems than those who wait for a complaint.",
+      },
+      {
+        question: "Why do cluster flies show up in Wayne homes every fall?",
+        answer:
+          "Cluster flies breed in earthworm rich soil, common across Wayne County's cropland, and each September they look for a sun warmed wall to spend the winter behind. Wayne's older two story homes near downtown and campus tend to have more of the small gaps these flies use to get into a wall void than newer construction does.",
+      },
+      {
+        question: "When is mouse season worst in Wayne?",
+        answer:
+          "It generally starts once the surrounding corn and soybean harvest clears the fields, usually October, sometimes later if harvest runs long, and continues through the coldest months as mice look for warm buildings.",
+      },
+      {
+        question: "Are boxelder bugs dangerous in Wayne?",
+        answer:
+          "No, they don't bite or sting and don't damage buildings, but they cluster in large, unpleasant numbers on sun warmed siding each fall as they look for a way to overwinter, and sealing exterior gaps before that happens is the most effective response.",
+      },
+      {
+        question: "Is same day pest service available in Wayne?",
+        answer:
+          "Most licensed providers covering Wayne County offer same day or next day response for active problems, along with a free initial inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Norfolk", slug: "norfolk-ne", stateSlug: "nebraska" },
+      { name: "South Sioux City", slug: "south-sioux-city", stateSlug: "nebraska" },
+      { name: "Columbus", slug: "columbus-ne", stateSlug: "nebraska" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Wayne, NE | Mice, Cluster Flies & Boxelder Bugs",
+    metaDescription:
+      "Pest control in Wayne, Nebraska. Wayne County service for mice, cluster flies, boxelder bugs, and rental cockroach turnover near Wayne State College. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

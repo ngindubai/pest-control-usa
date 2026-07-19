@@ -3539,4 +3539,594 @@ export const mississippiCities: CityLocation[] = [
     metaTitle: "Pest Control in Petal, MS | Formosan Termites & Carpenter Ants",
     metaDescription: "Petal MS pest control for Formosan termites, carpenter ants, mosquitoes near the Leaf River and fire ants. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "yazoo-city",
+    name: "Yazoo City",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~9,800",
+    county: "Yazoo County",
+    climate: "hot-humid",
+    climateDriver:
+      "Yazoo City sits right where the hill country of central Mississippi drops off into the flat farmland of the Mississippi Delta, a shift so sharp that the town has long carried the nickname Gateway to the Delta. The bluff line runs through town itself, with rolling clay hills on one side and the flat, flood-prone bottomland of the Yazoo River backswamp on the other. Summers run long, hot, and heavy with humidity, and the drainage canals built to protect the surrounding cotton and soybean fields keep ground moisture high well past the end of the growing season.",
+    topPests: ["Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Yazoo City's downtown was rebuilt largely in brick after a fire destroyed most of it in 1904, but the wood framing, sills, and subfloors inside those brick shells sit on the same moisture-holding clay that defines the bluff line, and termites don't care what the outer wall is made of.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, worst after Delta flooding",
+        note: "The Yazoo River backswamp and the drainage canals that protect the farmland ringing town hold standing water long after a storm passes, and that stalled water is where the bulk of Yazoo City's mosquito pressure builds through the warm months.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peaks during summer rain",
+        note: "Yazoo City's older downtown storm drains and the humid air off the nearby bottomland give American cockroaches, often called palmetto bugs locally, an easy route from outside into ground-floor commercial space and older homes alike.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The cotton and soybean fields surrounding Yazoo City sit on warm, moist Delta-edge soil that fire ant colonies favor, and mounds move easily from field margins into home lawns at the edge of town.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Fall through winter",
+        note: "Yazoo City grew up as a rail and river shipping point for Delta cotton, and the grain storage and older warehouse buildings left from that era still draw roof rats and Norway rats looking for both food and a dry place to nest once the weather turns.",
+      },
+    ],
+    localHook:
+      "Yazoo City sits exactly on the line where Mississippi's hill country gives way to the Delta, a geographic split so clean that the town has been called the Gateway to the Delta for generations, and that split shows up in its pest pressure too: clay-hill drainage on one side, flat bottomland backswamp on the other, each with its own moisture problems for a home to manage.",
+    intro:
+      "Pest control in Yazoo City has to account for a town built right on a geological seam. The bluff line where Mississippi's central hill country drops into the flat Delta runs through town itself, and that split shapes almost everything else. Termites work the moisture-holding clay soil under the brick downtown that was rebuilt after an 1904 fire, and they don't stop at older homes closer to the bluff. Mosquitoes build up in the Yazoo River backswamp and the drainage canals that protect the cotton and soybean fields surrounding town, especially after Delta flooding. Fire ants have moved out of those same fields into lawns at the edge of town, American cockroaches use the humid downtown storm drains to reach ground-floor buildings, and rats from Yazoo City's rail and river shipping history still turn up in older grain storage and warehouse space. It's a pest calendar shaped by geography as much as by the calendar itself.",
+    sections: [
+      {
+        heading: "Why does sitting on the hill-to-Delta line matter for Yazoo City homes?",
+        body: "Most Mississippi towns sit clearly on one side or the other, either up in the hills or out on the flat Delta. Yazoo City sits on the seam, and that has real consequences for pest pressure. Homes closer to the bluff deal with clay soil that holds moisture against foundations after rain, which is exactly the condition subterranean termites need to keep a mud tube going from the soil to a wood sill. Homes closer to the flat bottomland deal with a different problem: standing water that doesn't drain the way it would on a hillside, which is what keeps mosquito season running long after a storm has passed everywhere else in the county. A pest inspection here really needs to know which side of that line a given property sits on, because the risks aren't identical.",
+      },
+      {
+        heading: "How much does the Yazoo River backswamp add to mosquito season?",
+        body: "Quite a bit. The Yazoo River's backswamp and the network of drainage canals built to keep the surrounding cotton and soybean fields farmable both hold water for days or weeks after a heavy rain, and that stalled water is the main mosquito source for the whole area. Neighborhoods closer to the bottomland see noticeably more pressure through the warm months than homes up on the bluff, and the difference gets sharper after a wet spring or a Delta flood event. Removing standing water in yards helps at the margins, but the backswamp itself is the real driver, which is why barrier treatments targeting shaded resting vegetation matter more here than in a drier inland town.",
+      },
+      {
+        heading: "Does the 1904 fire still affect termite risk in downtown Yazoo City?",
+        body: "In a roundabout way, yes. A fire in 1904 destroyed most of downtown Yazoo City, and the rebuild afterward went up largely in brick specifically to prevent it from happening again. That brick shell doesn't do much against termites, though. The framing, window sills, and subfloors inside those buildings are still wood, and they sit on the same clay soil that holds moisture against foundations throughout the bluff side of town. A termite colony doesn't need much exposed wood to establish a mud tube up from the soil, and more than a century of settling has given plenty of older downtown buildings small gaps to work with.",
+      },
+      {
+        heading: "Why do fire ants keep showing up in yards at the edge of Yazoo City?",
+        body: "Fire ants are established across the farmland that surrounds Yazoo City on nearly every side, cotton and soybean fields sitting on warm, moist Delta-edge soil that colonies find easy to settle into. Field-margin mounds are close enough to town that colonies spread naturally into residential lawns once a yard offers the same conditions: water, shade, and undisturbed soil. That's a different pattern than a purely urban town would see, where fire ants have to travel much further from any real agricultural source. Broadcast bait treatment across a full lawn does more good here than spot-treating individual mounds, since new colonies keep arriving from the surrounding fields.",
+      },
+      {
+        heading: "What does a full Yazoo City pest plan need to cover?",
+        body: "A workable plan has to track which side of the bluff line a property sits on: spring and fall termite inspection for older brick-shell downtown buildings and bluff-side homes alike, mosquito control focused on the backswamp and drainage canal side of town, fire ant bait applied broadly rather than mound by mound given the surrounding farmland, cockroach exclusion at storm drains and ground-floor entry points, and fall rodent exclusion for any property near the old rail and warehouse district. None of these pests are unusual for the Mississippi Delta on their own. It's the fact that Yazoo City straddles two different landscapes that makes the combination, and the right response, specific to this town.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections each spring for both bluff-side homes and downtown brick-shell buildings, since the wood framing inside is what's actually at risk.",
+      "Clear standing water from yard low spots and gutters on the bottomland side of town, where backswamp drainage already keeps ground moisture high.",
+      "Apply fire ant bait across the whole lawn each spring and fall rather than treating individual mounds, since colonies keep arriving from the surrounding fields.",
+      "Seal storm drain gaps and ground-floor entry points downtown to cut American cockroach access during summer rain.",
+    ],
+    costNote:
+      "General pest inspections in Yazoo City typically run $100 to $200, with a free initial inspection standard practice among licensed providers. Termite protection is usually quoted separately as an annual plan given the moisture-holding clay soil on the bluff side of town.",
+    faqs: [
+      {
+        question: "Is Yazoo City really on the edge of the Mississippi Delta?",
+        answer:
+          "Yes. Yazoo City sits directly on the bluff line where central Mississippi's hill country drops into the flat Delta, which is why the town has long been called the Gateway to the Delta. That split shows up in pest pressure too, with clay-hill drainage issues on one side of town and flat, flood-prone bottomland on the other.",
+      },
+      {
+        question: "Why does downtown Yazoo City still have termite risk if it's mostly brick?",
+        answer:
+          "The brick you see is the outer wall, rebuilt after a fire destroyed most of downtown in 1904. The framing, sills, and subfloors inside those buildings are still wood, and they sit on the same moisture-holding clay soil that runs along the bluff, which is exactly what subterranean termites need to establish a colony.",
+      },
+      {
+        question: "Is mosquito season worse in some parts of Yazoo City than others?",
+        answer:
+          "Yes. Neighborhoods closer to the Yazoo River backswamp and the drainage canals that protect the surrounding farmland see noticeably more mosquito pressure through the warm months than homes up on the bluff side of town, especially after heavy rain or Delta flooding.",
+      },
+      {
+        question: "Why are fire ants such a persistent problem around Yazoo City?",
+        answer:
+          "Cotton and soybean fields surround much of Yazoo City, and fire ant colonies are well established in that Delta-edge farmland. Field-margin mounds spread naturally into residential lawns at the edge of town, which is why broadcast bait across a full yard works better here than spot-treating individual mounds.",
+      },
+      {
+        question: "Do older buildings near Yazoo City's rail district have a rodent problem?",
+        answer:
+          "Some do. Yazoo City grew as a rail and river shipping point for Delta cotton, and the grain storage and older warehouse buildings from that era can still draw roof rats and Norway rats looking for food and shelter once cooler weather sets in each fall.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Vicksburg", slug: "vicksburg", stateSlug: "mississippi" },
+      { name: "Greenwood", slug: "greenwood-ms", stateSlug: "mississippi" },
+      { name: "Batesville", slug: "batesville-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Yazoo City, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Yazoo City, Mississippi. Yazoo County service for termites, mosquitoes, fire ants, cockroaches, and rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "long-beach-ms",
+    name: "Long Beach",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~17,400",
+    county: "Harrison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Long Beach sits directly on the Mississippi Sound in Harrison County, part of the Gulfport-Biloxi metro area, where warm Gulf water keeps summers long, humid, and prone to sudden afternoon storms. Hurricane Katrina flattened much of the city's beachfront in 2005, and the rebuild since then has mixed elevated new construction with older slab homes further back from the water. That coastal humidity almost never lets up, even winter nights rarely see a hard freeze, which keeps the pest pressure that defines the Mississippi Gulf Coast active nearly year-round.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Fleas and Ticks"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July at dusk, active year-round underground",
+        note: "Harrison County is one of the counties Mississippi State University Extension flags for established Formosan termite colonies, introduced through Gulf Coast shipping traffic decades ago, and Long Beach's mix of older coastal homes and new post-Katrina construction both sit inside that zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Salt marsh mosquitoes breed in the brackish wetlands along the Mississippi Sound while freshwater species use yard drainage and containers further inland, giving Long Beach two overlapping mosquito sources instead of just one.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible after Gulf storms",
+        note: "Warm, humid coastal air keeps American cockroaches, the palmetto bugs common along the whole Gulf Coast, active outdoors year-round, and they push into buildings whenever heavy rain or storm surge disturbs their usual outdoor habitat.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "Long Beach's sandy coastal soil drains fast but holds warmth, conditions fire ant colonies use well, and mounds are common in the open lawns and green space that make up much of the rebuilt residential city.",
+      },
+      {
+        name: "Fleas and ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Nearly year-round given mild winters",
+        note: "Long Beach's winters are mild enough that flea and tick life cycles rarely get interrupted by a hard freeze, so outdoor pets and yards need protection through more of the calendar than a homeowner further inland would expect.",
+      },
+    ],
+    localHook:
+      "The Friendship Oak on the University of Southern Mississippi's Gulf Park campus in Long Beach is a live oak believed to be more than 500 years old, one of the coast's most recognized landmarks, and it's a reminder of how much of Long Beach rebuilt itself around its older natural features after Hurricane Katrina put nearly the entire beachfront under water in 2005.",
+    intro:
+      "Pest control in Long Beach starts with two things: the Mississippi Sound at the edge of town and the rebuild that followed Hurricane Katrina in 2005. Harrison County sits inside Mississippi State University Extension's established Formosan termite zone, and Long Beach's mix of older coastal homes and newer post-Katrina construction both carry that risk, sometimes for different reasons. Mosquitoes come from two directions at once, salt marsh species breeding in the brackish wetlands along the Sound and freshwater species using yard drainage further inland. American cockroaches thrive in the year-round coastal humidity, fire ants work the sandy soil common to rebuilt lawns and green space, and mild winters keep fleas and ticks active on a longer calendar than most of the state sees. It adds up to a pest pressure that rarely lets up, even in what passes for winter here.",
+    sections: [
+      {
+        heading: "Why is Harrison County one of Mississippi's worst spots for Formosan termites?",
+        body: "Formosan subterranean termites arrived in the United States through Gulf Coast shipping ports and established themselves fastest along the coastline where they first landed, and Harrison County is squarely in that zone. Mississippi State University Extension lists the county among the areas with confirmed, established colonies, and a mature Formosan colony can carry several million workers, far more than a native eastern subterranean colony and capable of causing serious structural damage in a fraction of the time. Long Beach's older coastal homes carry decades of exposure to that risk, while newer post-Katrina construction isn't exempt just because the wood is younger. An annual inspection is the standard response for both.",
+      },
+      {
+        heading: "How did Hurricane Katrina change what a Long Beach pest inspection looks for?",
+        body: "Katrina put nearly the entire Long Beach beachfront under water in 2005, and what got rebuilt afterward looks different from what was there before. A lot of new construction near the water went up elevated on pilings, which changes where a termite colony can reach wood and where a technician needs to check. Further back from the beach, older slab homes that survived the storm are still on grade, which is the more familiar termite exposure. A citywide inspection has to account for both construction types rather than assuming one standard home layout, which isn't something a technician working further inland typically has to think about.",
+      },
+      {
+        heading: "Why does Long Beach get mosquitoes from two different directions?",
+        body: "The brackish wetlands along the Mississippi Sound support salt marsh mosquito species that can travel a good distance from where they hatch, while the yard drainage, gutters, and containers found in any residential neighborhood support a separate set of freshwater breeding species closer to home. Most inland Mississippi towns deal mainly with the second kind. Long Beach deals with both, which is part of why mosquito season here runs long, March through November, and why an effective plan usually combines yard-level source reduction with a broader barrier treatment rather than relying on either alone.",
+      },
+      {
+        heading: "Do Long Beach's mild winters really extend flea and tick season?",
+        body: "They do. A hard freeze breaks the flea and tick life cycle in colder parts of the country, killing off eggs and larvae before they can mature. Long Beach's Gulf Coast location rarely delivers that kind of freeze, so populations that would die back elsewhere simply slow down here before picking back up. Pets that spend time outdoors, and yards with any shade or leaf litter, stay at risk through more months of the year than a homeowner moving from a colder state might expect, which is why year-round prevention rather than a seasonal-only approach tends to work better in Long Beach.",
+      },
+      {
+        heading: "What does a complete Long Beach pest plan need to include?",
+        body: "A solid plan covers Formosan termite inspection for both older coastal homes and newer elevated construction, mosquito control that addresses salt marsh and freshwater sources separately, cockroach exclusion sized for year-round coastal humidity, fire ant bait across sandy lawns and green space, and flea and tick prevention that runs closer to year-round than a seasonal calendar further inland would need. None of these pests are unique to Long Beach on their own, but the combination, and the mix of old and new construction left behind by Katrina, makes the specifics of a Long Beach plan different from a Jackson or Hattiesburg property further from the coast.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual Formosan termite inspection for both older coastal homes and newer post-Katrina construction, elevated or on-grade.",
+      "Reduce standing water in yard drainage and containers to cut freshwater mosquito breeding, since salt marsh species along the Sound are harder to control at the source.",
+      "Seal ground-floor entry points and check crawl spaces after Gulf storms, when American cockroaches and other pests get displaced from their usual outdoor habitat.",
+      "Keep pets on year-round flea and tick prevention rather than a seasonal schedule, given how rarely Long Beach sees a hard freeze.",
+    ],
+    costNote:
+      "General pest inspections in Long Beach typically run $100 to $225, with Formosan termite protection plans quoted separately given the elevated risk Harrison County carries. A free initial inspection is standard, and many providers offer combined mosquito and general pest plans given how long both seasons run on the coast.",
+    faqs: [
+      {
+        question: "Are Formosan termites worse in Long Beach than inland Mississippi?",
+        answer:
+          "Generally yes. Harrison County is one of the counties Mississippi State University Extension identifies as having established Formosan termite colonies, a legacy of the species arriving through Gulf Coast shipping traffic. Long Beach's coastal location puts it inside that higher-risk zone, which is why annual inspection is the standard recommendation for both older and newer homes in the city.",
+      },
+      {
+        question: "Does new construction in Long Beach still need termite protection after Hurricane Katrina rebuilding?",
+        answer:
+          "Yes. A lot of Long Beach's post-Katrina construction went up elevated on pilings, which changes where termites can reach wood but doesn't remove the risk. Harrison County's established Formosan population affects newer builds as well as the older slab homes further back from the beach.",
+      },
+      {
+        question: "Why does Long Beach have mosquitoes even when the yard is dry?",
+        answer:
+          "Because part of the city's mosquito pressure comes from salt marsh species breeding in the brackish wetlands along the Mississippi Sound, not just from standing water in yards. Long Beach deals with both salt marsh and freshwater mosquito sources at once, which is less common than in inland Mississippi towns.",
+      },
+      {
+        question: "Do I need flea and tick treatment in Long Beach during winter?",
+        answer:
+          "It's worth keeping up. Long Beach's Gulf Coast winters rarely produce the hard freeze that interrupts flea and tick life cycles further inland, so populations slow down rather than die off, and pets that spend time outdoors stay at some risk through more of the year than in a colder part of the state.",
+      },
+      {
+        question: "Is same-day pest service available in Long Beach?",
+        answer:
+          "Most licensed providers covering Harrison County, including Long Beach, offer same-day or next-day response for active infestations, along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Gulfport", slug: "gulfport", stateSlug: "mississippi" },
+      { name: "Biloxi", slug: "biloxi", stateSlug: "mississippi" },
+      { name: "Yazoo City", slug: "yazoo-city", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Long Beach, MS | Formosan Termites & Mosquitoes",
+    metaDescription:
+      "Pest control in Long Beach, Mississippi. Harrison County Gulf Coast service for Formosan termites, mosquitoes, fire ants, and fleas and ticks. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "philadelphia-ms",
+    name: "Philadelphia",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~7,100",
+    county: "Neshoba County",
+    climate: "hot-humid",
+    climateDriver:
+      "Philadelphia sits in the red clay hills of east-central Mississippi, in the transition zone between the state's Piney Woods to the south and the Black Prairie to the north, with hardwood and pine forest covering most of the county outside town. The Mississippi Band of Choctaw Indians is headquartered a few miles west in the Pearl River community, and Neshoba County's economy still runs on a mix of farming, timber, and manufacturing. Summers are hot and humid like the rest of the state, but the hill terrain drains faster than the Delta, which keeps standing water more limited to creek bottoms and low pasture.",
+    topPests: ["Ticks", "Termites", "Carpenter Ants", "Wasps", "Mice"],
+    pestProfile: [
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peaks during Neshoba County Fair week in late July",
+        note: "Neshoba County's hardwood and pine forest supports a large deer population, and the Lone star tick is the dominant species using that wildlife as a host, which matters most during the Neshoba County Fair each summer when thousands of people camp in wooded fairground cabins.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Philadelphia's red clay hill soil holds moisture against foundations after rain nearly as well as the flatter ground further south, and older rural homes throughout the county remain the most consistent termite calls.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most visible after rain",
+        note: "The hardwood forest surrounding Philadelphia supplies plenty of decaying wood for carpenter ant colonies to nest in naturally, and they move into any moisture-damaged wood on a nearby home once that natural habitat gets crowded or disturbed.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Wasps build under eaves and inside vacant structures across rural Neshoba County, and the hundreds of family cabins at the Neshoba County Fairgrounds that sit empty most of the year are exactly the undisturbed shelter paper wasps and yellowjackets look for.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Rural farmhouses and outbuildings scattered through Neshoba County's hill country give mice easy access once cooler weather pushes them off the surrounding fields and forest edge.",
+      },
+    ],
+    localHook:
+      "The Neshoba County Fairgrounds just outside Philadelphia hold roughly six hundred family cabins that are only occupied one week a year during the Neshoba County Fair, known locally as Mississippi's Giant House Party, and those cabins sit empty and undisturbed for the other fifty-one weeks, which makes them exactly the kind of shelter mice and wasps look for when nobody is checking.",
+    intro:
+      "Pest control in Philadelphia has one detail most Mississippi towns don't: the Neshoba County Fairgrounds, home to roughly six hundred family cabins that fill up for one week each summer and then sit empty the rest of the year. That pattern of concentrated use followed by long vacancy is its own pest problem, wasps and mice both favor the undisturbed shelter those cabins provide between fair weeks. The rest of Philadelphia's pest pressure tracks the surrounding hill country. Lone star ticks are common in the hardwood and pine forest that covers most of Neshoba County, red clay hill soil holds moisture against foundations for subterranean termites, carpenter ants nest in decaying forest wood before moving into damaged structures nearby, and rural farmhouses draw mice once the weather turns cold. It's a mix shaped by both the terrain and the calendar.",
+    sections: [
+      {
+        heading: "Why do the Neshoba County Fair cabins need pest attention year-round?",
+        body: "The Neshoba County Fair, known across the state as Mississippi's Giant House Party, draws thousands of people to roughly six hundred family cabins clustered on the fairgrounds each July. For the other fifty-one weeks of the year, those cabins mostly sit closed up and empty. That's a near-ideal setup for wasps building nests under eaves nobody checks and mice finding their way into a structure with no daily activity to disturb them. Owners who only think about pest control the week before the fair are usually dealing with problems that had months to develop. A spring inspection ahead of fair season catches most of what builds up over the vacant stretch.",
+      },
+      {
+        heading: "How does Neshoba County's forest affect tick exposure around Philadelphia?",
+        body: "The hardwood and pine forest that covers most of the county outside Philadelphia supports a healthy deer population, and Lone star ticks use that wildlife as their primary host. That combination means anyone spending time outdoors in Neshoba County, whether on a rural property or camped at the fairgrounds during fair week, has real tick exposure from March through November. The fair itself concentrates that risk since it puts large numbers of people into wooded, grassy fairground land during peak tick season. Checking for ticks after outdoor time and treating yards or campsite areas ahead of a stay both matter more here than in a more built-up town.",
+      },
+      {
+        heading: "Does Philadelphia's red clay hill soil create the same termite risk as the Delta?",
+        body: "Close to it, if for a different reason. Delta soil holds moisture because it's flat and slow to drain. Philadelphia's red clay hill soil holds moisture because clay itself is dense and slow to release water, even on a slope. Either way, the result for a home's foundation is similar: damp soil sitting against sills and slabs gives eastern subterranean termites the conditions they need to build a mud tube from the ground into a structure. Older rural homes throughout Neshoba County, many built decades before current foundation and moisture standards, remain the most consistent source of termite calls in the area.",
+      },
+      {
+        heading: "Why do carpenter ants keep turning up near Philadelphia's tree line?",
+        body: "Carpenter ants don't need a home to survive. The hardwood forest surrounding Philadelphia gives them plenty of naturally decaying wood, fallen logs, dead branches, old stumps, to nest in without ever coming near a structure. Colonies move into a house only when that natural habitat gets crowded, disturbed by land clearing, or when a nearby structure offers moisture-damaged wood that's easier to work than a dead tree. A leaking roofline, a rotting deck post, or an old shed near the property line are the usual entry points. Fixing the moisture source matters as much as treating the ants directly.",
+      },
+      {
+        heading: "What does a full Philadelphia pest plan need to cover?",
+        body: "A workable plan tracks the fairgrounds cycle as much as the calendar season: spring inspection of any fairground cabin ahead of July fair week, tick prevention tuned to Neshoba County's forest and deer population, spring termite checks for older rural homes on the county's red clay hill soil, carpenter ant attention for any property near tree cover, and fall mouse exclusion for farmhouses and outbuildings. None of these pests are unusual for east-central Mississippi hill country on their own. The fairgrounds' unique pattern of concentrated use and long vacancy is what actually sets a Philadelphia plan apart from a typical rural county seat.",
+      },
+    ],
+    prevention: [
+      "Inspect fairground cabins each spring for wasp nests and mouse entry points that built up during the fifty-one weeks the cabin sat empty.",
+      "Check yourself and pets for ticks after any time in Neshoba County's wooded areas, especially during fair week when tick exposure peaks.",
+      "Schedule spring termite inspections for older rural homes, since the county's red clay hill soil holds moisture against foundations much like Delta soil does.",
+      "Fix roof and deck leaks promptly on properties near tree cover, since moisture-damaged wood is what draws carpenter ants out of the surrounding forest.",
+    ],
+    costNote:
+      "General pest inspections in Philadelphia typically run $100 to $200, with a free initial inspection common among licensed providers serving Neshoba County. Fairground cabin owners often schedule a pre-fair inspection each spring as a separate, one-time service ahead of the annual crowd.",
+    faqs: [
+      {
+        question: "Why do wasps keep building nests in Philadelphia's fairground cabins?",
+        answer:
+          "The Neshoba County Fairgrounds hold roughly six hundred family cabins that sit empty for fifty-one weeks a year between fair weeks, and that long stretch of undisturbed shelter is exactly what paper wasps and yellowjackets look for under eaves and inside vacant structures. A spring inspection ahead of fair week catches most of what builds up.",
+      },
+      {
+        question: "Is tick exposure higher in Philadelphia than other parts of Mississippi?",
+        answer:
+          "The hardwood and pine forest covering most of Neshoba County supports a large deer population, and Lone star ticks use that wildlife as a primary host, so anyone spending time outdoors around Philadelphia, especially during Neshoba County Fair week in late July, has real exposure from March through November.",
+      },
+      {
+        question: "Does Philadelphia's hill country soil cause termite problems like the Delta does?",
+        answer:
+          "In a similar way, yes, just for a different reason. Delta soil holds moisture because it's flat. Philadelphia's red clay hill soil holds moisture because clay is dense and slow to drain even on a slope, and either way that dampness against a foundation is what subterranean termites need to build a mud tube into a structure.",
+      },
+      {
+        question: "Why do carpenter ants show up near homes close to Philadelphia's tree line?",
+        answer:
+          "The hardwood forest around Philadelphia gives carpenter ants plenty of naturally decaying wood to nest in without ever reaching a house. Colonies move into a structure mainly when a leaking roofline, rotting deck, or old shed offers moisture-damaged wood that's easier to use than a dead tree in the forest.",
+      },
+      {
+        question: "Do mice become a bigger problem in Philadelphia during fall?",
+        answer:
+          "Yes, particularly for rural farmhouses and outbuildings scattered through Neshoba County's hill country. Once cooler weather pushes mice off the surrounding fields and forest edge, older rural construction gives them easy points of entry.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Meridian", slug: "meridian", stateSlug: "mississippi" },
+      { name: "Yazoo City", slug: "yazoo-city", stateSlug: "mississippi" },
+      { name: "Amory", slug: "amory", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Philadelphia, MS | Ticks, Termites & Wasps",
+    metaDescription:
+      "Pest control in Philadelphia, Mississippi. Neshoba County service for ticks, termites, carpenter ants, wasps, and mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "amory",
+    name: "Amory",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~6,500",
+    county: "Monroe County",
+    climate: "hot-humid",
+    climateDriver:
+      "Amory grew up as a planned railroad town, laid out by the St. Louis-San Francisco Railway, known as the Frisco, in 1887 on the east side of the Tombigbee River valley in northern Monroe County. The Tennessee-Tombigbee Waterway now runs along the city's northwestern edge, connecting the Port of Mobile to the Tennessee River, and that combination of river valley and Black Prairie farmland to the west gives Amory a mix of waterway moisture and open agricultural land most Golden Triangle-area towns don't have quite the same way.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Ticks", "Wasps"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Amory's downtown grew up around the Frisco Railway depot in the 1880s, and the older wood-frame construction from that era sits on Tombigbee River valley soil that holds moisture well after rain, a combination that keeps termite inspection demand steady.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, tied to the Tennessee-Tombigbee Waterway",
+        note: "The Tenn-Tom Waterway and the backwater sloughs along its banks give Amory a more consistent mosquito source through the warm months than towns further from the river valley.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The Black Prairie farmland and pastureland west of Amory carries some of the state's most fire-ant-favorable soil, and colonies move easily from field margins into residential lawns at the edge of town.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "Wooded stretches along the waterway and the pastureland surrounding Amory both support tick populations that use local deer and livestock as hosts, which matters for anyone using the waterway's boat launches and greenway trails.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Boat houses, docks, and outbuildings along the Tenn-Tom Waterway give wasps and yellowjackets plenty of undisturbed eaves to build under, especially on properties that only see regular activity on weekends.",
+      },
+    ],
+    localHook:
+      "Amory was laid out from scratch in 1887 as a planned depot town for the St. Louis-San Francisco Railway, and more than a century later the Tennessee-Tombigbee Waterway, completed in 1985, runs along the same river valley the railroad once served, giving the city both a historic wood-frame downtown and a modern waterway corridor to account for in pest pressure.",
+    intro:
+      "Pest control in Amory has to account for a town shaped by two very different transportation eras built on the same river valley. The city was planned from the ground up in 1887 as a depot stop for the Frisco Railway, and that original downtown's older wood-frame construction sits on Tombigbee River valley soil that holds moisture well after rain, keeping termite pressure steady. A century later, the Tennessee-Tombigbee Waterway opened along the same valley, and its backwater sloughs now drive a mosquito season that runs longer than towns further from the water see. Fire ants work the Black Prairie farmland to the west, ticks use the wooded waterway corridor and surrounding pastureland as host territory, and wasps favor the boat houses and docks that see activity mainly on weekends. It's a pest picture built on both railroad history and river geography.",
+    sections: [
+      {
+        heading: "Why does Amory's original railroad-town layout still affect termite risk?",
+        body: "Amory didn't grow up gradually the way a lot of Mississippi towns did. The Frisco Railway laid it out as a planned depot stop in 1887, and the original downtown went up quickly around that depot in the wood-frame construction typical of the era. More than a hundred years later, a good share of that framing is still standing, and it sits on Tombigbee River valley soil that holds onto moisture after rain about as well as anywhere in Monroe County. Older wood sills close to damp soil is close to a textbook setup for subterranean termites, which is why Amory's historic downtown and the older residential blocks around it stay a consistent source of termite inspection calls.",
+      },
+      {
+        heading: "How does the Tennessee-Tombigbee Waterway change mosquito season in Amory?",
+        body: "The Tenn-Tom Waterway, completed in 1985, runs along Amory's northwestern edge and connects the Port of Mobile all the way north to the Tennessee River. Its backwater sloughs and the low ground along its banks hold water for extended stretches after rain, giving Amory a more reliable mosquito source through the warm months than a town sitting further from any river valley. Properties closest to the waterway see the heaviest pressure, typically April through October, and that's also where a lot of Amory's recreational boat traffic concentrates, which means mosquito exposure and waterway recreation overlap for a good part of the year.",
+      },
+      {
+        heading: "Why is fire ant pressure so consistent on Amory's west side?",
+        body: "West of Amory, the land opens into the Black Prairie, a farming and pastureland region with soil conditions fire ant colonies take to easily. Field margins and pasture edges along that side of town sit close enough to residential lawns that colonies spread naturally rather than staying contained to agricultural land. That's different from Amory's east side, closer to the river valley, where fire ant pressure tends to run lighter. Broadcast bait treatment across the full lawn works better on west-side properties than spot-treating individual mounds, since new colonies keep arriving from the surrounding Prairie farmland.",
+      },
+      {
+        heading: "Do the waterway's boat launches and trails increase tick exposure?",
+        body: "They do, for anyone spending real time on them. The wooded stretches along the Tennessee-Tombigbee Waterway support deer and other wildlife that ticks use as hosts, and the same greenway trails and boat launches that draw people out to the water put them directly into that habitat. Pastureland surrounding Amory adds a second tick source further from the river. Anyone using the waterway regularly, whether for fishing, boating, or just walking a trail, should plan on checking for ticks afterward, and properties backing up to wooded waterway land benefit from a yard perimeter treatment through the spring and fall.",
+      },
+      {
+        heading: "What does a complete Amory pest plan need to cover?",
+        body: "A solid plan splits attention between the two halves of the town's history. That means termite inspection for the historic Frisco-era downtown and older wood-frame homes near the river valley, mosquito control focused on the Tenn-Tom Waterway's backwater sloughs, fire ant bait for west-side properties closer to the Black Prairie farmland, tick prevention for anyone using the waterway's trails and boat launches, and wasp checks on docks and boat houses that only see weekend activity. None of these pests are unusual for northeastern Mississippi on their own, but Amory's specific mix of a century-old railroad downtown and a modern waterway corridor is what shapes the plan.",
+      },
+    ],
+    prevention: [
+      "Schedule spring termite inspections for the historic downtown and older wood-frame homes near the Tombigbee River valley, where soil moisture stays highest.",
+      "Clear standing water from backwater areas near the waterway where practical, and treat vegetation along the bank to cut mosquito breeding through the warm months.",
+      "Apply fire ant bait broadly across west-side lawns closer to the Black Prairie farmland rather than treating individual mounds.",
+      "Check docks, boat houses, and waterside outbuildings each summer for wasp nests, since weekend-only activity gives them time to build undisturbed.",
+    ],
+    costNote:
+      "General pest inspections in Amory typically run $100 to $200, with a free initial inspection standard among licensed providers serving Monroe County. Waterfront and dock properties along the Tenn-Tom Waterway sometimes see a modestly higher quote given the extra time spent checking boat houses and outbuildings.",
+    faqs: [
+      {
+        question: "Why does Amory's old downtown still have termite problems?",
+        answer:
+          "Amory was planned from scratch in 1887 as a depot stop for the Frisco Railway, and its original downtown went up in the wood-frame construction typical of that era. More than a century later, that framing still sits on Tombigbee River valley soil that holds moisture well after rain, which keeps termite pressure steady in the historic district.",
+      },
+      {
+        question: "Is mosquito season worse near the Tennessee-Tombigbee Waterway in Amory?",
+        answer:
+          "Yes. The Tenn-Tom Waterway's backwater sloughs and low-lying bank areas hold standing water longer than the rest of Amory, giving properties closest to the waterway a more consistent mosquito source from April through October than homes further from the water.",
+      },
+      {
+        question: "Why are fire ants worse on Amory's west side than elsewhere in town?",
+        answer:
+          "West of Amory, the land opens into the Black Prairie, a farming and pastureland region with soil conditions fire ants favor. Field margins there sit close enough to residential lawns that colonies spread naturally, which is less true on Amory's east side closer to the river valley.",
+      },
+      {
+        question: "Do people using the Tenn-Tom Waterway trails need tick protection in Amory?",
+        answer:
+          "Yes, generally. The wooded stretches along the waterway support deer and other wildlife that ticks use as hosts, and the same trails and boat launches that draw people to the water put them into that same habitat, so checking for ticks after time on the waterway is worth the habit.",
+      },
+      {
+        question: "Is same-day pest service available in Amory?",
+        answer:
+          "Most licensed providers covering Monroe County, including Amory, offer same-day or next-day response for active infestations, along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus-ms", stateSlug: "mississippi" },
+      { name: "West Point", slug: "west-point-ms", stateSlug: "mississippi" },
+      { name: "Philadelphia", slug: "philadelphia-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Amory, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Amory, Mississippi. Monroe County service for termites, mosquitoes, fire ants, ticks, and wasps near the Tenn-Tom Waterway. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "batesville-ms",
+    name: "Batesville",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~7,500",
+    county: "Panola County",
+    climate: "hot-humid",
+    climateDriver:
+      "Batesville sits along the I-55 corridor in Panola County, one of two county seats along with Sardis, in the North Central Hills region where Mississippi's hill country meets the western edge of the Delta. Sardis Lake, a US Army Corps of Engineers reservoir completed in 1940 to control downstream Delta flooding, sits about ten miles northeast of town and draws heavy recreational traffic through the summer. That mix of interstate growth and lake-driven tourism gives Batesville a wider range of construction ages and outdoor exposure than a typical hill-country county seat.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Fire Ants", "Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, heaviest near Sardis Lake",
+        note: "Sardis Lake and the wetland margins around it hold standing water through the warm months, and Batesville properties closest to the lake or its feeder creeks see notably more mosquito pressure than homes further into town.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "John Kyle State Park on the shore of Sardis Lake draws heavy foot traffic into wooded, grassy terrain that supports tick populations, which matters for both park visitors and the lake-cabin properties nearby.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Panola County straddles hill country and the western edge of the Delta, and Batesville's older homes on the hill side deal with the same moisture-holding clay soil that drives termite pressure across most of north Mississippi.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The farmland and pastureland surrounding Batesville, especially toward the flatter Delta-edge ground to the west, gives fire ant colonies favorable soil that spreads easily into residential lawns at the edge of town.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer into fall",
+        note: "Woodpiles, boat storage, and outbuildings common on properties near Sardis Lake give black widow and other spiders plenty of undisturbed shelter, particularly on cabins and camps that only see regular use on weekends.",
+      },
+    ],
+    localHook:
+      "Sardis Lake, a US Army Corps of Engineers reservoir built in 1940 specifically to hold back flooding on the Delta downstream, sits about ten miles from downtown Batesville and turns what would otherwise be a quiet I-55 corridor county seat into a summer recreation town, with all the lake-cabin and boat-storage pest pressure that comes with it.",
+    intro:
+      "Pest control in Batesville has to serve two different kinds of property: the interstate corridor town itself and the lake community built up around nearby Sardis Lake. That reservoir, completed by the Army Corps of Engineers in 1940 to control Delta flooding downstream, draws heavy summer recreation and gives Batesville a mosquito and tick pressure that a typical hill-country county seat wouldn't otherwise see. Mosquitoes concentrate near the lake and its feeder creeks, ticks build up in the wooded terrain around John Kyle State Park, and spiders find plenty of shelter in the woodpiles and boat storage on weekend-only lake cabins. Further from the water, Batesville's older hill-side homes deal with the same moisture-driven termite risk as the rest of north Mississippi, and fire ants work the farmland toward the flatter Delta-edge ground to the west. It's a pest calendar split between the interstate and the lake.",
+    sections: [
+      {
+        heading: "How much does Sardis Lake change Batesville's pest pressure?",
+        body: "Quite a lot, for a county seat its size. Sardis Lake was built in 1940 to hold back flooding on the Delta downstream, but the recreation that grew up around it since has given Batesville a summer population and property mix a typical hill-country town of this size wouldn't otherwise have. Lake cabins, boat storage, and campground areas near John Kyle State Park all carry their own pest exposure: mosquitoes near the water, ticks in the wooded park terrain, spiders in outbuildings that see activity mainly on weekends. A pest plan built only around the town's interstate corridor properties would miss most of what actually drives calls near the lake.",
+      },
+      {
+        heading: "Why does mosquito pressure vary so much across Batesville?",
+        body: "Distance from Sardis Lake and its feeder creeks makes the biggest difference. Properties close to the water deal with standing wetland margins that hold moisture through the entire warm season, April through October, while homes further into town rely mainly on yard drainage and containers for their mosquito exposure, a lighter and more manageable source. That split means a one-size treatment plan doesn't serve Batesville well. Lakeside cabins and camps benefit from a barrier treatment targeting shaded vegetation near the shoreline, while interstate-corridor homes get more value from straightforward yard-level source reduction.",
+      },
+      {
+        heading: "Does John Kyle State Park increase tick exposure for nearby homes?",
+        body: "It does, mainly because of the volume of people and pets moving through wooded, grassy terrain on the lake's edge. The park draws heavy foot traffic for camping, hiking, and fishing, and that terrain supports the same tick populations that use local deer as hosts throughout Panola County. Properties near the park, especially lake cabins with any tree cover or unmowed grass, see more consistent tick pressure than homes further into Batesville proper. Checking for ticks after time in the park and treating cabin yard perimeters each spring and fall both matter more here than for a typical in-town property.",
+      },
+      {
+        heading: "Why do Batesville's older hill-side homes still deal with heavy termite risk?",
+        body: "Panola County sits right at the seam between north Mississippi's hill country and the flatter western edge of the Delta, and Batesville's older homes on the hill side of that line deal with clay soil that holds moisture against foundations after rain about as consistently as anywhere else in the region. That's a separate issue from the lake-driven pest pressure closer to Sardis, tied instead to the county's basic geology. Spring inspection ahead of swarm season, typically March through May, catches most colonies before they cause visible damage, and it's worth doing regardless of whether a property sits near the lake or closer to the interstate.",
+      },
+      {
+        heading: "What does a full Batesville pest plan need to cover?",
+        body: "A workable plan treats the town and the lake as two related but distinct problems. That means mosquito control weighted toward properties near Sardis Lake and its feeder creeks, tick prevention for anything near John Kyle State Park, spring termite inspection for older hill-side homes regardless of proximity to the water, fire ant bait for farmland-adjacent lawns toward the Delta-edge side of town, and spider and general pest checks for lake cabins and boat storage that only see weekend activity. None of these pests are unusual for north Mississippi individually, but Batesville's split identity, interstate county seat and lake recreation town, is what makes the combination specific to this place.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment for properties near Sardis Lake and its feeder creeks, where standing wetland margins hold moisture through the whole warm season.",
+      "Check for ticks after time in John Kyle State Park, and treat cabin and camp yard perimeters each spring and fall.",
+      "Schedule spring termite inspections for older hill-side homes, since Panola County's clay soil holds moisture against foundations much like the rest of north Mississippi.",
+      "Clear woodpiles and boat storage clutter on lake properties to reduce shelter for black widow and other spiders.",
+    ],
+    costNote:
+      "General pest inspections in Batesville typically run $100 to $200, with a free initial inspection standard among licensed providers serving Panola County. Lake cabin and waterfront properties near Sardis Lake sometimes see a modestly higher quote given the added time spent on outbuildings and boat storage.",
+    faqs: [
+      {
+        question: "Does Sardis Lake really change pest control needs in Batesville?",
+        answer:
+          "Yes, significantly for properties near the water. Sardis Lake draws heavy summer recreation, and lake cabins, boat storage, and campground areas near John Kyle State Park all carry mosquito, tick, and spider exposure that a typical interstate-corridor home further into Batesville doesn't see to the same degree.",
+      },
+      {
+        question: "Is mosquito season worse near Sardis Lake than in downtown Batesville?",
+        answer:
+          "Generally yes. Properties close to Sardis Lake and its feeder creeks deal with standing wetland margins that hold moisture through the whole warm season, April through October, while homes further into town rely mainly on yard drainage, a lighter and more manageable mosquito source.",
+      },
+      {
+        question: "Do I need tick protection if I live near John Kyle State Park in Batesville?",
+        answer:
+          "It's worth it. The park's wooded, grassy terrain supports tick populations that use local deer as hosts, and the heavy foot and pet traffic the park draws means nearby lake cabins and camps see more consistent tick pressure than homes further into Batesville proper.",
+      },
+      {
+        question: "Why do older homes in Batesville still have termite problems?",
+        answer:
+          "Panola County sits at the seam between north Mississippi's hill country and the western edge of the Delta, and Batesville's older hill-side homes deal with clay soil that holds moisture against foundations after rain, which is what gives eastern subterranean termites the conditions they need.",
+      },
+      {
+        question: "Are spiders a bigger problem at Sardis Lake cabins than in town?",
+        answer:
+          "Often, yes. Woodpiles, boat storage, and outbuildings common on lake properties give black widow and other spiders plenty of undisturbed shelter, especially on cabins and camps that only see regular activity on weekends.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Senatobia", slug: "senatobia", stateSlug: "mississippi" },
+      { name: "Grenada", slug: "grenada-ms", stateSlug: "mississippi" },
+      { name: "Yazoo City", slug: "yazoo-city", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Batesville, MS | Mosquitoes, Ticks & Termites",
+    metaDescription:
+      "Pest control in Batesville, Mississippi. Panola County service for mosquitoes, ticks, termites, fire ants, and spiders near Sardis Lake. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -8617,4 +8617,594 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Sayre, PA pest control for house mice, cluster flies, carpenter ants and ticks in Bradford County. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "stroudsburg",
+    name: "Stroudsburg",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~5,900",
+    county: "Monroe County",
+    climate: "cold-humid",
+    climateDriver:
+      "Stroudsburg is the Monroe County seat, tucked between forested ridgelines at the edge of the Pocono Mountains and a few miles from the Delaware Water Gap National Recreation Area. The cold-humid climate brings heavy winter snowfall and keeps the surrounding wooded terrain damp enough to support dense tick populations across the hills above town. Monroe County's mix of year-round residents and a large seasonal second-home and vacation rental market means pest pressure doesn't stop just because a property sits empty for weeks at a time.",
+    topPests: ["Ticks", "House Mice", "Carpenter Ants", "Brown Marmorated Stink Bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November, peak in late spring",
+        note: "Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade, and Monroe County's dense Pocono forest cover puts blacklegged ticks within reach of nearly every wooded yard in Stroudsburg.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Stroudsburg's vacation rental and second-home market means a share of the borough's housing sits unoccupied for stretches each winter, and an empty house with no one checking the woodpile or the porch gives mice an easy, undisturbed way in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The borough's mix of 19th-century Main Street buildings and older residential blocks gives carpenter ants plenty of moisture-softened wood to nest in, especially around roof eaves and porch framing.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "August through October (aggregation), March through April (emergence)",
+        note: "Stink bugs are a documented statewide pressure across Pennsylvania, and Stroudsburg's older housing stock along with its proximity to the wooded ridgelines above town gives them an easy path indoors each fall.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Yellowjacket nests build through summer in the wooded lots and stone walls common around Stroudsburg's older neighborhoods, and they turn more aggressive as food sources shrink heading into fall.",
+      },
+    ],
+    localHook:
+      "Stroudsburg sits at the edge of the Pocono Mountains a few miles from the Delaware Water Gap, and Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade, a fact that makes tick checks after any yard work or hike around town more than a formality.",
+    intro:
+      "Pest control in Stroudsburg has to account for two things most Pennsylvania boroughs don't share at the same scale: heavy forest cover and a large share of housing that isn't occupied year-round. As the Monroe County seat at the edge of the Pocono Mountains, Stroudsburg sits close to the Delaware Water Gap National Recreation Area, and the wooded ridgelines that make the region a tourist draw also support some of the densest tick populations in the state. Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade, and Monroe County's forest cover is a big part of why. At the same time, a meaningful share of Stroudsburg-area homes are vacation rentals or second homes that sit empty for stretches of the year, giving mice, stink bugs, and carpenter ants an easier path indoors than a fully occupied neighborhood would allow. Yellowjackets round out the list, building nests through summer in wooded lots and old stone walls.",
+    sections: [
+      {
+        heading: "Why does Monroe County lead Pennsylvania in tick exposure?",
+        body: "Blacklegged ticks need shade, leaf litter, and a steady host population, and the forested ridgelines surrounding Stroudsburg supply all three in abundance. Pennsylvania has topped the CDC's state rankings for reported Lyme disease cases in most years over the past decade, and Monroe County is routinely named among the state's more affected counties. A tick doesn't need true wilderness to find a host, a wooded backyard bordering a state game land or a trail near the Delaware Water Gap works just as well. That's why a tick check after yard work, a hike, or even mowing along a tree line matters more here than it would in a flatter, more open part of the state.",
+      },
+      {
+        heading: "Do vacation rentals and second homes change the pest picture?",
+        body: "Yes, and it's one of the more distinctive features of pest control in Stroudsburg. The Poconos have long drawn seasonal visitors, and a real share of the borough's housing stock cycles between full occupancy on a summer or ski weekend and total vacancy the rest of the week. Mice don't care whether a house is a primary residence or a weekend rental, an unattended structure with a woodpile, an unlocked shed, or a gap under the porch is an opportunity either way. Stink bugs and carpenter ants show the same pattern: without someone checking the exterior regularly, small entry points go unnoticed until an infestation is already established by the time the owners return.",
+      },
+      {
+        heading: "What draws stink bugs and carpenter ants to Stroudsburg's older buildings?",
+        body: "Main Street and the blocks around it still carry a good number of 19th-century commercial and residential buildings, and older construction simply offers more of what these two pests are after. Stink bugs look for any gap around trim, siding, or window frames to slip into as fall cools down, and older buildings tend to have more of those gaps than newer construction sealed to modern code. Carpenter ants take a different path in: they need wood that's already softened by moisture, which shows up more often around aging roof eaves, porch framing, and window sills than in a house built in the last twenty years. Neither pest is unique to Stroudsburg, but the borough's older building stock gives both a head start.",
+      },
+      {
+        heading: "When are yellowjackets worst around town?",
+        body: "Yellowjacket activity climbs through July and peaks in August and September, right as colonies reach their largest size and food sources start to thin out. Wooded lots, old stone walls, and the ground-level cavities common around Stroudsburg's older properties all make convenient nest sites. A nest that goes unnoticed in June can hold hundreds of workers by Labor Day, and late-season yellowjackets are noticeably more defensive than the ones that show up in early summer. Anyone doing yard work near a stone wall or a wood pile in late summer should watch for increased activity before digging in.",
+      },
+      {
+        heading: "What should a Stroudsburg pest control plan include?",
+        body: "A workable plan covers the borough's forest-edge tick exposure, its seasonal-housing mouse and stink bug risk, and the carpenter ant and yellowjacket pressure that comes with older construction and wooded lots. That means seasonal tick treatments for yards bordering wooded areas, fall exclusion work before mice and stink bugs look for a way in, spring inspection of roof eaves and porch framing for carpenter ant activity, and yellowjacket nest removal before late-summer colonies reach full size. None of these pests are unusual for the Poconos on their own, but a plan that ignores the vacation rental factor misses a real piece of what makes pest control here different from a fully occupied neighborhood.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any yard work, hiking, or time spent near wooded trails around the Delaware Water Gap area.",
+      "Have a neighbor or property manager check vacation rentals and second homes regularly for signs of mice or stink bugs during vacant stretches.",
+      "Inspect roof eaves, porch framing, and window sills on older buildings each spring for carpenter ant activity.",
+      "Locate and treat yellowjacket nests near stone walls and wood piles before late summer, when colonies reach full size.",
+    ],
+    costNote:
+      "General pest inspections in Stroudsburg typically run $100 to $200, with a free initial inspection common among licensed Monroe County providers. Vacation rental and second-home owners sometimes add a seasonal check-in visit to their service plan given how much can change in a property that sits empty for weeks at a time.",
+    faqs: [
+      {
+        question: "Is Lyme disease a real concern in Stroudsburg?",
+        answer:
+          "Yes. Pennsylvania has led the nation in reported Lyme disease cases for most of the past decade, and Monroe County's dense Pocono forest cover, including the wooded ridgelines around Stroudsburg, puts blacklegged ticks within reach of most yards bordering trees.",
+      },
+      {
+        question: "Why do vacation rentals in the Stroudsburg area need extra pest attention?",
+        answer:
+          "A meaningful share of housing in and around Stroudsburg is seasonal, tied to the Poconos' tourism economy, and a property that sits empty for stretches of the week or the off-season gives mice, stink bugs, and other pests an easier, undisturbed path indoors than a home with someone checking it daily.",
+      },
+      {
+        question: "Are stink bugs a big problem in Stroudsburg?",
+        answer:
+          "Yes, stink bugs are a documented statewide pest in Pennsylvania, and Stroudsburg's older buildings along Main Street and the surrounding residential blocks offer plenty of gaps for them to use when looking for a place to overwinter each fall.",
+      },
+      {
+        question: "What time of year are yellowjackets worst near Stroudsburg?",
+        answer:
+          "Yellowjacket activity peaks in August and September as colonies reach their largest size, with nests commonly found in old stone walls and wooded lots around the borough's older properties.",
+      },
+      {
+        question: "Does Stroudsburg's proximity to the Delaware Water Gap affect pest exposure?",
+        answer:
+          "It does, mainly for ticks. The Delaware Water Gap National Recreation Area sits a few miles from Stroudsburg, and the wooded terrain connecting the two supports the same tick populations responsible for Pennsylvania's high Lyme disease numbers.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "East Stroudsburg", slug: "east-stroudsburg", stateSlug: "pennsylvania" },
+      { name: "Nazareth", slug: "nazareth", stateSlug: "pennsylvania" },
+      { name: "Bethlehem", slug: "bethlehem-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Stroudsburg, PA | Ticks, Mice & Stink Bugs",
+    metaDescription:
+      "Pest control in Stroudsburg, Pennsylvania. Monroe County service for ticks, house mice, stink bugs, and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "nazareth",
+    name: "Nazareth",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~6,050",
+    county: "Northampton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Nazareth sits in central Northampton County, four miles north of Bethlehem, in a borough founded by Moravian settlers in 1740. The Lehigh Valley's cold-humid climate brings cold winters and humid summers, and the region carries a distinction few visitors realize: the brown marmorated stink bug's first confirmed U.S. specimen was collected in nearby Allentown in September 1998. That invasive species has been a fixture of Lehigh Valley pest control ever since.",
+    topPests: ["Brown Marmorated Stink Bugs", "Carpenter Ants", "House Mice", "Termites", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "August through October (aggregation), March through April (emergence)",
+        note: "The brown marmorated stink bug's first documented U.S. specimen was collected just a few miles from Nazareth in Allentown in 1998, and the Lehigh Valley has dealt with heavier stink bug pressure than most of the state ever since.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Nazareth's borough core dates to the 1740s, and its stock of older Moravian-era and 19th-century masonry buildings gives carpenter ants plenty of moisture-damaged wood around windowsills and roof lines to nest in.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Nazareth's older housing, much of it built during the borough's cement, textile, and steel manufacturing era, has settled enough over the decades to give mice easy foundation and utility gaps once the cold arrives.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms typically April through June",
+        note: "The Lehigh Valley's humid summers and Nazareth's older wood-frame and timber-frame construction, some of it more than a century old, give subterranean termite colonies the moisture and wood contact they need to establish near foundations.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, most active in damp basements",
+        note: "Older Nazareth homes with stone or masonry foundations tend to hold more basement humidity than newer construction, and silverfish gather wherever that dampness meets paper, cardboard, or wallpaper paste.",
+      },
+    ],
+    localHook:
+      "Nazareth sits just a few miles from Allentown, where entomologists collected the first confirmed U.S. specimen of the brown marmorated stink bug in September 1998, and the Lehigh Valley has carried heavier stink bug pressure than most of Pennsylvania ever since that accidental introduction took hold.",
+    intro:
+      "Pest control in Nazareth carries a piece of entomological history most homeowners don't know about. The brown marmorated stink bug, now one of the most recognizable invasive pests in the eastern United States, was first confirmed in the country just down the road in Allentown in 1998, and the insect has been a fixture of Lehigh Valley homes ever since, Nazareth included. The borough itself dates to 1740, founded by Moravian settlers, and later grew into an industrial center for cement, textiles, and steel, an economic history now best known through the Martin Guitar Company that still calls Nazareth home. That older housing stock, much of it stone, masonry, or timber-frame construction from the borough's manufacturing era, gives carpenter ants, termites, and silverfish more entry points and moisture-damaged wood to work with than a newer subdivision would, while house mice move in as the Lehigh Valley's cold winters set in.",
+    sections: [
+      {
+        heading: "Why does the Lehigh Valley, and Nazareth with it, see more stink bugs than other parts of Pennsylvania?",
+        body: "It comes down to where the species got its start. The first confirmed U.S. specimen of the brown marmorated stink bug was collected in Allentown in September 1998, likely arriving as a stowaway in shipping crates from East Asia. It took researchers until 2001 to properly identify what they were looking at, by which point the insect had already begun spreading through the region. More than two decades later, the Lehigh Valley, including Nazareth, still carries some of the heaviest stink bug pressure in the state, a legacy of being ground zero for the species' arrival in North America rather than anything unusual about the local climate.",
+      },
+      {
+        heading: "What does Nazareth's Moravian and industrial history have to do with pest control?",
+        body: "Nazareth was founded in 1740 by Moravian settlers and later became a center for cement, textile, yarn, and steel production, an industrial run that left the borough with a substantial stock of stone and masonry buildings well over a century old. Older construction of that kind rarely seals as tightly as modern framing, and decades of settling create the foundation cracks, gapped mortar joints, and loosened window trim that carpenter ants, termites, and mice all use to get inside. A Nazareth pest inspection has to account for that older building stock specifically, since the entry points in a 1900s cement-town rowhouse look nothing like the ones in a home built in the last few decades.",
+      },
+      {
+        heading: "Is termite risk higher in Nazareth's older neighborhoods?",
+        body: "It can be. Subterranean termites need consistent moisture and wood contact to establish a colony, and Nazareth's older timber-frame and masonry buildings often have wood elements closer to grade than current building codes would allow. Add in the Lehigh Valley's humid summers, and any older Nazareth property with a damp crawl space, a wood porch post touching soil, or aging foundation woodwork carries more termite risk than a newer build on a modern slab. Spring swarms, typically April through June in this part of Pennsylvania, are usually the first visible sign, and a swarm near a foundation is worth a professional look rather than a wait-and-see approach.",
+      },
+      {
+        heading: "Why do silverfish gather in older Nazareth basements?",
+        body: "Silverfish need two things: humidity and a food source, and older Nazareth homes with stone or masonry foundations tend to supply both more reliably than newer construction. Stone foundations hold groundwater moisture longer than poured concrete, keeping basement humidity elevated even during drier stretches of the year, and older basements often store the paper, cardboard, and book collections silverfish feed on. The pattern shows up most in the borough's oldest blocks, where a home's foundation has had over a century to develop the small cracks and gaps that let moisture, and silverfish, move freely between the soil and the basement.",
+      },
+      {
+        heading: "What should a Nazareth pest control plan cover?",
+        body: "A solid plan for Nazareth needs to treat stink bugs as a near-guaranteed seasonal event given the Lehigh Valley's history with the species, not an occasional nuisance. Beyond that, it should include carpenter ant and termite inspection tuned to the borough's older masonry and timber-frame buildings, silverfish control for damp stone-foundation basements, and fall exclusion work to keep house mice out as Northampton County's cold season arrives. None of these pests are unique to Nazareth, but the combination of Moravian-era and industrial-era construction with a front-row seat to the brown marmorated stink bug's arrival in North America gives the borough a specific pest profile worth planning around rather than treating generically.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around trim, siding, and window frames each August before stink bugs look for overwintering sites.",
+      "Inspect roof lines, windowsills, and foundation woodwork on older masonry and timber-frame buildings each spring for carpenter ant and termite activity.",
+      "Address damp crawl spaces and any wood-to-soil contact on older properties to reduce termite risk.",
+      "Reduce basement humidity and clear stored paper and cardboard to cut down on silverfish in stone-foundation homes.",
+    ],
+    costNote:
+      "General pest inspections in Nazareth typically run $100 to $225, in line with the rest of Northampton County, with a free initial inspection common. Older properties with masonry foundations or timber-frame construction sometimes see a slightly longer inspection given the extra time spent checking for termite and carpenter ant entry points.",
+    faqs: [
+      {
+        question: "Why does Nazareth have such a stink bug problem?",
+        answer:
+          "The brown marmorated stink bug's first confirmed U.S. specimen was collected in Allentown, just a few miles from Nazareth, in 1998. More than two decades later, the Lehigh Valley still carries some of the heaviest stink bug pressure in Pennsylvania as a result.",
+      },
+      {
+        question: "Are older Nazareth homes more prone to termites?",
+        answer:
+          "Often, yes. Nazareth's stock of timber-frame and masonry buildings dating to its 18th and 19th-century Moravian and industrial past sometimes has wood elements closer to the ground than modern codes allow, which combined with the Lehigh Valley's humid summers raises termite risk compared to newer construction.",
+      },
+      {
+        question: "What is Nazareth's Moravian history and does it affect pest control?",
+        answer:
+          "Nazareth was founded by Moravian settlers in 1740 and later grew into a cement, textile, and steel manufacturing town. That older building stock has had over two centuries to develop the foundation gaps and settling that carpenter ants and mice use to get inside.",
+      },
+      {
+        question: "Are silverfish common in Nazareth basements?",
+        answer:
+          "They're common in older homes with stone or masonry foundations, which hold more basement humidity than newer poured-concrete construction and give silverfish the damp conditions and paper or cardboard food sources they need.",
+      },
+      {
+        question: "Is same-day pest service available in Nazareth?",
+        answer:
+          "Most licensed providers serving Northampton County, including Nazareth, offer same-day or next-day response for active infestations, along with a free inspection before recommending treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bethlehem", slug: "bethlehem-pa", stateSlug: "pennsylvania" },
+      { name: "Stroudsburg", slug: "stroudsburg", stateSlug: "pennsylvania" },
+      { name: "Whitehall", slug: "whitehall-pa", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Nazareth, PA | Stink Bugs, Ants & Termites",
+    metaDescription:
+      "Pest control in Nazareth, Pennsylvania. Northampton County service for stink bugs, carpenter ants, termites, and mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "peters-township",
+    name: "Peters Township",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~23,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Peters Township sits in the hills of northern Washington County, about 15 miles south of Pittsburgh, and was incorporated in 1781 as one of the county's original thirteen townships. What was mostly farmland through the mid-1900s became one of the fastest-growing Pittsburgh suburbs from the 1980s onward, driven largely by a well-regarded school district, and the township's rolling, wooded terrain along Chartiers Creek now mixes older farmhouses with decades of newer subdivisions.",
+    topPests: ["Brown Marmorated Stink Bugs", "Carpenter Ants", "Ticks", "Yellowjackets", "Voles"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "August through October (aggregation), March through April (emergence)",
+        note: "Pennsylvania is one of the states most affected by brown marmorated stink bugs, and Peters Township's mix of wooded lots and suburban construction gives them plenty of exterior surfaces to gather on before pushing indoors each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The township's older farmhouses, some dating to before its 1980s growth boom, tend to have more moisture-damaged wood around rooflines and porches than the newer subdivisions built since, giving carpenter ants an easier target on specific properties rather than uniform pressure townshipwide.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "Peters Township's rolling terrain along Chartiers Creek still holds patches of woodland and overgrown field edges between subdivisions, and those transition zones are exactly where deer and the ticks that ride them tend to concentrate.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September",
+        note: "Wooded lot lines and the retained tree buffers common in the township's newer developments give yellowjackets plenty of ground-level nest sites, and activity peaks as colonies reach full size heading into fall.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Fall through spring",
+        note: "Peters Township's large suburban lots and manicured lawns, many converted from former farmland, give voles the grass cover they need to tunnel and feed close to the surface without much disturbance.",
+      },
+    ],
+    localHook:
+      "Peters Township was incorporated in 1781 as one of Washington County's original thirteen townships, but most of its growth came far more recently: a top-ranked school district turned what was mostly farmland through the mid-1900s into one of the fastest-growing Pittsburgh suburbs starting in the 1980s, leaving a township where older farmhouses and newer subdivisions sit side by side.",
+    intro:
+      "Pest control in Peters Township has to bridge two very different eras of construction. The township itself was incorporated in 1781, one of Washington County's original thirteen townships, but most of what residents see driving through it today dates to a growth boom that started in the 1980s, when a well-regarded school district turned what had mostly been farmland into one of the fastest-growing suburbs south of Pittsburgh. That means a Peters Township pest inspection might cover an older farmhouse with decades of settling one day and a subdivision built within the last twenty years the next. Stink bugs and carpenter ants track that older-versus-newer construction split, ticks concentrate in the wooded and overgrown transition zones between developments, yellowjackets nest in the tree buffers many subdivisions preserved, and voles work the manicured lawns that replaced the township's original farmland.",
+    sections: [
+      {
+        heading: "How does Peters Township's rapid 1980s growth still shape pest control today?",
+        body: "Before the 1980s, most of what's now Peters Township was farmland, part of a township incorporated back in 1781 as one of Washington County's original thirteen. A top-ranked school district changed that fast, pulling in a wave of subdivision development that continued for decades and turned the township into one of the busier suburbs south of Pittsburgh. That growth pattern means the township's housing stock spans a wide range: farmhouses with a century or more of settling standing not far from homes built in the last fifteen years. Pest pressure follows that split. Older wood and foundation work gives carpenter ants and stink bugs more to work with, while newer construction generally holds up better against those specific pests, at least for its first couple of decades.",
+      },
+      {
+        heading: "Why do ticks concentrate in specific parts of the township rather than everywhere?",
+        body: "Peters Township's terrain along Chartiers Creek is rolling rather than flat, and even with decades of subdivision growth, patches of woodland and overgrown field edges remain between developments. Those transition zones, part yard, part uncleared brush, are prime habitat for deer, and ticks travel with deer. A manicured lawn in the middle of a subdivision carries relatively low tick risk on its own, but a property backing onto one of the township's wooded buffers or undeveloped creek corridor sees meaningfully more exposure. That unevenness is worth knowing before assuming every yard in the township carries the same tick risk.",
+      },
+      {
+        heading: "What's driving vole activity in Peters Township's lawns?",
+        body: "Voles thrive under thick grass cover where they can tunnel and feed close to the surface without much exposure to predators, and Peters Township's large suburban lots, many converted from the township's original farmland, give them exactly that. Mulched garden beds and unmowed lawn edges add extra cover. Vole damage shows up as thin, winding trails through grass, more visible in late winter as snow melts and reveals the tunnels underneath. It's rarely a health risk, but the lawn damage can be significant on a large property, and it tends to be worse on lots backing onto open field or undeveloped land than on tightly packed newer subdivision lots.",
+      },
+      {
+        heading: "When are yellowjackets and stink bugs most active in the township?",
+        body: "The two peak at different times. Yellowjackets build through the summer, nesting in the tree buffers many Peters Township subdivisions preserved along property lines, and colonies reach their largest, most defensive size in August and September. Stink bugs follow a different calendar entirely, gathering on sun-warmed exterior walls from August through October looking for a gap into siding, attic vents, or window frames before the cold sets in, then reappearing each spring as temperatures climb. Pennsylvania carries some of the heaviest stink bug pressure in the country, and a township with as much suburban exterior wall space as Peters Township gives them no shortage of places to land.",
+      },
+      {
+        heading: "What should a Peters Township pest control plan include?",
+        body: "A plan here needs to account for the township's split housing stock, its wooded transition zones, and its large, converted-farmland lawns, not just a generic southwestern Pennsylvania pest list. That means carpenter ant and stink bug attention weighted toward older farmhouse construction, tick treatment focused on properties near wooded buffers or the creek corridor rather than every yard equally, yellowjacket nest removal before late-summer colonies peak, and vole control for large lawns showing tunnel damage. The mix isn't unusual for a fast-growing Pittsburgh suburb built on former farmland, but treating every property the same way misses how much the township's growth pattern actually varies from block to block.",
+      },
+    ],
+    prevention: [
+      "Inspect rooflines and porch framing on older farmhouses each spring for carpenter ant activity.",
+      "Check for ticks after time spent near wooded buffers, the Chartiers Creek corridor, or overgrown field edges between subdivisions.",
+      "Seal gaps around siding, attic vents, and window frames each August before stink bugs look for a way in.",
+      "Watch large lawns for vole tunnel trails each late winter, especially on lots backing onto open or undeveloped land.",
+    ],
+    costNote:
+      "General pest inspections in Peters Township typically run $110 to $235, consistent with the rest of Washington County's suburban Pittsburgh market, with a free initial inspection common. Larger properties bordering wooded buffers or creek corridors sometimes see a slightly higher quote given the added tick and yellowjacket inspection time.",
+    faqs: [
+      {
+        question: "Why does Peters Township have such a mix of old and new pest problems?",
+        answer:
+          "The township was incorporated in 1781, but most of its development came after the 1980s, when a strong school district drove rapid subdivision growth on what had been farmland. That leaves older farmhouses and newer homes with different pest exposures standing close together.",
+      },
+      {
+        question: "Is tick exposure the same everywhere in Peters Township?",
+        answer:
+          "No. Properties near the wooded buffers along Chartiers Creek or bordering undeveloped land see meaningfully more tick activity than homes in the middle of a tightly built subdivision, since deer and ticks concentrate in those transition areas.",
+      },
+      {
+        question: "Are voles a problem on Peters Township lawns?",
+        answer:
+          "They can be. The township's large suburban lots, many converted from former farmland, give voles thick grass cover to tunnel through, and the damage is usually most visible as snow melts in late winter.",
+      },
+      {
+        question: "Is Peters Township part of Pennsylvania's stink bug pressure zone?",
+        answer:
+          "Yes. Pennsylvania is one of the states most affected by brown marmorated stink bugs, and Peters Township's mix of wooded lots and suburban homes gives them plenty of exterior wall space to gather on each fall.",
+      },
+      {
+        question: "How quickly can pest control respond in Peters Township?",
+        answer:
+          "Most licensed providers covering Washington County's Pittsburgh suburbs, including Peters Township, offer same-day or next-day response for active pest problems, along with a free inspection before recommending treatment.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Bethel Park", slug: "bethel-park", stateSlug: "pennsylvania" },
+      { name: "Washington", slug: "washington-pa", stateSlug: "pennsylvania" },
+      { name: "Stroudsburg", slug: "stroudsburg", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Peters Township, PA | Stink Bugs, Ants & Ticks",
+    metaDescription:
+      "Pest control in Peters Township, Pennsylvania. Washington County service for stink bugs, carpenter ants, ticks, and voles. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "selinsgrove",
+    name: "Selinsgrove",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~5,700",
+    county: "Snyder County",
+    climate: "cold-humid",
+    climateDriver:
+      "Selinsgrove is the largest borough in Snyder County, though the county seat is nearby Middleburg, sitting in the middle of the Susquehanna River Valley along U.S. Routes 11 and 15. The borough is home to Susquehanna University, whose student population swells the town during the academic year and fills a dense ring of off-campus rental housing around campus. That river-valley setting brings the same seasonal flooding risk documented along the Susquehanna corridor, including the 2011 flooding tied to Tropical Storm Lee, and the university's rental turnover adds a pest dynamic most Snyder County towns don't have to plan around.",
+    topPests: ["Bed Bugs", "German Cockroaches", "House Mice", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, spikes around semester turnover",
+        note: "Susquehanna University's off-campus rental housing sees heavy turnover at the start and end of each semester, and secondhand furniture along with fast move-in, move-out cycles are two of the most common ways bed bugs travel between units.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in multi-unit rentals",
+        note: "The dense ring of off-campus apartments and converted houses around Susquehanna University's campus gives German cockroaches an easy route between units through shared walls and plumbing chases, especially in older converted properties.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Selinsgrove's position in the Susquehanna River Valley floodplain means older borough housing near the river has settled foundations and utility gaps that give mice easy access once Snyder County's cold season sets in.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "August through October (aggregation), March through April (emergence)",
+        note: "The Susquehanna River Valley is a documented stink bug pressure zone in central Pennsylvania, and Selinsgrove's mix of older borough homes and student rentals both offer plenty of exterior gaps for them to use.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Selinsgrove's older housing stock near the river has enough moisture-exposed wood, particularly around porches and foundations close to the floodplain, to give carpenter ants a reliable nesting resource each spring.",
+      },
+    ],
+    localHook:
+      "Selinsgrove is the largest borough in Snyder County and home to Susquehanna University, and the twice-yearly wave of student move-ins and move-outs around campus creates a bed bug and cockroach turnover risk in off-campus rental housing that most towns this size in central Pennsylvania simply don't have to manage.",
+    intro:
+      "Pest control in Selinsgrove blends two forces most central Pennsylvania boroughs don't combine: a river valley setting and a college town rental market. Selinsgrove is the largest borough in Snyder County, sitting in the middle of the Susquehanna River Valley and home to Susquehanna University. The academic calendar drives real pest pressure here, dense off-campus rental housing around campus sees a wave of move-ins and move-outs each semester, and that turnover is one of the more reliable ways bed bugs and German cockroaches spread between units. The river valley setting adds its own layer: Selinsgrove has seen documented flooding along the Susquehanna corridor, including in 2011, and older borough housing near the river carries the settled foundations and moisture-exposed wood that support mice and carpenter ants. Stink bugs round out the picture, a well-established central Pennsylvania pressure that doesn't spare Selinsgrove's older homes or its student rentals.",
+    sections: [
+      {
+        heading: "Why does Susquehanna University's academic calendar affect pest control in Selinsgrove?",
+        body: "Off-campus student housing around Susquehanna University turns over twice a year, at the start of fall semester and again after spring finals, and that concentrated move-in and move-out period is one of the more reliable ways bed bugs travel between units. A previous tenant's mattress or upholstered furniture left at the curb, a couch picked up secondhand, or simply moving boxes between a dorm and an off-campus apartment can all carry bed bugs along. German cockroaches spread through the same dense rental blocks in a different way, moving through shared walls, plumbing chases, and common hallways in older converted houses split into multiple units. Neither pest is unique to a college town, but the concentrated turnover around Selinsgrove's campus creates more opportunities for both than a typical residential neighborhood would see.",
+      },
+      {
+        heading: "Does Selinsgrove's river valley location bring flood-related pest risk?",
+        body: "It can. Selinsgrove sits in the middle of the Susquehanna River Valley, and the corridor has a documented history of flooding, including significant flooding tied to Tropical Storm Lee in 2011. Older borough housing closer to the river tends to carry more foundation settling and basement moisture than homes built further from the floodplain, and that dampness is exactly what carpenter ants and, to a lesser extent, house mice look for when picking a place to nest. A property with a history of basement moisture after heavy rain is worth a closer pest inspection than one on higher, drier ground, since the same conditions that raise flood risk also raise pest risk.",
+      },
+      {
+        heading: "Is Selinsgrove the county seat of Snyder County?",
+        body: "No, and it's a common mix-up. Selinsgrove is the largest borough in Snyder County by population, but the county seat is Middleburg, a smaller borough a few miles away. That distinction doesn't affect pest pressure directly, but it's worth knowing when researching local services, since some county-level resources are based in Middleburg rather than Selinsgrove. What does affect pest pressure is Selinsgrove's size and its university, both of which put more rental housing and more year-round activity into the borough than Middleburg or Snyder County's smaller towns see.",
+      },
+      {
+        heading: "How can rental property owners in Selinsgrove reduce turnover-related pest problems?",
+        body: "The most effective step is inspecting a unit between tenants rather than waiting for a new tenant to report a problem. Bed bugs in particular are far easier to catch and treat before a new occupant has unpacked and settled in than after an infestation has spread through a mattress, box spring, and nearby furniture. German cockroach control benefits from the same timing: sealing gaps around plumbing and baseboards during a vacant turnover period is far less disruptive than treating an occupied unit. Landlords and property managers who build a between-tenant inspection into their standard turnover checklist tend to see fewer repeat pest calls over a semester than those who only respond after a complaint comes in.",
+      },
+      {
+        heading: "What should a Selinsgrove pest control plan cover?",
+        body: "A workable plan accounts for both halves of Selinsgrove's identity: the university rental market and the river valley setting. That means bed bug and cockroach inspection timed around semester turnover for off-campus rental housing, moisture and foundation checks for older homes closer to the river, seasonal stink bug exclusion in the fall, and spring carpenter ant inspection for properties with a history of dampness. None of these pests are unusual for central Pennsylvania on their own, but the specific combination, driven by a college calendar on one side and a flood-prone river valley on the other, gives Selinsgrove a pest profile that looks different from a typical Snyder County town.",
+      },
+    ],
+    prevention: [
+      "Inspect rental units for bed bugs between tenants, before a new move-in, rather than waiting for a complaint.",
+      "Seal gaps around plumbing and baseboards in multi-unit rental housing to reduce German cockroach movement between units.",
+      "Check basements and foundations in older river-adjacent homes for moisture after heavy rain, since damp conditions attract carpenter ants and mice alike.",
+      "Seal exterior gaps around siding and window frames each August before stink bugs look for a way in.",
+    ],
+    costNote:
+      "General pest inspections in Selinsgrove typically run $100 to $220, in line with the rest of Snyder County, with a free initial inspection common. Rental property owners managing multiple units around Susquehanna University sometimes arrange a standing seasonal inspection tied to the academic calendar rather than one-off visits.",
+    faqs: [
+      {
+        question: "Why does Selinsgrove have more bed bug risk than a typical small Pennsylvania town?",
+        answer:
+          "Selinsgrove is home to Susquehanna University, and the dense ring of off-campus rental housing around campus turns over twice a year at semester breaks, a pattern that gives bed bugs more chances to travel between units than a town without a large student rental market.",
+      },
+      {
+        question: "Is Selinsgrove the Snyder County seat?",
+        answer:
+          "No. Selinsgrove is the largest borough in Snyder County, but the county seat is Middleburg, a smaller borough nearby.",
+      },
+      {
+        question: "Has Selinsgrove had flooding problems?",
+        answer:
+          "Yes. Selinsgrove sits in the Susquehanna River Valley, a corridor with documented flooding history including significant flooding tied to Tropical Storm Lee in 2011, and older river-adjacent homes in the borough carry more basement moisture risk as a result.",
+      },
+      {
+        question: "Should landlords near Susquehanna University inspect units between tenants?",
+        answer:
+          "Yes. Inspecting a rental unit for bed bugs and cockroaches during the vacant period between tenants, rather than waiting for a new occupant to report a problem, catches most infestations earlier and is far less disruptive to treat.",
+      },
+      {
+        question: "Is same-day pest service available in Selinsgrove?",
+        answer:
+          "Most licensed providers covering Snyder County, including Selinsgrove, offer same-day or next-day response for active infestations, along with a free inspection before recommending treatment.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sunbury", slug: "sunbury", stateSlug: "pennsylvania" },
+      { name: "Lewistown", slug: "lewistown", stateSlug: "pennsylvania" },
+      { name: "Stroudsburg", slug: "stroudsburg", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Selinsgrove, PA | Bed Bugs, Roaches & Mice",
+    metaDescription:
+      "Pest control in Selinsgrove, Pennsylvania. Snyder County service for bed bugs, German cockroaches, mice, and stink bugs near Susquehanna University. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kingston-pa",
+    name: "Kingston",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~13,300",
+    county: "Luzerne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kingston sits on the west bank of the Susquehanna River directly across from Wilkes-Barre, and it's the most populous borough in Luzerne County. The Wyoming Valley Levee System, built by the Army Corps of Engineers starting in the 1940s and raised roughly five feet after the catastrophic 1972 Hurricane Agnes flood, now protects Kingston's low-lying, densely built neighborhoods from the Susquehanna's periodic high water. That levee-protected, river-adjacent setting keeps groundwater close to the surface across much of the borough.",
+    topPests: ["House Mice", "Carpenter Ants", "Brown Marmorated Stink Bugs", "German Cockroaches", "Silverfish"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Kingston's dense blocks of early 20th-century single and twin homes, built for the anthracite coal region's working families, have had a century or more to develop the foundation gaps and utility penetrations that let mice inside once the cold sets in.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The borough's older, closely spaced housing stock near the river carries enough moisture-exposed wood around porches and foundations to give carpenter ants a dependable nesting resource each spring.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "August through October (aggregation), March through April (emergence)",
+        note: "Northeastern Pennsylvania carries some of the state's heaviest stink bug pressure, and Kingston's dense rows of older homes give them no shortage of exterior gaps to gather in before the weather turns cold.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in multi-unit housing",
+        note: "Kingston's older housing stock includes a fair number of homes converted into multiple rental units over the decades, and German cockroaches move easily between those units through shared plumbing and wall voids.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, most active in damp basements",
+        note: "The Wyoming Valley's flat, low-lying terrain keeps groundwater close to the surface in much of Kingston, and that persistent basement dampness in older homes is exactly the condition silverfish need.",
+      },
+    ],
+    localHook:
+      "Only 30 of Kingston's roughly 6,600 homes escaped damage when the Susquehanna River overtopped the Wyoming Valley's levee system during the 1972 Agnes flood, and the levee has since been raised about five feet, but the borough's low-lying position along the river still keeps groundwater close to the surface in many older basements.",
+    intro:
+      "Pest control in Kingston starts with the borough's position on the Susquehanna River, directly across from Wilkes-Barre, and the flood history that comes with it. Kingston is the most populous borough in Luzerne County, built up over more than a century into dense rows of single and twin homes originally housing the region's anthracite coal-mining families. That density and age give house mice, carpenter ants, and German cockroaches plenty of foundation gaps, moisture-damaged wood, and shared walls to work with. The Wyoming Valley Levee System, raised roughly five feet after the Susquehanna overtopped it during the catastrophic 1972 Agnes flood, now protects the borough's low-lying streets, but the river-adjacent terrain still keeps groundwater close to the surface in many older basements, a condition that suits silverfish especially well. Stink bugs, a documented pressure across northeastern Pennsylvania, round out Kingston's recurring pest list each fall.",
+    sections: [
+      {
+        heading: "How did the 1972 Agnes flood shape Kingston's neighborhoods?",
+        body: "Hurricane Agnes sent the Susquehanna River to its highest recorded levels in the Wyoming Valley on June 23, 1972, overtopping the levee system the Army Corps of Engineers had built in the 1940s. Only about 30 of Kingston's roughly 6,600 homes escaped damage. The levees were raised approximately five feet in the years that followed, and the rebuilt system has since prevented billions of dollars in flood damage across Luzerne County. Kingston's low, flat terrain along the river hasn't changed, though, and even with the levee protecting the borough from the river itself, groundwater still sits close to the surface in many older basements, a legacy of the same geography that made 1972 so destructive.",
+      },
+      {
+        heading: "Why does Kingston's older housing stock draw so many mice and carpenter ants?",
+        body: "Kingston grew up as a dense residential borough for the anthracite coal region's working families, and a lot of that early to mid-20th-century single and twin-home construction is still standing. A century of settling creates exactly the kind of small foundation cracks, gapped utility penetrations, and aging wood trim that mice and carpenter ants both exploit. Because the borough's lots tend to be narrow and closely spaced, a pest problem in one home can also signal risk for its neighbors, especially with mice moving along shared property lines and carpenter ants nesting in moisture-damaged porch or roof framing common across blocks built in the same era.",
+      },
+      {
+        heading: "Does Kingston's location behind the levee affect basement pest pressure?",
+        body: "It does, indirectly. Being protected from the Susquehanna's periodic flooding doesn't mean Kingston's low-lying terrain stops holding groundwater close to the surface, and older basements throughout the borough often stay damper than a home built on higher ground elsewhere in Luzerne County. That persistent moisture is what silverfish need most, and it shows up alongside a general basement humidity that also supports carpenter ants working on nearby wood. A property with a consistently damp basement in Kingston is more a function of the Wyoming Valley's river-adjacent geography than of anything the homeowner did wrong.",
+      },
+      {
+        heading: "Are German cockroaches more of a problem in Kingston's rental housing?",
+        body: "Somewhat, yes. A portion of Kingston's older housing stock has been converted over the decades from single-family use into multiple rental units, and German cockroaches thrive in exactly that kind of arrangement. Shared plumbing lines, common wall voids, and units close enough together for cockroaches to move between them all make a converted older home a more persistent cockroach challenge than a standalone single-family house. Treatment in these buildings usually needs to cover every unit at once, since treating one apartment while leaving an adjoining unit untreated just gives roaches somewhere to retreat to and return from later.",
+      },
+      {
+        heading: "What should a Kingston pest control plan cover?",
+        body: "A plan for Kingston needs to reflect the borough's age, density, and low-lying river geography all at once. That means fall exclusion work for mice and stink bugs tuned to a century-old housing stock, spring carpenter ant inspection for moisture-damaged porch and roof wood, basement dehumidification and silverfish control for the groundwater-driven dampness common across the borough, and unit-wide cockroach treatment for any converted multi-family property. None of these pests are unusual for the Wyoming Valley on their own, but Kingston's specific combination of dense older construction and river-adjacent terrain gives it a pest profile that a generic northeastern Pennsylvania plan would miss.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks and utility penetrations in older single and twin homes before fall mouse season.",
+      "Run a dehumidifier in basements prone to groundwater dampness to reduce silverfish and carpenter ant risk.",
+      "Inspect porch and roof framing each spring for moisture damage that draws carpenter ants.",
+      "Treat every unit at once in converted multi-family properties to keep German cockroaches from simply relocating within the building.",
+    ],
+    costNote:
+      "General pest inspections in Kingston typically run $100 to $220, in line with the rest of Luzerne County, with a free initial inspection common. Converted multi-unit properties usually see a somewhat higher quote given the added time needed to inspect and treat each unit.",
+    faqs: [
+      {
+        question: "Did Kingston flood during Hurricane Agnes in 1972?",
+        answer:
+          "Yes, severely. The Susquehanna River overtopped the Wyoming Valley's levee system on June 23, 1972, and only about 30 of Kingston's roughly 6,600 homes escaped damage. The levees were raised about five feet afterward.",
+      },
+      {
+        question: "Is Kingston protected from flooding today?",
+        answer:
+          "The Wyoming Valley Levee System, raised after the 1972 Agnes flood, protects Kingston from the Susquehanna's periodic high water, but the borough's low, flat terrain still keeps groundwater close to the surface in many older basements.",
+      },
+      {
+        question: "Why are German cockroaches more persistent in some Kingston homes?",
+        answer:
+          "A number of Kingston's older houses have been converted into multiple rental units over the decades, and German cockroaches move easily between units through shared plumbing and walls, which is why treatment usually needs to cover the whole building at once.",
+      },
+      {
+        question: "Is Kingston the largest borough in Luzerne County?",
+        answer:
+          "Yes. Kingston, sitting on the west bank of the Susquehanna River directly across from Wilkes-Barre, is the most populous borough in Luzerne County.",
+      },
+      {
+        question: "When do stink bugs show up in Kingston?",
+        answer:
+          "Stink bugs gather on exterior walls from August through October looking for a way to overwinter indoors, and northeastern Pennsylvania, including the Wyoming Valley, sees some of the heaviest stink bug pressure in the state.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Wilkes-Barre", slug: "wilkes-barre", stateSlug: "pennsylvania" },
+      { name: "Nanticoke", slug: "nanticoke", stateSlug: "pennsylvania" },
+      { name: "Stroudsburg", slug: "stroudsburg", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Kingston, PA | Mice, Ants & Cockroaches",
+    metaDescription:
+      "Pest control in Kingston, Pennsylvania. Luzerne County service for house mice, carpenter ants, German cockroaches, and stink bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

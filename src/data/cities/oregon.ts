@@ -2987,4 +2987,594 @@ export const oregonCities: CityLocation[] = [
     metaTitle: "Pest Control in Cottage Grove, OR | Lane County Exterminators",
     metaDescription: "Cottage Grove, OR pest control for mosquitoes, termites, carpenter ants, and wasps near the Row River and Coast Fork Willamette. Free inspection, licensed and insured.",
   },
+  {
+    slug: "lincoln-city",
+    name: "Lincoln City",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~10,000",
+    county: "Lincoln County",
+    climate: "temperate",
+    climateDriver:
+      "Lincoln City was incorporated in 1965 when five small beach towns, Delake, Oceanlake, Nelscott, Cutler City, and Taft, voted to merge into one city stretching roughly seven miles along the central Oregon coast. The D River, often cited as one of the shortest rivers in the world at just a few hundred feet from Devils Lake to the Pacific, cuts straight through downtown. Salt air, near-constant coastal fog, and over 70 inches of rain a year keep everything from cedar siding to crawl spaces damp for most of the calendar.",
+    topPests: ["Carpenter Ants", "Roof Rats", "Spiders", "Silverfish", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoors year-round in damp framing",
+        note: "Lincoln City's older beach cottages and vacation rentals sit right in the coastal fog belt, and years of salt air and rain-soaked siding give carpenter ants soft, damp wood to tunnel into long before a homeowner notices.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The mild coastal winters here never really knock rat populations back, and roof rats climb from the shore pine and salal common along Lincoln City's beachfront lots into attics and soffits looking for a dry spot.",
+      },
+      {
+        name: "Spiders, including hobo and giant house spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active late summer into fall",
+        note: "Damp crawl spaces under the raised beach homes common along the coast give spiders plenty of cover, and males wander indoors searching for mates once the weather turns in September and October.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse in winter",
+        note: "Silverfish thrive on the sustained humidity that Lincoln City's ocean-facing homes deal with nearly every month of the year, and they show up in bathrooms, closets, and any spot paper or cardboard sits too close to a damp wall.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September, tied to tourist season",
+        note: "Lincoln City's beaches, factory outlets, and outdoor dining draw heavy summer tourist traffic, and yellowjackets key in on the trash cans and food left behind at parks and public beach accesses.",
+      },
+    ],
+    localHook:
+      "Lincoln City didn't exist as a single town until 1965, when five separate beach communities merged, and the short D River that splits downtown on its way from Devils Lake to the Pacific still shapes how locals give directions, while the near-constant coastal fog and rain give moisture pests here a longer working season than almost anywhere else in Oregon.",
+    intro:
+      "Pest control in Lincoln City follows the coast, not the calendar. This is a city built from five smaller beach towns that merged in 1965, and the older cottages and vacation rentals left behind from that era sit inside a fog belt that stays damp nearly year round. Carpenter ants find soft, rain-soaked wood in that older housing stock, roof rats never really slow down through Lincoln City's mild winters, and spiders move indoors from damp crawl spaces every fall. Silverfish thrive on the same sustained humidity, turning up in bathrooms and closets across town, while yellowjackets track the heavy summer tourist traffic that fills Lincoln City's beaches and outlet malls with food and trash. None of these pests are unusual for the Oregon coast on their own. What sets Lincoln City apart is a housing stock built across five once-separate towns, each with its own decades of exposure to salt air and rain.",
+    sections: [
+      {
+        heading: "Why does Lincoln City's 1965 merger still matter for pest control today?",
+        body: "Lincoln City wasn't a single place until 1965, when the communities of Delake, Oceanlake, Nelscott, Cutler City, and Taft voted to combine into one city stretching about seven miles up the central coast. Each of those older neighborhoods grew up on its own timeline, so a beach cottage in what used to be Taft can have a very different construction history than a home built in the old Oceanlake district a few miles north. That patchwork matters for pest control because carpenter ants and moisture-loving spiders don't care about city limits, they care about how much rain-softened wood and damp crawl space a particular block has accumulated over sixty or more years. A technician working in Lincoln City has to treat each former town almost as its own microclimate rather than assuming one blanket approach covers the whole seven-mile stretch.",
+      },
+      {
+        heading: "Do roof rats really stay active all year on the coast?",
+        body: "Yes, and it's one of the clearer differences between Lincoln City and an inland Oregon town with a real winter cold snap. The coast rarely sees a hard freeze, so roof rats keep breeding and foraging straight through what would be the dormant season anywhere else in the state. They favor the shore pine, salal, and other dense coastal vegetation that lines Lincoln City's beachfront lots, using it as cover to move toward attics, soffits, and any gap in older cedar siding. Because there's no real cold snap to reset the population each year, rat pressure here tends to build steadily rather than spike and fall, which is why year-round monitoring works better in a coastal town like this than the seasonal exclusion plan that fits a colder Willamette Valley city.",
+      },
+      {
+        heading: "Why is silverfish activity worse here than in drier parts of Oregon?",
+        body: "Silverfish need sustained humidity to thrive, and Lincoln City supplies it nearly every month of the year. The combination of coastal fog, over 70 inches of annual rainfall, and salt-laden air keeps indoor humidity higher than a typical inland home ever sees, even with modern insulation and vapor barriers. That's especially true in the older beach cottages and vacation rentals that make up a lot of Lincoln City's housing stock, where bathrooms, closets, and storage areas often sit closer to an exterior wall than they would in newer construction. Silverfish feed on paper, cardboard, and the starch in book bindings and wallpaper glue, so a damp closet full of stored boxes is exactly the kind of spot they gravitate toward. Reducing indoor humidity with a dehumidifier or better bathroom ventilation does more here than in most Oregon towns.",
+      },
+      {
+        heading: "How does Lincoln City's tourist season change wasp and yellowjacket pressure?",
+        body: "Lincoln City draws heavy summer crowds to its beaches, the D River Wayside, the outlet malls along Highway 101, and Chinook Winds. All that foot traffic means more food waste, more open trash cans, and more picnics left unattended, and yellowjackets key in on exactly that kind of easy calorie source. Nest activity typically ramps up in July, peaks through August, and stays aggressive into September as colonies reach their largest size right as tourist volume is still high. That overlap between peak wasp activity and peak visitor season is more pronounced in Lincoln City than in a town without the same beach-tourism economy, and it means public trash management and prompt nest removal near lodging and dining areas carry more weight here than they would in a quieter inland community.",
+      },
+      {
+        heading: "What does a Lincoln City pest control plan actually need to cover?",
+        body: "A workable plan has to account for the coastal fog belt, the year-round mild winters, and the patchwork of once-separate beach towns that make up Lincoln City today. That means carpenter ant treatment tuned to older, rain-softened wood in the historic Taft and Oceanlake districts, rat monitoring that runs all twelve months instead of tapering off in winter, humidity control to keep silverfish out of closets and bathrooms, fall exclusion work as spiders move indoors from damp crawl spaces, and wasp response that ramps up ahead of the busy summer tourist season rather than after it. None of these pests are unusual for the Oregon coast individually. The combination, and the timing forced by a tourism economy layered on top of a genuinely wet climate, is what sets a Lincoln City plan apart from a drier inland town's.",
+      },
+    ],
+    prevention: [
+      "Seal siding and foundation gaps on older beach cottages and vacation rentals before the wet season settles in, especially in the historic Taft and Oceanlake districts.",
+      "Run a dehumidifier or improve bathroom ventilation to cut the sustained indoor humidity that draws silverfish.",
+      "Keep shore pine, salal, and other dense coastal vegetation trimmed back from siding and rooflines to reduce roof rat cover.",
+      "Manage trash and outdoor dining areas closely through peak tourist season to reduce yellowjacket activity near lodging and beach accesses.",
+    ],
+    costNote:
+      "General pest inspections in Lincoln City typically run $100 to $225, in line with the rest of Lincoln County, with a free initial inspection common. Vacation rental properties and older beach cottages sometimes see a modestly higher quote given the extra time spent checking crawl spaces and closets for moisture pests.",
+    faqs: [
+      {
+        question: "Why does Lincoln City have five different old neighborhoods?",
+        answer:
+          "Lincoln City formed in 1965 when the separate beach communities of Delake, Oceanlake, Nelscott, Cutler City, and Taft merged into a single city. Each district grew up on its own construction timeline, so pest pressure and housing age can vary block to block even though it's all one city today.",
+      },
+      {
+        question: "Are roof rats a year-round problem in Lincoln City?",
+        answer:
+          "Yes. The coast rarely gets a hard freeze, so roof rats keep breeding through the winter instead of slowing down the way they would in a colder Oregon town. They typically move from coastal shore pine and salal into attics and soffits.",
+      },
+      {
+        question: "Why is silverfish activity so common in Lincoln City homes?",
+        answer:
+          "Lincoln City's coastal fog and more than 70 inches of annual rainfall keep indoor humidity elevated for most of the year, and silverfish thrive on that sustained dampness, especially in older cottages with closets or bathrooms close to an exterior wall.",
+      },
+      {
+        question: "Does the D River affect pest pressure in town?",
+        answer:
+          "Not directly for most pest categories, but the short river's path from Devils Lake to the Pacific runs straight through downtown Lincoln City, and the surrounding wetland vegetation adds a bit of extra moisture and cover for spiders and silverfish in the immediate area.",
+      },
+      {
+        question: "Is wasp season worse in Lincoln City than other coastal towns?",
+        answer:
+          "It can feel that way because Lincoln City's beach tourism brings heavy summer foot traffic to trash cans, picnic areas, and outdoor dining, giving yellowjackets an easy food source right as their colonies reach peak size in August and September.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Astoria", slug: "astoria-or", stateSlug: "oregon" },
+      { name: "Coos Bay", slug: "coos-bay", stateSlug: "oregon" },
+      { name: "McMinnville", slug: "mcminnville-or", stateSlug: "oregon" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lincoln City, OR | Carpenter Ants, Rats & Wasps",
+    metaDescription:
+      "Lincoln City, OR pest control for carpenter ants, roof rats, silverfish, and yellowjackets in this rainy central Oregon coast city. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "sandy-or",
+    name: "Sandy",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~13,000",
+    county: "Clackamas County",
+    climate: "temperate",
+    climateDriver:
+      "Sandy sits in the foothills of the Cascades about 27 miles east of Portland, right where Highway 26 becomes the main route up to Mount Hood and Government Camp. That elevation and closeness to the mountains bring more rain and a longer wet season than Portland sees, and the Sandy River, which carries glacial runoff straight off Mount Hood, runs through the middle of town. Locals and city branding both lean on the same identity: Sandy is the western gateway to the Mount Hood Corridor.",
+    topPests: ["Carpenter Ants", "Mice", "Wasps", "Spiders", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoors year-round in damp wood",
+        note: "Sandy's higher rainfall and forested foothill lots give carpenter ants more damp, rotting wood to work with than a typical Portland-area suburb, especially on properties that back up to timber near the Mount Hood Corridor.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring, tied to forest edge properties",
+        note: "As the western gateway to Mount Hood, Sandy has a lot of homes and cabins built right up against forest and brush, and mice move indoors from that cover once fall temperatures drop in the Cascades foothills.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Yellowjackets and paper wasps build nests through Sandy's dry summer stretch and grow most aggressive around the outdoor recreation traffic passing through town toward Mount Hood and the Sandy River.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible late summer into fall",
+        note: "The damp, forested lots common around Sandy suit spiders well, and the cooler foothill nights push males indoors looking for mates earlier in the season than a Portland home would typically see.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Gathers on homes in fall to overwinter",
+        note: "The invasive brown marmorated stink bug has spread through the Willamette Valley and into Clackamas County's foothill towns, clustering on Sandy's sun-warmed walls each fall before working into attics and wall voids.",
+      },
+    ],
+    localHook:
+      "Sandy calls itself the western gateway to the Mount Hood Corridor, and Highway 26 through town carries a steady stream of recreational traffic headed to Government Camp and Mount Hood, while the glacially fed Sandy River running through the middle of the city keeps the whole area wetter and cooler than Portland just 27 miles down the road.",
+    intro:
+      "Pest control in Sandy has to account for elevation as much as anything else. Sitting in the Cascade foothills where Highway 26 turns into the main route up to Mount Hood, Sandy gets more rain and a longer wet season than Portland sees just down the road, and the glacier-fed Sandy River running through town adds even more moisture to the mix. Carpenter ants find plenty of damp, rotting wood on the forested lots that back up to timber near the Mount Hood Corridor, and mice move indoors from that same forest cover once fall temperatures drop. Wasps build through the dry summer stretch, spiders turn up earlier in the season than a Portland home typically sees, and the invasive brown marmorated stink bug clusters on sun-warmed walls every autumn. As the western gateway to Mount Hood, Sandy's pest calendar runs a notch wetter and a notch earlier than the city it sits closest to.",
+    sections: [
+      {
+        heading: "Why does being the gateway to Mount Hood change Sandy's pest pressure?",
+        body: "Sandy sits right where Highway 26 shifts from a Portland-area commuter road into the main route up to Government Camp and Mount Hood, and that geography shapes the town in more ways than traffic. Properties near the highway corridor and the forest edge see heavier carpenter ant and mouse pressure than homes deeper in a typical suburban subdivision, simply because there's more untouched timber and brush right up against the property line. Cabins, vacation rentals, and homes built for the recreation economy along that corridor often sit closer to forest cover than a comparable home in Gresham or Portland would, and that proximity gives both pests more of a running start toward finding a gap in siding or a foundation vent.",
+      },
+      {
+        heading: "Is Sandy really wetter than Portland, and does that matter for pests?",
+        body: "It is, and it does. Sandy's higher elevation in the Cascade foothills pulls more precipitation out of the same weather systems that pass over Portland, and the Sandy River, fed by glacial melt off Mount Hood, keeps the immediate area damp even during drier stretches. That extra moisture is exactly what carpenter ants and spiders need to thrive, and it means the wet season here runs a bit longer than it does 27 miles down the highway. A pest control approach built for a standard Portland suburb doesn't always account for that gap, which is why inspections in Sandy tend to spend more time on crawl space moisture and rotting fascia boards than a comparable inland Willamette Valley visit would.",
+      },
+      {
+        heading: "When do stink bugs and wasps become a problem around Sandy?",
+        body: "Both are warm-season and fall pests, but they follow different clocks. Brown marmorated stink bugs, an invasive species that has spread through the Willamette Valley and into Clackamas County's foothill towns, start gathering on sun-warmed exterior walls in September and October, looking for a gap to slip through before winter. Wasps peak earlier, building nests through Sandy's dry summer months and reaching their largest, most defensive size by August and September, right as Mount Hood recreation traffic is still heavy. Because Sandy sees a steady flow of hikers, cyclists, and day-trippers passing through on their way up the mountain, wasp nests near trailheads, parking areas, and outdoor seating get more human contact than they might in a quieter residential-only town.",
+      },
+      {
+        heading: "Do Sandy's cabin and vacation-rental properties need different pest control than a full-time home?",
+        body: "Often, yes. A cabin or vacation rental near the Mount Hood Corridor sits empty for stretches at a time, which gives mice, spiders, and even wasps a chance to establish themselves without anyone noticing until the next visit. These properties also tend to sit closer to forest edge than a full-time residence in central Sandy, so exclusion work, sealing gaps around foundations, vents, and rooflines, matters even more here than it would for an occupied home where a homeowner might catch a mouse dropping or a fresh wasp nest early. A seasonal inspection schedule tied to check-in and check-out patterns tends to work better for these properties than the standard spring and fall visit that fits a year-round Sandy household.",
+      },
+      {
+        heading: "What should a Sandy pest control plan actually cover?",
+        body: "A solid plan accounts for Sandy's higher elevation, its river corridor, and its role as the last real town before the Mount Hood recreation area. That means carpenter ant and moisture checks tuned to forested, foothill lots, fall mouse exclusion for properties backing up to timber, wasp response through the recreation-heavy summer months, and stink bug sealing before the September gathering season starts. None of these pests are unusual for Clackamas County on their own. The combination, plus the extra rainfall and forest proximity that come with sitting at the base of the mountain, gives Sandy a pest calendar that runs wetter and starts a little earlier than Gresham's or Portland's just down the highway.",
+      },
+    ],
+    prevention: [
+      "Seal foundation vents, siding gaps, and rooflines on properties near forest edge along the Mount Hood Corridor before fall mouse season.",
+      "Check crawl spaces and fascia boards for moisture damage each spring, since Sandy's elevation brings more rain than nearby Portland.",
+      "Inspect trailhead-adjacent eaves, sheds, and parking areas for early wasp nest activity ahead of the busy summer recreation season.",
+      "Seal exterior gaps before September to keep brown marmorated stink bugs from overwintering in attics and wall voids.",
+    ],
+    costNote:
+      "General pest inspections in Sandy typically run $110 to $230, similar to the rest of Clackamas County, with a free initial inspection common. Cabins and vacation rental properties near the Mount Hood Corridor sometimes see a modestly higher quote given the extra time spent checking for signs of activity between occupied stays.",
+    faqs: [
+      {
+        question: "Why does Sandy get more rain than Portland?",
+        answer:
+          "Sandy sits higher in the Cascade foothills, right where Highway 26 becomes the route up to Mount Hood, and that elevation pulls more precipitation out of passing weather systems than Portland sees 27 miles down the road. The glacier-fed Sandy River running through town adds to the moisture.",
+      },
+      {
+        question: "Are cabins near Mount Hood more prone to mice?",
+        answer:
+          "Yes. Cabins and vacation rentals along the Mount Hood Corridor near Sandy often sit closer to forest cover than a full-time home in town, and they can sit empty for stretches at a time, both of which give mice more opportunity to move in unnoticed.",
+      },
+      {
+        question: "Does Sandy's recreation traffic affect wasp problems?",
+        answer:
+          "It does. Sandy sees a steady flow of hikers and day-trippers heading up to Mount Hood, and wasp nests near trailheads, parking areas, and outdoor seating get more human contact through the peak summer months than they would in a quieter residential town.",
+      },
+      {
+        question: "Is the Sandy River a mosquito source?",
+        answer:
+          "The Sandy River's glacial, fast-moving water is a poor breeding site for mosquitoes compared to standing water, so most mosquito pressure in and around Sandy traces back to yard containers, gutters, and slower side channels rather than the main river itself.",
+      },
+      {
+        question: "When should Sandy homeowners seal up against stink bugs?",
+        answer:
+          "Before September is best. The invasive brown marmorated stink bug, now established through the Willamette Valley and into Clackamas County's foothill towns including Sandy, starts gathering on sun-warmed walls in early fall looking for a gap to overwinter through.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lincoln City", slug: "lincoln-city", stateSlug: "oregon" },
+      { name: "Oregon City", slug: "oregon-city", stateSlug: "oregon" },
+      { name: "Milwaukie", slug: "milwaukie", stateSlug: "oregon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Sandy, OR | Carpenter Ants, Mice & Wasps",
+    metaDescription:
+      "Sandy, OR pest control for carpenter ants, mice, wasps, and stink bugs at the western gateway to the Mount Hood Corridor. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "prineville",
+    name: "Prineville",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~11,700",
+    county: "Crook County",
+    climate: "semi-arid",
+    climateDriver:
+      "Prineville is the county seat of Crook County and sits in Oregon's high desert east of the Cascades, where annual precipitation runs around 12 inches and summer highs regularly push past 90 degrees while winter lows drop into the mid-20s. The surrounding Ochoco National Forest and Crooked River canyon country have made Prineville a longtime rockhounding destination, known for the thundereggs that later became Oregon's official state rock. That dry, wide-open high desert setting, sagebrush, juniper, and rimrock, shapes which pests find their way into town.",
+    topPests: ["Boxelder Bugs", "Mice", "Black Widow Spiders", "Ground Squirrels", "Wasps"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Early fall, worst on south and west-facing walls",
+        note: "Prineville's boxelder and maple trees along the Crooked River draw large boxelder bug clusters every fall, and the town's wide, sun-exposed high desert walls give them plenty of warm surfaces to gather on before looking for a way inside.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring, heavier near rimrock and rural edges",
+        note: "Properties along Prineville's outer edges, closer to the sagebrush and juniper country that surrounds town, see more deer mice pressure than homes downtown, especially once the high desert nights turn cold in October.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer into fall",
+        note: "Black widows are common across Crook County's dry rimrock and juniper terrain, and they turn up in Prineville's woodpiles, sheds, and the outbuildings common on the area's ranch and rural residential properties.",
+      },
+      {
+        name: "Ground squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Spring through summer, dormant in winter",
+        note: "Belding's and other ground squirrel species are a recognized nuisance across Central and Eastern Oregon, and around Prineville they burrow into irrigation ditches, farm outbuildings, and the edges of open rural lots.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Yellowjackets build nests in the dry ground and rock crevices typical of Prineville's high desert terrain, and they turn aggressive around outdoor gatherings and the Crooked River's popular fishing and rafting access points.",
+      },
+    ],
+    localHook:
+      "Prineville's identity is built on its high desert setting: the Ochoco National Forest and Crooked River canyon country around town made it a rockhounding destination famous for thundereggs, the volcanic nodules that became Oregon's official state rock, and that same dry, rimrock and juniper terrain gives black widow spiders and ground squirrels far more room to establish than a wetter Willamette Valley town ever would.",
+    intro:
+      "Pest control in Prineville starts with the high desert itself. As the seat of Crook County, sitting where the Ochoco National Forest meets the Crooked River canyon country, Prineville sees roughly a third of the rainfall a Willamette Valley town gets and summer highs that regularly clear 90 degrees. That dry, open terrain, famous locally for the thundereggs that became Oregon's state rock, shapes a pest calendar built around dryness and open ground rather than moisture. Boxelder bugs gather by the hundreds on sun-warmed walls each fall, black widow spiders favor the woodpiles and outbuildings common on Crook County's ranch and rural properties, and ground squirrels burrow into irrigation ditches and farm structures through spring and summer. Mice move in from the surrounding sagebrush once the high desert nights turn cold, and wasps build nests in dry ground and rock crevices rather than the eaves a wetter climate would push them toward. It's a different pest mix than the Willamette Valley sees, and it calls for a different plan.",
+    sections: [
+      {
+        heading: "Why does Prineville see so many boxelder bugs every fall?",
+        body: "Boxelder bugs feed on the seeds and leaves of boxelder and maple trees, and Prineville has a good number of them planted along the Crooked River and through older parts of town. Once fall arrives, the bugs gather in large numbers on the sunniest, warmest exterior walls they can find, looking for a crack or gap to spend the winter behind. Prineville's high desert setting means clear, sun-heavy fall days even as nights start to cool, which gives boxelder bugs an unusually strong pull toward south and west-facing walls compared to a cloudier, wetter town on the coast or in the valley. They're mostly a nuisance rather than a structural threat, but a heavy cluster on a Prineville home's siding is a common enough fall sight that most longtime residents know exactly what they're looking at.",
+      },
+      {
+        heading: "Are black widow spiders a real concern around Prineville?",
+        body: "They are, and it comes with the territory. Black widows are well established across Crook County's dry rimrock, juniper, and sagebrush terrain, and Prineville's ranch and rural residential properties give them exactly the kind of undisturbed, dark space they prefer, woodpiles, hay storage, old equipment, and outbuildings chief among them. A property with active ranching use or outdoor equipment storage typically has more of these hiding spots than a purely residential in-town lot. Black widow bites are medically significant, so anyone clearing a shed, stacking firewood, or reaching into a rarely used outbuilding around Prineville should shake out gloves and check corners before digging in, a habit that matters more here than it would in most Oregon towns west of the Cascades.",
+      },
+      {
+        heading: "Why do ground squirrels cause problems near Prineville?",
+        body: "Ground squirrels are a recognized nuisance species across Central and Eastern Oregon, and the open, irrigated farmland and rangeland surrounding Prineville gives them plenty of room to spread. They burrow into irrigation ditch banks, the earthen edges of farm ponds, and the foundations of outbuildings, and a large colony can undermine a structure or ditch wall over time if it goes unmanaged. Around Prineville, ground squirrel activity tends to concentrate on the rural and agricultural edges of town rather than in-town residential lots, since that's where the open ground and forage they rely on is easiest to find. Management usually focuses on burrow locations near structures and irrigation infrastructure rather than a blanket treatment of open range, which keeps the approach targeted rather than wasteful.",
+      },
+      {
+        heading: "Does Prineville's dry climate mean lower overall pest pressure?",
+        body: "In some ways, yes, and in others, no. The roughly 12 inches of annual rainfall that defines Crook County's high desert climate does keep moisture pests like carpenter ants and dampwood termites far less common here than in a wetter part of the state, and that's a genuine advantage for Prineville homeowners. But the same dry, open terrain that discourages moisture pests favors others: black widow spiders, ground squirrels, and wasps that nest in dry ground all do better in arid conditions than they would in a damp Willamette Valley yard. The net effect is less a lower overall pest burden and more a different one, shaped by aridity instead of by rain.",
+      },
+      {
+        heading: "What should a Prineville pest control plan cover?",
+        body: "A workable plan accounts for the high desert conditions that define Crook County rather than a generic statewide approach. That means fall sealing ahead of boxelder bug season, careful attention to sheds and outbuildings for black widow activity, targeted ground squirrel management near irrigation ditches and farm structures, mouse exclusion tuned to properties along Prineville's rural edges, and wasp response for nests built into dry ground and rock crevices rather than eaves alone. None of these pests are unique to Prineville, but the combination, and the near-total absence of the moisture pests that dominate west of the Cascades, gives a Prineville pest plan a distinctly high desert shape.",
+      },
+    ],
+    prevention: [
+      "Clear woodpiles, hay storage, and equipment clutter away from sheds and outbuildings to reduce black widow harborage.",
+      "Seal south and west-facing wall gaps before October to keep boxelder bugs from overwintering indoors.",
+      "Monitor irrigation ditch banks and outbuilding foundations for new ground squirrel burrows through spring and summer.",
+      "Seal foundation and vent gaps on rural-edge properties before fall mouse season sets in.",
+    ],
+    costNote:
+      "General pest inspections in Prineville typically run $100 to $220, similar to the rest of Crook County, with a free initial inspection common. Ranch and rural properties with sheds or outbuildings sometimes see a modestly higher quote given the extra time spent checking for black widow activity.",
+    faqs: [
+      {
+        question: "Why does Prineville have so many black widow spiders?",
+        answer:
+          "Black widows are well established across Crook County's dry rimrock and juniper terrain, and Prineville's ranch and rural residential properties supply the woodpiles, sheds, and outbuildings they prefer. Their bite is medically significant, which is why checking gloves and boots before use matters here.",
+      },
+      {
+        question: "Is Prineville really Oregon's thunderegg capital?",
+        answer:
+          "Prineville and the surrounding Ochoco National Forest and Crooked River canyon country are a well known rockhounding destination for thundereggs, the volcanic nodules that later became Oregon's official state rock. That same dry, open terrain is also what supports the town's black widow and ground squirrel populations.",
+      },
+      {
+        question: "Are ground squirrels a problem for Prineville homeowners?",
+        answer:
+          "They're more of a rural and agricultural concern than an in-town one. Ground squirrels around Prineville tend to burrow into irrigation ditch banks and outbuilding foundations on the edges of town, where open range and farmland give them more room than a residential lot would.",
+      },
+      {
+        question: "Does Prineville have a termite problem?",
+        answer:
+          "Termite pressure is lower here than in wetter parts of Oregon. Crook County's roughly 12 inches of annual rainfall keeps sustained moisture, which termite colonies need, in short supply for most of the year, though an isolated risk can still show up near a leaking irrigation line.",
+      },
+      {
+        question: "When are boxelder bugs worst in Prineville?",
+        answer:
+          "Early fall, typically September and October, when boxelder bugs gather in large numbers on sun-warmed south and west-facing walls near the Crooked River's boxelder and maple trees before looking for a gap to overwinter behind.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Lincoln City", slug: "lincoln-city", stateSlug: "oregon" },
+      { name: "Redmond", slug: "redmond-or", stateSlug: "oregon" },
+      { name: "Pendleton", slug: "pendleton", stateSlug: "oregon" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Prineville, OR | Boxelder Bugs, Widows & Squirrels",
+    metaDescription:
+      "Prineville, OR pest control for boxelder bugs, black widow spiders, ground squirrels, and mice in Crook County's high desert. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "talent-or",
+    name: "Talent",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~6,400",
+    county: "Jackson County",
+    climate: "mediterranean",
+    climateDriver:
+      "Talent sits in the Rogue Valley along Bear Creek between Ashland and Medford, a stretch of Jackson County known for warm, dry summers and cooler, foggy winters shaped by valley temperature inversions. On September 8, 2020, the Almeda Fire destroyed roughly a third of the town's homes and businesses, and years of rebuilding have left a mix of decades-old houses standing beside brand-new construction on the same blocks, a pattern that shapes pest pressure as much as the valley's climate does.",
+    topPests: ["Yellowjackets", "Black Widow Spiders", "Pavement Ants", "Mice", "Termites"],
+    pestProfile: [
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "The Rogue Valley's warm, dry summers push yellowjacket colonies to their largest size by late summer, and Talent's Bear Creek Greenway and outdoor gathering spots draw the trash and fallen fruit that keep them fed.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer into fall",
+        note: "Black widows are the primary medically significant spider in Oregon, and they're common across the Rogue Valley's dry, warm terrain, turning up in Talent's sheds, woodpiles, and the construction debris still present on some rebuilt lots.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Pavement ants nest under sidewalks, driveways, and foundation slabs, and Talent has plenty of both decades-old concrete downtown and fresh post-fire construction, giving them entry points in older and newer homes alike.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As Rogue Valley nights cool into fall, mice move toward any home with a gap to exploit, and Talent's mix of older houses and recently rebuilt homes means the sealing quality varies significantly from block to block.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, year-round activity in structural wood",
+        note: "Southern Oregon's valley floor gets enough seasonal moisture to support subterranean termites, and new homeowners rebuilding after the 2020 Almeda Fire are often unfamiliar with what a proper termite-resistant foundation and framing setup should look like.",
+      },
+    ],
+    localHook:
+      "On September 8, 2020, the Almeda Fire tore through Talent and destroyed roughly a third of its homes and businesses, and five years into the rebuild the town is an unusual mix of decades-old houses and brand-new construction standing side by side on the same block, which means a pest inspection here has to account for two very different kinds of home rather than one uniform housing stock.",
+    intro:
+      "Pest control in Talent can't be separated from September 8, 2020, the day the Almeda Fire destroyed roughly a third of the town's homes and businesses. Five years into recovery, Talent's blocks now mix decades-old houses with brand-new rebuilt construction, and that split housing stock shapes pest pressure alongside the Rogue Valley's warm, dry summers and cool, foggy winters. Yellowjackets build through the hot summer months and peak around Bear Creek Greenway's trash cans and fallen fruit, black widow spiders favor the sheds and leftover construction debris scattered across some rebuilt lots, and pavement ants work both old downtown sidewalks and fresh post-fire concrete. Mice move indoors as valley nights cool each fall, finding gaps in older homes and newer ones alike, and termites remain a real if secondary concern for a valley floor that gets enough seasonal moisture to support them. It's a pest calendar shaped as much by Talent's recovery as by its climate.",
+    sections: [
+      {
+        heading: "How has the Almeda Fire changed pest control in Talent?",
+        body: "The fire destroyed roughly a third of Talent's homes and businesses in September 2020, and the rebuilding that followed has left the town with two very different kinds of housing stock standing on the same blocks. A home that survived the fire might be forty or fifty years old, with the settled foundation cracks and worn seals that come with age. A rebuilt home next door could be only a few years old, built quickly to get families back in place, sometimes with construction debris, disturbed soil, or unfinished yard work still nearby. Both situations create openings, an older home's wear versus a newer home's unsettled construction and nearby debris piles, and a pest inspection in Talent has to account for both rather than assuming the whole town shares one housing profile.",
+      },
+      {
+        heading: "Why are black widow spiders common in the Rogue Valley?",
+        body: "Black widows are the primary medically significant spider found in Oregon, and the Rogue Valley's warm, dry terrain around Talent suits them well. They favor dark, undisturbed spaces, and post-fire Talent has an unusual number of them: sheds that survived the blaze, stacked construction materials, and lots where rebuilding is still in progress all create the kind of clutter black widows prefer. A bite is medically significant enough to warrant caution, so anyone working around leftover debris piles or older outbuildings on a Talent property should check gloves and shake out boots before reaching in, especially on properties still mid-rebuild where cleanup hasn't fully finished.",
+      },
+      {
+        heading: "Do pavement ants behave differently on new construction versus old sidewalks?",
+        body: "Not fundamentally, but the opportunities differ. Downtown Talent's older sidewalks and foundation slabs have decades of small cracks for pavement ants to nest under, cracks that widen slightly every winter freeze and thaw cycle. Freshly poured concrete on rebuilt lots doesn't have that same wear, but new concrete work often has its own shallow gaps and unsealed expansion joints that ants find just as easily. Once spring warms the ground, both populations forage into nearby kitchens and bathrooms looking for food and water, so a pavement ant problem in Talent shows up on old blocks and new ones at roughly the same rate, just for different structural reasons.",
+      },
+      {
+        heading: "Is termite risk higher for Talent's newly rebuilt homes?",
+        body: "Not necessarily higher, but it's often less understood. Southern Oregon's Rogue Valley floor gets enough seasonal moisture to support subterranean termites, a real if secondary concern behind the valley's more visible pests like yellowjackets and black widows. Many homeowners who rebuilt after the Almeda Fire are newer to the area or new to homeownership generally, and they may not know what a properly termite-resistant foundation, vapor barrier, and wood-to-soil clearance should look like compared to what a contractor actually installed. That knowledge gap matters more in Talent right now than it would in a town without a recent wave of rebuilt homes, and a termite inspection is worth requesting even on a house that looks brand new.",
+      },
+      {
+        heading: "What does a Talent pest control plan need to cover?",
+        body: "A workable plan has to account for both of Talent's housing realities: decades-old homes with settled wear and recently rebuilt homes still shaking out construction-related issues. That means pavement ant treatment for both old sidewalk cracks and new expansion joints, black widow attention for sheds and any lingering construction debris, fall mouse exclusion tuned to whichever kind of home a property is, termite inspection for rebuilt homes whose owners may not know their foundation's actual moisture protection, and wasp response through the Rogue Valley's hot, dry summer months. None of these pests are unusual for Jackson County individually. The mix of old and new construction on the same blocks is what makes a Talent plan different from a town that rebuilt all at once or not at all.",
+      },
+    ],
+    prevention: [
+      "Clear construction debris, leftover materials, and shed clutter from rebuilt lots to reduce black widow harborage.",
+      "Request a termite inspection on rebuilt homes to confirm the foundation's actual moisture protection and wood-to-soil clearance.",
+      "Seal expansion joints on new concrete and check older sidewalk cracks each spring for pavement ant activity.",
+      "Manage trash and fallen fruit near Bear Creek Greenway and outdoor gathering areas to reduce yellowjacket activity.",
+    ],
+    costNote:
+      "General pest inspections in Talent typically run $100 to $210, similar to the rest of the Rogue Valley, with a free initial inspection common. Termite inspections for recently rebuilt homes are often free to $75, with treatment ranging from $900 to $2,200 depending on what the inspection finds.",
+    faqs: [
+      {
+        question: "Did the Almeda Fire change pest problems in Talent?",
+        answer:
+          "It did, indirectly. The fire destroyed roughly a third of Talent's homes and businesses in September 2020, and the rebuild that followed left decades-old homes standing next to brand-new construction on the same blocks, which means an inspection has to account for two very different kinds of housing stock rather than one uniform profile.",
+      },
+      {
+        question: "Are black widow spiders a serious risk in Talent?",
+        answer:
+          "They're common across the Rogue Valley's warm, dry terrain, and Talent's mix of surviving outbuildings and lingering post-fire construction debris gives them plenty of undisturbed spots to settle. A bite is medically significant, so checking gloves and boots before reaching into cluttered areas is worth the habit.",
+      },
+      {
+        question: "Should a newly rebuilt Talent home still get a termite inspection?",
+        answer:
+          "Yes. The Rogue Valley floor gets enough seasonal moisture to support subterranean termites, and many homeowners who rebuilt after the 2020 Almeda Fire aren't sure what termite-resistant construction should actually look like, so an inspection is worth requesting even on a brand-new house.",
+      },
+      {
+        question: "Why does Talent have pavement ants in both old and new parts of town?",
+        answer:
+          "Downtown's older sidewalks have decades of small foundation cracks, while freshly poured concrete on rebuilt lots often has its own unsealed expansion joints. Both give pavement ants an entry point, so the problem shows up across old and new construction at a similar rate.",
+      },
+      {
+        question: "When is yellowjacket season worst in Talent?",
+        answer:
+          "Yellowjacket colonies in the Rogue Valley build through the hot, dry summer and reach their largest size by July through September, with Talent's Bear Creek Greenway and outdoor gathering spots drawing extra activity from trash and fallen fruit.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Ashland", slug: "ashland-or", stateSlug: "oregon" },
+      { name: "Lincoln City", slug: "lincoln-city", stateSlug: "oregon" },
+      { name: "Sandy", slug: "sandy-or", stateSlug: "oregon" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Talent, OR | Yellowjackets, Widows & Termites",
+    metaDescription:
+      "Talent, OR pest control for yellowjackets, black widow spiders, pavement ants, and termites in this rebuilt Rogue Valley town. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "la-grande",
+    name: "La Grande",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~13,000",
+    county: "Union County",
+    climate: "semi-arid",
+    climateDriver:
+      "La Grande sits at roughly 2,772 feet in the Grande Ronde Valley at the eastern base of the Blue Mountains and the Wallowa-Whitman National Forest, home to Eastern Oregon University. Winters bring real snow and sustained cold, a sharp contrast to the mild, wet Willamette Valley climate west of the Cascades, and the valley's elevation puts La Grande above the 1,500-foot threshold that Oregon health officials associate with a distinct, region-specific health risk: soft tick relapsing fever.",
+    topPests: ["Soft Ticks", "Deer Mice", "Boxelder Bugs", "Wasps", "Spiders"],
+    pestProfile: [
+      {
+        name: "Soft ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Warmer months, tied to rodent activity in and around structures",
+        note: "Eastern Oregon has recorded human cases of tick-borne relapsing fever from soft ticks, and the reservoir for that disease is typically small rodents like squirrels, chipmunks, and rats living in or near dwellings above 1,500 feet elevation, a category La Grande's 2,772-foot valley floor falls squarely into.",
+      },
+      {
+        name: "Deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, worse in rural and forest-edge homes",
+        note: "Homes closer to the Blue Mountains foothills and the Wallowa-Whitman National Forest see heavier deer mice pressure than downtown La Grande, especially as the Grande Ronde Valley's real winter cold pushes rodents toward any structure with a gap.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Early fall",
+        note: "Boxelder trees along the valley's waterways and older residential streets give boxelder bugs plenty of places to feed before they cluster on sun-warmed walls each fall looking for a way to overwinter.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "La Grande's warm, dry summers, a sharp break from the valley's harsh winters, give yellowjackets and paper wasps a productive nesting season before the first real cold snap off the Blue Mountains ends it.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer into fall",
+        note: "Common house spiders and occasional black widows turn up around La Grande's older homes and outbuildings, more active in the warm months before the valley's real winter cold sends most insect activity into dormancy.",
+      },
+    ],
+    localHook:
+      "La Grande's 2,772-foot elevation in the Grande Ronde Valley puts it solidly above the 1,500-foot mark that Oregon health officials tie to soft tick relapsing fever risk in the eastern part of the state, a genuine regional health consideration tied directly to the small rodents, squirrels, chipmunks, and rats, that live in or near homes at that elevation.",
+    intro:
+      "Pest control in La Grande runs on a different clock than a Willamette Valley town's. Sitting at roughly 2,772 feet in the Grande Ronde Valley at the base of the Blue Mountains, La Grande gets real winter snow and sustained cold that most of western Oregon never sees, followed by a warm, dry summer that gives insects a shorter but productive active season. That elevation also puts the town above the 1,500-foot threshold that Oregon health officials associate with soft tick relapsing fever, a disease reservoir tied to small rodents living in or near structures at that height, which makes rodent exclusion here a public health matter as much as a nuisance one. Deer mice move toward any home with a gap once the Blue Mountains' cold sets in, boxelder bugs cluster on sun-warmed walls each fall, and wasps and spiders make the most of the warm months before winter shuts most insect activity down. It's a pest calendar built around a short season and a real elevation-linked health risk.",
+    sections: [
+      {
+        heading: "What is soft tick relapsing fever, and why does it matter in La Grande?",
+        body: "Soft tick relapsing fever is a disease that eastern Oregon has recorded human cases of, and the reservoir is typically small rodents, squirrels, chipmunks, and rats, living in or near dwellings above 1,500 feet elevation. La Grande sits at roughly 2,772 feet in the Grande Ronde Valley, well within that elevation band, which makes rodent exclusion around structures a genuine public health consideration here rather than just a matter of avoiding chewed wiring or droppings. Soft ticks tend to live in rodent nests and burrows close to or inside structures, cabins, outbuildings, and older homes with rodent access included, rather than out in open grass the way the more familiar hard ticks do. Keeping rodents out of crawl spaces and outbuildings is one of the more effective ways to reduce exposure.",
+      },
+      {
+        heading: "Why do deer mice press harder into La Grande homes than in western Oregon?",
+        body: "The Grande Ronde Valley's winters are a real break from the Willamette Valley's mild, wet cold. Sustained snow and hard freezes push deer mice off the Blue Mountains foothills and the Wallowa-Whitman National Forest edge toward any structure offering shelter, and that pressure builds earlier and harder here than it does in a milder coastal or valley town where a mouse has more outdoor options through the winter. Homes closer to the forest edge see more of this pressure than La Grande's downtown core, though any older home with foundation gaps or unsealed vents is a candidate once the first hard cold snap of the season hits. Because deer mice are also the reservoir species tied to soft tick relapsing fever, sealing gaps carries extra weight in La Grande specifically.",
+      },
+      {
+        heading: "Does La Grande's short, warm summer change wasp and boxelder bug timing?",
+        body: "It compresses it. Where a milder western Oregon climate gives wasps a long, gradual build from spring into fall, La Grande's warm but shorter summer pushes yellowjacket and paper wasp colonies to build fast and peak hard in July and August, right before the Blue Mountains send down the first real cold snap of the season. Boxelder bugs follow a similar compressed pattern, gathering on sun-warmed walls in a fairly narrow window in early fall rather than trickling in gradually the way they might in a milder climate. That compressed timeline means La Grande homeowners often need to act on both wasp nests and boxelder sealing within a tighter window than a coastal or valley Oregon town would.",
+      },
+      {
+        heading: "Is termite risk a concern for La Grande homes?",
+        body: "Not to any significant degree. The Grande Ronde Valley's cold, often snow-covered winters and dry summer stretch keep the sustained warmth and moisture that termite colonies depend on in short supply for most of the year, which is a meaningful difference from western Oregon's damp marine climate. That doesn't eliminate all risk, a chronically damp crawl space or a leaking irrigation line can still create a localized problem, but it does mean La Grande homeowners generally have less to worry about on that front than they would in Portland or Eugene. Rodents, ticks, wasps, and boxelder bugs remain the more consistent, higher-priority concerns for most La Grande properties.",
+      },
+      {
+        heading: "What should a La Grande pest control plan actually cover?",
+        body: "A workable plan has to treat rodent exclusion as a health priority given the region's documented soft tick relapsing fever risk, not just a nuisance issue. That means sealing crawl spaces, foundation gaps, and outbuildings against deer mice ahead of the valley's early, hard winter onset, a compressed summer window for wasp nest response and boxelder bug sealing, and general spider monitoring through the warm months. Termite treatment rarely factors in given the valley's dry, cold climate. None of these individual pests are unique to La Grande, but the elevation-linked disease risk tied to rodent activity is a genuine regional detail that sets a La Grande plan apart from a typical Willamette Valley approach built around moisture pests instead.",
+      },
+    ],
+    prevention: [
+      "Seal crawl space vents, foundation gaps, and outbuilding entry points against deer mice, since rodent activity is directly tied to the region's soft tick relapsing fever risk.",
+      "Clear rodent nesting material from sheds, cabins, and outbuildings near the Blue Mountains foothills.",
+      "Check south and west-facing walls for boxelder bug clusters and seal gaps in the narrow early-fall window before they overwinter indoors.",
+      "Inspect eaves and outbuildings for wasp nest activity through La Grande's compressed July and August peak season.",
+    ],
+    costNote:
+      "General pest inspections in La Grande typically run $100 to $215, in line with the rest of Union County, with a free initial inspection common. Rodent exclusion work sometimes carries a modestly higher quote given the added attention paid to crawl spaces and outbuildings tied to the region's soft tick relapsing fever risk.",
+    faqs: [
+      {
+        question: "Is tick-borne relapsing fever a real concern in La Grande?",
+        answer:
+          "Eastern Oregon has recorded human cases of soft tick relapsing fever, and the disease reservoir is typically small rodents living in or near dwellings above 1,500 feet elevation. La Grande sits at roughly 2,772 feet in the Grande Ronde Valley, within that elevation band, which makes rodent exclusion a genuine health consideration here.",
+      },
+      {
+        question: "Why do deer mice seem worse in La Grande than in western Oregon?",
+        answer:
+          "The Grande Ronde Valley's winters bring real snow and sustained cold, unlike the milder, wetter climate west of the Cascades, and that pushes deer mice off the surrounding Blue Mountains foothills toward any home with a gap earlier and harder than a coastal Oregon town would see.",
+      },
+      {
+        question: "Does La Grande have a short pest season?",
+        answer:
+          "In a sense, yes. The valley's warm summer is shorter than what western Oregon sees, so wasps and boxelder bugs build and peak within a tighter window, typically July through early fall, before the Blue Mountains bring the first hard cold snap of the season.",
+      },
+      {
+        question: "Are La Grande homes at risk for termites?",
+        answer:
+          "Not much. The Grande Ronde Valley's cold winters and dry summers keep the sustained moisture and warmth termite colonies need in short supply most of the year, a real contrast to western Oregon's damp marine climate.",
+      },
+      {
+        question: "What is the most important pest control step for a La Grande homeowner?",
+        answer:
+          "Sealing rodent entry points around crawl spaces, foundations, and outbuildings. Deer mice are both a common nuisance and the reservoir species tied to the region's documented soft tick relapsing fever risk, so exclusion work does double duty here.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Baker City", slug: "baker-city", stateSlug: "oregon" },
+      { name: "Pendleton", slug: "pendleton", stateSlug: "oregon" },
+      { name: "Hermiston", slug: "hermiston", stateSlug: "oregon" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in La Grande, OR | Ticks, Deer Mice & Wasps",
+    metaDescription:
+      "La Grande, OR pest control for soft ticks, deer mice, boxelder bugs, and wasps in the Grande Ronde Valley at the base of the Blue Mountains. Free inspection, licensed and insured.",
+  },
 ];
