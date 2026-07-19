@@ -3322,4 +3322,347 @@ export const idahoCities: CityLocation[] = [
     metaDescription:
       "Shelley pest control for meadow voles, field mice, and yellow jackets near Bingham County's potato farmland. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "garden-city-id",
+    name: "Garden City",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~12,700",
+    county: "Ada County",
+    climate: "semi-arid",
+    climateDriver:
+      "Garden City sits along the Boise River in Ada County, a narrow strip of land almost entirely surrounded by the city of Boise. The same high desert, semi-arid climate that shapes the rest of the Treasure Valley applies here: hot dry summers, cold winters, and low humidity overall. What sets Garden City apart is its river frontage. The Boise River and the Boise River Greenbelt run the length of the city, and that ribbon of water, cottonwoods, and irrigated parkland creates a band of moisture and shade the surrounding desert does not have, concentrating mosquito and rodent pressure closer to the water than in drier parts of the valley.",
+    topPests: ["Mosquitoes", "House Mice", "Black Widow Spiders", "Wasps", "Ants"],
+    pestProfile: [
+      {
+        name: "Culex mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peaking in July and August",
+        note: "Standing water along the Boise River Greenbelt and in low-lying yards near the river gives Culex tarsalis mosquitoes places to breed right through Garden City's dry summer. This species can carry West Nile virus, which makes river-adjacent properties a higher priority for source reduction than homes further from the water.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surging in fall",
+        note: "Garden City's mix of older motor-court style buildings, RV parks, and riverside sheds gives mice more entry points than a typical new-construction subdivision, and the river's moisture keeps them active closer to structures even in the dry months.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows favor the same dry, undisturbed clutter found in Garden City's older commercial buildings, garages, and riverside storage sheds as they do elsewhere in the Treasure Valley. Their bite is medically significant.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "The parks, restaurants, and riverside patios along the Greenbelt draw wasps toward food and trash through Garden City's warm season, and nests under eaves or in ground burrows near the river are easy to disturb without warning.",
+      },
+      {
+        name: "Odorous house and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Ants track moisture from the river and from irrigated lawns into Garden City homes and businesses, foraging most heavily during the driest weeks of summer when yard irrigation is the only reliable water source around.",
+      },
+    ],
+    localHook:
+      "Garden City was incorporated in 1949 specifically to take advantage of a gambling loophole in Idaho law, one of a handful of so-called 'foot-wide towns' that stretched their borders into narrow corridors just wide enough to qualify for incorporation. Slot machines at clubs like the Hi Ho and the Circle M funded the city's first park, water system, and police force until the Idaho Supreme Court ruled the machines illegal lotteries and ended the boom. What's left today is a narrow river city, almost entirely encircled by Boise, where the Boise River Greenbelt does double duty as a recreation corridor and the main source of the moisture-loving pests that set Garden City apart from the drier valley around it.",
+    intro:
+      "Pest control in Garden City follows the Boise River more than it follows the high desert calendar that shapes the rest of the Treasure Valley. This narrow city, almost entirely surrounded by Boise, was incorporated in 1949 to exploit a gambling loophole in Idaho law, and while the card rooms are long gone, the river that made Garden City's land valuable is still what makes its pest pressure different from its neighbors. The Boise River Greenbelt runs the length of the city, and the standing water, shade, and vegetation along it support more mosquitoes than a typical dry Treasure Valley yard, with the added concern of West Nile virus carried by Culex tarsalis. Away from the water, the pest lineup looks familiar: mice pushing indoors each fall, western black widows in garages and sheds, wasps working the riverside parks and patios, and ants following irrigation moisture through the warm months.",
+    sections: [
+      {
+        heading: "Why the Boise River changes Garden City's pest calendar",
+        body: "Most of the Treasure Valley is dry enough that mosquitoes are a minor summer nuisance rather than a real concern, but Garden City is different because the Boise River and its Greenbelt run through the middle of the city rather than along its edge. Standing water in low spots near the river, plus the shade and vegetation the river corridor supports, gives Culex tarsalis mosquitoes far more breeding habitat here than in the drier parts of Ada County. That species matters because it can carry West Nile virus, and health officials in the Boise area track it every summer. Homes and businesses closer to the river and the Greenbelt path see meaningfully more mosquito pressure than properties even a few blocks away on higher, drier ground, which is why source reduction, clearing standing water in gutters, planters, and low yard spots, matters more here than almost anywhere else in the valley.",
+      },
+      {
+        heading: "A river city built on a gambling loophole",
+        body: "Garden City's shape tells its own history. The city was incorporated in 1949 specifically to take advantage of a gap in Idaho gambling law, one of several Idaho towns that stretched their boundaries into narrow, mile-long corridors just wide enough to legally incorporate, a pattern Life Magazine dubbed 'foot-wide towns' in 1951. Slot machines at clubs like the Hi Ho and the Circle M funded a new park, water system, city hall, and police force before the Idaho Supreme Court ruled the machines illegal lotteries and shut the era down. The narrow, river-hugging footprint that history left behind, squeezed almost entirely inside Boise's city limits, still shapes how pest pressure moves through Garden City today: a thin ribbon of land where nearly every property sits close to the river corridor rather than out on the open desert.",
+      },
+      {
+        heading: "Mice, black widows, and wasps in a mixed old and new city",
+        body: "Garden City's building stock is a genuine mix: older motor-court style motels and commercial buildings from its early decades, newer riverside apartments and breweries, and RV parks and storage yards along its edges. That variety gives mice more entry points than a uniform new subdivision would, and the fall surge that pushes mice indoors across the Treasure Valley hits Garden City's older buildings especially hard. Western black widow spiders favor the same dry, cluttered, undisturbed spots common to older garages, sheds, and storage areas, and their bite is medically significant enough that clearing clutter around doors and utility boxes is worth the effort. Wasps, meanwhile, are drawn to the restaurants, breweries, and riverside patios that have become a defining feature of the Greenbelt corridor, with yellow jackets and paper wasps building through the summer and peaking in aggression by August and September.",
+      },
+      {
+        heading: "Why irrigation and river moisture drive Garden City's ant activity",
+        body: "Odorous house ants and pavement ants are the two nuisance species Garden City deals with most, and both are drawn to the same thing: moisture in a place that otherwise gets very little of it during the summer. The Boise River itself supplies some of that moisture directly to properties near the Greenbelt, while irrigated lawns and landscaping supply the rest everywhere else in the city. Because Garden City's desert climate offers almost no natural rainfall in summer, these two moisture sources, river and irrigation, account for nearly all the ant activity homeowners see, which is why an inspection that looks specifically at a property's proximity to the river and its watering habits tends to produce a more accurate treatment plan than a generic valley-wide approach.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from gutters, planters, and low yard spots near the Boise River Greenbelt to cut down mosquito breeding.",
+      "Seal foundation gaps and utility openings in older motor-court and commercial buildings before fall mouse season.",
+      "Clear garages, sheds, and storage areas of undisturbed clutter to reduce western black widow harborage.",
+      "Treat wasp nests early in the season around riverside patios and outdoor dining areas before they peak in late summer.",
+    ],
+    costNote:
+      "Garden City pest control commonly pairs mosquito source reduction along the river corridor with the same seasonal rodent, spider, wasp, and ant work common across the Treasure Valley. Properties directly along the Greenbelt sometimes need a closer look at standing water sources. Start with a free inspection, licensed and insured technicians serve the full city.",
+    faqs: [
+      {
+        question: "Is West Nile virus a real concern in Garden City?",
+        answer:
+          "It's a genuine consideration given how much of Garden City sits close to the Boise River. Culex tarsalis mosquitoes, which can carry West Nile virus, breed in standing water along the Greenbelt and in low-lying yards near the river more than they do in drier parts of the Treasure Valley. Clearing standing water and treating for mosquitoes during the May through September season is the main defense.",
+      },
+      {
+        question: "Why was Garden City incorporated as its own city instead of being part of Boise?",
+        answer:
+          "Garden City incorporated in 1949 to take advantage of a gambling loophole in Idaho law, stretching its borders into a narrow corridor to qualify, one of several so-called foot-wide towns the state saw at the time. Slot machines funded the city's early infrastructure until the Idaho Supreme Court shut the practice down. The city has stayed independent of Boise ever since, even though Boise surrounds it almost completely.",
+      },
+      {
+        question: "Do Garden City properties near the Greenbelt need more pest control than ones further away?",
+        answer:
+          "Often, yes, particularly for mosquitoes. The river corridor's standing water and shade support more mosquito breeding than the drier blocks a short distance away, so homes and businesses directly along the Greenbelt tend to see higher mosquito pressure through the summer months.",
+      },
+      {
+        question: "Are black widow spiders common in Garden City?",
+        answer:
+          "Yes. Western black widows are common throughout the Treasure Valley, and Garden City's mix of older garages, sheds, and storage buildings gives them plenty of the dry, undisturbed spots they favor. Their bite is medically significant, so clearing clutter near doors and utility areas is worth doing.",
+      },
+      {
+        question: "What time of year should Garden City homeowners worry most about mice?",
+        answer:
+          "Fall is the main concern, when cold weather pushes mice toward shelter and Garden City's older buildings, motor courts, and riverside structures offer more entry points than newer construction. Sealing gaps before the weather turns is more effective than trapping mice after they're established indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Boise", slug: "boise", stateSlug: "idaho" },
+      { name: "Eagle", slug: "eagle-id", stateSlug: "idaho" },
+      { name: "Meridian", slug: "meridian", stateSlug: "idaho" },
+      { name: "Nampa", slug: "nampa", stateSlug: "idaho" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Garden City, ID | Mosquitoes, Mice & Black Widows",
+    metaDescription:
+      "Garden City pest control for Boise River mosquitoes, West Nile risk, mice, western black widows, wasps and ants. Licensed and insured. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "preston-id",
+    name: "Preston",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~5,930",
+    county: "Franklin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Preston sits in Cache Valley in Franklin County, southeastern Idaho, at roughly 4,700 feet elevation. Unlike the high desert around Boise and the Snake River Plain, Preston's climate is a cold, humid continental one: warm summers, but long, snowy winters that push pests into shelter earlier and harder than in the drier parts of the state. The surrounding farmland, dairy operations, and grain fields that define Franklin County's economy also bring agricultural pests close to town in a way that pure desert terrain does not.",
+    topPests: ["Mormon Crickets", "Mice", "Voles", "Black Widow Spiders", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mormon crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Late spring through summer, worst in outbreak years",
+        note: "Franklin County has been named one of Idaho's official Mormon cricket and grasshopper outbreak counties by the state department of agriculture, and swarms have been reported moving from higher elevations into the foothills between Dayton and Oxford, both close to Preston. In outbreak years the insects climb walls, fences, and power poles by the thousand.",
+      },
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp surge in fall and winter",
+        note: "Preston's long, snowy Cache Valley winters drive mice into homes and outbuildings earlier and more forcefully than milder parts of Idaho, and the surrounding grain and dairy farmland keeps a steady supply of mice moving toward town as the weather turns.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Fall through spring, especially under snow cover",
+        note: "Franklin County's farmland and pasture support vole populations that tunnel and feed under the snowpack through Cache Valley's long winter, damaging lawns, orchards, and garden beds at the edges of Preston's neighborhoods.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active late spring through fall",
+        note: "Black widows turn up in Preston's barns, outbuildings, and garages, the same undisturbed dry spots they favor across Idaho. Their bite is medically significant.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Preston's warm Cache Valley summers give wasps a full season to build nests around barns, sheds, and eaves on the farm properties and in-town homes that make up much of the city.",
+      },
+    ],
+    localHook:
+      "Preston is best known as the real-life setting and filming location for the 2004 movie Napoleon Dynamite, shot largely at Preston High School and around the city, and the town still holds That Famous Preston Night Rodeo each summer. Less well known outside Franklin County is that the same Cache Valley farmland that draws rodeo crowds and Hollywood location scouts has also drawn the Idaho State Department of Agriculture's attention for a different reason: Franklin County has been officially designated a Mormon cricket and grasshopper outbreak county, with swarms reported moving from higher ground into the foothills near Dayton and Oxford, both a short drive from Preston.",
+    intro:
+      "Pest control in Preston looks different from most of Idaho because Franklin County's Cache Valley climate is cold and continental rather than high desert. Long, snowy winters push mice and voles toward shelter earlier and harder than in Boise or the Snake River Plain, and the farmland that surrounds Preston, best known outside the county as the real-life setting of the movie Napoleon Dynamite, brings its own agricultural pest pressure close to town. Franklin County has been named one of Idaho's official Mormon cricket and grasshopper outbreak counties by the state department of agriculture, with swarms reported moving from the surrounding foothills into farmland near Dayton and Oxford. Add in the black widow spiders and wasps common across the rest of the state, and Preston's pest calendar runs on a farm and snow-country schedule that a lot of southeastern Idaho shares but the rest of the state does not.",
+    sections: [
+      {
+        heading: "Franklin County's Mormon cricket outbreak, and what it means for Preston",
+        body: "The Idaho State Department of Agriculture has designated Franklin County as an official Mormon cricket and grasshopper outbreak area, alongside Cassia, Oneida, and Power counties. Local extension staff have described swarms moving from higher elevations into the foothills between the towns of Dayton and Oxford, both close to Preston, with the insects climbing fences, walls, and power poles in large numbers during bad years. Mormon crickets aren't true crickets and don't damage homes directly, but they strip crops and gardens fast and can turn a farm or rural property edge into a genuinely unpleasant place to be during a swarm. The state runs a bait distribution program for landowners with more than five acres who file a complaint, but properties closer to town, including yards backing up to farmland, often need their own treatment plan when an outbreak year hits Franklin County.",
+      },
+      {
+        heading: "Why Preston's winters push mice and voles indoors harder",
+        body: "Cache Valley's climate is a real cold, snowy continental one, not the dry high desert cold of Boise or the Treasure Valley. Preston sits at roughly 4,700 feet, and winters here bring sustained snow cover that keeps ground temperatures low for months. That kind of cold pushes house mice and deer mice toward heated structures earlier in the fall and keeps them there longer than in milder parts of the state, while voles simply move their activity under the snowpack, tunneling and feeding on lawns, garden beds, and young orchard trees without much sign of trouble until the snow melts and the damage shows. Farmland surrounding Preston's neighborhoods gives both species an easy path toward town once the weather turns, which is why fall exclusion work matters more here than it does in a lot of Idaho's drier country.",
+      },
+      {
+        heading: "A farm town that also happens to be Hollywood famous",
+        body: "Preston's most visible export is cultural rather than agricultural: much of the 2004 film Napoleon Dynamite was shot at Preston High School and around town, and the city has celebrated the connection with festivals and events tied to the movie, alongside its long-running summer tradition, That Famous Preston Night Rodeo. That fame sits on top of a genuinely agricultural Franklin County economy built on dairy and grain, and it's that farmland, not the movie fame, that shapes the county's pest pressure. Wasps build steady nests around the barns, sheds, and eaves common to both farm properties and in-town Preston homes through the warm summer months, and black widow spiders favor the same undisturbed outbuildings and garages they do everywhere else in the state.",
+      },
+      {
+        heading: "What a Preston pest control plan should cover",
+        body: "A solid plan for Preston has to account for both the cold Cache Valley winters and the surrounding farmland. That means fall exclusion work timed earlier than a Treasure Valley homeowner would need, given how hard Preston's snow season pushes mice and voles toward shelter, vole monitoring through the winter for lawns and garden beds near farmland edges, Mormon cricket awareness for any property backing up to Franklin County's outbreak-designated agricultural land, and the usual black widow and wasp work common across Idaho. None of these pests are unique to Preston individually, but the combination of a real winter climate and active farmland right at the edge of town gives Franklin County its own particular shape.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and outbuilding entry points before Preston's snow season sets in, since Cache Valley winters push mice and voles indoors earlier than in the rest of Idaho.",
+      "Watch garden beds, lawns, and young orchard trees for vole tunneling through the winter, especially on properties bordering farmland.",
+      "Check yards and fence lines for Mormon cricket activity in outbreak years, particularly on properties near the Dayton and Oxford foothills.",
+      "Clear barns, sheds, and garages of undisturbed clutter to reduce western black widow harborage.",
+    ],
+    costNote:
+      "General pest inspections in Preston typically include fall rodent exclusion and seasonal wasp and spider work, priced similarly to the rest of southeastern Idaho. Farm-adjacent properties may need an added Mormon cricket or vole assessment in outbreak years. Start with a free inspection, licensed and insured.",
+    faqs: [
+      {
+        question: "Are Mormon crickets a real problem near Preston?",
+        answer:
+          "They can be in outbreak years. The Idaho State Department of Agriculture has designated Franklin County an official Mormon cricket and grasshopper outbreak area, and swarms have been reported moving from the foothills into farmland between Dayton and Oxford, both close to Preston. Properties bordering agricultural land are the most exposed.",
+      },
+      {
+        question: "Is it true Napoleon Dynamite was filmed in Preston?",
+        answer:
+          "Yes. Much of the 2004 movie was shot at Preston High School and around town, and Preston has celebrated the connection with local events over the years, alongside its longstanding summer tradition, That Famous Preston Night Rodeo.",
+      },
+      {
+        question: "Why do mice seem to get into Preston homes earlier in the year than other parts of Idaho?",
+        answer:
+          "Cache Valley's climate is a true cold, snowy continental climate, colder and snowier for longer than the high desert around Boise. That extended cold pushes mice and deer mice toward heated buildings earlier in the fall, and Preston's surrounding farmland gives them an easy route toward town.",
+      },
+      {
+        question: "Are voles a problem in Preston yards?",
+        answer:
+          "They can be, especially on properties near farmland. Voles tunnel and feed under the snowpack through Cache Valley's long winter, damaging lawns, garden beds, and young trees in ways that often aren't visible until the snow melts in spring.",
+      },
+      {
+        question: "Are black widow spiders found in Preston?",
+        answer:
+          "Yes. Western black widows are common throughout Idaho, including Franklin County, and they favor the same dry, undisturbed barns, sheds, and garages in Preston that they do elsewhere in the state. Their bite is medically significant.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Pocatello", slug: "pocatello", stateSlug: "idaho" },
+      { name: "Idaho Falls", slug: "idaho-falls", stateSlug: "idaho" },
+      { name: "Blackfoot", slug: "blackfoot-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Preston, ID | Mormon Crickets, Mice & Voles",
+    metaDescription:
+      "Preston, Idaho pest control for Franklin County Mormon crickets, mice, voles, black widows and wasps in Cache Valley's cold climate. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kimberly-id",
+    name: "Kimberly",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~5,100",
+    county: "Twin Falls County",
+    climate: "semi-arid",
+    climateDriver:
+      "Kimberly sits on the Snake River Plain in Twin Falls County, in the heart of Idaho's Magic Valley. The semi-arid climate brings hot, dry summers and cold winters, but the farmland surrounding Kimberly runs on irrigation water drawn through the canal system that Milner Dam made possible, and that irrigated ground, plus the nearby Snake River Canyon, creates far more moisture-driven pest pressure than the region's naturally dry climate alone would produce.",
+    topPests: ["Mosquitoes", "Black Flies", "Mice and Voles", "Black Widow Spiders", "Wasps"],
+    pestProfile: [
+      {
+        name: "Culex mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Irrigation canals and standing water around Kimberly's farmland give mosquitoes breeding habitat the surrounding desert climate would not otherwise support. The Twin Falls County Pest Abatement District treats for mosquitoes countywide because of the West Nile virus risk Culex species carry.",
+      },
+      {
+        name: "Black flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, tied to irrigation flow",
+        note: "The Twin Falls County Pest Abatement District specifically tracks black flies because of Vesicular Stomatitis Virus, a livestock disease they can transmit. Kimberly's irrigation canals and farm ground give black flies more breeding sites than a non-agricultural area would see.",
+      },
+      {
+        name: "Mice and voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Fall through spring for voles, year-round for mice",
+        note: "Kimberly is surrounded by farmland growing sugar beets, potatoes, and barley, and both mice and voles move off that ground toward homes and outbuildings as the weather cools each fall.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are common in Kimberly's farm outbuildings, garages, and irrigation infrastructure, favoring the same dry, undisturbed spots they do throughout the Magic Valley. Their bite is medically significant.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Warm Magic Valley summers give wasps a full building season around Kimberly's barns, packing sheds, and home eaves.",
+      },
+    ],
+    localHook:
+      "Kimberly was founded in 1905 and named for Peter L. Kimberly, a major investor behind Milner Dam, the project that made large-scale commercial irrigation possible across the Magic Valley. That irrigation turned the surrounding desert into productive sugar beet, potato, and barley ground, and it's the same irrigation water, running through canals across Kimberly's farmland, that gives the town more mosquito and black fly pressure than its dry Snake River Plain climate would otherwise produce. The Twin Falls County Pest Abatement District, which has served the county since 2009, treats specifically for both pests because of the diseases they can carry: West Nile virus from mosquitoes and Vesicular Stomatitis Virus from black flies.",
+    intro:
+      "Pest control in Kimberly runs on irrigation as much as it runs on the Magic Valley's semi-arid climate. The town was founded in 1905 and named for Peter L. Kimberly, an investor behind Milner Dam, the project that first made commercial irrigation practical in this part of the Snake River Plain, and that irrigation is still what shapes the town's pest pressure more than a century later. Canals and farmland growing sugar beets, potatoes, and barley give mosquitoes and black flies far more breeding habitat than Twin Falls County's naturally dry climate would support on its own, which is exactly why the Twin Falls County Pest Abatement District treats both countywide, tracking West Nile virus risk from mosquitoes and Vesicular Stomatitis Virus risk from black flies. Away from the water, Kimberly's pest lineup looks like the rest of the Magic Valley: mice and voles moving off farmland each fall, black widow spiders in outbuildings and garages, and wasps working the warm summer months.",
+    sections: [
+      {
+        heading: "How Milner Dam's irrigation still shapes Kimberly's pest pressure",
+        body: "Kimberly exists because of irrigation. Peter L. Kimberly, the investor the town is named after, helped fund Milner Dam, the project that made large-scale commercial farming possible across a stretch of the Snake River Plain that would otherwise have stayed high desert. More than a century later, the canals that carry that irrigation water across Kimberly's surrounding sugar beet, potato, and barley farmland are still the reason the town sees more mosquito and black fly activity than its dry, semi-arid climate would produce on its own. Standing water and slow-moving canal flow give both species breeding conditions a truly arid landscape simply would not offer, which makes source management around irrigation infrastructure a bigger part of pest control here than in towns further from Magic Valley farmland.",
+      },
+      {
+        heading: "Why Twin Falls County treats mosquitoes and black flies as a health matter",
+        body: "The Twin Falls County Pest Abatement District has served the county since 2009, and it specifically targets mosquitoes and black flies because of the diseases involved rather than just the nuisance. Culex mosquitoes can carry West Nile virus, a real concern anywhere standing water sits near people, and black flies can carry Vesicular Stomatitis Virus, a disease that affects livestock and matters a great deal in a farming community like Kimberly. Because irrigation canals and farm ground give both pests more breeding habitat here than a non-agricultural town would see, countywide abatement work is only part of the picture. Individual properties near canals or standing irrigation water often still need their own mosquito and fly control on top of the district's efforts, especially through the warmest stretch of summer.",
+      },
+      {
+        heading: "Mice, voles, and black widows on Kimberly's farm edges",
+        body: "Kimberly's neighborhoods sit close to working farmland, and that proximity shapes rodent pressure directly. Mice move toward homes and outbuildings as cold weather sets in each fall, a pattern common across Idaho, but voles are more specific to farm-adjacent towns like Kimberly, tunneling through sugar beet and potato fields and garden beds year-round and doing real damage to lawns and landscaping at the edges of town. Western black widow spiders round out the picture, favoring the same dry, undisturbed farm outbuildings, garages, and irrigation infrastructure they do throughout the Magic Valley. None of these three pests are unusual for a Twin Falls County farm town, but Kimberly's tight integration with the surrounding agricultural ground means homeowners see them a bit more consistently than residents of larger, more built-out cities nearby.",
+      },
+      {
+        heading: "What a Kimberly pest control plan should include",
+        body: "A solid plan for Kimberly accounts for the town's irrigation-driven pest pressure alongside the usual Magic Valley pests. That means mosquito and black fly source management for any property near a canal or standing irrigation water, fall rodent exclusion for homes bordering farmland, vole monitoring for lawns and garden beds near sugar beet and potato ground, and the standard black widow and wasp work common across southern Idaho. None of these pests are unique to Kimberly on their own, but the combination of a working irrigation system, active farmland, and the county's own disease-tracking abatement program gives the town's pest calendar its own particular shape compared to towns further from the canals.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near irrigation canals and low yard spots to reduce mosquito and black fly breeding through the summer.",
+      "Seal foundation gaps and outbuilding entry points before fall, when mice move off farmland toward Kimberly's homes and structures.",
+      "Monitor lawns and garden beds near farmland for vole tunneling, especially through the winter months.",
+      "Clear farm outbuildings, garages, and irrigation infrastructure of undisturbed clutter to reduce black widow harborage.",
+    ],
+    costNote:
+      "General pest inspections in Kimberly typically run in line with the rest of Twin Falls County, with mosquito and black fly work sometimes priced separately for properties near canals or irrigation infrastructure. Start with a free inspection, licensed and insured technicians serve the Magic Valley.",
+    faqs: [
+      {
+        question: "Why does Kimberly have more mosquitoes and black flies than a typical desert town?",
+        answer:
+          "Irrigation. Kimberly's farmland relies on canal water made possible by Milner Dam, and that water gives mosquitoes and black flies far more breeding habitat than the Magic Valley's naturally dry, semi-arid climate would otherwise support.",
+      },
+      {
+        question: "Is West Nile virus a concern in Kimberly?",
+        answer:
+          "It's a real consideration. Culex mosquitoes, which can carry West Nile virus, breed in irrigation canals and standing water around Kimberly's farmland, and the Twin Falls County Pest Abatement District treats for mosquitoes countywide specifically because of that risk.",
+      },
+      {
+        question: "What is Vesicular Stomatitis Virus and why does it matter in Kimberly?",
+        answer:
+          "It's a livestock disease that black flies can transmit, and it's specifically why the Twin Falls County Pest Abatement District tracks black fly populations. Kimberly's irrigation canals and surrounding farmland give black flies more breeding habitat than a non-agricultural area would see, which makes it a relevant concern for local farm properties.",
+      },
+      {
+        question: "Are voles a bigger problem in Kimberly than in nearby cities?",
+        answer:
+          "They can be, given how closely Kimberly's neighborhoods sit against sugar beet and potato farmland. Voles tunnel and feed on that ground and the lawns and gardens bordering it, sometimes with damage that isn't obvious until well after the fact.",
+      },
+      {
+        question: "Where does the name Kimberly come from?",
+        answer:
+          "The town is named for Peter L. Kimberly, an investor who helped fund Milner Dam in the early 1900s, the project that made commercial irrigation possible across this part of the Snake River Plain and turned the surrounding desert into farmland.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Rupert", slug: "rupert-id", stateSlug: "idaho" },
+      { name: "Hailey", slug: "hailey-id", stateSlug: "idaho" },
+      { name: "Mountain Home", slug: "mountain-home-id", stateSlug: "idaho" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Kimberly, ID | Mosquitoes, Black Flies & Voles",
+    metaDescription:
+      "Kimberly, Idaho pest control for irrigation-driven mosquitoes, black flies, voles, black widows and wasps in the Magic Valley. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

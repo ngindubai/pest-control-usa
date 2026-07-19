@@ -910,4 +910,460 @@ export const alaskaCities: CityLocation[] = [
     metaDescription:
       "Ketchikan pest control for carpenter ants, house mice, yellowjackets and bed bugs. Rain capital of Alaska cruise port specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "palmer",
+    name: "Palmer",
+    state: "Alaska",
+    stateSlug: "alaska",
+    stateAbbr: "AK",
+    tier: "T3",
+    population: "~6,900",
+    county: "Matanuska-Susitna Borough",
+    climate: "cold",
+    climateDriver:
+      "Palmer sits at the foot of Pioneer Peak in the Matanuska Valley, founded in 1935 when the federal government relocated farming families from Michigan, Wisconsin, and Minnesota to start an agricultural colony. That farming identity never left. Palmer still hosts working dairy and produce farms alongside the fairgrounds that bring the Alaska State Fair to town every August, and the mix of barns, feed storage, and century-old colony-era outbuildings gives Palmer a rodent and fly pressure that newer Mat-Su subdivisions do not carry.",
+    topPests: [
+      "House Mice",
+      "Voles",
+      "Flies",
+      "Yellowjackets",
+      "Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall surge September through October",
+        note:
+          "Palmer's original 1935 colony farms left behind decades of barns, sheds, and outbuildings that give mice far more shelter close to homes than the valley's newer subdivisions offer. As the Matanuska Valley's nights turn cold each September, mice move from those outbuildings into heated homes and stay through winter.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Active year-round under snow, surface runways visible at spring melt",
+        note:
+          "Palmer's hayfields, pastures, and home gardens give voles more open ground close to residential lots than most Alaska towns provide. Voles rarely enter structures, but they damage lawns, garden beds, and young orchard trees, and their runways show up in force once the snow melts each April.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through September, heaviest around livestock operations",
+        note:
+          "Palmer's working dairy and livestock farms generate manure and feed waste that support fly populations at a scale most Mat-Su Valley towns without active agriculture do not see. Properties near pasture and barn operations carry the heaviest fly pressure through the summer months.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late June through September, sharp spike during the Alaska State Fair in August",
+        note:
+          "The eleven-day Alaska State Fair each August brings food vendors, discarded concessions, and dense crowds to the Palmer fairgrounds, and yellowjackets forage aggressively around that concentrated food source right as colonies reach their largest size of the year.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall indoors",
+        note:
+          "Common house spiders move into Palmer's older colony-era homes and newer construction alike as outdoor temperatures drop each fall, most often noticed around barns, garages, and basement window frames.",
+      },
+    ],
+    localHook:
+      "Palmer is home to the Alaska State Fairgrounds, the site of the eleven-day Alaska State Fair each August that draws hundreds of thousands of visitors to a town of under 7,000 residents. The farming identity goes back further than the fair itself: Palmer was founded in 1935 as a federal agricultural colony, when families from Michigan, Wisconsin, and Minnesota were relocated here to farm the valley, and that history is why working dairy and produce operations still sit inside the city limits today.",
+    intro:
+      "Pest control in Palmer traces directly back to the town's roots as a 1935 farming colony. Families relocated here from the Upper Midwest to work the Matanuska Valley's soil, and the barns, feed storage, and outbuildings that agriculture requires are still part of daily life in Palmer in a way that sets it apart from the rest of the Mat-Su Valley. House mice and voles both find more shelter and open ground here than in newer subdivisions. Flies build up around active livestock operations each summer. And every August, the Alaska State Fair brings a short, sharp spike in yellowjacket activity as colonies converge on the food and crowds at the fairgrounds. Spiders round out the picture, moving indoors each fall the way they do across south-central Alaska.",
+    sections: [
+      {
+        heading: "A working farm town's rodent pressure",
+        body: "Palmer's identity as Alaska's original agricultural colony is not just a historical footnote. Barns, feed sheds, hay storage, and decades-old colony-era outbuildings are still common on residential and small-farm lots inside the city limits, and each one is potential shelter for house mice and voles that a typical Mat-Su subdivision simply does not have. House mice follow the same seasonal pattern found across south-central Alaska, pushing into heated structures each September and October and committing to stay through winter once inside. Voles are a different animal entirely and rarely come indoors, but Palmer's hayfields, pastures, and garden plots give them more open habitat close to homes than most valley towns offer, and their runways become obvious in lawns and garden beds once the snow melts each spring. A fall inspection that covers both the house and any outbuildings on the property, not just the home itself, catches entry points that a house-only inspection in a newer subdivision would not need to consider.",
+      },
+      {
+        heading: "Livestock, flies, and the working farms inside city limits",
+        body: "Few Alaska towns of Palmer's size still have working dairy and produce farms operating inside the city limits, but Palmer does, a direct legacy of the 1935 colony program. Manure, feed waste, and the general activity of a working farm support fly populations through the summer at levels that residential subdivisions elsewhere in the valley do not generate. Properties adjacent to pasture or barn operations see the heaviest pressure, and standard fly management, sanitation, exclusion at doors and windows, and targeted treatment around waste and feed storage, matters more here than in towns without agriculture at this scale.",
+      },
+      {
+        heading: "The Alaska State Fair and Palmer's yellowjacket spike",
+        body: "Every August, the Alaska State Fairgrounds in Palmer hosts an eleven-day event that draws hundreds of thousands of visitors, a huge influx for a town of under 7,000 year-round residents. Food vendors, concession waste, and dense crowds create a concentrated food source right as yellowjacket colonies reach their peak size and aggression for the season. Properties near the fairgrounds and downtown Palmer see the sharpest increase in yellowjacket foraging during fair week and for a couple of weeks after, as colonies that fed well during the fair carry that growth into September. Treating nests on or near a property before the fair opens, while colonies are still smaller, reduces how defensive they become once the crowds and food waste arrive.",
+      },
+    ],
+    prevention: [
+      "Inspect barns, sheds, and colony-era outbuildings for rodent entry points, not just the home itself, before the fall mouse push begins.",
+      "Mow hayfields and garden edges close to the house to reduce vole runway habitat near residential lots.",
+      "Manage manure and feed waste through the summer around any livestock operation to limit fly breeding.",
+      "Treat yellowjacket nests near the fairgrounds and downtown before the Alaska State Fair opens in August, while colonies are still manageable.",
+    ],
+    costNote:
+      "Palmer pest pricing reflects the town's working-farm character. Fly management for properties near livestock operations is priced by scope of the farm and season. Yellowjacket treatment rises in demand ahead of the August fair. Mouse and vole assessments, including outbuildings, are quoted after a free inspection. Licensed and insured service throughout the Matanuska Valley.",
+    faqs: [
+      {
+        question: "Why does Palmer have more vole and mouse pressure than Wasilla or Anchorage?",
+        answer:
+          "Palmer was founded in 1935 as a federal agricultural colony, and the barns, feed sheds, and outbuildings that came with that farming history are still common on residential lots inside the city today. Those structures give mice and voles far more shelter and open ground close to homes than newer Mat-Su subdivisions provide, which is why Palmer properties, especially those near working farms, tend to see more rodent activity than comparable homes elsewhere in the valley.",
+      },
+      {
+        question: "Does the Alaska State Fair really affect pest activity in Palmer?",
+        answer:
+          "Yes. The eleven-day fair each August brings food vendors and hundreds of thousands of visitors to the Palmer fairgrounds, and the concession waste and food left behind create a concentrated food source that yellowjackets forage aggressively, right as their colonies reach peak size for the year. Properties near the fairgrounds and downtown Palmer see a real, measurable increase in yellowjacket activity during and just after fair week.",
+      },
+      {
+        question: "Are flies a bigger problem in Palmer than in other Mat-Su towns?",
+        answer:
+          "For properties near Palmer's working dairy and produce farms, yes. Palmer is one of the few towns of its size in Alaska that still has active livestock operations inside the city limits, a direct result of its founding as an agricultural colony. Manure and feed waste from those farms support fly populations at a scale that residential-only subdivisions elsewhere in the valley do not generate.",
+      },
+      {
+        question: "When should I get my Palmer home inspected for mice before winter?",
+        answer:
+          "Late August into early September is the right window, ahead of the Matanuska Valley's first hard frost. Mice that get into a heated structure, or into an unheated but sheltered outbuilding next to the house, before the cold sets in are committing to stay through winter. An inspection that covers barns and sheds as well as the home catches the entry points that matter most on Palmer's older farm properties.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wasilla", slug: "wasilla", stateSlug: "alaska" },
+      { name: "Fairbanks", slug: "fairbanks", stateSlug: "alaska" },
+      { name: "Homer", slug: "homer", stateSlug: "alaska" },
+      { name: "Bethel", slug: "bethel", stateSlug: "alaska" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Palmer, AK | Mice, Voles & Farm Pests",
+    metaDescription:
+      "Palmer pest control for house mice, voles, flies and yellowjackets. Matanuska Valley farm town and Alaska State Fair specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bethel",
+    name: "Bethel",
+    state: "Alaska",
+    stateSlug: "alaska",
+    stateAbbr: "AK",
+    tier: "T3",
+    population: "~6,300",
+    county: "Bethel Census Area",
+    climate: "cold",
+    climateDriver:
+      "Bethel sits on the Kuskokwim River in the treeless tundra of the Yukon-Kuskokwim Delta in southwest Alaska, roughly 400 air miles from Anchorage with no road connecting it to the state highway system. It is the regional hub for the Y-K Delta's dozens of Yupik villages, reachable only by air year-round and by barge on the river during the ice-free months. The surrounding tundra floods with meltwater and rain each summer, and that vast wetland, combined with the fact that every building material, vehicle, and shipment arrives by plane or barge, shapes almost everything about pest pressure here.",
+    topPests: [
+      "Mosquitoes",
+      "House Mice",
+      "Spiders",
+      "Bed Bugs",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Mid-June through August, peak in July",
+        note:
+          "The Yukon-Kuskokwim Delta's tundra is largely treeless and pocked with meltwater ponds and wet sedge marsh, conditions that produce some of the heaviest mosquito populations in Alaska each summer. Bethel's flat, waterlogged surroundings give mosquitoes vast breeding habitat with none of the drainage that hillier terrain provides elsewhere in the state.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall surge September and October",
+        note:
+          "Every mouse population in Bethel traces back to something that arrived by plane or barge, since no road connects the town to the rest of Alaska. Once established in the community's heated buildings, mice follow the same fall push into structures seen across the state, and Bethel's older housing stock has more entry points than newer construction.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall indoors",
+        note:
+          "Common house spiders move into Bethel's homes and public buildings as the tundra's short summer ends, most often noticed around window frames and storage areas in older structures.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "As the regional hub for the Yukon-Kuskokwim Delta, Bethel sees constant travel from surrounding villages for medical care, school, and government services, along with housing that is often shared across extended families due to the high cost of construction materials shipped in by air or barge. That combination of travel and dense multi-family housing creates ongoing bed bug introduction risk that a smaller, less central village would not face.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through early September",
+        note:
+          "Yellowjackets nest around Bethel's buildings and along the riverbank each summer, foraging around fish processing and subsistence fish camps that are a central part of life on the Kuskokwim River during salmon season.",
+      },
+    ],
+    localHook:
+      "Bethel has no road connecting it to Anchorage, Fairbanks, or anywhere else in Alaska. It is reachable only by air year-round and by barge on the Kuskokwim River during the ice-free months, which makes it the regional hub for dozens of Yupik villages across the Yukon-Kuskokwim Delta. That isolation means every pest problem in Bethel, without exception, arrived on a plane or a barge rather than walking in from the surrounding tundra.",
+    intro:
+      "Pest control in Bethel starts with a fact that shapes everything else: there is no road here. Bethel sits on the Kuskokwim River in the treeless tundra of southwest Alaska, roughly 400 air miles from Anchorage, and every person, vehicle, and shipment that reaches town arrives by plane or by barge. As the hub community for the Yukon-Kuskokwim Delta's Yupik villages, Bethel sees constant travel and cargo traffic that other remote Alaska towns of its size do not carry. The vast, flat wetland tundra surrounding the community produces some of the heaviest mosquito pressure in the state each summer. House mice, bed bugs, and spiders round out the pest pressure indoors, each one ultimately traceable to something that came in by air or water rather than from the land around town.",
+    sections: [
+      {
+        heading: "Tundra wetlands and Bethel's mosquito season",
+        body: "The Yukon-Kuskokwim Delta is one of the largest expanses of wetland tundra in North America, and Bethel sits at its center. Unlike south-central Alaska, where mountains and forest interrupt standing water, the Delta's flat, largely treeless terrain floods with snowmelt and summer rain across an enormous, poorly draining area. That combination produces mosquito breeding conditions that are consistently ranked among the most intense in Alaska. The season runs from roughly mid-June through August, with the heaviest activity in July when the tundra's meltwater ponds and marsh pools are at their fullest and the region's near-continuous summer daylight accelerates the mosquito life cycle. Around homes and public buildings, standard management focuses on eliminating any standing water close to structures and screening windows and doors, since the surrounding tundra itself cannot be drained or treated at any meaningful scale.",
+      },
+      {
+        heading: "A hub town's pests all arrive by plane or barge",
+        body: "Bethel's role as the regional hub for the Yukon-Kuskokwim Delta means a level of travel and cargo traffic unusual for a town its size in such a remote setting. Residents from dozens of surrounding villages travel to Bethel for medical care at the regional hospital, for schooling, and for government and commercial services, and every construction material, appliance, and consumer good used in the community arrives by air freight or by barge during the short ice-free shipping season on the Kuskokwim River. That combination creates real, ongoing introduction pressure for bed bugs, which travel in luggage and belongings rather than establishing outdoors, and for house mice, which arrive in cargo and then spread through the community's heated buildings once established. Housing in Bethel is also frequently shared across extended families, a reflection of how expensive it is to ship building materials into the region, and denser, higher-turnover housing is a well documented factor in bed bug spread anywhere it occurs. Professional inspection at the first sign of biting or visible activity is the most effective response given how quickly an introduced population can move through shared housing.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water close to homes and public buildings before the tundra's wetlands reach peak meltwater levels in June.",
+      "Screen windows and doors ahead of the July mosquito peak, since the surrounding wetland tundra cannot be treated at a meaningful scale.",
+      "Inspect luggage and belongings after travel between Bethel and surrounding villages, given the town's role as the regional hub.",
+      "Seal foundation gaps and utility penetrations before the fall mouse push into heated buildings each September and October.",
+    ],
+    costNote:
+      "Bethel pest pricing reflects the added cost of shipping equipment and materials by air freight or barge to a community with no road access. Bed bug treatment is quoted after a free inspection given how quickly an introduced population can spread through shared, multi-family housing. Mosquito screening and exclusion work is scheduled ahead of the June wetland meltwater peak. Licensed and insured service.",
+    faqs: [
+      {
+        question: "Why is the mosquito season so intense in Bethel?",
+        answer:
+          "Bethel sits in the middle of the Yukon-Kuskokwim Delta, one of the largest wetland tundra regions in North America. Unlike south-central Alaska, where mountains and forest break up standing water, the Delta is flat and poorly draining across a huge area, so snowmelt and summer rain create enormous mosquito breeding habitat with nowhere to run off. The season peaks in July, when the tundra's meltwater ponds are fullest and the near-continuous summer daylight speeds up the mosquito life cycle.",
+      },
+      {
+        question: "How do pests even get to a town with no road access like Bethel?",
+        answer:
+          "Every pest population in Bethel traces back to something that arrived by plane or barge, since the town has no road connection to the rest of Alaska. As the regional hub for the Yukon-Kuskokwim Delta, Bethel sees heavy air cargo and seasonal barge traffic carrying construction materials, goods, and belongings, and that steady flow of shipments and travelers is how house mice and bed bugs are introduced and re-introduced to the community.",
+      },
+      {
+        question: "Is bed bug risk really higher in Bethel than in a smaller Y-K Delta village?",
+        answer:
+          "Bethel's role as the region's hub, with residents from dozens of surrounding villages traveling in constantly for medical care, school, and services, along with housing that is often shared across extended families due to the high cost of shipping in building materials, creates more travel and higher household density than a smaller, less central village typically has. Both factors are documented drivers of bed bug spread, which is why early professional inspection matters here.",
+      },
+      {
+        question: "When should Bethel homeowners prepare for the fall mouse push?",
+        answer:
+          "September and October, before winter fully sets in, is the key window. House mice that find their way into a heated Bethel building before the cold arrives are committing to stay through winter, following the same pattern seen across Alaska. Sealing foundation gaps and utility penetrations before that push begins is more effective than dealing with an established population once the tundra freezes over.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fairbanks", slug: "fairbanks", stateSlug: "alaska" },
+      { name: "Palmer", slug: "palmer", stateSlug: "alaska" },
+      { name: "Homer", slug: "homer", stateSlug: "alaska" },
+      { name: "College", slug: "college", stateSlug: "alaska" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bethel, AK | Mosquitoes, Mice & Bed Bugs",
+    metaDescription:
+      "Bethel pest control for mosquitoes, house mice, bed bugs and spiders. Yukon-Kuskokwim Delta hub community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "homer",
+    name: "Homer",
+    state: "Alaska",
+    stateSlug: "alaska",
+    stateAbbr: "AK",
+    tier: "T3",
+    population: "~5,900",
+    county: "Kenai Peninsula Borough",
+    climate: "cold",
+    climateDriver:
+      "Homer sits at the end of the Sterling Highway on the outer Kenai Peninsula coast, built around Kachemak Bay and the Homer Spit, a narrow four-and-a-half-mile finger of land that juts into the bay and holds the harbor, fish processing docks, and much of the town's summer tourist commerce. Known locally as the end of the road since the highway simply stops here, Homer draws a large halibut sport-fishing fleet and a heavy summer visitor season on top of its year-round fishing and arts community, and both the working harbor and the tourist trade shape what pests establish here.",
+    topPests: [
+      "Yellowjackets",
+      "House Mice",
+      "Bed Bugs",
+      "Mosquitoes",
+      "Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through September, peak August during the halibut fishing season",
+        note:
+          "Fish waste from the halibut charter fleet and processing operations on the Homer Spit gives yellowjackets a concentrated summer food source that a town without a working fishing harbor at its center would not have. Foraging activity on and near the Spit is consistently heavier than in residential neighborhoods farther from the water.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall surge September and October",
+        note:
+          "House mice push into Homer's homes and Spit-area commercial buildings each fall the same way they do across the Kenai Peninsula. Older homes in town and the seasonal buildings clustered along the Spit tend to have more entry points than newer hillside construction.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Peaks May through September with the summer visitor season",
+        note:
+          "Homer's summer tourist trade, driven by halibut fishing charters, lodges, and the artist community that draws visitors to the Spit and downtown, brings heavy guest turnover to hotels and vacation rentals for a few compressed months. That turnover is a documented driver of bed bug introduction in the hospitality industry, independent of the town's climate.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through July",
+        note:
+          "The wetlands around Beluga Slough and the marshy ground near town hold snowmelt and rain that breed mosquitoes through Homer's brief early summer, with pressure concentrated closest to standing water and wetland edges.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall indoors",
+        note:
+          "Common house spiders move indoors as Homer's damp coastal fall sets in, most often noticed around window frames, garages, and the crawl spaces of older homes on the hillside above town.",
+      },
+    ],
+    localHook:
+      "Homer sits at the literal end of the road, where the Sterling Highway simply stops at the tip of the Homer Spit, a narrow four-and-a-half-mile strip of land that holds the harbor, the halibut fishing fleet, and most of the town's summer tourist trade. That combination of a working commercial harbor and a heavy seasonal visitor season, packed into a few compressed summer months, gives Homer a pest pressure that blends fishing-town fish waste with tourist-town guest turnover.",
+    intro:
+      "Pest control in Homer answers to two things at once: a working fishing harbor and a busy summer tourist season, both concentrated on the narrow spit of land where the Sterling Highway ends. The halibut charter fleet and fish processing operations on the Homer Spit generate fish waste that draws yellowjackets hard through July and August. At the same time, the lodges, hotels, and vacation rentals that serve Homer's summer visitors see heavy guest turnover in a compressed season, a known driver of bed bug introduction that has little to do with Alaska's climate and everything to do with how many different people pass through a room. House mice follow the same fall pattern seen across the Kenai Peninsula, and the wetlands around Beluga Slough breed mosquitoes through Homer's brief early summer.",
+    sections: [
+      {
+        heading: "The Homer Spit: harbor, fish waste, and yellowjackets",
+        body: "The Homer Spit is one of the longest road-accessible spits in the world, a narrow strip of land reaching four and a half miles into Kachemak Bay, and it concentrates almost all of Homer's working waterfront in one place: the harbor, the halibut charter fleet, fish processing facilities, and a cluster of seasonal restaurants and shops that serve both the fishing industry and summer tourists. Fish waste from charter cleaning stations and processing operations gives yellowjackets a food source that most Kenai Peninsula towns without a comparable harbor simply do not generate at this volume. Colonies nesting on or near the Spit grow fast through the compressed Alaska summer and reach their most defensive size in August, right as the halibut season and the tourist crowds both peak together. Property owners and businesses on the Spit see meaningfully heavier yellowjacket foraging than homes on the hillside above town, and nest treatment timed for early summer, before the fishing season is in full swing, reduces how large and aggressive colonies become by August.",
+      },
+      {
+        heading: "A tourist town's bed bug risk runs on the visitor calendar",
+        body: "Homer's identity as a halibut fishing destination and an arts community draws a heavy volume of summer visitors to a town of under 6,000 year-round residents, and that visitor traffic is concentrated into roughly May through September. Hotels, lodges, and the short-term vacation rentals that have grown alongside Homer's tourism economy see high guest turnover during that window, and guest turnover, not the local climate, is what actually drives bed bug introduction risk in hospitality settings anywhere it happens. Businesses that serve fishing charter clients and tourists passing through the Spit and downtown face a real, cumulative version of that risk each season. Professional inspection scheduled around the start and end of the summer visitor season, when turnover is highest, is the most effective way for Homer's hospitality businesses to catch an introduction before it spreads between rooms.",
+      },
+    ],
+    prevention: [
+      "Manage fish waste and cleaning station byproducts promptly on and near the Homer Spit to reduce yellowjacket foraging through the summer.",
+      "Schedule bed bug inspections at hotels, lodges, and vacation rentals at the start and end of the May through September visitor season, when guest turnover is highest.",
+      "Eliminate standing water near Beluga Slough and other wetland edges before June to limit mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before October, ahead of the fall mouse push into homes and Spit-area buildings.",
+    ],
+    costNote:
+      "Homer pest pricing reflects the town's split identity as a working harbor and a seasonal tourist destination. Commercial yellowjacket and fish-waste-related treatment on the Spit is priced for harbor and processing businesses. Hospitality bed bug inspections are commonly scheduled around the visitor season calendar. Residential mouse and mosquito service quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why are yellowjackets worse on the Homer Spit than elsewhere in town?",
+        answer:
+          "The Homer Spit concentrates the town's working harbor, including the halibut charter fleet and fish processing operations, into a narrow four-and-a-half-mile strip of land. Fish waste from cleaning stations and processing gives yellowjackets a food source that residential neighborhoods on the hillside above town simply do not generate, so foraging activity on and near the Spit runs consistently heavier through the summer.",
+      },
+      {
+        question: "Does Homer's tourist season actually increase bed bug risk?",
+        answer:
+          "Yes. Homer draws a heavy volume of summer visitors for halibut fishing charters and its arts scene, and that traffic is compressed into roughly May through September. Bed bug introduction risk in hotels, lodges, and vacation rentals tracks guest turnover, not climate, and Homer's hospitality businesses see a real spike in that turnover during the visitor season, independent of anything about Alaska's weather.",
+      },
+      {
+        question: "Where does the Homer Spit mosquito pressure come from?",
+        answer:
+          "Homer's mosquitoes breed mainly in the wetlands around Beluga Slough and other marshy, poorly draining ground near town, not on the Spit itself. Snowmelt and spring rain fill those wetlands through late May and June, and properties closest to the standing water see the heaviest early-summer pressure before the season tapers off in July.",
+      },
+      {
+        question: "How is Homer's pest pressure different from Kenai's, given they are both on the Peninsula?",
+        answer:
+          "Both towns have working fishing harbors, but Homer's is concentrated entirely on the narrow Spit alongside a heavy summer tourist trade, which adds a hospitality-driven bed bug risk that Kenai's oil and gas industrial base does not generate in the same way. Kenai's biggest seasonal spike ties to its personal-use dip net salmon fishery each July, while Homer's ties to the combined halibut charter season and summer visitor calendar running May through September.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Palmer", slug: "palmer", stateSlug: "alaska" },
+      { name: "Bethel", slug: "bethel", stateSlug: "alaska" },
+      { name: "College", slug: "college", stateSlug: "alaska" },
+      { name: "Fairbanks", slug: "fairbanks", stateSlug: "alaska" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Homer, AK | Yellowjackets, Mice & Bed Bugs",
+    metaDescription:
+      "Homer pest control for yellowjackets, house mice, bed bugs and mosquitoes. Homer Spit and Kachemak Bay fishing town specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "college",
+    name: "College",
+    state: "Alaska",
+    stateSlug: "alaska",
+    stateAbbr: "AK",
+    tier: "T3",
+    population: "~11,300",
+    county: "Fairbanks North Star Borough",
+    climate: "cold",
+    climateDriver:
+      "College is a census-designated place built around the University of Alaska Fairbanks campus, sharing interior Alaska's extreme subarctic continental climate with neighboring Fairbanks: winters that regularly reach minus 40 degrees and summers that push past 80 under nearly continuous daylight. What sets College apart is what the university brings with it, thousands of students living in dormitories and off-campus housing with high annual turnover, and the UAF Fairbanks agricultural research operations, including a research farm that keeps livestock and a reindeer and muskox herd, which draw a rodent and fly pressure that downtown Fairbanks does not have.",
+    topPests: [
+      "Bed Bugs",
+      "House Mice",
+      "Voles",
+      "Mosquitoes",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, spikes at fall and spring semester turnover",
+        note:
+          "College is built around the University of Alaska Fairbanks campus itself, and the twice-yearly turnover of thousands of students moving in and out of dormitories and off-campus housing is a well documented driver of bed bug introduction in college communities. The spikes align closely with the start of fall and spring semesters.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, fall surge August through October",
+        note:
+          "House mice push into College's heated buildings each fall as interior Alaska's temperatures drop toward the season's first hard freeze. Housing near UAF's agricultural research facilities, where feed and grain storage is part of daily operations, sees added rodent pressure that purely residential blocks do not carry.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Active year-round under snow, surface runways visible at spring melt",
+        note:
+          "UAF's agricultural research farm in College keeps livestock along with a research herd of reindeer and muskoxen, and the pasture, hay storage, and open ground that operation requires give voles more habitat close to campus buildings than downtown Fairbanks provides. Runways in grass and garden beds become visible each spring as the snow melts.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through mid-August, peak in June and July",
+        note:
+          "The ponds and wetlands scattered through the UAF campus, along with the broader Tanana River flats surrounding Fairbanks and College, produce the same intense subarctic mosquito breeding documented across interior Alaska each summer, driven by snowmelt and nearly continuous June daylight.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late July and August",
+        note:
+          "Yellowjackets nest around campus buildings, dining facilities, and the agricultural research farm each summer, growing fast in the long interior daylight and reaching peak aggression by late summer just as colonies compete for food around campus dining and outdoor events.",
+      },
+    ],
+    localHook:
+      "College is the census-designated place that the University of Alaska Fairbanks campus itself sits inside, not just a neighboring suburb of Fairbanks. The community also hosts UAF's Fairbanks agricultural research operations, including a working research farm that keeps a herd of reindeer and muskoxen for university study, a genuinely unusual combination of college town and working agricultural research station found almost nowhere else in the country.",
+    intro:
+      "Pest control in College is shaped by the university that sits at its center. As the census-designated place built around the University of Alaska Fairbanks campus, College sees the twice-yearly wave of student move-ins and move-outs that drives bed bug introduction risk in college communities everywhere, timed to the start of fall and spring semesters. Less expected is the university's agricultural research farm, which keeps livestock and a reindeer and muskox research herd inside the community and gives voles and mice more open ground and feed storage to work with than a purely residential Fairbanks neighborhood would offer. Mosquitoes and yellowjackets follow the same intense, compressed interior Alaska summer pattern documented in Fairbanks itself, since College shares the same subarctic continental climate and the same Tanana River flats wetlands.",
+    sections: [
+      {
+        heading: "Semester turnover and bed bug risk at the heart of campus",
+        body: "College is not simply a Fairbanks suburb near the university. The University of Alaska Fairbanks campus sits inside the College CDP's boundaries, and the community's population includes thousands of students cycling through dormitories and off-campus rentals each year. That level of turnover, concentrated around the start of fall and spring semesters when students move in with luggage, furniture, and belongings from all over the state and beyond, is a documented driver of bed bug introduction in college communities generally. A single introduced population in a dormitory or a shared rental can spread between rooms quickly given how much move-in and move-out traffic passes through in a short window. Early professional inspection at the first sign of bites or visible activity, rather than waiting to see if a problem resolves on its own, is the most effective response in student housing specifically.",
+      },
+      {
+        heading: "A research farm inside a college town",
+        body: "What makes College unusual, even compared to Fairbanks itself, is the working agricultural research operation the university runs inside the community. UAF's Fairbanks agricultural research facilities include a farm that keeps livestock and a research herd of reindeer and muskoxen used for university study, along with the pasture, hay, and feed storage that operation requires. That combination gives voles more open ground close to buildings than a purely residential part of Fairbanks would offer, and it gives house mice added feed storage to target during the fall push into structures. Interior Alaska's mosquito and yellowjacket seasons follow the same pattern documented in Fairbanks, driven by the Tanana River flats wetlands and the intense, compressed subarctic summer, since College shares that exact climate and geography with its larger neighbor.",
+      },
+    ],
+    prevention: [
+      "Inspect dormitories and off-campus student housing for bed bug activity at the start and end of fall and spring semesters, when turnover is highest.",
+      "Seal foundation gaps and utility penetrations at housing near the agricultural research farm before the fall mouse push in August and September.",
+      "Mow grass and clear brush near pasture and feed storage areas to reduce vole habitat close to campus and residential buildings.",
+      "Eliminate standing water in campus ponds and low-lying yard areas before June to limit the subarctic mosquito breeding surge.",
+    ],
+    costNote:
+      "College pest pricing reflects both a student housing market and a working agricultural research operation sharing the same small community. Bed bug inspection and treatment for dormitories and rentals is scheduled around the semester calendar. Rodent service near the research farm accounts for feed and pasture areas. Mosquito and yellowjacket programs run June through August. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does College have more bed bug risk than a typical Fairbanks neighborhood?",
+        answer:
+          "College is the community the University of Alaska Fairbanks campus itself sits inside, and thousands of students move in and out of dormitories and off-campus rentals twice a year at the start of each semester. That level of turnover is a well documented driver of bed bug introduction in college communities generally, and the spikes in College track closely with the fall and spring move-in periods.",
+      },
+      {
+        question: "Is it true there is a working farm with reindeer inside College?",
+        answer:
+          "Yes. The University of Alaska Fairbanks operates agricultural research facilities in College that include a research farm keeping livestock along with a herd of reindeer and muskoxen used for university study. That farm's pasture, hay, and feed storage give voles and mice more habitat close to buildings than a purely residential part of Fairbanks would have, which is a genuinely unusual pest factor for a college community.",
+      },
+      {
+        question: "Is College's mosquito season different from Fairbanks itself?",
+        answer:
+          "No, they share the same pattern. College sits inside the same Tanana River flats wetland system and the same subarctic continental climate as Fairbanks, so the mosquito season runs on the same calendar: late May through mid-August, with the heaviest activity in June and July as snowmelt and near-continuous daylight drive rapid breeding.",
+      },
+      {
+        question: "When should student housing in College be inspected for pests?",
+        answer:
+          "The start of each semester, right after the wave of student move-ins, is the highest-risk window for bed bugs specifically. For rodents, a late-August inspection ahead of interior Alaska's first hard freeze catches entry points before the fall mouse push into heated dormitories and rental housing begins.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fairbanks", slug: "fairbanks", stateSlug: "alaska" },
+      { name: "Palmer", slug: "palmer", stateSlug: "alaska" },
+      { name: "Bethel", slug: "bethel", stateSlug: "alaska" },
+      { name: "Homer", slug: "homer", stateSlug: "alaska" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in College, AK | Bed Bugs, Mice & Campus Pests",
+    metaDescription:
+      "College AK pest control for bed bugs, house mice, voles and mosquitoes. University of Alaska Fairbanks campus community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

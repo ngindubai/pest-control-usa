@@ -8806,4 +8806,560 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Fredonia, NY pest control for house mice, German cockroaches, boxelder bugs and carpenter ants near the grape belt. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rye-ny",
+    name: "Rye",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~16,600",
+    county: "Westchester County",
+    climate: "temperate",
+    climateDriver:
+      "Rye is a Long Island Sound coastal city in southern Westchester County, home to Milton Harbor and the historic Rye Playland shoreline. Westchester County ranks among the highest in New York State for Lyme disease incidence, and Rye's residential lots often border county parkland directly, putting tick exposure inside ordinary yards. The same shoreline brings tidal marsh mosquito breeding grounds and salt-air moisture that ages the trim and sills on Rye's older coastal homes.",
+    topPests: ["Ticks", "House Mice", "Carpenter Ants", "Mosquitoes", "Termites"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak May and June",
+        note: "Westchester County reports some of the highest tick-borne Lyme disease case rates in New York State, and Rye's wooded residential lots backing onto county parkland put tick exposure within normal yard use rather than requiring a hike to encounter them.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Rye's older coastal homes near the Long Island Sound shoreline settle over decades, opening small gaps that mice exploit once temperatures drop each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Damp, salt-air conditions along Rye's shoreline soften trim and sill wood on older shingle-style homes, giving carpenter ants the moisture they need to establish satellite colonies indoors.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Tidal marsh and low-lying ground near Milton Harbor and the Long Island Sound shoreline give mosquitoes standing water to breed in through the warm months, and that pressure follows the shoreline into surrounding residential streets.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active through summer",
+        note: "Rye's older wood-frame homes, some built well before modern termite barriers were standard, sit close enough to the coast that consistently damp soil keeps subterranean termite colonies active for a long season.",
+      },
+    ],
+    localHook:
+      "Rye is home to Playland, the Westchester County-owned amusement park that opened in 1928 and became a National Historic Landmark in 1987, the only Art Deco amusement park in the country to receive that designation. That same Long Island Sound shoreline that draws visitors to Playland's boardwalk also lines Rye's residential streets with tidal marsh and older, closely built coastal homes, a combination that gives ticks, mosquitoes, and moisture-loving carpenter ants more to work with than a typical inland Westchester town.",
+    intro:
+      "Pest control in Rye, NY has to account for both the Long Island Sound shoreline and Westchester County's well-documented tick problem. Rye sits in southern Westchester, a city of roughly 16,600 people built along Milton Harbor and the Sound, and its residential streets mix older shingle-style coastal homes with wooded lots that back directly onto county parkland. Westchester County ranks among the highest in New York State for Lyme disease incidence, and in Rye that risk sits inside ordinary yards, not just on hiking trails. The same shoreline that put Rye Playland on the National Register of Historic Places also leaves tidal marsh and low, damp ground that breeds mosquitoes through the warm months, while salt air and coastal moisture soften wood trim on Rye's older homes just enough to interest carpenter ants and, eventually, subterranean termites.",
+    sections: [
+      {
+        heading: "Why does Rye have such a high tick exposure risk?",
+        body: "Westchester County reports some of the highest tick-borne Lyme disease case rates anywhere in New York State, and Rye's geography does not help. Many of the city's residential lots border county parkland or wooded buffer strips directly, so deer and the ticks they carry move onto private property without crossing any real distance. Deer ticks are active from March through November here, with the sharpest exposure in May and June when nymphs are small, hard to spot, and most likely to attach unnoticed. A yard that touches wooded land in Rye deserves the same tick precautions as a home deep in the woods, not the lighter approach a typical suburban lawn might get.",
+      },
+      {
+        heading: "How does the Long Island Sound shoreline shape mosquito pressure here?",
+        body: "Rye's waterfront, including the tidal marsh around Milton Harbor, holds standing water through the warm months in a way inland Westchester towns don't experience. Mosquitoes breed in that marsh and along the Sound's low-lying edges, then move into surrounding residential streets as the season progresses from May through September. Homes closest to the water see the earliest and heaviest pressure, but the insects travel well inland from the shoreline once populations build in midsummer. Standing water on a property, even something as small as an untended birdbath or clogged gutter, adds to what the marsh already produces nearby.",
+      },
+      {
+        heading: "Are Rye's older coastal homes more vulnerable to carpenter ants and termites?",
+        body: "Many of Rye's homes near the shoreline are older shingle-style construction that has spent decades absorbing salt air and coastal humidity, and that moisture softens trim boards, sills, and other exterior wood over time. Carpenter ants look for exactly that kind of softened wood to hollow out satellite nests, and they stay active from April through September in Rye's climate. The same consistently damp soil that comes with living near the Sound keeps subterranean termites swarming and feeding for a longer season than a home fifteen miles inland would see, with termite swarms typically appearing between April and June. Homes built before modern termite barriers became standard carry more risk from both pests.",
+      },
+      {
+        heading: "What should a Rye pest control plan cover?",
+        body: "A plan built for Rye needs to cover tick precautions for any property bordering parkland or wooded buffer strips, mosquito reduction focused on standing water near the shoreline and in yards, and a termite and carpenter ant inspection weighted toward older coastal construction. House mice round out the list, moving into homes each fall as temperatures drop the way they do throughout Westchester. None of these pests are unique to Rye on their own, but the combination, shaped by the Sound on one side and county parkland on the other, gives the city a pest calendar that looks different from an inland Westchester suburb's.",
+      },
+    ],
+    prevention: [
+      "Check yards bordering parkland or wooded buffer strips for tick activity each spring, especially in May and June when nymphs are hardest to see.",
+      "Clear standing water near the shoreline and in gutters, birdbaths, and drainage areas before mosquito season builds in June.",
+      "Have older coastal homes inspected each spring for carpenter ant and termite activity, particularly around trim and sills exposed to salt air.",
+      "Seal foundation and utility gaps before fall to reduce house mice entry.",
+    ],
+    costNote:
+      "Pest inspections in Rye typically run $90 to $180, with a free initial inspection common. Older coastal homes near the shoreline sometimes see a slightly higher quote given the extra time spent checking trim, sills, and crawl spaces for moisture damage.",
+    faqs: [
+      {
+        question: "Why is tick risk so high in Rye compared to other Westchester towns?",
+        answer:
+          "Rye's residential lots often border county parkland or wooded buffer strips directly, so deer ticks move onto private property without needing to cross open ground. Combined with Westchester County's high Lyme disease incidence overall, that makes ordinary yard use in Rye a real point of tick exposure, not just hiking trails.",
+      },
+      {
+        question: "Does living near Rye Playland and the Long Island Sound shoreline affect pest pressure?",
+        answer:
+          "Yes. The tidal marsh and low ground around Milton Harbor and the Sound shoreline breed mosquitoes through the warm months, and that pressure moves into residential streets well beyond the immediate waterfront by midsummer.",
+      },
+      {
+        question: "Are Rye's older shingle-style homes more prone to carpenter ants?",
+        answer:
+          "Often, yes. Decades of salt air and coastal humidity soften exterior trim and sill wood on older shoreline homes, and carpenter ants target that softened wood to build satellite nests from April through September.",
+      },
+      {
+        question: "When do termites swarm in Rye?",
+        answer:
+          "Termite swarms in Rye typically appear between April and June, and the consistently damp soil near the Sound keeps subterranean termite colonies active for a longer stretch of the year than towns further inland see.",
+      },
+      {
+        question: "Is pest control available for both waterfront and inland properties in Rye?",
+        answer:
+          "Yes. Licensed providers serving Westchester County, including Rye, adjust their approach based on whether a property sits near the shoreline, borders parkland, or sits in a more typical inland residential block.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Port Chester", slug: "port-chester", stateSlug: "new-york" },
+      { name: "Mamaroneck", slug: "mamaroneck", stateSlug: "new-york" },
+      { name: "Ardsley", slug: "ardsley", stateSlug: "new-york" },
+      { name: "Harrison", slug: "harrison-ny", stateSlug: "new-york" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rye, NY | Ticks, Mosquitoes & Termites",
+    metaDescription:
+      "Pest control in Rye, New York. Westchester County service for deer ticks, mosquitoes, carpenter ants and termites near the Long Island Sound shoreline. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "malverne-ny",
+    name: "Malverne",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~8,600",
+    county: "Nassau County",
+    climate: "cold-humid",
+    climateDriver:
+      "Malverne is a compact, one-square-mile village in the Town of Hempstead on Long Island's South Shore, built out mostly between the 1920s and 1950s after the old Lindner farm was subdivided for suburban development. That age and density, tightly platted lots, mature street trees, and older housing stock, shape most of the village's pest pressure.",
+    topPests: ["Termites", "Carpenter Ants", "House Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active through summer",
+        note: "Most of Malverne's housing dates to the village's 1920s through 1950s suburban building boom, old enough that a share of it predates the termite barriers required in newer Nassau County construction, and humid Long Island summers keep colonies feeding for a long season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Malverne's mature, tree-lined streets, part of what gives the one-square-mile village its character, also mean plenty of large old trees close to homes, and carpenter ants move from decaying wood in those trees into softened trim and sills on neighboring houses.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Malverne's homes sit close together on small, tightly platted lots, and once one house develops an entry point, mice move easily along shared property lines into neighboring homes as the weather turns cold.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October, again in spring",
+        note: "Brown marmorated stink bugs have spread across Long Island's suburbs over the past decade and gather on sun-warmed siding each fall before pushing into attics and wall voids for winter, a pattern well established in dense villages like Malverne.",
+      },
+    ],
+    localHook:
+      "Malverne incorporated as a village in 1921, after residents changed its original name from Norwood, since a Village of Norwood already existed upstate, to Malverne, borrowed from Malvern, England. The one-square-mile village grew out of the old Lindner farm once the Amsterdam Development and Land Company began building suburban lots there in 1911, and that century of tightly packed, tree-lined development is exactly what shapes Malverne's pest pressure today: old trees close to old homes, and property lines close enough together that a pest problem rarely stays on one lot.",
+    intro:
+      "Pest control in Malverne, NY starts with the same detail that gives the village its character: everything sits close together. Malverne packs roughly 8,600 residents into about one square mile in the Town of Hempstead, a compact, tree-lined village built out mostly between the 1920s and 1950s after the old Lindner farm was subdivided for suburban development. That age and density work together. A meaningful share of Malverne's housing predates the termite barriers required in newer Nassau County construction, mature trees standing close to homes give carpenter ants an easy bridge from decaying wood into house framing, and small, tightly platted lots mean mice and other pests move between neighboring homes almost as easily as they move within one. Long Island's now well-established brown marmorated stink bug population adds a seasonal nuisance on top of all of it each fall.",
+    sections: [
+      {
+        heading: "Why does Malverne's older housing stock matter for termite risk?",
+        body: "Malverne's building boom ran mostly from the 1920s through the 1950s, once the Amsterdam Development and Land Company began turning the old Lindner farm into suburban lots. Homes from that era predate the termite barriers now standard in newer Nassau County construction, and Long Island's humid summers keep subterranean termite colonies feeding for a long stretch of the year regardless of a home's age. Swarms typically appear between April and June, and an inspection timed to that window catches activity before it reaches structural wood.",
+      },
+      {
+        heading: "Do Malverne's mature trees increase carpenter ant activity?",
+        body: "The tree-lined streets that give Malverne much of its character also put large, older trees close to nearly every home in the village. Carpenter ants naturally nest in decaying wood, and a tree with any interior decay sitting near a house gives them a short, easy bridge into softened trim, sills, or fascia boards on the home itself. Malverne's carpenter ants stay active from April through September, and homes near the oldest, largest trees tend to see activity first each spring.",
+      },
+      {
+        heading: "How does Malverne's density affect mouse and pest movement between homes?",
+        body: "At about one square mile with roughly 8,600 residents, Malverne is built at real density for a village its size, and that means property lines sit close together. Once a house develops even a small entry point, mice have a short trip to the next home over, and the same is true for other pests that move along fence lines and shared foundations. Exclusion work matters more here than in a more spread-out suburb, since one untreated home can affect several neighbors.",
+      },
+      {
+        heading: "Is stink bug pressure a real concern in Malverne?",
+        body: "Yes. Brown marmorated stink bugs have spread across Long Island's suburbs over roughly the past decade, and Malverne's dense rows of homes give them plenty of sun-warmed siding to gather on each September and October before they push into attics, wall voids, and window frames for winter. They return to activity again in spring as temperatures warm. They don't damage homes the way termites or carpenter ants can, but they're a persistent nuisance once established indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring, especially for homes built before modern Nassau County barrier standards.",
+      "Have large trees near the house checked for interior decay that could bridge carpenter ants into home framing.",
+      "Seal foundation gaps before fall, since Malverne's close lot lines let mice move quickly between neighboring homes.",
+      "Caulk siding and window trim before September to reduce stink bug entry ahead of the fall push indoors.",
+    ],
+    costNote:
+      "General pest inspections in Malverne typically run $85 to $165, with a free initial inspection common. Older homes near the village's largest trees sometimes see a modestly higher quote given the extra time spent checking for carpenter ant bridging points.",
+    faqs: [
+      {
+        question: "Why does Malverne see more shared pest pressure between neighboring homes?",
+        answer:
+          "Malverne packs roughly 8,600 residents into about one square mile, and that density means property lines sit close together. Once one home develops an entry point for mice or other pests, they move quickly to neighboring houses along shared fence lines and foundations.",
+      },
+      {
+        question: "Does Malverne's history as a 1920s suburban development affect pest risk today?",
+        answer:
+          "It does. Much of the village was built out between the 1920s and 1950s after the old Lindner farm was subdivided, and homes from that era predate the termite barriers required in newer Nassau County construction, which raises termite risk in the village's oldest housing stock.",
+      },
+      {
+        question: "Are Malverne's mature street trees a factor in carpenter ant problems?",
+        answer:
+          "Yes. The tree-lined streets that define the village also put large, older trees close to most homes, and any interior decay in those trees gives carpenter ants an easy path into house framing nearby.",
+      },
+      {
+        question: "When do stink bugs become a problem in Malverne?",
+        answer:
+          "Brown marmorated stink bugs gather on sun-warmed siding through September and October before pushing into attics and wall voids for winter, then reappear as temperatures warm in spring. The pattern is well established across Long Island's suburbs, including Malverne.",
+      },
+      {
+        question: "Is pest control available for Malverne's small, closely built lots?",
+        answer:
+          "Yes. Licensed providers serving Nassau County work regularly with Malverne's tightly platted village lots, focusing on exclusion work that accounts for how easily pests move between adjacent homes.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Rockville Centre", slug: "rockville-centre-ny", stateSlug: "new-york" },
+      { name: "Valley Stream", slug: "valley-stream-ny", stateSlug: "new-york" },
+      { name: "East Rockaway", slug: "east-rockaway-ny", stateSlug: "new-york" },
+      { name: "Freeport", slug: "freeport-ny", stateSlug: "new-york" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Malverne, NY | Termites, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Pest control in Malverne, New York. Nassau County village service for termites, carpenter ants, mice and stink bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kenmore-ny",
+    name: "Kenmore",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~15,200",
+    county: "Erie County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kenmore is a dense, early-20th-century streetcar suburb directly north of Buffalo, known locally as Buffalo's First Suburb. Lake Erie's lake-effect weather brings real winter snow accumulation and humid growing-season conditions, and the village's older frame housing, mixed with a commercial corridor along Delaware Avenue, shapes a pest calendar built around both the age of the housing and the lake's weather.",
+    topPests: ["Termites", "Carpenter Ants", "House Mice", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active through summer",
+        note: "Kenmore built up fast as a streetcar suburb after 1888, and a large share of its housing predates the termite barriers required in newer Erie County construction, giving colonies established wood-to-soil contact to work with each summer.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Erie County's lake-effect humidity keeps wood moisture higher through the growing season than towns further from Lake Erie see, and Kenmore's older frame homes give carpenter ants plenty of aging trim and sills to exploit.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Lake-effect snow off Lake Erie brings Kenmore real winter accumulation and sustained cold, and mice push into the village's dense early-20th-century housing stock hard once that cold sets in each fall.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in cold months",
+        note: "Kenmore's commercial corridor along Delaware Avenue, mixed with dense residential blocks close behind it, gives Norway rats the combination of food access and shelter they look for, and colder months push more activity toward buildings.",
+      },
+    ],
+    localHook:
+      "Kenmore grew up almost overnight after 1888, when L.P.A. Eberhardt began selling lots just north of the Buffalo city line for as little as $250 apiece, and the arrival of electric streetcars let workers live outside walking distance of their jobs for the first time. That history earned Kenmore its local nickname, Buffalo's First Suburb, and it still shows in the village's housing today: dense blocks of early-20th-century frame homes built close together along streets platted for streetcar-era lot sizes, sitting right against Lake Erie's lake-effect winter weather.",
+    intro:
+      "Pest control in Kenmore, NY has to account for the village's age and its weather in roughly equal measure. Known locally as Buffalo's First Suburb, Kenmore grew fast after 1888 as one of the first streetcar suburbs north of the Buffalo city line, and its roughly 15,200 residents still live mostly in the dense, early-20th-century frame housing that boom produced. A meaningful share of that housing predates the termite barriers required in newer Erie County construction, and Lake Erie's lake-effect humidity keeps wood moisture elevated through the growing season in a way that favors both termites and carpenter ants. Winter brings the other half of the pressure. Real lake-effect snow and sustained cold push house mice into Kenmore's closely built homes every fall, while the mixed commercial and residential blocks along Delaware Avenue give Norway rats food access and shelter close together year-round.",
+    sections: [
+      {
+        heading: "Why does Kenmore's streetcar-suburb history matter for termite risk?",
+        body: "Kenmore's population grew quickly after L.P.A. Eberhardt began selling lots north of Buffalo in 1888, and electric streetcars let the new suburb fill in with frame housing well before World War II. A large share of that older housing predates the termite barrier standards required in newer Erie County construction, so wood-to-soil contact is more common than it would be in a home built in the past few decades. Combined with Lake Erie's humid climate, that gives subterranean termite colonies established access and consistent moisture to work with, with swarms typically appearing between May and July.",
+      },
+      {
+        heading: "How does lake-effect weather off Lake Erie affect pest pressure in Kenmore?",
+        body: "Kenmore sits close enough to Lake Erie to take real lake-effect snow and humidity, and that shows up in the pest calendar two different ways. Through the growing season, elevated humidity keeps wood moisture higher on older homes than it would be further from the lake, which favors carpenter ants looking for softened trim and sills. Through winter, sustained lake-effect cold pushes house mice hard into homes from October through March, with the village's dense, closely spaced housing giving them plenty of small gaps to exploit.",
+      },
+      {
+        heading: "Does the Delaware Avenue commercial corridor bring more rat pressure to Kenmore?",
+        body: "Kenmore's commercial strip along Delaware Avenue sits close behind dense residential blocks, and that mix gives Norway rats what they typically look for: food sources tied to restaurants and retail, and shelter in the residential structures nearby. Rat activity in Kenmore runs year-round but increases in colder months as rats push toward buildings for warmth. Commercial property owners along the corridor benefit from routine service rather than waiting for a complaint, since activity there tends to affect the surrounding residential blocks too.",
+      },
+      {
+        heading: "What should a Kenmore pest control plan cover?",
+        body: "A plan for Kenmore needs to weigh the village's older streetcar-era housing against Lake Erie's weather. That means termite inspections timed to the May through July swarm window, carpenter ant checks focused on homes with aging trim exposed to lake-effect humidity, fall mouse exclusion ahead of the cold season, and routine rat service for properties along or near the Delaware Avenue commercial corridor. None of these pests are unusual for Erie County individually, but Kenmore's specific mix of dense early-20th-century housing and lakefront weather gives the combination its own shape.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection timed to the May through July swarm window, especially for pre-World War II homes.",
+      "Check trim and sills on older frame homes for carpenter ant activity through the humid summer months.",
+      "Seal foundation and utility gaps before October, ahead of lake-effect winter mouse pressure.",
+      "Commercial property owners along Delaware Avenue should consider routine rat service rather than waiting for a complaint.",
+    ],
+    costNote:
+      "General pest inspections in Kenmore typically run $90 to $170, with a free initial inspection common. Commercial properties along the Delaware Avenue corridor are quoted separately based on square footage and service frequency.",
+    faqs: [
+      {
+        question: "Why is Kenmore called Buffalo's First Suburb, and does that affect pest control?",
+        answer:
+          "Kenmore earned the nickname after growing quickly following 1888, when lots north of Buffalo sold for as little as $250 and new streetcar lines let residents live outside walking distance of their jobs. The dense, early-20th-century frame housing that boom produced is old enough that a meaningful share predates modern termite barrier standards, which raises termite risk across the village.",
+      },
+      {
+        question: "Does lake-effect weather off Lake Erie increase pest pressure in Kenmore?",
+        answer:
+          "Yes, in two ways. Humid growing seasons near the lake keep wood moisture elevated, which favors carpenter ants, while real lake-effect snow and sustained winter cold push house mice hard into Kenmore's closely built homes from October through March.",
+      },
+      {
+        question: "Is rat activity a bigger concern near Kenmore's Delaware Avenue corridor?",
+        answer:
+          "It can be. The mix of commercial food sources and dense residential blocks close behind the corridor gives Norway rats both food and shelter in close proximity, and activity there tends to run year-round with an increase in colder months.",
+      },
+      {
+        question: "When do termites swarm in Kenmore?",
+        answer:
+          "Termite swarms in Kenmore typically appear between May and July, and the village's older streetcar-era housing, much of it predating modern termite barriers, gives colonies more wood-to-soil contact to work with than newer Erie County construction allows.",
+      },
+      {
+        question: "Is pest control available for both residential streets and the Delaware Avenue commercial corridor in Kenmore?",
+        answer:
+          "Yes. Licensed providers serving Erie County, including Kenmore, work with both the village's dense residential blocks and the commercial properties along Delaware Avenue, adjusting service frequency to whichever a given property needs.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo", stateSlug: "new-york" },
+      { name: "Tonawanda", slug: "tonawanda", stateSlug: "new-york" },
+      { name: "Amherst", slug: "amherst", stateSlug: "new-york" },
+      { name: "Lackawanna", slug: "lackawanna-ny", stateSlug: "new-york" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Kenmore, NY | Termites, Carpenter Ants & Rats",
+    metaDescription:
+      "Pest control in Kenmore, New York, Buffalo's First Suburb. Erie County service for termites, carpenter ants, mice and Norway rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hudson-ny",
+    name: "Hudson",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~5,900",
+    county: "Columbia County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hudson is the county seat of Columbia County, founded in 1783 by Quaker whaling merchants from Nantucket and chartered as a city in 1785. Warren Street, its historic main thoroughfare, is considered one of New York's most intact 19th-century commercial streets. That genuine age, combined with the city's position at the head of navigation on the Hudson River, shapes almost all of Hudson's pest pressure.",
+    topPests: ["Termites", "Carpenter Ants", "Norway Rats", "House Mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Hudson was chartered as a city in 1785, and a real share of its housing and commercial stock along Warren Street dates back a century or more, old enough to carry the wood-to-soil contact that modern termite barriers were built to prevent.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The same 19th-century wood-frame construction that makes Warren Street New York's most intact historic commercial street gives carpenter ants generous, aging timber to exploit wherever moisture has softened it over the decades.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in cold months",
+        note: "Hudson grew up as a busy Hudson River port with wharves and warehouses, and while the working waterfront has changed, the close mix of older commercial buildings and residential blocks downtown still gives Norway rats food access and shelter near each other.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Columbia County's cold, humid winters push mice into Hudson's older housing stock hard each fall, and the gaps that develop in century-old wood-frame construction over time give them plenty of ways inside.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Hudson sits at the head of navigation on the Hudson River, and the low, flood-prone ground along the waterfront holds standing water through the warm months that breeds mosquitoes for the surrounding blocks.",
+      },
+    ],
+    localHook:
+      "Hudson was settled in 1783 by Quaker whalers and merchants from Nantucket and Martha's Vineyard, and the city was chartered just two years later in 1785, making it one of the first cities incorporated in the young United States. Warren Street, the city's main thoroughfare, is described by preservationists as New York's most intact 19th-century commercial street, lined with the mansions and storefronts that whale-oil money built. That density of genuinely old wood-frame construction, packed into a small city of under 6,000 people, is the single biggest factor shaping Hudson's pest pressure today.",
+    intro:
+      "Pest control in Hudson, NY runs almost entirely on the city's age. Hudson was founded in 1783 by Quaker whaling merchants from Nantucket and chartered as a city just two years later, and Warren Street, its historic main thoroughfare, still stands as one of the most intact 19th-century commercial streets in New York State. That genuine age matters for pest pressure in a way it wouldn't in a newer suburb. A meaningful share of Hudson's roughly 5,900 residents live in homes and above storefronts built well over a century ago, construction old enough to predate modern termite barriers and carry the kind of settled wood-to-soil contact that keeps subterranean termites and carpenter ants both interested. Hudson's history as a busy Hudson River port also left behind a downtown where older commercial buildings sit close against residential blocks, a layout Norway rats exploit year-round, while the river's low, flood-prone edge breeds mosquitoes through the warm months.",
+    sections: [
+      {
+        heading: "Why does Hudson's historic Warren Street district matter for termite and carpenter ant risk?",
+        body: "Warren Street's 19th-century buildings, widely considered New York's most intact historic commercial street, were built long before termite barriers were part of standard construction. That age applies just as much to the residential streets branching off Warren Street as to the commercial storefronts themselves. Wood-to-soil contact that a modern building code would prevent is common in century-old construction, and any softened trim or sill from decades of settling gives carpenter ants an easy target. Termite swarms in Hudson typically appear between April and June, and older buildings deserve inspection on that schedule regardless of how well maintained they look on the surface.",
+      },
+      {
+        heading: "Does Hudson's history as a river port still affect rat activity downtown?",
+        body: "Hudson grew up in the 1780s and 1790s as a busy port at the head of navigation on the Hudson River, with wharves, warehouses, and a spermaceti works crowding the waterfront. The working port itself is long gone, but the downtown layout it left behind, older commercial buildings packed close against residential blocks, still gives Norway rats the combination of food access and nearby shelter they look for. Activity runs year-round and increases in colder months as rats push toward buildings for warmth, and property owners downtown benefit from routine service rather than reactive calls.",
+      },
+      {
+        heading: "How does the Hudson River affect mosquito pressure in the city?",
+        body: "Hudson sits at the head of navigation on the river, and the low, flood-prone ground along that waterfront holds standing water well into the warm season. Mosquitoes breed in that ground from May through September, and the pressure extends into the blocks nearest the river before tapering off further into the city's residential streets. Any standing water on a property, including flooded low spots or clogged gutters, adds to what the riverfront already produces nearby.",
+      },
+      {
+        heading: "What should a Hudson pest control plan cover?",
+        body: "A plan for Hudson needs to weigh the city's genuine age heavily. That means termite and carpenter ant inspections for century-old residential and commercial buildings alike, timed to the spring swarm window, routine rat service for downtown commercial properties near residential blocks, fall mouse exclusion ahead of Columbia County's cold winters, and mosquito reduction focused on the low ground near the riverfront. Hudson's small size, under 6,000 residents, doesn't make its pest pressure small. The building stock is simply old enough that it needs the same attention a much larger historic city would require.",
+      },
+    ],
+    prevention: [
+      "Schedule termite and carpenter ant inspections each spring for pre-1900 residential and commercial buildings.",
+      "Downtown commercial property owners should consider routine rat service given Hudson's dense, historic port-era layout.",
+      "Clear standing water near the riverfront and in gutters before mosquito season builds each May.",
+      "Seal foundation and utility gaps before October, ahead of Columbia County's cold winters.",
+    ],
+    costNote:
+      "General pest inspections in Hudson typically run $85 to $170, with a free initial inspection common. Historic Warren Street district buildings sometimes see a modestly higher quote given the extra time needed to inspect century-old wood framing without disturbing original material.",
+    faqs: [
+      {
+        question: "Why does a small city like Hudson need serious termite and carpenter ant coverage?",
+        answer:
+          "Hudson's size doesn't reflect its age. The city was chartered in 1785, and Warren Street's buildings, some of New York's most intact 19th-century commercial architecture, predate modern termite barriers entirely. That genuine age, not the city's population, is what drives termite and carpenter ant risk here.",
+      },
+      {
+        question: "Does Hudson's history as a whaling port still affect pest control today?",
+        answer:
+          "Indirectly, yes. The working waterfront that made Hudson a busy port in the 1780s and 1790s is gone, but the dense downtown layout it left behind, older commercial buildings close against residential blocks, still gives Norway rats the food and shelter combination they favor year-round.",
+      },
+      {
+        question: "When do termites swarm in Hudson?",
+        answer:
+          "Termite swarms in Hudson typically appear between April and June, which is the right window to schedule an inspection for any of the city's older wood-frame buildings, residential or commercial.",
+      },
+      {
+        question: "Is mosquito pressure worse near the Hudson River waterfront?",
+        answer:
+          "Yes. The low, flood-prone ground along the river holds standing water into the warm months, breeding mosquitoes that affect the blocks nearest the water most heavily before tapering off further into the city.",
+      },
+      {
+        question: "Is pest control available for Hudson's historic buildings without damaging original material?",
+        answer:
+          "Yes. Licensed providers serving Columbia County, including Hudson, work with older wood-frame construction regularly and can inspect and treat century-old buildings without disturbing the original trim, siding, or framing that gives Warren Street its historic character.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Kingston", slug: "kingston-ny", stateSlug: "new-york" },
+      { name: "Poughkeepsie", slug: "poughkeepsie", stateSlug: "new-york" },
+      { name: "Beacon", slug: "beacon", stateSlug: "new-york" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hudson, NY | Termites, Carpenter Ants & Rats",
+    metaDescription:
+      "Pest control in Hudson, New York. Columbia County service for termites, carpenter ants, Norway rats and mosquitoes near the historic Warren Street district. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ogdensburg-ny",
+    name: "Ogdensburg",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~10,000",
+    county: "St. Lawrence County",
+    climate: "cold",
+    climateDriver:
+      "Ogdensburg sits at the meeting point of the Oswegatchie and St. Lawrence Rivers on New York's northern border, connected to Johnstown, Ontario by the Ogdensburg-Prescott International Bridge. St. Lawrence County's North Country winters run longer and colder than almost anywhere else in the state, and the city's working port and border-crossing infrastructure adds pest pressure a typical inland North Country town doesn't see.",
+    topPests: ["House Mice", "Carpenter Ants", "Stink Bugs", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Ogdensburg sits at New York's northern border along the St. Lawrence River, and North Country winters here run longer and colder than almost anywhere else in the state, pushing mice into homes and outbuildings hard from October through spring.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September",
+        note: "The forested terrain surrounding Ogdensburg and the Oswegatchie River corridor gives carpenter ants plenty of decaying wood to nest in naturally, and older homes near the water tend to see the most pressure once ants move from that wood into house framing.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September and October, again in spring",
+        note: "Brown marmorated stink bugs have worked their way north across New York over the past decade, and Ogdensburg's mix of older housing and nearby farmland gives them plenty of sun-warmed siding to gather on each fall before overwintering indoors.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in cold months",
+        note: "Ogdensburg's working waterfront, including the Port of Ogdensburg marine terminal and the industrial park tied to the Ogdensburg-Prescott International Bridge crossing, gives Norway rats the food and shelter combination that port and industrial activity typically attracts.",
+      },
+    ],
+    localHook:
+      "Ogdensburg sits at the meeting point of the Oswegatchie and St. Lawrence Rivers, directly across the water from Johnstown, Ontario, and the two are connected by the Ogdensburg-Prescott International Bridge, a span completed in 1960 that carries traffic across the St. Lawrence Seaway. The Ogdensburg Bridge and Port Authority that runs the crossing also operates the city's international airport and marine terminal, an unusual amount of border and port infrastructure for a city of just over 10,000 people, and that working waterfront shapes the city's pest pressure as much as its harsh North Country winters do.",
+    intro:
+      "Pest control in Ogdensburg, NY has to account for two things most New York cities don't deal with together: a genuinely harsh North Country winter and an active international port and border crossing. Ogdensburg sits where the Oswegatchie River meets the St. Lawrence River, directly across from Johnstown, Ontario, connected by the Ogdensburg-Prescott International Bridge that has carried traffic since 1960. The Ogdensburg Bridge and Port Authority runs that crossing along with the city's airport and marine terminal, giving a city of just over 10,000 people more working waterfront infrastructure than its size would suggest. That infrastructure, plus older housing stock and St. Lawrence County's long, cold winters, gives Ogdensburg mice pushing indoors from October through spring, carpenter ants working the forested Oswegatchie corridor each summer, stink bugs spreading north the way they have across the rest of the state, and Norway rats drawn to the port and industrial park year-round.",
+    sections: [
+      {
+        heading: "Why are North Country winters such a big factor in Ogdensburg's pest pressure?",
+        body: "Ogdensburg sits on New York's northern border along the St. Lawrence River, and winters here run longer and colder than in almost any other part of the state. House mice respond by pushing into homes and outbuildings hard starting in October, and that pressure continues into early spring in a way that towns further south simply don't experience for as long. Any gap in a foundation or utility line entry becomes a mouse's way indoors once the temperature drops, and sealing those gaps before October matters more in Ogdensburg than in most of New York.",
+      },
+      {
+        heading: "Does Ogdensburg's port and border-crossing activity affect rat pressure?",
+        body: "It does. The Ogdensburg Bridge and Port Authority operates the Port of Ogdensburg marine terminal, an industrial park, and the international bridge crossing to Johnstown, Ontario, all in a fairly compact area for a city of just over 10,000 people. That kind of port and industrial activity typically draws Norway rats looking for food sources and shelter close together, and the pressure runs year-round with an increase in colder months as rats push toward buildings for warmth. Commercial properties tied to the port or industrial park benefit from routine service rather than reactive calls.",
+      },
+      {
+        heading: "What role does the Oswegatchie River corridor play in carpenter ant activity?",
+        body: "Ogdensburg sits right at the point where the Oswegatchie River meets the St. Lawrence, and the forested terrain along that corridor gives carpenter ants plenty of naturally decaying wood to nest in without ever coming near a house. The trouble starts when ants move from that natural wood source into softened trim or framing on nearby homes, which happens most often from May through September. Older homes closest to the river corridor tend to see the earliest activity each year.",
+      },
+      {
+        heading: "Is stink bug pressure increasing in Ogdensburg?",
+        body: "Yes. Brown marmorated stink bugs have worked their way north across New York over roughly the past decade, and Ogdensburg's mix of older in-town housing and the farmland surrounding St. Lawrence County gives them plenty of sun-warmed siding to gather on each September and October before pushing indoors to overwinter in attics and wall voids. They reappear as temperatures warm in spring. The pattern mirrors what much of upstate New York has already seen, just arriving a bit later this far north.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and utility gaps before October, ahead of St. Lawrence County's long, cold winter.",
+      "Commercial properties near the port, marine terminal, or industrial park should consider routine rat service.",
+      "Check homes along the Oswegatchie River corridor for carpenter ant activity each spring and summer.",
+      "Caulk siding and window trim before September to reduce stink bug entry ahead of the fall push indoors.",
+    ],
+    costNote:
+      "General pest inspections in Ogdensburg typically run $85 to $160, with a free initial inspection common. Commercial and industrial properties tied to the port or bridge crossing are quoted separately based on square footage and access needs.",
+    faqs: [
+      {
+        question: "Why does Ogdensburg need earlier fall pest prevention than towns further south in New York?",
+        answer:
+          "Ogdensburg sits on New York's northern border along the St. Lawrence River, and its North Country winters arrive earlier and last longer than in most of the state. House mice start pushing into homes as early as October, so sealing foundation and utility gaps needs to happen before then rather than waiting for the first cold snap.",
+      },
+      {
+        question: "Does Ogdensburg's international bridge and port activity affect pest control needs?",
+        answer:
+          "Yes. The Ogdensburg Bridge and Port Authority operates a marine terminal, an industrial park, and the international bridge to Johnstown, Ontario, all within a fairly compact footprint, and that kind of port and industrial activity typically draws Norway rats looking for food and shelter close together.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem for homes near the Oswegatchie River?",
+        answer:
+          "Often, yes. The forested terrain along the Oswegatchie River corridor gives carpenter ants abundant naturally decaying wood to nest in, and homes closest to that corridor tend to see ants move from that wood source into house framing earliest each year, typically starting in May.",
+      },
+      {
+        question: "Have stink bugs reached as far north as Ogdensburg?",
+        answer:
+          "Yes. Brown marmorated stink bugs have spread north across New York over roughly the past decade and are now established in Ogdensburg, gathering on siding each September and October before overwintering indoors, the same pattern seen across much of the rest of the state.",
+      },
+      {
+        question: "Is pest control available for both residential Ogdensburg and its port or industrial properties?",
+        answer:
+          "Yes. Licensed providers serving St. Lawrence County, including Ogdensburg, work with both residential homes and the commercial and industrial properties tied to the port, marine terminal, and bridge crossing.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Massena", slug: "massena-ny", stateSlug: "new-york" },
+      { name: "Potsdam", slug: "potsdam-ny", stateSlug: "new-york" },
+      { name: "Watertown", slug: "watertown-ny", stateSlug: "new-york" },
+      { name: "Malone", slug: "malone-ny", stateSlug: "new-york" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Ogdensburg, NY | Mice, Carpenter Ants & Rats",
+    metaDescription:
+      "Pest control in Ogdensburg, New York. St. Lawrence County service for mice, carpenter ants, stink bugs and Norway rats near the international bridge. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

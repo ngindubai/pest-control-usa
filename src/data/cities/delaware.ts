@@ -1888,4 +1888,457 @@ export const delawareCities: CityLocation[] = [
     metaDescription:
       "Brookside DE pest control for termites, carpenter ants, stink bugs and mice. Newark-area postwar suburb specialists in New Castle County. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "edgemoor-de",
+    name: "Edgemoor",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~6,600",
+    county: "New Castle County",
+    climate: "hot-humid",
+    climateDriver:
+      "Edgemoor sits directly on the Delaware River just north of Wilmington, and tidal influence off that river keeps the air here more humid through summer than suburbs further inland. The CDP's own boundary includes river frontage and marsh edge, and that combination of tidal moisture, older industrial-era housing, and the wooded grounds of neighboring Bellevue State Park sets the pest pressure for the community.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Deer Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented eastern subterranean termite zone, and Edgemoor's housing stock, much of it built in the decades after the Edgemoor Iron Company established the village in 1871, includes older wood-frame construction with the kind of wood-to-soil contact that gives colonies an easy way in.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Edgemoor's frontage on the tidal Delaware River, part of the CDP is mapped as water, gives mosquitoes breeding habitat close to homes on the river side of the community, with pressure building through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The older rowhomes and duplexes built for ironworks employees in Edgemoor's early decades have settled foundations and utility gaps that give mice consistent access, particularly as temperatures drop each fall.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance throughout New Castle County, and Edgemoor's older construction gives them the same gaps around windows and doors that let them push inside every September and October.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "Bellevue State Park's 328 acres of woodlands and fields border Edgemoor directly, and the park's tree cover sustains deer tick populations that reach into yards along the community's edge closest to the park.",
+      },
+    ],
+    localHook:
+      "Edgemoor grew up as a company village, built starting in 1871 by the Edgemoor Iron Company right on the Delaware River just north of Wilmington. More than 150 years later, the CDP still carries that river frontage, and it now shares a border with Bellevue State Park, the 328 acre former du Pont estate the state bought in 1976 and opened up for hiking trails, a fishing pond, and woodland that runs along the park's edge closest to Edgemoor's older streets.",
+    intro:
+      "Pest control in Edgemoor, DE starts with the river the community was built on. Edgemoor grew up as an ironworks village on the Delaware River in 1871, and its older housing stock still carries the termite and mouse pressure common to century-old construction. The CDP's own tidal river frontage sustains mosquitoes through the warm months, Bellevue State Park's woodlands next door add deer ticks to the mix, and brown marmorated stink bugs make their usual fall push into homes right alongside the rest of New Castle County.",
+    sections: [
+      {
+        heading: "A riverfront ironworks village and its termite and mouse pressure",
+        body: "Edgemoor exists because the Edgemoor Iron Company built a company village here starting in 1871, laying out housing for the workers at its riverside ironworks. That history is still visible in the community's older rowhomes and duplexes, many of which have stood for well over a century with wood framing close to or in contact with the soil beneath them. New Castle County is a documented eastern subterranean termite zone, and homes of this age and construction type are exactly the profile that carries the highest risk. A homeowner in Edgemoor who cannot point to a recent termite inspection or an active soil treatment or baiting record should treat that as a gap worth closing, not a detail to defer. The same older construction that carries termite risk also gives house mice an easy way in each fall, as foundations that have settled over a century of use develop gaps around sills, utility lines, and porch framing that a mouse can exploit in a single cold night. Sealing those points before the fall temperature drop is the most reliable way to keep mice from establishing indoors over winter.",
+      },
+      {
+        heading: "The Delaware River tide line and Bellevue State Park next door",
+        body: "Edgemoor's own boundary includes a stretch of the tidal Delaware River, and that river frontage, along with the low, marshy ground close to it, gives mosquitoes a breeding source that sits closer to homes here than in suburbs set back from the water. The season runs from May through October, with the heaviest pressure in the warmest, wettest stretches of summer, and eliminating standing water in gutters, containers, and low yard spots on the property remains the first line of defense even where the river itself cannot be treated. Bellevue State Park borders Edgemoor directly, 328 acres of woodland, fields, and a fishing pond that the state purchased from the former du Pont family estate in 1976. That much tree cover next to a residential community sustains deer ticks, and yards on the Edgemoor streets closest to the park see the most consistent exposure, particularly during the nymph stage from May through July when ticks are hardest to spot. Brown marmorated stink bugs round out the seasonal picture with the same September and October aggregation seen throughout the mid-Atlantic, working their way through the same aging construction gaps that let mice inside.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Edgemoor home without a documented recent soil treatment or baiting record, especially in the community's older rowhomes and duplexes.",
+      "Eliminate standing water in gutters, containers, and low yard areas near the river frontage from May through October to reduce on-site mosquito breeding.",
+      "Seal foundation gaps, utility penetrations, and porch framing before fall to keep house mice from moving indoors as temperatures drop.",
+      "Apply a yard perimeter tick treatment each spring for properties closest to Bellevue State Park.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Edgemoor runs $200 to $550 per year, with older ironworks-era homes often needing a fuller inspection before a plan can be quoted. Mosquito yard treatment for river-facing properties runs $80 to $180 per visit through the warm season. General pest plans covering mice, ants, and stink bugs cost $150 to $270 per year. A free inspection is the starting point for any of these services.",
+    faqs: [
+      {
+        question: "Why does Edgemoor, DE have older housing that is prone to termites?",
+        answer:
+          "Edgemoor was built starting in 1871 as a company village for workers at the Edgemoor Iron Company's riverside ironworks. More than a century and a half later, much of that original housing stock is still standing, and New Castle County is a documented eastern subterranean termite zone. Homes of this age with wood-to-soil contact carry meaningful risk without an active inspection and protection program.",
+      },
+      {
+        question: "Does Edgemoor's location on the Delaware River affect mosquito pressure?",
+        answer:
+          "Yes. Part of the Edgemoor CDP is mapped as water along the tidal Delaware River, and the low, marshy ground near that frontage gives mosquitoes breeding habitat closer to homes than in suburbs set further back from the water. The season runs May through October, and eliminating standing water on the property is the most effective step a homeowner can take.",
+      },
+      {
+        question: "Are deer ticks a concern near Bellevue State Park in Edgemoor?",
+        answer:
+          "Yes. Bellevue State Park's 328 wooded acres border Edgemoor directly, and that tree cover sustains deer tick populations that reach into yards on the streets closest to the park. Nymph-stage ticks, active from May through July, are the hardest to spot and the ones responsible for most Lyme disease exposure.",
+      },
+      {
+        question: "When do stink bugs show up in Edgemoor homes?",
+        answer:
+          "Brown marmorated stink bugs begin aggregating on sun-warmed exterior walls in September and push inside through October as they look for a place to overwinter. Edgemoor's older construction, much of it dating to the community's founding as an ironworks village, has the same aging gaps around windows and doors that make entry easy. Sealing those gaps before September is the most effective prevention.",
+      },
+      {
+        question: "Do Edgemoor's older rowhomes have a mouse problem in winter?",
+        answer:
+          "House mice are a common fall and winter concern in Edgemoor's older rowhomes and duplexes. Foundations that have settled over more than a century develop gaps around sills and utility lines that mice exploit as outdoor temperatures fall. Sealing those points before the weather turns is more effective than dealing with an established indoor population later.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Newark", slug: "newark-de", stateSlug: "delaware" },
+      { name: "Claymont", slug: "claymont-de", stateSlug: "delaware" },
+      { name: "New Castle", slug: "new-castle-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Edgemoor, DE | Termites, Mosquitoes & Deer Ticks",
+    metaDescription:
+      "Edgemoor DE pest control for termites, mosquitoes, house mice, stink bugs and deer ticks. Delaware River ironworks village specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-star-de",
+    name: "North Star",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~8,100",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "North Star sits directly against Newark on the northern edge of New Castle County, where the mid-Atlantic temperate climate brings warm, humid summers and cool winters. The CDP still includes working farmland alongside its suburban streets, and that mix of open pasture, hedgerows, and the wooded edges near White Clay Creek keeps ticks and mosquitoes active through the warm season while the community's mid-century housing carries the same termite risk found throughout the county.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Deer Ticks",
+      "Nuisance Flies",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented eastern subterranean termite zone, and North Star's housing, much of it dating from the mid-twentieth century, is old enough that any original soil treatment needs a current inspection to confirm it is still protecting the structure.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "North Star's remaining farmland, hedgerows, and the wooded ground near White Clay Creek give deer ticks the cover they need, and residents whose yards border those open or wooded areas see the most consistent exposure.",
+      },
+      {
+        name: "Nuisance flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October",
+        note: "North Star is still home to working farmland, including a dairy operation on North Star Road, and homes closest to that agricultural land can see higher nuisance fly pressure through the warmer months than the surrounding suburban blocks.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs make their usual fall push into North Star homes each September and October, aggregating on sun-warmed exterior walls before finding a way inside for winter, the same pattern seen throughout New Castle County.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The creeks and low, poorly drained ground scattered through North Star's mix of farmland and suburban development sustain mosquito breeding through the warm season, particularly after heavy summer rain.",
+      },
+    ],
+    localHook:
+      "North Star still has a working dairy farm inside its own borders. Woodside Farm Creamery, on North Star Road, has been farmed by the same family since 1796 and has milked its own herd of Jersey cows since 1998, making ice cream sold right on the property. That mix of longtime farmland and mid-century suburban streets, split between the Red Clay Consolidated and Christina school districts, gives North Star a pest picture that blends rural and suburban New Castle County.",
+    intro:
+      "Pest control in North Star, DE reflects a community that has never fully left its farming roots behind. North Star sits against Newark's northern edge, and its housing, much of it built in the decades after 1960, carries the same eastern subterranean termite risk documented throughout New Castle County. Deer ticks find cover in the CDP's remaining farmland and the wooded ground near White Clay Creek. Nuisance flies build up around the working dairy farm still operating inside North Star's own boundary. Stink bugs and mosquitoes round out the seasonal picture common to the rest of the county.",
+    sections: [
+      {
+        heading: "A working farm inside a mid-century suburb",
+        body: "Most of New Castle County's larger census-designated places grew up purely as suburban development, but North Star still has a genuine working farm inside its borders. Woodside Farm Creamery, on North Star Road, has been in the same family since 1796 and began milking its own herd of Jersey cows in 1998 to make ice cream sold directly on site. That combination of longtime agricultural land and mid-century residential streets is unusual this close to Newark and the University of Delaware, and it shapes the pest picture in a way that purely suburban communities nearby do not share. Homes closest to the working farm can see higher nuisance fly pressure through the warmer months than blocks further into the suburban core, a pattern tied directly to the livestock operation rather than to anything a homeowner did wrong. Fly control in these cases focuses on exterior baiting and exclusion at entry points rather than on eliminating a breeding source the resident does not control.",
+      },
+      {
+        heading: "Termites, ticks, and the seasonal regulars",
+        body: "North Star's housing stock is old enough, much of it dating to the decades after 1960, that eastern subterranean termite risk is a genuine concern rather than a theoretical one. New Castle County is documented termite territory, and a home without a recent inspection or an active soil treatment or baiting program should not assume it is protected simply because no visible damage has appeared. The CDP's remaining farmland, hedgerows, and the wooded ground near White Clay Creek sustain deer tick populations, with the nymph stage, active from May through July, posing the highest risk because of how easily it goes unnoticed. Brown marmorated stink bugs follow the same September and October aggregation pattern seen throughout the mid-Atlantic, and mosquitoes build up in the creeks and low ground scattered across North Star's mixed farmland and suburban terrain, particularly after heavy summer rain. Residents split between the Red Clay Consolidated and Christina school districts share the same underlying pest calendar regardless of which side of that boundary their home falls on.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for North Star homes built before 1990 without a documented recent soil treatment or baiting record.",
+      "Apply yard perimeter tick treatment each spring for properties bordering farmland, hedgerows, or the wooded ground near White Clay Creek.",
+      "Use exterior fly baiting and seal entry points for homes near North Star's working farmland, particularly through the warmer months.",
+      "Eliminate standing water in yards and low-lying areas from May through October to reduce mosquito breeding.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in North Star runs $200 to $550 per year depending on home age and construction. Tick yard treatment for properties near farmland or wooded edges costs $100 to $200 per application. Fly control for homes near the working farm is typically quoted as an add-on to a general pest plan. General pest plans covering ants and stink bugs cost $150 to $270 per year, and a free inspection establishes what a given property needs.",
+    faqs: [
+      {
+        question: "Is there really a working farm in North Star, DE?",
+        answer:
+          "Yes. Woodside Farm Creamery, on North Star Road, has been farmed by the same family since 1796 and has milked its own herd of Jersey cows since 1998, selling ice cream directly from the farm. It is a genuine working dairy operation inside the North Star CDP, not a historical remnant, and it affects nuisance fly pressure on the closest homes.",
+      },
+      {
+        question: "Why do some North Star homes have more flies than others?",
+        answer:
+          "Homes closest to North Star's working dairy farm on North Star Road can see higher nuisance fly pressure through the warmer months, a pattern tied to the livestock operation rather than to anything on the individual property. Exterior baiting and sealing entry points are the practical response, since the breeding source itself is agricultural land the homeowner does not control.",
+      },
+      {
+        question: "Are termites a risk in North Star's older homes?",
+        answer:
+          "Yes. New Castle County is a documented eastern subterranean termite zone, and much of North Star's housing dates to the decades after 1960. Homes of that age without a recent inspection or an active treatment program should not assume they are protected. An annual inspection is the standard recommendation.",
+      },
+      {
+        question: "Where do deer ticks come from in North Star?",
+        answer:
+          "North Star's remaining farmland, hedgerows, and the wooded ground near White Clay Creek sustain deer tick populations. Residents whose yards border those open or wooded areas see the most consistent exposure, and the nymph stage from May through July is the hardest to spot and the most common source of Lyme disease transmission.",
+      },
+      {
+        question: "Which school district covers North Star, DE?",
+        answer:
+          "North Star is split between the Red Clay Consolidated School District and the Christina School District, but that boundary has no bearing on pest pressure. Termites, ticks, stink bugs, and mosquitoes follow the same seasonal pattern across the CDP regardless of which district a given street falls in.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Newark", slug: "newark-de", stateSlug: "delaware" },
+      { name: "Pike Creek", slug: "pike-creek-de", stateSlug: "delaware" },
+      { name: "Pike Creek Valley", slug: "pike-creek-valley-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in North Star, DE | Termites, Deer Ticks & Nuisance Flies",
+    metaDescription:
+      "North Star DE pest control for termites, deer ticks, nuisance flies, stink bugs and mosquitoes. Newark-area farm and suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wilmington-manor-de",
+    name: "Wilmington Manor",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~8,200",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Wilmington Manor sits between the city of New Castle and Wilmington in low, flat New Castle County terrain close to the Christina River. The community is a short distance from a 238 acre freshwater marsh once known as the Old Wilmington Marsh, and that kind of wetland proximity, combined with the CDP's dense mid-century housing, sustains mosquitoes through the warm season while termites and stink bugs follow the same pattern common across the rest of the county.",
+    topPests: [
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "German Cockroaches",
+      "Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Wilmington Manor sits close to what was once known as the Old Wilmington Marsh, a 238 acre freshwater marsh on the Christina River now preserved as the Russell W. Peterson Urban Wildlife Refuge, and that wetland acreage close to the community sustains mosquito populations through the warm season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented eastern subterranean termite zone, and Wilmington Manor's neighborhoods of Wilmington Manor Park, Chelsea Estates, Penn Acres, and the rest of the CDP's mid-century housing carry the same structural risk found throughout the county.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs aggregate on Wilmington Manor's sun-warmed exterior walls each September and October before pushing inside for winter, a pattern consistent with the rest of New Castle County's dense suburban housing.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Wilmington Manor's density, and its mix of older apartments and closely spaced single-family homes, gives German cockroaches the conditions they need to spread between adjoining units through shared plumbing and utility chases.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants and pavement ants are the common household ant species in Wilmington Manor, foraging inside through kitchens in spring and summer and nesting under sidewalks, driveways, and foundation edges.",
+      },
+    ],
+    localHook:
+      "Wilmington Manor sits close to what mapmakers in 1772 already showed as marshland along the Christina River. That wetland, once called the Old Wilmington Marsh or Dravo Marsh, covers 238 acres and is preserved today as the Russell W. Peterson Urban Wildlife Refuge. It is a short distance from Wilmington Manor's neighborhoods of Wilmington Manor Park, Chelsea Estates, Penn Acres, and Wilmington Manor Gardens, and it is the single biggest reason mosquito pressure here runs higher than in New Castle County suburbs set further back from the Christina River.",
+    intro:
+      "Pest control in Wilmington Manor, DE is shaped by the wetland just down the road. The community sits close to the 238 acre freshwater marsh preserved today as the Russell W. Peterson Urban Wildlife Refuge, and that acreage sustains mosquito populations through the warm months. Eastern subterranean termites are a documented risk across New Castle County, and Wilmington Manor's dense mid-century neighborhoods carry that same structural pressure. German cockroaches spread readily between the CDP's closely spaced homes and older apartments, stink bugs make their usual fall entry, and ants are the standard spring and summer household concern.",
+    sections: [
+      {
+        heading: "A neighborhood built next to a 238 acre marsh",
+        body: "A 1772 map of the area already shows marshland and farming along the Christina River near what is now Wilmington Manor, and that wetland, once known as the Old Wilmington Marsh or Dravo Marsh, still covers 238 acres today. It is preserved as the Russell W. Peterson Urban Wildlife Refuge, run by the Delaware Division of Fish and Wildlife, with an educational center and marsh trails built to draw families to the riverfront rather than to keep them away from it. For Wilmington Manor's residents, that much preserved wetland acreage close to home is also the community's biggest mosquito source, sustaining populations from May through October and pushing pressure higher here than in New Castle County suburbs set further from the Christina River. Eliminating standing water on individual properties remains the most effective step a homeowner can take, since the marsh itself is protected land that cannot be drained or treated the way a private yard can.",
+      },
+      {
+        heading: "Dense mid-century neighborhoods and their termite and cockroach pressure",
+        body: "Wilmington Manor's neighborhoods, Wilmington Manor Park, Chelsea Estates, Leedom Estates, and Hampton Walk on the west side, Penn Acres, Schoolside, Wilmington Manor Gardens, and Stockton to the east, were largely built in the mid-twentieth century, and that housing stock carries the same eastern subterranean termite risk documented throughout New Castle County. An annual inspection is the practical baseline for any home without a current soil treatment or baiting record. The same density that defines Wilmington Manor's older apartments and closely spaced single-family homes also gives German cockroaches an easy path between units, spreading through shared plumbing and utility chases in a way that a single treatment rarely resolves on its own. Persistent baiting and follow-up service over several weeks is the standard professional approach. Brown marmorated stink bugs and household ants round out the seasonal picture, with stink bugs pushing indoors each September and October and ants foraging through kitchens from April through October.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in gutters, containers, and low-lying yard areas from May through October, since Wilmington Manor's marsh proximity makes on-property source reduction especially important.",
+      "Schedule an annual termite inspection for homes without a documented recent soil treatment or baiting record.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+      "Address German cockroach activity with persistent baiting rather than a single treatment, particularly in apartments and closely spaced homes.",
+      "Apply a perimeter ant treatment in early spring around foundations, sidewalks, and driveways.",
+    ],
+    costNote:
+      "Mosquito yard treatment in Wilmington Manor runs $80 to $180 per visit given the community's marsh proximity, with most properties on a monthly schedule from May through October. Termite protection runs $200 to $550 per year. Cockroach treatment for apartments and multi-unit properties is typically quoted per unit given the persistent service required. A free inspection is the starting point for any of these services.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure higher in Wilmington Manor than nearby suburbs?",
+        answer:
+          "Wilmington Manor sits close to a 238 acre freshwater marsh on the Christina River, once known as the Old Wilmington Marsh and preserved today as the Russell W. Peterson Urban Wildlife Refuge. That much wetland acreage this close to homes sustains mosquito populations at levels higher than in New Castle County suburbs set further back from the river. Eliminating standing water on the property is the most effective individual step, since the marsh itself is protected land.",
+      },
+      {
+        question: "Are termites common in Wilmington Manor, DE homes?",
+        answer:
+          "Yes. New Castle County is a documented eastern subterranean termite zone, and Wilmington Manor's neighborhoods, including Wilmington Manor Park, Chelsea Estates, and Penn Acres, were largely built in the mid-twentieth century. Homes of that age without a current inspection or an active protection program carry real risk and should be evaluated.",
+      },
+      {
+        question: "Why do German cockroaches spread so easily in Wilmington Manor?",
+        answer:
+          "Wilmington Manor's density, including older apartments and closely spaced single-family homes, gives German cockroaches a path between adjoining units through shared plumbing and utility chases. A single treatment rarely resolves an established infestation. Persistent baiting with follow-up service over several weeks is the standard professional approach.",
+      },
+      {
+        question: "What is the wetland near Wilmington Manor called today?",
+        answer:
+          "The 238 acre freshwater marsh near Wilmington Manor, historically called the Old Wilmington Marsh or Dravo Marsh, is preserved today as the Russell W. Peterson Urban Wildlife Refuge, managed by the Delaware Division of Fish and Wildlife. It is the community's main source of mosquito breeding habitat through the warm season.",
+      },
+      {
+        question: "Do all of Wilmington Manor's neighborhoods have the same pest pressure?",
+        answer:
+          "Broadly yes, since termites, stink bugs, and ants follow a countywide pattern, but mosquito pressure is somewhat higher in the sections of Wilmington Manor closest to the Christina River marsh, including areas near Wilmington Manor Gardens, than in the neighborhoods set further inland.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "New Castle", slug: "new-castle-de", stateSlug: "delaware" },
+      { name: "Newark", slug: "newark-de", stateSlug: "delaware" },
+      { name: "Bear", slug: "bear-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wilmington Manor, DE | Mosquitoes, Termites & Cockroaches",
+    metaDescription:
+      "Wilmington Manor DE pest control for mosquitoes, termites, stink bugs, German cockroaches and ants. Christina River marsh-area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pike-creek-valley-de",
+    name: "Pike Creek Valley",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~11,700",
+    county: "New Castle County",
+    climate: "temperate",
+    climateDriver:
+      "Pike Creek Valley is a separate census-designated place from neighboring Pike Creek, sitting in the same wooded stretch of New Castle County along the northeast corridor between Wilmington and the Maryland line. The temperate mid-Atlantic climate brings humid summers and cool winters, and the valley's suburban tree cover and stream corridors sustain the same termite, tick, and stink bug pressure found throughout Mill Creek Hundred.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Castle County is a documented eastern subterranean termite zone, and Pike Creek Valley's suburban housing, built up over the second half of the twentieth century, carries the same structural risk as the rest of Mill Creek Hundred.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note: "Pike Creek Valley's wooded lots and stream corridors, the same terrain that gives the CDP its name, provide cover for deer ticks, and properties backing onto undeveloped or lightly wooded ground see the most consistent exposure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Stink bugs are a reliable fall nuisance across Mill Creek Hundred, and Pike Creek Valley's homes see the same September and October aggregation on exterior walls before the pest pushes inside for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The mature tree cover throughout Pike Creek Valley's residential streets keeps siding and trim damp longer after rain, and carpenter ants nest readily in the moisture-softened wood that results, particularly on homes with deferred exterior maintenance.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The stream corridors and low ground within Pike Creek Valley sustain mosquito breeding through the warm season, with pressure building fastest after heavy summer rain.",
+      },
+    ],
+    localHook:
+      "Pike Creek Valley is its own census-designated place, distinct from the neighboring Pike Creek CDP, and it is home to Goldey-Beacom College, a private college with a 24 acre suburban campus that has operated in the valley for decades. The CDP's roughly 11,700 residents are split between the Christina and Red Clay Consolidated school districts, and the community's position along the northeast corridor puts it within easy reach of Wilmington, Philadelphia, Baltimore, and New York.",
+    intro:
+      "Pest control in Pike Creek Valley, DE covers a suburban community distinct from its similarly named neighbor, Pike Creek CDP, though the two share the same wooded terrain and pest calendar. Eastern subterranean termites are active throughout New Castle County, and Pike Creek Valley's homes, built up over the second half of the twentieth century, carry the same structural risk documented across Mill Creek Hundred. Deer ticks find cover in the valley's wooded lots and stream corridors. Stink bugs make their usual fall entry, carpenter ants exploit the shade from the valley's mature tree canopy, and mosquitoes breed along the stream corridors through the warm season.",
+    sections: [
+      {
+        heading: "A distinct valley community built around a private college",
+        body: "Pike Creek Valley is officially its own census-designated place, separate from the adjacent Pike Creek CDP, even though the two share a name and sit in the same general stretch of Mill Creek Hundred. The valley is home to Goldey-Beacom College, a private college with a 24 acre suburban campus, giving the community an institutional anchor that its neighbor does not share. Most of Pike Creek Valley falls within the Christina School District, with some sections in the Red Clay Consolidated School District, and the CDP's position along the northeast corridor puts residents within a reasonable drive of Wilmington, Philadelphia, Baltimore, and New York. That suburban development pattern, built up steadily over the second half of the twentieth century rather than in one short building boom, means Pike Creek Valley's housing spans several decades of construction, and pest risk varies somewhat by section depending on when a given street was built and whether termite protection has been kept current since.",
+      },
+      {
+        heading: "Wooded terrain, ticks, and the county's seasonal regulars",
+        body: "The valley's name comes from its terrain, wooded, sloping ground carved by the stream network of Mill Creek Hundred, and that same terrain sustains deer ticks in yards backing onto undeveloped or lightly wooded lots. Nymph-stage ticks, active from May through July, are the highest-risk stage because they are hardest to spot before they attach. New Castle County is a documented eastern subterranean termite zone, and Pike Creek Valley's homes carry that same baseline structural risk, with an annual inspection the standard recommendation for any property without a current protection program. The mature tree canopy that shades much of the valley's residential streets keeps siding and trim damp longer after rain than in newer, more open subdivisions, and carpenter ants nest readily in wood softened by that persistent moisture. Brown marmorated stink bugs follow the same September and October aggregation pattern seen throughout the mid-Atlantic, and mosquitoes build up along the valley's stream corridors and low ground through the warm season, particularly after heavy rain.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Pike Creek Valley homes, particularly on sections of the CDP built decades apart with varying treatment histories.",
+      "Apply yard perimeter tick treatment each spring for properties backing onto wooded or undeveloped stream corridor land.",
+      "Address damp, shaded siding and trim promptly to remove the moisture-softened wood carpenter ants target.",
+      "Seal gaps around windows, doors, and utility penetrations before September to reduce stink bug entry.",
+      "Eliminate standing water along stream corridors and in yard containers to reduce mosquito breeding from May through October.",
+    ],
+    costNote:
+      "Termite protection in Pike Creek Valley runs $200 to $550 per year depending on home age and construction. Tick yard treatment for properties near wooded or stream corridor land costs $100 to $200 per application. General pest plans covering carpenter ants, stink bugs, and mosquitoes cost $150 to $280 per year, with a free inspection establishing the specifics for a given property.",
+    faqs: [
+      {
+        question: "Is Pike Creek Valley the same place as Pike Creek, DE?",
+        answer:
+          "No. Pike Creek Valley is its own separate census-designated place from the neighboring Pike Creek CDP, even though the two sit in the same general area of Mill Creek Hundred and share a similar wooded terrain and pest calendar. Pike Creek Valley is home to Goldey-Beacom College, which gives it a distinct institutional character from its neighbor.",
+      },
+      {
+        question: "What college is located in Pike Creek Valley, DE?",
+        answer:
+          "Goldey-Beacom College, a private college with a 24 acre suburban campus, is located in Pike Creek Valley. It has operated in the community for decades and gives the valley an institutional anchor that distinguishes it from the neighboring Pike Creek CDP.",
+      },
+      {
+        question: "Are termites a documented risk in Pike Creek Valley, DE?",
+        answer:
+          "Yes. New Castle County is a documented eastern subterranean termite zone, and Pike Creek Valley's homes, built up over the second half of the twentieth century, carry that same structural risk. An annual inspection is the standard recommendation for any property without a current soil treatment or baiting program.",
+      },
+      {
+        question: "Why are deer ticks common in Pike Creek Valley yards?",
+        answer:
+          "Pike Creek Valley's wooded, sloping terrain, cut by the stream network that gives the community its name, provides cover for deer ticks. Properties backing onto undeveloped or lightly wooded ground see the most consistent exposure, with nymph-stage ticks from May through July posing the highest risk.",
+      },
+      {
+        question: "Which school districts serve Pike Creek Valley, DE?",
+        answer:
+          "Most of Pike Creek Valley falls within the Christina School District, with some sections in the Red Clay Consolidated School District. The school district boundary has no bearing on pest pressure, which follows the same seasonal pattern across the CDP regardless of district.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pike Creek", slug: "pike-creek-de", stateSlug: "delaware" },
+      { name: "North Star", slug: "north-star-de", stateSlug: "delaware" },
+      { name: "Hockessin", slug: "hockessin-de", stateSlug: "delaware" },
+      { name: "Newark", slug: "newark-de", stateSlug: "delaware" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Pike Creek Valley, DE | Termites, Deer Ticks & Carpenter Ants",
+    metaDescription:
+      "Pike Creek Valley DE pest control for termites, deer ticks, carpenter ants, stink bugs and mosquitoes. Goldey-Beacom College area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

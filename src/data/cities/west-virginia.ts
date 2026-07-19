@@ -2326,4 +2326,119 @@ export const westVirginiaCities: CityLocation[] = [
     metaDescription:
       "Ranson WV pest control for deer ticks, stink bugs, house mice and carpenter ants. Jefferson County Eastern Panhandle specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "moundsville-wv",
+    name: "Moundsville",
+    state: "West Virginia",
+    stateSlug: "west-virginia",
+    stateAbbr: "WV",
+    tier: "T3",
+    population: "~7,700",
+    county: "Marshall County",
+    climate: "temperate",
+    climateDriver:
+      "Moundsville sits on the Ohio River at the mouth of Grave Creek in Marshall County, the county seat of West Virginia's upper Ohio Valley. Two landmarks sit across the street from each other downtown: the Grave Creek Mound, a 62-foot Adena burial mound built roughly 250 to 150 BC and one of the largest conical mounds in the country, and the West Virginia Penitentiary, a Gothic-style prison whose construction began in 1866 and which operated until 1995. The town's 19th and early 20th century brick and masonry building stock gives termites and stink bugs plenty of mortar joints and foundation gaps to work with, and the humid river-valley air keeps subterranean termite colonies active most of the year. The wooded hills and hollows rising away from the river support the deer population that carries ticks onto properties at the edge of town.",
+    topPests: [
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Deer Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Indoor invasions September through March",
+        note: "Moundsville's downtown brick storefronts and the thick masonry walls of the former West Virginia Penitentiary give stink bugs the kind of aging mortar joints and window gaps they favor for overwintering, and residents across the upper Ohio Valley report heavy fall aggregations once temperatures start to drop.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through winter, heaviest at first frost",
+        note: "Many Moundsville homes near downtown and along Grave Creek predate modern sealing standards, and mice move from the surrounding riverbank and creek-side vegetation into these older structures once fall cover dies back.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "The humidity of the Ohio River valley keeps subterranean termite colonies active for most of the year, and Moundsville's older housing stock, some of it dating to the same 19th century period as the penitentiary and the mound's first excavation in 1838, often has direct wood-to-soil contact that gives colonies an easy path in.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Older wood-frame homes on Moundsville's hillside streets, away from the flatter ground near the river, tend to hold more moisture in siding and eaves, exactly the kind of softened wood carpenter ants excavate for nesting.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak risk May through July",
+        note: "The wooded hollows in the hills surrounding Moundsville and the Ohio River bottomland support a healthy deer population, and residents who hunt, hike, or simply keep a property backing onto that terrain see regular tick exposure through the warmer months.",
+      },
+    ],
+    localHook:
+      "Moundsville takes its name from the Grave Creek Mound, a 62-foot earthwork built by the Adena culture around 250 to 150 BC and one of the largest conical burial mounds in the United States, now a National Historic Landmark with the Delf Norona Museum on site. Directly across the street stands the former West Virginia Penitentiary, a Gothic-style prison that began construction in 1866 and held inmates until it closed in 1995. Few West Virginia towns pair two landmarks that different, one built almost two thousand years before European settlement and the other a 19th century maximum-security prison, within sight of each other on the same downtown block, and the masonry and brickwork common to both eras of construction still shape how stink bugs and termites move through the older buildings surrounding them.",
+    intro:
+      "Pest control in Moundsville, WV has to account for a downtown that pairs an ancient earthwork with a 19th century prison, both sitting on the Ohio River in Marshall County. The Grave Creek Mound and the former West Virginia Penitentiary anchor a historic district built mostly from brick and masonry, construction that gives brown marmorated stink bugs and eastern subterranean termites generations of mortar joints and foundation gaps to exploit. The river's humidity keeps termite colonies active through most of the year, house mice move in from creek-side vegetation each fall, and the wooded hollows in the hills above town support the deer population that brings ticks onto properties at the edge of Moundsville. A licensed technician familiar with Marshall County's older building stock can identify which of these pressures applies to a specific address.",
+    sections: [
+      {
+        heading: "Why do the mound and the penitentiary matter for pest control in Moundsville?",
+        body: "Grave Creek Mound and the former West Virginia Penitentiary sit across the street from each other in downtown Moundsville, and while their histories could not be more different, one an Adena burial mound built around 250 to 150 BC and the other a Gothic-style prison under construction by 1866, both anchor a downtown built mostly from brick and stone in the 19th and early 20th centuries. That older masonry construction is exactly the kind of building stock that gives brown marmorated stink bugs an easy overwintering spot in mortar joints and window frames, and eastern subterranean termites a long history of small foundation gaps to work through undetected. A homeowner or business near this historic core is dealing with a building age problem as much as a pest problem, and an inspection that checks foundation and mortar condition alongside active pest signs tends to catch more than a treatment-only visit would.",
+      },
+      {
+        heading: "How does the Ohio River affect termite and mosquito pressure here?",
+        body: "Moundsville sits directly on the Ohio River at the mouth of Grave Creek, and that river-valley position keeps humidity high enough to support subterranean termite activity for most of the year rather than a short seasonal window. Properties closest to the river and creek bottomland see the most consistent moisture exposure, which is also the condition mosquitoes need for standing water breeding sites after summer rain. Homes and businesses set back on Moundsville's hillside streets, further from the immediate riverbank, generally see less of this pressure than the flatter ground closer to the water, though termite colonies still move through the town's older foundations regardless of elevation.",
+      },
+      {
+        heading: "Why do stink bugs aggregate so heavily in Moundsville's older buildings each fall?",
+        body: "Brown marmorated stink bugs look for tight, dry gaps to overwinter in once September temperatures start dropping, and Moundsville's downtown brick storefronts and the thick masonry walls of the former penitentiary complex offer exactly that kind of aging mortar joint and window gap. Residents across Marshall County and the wider upper Ohio Valley report the same pattern every fall: a sudden indoor increase in stink bugs as the insects seek shelter before winter, then a return as the weather warms in spring. Sealing exterior gaps in August, ahead of that September aggregation, is the single most effective step a Moundsville property owner can take against this pest.",
+      },
+      {
+        heading: "Are ticks a real concern around Moundsville's hills and hollows?",
+        body: "Yes. The hills rising away from the Ohio River around Moundsville are wooded and support a healthy deer population, and any property backing onto that terrain, or any resident who hunts or hikes the surrounding hollows, sees regular deer tick exposure from March through November, peaking in late spring and early summer. A yard perimeter treatment and a habit of checking for ticks after time spent in brush or woods are the most practical protections, and they matter as much for Moundsville's hillside neighborhoods as for anyone spending time along Grave Creek itself.",
+      },
+    ],
+    prevention: [
+      "Seal exterior mortar joints and window gaps on older downtown buildings in August, ahead of the September brown marmorated stink bug aggregation.",
+      "Schedule an annual termite inspection for homes near the river or creek bottomland, where humidity keeps colonies active most of the year.",
+      "Check for ticks after outdoor time in the wooded hills and hollows surrounding Moundsville, especially from May through July.",
+      "Seal foundation gaps before fall on older homes near downtown and along Grave Creek, where mice move in as vegetation cover dies back.",
+    ],
+    costNote:
+      "Termite liquid barrier treatment in Moundsville runs $700 to $1,700 depending on linear footage, reflecting the older foundation work common near downtown. Stink bug prevention spray averages $140 to $270. Mouse exclusion and baiting programs cost $250 to $500. Deer tick perimeter spray averages $150 to $300 per application. Carpenter ant perimeter treatment runs $180 to $360. A free inspection identifies which of these apply to a specific property before any work is recommended.",
+    faqs: [
+      {
+        question: "Does the Grave Creek Mound area attract more pests than the rest of Moundsville?",
+        answer: "Not the mound itself, which is maintained parkland around a stone and earth structure. The pest pressure comes from the surrounding downtown, where the mound and the former West Virginia Penitentiary sit across the street from a historic district of 19th and early 20th century brick and masonry buildings, construction that gives stink bugs and termites more mortar joints and foundation gaps to exploit than newer building elsewhere in town.",
+      },
+      {
+        question: "Why was the West Virginia Penitentiary's age relevant to pest control?",
+        answer: "The prison's construction began in 1866, making it part of the same era of thick masonry building common across downtown Moundsville. That kind of stone and brick construction, now well over a century old, develops the small mortar and foundation gaps that give brown marmorated stink bugs an overwintering spot and termites a path into surrounding wood framing.",
+      },
+      {
+        question: "Is Moundsville's Ohio River location a factor in termite activity?",
+        answer: "Yes. Moundsville sits directly on the Ohio River at the mouth of Grave Creek, and the humidity from that position keeps subterranean termite colonies active for most of the year rather than a short seasonal window, particularly in properties closest to the river and creek bottomland.",
+      },
+      {
+        question: "Are deer ticks common in the hills around Moundsville?",
+        answer: "Yes. The wooded hills and hollows rising away from the Ohio River support a healthy deer population, and properties backing onto that terrain, along with residents who hunt or hike it, see regular deer tick exposure from March through November, peaking in late spring and early summer.",
+      },
+      {
+        question: "Does pest control in Moundsville cover both downtown buildings and hillside homes?",
+        answer: "Yes. Licensed providers serving Marshall County, including Moundsville, treat the older brick and masonry buildings near Grave Creek Mound and the former penitentiary as well as the wood-frame homes on the hillside streets above the river, matching the service to whichever building type and pest pressure applies.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Wheeling", slug: "wheeling", stateSlug: "west-virginia" },
+      { name: "New Martinsville", slug: "new-martinsville-wv", stateSlug: "west-virginia" },
+      { name: "Parkersburg", slug: "parkersburg", stateSlug: "west-virginia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Moundsville, WV | Stink Bugs, Termites & Mice",
+    metaDescription:
+      "Pest control in Moundsville, West Virginia. Marshall County service for stink bugs, termites, mice, and deer ticks near the Ohio River. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

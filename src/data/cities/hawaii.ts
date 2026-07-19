@@ -920,4 +920,569 @@ export const hawaiiCities: CityLocation[] = [
     metaDescription:
       "Waianae pest control for drywood termites, centipedes and ants on Oahu's driest leeward coast. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mililani-town",
+    name: "Mililani Town",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~28,000",
+    county: "Honolulu County",
+    climate: "tropical",
+    climateDriver:
+      "Mililani Town sits on Oahu's central plateau at roughly 650 to 800 feet of elevation, between the Koolau and Waianae mountain ranges near Wahiawa. That elevation keeps Mililani a few degrees cooler and, at times, wetter than coastal Honolulu, and the town was built starting in 1968 on former Castle & Cooke pineapple and sugar plantation land, so many yards and the surrounding gulches still carry the dense vegetation of that agricultural past.",
+    topPests: [
+      "Termites",
+      "Centipedes",
+      "American Cockroaches",
+      "Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood and Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, Formosan swarms on warm humid evenings",
+        note: "The Hawaii Department of Agriculture documents both drywood termites and Formosan subterranean termites across Oahu, including the central plateau around Mililani. The town's oldest homes date to the first phase of construction in 1968, so many structures are now well past the age where a first termite inspection is overdue.",
+      },
+      {
+        name: "Centipedes",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, more consistent in Mililani's cooler, damper climate",
+        note: "As in nearby Wahiawa, the large Hawaiian centipede turns up more consistently in Mililani's cooler, higher-elevation setting than along the drier coast, favoring the moisture that the plateau climate and mature landscaping provide. Its bite is a genuinely painful, medically significant event.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in the mulch, mature trees, and irrigated turf around Mililani Golf Club and the town's many parks and greenbelts, then move into nearby homes through gaps around doors, windows, and utility lines.",
+      },
+      {
+        name: "Ghost and Bigheaded Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants and bigheaded ants nest in mulch beds and irrigated landscaping throughout Mililani's residential loops and form large, multi-nest colonies that a simple perimeter spray rarely reaches in full, which is why bait systems tend to work better here.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Kipapa Gulch and the other forested ravines bordering Mililani give roof rats continuous cover and a direct path into backyards and rooflines along the edges of the community, making exclusion and roofline sealing especially useful for homes closest to the gulch.",
+      },
+    ],
+    localHook:
+      "Mililani Town was Oahu's first master-planned community, introduced by Castle & Cooke on June 3, 1968 on land that had grown pineapple and sugar for nearly a century. The first 112 homes went on sale five days later, and by 1975 the town already had more than 12,000 residents. Mililani Golf Club, which opened in 1966 and is routed through stands of Norfolk pine and eucalyptus, still borders Kipapa Gulch, one of the forested ravines that shape where the town's centipedes and rats concentrate today.",
+    intro:
+      "Mililani Town is Oahu's original master-planned community, built by Castle & Cooke starting in 1968 on land that had grown pineapple and sugar for generations. Sitting at 650 to 800 feet on the island's central plateau, it shares the cooler, damper climate of nearby Wahiawa rather than the warmer coastal air of Honolulu or Kapolei. Formosan and drywood termites are both documented across Oahu, and Mililani's oldest homes are now well past due for a first inspection. Centipedes are more consistent here than along the coast, cockroaches and ants thrive in the town's irrigated parks and golf course, and rats use the forested gulches at the community's edges as a direct route into backyards.",
+    sections: [
+      {
+        heading: "A planned community built on plantation land, and what that means for termites",
+        body: "Mililani's identity starts with its history. Castle & Cooke rezoned former pineapple and sugar plantation land in the late 1950s and unveiled Mililani Town as Oahu's first master-planned community on June 3, 1968, with the first 112 homes going on sale five days later. The town grew fast, reaching more than 12,000 residents by 1975, and much of that original housing stock is still standing today, now well over half a century old.\n\nThat age matters for termites. The Hawaii Department of Agriculture documents both drywood termites, which tunnel directly into wood without needing soil contact, and Formosan subterranean termites, which build large underground colonies and forage up through mud tubes, across Oahu including the central plateau around Mililani. Formosan termites swarm on warm humid evenings, typically in spring and summer, and a swarm near a porch light is often the first sign a colony is active nearby. For homes from Mililani's earliest construction phases, a professional inspection that checks for both termite types is a reasonable step even without visible damage yet.",
+      },
+      {
+        heading: "Cooler air, a golf course, and forested gulches: what shapes Mililani's other pests",
+        body: "Mililani's elevation sets it apart from most of Oahu. At 650 to 800 feet between the Koolau and Waianae ranges, the town runs a few degrees cooler and, at times, wetter than Honolulu or leeward Kapolei, closer in climate to neighboring Wahiawa than to the coast. The large Hawaiian centipede favors that extra moisture and turns up more consistently here than in drier coastal neighborhoods, with its bite remaining a genuinely painful, medically significant event rather than a minor nuisance.\n\nMililani Golf Club, which opened in 1966 and winds through stands of Norfolk pine and eucalyptus, along with the town's many parks and greenbelts, keeps irrigated turf and mulch beds available to American cockroaches and to ghost and bigheaded ants year-round. Both ant species build large, multi-nest colonies that spread across several yards, and bait systems that worker ants carry back to the nest tend to outperform a simple perimeter spray. Kipapa Gulch and the other forested ravines bordering the community add a further wrinkle: they give roof rats continuous cover and a direct path toward rooflines and yards at the edges of Mililani, so homes closest to a gulch generally see more rat pressure than those deeper in the interior loops.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older Mililani homes from the town's original 1968 to 1975 construction phases, checking for both drywood and Formosan termite activity.",
+      "Reduce mulch depth and seal ground-level gaps around the foundation to limit centipede shelter in Mililani's cooler, higher-elevation climate.",
+      "Use bait systems rather than perimeter spray alone for ghost and bigheaded ant colonies nesting in irrigated parks, medians, and the golf course landscaping.",
+      "Seal roofline gaps and trim vegetation for homes bordering Kipapa Gulch or other forested ravines to limit roof rat access.",
+    ],
+    costNote:
+      "Mililani Town pest control commonly combines a year-round general plan for cockroaches, ants, and centipedes with a separate termite inspection quoted for the community's older original-phase homes. Homes bordering Kipapa Gulch or other forested ravines often add rat exclusion to the plan. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are Mililani's original 1968 homes at higher risk for termites?",
+        answer:
+          "Age is a real factor. Mililani Town's first 112 homes went on sale in June 1968, and much of that original housing stock is now well over half a century old. The Hawaii Department of Agriculture documents both drywood and Formosan subterranean termites across Oahu, so older homes that have never had a professional termite inspection are worth checking, even without visible damage.",
+      },
+      {
+        question: "Why are centipedes more common in Mililani than in Honolulu?",
+        answer:
+          "Mililani sits at 650 to 800 feet on Oahu's central plateau, which keeps the climate cooler and at times wetter than coastal Honolulu. The large Hawaiian centipede favors that extra moisture, so it turns up more consistently in Mililani than along the drier, warmer coast, similar to the pattern seen in neighboring Wahiawa.",
+      },
+      {
+        question: "Does Mililani Golf Club attract cockroaches and ants to nearby homes?",
+        answer:
+          "The irrigated turf and mulch beds around Mililani Golf Club, which opened in 1966, and the town's other parks and greenbelts give American cockroaches and ghost and bigheaded ants the moisture they need to breed. Homes near these landscaped areas often see more pressure from both, and bait systems generally control ant colonies better than a simple perimeter spray.",
+      },
+      {
+        question: "Why do rats seem worse near Kipapa Gulch in Mililani?",
+        answer:
+          "Kipapa Gulch and the other forested ravines bordering the community give roof rats continuous cover and a direct route toward rooflines and yards at Mililani's edges. Homes closest to a gulch typically need more attention to roofline sealing and vegetation trimming than homes deeper in the interior loops.",
+      },
+      {
+        question: "What is the difference between drywood and Formosan termites in Mililani?",
+        answer:
+          "Drywood termites tunnel directly into wood without needing soil contact and are often first noticed from small piles of frass near trim or window frames. Formosan subterranean termites build large underground colonies, forage through mud tubes, and swarm on warm humid evenings, usually in spring and summer. Both are documented across Oahu, and an inspection that checks for each is the right first step for a Mililani home.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Waipahu", slug: "waipahu", stateSlug: "hawaii" },
+      { name: "Wahiawa", slug: "wahiawa", stateSlug: "hawaii" },
+      { name: "Ewa Beach", slug: "ewa-beach", stateSlug: "hawaii" },
+      { name: "Honolulu", slug: "honolulu", stateSlug: "hawaii" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mililani Town, HI | Termites, Centipedes & Ants",
+    metaDescription:
+      "Mililani Town pest control for drywood and Formosan termites, centipedes, cockroaches and ants on Oahu's central plateau. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "waipahu",
+    name: "Waipahu",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~43,500",
+    county: "Honolulu County",
+    climate: "tropical",
+    climateDriver:
+      "Waipahu sits on the leeward Ewa Plain near Pearl Harbor, warm and drier than windward Oahu but bordered by the wetland units of the Pearl Harbor National Wildlife Refuge, which are managed to hold standing water for endangered waterbirds. That combination of a warm plain and nearby wetland habitat, plus the town's century of sugar plantation history, shapes a pest picture built around old wood structures and standing water rather than heavy year-round rainfall.",
+    topPests: [
+      "Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture documents drywood termites across Oahu, and Waipahu's plantation-era buildings, including homes built during the Oahu Sugar Company's century of operation before the mill closed in 1995, carry real risk since this species tunnels directly into wood without needing soil contact.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, more active near standing water",
+        note: "The Honouliuli and Waiawa units of the Pearl Harbor National Wildlife Refuge border Waipahu and are managed to hold wetland habitat for native waterbirds. That managed standing water, along with residential containers and drainage areas, gives mosquitoes breeding habitat closer to town than in drier parts of Oahu.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed outdoors in mulch, drains, and dense landscaping around Waipahu's residential streets and commercial corridors, then move indoors through gaps around doors and utility lines, a pattern consistent with the rest of leeward Oahu.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants and bigheaded ants nest in mulch beds and irrigated landscaping throughout Waipahu's neighborhoods, forming large multi-nest colonies that spread across yards faster than a single perimeter treatment usually reaches.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats travel between the vegetation bordering the wildlife refuge wetlands, drainage canals, and older commercial buildings near central Waipahu, entering structures through roofline gaps and utility penetrations.",
+      },
+    ],
+    localHook:
+      "The Oahu Sugar Company smokestack, built in 1898 and rising 170 feet over what is now Hawaii's Plantation Village, is the last visible landmark of the mill that employed 2,400 workers at its peak and anchored Waipahu for nearly a century before closing in 1995. The YMCA restored the smokestack in a project completed in 2018, and it still towers over a town whose older buildings, many dating to the plantation era, remain the community's primary termite concern.",
+    intro:
+      "Waipahu grew up around the Oahu Sugar Company mill, whose 1898 smokestack, restored by the YMCA and completed in 2018, still stands 170 feet over Hawaii's Plantation Village as the town's most visible link to its plantation history. That century of wood-frame plantation construction, much of it still standing after the mill closed in 1995, is the main reason drywood termites are worth taking seriously here. Waipahu also borders the wetland units of the Pearl Harbor National Wildlife Refuge, managed to hold standing water for native waterbirds, which gives mosquitoes breeding habitat closer to town than drier parts of Oahu see. Cockroaches, ants, and rats round out a pest picture shaped as much by history as by climate.",
+    sections: [
+      {
+        heading: "A century of plantation buildings and what it means for termites",
+        body: "Waipahu's identity is inseparable from the Oahu Sugar Company mill that operated from 1898 until 1995, employing as many as 2,400 workers at its peak in the 1930s. The mill's smokestack, built in 1898 and standing 170 feet tall, is one of the last visible landmarks of that era; the YMCA bought part of the mill property in 1997 and completed a nearly two-year restoration of the smokestack in 2018 specifically to preserve it. Hawaii's Plantation Village, a living history museum nearby, preserves the rest of that story.\n\nThat century of wood-frame plantation construction is also why drywood termites are a genuine, ongoing concern in Waipahu. The Hawaii Department of Agriculture documents drywood termites across Oahu, and because this species tunnels directly into structural wood without needing soil contact, a building's age matters more than its distance from any particular water source. Small piles of frass near trim, window frames, or attic beams are usually the first sign in Waipahu's older homes and commercial buildings, and a professional inspection is the only reliable way to catch activity before it spreads through a wall or roofline.",
+      },
+      {
+        heading: "Refuge wetlands, mosquitoes, and the rest of Waipahu's pest pressure",
+        body: "Waipahu sits close to the Honouliuli and Waiawa units of the Pearl Harbor National Wildlife Refuge, which the U.S. Fish and Wildlife Service manages specifically to hold wetland water for four of Hawaii's endangered waterbirds, along with migratory shorebirds. That managed standing water, valuable as it is for conservation, also gives mosquitoes breeding habitat within reach of nearby neighborhoods, on top of the usual residential sources: clogged gutters, plant saucers, and any container that collects rain. Reducing standing water on a property is a more meaningful step in Waipahu than in a part of Oahu without a wetland refuge nearby.\n\nAmerican cockroaches and ghost and bigheaded ants round out Waipahu's everyday pest pressure, breeding in mulch, drains, and irrigated landscaping across the town's residential and commercial areas and moving indoors through the usual small gaps. Roof rats travel between the vegetation bordering the refuge wetlands, drainage canals, and older buildings near Waipahu's commercial core, entering structures through roofline gaps and utility penetrations. For most Waipahu properties, a year-round general plan covering mosquitoes, cockroaches, ants, and rats, paired with a periodic termite inspection for older buildings, covers what actually shows up.",
+      },
+    ],
+    prevention: [
+      "Schedule a drywood termite inspection for older Waipahu homes and commercial buildings dating to the plantation era, since this species needs no soil contact to infest wood.",
+      "Empty standing water from gutters, plant saucers, and containers regularly, given Waipahu's proximity to the managed wetlands of the Pearl Harbor National Wildlife Refuge.",
+      "Seal gaps around doors and utility lines to limit American cockroach entry from outdoor mulch and drainage areas.",
+      "Seal roofline gaps and utility penetrations on homes and buildings near the refuge wetlands or drainage canals to block roof rat access.",
+    ],
+    costNote:
+      "Waipahu pest control commonly combines a year-round general plan for mosquitoes, cockroaches, ants, and rats with a separate termite inspection for the town's plantation-era buildings. Properties bordering the wildlife refuge wetlands often benefit from added mosquito service. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are drywood termites such a concern in Waipahu specifically?",
+        answer:
+          "Waipahu grew up around the Oahu Sugar Company mill, which operated from 1898 to 1995, and much of the town's older wood-frame construction from that plantation era is still standing. Drywood termites tunnel directly into structural wood without needing soil contact, so a building's age is what matters most, and the Hawaii Department of Agriculture documents this species across Oahu including Waipahu.",
+      },
+      {
+        question: "Does the wildlife refuge near Waipahu cause more mosquitoes?",
+        answer:
+          "The Honouliuli and Waiawa units of the Pearl Harbor National Wildlife Refuge border Waipahu and are managed to hold wetland water for endangered native waterbirds. That standing water, along with typical residential sources like clogged gutters and plant saucers, gives mosquitoes more breeding habitat near Waipahu than in drier parts of Oahu without a wetland refuge nearby.",
+      },
+      {
+        question: "What is the Oahu Sugar Company smokestack in Waipahu?",
+        answer:
+          "It is a 170-foot smokestack built in 1898 as part of the Oahu Sugar Company mill, which operated until 1995 and once employed 2,400 workers at its peak. The YMCA acquired part of the mill property and completed a restoration of the smokestack in 2018 to preserve it as a landmark, and it still stands near Hawaii's Plantation Village.",
+      },
+      {
+        question: "Are rats a problem in Waipahu's older commercial areas?",
+        answer:
+          "Yes. Roof rats travel between the vegetation bordering the nearby refuge wetlands, drainage canals, and older buildings near Waipahu's commercial core, entering through roofline gaps and utility penetrations. Sealing those entry points is the standard first step for both homes and businesses in the area.",
+      },
+      {
+        question: "What pest control plan makes sense for a Waipahu home?",
+        answer:
+          "Most Waipahu properties do well with a year-round general plan covering mosquitoes, cockroaches, ants, and rats, combined with a periodic drywood termite inspection given the town's plantation-era building stock. Homes closer to the wildlife refuge wetlands often add extra mosquito reduction service.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Mililani Town", slug: "mililani-town", stateSlug: "hawaii" },
+      { name: "Ewa Beach", slug: "ewa-beach", stateSlug: "hawaii" },
+      { name: "Kapolei", slug: "kapolei", stateSlug: "hawaii" },
+      { name: "Honolulu", slug: "honolulu", stateSlug: "hawaii" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Waipahu, HI | Termites, Mosquitoes & Rats",
+    metaDescription:
+      "Waipahu pest control for drywood termites in plantation-era buildings, mosquitoes near the wildlife refuge, cockroaches and rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ewa-beach",
+    name: "Ewa Beach",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~16,500",
+    county: "Honolulu County",
+    climate: "tropical",
+    climateDriver:
+      "Ewa Beach sits on the dry, leeward Ewa Plain in southwest Oahu, on land that grew sugarcane for the Ewa Plantation Company for decades before it was developed for housing. The plain's dry, sunny conditions and its coastal position near Kalaeloa keep some pest pressure lower than on windward Oahu, but the irrigation that keeps residential lawns and landscaping green gives cockroaches and ants the moisture the surrounding dry plain does not naturally offer.",
+    topPests: [
+      "Drywood Termites",
+      "American Cockroaches",
+      "Ants",
+      "Little Fire Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture documents drywood termites across Oahu, including the Ewa Plain around Ewa Beach. Because this species infests wood directly without needing soil contact, the area's dry leeward climate offers no natural protection, and small frass pellets near trim or window frames are usually the first sign.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in irrigated lawns, mulch beds, and landscaping around Ewa Beach's residential subdivisions, then move indoors through gaps around doors and utility lines, much as they do across the rest of leeward Oahu.",
+      },
+      {
+        name: "Ghost and Bigheaded Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants and bigheaded ants nest in irrigated mulch beds and planting areas throughout Ewa Beach's newer subdivisions, forming large multi-nest colonies that standard perimeter spray usually cannot reach in full.",
+      },
+      {
+        name: "Little Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture confirmed little fire ant infestations in the Ewa Beach area by 2014, part of the invasive species' spread across Oahu since it first arrived on the island in a shipment of hapuu logs in December 2013. This tiny stinging ant is easy to overlook until stings start and is worth reporting promptly.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats move through the dense vegetation and drainage corridors bordering Ewa Beach's subdivisions and the nearby Kalaeloa area, entering homes and businesses through roofline gaps and utility penetrations.",
+      },
+    ],
+    localHook:
+      "Ewa Field, the Marine Corps air station just north of Ewa Beach, was attacked by Japanese aircraft on December 7, 1941, two minutes before Pearl Harbor itself, destroying 33 of the 49 aircraft based there and killing four Marines. The surrounding Ewa Plain, farmed for sugarcane by the Ewa Plantation Company for decades before that, is now largely residential, and the same dry plain that once grew sugarcane is where the state confirmed little fire ant infestations by 2014, part of this invasive species' documented spread across Oahu.",
+    intro:
+      "Ewa Beach carries real history on a stretch of land the Ewa Plantation Company farmed for sugarcane for decades. Just north of today's neighborhoods, Ewa Field was attacked by Japanese aircraft on December 7, 1941, two minutes before Pearl Harbor, destroying most of the 49 aircraft stationed there. That plantation and wartime history shaped a dry, leeward plain that is now largely residential, and the pests that matter most reflect both the dry climate and the irrigation that keeps modern subdivisions green. Drywood termites need no soil moisture and are documented across Oahu regardless of rainfall. Cockroaches and ants concentrate in irrigated lawns and mulch beds, and the state confirmed little fire ant activity in the Ewa Beach area by 2014, an invasive species still worth watching for today.",
+    sections: [
+      {
+        heading: "From sugarcane and Ewa Field to a modern Oahu suburb",
+        body: "Ewa Beach sits on land the Ewa Plantation Company farmed for sugarcane for decades, part of the broader Ewa Plain that also once held Ewa Field, a Navy and Marine Corps air station established in 1925. On December 7, 1941, Japanese aircraft attacked Ewa Field just two minutes before striking Pearl Harbor, destroying 33 of the 49 aircraft stationed there and killing four Marines, part of a coordinated strike using the base as one of the war's opening targets in Hawaii. The National Park Service now recognizes the surrounding Ewa Plain Battlefield as a historic site tied to that attack.\n\nThe plantation and military land has since been redeveloped into the residential subdivisions that make up modern Ewa Beach. That transition matters for pest pressure in a specific way: drywood termites tunnel directly into wood without needing soil contact, so neither the area's dry climate nor its history of agricultural rather than forest land changes the underlying risk. The Hawaii Department of Agriculture documents drywood termites across Oahu, and homes throughout Ewa Beach's subdivisions benefit from the same periodic inspection routine as anywhere else on the island.",
+      },
+      {
+        heading: "Irrigated lawns, little fire ants, and what actually shows up in Ewa Beach yards",
+        body: "Away from the dry plain's natural conditions, Ewa Beach's residential irrigation is what feeds most of its day-to-day pest pressure. The lawns, medians, and landscaping that keep the area's subdivisions green create a moisture pocket that American cockroaches and ghost and bigheaded ants depend on in an otherwise dry leeward setting. Both ant species form large, multi-nest colonies that spread across several adjoining yards, which is why bait systems that worker ants carry back to the colony tend to outperform a simple perimeter spray here.\n\nLittle fire ants are a separate and more serious concern. This tiny, stinging invasive species first arrived on Oahu in a shipment of hapuu logs in December 2013, and the state confirmed infestations in the Ewa Beach area by 2014. Little fire ants are easy to miss at first, since individual ants are barely visible, but an established colony can deliver painful stings and injure the eyes of pets that brush against infested vegetation. Anyone noticing unexplained stings in a yard or under trees in Ewa Beach should report it promptly rather than treat it as an ordinary ant problem. Rats round out the picture, moving through dense vegetation and drainage corridors bordering the subdivisions and the nearby Kalaeloa area and entering structures through roofline gaps.",
+      },
+    ],
+    prevention: [
+      "Schedule a drywood termite inspection for Ewa Beach homes regardless of age, since this species needs no soil moisture and the dry leeward climate offers no natural protection.",
+      "Use bait systems rather than perimeter spray alone for ghost and bigheaded ant colonies nesting in irrigated lawns and mulch beds.",
+      "Watch for unexplained stings in the yard or under trees and report suspected little fire ant activity promptly, since this invasive species was confirmed in the Ewa Beach area by 2014.",
+      "Seal roofline gaps and utility penetrations to limit roof rat entry from the vegetation and drainage corridors bordering the subdivisions and the Kalaeloa area.",
+    ],
+    costNote:
+      "Ewa Beach pest control typically combines a general plan covering cockroaches, ants, and rats with a separate drywood termite inspection quoted after assessment. Homes with suspected little fire ant activity may need a specialized ant treatment plan. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Is Ewa Beach connected to the history of Pearl Harbor?",
+        answer:
+          "Yes. Ewa Field, just north of today's Ewa Beach neighborhoods, was attacked by Japanese aircraft on December 7, 1941, two minutes before the attack on Pearl Harbor, destroying most of the 49 aircraft based there. The surrounding Ewa Plain Battlefield is recognized by the National Park Service as a historic site tied to that attack.",
+      },
+      {
+        question: "Are little fire ants really in Ewa Beach?",
+        answer:
+          "Confirmed infestations were documented in the Ewa Beach area by 2014, part of this invasive species' spread across Oahu after it first arrived on the island in a shipment of hapuu logs in December 2013. Little fire ants deliver painful stings and can injure the eyes of pets, so unexplained stings in a yard or under trees are worth reporting rather than treating as an ordinary ant problem.",
+      },
+      {
+        question: "Does Ewa Beach's dry climate reduce termite risk?",
+        answer:
+          "No. Drywood termites tunnel directly into wood without needing soil contact, so the dry conditions on the Ewa Plain offer no real protection. The Hawaii Department of Agriculture documents this species across Oahu regardless of local rainfall, and periodic inspection is worth scheduling for any Ewa Beach home.",
+      },
+      {
+        question: "Why do cockroaches and ants show up in Ewa Beach's newer subdivisions?",
+        answer:
+          "The irrigation that keeps modern Ewa Beach lawns and landscaping green creates the moisture pocket American cockroaches and ants need in an otherwise dry, leeward setting. Both pests concentrate around irrigated turf and mulch beds rather than following rainfall.",
+      },
+      {
+        question: "What was on the land where Ewa Beach sits today?",
+        answer:
+          "The Ewa Plantation Company farmed the surrounding plain for sugarcane for decades, and part of the land also held Ewa Field, a Navy and Marine Corps air station established in 1925. Both the agricultural and military history gave way to the residential subdivisions that make up Ewa Beach today.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Waipahu", slug: "waipahu", stateSlug: "hawaii" },
+      { name: "Mililani Town", slug: "mililani-town", stateSlug: "hawaii" },
+      { name: "Kapolei", slug: "kapolei", stateSlug: "hawaii" },
+      { name: "Waianae", slug: "waianae", stateSlug: "hawaii" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Ewa Beach, HI | Termites, Ants & Little Fire Ants",
+    metaDescription:
+      "Ewa Beach pest control for drywood termites, cockroaches, ants and little fire ants on Oahu's historic Ewa Plain. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kailua-kona",
+    name: "Kailua-Kona",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~19,700",
+    county: "Hawaii County",
+    climate: "tropical",
+    climateDriver:
+      "Kailua-Kona sits on the leeward, western side of the Big Island, sheltered from the trade-wind rain that soaks the Hilo side and warmed by volcanic slopes that make the surrounding uplands ideal for growing coffee. The Kona district's mix of coastal town and mauka coffee farmland, combined with the warm year-round tropical climate, keeps termites, ants, and rodents active without any seasonal pause, and the same warm, wet upland belt that suits Kona coffee also supports the coffee berry borer, an agricultural pest first found in Hawaii here in 2010.",
+    topPests: [
+      "Drywood Termites",
+      "American Cockroaches",
+      "Centipedes",
+      "Little Fire Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture documents drywood termites across Hawaii County, and Kailua-Kona's mix of older coastal buildings and newer construction on the coffee belt slopes above town carries the same risk regardless of age, since this species infests wood directly without needing soil contact.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American and Surinam cockroaches breed outdoors in landscaping, mulch, and drains around Kailua-Kona's resort and residential properties and move indoors readily in the warm, sheltered Kona climate, which supports continuous breeding with no cold season.",
+      },
+      {
+        name: "Centipedes",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, concentrated around irrigated landscaping and coffee farm mulch",
+        note: "The large Hawaiian centipede is present across Hawaii County and its bite is a genuine medical event. Around Kailua-Kona it concentrates in irrigated yards, resort landscaping, and the mulched ground beneath coffee trees on the slopes above town.",
+      },
+      {
+        name: "Little Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Hawaii Ant Lab, the state's primary little fire ant response program, maintains a field office in Kailua-Kona in addition to its main lab in Hilo, reflecting how significant this invasive stinging ant's presence is on the Kona side of the island. Reporting suspected activity early is the most effective way to limit its spread.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats travel through the coffee farms, macadamia orchards, and dense vegetation on the slopes above Kailua-Kona, moving into homes and outbuildings through roofline gaps, especially where overhanging trees provide a direct path to the roof.",
+      },
+    ],
+    localHook:
+      "Kailua-Kona is the commercial heart of the Kona coffee belt, a narrow strip of volcanic slope where the combination of morning sun, afternoon cloud cover, and rich soil produces one of the world's most distinctive coffees. That same warm, humid belt is where the coffee berry borer, the most damaging coffee pest in the world, was first confirmed in Hawaii in 2010, arriving in South Kona before spreading to other coffee-growing districts. Hawaii Ant Lab keeps a field office in Kailua-Kona alongside its main lab in Hilo, underscoring how seriously the state treats little fire ant monitoring on this side of the island.",
+    intro:
+      "Kailua-Kona is the commercial center of Hawaii Island's leeward Kona district, a coastal town backed by the coffee farms that made the Kona name famous worldwide. Hawaii's coffee berry borer, the most economically damaging coffee pest anywhere it grows, was first confirmed in the state in South Kona in 2010, a detail that reflects how significant the surrounding coffee belt is to the local economy and to the region's agricultural pest pressure. Away from the coffee farms, Kailua-Kona's household pest picture looks much like the rest of the island: drywood termites documented across Hawaii County regardless of building age, cockroaches and centipedes that thrive in the warm sheltered climate, and rats moving down from the coffee and macadamia farmland above town. Hawaii Ant Lab keeps a dedicated field office here, one of only two on the island alongside its main Hilo lab, a sign of how closely little fire ants are tracked on the Kona side.",
+    sections: [
+      {
+        heading: "Coffee country: what the Kona belt means for Kailua-Kona's pest pressure",
+        body: "Kailua-Kona sits at the base of the narrow volcanic slope known as the Kona coffee belt, where morning sun, reliable afternoon cloud cover, and mineral-rich soil combine to produce some of the most sought-after coffee in the world. That same warm, humid growing belt is what makes the region hospitable to the coffee berry borer, the single most damaging insect pest to coffee production anywhere it is found. The beetle was first confirmed in Hawaii in South Kona in 2010, and it has since spread to other coffee districts across the islands, though coffee farmers have developed integrated management practices, including organic pesticide use and field sanitation, to keep it in check.\n\nThe coffee belt's warmth and elevation also shape where household pests concentrate around Kailua-Kona. Centipedes and rats both move easily between farmland and residential lots on the slopes above town, since coffee trees, macadamia orchards, and dense mulch provide exactly the cover and moisture these pests favor. Homes closer to the coffee belt's lower edge, where farmland meets residential streets, tend to see more of both than properties directly on the coast.",
+      },
+      {
+        heading: "Termites, cockroaches, and little fire ant monitoring in Kailua-Kona",
+        body: "Kailua-Kona's household pest pressure otherwise tracks the rest of Hawaii County. The Hawaii Department of Agriculture documents drywood termites throughout the county, and because this species tunnels directly into wood without needing soil contact, both older coastal buildings downtown and newer construction on the coffee slopes carry the same underlying risk. Small piles of dry frass near trim or window frames are usually the first sign, and a professional inspection is the only reliable way to confirm activity before it spreads.\n\nAmerican and Surinam cockroaches breed outdoors in the landscaping, mulch, and drains around Kailua-Kona's resort properties and residential streets, taking full advantage of the warm, sheltered leeward climate to breed continuously with no seasonal pause. Little fire ants are the one pest the state tracks most closely on this side of the island: Hawaii Ant Lab maintains a field office in Kailua-Kona specifically, in addition to its main lab in Hilo, and that dedicated presence reflects how seriously officials treat this invasive stinging ant's spread across Hawaii County. Reporting unexplained stings in a yard or garden promptly gives the lab the best chance of containing a new infestation before it spreads further.",
+      },
+    ],
+    prevention: [
+      "Schedule a drywood termite inspection for both coastal and upslope Kailua-Kona properties, since this species needs no soil moisture and building age does not change the risk.",
+      "Reduce mulch depth and clutter around the foundation to limit centipede shelter, especially for homes near the coffee belt's lower edge.",
+      "Report unexplained stings in a yard or garden promptly to Hawaii Ant Lab's Kailua-Kona field office, since little fire ants are actively tracked on this side of the island.",
+      "Seal roofline gaps and trim overhanging trees for homes near coffee or macadamia farmland to limit roof rat access from the slopes above town.",
+    ],
+    costNote:
+      "Kailua-Kona pest control commonly combines a year-round general plan for cockroaches, centipedes, and rats with a separate drywood termite inspection, priced differently for coastal versus upslope coffee-belt properties given differing rat and centipede pressure. Start with a free inspection.",
+    faqs: [
+      {
+        question: "What is the coffee berry borer and does it affect homes in Kailua-Kona?",
+        answer:
+          "The coffee berry borer is an agricultural pest that damages coffee cherries and was first confirmed in Hawaii in South Kona in 2010, the heart of the Kona coffee belt above Kailua-Kona. It is a farm and orchard pest rather than a household one, but it reflects how significant coffee agriculture is to the region and to the pest pressure coffee farms bring to nearby residential properties, particularly rats and centipedes moving down from the slopes.",
+      },
+      {
+        question: "Why does Hawaii Ant Lab have an office in Kailua-Kona?",
+        answer:
+          "Hawaii Ant Lab, the state's primary little fire ant response program, maintains a field office in Kailua-Kona in addition to its main lab in Hilo, reflecting how actively little fire ants are tracked on the Kona side of Hawaii Island. Residents who notice unexplained stings in a yard or garden should report it to the local office promptly.",
+      },
+      {
+        question: "Are termites a bigger risk near the coffee farms above Kailua-Kona?",
+        answer:
+          "Building age matters more than location relative to the coffee belt. Drywood termites tunnel directly into wood without needing soil contact, so the Hawaii Department of Agriculture documents them throughout Hawaii County regardless of whether a building sits on the coast or upslope near coffee farmland.",
+      },
+      {
+        question: "Why are rats more common near the upper Kailua-Kona neighborhoods?",
+        answer:
+          "Coffee farms, macadamia orchards, and dense vegetation on the slopes above Kailua-Kona give roof rats continuous cover and food, and overhanging trees often provide a direct path to nearby rooflines. Homes near the lower edge of the coffee belt typically see more rat pressure than properties directly on the coast.",
+      },
+      {
+        question: "Does Kailua-Kona's dry, sunny climate reduce pest activity?",
+        answer:
+          "Only partly. The leeward Kona climate is warm and sheltered rather than heavily rained on, which supports continuous cockroach and ant breeding with no cold season. Termites are unaffected by rainfall since they infest wood directly, and centipedes simply concentrate around irrigated and mulched areas instead of following rain events.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hilo", slug: "hilo", stateSlug: "hawaii" },
+      { name: "Wailuku", slug: "wailuku", stateSlug: "hawaii" },
+      { name: "Kahului", slug: "kahului", stateSlug: "hawaii" },
+      { name: "Honolulu", slug: "honolulu", stateSlug: "hawaii" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Kailua-Kona, HI | Termites, Ants & Centipedes",
+    metaDescription:
+      "Kailua-Kona pest control for drywood termites, cockroaches, centipedes and little fire ants near the Kona coffee belt. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wailuku",
+    name: "Wailuku",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~17,700",
+    county: "Maui County",
+    climate: "tropical",
+    climateDriver:
+      "Wailuku, Maui's county seat since 1905, sits at the mouth of Iao Valley, a lush, stream-cut valley in the West Maui Mountains just over three miles from downtown. The valley funnels more rain toward Wailuku than falls in drier central Maui towns like Kahului, and Iao Stream, along with the surrounding mountain vegetation, keeps parts of town noticeably damper and greener than the leeward plains closer to the coast.",
+    topPests: [
+      "Drywood Termites",
+      "Centipedes",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture documents drywood termites across Maui, and Wailuku's historic downtown, much of it dating to the town's sugar plantation era before Maui's county government offices expanded here after 1905, carries real risk since this species tunnels directly into wood without needing soil contact.",
+      },
+      {
+        name: "Centipedes",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, more consistent near Iao Valley's damper terrain",
+        note: "The large Hawaiian centipede is present across Maui and its bite is a genuine medical event. Wailuku's proximity to Iao Valley's stream-cut, vegetated terrain gives centipedes more consistent moisture than the drier plains around Kahului or Kihei, so encounters here follow the valley's dampness more than isolated rain events.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in mulch, drains, and dense landscaping around Wailuku's historic downtown and residential streets, moving indoors readily in the warm, humid climate near the valley mouth.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, more active near Iao Stream and shaded valley terrain",
+        note: "Iao Stream and the shaded, vegetated terrain near the valley mouth give mosquitoes more standing water and cover close to Wailuku than in drier, more open parts of central Maui, making yard-level water reduction especially useful for homes nearer the valley.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats use the dense vegetation of Iao Valley and the surrounding West Maui Mountains as cover, moving down toward Wailuku's older neighborhoods and entering structures through roofline gaps and overhanging branches.",
+      },
+    ],
+    localHook:
+      "Wailuku has been Maui's seat of government since 1905, but its history as a gathering place goes back centuries further: the aliʻi Kakae designated nearby Iao Valley a burial ground for chiefs in the late 1400s, and in 1790 Kamehameha the Great fought the Battle of Kepaniwai there, a clash so intense that Iao Stream itself was said to be dammed with the fallen. The Iao Needle, a lava remnant rising 1,200 feet from the valley floor, still marks the valley today, just over three miles from downtown Wailuku's historic storefronts.",
+    intro:
+      "Wailuku has served as Maui County's seat of government since 1905, but the town's roots run centuries deeper into Iao Valley, the lush, stream-cut valley just over three miles inland where Hawaiian chiefs were once laid to rest and where Kamehameha the Great fought the decisive Battle of Kepaniwai in 1790. That proximity to the valley shapes Wailuku's pest picture as much as its history does: Iao Stream and the surrounding West Maui Mountains keep the town noticeably damper than drier central Maui communities like Kahului or Kihei, giving centipedes, mosquitoes, and rats more consistent moisture and cover. Drywood termites, meanwhile, are documented across Maui regardless of rainfall, and Wailuku's historic downtown buildings carry that risk like any other.",
+    sections: [
+      {
+        heading: "Iao Valley's damper terrain and what it means for Wailuku's pests",
+        body: "Wailuku sits at the mouth of Iao Valley, a lush valley in the West Maui Mountains just over three miles from downtown, designated a National Natural Landmark in 1972 for its dramatic, stream-cut terrain. That geography gives Wailuku noticeably more rain and vegetation than drier central Maui towns closer to the coast, and Iao Stream, which runs through the valley and past the edge of town, adds standing water and shaded cover that a place like Kihei, roughly 10 inches of rain a year, simply does not have.\n\nThat extra moisture shapes where Wailuku's centipedes, mosquitoes, and rats concentrate. The large Hawaiian centipede favors the valley's damper terrain more consistently than the drier plains further from the mountains, and its bite remains a genuinely painful, medically significant event rather than a minor nuisance. Mosquitoes find breeding habitat in the stream and the shaded vegetation near the valley mouth, making yard-level water reduction, emptying gutters and plant saucers, a more meaningful step for homes nearer Iao Valley than for those on Maui's drier leeward side. Roof rats use the same dense mountain vegetation as cover, moving down toward Wailuku's older neighborhoods and entering rooflines through overhanging branches.",
+      },
+      {
+        heading: "A historic downtown and the termites that come with it",
+        body: "Wailuku's downtown reflects more than a century of continuous use: the town became Maui's county seat in 1905, but it was already a busy sugar plantation town in the 1800s, and centuries before that it served as the political seat of Maui chiefs including Piilani and Kahekili. That long history of construction, much of it in wood, means Wailuku's older commercial buildings and homes carry the same drywood termite risk documented across Maui by the Hawaii Department of Agriculture. Because drywood termites tunnel directly into structural wood without needing soil contact, the town's proximity to Iao Valley's extra rainfall does not meaningfully change the risk, and small piles of dry frass near trim or window frames remain the most reliable early warning sign.\n\nAmerican cockroaches round out Wailuku's everyday pest pressure, breeding in mulch, drains, and dense landscaping around downtown and residential streets and moving indoors through the usual gaps around doors and utility lines. For most Wailuku properties, a year-round general plan covering cockroaches, mosquitoes, and rats, paired with a periodic termite inspection for the town's older buildings, addresses what actually shows up close to the valley.",
+      },
+    ],
+    prevention: [
+      "Schedule a drywood termite inspection for Wailuku's historic downtown buildings and older homes, since this species needs no soil moisture regardless of the valley's extra rainfall.",
+      "Empty standing water from gutters, plant saucers, and containers regularly, especially for homes nearer Iao Valley and Iao Stream.",
+      "Reduce mulch and ground-level clutter near foundations to limit centipede shelter in Wailuku's damper, valley-adjacent terrain.",
+      "Seal roofline gaps and trim overhanging branches for homes near the West Maui Mountains to limit roof rat access from the surrounding vegetation.",
+    ],
+    costNote:
+      "Wailuku pest control commonly combines a year-round general plan for cockroaches, mosquitoes, and rats with a separate termite inspection for the town's historic downtown and older residential buildings. Homes closer to Iao Valley often benefit from added mosquito and centipede attention. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why is Wailuku damper than other parts of central Maui?",
+        answer:
+          "Wailuku sits at the mouth of Iao Valley, a lush, stream-cut valley in the West Maui Mountains just over three miles from downtown. The valley funnels more rain toward Wailuku than falls in drier towns like Kahului or Kihei, and Iao Stream adds standing water and shaded vegetation close to town.",
+      },
+      {
+        question: "Is Iao Valley actually historically significant to Wailuku?",
+        answer:
+          "Yes. Maui chiefs, including Kakae in the late 1400s, designated Iao Valley a burial ground for aliʻi, and in 1790 Kamehameha the Great fought the Battle of Kepaniwai there during his campaign to unify the islands. Wailuku has been Maui County's seat of government since 1905, but the area's significance goes back centuries further.",
+      },
+      {
+        question: "Are centipedes worse in Wailuku than in Kahului or Kihei?",
+        answer:
+          "They tend to be more consistent here. The large Hawaiian centipede favors the extra moisture that Iao Valley's stream-cut terrain provides, so Wailuku sees more consistent centipede activity than drier central and south Maui towns, where encounters follow specific rain events rather than steady valley dampness.",
+      },
+      {
+        question: "Does Wailuku's historic downtown have a termite problem?",
+        answer:
+          "Wailuku's downtown reflects more than a century of continuous construction, including its years as a sugar plantation town before becoming Maui's county seat in 1905. The Hawaii Department of Agriculture documents drywood termites across Maui, and older wood-frame buildings in Wailuku carry the same risk as any other aging structure on the island.",
+      },
+      {
+        question: "What is the Iao Needle and does it affect pest control in Wailuku?",
+        answer:
+          "The Iao Needle is a vegetation-covered lava remnant rising about 1,200 feet from the floor of Iao Valley, just over three miles from downtown Wailuku. It is not itself a pest concern, but the lush, damp valley terrain it sits within is what gives Wailuku more consistent centipede and mosquito activity than drier parts of central Maui.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Kahului", slug: "kahului", stateSlug: "hawaii" },
+      { name: "Kihei", slug: "kihei", stateSlug: "hawaii" },
+      { name: "Kailua-Kona", slug: "kailua-kona", stateSlug: "hawaii" },
+      { name: "Honolulu", slug: "honolulu", stateSlug: "hawaii" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Wailuku, HI | Termites, Centipedes & Mosquitoes",
+    metaDescription:
+      "Wailuku pest control for drywood termites, centipedes, mosquitoes and cockroaches near Maui's historic Iao Valley. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

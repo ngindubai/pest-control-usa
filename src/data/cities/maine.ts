@@ -2612,4 +2612,575 @@ export const maineCities: CityLocation[] = [
     metaDescription:
       "Skowhegan ME pest control for house mice, voles, carpenter ants, cluster flies and deer ticks in Somerset County's Kennebec Valley. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "falmouth-me",
+    name: "Falmouth",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~12,900",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Falmouth sits on Casco Bay just north of Portland, and its long, indented shoreline of coves, tidal marsh, and wooded points keeps the ground damp well into summer. That mix of tidal edge and mature forest, much of it protected land, gives deer ticks and carpenter ants steady habitat right up against the town's neighborhoods, while the older homes closer to the water deal with the moisture pressure a coastal cold-humid climate puts on wood framing.",
+    topPests: ["Deer ticks", "Carpenter ants", "Mice", "Mosquitoes", "Wasps and hornets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November, adults can be found on mild winter days",
+        note: "Falmouth's wooded points and protected shoreline trails, including the causeway out to Mackworth Island, put walkers and pets close to deer tick habitat for most of the year, and Maine's own tick surveillance data consistently finds a large share of tested deer ticks in the state carrying the bacteria behind Lyme disease.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, most visible March through September",
+        note: "The damp, wooded lots common along Falmouth's coves and points give carpenter ants easy access to soft, moisture-damaged wood, and older homes near the water often carry more of that moisture exposure than newer inland construction.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through December",
+        note: "As Falmouth's cooler weather sets in, mice move out of the fields and wooded buffers bordering many neighborhoods and toward the nearest warm foundation, a pattern typical of Cumberland County's mix of open land and residential development.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Falmouth's tidal marsh and the freshwater wetlands feeding into Casco Bay hold standing water through the warm months, giving mosquitoes breeding ground beyond what a typical yard would produce alone.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "Falmouth's older homes, many with wood siding and eaves near mature trees, give paper wasps and bald-faced hornets plenty of sheltered spots to build through the summer.",
+      },
+    ],
+    localHook:
+      "Falmouth's Mackworth Island, reachable by a short causeway, was gifted to the state in 1943 by then-governor Percival Baxter and has been home to the Governor Baxter School for the Deaf since 1957, and the island's mile-long shoreline walking trail through spruce forest and rocky coast puts visitors right in the kind of damp, wooded habitat that supports deer ticks along much of coastal Cumberland County.",
+    intro:
+      "Pest control in Falmouth, ME has to account for a town built almost entirely along Casco Bay's edge. The coves, tidal marsh, and wooded points that make Falmouth one of Portland's most sought-after suburbs also create damp, sheltered ground for deer ticks and carpenter ants, and the causeway out to Mackworth Island, gifted to the state by Governor Percival Baxter in 1943 and now home to the Governor Baxter School for the Deaf, runs straight through that habitat. The cold-humid coastal climate keeps carpenter ants working on moisture-softened wood in the town's older homes, while tidal marsh and freshwater wetlands feeding into the bay give mosquitoes a longer breeding window than most inland Maine towns see. As fall arrives, mice move out of the open land and wooded buffers that still separate many Falmouth neighborhoods and look for a way into a warm foundation.",
+    sections: [
+      {
+        heading: "Why does Falmouth's shoreline geography drive its tick pressure?",
+        body: "Falmouth's coastline is a long run of coves, points, and tidal marsh rather than a single straight beach, and that shape means far more property in town sits at the edge of wooded or brushy ground than in a typical inland community. Deer ticks need exactly that kind of edge habitat, damp, shaded, close to deer and small-mammal traffic, and Falmouth has miles of it built into its geography. The University of Maine's Cooperative Extension Tick Lab has found a large share of the deer ticks it tests statewide carrying the bacteria that causes Lyme disease, which is why year-round vigilance matters here, not just a few weeks in early summer.",
+      },
+      {
+        heading: "Does Mackworth Island change the pest picture for nearby homes?",
+        body: "The causeway and trail system around Mackworth Island bring foot traffic, and sometimes pets, directly through spruce forest and rocky shoreline of the kind deer ticks favor. Homes on the mainland side near the causeway sit close enough to that habitat that tick checks after a walk are worth the extra minute, especially for households with dogs that range off the trail into the brush. It's a small, specific piece of Falmouth's geography, but it's a real one, and it's part of why the town's tick season runs longer than a typical inland calendar.",
+      },
+      {
+        heading: "Why are carpenter ants a bigger concern in Falmouth's older coastal homes?",
+        body: "A meaningful share of Falmouth's housing stock predates modern moisture-barrier standards and sits close enough to the water that humid coastal air keeps wood siding, sills, and eaves damper than homes further inland. Carpenter ants don't eat wood the way termites do, but they excavate softened, moisture-damaged wood to build galleries, and that softened wood is exactly what a damp coastal foundation or window sill tends to produce over time. Spotting sawdust-like frass near a sill or foundation crack is usually the first sign worth calling in about.",
+      },
+      {
+        heading: "What should a Falmouth pest control plan include?",
+        body: "A solid plan treats the tidal edge as the starting point, not an afterthought. That means tick checks and yard-edge treatment for any property near the causeway, marsh, or wooded points, carpenter ant inspection focused on moisture-exposed wood in older coastal homes, mosquito source reduction around the freshwater wetlands feeding Casco Bay, and fall exclusion work before mice start looking for a way indoors. None of these pests are unusual for coastal Cumberland County, but Falmouth's shoreline shape puts more of the town in contact with that pressure than a typical suburb sees.",
+      },
+    ],
+    prevention: [
+      "Do a tick check after any walk on the Mackworth Island trail or along Falmouth's other wooded shoreline paths.",
+      "Inspect sills, siding, and foundation cracks on older coastal homes for carpenter ant frass each spring.",
+      "Clear standing water from yard containers and low spots near tidal marsh edges through the mosquito season.",
+      "Seal foundation gaps before fall, when mice start moving in from open land and wooded buffers.",
+    ],
+    costNote:
+      "General pest inspections in Falmouth typically run $90 to $175, with a free initial inspection common. Older waterfront and near-shore homes sometimes see a modestly higher quote given the extra time spent on moisture and carpenter ant checks.",
+    faqs: [
+      {
+        question: "Is Lyme disease a real risk for people walking Falmouth's shoreline trails?",
+        answer:
+          "Yes. Falmouth's coves, points, and wooded trails, including the causeway to Mackworth Island, sit in classic deer tick habitat, and University of Maine tick surveillance has consistently found a large share of tested deer ticks statewide carrying the bacteria behind Lyme disease. A tick check after any walk in these areas is worth the time.",
+      },
+      {
+        question: "Why does Mackworth Island come up in Falmouth pest discussions?",
+        answer:
+          "Mackworth Island, gifted to the state in 1943 by Governor Percival Baxter and home to the Governor Baxter School for the Deaf since 1957, is reached by a causeway that runs through spruce forest and rocky shoreline, exactly the damp, edge habitat deer ticks favor, so homes and trail users near it see more tick exposure than an inland property would.",
+      },
+      {
+        question: "Are Falmouth's older coastal homes more prone to carpenter ants?",
+        answer:
+          "Often, yes. Homes closer to the water deal with more humid coastal air over time, which keeps wood siding and sills damper, and carpenter ants target exactly that kind of moisture-softened wood to build their galleries.",
+      },
+      {
+        question: "How long does mosquito season run in Falmouth?",
+        answer:
+          "Typically May through September, supported by the tidal marsh and freshwater wetlands that feed into Casco Bay and hold standing water through the warm months.",
+      },
+      {
+        question: "Is pest control available for waterfront and inland Falmouth properties alike?",
+        answer:
+          "Yes, licensed providers serving Cumberland County work with both shoreline homes near the coves and marsh, and inland Falmouth neighborhoods, adjusting the plan to whichever edge habitat, moisture, or open-land exposure a given property has.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cape Elizabeth", slug: "cape-elizabeth-me", stateSlug: "maine" },
+      { name: "Freeport", slug: "freeport-me", stateSlug: "maine" },
+      { name: "Yarmouth", slug: "yarmouth-me", stateSlug: "maine" },
+      { name: "South Portland", slug: "south-portland", stateSlug: "maine" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Falmouth, ME | Deer Ticks, Carpenter Ants & Mice",
+    metaDescription:
+      "Pest control in Falmouth, Maine. Cumberland County service for deer ticks, carpenter ants, mice, and mosquitoes along Casco Bay. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cape-elizabeth-me",
+    name: "Cape Elizabeth",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~9,600",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cape Elizabeth occupies the rocky headland east of Portland, where Casco Bay meets the open Atlantic, and its mix of open coastal ledge, salt marsh, and wooded residential lots gives local pest pressure two distinct faces. The exposed shoreline around Two Lights State Park and Fort Williams Park stays windier and slightly cooler than inland Cumberland County, while the town's wooded interior neighborhoods hold the same damp, cold-humid conditions as the rest of greater Portland.",
+    topPests: ["Deer ticks", "Carpenter ants", "Mice", "Spiders", "Wasps and hornets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November, adults active on mild winter days",
+        note: "The wooded trails and brushy field edges around Fort Williams Park and Two Lights State Park put hikers and dog walkers close to deer tick habitat most of the year, and statewide tick lab data shows a large share of tested Maine deer ticks carry the bacteria behind Lyme disease.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, most visible March through September",
+        note: "Cape Elizabeth's older homes near the shore, many built well before modern moisture barriers, sit in the same humid coastal air that keeps wood siding and sills soft enough for carpenter ants to excavate.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through December",
+        note: "Cape Elizabeth's large-lot residential neighborhoods border enough open field and wooded buffer that mice have a short trip to a foundation once the weather turns cold.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active July through October",
+        note: "The stone walls, ledge outcrops, and wood piles common on Cape Elizabeth's older coastal properties give spiders plenty of dry, sheltered gaps to move into a garage or basement as fall cools things down.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "Exposed eaves and outbuildings on the open headland around Two Lights get a full summer of building activity from paper wasps and bald-faced hornets before the first hard frost.",
+      },
+    ],
+    localHook:
+      "Two Lights State Park sits on the same headland as the twin Cape Elizabeth Light towers, built in 1828 as the first paired lighthouses on the Maine coast, and the park's nearly two miles of trail cross both forested ground and open seaside ledge, the same terrain change that gives Cape Elizabeth its split pest pattern between wooded, tick-friendly interior lots and the windier, more exposed shoreline near Portland Head Light at neighboring Fort Williams Park.",
+    intro:
+      "Pest control in Cape Elizabeth, ME follows the town's split geography. Along the rocky headland where Two Lights State Park and Fort Williams Park sit, home to Portland Head Light and the twin 1828 Cape Elizabeth Light towers, the open ledge and salt air keep conditions windier and slightly cooler than the rest of Cumberland County. Move a few blocks inland into the wooded, large-lot neighborhoods that make up most of the town, and the pest picture shifts toward the deer ticks, carpenter ants, and mice typical of coastal southern Maine. Cape Elizabeth's older homes, many built close to the water well before current moisture standards, deal with carpenter ants drawn to softened wood, while stone walls and ledge outcrops across town give spiders no shortage of places to shelter before moving indoors each fall.",
+    sections: [
+      {
+        heading: "How does Two Lights State Park's terrain affect nearby pest pressure?",
+        body: "Two Lights State Park's trail network crosses both forested land and open seaside rock ledge in under two miles, and that mix means deer ticks concentrate in the shaded, wooded stretches while staying scarce on the open ledge closer to the water. Homes bordering the park's wooded side see more tick pressure than those closer to the exposed headland near the lighthouses, a pattern worth knowing before deciding how far off the trail a dog should be allowed to range.",
+      },
+      {
+        heading: "Why do Cape Elizabeth's older shoreline homes see more carpenter ant activity?",
+        body: "A number of homes near Fort Williams Park and the town's other coastal points were built well before modern moisture-barrier construction became standard, and Cape Elizabeth's cold-humid coastal air keeps their wood siding, sills, and window frames damper than newer inland construction sees. Carpenter ants target that softened wood to excavate nesting galleries, and a homeowner noticing small piles of sawdust-like frass near a sill or foundation crack is usually looking at early carpenter ant activity rather than termite damage, since Cape Elizabeth's more exposed coastal position runs cooler than warmer termite-risk pockets further inland in York County.",
+      },
+      {
+        heading: "Are spiders more common around Cape Elizabeth's stone walls?",
+        body: "Yes, more than in a typical suburb without the same amount of exposed ledge and old stonework. Cape Elizabeth's rocky terrain left behind generations of fieldstone walls, and those walls, along with woodpiles and outbuildings common on larger coastal lots, give spiders dry, undisturbed gaps to shelter in through summer and fall. Most of what turns up is common house and cellar spiders rather than anything dangerous, but a heavier-than-usual spider presence in a garage or basement often traces back to gaps in that kind of stonework nearby.",
+      },
+      {
+        heading: "What should a Cape Elizabeth pest control plan cover?",
+        body: "A plan here has to account for both halves of the town. That means tick precautions for the wooded side of Two Lights and Fort Williams Park trails, carpenter ant inspection focused on older shoreline homes, spider exclusion around stone walls and woodpiles, and fall mouse-proofing for the large-lot neighborhoods bordering open field and wooded buffer. Cape Elizabeth's split geography, exposed headland on one side and wooded residential interior on the other, means two properties a short drive apart can have noticeably different pest pressure.",
+      },
+    ],
+    prevention: [
+      "Stick closer to marked trails on the wooded side of Two Lights State Park during peak tick season.",
+      "Check sills and siding on older shoreline homes for carpenter ant frass each spring.",
+      "Seal gaps around stone walls and woodpiles to cut down on spiders moving into garages and basements.",
+      "Close up foundation gaps before fall, when mice start heading in from open field and wooded buffer lots.",
+    ],
+    costNote:
+      "General pest inspections in Cape Elizabeth typically run $95 to $180, with a free initial inspection common. Older shoreline homes near Fort Williams Park sometimes see a modestly higher quote given the extra time spent checking moisture-exposed wood.",
+    faqs: [
+      {
+        question: "Is tick risk the same across all of Cape Elizabeth?",
+        answer:
+          "No. The wooded stretches of Two Lights State Park and inland residential neighborhoods carry more deer tick pressure than the open, windier ledge closer to the lighthouses at Fort Williams Park, so where on the trail or property a person spends time makes a real difference.",
+      },
+      {
+        question: "Why do older homes near Fort Williams Park get more carpenter ant calls?",
+        answer:
+          "Many of these homes predate modern moisture-barrier standards, and Cape Elizabeth's humid coastal air keeps their wood siding and sills damper than newer inland construction, giving carpenter ants softened wood to excavate for nesting galleries.",
+      },
+      {
+        question: "Does Cape Elizabeth have a termite problem like parts of York County?",
+        answer:
+          "Termite risk in Cape Elizabeth is lower than in warmer pockets of southern York County, since the town's more exposed coastal position runs cooler, but it is not zero, and an inspector can check for early signs during a routine visit.",
+      },
+      {
+        question: "What is causing more spiders in a Cape Elizabeth garage or basement?",
+        answer:
+          "It usually traces back to nearby fieldstone walls, woodpiles, or outbuildings, all common on Cape Elizabeth's larger coastal lots, which give spiders dry, sheltered gaps to live in before some move indoors as the weather cools.",
+      },
+      {
+        question: "Is pest control available for both headland and inland Cape Elizabeth properties?",
+        answer:
+          "Yes, licensed providers serving Cumberland County adjust plans for the town's split geography, from tick management near wooded park trails to carpenter ant and spider work on older shoreline and stone-wall properties.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Falmouth", slug: "falmouth-me", stateSlug: "maine" },
+      { name: "Scarborough", slug: "scarborough", stateSlug: "maine" },
+      { name: "South Portland", slug: "south-portland", stateSlug: "maine" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Cape Elizabeth, ME | Ticks, Carpenter Ants & Spiders",
+    metaDescription:
+      "Pest control in Cape Elizabeth, Maine. Cumberland County service for deer ticks, carpenter ants, mice, and spiders near Two Lights State Park. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "freeport-me",
+    name: "Freeport",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~8,800",
+    county: "Cumberland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Freeport sits on Casco Bay between Portland and Brunswick, its old shipbuilding village center now surrounded by wooded residential streets and the retail district that draws millions of visitors a year. That year-round flow of trucks, delivery traffic, and foot traffic through a compact downtown, set against a cold-humid coastal climate and plenty of wooded buffer just outside it, shapes a pest pressure that a purely residential Cumberland County town does not see in quite the same way.",
+    topPests: ["Mice", "Carpenter ants", "Deer ticks", "Wasps and hornets", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through December, ongoing through winter",
+        note: "Freeport's downtown retail buildings and the delivery and storage traffic that supports them give mice more entry points and food access than a typical residential block, and the wooded lots backing up to Main Street give them a short trip in once fall cools things down.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, most visible March through September",
+        note: "Freeport's older village-era buildings near the historic downtown, some dating to the shipbuilding era, sit in the same damp coastal air that keeps wood softened enough for carpenter ants across greater Casco Bay.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November",
+        note: "Freeport's wooded residential streets and the trail networks around town, including conservation land bordering the bay, keep deer ticks well established outside the retail core, and Maine's statewide tick surveillance data shows a large share of tested deer ticks carrying the bacteria behind Lyme disease.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "Awnings, loading docks, and building eaves throughout Freeport's retail district give paper wasps and yellowjackets sheltered nesting spots close to heavy foot traffic each summer.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The tidal coves and wetlands along Freeport's stretch of Casco Bay hold standing water through the warm months, extending the mosquito season for properties near the water.",
+      },
+    ],
+    localHook:
+      "L.L. Bean's flagship store in downtown Freeport has run without locks on its doors since 1951, staying open 24 hours a day, and the round-the-clock foot traffic and delivery activity that keeps the store, and the outlet district that grew up around it, running through the night is part of why Freeport's downtown pest management looks more like a small commercial district's than a typical Cumberland County residential town's.",
+    intro:
+      "Pest control in Freeport, ME has to serve two different towns in one. Downtown, the L.L. Bean flagship store has operated 24 hours a day without locking its doors since 1951, and the outlet shopping district that grew up around it keeps foot and delivery traffic moving through Freeport's historic village core well into the night, giving mice and wasps more openings than a quiet residential street would offer. A short walk away, Freeport's wooded neighborhoods and the conservation land bordering Casco Bay carry the deer ticks and carpenter ants typical of coastal Cumberland County, with the same cold-humid climate keeping older shipbuilding-era buildings near downtown just as exposed to moisture damage as the retail buildings around them.",
+    sections: [
+      {
+        heading: "Why does downtown Freeport need a different pest approach than a typical town center?",
+        body: "Freeport's retail district, anchored by the L.L. Bean flagship store that has run 24 hours a day without locked doors since 1951, sees a volume of foot traffic, delivery trucks, and after-hours activity most Cumberland County downtowns don't handle. That constant movement of goods and people creates more food debris and more building access points than a quiet Main Street sees elsewhere, and mice in particular take advantage of loading docks and storage areas that see less daily disruption than the sales floor.",
+      },
+      {
+        heading: "Are Freeport's older village buildings at higher risk for carpenter ants?",
+        body: "Many of Freeport's buildings near the historic downtown date back to the town's shipbuilding era, well before current moisture-barrier construction standards, and the same cold-humid coastal air affecting older homes throughout greater Casco Bay keeps their wood damp enough for carpenter ants to move in and excavate galleries. Retail tenants and residential owners alike benefit from the same basic check: sills, foundations, and any spot where wood meets soil or sits under a leaking gutter.",
+      },
+      {
+        heading: "Where does Freeport's deer tick pressure come from?",
+        body: "Step outside the retail core and Freeport looks like the rest of coastal Cumberland County, with wooded residential streets and conservation land bordering Casco Bay that give deer ticks the shaded, damp edge habitat they need. Maine's tick surveillance program has consistently found a large share of the deer ticks it tests statewide carrying the bacteria behind Lyme disease, and that risk applies to Freeport's residential neighborhoods and trail users just as much as it does anywhere else in the region, even with the retail district drawing most of the town's outside attention.",
+      },
+      {
+        heading: "What should a Freeport pest control plan include?",
+        body: "A plan here usually has two tracks. For the downtown retail and historic district, that means mouse exclusion around loading docks and storage areas, wasp treatment for awnings and eaves that see heavy foot traffic below them, and carpenter ant inspection for older shipbuilding-era buildings. For the surrounding residential streets, it means the deer tick precautions and mosquito source control typical of any wooded, coastal Cumberland County neighborhood. Few Maine towns need both approaches running at once quite the way Freeport does.",
+      },
+    ],
+    prevention: [
+      "Keep loading dock and storage areas in downtown Freeport sealed and free of food debris to limit mouse access.",
+      "Check awnings and building eaves in the retail district for early wasp nests each spring.",
+      "Inspect sills and foundations on older shipbuilding-era buildings for carpenter ant activity.",
+      "Do a tick check after walking Freeport's wooded trails or conservation land bordering Casco Bay.",
+    ],
+    costNote:
+      "General pest inspections in Freeport typically run $85 to $170, with a free initial inspection common. Commercial properties in the downtown retail district sometimes see a different quote structure based on square footage and loading dock access.",
+    faqs: [
+      {
+        question: "Does L.L. Bean's 24-hour flagship store change pest control needs in downtown Freeport?",
+        answer:
+          "Indirectly, yes. The store has operated around the clock without locked doors since 1951, and the constant foot traffic and delivery activity that it and the surrounding outlet district generate give mice and wasps more access points and food debris than a typical quiet Main Street sees, which shapes how nearby commercial pest control plans are built.",
+      },
+      {
+        question: "Are Freeport's shipbuilding-era buildings prone to carpenter ants?",
+        answer:
+          "Many of them are, since they predate modern moisture-barrier construction and sit in the same cold-humid coastal air that keeps wood damp enough for carpenter ants throughout greater Casco Bay.",
+      },
+      {
+        question: "Is deer tick risk lower in Freeport because of all the retail foot traffic?",
+        answer:
+          "No. The retail core itself sees little tick activity, but Freeport's wooded residential streets and the conservation land along Casco Bay carry the same deer tick pressure as the rest of coastal Cumberland County, and Maine's statewide tick data shows a large share of tested deer ticks carry the Lyme disease bacterium.",
+      },
+      {
+        question: "How long does mosquito season run near Freeport's tidal coves?",
+        answer:
+          "Typically May through September, driven by standing water in the tidal coves and wetlands along Freeport's stretch of Casco Bay.",
+      },
+      {
+        question: "Does pest control in Freeport cover both retail and residential properties?",
+        answer:
+          "Yes, licensed providers serving Cumberland County work with both the downtown retail and historic district and the surrounding residential neighborhoods, adjusting the plan for commercial foot traffic on one side and wooded, coastal exposure on the other.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Falmouth", slug: "falmouth-me", stateSlug: "maine" },
+      { name: "Yarmouth", slug: "yarmouth-me", stateSlug: "maine" },
+      { name: "Brunswick", slug: "brunswick-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Freeport, ME | Mice, Carpenter Ants & Wasps",
+    metaDescription:
+      "Pest control in Freeport, Maine. Cumberland County service for mice, carpenter ants, deer ticks, and wasps near the L.L. Bean retail district. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kittery-me",
+    name: "Kittery",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~10,800",
+    county: "York County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kittery sits at Maine's southern tip on the Piscataqua River across from Portsmouth, New Hampshire, home to the Portsmouth Naval Shipyard on Seavey's Island, founded in 1800 and still the U.S. Navy's oldest continuously operating shipyard. That southernmost position gives Kittery slightly milder winters and a longer warm season than most of coastal Maine, enough that the town sits inside the state's southern termite probability zone in a way most of Maine does not.",
+    topPests: ["Carpenter ants", "Deer ticks", "Termites", "Mice", "Wasps and hornets"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, most visible March through September",
+        note: "Kittery's older waterfront and village homes, many built well before modern construction standards, hold onto moisture in a way that gives carpenter ants easy access to softened wood, a pressure common throughout coastal York County.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November",
+        note: "The wooded points and shoreline trails around Kittery Point and the coastal properties bordering the Piscataqua River give deer ticks steady habitat, and statewide University of Maine tick surveillance has found a large share of tested deer ticks carrying the bacteria behind Lyme disease.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms typically March through May where present",
+        note: "Kittery sits in the mild-to-moderate end of Maine's termite probability zone map, the southernmost strip of the state where eastern subterranean termites have been documented, a real but lighter risk than most of the country, worth checking on an older home rather than assuming Maine's climate rules it out entirely.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through December",
+        note: "Kittery's mix of shipyard-adjacent neighborhoods, older village homes, and outlet-district commercial buildings all give mice multiple types of structures to target once the weather cools.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "Kittery's older homes and the outlet malls along Route 1 both offer paper wasps and yellowjackets plenty of eaves, signage, and outbuildings to nest in through the warm months.",
+      },
+    ],
+    localHook:
+      "Portsmouth Naval Shipyard on Kittery's Seavey's Island was founded in 1800 and is the U.S. Navy's oldest continuously operating shipyard, and the town's identity as a boatbuilding center dates back even further to the 17th century, a maritime history that runs alongside Kittery's modern role as a Route 1 outlet shopping destination anchored by Kittery Trading Post.",
+    intro:
+      "Pest control in Kittery, ME starts with the town's position at the very southern edge of the state. Home to Portsmouth Naval Shipyard on Seavey's Island, founded in 1800 and still the Navy's oldest continuously operating shipyard, Kittery has been a boatbuilding center since the 1600s, and that same southernmost location gives it slightly milder winters than the rest of coastal Maine. It's mild enough, in fact, that Kittery sits inside the southern strip of the state's termite probability zone, a real if modest risk most other Maine towns don't share. Carpenter ants and deer ticks stay active in the wooded points and older waterfront homes around Kittery Point, while the mix of shipyard-adjacent neighborhoods, historic village homes, and the outlet malls along Route 1 near Kittery Trading Post gives mice and wasps several different kinds of structures to work with.",
+    sections: [
+      {
+        heading: "Does Kittery really have termite risk when the rest of Maine mostly doesn't?",
+        body: "Yes, in a limited but real way. Termite probability zone maps place the very southern strip of Maine, the stretch that includes Kittery, in a slight-to-moderate risk zone, meaningfully lower than warmer parts of the country but not zero the way most of the state effectively is. Eastern subterranean termites in this zone typically swarm from March through May where they're established. An older Kittery home without a modern termite barrier is a reasonable candidate for an inspection, even though the risk here is nowhere near what a homeowner in the mid-Atlantic or South would face.",
+      },
+      {
+        heading: "How does the Portsmouth Naval Shipyard affect pest control in Kittery?",
+        body: "The shipyard itself is a heavily managed federal facility, but the neighborhoods that grew up around it over more than two centuries include some of Kittery's oldest housing stock, built when the town's economy centered on boatbuilding and naval work rather than tourism. That older construction, much of it close to the water, tends to carry the same moisture exposure that drives carpenter ant activity throughout coastal York County, and it's worth a look regardless of whether termite risk is present on a given lot.",
+      },
+      {
+        heading: "Why does the Route 1 outlet district need different pest attention than Kittery's older village?",
+        body: "The outlet malls and retail buildings along Route 1, anchored in local identity by Kittery Trading Post, see heavy seasonal foot traffic and delivery activity that differs from the pest pressure on a quiet residential street near Kittery Point. Loading docks, signage, and building eaves throughout the retail corridor give mice and wasps different entry points than an older village home would offer, and commercial pest plans in this stretch of town typically account for that traffic pattern directly.",
+      },
+      {
+        heading: "What should a Kittery pest control plan include?",
+        body: "Given the town's mix, a solid plan covers termite inspection for older homes given Kittery's position in the state's mild termite zone, carpenter ant checks for waterfront and shipyard-adjacent properties, tick precautions for anyone spending time around Kittery Point's wooded trails, and separate mouse and wasp management for the Route 1 retail corridor versus the older residential village. Few towns this size in Maine need quite this range of coverage in one place.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older Kittery homes, since the town sits in the mild end of Maine's termite risk zone.",
+      "Check sills and foundations on waterfront and shipyard-adjacent homes for carpenter ant activity each spring.",
+      "Do a tick check after walking the wooded trails around Kittery Point.",
+      "Seal loading docks and storage areas along the Route 1 retail corridor before fall mouse season.",
+    ],
+    costNote:
+      "General pest inspections in Kittery typically run $90 to $180, with a free initial inspection common. A termite check adds modestly to the cost given Kittery's position in Maine's mild termite probability zone, something most other Maine towns don't need factored in.",
+    faqs: [
+      {
+        question: "Why is Kittery one of the few Maine towns where termites come up?",
+        answer:
+          "Kittery sits at the very southern tip of Maine, inside the slight-to-moderate end of the termite probability zone map, a mild but real risk tied to the town's milder winters compared to the rest of coastal Maine.",
+      },
+      {
+        question: "Does Portsmouth Naval Shipyard bring pest issues to nearby Kittery neighborhoods?",
+        answer:
+          "The shipyard on Seavey's Island is a managed federal facility, but the surrounding neighborhoods, some of Kittery's oldest housing stock from its centuries as a boatbuilding center, carry the same coastal moisture exposure that drives carpenter ant activity across York County.",
+      },
+      {
+        question: "Is pest control different for the Kittery outlet malls than for residential areas?",
+        answer:
+          "Yes. The Route 1 retail corridor near Kittery Trading Post sees heavy foot traffic and delivery activity that creates different mouse and wasp entry points than an older residential home near Kittery Point would have, so commercial plans in that stretch are typically built around loading docks and signage.",
+      },
+      {
+        question: "How long is deer tick season around Kittery Point?",
+        answer:
+          "Roughly April through November, with the wooded points and shoreline trails around Kittery Point giving deer ticks steady habitat and statewide Maine tick data showing a large share of tested ticks carrying the bacteria behind Lyme disease.",
+      },
+      {
+        question: "Is pest control available for both shipyard-adjacent and outlet-district Kittery properties?",
+        answer:
+          "Yes, licensed providers serving York County, including Kittery, cover the town's older waterfront neighborhoods, shipyard-adjacent housing, and the Route 1 retail corridor, adjusting for termite, carpenter ant, tick, or commercial mouse pressure depending on the property.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "York", slug: "york-me", stateSlug: "maine" },
+      { name: "Sanford", slug: "sanford-me", stateSlug: "maine" },
+      { name: "Biddeford", slug: "biddeford", stateSlug: "maine" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kittery, ME | Carpenter Ants, Termites & Ticks",
+    metaDescription:
+      "Pest control in Kittery, Maine. York County service for carpenter ants, deer ticks, termites, and mice near the Naval Shipyard and Route 1 outlets. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "york-me",
+    name: "York",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~14,100",
+    county: "York County",
+    climate: "cold-humid",
+    climateDriver:
+      "York sits on Maine's southernmost coast, first settled in 1624 and chartered in 1652 as one of the earliest English municipalities in America, and its long run of sand beaches, rocky headlands, and salt marsh gives the town a wider mix of pest habitat than most southern Maine communities. That same southern position keeps York's winters milder than the rest of coastal Maine, placing it inside the state's limited termite probability zone alongside neighboring Kittery.",
+    topPests: ["Deer ticks", "Termites", "Carpenter ants", "Mosquitoes", "Wasps and hornets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November",
+        note: "York's wooded stretches inland from the beaches, along with the trails around Cape Neddick and the York River, give deer ticks steady cover, and Maine's statewide tick surveillance has found a large share of tested deer ticks carrying the bacteria behind Lyme disease.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms typically March through May where present",
+        note: "York's position at the southern tip of Maine places it inside the state's slight-to-moderate termite probability zone, a lighter risk than most of the country but real enough that older homes benefit from a periodic check, unlike towns further up the coast where the risk drops close to zero.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, most visible March through September",
+        note: "York's historic village homes, some dating close to the town's 1652 charter, and its beach cottages built for salt-air exposure both sit in damp coastal conditions that give carpenter ants access to moisture-softened wood.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The salt marsh bordering the York River and the wetlands behind Long Sands and Short Sands beaches hold standing water through the season, extending mosquito activity for properties near the water.",
+      },
+      {
+        name: "Wasps and hornets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "York's beach cottages, historic downtown buildings, and seasonal rental properties all offer paper wasps and yellowjackets sheltered eaves and outbuildings to nest in through the busy summer season.",
+      },
+    ],
+    localHook:
+      "The Nubble Light at Cape Neddick, first lit on July 1, 1879 after the 1842 wreck of the ship Isidore finally pushed Congress to fund it, has been owned by the Town of York since 1997, and the rocky, wave-battered point it sits on is typical of the mix of open shoreline, wooded inland stretches, and tidal river marsh that gives York a broader range of pest habitat than most towns its size on the Maine coast.",
+    intro:
+      "Pest control in York, ME covers one of the oldest and most varied stretches of coastline in the state. First settled in 1624 and chartered in 1652, York's history runs from its historic village center out to the Nubble Light at Cape Neddick, first lit in 1879 after the tragic 1842 wreck of the Isidore, and the town's geography runs just as wide, sand beaches, rocky headlands, salt marsh along the York River, and wooded inland neighborhoods all inside one town line. That range gives York deer ticks in its wooded stretches, mosquitoes breeding in salt marsh and beach-adjacent wetlands, and carpenter ants working on moisture-softened wood in both historic village homes and salt-exposed beach cottages. York's position at Maine's southern tip, milder than most of the coast, also puts it inside the state's slight termite probability zone alongside neighboring Kittery, a risk most towns further north simply don't have to plan around.",
+    sections: [
+      {
+        heading: "Why does York's varied coastline create such a wide pest range?",
+        body: "Few towns on the Maine coast pack in as much different terrain as York does within one municipal boundary: the sand beaches at Long Sands and Short Sands, the rocky headland at Cape Neddick where the Nubble Light stands, salt marsh along the tidal York River, and wooded inland residential streets. Each of those settings supports a different pest, deer ticks in the wooded ground, mosquitoes in the marsh and wetlands, carpenter ants in older homes near the salt air, so a York pest control plan has to account for which part of town a property sits in rather than treating the town as a single uniform coastal environment.",
+      },
+      {
+        heading: "Is termite risk really present this far north in Maine?",
+        body: "In York specifically, yes, though modestly. The town's position at the very southern edge of Maine keeps winters milder than most of the coast, mild enough that York falls inside the state's slight-to-moderate termite probability zone along with Kittery. Eastern subterranean termites in this zone typically swarm from March into May where colonies are established. It's a real consideration for an older York home, particularly one without a modern termite barrier, even though the risk is far lighter than in warmer regions of the country.",
+      },
+      {
+        heading: "How does the York River's salt marsh affect mosquito season?",
+        body: "The tidal salt marsh bordering the York River, along with freshwater wetlands behind the town's beaches, holds standing water through the warm months in a way that extends mosquito activity well past what a typical yard on its own would produce. Properties closer to the river or the beach-adjacent wetlands tend to see a longer, heavier mosquito season than homes in York's more inland neighborhoods, which is worth factoring into when and how often source-reduction treatment gets scheduled.",
+      },
+      {
+        heading: "What should a York pest control plan include?",
+        body: "Given York's range of terrain, a solid plan covers termite inspection for older homes given the town's position in Maine's mild termite zone, deer tick precautions for wooded inland properties and trails near Cape Neddick, mosquito source control for anything near the York River marsh or beach wetlands, and carpenter ant checks for both historic village homes and older beach cottages. A property near Nubble Light faces a different mix of pressure than one a mile inland, and the plan should reflect that.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older York homes, given the town's position in Maine's mild termite risk zone.",
+      "Do a tick check after walking wooded trails near Cape Neddick or York's inland neighborhoods.",
+      "Clear standing water near the York River marsh and beach-adjacent wetlands through mosquito season.",
+      "Check sills and siding on historic village homes and beach cottages for carpenter ant activity each spring.",
+    ],
+    costNote:
+      "General pest inspections in York typically run $90 to $180, with a free initial inspection common. Beachfront and marsh-adjacent properties sometimes see a modestly higher quote given the extra time spent on mosquito source checks and salt-air moisture damage.",
+    faqs: [
+      {
+        question: "Does the Nubble Light area have more tick or pest activity than the rest of York?",
+        answer:
+          "The rocky, wave-exposed point at Cape Neddick where the Nubble Light stands sees less tick activity than York's wooded inland stretches, since deer ticks favor shaded, damp cover over open rock and salt spray, but nearby wooded approach trails carry the same tick pressure as elsewhere in town.",
+      },
+      {
+        question: "Is termite risk in York the same as in the rest of Maine?",
+        answer:
+          "No, it's higher than most of the state, though still modest overall. York's position at Maine's southern tip keeps winters milder, placing it inside the slight-to-moderate termite probability zone along with neighboring Kittery, a real but limited risk most other Maine coastal towns don't share.",
+      },
+      {
+        question: "Why does mosquito season run longer near the York River?",
+        answer:
+          "The tidal salt marsh along the York River and the wetlands behind York's beaches hold standing water through the warm months, giving mosquitoes more breeding habitat and a longer season than properties farther from the water experience.",
+      },
+      {
+        question: "Are York's historic village homes more prone to carpenter ants?",
+        answer:
+          "Many are, since a number of buildings near York's historic center date back well before modern moisture-barrier construction, and the same is true of older beach cottages built for salt-air exposure, both of which give carpenter ants softened wood to work with.",
+      },
+      {
+        question: "Is pest control available across York's different neighborhoods, from the beaches to inland streets?",
+        answer:
+          "Yes, licensed providers serving York County, including York, adjust plans for the town's range of terrain, from termite and tick coverage on wooded inland lots to mosquito control near the York River marsh and beach wetlands.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Kittery", slug: "kittery-me", stateSlug: "maine" },
+      { name: "Sanford", slug: "sanford-me", stateSlug: "maine" },
+      { name: "Saco", slug: "saco-me", stateSlug: "maine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in York, ME | Deer Ticks, Termites & Carpenter Ants",
+    metaDescription:
+      "Pest control in York, Maine. York County service for deer ticks, termites, carpenter ants, and mosquitoes along the coast near Nubble Light. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

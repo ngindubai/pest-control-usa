@@ -2535,4 +2535,524 @@ export const newHampshireCities: CityLocation[] = [
     metaTitle: "Pest Control in Raymond, NH | Ticks, Carpenter Ants & Mosquitoes",
     metaDescription: "Raymond NH pest control for deer ticks, carpenter ants, mice and mosquitoes. Lamprey and Exeter River watershed specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hanover-nh",
+    name: "Hanover",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~11,870",
+    county: "Grafton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hanover sits on the New Hampshire bank of the Connecticut River in the Upper Valley, home to Dartmouth College since Royal Governor John Wentworth granted the land for its 1769 charter. The cold-humid climate brings real winters that push most outdoor pests into dormancy for months, but the river corridor and the forested hills surrounding the campus keep deer tick habitat close to town, and the density of older brick and wood-frame college buildings gives carpenter ants and bats a steady supply of nesting and roosting spots.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Bats", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October",
+        note: "Grafton County reports steady Lyme disease case numbers each year through NH DHHS surveillance, and the wooded trails around Dartmouth, including Pine Park along the Connecticut River, keep deer and tick populations close to campus and the surrounding residential streets.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring emergence most visible",
+        note: "Hanover's concentration of older brick and wood-frame buildings, some dating to the college's earliest decades, gives carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, plenty of moisture-softened wood near roof lines and window sills to nest in.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note: "Off-campus student housing and the older single-family homes surrounding it both see a reliable fall push as New Hampshire's cold arrives, with mice moving from the wooded hillsides around town into any structure with an unsealed gap.",
+      },
+      {
+        name: "Bats",
+        serviceSlug: "bat-removal",
+        activeSeason: "Most active May through August, seeking shelter into fall",
+        note: "Older campus buildings and residential attics near the Connecticut River offer the dark, undisturbed roosting spots little brown bats look for, and a colony that has used the same attic for years can grow large enough that exclusion needs a licensed professional rather than a homeowner sealing an opening on their own.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive August and September",
+        note: "Ground nests and eave nests both turn up around the Dartmouth Green and the residential streets nearby, with colonies reaching their most defensive size by late summer, right as students and families are outdoors the most.",
+      },
+    ],
+    localHook:
+      "Dartmouth College received its charter in December 1769 from Royal Governor John Wentworth, one of only nine colonial colleges founded before the American Revolution, and its 269-acre campus sits on land granted along the Connecticut River. That combination of a heavily wooded Upper Valley setting and a dense cluster of older brick and wood-frame academic and residential buildings gives Hanover a pest calendar shaped as much by the college's history as by the river running past it.",
+    intro:
+      "Pest control in Hanover, NH runs through the same history that put Dartmouth College here in 1769. Royal Governor John Wentworth granted the land along the Connecticut River for the college's charter, and more than two and a half centuries later that river corridor and the wooded Upper Valley hills around campus still shape which pests show up and when. Deer ticks stay active in the forested trails ringing town, carpenter ants and bats both find opportunity in Hanover's older brick and wood-frame buildings, and house mice make their usual fall push into off-campus housing once New Hampshire's cold sets in. Yellowjackets round out the calendar, nesting around the Dartmouth Green and nearby residential streets through the warm months.",
+    sections: [
+      {
+        heading: "How the Upper Valley's Wooded Trails Shape Tick Risk in Hanover",
+        body: "Grafton County reports steady Lyme disease case numbers each year in NH DHHS surveillance data, and Hanover's setting inside the wooded Upper Valley gives deer ticks plenty of habitat close to where people actually spend time. Pine Park, the forested trail system along the Connecticut River just north of campus, and the wooded lots common on Hanover's residential streets both put people within easy reach of tick habitat during an ordinary walk or yard project. Deer ticks do not jump or fly, they wait on low vegetation and grab hold of anything that brushes past, which means the nymphal stage active from May into July, small enough to pass for a freckle, is the highest-risk period simply because it's the easiest to miss. Anyone with a wooded or brushy yard edge in Hanover should plan on a tick check after outdoor work and consider a professional perimeter treatment each spring.",
+      },
+      {
+        heading: "Carpenter Ants and Bats in Hanover's Older Campus-Era Buildings",
+        body: "A meaningful share of Hanover's housing and institutional buildings predate modern construction standards, some by well over a century, and that older wood, especially where roof lines or window sills have taken on moisture over the decades, is exactly what carpenter ants look for when choosing a nest site. UNH Cooperative Extension identifies carpenter ants as the state's most common structural pest complaint, and large black ants appearing indoors each spring from one consistent spot usually mean a colony already spent the winter inside. Bats present a related but separate concern in the same older buildings. Little brown bats look for dark, undisturbed spaces to roost, and an attic in an older campus or residential building near the river can host a colony for years without anyone noticing until droppings or noise at dusk give it away. Because bat colonies are protected under New Hampshire wildlife rules during parts of the year, and because handling them incorrectly creates health risk, exclusion in Hanover should go through a licensed wildlife control professional rather than a homeowner sealing an entry point without first confirming the bats have left.",
+      },
+      {
+        heading: "Fall Mice and Late-Summer Yellowjackets Around Campus",
+        body: "House mice follow a predictable pattern in Hanover, staying outdoors through the warmer months and then pushing hard into any building with an unsealed gap once temperatures drop in September and October. Off-campus student rentals see this as much as the town's older single-family homes, since both sit close to the wooded hillsides that give mice a short trip indoors once the weather turns. Yellowjackets close out the warm season on a different timeline, building nests in the ground and under eaves around the Dartmouth Green, athletic fields, and residential yards through the summer, and reaching their largest, most defensive colony size in August and September. That timing means the nests most likely to sting someone are also the ones that have had the longest to grow, so a nest spotted early in the summer is worth treating well before it reaches its late-season size.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any walk on Pine Park's trails or other wooded paths near the Connecticut River, especially May through July.",
+      "Inspect roof lines and window sills on older Hanover buildings each spring for the moisture damage that draws carpenter ants.",
+      "Call a licensed wildlife professional for suspected bat activity in an attic rather than sealing an entry point without confirming the colony has left.",
+      "Treat yellowjacket nests in June or early July, before colonies reach their most defensive size in August.",
+    ],
+    costNote:
+      "Hanover pest pricing runs consistent with Upper Valley rates. Tick yard treatment is typically a spring and fall program. Bat exclusion is quoted after an inspection confirms colony size and entry points, and timing depends on New Hampshire's bat protection rules. Carpenter ant and mouse work are quoted after a free inspection, with licensed and insured technicians standard across providers serving the area.",
+    faqs: [
+      {
+        question: "How bad is Lyme disease risk in Hanover, NH?",
+        answer: "Grafton County reports steady Lyme disease case numbers in NH DHHS annual surveillance, and Hanover's wooded Upper Valley setting, including trails like Pine Park along the Connecticut River, keeps deer tick habitat close to residential streets. The nymphal stage, active from May into July, carries the highest risk because it's so small and easy to miss.",
+      },
+      {
+        question: "Why does Hanover have bat problems in older buildings?",
+        answer: "Hanover's campus and residential buildings include a large share of older construction, some dating back well over a century, and little brown bats look for exactly the dark, undisturbed attic space that kind of building offers. A colony can use the same roost for years before anyone notices.",
+      },
+      {
+        question: "When do carpenter ants show up inside Hanover homes?",
+        answer: "Usually in spring, when colonies that overwintered in moisture-damaged wood become active again. UNH Cooperative Extension identifies carpenter ants as New Hampshire's most common structural pest, and Hanover's older housing stock near Dartmouth gives them plenty of softened wood to nest in.",
+      },
+      {
+        question: "Is bat removal in Hanover different from other pest treatment?",
+        answer: "Yes. Bats are protected under New Hampshire wildlife rules for part of the year, so exclusion has to be timed and handled by a licensed wildlife control professional rather than simply sealing an opening, which can trap bats inside or disturb a maternity colony at the wrong time of year.",
+      },
+      {
+        question: "What time of year are yellowjackets worst around Hanover?",
+        answer: "August and September, when nests around the Dartmouth Green, athletic fields, and residential yards reach their largest, most defensive size. Treating a nest earlier in the summer, while it's still small, is safer and more effective.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lebanon", slug: "lebanon-nh", stateSlug: "new-hampshire" },
+      { name: "Plymouth", slug: "plymouth-nh", stateSlug: "new-hampshire" },
+      { name: "Concord", slug: "concord-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hanover, NH | Ticks, Carpenter Ants & Bats",
+    metaDescription: "Hanover NH pest control for deer ticks, carpenter ants, bats and mice near Dartmouth College and the Connecticut River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "peterborough-nh",
+    name: "Peterborough",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~6,418",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver:
+      "Peterborough sits where the Contoocook and Nubanusit Rivers meet in the Monadnock Region of southern New Hampshire, ground that drew Thornton Wilder to the MacDowell artist colony in the 1920s and 1930s, work that became the basis for his 1938 play Our Town. The cold-humid climate brings the same real winters as the rest of the state, but Hillsborough County sits inside the part of southern New Hampshire the termite infestation probability map rates slight to moderate, and the town's historic downtown mill buildings along the rivers add carpenter ant and termite pressure that towns farther north do not share to the same degree.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Eastern Subterranean Termites", "House Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October",
+        note: "Hillsborough County reports consistent Lyme disease case numbers in NH DHHS annual surveillance, and the wooded studio grounds of the MacDowell artist colony, along with the trails around the Mount Monadnock foothills nearby, keep deer tick habitat close to Peterborough's residential streets.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring emergence most visible",
+        note: "Peterborough's downtown mill buildings along the Contoocook and Nubanusit Rivers carry over a century of river dampness worked into their timber framing, and carpenter ants, UNH Cooperative Extension's pick for the state's most common structural pest, nest readily in that softened wood.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm season, active underground year-round",
+        note: "Southern New Hampshire, including Hillsborough County, falls inside the slight to moderate termite infestation probability zone, and older downtown structures with wood-to-soil contact or crawl spaces near the rivers are the properties most worth a professional inspection.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note: "Peterborough's mix of historic downtown buildings and rural properties toward the edge of town both see a reliable fall push once temperatures drop, with older construction offering more entry points than newer homes.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Congregate on sun-warmed walls September through October, indoors through winter",
+        note: "Brown marmorated stink bugs have expanded their range across southern New Hampshire in recent years, and Peterborough's older homes with light-colored siding see fall congregations looking for a way indoors to overwinter.",
+      },
+    ],
+    localHook:
+      "Playwright Thornton Wilder spent nine separate residencies at Peterborough's MacDowell artist colony between 1924 and the 1930s, and the town's geography lines up closely with the setting he described for the fictional Grover's Corners in his 1938 Pulitzer Prize winning play Our Town. That same wooded, river-cut setting, the Contoocook and Nubanusit Rivers meeting near a downtown built up around 19th century mills, is what keeps Peterborough's carpenter ant and termite pressure tied to its historic buildings rather than to newer construction.",
+    intro:
+      "Pest control in Peterborough, NH is shaped by the same setting that drew playwright Thornton Wilder to the town's MacDowell artist colony across nine residencies in the 1920s and 1930s, work that became the basis for Our Town. The wooded, river-cut ground where the Contoocook and Nubanusit Rivers meet keeps deer ticks active on the trails and studio grounds around town, while Peterborough's historic downtown, built up around 19th century mills, gives carpenter ants and, less often, eastern subterranean termites the moisture-softened wood they favor. Hillsborough County sits inside the part of New Hampshire the termite infestation probability map rates slight to moderate, a risk level towns farther north in the state do not share. House mice make their usual fall arrival, and stink bugs have become a more common fall sight in recent years as their range has spread across southern New Hampshire.",
+    sections: [
+      {
+        heading: "MacDowell's Wooded Grounds and Peterborough's Tick Season",
+        body: "Hillsborough County reports consistent Lyme disease case numbers each year through NH DHHS surveillance, and Peterborough's setting, wooded studio grounds at the MacDowell artist colony, trails toward the Mount Monadnock foothills, and river corridors running through town, gives deer ticks plenty of habitat close to where residents and visiting artists actually walk. Deer ticks wait on low brush and grass rather than jumping or flying, latching onto anything that brushes past, and the nymphal stage active from May into July is the hardest to catch simply because it's roughly the size of a poppy seed. Anyone spending time on Peterborough's wooded trails, including MacDowell's own studio paths, should plan on a tick check afterward, and a property bordering woods or brush is worth a professional perimeter treatment each spring.",
+      },
+      {
+        heading: "Why Peterborough's Mill-Era Downtown Draws Carpenter Ants and Termites",
+        body: "Peterborough's downtown grew up around mills powered by the Contoocook and Nubanusit Rivers in the 1800s, and the timber framing in many of those buildings, along with nearby historic homes, has absorbed over a century of dampness from sitting close to moving water. That softened wood is precisely what carpenter ants look for when selecting a nest site, and UNH Cooperative Extension identifies them as New Hampshire's most common structural pest complaint. Termites are a smaller but real concern in the same buildings. Southern New Hampshire, including Hillsborough County, sits inside the slight to moderate termite infestation probability zone on the standard national risk map, a category towns farther north in the state fall outside of, and downtown structures with crawl spaces or direct wood-to-soil contact near the rivers are the ones most worth a professional termite inspection, since the damage develops out of sight and is easy to miss until it becomes significant.",
+      },
+      {
+        heading: "Fall Mice and the Spread of Stink Bugs in Peterborough",
+        body: "Mice arrive in Peterborough every fall on a familiar New Hampshire schedule, moving from surrounding fields and woods into any building with an unsealed gap once the first sustained cold nights hit in September. Both the town's historic downtown buildings and the more rural properties toward its edges see this pressure, with older construction generally offering more entry points than recently built homes. Stink bugs are a newer addition to the fall pest calendar here. Brown marmorated stink bugs have spread across southern New Hampshire over the past several years, and Peterborough's older homes, particularly those with light-colored siding that warms in the fall sun, see the same wall-climbing congregations that have become common across the wider Monadnock Region as the insect's range has expanded northward.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after time spent on wooded trails around town, including MacDowell's studio grounds, especially May through July.",
+      "Schedule a termite inspection for downtown buildings with crawl spaces or wood-to-soil contact near the Contoocook or Nubanusit Rivers.",
+      "Inspect timber framing in older mill-era buildings each spring for the moisture damage that draws carpenter ants.",
+      "Seal foundation and siding gaps before September to reduce both the fall mouse push and stink bug entry.",
+    ],
+    costNote:
+      "Peterborough pest pricing is consistent with Monadnock Region rates. Termite inspections are free, with treatment quoted after confirmed activity, and downtown mill-era buildings sometimes see a modestly higher quote given the additional time spent checking timber framing. Carpenter ant, mouse, and stink bug work are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Is Peterborough really the inspiration for Our Town?",
+        answer: "It's widely accepted as the model. Thornton Wilder spent nine residencies at Peterborough's MacDowell artist colony between 1924 and the 1930s, and the fictional Grover's Corners in his 1938 play lines up closely with the town's real geography.",
+      },
+      {
+        question: "Does Peterborough have a termite problem?",
+        answer: "It's a real but moderate risk. Hillsborough County sits inside the slight to moderate zone on the national termite infestation probability map, and Peterborough's downtown mill buildings, some with crawl spaces or wood-to-soil contact near the Contoocook and Nubanusit Rivers, are worth a professional inspection.",
+      },
+      {
+        question: "Why are carpenter ants common in Peterborough's downtown buildings?",
+        answer: "The timber framing in many mill-era downtown buildings has absorbed over a century of dampness from sitting close to the rivers that once powered them, and that moisture-softened wood is exactly what carpenter ants look for when choosing a nest site.",
+      },
+      {
+        question: "How serious is tick risk near the MacDowell colony grounds?",
+        answer: "Meaningful. Hillsborough County reports consistent Lyme disease case numbers in NH DHHS surveillance, and the wooded studio paths and trails around Peterborough keep deer tick habitat close to areas where people regularly walk.",
+      },
+      {
+        question: "Are stink bugs a new problem in Peterborough?",
+        answer: "Fairly new, yes. Brown marmorated stink bugs have expanded their range across southern New Hampshire in recent years, and Peterborough's older homes, especially those with light-colored siding, have seen growing fall congregations as a result.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Milford", slug: "milford-nh", stateSlug: "new-hampshire" },
+      { name: "Keene", slug: "keene", stateSlug: "new-hampshire" },
+      { name: "Amherst", slug: "amherst-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Peterborough, NH | Ticks, Termites & Carpenter Ants",
+    metaDescription: "Peterborough NH pest control for deer ticks, carpenter ants, termites and mice in the Monadnock Region. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "conway-nh",
+    name: "Conway",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~9,822",
+    county: "Carroll County",
+    climate: "cold-humid",
+    climateDriver:
+      "Conway anchors the Mount Washington Valley at the eastern gateway to the White Mountains, where the Saco River runs through a town built as much around tourism, more than 70 outlet stores at Settlers Green in the North Conway village, ski areas, and White Mountain National Forest access, as around year-round residents. The cold-humid climate brings hard winters that suppress most pests for months, but the seasonal rental cabins and vacation homes that sit empty between guests, along with the forested valley itself, give ticks, carpenter ants, and fall mice more opportunity than a typical year-round New Hampshire neighborhood.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Boxelder Bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October",
+        note: "Carroll County reports Lyme disease cases each year in NH DHHS surveillance, and the forested valley floor surrounding Conway, including trails leading into White Mountain National Forest, keeps deer and tick populations established close to both year-round neighborhoods and seasonal rental properties.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring emergence most visible",
+        note: "Conway's mix of older Mount Washington Valley farmhouses and the wood-frame cabins and vacation homes common throughout the area both carry moisture-affected wood in sills and window frames, and carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, nest readily in either.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note: "Seasonal rental cabins and vacation homes that sit unheated and empty for stretches of the fall and winter are especially vulnerable, since an unoccupied structure gives mice far longer to find a way in before anyone notices.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Congregate on sun-warmed walls September through October, indoors through winter",
+        note: "Conway's colder, higher-elevation setting near the White Mountains produces the same fall boxelder bug congregations common across northern New Hampshire, with light-colored cabin and home exteriors facing south or west drawing the largest numbers looking for a way indoors.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive August and September",
+        note: "Ground nests are common near the Saco River corridor, White Mountain National Forest trailheads, and the outdoor seating areas around North Conway's shops and restaurants, with colonies reaching their most defensive size right as fall foliage season brings the valley's heaviest visitor traffic.",
+      },
+    ],
+    localHook:
+      "Settlers Green and the other outlet centers in North Conway Village draw shoppers from across New England to more than 70 tax-free stores at the base of the White Mountains, and that tourism economy means a large share of Conway's housing stock is seasonal, cabins and vacation homes along the Saco River and the surrounding valley that sit empty for stretches between guests. That pattern of unoccupied structures gives mice, in particular, more time to find a way inside undetected than a typical year-round New Hampshire neighborhood allows.",
+    intro:
+      "Pest control in Conway, NH has to account for a town built around tourism as much as around its year-round residents. The Mount Washington Valley setting, with the Saco River running past North Conway's more than 70 outlet stores at Settlers Green and White Mountain National Forest trailheads close by, draws visitors in every season, and a large share of local housing is seasonal cabins and vacation rentals rather than full-time homes. That pattern shapes the pest calendar directly. Deer ticks stay active on the forested valley floor, carpenter ants and boxelder bugs both find their way into wood-frame cabins and farmhouses alike, and house mice get an easier path into rental properties left unheated and empty between bookings. Yellowjackets round out the warm season, nesting near the river and the valley's busiest outdoor spaces right as fall foliage traffic peaks.",
+    sections: [
+      {
+        heading: "Ticks and Yellowjackets in the Mount Washington Valley",
+        body: "Carroll County reports Lyme disease cases each year in NH DHHS surveillance data, and Conway's position in the forested Mount Washington Valley, with White Mountain National Forest trailheads close to town and the Saco River corridor running through it, keeps deer and the tick populations that depend on them established near both year-round neighborhoods and the valley's many seasonal properties. The nymphal tick stage, active from May into July and roughly the size of a poppy seed, is the hardest to spot and carries the most disease risk, which matters for a town where hikers and visitors move through wooded trailheads all season long. Yellowjackets follow a separate but equally valley-wide pattern, nesting in the ground near the Saco River and building colonies around the outdoor seating common at North Conway's shops and restaurants, with the most defensive nest sizes showing up in August and September, right as fall foliage season brings the valley's busiest weekends.",
+      },
+      {
+        heading: "Why Seasonal Rentals Change Conway's Mouse Problem",
+        body: "A meaningful share of Conway's housing exists to serve visitors rather than year-round residents, cabins and vacation homes scattered through the valley and near the ski areas that sit unheated and unoccupied for stretches of the off-season. That gap in occupancy is exactly what allows house mice to establish themselves undetected, since a property checked only occasionally between guest bookings gives them far more time to find an entry point and settle in than a home with someone present every day. Property managers handling multiple rental units in Conway generally need a more proactive inspection schedule than a typical single-family homeowner, since a mouse problem discovered only when the next renters arrive has already had weeks or months to develop.",
+      },
+      {
+        heading: "Carpenter Ants and Boxelder Bugs in Conway's Wood-Frame Buildings",
+        body: "Conway's older Mount Washington Valley farmhouses and its more numerous wood-frame cabins and vacation homes share a common vulnerability: moisture that works into sills and window frames over years of New Hampshire winters, exactly the softened wood carpenter ants look for when choosing a nest site. UNH Cooperative Extension identifies carpenter ants as the state's most common structural pest complaint, and large black ants appearing indoors each spring from one consistent spot usually mean a colony spent the winter inside. Boxelder bugs are a separate fall concern tied to Conway's colder, higher-elevation setting near the White Mountains, where light-colored cabin and home exteriors facing south or west draw large congregations each September and October as the insects look for a way indoors to overwinter. Neither pest is unique to Conway, but the valley's mix of older farmhouses and seasonal wood-frame construction gives both more opportunity than a denser, year-round southern New Hampshire neighborhood typically sees.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after hiking any White Mountain National Forest trail near Conway, especially May through July.",
+      "Schedule regular mouse inspections for seasonal rental cabins and vacation homes left unheated between bookings.",
+      "Inspect sills and window frames on both older farmhouses and wood-frame cabins each spring for the moisture damage that draws carpenter ants.",
+      "Treat yellowjacket ground nests near the Saco River or outdoor seating areas in June or July, before fall foliage season brings peak colony size.",
+    ],
+    costNote:
+      "Conway pest pricing reflects both year-round and seasonal-property service. Rental cabin and vacation home owners often set up a recurring inspection schedule timed around guest turnover rather than a single annual visit. Carpenter ant, mouse, and boxelder bug work are quoted after a free inspection, and yellowjacket nest treatment is priced per nest.",
+    faqs: [
+      {
+        question: "Why do seasonal rental cabins in Conway get mice more than year-round homes?",
+        answer: "Rental cabins and vacation homes often sit unheated and unchecked for stretches between guest bookings, and that gap in occupancy gives mice far more time to find an entry point and settle in undetected than a home with someone present daily. Property managers handling multiple units generally need a more proactive inspection schedule than a typical homeowner.",
+      },
+      {
+        question: "How serious is tick risk on White Mountain National Forest trails near Conway?",
+        answer: "Carroll County reports Lyme disease cases each year in NH DHHS surveillance, and the forested valley floor around Conway, including the trailheads leading into White Mountain National Forest, keeps deer tick habitat close to areas hikers regularly use. A tick check after any hike is a good habit here.",
+      },
+      {
+        question: "Does Conway's tourism economy affect its pest pressure?",
+        answer: "It does, mainly through housing. A large share of Conway's structures are seasonal cabins and vacation homes tied to Settlers Green's outlet shopping and the area's ski and hiking tourism, and those properties sitting empty between visitors give pests like mice more opportunity than a fully occupied year-round neighborhood.",
+      },
+      {
+        question: "When are yellowjackets worst near North Conway's shops and restaurants?",
+        answer: "August and September, when ground nests near the Saco River and around outdoor seating areas reach their largest, most defensive size, right as fall foliage season brings the valley's heaviest visitor traffic.",
+      },
+      {
+        question: "Are boxelder bugs a bigger problem in Conway than in southern New Hampshire?",
+        answer: "Generally yes. Conway's colder, higher-elevation setting near the White Mountains produces the same fall boxelder bug pattern common across northern New Hampshire, and light-colored cabin and home exteriors catching afternoon sun tend to draw the largest congregations.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Berlin", slug: "berlin-nh", stateSlug: "new-hampshire" },
+      { name: "Plymouth", slug: "plymouth-nh", stateSlug: "new-hampshire" },
+      { name: "Rochester", slug: "rochester-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Conway, NH | Ticks, Carpenter Ants & Mice",
+    metaDescription: "Conway NH pest control for deer ticks, carpenter ants, mice and boxelder bugs in the Mount Washington Valley. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "amherst-nh",
+    name: "Amherst",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~11,753",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver:
+      "Amherst served as the first seat of Hillsborough County from the county's 1769 formation until the courthouse function moved to Nashua and Manchester in 1866, and the town's colonial-era common, encircled by a fence in 1866 and dedicated as a park in 1868, still anchors a village center of large, well-spaced historic and estate-style properties. That combination of older wood-frame homes and generous lawns bordering woods or farmland gives Amherst a pest mix weighted toward carpenter ants, ticks, and lawn-dwelling pests more than the denser housing found in nearby Nashua or Manchester.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Eastern Subterranean Termites", "House Mice", "Moles & Voles"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October",
+        note: "Hillsborough County reports consistent Lyme disease case numbers in NH DHHS annual surveillance, and Amherst's large lots bordering woods or farmland, more common here than in denser nearby towns, give deer ticks more edge habitat close to lawns, gardens, and horse paddocks.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring emergence most visible",
+        note: "Amherst's historic village center, including homes and buildings dating to its decades as Hillsborough County's original shiretown, carries moisture-affected wood in older sills and window frames that carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, readily nest in.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarm season, active underground year-round",
+        note: "Hillsborough County sits inside the slight to moderate zone on the national termite infestation probability map, and Amherst's older wood-frame homes near the historic common, along with any structure with wood-to-soil contact, are worth a professional inspection.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note: "Amherst's larger, more rural-feeling lots give mice a shorter path from field or woods edge into a home once New Hampshire's fall cold arrives, a pattern more pronounced here than in Hillsborough County's denser suburban neighborhoods.",
+      },
+      {
+        name: "Moles and voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Most active spring and fall, tunneling visible after snowmelt",
+        note: "Amherst's large, well-maintained lawns and the horse and hobby farm properties scattered through town give moles and voles more open turf to tunnel through than a typical small suburban yard, with damage often most visible right after snowmelt in early spring.",
+      },
+    ],
+    localHook:
+      "Amherst was the first seat of Hillsborough County starting with the county's formation in 1769, hosting the courthouse, jail, and county court until the seat moved to Nashua and Manchester in 1866. The town's colonial-era common, established around 1755 and dedicated as a public park in 1868, still sits at the center of a village built around large, well-spaced lots, and those same generous lawns and wooded edges are what give Amherst more room for moles, voles, and ticks than the county's denser towns typically see.",
+    intro:
+      "Pest control in Amherst, NH reflects the town's history as Hillsborough County's original shiretown, home to the county courthouse from 1769 until the seat moved to Nashua and Manchester in 1866. The colonial-era common at the center of town anchors a village of large, well-spaced historic and estate-style properties, and those bigger lots, many bordering woods, farmland, or horse paddocks, shape Amherst's pest profile more than density does. Deer ticks find more edge habitat here than in nearby Hillsborough County suburbs, carpenter ants and termites both take hold in older village-center wood, house mice have a shorter path indoors from field or woods edge each fall, and moles and voles tunnel through the town's generous lawns each spring and fall.",
+    sections: [
+      {
+        heading: "Why Amherst's Large Lots Mean More Tick and Vole Pressure",
+        body: "Hillsborough County reports consistent Lyme disease case numbers each year in NH DHHS annual surveillance, and Amherst's pattern of large, well-spaced lots, many bordering woods, farmland, or horse paddocks, gives deer ticks more edge habitat close to where people actually spend time outdoors than the denser residential streets found in nearby Nashua or Manchester. The same generous lawns that give the town its open, historic character also give moles and voles more turf to tunnel through, with damage typically showing up as raised ridges or soft ground most visible right after snowmelt in early spring, and again in fall as the ground cools. Properties with horse paddocks or hobby farms tend to see both pests more consistently than a standard suburban yard, simply because there's more open, unbroken ground for them to work with.",
+      },
+      {
+        heading: "Amherst's Shiretown History and Its Older Village-Center Buildings",
+        body: "Amherst served as the seat of Hillsborough County from the county's 1769 formation until the courthouse function moved away in 1866, and the town's colonial-era common, fenced in 1866 and dedicated as a park two years later, still sits at the center of a village built up with historic wood-frame homes and buildings from that era. Decades of settling and moisture exposure in that older wood gives carpenter ants, identified by UNH Cooperative Extension as New Hampshire's most common structural pest, plenty of opportunity to nest in sills and window frames, and large black ants appearing indoors each spring usually mean a colony already spent the winter inside. Termites are a related, if less frequent, concern in the same buildings. Hillsborough County falls inside the slight to moderate zone on the national termite infestation probability map, and any older Amherst structure with wood-to-soil contact or a crawl space near the historic village center is worth a professional inspection.",
+      },
+      {
+        heading: "Fall Mice on Amherst's Rural-Feeling Properties",
+        body: "Amherst's larger lots, more common here than in Hillsborough County's denser suburban neighborhoods, put many homes closer to open field or woods edge, and that proximity gives house mice a shorter, more direct route indoors once New Hampshire's cold arrives each September. A property backing onto farmland or an unmowed field edge typically sees pressure earlier in the fall than a home surrounded entirely by other yards. Sealing foundation gaps, utility penetrations, and door sills before the season turns is the most effective step available to homeowners on Amherst's larger, more rural-feeling properties, and it matters more here than it would in a tightly packed subdivision.",
+      },
+    ],
+    prevention: [
+      "Do a tick check after time spent near wooded or farmland edges on Amherst's larger lots, especially April through October.",
+      "Inspect lawns for mole and vole tunneling after snowmelt each spring and again in fall.",
+      "Schedule a termite inspection for older wood-frame buildings near Amherst's historic village common.",
+      "Seal foundation gaps and door sills before September on properties bordering open field or woods.",
+    ],
+    costNote:
+      "Amherst pest pricing runs in line with southern Hillsborough County rates. Larger properties with horse paddocks or hobby farms sometimes see a modestly higher quote for mole and vole treatment given the additional turf area involved. Termite inspections are free, with treatment quoted after confirmed activity, and carpenter ant and mouse work are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why does Amherst have more mole and vole activity than nearby towns?",
+        answer: "Amherst's large, well-spaced lots, including horse paddocks and hobby farm properties scattered through town, give moles and voles more open, unbroken turf to tunnel through than the smaller yards typical of denser Hillsborough County suburbs. Damage usually shows up most clearly right after snowmelt in early spring.",
+      },
+      {
+        question: "Is Amherst really the historic seat of Hillsborough County?",
+        answer: "Yes. Amherst hosted the county courthouse, jail, and court from the county's formation in 1769 until the seat moved to Nashua and Manchester in 1866, and the town's colonial-era common at its center dates to around 1755.",
+      },
+      {
+        question: "How serious is Lyme disease risk in Amherst?",
+        answer: "Meaningful. Hillsborough County reports consistent Lyme disease case numbers in NH DHHS annual surveillance, and Amherst's large lots bordering woods or farmland give deer ticks more edge habitat close to lawns and gardens than denser nearby towns typically have.",
+      },
+      {
+        question: "Do Amherst's historic homes near the common need termite inspections?",
+        answer: "It's worth having one. Hillsborough County sits inside the slight to moderate zone on the national termite infestation probability map, and older wood-frame buildings near Amherst's historic village common, particularly any with wood-to-soil contact or a crawl space, are the structures most likely to benefit from a professional look.",
+      },
+      {
+        question: "Why do mice reach Amherst homes faster in fall than in denser towns?",
+        answer: "Amherst's larger, more rural-feeling lots put many homes closer to open field or woods edge than a typical suburban neighborhood, giving mice a shorter, more direct path indoors once the first sustained cold nights arrive each September.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Milford", slug: "milford-nh", stateSlug: "new-hampshire" },
+      { name: "Merrimack", slug: "merrimack-nh", stateSlug: "new-hampshire" },
+      { name: "Peterborough", slug: "peterborough-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Amherst, NH | Ticks, Moles & Carpenter Ants",
+    metaDescription: "Amherst NH pest control for deer ticks, moles, voles, carpenter ants and termites near the historic village common. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "plymouth-nh",
+    name: "Plymouth",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~6,682",
+    county: "Grafton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Plymouth sits at the southern gateway to the White Mountains along the Pemigewasset River, a river valley that has served as the main travel corridor into the mountains since the 1800s and now carries both Interstate 93 traffic and Plymouth State University's several thousand undergraduate and graduate students. The cold-humid climate brings hard winters, but the river corridor and the university's older campus and off-campus housing both give ticks, carpenter ants, and fall rodent activity, including squirrels moving into older buildings, more opportunity than the surrounding smaller mountain towns see.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Squirrels", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through October",
+        note: "Grafton County reports Lyme disease cases each year in NH DHHS surveillance, and the wooded Pemigewasset River corridor running through Plymouth, along with trails leading toward the White Mountains just north of town, keeps deer tick habitat close to both campus and residential neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring emergence most visible",
+        note: "Plymouth's older downtown buildings and campus-adjacent housing, some tied to the town's 19th century mill and travel-corridor history along the Pemigewasset, carry moisture-affected wood that carpenter ants, New Hampshire's most common structural pest according to UNH Cooperative Extension, nest in readily.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note: "Off-campus student housing near Plymouth State University sees a reliable fall push each year as the university's academic calendar and New Hampshire's cold arrive close together, alongside the same pattern in the town's older single-family homes.",
+      },
+      {
+        name: "Squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Most active fall through early winter seeking den sites",
+        note: "Plymouth's older campus buildings and downtown structures, many with mature trees close by, give gray squirrels easy roof and eave access, and a squirrel that gets into an attic or wall void can cause real damage chewing through wiring and insulation while building a winter den.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive August and September",
+        note: "Ground nests and eave nests both show up around campus, downtown, and residential yards near the river, with colonies reaching their most defensive size in late summer as the fall semester and the region's foliage tourism both bring more people outdoors.",
+      },
+    ],
+    localHook:
+      "Plymouth has served as the southern gateway to the White Mountains since the 1800s, when the Pemigewasset River valley carried the region's earliest travel routes and the Pemigewasset House hotel drew some of the era's first mountain tourists. Today that same river corridor carries Interstate 93 and anchors Plymouth State University, whose several thousand students fill a large share of the town's off-campus and near-campus housing, older buildings and rentals that give Plymouth's pest profile a distinct campus-town shape.",
+    intro:
+      "Pest control in Plymouth, NH runs through both a mountain gateway history and a college town present. The Pemigewasset River valley has carried travelers toward the White Mountains since the 1800s, when hotels like the old Pemigewasset House first drew mountain tourists to town, and that same corridor now carries Interstate 93 and anchors Plymouth State University. Deer ticks stay active along the wooded river corridor and nearby mountain trails, carpenter ants find opportunity in Plymouth's older downtown and campus-adjacent buildings, and house mice make a reliable fall push into off-campus student housing right as the academic year gets underway. Squirrels look for den sites in older buildings near campus each fall, and yellowjackets nest around town through the warm months, peaking as foliage season brings extra visitor traffic.",
+    sections: [
+      {
+        heading: "The Pemigewasset River Corridor and Plymouth's Tick Season",
+        body: "Grafton County reports Lyme disease cases each year in NH DHHS surveillance data, and Plymouth's setting along the wooded Pemigewasset River corridor, with trails leading north toward the White Mountains, keeps deer tick habitat close to both the Plymouth State University campus and the town's residential neighborhoods. The nymphal tick stage, active from May into July and roughly the size of a poppy seed, poses the highest transmission risk simply because it's the easiest stage to miss during a walk along the river or a hike toward the mountains. Students and residents spending time on the river trails or the wooded edges common around Plymouth should plan on a tick check afterward, and properties bordering woods are worth a professional perimeter treatment each spring.",
+      },
+      {
+        heading: "Carpenter Ants and Squirrels in Plymouth's Older Campus-Area Buildings",
+        body: "Plymouth's downtown and the buildings surrounding Plymouth State University include a meaningful share of older construction tied to the town's 19th century history as a mill town and mountain travel hub along the Pemigewasset, and the moisture that wood has absorbed over the decades is exactly what carpenter ants look for when selecting a nest site. UNH Cooperative Extension identifies carpenter ants as New Hampshire's most common structural pest complaint, and large black ants emerging indoors each spring from a consistent spot usually mean a colony already spent the winter inside. Squirrels present a related concern in the same older buildings, particularly ones near mature trees close to campus and downtown. A gray squirrel that finds its way into an attic or wall void through a damaged roof edge or vent can cause real, sometimes expensive damage chewing through wiring and insulation while it builds out a winter den, and fall is when this activity picks up most, as squirrels look for shelter ahead of the cold.",
+      },
+      {
+        heading: "Fall Mice and the Plymouth State University Housing Cycle",
+        body: "House mice follow a predictable pattern in Plymouth, staying outdoors through the warmer months before pushing into buildings once temperatures drop in September and October, and the timing lines up closely with the start of Plymouth State University's fall semester, when off-campus and near-campus rental housing fills back up after summer. Older rental units near campus, along with the town's older single-family homes, tend to have more unsealed gaps than newer construction, giving mice an easier path indoors right as students are settling in for the year. Yellowjackets close out the outdoor pest calendar on a separate schedule, with nests around campus, downtown, and riverside residential yards reaching their largest and most defensive size in August and September, just as the fall semester begins and the region's foliage season starts drawing more visitors through town.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after walking or hiking the Pemigewasset River trails or routes toward the White Mountains, especially May through July.",
+      "Inspect attics and rooflines near campus and downtown each fall for squirrel entry points before den-building season peaks.",
+      "Schedule a spring inspection of older downtown and campus-adjacent buildings for the moisture damage that draws carpenter ants.",
+      "Seal foundation and window gaps in off-campus rental housing before the fall semester begins, ahead of the seasonal mouse push.",
+    ],
+    costNote:
+      "Plymouth pest pricing is standard for Grafton County. Off-campus rental property owners and managers often benefit from an inspection scheduled around fall semester turnover. Squirrel exclusion is quoted after confirming entry points and any attic or wall damage. Carpenter ant and mouse work are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Why do squirrels get into buildings near Plymouth State University?",
+        answer: "Plymouth's older campus and downtown buildings sit close to mature trees, and gray squirrels use damaged roof edges or vents to reach an attic or wall void, especially in fall when they're building out a winter den. Once inside, they can chew through wiring and insulation.",
+      },
+      {
+        question: "How bad is tick risk along the Pemigewasset River in Plymouth?",
+        answer: "Meaningful. Grafton County reports Lyme disease cases each year in NH DHHS surveillance, and the wooded river corridor running through Plymouth, along with trails toward the White Mountains, keeps deer tick habitat close to both campus and residential neighborhoods.",
+      },
+      {
+        question: "Does Plymouth State University's schedule affect the town's mouse problem?",
+        answer: "It lines up closely. Mice typically push indoors in September and October as New Hampshire's cold arrives, which is the same window when off-campus and near-campus rental housing fills back up for the fall semester, and older rental units tend to have more entry points than newer construction.",
+      },
+      {
+        question: "Why does Plymouth have carpenter ants in its downtown buildings?",
+        answer: "Plymouth's downtown includes older construction tied to its 19th century history as a mill town and mountain travel hub along the Pemigewasset River, and the moisture that wood has absorbed over the decades is exactly what carpenter ants look for when choosing a nest site.",
+      },
+      {
+        question: "When are yellowjackets most active around Plymouth?",
+        answer: "August and September, when nests around campus, downtown, and riverside neighborhoods reach their largest, most defensive size, right as the fall semester begins and foliage season brings more visitors through town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Concord", slug: "concord-nh", stateSlug: "new-hampshire" },
+      { name: "Hanover", slug: "hanover-nh", stateSlug: "new-hampshire" },
+      { name: "Franklin", slug: "franklin-nh", stateSlug: "new-hampshire" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Plymouth, NH | Ticks, Squirrels & Carpenter Ants",
+    metaDescription: "Plymouth NH pest control for deer ticks, squirrels, carpenter ants and mice near Plymouth State University and the Pemigewasset River. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
