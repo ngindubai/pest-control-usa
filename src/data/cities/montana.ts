@@ -2606,4 +2606,116 @@ export const montanaCities: CityLocation[] = [
     metaDescription:
       "Helena Valley West Central, MT pest control for house mice, ticks, wasps and boxelder bugs. Lewis and Clark County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "helena-valley-northwest-mt",
+    name: "Helena Valley Northwest",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~5,200",
+    county: "Lewis and Clark County",
+    climate: "semi-arid",
+    climateDriver:
+      "Helena Valley Northwest sits at roughly 3,970 feet on the north side of the Helena Valley in Lewis and Clark County, part of the same semi-arid basin that rings the state capital on every side. Census Bureau land surveys put the community's water area at just 0.0039 square miles out of a 16.4 square mile footprint, close enough to zero that the place has no meaningful natural surface water at all. That combination, dry valley air, wide day-to-night temperature swings, and almost no creek or pond to speak of, means whatever moisture pests find here comes from a sprinkler line or a garden hose rather than a lake or stream, and it shapes a pest calendar built around irrigation, not water bodies.",
+    topPests: [
+      "Deer mice",
+      "Pavement ants",
+      "Columbian ground squirrels",
+      "Mosquitoes",
+      "Boxelder bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharpest increase indoors from September through winter",
+        note: "Deer mice are the primary hantavirus carrier in Montana, and the still-active grazing ground bordering Helena Valley Northwest's newer subdivisions keeps a wild population within a few yards of every foundation, which is why sealing entry points before cold weather matters more here than the nuisance factor alone suggests.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active May through September",
+        note: "The community's population has more than doubled since 2000, from 2,082 residents to roughly 5,200 today, and that pace of new driveway, sidewalk, and slab construction has given pavement ants exactly the disturbed, poured ground under which this species nests and forages toward kitchens.",
+      },
+      {
+        name: "Columbian ground squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Emerge in early spring, dormant again by mid to late summer",
+        note: "This species is common across western Montana's open valley grassland, and lawns cut directly out of former pasture in Helena Valley Northwest still show the burrow entrances left behind, usually near fence lines and unmowed edges where the ground was disturbed least during construction.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "With almost no natural surface water in the CDP itself, mosquito pressure here traces back to irrigation, standing water in sprinkler heads, uncovered rain barrels, and stock tanks left over from the valley's grazing days, rather than to a pond or drainage ditch the way it does in wetter parts of the county.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation, overwinters indoors",
+        note: "Boxelder bugs gather each fall on the sun-facing walls of Helena Valley Northwest homes before working through unsealed siding gaps and window trim to overwinter inside, a pattern common across the semi-arid Helena Valley generally.",
+      },
+    ],
+    localHook:
+      "Census Bureau land surveys measure Helena Valley Northwest's water area at 0.0039 square miles out of a total 16.4 square miles, which is another way of saying this stretch of the Helena Valley has essentially no natural creek, pond, or wetland within its borders. The community's population has more than doubled since 2000, climbing from 2,082 residents to an estimated 5,200 today, almost entirely through new subdivisions built on what had been open grazing land north of Helena.",
+    intro:
+      "Pest control in Helena Valley Northwest comes down to a place that grew fast and stayed dry. This unincorporated census-designated place on the north side of the Helena Valley in Lewis and Clark County had 2,082 residents in 2000 and stands at roughly 5,200 today, more than doubling in a generation as former grazing ground gave way to new streets and homes. Unlike the lake-adjacent and reservoir-fed communities elsewhere in the valley, Helena Valley Northwest has almost no natural surface water of its own, just 0.0039 square miles out of a 16.4 square mile footprint, so pests that need moisture here find it in a sprinkler head or a garden hose rather than a creek. Deer mice, Montana's primary hantavirus carrier, move in from the grazing land still bordering newer subdivisions. Pavement ants have taken to the wave of fresh driveways and sidewalks that came with two decades of construction. Columbian ground squirrels burrow along fence lines in lawns cut straight out of old pasture, and boxelder bugs round out the fall calendar the way they do across the rest of the valley.",
+    sections: [
+      {
+        heading: "A community that more than doubled without gaining a drop of water",
+        body: "Helena Valley Northwest's growth is the story in one number: 2,082 residents in 2000, 4,705 at the 2020 census, and an estimated 5,200 today. Almost none of that growth came with new water infrastructure of the natural kind, because there simply isn't much here to begin with. Census land surveys put the CDP's water area at 0.0039 square miles, a rounding error against its 16.4 square mile footprint. What did arrive with the population boom was a lot of fresh concrete: new driveways, new sidewalks, new foundation slabs, exactly the kind of disturbed, poured ground pavement ants prefer to nest beneath before they forage indoors each summer. And because the land under those new subdivisions was grazing ground until fairly recently, the wild deer mouse population that lived there before construction hasn't gone anywhere. It simply moved to the edge of the nearest yard. Montana health officials have long identified deer mice as the state's primary hantavirus carrier, which is one reason sealing up foundation gaps before the fall cold sets in carries more weight here than a typical rodent nuisance call would suggest. There's no city government coordinating any of this. Helena Valley Northwest is unincorporated, so every property owner handles exclusion and treatment on their own schedule.",
+      },
+      {
+        heading: "Mosquitoes without a lake, ground squirrels in the lawn",
+        body: "Ask where the mosquitoes come from in a community with almost no natural water, and the answer is the same infrastructure that keeps a semi-arid lawn green. Sprinkler heads that pool water after each cycle, uncovered rain barrels, and the odd leftover stock tank from the area's grazing past do the job a pond would do elsewhere in the county, so mosquito season here runs June through August and tracks irrigation habits more closely than it tracks rainfall. Columbian ground squirrels tell a related story. This species is common across the open valley grassland of western Montana, and lawns established directly on former pasture in Helena Valley Northwest still carry the burrow entrances left behind from before construction, usually near fence lines and the unmowed strips where the ground was disturbed least. The squirrels emerge in early spring, are most visible through early summer, and then go dormant by mid to late summer, so the spring window is when burrow damage in a new lawn is easiest to catch and address before it spreads.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before fall arrives, since deer mice moving in from bordering grazing land are Montana's primary hantavirus carrier.",
+      "Empty or cover rain barrels, stock tanks, and anything that collects sprinkler runoff between June and August, the community's only real mosquito breeding source given its near-total lack of natural water.",
+      "Check lawns built on former pasture for ground squirrel burrow entrances each spring, especially along fence lines and unmowed edges.",
+      "Have pavement ant colonies treated at the nest under new driveways and sidewalks before summer foraging trails reach the kitchen.",
+    ],
+    costNote:
+      "Pest control in Helena Valley Northwest typically pairs a fall rodent exclusion visit, given the hantavirus risk from bordering grazing land, with a summer mosquito and irrigation check for properties relying on sprinklers rather than natural water. Ground squirrel and pavement ant service is usually seasonal and added as needed. A free inspection identifies which pressures apply to a specific property before recommending a plan.",
+    faqs: [
+      {
+        question: "Why is hantavirus a real concern in Helena Valley Northwest?",
+        answer:
+          "Deer mice are Montana's primary hantavirus carrier, and Helena Valley Northwest's newer subdivisions sit directly against grazing land that has supported a wild deer mouse population for years. That population doesn't relocate when a subdivision goes in, so homes closest to the remaining open ground see the most exposure, and sealing entry points before cold weather is the most effective precaution.",
+      },
+      {
+        question: "Where do mosquitoes in Helena Valley Northwest come from if there's no lake nearby?",
+        answer:
+          "Census Bureau land surveys show Helena Valley Northwest has only 0.0039 square miles of water across its entire 16.4 square mile footprint, essentially none. Mosquitoes here breed in sprinkler runoff, uncovered rain barrels, and leftover stock tanks from the area's grazing history rather than in a natural pond or creek, which is why irrigation habits matter more than rainfall for controlling them.",
+      },
+      {
+        question: "Why does Helena Valley Northwest have so many pavement ants?",
+        answer:
+          "The community's population more than doubled between 2000 and today, from 2,082 residents to roughly 5,200, and that growth brought a wave of new driveways, sidewalks, and foundation slabs. Pavement ants nest under exactly that kind of fresh, disturbed concrete before foraging indoors, so newer streets tend to see the most activity.",
+      },
+      {
+        question: "Are ground squirrels a problem in Helena Valley Northwest lawns?",
+        answer:
+          "Yes, particularly on streets built directly on former pasture. Columbian ground squirrels are common across western Montana's open valley grassland, and burrow entrances often remain along fence lines and unmowed edges in lawns converted from grazing land. They emerge in early spring and go dormant by mid to late summer, so spring is the best window to address burrow damage.",
+      },
+      {
+        question: "Does Helena Valley Northwest have its own pest control program?",
+        answer:
+          "No. It is an unincorporated census-designated place in Lewis and Clark County with no city government, so there is no municipal pest management service. Every homeowner handles rodent, ant, mosquito, and ground squirrel pressure on their own property.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Helena", slug: "helena-mt", stateSlug: "montana" },
+      { name: "Helena Valley West Central", slug: "helena-valley-west-central-mt", stateSlug: "montana" },
+      { name: "Helena Valley Southeast", slug: "helena-valley-southeast-mt", stateSlug: "montana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Helena Valley Northwest, MT | Mice, Ants & Mosquitoes",
+    metaDescription:
+      "Helena Valley Northwest, MT pest control for deer mice, pavement ants, ground squirrels and mosquitoes. Lewis and Clark County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

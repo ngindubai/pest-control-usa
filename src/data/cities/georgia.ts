@@ -10787,4 +10787,537 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Camilla, GA pest control for mosquitoes tied to irrigated farmland, flies and rodents from agriculture, fire ants, and American cockroaches. Free inspection.",
   },
+  {
+    slug: "richmond-hill-ga",
+    name: "Richmond Hill",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~18,500",
+    county: "Bryan County",
+    climate: "hot-humid",
+    climateDriver:
+      "Richmond Hill sits on Georgia's low coastal plain in Bryan County, with the tidal Ogeechee River forming its eastern edge and elevations of only 10 to 20 feet above sea level. Extensive salt marsh and flood-prone bottomland line the river, while the city's rapid growth has pushed new subdivisions into former pine woodland and farmland bordering Fort Stewart's southern boundary. That mix of tidal marsh, sandy soil, and freshly cleared lots drives a pest pattern different from inland Georgia towns.",
+    topPests: ["Mosquitoes", "Termites", "Fire Ants", "American Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, rarely stops in a mild winter",
+        note: "Tidal marsh along the Ogeechee River breeds mosquito species that are strong fliers, capable of reaching yards well past the waterline without any standing water of their own.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active most of the year",
+        note: "Sandy coastal plain soil and a wave of new slab-on-grade construction leave fresh lumber sitting against ground that stays damp for weeks after Georgia's frequent summer storms.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Freshly graded lots from Richmond Hill's rapid subdivision growth create bare, sandy ground that red imported fire ants colonize within weeks.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Humid marshland and wooded lots along the Ogeechee push these into crawl spaces and garages, especially in older homes closer to the river.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Wooded buffer strips bordering Fort Stewart's training land and the marsh corridors support white-tailed deer that carry ticks onto shaded residential lots.",
+      },
+    ],
+    localHook:
+      "Richmond Hill's eastern edge runs along the tidal Ogeechee River, and the salt marsh that lines it breeds mosquitoes that travel much farther from their hatching sites than the container-breeding species common elsewhere in Georgia, meaning a property doesn't need standing water of its own to see heavy pressure.",
+    intro:
+      "Does a marsh mosquito care whether your yard has standing water? Not really, and that's the detail that catches a lot of new Richmond Hill residents off guard. The city's eastern edge runs along the tidal Ogeechee River, and the salt marsh lining it breeds mosquitoes that travel far past the waterline, often well into yards that never collect a drop of rain. Add Bryan County's sandy coastal plain soil, favorite ground for fire ants and a steady base for subterranean termites, plus a construction boom pushing new subdivisions into former pine woods near Fort Stewart's southern boundary, and Richmond Hill ends up with a pest mix that looks coastal in some ways and looks like a fast-growing exurb in others.",
+    sections: [
+      {
+        heading: "Tidal marsh mosquitoes don't wait for your yard to flood",
+        body: "Most Georgia mosquito advice starts with removing standing water on the property, and that's still worth doing here. But Richmond Hill's marsh mosquitoes breed in the tidal wetlands along the Ogeechee River itself, not primarily in a birdbath or a clogged gutter, and salt marsh species are strong fliers capable of covering a mile or more from where they hatch. That means a property well back from the river can still see heavy pressure on a summer evening, especially after a high tide combines with rain. Homes closer to the marsh, including several of the newer riverside communities built with marsh views in mind, see the longest and most intense season, running from spring well into fall and rarely stopping completely in a mild winter.",
+      },
+      {
+        heading: "New construction and sandy soil feed fire ants and termites",
+        body: "Richmond Hill's population has grown fast, and a lot of that growth shows up as freshly graded lots and new streets cut into former pine woods and farmland. Bare, sandy soil on a lot that hasn't been landscaped yet is close to ideal ground for red imported fire ants, which move in and build mounds within weeks of grading. The same warm, humid coastal plain climate that suits fire ants also keeps eastern subterranean termite colonies active across most of the year, and fresh lumber framing a new home sits directly against soil that stays damp for weeks after Georgia's frequent summer storms. An annual termite inspection matters just as much for a five-year-old subdivision home here as it does for an older house near downtown.",
+      },
+      {
+        heading: "Fort Stewart's wooded buffer keeps ticks active on shaded lots",
+        body: "Richmond Hill sits along the southern edge of Fort Stewart, and the wooded training land and marsh corridors bordering the base support a healthy white-tailed deer population that doesn't stop at the fence line. Deer move through the wooded buffer strips left standing between subdivisions, and they carry ticks onto shaded residential lots, especially properties backing up to undeveloped timberland. Spring through fall is the highest-risk window, and families with kids or pets who spend time in yards bordering woods or tall grass should treat tick control as a standing part of pest service, not an afterthought added after a bite is found. A subdivision built right up against Fort Stewart's boundary carries a different tick risk profile than a similar home a mile away in an older, more built-out part of town, so a one-size treatment plan rarely fits both.",
+      },
+    ],
+    prevention: [
+      "Treat the yard even if it stays dry: marsh mosquitoes fly in from the Ogeechee River tidal wetlands regardless of standing water on the property.",
+      "Get a termite inspection on new construction homes too; fresh lumber against damp coastal plain soil is a real risk within the first few years.",
+      "Treat fire ant mounds on newly graded lots early, before colonies establish in bare soil.",
+      "Keep tick control active spring through fall on lots bordering wooded buffers or Fort Stewart's training land.",
+    ],
+    costNote:
+      "Richmond Hill's mosquito season runs long thanks to the tidal marsh, and many homes near the river or backing to wooded buffers pair a seasonal mosquito plan with a termite inspection and tick coverage. A free inspection sets the right combination for your property; general pest coverage typically runs $150 to $280 per year.",
+    faqs: [
+      {
+        question: "Why do I have mosquitoes in Richmond Hill even with no standing water in my yard?",
+        answer:
+          "Richmond Hill's mosquito pressure comes largely from the tidal salt marsh along the Ogeechee River, and those species are strong fliers that can reach yards a mile or more from the marsh, so a property doesn't need its own standing water to see heavy activity.",
+      },
+      {
+        question: "Is termite risk different for new construction homes in Richmond Hill?",
+        answer:
+          "No, and that surprises some new homeowners. Warm, humid coastal plain conditions keep eastern subterranean termites active most of the year, and fresh lumber against damp graded soil in a new subdivision is just as exposed as an older home, so an inspection schedule should start early.",
+      },
+      {
+        question: "Are ticks a real concern in Richmond Hill?",
+        answer:
+          "Yes, especially on lots backing up to wooded buffers near Fort Stewart's training land, where deer move through and carry ticks onto residential property. Spring through fall is the highest-risk window.",
+      },
+      {
+        question: "Do fire ants show up quickly on new Richmond Hill lots?",
+        answer:
+          "Often within weeks. Bare, sandy soil on a freshly graded lot is close to ideal ground for red imported fire ants, so treating mounds early, before landscaping is even finished, helps keep them from spreading.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta", stateSlug: "georgia" },
+      { name: "Pooler", slug: "pooler", stateSlug: "georgia" },
+      { name: "Port Wentworth", slug: "port-wentworth-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Richmond Hill, GA | Marsh Mosquitoes & Termites",
+    metaDescription:
+      "Richmond Hill, GA pest control for tidal marsh mosquitoes, termites in new construction, fire ants, and ticks near Fort Stewart. Free inspection.",
+  },
+  {
+    slug: "mableton-ga",
+    name: "Mableton",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~78,000",
+    county: "Cobb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mableton sits along the Chattahoochee River, which forms Cobb County's southeastern border, and Nickajack Creek, the waterway that powered the area's 19th century grist, saw, cotton, and woolen mills. The city's mature tree canopy, dozens of creek-fed parks, and the wooded Silver Comet Trail corridor running through town hold shade and moisture that keep pest pressure steady through Georgia's hot, humid summers.",
+    topPests: ["Mosquitoes", "Termites", "Roof Rats", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Nickajack Creek, the Chattahoochee River floodplain, and the shaded parks lining the Silver Comet Trail hold small pools of standing water well after a storm has passed.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active much of the year",
+        note: "Much of Mableton's housing dates to the mid-century mill era and later suburban growth, and Georgia's warm, humid climate keeps colonies active on homes of any age near the creek-fed ground.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in fall",
+        note: "Mableton's mature hardwood canopy along older streets and the Silver Comet Trail gives roof rats an elevated route from the trees straight to a rooftop.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible in warm months",
+        note: "Open lawns and the many parks and trail-adjacent green spaces across Mableton support fire ant colonies that rebuild fast after rain.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Creek corridors and older crawl-space homes near Nickajack Creek give American cockroaches an easy route from outdoor moisture into houses.",
+      },
+    ],
+    localHook:
+      "Mableton became Georgia's newest city only in 2023, when voters approved incorporation after more than a century as an unincorporated part of Cobb County, and the mature tree canopy and creek corridors that shaped its mill-town past, Nickajack Creek once powered grist, saw, cotton, and woolen mills, still drive its pest pressure today.",
+    intro:
+      "Mableton became Georgia's newest city only in 2023, after more than a century as an unincorporated stretch of Cobb County, but the pests here don't care about that vote. What shapes pest pressure across Mableton is much older: the Chattahoochee River forming the county's southeastern border, Nickajack Creek, which once powered 19th century grist, saw, cotton, and woolen mills, and the mature hardwood canopy that still covers most of the city's older neighborhoods. Add the 61 mile Silver Comet Trail running straight through town on a wooded former rail bed, and Mableton ends up with a mosquito, termite, and roof rat pattern built around shade, moisture, and mature trees rather than new construction.",
+    sections: [
+      {
+        heading: "Creek corridors and a wooded rail trail hold moisture all summer",
+        body: "Nickajack Creek and the Chattahoochee River floodplain give Mableton a lot of shaded, slow-draining ground, and the parks and greenways that line the Silver Comet Trail add still more. Mosquitoes breed readily in the small pools and puddles that collect along creek banks and low spots in older neighborhoods, and the tree canopy overhead keeps that ground shaded and humid well after a storm has passed. Homes closest to the creek corridors or backing onto trail-adjacent green space see the steadiest pressure, running from spring through fall and rarely letting up during a wet summer. Yards farther from the water, on the higher, more open ground toward the edges of the city, see a noticeably shorter and lighter season by comparison.",
+      },
+      {
+        heading: "Mid-century mill town housing brings steady termite pressure",
+        body: "A lot of Mableton's housing stock dates to the decades after the mill era, mid-century and later suburban growth built up around the old Nickajack and Mill Grove settlements near the creek. Homes of that age are well past the point where a first termite inspection would have caught early activity, and Georgia's warm, humid climate keeps eastern subterranean termite colonies active across most of the year regardless of a house's age. Newer construction filling in around the edges of the city isn't exempt either; the same creek-fed moisture that has always defined this stretch of Cobb County sits under fresh lumber just as easily as it sits under a decades-old foundation.",
+      },
+      {
+        heading: "Mature tree canopy gives roof rats an easy way in",
+        body: "Mableton's older, tree-lined streets are part of what makes the city feel established rather than newly built, but that same mature hardwood canopy gives roof rats a direct, elevated route from the woods along Nickajack Creek and the Silver Comet Trail straight to a rooftop, without the rat ever touching the ground. Once on a roofline, gaps around vents, soffits, and roof edges are all it takes to get into an attic. Homes with limbs overhanging or close to the roof, common on Mableton's older, wooded lots, see this pattern more than newer subdivisions with younger, shorter trees, which is why trimming tree limbs back from the roofline is one of the more effective single steps a Mableton homeowner can take. Norway rats show up too, mostly near older foundations and drainage lines close to Nickajack Creek, so an inspection that checks both the roofline and the crawl space tends to catch more than one that only looks up.",
+      },
+    ],
+    prevention: [
+      "Clear standing water and check low spots along creek-adjacent yards through the warm season; Mableton's mosquito season tracks the shaded creek corridors more than open lawns.",
+      "Keep a termite inspection on the calendar regardless of a home's age; Mableton's older mill-era housing and its newer infill construction both sit on the same moisture-holding creek ground.",
+      "Trim tree limbs back from the roofline to block roof rats from using the mature canopy as a route to the attic.",
+      "Treat fire ant mounds early in parks, trail-adjacent yards, and open lawns before colonies spread.",
+    ],
+    costNote:
+      "Mableton's mix of older mill-era homes, newer infill construction, and heavily wooded creek-adjacent lots means pest plans vary more here than in a typical newer suburb. General pest coverage for termites, mosquitoes, roof rats, and ants runs $150 to $270 per year, with a free inspection to confirm what your specific lot and home age call for.",
+    faqs: [
+      {
+        question: "When did Mableton become an official city?",
+        answer:
+          "Voters approved incorporation in November 2022, and Mableton's first city council took office in 2023, making it Georgia's newest city. That recent change is about local government, though; the creek corridors and mature tree canopy that shape pest pressure here go back much further.",
+      },
+      {
+        question: "Why does Mableton have more mosquitoes near the Silver Comet Trail?",
+        answer:
+          "The trail follows a wooded former rail corridor along Nickajack Creek, and the shaded, slow-draining ground near the creek and trail-adjacent parks holds moisture well after a storm, giving mosquitoes more breeding habitat than a typical open lawn.",
+      },
+      {
+        question: "Are older Mableton homes more likely to have termites?",
+        answer:
+          "Age plays a role, but Georgia's warm, humid climate keeps eastern subterranean termites active on newer construction too. Mableton's mid-century mill-era housing has simply had more years of exposure, so an inspection matters regardless of when the home was built.",
+      },
+      {
+        question: "How do roof rats get into Mableton attics?",
+        answer:
+          "Mableton's mature hardwood canopy, especially along older streets and the Silver Comet Trail corridor, lets roof rats travel from tree to tree and onto a roofline without touching the ground, then in through gaps around vents or soffits.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Smyrna", slug: "smyrna", stateSlug: "georgia" },
+      { name: "Warner Robins", slug: "warner-robins", stateSlug: "georgia" },
+      { name: "Powder Springs", slug: "powder-springs", stateSlug: "georgia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mableton, GA | Creek Mosquitoes & Roof Rats",
+    metaDescription:
+      "Mableton, GA pest control for creek-corridor mosquitoes, termites in mill-era and new homes, roof rats, and fire ants. Free inspection, licensed and insured.",
+  },
+  {
+    slug: "grovetown-ga",
+    name: "Grovetown",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~18,400",
+    county: "Columbia County",
+    climate: "hot-humid",
+    climateDriver:
+      "Grovetown sits in Columbia County's Piedmont, red clay terrain that drains slower than the sandy coastal plain soils found in much of Georgia, and it borders Fort Eisenhower (the Army post long known as Fort Gordon), whose growth has driven Grovetown's population past 18,000 after more than doubling since 2000. That fast, ongoing subdivision growth on former farmland is the biggest single driver of local pest pressure.",
+    topPests: ["Termites", "Fire Ants", "Mosquitoes", "Ticks", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active much of the year",
+        note: "New subdivisions spreading across former farmland near Fort Eisenhower put fresh-cut lumber directly against Piedmont red clay that holds moisture against foundations.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Newly graded lots and thin sod on recently built streets around Fort Eisenhower give fire ants easy ground to colonize before landscaping matures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Columbia County's Piedmont clay drains slower than the sandy soils elsewhere in Georgia, so new subdivisions without established grading hold rain in shallow pools longer than they should.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Wooded buffer strips left standing between new Grovetown subdivisions and remaining farmland support deer and keep tick populations active on shaded lot edges.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older Grovetown homes near the original crossroads downtown, predating the post-2000 growth boom, see steady roach pressure from crawl spaces and humid Piedmont summers.",
+      },
+    ],
+    localHook:
+      "Grovetown has more than doubled in population since 2000, driven almost entirely by growth at neighboring Fort Eisenhower (the Army post most residents still call Fort Gordon), and the wave of new subdivisions built on former farmland means young landscaping and slow-draining Piedmont clay, not the coastal marsh pressure found elsewhere in Georgia, sets the pest pattern here.",
+    intro:
+      "Grovetown's population has more than doubled since 2000, and almost all of that growth traces back to one neighbor: Fort Eisenhower, the Army post most residents still call by its old name, Fort Gordon. Thousands of new service members and their families have moved into the area over the past decade, and Grovetown answered with subdivision after subdivision built across what used to be Columbia County farmland. That fast, ongoing construction on Piedmont red clay, terrain that drains slower than the sandy coastal soils found elsewhere in Georgia, is what actually drives pest pressure here, more than any single species being unusual for the region. Add the wooded buffers still standing between new subdivisions and remaining farmland, and the pest picture here blends new-construction issues with the ordinary humid Piedmont pattern found in older, established parts of town.",
+    sections: [
+      {
+        heading: "Fresh construction on red clay keeps termite risk high",
+        body: "Piedmont red clay holds water differently than the sandy coastal plain soil common across most of Georgia, draining slower and staying damp longer after a storm. That matters because Grovetown's growth has meant a steady stream of new homes with fresh-cut lumber framing set directly against that damp clay, and eastern subterranean termites don't need old wood to get started, just consistent moisture and a path from soil to structure. A newly built Grovetown home isn't protected by its age the way some homeowners assume; if anything, a subdivision still settling into its final grading can hold water against a foundation longer than a lot with mature landscaping.",
+      },
+      {
+        heading: "Thin new sod gives fire ants easy ground",
+        body: "New subdivisions take time to establish thick, healthy turf, and in the meantime, freshly graded lots with thin sod or bare patches are close to ideal ground for red imported fire ants. Mounds can appear within weeks of a lawn going in, particularly on lots near the wooded buffer strips left standing between new construction and Fort Eisenhower's boundary or remaining farmland. Those same wooded edges support deer, which keep tick populations active on the shadier, less-landscaped parts of a property, so pest coverage for a new Grovetown home often needs to address both the open lawn and the tree line at once. A homeowner who treats only the visible mounds near the driveway while ignoring the tree line at the back of the lot is usually missing half the picture.",
+      },
+      {
+        heading: "Older downtown Grovetown still deals with roaches and rain-driven mosquitoes",
+        body: "Not everything in Grovetown is new. The original crossroads downtown predates the post-2000 growth boom, and homes there see a more familiar Piedmont pattern: American cockroaches working their way in from humid crawl spaces during Georgia's hot summers, and mosquitoes breeding in whatever the slower-draining clay soil holds onto after rain, gutters, low spots, anything that collects water for more than a few days. It's a reminder that Grovetown isn't one uniform town for pest purposes; a fast-growing subdivision on the edge of Fort Eisenhower and an older home near the original downtown face different versions of the same underlying clay-soil moisture problem. Comparing notes between a five-year-old subdivision and a decades-old crossroads home usually explains more about the pest calls a Grovetown company gets than the calendar season does.",
+      },
+    ],
+    prevention: [
+      "Don't assume new construction is protected: fresh lumber against damp Piedmont clay is real termite risk in Grovetown's newest subdivisions.",
+      "Treat fire ant mounds as soon as new sod goes in, before colonies establish in thin turf.",
+      "Keep tick control active on lots bordering wooded buffer strips near Fort Eisenhower or remaining farmland.",
+      "Check gutters and low spots for standing water after rain; Piedmont clay drains slower than Georgia's coastal soils.",
+    ],
+    costNote:
+      "Whether a Grovetown home is a new build near Fort Eisenhower or an older property near the original downtown changes the pest plan more than the season does. General coverage for termites, fire ants, ticks, and cockroaches runs $150 to $270 per year, with a free inspection to sort out which risks actually apply to your lot.",
+    faqs: [
+      {
+        question: "Why has Grovetown grown so fast?",
+        answer:
+          "Grovetown's population has more than doubled since 2000, driven almost entirely by growth at neighboring Fort Eisenhower (still commonly called Fort Gordon), which has added thousands of new service members and their families to the area over the past decade.",
+      },
+      {
+        question: "Is termite risk higher in new Grovetown subdivisions or older homes?",
+        answer:
+          "Both carry real risk, just for different reasons. New construction sits on freshly disturbed Piedmont clay that drains slowly, while older homes near the original downtown have simply had more years of exposure. Age alone doesn't predict termite risk here.",
+      },
+      {
+        question: "Do new Grovetown lawns get fire ants quickly?",
+        answer:
+          "Often within weeks of new sod going in. Thin turf on a freshly graded lot is easy ground for red imported fire ants to colonize before the lawn fills in.",
+      },
+      {
+        question: "Are ticks a concern in newer Grovetown neighborhoods?",
+        answer:
+          "Yes, especially on lots backing up to the wooded buffer strips still standing between new subdivisions and Fort Eisenhower's boundary or remaining farmland, where deer keep tick populations active.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Valdosta", slug: "valdosta", stateSlug: "georgia" },
+      { name: "Smyrna", slug: "smyrna", stateSlug: "georgia" },
+      { name: "Sandersville", slug: "sandersville", stateSlug: "georgia" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Grovetown, GA | New Construction Termites & Ants",
+    metaDescription:
+      "Grovetown, GA pest control for termites in new construction, fire ants in fresh sod, ticks near Fort Eisenhower, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "holly-springs-ga",
+    name: "Holly Springs",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~18,600",
+    county: "Cherokee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Holly Springs sits in Cherokee County's Piedmont foothills, just east of Lake Allatoona, the US Army Corps of Engineers reservoir fed by the Etowah and Little Rivers, with wooded, rolling terrain higher than most of Georgia. That elevation brings cooler nights earlier in fall than the rest of the state, while the lake's coves and creek corridors keep mosquito breeding active through the warm months, and heavy recreational trail use through the wooded terrain keeps deer, and the ticks they carry, close to residential lots.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Fire Ants", "Mice & Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Lake Allatoona's coves and the creek inlets feeding it, the Etowah and Little Rivers, hold calm, shaded water that breeds mosquitoes through Georgia's warm months.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Wooded trail corridors like Blankets Creek draw heavy hiking and mountain biking traffic, and the deer population those woods support carries ticks onto nearby residential lots.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active much of the year",
+        note: "Fast subdivision growth along the I-575 corridor puts fresh lumber against damp, clay-heavy Piedmont soil regardless of the city's higher elevation.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Cleared lots and new lawns on Holly Springs' expanding subdivisions colonize fast even on the area's rockier Piedmont soil.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Worse fall through winter",
+        note: "Cherokee County's higher foothill elevation brings cooler nights earlier than south Georgia, and rodents move into attics and garages sooner each fall.",
+      },
+    ],
+    localHook:
+      "Holly Springs sits high enough in Cherokee County's Piedmont foothills, just east of Lake Allatoona, that cooler fall nights arrive here before they reach most of Georgia, pushing rodents indoors earlier in the year even as the lake's coves keep mosquitoes active through the same warm months.",
+    intro:
+      "Fall arrives a little earlier in Holly Springs than it does across most of Georgia, and that's not just a feeling. The city sits in Cherokee County's Piedmont foothills, just east of Lake Allatoona, higher and cooler than the coastal plain towns that make up much of the state, and that elevation shapes when pests move and when they slow down. Lake Allatoona's coves and the creek corridors feeding it, the Etowah and Little Rivers, keep mosquitoes active through the warm months, while the wooded, rolling terrain around Holly Springs, popular with hikers and mountain bikers on trails like Blankets Creek, keeps deer, and the ticks that ride along with them, close to residential lots bordering the woods.",
+    sections: [
+      {
+        heading: "Lake Allatoona's coves keep mosquitoes active through summer",
+        body: "Lake Allatoona is a US Army Corps of Engineers reservoir fed by the Etowah and Little Rivers, and its many quiet coves and creek inlets give mosquitoes exactly the calm, shaded water they need to breed through Georgia's warm months. Properties near the lake or along the smaller creeks feeding it see the steadiest pressure, and the cooler foothill nights don't slow mosquitoes down as much as homeowners might expect; the season still runs from late spring well into fall before dropping off.",
+      },
+      {
+        heading: "Wooded trail corridors keep ticks close to home",
+        body: "Holly Springs sits in rolling, wooded Piedmont foothill terrain, and the trail network through the area, Blankets Creek among the better known, draws heavy recreational use from hikers and mountain bikers year round. That same wooded terrain supports a healthy deer population, and deer don't respect the line between public trail land and a residential backyard. Properties bordering woods or undeveloped lots see the most tick activity, and families active on local trails should treat a tick check as routine after time outdoors, not just something to worry about after finding a bite.",
+      },
+      {
+        heading: "Cooler foothill nights push rodents indoors earlier",
+        body: "Because Holly Springs sits higher than most of Georgia, cooler nights show up here before they reach the rest of the state, and that earlier chill is exactly what sends mice and rats looking for a way indoors. Attics, garages, and crawl spaces on wooded or trail-adjacent lots are the first targets, since the same tree cover that shades hiking trails also gives rodents cover on the approach to a house. Sealing foundation gaps and attic vents before the first cool snap, rather than after, makes a real difference in a town where fall arrives on its own schedule.",
+      },
+      {
+        heading: "New construction along the I-575 corridor still faces real termite pressure",
+        body: "Holly Springs has grown fast along the I-575 corridor connecting Woodstock to Canton, and new subdivisions built on rolling, clay-heavy Piedmont ground face the same eastern subterranean termite pressure found across the rest of Georgia's hot, humid climate; elevation doesn't change that. Fresh lumber against damp foundation soil is enough to start colony activity, and the fire ants that move into newly graded lots before landscaping matures round out the list of pests tied less to the lake and more to how fast the city keeps building.",
+      },
+    ],
+    prevention: [
+      "Treat mosquito breeding in lake coves and creek inlets feeding Lake Allatoona, not just standing water in the yard.",
+      "Check for ticks after time on Holly Springs trails like Blankets Creek, especially on wooded or trail-adjacent properties.",
+      "Seal foundation gaps and attic vents before the first cool snap; rodents move indoors here earlier than in the rest of Georgia.",
+      "Keep a termite inspection current on new I-575 corridor construction; clay soil and fresh lumber create real risk regardless of elevation.",
+    ],
+    costNote:
+      "Holly Springs' mix of lake-adjacent mosquito pressure, wooded trail-corridor ticks, and fast new construction along I-575 means pest plans here often combine seasonal mosquito treatment with year-round rodent and termite coverage. General pest service runs $150 to $270 per year; a free inspection sorts out what your property actually needs.",
+    faqs: [
+      {
+        question: "Why do mosquitoes stay active longer in Holly Springs than expected for a cooler area?",
+        answer:
+          "Lake Allatoona's coves and the creek inlets feeding it, the Etowah and Little Rivers, hold calm, shaded water that breeds mosquitoes right through the warm months, and the cooler foothill nights don't slow that down as much as homeowners expect.",
+      },
+      {
+        question: "Are ticks a bigger concern near Holly Springs' trails?",
+        answer:
+          "Yes. Trails like Blankets Creek run through wooded terrain that supports a healthy deer population, and deer carry ticks onto residential lots that border the woods, so tick checks after outdoor time are worth making routine.",
+      },
+      {
+        question: "Does Holly Springs' elevation change when pests are active?",
+        answer:
+          "It shifts the timing more than the species. Cooler nights arrive here earlier than in most of Georgia, which pushes mice and rats indoors sooner each fall, even though summer mosquito and tick pressure runs on a similar schedule to the rest of the state.",
+      },
+      {
+        question: "Is termite risk lower in Holly Springs because it's not on the coastal plain?",
+        answer:
+          "No. Eastern subterranean termites are active across Georgia's hot, humid climate regardless of elevation, and Holly Springs' fast pace of new construction along the I-575 corridor puts plenty of fresh lumber against damp clay soil every year.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dunwoody", slug: "dunwoody", stateSlug: "georgia" },
+      { name: "Gainesville", slug: "gainesville-ga", stateSlug: "georgia" },
+      { name: "Rome", slug: "rome-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Holly Springs, GA | Lake Allatoona Mosquitoes & Ticks",
+    metaDescription:
+      "Holly Springs, GA pest control for Lake Allatoona mosquitoes, trail-corridor ticks, termites in new construction, and fall rodent pressure. Free inspection.",
+  },
+  {
+    slug: "port-wentworth-ga",
+    name: "Port Wentworth",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~13,700",
+    county: "Chatham County",
+    climate: "hot-humid",
+    climateDriver:
+      "Port Wentworth sits on Georgia's low coastal plain along the Savannah River, about five miles northeast of downtown Savannah, where tidal marsh and wetlands border a working port, rail yards, and a long-running sugar refinery. That mix of marsh, industry, and now a fast pace of new warehouse and housing construction tied to the growing Port of Savannah gives the city a pest pattern built as much around industry as it is around the marsh.",
+    topPests: ["Mosquitoes", "Rats", "American Cockroaches", "Termites", "Flies"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, rarely stops in a mild winter",
+        note: "Tidal marsh and wetlands lining the Savannah River around Port Wentworth breed mosquitoes that spread well beyond the riverbank into nearby residential streets.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The city's working port and warehouse district, along with the long-running sugar refinery and rail yards, gives rats reliable food and shelter that spills into nearby neighborhoods.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Humid river air and the industrial corridor's older buildings, drainage tunnels, and warehouse loading docks keep American cockroaches active close to homes near downtown Port Wentworth.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active much of the year",
+        note: "A recent surge of new warehouse and residential construction tied to Savannah port growth puts fresh lumber against damp, low-lying coastal plain soil.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Warm months, worse near the industrial corridor",
+        note: "The sugar refinery and other processing operations along the riverfront generate organic waste that draws flies into nearby streets on warm days.",
+      },
+    ],
+    localHook:
+      "Port Wentworth's stretch of the Savannah River has supported a working sugar refinery, rail yards, and lumber and shipbuilding industry for more than a century, and that same working riverfront, alongside the tidal marsh lining it, now sits next to one of the fastest waves of new warehouse and home construction anywhere near Savannah.",
+    intro:
+      "Port Wentworth has run a working sugar refinery, rail yards, and a lumber and shipbuilding trade along the Savannah River for more than a century, and that industrial history is still the biggest single factor in local pest pressure, more than the tidal marsh that lines the riverfront, though that matters too. The city sits about five miles northeast of downtown Savannah, low on Georgia's coastal plain, where the marsh breeds mosquitoes that travel well past the water's edge, and where a fast, ongoing wave of new warehouse and home construction tied to the growing Port of Savannah is reshaping a town that spent most of the twentieth century built around brick kilns, a sugar refinery, and rail cargo. That combination, marsh mosquitoes, industrial rodents, and construction-driven termites, gives Port Wentworth one of the more varied pest profiles of any small city on the Georgia coast.",
+    sections: [
+      {
+        heading: "A working sugar refinery and rail yards mean real rodent pressure",
+        body: "Port Wentworth's sugar refinery and rail yards aren't just historical trivia, they're active industry, and both draw rats looking for reliable food and shelter. Grain and sugar storage, loading docks, and rail infrastructure all give rodents a foothold near the industrial core of town, and that pressure doesn't stay contained to the warehouse district; it spreads into the residential streets closest to the port and rail corridor. Homes near the industrial edge of Port Wentworth typically need more consistent rodent coverage than a similar house farther from the working riverfront.",
+      },
+      {
+        heading: "Tidal marsh mosquitoes reach well past the riverbank",
+        body: "The Savannah River's tidal marsh and wetlands around Port Wentworth breed mosquito species built to travel, and a property doesn't need standing water of its own to see pressure from them; a mile or more from the marsh is well within range on a warm evening, especially after high tide combines with rain. That season runs long here, spring through fall at minimum, and rarely stops completely through a mild coastal winter. Homes closest to the marsh edge, including neighborhoods built nearest the river for its industrial access, see the longest and most intense mosquito season in the city.",
+      },
+      {
+        heading: "New port-driven construction brings fresh termite exposure",
+        body: "The Port of Savannah's growth has pushed a wave of new warehouse and residential construction into Port Wentworth, and that means plenty of fresh lumber going up on Georgia's low, damp coastal plain soil. Eastern subterranean termites don't need an old building to get started, only consistent moisture and a path from soil to wood, and a new warehouse or home here faces that risk just as much as one of the older houses built during the city's brick kiln and rail era.",
+      },
+      {
+        heading: "Flies follow the riverfront's processing operations",
+        body: "The sugar refinery and other processing operations along Port Wentworth's riverfront generate organic waste, and on a hot day, that draws flies into the streets and neighborhoods nearest the industrial corridor. It's a pattern more common in a working port town than in a typical Georgia suburb, and it means fly control belongs on the pest checklist for homes and businesses near the river, not just an occasional nuisance to swat away.",
+      },
+    ],
+    prevention: [
+      "Keep rodent coverage active year-round near the port, rail yards, and sugar refinery corridor, where food and shelter draw rats into nearby streets.",
+      "Treat the yard for mosquitoes even without standing water; Port Wentworth's tidal marsh mosquitoes travel well past the riverbank.",
+      "Get new warehouse and home construction inspected for termites early; fresh lumber on damp coastal soil is real risk regardless of building age.",
+      "Add fly control near the riverfront processing corridor, especially in warm months.",
+    ],
+    costNote:
+      "Port Wentworth's mix of marsh mosquitoes, industrial rodent pressure, and fast new construction near the port means pest needs vary more block to block than in a typical Georgia suburb. General pest coverage runs $150 to $280 per year, with a free inspection to confirm what your property and its distance from the industrial corridor call for.",
+    faqs: [
+      {
+        question: "Why does Port Wentworth have more rat activity than nearby Savannah suburbs?",
+        answer:
+          "The city's working sugar refinery, rail yards, and warehouse district give rats reliable food and shelter, and that pressure spreads into residential streets closest to the industrial corridor, more than in a typical suburb without that kind of active industry nearby.",
+      },
+      {
+        question: "Do I need mosquito control in Port Wentworth if my yard has no standing water?",
+        answer:
+          "Likely yes. The tidal marsh along the Savannah River breeds mosquitoes that are strong fliers, capable of reaching yards a mile or more from the water, so a dry yard doesn't mean low pressure here.",
+      },
+      {
+        question: "Is termite risk different for new construction near the Port of Savannah?",
+        answer:
+          "No. Fresh lumber on Port Wentworth's low, damp coastal plain soil is exposed to eastern subterranean termites regardless of whether the building went up last year or during the city's early twentieth century brick kiln era.",
+      },
+      {
+        question: "Why are flies more noticeable in parts of Port Wentworth?",
+        answer:
+          "Processing operations along the riverfront, including the city's long-running sugar refinery, generate organic waste that draws flies into nearby streets on warm days, a pattern tied to the working port more than to typical yard conditions.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Newnan", slug: "newnan", stateSlug: "georgia" },
+      { name: "Richmond Hill", slug: "richmond-hill-ga", stateSlug: "georgia" },
+      { name: "Pooler", slug: "pooler", stateSlug: "georgia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Port Wentworth, GA | Marsh Mosquitoes & Rodents",
+    metaDescription:
+      "Port Wentworth, GA pest control for tidal marsh mosquitoes, rodents near the port and rail corridor, new construction termites, and flies. Free inspection.",
+  },
 ];

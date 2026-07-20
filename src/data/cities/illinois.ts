@@ -11594,4 +11594,579 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Rantoul, IL pest control for base-era termites, carpenter ants, fall harvest mice, stink bugs and field crickets. Champaign County service. Free inspection.",
   },
+  {
+    slug: "morton-il",
+    name: "Morton",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~17,100",
+    county: "Tazewell County",
+    climate: "cold-humid",
+    climateDriver:
+      "Morton sits in the flat corn and soybean country of Tazewell County, a few miles southeast of Peoria, where the same humid continental climate that brings hard winters and warm, sticky summers to the rest of central Illinois shapes the local pest calendar. What sets Morton apart is the Libby's pumpkin cannery anchoring the village's east side, which processes the large majority of the country's canned pumpkin supply each fall. That single agricultural operation adds a second, cannery-driven pest season on top of the usual farmland pattern, with pumpkin culls and processing waste drawing flies and rodents toward homes and businesses near the plant every August through October.",
+    topPests: ["House Mice", "Filth Flies", "Cluster Flies", "Termites", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through November",
+        note: "As the corn and soybean fields ringing Morton get combined each fall, mice lose their cover and head for the nearest foundation gap, and the cannery's pumpkin waste stream gives them an extra reason to try their luck close to downtown.",
+      },
+      {
+        name: "Filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "August through October, tied to the pumpkin harvest run",
+        note: "Libby's processes an enormous volume of pumpkin at the Morton plant each fall, and the culls and rind waste from that run draw house flies and blow flies toward homes and shops nearest the cannery.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Swarm building exteriors in September, then again in early spring",
+        note: "Cluster flies breed as parasites of earthworms in the tilled farmland surrounding Morton, and the adults gather on sun-warmed siding each fall before working their way into attics and wall voids for winter.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, feed year-round underground",
+        note: "Morton's older neighborhoods near the downtown square date to before 1960, and slab and crawlspace foundations from that era rarely have the termite protections standard in homes built since.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September and October",
+        note: "Boxelder and silver maple trees are common street plantings in Morton's older blocks, and the bugs that feed on their seed pods cluster on warm, sun-facing walls each fall looking for a way inside.",
+      },
+    ],
+    localHook:
+      "Morton calls itself the Pumpkin Capital of the World, and it earns the title: the Libby's cannery on the village's east side processes the large majority of the canned pumpkin sold in the country, all inside a single fall harvest run.",
+    intro:
+      "Pest control in Morton follows two calendars layered on top of each other. The first is the ordinary central Illinois pattern: cold winters that push mice and cluster flies indoors, warm summers that bring out ants and boxelder bugs. The second belongs only to Morton, tied to the Libby's pumpkin cannery that gives this Tazewell County village its nickname. Every August through October, as the plant runs through its harvest of pumpkins from across the region, the culls and processing waste add a fly and rodent pressure that towns without a food processing plant simply don't have. Get the fall stretch right and the rest of the year is straightforward. Miss it, and flies and mice both have an easy path indoors.",
+    sections: [
+      {
+        heading: "Why the pumpkin harvest matters more than the weather",
+        body:
+          "Most central Illinois towns see their pest pressure rise and fall with temperature alone. Morton has that same pattern, plus a second driver: the cannery's fall run. Culls, rinds, and wash water from processing draw house flies and blow flies toward the plant and the homes nearest it, and the smell alone is often enough to pull mice out of the surrounding fields early. A pest plan built for Morton treats August through October as its own season, not just an extension of summer, with fly control and rodent exclusion timed to the harvest run rather than the calendar date.",
+      },
+      {
+        heading: "Cluster flies and the farmland that surrounds the village",
+        body:
+          "Cluster flies are a genuine nuisance here because Morton is ringed by exactly the kind of tilled, earthworm-rich farmland their larvae need. Adults spend the growing season out in the fields, then converge on buildings each September, gathering by the hundreds on sun-warmed south and west walls before squeezing through soffit gaps and window trim into attics. Once inside, they don't breed or spread disease, but a wall void full of sluggish flies emerging on a warm January afternoon is unpleasant enough that most Morton homeowners would rather have their exterior sealed in late summer than deal with the fallout in midwinter.",
+      },
+      {
+        heading: "Older homes near the square and termite risk",
+        body:
+          "The blocks closest to Morton's downtown square were mostly built before slab and crawlspace foundations carried the termite barriers that are now standard. Add central Illinois clay soil, which holds moisture against a foundation longer than sandier ground would, and older Morton homes carry more subterranean termite risk than the newer subdivisions on the village's edges. Spring swarms, usually a rush of winged termites near a window or light fixture, are the clearest warning sign, though mud tubes along a foundation wall are the more reliable one, since swarmers are easy to miss in a busy household.",
+      },
+      {
+        heading: "Boxelder bugs and the village's older street trees",
+        body:
+          "Boxelder bugs get overlooked next to the cannery's flies and the farmland's mice, but they're a reliable fall fixture in Morton's older residential blocks, where boxelder and silver maple trees planted decades ago still line many streets. The bugs feed on the seed pods those trees drop, then move onto nearby siding as temperatures cool, gathering in the hundreds on the sunniest, warmest exposed walls by late September. They don't bite or damage a structure, but a swarm clinging to a south-facing wall in October is exactly the kind of thing a Morton homeowner would rather have prevented in August, when caulking gaps around trim and utility lines is still simple work rather than a scramble once the bugs are already clustered and looking for a crack to slip through.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around foundation vents and utility penetrations before the fall harvest run begins, since both cannery-drawn flies and field mice look for the same easy entry points.",
+      "Keep exterior trash and compost bins tightly lidded from August through October, when pumpkin processing waste is at its peak and draws flies from well beyond the immediate neighborhood.",
+      "Caulk soffit and window trim gaps on south and west facing walls each August to block cluster flies before they cluster in September.",
+      "Schedule a termite inspection every year or two for homes built before 1970 near the downtown square, since slab and crawlspace foundations from that era typically lack modern termite barriers.",
+    ],
+    costNote:
+      "Most Morton pest visits run in line with the rest of central Illinois: a one-time treatment for an active ant or fly problem typically costs less than an ongoing quarterly plan, and a full termite inspection is usually priced separately from routine pest service. Homes near the Libby's plant sometimes need an extra fall fly treatment that outlying properties can skip.",
+    faqs: [
+      {
+        question: "Why does Morton have a pumpkin cannery pest problem other Illinois towns don't?",
+        answer:
+          "Libby's operates its pumpkin processing plant on Morton's east side, and the village claims it accounts for the large majority of the canned pumpkin sold nationwide. That volume means a concentrated stretch of harvest waste each fall that draws flies and rodents toward the plant and nearby homes in a way towns without a comparable food processing operation never see.",
+      },
+      {
+        question: "Are cluster flies dangerous in Morton homes?",
+        answer:
+          "No. Cluster flies don't bite, breed indoors, or spread disease. They're a fall and winter nuisance because Morton's surrounding farmland is exactly the kind of earthworm-rich, tilled ground their larvae need, so large numbers gather on building exteriors each September looking for a place to overwinter.",
+      },
+      {
+        question: "When should Morton homeowners worry most about mice?",
+        answer:
+          "September through November, once the corn and soybean fields around the village get combined. Mice lose their field cover all at once and move toward the nearest foundation gap, and homes closest to the cannery's harvest activity tend to see pressure a little earlier than the rest of the village.",
+      },
+      {
+        question: "Do Morton's older homes near downtown have more termite risk?",
+        answer:
+          "Many of them do. The blocks nearest Morton's downtown square were largely built before slab and crawlspace termite barriers were standard practice, and the area's clay soil holds moisture against a foundation longer than the sandier ground found elsewhere in Tazewell County.",
+      },
+      {
+        question: "What does the Morton Pumpkin Festival have to do with pest control?",
+        answer:
+          "Not the festival itself, but the harvest run behind it. The cannery processes its heaviest volume of pumpkins in the weeks around the September festival, and that is exactly the window when culls and processing waste draw the most flies toward the plant and surrounding homes.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Pekin", slug: "pekin", stateSlug: "illinois" },
+      { name: "Chicago", slug: "chicago", stateSlug: "illinois" },
+      { name: "Berwyn", slug: "berwyn", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Morton, IL | Cannery Season Flies & Farmland Pests",
+    metaDescription:
+      "Morton, IL pest control for cannery-season flies, fall mice, cluster flies, termites and boxelder bugs. Tazewell County service. Free inspection.",
+  },
+  {
+    slug: "olney-il",
+    name: "Olney",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~8,500",
+    county: "Richland County",
+    climate: "temperate",
+    climateDriver:
+      "Olney sits in the flat farmland of southeastern Illinois, far enough south that its growing season and warm season pest pressure run noticeably longer than the parts of the state closer to Chicago. Richland County's cropland surrounds the city on every side, and the courthouse square at its center is ringed by homes old enough to predate modern foundation sealing standards. The city's famous population of white squirrels, protected by local ordinance since the early 1900s, adds a genuine wrinkle to wildlife calls that few other Illinois towns share.",
+    topPests: ["Gray Squirrels", "House Mice", "Termites", "Odorous House Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Gray squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Year-round, peaks in fall as squirrels seek winter den sites",
+        note: "Olney is famous for its protected white squirrels, a local icon safeguarded by city ordinance since the early 1900s, and any wildlife call here has to start by confirming which animal is actually in the attic. Ordinary gray and fox squirrels, not the white ones, are the nuisance animals doing the chewing, and removal work in Olney is handled with that distinction in mind from the first inspection.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through December",
+        note: "The cropland surrounding Olney gets harvested through October, and mice displaced from the stubble move toward the nearest home, with the older neighborhoods ringing the courthouse square usually the first to notice.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, feed year-round underground",
+        note: "Olney's longer, milder southern Illinois warm season keeps termite colonies active for more of the year than in central or northern Illinois, and the city's older homes near downtown were mostly built before modern termite barriers were routine.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "These ants nest in shallow soil under Olney's sidewalks and foundation edges and trail indoors after rain hunting sweets and moisture, a pattern that repeats through most of the warm season in the city's flat, poorly draining farmland setting.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September and October",
+        note: "Stink bugs have been spreading steadily across southern Illinois farm country, and Olney's homes near cropland edges are increasingly seeing them cluster on siding each fall before pushing indoors.",
+      },
+    ],
+    localHook:
+      "Olney is the only city in the country with a legally protected population of wild white squirrels, and a 2002 city ordinance restricting free roaming cats exists specifically to protect them, a genuine local quirk that shapes how wildlife calls get handled here.",
+    intro:
+      "Pest control in Olney has one wrinkle almost no other Illinois town deals with: the city's protected white squirrels. Olney has been known as the home of the white squirrel since the early 1900s, and local ordinance, including a 2002 law restricting free roaming cats, exists to keep that population safe. Any legitimate wildlife service call in Olney starts by confirming that the squirrel in question is an ordinary gray or fox squirrel and not one of the protected white ones. Past that distinctive local detail, Olney's pest pressure follows the pattern of flat, southeastern Illinois farm country: mice moving in off the harvested fields each fall, ants trailing indoors after rain, and a termite season that runs longer here than it does farther north.",
+    sections: [
+      {
+        heading: "Why Olney's white squirrels change how wildlife calls work",
+        body:
+          "Most Illinois towns treat a nuisance squirrel in the attic as a straightforward removal job. Olney can't, because the city is genuinely, legally protective of its white squirrel population, a trait Olney has held onto since the early 1900s and formalized further with a 2002 ordinance restricting free roaming cats to reduce threats to the squirrels. That means any wildlife technician working in Olney has to identify the animal correctly before doing anything else. The white squirrels are a local point of pride, celebrated with an annual count each October, while ordinary gray and fox squirrels causing the actual attic damage are handled the same way they would be anywhere else, just with an extra layer of care in a city where the wrong squirrel making headlines would be a real problem for a pest control company's reputation.",
+      },
+      {
+        heading: "Farmland mice and a longer termite season",
+        body:
+          "Richland County's cropland runs right up to Olney's edges, and the fall harvest pushes mice toward the nearest foundation the same way it does across most of downstate Illinois. What sets Olney apart is how far south it sits: the city's warm season runs longer than central Illinois towns see, which keeps subterranean termite colonies feeding for a wider stretch of the year and gives them more time to find a gap in an older foundation. The homes surrounding Olney's historic courthouse square, many of them a century old, were built well before slab and crawlspace termite barriers were standard, which is why a spring termite inspection matters more here than it might in a newer subdivision.",
+      },
+      {
+        heading: "Ants and stink bugs moving in from the fields",
+        body:
+          "Odorous house ants nest just under the surface along Olney's sidewalks and foundation lines, and a single hard rain is often all it takes to send a trail indoors chasing moisture and sweets, a pattern that can repeat several times across a wet summer. Stink bugs are a newer arrival, spreading across southern Illinois farmland in recent years, and Olney homes closest to cropland edges are seeing more of them cluster on siding each September before slipping in around window frames for the winter. Neither insect causes structural damage, but both are the kind of steady, recurring nuisance that a sealed foundation and a well-timed fall perimeter treatment handle better than a reactive call after the fact.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October, when the surrounding cropland gets harvested and mice start looking for a new home.",
+      "Have any wildlife call confirm the species before trapping, since Olney's protected white squirrels require different handling than an ordinary nuisance gray squirrel.",
+      "Schedule a termite inspection each spring for homes near the courthouse square, since Olney's longer warm season keeps colonies active more of the year than farther north in the state.",
+      "Caulk window and door frames each August ahead of the fall stink bug push from surrounding farmland.",
+    ],
+    costNote:
+      "Pest service pricing in Olney runs close to the rest of southeastern Illinois, with routine ant, spider, and rodent visits generally cheaper than a full termite treatment. Wildlife removal calls in Olney typically take a little longer than average because of the extra care taken to identify the squirrel involved before any trapping begins.",
+    faqs: [
+      {
+        question: "Are Olney's white squirrels a pest control concern?",
+        answer:
+          "The white squirrels themselves are a protected local icon, not a pest. The concern is making sure they're never mistaken for the ordinary gray or fox squirrels that do cause attic and wiring damage. Olney has protected its white squirrel population since the early 1900s, including a 2002 ordinance restricting free roaming cats.",
+      },
+      {
+        question: "Why does Olney have a longer termite season than towns farther north in Illinois?",
+        answer:
+          "Olney sits far enough south that its warm season runs longer than central or northern Illinois, which keeps subterranean termite colonies feeding underground for more months of the year and gives them a wider window to find a gap in an older foundation.",
+      },
+      {
+        question: "When do mice move indoors around Olney?",
+        answer:
+          "Mostly October through December, once the cropland surrounding the city gets harvested and mice lose the cover they had in the fields. Homes near the older, courthouse square neighborhoods tend to notice first.",
+      },
+      {
+        question: "Has Olney always had a stink bug problem?",
+        answer:
+          "No, it's a newer development. Brown marmorated stink bugs have been spreading across southern Illinois farm country over recent years, and Olney homes near cropland edges are seeing growing numbers cluster on siding each fall.",
+      },
+      {
+        question: "Do Olney's older homes need extra ant prevention after rain?",
+        answer:
+          "Many do. Odorous house ants nest in shallow soil along sidewalks and foundations across Olney, and a hard summer rain is often enough to send a trail indoors hunting moisture, a pattern that can repeat multiple times across a wet season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+      { name: "Vandalia", slug: "vandalia-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Olney, IL | White Squirrel City Wildlife & Farmland Pests",
+    metaDescription:
+      "Olney, IL pest control for nuisance squirrels, fall mice, termites, ants and stink bugs. Richland County service near the historic courthouse square. Free inspection.",
+  },
+  {
+    slug: "vandalia-il",
+    name: "Vandalia",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~7,400",
+    county: "Fayette County",
+    climate: "temperate",
+    climateDriver:
+      "Vandalia sits on the Kaskaskia River in south central Illinois, sixty miles northeast of St. Louis, where the river's floodplain and the surrounding cattle and grain farms of Fayette County both shape local pest pressure. The city's history as Illinois's second state capital left it with a cluster of nineteenth century masonry buildings downtown, old enough to have settled and cracked in ways that give insects and rodents an easy way in. Periodic Kaskaskia River flooding adds standing water to the mix that most southern Illinois towns without a major river don't have to manage.",
+    topPests: ["Mosquitoes", "House Mice", "Termites", "Odorous House Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through September, longer after flooding",
+        note: "The Kaskaskia River floodplain that runs along Vandalia's edge leaves behind pooled water after high water events, and those pools can keep producing mosquitoes for weeks after the river itself has receded.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through December",
+        note: "Fayette County's grain and cattle farms surround Vandalia on nearly every side, and mice displaced by the fall harvest head for the nearest foundation, with older homes closest to the historic district often the first to notice.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, feed year-round underground",
+        note: "The nineteenth century masonry buildings around Vandalia's Old State House, along with the wood-frame homes that surround them, are old enough that foundation settling has opened gaps termites exploit that newer construction methods now prevent.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Ants trail indoors after Kaskaskia River flood events and heavy summer storms alike, chasing the sudden moisture into kitchens and bathrooms across the city.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September and October",
+        note: "Boxelder and silver maple trees along the Kaskaskia River bottomland are common in Vandalia's older neighborhoods, and the bugs that feed on their seed pods cluster on sun-facing walls each fall.",
+      },
+    ],
+    localHook:
+      "Vandalia served as the second capital of Illinois from 1819 to 1839, and the 1836 Vandalia State House still standing downtown is the oldest state capitol building in Illinois, a detail that also means Vandalia's core has some of the oldest building stock in this part of the state.",
+    intro:
+      "Vandalia carries more history than most towns its size, having served as Illinois's state capital for two decades before Springfield took over in 1839, and that history shapes its pest pressure as much as its geography does. The Kaskaskia River runs along the city's edge, leaving standing water behind after flood events that keeps mosquitoes active longer than in towns without a major river nearby. The nineteenth century buildings clustered around the old State House, genuinely some of the oldest structures in south central Illinois, give termites and ants more foundation gaps to work with than newer construction would allow. Add in Fayette County's surrounding grain and cattle farms, which push mice toward town every fall, and Vandalia's pest calendar reflects both its river and its age.",
+    sections: [
+      {
+        heading: "The Kaskaskia River and Vandalia's mosquito season",
+        body:
+          "A river town gets a mosquito season a landlocked town doesn't. The Kaskaskia River floods periodically along Vandalia's edge, and the shallow pools left behind after the water recedes can keep breeding mosquitoes for weeks past the flood event itself, well beyond the normal June through September stretch that defines most of downstate Illinois. Properties closest to the floodplain see the heaviest pressure, but standing water anywhere in town, a clogged gutter, an unused kiddie pool, a low spot that doesn't drain, adds to the same problem on a smaller scale.",
+      },
+      {
+        heading: "Why Vandalia's history means more termite risk",
+        body:
+          "Being the oldest surviving state capital city in Illinois is a point of pride, and it's also a genuine pest liability. The 1836 State House and the homes built up around it over the following century have settled the way old masonry and wood-frame construction does, opening small foundation gaps that would simply not exist in a home built to modern code. Subterranean termites exploit exactly those gaps, feeding underground for most of the year in Vandalia's mild south central Illinois climate and swarming each spring in a rush of winged insects near windows and light fixtures. A termite inspection matters more for a Vandalia home built before 1950 than it does almost anywhere newer in the state.",
+      },
+      {
+        heading: "Farmland mice and river bottomland boxelder bugs",
+        body:
+          "Fayette County's cattle and grain operations ring Vandalia closely enough that the fall harvest sends mice toward the nearest home in numbers, a pattern that plays out across most of rural Illinois but hits particularly hard in a small city surrounded by working farmland on nearly every side. Along the river bottomland itself, mature boxelder and silver maple trees, common in Vandalia's older neighborhoods, host the boxelder bugs that cluster on warm walls each September looking for a way into an attic or wall void for the winter. Neither pest causes structural harm, but both arrive predictably enough that sealing up before October beats dealing with either one once they've already found a way in. A homeowner who waits until the bugs are already massed on a windowsill or the mice are already audible in a wall has missed the easier window, since both problems are far simpler to head off in late summer than to resolve once they've settled in for the season.",
+      },
+    ],
+    prevention: [
+      "Clear gutters and eliminate standing water near the Kaskaskia River floodplain edge before mosquito season runs its full June through September stretch.",
+      "Have a termite inspection done every year or two on any Vandalia home built before 1950, since foundation settling around the historic district has opened gaps newer construction avoids.",
+      "Seal foundation vents and utility gaps before October, when Fayette County's harvest pushes farmland mice toward the nearest home.",
+      "Caulk siding gaps on south and west facing walls each August ahead of the fall boxelder bug push from river bottomland trees.",
+    ],
+    costNote:
+      "Vandalia pest pricing tracks close to the rest of south central Illinois. Mosquito control after a Kaskaskia River flood event is often billed separately from a standard quarterly plan because the extra treatment addresses standing water the regular service schedule wouldn't otherwise cover.",
+    faqs: [
+      {
+        question: "Does Vandalia's history as a former state capital affect its pest risk?",
+        answer:
+          "Yes, in a real way. Vandalia served as the Illinois state capital from 1819 to 1839, and the 1836 State House along with the homes built up around it over the following century are some of the oldest buildings in south central Illinois. That age means more settled foundation gaps for termites and ants to exploit than a newer town would have.",
+      },
+      {
+        question: "Why does Vandalia have a longer mosquito season than other Illinois towns its size?",
+        answer:
+          "The Kaskaskia River runs along the city's edge and floods periodically, leaving pooled water behind that can keep producing mosquitoes for weeks after the flood itself has receded, on top of the usual June through September season.",
+      },
+      {
+        question: "When is mouse pressure worst in Vandalia?",
+        answer:
+          "October through December, as the grain and cattle farms surrounding Fayette County finish their harvest and mice displaced from the fields head for the nearest foundation gap.",
+      },
+      {
+        question: "Are boxelder bugs common near Vandalia's historic district?",
+        answer:
+          "Yes. The Kaskaskia River bottomland that runs through Vandalia's older neighborhoods has mature boxelder and silver maple trees, and the bugs that feed on their seed pods cluster on sun-facing walls every September and October.",
+      },
+      {
+        question: "Is the Old State House itself treated for pests?",
+        answer:
+          "The Vandalia State House State Historic Site is managed by the state of Illinois, not a private homeowner, but the same foundation age and settling that affects the surrounding historic district applies to the building, which is part of why the area sees more termite activity than newer parts of the city.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Effingham", slug: "effingham-il", stateSlug: "illinois" },
+      { name: "Oak Lawn", slug: "oak-lawn", stateSlug: "illinois" },
+      { name: "Olney", slug: "olney-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Vandalia, IL | River Mosquitoes & Historic District Termites",
+    metaDescription:
+      "Vandalia, IL pest control for Kaskaskia River mosquitoes, fall mice, termites and boxelder bugs near the historic State House district. Free inspection.",
+  },
+  {
+    slug: "machesney-park-il",
+    name: "Machesney Park",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~22,900",
+    county: "Winnebago County",
+    climate: "cold-humid",
+    climateDriver:
+      "Machesney Park sits on the east bank of the Rock River in far northern Illinois, close enough to the Wisconsin border that the village gets the state's earliest frost and its longest, coldest winters. The flat glacial plain terrain that surrounds the Rockford metro area drains slowly in spots, and the Rock River's backwater sloughs add standing water that towns farther from the river don't have to deal with. That combination, an early cold season plus river frontage, shapes a pest calendar that moves faster and starts earlier than most of downstate Illinois.",
+    topPests: ["House Mice", "Mosquitoes", "Cluster Flies", "Carpenter Ants", "Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Starts in late August, earliest in the state",
+        note: "Machesney Park's position near the Wisconsin border means the village's first hard frost typically arrives earlier than almost anywhere else in Illinois, and mice respond to that cold signal by pushing indoors well before central or southern Illinois towns see the same activity.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through September",
+        note: "The Rock River runs along Machesney Park's east side, and the backwater sloughs and low-lying stretches near the water hold standing pools that keep breeding mosquitoes through the warm season, especially after a wet spring.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September, then again in early spring",
+        note: "The farmland and glacial outwash terraces surrounding the village support the earthworm populations cluster fly larvae need, and adults gather on sun-warmed siding each fall before working into attics for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Mature oak and hickory stands along the Rock River terraces provide the moisture-damaged deadwood carpenter ants prefer to nest in, and colonies that start in a fallen tree along the riverbank readily expand into a nearby home's damp sill plate or window frame.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, feed year-round underground",
+        note: "Termite pressure runs a little lighter in Machesney Park than in central Illinois because the village's glacial sand and gravel soils drain faster than the heavy clay found farther south, though older homes on the village's clay-heavier pockets still see regular activity.",
+      },
+    ],
+    localHook:
+      "Machesney Park sits on the east bank of the Rock River, close enough to the Wisconsin state line that the village consistently records the season's first hard frost before almost anywhere else in Illinois, a detail that pulls the entire fall pest calendar forward.",
+    intro:
+      "Machesney Park's pest pressure starts with its map position. The village sits on the Rock River in the northernmost stretch of Illinois, close enough to Wisconsin that its first hard frost usually beats the rest of the state, which means the fall rush of mice looking for a way indoors starts earlier here than almost anywhere else in Illinois. The river itself brings a second factor most inland Illinois towns don't face: backwater sloughs and low-lying stretches that hold standing water and extend the mosquito season. Between the early cold and the river frontage, a pest plan built for central Illinois timing tends to run a few weeks behind what Machesney Park actually needs.",
+    sections: [
+      {
+        heading: "Why the first frost matters so much here",
+        body:
+          "Illinois runs roughly three hundred miles north to south, and that distance means a real difference in when winter actually arrives. Machesney Park, sitting against the Wisconsin border, typically gets its first hard frost well ahead of central and southern Illinois towns, and house mice respond to that cold signal immediately, moving indoors through foundation gaps and utility penetrations as soon as the temperature drops. A sealing and exclusion plan timed to a central Illinois calendar simply starts too late for Machesney Park. Late August, not late September, is when the work needs to be finished, and a homeowner who copies a schedule built for Peoria or Springfield will find the mice have already beaten the sealing crew to it.",
+      },
+      {
+        heading: "The Rock River's backwater sloughs and mosquito pressure",
+        body:
+          "Machesney Park sits directly on the Rock River's east bank, bordering Loves Park to the north, and the river shapes the village's mosquito season in a way that towns without water frontage don't experience. Backwater sloughs and low, poorly drained stretches near the river hold standing pools well into summer, especially after a wet spring, and those pools keep producing new mosquitoes long after a typical inland yard has dried out. Properties closest to the riverbank see the heaviest pressure, but the whole village benefits from the same basic discipline: eliminate standing water wherever it collects, since the river guarantees there will always be some nearby regardless.",
+      },
+      {
+        heading: "Carpenter ants in the river terrace woodlands",
+        body:
+          "The oak and hickory stands along Machesney Park's Rock River terraces are old enough to have plenty of moisture-damaged deadwood, exactly the material carpenter ants prefer for a new colony. A colony that establishes in a fallen log or a rotting stump along the riverbank doesn't necessarily stay there; foraging workers range widely, and a damp sill plate or a leaking window frame on a nearby home offers the same soft, moisture-compromised wood the ants already favor. Homes backing directly onto wooded riverbank lots see this pattern more than the village's newer subdivisions set farther back from the water, which is why carpenter ant activity in Machesney Park tracks proximity to the river almost as closely as it tracks the age of the house. Trimming back overhanging limbs and clearing fallen wood away from the foundation on a riverbank property removes the easiest stepping stone a colony has into the house itself.",
+      },
+    ],
+    prevention: [
+      "Finish exterior sealing and foundation gap repairs by late August, since Machesney Park's proximity to Wisconsin means the first hard frost, and the fall mouse push it triggers, arrives earlier than in central Illinois.",
+      "Clear standing water near any low-lying or riverbank section of a Machesney Park property through the full June to September mosquito season.",
+      "Address moisture damage on sill plates and window frames promptly on homes backing onto wooded riverbank lots, since carpenter ants target exactly that kind of softened wood.",
+      "Schedule a termite inspection for older homes on the village's clay-heavier soil pockets, even though the faster-draining glacial sand common elsewhere in Machesney Park carries somewhat lower risk.",
+    ],
+    costNote:
+      "Pest service costs in Machesney Park run comparable to the rest of the Rockford metro area. Homes directly on the Rock River or backing onto wooded riverbank lots sometimes need an added mosquito or carpenter ant visit that inland properties in the village can skip.",
+    faqs: [
+      {
+        question: "Why do mice move indoors earlier in Machesney Park than in central Illinois?",
+        answer:
+          "Machesney Park sits on the Rock River close enough to the Wisconsin border that the village typically gets the state's earliest hard frost. Mice respond to that cold signal right away, so the fall push indoors starts in late August here, weeks ahead of towns farther south in Illinois.",
+      },
+      {
+        question: "Does the Rock River affect mosquito pressure in Machesney Park?",
+        answer:
+          "Yes. The village sits directly on the river's east bank, and the backwater sloughs and low-lying ground near the water hold standing pools well into summer, keeping mosquitoes active longer than in towns without river frontage.",
+      },
+      {
+        question: "Is termite risk different in Machesney Park compared to the rest of Illinois?",
+        answer:
+          "It runs a bit lighter overall. The village's glacial sand and gravel soils drain faster than the heavy clay common in central Illinois, which gives termites less consistent moisture to work with, though homes on the village's clay-heavier pockets still see regular activity.",
+      },
+      {
+        question: "Which Machesney Park homes see the most carpenter ant activity?",
+        answer:
+          "Homes backing onto the wooded lots along the Rock River terraces, where mature oak and hickory stands provide the moisture-damaged deadwood carpenter ants prefer, tend to see more pressure than the village's subdivisions set farther from the water.",
+      },
+      {
+        question: "What neighboring communities border Machesney Park?",
+        answer:
+          "Loves Park borders Machesney Park to the north and Rockford lies just to the south, both part of the same Rock River corridor and metro area.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Mount Prospect", slug: "mount-prospect", stateSlug: "illinois" },
+      { name: "Hoffman Estates", slug: "hoffman-estates", stateSlug: "illinois" },
+      { name: "Woodstock", slug: "woodstock-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Machesney Park, IL | Rock River Pests & Early Fall Mice",
+    metaDescription:
+      "Machesney Park, IL pest control for Rock River mosquitoes, early fall mice, carpenter ants and cluster flies. Winnebago County service. Free inspection.",
+  },
+  {
+    slug: "herrin-il",
+    name: "Herrin",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~12,300",
+    county: "Williamson County",
+    climate: "temperate",
+    climateDriver:
+      "Herrin sits in the Shawnee Hills country of southern Illinois, close enough to the Ozark foothills' influence that its warm season runs longer and more humid than central or northern Illinois. Crab Orchard National Wildlife Refuge and its namesake lake sit just five miles south of the city, a large area of managed wetland and open water that draws waterfowl and other wildlife close to town. Herrin's coal mining boom around the turn of the twentieth century also left the city with a core of older housing that predates modern termite protection standards.",
+    topPests: ["Ticks", "Mosquitoes", "Termites", "Carpenter Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Lone star and deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Crab Orchard National Wildlife Refuge, five miles south of Herrin, hosts the deer and other wildlife that carry ticks into the wooded edges of town, and lone star ticks in particular have expanded their range across southern Illinois in recent years.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, longer than northern Illinois",
+        note: "Crab Orchard Lake and the refuge wetlands south of the city hold open water and shallow marsh through most of the year, and Herrin's longer, milder southern Illinois warm season keeps mosquitoes active well past the point northern Illinois towns see their season end.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, feed year-round underground",
+        note: "Herrin grew fast during its early twentieth century coal mining boom, and a large share of the housing built during that era predates the foundation and soil treatment standards that limit termite access in newer construction.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The wooded terrain near Crab Orchard National Wildlife Refuge and the Shawnee Hills gives carpenter ants plenty of moisture-damaged deadwood to nest in, and colonies expand readily into the sill plates and porch framing of homes near the refuge's wooded edges.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September and October",
+        note: "Boxelder bugs gather each fall on the sun-facing walls of Herrin's older mining-era neighborhoods, where mature maple trees planted decades ago still line many of the streets.",
+      },
+    ],
+    localHook:
+      "Crab Orchard National Wildlife Refuge, a 43,000-acre expanse of lake, wetland, and woodland, sits just five miles south of Herrin, close enough that the wildlife it supports, and the ticks and mosquitoes that come with that wildlife, regularly reach the edges of town.",
+    intro:
+      "Herrin's pest pressure has two real sources: its position in the Shawnee Hills country of far southern Illinois, and its proximity to Crab Orchard National Wildlife Refuge, a 43,000-acre expanse of lake and wetland just five miles south of the city. That refuge draws deer and waterfowl close to Herrin's wooded edges, and with them come ticks and a longer mosquito season than northern Illinois ever sees. Layer in a downtown core built up fast during Herrin's early twentieth century coal mining boom, old enough to predate modern termite protections, and the city's pest calendar looks noticeably different from towns in the central or northern part of the state.",
+    sections: [
+      {
+        heading: "Crab Orchard National Wildlife Refuge and tick pressure",
+        body:
+          "A national wildlife refuge five miles from downtown is not a detail every Illinois town has to account for, but Herrin does. Crab Orchard's woodland and wetland habitat supports deer and other wildlife in real numbers, and that wildlife carries ticks into the wooded lots and yard edges on Herrin's southern side. Lone star ticks specifically have been expanding across southern Illinois over recent years, adding a species to the mix that homeowners farther north in the state may not have encountered yet. Anyone spending time in yard edges or wooded lots near the refuge should be checking for ticks through the entire April to October stretch, not just in peak summer.",
+      },
+      {
+        heading: "A longer, wetter mosquito season than the rest of Illinois",
+        body:
+          "Herrin's position in far southern Illinois means a genuinely longer warm season than central or northern parts of the state get, and Crab Orchard Lake along with the refuge's shallow marsh acreage gives mosquitoes standing water to breed in for most of that stretch. The practical result is a mosquito season that starts earlier in spring and runs later into fall than what a Chicago area or even central Illinois homeowner would expect, especially on properties closer to the refuge boundary or any of the smaller ponds and low spots scattered through the surrounding countryside.",
+      },
+      {
+        heading: "Coal era housing and where termites find an opening",
+        body:
+          "Herrin grew explosively during its early twentieth century coal mining boom, and a large share of the city's housing stock dates to that period, built fast to house a growing mining workforce rather than to the foundation standards that came later. Those older homes, many of them still occupied and well kept, simply were not built with the soil treatments and foundation barriers that limit termite access in modern construction. Combined with southern Illinois's longer warm season, which keeps termite colonies feeding underground for more months of the year than farther north, Herrin's older neighborhoods carry a real, ongoing termite risk that a spring inspection catches well before a swarm does.",
+      },
+      {
+        heading: "Carpenter ants along the wooded refuge edges",
+        body:
+          "Herrin's proximity to Crab Orchard's woodland shapes more than its tick and mosquito pressure. The mature timber near the refuge boundary, along with the wooded lots that back up to it on the city's southern side, provides plenty of moisture-softened deadwood for carpenter ants to nest in, whether that's a fallen limb, a rotting stump, or an old fence post left to decay. Those colonies don't stay confined to the woods. Foraging workers travel a good distance from a nest, and a porch post or sill plate with even minor water damage on a home near the refuge edge offers the same soft wood the ants are already accustomed to using, which is why homes closest to Crab Orchard tend to report carpenter ant activity more consistently than properties on Herrin's north side, farther from the refuge boundary.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any time spent in wooded yards or lots near the Crab Orchard refuge boundary, especially between April and October.",
+      "Eliminate standing water on the property through the full spring to fall mosquito season, which runs longer in Herrin than in northern Illinois.",
+      "Schedule a termite inspection each spring for homes built during Herrin's early twentieth century coal mining boom, since many predate modern foundation barriers.",
+      "Address any moisture-damaged deadwood or rotting porch framing promptly on homes near wooded refuge edges, where carpenter ants are quick to expand into a structure.",
+    ],
+    costNote:
+      "Pest service pricing in Herrin runs in line with the rest of southern Illinois. Properties near Crab Orchard National Wildlife Refuge sometimes need added tick and mosquito treatments that homes farther from the refuge boundary can skip.",
+    faqs: [
+      {
+        question: "Does Crab Orchard National Wildlife Refuge affect pest pressure in Herrin?",
+        answer:
+          "Yes, directly. The refuge sits just five miles south of the city and its lake, wetland, and woodland habitat draws deer and other wildlife close to Herrin's edges, bringing ticks and supporting a longer mosquito season than the rest of the region sees.",
+      },
+      {
+        question: "Why does Herrin have more termite risk in its older neighborhoods?",
+        answer:
+          "Herrin grew fast during its early twentieth century coal mining boom, and much of the housing built during that period predates the foundation and soil treatment standards that limit termite access in newer construction, so older sections of the city see more consistent activity.",
+      },
+      {
+        question: "Is tick season longer in Herrin than farther north in Illinois?",
+        answer:
+          "It runs from roughly April through October, reflecting both the region's longer warm season and the wildlife activity around Crab Orchard National Wildlife Refuge just south of the city.",
+      },
+      {
+        question: "How big is Crab Orchard National Wildlife Refuge near Herrin?",
+        answer:
+          "It covers about 43,000 acres of lake, wetland, and woodland five miles south of the city, one of the largest refuges in Illinois and close enough to shape pest pressure on Herrin's southern edges.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem near the refuge than elsewhere in Herrin?",
+        answer:
+          "Generally yes. The wooded terrain near Crab Orchard has plenty of moisture-damaged deadwood for carpenter ants to nest in, and colonies there expand readily into the sill plates and porch framing of nearby homes.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Oak Park", slug: "oak-park", stateSlug: "illinois" },
+      { name: "Carbondale", slug: "carbondale-il", stateSlug: "illinois" },
+      { name: "Mount Vernon", slug: "mount-vernon-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Herrin, IL | Wildlife Refuge Ticks & Coal Era Termites",
+    metaDescription:
+      "Herrin, IL pest control for ticks and mosquitoes near Crab Orchard refuge, coal era home termites, carpenter ants and boxelder bugs. Free inspection.",
+  },
 ];

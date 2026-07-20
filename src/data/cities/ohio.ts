@@ -14063,4 +14063,509 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Worthington, OH pest control for squirrels and termites in historic homes, plus carpenter ants, boxelder bugs and fall stink bugs. Franklin County Village Green service.",
   },
+  {
+    slug: "vandalia-oh",
+    name: "Vandalia",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~15,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Vandalia sits on flat, low ground between the Great Miami and Stillwater Rivers, just south of Taylorsville Dam, so spring rain and post-storm backwater sit in ditches and floodplain grass longer than on higher ground elsewhere in Montgomery County. The city also sits at the I-75 and I-70 interchange next to Dayton International Airport, and the warehouses and freight terminals clustered there add a steady commercial pest source on top of the usual cold-winter, humid-summer Ohio pattern.",
+    topPests: ["House Mice", "German Cockroaches", "Brown Marmorated Stink Bugs", "Mosquitoes", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors starting September, active through winter",
+        note: "Vandalia's flat, low ground between the Great Miami and Stillwater Rivers gives mice plenty of ditch and floodplain cover to stage in before the first hard frost sends them looking for a foundation crack.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest near the I-75/I-70 interchange",
+        note: "The distribution centers and truck terminals stacked around Vandalia's interstate interchange move freight around the clock, and roaches occasionally ride along in pallets before turning up in nearby breakrooms and apartments.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs gather by the hundreds on the sunny brick and vinyl siding of Vandalia's newer subdivisions each fall, then squeeze behind trim boards for winter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, worse after river flooding",
+        note: "Taylorsville Dam's flood control pool and the backwater areas along the Great Miami leave standing water for days after a heavy rain, which is long enough for a new mosquito generation to hatch.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Older homes near the two rivers hold enough ground moisture that carpenter ants find damaged sill plates and porch posts without much trouble.",
+      },
+    ],
+    localHook:
+      "Vandalia is squeezed between two rivers and two interstates: the Great Miami and Stillwater on one side, I-75 and I-70 on the other. That geography floods ditches every spring and keeps freight moving through town every day of the year, and both habits show up in the pest calls this city gets.",
+    intro:
+      "Pest control in Vandalia has to account for water on one side and warehouses on the other. The city sits in the low ground between the Great Miami and Stillwater Rivers, just south of Taylorsville Dam, which means spring rain sits in ditches and low yards longer than it does on higher ground elsewhere in Montgomery County. At the same time, Vandalia's spot at the I-75 and I-70 interchange, a junction old enough that the city has been called the crossroads of America since the National Road and the Dixie Highway both ran through it, keeps a steady flow of freight moving past Dayton International Airport and through the distribution centers nearby.\n\nThose two forces shape the pest year. Mosquitoes and carpenter ants track the river moisture, mice and stink bugs follow the same fall pattern seen across the Dayton suburbs, and German cockroaches show up with more regularity near the interstate corridor than in a typical residential neighborhood. A Vandalia home a half mile from the river faces a different mix of pressure than one near the truck terminals, and a decent inspection accounts for both.",
+    sections: [
+      {
+        heading: "Why the rivers matter more than the season",
+        body: "Most Montgomery County suburbs get their mosquito pressure from clogged gutters and forgotten kiddie pools. Vandalia gets that too, but it also sits on genuine floodplain. The Great Miami and Stillwater Rivers meet just south of the city, and Taylorsville Dam upstream holds back high water during storms, which means the backwater areas along both rivers stay wet well after a storm has passed elsewhere. That extra day or two of standing water is enough time for mosquito larvae to mature, which is why river-adjacent streets in Vandalia see earlier and heavier mosquito pressure than subdivisions on the west side of town. The same moisture keeps ground soft around older foundations, giving carpenter ants an easier path into damaged sill plates and porch posts than they would find on drier ground.",
+      },
+      {
+        heading: "The interstate corridor changes the roach picture",
+        body: "Vandalia's spot at the I-75 and I-70 interchange is good for business and occasionally bad for pest control. Warehouses and distribution centers cluster around the interchange and near Dayton International Airport, and freight moving through those buildings brings the occasional hitchhiking German cockroach along with it. That's a different introduction route than the plumbing leaks and shared walls that drive roach problems in most residential neighborhoods, and it means homes and apartments closest to the commercial corridor carry a bit more year-round roach pressure than the rest of the city. A pest plan that only budgets for the usual seasonal insects can miss this steady, low-level source.",
+      },
+      {
+        heading: "Fall exclusion still does the heavy lifting",
+        body: "None of that changes the basic Ohio fall pattern. Stink bugs stage on warm, light-colored exteriors through September and October before pushing into wall voids, and mice start testing foundations for gaps as soon as the first cold nights arrive in late September. Sealing utility penetrations, door sweeps, and foundation cracks before the weather turns is still the single most effective thing a Vandalia homeowner can do, river or no river, warehouse or no warehouse.",
+      },
+    ],
+    prevention: [
+      "Clear ditches, gutters and low spots near the Great Miami and Stillwater floodplain before mosquito season opens in May.",
+      "Seal utility penetrations, door sweeps and foundation cracks in September, ahead of the fall mouse and stink bug push.",
+      "Inspect sill plates and porch posts on older homes near the rivers for carpenter ant damage each spring.",
+      "Ask about ongoing roach monitoring if your home or business sits near the I-75/I-70 interchange or the airport freight corridor.",
+    ],
+    costNote:
+      "General pest service in Vandalia typically runs $75 to $140 per visit, in line with the rest of the Dayton suburbs. Mosquito season programs that target the river floodplain usually run $40 to $70 per treatment from May through September, and homes near the interstate corridor with recurring roach pressure often do best on a quarterly plan rather than a single callback. Most providers include a free initial inspection.",
+    faqs: [
+      {
+        question: "Why does Vandalia get more mosquitoes than nearby Dayton suburbs?",
+        answer: "Vandalia sits in the low ground between the Great Miami and Stillwater Rivers, just south of Taylorsville Dam. Backwater areas along both rivers hold standing water longer after a storm than the higher ground found in most surrounding suburbs, which gives mosquito larvae more time to mature before the water dries up.",
+      },
+      {
+        question: "Does living near the I-75 and I-70 interchange in Vandalia increase pest risk?",
+        answer: "It can, mainly for German cockroaches. The warehouses and distribution centers clustered around Vandalia's interstate interchange and Dayton International Airport handle freight around the clock, and roaches occasionally arrive in shipments before spreading to nearby buildings. Homes and businesses close to the commercial corridor tend to see more year-round roach activity than the rest of the city.",
+      },
+      {
+        question: "When should I seal my Vandalia home against stink bugs and mice?",
+        answer: "September, before the first hard frost. Stink bugs stage on sunny exteriors through September and October, and mice start testing foundations for gaps as soon as nights turn cold in late September. Sealing utility penetrations, door sweeps and foundation cracks that month keeps both out before they establish themselves for winter.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem near Vandalia's rivers?",
+        answer: "Yes, modestly. Ground moisture near the Great Miami and Stillwater Rivers keeps soil softer around older foundations, and that moisture gives carpenter ants an easier path into damaged sill plates and porch posts than they would find in drier parts of the city.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus", stateSlug: "ohio" },
+      { name: "Cleveland", slug: "cleveland", stateSlug: "ohio" },
+      { name: "Trotwood", slug: "trotwood", stateSlug: "ohio" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Vandalia, OH | Mosquitoes, Roaches & Mice",
+    metaDescription:
+      "Vandalia, OH pest control for river floodplain mosquitoes, interstate corridor roaches, fall mice, stink bugs and carpenter ants. Montgomery County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sharonville-oh",
+    name: "Sharonville",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~14,000",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sharonville sits along the I-75 and I-275 corridor north of Cincinnati, where large warehouse and distribution buildings add steady commercial pest pressure on top of the region's cold winters and humid summers. Sharon Creek has spent roughly 20,000 years cutting a gorge through Sharon Woods Park on the city's east side, and that creek corridor keeps the surrounding ground damp enough to support carpenter ants and mosquitoes well into the season.",
+    topPests: ["German Cockroaches", "House Mice", "Brown Marmorated Stink Bugs", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest near the business park",
+        note: "Sharonville's warehouse and logistics district along I-75 and I-275, home to some of the largest distribution buildings in the Cincinnati market, moves freight constantly, and roaches occasionally hitch a ride in shipments before spreading to nearby breakrooms and apartments.",
+      },
+      {
+        name: "House mice and Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall and winter",
+        note: "Loading docks and drainage culverts around the Sharonville Business District give rodents a corridor into the surrounding residential streets once cold weather sets in.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Established stink bug populations aggregate on the sunny sides of Sharonville homes each fall before squeezing behind siding and trim for winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The forested gorge that Sharon Creek has cut through Sharon Woods Park keeps the tree canopy in that part of the city consistently moist, and aging wood softened by that moisture is exactly what carpenter ants look for.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Sharon Woods Park's 35 acre lake and the wooded creek bottom around it hold enough standing and slow water to support a summer mosquito population that reaches into the neighborhoods nearby.",
+      },
+    ],
+    localHook:
+      "Sharon Woods Gorge took about 20,000 years of glacial meltwater to carve, and it still shapes pest pressure in Sharonville today: the same creek-bottom moisture that exposed 450 million year old fossils in the gorge wall keeps carpenter ants and mosquitoes active in the neighborhoods around the park, while the warehouses along I-75 add a roach and rodent pressure most Ohio suburbs this size don't carry.",
+    intro:
+      "Sharonville runs two different pest profiles depending on which part of the city you're standing in. Along I-75 and I-275, the Sharonville Business District stacks some of the largest warehouses and distribution buildings in the Cincinnati market, and the constant freight traffic through those buildings creates a steady, low-level source of German cockroaches and rodents that spreads into nearby homes and apartments. A few miles over, Sharon Woods Park sits on ground that Sharon Creek has been cutting into for roughly 20,000 years, carving a 90 foot gorge that exposes fossils from an inland sea that covered this part of Ohio more than 450 million years ago. That same creek keeps the park's tree canopy and the neighborhoods around it damp enough to support carpenter ants and a real summer mosquito population.\n\nLayer the usual Ohio fall pattern of stink bugs and house mice on top of both, and Sharonville homeowners end up managing a wider mix of pests than most cities its size.",
+    sections: [
+      {
+        heading: "The warehouse district's roach and rodent pressure",
+        body: "Sharonville's industrial base is not incidental to its pest picture. The Sharonville Business District along I-75 and I-275 holds some of the region's largest distribution centers, moving pallets and shipments in and out daily. German cockroaches occasionally travel in that freight, and once established near a loading dock they spread through drainage culverts and utility runs into the office space and apartments nearby. Rodents follow a similar path, using the same culverts and dock areas as cover once the weather turns cold in fall. Homes and businesses within a mile or two of the business park carry more of this pressure year-round than the residential streets farther from I-75, which is worth knowing before choosing a service plan.",
+      },
+      {
+        heading: "Sharon Woods Gorge keeps the east side damp",
+        body: "Sharon Woods Park is Hamilton County's oldest park, and the gorge that Sharon Creek cut through it is a genuine geological landmark, exposing Ordovician fossils in a cliff face formed by glacial meltwater roughly 20,000 years ago. For pest purposes, what matters is that the creek keeps that whole corridor wetter than the surrounding suburbs. Carpenter ants nest readily in the damp, aging wood found in tree limbs and older structures near the park, and the park's 35 acre lake adds enough standing water to keep mosquitoes active through a full Ohio summer. Homes bordering the park or the creek corridor should expect earlier mosquito activity in spring and a longer season than homes on higher, drier ground elsewhere in the city.",
+      },
+      {
+        heading: "Fall sealing still applies across all of Sharonville",
+        body: "Whatever side of the city a home sits on, the same fall routine matters. Stink bugs stage on warm exteriors through September and October, and mice begin testing foundations as soon as nighttime temperatures drop in late September. Sealing gaps around utility lines, window trim and foundation cracks before that shift keeps both out for winter, regardless of whether the bigger year-round concern at that address is a warehouse roach or a creekside mosquito. A single September inspection that checks both the exterior seal and, for homes near the business park, any signs of roach activity near kitchens and bathrooms covers most of what a Sharonville property needs heading into the colder months.",
+      },
+    ],
+    prevention: [
+      "Ask about roach and rodent monitoring for homes or offices within a mile or two of the Sharonville Business District along I-75 and I-275.",
+      "Clear standing water near Sharon Creek and any low-lying yard areas before mosquito season opens in May.",
+      "Inspect tree limbs and older wood trim near Sharon Woods Park each spring for carpenter ant damage.",
+      "Seal utility penetrations, window trim and foundation gaps in September, ahead of the fall stink bug and mouse push.",
+    ],
+    costNote:
+      "General pest service in Sharonville typically runs $80 to $150 per visit. Commercial and multi-unit accounts near the I-75 business corridor often move to a quarterly or monthly roach and rodent monitoring plan rather than single callbacks, which usually costs less per visit over a full year. Mosquito season programs near Sharon Woods Park typically run $40 to $75 per treatment from May through September, and most providers include a free initial inspection.",
+    faqs: [
+      {
+        question: "Why does Sharonville have more year-round roach pressure than nearby Cincinnati suburbs?",
+        answer: "The Sharonville Business District along I-75 and I-275 holds some of the largest warehouses and distribution centers in the Cincinnati market, and the freight moving through them daily occasionally introduces German cockroaches that spread into nearby buildings through loading docks and shared utility runs. That gives homes and businesses close to the corridor more consistent roach pressure than residential neighborhoods farther from the interstate.",
+      },
+      {
+        question: "Does Sharon Woods Park affect mosquito activity in Sharonville?",
+        answer: "Yes. Sharon Woods Park's 35 acre lake and the damp gorge that Sharon Creek has cut through the park over roughly 20,000 years both hold enough water to support a real summer mosquito population. Homes near the park or the creek corridor typically see mosquitoes arrive earlier in spring and stay active later into fall than homes on higher, drier ground elsewhere in the city.",
+      },
+      {
+        question: "Are carpenter ants a particular problem near Sharon Woods Gorge?",
+        answer: "They can be. The gorge and the creek corridor around it keep the tree canopy and nearby wood consistently damp, and carpenter ants prefer exactly that kind of moisture-softened wood for nesting. Homes bordering the park should have porch posts, deck framing and any tree limbs overhanging the roofline checked each spring.",
+      },
+      {
+        question: "When should I seal my Sharonville home against fall pests?",
+        answer: "September, before nighttime temperatures drop for good. Stink bugs stage on sunny exteriors through September and October, and mice start testing foundations for gaps as soon as it turns cold in late September. Sealing utility penetrations, window trim and foundation cracks that month keeps both out for winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Blue Ash", slug: "blue-ash-oh", stateSlug: "ohio" },
+      { name: "Cincinnati", slug: "cincinnati", stateSlug: "ohio" },
+      { name: "Mason", slug: "mason", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Sharonville, OH | Roaches, Mice & Carpenter Ants",
+    metaDescription:
+      "Sharonville, OH pest control for German cockroaches near the I-75 warehouse corridor, house mice, stink bugs, carpenter ants and mosquitoes near Sharon Woods. Hamilton County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "blue-ash-oh",
+    name: "Blue Ash",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~13,500",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Blue Ash sits on some of the highest ground in Hamilton County, on the former site of the Cincinnati-Blue Ash Airport that now hosts Summit Park and the office campuses around it. Cold winters and humid summers set the seasonal baseline, but emerald ash borer's spread through the region's ash trees since 2007 has left standing dead wood that adds carpenter ant pressure not seen in cities without the city's namesake tree loss.",
+    topPests: ["Carpenter Ants", "German Cockroaches", "House Mice", "Brown Marmorated Stink Bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Emerald ash borer reached Hamilton County in 2007 and has killed most of the region's white and green ash trees since; blue ash, the species that gave this city its name, has fared better, but the dead wood left by other ash species in yards and parks gives carpenter ants exactly the soft, decayed material they nest in.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The office campuses and corporate buildings that replaced Blue Ash's old municipal airport, along with the condos and apartments nearby, create the dense, shared-plumbing conditions where German roaches persist.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall and winter",
+        note: "As temperatures drop each October, mice move from Blue Ash's mature yards and shrub borders toward garages, basements and utility penetrations in the city's mostly midcentury housing stock.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs aggregate on sunny building faces across Blue Ash each fall before pushing into wall voids for winter.",
+      },
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through September",
+        note: "Summit Park's outdoor markets, food truck rallies and open lawns draw yellowjackets and paper wasps to unattended food and trash through late summer.",
+      },
+    ],
+    localHook:
+      "Blue Ash was named for the blue ash trees early settlers found along Carpenter's Run in the 1790s. Emerald ash borer has devastated the region's ash trees since it reached Hamilton County in 2007, and while blue ash itself has held up better than white or green ash, the standing dead wood left behind by the epidemic still feeds a steady carpenter ant problem across the city's older yards.",
+    intro:
+      "Blue Ash's pest picture starts with its trees and ends with its office parks. The city takes its name from the blue ash trees that grew along Carpenter's Run when settlers arrived in the 1790s, and while emerald ash borer has killed a large share of the region's ash trees since the beetle reached Hamilton County in 2007, blue ash itself has proven more resistant than white or green ash. That's a small mercy. The dead and dying wood left behind by the epidemic, in yards, parks and along Summit Park's tree line, still gives carpenter ants plenty to nest in.\n\nThe rest of Blue Ash's pest calendar is shaped by what the city has become rather than what it was. Summit Park now covers the site of the former Cincinnati-Blue Ash Airport, and the office campuses and corporate buildings that surround it bring a level of German cockroach and, in late summer, yellowjacket pressure that a smaller residential suburb wouldn't see. Add the usual fall run of stink bugs and mice, and Blue Ash homeowners are managing a mix that reflects both the city's old tree cover and its newer commercial footprint.",
+    sections: [
+      {
+        heading: "What emerald ash borer left behind",
+        body: "Emerald ash borer is a tree pest, not a home pest, but its aftermath still shows up in pest control calls. Since the beetle was confirmed in Hamilton County in 2007, it has killed a large share of the region's white and green ash trees, though blue ash, the species this city was named for, has generally survived better than the others. The practical effect for homeowners is standing dead wood: ash trees killed or weakened by the borer, left in yards or along property lines, soften and decay in a way that carpenter ants find easy to nest in. Removing dead ash wood promptly, rather than leaving it standing or stacked near the house, closes off one of the more avoidable carpenter ant entry points in Blue Ash.",
+      },
+      {
+        heading: "Summit Park and the office corridor",
+        body: "Summit Park's 130 acres sit on some of the highest ground in Hamilton County, on the footprint of the airport that operated there from the 1940s until 2012. The corporate campuses and life sciences buildings that now ring the park bring the sealed, shared-plumbing conditions that let German cockroaches persist indoors year-round, a different pattern than the seasonal insect pressure most residential blocks deal with. The park's own programming adds a second wrinkle: outdoor markets and food truck rallies through the summer draw yellowjackets and paper wasps to unattended food, which peaks right alongside colony size in August and September.",
+      },
+      {
+        heading: "Fall exclusion closes out the rest",
+        body: "None of that changes the basic fall routine. Stink bugs stage on Blue Ash's sunny building exteriors through September and October, and mice begin testing garages and basements for gaps as soon as nights turn cold in late September. Sealing those entry points before the weather shifts remains the most effective single step a Blue Ash homeowner can take, on top of managing the tree wood and the summer wasp activity that are more specific to this city.",
+      },
+    ],
+    prevention: [
+      "Remove dead or dying ash wood from yards and property lines promptly rather than leaving it standing or stacked, since it's a preferred carpenter ant nesting site.",
+      "Ask about ongoing German cockroach monitoring for offices and multi-unit buildings near Summit Park and the corporate corridor.",
+      "Keep food and trash covered at outdoor gatherings near Summit Park from July through September, when yellowjacket colonies peak.",
+      "Seal garage, basement and utility gaps in September, ahead of the fall mouse and stink bug push.",
+    ],
+    costNote:
+      "General pest service in Blue Ash typically runs $85 to $155 per visit, reflecting the mix of residential and commercial accounts in the city. Carpenter ant treatment tied to dead ash wood removal is usually quoted after an inspection, and commercial accounts near Summit Park's office corridor often move to a quarterly monitoring plan. Yellowjacket nest removal is typically billed as a single visit, and most providers include a free initial inspection.",
+    faqs: [
+      {
+        question: "Did emerald ash borer make Blue Ash's carpenter ant problem worse?",
+        answer: "Indirectly, yes. Emerald ash borer has killed a large share of the region's white and green ash trees since it was confirmed in Hamilton County in 2007. Blue ash, the species the city is named for, has generally survived better than other ash species, but the standing dead wood left by the epidemic elsewhere in yards and parks is exactly the kind of soft, decayed material carpenter ants prefer to nest in.",
+      },
+      {
+        question: "Why does Blue Ash have more year-round roach activity than a typical Ohio suburb its size?",
+        answer: "The corporate campuses and office buildings around Summit Park, built on the site of the former Cincinnati-Blue Ash Airport, create sealed, shared-plumbing conditions where German cockroaches can persist year-round, rather than the seasonal insect pressure most purely residential neighborhoods deal with.",
+      },
+      {
+        question: "Is Summit Park a source of wasp problems in Blue Ash?",
+        answer: "During late summer, yes. The park's outdoor markets and food truck rallies draw yellowjackets and paper wasps to unattended food and trash from July through September, which is also when colony size and aggression peak for the season. Keeping food covered and trash contained at outdoor events reduces the draw.",
+      },
+      {
+        question: "When should Blue Ash homeowners seal against fall mice and stink bugs?",
+        answer: "September, before the first sustained cold nights. Stink bugs stage on sunny exteriors through September and October, and mice start testing garages and basements for gaps as soon as it turns cold in late September. Sealing those entry points that month is more effective than dealing with either pest after it's already inside.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Sharonville", slug: "sharonville-oh", stateSlug: "ohio" },
+      { name: "Cincinnati", slug: "cincinnati", stateSlug: "ohio" },
+      { name: "Mason", slug: "mason", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Blue Ash, OH | Carpenter Ants, Roaches & Wasps",
+    metaDescription:
+      "Blue Ash, OH pest control for carpenter ants in dead ash wood, German cockroaches near Summit Park's office corridor, house mice, stink bugs and yellowjackets. Hamilton County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ravenna-oh",
+    name: "Ravenna",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~11,300",
+    county: "Portage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ravenna, the Portage County seat, sits close to genuinely undeveloped land: Camp Ravenna's roughly 21,000 acre wooded and grassland buffer lies just east of the city, and West Branch Reservoir and the headwaters where the Cuyahoga River's branches meet sit nearby too. That combination of woods, wetland and cold, humid northeast Ohio winters keeps tick, mosquito and wildlife pressure higher near Ravenna than in most Ohio county seats its size.",
+    topPests: ["Ticks", "Mosquitoes", "House Mice", "Carpenter Ants", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Blacklegged and American dog ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active April through November, peak May through July",
+        note: "East of the city, the roughly 21,000 acre Camp Ravenna Joint Military Training Center keeps a huge stretch of Portage County in unbroken woods and grassland, holding more deer and tick habitat within reach of Ravenna than a county seat this size usually carries.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "West Branch Reservoir and the headwaters where the Cuyahoga River's east and west branches come together nearby hold wetland and slow water that keeps mosquitoes breeding through a full Ohio summer.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall and winter",
+        note: "Ravenna's older housing stock, much of it built around the Courthouse Square Historic District, carries the aging sill plates and foundation gaps that mice use once fall cold arrives.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The same 19th century wood framing that gives the Courthouse Square Historic District its character also gives carpenter ants an easier target than newer construction, especially where moisture has gone unaddressed for years.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs stage on the brick and frame exteriors of Ravenna's older downtown-adjacent homes each fall before working into wall voids for winter.",
+      },
+    ],
+    localHook:
+      "Ravenna is the Portage County seat, and it sits closer to real, unbroken woods and wetland than most Ohio county seats its size. Camp Ravenna's roughly 21,000 acres of wooded and grassland buffer sit just east of the city, and West Branch Reservoir and the Cuyahoga River's headwaters sit close by too, which means deer, tick and mosquito pressure common to rural Portage County reaches right into Ravenna's residential streets.",
+    intro:
+      "Ravenna's pest pressure looks less like a Columbus suburb's and more like a rural county seat's, because that's closer to what it is. East of the city, Camp Ravenna Joint Military Training Center, the renamed former Ravenna Arsenal, holds roughly 21,000 acres of largely undeveloped woods and grassland between Ravenna and Newton Falls. That much unbroken habitat keeps deer numbers, and the ticks that ride on them, higher near Ravenna than in most built-out Ohio cities. West Branch Reservoir and the headwaters where the Cuyahoga River's east and west branches meet are close by as well, adding wetland mosquito pressure through summer.\n\nRavenna's age adds a second layer. The city was founded in 1799, and the Courthouse Square Historic District downtown still carries a good deal of 19th century wood-frame construction that gives carpenter ants and cold-season mice more to work with than newer housing would. Between the wooded buffer to the east and the older housing at the center of town, a Ravenna pest plan has to cover more ground than the standard Ohio fall routine of stink bugs and mice alone.",
+    sections: [
+      {
+        heading: "Why ticks are a bigger issue in Ravenna than in most Ohio cities its size",
+        body: "Most Ohio county seats of Ravenna's size are surrounded by farmland or built-out suburbs, neither of which supports much deer or tick activity close to town. Ravenna is different. Camp Ravenna's roughly 21,000 acres of wooded and grassland buffer, located between Ravenna and Newton Falls, keeps a genuinely large tract of habitat intact just east of the city, and deer move freely across that land and into the wooded edges of Ravenna's own neighborhoods. Blacklegged ticks and American dog ticks travel with them. Homeowners on the city's east side, or anyone with a yard bordering wooded or overgrown ground, should treat tick checks after outdoor activity as a normal part of spring and summer, not an occasional precaution.",
+      },
+      {
+        heading: "Water on two sides keeps mosquitoes active all summer",
+        body: "Ravenna sits close to two different water systems that both feed mosquito pressure. West Branch Reservoir, a few miles from downtown, holds a large area of shoreline and wetland edge. Closer in, the headwaters where the Cuyahoga River's east and west branches join sit just below the Village of Burton and feed slow water and wetland pockets through the Ravenna area. Between the two, mosquitoes here have more breeding habitat within easy range of the city than most inland Ohio towns, and residential yards near either water source typically need mosquito season treatment to run the full length of a warm Ohio summer, not just the peak weeks in July and August.",
+      },
+      {
+        heading: "The Courthouse Square district and the usual fall pattern",
+        body: "Ravenna's historic downtown, centered on the Courthouse Square Historic District, still holds a meaningful share of 19th and early 20th century wood-frame homes. That older construction gives carpenter ants more moisture-damaged wood to work with than newer housing would, and it gives mice more foundation gaps and sill plate cracks to exploit once fall arrives. Stink bugs follow the standard northeast Ohio calendar, staging on brick and frame exteriors through September and October before pushing indoors for winter. Sealing gaps ahead of that shift matters here just as much as anywhere else in Portage County, it just has to compete with older construction that gives pests more options.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any yard work or outdoor activity on the city's east side, near wooded or overgrown ground close to Camp Ravenna's buffer land.",
+      "Clear standing water near West Branch Reservoir and the Cuyahoga headwaters area before mosquito season opens in May, and plan on treatment running through September.",
+      "Inspect sill plates, porch posts and other wood framing in Courthouse Square district homes each spring for carpenter ant damage.",
+      "Seal foundation cracks and utility penetrations in September, ahead of the fall stink bug and mouse push.",
+    ],
+    costNote:
+      "General pest service in Ravenna typically runs $75 to $145 per visit. Tick treatment for yards bordering wooded or overgrown ground, common on the city's east side, is usually offered as a seasonal program from April through November rather than a single visit. Mosquito programs near West Branch Reservoir or the Cuyahoga headwaters typically run through the full May to September season, and most providers include a free initial inspection.",
+    faqs: [
+      {
+        question: "Why are ticks more of a concern in Ravenna than in other Ohio cities its size?",
+        answer: "Camp Ravenna Joint Military Training Center, the renamed former Ravenna Arsenal, sits just east of the city and holds roughly 21,000 acres of largely undeveloped woods and grassland between Ravenna and Newton Falls. That much intact habitat supports more deer than a typical built-out area, and deer carry blacklegged and American dog ticks into the wooded edges of Ravenna's own neighborhoods, especially on the city's east side.",
+      },
+      {
+        question: "Does Ravenna's location near the Cuyahoga River headwaters affect mosquito season?",
+        answer: "Yes. The Cuyahoga River's east and west branches come together just below the Village of Burton, close to Ravenna, and that headwaters area, along with nearby West Branch Reservoir, holds wetland and slow water that keeps mosquitoes breeding through a full Ohio summer. Yards near either water source typically need treatment for the entire May through September season, not just the peak weeks.",
+      },
+      {
+        question: "Are Ravenna's Courthouse Square district homes at higher risk for carpenter ants?",
+        answer: "Somewhat, yes. The historic district still holds a good number of 19th and early 20th century wood-frame homes, and that older construction gives carpenter ants more moisture-damaged wood to nest in than newer housing typically offers. Regular inspection of sill plates and porch posts is worthwhile for homes in and around the district.",
+      },
+      {
+        question: "When should Ravenna homeowners seal against fall mice and stink bugs?",
+        answer: "September, before the first sustained cold nights arrive. Stink bugs stage on brick and frame exteriors through September and October, and mice begin testing older foundations for gaps as soon as it turns cold. Sealing utility penetrations and foundation cracks that month is the most effective single step, particularly in the city's older housing stock.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Kent", slug: "kent", stateSlug: "ohio" },
+      { name: "Cincinnati", slug: "cincinnati", stateSlug: "ohio" },
+      { name: "Toledo", slug: "toledo", stateSlug: "ohio" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Ravenna, OH | Ticks, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "Ravenna, OH pest control for ticks near Camp Ravenna's wooded buffer, mosquitoes from West Branch Reservoir, house mice, carpenter ants and stink bugs. Portage County seat specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "whitehall-oh",
+    name: "Whitehall",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~20,000",
+    county: "Franklin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Whitehall was organized out of Truro Township and incorporated in 1947, filling in quickly with small, tightly spaced Cape Cod and ranch homes east of downtown Columbus. Cold, humid winters drive pests into that aging, densely built housing stock each fall, and Big Walnut Creek, which has marked the city's eastern border since 1952, keeps the ground damper on that side of town than elsewhere in Franklin County.",
+    topPests: ["German Cockroaches", "Bed Bugs", "House Mice", "Brown Marmorated Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Whitehall's housing stock leans heavily rental, with well over half of homes renter-occupied and much of that supply in smaller apartment buildings, and German roaches spread easily through the shared walls and plumbing common to that kind of building.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "The same renter turnover that drives roach pressure also moves bed bugs between units and buildings in Whitehall, especially through secondhand furniture and shared laundry facilities.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall and winter",
+        note: "Whitehall was built out fast after its 1947 founding, mostly in small Cape Cod and ranch homes on tight lots, and decades of settling have opened the foundation gaps and utility penetrations mice use once cold weather arrives.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs aggregate on Whitehall's postwar exteriors each fall before pushing into the same aging gaps mice use.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The Big Walnut Creek floodplain along Whitehall's eastern edge keeps ground moisture higher there than elsewhere in the city, giving carpenter ants an easier path into damaged wood near the creek corridor.",
+      },
+    ],
+    localHook:
+      "Whitehall was carved out of Truro Township and incorporated in 1947, and it was built out fast, mostly in small Cape Cod and ranch homes for postwar families. Almost eighty years later, that same compact, aging housing stock, with well over half of it renter-occupied, is the biggest single factor in the city's pest pressure.",
+    intro:
+      "Whitehall's pest picture comes down to its age and its housing mix more than its geography. The city was organized out of Truro Township and incorporated in 1947, and it filled in quickly with small, affordable Cape Cod and ranch homes built for postwar families. Decades later, that same housing stock is aging, and a large share of it, well over half by most counts, is renter-occupied, split between small apartment buildings, duplexes and converted single-family homes. That combination of older construction and high renter turnover is a near-ideal setup for German cockroaches and bed bugs, both of which spread readily through shared walls, shared plumbing and secondhand furniture moving between units.\n\nBig Walnut Creek, which defines Whitehall's eastern border, adds a smaller but real factor: the floodplain along the creek keeps ground moisture higher there than in the rest of the city, giving carpenter ants better conditions near that edge. Layer in the standard central Ohio fall run of stink bugs and mice, and Whitehall homeowners and landlords are managing a mix shaped as much by the building as by the season.",
+    sections: [
+      {
+        heading: "Older, renter-heavy housing drives the roach and bed bug pressure",
+        body: "Whitehall's postwar housing was built for volume, not longevity, and eighty years on, a lot of that original construction is showing its age. Well over half of Whitehall households rent rather than own, and much of that rental stock sits in small-scale apartment buildings and converted homes rather than large complexes. That mix matters for pest control: German cockroaches move easily through the shared plumbing and wall voids common to older multi-unit buildings, and bed bugs travel with tenant turnover, secondhand furniture and shared laundry rooms. Both pests are harder to fully clear in a building with several connected units than in a single detached home, which is why ongoing monitoring, rather than a one-time treatment, tends to work better for Whitehall's rental housing.",
+      },
+      {
+        heading: "Big Walnut Creek's effect on the east side",
+        body: "Big Walnut Creek has marked Whitehall's eastern boundary since the city's borders expanded to meet it in 1952, and the creek's floodplain keeps that side of town noticeably damper than the postwar neighborhoods farther west. Carpenter ants take advantage of that moisture, particularly in older wood trim, deck framing and any wood making contact with the ground near the creek corridor. Homes closest to Big Walnut Creek are worth a closer look each spring, especially anywhere water has pooled against the foundation after a wet season.",
+      },
+      {
+        heading: "The fall routine still matters",
+        body: "None of Whitehall's particular pressures change the basic Ohio fall calendar. Stink bugs stage on postwar exteriors through September and October before pushing into the same small gaps around window trim and utility lines that mice use once the weather turns cold in late September. Given how much of Whitehall's housing is aging and rented, coordinating that fall sealing work between landlords and tenants matters more here than in a neighborhood of owner-occupied homes, since gaps that go unreported in a rental unit can sit open for a full season.",
+      },
+    ],
+    prevention: [
+      "Landlords and tenants in Whitehall's smaller apartment buildings should coordinate on ongoing German cockroach and bed bug monitoring rather than waiting for a visible problem.",
+      "Inspect secondhand furniture carefully before bringing it into a Whitehall rental unit, given how easily bed bugs travel with tenant turnover.",
+      "Check wood trim, deck framing and any ground-contact wood near Big Walnut Creek each spring for carpenter ant activity.",
+      "Seal window trim, utility penetrations and foundation gaps in September, ahead of the fall stink bug and mouse push.",
+    ],
+    costNote:
+      "General pest service in Whitehall typically runs $75 to $140 per visit for single-family homes. Multi-unit rental properties usually do better on a monthly or quarterly monitoring contract for roaches and bed bugs than on single callbacks, since shared walls make full elimination in one visit unlikely. Carpenter ant treatment near the Big Walnut Creek corridor is typically quoted after inspection, and most providers include a free initial inspection.",
+    faqs: [
+      {
+        question: "Why does Whitehall have more bed bug and roach activity than some nearby Franklin County suburbs?",
+        answer: "Whitehall's housing stock is older, built quickly after the city's 1947 founding, and well over half of households rent rather than own, much of it in small apartment buildings and converted homes. German cockroaches spread easily through the shared plumbing and wall voids in that kind of building, and bed bugs travel with tenant turnover and secondhand furniture, both more common in high-renter housing than in owner-occupied neighborhoods.",
+      },
+      {
+        question: "Does Big Walnut Creek affect pest pressure in Whitehall?",
+        answer: "On the city's eastern edge, yes. Big Walnut Creek has marked that border since 1952, and its floodplain keeps the ground damper there than in the rest of Whitehall. That extra moisture gives carpenter ants an easier target in wood trim, deck framing and ground-contact wood near the creek corridor.",
+      },
+      {
+        question: "Is it harder to get rid of roaches or bed bugs in a Whitehall apartment building than in a house?",
+        answer: "Often, yes. Shared walls, plumbing and hallways let both pests move between units, so a single-unit treatment can leave a source population next door that reinfests the treated unit. Ongoing monitoring across the whole building, coordinated between landlords and tenants, generally works better than treating one unit at a time.",
+      },
+      {
+        question: "When should Whitehall renters and homeowners seal against fall mice and stink bugs?",
+        answer: "September, before the weather turns cold for good. Stink bugs stage on exteriors through September and October, and mice start testing the small gaps common in Whitehall's postwar construction as soon as nights cool off in late September. In rental units, reporting gaps to a landlord that month, rather than waiting for a pest to appear, keeps the whole building in better shape through winter.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus", stateSlug: "ohio" },
+      { name: "Hamilton", slug: "hamilton", stateSlug: "ohio" },
+      { name: "Reynoldsburg", slug: "reynoldsburg", stateSlug: "ohio" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Whitehall, OH | Roaches, Bed Bugs & Mice",
+    metaDescription:
+      "Whitehall, OH pest control for German cockroaches and bed bugs in aging rental housing, house mice, stink bugs and carpenter ants near Big Walnut Creek. Franklin County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
