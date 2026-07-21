@@ -4275,4 +4275,573 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in California, MD | Mosquitoes, Termites & Ticks",
     metaDescription: "California MD pest control for mosquitoes, subterranean termites, deer ticks and rodents. St. Mary's County, Patuxent River peninsula. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "odenton-md",
+    name: "Odenton",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~42,900",
+    county: "Anne Arundel County",
+    climate: "hot-humid",
+    climateDriver:
+      "Odenton sits in Anne Arundel County's humid subtropical zone, sharing the hot, sticky summers and short, mild winters found across the Baltimore-Washington corridor. The community grew up around low-lying stream valleys that drain toward the Patuxent River, and the thousands of forested acres inside neighboring Fort George G. Meade keep woodland pest pressure pressed right up against the newer subdivisions built at its edge.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Eastern Subterranean Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Fort George G. Meade's forested training grounds sit directly next to Odenton's newest subdivisions, and that woodland edge gives deer ticks cover close to backyards built along the base's tree line.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Odenton's low-lying stream valleys drain toward the Patuxent River, and the stormwater ponds built into newer communities like Piney Orchard hold enough standing water to sustain a full mosquito season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Odenton's growth has stacked decades-old farmhouses next to subdivisions built during the community's transit-driven boom, and the older wood-frame homes carry the greater share of termite exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Many of Odenton's newer subdivisions were cut directly out of forest, and carpenter ant colonies displaced from that original woodland move into fence posts, decks, and soffits on the lots that replaced their habitat.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Odenton still borders working farmland and undeveloped fields on its outer edges, and once those fields are harvested each fall, house mice move toward the nearest warm structure in large numbers.",
+      },
+    ],
+    localHook:
+      "Odenton grew from a small rail crossroads into one of Anne Arundel County's fastest-growing communities in a single generation, driven by its MARC Camden Line station and its location next to Fort George G. Meade and the National Security Agency campus.",
+    intro:
+      "Pest control in Odenton, MD has to account for a community that changed shape fast. What was a scattering of farms and a rail stop became one of Anne Arundel County's busiest suburbs once the MARC Camden Line and the growth of nearby Fort George G. Meade pulled in new residents and new construction. That growth did not erase the woods, farmland, and stream valleys around it, it built subdivisions right up against them, which is why Odenton now deals with woodland pests like deer ticks and carpenter ants alongside the mosquitoes bred in its stormwater ponds and the mix of old-farmhouse and new-construction termite exposure that comes with a town built in layers.",
+    sections: [
+      {
+        heading: "A rail crossroads that grew up fast",
+        body: "Odenton's population climbed steadily as the MARC Camden Line and Fort George G. Meade's continued growth turned a small rail crossroads into a genuine commuter suburb. That speed matters for pest control because it left two different kinds of housing stock side by side: decades-old farmhouses with the accumulated gaps of long-term wear, and new subdivisions built under current construction codes. A single pest plan for the whole community has to account for both.",
+      },
+      {
+        heading: "Fort Meade's forest keeps ticks close to new subdivisions",
+        body: "Fort George G. Meade includes thousands of acres of forested land, and several of Odenton's newer neighborhoods sit directly against that tree line. Deer ticks move easily from undisturbed woodland edge into backyards, and residents who garden or let pets roam near the base's forested boundary should check for ticks through the warm months.",
+      },
+      {
+        heading: "Stormwater ponds and stream valleys drive the mosquito season",
+        body: "The stream valleys that thread through Odenton drain toward the Patuxent River, and the stormwater management ponds built into communities like Piney Orchard, while designed to control runoff, also hold water long enough to breed mosquitoes from April through October. Clearing smaller sources of standing water on an individual lot, clogged gutters, unused containers, is the piece a homeowner actually controls.",
+      },
+      {
+        heading: "Older farmhouses carry more termite risk than the new subdivisions",
+        body: "Termite pressure in Odenton splits fairly cleanly along construction age. The farmhouses and older homes that predate the community's growth boom were built before modern pretreatment was standard, and their wood-frame construction sitting close to soil carries real exposure. Newer subdivisions built under current codes are not immune, but they start from a stronger baseline.",
+      },
+      {
+        heading: "Carpenter ants displaced from cleared woodland",
+        body: "A number of Odenton's subdivisions were built directly on cleared forest land, and the carpenter ant colonies that once had that woodland to themselves did not disappear, they moved into whatever wood structure replaced it. Decks, fence posts, and soffits on lots bordering remaining tree cover see the steadiest pressure.",
+      },
+      {
+        heading: "Harvest season sends house mice looking for shelter",
+        body: "Odenton's outer edges still include working farmland, and once those fields are harvested each fall, the house mice that lived there lose their food source and head for the nearest warm building. Sealing foundation gaps and utility penetrations before October is the most useful single step a homeowner near the community's farmland edge can take.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October to block fall house mice moving in from harvested fields.",
+      "Check for deer ticks after time spent near Fort Meade's wooded boundary, especially April through September.",
+      "Clear standing water from stormwater-adjacent yards through the mosquito season, April through October.",
+      "Schedule an annual termite inspection, with priority given to farmhouses and other homes built before the 1980s.",
+    ],
+    costNote:
+      "Termite inspection in Odenton is commonly free to $150, with treatment running $250 to $650 per year depending on the home's age. Mosquito season programs for lots near stormwater ponds typically run $300 to $600. General pest plans covering ticks, carpenter ants, and mice run $140 to $280 per year.",
+    faqs: [
+      {
+        question: "Why does Odenton have both old-farmhouse and new-construction pest problems?",
+        answer: "Odenton's rapid growth around the MARC Camden Line and Fort George G. Meade stacked new subdivisions next to decades-old farmhouses, so the community carries the termite and entry-point exposure of older wood-frame homes alongside the pest pressure that comes with subdivisions built directly on cleared woodland.",
+      },
+      {
+        question: "Are deer ticks a real concern in Odenton?",
+        answer: "Yes. Fort George G. Meade's forested training grounds border several of Odenton's newer neighborhoods directly, and that woodland edge gives deer ticks cover close to backyards. Anyone spending time near the base's tree line from April through September should check for ticks afterward.",
+      },
+      {
+        question: "What causes Odenton's mosquito season?",
+        answer: "The stream valleys running through Odenton drain toward the Patuxent River, and the stormwater ponds built into communities like Piney Orchard hold standing water long enough to breed mosquitoes from April through October, even though their purpose is runoff control rather than habitat.",
+      },
+      {
+        question: "Do carpenter ants come from the woodland that used to be here?",
+        answer: "Often, yes. Many Odenton subdivisions were built directly on cleared forest, and the carpenter ant colonies from that original woodland moved into decks, fence posts, and soffits on the new lots rather than disappearing when the trees came down.",
+      },
+      {
+        question: "When should I worry about mice in Odenton?",
+        answer: "Fall is the highest-risk period. Odenton still borders working farmland on its outer edges, and once those fields are harvested each October, house mice head for the nearest warm structure in numbers. Sealing entry points before harvest season is the most effective single step.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Owings Mills", slug: "owings-mills-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+      { name: "Cresaptown", slug: "cresaptown-md", stateSlug: "maryland" },
+      { name: "Clinton", slug: "clinton-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Odenton, MD | Ticks, Mosquitoes & Termites",
+    metaDescription: "Odenton MD pest control for deer ticks, mosquitoes, subterranean termites and carpenter ants. Fort Meade area, Anne Arundel County. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "owings-mills-md",
+    name: "Owings Mills",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~35,700",
+    county: "Baltimore County",
+    climate: "hot-humid",
+    climateDriver:
+      "Owings Mills sits in Baltimore County's humid subtropical zone, with warm, humid summers and winters that rarely stay below freezing for long. Decades of farmland converted into subdivisions since Interstate 795 opened in the 1980s left patches of mature woodland standing between the newer developments, and the unusual serpentine barrens of nearby Soldiers Delight Natural Environment Area add a block of undeveloped habitat pressed against residential streets on the community's western edge.",
+    topPests: ["Carpenter Ants", "Eastern Subterranean Termites", "Deer Ticks", "Brown Marmorated Stink Bugs", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The patches of mature woodland left standing between Owings Mills' subdivisions after decades of farmland-to-suburb conversion give carpenter ants a steady source of outdoor colonies that forage into nearby decks and window frames.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Owings Mills carries a mix of pre-1980s farmhouses and construction from the community's growth boom after Interstate 795 opened, and the older wood-frame homes in that mix carry the greater termite exposure.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The rare serpentine barrens of Soldiers Delight Natural Environment Area sit against Owings Mills' western neighborhoods, and that undeveloped habitat, along with the community's other wooded pockets, keeps deer ticks close to yards bordering the tree line.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Owings Mills sees the same fall stink bug aggregation found across central Maryland, with sunny exterior walls on homes near remaining woodland drawing the heaviest numbers before the insects push indoors.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The retail and office corridor built around Foundry Row and the redeveloped Metro Centre site, formerly the Owings Mills Mall, generates food waste that keeps Norway rats active in the commercial core through every season.",
+      },
+    ],
+    localHook:
+      "Owings Mills went from farmland to one of Baltimore County's largest suburbs after Interstate 795 opened in the 1980s, and the community's western edge still runs up against the rare serpentine barrens of Soldiers Delight Natural Environment Area, a pocket of undeveloped habitat found almost nowhere else in Maryland.",
+    intro:
+      "Pest control in Owings Mills, MD is shaped by how quickly the community grew and by what got left standing when it did. Interstate 795 opened in the 1980s and turned what had been farmland into one of Baltimore County's largest suburbs within a couple of decades, and the mature woodland pockets that survived that growth, along with the unusual serpentine barrens of Soldiers Delight Natural Environment Area on the community's western side, still supply carpenter ants and deer ticks to the neighborhoods built closest to them. Add a mix of older farmhouses and newer construction that splits the town's termite exposure unevenly, a standard central Maryland fall stink bug season, and a retail corridor around Foundry Row and Metro Centre that keeps rats fed year-round, and Owings Mills needs a plan that covers both its wooded residential streets and its busy commercial core.",
+    sections: [
+      {
+        heading: "Soldiers Delight and the woodland pockets carpenter ants call home",
+        body: "Owings Mills' growth from farmland to suburb after Interstate 795 opened did not clear every tree. The mature woodland left standing between subdivisions, plus the rare serpentine barrens of Soldiers Delight Natural Environment Area along the community's western edge, gives carpenter ants outdoor colonies close to homes on nearly every side of town. Decks, window frames, and any wood showing moisture damage are the most common entry points.",
+      },
+      {
+        heading: "Farmhouse-era homes carry the heavier termite load",
+        body: "Owings Mills' housing stock spans decades of growth, and the split matters for termite risk. Homes built before the community's 1980s boom were framed without modern pretreatment and often sit closer to grade, while newer construction under current codes starts from a stronger baseline. An annual inspection matters more for the older half of that mix.",
+      },
+      {
+        heading: "Deer ticks along Soldiers Delight's unusual habitat",
+        body: "Soldiers Delight Natural Environment Area is a rare serpentine barren ecosystem, and its undeveloped acreage, along with Owings Mills' other wooded pockets, keeps deer ticks present close to residential yards on the community's western side. Anyone hiking, gardening, or letting pets roam near that tree line should check for ticks from April through September.",
+      },
+      {
+        heading: "A predictable fall stink bug season",
+        body: "Owings Mills sees the same brown marmorated stink bug pattern found across central Maryland each fall, with the insects gathering on sunny exterior walls near remaining tree cover before pushing indoors as temperatures drop. Sealing gaps around windows and utility lines before September remains the most effective single step.",
+      },
+      {
+        heading: "A busy retail corridor keeps rats fed year-round",
+        body: "The redevelopment of the old Owings Mills Mall site into Metro Centre, combined with the retail and restaurant corridor at Foundry Row, gives the community a commercial core generating steady food waste. That volume keeps Norway rats active through every season rather than just a fall surge, and commercial exclusion work matters as much as trapping in that part of town.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, with priority given to homes built before the 1980s growth boom.",
+      "Check for deer ticks after time spent near Soldiers Delight Natural Environment Area or other wooded lots, April through September.",
+      "Trim tree limbs and clear damp mulch away from siding to reduce carpenter ant entry points.",
+      "Seal gaps around windows and utility lines before September to block fall stink bug entry.",
+    ],
+    costNote:
+      "Termite inspection in Owings Mills is commonly free to $150, with treatment running $250 to $650 per year depending on the home's age. Carpenter ant and tick-focused yard treatments typically run $120 to $300 per season. Commercial rodent exclusion for retail corridor properties runs $200 to $500 per month depending on building size.",
+    faqs: [
+      {
+        question: "Why does Owings Mills have both older-home and new-construction pest issues?",
+        answer: "Interstate 795 opened in the 1980s and turned Owings Mills from farmland into a major suburb within a couple of decades, which means the community now has decades-old farmhouses sitting next to newer subdivisions. The older homes carry more termite exposure, since they predate modern pretreatment standards.",
+      },
+      {
+        question: "What is Soldiers Delight and does it affect pest pressure in Owings Mills?",
+        answer: "Soldiers Delight Natural Environment Area is a rare serpentine barren habitat on Owings Mills' western edge. Its undeveloped acreage, along with the community's other wooded pockets, keeps carpenter ants and deer ticks present close to nearby residential yards.",
+      },
+      {
+        question: "Is there a rat problem around Owings Mills' shopping areas?",
+        answer: "Yes. The Metro Centre redevelopment on the old Owings Mills Mall site and the Foundry Row retail corridor both generate steady food waste, which keeps Norway rats active in that commercial core through every season rather than just in fall.",
+      },
+      {
+        question: "Are deer ticks common in Owings Mills?",
+        answer: "Yes, particularly near Soldiers Delight Natural Environment Area and other wooded pockets on the community's western side. Anyone spending time in those areas from April through September should check for ticks afterward.",
+      },
+      {
+        question: "When do stink bugs become a problem in Owings Mills?",
+        answer: "September through November, when brown marmorated stink bugs aggregate on sunny exterior walls near tree cover before pushing indoors as the weather cools. Sealing entry points before September is the most effective step homeowners can take.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Odenton", slug: "odenton-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+      { name: "Cresaptown", slug: "cresaptown-md", stateSlug: "maryland" },
+      { name: "Clinton", slug: "clinton-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Owings Mills, MD | Ants, Termites & Ticks",
+    metaDescription: "Owings Mills MD pest control for carpenter ants, subterranean termites, deer ticks and stink bugs. Baltimore County retail corridor. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "stevensville-md",
+    name: "Stevensville",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~7,400",
+    county: "Queen Anne's County",
+    climate: "hot-humid",
+    climateDriver:
+      "Stevensville sits on Kent Island at the eastern foot of the Chesapeake Bay Bridge, where Queen Anne's County's Eastern Shore climate runs hot and humid through summer with the added moisture of tidal water on nearly every side. The island's low, flat terrain along the Chesapeake and Eastern Bays keeps marsh and shoreline habitat close to almost every neighborhood, which sustains a long mosquito season and steady humidity around older waterfront homes.",
+    topPests: ["Mosquitoes", "Deer Ticks", "Eastern Subterranean Termites", "Carpenter Ants", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Stevensville's position on Kent Island surrounds the community with the tidal marsh and shoreline of the Chesapeake and Eastern Bays, and that low, flat terrain holds standing water in enough low spots to sustain mosquitoes from April well into October.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Wooded and marsh-edge lots are common across Kent Island, and deer ticks move from that cover into yards, particularly on properties bordering undeveloped shoreline or tree stands.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Stevensville's historic district and its older waterfront cottages were built close to grade long before modern termite pretreatment, and the island's tidal humidity keeps soil moisture high enough to sustain colony activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The same tidal humidity that shapes Kent Island's mosquito season also keeps wood moisture elevated in older homes, and carpenter ants exploit that softened wood at rooflines, decks, and window sills.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs follow the same fall aggregation pattern seen across the Eastern Shore, gathering on sunny exterior walls before pushing into island homes as temperatures drop.",
+      },
+    ],
+    localHook:
+      "Stevensville sits on Kent Island at the eastern foot of the Chesapeake Bay Bridge, the historic gateway between Maryland's Western and Eastern Shores, and the community's low, tidal terrain keeps it wrapped in marsh and shoreline along nearly its entire perimeter.",
+    intro:
+      "Pest control on Kent Island starts with water. Stevensville sits at the eastern foot of the Chesapeake Bay Bridge, surrounded by the tidal marsh and shoreline of the Chesapeake and Eastern Bays, and that low, flat terrain gives the community one of the Eastern Shore's longer mosquito seasons, running from April into October. The same tidal humidity that feeds the mosquito population also keeps wood moisture elevated in older homes, which is part of why the historic waterfront cottages in Stevensville's own historic district carry real termite and carpenter ant exposure. Wooded and marsh-edge lots add deer ticks to the mix, and a standard Eastern Shore fall stink bug season rounds out what a Stevensville pest plan needs to cover, all of it shaped by a community that is never far from open water.",
+    sections: [
+      {
+        heading: "An island shaped by tidal water on nearly every side",
+        body: "Kent Island's position between the Chesapeake Bay and the Eastern Bay means Stevensville is rarely more than a short walk from tidal shoreline, and that geography drives most of the community's pest pressure. Low-lying yards and marsh-edge lots hold water after rain and high tide alike, and the humidity that comes with year-round proximity to open water keeps moisture-loving pests active longer than they would be farther inland.",
+      },
+      {
+        heading: "A long mosquito season built on marsh and shoreline",
+        body: "Mosquitoes breed readily in the standing water that collects across Kent Island's flat terrain, from tidal marsh edges to low spots in residential yards, and Stevensville's season runs from April into October, longer than towns without the island's water exposure typically see. Clearing containers, clogged gutters, and other small-scale standing water on an individual property is the piece a homeowner actually controls.",
+      },
+      {
+        heading: "The historic district's older cottages carry real termite risk",
+        body: "Stevensville's historic district includes homes and structures, among them the 18th century Cray House, that predate modern termite pretreatment by well over a century. Those older, close-to-grade structures, combined with the island's tidal humidity, give Stevensville meaningfully more termite exposure than newer construction elsewhere in Queen Anne's County.",
+      },
+      {
+        heading: "Ticks along the wooded and marsh-edge lots",
+        body: "Not every part of Kent Island is open marsh. Wooded lots and tree stands along the water's edge give deer ticks cover close to yards, and families spending time near those wooded or marsh-edge boundaries from April through September should check for ticks afterward, especially with children and pets who move through that cover at ground level.",
+      },
+      {
+        heading: "A routine Eastern Shore fall for stink bugs",
+        body: "Brown marmorated stink bugs follow the same September through November pattern seen across the Eastern Shore, aggregating on sunny exterior walls before working their way indoors through gaps around windows and siding. Sealing those entry points ahead of fall keeps the seasonal nuisance to a minimum without needing to treat every bug that gets inside.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yards and low-lying areas through the April to October mosquito season.",
+      "Schedule an annual termite inspection for older waterfront homes, particularly in Stevensville's historic district.",
+      "Check children and pets for ticks after time near wooded or marsh-edge lots, April through September.",
+      "Seal gaps around windows and siding before September to reduce fall stink bug entry.",
+    ],
+    costNote:
+      "Mosquito season programs in Stevensville commonly run $300 to $600 given the length of the local season along Kent Island's tidal shoreline. Termite inspection is typically free to $150, with treatment running $250 to $650 per year for older waterfront homes. General pest plans covering ticks and stink bugs run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Why is mosquito season so long in Stevensville?",
+        answer: "Stevensville sits on Kent Island, surrounded by the tidal marsh and shoreline of the Chesapeake and Eastern Bays, and that low, flat terrain holds standing water long enough to sustain mosquitoes from April into October, longer than communities farther from tidal water typically see.",
+      },
+      {
+        question: "Are the historic homes in Stevensville at higher risk for termites?",
+        answer: "Yes. Stevensville's historic district includes structures like the 18th century Cray House, built long before modern termite pretreatment, and the island's tidal humidity keeps soil moisture elevated enough to sustain subterranean termite activity in those older, close-to-grade buildings.",
+      },
+      {
+        question: "Do I need to worry about deer ticks on Kent Island?",
+        answer: "In wooded and marsh-edge areas, yes. Not all of Kent Island is open marsh, and the tree stands along the water's edge give deer ticks cover close to residential yards. Checking for ticks after time in those areas from April through September is a reasonable precaution, especially for children and pets.",
+      },
+      {
+        question: "How does living near the Chesapeake Bay Bridge affect pest pressure in Stevensville?",
+        answer: "Stevensville's position at the eastern foot of the bridge puts it directly on Kent Island's tidal shoreline, which means more sustained humidity and more standing water than towns set back from the water. That drives a longer mosquito season and higher moisture exposure for wood-frame structures than inland Queen Anne's County communities see.",
+      },
+      {
+        question: "When do stink bugs show up in Stevensville?",
+        answer: "September through November, following the same Eastern Shore pattern seen throughout the region. They gather on sunny exterior walls before pushing indoors through gaps around windows and siding as the weather cools.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Odenton", slug: "odenton-md", stateSlug: "maryland" },
+      { name: "Owings Mills", slug: "owings-mills-md", stateSlug: "maryland" },
+      { name: "Cresaptown", slug: "cresaptown-md", stateSlug: "maryland" },
+      { name: "Clinton", slug: "clinton-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Stevensville, MD | Mosquitoes, Ticks & Termites",
+    metaDescription: "Stevensville MD pest control for mosquitoes, deer ticks, subterranean termites and carpenter ants. Kent Island, Chesapeake Bay Bridge gateway. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cresaptown-md",
+    name: "Cresaptown",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~5,400",
+    county: "Allegany County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cresaptown sits in a narrow Appalachian valley along the North Branch Potomac River south of Cumberland, deep in Allegany County's ridge-and-valley mountain terrain. The cold-humid climate here runs noticeably colder and wetter than eastern Maryland, with a longer, harder winter that pushes rodents toward warm buildings and heavy precipitation that keeps wood moisture high enough for carpenter ants to thrive.",
+    topPests: ["House Mice", "Carpenter Ants", "Brown Marmorated Stink Bugs", "Eastern Subterranean Termites", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Cresaptown's Appalachian winters are long and cold enough that house mice push toward any warm structure by October, and the community's older homes along Route 220 have accumulated the kind of small gaps that make easy entry points over the decades.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "The wooded ridges above the North Branch Potomac valley hold large outdoor carpenter ant colonies, and the region's heavy precipitation keeps wood moisture elevated enough in older structures for those colonies to establish satellite nests indoors.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Cresaptown sees the same fall aggregation found across the Appalachian corridor, and the area's shorter mild-weather window before winter sets in means stink bugs push for indoor shelter with real urgency once September arrives.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms April through May",
+        note: "Termites are documented across western Maryland, and while Allegany County's colder climate limits their activity compared to eastern Maryland, Cresaptown's older wood-frame homes near the river valley still carry real exposure.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder and maple trees are common throughout Cresaptown's residential streets, and boxelder bugs gather on sun-warmed exterior walls each fall before working their way in through the same gaps stink bugs use.",
+      },
+    ],
+    localHook:
+      "Cresaptown is home to the 316-acre main campus of Allegany College of Maryland, a mountain valley community along the North Branch Potomac River south of downtown Cumberland.",
+    intro:
+      "Pest control in Cresaptown, MD has to account for a mountain valley climate that runs colder and wetter than most of the state. This Allegany County community, home to the 316-acre main campus of Allegany College of Maryland, sits in the North Branch Potomac River valley south of Cumberland, and its cold-humid Appalachian winters push house mice toward buildings hard and early each fall. The same heavy precipitation that defines this climate keeps wood moisture high enough for carpenter ants to thrive in the wooded ridges above town, and a shorter mild-weather window before winter gives Cresaptown's fall stink bug and boxelder bug invasion a real urgency. Termites are present here too, just at a lower intensity than eastern Maryland's warmer climate produces.",
+    sections: [
+      {
+        heading: "A mountain valley winter drives an early, hard mouse season",
+        body: "Cresaptown's stretch of the North Branch Potomac valley sees a longer, colder winter than most of Maryland, and that climate pushes house mice toward warm buildings starting in October rather than waiting for the deeper cold of December. Older homes along Route 220 and the community's residential side streets have picked up small foundation and utility gaps over the decades, and those gaps are exactly what a cold-driven mouse population needs. Sealing them before October matters more here than in a milder Maryland climate.",
+      },
+      {
+        heading: "Heavy precipitation keeps carpenter ants active in the wooded ridges",
+        body: "The ridge-and-valley terrain surrounding Cresaptown holds large outdoor carpenter ant colonies, and the region's consistently heavy precipitation keeps wood moisture elevated in older structures near the valley floor. Colonies that establish satellite nests indoors tend to target soffits, deck posts, and any wood that has already softened from years of dampness, which makes an annual inspection worthwhile for homes with visible water staining.",
+      },
+      {
+        heading: "A short window before winter concentrates the fall invasion",
+        body: "Stink bugs and boxelder bugs both follow the Appalachian corridor's fall pattern, but Cresaptown's shorter mild-weather window before winter sets in gives both insects less time to find overwintering shelter, which means they push into buildings with more urgency once September arrives than they would in a milder climate. Sealing gaps around windows, siding, and utility lines before September remains the most effective single step for both pests.",
+      },
+      {
+        heading: "Termite exposure exists, just at a lower level than eastern Maryland",
+        body: "Subterranean termites are documented across western Maryland, including the Allegany County communities along the North Branch Potomac, but the colder climate here limits colony activity compared to the Baltimore-Washington corridor. That does not mean the risk is zero. Cresaptown's older wood-frame homes near the river valley, particularly those with crawl spaces close to grade, still warrant an annual inspection.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility entries before October to get ahead of Cresaptown's early, cold-driven mouse season.",
+      "Inspect soffits, deck posts, and other exterior wood annually for carpenter ant activity, especially after a wet season.",
+      "Seal gaps around windows and siding before September to block stink bugs and boxelder bugs before the mild-weather window closes.",
+      "Schedule a termite inspection for older wood-frame homes near the North Branch Potomac valley floor.",
+    ],
+    costNote:
+      "Termite inspection in Cresaptown is commonly free. Mouse exclusion work ahead of the October cold snap and carpenter ant treatment are priced individually based on the home's age and condition. Fall stink bug and boxelder bug sealing is often bundled with a general pest plan for Allegany County properties.",
+    faqs: [
+      {
+        question: "Why do mice become a problem so early in Cresaptown?",
+        answer: "Cresaptown's stretch of the North Branch Potomac valley has a longer, colder Appalachian winter than most of Maryland, and that climate pushes house mice toward warm buildings by October rather than waiting for deep winter. Older homes along Route 220 have accumulated the kind of small gaps that make easy entry points.",
+      },
+      {
+        question: "Does the Allegany College of Maryland campus affect pest pressure in Cresaptown?",
+        answer: "The 316-acre campus itself is not a major pest driver, but it sits within the same wooded North Branch Potomac River valley that supplies the carpenter ant colonies and cold-driven mouse pressure affecting the surrounding Cresaptown community.",
+      },
+      {
+        question: "Are termites really a concern in a cold Appalachian climate like Cresaptown's?",
+        answer: "Yes, though at a lower intensity than eastern Maryland. Subterranean termites are documented across western Maryland, and Cresaptown's older wood-frame homes near the river valley, especially those with crawl spaces close to grade, still carry real exposure worth an annual inspection.",
+      },
+      {
+        question: "Why do stink bugs seem to arrive all at once in Cresaptown?",
+        answer: "Cresaptown's shorter mild-weather window before winter sets in gives stink bugs less time to find overwintering shelter, so they push into buildings with more urgency once September arrives compared to milder parts of Maryland.",
+      },
+      {
+        question: "What is a boxelder bug and why do I see them every fall in Cresaptown?",
+        answer: "Boxelder bugs feed on boxelder and maple trees, which are common throughout Cresaptown's residential streets, and they gather on sun-warmed exterior walls each September and October before working their way indoors through the same small gaps stink bugs use.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Odenton", slug: "odenton-md", stateSlug: "maryland" },
+      { name: "Owings Mills", slug: "owings-mills-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+      { name: "Clinton", slug: "clinton-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Cresaptown, MD | Mice, Ants & Stink Bugs",
+    metaDescription: "Cresaptown MD pest control for house mice, carpenter ants, stink bugs and termites. Allegany County, North Branch Potomac valley. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "clinton-md",
+    name: "Clinton",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~38,800",
+    county: "Prince George's County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clinton sits in southern Prince George's County's humid subtropical zone, where hot, sticky summers and mild winters mirror the rest of the Baltimore-Washington corridor. The community's larger residential lots, a holdover from its tobacco farming past, and the Piscataway Creek watershed running through it keep wooded and wetland habitat close to homes even as the area has suburbanized.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Carpenter Ants", "Deer Ticks", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Piscataway Creek and its feeder streams run through Clinton's low-lying areas, and the wooded, semi-rural lots common across the community hold enough standing water and shade to sustain mosquitoes for most of the warm season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Clinton's mid-20th century farmhouses, holdovers from its tobacco farming era, sit alongside newer subdivisions from the county's suburban growth, and the older wood-frame homes carry the greater share of termite exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Clinton's larger residential lots, many still wooded from the community's rural past, give carpenter ants plenty of outdoor colony habitat close to decks, fence lines, and older wood siding.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The wooded buffers along Piscataway Creek and Clinton's larger lot sizes keep deer ticks present closer to backyards than in more densely built parts of Prince George's County.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The commercial corridor along Branch Avenue and Woodyard Road, combined with Clinton's proximity to Joint Base Andrews, sustains a level of food service and cargo activity that keeps Norway rats active through every season.",
+      },
+    ],
+    localHook:
+      "Clinton grew out of southern Prince George's County's tobacco farming country into one of the county's larger unincorporated suburbs, and it still sits beside the historic Surratt House, the 19th century tavern and home tied to the Lincoln assassination conspiracy, not far from the runways of Joint Base Andrews.",
+    intro:
+      "Pest control in Clinton, MD reflects a community that has kept one foot in its rural past. This unincorporated southern Prince George's County suburb grew out of tobacco farming country, and it still holds the Surratt House, the 19th century tavern tied to the Lincoln assassination conspiracy, as one of its landmarks, along with larger wooded lots that never fully gave way to dense suburban development. That mix of history and terrain, plus the wetland habitat running through the Piscataway Creek watershed and Clinton's proximity to Joint Base Andrews, shapes a pest picture built around mosquitoes, wood-destroying insects in a housing stock that spans decades, and a rodent population sustained by the commercial corridor along Branch Avenue and Woodyard Road.",
+    sections: [
+      {
+        heading: "A tobacco farming community that suburbanized without losing its lots",
+        body: "Clinton's growth from tobacco farming country into a Prince George's County suburb did not shrink its residential lots the way it did in more densely built parts of the county. Many properties here still carry the larger, wooded footprint of their farming-era origins, and that terrain keeps outdoor pest habitat closer to homes than in newer, tighter subdivisions elsewhere.",
+      },
+      {
+        heading: "Piscataway Creek's watershed drives the mosquito season",
+        body: "Piscataway Creek and its feeder streams cut through Clinton's lower-lying areas on their way toward the Potomac River, and the shaded, semi-rural lots common across the community hold standing water long enough to sustain mosquitoes from April through October. Clearing containers and clogged gutters on an individual property is the step within a homeowner's control.",
+      },
+      {
+        heading: "Farmhouse-era homes carry more termite exposure",
+        body: "A meaningful share of Clinton's housing dates to the mid-20th century or earlier, built during the community's tobacco farming era before modern termite pretreatment was standard. Those older wood-frame homes, especially ones with crawl spaces close to grade, carry more termite exposure than the newer subdivisions built during the county's later suburban growth.",
+      },
+      {
+        heading: "Wooded lots keep carpenter ants and deer ticks close",
+        body: "Clinton's larger, often wooded residential lots give both carpenter ants and deer ticks more outdoor habitat close to homes than tighter subdivisions typically allow. Carpenter ants move from that wooded cover into decks and older wood siding, while deer ticks move from the wooded buffers along Piscataway Creek into yards bordering the water.",
+      },
+      {
+        heading: "Joint Base Andrews and Branch Avenue keep rats fed",
+        body: "Clinton's proximity to Joint Base Andrews and the commercial corridor along Branch Avenue and Woodyard Road brings a level of food service and cargo activity that most surrounding communities do not see at the same scale, and that activity keeps Norway rats active year-round rather than concentrated in a single season.",
+      },
+      {
+        heading: "A landmark that outlasted the farms around it",
+        body: "The Surratt House, the tavern and home where Mary Surratt lived during the Lincoln assassination conspiracy, still stands in Clinton as a reminder of the community's 19th century roots. The wooded, semi-rural setting that preserved that landmark's surroundings is the same setting that keeps Clinton's pest pressure tied more closely to its rural terrain than to the tighter development seen elsewhere in Prince George's County.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from wooded, low-lying yards through the April to October mosquito season.",
+      "Schedule an annual termite inspection for homes built before the 1970s, especially those with crawl spaces near grade.",
+      "Trim tree limbs and clear brush from wooded lot edges to reduce carpenter ant entry points.",
+      "Check for deer ticks after time spent near Piscataway Creek's wooded buffers, April through September.",
+    ],
+    costNote:
+      "Termite inspection in Clinton is commonly free to $150, with treatment running $250 to $650 per year depending on the home's age. Mosquito season programs for wooded, low-lying lots typically run $300 to $600. Commercial rodent exclusion along the Branch Avenue corridor runs $200 to $500 per month depending on building size.",
+    faqs: [
+      {
+        question: "Why does Clinton have larger, more wooded lots than nearby Prince George's County suburbs?",
+        answer: "Clinton grew out of southern Prince George's County's tobacco farming country, and many properties still carry the larger, wooded footprint of that farming-era origin rather than the tighter subdivisions built in more recently developed parts of the county.",
+      },
+      {
+        question: "Does the Surratt House affect pest control in Clinton?",
+        answer: "Not directly, but the wooded, semi-rural setting that has preserved the historic Surratt House and its surroundings is the same terrain that keeps carpenter ants and deer ticks closer to nearby homes than in more densely built parts of the county.",
+      },
+      {
+        question: "Why is there a rat problem near Joint Base Andrews and Branch Avenue in Clinton?",
+        answer: "Clinton's proximity to Joint Base Andrews and the commercial corridor along Branch Avenue and Woodyard Road brings a level of food service and cargo activity that sustains Norway rat populations year-round rather than in just a fall surge.",
+      },
+      {
+        question: "How does Piscataway Creek affect pests in Clinton?",
+        answer: "Piscataway Creek and its feeder streams run through Clinton's lower-lying areas, and the wooded, semi-rural lots along that watershed hold standing water long enough to sustain a mosquito season from April through October, while the wooded buffers along the creek also keep deer ticks present near bordering yards.",
+      },
+      {
+        question: "Are Clinton's older homes at higher risk for termites?",
+        answer: "Yes. A meaningful share of Clinton's housing dates to the mid-20th century tobacco farming era, before modern termite pretreatment was standard, and those older wood-frame homes, particularly ones with crawl spaces close to grade, carry more exposure than newer subdivisions built during the county's later suburban growth.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Odenton", slug: "odenton-md", stateSlug: "maryland" },
+      { name: "Owings Mills", slug: "owings-mills-md", stateSlug: "maryland" },
+      { name: "Stevensville", slug: "stevensville-md", stateSlug: "maryland" },
+      { name: "Cresaptown", slug: "cresaptown-md", stateSlug: "maryland" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Clinton, MD | Mosquitoes, Termites & Rats",
+    metaDescription: "Clinton MD pest control for mosquitoes, subterranean termites, carpenter ants and Norway rats. Southern Prince George's County. Call 1-800-PEST-USA.",
+  },
 ];

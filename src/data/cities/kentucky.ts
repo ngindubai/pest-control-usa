@@ -4166,4 +4166,602 @@ export const kentuckyCities: CityLocation[] = [
     metaDescription:
       "Shepherdsville, KY pest control for Salt River mosquitoes, downtown termites, house mice and American cockroaches. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "alexandria-ky",
+    name: "Alexandria",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,300",
+    county: "Campbell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Alexandria sits in the rolling uplands of Campbell County in Northern Kentucky, part of the same humid Ohio Valley air mass that gives Cincinnati and Newport their long, sticky summers and cold winters. The AA Highway (KY 9) begins near the city center, and growth has followed that corridor outward from the Ohio and Licking river confluence a few miles north. Suburban development on former farmland brings stink bug pressure from surrounding fields alongside the significant subterranean termite exposure documented across the wider Ohio Valley.",
+    topPests: ["Subterranean Termites", "Stink Bugs", "House Mice", "Mosquitoes", "Ticks"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Alexandria sits in the same humid Ohio Valley air mass that gives Louisville and Cincinnati their significant subterranean termite pressure, and University of Kentucky Extension's regional research applies directly here. Older farmhouses from the city's original Spilman-era settlement carry the wood-to-soil contact termites use to move indoors.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Campbell County's remaining farmland around Alexandria's suburban edge sends stink bugs looking for shelter each fall as fields dry down, and homes closest to that farmland tend to see the heaviest pressure on siding and window frames.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The area's cold Northern Kentucky winters push mice indoors by October, and new subdivisions built out from Alexandria's older core along the AA Highway corridor often have foundation gaps that have not yet been sealed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Drainage ponds and low spots common in Alexandria's newer residential developments hold water after summer storms long enough to support a full mosquito season.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September, peak in early summer",
+        note: "The wooded lots and former pasture edges being converted to new subdivisions around Alexandria put pets and people in closer contact with tick habitat than in more built-out parts of Campbell County.",
+      },
+    ],
+    localHook:
+      "Alexandria shares county-seat status with Newport, an unusual arrangement that dates back to Campbell County's 1794 founding, and it sits near the start of the AA Highway, a corridor construction began on in 1985 to connect Alexandria to Ashland. That highway has pulled new subdivisions out of what used to be farmland on the city's edges, and the pest pressure here reflects that transition: old farmhouse termite risk sitting alongside new-subdivision tick and mosquito exposure.",
+    intro:
+      "Pest control in Alexandria has to account for a city in transition. The historic core, settled around 1793 by the Spilman family and later established as one of Campbell County's two seats of government alongside Newport, carries the older wood-frame termite risk common across the Ohio Valley. The newer subdivisions spreading out along the AA Highway corridor carry a different set of problems: fresh drainage ponds that hold mosquito-friendly standing water, wooded lots recently carved from farmland that put ticks closer to yards, and foundation gaps in construction that has not yet had years to settle. Stink bugs moving off the county's remaining working farms each fall round out the picture.",
+    sections: [
+      {
+        heading: "A dual county seat and the highway that reshaped it",
+        body: "Campbell County has had two seats of government since its 1794 founding, Newport and Alexandria, an arrangement that is unusual in Kentucky and reflects how the county's population historically split between the river towns along the Ohio and Licking and the inland farmland further south. The AA Highway, known locally as KY 9, begins near Alexandria and was built starting in 1985 to connect the city to Ashland. That corridor has done more to shape Alexandria's growth over the past four decades than almost anything else, turning former farmland into new subdivisions and changing the pest pressure right along with it.",
+      },
+      {
+        heading: "Termite pressure in the older farmhouse core",
+        body: "The wood-frame farmhouses and early homes near Alexandria's historic center, some tracing back to the Spilman family's original 1790s settlement, sit in the same humid Ohio Valley climate that gives Louisville and Cincinnati their well-documented subterranean termite pressure. University of Kentucky Extension's regional termite research applies directly to Campbell County, and homes with decades of wood-to-soil contact around foundations and porches are the ones most likely to need an inspection rather than a reaction after damage appears.",
+      },
+      {
+        heading: "Stink bugs off the remaining farmland",
+        body: "Campbell County still has working farmland on Alexandria's outer edges, and every September through November the stink bugs that spent the growing season in those fields start looking for somewhere to spend the winter. Homes closest to that remaining farmland tend to see the heaviest pressure on south-facing siding and window frames, where the bugs gather to warm themselves before pushing for any gap they can find.",
+      },
+      {
+        heading: "New subdivisions, new mosquito and tick exposure",
+        body: "The subdivisions built out along the AA Highway corridor over the past two decades come with their own pest considerations that Alexandria's older core does not share to the same degree. Drainage ponds and retention basins built to manage stormwater hold standing water long enough after summer rain to support mosquito breeding through the April to October season, and lots carved from what used to be pasture or woodland put backyards closer to tick habitat than in the more built-out parts of the city.",
+      },
+      {
+        heading: "Mice and the first cold snap",
+        body: "House mice are a year-round concern in Alexandria, but the real surge comes with the first hard cold snap of the fall, usually by October. Newer construction is not immune. Foundation gaps and utility penetrations that have not had years to settle can be just as inviting to a mouse looking for a way in as the older farmhouse gaps that widen over decades, which is why sealing up before the surge matters regardless of a home's age.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October, whether the home is decades old or newly built.",
+      "Schedule a termite inspection for any home near Alexandria's historic core given the area's documented Ohio Valley termite pressure.",
+      "Clear standing water from drainage ponds and yard low spots through the April to October mosquito season.",
+      "Check pets and family members for ticks after time in wooded lots or former pasture edges near new subdivisions.",
+      "Seal siding gaps and window frames before fall to reduce stink bugs gathering from nearby farmland.",
+    ],
+    costNote:
+      "Alexandria pest pricing often depends on whether a property sits in the older historic core or a newer subdivision along the AA Highway corridor, older homes may need termite inspection prioritized while newer builds may need mosquito or tick treatment added for the warm season. A free inspection is the best way to see what applies.",
+    faqs: [
+      {
+        question: "Why does Alexandria have two different pest patterns depending on the neighborhood?",
+        answer:
+          "The city's older core near its historic Spilman-era settlement carries Ohio Valley termite risk typical of established wood-frame housing, while the newer subdivisions built out along the AA Highway corridor since the 1980s carry more mosquito and tick exposure from drainage ponds and former farmland and woodland lots. The right approach depends on which part of Alexandria a property sits in.",
+      },
+      {
+        question: "Is termite risk in Alexandria as high as in Louisville?",
+        answer:
+          "Yes. Alexandria sits in the same humid Ohio Valley climate zone, and University of Kentucky Extension's regional termite research applies to Campbell County generally. Older homes near Alexandria's historic core, with decades of wood-to-soil contact, are the highest-risk properties.",
+      },
+      {
+        question: "Why do stink bugs show up in Alexandria every fall?",
+        answer:
+          "Campbell County still has working farmland on Alexandria's outer edges, and stink bugs that spend the growing season in those fields move toward the nearest shelter, often homes, as the fields dry down each September through November. Properties closest to remaining farmland see the most pressure.",
+      },
+      {
+        question: "Are new subdivisions in Alexandria really at more mosquito risk than the older parts of town?",
+        answer:
+          "Often, yes. Stormwater drainage ponds and retention basins built for newer subdivisions along the AA Highway corridor can hold standing water long enough after summer rain to support mosquito breeding through the warm season, a factor that is less common in Alexandria's more established, better-drained historic core.",
+      },
+      {
+        question: "When should Alexandria homeowners seal up against mice?",
+        answer:
+          "September, ahead of the first hard cold snap that typically arrives by October. This applies to both older farmhouses near Alexandria's historic core and newer construction, since foundation gaps and utility penetrations can develop in a home of any age.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Thomas", slug: "fort-thomas-ky", stateSlug: "kentucky" },
+      { name: "Paris", slug: "paris-ky", stateSlug: "kentucky" },
+      { name: "Lawrenceburg", slug: "lawrenceburg-ky", stateSlug: "kentucky" },
+      { name: "La Grange", slug: "la-grange-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Alexandria, KY | Termites, Stink Bugs & Ticks",
+    metaDescription:
+      "Alexandria, KY pest control for Ohio Valley termites, farm-driven stink bugs, ticks near new subdivisions and fall mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fort-thomas-ky",
+    name: "Fort Thomas",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~17,500",
+    county: "Campbell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fort Thomas sits on a wooded bluff above the Ohio River in Campbell County, in the same humid Ohio Valley air mass as the rest of Northern Kentucky, but the elevation and hillside drainage that made this site attractive to the Army in 1887 also mean less standing water than the river-bottom towns nearby. That same wooded terrain brings more tick and carpenter ant pressure than the flatter, more built-out parts of the county.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Ticks", "House Mice", "Wasps"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Fort Thomas's housing stock includes homes built around the original Army post era beginning in the late 1880s, and that older wood-frame construction, combined with the Ohio Valley's humid climate, gives termites the same significant regional pressure documented by University of Kentucky Extension across Northern Kentucky.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through August",
+        note: "The mature tree cover across Fort Thomas's hillside neighborhoods, prized for the shade it gives the historic Highlands district, also means more fallen limbs, stumps, and moisture-softened wood near homes for carpenter ants to move in from.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September, peak in early summer",
+        note: "Tower Park's wooded trails and the wooded ravines that cut through several of Fort Thomas's hillside neighborhoods put pets and hikers in regular contact with tick habitat through the warmer months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The city's older homes, many dating to the decades around the Army post's active years, have had a long time to develop the small foundation gaps mice use to get indoors once the fall cold sets in.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "The eaves and porch overhangs common on Fort Thomas's older Victorian and post-era homes give paper wasps and yellow jackets favored nesting spots each summer.",
+      },
+    ],
+    localHook:
+      "General Philip Sheridan personally picked this bluff above the Ohio River in 1887 as the site for a new Army post to replace the flood-prone Newport Barracks nearby, predicting it would become the 'West Point of the West.' The 102-foot stone water tower still standing at the entrance to Tower Park is one of the original post structures. That same elevation keeps Fort Thomas better drained than the river towns around it, trading mosquito pressure for more tick and carpenter ant exposure from the wooded hillside terrain.",
+    intro:
+      "Pest control in Fort Thomas starts with geography. The city sits on a bluff above the Ohio River that General Philip Sheridan selected in 1887 as the site for a new Army post, and the elevation and hillside drainage that made the location attractive to the Army still shape the pest picture today. Less standing water means lighter mosquito pressure than in the river-bottom towns nearby, but the wooded, hilly terrain that surrounds the historic Highlands district brings a real tick and carpenter ant presence instead. Homes dating to the post's active years carry a documented Ohio Valley termite risk on top of that.",
+    sections: [
+      {
+        heading: "Built on a bluff for a reason",
+        body: "Fort Thomas exists because General Philip Sheridan picked this particular bluff above the Ohio River in 1887 as the site for a new Army post to replace the flood-prone Newport Barracks a few miles away. He predicted the site would become the 'West Point of the West,' and while that did not quite happen, the 102-foot stone water tower still standing at the entrance to Tower Park is a direct reminder of why the location was chosen. The same elevation and hillside drainage that kept the fort dry in the 1890s still keeps Fort Thomas better drained than the river-bottom towns nearby, which shapes its pest pressure in a specific way: less standing water and mosquito habitat, more of the tick and carpenter ant pressure that comes with wooded, hilly ground.",
+      },
+      {
+        heading: "Termites in a post-era housing stock",
+        body: "Much of Fort Thomas's housing dates to the decades around the Army post's active years from 1890 through the early 1900s, and homes of that age have had generations to develop the wood-to-soil contact points subterranean termites use to move from ground into structure. The city sits in the same humid Ohio Valley climate that gives Louisville and Cincinnati their significant termite pressure, and University of Kentucky Extension's regional findings apply here just as they do across the rest of Northern Kentucky.",
+      },
+      {
+        heading: "Carpenter ants and the hillside tree cover",
+        body: "The mature trees that give Fort Thomas's Highlands district its character are also a carpenter ant supply line. Fallen limbs, old stumps, and any moisture-softened wood near a foundation or a shaded corner of a yard are exactly what carpenter ants look for when deciding where to nest, and a colony found indoors in the May through August peak is worth treating as a prompt to check the yard for that kind of source nearby.",
+      },
+      {
+        heading: "Tower Park and the local tick picture",
+        body: "Tower Park's wooded trails, along with the ravines that cut through several of Fort Thomas's hillside neighborhoods, are popular for walking and exactly the kind of habitat ticks favor. Anyone spending time on those trails or in yards that back up to wooded ravines through the April to September season should get in the habit of checking themselves and their pets afterward.",
+      },
+      {
+        heading: "Why Fort Thomas sees less mosquito pressure than river towns nearby",
+        body: "Fort Thomas's bluff-top position is a real advantage against mosquitoes compared to towns sitting directly in the Ohio River floodplain. Water drains off the hillside instead of pooling, which cuts down on the breeding habitat that keeps river-bottom towns busy through the summer. That does not mean mosquitoes are absent, gutters, birdbaths, and other small containers still need attention, but the pressure here runs lighter than in a floodplain community.",
+      },
+    ],
+    prevention: [
+      "Have an annual termite inspection for any home dating to the post-era construction boom of the 1890s through early 1900s.",
+      "Clear fallen limbs and stumps from yards promptly to reduce carpenter ant nesting sites near the house.",
+      "Check for ticks after time on Tower Park's trails or in yards backing onto wooded ravines.",
+      "Seal small foundation gaps before the fall cold snap to intercept mice before they get established indoors.",
+      "Treat eaves and porch overhangs each spring before wasps establish nests for the summer.",
+    ],
+    costNote:
+      "Fort Thomas pest pricing is generally similar to the rest of Campbell County, though the lighter mosquito exposure here compared to river-bottom towns means many homeowners can focus their budget on termite protection and carpenter ant prevention instead. A free inspection determines what a specific property needs.",
+    faqs: [
+      {
+        question: "Why was Fort Thomas built where it is?",
+        answer:
+          "General Philip Sheridan selected the site in 1887 for a new Army post to replace the flood-prone Newport Barracks nearby. The 102-foot stone water tower still standing at the entrance to Tower Park was one of the original post structures, built to supply water pressure for the fort.",
+      },
+      {
+        question: "Does Fort Thomas have less mosquito pressure than nearby river towns?",
+        answer:
+          "Generally yes. The city sits on a bluff above the Ohio River, and water drains off that hillside instead of pooling the way it does in flood-prone river-bottom towns nearby. Standard yard sanitation, clearing gutters and containers, is usually enough to manage what mosquito pressure remains.",
+      },
+      {
+        question: "Why is termite risk elevated in Fort Thomas?",
+        answer:
+          "Much of the city's housing dates to the decades around the Army post's active years in the 1890s and early 1900s, and homes of that age have had a long time to develop the wood-to-soil contact points subterranean termites use. The humid Ohio Valley climate adds to the pressure.",
+      },
+      {
+        question: "Are ticks a real concern in Fort Thomas?",
+        answer:
+          "Yes, particularly for anyone using Tower Park's wooded trails or living near the ravines that cut through several of the city's hillside neighborhoods. Checking for ticks after time outdoors through the April to September season is worth the habit.",
+      },
+      {
+        question: "What draws carpenter ants to Fort Thomas homes?",
+        answer:
+          "The mature tree cover across the city's hillside neighborhoods means more fallen limbs and moisture-softened wood near houses, which is exactly what carpenter ants look for when choosing a nest site. A colony found indoors is worth treating as a signal to check the yard.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria-ky", stateSlug: "kentucky" },
+      { name: "Paris", slug: "paris-ky", stateSlug: "kentucky" },
+      { name: "Lawrenceburg", slug: "lawrenceburg-ky", stateSlug: "kentucky" },
+      { name: "La Grange", slug: "la-grange-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fort Thomas, KY | Termites, Carpenter Ants & Ticks",
+    metaDescription:
+      "Fort Thomas, KY pest control for post-era termites, hillside carpenter ants, Tower Park ticks and seasonal wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "paris-ky",
+    name: "Paris",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,200",
+    county: "Bourbon County",
+    climate: "hot-humid",
+    climateDriver:
+      "Paris sits in the heart of the Bluegrass region, in rolling horse-farm country along Stoner Creek, with the same humid summers and cold winters that define central Kentucky. The fertile limestone soils that make Bourbon County's pastures ideal for raising Thoroughbreds also hold moisture well, and the concentration of horse farms and barns around the city brings a level of fly and rodent pressure tied directly to that agricultural economy.",
+    topPests: ["Flies", "Subterranean Termites", "House Mice", "Ticks", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through September",
+        note: "The Thoroughbred horse farms surrounding Paris, including some of the oldest continually operating breeding operations in the Bluegrass, generate the kind of manure and feed waste that keeps stable flies and house flies active all summer, and that pressure extends into nearby residential properties.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Downtown Paris includes buildings dating back to the 1700s, among them Duncan Tavern, built in 1788, and homes and commercial buildings of that age around Bourbon County's seat carry the wood-to-soil contact points termites use to get indoors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Grain and feed storage at the horse farms ringing Paris draws field mice year-round, and those populations move toward homes and outbuildings as temperatures drop each fall.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September, peak in early summer",
+        note: "Pastures, fence lines, and the wooded edges around Bourbon County's horse farms support a healthy tick population, and pets or riders spending time near those areas should check regularly through the warm months.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Old fence board, barn siding, and outbuilding lumber are common across Bourbon County's working horse farms, and any of it that stays damp is a target for carpenter ants.",
+      },
+    ],
+    localHook:
+      "Paris is the seat of Bourbon County, the Bluegrass county that gave American whiskey its name, and Duncan Tavern, a Georgian-style, fifteen-room inn built in 1788 by Revolutionary War veteran Major Joseph Duncan, still stands downtown, predating Kentucky's own 1792 statehood. The Thoroughbred horse farms ringing the city, several among the oldest continually operating breeding operations in the Commonwealth, shape a fly and rodent picture here that a purely residential town would not have.",
+    intro:
+      "Pest control in Paris has to account for what surrounds the city as much as what is inside it. Bourbon County's fertile limestone soil built one of the world's great concentrations of Thoroughbred horse farms, and that agricultural economy brings fly and rodent pressure that follows the grain, feed, and manure right into town. Downtown Paris carries its own history, buildings like Duncan Tavern predate Kentucky's 1792 statehood, and that age means a documented subterranean termite risk on top of the farm-driven pest pressure. Ticks along the pasture fence lines round out the picture for anyone spending time near the horse country.",
+    sections: [
+      {
+        heading: "The county that gave bourbon its name",
+        body: "Bourbon County sits at the center of the Bluegrass region, and Paris has been its seat since the county's earliest years. Duncan Tavern, a Georgian-style, fifteen-room inn built in 1788 by Revolutionary War veteran Major Joseph Duncan, still stands downtown, a reminder of just how long people have been building here on Bourbon County's fertile limestone soil. That same soil, prized for growing the bluegrass pasture that built the area's Thoroughbred horse industry, also holds moisture well, which shapes a lot of the pest pressure the city deals with today.",
+      },
+      {
+        heading: "Flies and the horse farm economy",
+        body: "Paris is surrounded by some of the finest Thoroughbred horse farms in the world, several of them, like Runnymede Farm, among the oldest continually operating breeding operations in the Commonwealth. That concentration of horses means a concentration of manure, feed waste, and the stable and house flies that come with it, and the pressure does not stay confined to the farms themselves. Residential properties on the edges of Paris, closest to that horse country, tend to see more fly activity through the summer than homes deeper in town.",
+      },
+      {
+        heading: "Termite risk in a downtown that predates the Commonwealth",
+        body: "Some of Paris's downtown buildings, Duncan Tavern among them, predate Kentucky's 1792 statehood, and buildings and homes of that age have had over two centuries to develop the kind of wood-to-soil contact subterranean termites use to move indoors. Regular inspection matters more here than in newer construction, particularly for wood-frame structures near the historic core.",
+      },
+      {
+        heading: "Ticks along the pasture and fence lines",
+        body: "The pastures and fence lines that define Bourbon County's horse farms are also good tick habitat, and anyone spending time near those areas, whether working the farms or just out for a ride, should get in the habit of checking for ticks through the April to September season. The wooded edges where pasture meets tree line tend to hold the heaviest concentrations.",
+      },
+      {
+        heading: "Mice, feed storage, and the fall move indoors",
+        body: "Grain and feed storage at the farms ringing Paris keeps field mice fed and breeding year-round, and as temperatures drop each fall those populations start looking for warmer shelter, often in nearby homes and outbuildings. Sealing up entry points before that fall push begins is more effective than dealing with an established population afterward.",
+      },
+    ],
+    prevention: [
+      "Manage manure and feed waste promptly on any property near Bourbon County's horse farms to reduce summer fly pressure.",
+      "Schedule a termite inspection for any building near Paris's historic downtown core given its age.",
+      "Check for ticks after time along pasture fence lines or wooded edges near horse farms.",
+      "Seal foundation and outbuilding entry points before fall to intercept mice moving in from the surrounding farmland.",
+      "Replace or treat damp fence board and barn lumber that draws carpenter ants.",
+    ],
+    costNote:
+      "Paris pest pricing often reflects proximity to the surrounding horse farms, properties closer to working farmland may need fly and rodent control added to a standard plan. Termite inspection for the historic downtown core is priced separately. A free inspection is the best starting point.",
+    faqs: [
+      {
+        question: "Why does Paris have more fly pressure than a typical Kentucky town its size?",
+        answer:
+          "Paris is surrounded by Thoroughbred horse farms, some of the oldest continually operating breeding operations in Kentucky, and the manure and feed waste that comes with that concentration of horses keeps stable and house flies active all summer. Properties closest to that horse country see the most pressure.",
+      },
+      {
+        question: "How old are the buildings in downtown Paris, and does that affect termite risk?",
+        answer:
+          "Some predate Kentucky's 1792 statehood. Duncan Tavern, built in 1788, is the best-known example. Buildings and homes of that age near Bourbon County's historic core have had over two centuries to develop wood-to-soil contact, which makes regular termite inspection more important than for newer construction.",
+      },
+      {
+        question: "Are ticks a concern for people working or riding at Bourbon County horse farms?",
+        answer:
+          "Yes. The pastures and fence lines that define the area's horse farms are good tick habitat, especially where pasture meets wooded edge. Checking for ticks through the April to September season is a good habit for anyone spending regular time near those areas.",
+      },
+      {
+        question: "Why do mice move toward homes near Paris in the fall?",
+        answer:
+          "Grain and feed storage at the surrounding horse farms keeps field mice fed year-round, but as temperatures drop each fall those populations start looking for warmer shelter, often nearby homes and outbuildings. Sealing entry points before that push begins is the most effective prevention.",
+      },
+      {
+        question: "Does Bourbon County's horse farm economy affect carpenter ant risk in Paris?",
+        answer:
+          "It can. Old fence board, barn siding, and outbuilding lumber are common on the working horse farms around Paris, and any of it that stays damp is a target for carpenter ants looking for softened wood.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria-ky", stateSlug: "kentucky" },
+      { name: "Fort Thomas", slug: "fort-thomas-ky", stateSlug: "kentucky" },
+      { name: "Lawrenceburg", slug: "lawrenceburg-ky", stateSlug: "kentucky" },
+      { name: "La Grange", slug: "la-grange-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Paris, KY | Flies, Termites & Ticks",
+    metaDescription:
+      "Paris, KY pest control for horse-farm flies, historic downtown termites, pasture ticks and fall mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lawrenceburg-ky",
+    name: "Lawrenceburg",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~11,700",
+    county: "Anderson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lawrenceburg sits above the Kentucky River in Anderson County, in the humid Bluegrass climate that defines central Kentucky's warm, sticky summers and cold winters. The city's identity is built around bourbon, Wild Turkey and Four Roses both operate distilleries here, and the grain storage and aging warehouses that a working distillery economy requires bring their own rodent and stored-product pest pressure on top of the standard Ohio Valley termite and mosquito conditions.",
+    topPests: ["House Mice", "Subterranean Termites", "Moths", "Mosquitoes", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The grain that arrives for Lawrenceburg's distilleries, Wild Turkey and Four Roses both operate here, is exactly the kind of food source that draws mice, and properties near grain storage or aging warehouses tend to see steadier pressure than homes further from the distillery corridor.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Anderson County's older homes and the historic warehouse buildings tied to Lawrenceburg's pre-Prohibition distilling era, when as many as 14 distilleries operated in the area, carry decades of wood-to-soil contact that termites use to move indoors.",
+      },
+      {
+        name: "Moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Stored grain associated with the local distilling industry can draw pantry and grain moths into nearby homes and storage buildings if it is not managed carefully, a more specific concern here than in towns without that grain-handling economy.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Kentucky River and its bottomland along Lawrenceburg's edge hold standing water after spring rains long enough to support a full mosquito season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The barrel warehouses and older wood-frame buildings tied to the area's long distilling history include plenty of aging lumber, and any of it that stays damp is a target for carpenter ants.",
+      },
+    ],
+    localHook:
+      "Lawrenceburg calls itself the heart of bourbon country, and Wild Turkey and Four Roses, two of the best known names on the Kentucky Bourbon Trail, both operate distilleries here. Before Prohibition the area had as many as 14 distilleries, and the Ripy Brothers Distillery, once the largest sour mash distillery in the world, stood on the site Wild Turkey now occupies, with a single warehouse there once holding 50,000 barrels of aging bourbon. That much grain handling and barrel aging, sustained for generations, leaves a real mark on the local pest picture.",
+    intro:
+      "Pest control in Lawrenceburg cannot be separated from bourbon. Wild Turkey and Four Roses both operate distilleries within the city, and before Prohibition the area supported as many as 14 of them, an industry built on grain that has to be stored, moved, and aged for years at a time. That grain handling draws mice and can support pantry and grain moths if it is not managed carefully, a more specific pressure here than in a typical Kentucky town this size. Anderson County's older homes and historic warehouse buildings carry a documented termite risk, and the Kentucky River, which runs along the city's edge, keeps mosquito season active from April through October.",
+    sections: [
+      {
+        heading: "The heart of bourbon country",
+        body: "Lawrenceburg calls itself the heart of bourbon country for good reason. Wild Turkey and Four Roses, two of the best known names on the Kentucky Bourbon Trail, both operate distilleries here, and before Prohibition the area had as many as 14 distilleries in operation. The Ripy Brothers Distillery, once the largest sour mash distillery in the world, stood on the site that Wild Turkey now occupies, with a single warehouse there once holding 50,000 barrels. That much grain handling and barrel aging, sustained across generations, leaves a real mark on the local pest picture.",
+      },
+      {
+        heading: "Mice and the grain supply chain",
+        body: "Anywhere grain is stored, moved, or processed, mice tend to follow, and Lawrenceburg's distilleries handle grain at a scale most Kentucky towns this size do not. Homes and buildings near the distillery corridor or any grain storage tend to see steadier mouse pressure year-round, on top of the usual fall surge that hits every home in the region as temperatures drop.",
+      },
+      {
+        heading: "Why moths deserve a second look here",
+        body: "Pantry and grain moths are a nuisance in any Kentucky home, but Lawrenceburg's grain-handling economy makes them a more specific concern than in towns without that industry nearby. Grain that is not stored and managed carefully, whether at a distillery-adjacent business or in a home pantry, gives these moths exactly the breeding material they need, and an infestation can spread from stored food to fabric and other materials if it is not caught early.",
+      },
+      {
+        heading: "Termites in a distilling town's older buildings",
+        body: "Anderson County's older homes and the historic warehouse buildings connected to Lawrenceburg's pre-Prohibition distilling boom have had generations to develop the wood-to-soil contact points subterranean termites use to move indoors. The humid Bluegrass climate keeps that pressure active from spring through fall, and buildings tied to the area's long distilling history are worth inspecting on a regular schedule rather than waiting for visible damage.",
+      },
+      {
+        heading: "The Kentucky River and the mosquito season",
+        body: "Lawrenceburg sits above the Kentucky River, and the bottomland along its edge holds standing water after spring rain long enough to support mosquito breeding through the warm months. The active season runs April through October, and yard-level management, clearing gutters and containers and treating shaded resting areas, remains the most effective defense for individual properties.",
+      },
+    ],
+    prevention: [
+      "Store pantry grain in sealed containers to reduce moth risk, particularly for properties near distillery or grain-handling operations.",
+      "Schedule a termite inspection for older homes or warehouse buildings tied to Lawrenceburg's historic distilling district.",
+      "Seal foundation gaps before fall to intercept mice, especially on properties near grain storage.",
+      "Clear standing water from yards and gutters through the April to October mosquito season along the Kentucky River bottomland.",
+    ],
+    costNote:
+      "Lawrenceburg pest pricing sometimes reflects proximity to the distillery corridor and its grain handling, properties nearby may need moth and rodent prevention added to a standard plan. Termite inspection for older or historic buildings is priced separately. A free inspection determines what applies.",
+    faqs: [
+      {
+        question: "Does Lawrenceburg's bourbon industry actually affect pest pressure in town?",
+        answer:
+          "Yes, in specific ways. Wild Turkey and Four Roses both operate distilleries here, and the grain storage and barrel warehouses that come with that industry draw mice and can support pantry and grain moths if grain is not managed carefully. Properties near the distillery corridor tend to see steadier pressure from both.",
+      },
+      {
+        question: "How many distilleries has Lawrenceburg had historically?",
+        answer:
+          "As many as 14 operated in the area before Prohibition. The Ripy Brothers Distillery, once the largest sour mash distillery in the world, stood where Wild Turkey's distillery now operates, with a single warehouse there once holding 50,000 barrels of aging bourbon.",
+      },
+      {
+        question: "Why should Lawrenceburg homeowners worry about grain moths specifically?",
+        answer:
+          "The town's grain-handling distilling economy is more of a factor here than in a typical Kentucky town this size. Grain stored without care, whether at a business or in a home pantry, gives pantry and grain moths exactly what they need to establish, and they can spread to fabric and other stored materials if not caught early.",
+      },
+      {
+        question: "Is termite risk elevated in Lawrenceburg's older buildings?",
+        answer:
+          "Yes. Anderson County's older homes and the historic warehouse buildings tied to the pre-Prohibition distilling boom have had generations to develop wood-to-soil contact, and the humid Bluegrass climate keeps termites active from spring through fall.",
+      },
+      {
+        question: "Why does Lawrenceburg have a real mosquito season?",
+        answer:
+          "The city sits above the Kentucky River, and the bottomland along its edge holds standing water after spring rain long enough to support mosquito breeding from April through October. Yard-level management is the most effective defense for individual properties.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria-ky", stateSlug: "kentucky" },
+      { name: "Fort Thomas", slug: "fort-thomas-ky", stateSlug: "kentucky" },
+      { name: "Paris", slug: "paris-ky", stateSlug: "kentucky" },
+      { name: "La Grange", slug: "la-grange-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lawrenceburg, KY | Mice, Termites & Moths",
+    metaDescription:
+      "Lawrenceburg, KY pest control for distillery-district mice, grain moths, historic termites and Kentucky River mosquitoes. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "la-grange-ky",
+    name: "La Grange",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,100",
+    county: "Oldham County",
+    climate: "hot-humid",
+    climateDriver:
+      "La Grange sits in Oldham County between Louisville and the Kentucky River bluffs, close enough to the Louisville metro to share its humid Ohio Valley summers and cold winters. The city grew up around the railroad, CSX trains still run down the center of Main Street today, and its historic downtown buildings from the early 1900s carry the same wood-to-soil contact and termite exposure common across older Ohio Valley towns.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "House Mice", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "La Grange's Main Street buildings, several dating to the railroad boom around the 1914 L&N depot that now houses the local railroad museum, carry the wood-to-soil contact points subterranean termites use to move indoors, and the humid Ohio Valley climate keeps that pressure active for most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Oldham County's mix of creeks and low-lying drainage between La Grange and the Kentucky River bluffs gives mosquitoes breeding habitat that persists through the warm months, especially after the area's frequent spring storms.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The area's cold winters push mice indoors by October, and La Grange's older downtown buildings, along with the historic homes surrounding them, have had a century or more to develop the foundation gaps mice use to get inside.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Mature tree cover in La Grange's older residential streets means a steady supply of fallen limbs and moisture-softened wood, which is what draws carpenter ants looking for a nesting site.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor species in La Grange's commercial buildings and multi-unit housing, breeding indoors year-round regardless of outdoor conditions and spreading easily through shared walls and plumbing.",
+      },
+    ],
+    localHook:
+      "CSX freight trains run directly down the center of La Grange's Main Street between 4th and Cedar Avenues, with as many as 20 trains passing through on a given day, the only remaining stretch of street-running rail like it left in America. The 1914 L&N depot that once served that line now houses the La Grange Railroad Museum, a direct link to the railroad economy that built the town's historic downtown.",
+    intro:
+      "Pest control in La Grange starts with a downtown built by the railroad. CSX freight trains still run down the center of Main Street today, a distinction La Grange holds as the last town in the country with street-running rail like it, and the commercial buildings that grew up around that rail line, some dating to the 1914 L&N depot now housing the local railroad museum, carry a documented Ohio Valley termite risk. Oldham County's mix of creeks and low-lying drainage toward the Kentucky River bluffs keeps mosquito season active, and the mature tree canopy over the older residential streets brings its own carpenter ant pressure.",
+    sections: [
+      {
+        heading: "A Main Street with a train running through it",
+        body: "La Grange has one of the more unusual Main Streets in the country. CSX freight trains run directly down the center of Main Street between 4th and Cedar Avenues, with as many as 20 trains passing through on a given day, and it is the only remaining stretch of street-running rail like it left in America. The 1914 L&N depot that once served that rail line now houses the La Grange Railroad Museum, a direct link to the railroad economy that built the town's historic downtown in the first place.",
+      },
+      {
+        heading: "Termites in a century-old downtown",
+        body: "Much of La Grange's Main Street commercial district dates to the railroad boom of the early 1900s, around the same period the L&N depot was built in 1914, and buildings and homes of that age have had a century or more to develop the wood-to-soil contact points subterranean termites use to move from ground into structure. The humid Ohio Valley climate that reaches Oldham County from the nearby Louisville metro keeps that pressure active through most of the year, and regular inspection matters more here than in newer construction on the edges of town.",
+      },
+      {
+        heading: "Mosquito habitat between La Grange and the river bluffs",
+        body: "Oldham County's terrain between La Grange and the Kentucky River bluffs holds a mix of creeks and low-lying drainage that collects water after the area's frequent spring storms. That standing water supports mosquito breeding from April through October, and properties in the lower-lying parts of the county tend to see the season start earlier and run longer than higher ground closer to town.",
+      },
+      {
+        heading: "Carpenter ants and La Grange's mature tree canopy",
+        body: "The tree-lined streets that give La Grange's older residential neighborhoods their character also supply a steady stream of fallen limbs, old stumps, and moisture-softened wood, exactly what carpenter ants look for when choosing where to nest. A colony found indoors during the March through October active season is worth treating as a signal to check the yard for a source nearby, not just the ants themselves.",
+      },
+      {
+        heading: "German cockroaches in the commercial district",
+        body: "La Grange's Main Street commercial buildings and the multi-unit housing scattered through town give German cockroaches exactly the year-round indoor conditions they need, regardless of what the season is doing outside. They spread easily through shared walls and plumbing between adjoining units and storefronts, which means a single-unit treatment often falls short unless the building as a whole is addressed.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any building in or near La Grange's historic Main Street district given its age.",
+      "Clear yard drainage promptly in the lower-lying parts of Oldham County to reduce mosquito breeding after spring storms.",
+      "Seal foundation gaps before October to intercept mice ahead of the fall surge.",
+      "Clear fallen limbs and damp wood from yards to reduce carpenter ant nesting sites near the house.",
+    ],
+    costNote:
+      "La Grange pest pricing often reflects a property's location relative to the historic Main Street district and the lower-lying drainage areas toward the Kentucky River bluffs. Termite inspection for older commercial and residential buildings is priced separately. A free inspection is the best way to see what a specific property needs.",
+    faqs: [
+      {
+        question: "Is it true a train runs down the middle of Main Street in La Grange?",
+        answer:
+          "Yes. CSX freight trains run directly down the center of Main Street between 4th and Cedar Avenues, with as many as 20 trains a day, making it the only remaining stretch of street-running rail like it left in the country. It has no direct effect on pest pressure, but it says a lot about how old and railroad-oriented the surrounding downtown buildings are.",
+      },
+      {
+        question: "Why is termite risk elevated in La Grange's downtown?",
+        answer:
+          "Much of the Main Street commercial district dates to the railroad boom of the early 1900s, around the time the L&N depot was built in 1914. Buildings that old have had a century or more to develop the wood-to-soil contact subterranean termites use to move indoors, and the humid Ohio Valley climate keeps that pressure active most of the year.",
+      },
+      {
+        question: "Does La Grange have a real mosquito season?",
+        answer:
+          "Yes. The mix of creeks and low-lying drainage between La Grange and the Kentucky River bluffs holds standing water after the area's frequent spring storms, supporting mosquito breeding from April through October, especially in lower-lying parts of the county.",
+      },
+      {
+        question: "Are German cockroaches a bigger problem in La Grange's commercial district than in houses?",
+        answer:
+          "They tend to be more persistent there. Main Street's commercial buildings and the multi-unit housing scattered through town give German cockroaches year-round indoor conditions, and they spread easily through shared walls and plumbing between adjoining units, which means building-wide treatment often matters more than a single storefront or apartment.",
+      },
+      {
+        question: "What draws carpenter ants to La Grange's older neighborhoods?",
+        answer:
+          "The mature tree canopy that gives La Grange's residential streets their character also means more fallen limbs and moisture-softened wood near homes, which is what carpenter ants look for when choosing a nesting site.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria-ky", stateSlug: "kentucky" },
+      { name: "Fort Thomas", slug: "fort-thomas-ky", stateSlug: "kentucky" },
+      { name: "Paris", slug: "paris-ky", stateSlug: "kentucky" },
+      { name: "Lawrenceburg", slug: "lawrenceburg-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in La Grange, KY | Termites, Mosquitoes & Roaches",
+    metaDescription:
+      "La Grange, KY pest control for historic Main Street termites, Oldham County mosquitoes, cockroaches and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -4387,4 +4387,599 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Charles City, IA pest control for Cedar River flood-driven mosquitoes, older housing mice and cluster flies, boxelder bugs, and carpenter ants. Floyd County service.",
   },
+  {
+    slug: "norwalk-ia",
+    name: "Norwalk",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~15,000",
+    county: "Warren County",
+    climate: "cold-humid",
+    climateDriver:
+      "Norwalk sits in Warren County on the southern edge of the Des Moines metro, and its cold winters and humid summers now play out across a town that grew from 12,797 residents at the 2020 census to more than 15,000 today, one of the fastest population increases of any city in the state. That growth is the single biggest driver of Norwalk's current pest pressure, since new subdivisions keep replacing the cropland and windbreak tree lines that used to surround the town.",
+    topPests: ["House Mice", "Boxelder Bugs", "Wasps and Yellowjackets", "Ticks", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Each new subdivision built on former Warren County cropland displaces the field mice that lived in that ground, and the nearest finished house, garage, or landscaped yard becomes the next available shelter once cold weather sets in.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "The mature boxelder and maple trees left standing along older fence lines and windbreaks at the edge of new Norwalk developments give boxelder bugs a breeding source close to hundreds of brand-new homes.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "Freshly graded lots and new eaves around Norwalk's ongoing residential construction give paper wasps and yellowjackets easy, undisturbed nesting sites that established, decades-old neighborhoods no longer offer.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May and June",
+        note: "Norwalk's trail network along the Middle River corridor and the brushy edges of former pasture ground give ticks the tall grass and cover they need, particularly where new trails cut through undeveloped buffer land.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "New residential construction means a lot of exposed, untreated lumber sitting through wet Iowa spring stretches, and that dampness is exactly what draws carpenter ants to a job site before a house is even finished.",
+      },
+    ],
+    localHook:
+      "Norwalk's population climbed from 12,797 at the 2020 census to more than 15,000 residents by 2025, a growth rate among the fastest of any city in Iowa, and nearly all of that growth has come from new subdivisions built directly on what was, within the last decade, working Warren County cropland.",
+    intro:
+      "Norwalk's pest pressure today is really a story about how fast the town has grown. The city's population climbed from 12,797 at the 2020 census past 15,000 residents by 2025, one of the steepest growth rates of any city in Iowa, and nearly every new subdivision sits on ground that was, within the last decade, working cropland or pasture on the southern edge of the Des Moines metro. That kind of change matters for pest control because the field mice, voles, and insects that lived on that farmland do not disappear when the ground is graded, they move to the nearest available shelter, which increasingly means a brand-new Norwalk house. Freshly finished homes and unsettled foundations give mice, boxelder bugs, and wasps easier entry points than a wall that has already been sealed and weatherproofed for twenty years, while remaining windbreak trees at the edges of new developments keep boxelder bugs and carpenter ants supplied with breeding and nesting ground close to the newest streets in town.",
+    sections: [
+      {
+        heading: "New subdivisions on former Warren County cropland",
+        body: "Warren County has approved subdivision after subdivision on the south and west sides of Norwalk over the past several years, much of it ground that was planted in corn or soybeans as recently as the early 2020s. Field mice and voles that lived along those old fence lines and drainage ditches do not vanish once the bulldozers arrive, they simply relocate, and a freshly built house with gaps still settling around its foundation and utility lines is an easier target than the tightly sealed, decades-old homes closer to Norwalk's original town square.",
+      },
+      {
+        heading: "Windbreak trees and boxelder bug pressure",
+        body: "Developers routinely leave a strip of mature trees standing along the old property lines between new subdivisions, both for shade and to satisfy landscaping requirements, and in Warren County those tree lines are heavy with boxelder and silver maple. Boxelder bugs breed almost exclusively on female boxelder trees, so any new Norwalk street built near one of these preserved tree lines can expect a heavier September swarm on sunny, south-facing walls than a neighborhood with no mature trees nearby.",
+      },
+      {
+        heading: "Wasp nests on unfinished construction",
+        body: "A construction site sitting partly finished through a Norwalk summer, whether that is a single new home or a whole phase of a subdivision, gives paper wasps and yellowjackets weeks of undisturbed nesting time under eaves, in porch framing, and inside stacked building material. Homeowners who close on a new Norwalk build in late summer sometimes find an active nest they never knew was there, tucked into a soffit gap that was never meant to be permanent.",
+      },
+      {
+        heading: "Ticks along the Middle River trail corridor",
+        body: "Norwalk's parks and trail system, including the corridor that follows the Middle River, cuts through brushy, formerly undeveloped buffer ground that gives ticks the tall grass cover they favor. Trail use in Norwalk has grown right alongside the town's population, and the same spring and early summer months that bring the heaviest trail traffic are also the peak months for tick activity in Warren County.",
+      },
+      {
+        heading: "What new Norwalk homeowners should watch for first",
+        body: "For a family moving into a brand-new Norwalk build, the first year is usually the highest-risk window, since foundation settling, unsealed utility penetrations, and any nearby preserved tree line are all still fresh. A licensed technician can identify and seal the specific entry points on new construction before a first Iowa winter gives mice and cluster flies a reason to look for a way in.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and utility gaps on new construction before the first fall cold snap.",
+      "Trim back or treat mature boxelder and maple trees left standing near new subdivisions.",
+      "Check eaves, soffits, and stacked building material for wasp nests before closing on a new build.",
+      "Wear tick repellent and check thoroughly after using the Middle River trail corridor in spring and summer.",
+    ],
+    costNote:
+      "General quarterly pest plans in Norwalk typically run $120 to $240 a year for a standard home. New-construction inspections that check foundation and utility seals are often bundled into a first-year plan, and tick and mosquito yard treatments near trail-adjacent properties are usually priced separately, often $60 to $110 per visit.",
+    faqs: [
+      {
+        question: "Why does a brand-new Norwalk home need pest control so soon?",
+        answer:
+          "New construction sits on ground that was recently farmland or pasture, and the field mice, voles, and insects displaced by grading move toward the nearest shelter, which is often a house still settling around its foundation and utility lines.",
+      },
+      {
+        question: "Does Norwalk's rapid growth actually affect pest pressure?",
+        answer:
+          "Yes. Norwalk's population grew from 12,797 at the 2020 census to more than 15,000 by 2025, and nearly all of that growth is new subdivisions built directly on former Warren County cropland, which is what displaces local rodents and insects toward new homes.",
+      },
+      {
+        question: "Why do some new Norwalk neighborhoods have worse boxelder bug problems than others?",
+        answer:
+          "Developers often leave a strip of mature boxelder and maple trees standing along old property lines for shade, and boxelder bugs breed almost exclusively on female boxelder trees, so streets built near a preserved tree line see heavier fall swarms.",
+      },
+      {
+        question: "Is tick exposure a real concern on Norwalk's trails?",
+        answer:
+          "Yes, particularly along the Middle River trail corridor, where the path cuts through brushy, formerly undeveloped buffer ground that gives ticks the tall grass cover they need, especially during peak activity in May and June.",
+      },
+      {
+        question: "What is the biggest pest risk in the first year after buying a new Norwalk home?",
+        answer:
+          "Foundation settling and unsealed utility penetrations are the biggest risk, since both give mice, insects, and other pests an easy way in before the house has had a full year to settle and seal naturally.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Winterset", slug: "winterset", stateSlug: "iowa" },
+      { name: "Clear Lake", slug: "clear-lake-ia", stateSlug: "iowa" },
+      { name: "Denison", slug: "denison-ia", stateSlug: "iowa" },
+      { name: "Algona", slug: "algona-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Norwalk, IA | New-Construction Mice & Boxelder Bugs",
+    metaDescription:
+      "Norwalk, IA pest control for new-construction mice, boxelder bugs from windbreak trees, wasp nests, and Middle River trail ticks. Call 1-800-PEST-USA for Warren County service.",
+  },
+  {
+    slug: "winterset",
+    name: "Winterset",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~5,400",
+    county: "Madison County",
+    climate: "cold-humid",
+    climateDriver:
+      "Winterset sits in the rolling, timbered river bottoms of Madison County, and its cold winters and humid summers are shaped by the Middle River and North River valleys that cut through the surrounding farmland. Those same wooded creek bottoms are what Madison County is famous for, home to the last six of the county's original nineteen covered bridges, and they are also what keeps tick and mosquito pressure higher here than in flatter, more open parts of the state.",
+    topPests: ["Ticks", "Carpenter Ants", "Cluster Flies", "Boxelder Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May and June",
+        note: "Madison County's wooded Middle River and North River bottoms, the same creek corridors that carry visitors to the county's six remaining covered bridges, give ticks the shaded leaf litter and tall grass they favor far more than the open cropland found in flatter parts of Iowa.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Winterset's historic downtown square and the older farmhouses scattered through the timbered river bottoms both carry a lot of aging wood, and the moisture those creek-bottom properties hold gives carpenter ants a steady path into damp framing.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering into early spring",
+        note: "Older farmhouses spread across Madison County's rural township roads give cluster flies plenty of gaps to slip through each September before overwintering in attics and wall voids.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "The same river-bottom timber that shelters Madison County's covered bridges is heavy with boxelder and maple trees, giving boxelder bugs a strong breeding base within a short flight of nearby homes.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "As Madison County's cropland clears its harvest cover each fall, field mice head for the nearest structure, and Winterset's mix of historic in-town housing and outlying farm buildings gives them no shortage of options.",
+      },
+    ],
+    localHook:
+      "Madison County once had nineteen documented covered bridges; only six remain today, five of them original, built between 1870 and 1884 across the timbered bottoms of the Middle River and North River that wind through Winterset. Those same wooded creek corridors that make the county famous, and draw visitors every October for the Covered Bridge Festival, are also what keeps Winterset's tick pressure higher than towns surrounded by flat, open cropland.",
+    intro:
+      "Winterset's identity is built on its covered bridges, and that same geography shapes its pest pressure. Of the nineteen covered bridges Madison County once had, only six remain, five of them original structures built between 1870 and 1884 across the timbered bottoms of the Middle River and North River. Those wooded creek corridors, which draw visitors to Winterset every October for the Covered Bridge Festival and year round to the John Wayne Birthplace and Museum, are exactly the kind of shaded, brushy ground that ticks favor over the open cropland found in flatter parts of the county. Winterset's historic downtown square and the older farmhouses scattered across the surrounding township roads add their own pressure, carrying enough aging wood and foundation gaps to give carpenter ants, cluster flies, and house mice a foothold that newer construction elsewhere in Iowa does not offer as easily.",
+    sections: [
+      {
+        heading: "Covered bridge country and Winterset's tick pressure",
+        body: "The six covered bridges still standing in Madison County, including the Roseman and Holliwell bridges over the Middle River and the Cedar and Hogback bridges over the North River, all sit within timbered creek bottoms that see heavy seasonal foot traffic from visitors following the covered bridge driving tour. That same shaded, leaf-littered ground is where ticks wait for a host, and anyone walking the trails or pull-offs near these historic crossings between April and October should expect real tick exposure, not just a theoretical one.",
+      },
+      {
+        heading: "Old wood, old bridges, and carpenter ant risk",
+        body: "Winterset's downtown square is a well-preserved 19th-century commercial district, and the farmhouses scattered through the county's rural townships are, in many cases, just as old as the covered bridges themselves. Moisture from the surrounding river bottoms works into aging wood framing on both, and carpenter ants take advantage of that dampness whenever a homeowner has not kept up with sealing and moisture control around a foundation or porch.",
+      },
+      {
+        heading: "Fall cluster flies and mice in rural Madison County",
+        body: "Once the corn and soybean fields around Winterset are harvested each fall, field mice lose their cover and move toward the nearest building, whether that is a farmhouse on a gravel township road or an older home closer to town. Cluster flies follow a similar seasonal pattern, working into small gaps around windows and siding on older structures through September before settling in for the winter.",
+      },
+      {
+        heading: "Boxelder bugs from the river-bottom timber",
+        body: "The same timbered ground along the Middle and North Rivers that shelters Madison County's covered bridges is thick with boxelder and maple trees, and boxelder bugs breed almost exclusively on the female trees in that mix. Homes built closest to the river bottoms, including several near popular bridge access points, tend to see the heaviest September swarms on their sunny exterior walls.",
+      },
+      {
+        heading: "Timing pest service around Winterset's tourist season",
+        body: "Because Winterset's heaviest outdoor foot traffic follows the same April through October window as peak tick season, and because the October Covered Bridge Festival draws large crowds right into tick and cluster fly habitat, a spring tick treatment ahead of the season and a fall exclusion visit before cluster flies move indoors both make more sense here than a single once-a-year visit.",
+      },
+    ],
+    prevention: [
+      "Use tick repellent and do a full-body check after visiting the covered bridges or Middle River and North River trails.",
+      "Seal foundation and window gaps on older downtown and farmhouse properties before cluster flies move indoors each September.",
+      "Address wood-to-soil contact and moisture points on river-bottom properties to reduce carpenter ant risk.",
+      "Trim or treat boxelder and maple trees near the house before the fall swarm begins.",
+    ],
+    costNote:
+      "General quarterly pest plans in Winterset typically run $115 to $225 a year for a standard home. Yard and perimeter tick treatment ahead of spring visitor season is usually priced separately, often $60 to $100 per treatment, and carpenter ant inspections on older river-bottom homes are typically free with treatment quoted by the scope of the damage.",
+    faqs: [
+      {
+        question: "Are ticks a real concern near Madison County's covered bridges?",
+        answer:
+          "Yes. The timbered Middle River and North River bottoms that carry the six remaining covered bridges are shaded, brushy ground that ticks favor, and visitor foot traffic to the bridges peaks during the same April through October stretch as tick season.",
+      },
+      {
+        question: "Why do older Winterset homes near downtown get more carpenter ants?",
+        answer:
+          "Winterset's downtown square is a well-preserved 19th-century district, and moisture from the surrounding river bottoms works into aging wood framing, which is exactly the damp wood carpenter ants prefer to nest in.",
+      },
+      {
+        question: "Does the Covered Bridge Festival affect pest timing recommendations?",
+        answer:
+          "It does. The festival each October draws large crowds into the same wooded creek corridors where ticks and cluster flies are active, which is why a fall treatment ahead of the festival is worth scheduling rather than waiting until winter.",
+      },
+      {
+        question: "What pushes house mice into Winterset and rural Madison County homes each fall?",
+        answer:
+          "Once the cropland surrounding Winterset is harvested, field mice lose their outdoor cover and move toward the nearest building, whether that is a farmhouse on a township road or an older home closer to downtown.",
+      },
+      {
+        question: "Why do boxelder bugs swarm some Winterset homes more than others?",
+        answer:
+          "Homes built closest to the timbered river bottoms along the Middle and North Rivers sit nearest the boxelder and maple trees where the bugs breed, so those properties see heavier fall swarms than homes farther from the water.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Norwalk", slug: "norwalk-ia", stateSlug: "iowa" },
+      { name: "Clear Lake", slug: "clear-lake-ia", stateSlug: "iowa" },
+      { name: "Denison", slug: "denison-ia", stateSlug: "iowa" },
+      { name: "Algona", slug: "algona-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Winterset, IA | Covered Bridge Country Ticks",
+    metaDescription:
+      "Winterset, IA pest control for ticks near the covered bridges, carpenter ants in older downtown buildings, fall cluster flies, and boxelder bugs. Call 1-800-PEST-USA for Madison County service.",
+  },
+  {
+    slug: "clear-lake-ia",
+    name: "Clear Lake",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~7,600",
+    county: "Cerro Gordo County",
+    climate: "cold-humid",
+    climateDriver:
+      "Clear Lake sits on the shore of Iowa's second-largest natural lake, a 3,600-plus acre body of water that anchors this Cerro Gordo County resort town, and the humidity that lake holds over the surrounding shoreline adds to the state's already cold winters and humid summers. That shoreline, ringed with both permanent homes and seasonal cabins, is the biggest single factor behind Clear Lake's pest pressure.",
+    topPests: ["Mosquitoes", "House Mice", "Carpenter Ants", "Wasps and Yellowjackets", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak July and August",
+        note: "Clear Lake's 3,600-plus acres of shoreline, along with the marshy edges of McIntosh Woods State Park on the lake's northwest shore, give mosquitoes far more standing water and wetland breeding ground within town limits than most inland Iowa communities have to manage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Clear Lake's large stock of seasonal lake cabins sits closed up and undisturbed for months at a time each winter, which is close to ideal shelter for mice looking to move indoors once fall temperatures drop.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Docks, boathouses, and lake-facing decks around Clear Lake hold more moisture than inland structures, and that dampness gives carpenter ants an easier path into wood framing close to the water.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks June through September",
+        note: "The Surf Ballroom, the lakefront parks, and the string of restaurants and marinas along Clear Lake's shoreline all draw heavy summer foot traffic and outdoor dining, conditions that consistently attract yellowjackets looking for food scraps.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, peak May and June",
+        note: "The wooded 60 acres of McIntosh Woods State Park and other undeveloped shoreline pockets around the lake give ticks the leaf litter and brush cover they need, particularly along less-traveled trail sections.",
+      },
+    ],
+    localHook:
+      "Clear Lake covers more than 3,600 acres, making it Iowa's second-largest natural lake, and on February 2, 1959, its Surf Ballroom hosted the last performance Buddy Holly, Ritchie Valens, and The Big Bopper ever gave before the plane crash later remembered as the day the music died. That same lake, and the ring of permanent homes and seasonal cabins around it, is what drives Clear Lake's pest pressure today.",
+    intro:
+      "Clear Lake's pest calendar starts with the water. The lake itself covers more than 3,600 acres, making it Iowa's second-largest natural lake, and the town built around it, home to the historic Surf Ballroom where Buddy Holly, Ritchie Valens, and The Big Bopper played their final show before the February 1959 plane crash later called the day the music died, draws heavy seasonal tourism every summer. That much shoreline and wetland, including the marshy edges of McIntosh Woods State Park, gives mosquitoes far more breeding ground within town limits than most inland Iowa communities face. The large stock of seasonal lake cabins sitting closed up through the winter gives house mice an easy target each fall, while docks, boathouses, and lake-facing decks hold enough moisture to draw carpenter ants toward the water. Summer crowds at the lakefront restaurants and marinas bring their own pressure too, since yellowjackets key in on food scraps at any busy outdoor gathering spot.",
+    sections: [
+      {
+        heading: "A 3,600-acre lake means a lot of mosquito breeding ground",
+        body: "Clear Lake's more than 3,600 acres of surface water, plus the marshy shoreline inside McIntosh Woods State Park on the northwest shore, add up to far more standing water and wetland edge within Clear Lake's town limits than most Iowa communities of a similar size ever have to account for. Mosquito pressure here runs from May through September and peaks in July and August, right alongside the town's heaviest lake tourism, which makes yard and shoreline treatment more of a season-long commitment than a single spring visit.",
+      },
+      {
+        heading: "Seasonal cabins and fall mouse pressure",
+        body: "A meaningful share of Clear Lake's housing stock is seasonal, cabins and lake homes that sit closed up and unheated for stretches of the fall and winter. That quiet, undisturbed shelter is exactly what house mice look for once outdoor temperatures drop, and a cabin that goes unchecked from October through the following spring can end up with a well-established infestation before anyone opens the door again.",
+      },
+      {
+        heading: "Docks, boathouses, and carpenter ants",
+        body: "Wood structures built close to Clear Lake's water, docks, boathouses, and lake-facing decks in particular, hold more moisture than framing on inland properties, and that dampness is precisely the condition carpenter ants look for when choosing where to nest. Regular inspection of these waterfront wood structures catches most carpenter ant activity well before it spreads into the main structure of a home.",
+      },
+      {
+        heading: "Yellowjackets around the Surf Ballroom and lakefront dining",
+        body: "Clear Lake's summer draw, from the Surf Ballroom's concert calendar to the restaurants, marinas, and public beaches lining the shore, brings a steady supply of food and food waste outdoors through the warmest months of the year. Yellowjackets are drawn to exactly that kind of activity, and outdoor dining areas near the lakefront see noticeably heavier wasp pressure in August and September than quieter inland parts of Cerro Gordo County.",
+      },
+      {
+        heading: "Ticks in the wooded pockets around the lake",
+        body: "Not all of Clear Lake's shoreline is developed. McIntosh Woods State Park's wooded 60 acres, along with other undeveloped brush and timber pockets around the lake, give ticks the shaded leaf litter they favor, and anyone using the less-traveled trail sections between April and October should treat tick exposure as a real possibility rather than an afterthought.",
+      },
+    ],
+    prevention: [
+      "Treat standing water along the shoreline and near McIntosh Woods State Park before mosquito season peaks in July and August.",
+      "Check seasonal cabins for mouse entry points before closing them up for the winter.",
+      "Inspect docks, boathouses, and lake-facing decks for carpenter ant activity each spring.",
+      "Keep outdoor dining areas near the lakefront clear of food waste to reduce yellowjacket activity.",
+    ],
+    costNote:
+      "General quarterly pest plans in Clear Lake typically run $130 to $250 a year for a standard home, running slightly higher than inland Iowa towns given the added mosquito pressure from the lake. Seasonal cabin closing and reopening inspections are often priced separately, typically $75 to $150, and mosquito yard treatment through the summer season is usually $60 to $100 per visit.",
+    faqs: [
+      {
+        question: "Why does Clear Lake have a heavier mosquito season than nearby inland towns?",
+        answer:
+          "Clear Lake covers more than 3,600 acres, Iowa's second-largest natural lake, and that much shoreline and adjacent wetland, including the marshy edges of McIntosh Woods State Park, gives mosquitoes far more breeding ground within town limits than most inland Iowa communities have to manage.",
+      },
+      {
+        question: "Do seasonal Clear Lake cabins need pest control if nobody is living there in winter?",
+        answer:
+          "Yes. A cabin sitting closed up and undisturbed for months is close to ideal shelter for house mice once fall temperatures drop, and an infestation can become well established before the cabin is reopened in spring.",
+      },
+      {
+        question: "Why do docks and lake-facing decks around Clear Lake attract carpenter ants?",
+        answer:
+          "Wood structures built close to the water hold more moisture than inland framing, and that dampness is exactly the condition carpenter ants look for when choosing where to nest.",
+      },
+      {
+        question: "Does the Surf Ballroom's summer crowd affect pest pressure in Clear Lake?",
+        answer:
+          "It does. The concerts, restaurants, and marinas along the lakefront draw heavy summer foot traffic and outdoor dining, and that steady supply of food and food waste consistently attracts yellowjackets, especially in August and September.",
+      },
+      {
+        question: "Are ticks a concern at McIntosh Woods State Park?",
+        answer:
+          "Yes. The park's wooded 60 acres and other undeveloped brush pockets around the lake give ticks the shaded leaf litter they favor, and trail users between April and October should expect real tick exposure on less-traveled sections.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Norwalk", slug: "norwalk-ia", stateSlug: "iowa" },
+      { name: "Winterset", slug: "winterset", stateSlug: "iowa" },
+      { name: "Denison", slug: "denison-ia", stateSlug: "iowa" },
+      { name: "Algona", slug: "algona-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Clear Lake, IA | Lakefront Mosquitoes & Cabin Mice",
+    metaDescription:
+      "Clear Lake, IA pest control for lakefront mosquitoes, seasonal cabin mice, dock carpenter ants, and yellowjackets near the Surf Ballroom. Call 1-800-PEST-USA for Cerro Gordo County service.",
+  },
+  {
+    slug: "denison-ia",
+    name: "Denison",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~8,300",
+    county: "Crawford County",
+    climate: "cold-humid",
+    climateDriver:
+      "Denison sits along the Boyer River in Crawford County, and its cold winters and humid summers combine with the town's identity as a meatpacking and agricultural processing center, anchored by the plant that began as Iowa Beef Packers in 1960 and today operates as a large-scale meat processing facility. That industrial base, together with the vast surrounding corn and soybean acreage, sets Denison's pest pressure apart from smaller farm towns nearby.",
+    topPests: ["House Mice", "Flies", "Stink Bugs", "Boxelder Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Denison's grain storage and agricultural processing facilities sit close to residential neighborhoods, and rodents drawn to spilled grain and feed near those operations regularly move toward the nearest home once outdoor temperatures drop each fall.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Peaks May through September, secondary pressure near processing operations",
+        note: "Denison's identity as a meatpacking center, home to a plant tracing back to the original Iowa Beef Packers operation founded in 1960, means filth flies drawn to processing and waste-handling areas are a more consistent local pressure than in Crawford County towns without large-scale meat processing nearby.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "The vast corn and soybean acreage surrounding Denison gives stink bugs a wide feeding range through the growing season, and harvest each fall pushes them toward the nearest structure in large numbers.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Mature shade trees along Denison's older residential streets near downtown, including the historic district around the town square, give boxelder bugs a reliable breeding source close to some of the town's oldest housing stock.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Denison's older homes near the Boyer River and the downtown historic district carry enough aging wood and river-adjacent moisture to give carpenter ants a steady path into damp framing each growing season.",
+      },
+    ],
+    localHook:
+      "Denison is the birthplace of Academy Award winning actress Donna Reed, born there in 1921, and it is also the original home of Iowa Beef Packers, founded in 1960, the meatpacking operation that grew into the large-scale processing industry still anchoring the town's economy today. That industrial base, on top of the vast Crawford County corn and soybean farmland surrounding the town, is what shapes Denison's pest pressure.",
+    intro:
+      "Denison's pest pressure is tied closely to what the town actually does for a living. Best known as the birthplace of Academy Award winning actress Donna Reed, Denison is also the original home of Iowa Beef Packers, founded in 1960 along the Boyer River, a meatpacking operation that grew into the large-scale meat processing industry still anchoring the local economy. That industrial base brings a steadier fly problem than most Crawford County farm towns see, since filth flies are drawn to processing and waste-handling activity in a way that simple grain farming does not produce on its own. The vast corn and soybean acreage surrounding Denison adds its own seasonal pressure, pushing stink bugs toward homes at harvest and giving field mice a reason to move indoors once that same cropland clears its cover each fall. Denison's older residential streets, particularly the historic district near the downtown square and the homes closest to the Boyer River, carry enough mature shade trees and aging wood to keep boxelder bugs and carpenter ants active on top of everything else.",
+    sections: [
+      {
+        heading: "A meatpacking town's fly pressure",
+        body: "Denison's economy has centered on large-scale meat processing since Iowa Beef Packers opened its first plant there in 1960, and that kind of industrial food processing consistently draws filth flies to waste-handling and loading areas in a way that ordinary row-crop farming does not. Residential neighborhoods closest to the processing operations tend to see more fly pressure through the warmer months than homes on the far side of town, and that pressure is worth treating as an ongoing seasonal issue rather than a one-time nuisance call.",
+      },
+      {
+        heading: "Grain storage, rodents, and Denison's residential edge",
+        body: "Grain storage and feed-handling facilities tied to the surrounding Crawford County farm economy sit close to several Denison neighborhoods, and spilled grain is a reliable food source for rodents in a way that keeps mouse populations higher near those facilities than in neighborhoods further removed from agricultural infrastructure. Once outdoor temperatures drop each fall, those same rodents look for indoor shelter, and the closest available structure is often a home rather than a barn or grain bin.",
+      },
+      {
+        heading: "Harvest-season stink bugs across Crawford County farmland",
+        body: "The corn and soybean fields surrounding Denison stretch for miles in every direction, giving stink bugs a wide feeding range through the growing season before harvest strips their cover in September and October. Homes on the edges of town, closest to that open farmland, typically see the heaviest stink bug pressure as the insects search out cracks and gaps to overwinter in once the fields are cut.",
+      },
+      {
+        heading: "Boxelder bugs and carpenter ants near the historic downtown",
+        body: "Denison's downtown historic district and the older residential streets near the Boyer River carry a lot of mature shade trees and aging wood construction, both of which work in favor of local pest pressure. Boxelder bugs breed in the boxelder and maple trees common along these older streets, while river-adjacent moisture gives carpenter ants an easier path into damp framing than drier properties farther from the water experience.",
+      },
+      {
+        heading: "Scheduling pest control for Denison's mixed industrial and farm economy",
+        body: "Because Denison's pest pressure comes from two different directions, industrial fly activity tied to meat processing and seasonal insect pressure tied to the surrounding farmland, a single annual visit rarely covers the full picture. A quarterly plan that steps up fly and rodent service through the warm months and adds a harvest-season stink bug treatment each fall generally holds up better than a one-size approach across Denison's mix of industrial, historic, and rural-edge properties.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps near loading docks and waste areas on properties close to processing operations.",
+      "Keep grain and feed storage tightly sealed to reduce rodent pressure moving toward nearby homes.",
+      "Seal cracks and gaps before harvest season to keep stink bugs from moving indoors each fall.",
+      "Address wood-to-soil contact and moisture points on older homes near the Boyer River and downtown historic district.",
+    ],
+    costNote:
+      "General quarterly pest plans in Denison typically run $115 to $230 a year for a standard home, with a modest premium for properties closest to processing or grain storage operations. Commercial fly and rodent service for food-adjacent businesses is quoted separately based on facility size, and harvest-season stink bug treatment usually runs $60 to $100 per visit.",
+    faqs: [
+      {
+        question: "Does Denison's meatpacking industry actually affect residential pest control?",
+        answer:
+          "Yes. Denison's identity as a meat processing town, tracing back to the original Iowa Beef Packers plant that opened there in 1960, means filth flies drawn to processing and waste-handling activity create steadier fly pressure in nearby neighborhoods than simple row-crop farming would on its own.",
+      },
+      {
+        question: "Why do some Denison neighborhoods have more mice than others?",
+        answer:
+          "Neighborhoods closest to grain storage and feed-handling facilities tied to the surrounding Crawford County farm economy see more rodent pressure, since spilled grain is a reliable food source that keeps mouse populations higher near those operations.",
+      },
+      {
+        question: "When is stink bug pressure worst around Denison?",
+        answer:
+          "September and October, once the corn and soybean fields surrounding the town are harvested and stink bugs lose their outdoor cover, pushing them toward the nearest homes, especially those on the edges of town closest to open farmland.",
+      },
+      {
+        question: "Are older homes near downtown Denison more likely to have carpenter ants?",
+        answer:
+          "Yes. The historic district near downtown and the older homes closest to the Boyer River carry enough aging wood and river-adjacent moisture to give carpenter ants an easier path into damp framing than drier, newer properties elsewhere in town.",
+      },
+      {
+        question: "Should Denison homes near processing facilities get more frequent pest visits?",
+        answer:
+          "It is worth considering. Properties close to meat processing or grain storage operations tend to see steadier fly and rodent pressure through the warm months, and a quarterly plan that steps up service during that stretch generally performs better than a single annual visit.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Norwalk", slug: "norwalk-ia", stateSlug: "iowa" },
+      { name: "Winterset", slug: "winterset", stateSlug: "iowa" },
+      { name: "Clear Lake", slug: "clear-lake-ia", stateSlug: "iowa" },
+      { name: "Algona", slug: "algona-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Denison, IA | Meatpacking Town Flies & Rodents",
+    metaDescription:
+      "Denison, IA pest control for meat processing area flies, grain storage rodents, harvest-season stink bugs, and carpenter ants near the Boyer River. Call 1-800-PEST-USA for Crawford County service.",
+  },
+  {
+    slug: "algona-ia",
+    name: "Algona",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~5,500",
+    county: "Kossuth County",
+    climate: "cold-humid",
+    climateDriver:
+      "Algona sits on the East Fork Des Moines River as the county seat of Kossuth County, Iowa's largest county by land area, and its cold winters and humid summers play out across an unusually wide stretch of open corn and soybean farmland surrounding the town on every side. That sheer scale of surrounding cropland, more than any other single factor, is what drives Algona's fall insect and rodent pressure.",
+    topPests: ["Boxelder Bugs", "Asian Lady Beetles", "House Mice", "Stink Bugs", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "Kossuth County's status as Iowa's largest county by area means Algona sits at the center of an especially wide stretch of farmland, and the boxelder and maple trees scattered along its township roads and shelterbelts give boxelder bugs a broad base to swarm from each fall.",
+      },
+      {
+        name: "Asian lady beetles",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "October through November, overwintering into spring",
+        note: "Asian lady beetles are drawn to sun-warmed, light-colored exterior walls each fall across this part of Iowa, and Algona's mix of historic downtown buildings and open farmland edges gives them plenty of surfaces to gather on before pushing indoors for winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "As harvest clears cover across the vast cropland surrounding Kossuth County's largest-in-the-state land area, field mice have a long way to travel to reach shelter, and Algona, sitting at the county's center, ends up as a natural destination each fall.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "The corn and soybean fields ringing Algona give stink bugs a wide feeding range through the growing season, and the scale of Kossuth County's farmland means the fall movement toward town structures is heavier here than in smaller-acreage counties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The East Fork Des Moines River runs directly through Algona, and the low, flat ground along its banks holds standing water after spring rain and snowmelt long enough to support a full mosquito season each year.",
+      },
+    ],
+    localHook:
+      "Algona is the county seat of Kossuth County, the largest county in Iowa by land area, and during World War II it was home to a prisoner of war camp that held German soldiers and supervised 34 branch camps across the Midwest. One of those prisoners, Eduard Kaib, built a nativity scene from cement and wire that still stands on display at the Kossuth County Fairgrounds today. Algona's position at the center of that unusually large county is also what drives the sheer scale of its fall pest pressure.",
+    intro:
+      "Algona's biggest pest driver is simple geography: it is the county seat of Kossuth County, the largest county in Iowa by land area, which puts the town at the center of an especially wide stretch of open corn and soybean farmland. Algona also carries real history, having served as a World War II prisoner of war camp that housed German soldiers and supervised 34 branch camps across the Midwest, a history still visible today in the nativity scene POW Eduard Kaib built from cement and wire, on permanent display at the Kossuth County Fairgrounds. That historical footnote does not affect pest pressure, but the surrounding farmland does. Come harvest, boxelder bugs, Asian lady beetles, stink bugs, and field mice all move toward Algona from a wider radius of cropland than a town in a smaller county would ever face, and the East Fork Des Moines River running through town adds a full mosquito season on top of the fall insect surge.",
+    sections: [
+      {
+        heading: "The largest county in Iowa means the widest fall insect pressure",
+        body: "Kossuth County covers more land area than any other county in Iowa, and Algona sits close to its center as the county seat. That scale matters for pest control because boxelder bugs, Asian lady beetles, and stink bugs all draw from the surrounding farmland as their food and breeding source, and a wider stretch of cropland around a town generally means a larger fall insect population converging on the nearest buildings once harvest clears their outdoor cover.",
+      },
+      {
+        heading: "Boxelder bugs and Asian lady beetles on Algona's older buildings",
+        body: "Algona's downtown, along with the shelterbelts and mature trees planted along Kossuth County's township roads, gives boxelder bugs a wide breeding base heading into fall. Asian lady beetles follow a similar pattern, gathering by the hundreds on sun-warmed, light-colored walls each October and November before working into wall voids and attic gaps for winter, a pattern especially noticeable on older Algona buildings with less modern weatherproofing.",
+      },
+      {
+        heading: "Harvest and the mouse migration toward town",
+        body: "Because Kossuth County's cropland extends so much farther in every direction than a smaller county's would, the field mice living in that farmland have a longer distance to travel once harvest strips their cover each fall. Algona, sitting near the county's center, becomes a natural landing point for a share of that movement, and homes on the edges of town closest to open fields tend to see the earliest and heaviest pressure.",
+      },
+      {
+        heading: "The East Fork Des Moines River and Algona's mosquito season",
+        body: "The East Fork Des Moines River flows directly through Algona on its way south toward its confluence with the West Fork near Humboldt, and the low, flat ground along its banks holds spring runoff and rainwater long enough to support mosquito breeding through a full May-to-September season. Properties closest to the riverbank typically need more consistent mosquito management than homes farther from the water.",
+      },
+      {
+        heading: "Planning pest service around Kossuth County's scale",
+        body: "Given how much farmland surrounds Algona compared to a town in a smaller county, a fall exclusion and insect treatment ahead of harvest tends to matter more here than in tighter, less agricultural parts of Iowa. Pairing that fall visit with spring mosquito treatment along river-adjacent properties covers the two seasonal pressures that Algona's size and location create.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and attic vents before October to reduce Asian lady beetle and boxelder bug entry.",
+      "Treat standing water along the East Fork Des Moines River banks before mosquito season builds each summer.",
+      "Seal foundation gaps on homes near the edge of town before harvest pushes field mice toward shelter.",
+      "Schedule fall exclusion service ahead of the wider Kossuth County harvest, not just a single spring visit.",
+    ],
+    costNote:
+      "General quarterly pest plans in Algona typically run $110 to $220 a year for a standard home. Fall exclusion visits timed to Kossuth County's harvest are often priced as an add-on to a standard plan, typically $60 to $100, and mosquito treatment for river-adjacent properties along the East Fork Des Moines River usually runs $60 to $110 per visit.",
+    faqs: [
+      {
+        question: "Does Kossuth County's size actually affect pest pressure in Algona?",
+        answer:
+          "Yes. Kossuth County is the largest county in Iowa by land area, and that means a wider stretch of surrounding farmland than most Iowa towns face, which translates into a larger fall population of boxelder bugs, Asian lady beetles, stink bugs, and field mice converging on Algona once harvest clears their cover.",
+      },
+      {
+        question: "Why does Algona get heavy Asian lady beetle swarms in the fall?",
+        answer:
+          "Asian lady beetles are drawn to sun-warmed, light-colored exterior walls each October and November, and Algona's mix of older downtown buildings and farmland edges gives them plenty of surfaces to gather on before pushing indoors for winter.",
+      },
+      {
+        question: "Is mosquito pressure worse near the East Fork Des Moines River in Algona?",
+        answer:
+          "Yes. The river runs directly through Algona, and the low, flat ground along its banks holds spring runoff and rainwater long enough to support a full mosquito season from May through September, so riverbank properties generally need more consistent treatment.",
+      },
+      {
+        question: "When should Algona homeowners schedule pest exclusion service?",
+        answer:
+          "Ahead of the fall harvest is the most important window, since Kossuth County's large surrounding cropland pushes stink bugs, boxelder bugs, and field mice toward town in meaningful numbers once the fields are cut.",
+      },
+      {
+        question: "Does the historic Camp Algona POW site have any connection to current pest pressure?",
+        answer:
+          "No. The World War II POW camp history, including the nativity scene still displayed at the Kossuth County Fairgrounds, is a historical landmark with no bearing on current pest activity, which is driven by Kossuth County's farmland and the East Fork Des Moines River.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Norwalk", slug: "norwalk-ia", stateSlug: "iowa" },
+      { name: "Winterset", slug: "winterset", stateSlug: "iowa" },
+      { name: "Clear Lake", slug: "clear-lake-ia", stateSlug: "iowa" },
+      { name: "Denison", slug: "denison-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Algona, IA | Kossuth County Fall Boxelder Bugs",
+    metaDescription:
+      "Algona, IA pest control for fall boxelder bugs and Asian lady beetles, harvest-season mice, stink bugs, and East Fork Des Moines River mosquitoes. Call 1-800-PEST-USA for Kossuth County service.",
+  },
 ];

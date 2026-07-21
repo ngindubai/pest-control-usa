@@ -5963,4 +5963,603 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Pest control in Berthoud, Colorado. Larimer County service for mosquitoes, mice, pavement ants, and wasps. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "salida",
+    name: "Salida",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~6,100",
+    county: "Chaffee County",
+    climate: "cold",
+    climateDriver:
+      "Salida sits at about 7,083 feet in the Arkansas River valley, the seat of Chaffee County and one of the sunniest, driest towns in the Colorado high country. Surrounding peaks push winter cold down into the valley floor while summer days stay warm and dry, a pattern that favors dry season pests over the humidity driven ones that trouble lower, wetter parts of the country.",
+    topPests: ["Mice", "Miller Moths", "Pavement Ants", "Wasps", "Spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Once the valley's cold settles in each fall, mice push into Salida's older downtown buildings and mountain cabins alike through gaps as small as a dime.",
+      },
+      {
+        name: "Miller moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Spring migration, peaks May to June",
+        note: "The Arkansas River valley is one of the routes army cutworm moths use on their spring push from the eastern plains toward high country aestivation grounds, and Salida sits right on that path.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Pavement ants work the sidewalks and foundations of Salida's National Register downtown, Colorado's largest historic district by area, once the ground warms.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks late summer",
+        note: "Nests build up along the riverside cottonwoods and around the outdoor dining and rafting operations that fill downtown Salida each summer.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "More visible in warm months",
+        note: "Common house spiders turn up in garages and window wells through summer, though Salida's elevation makes black widow sightings less frequent than in lower Front Range communities.",
+      },
+    ],
+    localHook:
+      "Salida's downtown sits inside Colorado's largest historic district by area, and each June the Arkansas River running straight through town hosts FIBArk, the oldest whitewater festival in the country, first raced in 1949.",
+    intro:
+      "Salida's downtown sits inside Colorado's largest historic district by area, and every June the Arkansas River that runs straight through town hosts FIBArk, the oldest whitewater festival in the country, first raced back in 1949. That river and that history both shape the town's pest calendar. Mice push into century-old downtown buildings and outlying cabins once Chaffee County's mountain cold sets in each fall, while spring brings a very different visitor: miller moths migrating up the Arkansas valley toward the high country, funneling straight through Salida on their way. Pavement ants work the historic district's old sidewalks and foundations through the warm months, wasps build nests along the river's cottonwoods where rafting crowds gather each summer, and spiders show up in garages and window wells, though less often as black widows than in lower elevation Front Range towns.",
+    sections: [
+      {
+        heading: "Why do mice move into Salida's historic buildings each fall?",
+        body: "Salida sits at 7,083 feet, high enough that Chaffee County's cold settles in hard once fall arrives, and mice respond by working into the gaps around old foundations, window frames, and utility lines throughout the historic downtown and the cabins scattered around the valley. Many of these buildings predate modern construction standards, which means more small gaps for a mouse to find than a newer subdivision would have. Sealing those gaps before the first hard freeze keeps far more mice out than trapping does once they're already inside for the winter.",
+      },
+      {
+        heading: "What are the moths passing through Salida each spring?",
+        body: "Those are miller moths, the adult stage of the army cutworm, and the Arkansas River valley is one of the natural corridors they follow each spring as they migrate from the eastern plains toward the high mountains, where they spend the summer before returning in fall. Salida sits directly on that route, so the town sees a real bump in moth activity for a few weeks in May and June as they pass through, drawn to porch lights and gaps around doors and windows. They're a nuisance, not a threat, and don't breed indoors. Cutting back outdoor lighting during the migration window and sealing common entry points reduces how many end up inside.",
+      },
+      {
+        heading: "Pavement ants in Colorado's largest historic district",
+        body: "Downtown Salida's National Register historic district covers more ground than any other in Colorado, and that means more old sidewalks, foundations, and building slabs for pavement ants to nest under once the ground warms in spring. Their small sandy mounds are a common sight along the district's brick storefronts and residential blocks through summer. Because so much of the district's construction predates modern foundation sealing, ant pressure downtown tends to run a bit ahead of Salida's newer residential additions on the edge of town.",
+      },
+      {
+        heading: "Wasps along the river during rafting season",
+        body: "The cottonwoods lining the Arkansas River through downtown Salida give wasps natural cover close to the outdoor dining patios, rafting outfitters, and picnic areas that fill up with visitors each summer. A nest that starts small in June can grow large and defensive by the time FIBArk draws its biggest crowds in late June, and trash from a busy rafting season only adds to the draw. Removing a nest early in the season, while it's still small, is far safer than waiting until the peak of tourist season to deal with a mature one.",
+      },
+      {
+        heading: "Spiders and Salida's elevation",
+        body: "Common house spiders are widespread across Salida, turning up in garages, sheds, and window wells through the warmer months, and most are harmless. Black widows do occur in Colorado, but they favor lower, warmer elevations than Salida's 7,083 feet, so sightings here are less frequent than in Denver or the Front Range foothills. That doesn't mean spider pressure disappears at altitude, it just shifts the balance toward the harmless common species, which is still worth managing around entryways, garages, and any cluttered outbuilding.",
+      },
+      {
+        heading: "Why termites are rarely a concern at Salida's elevation",
+        body: "Termites need sustained warmth and moisture to build a colony, and Salida's high, dry, cold winter climate works against both. The short growing season and the valley's low humidity keep termite colonies from establishing here the way they can in warmer, wetter parts of the country, which is one reason most Salida pest plans put their attention toward mice, ants, wasps, and the seasonal moth migration instead.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and window gaps in older downtown buildings before the first fall freeze.",
+      "Cut back outdoor lighting in May and June to draw fewer miller moths during the migration.",
+      "Knock down small wasp nests early in the season, before rafting crowds and river cottonwoods draw them in further.",
+      "Keep window wells, garages, and woodpiles clear to limit spider harborage.",
+    ],
+    costNote:
+      "General pest inspections in Salida typically run $100 to $200, with a free initial visit common. Rodent exclusion work in the historic district's older buildings often costs more than a newer home given the number of potential entry points.",
+    faqs: [
+      {
+        question: "What are the moths swarming Salida every spring?",
+        answer:
+          "Those are miller moths, migrating up the Arkansas River valley from the eastern plains toward the high mountains each spring, usually peaking in May and June. Salida sits right on that migration route, so the town sees more of them passing through than towns off that corridor. They are a nuisance, not a danger, and cutting outdoor lighting during those weeks helps keep them out.",
+      },
+      {
+        question: "Are black widows a concern in Salida?",
+        answer:
+          "Less than in lower elevation Colorado cities. Black widows favor warmer, lower ground than Salida's 7,083 feet, so while they exist in the state, sightings here are less frequent than in Denver or the Front Range foothills. Common house spiders are still widespread and worth managing around entryways.",
+      },
+      {
+        question: "Why does Salida's historic downtown see more ant activity?",
+        answer:
+          "Salida's National Register district is the largest historic district in Colorado by area, and its older sidewalks, slabs, and foundations give pavement ants more established gaps to nest under than a newer part of town. Ant activity there tends to build faster each spring than in Salida's newer residential additions.",
+      },
+      {
+        question: "Do Salida homes need termite treatment?",
+        answer:
+          "Rarely. Salida's high, dry, cold climate does not support the sustained warmth and moisture termites need to establish a colony, so most local pest plans focus on rodents, ants, wasps, and the spring moth migration instead.",
+      },
+      {
+        question: "Is same-day pest control available in Salida?",
+        answer:
+          "Most licensed providers covering Chaffee County, including Salida, offer same-day or next-day response for active pest problems, along with a free inspection before any treatment plan is recommended.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Fort Lupton", slug: "fort-lupton", stateSlug: "colorado" },
+      { name: "Gunnison", slug: "gunnison", stateSlug: "colorado" },
+      { name: "Lamar", slug: "lamar", stateSlug: "colorado" },
+      { name: "Carbondale", slug: "carbondale-co", stateSlug: "colorado" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Salida, CO | Mice, Miller Moths & Wasps",
+    metaDescription:
+      "Salida pest control for fall mice, spring miller moths, pavement ants, wasps and spiders. Chaffee County Arkansas River valley service, free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fort-lupton",
+    name: "Fort Lupton",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~9,100",
+    county: "Weld County",
+    climate: "semi-arid",
+    climateDriver:
+      "Fort Lupton sits along the South Platte River in Weld County, on the semi-arid high plains northeast of Denver. Generations of irrigation built the town's vegetable and grain farms, and more recently the Wattenberg oil and gas field has grown up around and beneath the same ground, giving Fort Lupton a pest mix shaped by farmland, river bottom, and industrial activity all at once.",
+    topPests: ["Mice", "Voles", "Pavement Ants", "Wasps", "Flies"],
+    pestProfile: [
+      {
+        name: "Field mice and house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Surrounding irrigated farmland along the South Platte pushes field mice toward Fort Lupton's homes and outbuildings once crops are harvested and the cold arrives.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Year-round, most visible in late winter",
+        note: "Voles tunnel through the irrigated fields and residential lawns around Fort Lupton year round, with their runways most visible once snow melts in late winter.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Pavement ants nest under sidewalks and foundation slabs across town, a routine spring and summer presence in a community built on irrigated South Platte farmland.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks late summer",
+        note: "Nests grow through the dry Weld County summer and reach their largest, most defensive size by August, often near outbuildings and equipment sheds.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late spring through early fall",
+        note: "Livestock operations and irrigated cropland in the South Platte valley around Fort Lupton give flies more breeding material through the warm months than a purely residential town would see.",
+      },
+    ],
+    localHook:
+      "Fort Lupton takes its name from an 1836 adobe fur trading post built by Lancaster Lupton along the South Platte, and today the town sits atop the Wattenberg oil and gas field, one of the largest in the country, while its irrigated fields still grow the vegetables and grain that built the original farming community.",
+    intro:
+      "Fort Lupton takes its name from an adobe fur trading post Lancaster Lupton built along the South Platte River in 1836, and the town that grew up around it still runs on two things: irrigated farmland and, since the 1970s, the oil and gas wells of the Wattenberg field sitting above and below much of Weld County. That combination shapes the local pest calendar. Field mice and voles move off the surrounding crop ground toward homes and outbuildings as the seasons turn, pavement ants work the sidewalks and slabs of a town built on decades of irrigation, wasps build through the dry summer, and flies pick up around livestock operations and cropland in a way a purely residential Front Range suburb wouldn't deal with.",
+    sections: [
+      {
+        heading: "How does Fort Lupton's farmland bring mice and voles indoors?",
+        body: "The South Platte valley around Fort Lupton has been irrigated farmland for well over a century, and that history means a steady population of field mice and voles living in the crop ground surrounding town. Once harvest clears the fields each fall, field mice move toward the nearest shelter, which is often a home, garage, or outbuilding on the edge of town. Voles stay outdoors year round, tunneling through lawns, ditch banks, and mulched beds, with their thin runways most visible once the snow melts in late winter. Sealing foundation gaps before harvest season does more for field mice than trapping after they've already moved in.",
+      },
+      {
+        heading: "Why does Fort Lupton see more fly pressure than a typical suburb?",
+        body: "Weld County carries a large share of Colorado's livestock and irrigated crop production, and Fort Lupton sits in the middle of that agricultural belt along the South Platte. Livestock operations and irrigated fields around town give flies more breeding material through the warm months than a residential-only community would ever generate, and that pressure can reach nearby homes well before anyone notices flies indoors. A perimeter treatment timed to the late spring through early fall window addresses this more effectively than a single visit after flies have already gotten inside.",
+      },
+      {
+        heading: "Pavement ants and Fort Lupton's irrigation history",
+        body: "Fort Lupton's growth followed the same irrigation ditches that turned this stretch of the South Platte valley into productive farmland in the late 1800s and early 1900s, and the sidewalks, driveways, and foundation slabs built up over that time give pavement ants plenty of gaps to nest under. Their small mounds of displaced sand show up along walkways and patios once the ground warms each spring, and activity holds through summer before tapering off in fall.",
+      },
+      {
+        heading: "What does living above the Wattenberg field change about pest control?",
+        body: "The Wattenberg oil and gas field, discovered in 1970, sits beneath much of Weld County including parts of Fort Lupton, and well pads and processing infrastructure are a familiar sight around town. That industrial activity doesn't introduce new pest species on its own, but it does mean some Fort Lupton properties sit closer to equipment yards and storage sites than a purely residential subdivision would, which can add ant and rodent pressure around those structures. Most homeowners still deal with the same core lineup, mice, voles, ants, wasps, and summer flies, whether their property sits near a well pad or in the middle of town.",
+      },
+      {
+        heading: "Wasps through a dry Weld County summer",
+        body: "Yellowjackets and paper wasps build steadily through Fort Lupton's dry summer, often tucked into equipment sheds, eaves, and the outbuildings common on properties near the town's farmland edges. By August, nests reach their largest and most defensive size, and a wasp investigating an open trash can is often the first sign of a nest nearby that has already grown. Removing a small nest in June or July is far easier and safer than waiting until late summer.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and outbuilding gaps before fall harvest pushes field mice toward shelter.",
+      "Keep mulch pulled back from lawns and garden beds to limit vole tunneling.",
+      "Address standing organic waste and trash through the warm months to reduce fly pressure.",
+      "Knock down small wasp nests in equipment sheds and eaves before they reach late summer size.",
+    ],
+    costNote:
+      "General pest inspections in Fort Lupton typically run $100 to $200, with a free initial visit common. Properties near livestock operations or active cropland sometimes need added fly control on top of a standard seasonal plan.",
+    faqs: [
+      {
+        question: "Why does Fort Lupton have more fly pressure than nearby suburbs?",
+        answer:
+          "Fort Lupton sits in the middle of Weld County's irrigated farmland and livestock belt along the South Platte River, and that agricultural activity gives flies more breeding material through the warm months than a purely residential town would see. Homes near cropland or livestock operations typically need a perimeter treatment timed to that season.",
+      },
+      {
+        question: "Does the Wattenberg oil and gas field affect pest control in Fort Lupton?",
+        answer:
+          "Not directly, but Fort Lupton sits above part of the Wattenberg field, one of the largest oil and gas fields in the country, and some properties are closer to well pads and equipment yards than a typical subdivision, which can add some extra rodent and ant pressure around those structures.",
+      },
+      {
+        question: "When do mice move into Fort Lupton homes?",
+        answer:
+          "Mostly in fall, once harvest clears the irrigated fields around town and field mice move toward the nearest shelter, often a home or outbuilding on the edge of town. Sealing entry points before harvest is the most effective defense.",
+      },
+      {
+        question: "Are voles a problem in Fort Lupton yards?",
+        answer:
+          "Yes. Voles live year round in the irrigated farmland and lawns around Fort Lupton, tunneling through grass and garden beds. Their runways are most visible once snow melts in late winter, and keeping mulch pulled back from plant stems limits the damage.",
+      },
+      {
+        question: "Is same-day pest service available in Fort Lupton?",
+        answer:
+          "Most licensed providers covering Weld County, including Fort Lupton, offer same-day or next-day response for active infestations along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Salida", slug: "salida", stateSlug: "colorado" },
+      { name: "Gunnison", slug: "gunnison", stateSlug: "colorado" },
+      { name: "Lamar", slug: "lamar", stateSlug: "colorado" },
+      { name: "Carbondale", slug: "carbondale-co", stateSlug: "colorado" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fort Lupton, CO | Mice, Flies & Pavement Ants",
+    metaDescription:
+      "Fort Lupton pest control for field mice, voles, flies, pavement ants and wasps. Weld County South Platte farmland and Wattenberg field service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gunnison",
+    name: "Gunnison",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~6,800",
+    county: "Gunnison County",
+    climate: "cold",
+    climateDriver:
+      "Gunnison sits at about 7,703 feet in a high mountain valley ringed by peaks that trap cold air overnight, a phenomenon known as cold air pooling. The result is one of the coldest inhabited valleys in the lower 48 states, with winter lows that have reached 47 below zero and over 150 frost days most years. That extreme, sustained cold shapes the town's pest calendar more than almost anything else.",
+    topPests: ["Mice", "Pavement Ants", "Wasps", "Spiders", "Voles"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round pressure, sharp rise in early fall",
+        note: "Gunnison's cold air pooling drives some of the harshest winter temperatures in the lower 48, and mice respond by pushing indoors early and aggressively once nights start dropping below freezing in September.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Short season, late spring through summer",
+        note: "Gunnison's brief but real summer still gives pavement ants enough warm weeks to nest under sidewalks and foundations around town and the Western Colorado University campus.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks during Gunnison's short summer",
+        note: "With over 150 frost days most years, Gunnison's wasp season is compressed into a shorter window than lower elevation Colorado towns, but nests still reach a defensive size by late summer.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "More visible during the short warm season",
+        note: "Common house spiders are the dominant species here, most active during Gunnison's short frost-free stretch each year.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mole-vole-control",
+        activeSeason: "Active under snow cover through winter",
+        note: "Voles tunnel beneath the valley's deep snowpack all winter, and their runways through lawns and ranch land show up across Gunnison once the spring melt arrives.",
+      },
+    ],
+    localHook:
+      "Gunnison sits in a high valley where surrounding peaks trap cold air overnight, a pattern called cold air pooling that has pushed the town's temperature to 47 below zero on record and gives it well over 150 frost days most years, making it one of the coldest inhabited valleys in the lower 48.",
+    intro:
+      "Ask why pest control looks different in Gunnison than almost anywhere else in Colorado, and the answer comes down to cold air pooling. Surrounding peaks trap freezing air in the valley overnight, and the result is a town that has recorded 47 degrees below zero and sees well over 150 frost days most years, one of the coldest inhabited valleys in the lower 48 states. That cold compresses Gunnison's pest calendar into a shorter, more intense window than lower elevation Front Range towns get. Mice push indoors hard and early each fall, voles keep working under the deep snowpack all winter, and the warm season pests, pavement ants, wasps, and common house spiders, all crowd their activity into a brief but real summer around the Gunnison River valley and the Western Colorado University campus.",
+    sections: [
+      {
+        heading: "Why does Gunnison get so much colder than nearby mountain towns?",
+        body: "Gunnison sits at about 7,703 feet in a valley ringed by higher peaks, and those peaks trap cold, dense air at night in a process climatologists call cold air pooling. Rather than draining away, the coldest air sinks and settles over the valley floor, which is why Gunnison has recorded temperatures as low as 47 below zero and regularly out cools many higher elevation Colorado towns. That sustained deep cold is the single biggest factor behind the town's pest patterns, more than elevation or latitude alone would predict.",
+      },
+      {
+        heading: "How does the cold change when mice move indoors?",
+        body: "With over 150 frost days most years, Gunnison's mice don't wait for a gradual seasonal shift the way a Front Range town's do. Once nights start dropping below freezing in September, house mice move toward buildings quickly and in numbers, working through gaps around foundations, utility lines, and older campus and downtown buildings alike. Because the cold arrives early and stays hard, sealing entry points in late summer, before the first freeze, matters more in Gunnison than in almost any other Colorado town.",
+      },
+      {
+        heading: "What happens to voles under Gunnison's deep snowpack?",
+        body: "Voles don't hibernate, and Gunnison's snowpack actually works in their favor, insulating the ground beneath it and letting them tunnel through grass and ranch land all winter long, hidden from view. It's only once the spring melt arrives that their thin, winding runways become visible across lawns, pastures, and the ranch ground surrounding town. Because voles never move indoors the way mice do, exclusion sealing does nothing for them, keeping grass mowed and mulch pulled back from garden beds is the more useful defense.",
+      },
+      {
+        heading: "A short summer still means real ant, wasp, and spider pressure",
+        body: "Gunnison's frost free stretch is shorter than almost anywhere else in Colorado, but it isn't absent, and pavement ants, wasps, and common house spiders all pack their yearly activity into that compressed window. Pavement ants nest under sidewalks and foundation slabs around town and the Western Colorado University campus once the ground finally warms. Wasp nests build up fast through the short summer and can reach a defensive size by August despite starting later than in lower elevation towns. Common house spiders are the dominant species in this high valley, more active during the brief warm stretch than through Gunnison's long winter.",
+      },
+      {
+        heading: "Why termites are essentially a non-issue in Gunnison",
+        body: "Termites need sustained warmth to build and maintain a colony, and Gunnison's extreme, long winters make that close to impossible at this elevation. Even the region's brief summer rarely delivers enough sustained heat for termites to establish here the way they do in warmer, lower elevation parts of the country. Gunnison pest plans focus almost entirely on the cold weather pests instead, mice, voles, and the compressed but real summer activity from ants, wasps, and spiders.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and utility gaps in late summer, before Gunnison's early September freezes push mice indoors.",
+      "Keep grass mowed and mulch pulled back from garden beds to limit vole tunneling under snowpack.",
+      "Knock down small wasp nests as soon as they appear during Gunnison's short summer.",
+      "Clear window wells and garage clutter to limit spider harborage during the warm season.",
+    ],
+    costNote:
+      "General pest inspections in Gunnison typically run $100 to $225, with a free initial visit common. Fall rodent exclusion work is worth scheduling earlier here than in lower elevation Colorado towns, given how early the hard freezes arrive.",
+    faqs: [
+      {
+        question: "Why is Gunnison so much colder than other Colorado mountain towns?",
+        answer:
+          "Gunnison sits in a high valley where surrounding peaks trap freezing air overnight, a pattern called cold air pooling. That has pushed recorded temperatures to 47 below zero and gives the town well over 150 frost days most years, making it one of the coldest inhabited valleys in the lower 48.",
+      },
+      {
+        question: "When should Gunnison homeowners seal their homes against mice?",
+        answer:
+          "Earlier than in most Colorado towns. Gunnison's hard freezes typically start in September, and mice move indoors quickly once the cold arrives, so sealing foundation and utility gaps in late summer works far better than waiting until October or November.",
+      },
+      {
+        question: "Are voles active in Gunnison during winter?",
+        answer:
+          "Yes. Voles do not hibernate, and Gunnison's deep snowpack actually insulates the ground and lets them tunnel through lawns and ranch land all winter. Their runways only become visible once the spring melt arrives.",
+      },
+      {
+        question: "Do Gunnison homes need termite treatment?",
+        answer:
+          "Rarely. Gunnison's extreme, sustained cold makes it very difficult for a termite colony to establish here, so most local pest plans focus on mice, voles, and the compressed summer activity from ants, wasps, and spiders instead.",
+      },
+      {
+        question: "Is same-day pest control available in Gunnison?",
+        answer:
+          "Most licensed providers covering Gunnison County, including the town of Gunnison, offer same-day or next-day response for active pest problems along with a free inspection before recommending treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Salida", slug: "salida", stateSlug: "colorado" },
+      { name: "Fort Lupton", slug: "fort-lupton", stateSlug: "colorado" },
+      { name: "Lamar", slug: "lamar", stateSlug: "colorado" },
+      { name: "Carbondale", slug: "carbondale-co", stateSlug: "colorado" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Gunnison, CO | Mice, Voles & Wasps",
+    metaDescription:
+      "Gunnison pest control for cold-driven mice, voles, pavement ants and wasps in one of the coldest valleys in the lower 48. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lamar",
+    name: "Lamar",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~7,600",
+    county: "Prowers County",
+    climate: "semi-arid",
+    climateDriver:
+      "Lamar sits on Colorado's far southeastern plains along the Arkansas River, the seat of Prowers County in a semi-arid, wind exposed region of cattle feedyards, irrigated cropland, and native shortgrass prairie. Summers run hot and dry, winters bring hard cold snaps, and the surrounding agricultural operations add a layer of pest pressure a purely residential plains town would not face.",
+    topPests: ["Flies", "Mice", "Mosquitoes", "Pavement Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "House flies and other filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Late spring through early fall",
+        note: "The cattle feedyards on the plains around Lamar, including large operations along Highway 50, give flies more breeding material to work with than most southeastern Colorado towns see.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice move off the surrounding wheat, corn, and sorghum fields toward Lamar's homes and outbuildings once harvest ends and the plains cold sets in.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer, tied to the Arkansas River and irrigation",
+        note: "Irrigation ditches and the Arkansas River running through Lamar give mosquitoes more standing water to breed in through the hot summer months than the drier stretches of the county see.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Pavement ants nest under sidewalks and foundation slabs across Lamar, a routine warm season presence in a farm town with generations of settled construction.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks late summer",
+        note: "Nests build through Lamar's hot, dry summer and reach their largest, most defensive size by August, often near barns, sheds, and eaves.",
+      },
+    ],
+    localHook:
+      "Lamar is the Prowers County seat on the Arkansas River in Colorado's far southeastern plains, home to some of the region's largest cattle feedyards, and just a few miles away sits the Amache National Historic Site, the World War Two Japanese American incarceration camp formally designated a National Historic Site in 2024.",
+    intro:
+      "Lamar's economy runs on cattle and crops, and both shape the town's pest calendar in ways a purely residential plains town would not see. Large feedyards on the surrounding plains, including operations along Highway 50, give flies more to work with through the warm months than a smaller agricultural community would generate, while the wheat, corn, and sorghum fields around town push mice toward Lamar's homes and outbuildings once harvest ends each fall. The Arkansas River and the irrigation ditches that feed Prowers County's farmland add mosquito pressure through summer, and pavement ants and wasps round out the warm season on a schedule familiar across Colorado's southeastern plains. It's a farm town's pest profile, built around feedyards, irrigated crop ground, and a river running straight through the middle of it.",
+    sections: [
+      {
+        heading: "Why does Lamar have more fly pressure than other southeastern Colorado towns?",
+        body: "Prowers County is home to some of the largest cattle feedyards in southeastern Colorado, including large operations along Highway 50 near Lamar, and that concentration of livestock gives flies far more breeding material through the warm months than a town without that agricultural infrastructure would see. Pressure builds outward from the feedyards toward nearby homes and businesses well before anyone notices flies indoors. A perimeter treatment timed to the late spring through early fall window works better here than a single after the fact visit.",
+      },
+      {
+        heading: "When do mice move into Lamar homes?",
+        body: "Lamar sits surrounded by wheat, corn, and sorghum fields, and once harvest clears that ground each fall, field mice head toward the nearest shelter, often a home, garage, or outbuilding on the edge of town. The semi-arid plains cold that follows harvest only speeds up the move indoors. Sealing foundation and utility gaps before harvest season keeps far more mice out than trapping does once they've already settled in for winter.",
+      },
+      {
+        heading: "Does the Arkansas River bring mosquitoes to Lamar?",
+        body: "Yes. While most of Prowers County stays dry enough to keep mosquito pressure low, the Arkansas River running through Lamar and the irrigation ditches feeding the county's farmland both hold standing water through the hot summer months, giving mosquitoes more breeding habitat than the surrounding shortgrass prairie provides on its own. Properties near the river or an active irrigation ditch typically see more mosquito activity than those set back from the water.",
+      },
+      {
+        heading: "Pavement ants and wasps through a hot, dry summer",
+        body: "Pavement ants nest under Lamar's sidewalks, driveways, and foundation slabs, showing up as small mounds of displaced soil once the ground warms each spring and staying active into early fall. Wasps and yellowjackets build steadily through the summer heat, often tucked into barns, sheds, and eaves around the farm properties common on Lamar's edges, and reach their largest, most defensive size by August. Knocking down a small nest early in the season is far easier and safer than dealing with a mature one at the height of summer.",
+      },
+      {
+        heading: "What does Camp Amache's history have to do with pest control today?",
+        body: "The Amache National Historic Site, a few miles from Lamar, preserves the site of the Granada Relocation Center, where the United States government incarcerated Japanese American citizens during World War Two, and it was formally designated a National Historic Site in 2024. The site itself has no bearing on Lamar's pest pressure today, but it sits on the same semi-arid Prowers County plains that shape the town's pest calendar, dry, wind exposed ground bordered by irrigated farmland and feedyards, the same conditions driving fly, mouse, and wasp activity across Lamar itself.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and outbuilding gaps before fall harvest pushes field mice toward shelter.",
+      "Keep trash and food waste in sealed containers on properties near feedyards to reduce fly pressure.",
+      "Address standing water along irrigation ditches and low ground through the summer mosquito season.",
+      "Knock down small wasp nests in barns and sheds early in the season.",
+    ],
+    costNote:
+      "General pest inspections in Lamar typically run $100 to $200, with a free initial visit common. Properties near feedyards or irrigated cropland sometimes need added fly and mosquito treatment on top of a standard seasonal plan.",
+    faqs: [
+      {
+        question: "Why does Lamar have more flies than other plains towns its size?",
+        answer:
+          "Prowers County is home to some of the largest cattle feedyards in southeastern Colorado, including operations along Highway 50 near Lamar, and that livestock concentration gives flies far more breeding material through the warm months than a town without that agricultural base would see.",
+      },
+      {
+        question: "Does the Arkansas River affect mosquito pressure in Lamar?",
+        answer:
+          "Yes. The river running through town, along with the irrigation ditches feeding Prowers County's farmland, hold standing water through the hot summer months and give mosquitoes more breeding habitat than the surrounding dry shortgrass prairie provides on its own.",
+      },
+      {
+        question: "When do mice move into Lamar homes?",
+        answer:
+          "Mostly in fall, once harvest clears the wheat, corn, and sorghum fields around town and field mice move toward the nearest shelter. Sealing entry points before harvest season is the most effective defense.",
+      },
+      {
+        question: "Is Camp Amache near Lamar relevant to pest control?",
+        answer:
+          "Not directly, but the Amache National Historic Site sits on the same semi-arid Prowers County plains, bordered by the same irrigated farmland and feedyards, that shape Lamar's pest calendar of flies, mice, and summer wasps.",
+      },
+      {
+        question: "Is same-day pest control available in Lamar?",
+        answer:
+          "Most licensed providers covering Prowers County, including Lamar, offer same-day or next-day response for active infestations along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Salida", slug: "salida", stateSlug: "colorado" },
+      { name: "Fort Lupton", slug: "fort-lupton", stateSlug: "colorado" },
+      { name: "Gunnison", slug: "gunnison", stateSlug: "colorado" },
+      { name: "Carbondale", slug: "carbondale-co", stateSlug: "colorado" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lamar, CO | Flies, Mice & Mosquitoes",
+    metaDescription:
+      "Lamar pest control for feedyard flies, fall mice, summer mosquitoes, pavement ants and wasps. Prowers County Arkansas River service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "carbondale-co",
+    name: "Carbondale",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~6,700",
+    county: "Garfield County",
+    climate: "cold",
+    climateDriver:
+      "Carbondale sits at about 6,181 feet where the Roaring Fork and Crystal Rivers meet, in the shadow of 12,953-foot Mount Sopris, between Aspen and Glenwood Springs on Colorado's western slope. The valley's cold mountain winters and the two rivers running through town create more moisture than a dry Front Range community at a similar elevation would have, shaping a pest calendar built around water and cold together.",
+    topPests: ["Mice", "Wasps", "Ants", "Spiders", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Carbondale's cold Roaring Fork Valley winters push mice indoors each fall, into both the town's older ranching era buildings and the newer homes built up the valley toward Aspen.",
+      },
+      {
+        name: "Wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks late summer",
+        note: "Nests build through the valley's brief warm season along the Roaring Fork and Crystal Rivers, where cottonwoods and riverside vegetation give them natural cover close to homes.",
+      },
+      {
+        name: "Carpenter and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Carpenter ants target damp wood around Carbondale's irrigation ditches and riverside properties, while pavement ants work the sidewalks and slabs of the town's older ranching era core.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "More visible in warm months",
+        note: "Common house spiders show up in garages, sheds, and outbuildings through the warm months, a routine part of life on the valley's older ranch and farm properties.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Early fall",
+        note: "Boxelder bugs cluster on sun warmed walls each fall in Carbondale's older residential blocks, drawn by the maple and boxelder trees common along the valley's original farmland.",
+      },
+    ],
+    localHook:
+      "Carbondale grew up as a potato farming town in the shadow of Mount Sopris, and by the 1920s local growers were said to be shipping more potatoes out of the Roaring Fork Valley than the entire state of Idaho, a farming history still visible in the irrigation ditches and riverside fields surrounding town today.",
+    intro:
+      "Carbondale grew up as a potato farming town at the confluence of the Roaring Fork and Crystal Rivers, in the shadow of 12,953-foot Mount Sopris, and by the 1920s local growers were shipping more potatoes out of this valley each year than the entire state of Idaho. That farming history, and the two rivers that made it possible, still shape Carbondale's pest calendar today. Mice push indoors once the valley's cold mountain winter sets in, wasps build nests along the riverside cottonwoods through a brief but active summer, carpenter ants target damp wood near irrigation ditches while pavement ants work the town's older ranching era core, and boxelder bugs cluster on sun warmed walls each fall in blocks planted with maple and boxelder trees generations ago.",
+    sections: [
+      {
+        heading: "How does Carbondale's river confluence shape its pest pressure?",
+        body: "Carbondale sits right where the Roaring Fork and Crystal Rivers come together, and that confluence creates more moisture in and around town than a dry, Front Range community at a similar elevation would have. Carpenter ants take advantage of that moisture, targeting damp wood around irrigation ditches, riverside properties, and any spot where a leak or drainage issue keeps a sill or beam wetter than it should be. Fixing the underlying moisture problem matters as much here as any ant treatment, since a new colony tends to find the same welcoming wood.",
+      },
+      {
+        heading: "When do mice move into Carbondale homes?",
+        body: "Carbondale's winters are genuinely cold, cold enough that mice respond by pushing indoors through gaps as small as a pencil once the season turns each fall. That pattern holds across the valley, from Carbondale's older ranching era buildings near downtown to newer construction built up toward Aspen along Highway 82. Sealing entry points before the first hard freeze remains the most effective defense, since a mouse that's already nested in a wall for winter is a much bigger job to remove.",
+      },
+      {
+        heading: "Wasps along the Roaring Fork and Crystal Rivers",
+        body: "The cottonwoods and riverside vegetation along both rivers running through Carbondale give wasps natural cover close to homes and outdoor gathering spots, and nests build steadily through the valley's short but genuinely warm summer. By late summer, a nest that started small in June has often grown into a defensive colony tucked under eaves or deck framing. Removing a nest early in the season, while it's still small, is far safer than waiting until the end of summer.",
+      },
+      {
+        heading: "Boxelder bugs and Carbondale's farming era trees",
+        body: "Many of Carbondale's older residential blocks were planted with maple and boxelder trees generations ago, back when the town's economy still ran on potato farming, and those same trees now draw boxelder bugs to sun warmed walls each fall as the insects look for a place to overwinter. They're a nuisance rather than a structural threat, showing up in large, harmless clusters on the sunny side of a house before the first hard freeze pushes them into cracks and gaps for the winter.",
+      },
+      {
+        heading: "Is termite pressure a concern in Carbondale despite the rivers?",
+        body: "Less than the valley's moisture might suggest. Termites need sustained warmth as well as moisture to build a colony, and Carbondale's cold mountain winters work against that the same way they do across most of Colorado's western slope river valleys. Properties immediately along the Roaring Fork or Crystal River carry somewhat more risk than those set back from the water, but for most Carbondale homes, mice, wasps, ants, and boxelder bugs remain the more common concern.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and pipe gaps before fall pushes mice indoors for the winter.",
+      "Fix leaks and drainage issues near irrigation ditches and riverside properties to reduce carpenter ant activity.",
+      "Knock down small wasp nests early along the Roaring Fork and Crystal River cottonwoods.",
+      "Clear boxelder seed litter from maple and boxelder trees each fall in older residential blocks.",
+    ],
+    costNote:
+      "General pest inspections in Carbondale typically run $100 to $225, with a free initial visit common. Riverside properties along the Roaring Fork or Crystal River sometimes need added carpenter ant attention on top of a standard seasonal plan.",
+    faqs: [
+      {
+        question: "Why does Carbondale see more carpenter ant activity than drier Colorado towns?",
+        answer:
+          "Carbondale sits where the Roaring Fork and Crystal Rivers meet, and that confluence creates more moisture around town than a dry Front Range community at the same elevation would have. Carpenter ants target damp wood near irrigation ditches and riverside properties, so fixing leaks and drainage issues matters as much as any ant treatment.",
+      },
+      {
+        question: "What is the history behind Carbondale's boxelder bug problem?",
+        answer:
+          "Carbondale's older residential blocks were planted with maple and boxelder trees generations ago, back when the town's economy ran on potato farming, and those same mature trees still draw boxelder bugs to sun warmed walls each fall as they look for a place to overwinter.",
+      },
+      {
+        question: "When do mice move into Carbondale homes?",
+        answer:
+          "Mostly in fall, once the valley's genuinely cold mountain winter sets in and mice push indoors through gaps as small as a pencil. This holds true from Carbondale's older ranching era buildings to newer construction along Highway 82.",
+      },
+      {
+        question: "Do Carbondale homes need termite treatment?",
+        answer:
+          "Rarely, despite the moisture from the Roaring Fork and Crystal Rivers. Termites need sustained warmth as well as moisture, and Carbondale's cold winters make that hard to sustain, so most local pest plans focus on mice, wasps, ants, and boxelder bugs instead.",
+      },
+      {
+        question: "Is same-day pest control available in Carbondale?",
+        answer:
+          "Most licensed providers covering Garfield County, including Carbondale, offer same-day or next-day response for active pest problems along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Salida", slug: "salida", stateSlug: "colorado" },
+      { name: "Fort Lupton", slug: "fort-lupton", stateSlug: "colorado" },
+      { name: "Gunnison", slug: "gunnison", stateSlug: "colorado" },
+      { name: "Lamar", slug: "lamar", stateSlug: "colorado" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Carbondale, CO | Mice, Ants & Wasps",
+    metaDescription:
+      "Carbondale pest control for fall mice, carpenter ants, wasps, boxelder bugs and spiders. Roaring Fork Valley Garfield County service. Call 1-800-PEST-USA.",
+  },
 ];

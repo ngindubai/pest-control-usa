@@ -17049,4 +17049,578 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Port Lavaca TX pest control for mosquitoes, termites, and fire ants near Lavaca Bay and the Point Comfort industrial complex. Free inspection.",
   },
+  {
+    slug: "anna-tx",
+    name: "Anna",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~27,500",
+    county: "Collin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Anna sits in the Blackland Prairie region of North Collin County, the same dark, moisture-holding clay soil belt that runs through McKinney and the rest of the northern Dallas-Fort Worth suburbs. Hot, humid summers and mild winters keep most insect activity going for eight months of the year, and the constant churn of new subdivisions turning former farmland into fresh dirt gives fire ants and termites an open invitation to move in early.",
+    topPests: ["Fire Ants", "Eastern Subterranean Termites", "Mosquitoes", "Brown Recluse Spiders", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after spring rain",
+        note: "Freshly graded lots and new sod across Anna's subdivisions are exactly the disturbed, sun-exposed soil fire ants colonize first, often within weeks of a new home closing.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring",
+        note: "The Blackland Prairie's clay soil holds moisture against foundations through Anna's hot summers, giving subterranean termites a steady route from the ground into wood framing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "New subdivisions built around detention ponds and drainage swales give mosquitoes standing water within a short flight of nearly every yard in town.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most encounters in cooler months",
+        note: "Garages full of moving boxes, a fixture of a fast-growing city where most residents have lived in town less than five years, are prime undisturbed hiding spots for brown recluse spiders.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are notorious hitchhikers in moving boxes and used furniture, and Anna's growth means a steady stream of new households moving belongings in from across the Metroplex.",
+      },
+    ],
+    localHook:
+      "Anna's population has grown from 16,896 at the 2020 census to roughly 27,500 today, one of the fastest growth rates of any city in Collin County, and the 1885 Anna Depot downtown still stands as the oldest surviving railroad depot in Texas.",
+    intro:
+      "Anna is one of the fastest-growing small cities in North Texas, and that growth shapes its pest pressure as much as the climate does. Whole blocks of the Blackland Prairie's dark clay soil are graded and built out every year, and the fresh dirt, new sod, and stacks of moving boxes that come with a new subdivision are an open door for fire ants, termites, and hitchhiking roaches. Add a hot, humid North Texas summer and mosquito habitat in every new detention pond, and Anna homeowners end up managing pest pressure that looks a little different from an established Collin County neighborhood. A pest plan built around new construction, not just around the season, tends to work best here.",
+    sections: [
+      {
+        heading: "Why new construction changes the pest picture",
+        body: "A newly graded lot strips away established vegetation and leaves loose, sun-warmed dirt, which is close to ideal fire ant habitat. Colonies often move in within weeks of a home's final grading, well before landscaping fills back in. Termites follow a similar pattern, since construction debris and wood scraps sometimes get buried during grading and give subterranean colonies a head start close to the foundation. An inspection soon after move-in, rather than waiting for visible damage, catches both problems while they are still small.",
+      },
+      {
+        heading: "Moving boxes, used furniture, and the roaches that ride along",
+        body: "German cockroaches rarely walk into a home on their own. They ride in on cardboard boxes, secondhand furniture, and appliances, and a city where most households have moved in within the past several years sees more of that traffic than an older, more settled town. Checking boxes and furniture before they come inside, and vacuuming out drawer seams and cardboard folds, cuts down on the single most common way a German cockroach infestation gets started in a brand new home.",
+      },
+      {
+        heading: "Detention ponds and Anna's long mosquito season",
+        body: "Most of Anna's newer subdivisions are built around a detention pond or drainage swale required by city stormwater rules, and those features hold water for days after a storm even when they are designed to drain. That is enough time for mosquitoes to complete a breeding cycle, and it keeps the season running from March through November across most of Collin County. Homes backing directly onto a pond or greenbelt see the heaviest pressure and benefit most from a routine yard treatment.",
+      },
+      {
+        heading: "Termites, clay soil, and slab foundations",
+        body: "Almost every new home in Anna is built on a concrete slab over Blackland Prairie clay, and that clay swells and holds water against the foundation far longer than sandier soils farther west. Subterranean termites use that moisture and the direct wood-to-soil contact points around porches and utility penetrations to reach framing without ever coming up through open ground. A slab foundation makes early termite activity harder to see from inside the home, which is exactly why an annual inspection matters more here than the visible damage alone would suggest.",
+      },
+    ],
+    prevention: [
+      "Ask for a pest inspection soon after closing on a new build, before landscaping and mulch make the yard harder to check.",
+      "Inspect moving boxes, used furniture, and secondhand appliances for roaches before bringing them into the house.",
+      "Treat fire ant mounds in fresh sod and exposed dirt as soon as they appear, before the colony spreads.",
+      "Keep an eye on detention ponds and drainage swales near your property after rain, and report standing water that lingers more than a few days.",
+    ],
+    costNote:
+      "General pest plans in Anna typically run $35 to $60 a month, with new-construction inspections often built into the first visit at no extra charge. Termite protection for a slab foundation home usually runs $200 to $500 a year depending on lot size and soil conditions.",
+    faqs: [
+      {
+        question: "Why does my brand new home in Anna already have a fire ant problem?",
+        answer:
+          "Freshly graded lots and new sod are prime fire ant habitat, since colonies favor loose, sun-exposed soil with little competition from other insects. In a fast-growing city like Anna, where new subdivisions open constantly, it is common for fire ants to establish within weeks of a home's final grading, often before the yard is even fully landscaped.",
+      },
+      {
+        question: "Is Anna's rapid growth actually connected to more pest problems?",
+        answer:
+          "Yes, in a couple of real ways. Anna's population has climbed from 16,896 at the 2020 census to roughly 27,500 today, and that pace of new construction means more freshly disturbed soil for fire ants and termites, plus more moving traffic that can carry roaches into new homes on boxes and furniture.",
+      },
+      {
+        question: "Are brown recluse spiders a real risk in Anna?",
+        answer:
+          "They are present in North Texas and tend to favor undisturbed clutter such as garages full of moving boxes, which describes a lot of Anna households in the first year or two after a move. Bites are uncommon and most are minor, but a licensed technician can reduce harborage around the garage and foundation.",
+      },
+      {
+        question: "When do termites swarm in Collin County?",
+        answer:
+          "Eastern subterranean termite swarms in this part of North Texas typically happen on warm, humid days in spring, often right after rain. A slab foundation home in Anna can have termite activity for a while before a swarm makes it obvious, which is why a proactive inspection matters.",
+      },
+      {
+        question: "How do I stop mosquitoes from a detention pond near my Anna home?",
+        answer:
+          "You cannot drain a city stormwater feature yourself, but you can reduce standing water on your own property, keep grass around the pond edge trimmed short, and schedule a yard treatment that targets resting adult mosquitoes in shaded vegetation near the water line.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Boerne", slug: "boerne", stateSlug: "texas" },
+      { name: "Portland", slug: "portland-tx", stateSlug: "texas" },
+      { name: "Mount Pleasant", slug: "mount-pleasant-tx", stateSlug: "texas" },
+      { name: "Raymondville", slug: "raymondville-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Anna, TX | Fire Ants, Termites & New-Home Pests",
+    metaDescription:
+      "Anna, TX pest control for fire ants, termites, mosquitoes and roaches in fast-growing Collin County. Licensed technicians, free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "boerne",
+    name: "Boerne",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~21,800",
+    county: "Kendall County",
+    climate: "semi-arid",
+    climateDriver:
+      "Boerne sits on the Cibolo Creek at the eastern edge of the Texas Hill Country, on rocky, well-drained Edwards Plateau limestone about 1,400 feet above sea level. That elevation and karst terrain keep summers hot and dry and winters cooler than nearby San Antonio, and the limestone itself, riddled with cracks, caves, and weep holes, is prime scorpion and spider habitat.",
+    topPests: ["Striped Bark Scorpions", "Fire Ants", "Ticks", "Paper Wasps", "House Mice"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks late spring through summer",
+        note: "Boerne's limestone bedrock and the many rock walls and dry-stacked stone features common in Hill Country landscaping give striped bark scorpions countless crevices to hide in during the day before they come out at night.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after spring rain",
+        note: "Fire ants concentrate in the irrigated lawns and parkland along Cibolo Creek, where soil moisture is more reliable than the surrounding dry limestone terrain.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The cedar and oak woodland surrounding Boerne, prime deer habitat, keeps tick populations high along trails and unmaintained brush at the edge of most Hill Country properties.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Spring through early fall",
+        note: "Boerne's historic Main Street buildings and the eaves of newer Hill Country homes both offer the sheltered overhangs paper wasps favor for nest building each spring.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As Hill Country temperatures drop in fall, mice move out of the surrounding cedar brush and into garages, attics, and outbuildings looking for warmth.",
+      },
+    ],
+    localHook:
+      "Boerne was founded in 1849 by German Free Thinker colonists on the banks of Cibolo Creek and renamed for the German author Ludwig Boerne, and the Boerne Village Band, founded by those same settlers, is recognized as the oldest continuously organized German band anywhere outside Germany.",
+    intro:
+      "Boerne trades the flat blacklands of North Texas for limestone, cedar, and a creek running through the middle of a German-founded Hill Country town, and the pest picture here reflects that terrain more than the season. The same rocky karst ground that draws visitors to Cibolo Creek and the historic Main Street district gives striped bark scorpions endless crevices to shelter in, and the cedar and oak woodland ringing most neighborhoods keeps ticks active for a good stretch of the year. Homeowners moving to Boerne from San Antonio or Austin often assume Hill Country pest control means the same thing it did in a more urban zip code. It does not. Scorpions and ticks take the lead here in a way they rarely do in a city neighborhood.",
+    sections: [
+      {
+        heading: "Limestone, rock walls, and Boerne's scorpion pressure",
+        body: "Striped bark scorpions are built for exactly the terrain Boerne sits on. Dry-stacked limestone walls, a common landscaping feature across the Hill Country, along with natural rock outcrops and building foundations set into karst bedrock, all provide the tight, dark crevices scorpions use to escape the daytime heat. They come out to hunt at night and are most often found by residents in garages, bathrooms, and closets after slipping through gaps around plumbing or weep holes. Sealing those entry points does more to reduce scorpion encounters than any single treatment.",
+      },
+      {
+        heading: "Cibolo Creek and Boerne's fire ant lawns",
+        body: "Fire ants need moisture to thrive, and in a semi-arid Hill Country town, that moisture is concentrated close to Cibolo Creek and in irrigated residential lawns rather than spread evenly across the surrounding hills and dry creek beds. Mounds tend to cluster in parkland along the creek and in newer subdivisions with regular sprinkler use, and they multiply fast after the spring rains that break up Boerne's dry season. Treating mounds early, before a colony has a chance to split and spread, keeps a single mound from turning into a yard-wide problem.",
+      },
+      {
+        heading: "Deer, cedar brush, and Boerne's tick season",
+        body: "The cedar and oak woodland surrounding Boerne supports one of the healthiest deer populations in this part of the Hill Country, and deer are a primary host for the ticks found on local trails and in unmaintained brush at the edge of many properties. Tick activity in Kendall County runs from spring through fall, with the heaviest pressure after the vegetation grows in following spring rain. Keeping grass and brush cut back along fence lines and property edges, and treating pets on a regular schedule, meaningfully reduces the number of ticks that make it onto a person or into a house.",
+      },
+      {
+        heading: "Historic buildings and Boerne's wasp season",
+        body: "Boerne's Main Street district, lined with limestone storefronts dating back well over a century, offers the same kind of sheltered overhangs and gaps that paper wasps look for in any older building. New Hill Country homes with deep eaves are not much different. Nests started in early spring can grow through the summer into colonies defensive enough to be a real hazard by August, so removing a new nest early in the season, while it is still small, is far safer than waiting.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, foundation cracks, and gaps around plumbing to block scorpion entry into the house.",
+      "Keep dry-stacked rock walls and woodpiles away from the foundation, since they are prime scorpion and spider harborage.",
+      "Cut back cedar and oak brush along fence lines each spring to reduce tick habitat near the house.",
+      "Treat fire ant mounds near Cibolo Creek and irrigated lawn areas promptly after spring rain.",
+    ],
+    costNote:
+      "Scorpion-focused pest plans in Boerne typically run $40 to $70 a month given the year-round exclusion work involved. Tick and flea yard treatments are often bundled seasonally, usually $150 to $300 for a spring-through-fall program.",
+    faqs: [
+      {
+        question: "Are scorpions really that common in Boerne?",
+        answer:
+          "Yes. Boerne sits on Edwards Plateau limestone riddled with cracks and crevices, and striped bark scorpions use that karst terrain along with common Hill Country features like dry-stacked rock walls to shelter during the day. They are one of the most frequent pest calls in Kendall County, especially from late spring through summer.",
+      },
+      {
+        question: "Why does Boerne have more ticks than nearby San Antonio neighborhoods?",
+        answer:
+          "Boerne is surrounded by cedar and oak woodland that supports a large deer population, and deer are a key host in the tick life cycle. That combination of brush cover and deer traffic gives ticks more habitat right at the edge of Boerne properties than a typical San Antonio subdivision offers.",
+      },
+      {
+        question: "Is Boerne's semi-arid climate good or bad for pest pressure?",
+        answer:
+          "Both, depending on the pest. The dry limestone terrain favors scorpions and reduces some moisture-loving pests compared to Houston or the coast, but it also concentrates fire ants and mosquitoes around Cibolo Creek and any irrigated lawn, since that is where the moisture they need is found.",
+      },
+      {
+        question: "Do the historic buildings on Boerne's Main Street have pest problems?",
+        answer:
+          "The limestone storefronts along Boerne's historic Main Street, some over a century old, offer the same sheltered gaps and overhangs that draw paper wasps and occasionally rodents in cooler months. Commercial pest plans for downtown buildings usually focus on exclusion around those older construction details.",
+      },
+      {
+        question: "When should I worry about a wasp nest at my Boerne home?",
+        answer:
+          "Address it as soon as you notice one starting, ideally in early spring. A new paper wasp nest is small and far less defensive than a mature colony later in summer, so early removal by a licensed technician is both safer and cheaper than waiting.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Anna", slug: "anna-tx", stateSlug: "texas" },
+      { name: "Portland", slug: "portland-tx", stateSlug: "texas" },
+      { name: "Mount Pleasant", slug: "mount-pleasant-tx", stateSlug: "texas" },
+      { name: "Raymondville", slug: "raymondville-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Boerne, TX | Scorpions, Ticks & Hill Country Pests",
+    metaDescription:
+      "Boerne, TX pest control for striped bark scorpions, ticks, fire ants and wasps in Kendall County's Texas Hill Country. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "portland-tx",
+    name: "Portland",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~20,500",
+    county: "San Patricio County",
+    climate: "hot-humid",
+    climateDriver:
+      "Portland sits on the north shore of Corpus Christi Bay and Nueces Bay in the Texas Coastal Bend, a low, flat setting with warm Gulf humidity and mild winters that keep most insect activity going nearly year-round. The bay front brings salt marsh mosquitoes, while the growing petrochemical and LNG export corridor along the nearby shoreline adds a steady stream of commercial and industrial properties that need their own pest coverage.",
+    topPests: ["Mosquitoes", "Fire Ants", "American Cockroaches", "Subterranean Termites", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round, worst spring through fall",
+        note: "Salt marsh mosquitoes breed in the tidal flats along Corpus Christi and Nueces Bay and are strong enough fliers to reach yards well back from the water.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ants across Portland's residential neighborhoods mound heavily after Gulf rain events and recolonize fast once floodwater recedes.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Locally called palmetto bugs, American cockroaches thrive in the Coastal Bend's bay front humidity and move indoors from storm drains and mulch beds when the weather turns hot.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active nearly year-round",
+        note: "The Gulf Coast's mild winters keep subterranean termite colonies working through most of the year in Portland's older and newer neighborhoods alike.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse after storms",
+        note: "Roof rats travel fence lines and utility wires into attics across Portland, and coastal storms displace them into homes in waves.",
+      },
+    ],
+    localHook:
+      "Portland sits directly across the causeway from the Cheniere Corpus Christi LNG export terminal, one of the largest liquefied natural gas facilities in the country, and its public schools are served by Gregory-Portland ISD, a name that reflects the small community of Gregory just to its north.",
+    intro:
+      "Portland occupies a strip of high ground on the north shore of Corpus Christi and Nueces Bay, and living this close to open water shapes almost everything about pest pressure here. The bay's tidal marsh keeps mosquitoes breeding for most of the year, and the same Gulf humidity that makes for warm winters also keeps American cockroaches and subterranean termites active well past the point they would slow down in North Texas. Portland's other defining feature, the Cheniere LNG export terminal and the wider petrochemical corridor just across the water, brings a real base of industrial and commercial properties into the mix alongside the bay front homes, and both need pest coverage built around what they actually are, not a one-size-fits-all residential plan.",
+    sections: [
+      {
+        heading: "Bay front mosquitoes and Portland's long season",
+        body: "Corpus Christi Bay and Nueces Bay both border Portland with tidal marsh that mosquitoes use as breeding habitat, and salt marsh species in particular are capable of flying well inland from where they hatch. That means even homes several blocks from the water see real mosquito pressure, not just the properties directly on the shoreline. The season runs nearly year-round given the Coastal Bend's mild winters, with the sharpest spikes from spring through fall after rain events refresh the marsh.",
+      },
+      {
+        heading: "Industrial neighbors and commercial pest coverage",
+        body: "Portland sits directly across the water from the Cheniere Corpus Christi LNG export terminal and the broader San Patricio County petrochemical corridor, and that industrial base means Portland has more commercial and light-industrial pest accounts than a typical bay front town its size. Facilities near the water deal with a different mix of pressures than a residential kitchen, including rodents drawn to equipment shelters and cockroaches in loading and storage areas, and coverage usually needs to be scheduled around a facility's own operating hours and inspection requirements.",
+      },
+      {
+        heading: "Storms, roof rats, and Coastal Bend flooding",
+        body: "Every major storm that pushes through the Coastal Bend reshuffles Portland's rodent population. Roof rats that normally travel fence tops and utility lines get displaced when flooding disrupts their usual routes, and calls for rat activity in attics and garages reliably climb in the weeks after a significant storm. Keeping tree limbs and vines trimmed back from the roofline year-round, not just after a storm, is the most effective way to deny roof rats an easy route into the attic before displacement even becomes a factor.",
+      },
+      {
+        heading: "Termites and cockroaches in Portland's bay humidity",
+        body: "Subterranean termites in Portland rarely get the kind of hard winter slowdown that pest populations further inland experience, since Gulf humidity keeps soil moisture high against foundations through most of the year. American cockroaches follow a similar pattern, breeding outdoors in mulch beds and storm drains and pushing indoors whenever conditions get hot and dry outside. Both are manageable with a routine plan, but a single one-time treatment tends to underperform in a climate this consistently favorable to both species.",
+      },
+    ],
+    prevention: [
+      "Treat shaded, low vegetation near the bay shoreline for resting adult mosquitoes rather than relying on yard sprays alone.",
+      "Schedule commercial pest coverage around your facility's own operating hours if your business sits near the LNG or petrochemical corridor.",
+      "Trim tree limbs and vines off the roofline year-round to deny roof rats an entry route before any storm displaces them.",
+      "Keep an annual termite inspection on the calendar, since Portland's bay humidity rarely gives colonies a real winter slowdown.",
+    ],
+    costNote:
+      "Mosquito treatment for bay front Portland properties typically runs $70 to $150 per visit, with monthly service recommended near the shoreline. Commercial and industrial pest accounts near the LNG corridor are usually quoted separately based on facility size and schedule.",
+    faqs: [
+      {
+        question: "Why are mosquitoes such a problem in Portland even away from the water?",
+        answer:
+          "Salt marsh mosquitoes breeding in the tidal flats of Corpus Christi and Nueces Bay are strong fliers and regularly travel well inland from where they hatch, so homes several blocks from the shoreline still see real pressure. The season runs nearly year-round given the Coastal Bend's mild winters.",
+      },
+      {
+        question: "Does Portland's LNG terminal affect pest control needs in town?",
+        answer:
+          "Yes, indirectly. Portland sits across the water from the Cheniere Corpus Christi LNG export terminal and San Patricio County's wider petrochemical corridor, and that industrial presence means more local businesses need commercial pest coverage scheduled around a facility's own operations rather than a standard residential visit.",
+      },
+      {
+        question: "Are American cockroaches a year-round problem in Portland?",
+        answer:
+          "Close to it. Portland's bay front humidity and mild Coastal Bend winters keep American cockroaches, often called palmetto bugs locally, active almost all year, with the heaviest indoor pressure during the hottest, driest stretches of summer.",
+      },
+      {
+        question: "What brings roof rats into Portland homes after a storm?",
+        answer:
+          "Coastal storms disrupt the fence lines, utility wires, and tree canopy roof rats normally travel, pushing them to find new routes, which often means into an attic through a roofline gap. Trimming back limbs and vines from the roof year-round reduces that risk before a storm even hits.",
+      },
+      {
+        question: "Is termite treatment worth it for a newer Portland home?",
+        answer:
+          "Yes. Portland's Gulf humidity keeps subterranean termite colonies working through most of the year regardless of a building's age, and a slab foundation on newer construction does not prevent ground-to-wood contact points around porches and utility penetrations.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Anna", slug: "anna-tx", stateSlug: "texas" },
+      { name: "Boerne", slug: "boerne", stateSlug: "texas" },
+      { name: "Mount Pleasant", slug: "mount-pleasant-tx", stateSlug: "texas" },
+      { name: "Raymondville", slug: "raymondville-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Portland, TX | Mosquitoes, Termites & Commercial Coverage",
+    metaDescription:
+      "Portland, TX pest control for mosquitoes, fire ants, termites and roof rats near Corpus Christi and Nueces Bay. Residential and commercial. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mount-pleasant-tx",
+    name: "Mount Pleasant",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~16,200",
+    county: "Titus County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mount Pleasant sits in the East Texas Piney Woods, a region of tall pine and hardwood forest with high year-round humidity and annual rainfall well above the state average. Titus County's large poultry processing operations add another layer to the local pest picture, since agricultural and food-processing activity nearby tends to raise fly pressure beyond what the climate alone would produce.",
+    topPests: ["Eastern Subterranean Termites", "Fire Ants", "Ticks", "Mosquitoes", "Filth Flies"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active most of the year",
+        note: "The Piney Woods' consistently high humidity and heavy annual rainfall keep subterranean termite colonies working in Titus County longer into the year than in drier parts of Texas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ant mounds are common across Mount Pleasant lawns and the pastureland surrounding town, with the sharpest jump in new mounds following the region's frequent rain.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The dense pine and hardwood forest surrounding Mount Pleasant, along with Lake Bob Sandlin just southwest of town, supports a healthy tick population along trails and unmowed field edges.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Lake Bob Sandlin and the numerous farm ponds around Titus County give mosquitoes breeding habitat throughout the warmer months.",
+      },
+      {
+        name: "Filth flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Worst in warm months",
+        note: "Properties near Mount Pleasant's poultry processing operations and surrounding livestock farms see higher fly pressure than the climate alone would explain, a pattern well documented by Texas A&M AgriLife Extension around agricultural facilities.",
+      },
+    ],
+    localHook:
+      "Mount Pleasant is the county seat of Titus County and home to a major Pilgrim's Pride poultry processing operation, one of the area's largest employers, and Lake Bob Sandlin, dedicated in 1978 on Big Cypress Creek just southwest of town, is a popular local fishing and recreation destination.",
+    intro:
+      "Mount Pleasant sits deep in the East Texas Piney Woods, where tall pine forest, heavy rainfall, and a strong agricultural economy anchored by Pilgrim's Pride's poultry processing operation all shape the pest calendar. The humidity here rarely lets up, which keeps subterranean termites and mosquitoes going longer into the year than a drier part of the state would allow, and the surrounding pine and hardwood forest, along with nearby Lake Bob Sandlin, gives ticks plenty of habitat close to town. The poultry and livestock operations that anchor the local economy add a wrinkle most Texas cities do not deal with directly: properties near those facilities tend to see more flies than the climate alone would produce, and pest plans in Mount Pleasant often need to account for that agricultural neighbor as much as for the weather.",
+    sections: [
+      {
+        heading: "Piney Woods humidity and Mount Pleasant's termite pressure",
+        body: "East Texas gets some of the highest rainfall totals in the state, and Titus County is no exception. That steady moisture keeps the soil around foundations damp for much of the year, which is exactly the condition eastern subterranean termites need to move from the ground into wood framing. Colonies here tend to stay active later into the fall and start back up earlier in spring than termites in drier parts of Texas, which makes an annual inspection more valuable in Mount Pleasant than in a place with a real dry season.",
+      },
+      {
+        heading: "Poultry operations and Mount Pleasant's fly pressure",
+        body: "Mount Pleasant's economy runs substantially on poultry processing, with Pilgrim's Pride operating one of the area's largest employers in town, and agricultural and food-processing activity like this is a well-documented driver of higher fly pressure in the surrounding area. Homes and businesses near processing or livestock facilities typically see more filth flies during warm months than properties farther from that kind of operation, and exterior fly management, sealing entry points and reducing exposed food waste and standing organic matter, matters more here than in a purely residential town.",
+      },
+      {
+        heading: "Forest, farmland, and Titus County's tick season",
+        body: "The pine and hardwood forest surrounding Mount Pleasant, along with the brush and unmowed pasture edges common on Titus County farmland, supports a healthy tick population from spring through fall. Lake Bob Sandlin, a popular fishing and recreation spot just southwest of town, adds trail and shoreline habitat to the mix. Keeping grass mowed and brush cleared along the edges of a property, and checking pets and children after time outdoors, are the most practical defenses against a tick season that runs most of the warm half of the year.",
+      },
+      {
+        heading: "Lake Bob Sandlin and Mount Pleasant's mosquito season",
+        body: "Lake Bob Sandlin and the many smaller farm ponds scattered across Titus County give mosquitoes reliable breeding water from April through October. Properties near any of those water features see the heaviest pressure, but East Texas humidity means even homes without nearby standing water get real mosquito activity through the summer. A yard treatment targeting shaded resting areas, combined with removing any standing water on the property itself, is the most effective combination for most Mount Pleasant homes.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given how long subterranean termite colonies stay active in the Piney Woods' humid climate.",
+      "Seal exterior entry points and reduce exposed food waste if your property sits near poultry or livestock operations, to cut fly pressure.",
+      "Mow grass and clear brush along property edges each spring to reduce tick habitat before the season ramps up.",
+      "Remove standing water in yard containers and low spots after rain to cut down on mosquito breeding close to the house.",
+    ],
+    costNote:
+      "General pest plans in Mount Pleasant typically run $30 to $55 a month. Fly management for properties near agricultural operations is often quoted as an add-on service, usually $20 to $40 more per visit depending on proximity and exposure.",
+    faqs: [
+      {
+        question: "Why does my Mount Pleasant property have more flies than a friend's house in Dallas?",
+        answer:
+          "If your property is near Mount Pleasant's poultry processing operations or surrounding livestock farms, that proximity is a well-documented driver of higher fly pressure, something Texas A&M AgriLife Extension has studied around agricultural facilities generally. Sealing entry points and reducing exposed food waste and organic debris helps manage it.",
+      },
+      {
+        question: "Are termites really more active in Mount Pleasant than in other parts of Texas?",
+        answer:
+          "The East Texas Piney Woods gets some of the highest rainfall totals in the state, and that steady soil moisture around foundations lets subterranean termite colonies in Titus County stay active later into fall and start earlier in spring than colonies in drier regions.",
+      },
+      {
+        question: "Is Lake Bob Sandlin a mosquito problem for Mount Pleasant?",
+        answer:
+          "Lake Bob Sandlin, along with the many smaller farm ponds around Titus County, gives mosquitoes breeding habitat from April through October. Properties near the lake see the heaviest pressure, but East Texas humidity keeps mosquito activity fairly high across town during the warmer months regardless.",
+      },
+      {
+        question: "How bad is the tick season around Mount Pleasant?",
+        answer:
+          "The pine and hardwood forest surrounding town, plus brush and pasture edges common on Titus County farmland, support ticks from spring through fall. Anyone spending time near trails, Lake Bob Sandlin's shoreline, or unmowed field edges should check for ticks after being outdoors.",
+      },
+      {
+        question: "Does Pilgrim's Pride's presence in Mount Pleasant affect residential pest control?",
+        answer:
+          "Not directly for most homes, but properties closer to poultry processing or livestock operations do tend to see more fly pressure in warm months, a pattern documented around agricultural facilities generally. It is one more factor a local technician accounts for when building a treatment plan.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Anna", slug: "anna-tx", stateSlug: "texas" },
+      { name: "Boerne", slug: "boerne", stateSlug: "texas" },
+      { name: "Portland", slug: "portland-tx", stateSlug: "texas" },
+      { name: "Raymondville", slug: "raymondville-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mount Pleasant, TX | Termites, Ticks & Flies",
+    metaDescription:
+      "Mount Pleasant, TX pest control for termites, fire ants, ticks, mosquitoes and flies in Titus County's East Texas Piney Woods. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "raymondville-tx",
+    name: "Raymondville",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~10,200",
+    county: "Willacy County",
+    climate: "hot-humid",
+    climateDriver:
+      "Raymondville sits in the Rio Grande Valley just north of the Willacy County line with Cameron County, in a subtropical climate with mild winters and hot, humid summers that rarely give local pest species a true dormant period. The town grew up around Bermuda onion and cotton farming after 1912, and that irrigated agricultural land surrounding Raymondville still shapes the pest pressure residents deal with today.",
+    topPests: ["Mosquitoes", "Fire Ants", "American Cockroaches", "Subterranean Termites", "Kissing Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst spring through fall",
+        note: "Irrigated farmland surrounding Raymondville, historically planted in Bermuda onions and cotton, gives mosquitoes reliable breeding water even in dry stretches between rain events.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after rain",
+        note: "Fire ants thrive in the moist margins of Willacy County's irrigated fields and spread quickly into adjoining residential yards.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Mild Rio Grande Valley winters never push American cockroach populations into dormancy, keeping them active in and around Raymondville buildings all year.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round",
+        note: "The Valley's subtropical humidity keeps subterranean termite colonies working through the winter months in Raymondville far more than in North Texas.",
+      },
+      {
+        name: "Kissing bugs (Triatoma species)",
+        activeSeason: "Warmest months, spring through fall",
+        note: "Texas A&M AgriLife Extension and the CDC have documented kissing bugs, a triatomine species that can carry the parasite behind Chagas disease, across the wider Rio Grande Valley including Willacy County, making outdoor lighting and yard sanitation a genuine, if low-probability, health consideration here.",
+      },
+    ],
+    localHook:
+      "Raymondville was founded in 1904 by Edward Burleson Raymond and grew into the commercial hub of Willacy County on the strength of Bermuda onion farming, introduced to the county in 1912, and the town's Onion Festival once ran under the slogan 'The Breath of a Nation.'",
+    intro:
+      "Raymondville is the county seat of Willacy County and sits deep enough in the Rio Grande Valley that winter barely slows anything down, pests included. The town's roots as an onion and cotton farming hub, dating back to Edward Burleson Raymond's founding effort in 1904 and the introduction of Bermuda onions to the county in 1912, left behind a ring of irrigated agricultural land that still shapes what shows up in Raymondville yards and buildings today. Mosquitoes and fire ants use that irrigated ground year-round, American cockroaches and subterranean termites shrug off winters too mild to slow them, and the Rio Grande Valley's documented kissing bug population, while not something to panic over, is a genuine regional health topic worth understanding rather than ignoring.",
+    sections: [
+      {
+        heading: "Irrigated farmland and Raymondville's mosquito pressure",
+        body: "The fields surrounding Raymondville, long planted in Bermuda onions, cotton, and other row crops, rely on irrigation that keeps soil and drainage ditches wet even during stretches with little rainfall. That steady water supply gives mosquitoes breeding habitat that does not depend entirely on the weather, which is part of why the season here runs closer to year-round than the spring-through-fall pattern common further north in Texas. Properties adjoining farmland or irrigation canals see the heaviest pressure and benefit most from routine yard treatment.",
+      },
+      {
+        heading: "Mild winters and Raymondville's year-round cockroach and termite activity",
+        body: "Willacy County almost never sees a hard freeze, and that missing winter dormant period is the single biggest difference between pest control in Raymondville and pest control in North Texas. American cockroaches keep breeding through what would be an off-season further north, and subterranean termite colonies keep feeding on wood-to-soil contact points through the winter months instead of slowing down. A pest plan built for a four-season climate tends to underperform here, since there is no real cold snap to lean on for a natural population dip.",
+      },
+      {
+        heading: "Kissing bugs and the Rio Grande Valley's Chagas disease research",
+        body: "Texas A&M AgriLife Extension and the CDC have documented kissing bugs, also called triatomine insects, across the Rio Grande Valley, including Willacy County, and some of these insects can carry Trypanosoma cruzi, the parasite responsible for Chagas disease. This is not a reason for alarm, since the risk from any single encounter is low, but it is a genuine, documented regional issue that residents should know about rather than dismiss. Kissing bugs are nocturnal, drawn to outdoor lighting, and typically found near rodent nests, wood piles, and outdoor debris close to a structure. Reducing exterior lighting at night, clearing debris away from the home, and avoiding handling any unfamiliar insect with bare hands are the practical first steps, and a pest professional can help identify a suspected find.",
+      },
+      {
+        heading: "Fire ants in Willacy County's irrigated soil",
+        body: "Fire ants concentrate wherever Willacy County's farmland stays consistently moist, which in a region built on irrigated onion and cotton production means the margins of fields and the yards that back up to them. Mounds spread quickly into residential areas after rain, and colonies that establish near a home's foundation can become a real sting hazard for children and pets within a single season if left untreated. Treating mounds promptly, rather than waiting for a colony to spread, keeps the problem contained to a manageable size.",
+      },
+    ],
+    prevention: [
+      "Treat yard areas backing onto irrigated farmland or canals for mosquitoes, since that water source keeps breeding habitat active even in dry weather.",
+      "Reduce exterior lighting at night or switch to yellow bug lights to lower the attraction of kissing bugs near the home.",
+      "Clear wood piles, debris, and dense brush away from the structure, since these are common kissing bug and rodent harborage sites.",
+      "Schedule termite protection on a year-round basis rather than a seasonal one, since Raymondville's mild winters rarely slow colony activity.",
+    ],
+    costNote:
+      "General pest plans in Raymondville typically run $30 to $55 a month given the near year-round activity of most local species. Kissing bug identification and exterior sealing services commonly start around $150, and termite protection runs $180 to $450 a year depending on structure size.",
+    faqs: [
+      {
+        question: "Should Raymondville residents be worried about kissing bugs?",
+        answer:
+          "Texas A&M AgriLife Extension and the CDC have documented kissing bugs across the Rio Grande Valley, including Willacy County, and some can carry the parasite that causes Chagas disease. It is a genuine regional issue worth taking seriously, not a reason for alarm. Reducing outdoor lighting at night and clearing debris from around the home are the most practical steps, and any suspected find should go to a pest professional for identification rather than being handled directly.",
+      },
+      {
+        question: "Why does Raymondville have pest activity all year instead of a slow winter?",
+        answer:
+          "Willacy County almost never sees a hard freeze, so American cockroaches, subterranean termites, and mosquitoes never get the dormant period that pests in North Texas experience each winter. A pest plan here needs to run year-round rather than tapering off in the cooler months.",
+      },
+      {
+        question: "Does Raymondville's history as an onion farming town affect pest control today?",
+        answer:
+          "Yes, indirectly. The irrigated farmland that grew out of Raymondville's Bermuda onion and cotton industry, dating back to 1912, still surrounds much of the town, and that consistently moist ground gives mosquitoes and fire ants breeding and nesting conditions that do not depend entirely on rainfall.",
+      },
+      {
+        question: "Are fire ants worse in Raymondville than in a drier part of Texas?",
+        answer:
+          "Fire ants need moisture, and Willacy County's irrigated farmland provides it consistently, which concentrates colonies in field margins and the residential yards that border them. Mounds spread into those neighborhoods quickly after rain.",
+      },
+      {
+        question: "Is termite treatment worth it year-round in Raymondville?",
+        answer:
+          "Yes. The Rio Grande Valley's mild winters keep subterranean termite colonies feeding on wood-to-soil contact points through months that would slow activity further north, so seasonal treatment tends to leave gaps that a year-round plan avoids.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Anna", slug: "anna-tx", stateSlug: "texas" },
+      { name: "Boerne", slug: "boerne", stateSlug: "texas" },
+      { name: "Portland", slug: "portland-tx", stateSlug: "texas" },
+      { name: "Mount Pleasant", slug: "mount-pleasant-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Raymondville, TX | Mosquitoes, Termites & Kissing Bugs",
+    metaDescription:
+      "Raymondville, TX pest control for mosquitoes, fire ants, termites and kissing bug awareness in Willacy County's Rio Grande Valley. Call 1-800-PEST-USA.",
+  },
 ];

@@ -4522,4 +4522,604 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "De Soto, KS pest control for rodents displaced by the Panasonic construction boom, Kansas River mosquitoes, brown recluse spiders, and floodplain ticks. Johnson County service. Free inspection.",
   },
+  {
+    slug: "andover-ks",
+    name: "Andover",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~15,900",
+    county: "Butler County",
+    climate: "temperate",
+    climateDriver:
+      "Andover sits in western Butler County immediately east of Wichita, a fast-growing suburb built largely on what was farmland a generation ago. The continental Great Plains climate brings hot, humid summers, cold winters, and a spring severe weather season the town knows better than most, an F5 tornado tore through in 1991 and an EF3 followed in 2022. Kansas sits in USDA Termite Infestation Probability Zone 2, and the cropland still surrounding Andover's newer subdivisions keeps house mice pressing toward structures every fall.",
+    topPests: ["House Mice", "Brown Recluse Spiders", "Subterranean Termites", "Mosquitoes", "Wasps and Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Andover's newer subdivisions back directly onto the wheat and sorghum fields that still ring the town, and each fall the harvest pushes field mice toward the nearest foundation, garage, or shed.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Butler County falls within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and the mix of decades-old rebuilt homes and newer construction across Andover gives them plenty of undisturbed places to hide.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Kansas sits entirely within USDA Termite Infestation Probability Zone 2, and Andover's post-tornado rebuilding since 1991 means active termite pressure on both original neighborhoods and the newer homes built on the same ground since.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Spring storm season leaves standing water in drainage ditches and detention ponds built for Andover's newer subdivisions, giving mosquitoes breeding habitat through the summer.",
+      },
+      {
+        name: "Wasps and Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer through early fall",
+        note: "Eaves and porch overhangs on Andover's mix of older and newly rebuilt homes offer wasps and yellow jackets easy nesting spots, and sting calls become more common as colonies peak in August and September.",
+      },
+    ],
+    localHook:
+      "Andover has rebuilt itself twice in one generation. An F5 tornado tore through the Golden Spur Mobile Home Park on April 26, 1991, killing 13 people in what remains one of the deadliest tornadoes in Kansas history, and an EF3 tornado returned to strike the same town on April 29, 2022. Both storms forced large-scale rebuilding, and Andover's population has more than doubled since 1990 as new subdivisions replaced open farmland east of Wichita.",
+    intro:
+      "Andover has rebuilt itself twice in one generation, first after the F5 tornado that tore through the Golden Spur Mobile Home Park on April 26, 1991, killing 13 people in one of the deadliest storms in Kansas history, and again after an EF3 tornado struck the same town on April 29, 2022. Pest control in Andover, KS has to account for a housing stock genuinely split between decades-old rebuilt neighborhoods and brand new subdivisions rising on former Butler County farmland, and both bring their own pressure. Wheat and sorghum fields still ring much of town, and every fall harvest sends field mice looking for a warmer place to spend winter, usually a garage, crawl space, or shed on the edge of a new development. Butler County sits inside the brown recluse spider's confirmed range, Kansas' statewide termite risk zone covers Andover's older and newer homes alike, and spring storm season leaves the kind of standing water that keeps mosquitoes active into September. A licensed local technician who already knows which of Andover's neighborhoods sit closest to open cropland, and which went up fastest after 2022, treats the town more effectively than a generic statewide plan.",
+    sections: [
+      {
+        heading: "Two tornadoes, one town: what rebuilding means for pests",
+        body: "Andover's story is inseparable from its tornado history. The April 26, 1991 F5 tornado killed 13 people at the Golden Spur Mobile Home Park and forced a wave of rebuilding that shaped much of the town's current housing stock, and the April 29, 2022 EF3 tornado added another round of new construction on top of it. That pattern of new foundations, fresh utility trenches, and disturbed ground going in next to homes untouched since the 1990s creates a genuine split in pest pressure: older rebuilt homes carry the settled foundation gaps that let spiders and mice inside, while newer construction sits on ground still shifting enough to open fresh entry points of its own.",
+      },
+      {
+        heading: "Mice moving in from Butler County farmland",
+        body: "Andover grew from roughly 6,000 residents in the early 1990s to nearly 16,000 today, almost entirely by building new subdivisions on what used to be Butler County wheat and sorghum ground. A lot of that cropland is still there, right up against the newest streets, and every fall harvest displaces the field mice that spent the growing season in it. Those mice do not disappear, they look for the nearest warm structure, and a new subdivision built directly against a working field gives them a short trip.",
+      },
+      {
+        heading: "Brown recluse spiders and Kansas' termite zone",
+        body: "Butler County sits inside the brown recluse spider's confirmed core range as documented by Kansas State University Research and Extension, and Andover's combination of older rebuilt homes and newer construction gives them no shortage of undisturbed boxes, closets, and crawl spaces to settle into. Termites are a statewide concern rather than a local quirk, Kansas sits entirely within USDA Termite Infestation Probability Zone 2, and that pressure applies just as much to a home rebuilt after 1991 as to one framed last year.",
+      },
+      {
+        heading: "Mosquitoes and stinging insects through Andover's storm season",
+        body: "The same spring storm systems that have twice devastated Andover also leave the standing water mosquitoes need. New subdivisions built with detention ponds and drainage ditches hold that water longer than open farmland did, stretching mosquito season from May into September. Late summer brings a separate problem: wasps and yellow jackets building nests under eaves and porch overhangs on both the town's older homes and its newest builds, with sting calls peaking in August and September as colonies reach their largest size.",
+      },
+      {
+        heading: "What a pest control visit in Andover looks like",
+        body: "A technician working in Andover checks the obvious spots first, foundation gaps, garage door seals, and utility penetrations, but pays particular attention to which side of the property borders open cropland versus an established neighborhood. Homes built since the 2022 tornado often still have settling gaps around new foundations that older, rebuilt-since-1991 homes have long since sealed. Termite inspections matter across both, since Kansas' Zone 2 designation does not distinguish between old and new construction.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and utility gaps promptly on newly built homes, settling ground can open new entry points during the first year.",
+      "Check for field mice activity each fall in homes and sheds bordering open cropland east and south of town.",
+      "Schedule a termite inspection annually regardless of how old or new the structure is; Kansas' Zone 2 risk does not discriminate.",
+      "Clear standing water from detention ponds and drainage ditches each spring to cut down mosquito breeding.",
+      "Have wasp nests under eaves and porch overhangs removed by a professional before colonies peak in late summer.",
+    ],
+    costNote:
+      "General quarterly pest plans in Andover run $115 to $240 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,200. Mouse exclusion work for homes bordering open farmland typically runs $150 to $325 depending on the number of entry points found.",
+    faqs: [
+      {
+        question: "Why does Andover have such a mix of old and new pest pressure?",
+        answer:
+          "Because the town rebuilt twice in one generation. The 1991 F5 tornado and the 2022 EF3 tornado both forced large-scale reconstruction, so Andover has decades-old rebuilt neighborhoods sitting right next to brand new subdivisions, and each brings different entry points for pests.",
+      },
+      {
+        question: "Are house mice really a bigger problem near Andover's newer subdivisions?",
+        answer:
+          "Yes. Much of Andover's growth from around 6,000 residents in the early 1990s to nearly 16,000 today came from building directly against Butler County wheat and sorghum fields, and fall harvest reliably pushes field mice toward the nearest structure.",
+      },
+      {
+        question: "Are brown recluse spiders common in Andover?",
+        answer:
+          "Yes. Butler County is within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension.",
+      },
+      {
+        question: "Does Andover's tornado history affect termite risk?",
+        answer:
+          "Not directly, but it does mean homes of very different ages sit close together. Kansas' USDA Termite Infestation Probability Zone 2 designation applies statewide, so both a home rebuilt after the 1991 tornado and one built after the 2022 storm carry the same termite risk.",
+      },
+      {
+        question: "When are wasps worst in Andover?",
+        answer:
+          "Late summer through early fall, typically August and September, when colonies nesting under eaves and porch overhangs reach their peak size before the first frost.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Prairie Village", slug: "prairie-village-ks", stateSlug: "kansas" },
+      { name: "Valley Center", slug: "valley-center-ks", stateSlug: "kansas" },
+      { name: "Bonner Springs", slug: "bonner-springs-ks", stateSlug: "kansas" },
+      { name: "Wellington", slug: "wellington-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Andover, KS | House Mice & Brown Recluse Spiders",
+    metaDescription:
+      "Andover, KS pest control for house mice from nearby farmland, brown recluse spiders, subterranean termites, and mosquitoes. Butler County service. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "prairie-village-ks",
+    name: "Prairie Village",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~22,900",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "Prairie Village sits entirely inside the Kansas City metro in Johnson County, a compact, fully built out residential community platted by developer J.C. Nichols in 1941. The continental climate brings hot, humid summers and cold winters. What sets Prairie Village apart from newer Johnson County suburbs is its age: the same curvilinear streets and mature tree canopy that earned it a 1949 award as the best planned community in America now shelter termite colonies, overwintering boxelder bugs, and carpenter ants that a younger subdivision simply has not had time to develop.",
+    topPests: ["Subterranean Termites", "Brown Recluse Spiders", "Boxelder Bugs", "House Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Prairie Village's homes were mostly built in the 1940s and 1950s under J.C. Nichols' original plan, and Kansas' statewide USDA Termite Infestation Probability Zone 2 designation means eight decades of settled foundations across the community carry real, ongoing termite risk.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Johnson County sits within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and Prairie Village's mature basements and original 1940s-era crawl spaces give them the undisturbed shelter they favor.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, overwintering into spring",
+        note: "The mature tree canopy that made Prairie Village a nationally recognized planned community in 1949 also means decades-old boxelder and maple trees throughout the community, and boxelder bugs gather on sun-warmed walls each fall looking for a way into attics and wall voids to overwinter.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "As temperatures drop, house mice work their way into Prairie Village's older homes through the same small foundation and utility gaps that eight decades of settling have opened up.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active at night",
+        note: "Mature trees and any moisture-damaged wood in Prairie Village's original 1940s and 1950s construction give carpenter ants the softened wood they prefer for excavating nests.",
+      },
+    ],
+    localHook:
+      "Developer J.C. Nichols platted Prairie Village in 1941 as a planned extension of his Country Club District, laying out curvilinear streets with no alleys and setting aside land for parks and a shopping center. The community was named the best planned community in America by the National Association of Home Builders in 1949, and it incorporated as its own city in 1951. More than seventy years later, that original planning is still visible in the mature tree canopy and consistent mid-century housing stock that cover nearly all of Prairie Village today.",
+    intro:
+      "Prairie Village is one of the few Johnson County communities where nearly the entire city was planned and built by a single developer, J.C. Nichols, starting in 1941. His curvilinear streets, alley-free layout, and dedicated park space earned Prairie Village recognition as the best planned community in America in 1949, and the city incorporated on its own two years later. Pest control in Prairie Village, KS deals with the flip side of that history: eight decades of mature trees and settled mid-century foundations, in a community with almost no newer construction to compare against. Johnson County sits within the brown recluse spider's confirmed range, Kansas' termite risk zone covers the entire state, and the same tree canopy that makes Prairie Village's streets so recognizable also brings boxelder bugs and carpenter ants looking for a way into older homes each fall. A technician familiar with Prairie Village's building stock, almost entirely 1940s through 1960s construction, treats the community differently than a Johnson County suburb built in the 2000s.",
+    sections: [
+      {
+        heading: "A city built by one developer in a single decade",
+        body: "Most Kansas City metro suburbs grew in scattered waves over sixty or seventy years. Prairie Village did not. J.C. Nichols platted the community in 1941 as an extension of his Country Club District across the state line, and the bulk of its homes went up within about two decades of that. The result is a housing stock with an unusually consistent age, which means pest pressure tied to aging construction, settled foundations, old mortar joints, decades of minor wood moisture damage, shows up fairly uniformly across the whole city rather than concentrated in one older pocket.",
+      },
+      {
+        heading: "Termites in eight decades of settled foundations",
+        body: "Kansas sits entirely within USDA Termite Infestation Probability Zone 2, and in Prairie Village that risk applies to a community where most homes have had seventy to eighty years for a colony to establish and spread undetected. Nichols' original plan emphasized mature landscaping and generous lot lines, and the same soil moisture that keeps those decades-old trees healthy also supports subterranean termite colonies working underneath the foundations nearby.",
+      },
+      {
+        heading: "Boxelder bugs and carpenter ants in a mature tree canopy",
+        body: "The tree canopy that helped earn Prairie Village its 1949 planning award has had over seventy years to mature, and that canopy now includes plenty of boxelder and maple trees. Each September and October, boxelder bugs gather by the hundreds on sun-warmed exterior walls looking for a gap into an attic or wall void to spend the winter. Carpenter ants take a longer view, excavating nests in any wood around the property that has softened from years of moisture, a real possibility in homes built before modern flashing standards.",
+      },
+      {
+        heading: "Brown recluse spiders and mice in older construction",
+        body: "Johnson County falls within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and Prairie Village's original 1940s and 1950s basements offer exactly the undisturbed, rarely-moved boxes and shelving these spiders prefer. House mice follow a similar pattern each fall, working through small gaps that decades of foundation settling have opened around utility lines and old sill plates.",
+      },
+      {
+        heading: "What pest control looks like in a fully built out suburb",
+        body: "There is very little open land left to develop in Prairie Village, so unlike a growing Johnson County suburb, pest pressure here is almost entirely about maintaining older structures rather than managing new construction. A technician working in the community focuses on sealing decades-old gaps, treating established termite activity before it spreads between adjacent lots on the same original block, and clearing boxelder bug entry points each fall before the first hard freeze pushes them indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection every year regardless of a home's age; Prairie Village's mid-century foundations have had decades for a colony to establish.",
+      "Seal attic vents and wall gaps each September before boxelder bugs move indoors for winter.",
+      "Address any moisture-damaged wood promptly, softened wood attracts carpenter ants looking for a place to nest.",
+      "Check basements and rarely-disturbed storage areas for brown recluse spiders, especially in older, single-owner homes.",
+      "Seal foundation and utility gaps opened by decades of settling before fall drives mice indoors.",
+    ],
+    costNote:
+      "General quarterly pest plans in Prairie Village run $130 to $260 per year for a typical home, reflecting the community's older, larger lots. Termite inspections are usually free, with treatment for an established colony in a mid-century foundation typically running $600 to $1,400. Carpenter ant treatment for moisture-damaged wood generally runs $200 to $450.",
+    faqs: [
+      {
+        question: "Why does Prairie Village have more consistent pest issues than other Johnson County suburbs?",
+        answer:
+          "Because nearly the whole city was built within about two decades of J.C. Nichols platting it in 1941, so its housing stock is unusually uniform in age, which means pest pressure tied to aging foundations and mature trees shows up fairly evenly across the community rather than concentrated in one older section.",
+      },
+      {
+        question: "Are termites a real concern in a planned community like Prairie Village?",
+        answer:
+          "Yes. Kansas' USDA Termite Infestation Probability Zone 2 designation applies statewide, and Prairie Village's homes have had seventy to eighty years since J.C. Nichols' original 1940s and 1950s construction for a colony to establish.",
+      },
+      {
+        question: "What are the small orange and black bugs on my Prairie Village house every fall?",
+        answer:
+          "Almost certainly boxelder bugs. Prairie Village's mature tree canopy, part of what earned the community its 1949 best-planned-community recognition, includes plenty of boxelder and maple trees, and the bugs gather on sun-warmed walls each September and October looking for a way indoors.",
+      },
+      {
+        question: "Are brown recluse spiders common in Prairie Village basements?",
+        answer:
+          "Yes. Johnson County is within the brown recluse spider's confirmed core range, and Prairie Village's original 1940s and 1950s basements offer the undisturbed storage areas these spiders prefer.",
+      },
+      {
+        question: "Is new construction a factor in Prairie Village pest control the way it is in other suburbs?",
+        answer:
+          "Not really. Prairie Village is essentially fully built out, so pest control here focuses on maintaining decades-old structures rather than managing the disturbed ground and fresh foundations that come with new subdivisions.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Andover", slug: "andover-ks", stateSlug: "kansas" },
+      { name: "Valley Center", slug: "valley-center-ks", stateSlug: "kansas" },
+      { name: "Bonner Springs", slug: "bonner-springs-ks", stateSlug: "kansas" },
+      { name: "Wellington", slug: "wellington-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Prairie Village, KS | Termites & Boxelder Bugs",
+    metaDescription:
+      "Prairie Village, KS pest control for subterranean termites, brown recluse spiders, boxelder bugs, and carpenter ants in this fully built out Johnson County community. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "valley-center-ks",
+    name: "Valley Center",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~7,700",
+    county: "Sedgwick County",
+    climate: "hot-humid",
+    climateDriver:
+      "Valley Center sits along the Little Arkansas River in Sedgwick County, immediately north of Wichita, in the same hot, humid Arkansas River valley climate as its larger neighbor. Summers run hot and humid, winters turn cold, and spring brings the thunderstorm season that defines south-central Kansas. The river valley that gave the town its name, and that once supported a 1920s oil boom, still holds enough moisture to sustain mosquito breeding through the summer even as the surrounding wheat country trends drier.",
+    topPests: ["Mosquitoes", "House Mice", "Brown Recluse Spiders", "Ticks", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Valley Center takes its name from its position in the Little Arkansas River valley, and that same river bottom holds standing water through the warm months, sustaining mosquito populations well past what the surrounding drier wheat country experiences.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Sedgwick County's grain and wheat operations around Valley Center provide the food supply that keeps house mouse populations high, and each fall those mice move toward the nearest warm structure as harvested fields empty out.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Sedgwick County sits within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and Valley Center's mix of homes dating back to its 1885 incorporation and its 1920s oil boom era gives them plenty of undisturbed places to settle.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "The wooded, grassy corridor along the Little Arkansas River that runs through Valley Center carries the brush and tall grass cover ticks need, making outdoor work or recreation near the riverbank a reason to check for ticks afterward.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Kansas sits entirely within USDA Termite Infestation Probability Zone 2, and the river valley's moisture-retaining soil around Valley Center supports termite colonies in both the town's older core and its newer edges.",
+      },
+    ],
+    localHook:
+      "Valley Center was founded in the 1870s and incorporated in 1885, taking its name from its position in the valley of the Little Arkansas River. In the late 1920s the area saw a genuine oil boom, with derricks and service trucks working the fields around town, a period still visible in some of Valley Center's older housing stock. The Little Arkansas River flows south from Valley Center into Wichita, where it joins the main Arkansas River.",
+    intro:
+      "Valley Center earned its name honestly. The town sits in the valley of the Little Arkansas River, just north of Wichita, and that river bottom has shaped the place since before its 1885 incorporation. Pest control in Valley Center, KS starts with that river valley: it holds standing water long enough after spring rain to sustain mosquitoes well into September, and the same moisture that draws mosquitoes keeps subterranean termite colonies active in soil that Kansas' statewide termite risk zone already flags as vulnerable. The town's late 1920s oil boom, when derricks worked the surrounding fields, left behind a mix of older housing that now sits within the brown recluse spider's confirmed Sedgwick County range. Wheat and grain operations still ring Valley Center, and each fall harvest sends house mice looking for the nearest garage, shed, or crawl space. A technician who treats Valley Center as its own river valley community, not simply a Wichita suburb, accounts for pest pressure a strictly urban plan would miss.",
+    sections: [
+      {
+        heading: "A river valley town before it was a Wichita suburb",
+        body: "Valley Center predates Wichita's northward sprawl by decades. Founded in the 1870s and incorporated in 1885, the town took its name directly from its position in the Little Arkansas River valley, and that geography still drives its pest pressure today more than its proximity to Wichita does. The river bottom holds moisture that the drier wheat country further from the river simply does not have, and that difference shows up directly in mosquito and termite pressure.",
+      },
+      {
+        heading: "Mosquitoes on the Little Arkansas",
+        body: "The Little Arkansas River flows south through Valley Center on its way to join the main Arkansas River in Wichita, and the river bottom holds standing water well after a spring rain has soaked into higher ground elsewhere in Sedgwick County. That extends mosquito season from May through September, longer than towns sitting away from the river corridor typically see.",
+      },
+      {
+        heading: "An oil boom town's older housing and brown recluse spiders",
+        body: "Valley Center's brief but real oil boom in the late 1920s brought derricks and service crews to the fields around town, and some of the housing from that era is still standing today. Sedgwick County sits within the brown recluse spider's confirmed core range as documented by Kansas State University Research and Extension, and older homes with undisturbed closets, boxes, and crawl spaces from that period give the spiders exactly the shelter they prefer.",
+      },
+      {
+        heading: "Mice from the surrounding wheat country",
+        body: "Wheat and grain operations still surround Valley Center on most sides, and those fields support a healthy house mouse population through the growing season. Once harvest clears the fields each fall, those mice look for a new food source and shelter, and a garage, shed, or crawl space on the edge of town is often the closest option.",
+      },
+      {
+        heading: "Ticks along the river corridor, termites in the valley soil",
+        body: "The wooded, grassy stretch along the Little Arkansas River through Valley Center holds the tall grass and brush cover ticks depend on, most active April through August, and anyone working or spending time near the riverbank should check for ticks afterward. The same river valley soil that supports that vegetation also retains the moisture subterranean termites need, and Kansas' statewide Zone 2 termite risk designation applies to Valley Center's older core neighborhoods and its newer streets alike.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yards and low spots near the Little Arkansas River each spring to reduce mosquito breeding.",
+      "Check for ticks after any outdoor work or recreation along the river corridor, April through August.",
+      "Seal foundation and garage gaps each fall as harvest sends field mice looking for shelter.",
+      "Schedule an annual termite inspection given the river valley's moisture-retaining soil.",
+      "Inspect older, oil-boom-era homes' closets and storage areas for brown recluse spiders.",
+    ],
+    costNote:
+      "General quarterly pest plans in Valley Center run $110 to $230 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,150. Mosquito reduction treatments for properties near the river corridor typically run $65 to $100 per visit during peak season.",
+    faqs: [
+      {
+        question: "Why does Valley Center have worse mosquito problems than towns further from the river?",
+        answer:
+          "Because Valley Center sits directly in the Little Arkansas River valley, the same geography that gave the town its name, and that river bottom holds standing water well into the warm months, longer than the drier wheat country surrounding it.",
+      },
+      {
+        question: "Are brown recluse spiders a real concern in Valley Center?",
+        answer:
+          "Yes. Sedgwick County, including Valley Center, is within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and the town's older homes from its 1885 incorporation and 1920s oil boom era offer the undisturbed spaces they prefer.",
+      },
+      {
+        question: "Does Valley Center's oil boom history still affect pest control today?",
+        answer:
+          "Indirectly. The late 1920s oil boom left behind a stretch of older housing stock, and those decades-old homes tend to have more of the settled gaps and undisturbed storage areas that brown recluse spiders and mice favor.",
+      },
+      {
+        question: "Is termite risk different in Valley Center than in Wichita?",
+        answer:
+          "Not really. Kansas' USDA Termite Infestation Probability Zone 2 covers the entire state, and Valley Center's river valley soil, which retains moisture well, supports the same subterranean termite pressure found throughout the Wichita area.",
+      },
+      {
+        question: "When are ticks most active near Valley Center?",
+        answer:
+          "April through August, mainly along the wooded, grassy corridor of the Little Arkansas River that runs through town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Andover", slug: "andover-ks", stateSlug: "kansas" },
+      { name: "Prairie Village", slug: "prairie-village-ks", stateSlug: "kansas" },
+      { name: "Bonner Springs", slug: "bonner-springs-ks", stateSlug: "kansas" },
+      { name: "Wellington", slug: "wellington-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Valley Center, KS | River Mosquitoes & Termites",
+    metaDescription:
+      "Valley Center, KS pest control for Little Arkansas River mosquitoes, house mice from surrounding wheat country, brown recluse spiders, and termites. Sedgwick County service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bonner-springs-ks",
+    name: "Bonner Springs",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~7,800",
+    county: "Wyandotte County",
+    climate: "temperate",
+    climateDriver:
+      "Bonner Springs sits along the Kansas River in southwestern Wyandotte County, part of the Kansas City metro, with a small strip of the city reaching into neighboring Leavenworth County. The continental climate brings hot, humid summers and cold winters. The Kansas River floodplain running through town, combined with the wooded grounds around the National Agricultural Center and Hall of Fame and the Kansas City Renaissance Festival site, sustains mosquito and tick pressure well beyond what a typical KC metro suburb sees.",
+    topPests: ["Mosquitoes", "Ticks", "Brown Recluse Spiders", "House Mice", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Bonner Springs sits directly on the Kansas River floodplain, and that low, moisture-holding ground keeps mosquitoes breeding through the summer, a pressure that spikes for outdoor events at the riverside Azura Amphitheater.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "The 172 wooded acres around the National Agricultural Center and Hall of Fame, plus the adjacent Kansas City Renaissance Festival grounds, keep tall grass and timber cover in the middle of town, exactly the habitat ticks need.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Wyandotte County sits within the brown recluse spider's confirmed core range according to Kansas State University Research and Extension, and Bonner Springs' older river-adjacent homes give them ready shelter.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "The agricultural land and open acreage still common around Bonner Springs, including the working grounds of the Agricultural Hall of Fame itself, supports rodent populations that move toward homes and outbuildings once the weather turns.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Kansas' statewide USDA Termite Infestation Probability Zone 2 designation, combined with the Kansas River floodplain's moisture-retaining soil, keeps termite pressure high on Bonner Springs homes near the river.",
+      },
+    ],
+    localHook:
+      "Bonner Springs is home to the National Agricultural Center and Hall of Fame, a 172-acre museum campus chartered by Congress in 1960 that sits beside the Azura Amphitheater, an 18,000-capacity outdoor concert venue that opened in 1984, and the annual Kansas City Renaissance Festival grounds. The city sits mainly in Wyandotte County along the Kansas River, with a small portion extending into Leavenworth County.",
+    intro:
+      "Bonner Springs punches above its size for what is packed into one small stretch of the Kansas River valley. The 172-acre National Agricultural Center and Hall of Fame, chartered by Congress in 1960, shares ground with the 18,000-capacity Azura Amphitheater and the Kansas City Renaissance Festival, all sitting on wooded, river-adjacent land in the middle of town. Pest control in Bonner Springs, KS has to account for that mix: the Kansas River floodplain running through the city holds enough standing water to keep mosquitoes active from May through September, and the wooded acreage around the agricultural museum and festival grounds carries the tall grass and timber cover ticks need April through August. Wyandotte County falls within the brown recluse spider's confirmed range, Kansas' statewide termite zone covers the river's moisture-retaining soil under Bonner Springs homes, and the agricultural land still common around town keeps house mice pressure high each fall. A plan built for a typical KC metro suburb misses how much of Bonner Springs sits directly against river and woodland habitat.",
+    sections: [
+      {
+        heading: "A river town built around a working agricultural museum",
+        body: "Most Kansas City metro suburbs are built out entirely as neighborhoods. Bonner Springs is different: a meaningful share of the city is the 172-acre National Agricultural Center and Hall of Fame campus, chartered by Congress in 1960, sitting next to the 18,000-capacity Azura Amphitheater and the Kansas City Renaissance Festival grounds. That much wooded, semi-rural acreage inside city limits, right along the Kansas River, gives Bonner Springs a pest profile closer to a river town than a typical suburb.",
+      },
+      {
+        heading: "Mosquitoes on the Kansas River floodplain",
+        body: "Bonner Springs sits mainly in southwestern Wyandotte County directly along the Kansas River, with the city's low ground holding standing water through the warm months. That pressure builds through the summer concert season at the riverside Azura Amphitheater, when evening events draw crowds right into peak mosquito hours.",
+      },
+      {
+        heading: "Ticks on the Agricultural Hall of Fame's wooded acreage",
+        body: "The National Agricultural Center and Hall of Fame includes a nature trail and roughly 172 acres of grounds, much of it wooded and grassy, directly adjacent to the Renaissance Festival's forested festival site. That combination keeps genuine tick habitat inside Bonner Springs' city limits rather than pushed out to the county's edges, and anyone spending time on those grounds or nearby April through August should check for ticks afterward.",
+      },
+      {
+        heading: "Brown recluse spiders and mice near river-adjacent homes",
+        body: "Wyandotte County sits within the brown recluse spider's confirmed core range as documented by Kansas State University Research and Extension, and Bonner Springs' older homes near the river and the agricultural museum grounds offer the undisturbed shelter these spiders favor. The agricultural land still surrounding much of the city supports house mice through the growing season, and those mice move toward nearby homes and outbuildings once the weather turns each fall.",
+      },
+      {
+        heading: "Termites in Kansas River floodplain soil",
+        body: "Kansas sits entirely within USDA Termite Infestation Probability Zone 2, and Bonner Springs' position on the Kansas River floodplain means the soil under many of its homes retains moisture longer than higher ground elsewhere in Wyandotte County. That combination keeps subterranean termite colonies active in the river-adjacent parts of town in particular, making an annual inspection worth scheduling regardless of a home's age.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near the Kansas River floodplain each spring to reduce mosquito breeding before amphitheater concert season.",
+      "Check for ticks after visiting the Agricultural Hall of Fame's wooded trails or the Renaissance Festival grounds, April through August.",
+      "Seal foundation gaps on older, river-adjacent homes where brown recluse spiders tend to settle.",
+      "Seal garage and outbuilding entry points each fall as agricultural land nearby sends mice looking for shelter.",
+      "Schedule an annual termite inspection given the river floodplain's moisture-retaining soil.",
+    ],
+    costNote:
+      "General quarterly pest plans in Bonner Springs run $115 to $235 per year for a typical home. Termite inspections are usually free, with treatment priced by structure size, often $500 to $1,200. Tick and mosquito treatment for properties near the river or the agricultural museum grounds typically runs $65 to $110 per visit during peak season.",
+    faqs: [
+      {
+        question: "Does the Kansas City Renaissance Festival attract ticks near Bonner Springs?",
+        answer:
+          "The wooded festival grounds and the adjacent National Agricultural Center and Hall of Fame's roughly 172 acres, much of it grassy and timbered, do carry real tick habitat, most active April through August, right inside Bonner Springs' city limits.",
+      },
+      {
+        question: "Why does Bonner Springs have more mosquito pressure than nearby suburbs?",
+        answer:
+          "Bonner Springs sits directly on the Kansas River floodplain, and that low ground holds standing water through the summer, longer than higher-elevation suburbs elsewhere in the metro.",
+      },
+      {
+        question: "Are brown recluse spiders common in Bonner Springs?",
+        answer:
+          "Yes. Wyandotte County is within the brown recluse spider's confirmed core range, and Bonner Springs' older homes near the river and the agricultural museum grounds provide the undisturbed shelter they prefer.",
+      },
+      {
+        question: "Is termite risk higher near the Kansas River in Bonner Springs?",
+        answer:
+          "It can be. Kansas' statewide USDA Termite Infestation Probability Zone 2 designation applies everywhere, but the floodplain soil along the Kansas River through Bonner Springs retains moisture longer, which supports more consistent subterranean termite activity.",
+      },
+      {
+        question: "What county is Bonner Springs in?",
+        answer:
+          "Mainly Wyandotte County, with a small portion of the city extending into neighboring Leavenworth County.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Andover", slug: "andover-ks", stateSlug: "kansas" },
+      { name: "Prairie Village", slug: "prairie-village-ks", stateSlug: "kansas" },
+      { name: "Valley Center", slug: "valley-center-ks", stateSlug: "kansas" },
+      { name: "Wellington", slug: "wellington-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bonner Springs, KS | River Mosquitoes & Ticks",
+    metaDescription:
+      "Bonner Springs, KS pest control for Kansas River mosquitoes, ticks near the Agricultural Hall of Fame grounds, brown recluse spiders, and termites. Wyandotte County service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wellington-ks",
+    name: "Wellington",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~7,600",
+    county: "Sumner County",
+    climate: "semi-arid",
+    climateDriver:
+      "Wellington is the Sumner County seat, surveyed in 1871 and platted along Slate Creek in south-central Kansas near the Oklahoma border. The climate is a humid continental and semi-arid transition typical of this part of the state, hot summers, cold winters, and a real tornado season each spring. Sumner County's identity as the self-proclaimed Wheat Capital of the World means grain storage and surrounding farmland shape Wellington's pest pressure more than almost any other factor.",
+    topPests: ["House Mice", "Field Crickets", "Ticks", "Mosquitoes", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Sumner County has called itself the Wheat Capital of the World since the late 1800s, and the grain storage and milling operations that built that reputation still support large house mouse populations that move into Wellington structures once fields empty out each fall.",
+      },
+      {
+        name: "Field Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Late summer into fall",
+        note: "The dry, semi-arid conditions typical of south-central Kansas farmland around Wellington favor field crickets, which move toward foundations and porches looking for shelter as the surrounding wheat stubble dries out after harvest.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through August",
+        note: "Slate Creek, which runs through Wellington and has marked the town's history since its earliest bridge disputes in the 1870s, carries enough brush and tall grass along its banks to sustain tick populations through the warm months.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Slate Creek and the low ground around it hold standing water after Wellington's spring storms, giving mosquitoes a reliable breeding source through the summer despite the region's generally dry climate.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Kansas State University Research and Extension documents brown recluse spiders across south-central Kansas, including Sumner County, where the dry climate and Wellington's mix of historic downtown buildings and older housing suit their preference for undisturbed indoor spaces.",
+      },
+    ],
+    localHook:
+      "Wellington was surveyed on April 4, 1871, named for the Duke of Wellington, and won out over the town of Sumner City to become the permanent Sumner County seat in 1872. By 1880, Sumner County had 200,000 acres under cultivation, half of it wheat, and the flour mills and railroads that followed gave the county its lasting nickname, the Wheat Capital of the World. The town grew up along Slate Creek, where county commissioners were already debating the cost of a bridge as early as 1877.",
+    intro:
+      "Wellington has carried the Wheat Capital of the World identity since Sumner County's farmers put roughly 100,000 acres of wheat in the ground back in the 1880s, and that history still shapes daily life in the county seat. Pest control in Wellington, KS starts with grain: the storage bins, mills, and farm buildings that grew out of the county's wheat economy support house mouse populations that head for the nearest structure every fall once the fields are cleared, and dry, drought-stressed wheat stubble after harvest pushes field crickets toward foundations and porches looking for moisture and shelter. Slate Creek, which has run through the middle of town since surveyors platted Wellington in 1871, holds enough standing water most springs to keep mosquitoes and the ticks along its brushy banks active through the summer. South-central Kansas' semi-arid, tornado-prone climate and the brown recluse spider's confirmed range across Sumner County round out the picture. A technician who understands Wellington as a grain town first treats the pest pressure that actually shows up here, not a generic statewide list.",
+    sections: [
+      {
+        heading: "A county seat built on wheat",
+        body: "Wellington won the fight to become Sumner County seat in 1872, beating out the rival town of Sumner City, and the decision paid off as the county's farmers broke ground on an enormous wheat economy. By 1880, Sumner County had 200,000 acres under cultivation, roughly half of it wheat, and the flour mills and railroads built to move that grain gave the county its lasting nickname, the Wheat Capital of the World. That grain economy, more than anything else, still drives what pest control looks like in Wellington today.",
+      },
+      {
+        heading: "House mice around Wellington's grain storage",
+        body: "Grain bins, mills, and farm outbuildings around Wellington hold exactly the food supply house mice need to build large populations through the growing season. Once harvest clears the fields and empties out some of that stored grain each fall, those mice look elsewhere, and the nearest home, garage, or shed on the edge of Wellington is often where they end up. That seasonal push is one of the most predictable pest patterns in the county.",
+      },
+      {
+        heading: "Field crickets after a dry harvest",
+        body: "South-central Kansas trends toward a semi-arid, humid continental transition climate, and the wheat stubble left behind after harvest dries out fast under that combination of heat and low humidity. Field crickets move toward the moisture and shelter of building foundations and porches as their field habitat dries up, and Wellington homes bordering working farmland see the heaviest activity late summer into fall.",
+      },
+      {
+        heading: "Slate Creek's mosquitoes and ticks",
+        body: "Slate Creek has run through Wellington since before the town's earliest recorded history, county commissioners were already arguing over the cost of a creek bridge back in 1877, and the low ground along its banks still holds standing water after spring storms today. That moisture sustains mosquitoes from May through September, and the same brushy, grassy creek corridor carries tick habitat that is most active April through August.",
+      },
+      {
+        heading: "Brown recluse spiders in Wellington's historic buildings",
+        body: "Kansas State University Research and Extension documents brown recluse spiders across south-central Kansas, and Sumner County falls within that range. Wellington's historic downtown and its stock of older homes, many predating modern construction standards, give these spiders the undisturbed closets, storage areas, and crawl spaces they favor, and they tend to become more visible indoors as cooler fall weather arrives.",
+      },
+    ],
+    prevention: [
+      "Seal grain storage buildings and outbuildings each fall as harvest sends house mice looking for a new food source.",
+      "Seal foundation gaps and porch skirting to keep field crickets out after a dry harvest.",
+      "Clear standing water near Slate Creek each spring to reduce mosquito breeding.",
+      "Check for ticks after outdoor work or recreation along Slate Creek's brushy banks, April through August.",
+      "Inspect older downtown buildings and homes for brown recluse spiders, especially in undisturbed storage areas.",
+    ],
+    costNote:
+      "General quarterly pest plans in Wellington run $105 to $220 per year for a typical home. Grain storage and farm outbuilding treatment is generally priced separately, often $150 to $400 depending on structure size. Termite inspections are usually free, with treatment priced by structure size, typically $450 to $1,100.",
+    faqs: [
+      {
+        question: "Why does Wellington have such a strong house mouse problem in the fall?",
+        answer:
+          "Because Sumner County's identity as the Wheat Capital of the World means grain bins, mills, and farm buildings around Wellington support large mouse populations through the growing season, and once harvest clears the fields each fall, those mice move toward the nearest structure.",
+      },
+      {
+        question: "Is Slate Creek a source of mosquitoes in Wellington?",
+        answer:
+          "Yes. Slate Creek has run through Wellington since the town was platted in 1871, and the low ground along its banks holds standing water after spring storms, sustaining mosquitoes from May through September.",
+      },
+      {
+        question: "Are field crickets really a problem in Wellington, or just a nuisance?",
+        answer:
+          "They are common enough to be worth treating. The dry wheat stubble left after harvest, typical of Sumner County's semi-arid farmland, dries out fast and pushes field crickets toward Wellington foundations and porches looking for shelter.",
+      },
+      {
+        question: "Why is Wellington called the Wheat Capital of the World?",
+        answer:
+          "Sumner County had 200,000 acres under cultivation by 1880, roughly half of it wheat, and the flour mills and railroads built to move that grain gave the county its lasting nickname.",
+      },
+      {
+        question: "Are brown recluse spiders found in Wellington?",
+        answer:
+          "Yes. Kansas State University Research and Extension documents brown recluse spiders across south-central Kansas, including Sumner County, and Wellington's historic downtown and older housing stock give them plenty of undisturbed indoor spaces.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Andover", slug: "andover-ks", stateSlug: "kansas" },
+      { name: "Prairie Village", slug: "prairie-village-ks", stateSlug: "kansas" },
+      { name: "Valley Center", slug: "valley-center-ks", stateSlug: "kansas" },
+      { name: "Bonner Springs", slug: "bonner-springs-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Wellington, KS | Grain Mice & Field Crickets",
+    metaDescription:
+      "Wellington, KS pest control for house mice near grain storage, field crickets after harvest, Slate Creek mosquitoes, and brown recluse spiders. Sumner County service. Call 1-800-PEST-USA.",
+  },
 ];
