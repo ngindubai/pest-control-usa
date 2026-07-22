@@ -250,16 +250,16 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 123-124 complete 2026-07-21. 2984 total city pages built (75 T1 + 300 T2 + 2609 T3). T2 COMPLETE.
-- **City pages built:** 2984. T1 complete (75). T2 complete (300). T3 in progress: 2609 built of ~5,000 target.
+- **Phase:** Phase 3 T3 in progress. Chunks 125-126 complete 2026-07-22. 3037 total city pages built (75 T1 + 300 T2 + 2662 T3). T2 COMPLETE.
+- **City pages built:** 3037. T1 complete (75). T2 complete (300). T3 in progress: 2662 built of ~5,000 target.
 - **State hub pages:** 51 (all states plus DC have a hub; 8 were added 2026-07-02, see SEO-BUILD-PLAN-2026-07-02.md).
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=605, B=566, C=619, D=596, E=598 (all within 15-25% target).
-- **Next block:** Chunk 125, T3 continues. Note: South Dakota, North Dakota, Wyoming, Nebraska, Idaho, West Virginia, and Montana are confirmed T3-near-exhausted (no real place over the 5,000 population floor remains unbuilt in any of them). District of Columbia is structurally T3-exhausted (a single federal city, no other incorporated municipalities to build) and should be skipped by future chunk selection.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=616, B=572, C=625, D=614, E=610 (all within 15-25% target).
+- **Next block:** Chunk 127, T3 continues. Note: South Dakota, North Dakota, Wyoming, Nebraska, Idaho, West Virginia, Montana, and New Mexico are confirmed T3-near-exhausted (no real place over the 5,000 population floor remains unbuilt in any of them). District of Columbia is structurally T3-exhausted (a single federal city, no other incorporated municipalities to build) and should be skipped by future chunk selection.
 - **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
 - **SEO remediation:** 2026-07-02, an SEO audit and build plan ran against this repo. Build restoration, sitemap/discoverability, dash sweep, and schema/trust cleanup are complete. See `SEO-AUDIT-2026-07-02.html` and `SEO-BUILD-PLAN-2026-07-02.md` for the full record and remaining Block 3 (answer-first content) work.
 - **Design and conversion audit:** 2026-07-03, a browser-based design and conversion audit ran against the live site across all 5 templates plus core static pages. Fixed sitewide dead nav links (4 new real service pages built, `services_count` now 27), a 48-vs-50-states contradiction, a crushed data-table column on Templates A/E, added a sitewide sticky mobile call bar and a lead form on every city template, gave Template D a real hero, and fixed a fabricated company history on the About page that contradicted the real site numbers by 20 to 40x. See `DESIGN-BUILD-PLAN-2026-07-03.md` for the full record.
 
 ---
 
-*Last updated: 2026-07-21 (chunks 123-124)*
+*Last updated: 2026-07-22 (chunks 125-126)*

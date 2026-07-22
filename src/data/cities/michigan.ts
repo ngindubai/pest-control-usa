@@ -10888,4 +10888,554 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Hastings, MI pest control for lake mosquitoes, ticks, fall mice and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "iron-mountain-mi",
+    name: "Iron Mountain",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~7,500",
+    county: "Dickinson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Iron Mountain sits in the western Upper Peninsula's snowbelt, where moisture crossing Lake Michigan from Wisconsin and cold air pulling off Lake Superior combine to bury Dickinson County in some of the heaviest snow totals in the Midwest most winters. The same humid continental climate that produces those long, cold winters also brings a short, humid summer, and the hardwood forest still surrounding the city, a legacy of the timberland Henry Ford once logged here for Model T production, keeps carpenter ants and boxelder bugs well supplied with breeding habitat close to town. Cold soil temperatures this far north keep termite pressure far lower than southern Michigan sees, but they do nothing to slow the fall rush of mice and cluster flies looking for a warm wall void before the snow arrives.",
+    topPests: ["Boxelder bugs", "Carpenter ants", "Cluster flies", "House mice", "Deer ticks"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October entry, sunning in spring",
+        note: "The boxelder and maple trees scattered through Iron Mountain's older neighborhoods host the insects all summer, and adults swarm sun-facing walls each fall looking for a gap into a wall void before the snowbelt's first hard freeze.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The hardwood forest surrounding Iron Mountain, the same timberland Ford once logged for Model T production, keeps carpenter ant colonies established close to town, and they move into damp sills and rooflines on the many wood-frame homes built during the city's early 1900s mining and lumber boom.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerging on warm midwinter days",
+        note: "Cluster flies breed in earthworm-rich soil around Dickinson County's farms and yards each summer, then crowd into attic and wall voids across Iron Mountain each fall, sometimes stirring on unusually warm days in the middle of winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "As Dickinson County's snowbelt winter closes in, mice move out of fields and woodpiles and into the nearest heated structure, and Iron Mountain's older homes near the Kingsford border see a predictable rise in activity every fall.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October, expanding range",
+        note: "Deer ticks were once rare this far into the Upper Peninsula, but state tick surveillance has confirmed established populations in Dickinson County in recent years, and hikers using the trails around Pine Mountain should check carefully after time outdoors.",
+      },
+    ],
+    localHook:
+      "Iron Mountain's twin city Kingsford, just across the street, gave its name to Kingsford Charcoal, developed in the 1920s from sawdust and wood scrap at the Ford Motor Company timber operation Henry Ford built here to supply his Model T plants, and the city is also home to the Pine Mountain Ski Jump, one of the largest artificial ski jumping hills in the world.",
+    intro:
+      "Iron Mountain anchors Dickinson County at the western edge of Michigan's Upper Peninsula, a city built on iron mining and Henry Ford's hardwood timber operation and known today for the Pine Mountain Ski Jump towering over its edge. The hardwood forest that once fed Ford's charcoal plant across the street in Kingsford still surrounds Iron Mountain, and it keeps carpenter ants and boxelder bugs well supplied close to the city's older wood-frame neighborhoods. Winters here are long and heavy with snow, pulled off Lake Superior and Lake Michigan in some of the deepest totals in the Midwest, and that cold pushes cluster flies and house mice indoors every fall in a pattern local homeowners know well. Deer ticks, once uncommon this far north, have been confirmed in Dickinson County in recent years, adding a newer concern to a snowbelt city that used to worry mostly about what came inside for winter.",
+    sections: [
+      {
+        heading: "A mining and timber boomtown built the pest pressure that's still here",
+        body: "Iron Mountain grew up fast during the iron mining boom of the late 1800s and the timber operation Henry Ford built next door in Kingsford in the 1920s, and much of the city's housing stock dates to that era, wood-frame construction on lots backed by the same hardwood forest Ford logged for his Model T plants. That forest never went away, and it keeps carpenter ant colonies established within easy reach of Iron Mountain's older streets, where damp sills, aging rooflines, and softened porch framing give the ants exactly the kind of wood they excavate for galleries. Boxelder bugs use the same maple and boxelder trees scattered through those neighborhoods, breeding all summer before swarming sunny walls each September looking for a way into a wall void ahead of winter.",
+      },
+      {
+        heading: "Cluster flies and mice ahead of a snowbelt winter",
+        body: "Dickinson County sits in one of the heavier snowbelts in the Midwest, where moisture crossing Wisconsin from Lake Michigan and cold air off Lake Superior combine most winters, and that long, hard season drives a predictable fall rush indoors. Cluster flies breed in earthworm-rich soil around the county's farms and yards each summer, then crowd into Iron Mountain attics and wall voids by the hundreds each September and October, sometimes stirring again on an unusually warm day in the middle of winter. House mice follow a similar calendar, leaving fields and woodpiles as the cold sets in and heading for the nearest heated structure, and Iron Mountain's older homes near the Kingsford line see a reliable increase in mouse activity every fall.",
+      },
+      {
+        heading: "Deer ticks arriving farther north than they used to",
+        body: "For most of Iron Mountain's history, ticks were a minor concern this far into the Upper Peninsula. That has changed. State tick surveillance has confirmed established deer tick populations in Dickinson County in recent years, a range expansion tracked across much of northern Michigan, and the trails around Pine Mountain and the wooded lots common on the edge of town now carry a real tick risk during the warmer months. Anyone spending time in brush or tall grass around Iron Mountain, or bringing a dog back from a hike, should get in the habit of checking carefully rather than assuming the county's cold winters keep ticks away.",
+      },
+      {
+        heading: "What an Iron Mountain inspection accounts for",
+        body: "An inspection in Iron Mountain starts with the age and setting of the home. Older wood-frame houses near the forest edge or the Kingsford line get a close look for the moisture damage that draws carpenter ants and the foundation gaps mice use each fall. Homes near wooded trailheads or brushy lots get evaluated for tick habitat nearby. Every property gets checked for the boxelder bugs and cluster flies that follow the same fall pattern across the whole snowbelt regardless of a home's exact location. A free inspection sorts out which of these applies before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around sills, siding, and rooflines on older wood-frame homes before carpenter ants and boxelder bugs look for a way in each fall.",
+      "Check people and pets for ticks after time on the Pine Mountain trails or in brushy lots around town.",
+      "Keep firewood and woodpiles away from the foundation to reduce shelter for mice ahead of winter.",
+      "Vacuum cluster flies rather than crushing them, since crushed flies can stain walls and ceilings.",
+    ],
+    costNote:
+      "General quarterly pest plans in Iron Mountain typically run $110 to $230 per year depending on home size and age. Tick treatment for wooded or trail-adjacent yards runs $85 to $165 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Iron Mountain have so many cluster flies each fall?",
+        answer:
+          "Cluster flies breed in earthworm-rich soil around Dickinson County's farms and yards all summer, then crowd into Iron Mountain's attics and wall voids by the hundreds each September and October looking for a place to overwinter, sometimes stirring again on an unusually warm midwinter day.",
+      },
+      {
+        question: "Are deer ticks really a concern this far north in Michigan?",
+        answer:
+          "Yes. State tick surveillance has confirmed established deer tick populations in Dickinson County in recent years, and the trails around Pine Mountain now carry real tick risk during the warmer months, a change from the county's history.",
+      },
+      {
+        question: "Why do carpenter ants keep coming back in Iron Mountain's older homes?",
+        answer:
+          "Much of Iron Mountain's housing dates to the early 1900s mining and lumber boom, wood-frame construction backed by the hardwood forest Ford once logged in Kingsford, and that forest keeps carpenter ant colonies established close enough to town to find damp sills and rooflines worth excavating.",
+      },
+      {
+        question: "Does Iron Mountain have a termite problem?",
+        answer:
+          "Termite pressure is much lower here than in southern Michigan, since cold Upper Peninsula soil temperatures slow subterranean termite activity, but carpenter ants cause similar-looking wood damage and are the more common concern in the area.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Zeeland", slug: "zeeland-mi", stateSlug: "michigan" },
+      { name: "Grand Blanc", slug: "grand-blanc-mi", stateSlug: "michigan" },
+      { name: "Marshall", slug: "marshall-mi", stateSlug: "michigan" },
+      { name: "St. Clair", slug: "st-clair-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Iron Mountain, MI | Snowbelt Boxelder Bugs & Carpenter Ants",
+    metaDescription:
+      "Iron Mountain, MI pest control for boxelder bugs, carpenter ants, cluster flies, fall mice and deer ticks in the Upper Peninsula snowbelt. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "zeeland-mi",
+    name: "Zeeland",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~5,600",
+    county: "Ottawa County",
+    climate: "cold-humid",
+    climateDriver:
+      "Zeeland sits about six miles inland from Lake Michigan in Ottawa County, close enough that lake-effect moisture still moderates the region's temperature swings and keeps summer humidity high, the same effect that lets the surrounding West Michigan Fruit Belt grow orchards and produce farms most of the rest of the state cannot. Winters bring lake-effect snow off Lake Michigan's westerlies, and the farmland ringing Zeeland's compact downtown gives ants, flies, and mice easy access to the city's older residential streets whenever field conditions change.",
+    topPests: ["Boxelder bugs", "Stink bugs", "House mice", "Odorous house ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October entry",
+        note: "Boxelder and maple trees common along Zeeland's older streets host large boxelder bug populations each summer, and adults gather on sun-warmed siding each fall before slipping into gaps around windows and trim.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on Zeeland's south and west-facing walls each fall, a pattern well established across Ottawa County's mix of suburban streets and fruit farms.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "The orchards and produce farms of the West Michigan Fruit Belt surround Zeeland closely enough that harvest season regularly pushes field mice toward the nearest shelter, often homes on the edges of the city's residential grid.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September, peak after rain",
+        note: "Zeeland's humid summers and heavy spring rains send odorous house ants foraging indoors for sugar and moisture, especially in kitchens near the city's older Dutch-settlement neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Drainage ditches and low ground common across Ottawa County farmland hold water long enough after rain to support a full summer of mosquito breeding around Zeeland's edges.",
+      },
+    ],
+    localHook:
+      "Zeeland has been the headquarters city of Herman Miller, now MillerKnoll, since the company's founding in 1905, and the 103-acre campus that anchors the east side of town remains one of the furniture maker's largest production and office sites in the country.",
+    intro:
+      "Zeeland grew up as a Dutch immigrant settlement in Ottawa County in 1847 and has been the headquarters of furniture maker Herman Miller, now MillerKnoll, since 1905, its sprawling campus still anchoring the east side of town. The city sits close enough to Lake Michigan that lake-effect moisture moderates the region's climate and keeps summers humid, the same conditions that let the West Michigan Fruit Belt's orchards and produce farms ring Zeeland on nearly every side. That farmland brings a predictable fall push of mice into the city's older residential streets, while boxelder bugs and stink bugs follow the same seasonal pattern common across West Michigan. Odorous house ants and mosquitoes round out the pressure Zeeland homeowners deal with most, tied respectively to humid summers and the drainage ditches common on farmland at the edge of town.",
+    sections: [
+      {
+        heading: "A company town surrounded by the West Michigan Fruit Belt",
+        body: "Zeeland has built furniture since Herman Miller's founding in 1905, and the company's 103-acre campus, now under the MillerKnoll name after the 2021 merger with Knoll, still sits on the east side of town as one of the brand's largest production sites. Outside that industrial core, Zeeland is ringed by the orchards and produce farms of the West Michigan Fruit Belt, a band of farmland that Lake Michigan's moderating effect on temperature swings makes unusually productive for a Michigan location this far north. That farmland is also the source of Zeeland's fall mouse pressure, since harvest displaces field mice each September and October and sends them looking for the nearest heated structure, often homes on the edges of the city's residential grid closest to open fields.",
+      },
+      {
+        heading: "Stink bugs and boxelder bugs on Zeeland's older streets",
+        body: "Zeeland's older neighborhoods, many built close to the boxelder and maple trees that line residential streets near downtown, see heavy boxelder bug pressure each September and October as the insects gather on sun-warmed siding before finding a gap around windows or trim. Brown marmorated stink bugs follow the same fall pattern, a nuisance common across Ottawa County's mix of suburban streets and fruit farms rather than a threat to the structure itself. Both insects are drawn to the same south and west-facing walls that catch the most afternoon sun, which makes sealing those exposures before fall the most useful single step a Zeeland homeowner can take.",
+      },
+      {
+        heading: "Humidity, rain, and ants indoors",
+        body: "The same lake-effect humidity that helps Zeeland's surrounding orchards also keeps the city's summers sticky, and odorous house ants take advantage of it, foraging indoors for sugar and moisture especially after a heavy spring rain. Older homes in Zeeland's original Dutch-settlement neighborhoods, with aging foundations and mature plantings close to the house, tend to see the most consistent ant activity from March through September. Mosquitoes add to the summer pressure, breeding in the drainage ditches and low farmland ground common around Ottawa County whenever water sits for more than a few days after rain.",
+      },
+      {
+        heading: "What a Zeeland inspection accounts for",
+        body: "An inspection in Zeeland starts by placing the property against the surrounding farmland. Homes near the edges of town, closest to orchards or open fields, get a close look at fall mouse pressure and mosquito breeding risk nearby. Homes in the older Dutch-settlement core get checked for the ant activity and foundation gaps common in that part of town. Commercial properties near the MillerKnoll campus and Zeeland's downtown business district get evaluated for the pest concerns that come with heavy foot traffic and food service. A free inspection sorts out which of these applies before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows and trim on south and west-facing walls before boxelder bugs and stink bugs gather each fall.",
+      "Clear standing water from drainage ditches and low spots on the property to cut mosquito breeding through summer.",
+      "Keep mulch and dense plantings a few inches back from the foundation to reduce ant trails into the home.",
+      "Seal foundation gaps on homes near farmland before harvest season pushes field mice toward shelter.",
+    ],
+    costNote:
+      "General quarterly pest plans in Zeeland typically run $115 to $235 per year. Commercial pest service for downtown and campus-area businesses is quoted after a free on-site inspection.",
+    faqs: [
+      {
+        question: "Why does Zeeland see so many stink bugs and boxelder bugs in the fall?",
+        answer:
+          "Both insects gather on sun-warmed, south and west-facing walls each September and October before slipping in through gaps around windows and siding, a pattern common across Zeeland's older neighborhoods and the rest of Ottawa County.",
+      },
+      {
+        question: "Does Zeeland's location near MillerKnoll's headquarters affect pest pressure?",
+        answer:
+          "The company's 103-acre campus itself is a modern, well-kept industrial site, but nearby commercial properties and the surrounding farmland that supports the West Michigan Fruit Belt both add to the mix of pests Zeeland businesses and homeowners deal with.",
+      },
+      {
+        question: "Why do mice move into Zeeland homes each fall?",
+        answer:
+          "Zeeland is ringed by the orchards and produce farms of the West Michigan Fruit Belt, and when harvest clears those fields each September and October, displaced field mice head for the nearest shelter, often homes at the edge of town closest to open farmland.",
+      },
+      {
+        question: "Are mosquitoes a problem in Zeeland?",
+        answer:
+          "Yes, particularly around the drainage ditches and low farmland ground common on the edges of Ottawa County, which hold water long enough after rain to support mosquito breeding from May through September.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Iron Mountain", slug: "iron-mountain-mi", stateSlug: "michigan" },
+      { name: "Grand Blanc", slug: "grand-blanc-mi", stateSlug: "michigan" },
+      { name: "Marshall", slug: "marshall-mi", stateSlug: "michigan" },
+      { name: "St. Clair", slug: "st-clair-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Zeeland, MI | Fruit Belt Stink Bugs & Fall Mice",
+    metaDescription:
+      "Zeeland, MI pest control for stink bugs, boxelder bugs, fall mice and mosquitoes near the West Michigan Fruit Belt. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "grand-blanc-mi",
+    name: "Grand Blanc",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~7,900",
+    county: "Genesee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Grand Blanc sits just south of Flint in Genesee County, in the same humid continental climate as the rest of southeast Michigan, cold snowy winters and warm humid summers without the heavier lake-effect totals the west side of the state sees. The rolling terrain and mature tree cover through Grand Blanc's older subdivisions, along with the ponds and water features built into golf courses like Warwick Hills, give mosquitoes and boxelder bugs plenty of breeding and shelter close to homes, while the change of seasons drives the same fall entry pattern for stink bugs and mice common across the region.",
+    topPests: ["Stink bugs", "Boxelder bugs", "Mosquitoes", "Deer ticks", "House mice"],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on sun-facing walls throughout Grand Blanc each fall, a pattern well documented across Genesee County's suburban neighborhoods.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October entry",
+        note: "The mature maple and boxelder trees common in Grand Blanc's established subdivisions support large boxelder bug populations that swarm warm walls each fall before winter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The ponds and water features built into Grand Blanc's golf courses, including Warwick Hills Golf and Country Club, add breeding habitat to the standing water already common on residential lots after summer rain.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Grand Blanc's wooded subdivisions and golf-course-adjacent lots give ticks the brush and tall grass cover they favor, and Genesee County has seen the same regional increase in tick activity as the rest of southeast Michigan.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "As temperatures drop each fall, mice move from yards and outbuildings into the nearest heated structure, and Grand Blanc's mix of older and newer subdivisions both see a reliable increase in activity.",
+      },
+    ],
+    localHook:
+      "Grand Blanc's Warwick Hills Golf and Country Club hosted the PGA Tour's Buick Open every year from 1958 to 2009, drawing champions like Tiger Woods and Fred Couples to the course, and has hosted the PGA Tour Champions' Ally Challenge since 2018.",
+    intro:
+      "Grand Blanc sits just south of Flint in Genesee County, best known outside the area for Warwick Hills Golf and Country Club, home to the PGA Tour's Buick Open for more than five decades and now the Ally Challenge on the PGA Tour Champions. The course's ponds and water features add to the mosquito breeding habitat already common on Grand Blanc's residential lots each summer, while the mature tree cover through the city's established subdivisions gives boxelder bugs plenty of places to breed before swarming warm walls each fall. Stink bugs follow the same fall pattern seen across southeast Michigan, and deer ticks have become a more consistent concern in the wooded, golf-adjacent lots common around town. Add the usual fall push of mice into homes as temperatures drop, and Grand Blanc's pest pressure looks like a fairly typical suburban Genesee County profile with one country-club-sized exception for mosquitoes.",
+    sections: [
+      {
+        heading: "Warwick Hills and the mosquito pressure that comes with golf-course water",
+        body: "Grand Blanc's most famous landmark, Warwick Hills Golf and Country Club, hosted the PGA Tour's Buick Open from 1958 to 2009 and has hosted the PGA Tour Champions' Ally Challenge since 2018, and the course's ponds and irrigated turf add real breeding habitat to a city that already sees plenty of standing water on residential lots after summer storms. Homes near golf-course water features or low-lying yards see the heaviest mosquito pressure through the warm months, typically May through September, and clearing gutters and eliminating standing water on the property makes a meaningful difference for any Grand Blanc homeowner in that position.",
+      },
+      {
+        heading: "Boxelder bugs and stink bugs on established Grand Blanc streets",
+        body: "Grand Blanc's older subdivisions carry mature maple and boxelder tree cover that supports large boxelder bug populations each summer, and every September and October those insects swarm sun-warmed siding looking for a gap into a wall void ahead of winter. Brown marmorated stink bugs follow an almost identical calendar, gathering on the same south and west-facing exterior walls before finding their way in through trim or window gaps. Both are a fall nuisance rather than a structural risk, and sealing obvious entry points before the swarm begins is the most effective step available to homeowners in Grand Blanc's established neighborhoods.",
+      },
+      {
+        heading: "Ticks in Grand Blanc's wooded and golf-adjacent lots",
+        body: "The wooded subdivisions and golf-course-adjacent lots scattered through Grand Blanc give ticks the brush and tall grass cover they need, and Genesee County has tracked the same regional increase in tick activity affecting the rest of southeast Michigan in recent years. Homes backing onto tree lines or unmown edges see the most consistent tick pressure from April through October, and checking people and pets after time in the yard or on nearby trails is a habit worth keeping through the warmer months, given the disease risk ticks can carry.",
+      },
+      {
+        heading: "What a Grand Blanc inspection accounts for",
+        body: "An inspection in Grand Blanc starts with the property's relationship to water and tree cover. A home near a golf-course pond or low-lying drainage area gets a close look at mosquito breeding risk. A home backing onto wooded lots gets checked for tick habitat and the brush that supports it. Every property gets the standard fall review for stink bugs and boxelder bugs, since that pattern holds steady across the whole city regardless of exact location, and older homes get an additional check for the foundation gaps that let mice in each fall. A free inspection sorts out which of these applies before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from gutters, low spots, and any water features near the home to reduce mosquito breeding through summer.",
+      "Seal gaps around siding and window trim before boxelder bugs and stink bugs gather each September and October.",
+      "Check people and pets for ticks after time in wooded yards or on trails near golf-course-adjacent lots.",
+      "Seal foundation gaps on older subdivisions before falling temperatures push mice toward shelter.",
+    ],
+    costNote:
+      "General quarterly pest plans in Grand Blanc typically run $120 to $245 per year. Seasonal mosquito treatment for properties near ponds or water features runs $90 to $175 per visit through the summer. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near Warwick Hills Golf and Country Club mean more mosquitoes?",
+        answer:
+          "Homes near the course's ponds and irrigated turf, or any low-lying water feature in Grand Blanc, do see heavier mosquito pressure through the warm months, since standing water is the single biggest driver of local mosquito breeding.",
+      },
+      {
+        question: "Are ticks a real concern in Grand Blanc?",
+        answer:
+          "Yes, particularly in wooded subdivisions and golf-adjacent lots, where Genesee County has tracked the same regional rise in tick activity affecting the rest of southeast Michigan. Checking people and pets after time outdoors from April through October is worth the habit.",
+      },
+      {
+        question: "Why do stink bugs and boxelder bugs show up in Grand Blanc every fall?",
+        answer:
+          "Both insects gather on sun-warmed exterior walls each September and October looking for a gap into a wall void ahead of winter, a pattern tied to the mature tree cover common in Grand Blanc's established subdivisions.",
+      },
+      {
+        question: "Do older and newer Grand Blanc homes have different pest risks?",
+        answer:
+          "Both see a reliable fall increase in mice as temperatures drop, but older subdivisions with more mature plantings and aging foundations tend to show more consistent boxelder bug and ant activity than newer construction closer to open ground.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Iron Mountain", slug: "iron-mountain-mi", stateSlug: "michigan" },
+      { name: "Zeeland", slug: "zeeland-mi", stateSlug: "michigan" },
+      { name: "Marshall", slug: "marshall-mi", stateSlug: "michigan" },
+      { name: "St. Clair", slug: "st-clair-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Grand Blanc, MI | Golf-Course Mosquitoes & Fall Stink Bugs",
+    metaDescription:
+      "Grand Blanc, MI pest control for mosquitoes, stink bugs, boxelder bugs, ticks and fall mice near Warwick Hills. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "marshall-mi",
+    name: "Marshall",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~6,800",
+    county: "Calhoun County",
+    climate: "cold-humid",
+    climateDriver:
+      "Marshall sits on the Kalamazoo River in Calhoun County, in the same humid continental climate as the rest of south-central Michigan, cold winters and warm, humid summers. The Kalamazoo River corridor through town holds enough moisture and slow water to support a full summer of mosquito breeding, and the farmland surrounding Marshall's compact historic core sends the same fall push of field mice toward shelter that inland Michigan county seats see every harvest.",
+    topPests: ["Carpenter ants", "Stink bugs", "Boxelder bugs", "House mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Marshall's National Historic Landmark District holds more than 850 nineteenth-century structures, and the wood-frame Victorian construction common through the district gives carpenter ants exactly the aged, moisture-softened wood they target around window sills and rooflines.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs gather on the sun-facing facades of Marshall's historic homes and downtown storefronts each fall before finding a gap around trim to slip through ahead of winter.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October entry",
+        note: "Mature maple trees shading Marshall's historic streets support boxelder bug populations that swarm warm walls each fall, the same pattern common across inland south-central Michigan.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Farmland surrounding Marshall's compact downtown loses its cover each harvest, and displaced field mice head for the nearest shelter, often the older homes along the city's historic residential streets.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Kalamazoo River runs through the middle of Marshall, and its corridor of slow water and floodplain vegetation keeps mosquito breeding habitat available across a full summer.",
+      },
+    ],
+    localHook:
+      "Marshall came within a single vote of becoming Michigan's state capital in 1847, confident enough in its chances that the city built a Governor's Mansion before the legislature chose Lansing instead, and the city's National Historic Landmark District today preserves more than 850 nineteenth-century structures, one of the largest such districts in Michigan.",
+    intro:
+      "Marshall sits on the Kalamazoo River in Calhoun County, a city so confident it would become Michigan's state capital in 1847 that it built a Governor's Mansion before the legislature chose Lansing by a single vote instead. That history left Marshall with a National Historic Landmark District of more than 850 nineteenth-century structures, one of the largest in the state, and the wood-frame Victorian construction common through that district gives carpenter ants a real foothold wherever moisture has softened a sill or roofline. Stink bugs and boxelder bugs follow the fall pattern common across inland south-central Michigan, gathering on sun-warmed historic facades each September and October. The Kalamazoo River corridor through town adds a full summer of mosquito pressure, and the farmland ringing Marshall's compact downtown sends the usual push of field mice toward shelter each harvest.",
+    sections: [
+      {
+        heading: "Why Marshall's near-miss as state capital left it with a carpenter ant problem",
+        body: "Marshall built its confidence, and its Governor's Mansion, on the assumption it would win Michigan's capital in 1847, and lost by a single legislative vote to what became Lansing. What Marshall kept instead was more than 850 nineteenth-century structures, now preserved as one of Michigan's largest National Historic Landmark Districts, largely wood-frame Victorian construction with the kind of ornate window sills, porch framing, and rooflines that develop moisture damage over more than a century of Michigan winters. That softened wood is exactly what carpenter ants target when excavating galleries, and an established colony in one of Marshall's historic homes usually traces back to a specific leak or damp spot worth finding before more structural damage follows.",
+      },
+      {
+        heading: "Stink bugs and boxelder bugs on Marshall's historic streets",
+        body: "Marshall's historic core, with mature maple trees shading brick and clapboard facades built well over a century ago, sees the same fall stink bug and boxelder bug pattern common across inland south-central Michigan. Both insects gather on sun-facing walls each September and October, and on Marshall's historic buildings that often means ornate trim and window surrounds with more gaps than a modern home would have. Sealing those gaps ahead of the fall swarm matters more in Marshall's historic district than in a newer subdivision, simply because there are more places for the insects to find a way in.",
+      },
+      {
+        heading: "Farmland mice and the Kalamazoo River's mosquito pressure",
+        body: "Calhoun County farmland surrounds Marshall outside its compact historic core, and the same harvest-driven pattern common across inland Michigan applies here: combines clear the fields each September and October, and displaced field mice move toward the nearest shelter, often the older homes along Marshall's historic residential streets. The Kalamazoo River, running through the middle of town, adds a separate pressure entirely, its corridor of slow water and floodplain vegetation supporting mosquito breeding from May through September. Properties closest to the river see the heaviest mosquito activity, while those on higher ground away from the water see comparatively less.",
+      },
+      {
+        heading: "What a Marshall inspection accounts for",
+        body: "An inspection in Marshall starts with the age and construction of the home. A property inside the National Historic Landmark District gets a close look at the moisture damage and gaps in ornate trim that draw carpenter ants and stink bugs, since preserving a historic facade means treatment has to work with the building rather than around it. A property near the Kalamazoo River gets evaluated for mosquito breeding risk. A home on the edge of farmland gets checked for the foundation gaps mice use each fall. A free inspection sorts out which of these applies before any treatment plan gets built.",
+      },
+    ],
+    prevention: [
+      "Fix leaking gutters, roof edges, and window trim promptly on historic homes to keep carpenter ants from finding damp wood.",
+      "Seal gaps around ornate window surrounds and porch framing before stink bugs and boxelder bugs gather each fall.",
+      "Clear standing water and floodplain debris near the Kalamazoo River to reduce mosquito breeding through summer.",
+      "Seal foundation gaps on homes near farmland before harvest season pushes field mice toward shelter.",
+    ],
+    costNote:
+      "General quarterly pest plans in Marshall typically run $115 to $240 per year, with historic-district properties sometimes running slightly higher due to the extra care ornate trim and facades require. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do carpenter ants keep showing up in Marshall's historic homes?",
+        answer:
+          "Marshall's National Historic Landmark District holds more than 850 nineteenth-century wood-frame structures, and over more than a century, moisture has softened window sills, porch framing, and rooflines in enough of them that carpenter ants find plenty of galleries worth excavating.",
+      },
+      {
+        question: "Is Marshall really the town that almost became Michigan's capital?",
+        answer:
+          "Yes. In 1847, Marshall lost the legislative vote to become Michigan's state capital by a single vote, having already built a Governor's Mansion in anticipation, and Lansing was chosen instead.",
+      },
+      {
+        question: "Why does Marshall have a longer mosquito season than some inland towns?",
+        answer:
+          "The Kalamazoo River runs directly through Marshall, and its corridor of slow water and floodplain vegetation supports mosquito breeding from May through September, more than a town without a river running through its center would typically see.",
+      },
+      {
+        question: "Do historic homes in Marshall need different pest treatment than newer houses?",
+        answer:
+          "Generally yes. Ornate trim, window surrounds, and porch framing common in Marshall's National Historic Landmark District create more potential entry points for stink bugs and boxelder bugs than a modern home has, and any treatment has to work with the historic facade rather than around it.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Iron Mountain", slug: "iron-mountain-mi", stateSlug: "michigan" },
+      { name: "Zeeland", slug: "zeeland-mi", stateSlug: "michigan" },
+      { name: "Grand Blanc", slug: "grand-blanc-mi", stateSlug: "michigan" },
+      { name: "St. Clair", slug: "st-clair-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Marshall, MI | Historic District Carpenter Ants",
+    metaDescription:
+      "Marshall, MI pest control for carpenter ants, stink bugs, boxelder bugs and river mosquitoes in the National Historic Landmark District. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "st-clair-mi",
+    name: "St. Clair",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~5,800",
+    county: "St. Clair County",
+    climate: "cold-humid",
+    climateDriver:
+      "St. Clair sits directly on the St. Clair River in Michigan's Blue Water Area, where Lake Huron narrows into the channel that carries freighter traffic down to Lake St. Clair. The river keeps humidity and mosquito breeding habitat close to town all summer, and the same humid continental climate that brings cold, snowy winters to the rest of southeast Michigan applies here too, with the river adding extra moisture to every season.",
+    topPests: ["Mosquitoes", "Boxelder bugs", "Stink bugs", "House mice", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The St. Clair River and the low, marshy ground along parts of its bank keep breeding habitat available all summer, and Palmer Park's half-mile boardwalk along the riverfront sits right in the middle of that pressure each evening.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October entry",
+        note: "Mature trees along St. Clair's riverside streets support boxelder bug populations that swarm sun-warmed siding each fall before slipping into gaps around windows and trim.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry",
+        note: "Brown marmorated stink bugs follow the same fall pattern seen across St. Clair County, gathering on south and west-facing walls before finding a way inside ahead of winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "As river-corridor temperatures drop each fall, mice move from yards and outbuildings into the nearest heated structure, and St. Clair's older riverside homes see a reliable seasonal increase.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September, peak in late summer",
+        note: "The wood pilings, benches, and shoreline structures along St. Clair's riverfront and boardwalk give paper wasps plenty of sheltered spots to build nests each summer.",
+      },
+    ],
+    localHook:
+      "St. Clair's Palmer Park is home to what the city bills as the longest freshwater boardwalk in the world, a roughly half-mile riverfront walkway along the St. Clair River where visitors gather to watch Great Lakes freighters pass on their way between Lake Huron and Lake St. Clair.",
+    intro:
+      "St. Clair sits directly on the St. Clair River in Michigan's Blue Water Area, home to Palmer Park's roughly half-mile riverfront boardwalk, billed as the longest freshwater boardwalk in the world and a favorite spot to watch Great Lakes freighters pass through the channel. That much river frontage brings a real summer mosquito season to St. Clair, with breeding habitat along the marshy edges of the riverbank keeping pressure high right through the warm months the boardwalk sees the most visitors. Boxelder bugs and stink bugs follow the fall pattern common across St. Clair County, gathering on sun-warmed walls before slipping in ahead of winter, and paper wasps take advantage of the wood pilings and shoreline structures along the riverfront to build nests each summer. Add the usual fall push of mice into older riverside homes as temperatures drop, and St. Clair's pest pressure traces almost entirely back to its position on the river.",
+    sections: [
+      {
+        heading: "The world's longest freshwater boardwalk and the mosquitoes that come with it",
+        body: "Palmer Park's boardwalk, running roughly half a mile along the St. Clair River through the heart of downtown, draws visitors all summer to watch the freighter traffic that connects Lake Huron to Lake St. Clair. The same river that makes the boardwalk possible also keeps mosquito breeding habitat available along its marshy edges and backwater areas from May through September, and homes and businesses closest to the riverfront see the heaviest pressure. Evening events along the boardwalk, when mosquitoes are most active, are exactly when riverside businesses feel the pest pressure most, which makes seasonal mosquito treatment worth planning ahead of the summer tourist season rather than reacting to it.",
+      },
+      {
+        heading: "Boxelder bugs and stink bugs on St. Clair's riverside streets",
+        body: "The mature trees lining St. Clair's residential streets near the river support large boxelder bug populations each summer, and every September and October the insects swarm sun-warmed siding looking for a gap into a wall void before winter arrives. Brown marmorated stink bugs follow nearly the same calendar, gathering on the same south and west-facing walls across St. Clair County. Both are more a fall nuisance than a structural threat, but older riverside homes with more window trim and siding seams than modern construction tend to see the heaviest indoor activity once the insects find a way through.",
+      },
+      {
+        heading: "Wasps along the boardwalk and riverfront structures",
+        body: "The wood pilings, benches, gazebos, and other shoreline structures along St. Clair's riverfront and boardwalk give paper wasps plenty of sheltered spots to build nests each summer, and activity peaks in late summer as colonies reach their largest size. Riverfront businesses and homeowners with dock structures or waterside decks see the most consistent wasp pressure, and nests built into boardwalk railings or under dock boards are easy to miss until a colony is already established, which makes an early-summer check worth the effort before late-summer swarms make removal more difficult.",
+      },
+      {
+        heading: "What a St. Clair inspection accounts for",
+        body: "An inspection in St. Clair starts with the property's distance from the river. Riverfront homes and businesses near Palmer Park or the boardwalk get a close look at mosquito breeding risk and wasp nesting spots in dock structures or shoreline features. Homes farther from the water get checked for the boxelder bugs, stink bugs, and fall mice pressure common across the rest of St. Clair County regardless of river proximity. A free inspection sorts out which of these applies before any treatment plan gets built, and seasonal mosquito and wasp service can be scheduled ahead of the boardwalk's busiest summer months.",
+      },
+    ],
+    prevention: [
+      "Clear standing water and marshy debris near the riverbank to reduce mosquito breeding through summer.",
+      "Check dock structures, boardwalk railings, and shoreline gazebos for early wasp nests before late-summer colonies grow large.",
+      "Seal gaps around windows and trim on riverside homes before boxelder bugs and stink bugs gather each fall.",
+      "Seal foundation gaps on older riverside homes before falling temperatures push mice toward shelter.",
+    ],
+    costNote:
+      "General quarterly pest plans in St. Clair typically run $120 to $245 per year. Seasonal mosquito and wasp treatment for riverfront homes and businesses runs $90 to $180 per visit through the summer. Free inspection included.",
+    faqs: [
+      {
+        question: "Does St. Clair's boardwalk attract more mosquitoes than other Blue Water Area towns?",
+        answer:
+          "The St. Clair River's marshy edges and backwater areas near Palmer Park's roughly half-mile boardwalk keep mosquito breeding habitat available all summer, and properties closest to the riverfront see the heaviest pressure, especially during evening hours when the boardwalk is busiest.",
+      },
+      {
+        question: "Are wasps a problem along St. Clair's riverfront?",
+        answer:
+          "Yes. The wood pilings, benches, and shoreline structures along the boardwalk and nearby docks give paper wasps sheltered spots to build nests each summer, with activity peaking in late summer as colonies reach full size.",
+      },
+      {
+        question: "Why do stink bugs and boxelder bugs show up in St. Clair every fall?",
+        answer:
+          "Both insects gather on sun-warmed exterior walls each September and October across St. Clair County, and older riverside homes with more window trim and siding seams than newer construction tend to see the most indoor activity once the insects find a gap.",
+      },
+      {
+        question: "Do riverfront homes and businesses in St. Clair need different pest service than homes farther inland?",
+        answer:
+          "Generally yes. Properties near the St. Clair River and Palmer Park's boardwalk carry higher mosquito and wasp pressure through the summer months than homes a few blocks from the water, and seasonal treatment scheduled ahead of the tourist season works better than reacting once pressure builds.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Iron Mountain", slug: "iron-mountain-mi", stateSlug: "michigan" },
+      { name: "Zeeland", slug: "zeeland-mi", stateSlug: "michigan" },
+      { name: "Grand Blanc", slug: "grand-blanc-mi", stateSlug: "michigan" },
+      { name: "Marshall", slug: "marshall-mi", stateSlug: "michigan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in St. Clair, MI | Riverfront Mosquitoes & Boardwalk Wasps",
+    metaDescription:
+      "St. Clair, MI pest control for river mosquitoes, wasps, boxelder bugs and fall mice along the Blue Water Area boardwalk. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

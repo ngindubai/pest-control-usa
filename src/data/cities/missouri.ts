@@ -6424,4 +6424,534 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Perryville, MO pest control for cave crickets, termites, brown recluse spiders, mosquitoes and silverfish. Perry County karst specialists. Free inspection.",
   },
+  {
+    slug: "maryland-heights-mo",
+    name: "Maryland Heights",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~27,700",
+    county: "St. Louis County",
+    climate: "cold-humid",
+    climateDriver:
+      "Maryland Heights sits along the Missouri River floodplain in St. Louis County, wrapped around Creve Coeur Lake, an oxbow lake left behind when a meander loop of the river was cut off centuries ago. Roughly 2,500 acres of undeveloped Missouri River floodplain and wetland sit adjacent to Creve Coeur Lake Park, and the city has weathered major river flooding as recently as 2017 and 2019. That combination of a large oxbow lake, wetland floodplain, and periodic high water keeps ground moisture and standing water present near the city for more of the year than in St. Louis County communities set back from the river, driving mosquito, tick, and moisture pest pressure.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Brown Recluse Spiders", "Rodents"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, heaviest after river flooding",
+        note: "Creve Coeur Lake and the roughly 2,500 acres of Missouri River floodplain and wetland next to Creve Coeur Lake Park give mosquitoes standing water to breed in through the warm months, and that pressure spikes further after river flood events like those Maryland Heights saw in 2017 and 2019.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "The wooded trails and tall grass edges of Creve Coeur Lake Park sit close to Maryland Heights neighborhoods, and deer moving through that floodplain habitat carry ticks into yards bordering the park.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active spring through fall",
+        note: "St. Louis County sits in Missouri's moderate to heavy termite hazard zone, and the consistently moist ground near the Missouri River floodplain gives termite colonies in Maryland Heights more sustained moisture than drier parts of the county.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "Maryland Heights sits within the brown recluse's core Missouri range, and homes near the floodplain's older tree cover and undisturbed storage areas give the spider the dark, quiet harborage it prefers.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, higher after flood events",
+        note: "When the adjacent floodplain and farmland along the Missouri River flood or turn cold, field mice move toward higher, drier ground, and homes and businesses at the edge of Maryland Heights's developed area are usually the first shelter they find.",
+      },
+    ],
+    localHook:
+      "Maryland Heights wraps around Creve Coeur Lake, an oxbow lake formed when a meander loop of the Missouri River was cut off and left behind, and the city still borders roughly 2,500 acres of undeveloped Missouri River floodplain and wetland next to Creve Coeur Lake Park. That same river geography brought major flooding through the city in 2017 and 2019, and the standing water and ground moisture the floodplain holds onto for weeks afterward is the biggest single driver of the mosquito, tick, and moisture pest pressure homeowners here deal with.",
+    intro:
+      "Pest control in Maryland Heights has to account for the Missouri River sitting right at the edge of town. The city wraps around Creve Coeur Lake, an oxbow lake left behind when the river cut off one of its own meander loops, and borders about 2,500 acres of undeveloped river floodplain and wetland next to Creve Coeur Lake Park. Maryland Heights has lived through major river flooding as recently as 2017 and 2019, and the standing water and soaked ground that follow those events give mosquitoes breeding habitat that lasts long after the water recedes. Deer and other wildlife moving through the park's floodplain woods carry ticks into yards at the edge of the development, St. Louis County's moderate to heavy termite hazard gets an extra push from the river's ground moisture, and the same dark, undisturbed storage spaces that suit brown recluse spiders statewide are common in older Maryland Heights homes.",
+    sections: [
+      {
+        heading: "Mosquitoes and the Creve Coeur Lake Floodplain",
+        body: "Creve Coeur Lake formed thousands of years ago as an oxbow cut off from the Missouri River's main channel, and the roughly 2,500 acres of undeveloped floodplain and wetland next to Creve Coeur Lake Park still flood and hold standing water on a regular basis. Maryland Heights has seen major Missouri River flooding as recently as 2017 and 2019, and each event leaves behind pooled water in low-lying yards, drainage ditches, and floodplain farmland that can take weeks to fully drain. Mosquitoes breed in exactly that kind of standing water, and homes closer to the lake and floodplain see a longer, heavier season than St. Louis County neighborhoods set back on higher ground. Clearing gutters, dumping standing water in yard containers, and treating known low spots before the summer season starts keeps the population down before it builds.",
+      },
+      {
+        heading: "Ticks Along the Floodplain Trail Corridor",
+        body: "Creve Coeur Lake Park's wooded trails and floodplain grasslands run right up against residential Maryland Heights, and deer use that corridor as a matter of course. Ticks ride in on that wildlife and wait in tall grass and brush at the edge of yards bordering the park, which makes the tick season here run a bit longer and a bit closer to home than in a St. Louis County community without a large floodplain park at its edge. Keeping grass mowed short along the property line, clearing leaf litter, and checking pets and kids after time on the trails cuts down on the risk without needing to avoid the park altogether.",
+      },
+      {
+        heading: "Termites in the River Valley's Moist Ground",
+        body: "St. Louis County sits within Missouri's moderate to heavy termite hazard zone, and Maryland Heights's position right against the Missouri River floodplain means the water table and soil moisture near many properties stay higher for more of the year than in drier parts of the county. Subterranean termites depend on that kind of steady ground moisture, and a spring swarm of winged termites indoors is usually the first clear sign a colony nearby has matured. An annual inspection matters more for homes closer to the river bottom than for those on higher, better-drained ground elsewhere in Maryland Heights.",
+      },
+      {
+        heading: "Brown Recluse Spiders and Post-Flood Rodents Indoors",
+        body: "Maryland Heights sits inside the brown recluse spider's core Missouri range, and older homes with undisturbed basements, garages, and storage boxes give the spider the dark, quiet space it prefers. Flooding along the adjacent river bottom adds a second indoor pressure: when floodwater or a hard cold snap pushes through the undeveloped floodplain and nearby farmland, field mice move toward higher, drier ground, and homes at the edge of the developed part of Maryland Heights are often the first shelter available. Sealing foundation gaps, switching to sealed storage totes, and keeping firewood and clutter away from the house help with both problems at once.",
+      },
+    ],
+    prevention: [
+      "Empty or treat standing water near Creve Coeur Lake Park and low-lying yards before mosquito season builds.",
+      "Mow grass short and clear leaf litter along the floodplain trail corridor to reduce tick contact.",
+      "Schedule an annual termite inspection, especially for homes closer to the Missouri River floodplain.",
+      "Seal foundation gaps and switch to sealed plastic storage totes to reduce brown recluse and rodent entry points.",
+    ],
+    costNote:
+      "Termite inspection in Maryland Heights is typically free to $75, with treatment ranging from $900 to $2,600 depending on colony size. Mosquito and tick yard treatments for properties near Creve Coeur Lake Park typically run $75 to $150 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Maryland Heights have such a long mosquito season?",
+        answer: "The city borders roughly 2,500 acres of undeveloped Missouri River floodplain and wetland next to Creve Coeur Lake Park, and standing water left behind after flood events like the ones Maryland Heights saw in 2017 and 2019 can take weeks to drain, giving mosquitoes breeding habitat well past a typical St. Louis County yard.",
+      },
+      {
+        question: "Are ticks a real concern in Maryland Heights?",
+        answer: "Yes, especially for homes bordering Creve Coeur Lake Park. Deer moving through the park's wooded floodplain corridor carry ticks into the tall grass and brush at the edge of nearby yards, which keeps the tick season running longer close to the park than in neighborhoods farther from it.",
+      },
+      {
+        question: "Is termite risk higher near the Missouri River in Maryland Heights?",
+        answer: "It can be. St. Louis County already sits in a moderate to heavy termite hazard zone, and the ground near the river floodplain holds moisture more consistently than higher, better-drained parts of the county, giving termite colonies more months of active conditions.",
+      },
+      {
+        question: "Do brown recluse spiders show up in Maryland Heights homes?",
+        answer: "Yes. Maryland Heights sits inside the brown recluse's core Missouri range, and older homes with undisturbed basements and storage areas offer the dark, quiet conditions the spider prefers. They bite only defensively and are not aggressive.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Raymore", slug: "raymore-mo", stateSlug: "missouri" },
+      { name: "Marshfield", slug: "marshfield-mo", stateSlug: "missouri" },
+      { name: "Boonville", slug: "boonville-mo", stateSlug: "missouri" },
+      { name: "Kennett", slug: "kennett-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Maryland Heights, MO | Floodplain Mosquitoes, Ticks & Termites",
+    metaDescription:
+      "Maryland Heights, MO pest control for mosquitoes, ticks, termites, brown recluse spiders and rodents near Creve Coeur Lake. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "raymore-mo",
+    name: "Raymore",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~25,300",
+    county: "Cass County",
+    climate: "temperate",
+    climateDriver:
+      "Raymore sits in Cass County on the southern edge of the Kansas City metro, land that was farmland and prairie for more than a century before subdivisions began replacing it in the 1990s and 2000s. That shift from open agricultural ground to fast-built new construction, paired with Missouri's swing between hot summers and cold winters, shapes a pest picture built around fresh lumber, disturbed soil, and grass edges meeting new lawns rather than around any single dramatic geographic feature.",
+    topPests: ["Termites", "Carpenter Ants", "Ticks", "Mosquitoes", "Field Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active spring through fall",
+        note: "Cass County sits in Missouri's moderate to heavy termite hazard zone, and new-construction lumber and disturbed soil around Raymore's fast-growing subdivisions give termites fresh wood contact points that an older, more settled neighborhood would not have.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active at night",
+        note: "Fresh-cut lumber, mulch beds, and landscaping timbers common on Raymore's newer lots give carpenter ants exactly the kind of moist wood they hollow out to nest in, and new subdivisions here see them more often than older, more established Cass County neighborhoods.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Raymore's newest subdivisions sit at the edge of what was, until recently, open Cass County farmland and prairie, and the tall grass and fence lines along that boundary still carry ticks into yards that back up to undeveloped land.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Retention ponds and drainage basins built to manage stormwater in Raymore's newer developments hold standing water long enough after summer rain to give mosquitoes a place to breed close to home.",
+      },
+      {
+        name: "Field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As Cass County farmland around Raymore keeps giving way to new subdivisions, field mice displaced from cleared fields often move into the nearest available shelter, which during construction season and cold snaps tends to be a newly built home.",
+      },
+    ],
+    localHook:
+      "Raymore's name comes from combining the surnames of two Missouri Pacific Railroad workers, Rea and Moore, when the town was platted in 1872. It stayed a small Cass County farming community for more than a century, then from 2022 to 2023 became the fastest-growing city in Missouri and the 66th fastest-growing in the country, a 4.7 percent jump in a single year as new subdivisions replaced open farmland on the edge of the Kansas City metro. That fast, recent shift from agricultural ground to new construction is the biggest single factor behind the pest pressure homeowners here deal with.",
+    intro:
+      "Pest control in Raymore has a lot to do with how fast the town has grown. Platted in 1872 and named for two railroad workers, Rea and Moore, Raymore stayed a small Cass County farming community for generations before becoming, from 2022 to 2023, the fastest-growing city in Missouri and the 66th fastest-growing in the country. That kind of rapid new-home construction on what was recently open farmland changes the pest picture: fresh lumber and mulch beds draw carpenter ants, disturbed soil near new foundations gives subterranean termites easy wood contact, and yards backing up to the Cass County farmland and prairie that hasn't been developed yet still see ticks moving in from the grass line. Add stormwater retention ponds built for the new subdivisions and field mice displaced from cleared ground, and Raymore's newest neighborhoods face a different mix of pressure than the town's older streets.",
+    sections: [
+      {
+        heading: "Carpenter Ants and New Construction",
+        body: "Raymore's rapid growth means a lot of homes here are only a few years old, and carpenter ants are drawn to exactly the conditions new construction creates: fresh-cut lumber, mulch beds against the foundation, and landscaping timbers that hold moisture while a new lawn establishes itself. They don't eat wood the way termites do, but they tunnel through it to build galleries, and a colony that gets an early foothold in a porch post or deck support can go unnoticed for a season or two before the damage becomes visible. Keeping mulch and firewood a few inches off the foundation and fixing any moisture that collects near a new deck or porch reduces the risk while the property is still settling in.",
+      },
+      {
+        heading: "Termite Risk in a Fast-Building Suburb",
+        body: "Cass County sits within Missouri's moderate to heavy termite hazard zone, and Raymore's building boom means a steady supply of new foundations, fresh lumber, and disturbed soil for termites to find. A pre-construction soil treatment or post-construction inspection matters more here than in a slower-growing Cass County town, since a newly built home hasn't had years of undisturbed settling to reveal whether termites have already found their way to the structure. A spring swarm of winged termites indoors remains the clearest warning sign homeowners should watch for.",
+      },
+      {
+        heading: "Ticks at the Edge of Raymore's New Subdivisions",
+        body: "Even as Raymore has grown into the fastest-growing city in Missouri, plenty of its newest streets still back directly onto Cass County farmland, prairie, and fence lines that haven't been developed yet. Ticks live in that tall grass and brush, and yards at the edge of new subdivisions see more of them than streets further into the older, more established parts of town. Mowing the grass line short, clearing brush along the property boundary, and checking kids and pets after time near the edge of a yard keeps the risk down.",
+      },
+      {
+        heading: "Mosquitoes and Field Mice as Farmland Gives Way to New Streets",
+        body: "New subdivisions in Raymore typically come with stormwater retention ponds and drainage basins, built to handle runoff from all the new rooftops and pavement, and those ponds hold standing water long enough after a summer rain to give mosquitoes a breeding site close to home. At the same time, field mice that lose their habitat as Cass County farmland gets cleared for construction tend to move toward the nearest shelter, which during a cold snap or an active building season is often a newly finished house. Sealing gaps around utility lines and foundation vents before winter helps keep them from getting inside.",
+      },
+    ],
+    prevention: [
+      "Keep mulch, firewood, and landscaping timbers a few inches off the foundation to reduce carpenter ant activity.",
+      "Schedule a termite inspection or pre-construction soil treatment given Cass County's moderate to heavy hazard zone.",
+      "Mow the grass line short and clear brush along property edges that border undeveloped farmland.",
+      "Seal gaps around utility lines and foundation vents before cold weather to keep field mice from moving indoors.",
+    ],
+    costNote:
+      "Termite pre-treatment or inspection in Raymore typically runs free to $75, with treatment from $900 to $2,600 depending on colony size. Carpenter ant treatment for new construction typically runs $150 to $350. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does new construction in Raymore attract carpenter ants?",
+        answer: "Fresh-cut lumber, mulch beds, and landscaping timbers common on Raymore's new lots hold moisture that carpenter ants need to hollow out nesting galleries, and the town's rapid growth from 2022 to 2023, when it was Missouri's fastest-growing city, means a lot of homes are still in that early, ant-attracting stage.",
+      },
+      {
+        question: "Is termite risk different in Raymore than in older Cass County towns?",
+        answer: "The regional hazard is the same moderate to heavy zone, but Raymore's building boom means more fresh lumber and disturbed soil for termites to reach, and newer homes haven't had years of settled time to reveal an existing problem the way an older Cass County house might have.",
+      },
+      {
+        question: "Why do some Raymore yards have more ticks than others?",
+        answer: "It usually comes down to location. Yards backing onto undeveloped Cass County farmland and prairie at the edge of Raymore's newest subdivisions see more ticks moving in from tall grass and fence lines than streets further into the town's older, established areas.",
+      },
+      {
+        question: "Do stormwater ponds in Raymore's subdivisions cause mosquito problems?",
+        answer: "They can. Retention ponds and drainage basins built to manage runoff from Raymore's new construction hold standing water long enough after summer rain to give mosquitoes a place to breed close to home, especially in a newer subdivision without mature landscaping to help with drainage.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Maryland Heights", slug: "maryland-heights-mo", stateSlug: "missouri" },
+      { name: "Marshfield", slug: "marshfield-mo", stateSlug: "missouri" },
+      { name: "Boonville", slug: "boonville-mo", stateSlug: "missouri" },
+      { name: "Kennett", slug: "kennett-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Raymore, MO | New-Construction Termites, Ants & Ticks",
+    metaDescription:
+      "Raymore, MO pest control for termites, carpenter ants, ticks, mosquitoes and field mice in Missouri's fastest-growing city. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "marshfield-mo",
+    name: "Marshfield",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~8,200",
+    county: "Webster County",
+    climate: "temperate",
+    climateDriver:
+      "Marshfield sits at 1,493 feet above sea level, the highest elevation of any county seat in Missouri, on the rolling agricultural uplands of the Ozark Plateau in Webster County. That higher elevation brings slightly cooler nights than lower-lying parts of southwest Missouri, but the Ozark region's humid summers and its karst limestone bedrock still hold enough ground moisture to sustain the area's core pest pressure: brown recluse spiders, ticks in the surrounding wooded uplands, and subterranean termites in the warmer months.",
+    topPests: ["Brown Recluse Spiders", "Ticks", "Termites", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Webster County sits inside the brown recluse's core Missouri range, and Marshfield's mix of historic brick buildings around the Route 66 square and older homes with undisturbed basements gives the spider plenty of the dark, quiet space it needs.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Webster County's rolling Ozark highland uplands support a lot of pasture and wooded fence line right up against Marshfield's residential edges, and ticks riding in on deer and other wildlife move easily into yards that border that open agricultural land.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active spring through fall",
+        note: "Southwest Missouri sits in the state's moderate to heavy termite hazard zone, and while Marshfield's higher elevation brings slightly cooler nights than lower parts of the region, the humid Ozark summers still give termite colonies enough sustained warmth and moisture to stay active for most of the year.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The older wood-frame homes and historic downtown buildings along Marshfield's Route 66 square give carpenter ants plenty of moisture-softened wood to nest in, particularly where roof or gutter leaks have gone unaddressed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Ponds and low spots common across Webster County's agricultural uplands hold standing water through the summer, giving mosquitoes breeding habitat within reach of most Marshfield properties.",
+      },
+    ],
+    localHook:
+      "Marshfield is the county seat of Webster County and sits at 1,493 feet, the highest elevation of any county seat in Missouri. It's also the birthplace of astronomer Edwin Hubble, honored today with a quarter-scale replica of the Hubble Space Telescope on the courthouse square, right where Route 66 circles the block past the town's historic brick storefronts.",
+    intro:
+      "Pest control in Marshfield starts with the Ozark upland ground the town sits on. As the Webster County seat at 1,493 feet, Marshfield holds the record for the highest elevation of any county seat in Missouri, best known today as the birthplace of astronomer Edwin Hubble and home to a quarter-scale Hubble Space Telescope replica on the courthouse square where Route 66 still circles the block. That higher elevation brings marginally cooler nights than lower parts of southwest Missouri, but the region's humid summers and rolling agricultural uplands still support the same core Ozark pest pressure found across Webster County: brown recluse spiders in older homes and the historic brick buildings downtown, ticks moving in from the pasture and fence lines that border town, subterranean termites active through the warm months, and carpenter ants working into moisture-softened wood wherever a roof or gutter leak has gone unnoticed.",
+    sections: [
+      {
+        heading: "Brown Recluse Spiders in Marshfield's Historic Buildings",
+        body: "Webster County sits inside the brown recluse spider's core Missouri range, and Marshfield has no shortage of the dark, undisturbed spaces the spider prefers, from older residential basements to the historic brick storefronts that line the Route 66 square downtown. University of Missouri Extension considers the brown recluse a common household pest across this part of the state rather than a rare find, and buildings with long-undisturbed storage areas tend to see more of them. Clearing clutter, sealing basement gaps, and switching to sealed plastic storage totes reduces the risk without requiring constant vigilance.",
+      },
+      {
+        heading: "Ticks on Webster County's Agricultural Uplands",
+        body: "Webster County's rolling Ozark Plateau uplands support a lot of pasture, hay ground, and wooded fence line, much of it running right up to the edges of Marshfield's residential streets. Ticks travel easily on deer and other wildlife moving through that agricultural land, and yards that border open pasture or brushy fence rows see more tick pressure through the warm months than streets deeper in town. Mowing grass short along property edges and checking pets and kids after time outdoors near pasture land keeps exposure down.",
+      },
+      {
+        heading: "Termites and Marshfield's Ozark Summers",
+        body: "Southwest Missouri sits within the state's moderate to heavy termite hazard zone, and even with Marshfield's slightly cooler elevation, the Ozark region's humid summers give subterranean termite colonies enough sustained warmth and moisture to stay active for most of the year. A spring swarm of winged termites indoors is usually the clearest early sign a colony nearby has matured enough to send out reproductives, and an annual inspection catches most problems before they reach the point of structural damage.",
+      },
+      {
+        heading: "Carpenter Ants in Marshfield's Older Wood-Frame Homes",
+        body: "Many of Marshfield's homes and the historic buildings around the Route 66 square are old enough that a roof leak, gutter problem, or slow plumbing drip has had time to soften wood somewhere in the structure, and that softened wood is exactly what carpenter ants look for when choosing where to nest. They don't eat wood for food the way termites do, but a colony can tunnel extensively through a joist or window frame before the damage shows on the surface. Fixing moisture problems as soon as they appear does more to prevent carpenter ant activity than any single pesticide treatment.",
+      },
+    ],
+    prevention: [
+      "Seal basement and crawl space gaps and switch to sealed storage totes to reduce brown recluse harborage.",
+      "Mow grass short along property edges that border pasture, hay ground, or wooded fence lines.",
+      "Schedule an annual termite inspection given southwest Missouri's moderate to heavy hazard zone.",
+      "Fix roof, gutter, and plumbing leaks promptly to keep carpenter ants from finding softened wood.",
+    ],
+    costNote:
+      "Termite inspection in Marshfield typically runs free to $75, with treatment from $900 to $2,500 depending on colony size. Brown recluse and carpenter ant treatment for older homes typically runs $150 to $350. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are brown recluse spiders so common in Marshfield?",
+        answer: "Webster County sits inside the brown recluse's core Missouri range, and Marshfield's older homes and the historic brick buildings around the Route 66 square provide the dark, undisturbed basements and storage areas the spider needs. University of Missouri Extension treats it as a common household pest across this part of the state.",
+      },
+      {
+        question: "Does Marshfield's higher elevation mean fewer pests?",
+        answer: "Not dramatically. Marshfield sits at 1,493 feet, the highest elevation of any Missouri county seat, which brings marginally cooler nights, but the Ozark region's humid summers still support the same termite, tick, and spider pressure found across Webster County.",
+      },
+      {
+        question: "Why do ticks show up in yards at the edge of Marshfield?",
+        answer: "Webster County's rolling agricultural uplands include a lot of pasture and wooded fence line right up against town, and deer and other wildlife carry ticks into yards that border that open land, especially through the April to September season.",
+      },
+      {
+        question: "Is termite risk in Marshfield the same as the rest of southwest Missouri?",
+        answer: "Close to it. Marshfield sits in the same moderate to heavy termite hazard zone as the rest of the region, and the Ozark Plateau's humid summers give termite colonies enough sustained moisture to stay active through most of the warm months.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Maryland Heights", slug: "maryland-heights-mo", stateSlug: "missouri" },
+      { name: "Raymore", slug: "raymore-mo", stateSlug: "missouri" },
+      { name: "Boonville", slug: "boonville-mo", stateSlug: "missouri" },
+      { name: "Kennett", slug: "kennett-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Marshfield, MO | Brown Recluse Spiders, Ticks & Termites",
+    metaDescription:
+      "Marshfield, MO pest control for brown recluse spiders, ticks, termites, carpenter ants and mosquitoes in Webster County. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "boonville-mo",
+    name: "Boonville",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~8,000",
+    county: "Cooper County",
+    climate: "cold-humid",
+    climateDriver:
+      "Boonville sits on bluffs above the Missouri River in Cooper County, a river-town setting that shaped the First Battle of Boonville in 1861 and still shapes the town's pest pressure today. The bottomland fields and wooded riverbank below the bluffs hold moisture and slow-draining ground long after rain or snowmelt, and Missouri's swing between hot summers and cold winters gives that moisture enough warmth each year to sustain termites, mosquitoes, and the spiders and silverfish that favor the town's older brick and wood-frame buildings.",
+    topPests: ["Termites", "Brown Recluse Spiders", "Mosquitoes", "Silverfish", "Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active spring through fall",
+        note: "Cooper County sits in Missouri's moderate to heavy termite hazard zone, and the slow-draining bottomland ground below Boonville's river bluffs holds soil moisture long enough after rain to keep termite colonies active for more of the year than higher, better-drained parts of the county.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "Boonville's older 19th-century brick storefronts and homes, many dating back to the town's days as a Missouri River trade and Civil War era hub, give brown recluse spiders the dark, undisturbed voids and basements they favor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Missouri River bottomland below Boonville's bluffs floods and holds standing water on a regular basis, and that river-bottom water gives mosquitoes breeding habitat that reaches into town during the warm months.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, most active in humid weather",
+        note: "Boonville's stock of older brick and wood-frame downtown buildings, some dating to the 1800s, tend to hold more indoor humidity than newer construction, and that humidity is exactly what silverfish need to thrive.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants and carpenter ants both turn up in Boonville's older homes, drawn in by moisture around aging foundations and wood that has softened near roof or gutter leaks over the decades.",
+      },
+    ],
+    localHook:
+      "Boonville sits on bluffs overlooking the Missouri River in Cooper County, the site of the First Battle of Boonville on June 17, 1861, an early Civil War skirmish that gave Union forces control of the Missouri River valley for the rest of the war. That same river geography, bluffs above bottomland that floods on a regular basis, still shapes the moisture-driven pest pressure the town deals with today.",
+    intro:
+      "Pest control in Boonville has everything to do with the Missouri River running below its bluffs. Cooper County's river-town setting made Boonville the site of the First Battle of Boonville in June 1861, an early Civil War skirmish that handed the Union control of the Missouri River valley, and the bottomland below those same bluffs still floods and holds standing water on a regular basis today. That river-bottom moisture gives mosquitoes a long breeding season and keeps the ground under much of Boonville wetter than higher, better-drained parts of Cooper County, which pushes subterranean termite activity further into the calendar than it would run otherwise. The town's stock of 19th-century brick storefronts and older wood-frame homes adds indoor pressure on top of that: brown recluse spiders favor the dark, undisturbed voids those older buildings offer, and the same humidity that seeps into old brick and plaster gives silverfish exactly the damp conditions they need.",
+    sections: [
+      {
+        heading: "Termites in Boonville's River Bottomland",
+        body: "Cooper County sits within Missouri's moderate to heavy termite hazard zone, and Boonville's position on bluffs above the Missouri River means the bottomland fields and low ground nearby hold moisture longer after rain or snowmelt than higher, drier parts of the county. Subterranean termites depend on that kind of steady ground moisture, and colonies near the river bottom tend to stay active across more of the year than they would on higher ground elsewhere in Cooper County. A spring swarm of winged termites indoors remains the clearest sign a colony has matured nearby, and homes closer to the river deserve a closer annual look.",
+      },
+      {
+        heading: "Brown Recluse Spiders in Boonville's Historic Buildings",
+        body: "Boonville's downtown includes brick storefronts and homes going back to the town's days as a Missouri River trade hub and Civil War era settlement, and that older building stock comes with exactly the kind of dark, undisturbed voids, basements, and crawl spaces brown recluse spiders prefer. Cooper County sits inside the spider's core Missouri range, and a historic building that hasn't had its foundation gaps sealed or its storage areas decluttered in years is a likely place to find them. Reducing clutter and sealing obvious entry points does more good here than repeated indoor treatments alone.",
+      },
+      {
+        heading: "Mosquitoes From the Missouri River Bottomland",
+        body: "The bottomland fields below Boonville's bluffs flood on a regular basis, and that river-bottom water, along with the low, slow-draining ground nearby, gives mosquitoes breeding habitat that reaches into town for most of the warm season. Properties closer to the river bottom see a longer, heavier mosquito season than those set back on higher bluff-top ground, and clearing any standing water in yard containers or low spots helps limit how much breeding habitat sits close to the house.",
+      },
+      {
+        heading: "Silverfish and Ants in Boonville's Older Building Stock",
+        body: "Boonville's older brick and wood-frame buildings, some dating to the 1800s, tend to hold more indoor humidity than newer construction, and that humidity is exactly what silverfish need to keep feeding on paper, glue, and fabric in basements and closets. The same aging building stock, especially where a roof or gutter leak has softened wood over the years, draws carpenter ants and odorous house ants looking for moisture. A dehumidifier in a damp basement and prompt repair of any roof or gutter leak address both problems at their source rather than just treating the insects themselves.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes closer to the Missouri River bottomland below Boonville's bluffs.",
+      "Seal foundation gaps and reduce clutter in older brick buildings to limit brown recluse harborage.",
+      "Clear standing water in yard containers and low spots near the river bottom before mosquito season builds.",
+      "Fix roof and gutter leaks promptly and consider a dehumidifier in damp basements to discourage silverfish and ants.",
+    ],
+    costNote:
+      "Termite inspection in Boonville typically runs free to $75, with treatment from $900 to $2,600 depending on colony size. Silverfish and ant treatment for older downtown buildings typically runs $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is termite risk higher near Boonville's river bottom?",
+        answer: "Cooper County sits in Missouri's moderate to heavy termite hazard zone, and the bottomland below Boonville's bluffs holds ground moisture longer after rain than higher parts of the county, giving subterranean termite colonies more months of active conditions.",
+      },
+      {
+        question: "Are brown recluse spiders common in Boonville's older buildings?",
+        answer: "Yes. Cooper County sits inside the brown recluse's core Missouri range, and Boonville's 19th-century brick storefronts and older homes offer the dark, undisturbed voids and basements the spider favors.",
+      },
+      {
+        question: "Does Boonville have a bad mosquito problem?",
+        answer: "It can, particularly for properties near the Missouri River bottomland below town, which floods on a regular basis and holds standing water well into the warm season.",
+      },
+      {
+        question: "Why do some older Boonville homes have ongoing silverfish issues?",
+        answer: "It usually comes down to humidity. Boonville's older brick and wood-frame buildings, some dating back to the 1800s, tend to hold more indoor moisture than newer construction, and that dampness is exactly what silverfish need to keep feeding.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Maryland Heights", slug: "maryland-heights-mo", stateSlug: "missouri" },
+      { name: "Raymore", slug: "raymore-mo", stateSlug: "missouri" },
+      { name: "Marshfield", slug: "marshfield-mo", stateSlug: "missouri" },
+      { name: "Kennett", slug: "kennett-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Boonville, MO | River Bluff Termites & Brown Recluse Spiders",
+    metaDescription:
+      "Boonville, MO pest control for termites, brown recluse spiders, mosquitoes, silverfish and ants near the Missouri River bluffs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kennett-mo",
+    name: "Kennett",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~10,000",
+    county: "Dunklin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Kennett sits in the Missouri Bootheel, the flat alluvial plain in the state's southeastern corner that was mostly unsettled swampy forestland until the Little River Drainage District cut more than 1,000 miles of channels, ditches, and levees through the region starting in 1905, draining the swamps into some of the most fertile farmland in Missouri. That drainage network, combined with the Bootheel's warm, humid climate, the mildest and most humid in the state, keeps water moving through open ditches and canals most of the year and gives Dunklin County a longer, heavier pest season than towns farther north in Missouri.",
+    topPests: ["Mosquitoes", "Termites", "Ticks", "Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Little River Drainage District's more than 1,000 miles of open ditches and canals run throughout Dunklin County to keep Bootheel farmland dry, and that same network of slow-moving water gives mosquitoes breeding habitat across the county for most of the year, including close to Kennett.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active nearly year-round, swarms in spring",
+        note: "Southeast Missouri's Bootheel has the warmest, most humid climate in the state, and that extended warm season lets termite colonies around Kennett stay active for more of the year than colonies in cooler parts of Missouri.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "Dunklin County's farmland, fence lines, and drainage ditch banks give ticks plenty of tall grass to wait in, and properties bordering agricultural fields around Kennett see more of them than town lots further from open farmland.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm weather",
+        note: "The Bootheel's warm, humid climate, the mildest in Missouri, suits American cockroaches especially well, and they turn up more often in Kennett basements, crawl spaces, and older drainage and sewer infrastructure than in cooler parts of the state.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Missouri's first confirmed red imported fire ant mounds were found in Kennett in 2009 by a University of Missouri Extension entomologist, and the Bootheel's mild winters give this species a better chance of surviving here than almost anywhere else in the state, though Missouri Department of Agriculture monitoring shows the ants have not spread into widespread, permanent colonies statewide.",
+      },
+    ],
+    localHook:
+      "Kennett sits in the Missouri Bootheel, land that was mostly unsettled swampy forest until the Little River Drainage District began cutting more than 1,000 miles of ditches, canals, and levees through the region in 1905, turning swampland into some of the most fertile farmland in the state and creating the nation's largest drainage district in the process. Kennett is also the birthplace of Grammy winning singer Sheryl Crow, honored locally with the Sheryl Crow Aquatic Center, and Missouri's first confirmed red imported fire ant mounds were found here in 2009.",
+    intro:
+      "Pest control in Kennett starts with the Bootheel's drainage history. The Little River Drainage District began cutting more than 1,000 miles of ditches, canals, and levees through Dunklin County in 1905, turning what had been unsettled swampland into some of the most fertile farmland in Missouri and building the largest drainage district in the country in the process. That same network of open water moving through farmland year round, paired with the Bootheel's warm, humid climate, the mildest and most humid in the state, gives Kennett a longer mosquito season and a longer termite season than towns farther north. Dunklin County's farm fields and ditch banks carry ticks into properties bordering open agricultural land, American cockroaches do well in the area's warm basements and older infrastructure, and Missouri's first confirmed red imported fire ant mounds turned up right here in Kennett in 2009, a reminder that the Bootheel's mild winters make it the part of the state most hospitable to a species that can't survive further north.",
+    sections: [
+      {
+        heading: "Mosquitoes and the Little River Drainage District's Ditches",
+        body: "Before 1905, most of the Bootheel was unsettled swampy forestland, and the Little River Drainage District spent the following decades cutting more than 1,000 miles of open channels, ditches, and levees through the region to drain it into farmland. That same drainage network still moves water slowly through Dunklin County today, and slow-moving or standing water in those ditches gives mosquitoes breeding habitat that reaches across the county for most of the warm season, sometimes starting as early as March. Clearing any standing water closer to the house and using screens on doors and windows during peak season helps limit exposure.",
+      },
+      {
+        heading: "Termites in the Bootheel's Longest Warm Season",
+        body: "Southeast Missouri's Bootheel has the mildest winters and most humid climate anywhere in the state, and that extended warm season lets subterranean termite colonies around Kennett stay active across more of the calendar year than colonies farther north in Missouri. A spring swarm of winged termites indoors is the clearest sign a colony has matured, but in a climate this warm, homeowners should not assume winter brings much of a pause in activity the way it would elsewhere in the state. An annual inspection catches problems before they reach the point of structural damage.",
+      },
+      {
+        heading: "Ticks Along Kennett's Farm Fields and Ditch Banks",
+        body: "Dunklin County is heavily agricultural, and the fence lines, ditch banks, and fields surrounding Kennett give ticks plenty of tall grass to wait in for a passing host. Properties that border open farmland see more tick pressure through the March-to-October season than lots farther into town, and mowing grass short along property edges plus checking pets and kids after time near fields or ditch banks reduces the risk without requiring homeowners to avoid the outdoors.",
+      },
+      {
+        heading: "Cockroaches and Fire Ants in a Warmer Missouri Climate",
+        body: "The Bootheel's warm, humid climate, the mildest in the state, gives American cockroaches better conditions than they find almost anywhere else in Missouri, and they show up more often in Kennett's basements, crawl spaces, and older sewer and drainage infrastructure. That same mild-winter climate is also why Missouri's first confirmed red imported fire ant mounds turned up in Kennett in 2009, found by a University of Missouri Extension entomologist working with the Missouri Department of Agriculture. State monitoring since then shows the ants have not established widespread, permanent colonies across Missouri, since most of the state's winters are too cold for the species to survive long term, but Kennett's milder Bootheel winters keep it an area worth watching.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near drainage ditches and low yard spots to reduce mosquito breeding habitat.",
+      "Schedule an annual termite inspection given the Bootheel's extended warm season and mild winters.",
+      "Mow grass short along fence lines and ditch banks bordering farmland to reduce tick exposure.",
+      "Seal basement and crawl space entry points to keep American cockroaches out of cooler indoor spaces.",
+    ],
+    costNote:
+      "Termite inspection in Kennett typically runs free to $75, with treatment from $900 to $2,600 depending on colony size. Cockroach and fire ant treatment typically runs $150 to $350 depending on the extent of the problem. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Kennett have such a long mosquito season?",
+        answer: "The Little River Drainage District cut more than 1,000 miles of ditches and canals through Dunklin County starting in 1905 to drain Bootheel farmland, and that same network of slow-moving water still gives mosquitoes breeding habitat across the county for most of the warm season, often starting as early as March.",
+      },
+      {
+        question: "Is termite risk higher in Kennett than in the rest of Missouri?",
+        answer: "The Bootheel has the mildest winters and most humid climate in the state, and that extended warm season lets termite colonies around Kennett stay active across more of the year than colonies farther north in Missouri.",
+      },
+      {
+        question: "Are fire ants actually a problem in Kennett?",
+        answer: "Missouri's first confirmed red imported fire ant mounds were found in Kennett in 2009. Missouri Department of Agriculture monitoring since then shows the species has not spread into widespread, permanent colonies statewide, since most of Missouri's winters are too cold for it, but Kennett's milder Bootheel climate keeps it an area worth watching.",
+      },
+      {
+        question: "Why are ticks common around Kennett's farm fields?",
+        answer: "Dunklin County is heavily agricultural, and the fence lines and ditch banks surrounding Kennett give ticks plenty of tall grass to wait in. Properties bordering open farmland see more pressure through the March-to-October season than lots farther into town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Maryland Heights", slug: "maryland-heights-mo", stateSlug: "missouri" },
+      { name: "Raymore", slug: "raymore-mo", stateSlug: "missouri" },
+      { name: "Marshfield", slug: "marshfield-mo", stateSlug: "missouri" },
+      { name: "Boonville", slug: "boonville-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kennett, MO | Bootheel Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Kennett, MO pest control for mosquitoes, termites, ticks, cockroaches and fire ants in the Missouri Bootheel. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

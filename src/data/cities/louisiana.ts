@@ -4324,4 +4324,584 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Tallulah, LA pest control for mosquitoes, house mice and termites in the Mississippi Delta farm country. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "youngsville-la",
+    name: "Youngsville",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~18,000",
+    county: "Lafayette Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Youngsville sits on the flat Acadiana prairie of Lafayette Parish, ground that spent generations as sugarcane and rice farmland before it became one of Louisiana's fastest growing suburbs. That prairie soil drains slowly in heavy rain, and the retention ponds and drainage ditches built to manage stormwater in Youngsville's newer subdivisions hold water close to homes for days after a storm. Lafayette Parish also sits within the established range of Formosan subterranean termites, an invasive species that has spread through south Louisiana's waterways and urban wood structures for decades, giving Youngsville's mix of new construction and older farm buildings real termite pressure from two different angles.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "German Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June at dusk",
+        note: "Lafayette Parish sits within the established range of this invasive species, and Formosan colonies grow faster and larger than native termites, putting both Youngsville's newer subdivisions and its older farm structures at risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The retention ponds and drainage ditches built to manage stormwater across Youngsville's newer subdivisions hold standing water close to homes long after a storm passes, extending mosquito breeding season well into fall.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds build fastest in freshly graded soil",
+        note: "Newly graded lots in Youngsville's fast-growing subdivisions give fire ants loose, disturbed soil to colonize quickly, often before landscaping is even finished.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Youngsville's rapid growth has brought a wave of new rental housing and multi-family construction, and German cockroaches typically hitch a ride into a town through exactly that kind of housing turnover.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Former sugarcane and rice fields converted into subdivisions displaced the field mice that once lived there, and many now find their way into the crawl spaces and garages of the homes built on that same ground.",
+      },
+    ],
+    localHook:
+      "Youngsville was a small Acadiana farm town of a few thousand people as recently as 2000, built on land that spent generations growing sugarcane and rice. Since then it has grown into one of the fastest-growing municipalities in Louisiana, with a current population near 18,000, and new subdivisions now cover ground that was cropland within living memory.",
+    intro:
+      "Youngsville's pest pressure is a story about how fast a place can change. This corner of Lafayette Parish spent generations as sugarcane and rice farmland, and it still carries that legacy in its slow-draining prairie soil even as new subdivisions replace open fields. The stormwater ponds built to manage runoff in those subdivisions hold water close to new homes, Formosan subterranean termites already established in Lafayette Parish move freely between old farm buildings and new construction, and freshly graded lots give fire ants easy ground to colonize before landscaping is finished. A town growing this quickly needs pest control that keeps pace with construction, not one built for a town that stopped changing decades ago.",
+    sections: [
+      {
+        heading: "A farm town turned boomtown",
+        body: "Youngsville held a few thousand residents as recently as 2000 and has since grown into roughly 18,000, one of the fastest growth rates of any incorporated town in Louisiana. That growth converted much of the sugarcane and rice farmland around town into new subdivisions within a couple of decades, and the pace of construction means pest pressure here often traces back to how recently a lot was graded or a field was cleared rather than to the season alone.",
+      },
+      {
+        heading: "Stormwater ponds and a long mosquito season",
+        body: "The retention ponds and drainage ditches built into Youngsville's newer subdivisions do their job of managing stormwater, but they also hold standing water close to homes for days after a heavy rain. Lafayette Parish's flat prairie ground drains slowly to begin with, and that combination keeps mosquito breeding habitat within easy reach of new construction from March through November.",
+      },
+      {
+        heading: "Formosan termites in old and new construction alike",
+        body: "Lafayette Parish sits within the established range of Formosan subterranean termites, an invasive species that builds larger colonies and causes damage faster than native termites. Youngsville's older farm buildings carry decades of exposure, but new construction is not exempt. Formosan colonies travel through soil and moisture, and a freshly built home on former farmland can pick up pressure from a colony that was already established nearby.",
+      },
+      {
+        heading: "Fire ants on freshly graded ground",
+        body: "Construction crews grading new subdivisions leave behind loose, disturbed soil, exactly the kind of ground red imported fire ants colonize fastest. It is common in Youngsville for a new lot to show mounds within weeks of grading, often before sod or landscaping is even in place, which makes early treatment worth arranging before move-in rather than after.",
+      },
+    ],
+    prevention: [
+      "Ask about a termite inspection before closing on a newly built or newly purchased Youngsville home, since Formosan termites are established throughout Lafayette Parish.",
+      "Keep retention pond edges and drainage ditches clear of debris so stormwater moves through rather than sitting near the foundation.",
+      "Treat fire ant mounds on freshly graded lots early, before landscaping is finished and before the colony has time to spread.",
+      "Seal gaps around foundations and utility lines on new construction, since displaced field mice look for exactly that kind of entry point.",
+    ],
+    costNote:
+      "Costs vary by property size, construction age, and infestation severity. PestRemovalUSA offers a free inspection and written estimate before any work begins in Youngsville.",
+    faqs: [
+      {
+        question: "Why does Youngsville have Formosan termites if so much of the town is new construction?",
+        answer:
+          "Lafayette Parish has been within the established range of Formosan subterranean termites for decades, and this invasive species spreads through soil and moisture rather than caring how old a structure is, so both Youngsville's older farm buildings and its newest subdivisions carry real exposure.",
+      },
+      {
+        question: "Why do new subdivisions in Youngsville get fire ant mounds so quickly?",
+        answer:
+          "Grading a new lot leaves loose, disturbed soil, which is exactly the kind of ground red imported fire ants colonize fastest. It is common to see mounds appear within weeks of construction, often before landscaping is finished.",
+      },
+      {
+        question: "Does Youngsville's rapid growth affect mosquito control?",
+        answer:
+          "Yes. Many of the retention ponds and drainage ditches built to manage stormwater in newer subdivisions hold standing water close to homes for days after rain, and Lafayette Parish's flat, slow-draining prairie soil extends that standing water further than it would in better-drained ground.",
+      },
+      {
+        question: "Is pest pressure different in Youngsville's older sections versus its new subdivisions?",
+        answer:
+          "It can be. Older sections carry more established Formosan termite pressure and aging housing stock, while new subdivisions see more fire ant activity on freshly graded soil and mosquito issues tied to stormwater management. Both need attention, just for different reasons.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Franklin", slug: "franklin-la", stateSlug: "louisiana" },
+      { name: "Oakdale", slug: "oakdale-la", stateSlug: "louisiana" },
+      { name: "Walker", slug: "walker-la", stateSlug: "louisiana" },
+      { name: "Grambling", slug: "grambling-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Youngsville, LA | Formosan Termites & Mosquitoes",
+    metaDescription:
+      "Youngsville, LA pest control for Formosan termites, mosquitoes and fire ants in growing Lafayette Parish subdivisions. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "franklin-la",
+    name: "Franklin",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~6,700",
+    county: "St. Mary Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Franklin sits directly on Bayou Teche in St. Mary Parish, surrounded by sugarcane fields and cypress wetlands that keep humidity high year-round. The bayou's slow-moving current and the parish's long sugar economy, with decades of cane debris and old mill sites scattered around town, give both termites and mosquitoes steady moisture and shelter. Franklin's antebellum-era homes along the bayou add decades of accumulated termite exposure that newer construction elsewhere in the parish does not carry.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Fire Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Bayou Teche was one of the waterways Formosan termites spread along after arriving in Louisiana, and Franklin's antebellum homes along the bayou, some over a century old, carry decades of accumulated exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Bayou Teche's slow current and the cypress wetlands surrounding Franklin hold standing water close to town well past a normal rainy season.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The humidity off Bayou Teche combined with Franklin's older downtown drainage and sewer infrastructure gives American cockroaches easy access to basements, crawl spaces, and storm drains near the historic district.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "The sugarcane fields surrounding Franklin leave fallow field edges between growing seasons, and fire ants colonize that undisturbed ground quickly each year.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Peaks during cane grinding season, October through January",
+        note: "St. Mary Parish's sugarcane grinding season each fall draws rats toward the grain and cane debris around mills and storage areas, and some move into nearby homes as that debris is cleared.",
+      },
+    ],
+    localHook:
+      "Franklin was founded in 1808 as Carlin's Settlement along Bayou Teche and renamed for Benjamin Franklin, one of the few Louisiana towns named for someone with no direct connection to its founding. By the 1830s it had grown into the largest steamboat port on the bayou, and its Main Street historic district of antebellum homes, built by the sugar planters who once lined the Teche, still stands within blocks of the water today.",
+    intro:
+      "Franklin's pest pressure is tied directly to Bayou Teche, the waterway the town has depended on since its founding in 1808. The bayou's slow current and the cypress wetlands around town keep humidity high enough to support mosquitoes for most of the year, and the same waterway that made Franklin the largest steamboat port on the Teche in the 1830s also carried Formosan subterranean termites into south Louisiana decades ago. The antebellum homes that make up Franklin's well-preserved historic district carry a century or more of exposure to those termites, while the sugarcane fields still surrounding town give fire ants open ground and grinding season each fall draws rats toward the homes nearest the old mill sites.",
+    sections: [
+      {
+        heading: "A steamboat port built on Bayou Teche",
+        body: "Franklin was founded in 1808 as Carlin's Settlement and renamed for Benjamin Franklin shortly after, becoming the parish seat of St. Mary Parish by 1811. Sugar planters lined the bayou through the 1800s, and by the 1830s Franklin had grown into the largest steamboat port on the Teche. The town's Main Street historic district still holds many of the antebellum homes built during that era, standing just blocks from the water.",
+      },
+      {
+        heading: "Formosan termites in a century of antebellum homes",
+        body: "Bayou Teche was one of the waterways Formosan subterranean termites spread along after first arriving in Louisiana, and Franklin's historic district gives them exactly the kind of long-established wood structures they favor. Homes in the antebellum district are frequently a century or more old, and that age, combined with the bayou's humidity, means termite pressure here tends to run higher than in newer parts of the parish.",
+      },
+      {
+        heading: "Cane fields, grinding season, and rats",
+        body: "St. Mary Parish's sugarcane economy still shapes Franklin's calendar, and the fall grinding season, when cane is harvested and processed, draws rats toward the grain and cane debris around mills and storage sites. As that debris gets cleared through the winter, some of those rats move into homes and outbuildings closer to town, making October through January the season to watch most closely for rodent activity.",
+      },
+      {
+        heading: "Mosquitoes and the wetlands around town",
+        body: "The cypress wetlands and slow-moving water that surround Franklin, the same features that made it valuable steamboat territory two centuries ago, keep mosquito breeding habitat close to town for most of the year. Standing water in ditches and low-lying yards near the bayou holds through late fall, longer than it would in a town further from wetland ground.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any home in Franklin's historic district, since Formosan termites have been established along Bayou Teche for decades.",
+      "Clear cane debris and secure outdoor grain storage before grinding season each fall to reduce rat activity near homes.",
+      "Keep gutters and low-lying yard areas clear of standing water near the bayou to reduce mosquito breeding habitat.",
+      "Seal foundation gaps in older antebellum-era homes, which tend to have more entry points for both termites and rodents.",
+    ],
+    costNote:
+      "Costs vary by property age, size, and infestation severity. PestRemovalUSA offers a free inspection and written estimate before any work begins in Franklin, including homes in the historic district.",
+    faqs: [
+      {
+        question: "Why is Formosan termite pressure so high in Franklin's historic district?",
+        answer:
+          "Bayou Teche was one of the waterways Formosan subterranean termites spread along after first arriving in Louisiana, and Franklin's antebellum homes, many over a century old, give this invasive species exactly the long-established wood structures it favors.",
+      },
+      {
+        question: "Does sugarcane grinding season affect rat activity in Franklin?",
+        answer:
+          "Yes. St. Mary Parish's fall grinding season, typically October through January, draws rats toward grain and cane debris around mills, and as that debris is cleared some of those rats move toward nearby homes.",
+      },
+      {
+        question: "Why does Franklin have such a long mosquito season?",
+        answer:
+          "The cypress wetlands and slow-moving water surrounding Franklin, the same features that made it a major steamboat port in the 1830s, keep standing water and humidity high enough to support mosquito breeding well into late fall.",
+      },
+      {
+        question: "Are older homes in Franklin more vulnerable to termites?",
+        answer:
+          "Generally yes. Many homes in Franklin's Main Street historic district date to the antebellum era, and that age, combined with the humidity off Bayou Teche, gives Formosan termites more time and better conditions to establish a colony than a newer home would allow.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Youngsville", slug: "youngsville-la", stateSlug: "louisiana" },
+      { name: "Oakdale", slug: "oakdale-la", stateSlug: "louisiana" },
+      { name: "Walker", slug: "walker-la", stateSlug: "louisiana" },
+      { name: "Grambling", slug: "grambling-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Franklin, LA | Bayou Teche Termites & Mosquitoes",
+    metaDescription:
+      "Franklin, LA pest control for Formosan termites, mosquitoes and rats along Bayou Teche in St. Mary Parish. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oakdale-la",
+    name: "Oakdale",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~6,500",
+    county: "Allen Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Oakdale sits in the piney woods of Allen Parish, where sandier soil drains faster than the clay-heavy delta parishes to the north and east, but the dense pine and hardwood cover that built the town's timber economy still holds enough ground moisture to support termite and carpenter ant colonies. That same forest cover brings white-tailed deer and other wildlife close to town, and the ticks that travel with them, while decades of sawmill history left Oakdale with a mix of older wood-frame homes and outbuildings sitting close to the treeline.",
+    topPests: [
+      "Termites",
+      "Carpenter Ants",
+      "Ticks",
+      "Fire Ants",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Native subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Oakdale's sandy piney-woods soil drains faster than delta clay, but a century of sawmill activity left plenty of old stumps and buried wood debris around town that still hold termite colonies close to homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through summer",
+        note: "Oakdale grew up around sawmills after 1900, and many of the town's older wood-frame homes and outbuildings sit close enough to the pine treeline that carpenter ants move in easily wherever wood holds moisture or damage.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The pine and hardwood forest surrounding Oakdale supports a healthy white-tailed deer population, and ticks travel with that wildlife into yards that back up to the treeline.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "Cleared land near Oakdale's old timber tracts gives fire ants open, undisturbed ground to colonize, and mounds here tend to run through both residential yards and former mill sites.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Oakdale's older housing stock, much of it built during the sawmill boom of the early 1900s, gives cockroaches easy entry through aging foundations and plumbing.",
+      },
+    ],
+    localHook:
+      "Oakdale grew almost overnight after the Oakdale Lumber Company built a sawmill just north of town in 1900, and within a few years the town's mills were shipping tens of millions of board feet of pine lumber annually, making it one of the largest lumber shipping centers in the South. Timber built the town, and today two federal correctional institutions are among Allen Parish's largest employers.",
+    intro:
+      "Oakdale's pest pressure runs on the piney woods that built the town in the first place. The Oakdale Lumber Company's sawmill, built here in 1900, turned this stretch of Allen Parish into one of the South's largest lumber shipping centers within a few years, and the pine and hardwood forest that made that boom possible still surrounds town today. That forest cover holds enough moisture for termite and carpenter ant colonies even in Oakdale's faster-draining, sandier soil, brings deer and ticks close to yards backing onto the treeline, and left behind a century of wood-frame homes and outbuildings that carry real termite and carpenter ant exposure.",
+    sections: [
+      {
+        heading: "A sawmill boomtown in the piney woods",
+        body: "Oakdale owes its existence to the timber boom that swept this part of Louisiana in the early 1900s. The Oakdale Lumber Company built a mill just north of town in 1900, and within a few years the town's mills were shipping tens of millions of board feet of lumber a year, making Oakdale one of the largest lumber shipping centers in the South. That history left behind a town built largely of wood, much of it now a century old.",
+      },
+      {
+        heading: "Carpenter ants in a century-old timber town",
+        body: "Many of Oakdale's older homes and outbuildings date to the sawmill boom, and they often sit close enough to the surrounding pine forest that carpenter ants move between the two easily. Carpenter ants look for wood that holds moisture, whether from a roof leak, a damaged sill, or ground contact near the treeline, and Oakdale's mix of old construction and forest edge gives them plenty of options.",
+      },
+      {
+        heading: "Ticks from the surrounding forest",
+        body: "The pine and hardwood woods around Oakdale support a healthy population of white-tailed deer and other wildlife, and ticks travel with them into yards that back onto the treeline. Spring through fall is the highest-risk period, and anyone spending time in or near the forest edge around town should check for ticks after being outside.",
+      },
+      {
+        heading: "Termites in sandier piney-woods soil",
+        body: "Allen Parish's soil drains faster than the heavy clay found in the Mississippi Delta parishes to the north, which keeps some moisture-driven pest pressure lower here than in wetter parts of the state. But a century of sawmill activity left behind old stumps and buried wood debris throughout the area around Oakdale, and native subterranean termites still find plenty of moisture and food in that leftover wood close to homes.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older Oakdale homes near the treeline, since a century of leftover sawmill-era wood debris still supports termite colonies nearby.",
+      "Fix roof leaks and damaged wood promptly, since carpenter ants seek out moisture-damaged wood in older wood-frame construction.",
+      "Check for ticks after spending time near the forest edge, especially spring through fall when deer activity is highest.",
+      "Treat fire ant mounds early each spring on yards near cleared timber tracts or former mill sites.",
+    ],
+    costNote:
+      "Costs vary by property age, size, and infestation severity. PestRemovalUSA offers a free inspection and written estimate before any work begins in Oakdale.",
+    faqs: [
+      {
+        question: "Why does Oakdale have so much carpenter ant activity in older homes?",
+        answer:
+          "Oakdale grew up around sawmills after 1900, and much of its housing stock is a century old and sits close to the pine forest that surrounds town, giving carpenter ants easy access to any wood that holds moisture or damage.",
+      },
+      {
+        question: "Are ticks a bigger concern in Oakdale than other Louisiana towns?",
+        answer:
+          "The dense pine and hardwood forest around Oakdale supports a healthy deer population, and ticks travel with that wildlife into yards backing onto the treeline, so tick exposure tends to run higher here than in towns with less forest cover nearby.",
+      },
+      {
+        question: "Why does Oakdale still have termite pressure if the soil drains fast?",
+        answer:
+          "Allen Parish's sandy soil does drain faster than the clay found in delta parishes further north, but a century of sawmill activity left old stumps and buried wood debris scattered around Oakdale, and native subterranean termites still use that leftover wood as a food source close to homes.",
+      },
+      {
+        question: "What made Oakdale grow so quickly in the early 1900s?",
+        answer:
+          "The Oakdale Lumber Company built a sawmill just north of town in 1900, and within a few years Oakdale's mills were shipping tens of millions of board feet of lumber annually, making the town one of the largest lumber shipping centers in the South at the time.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Youngsville", slug: "youngsville-la", stateSlug: "louisiana" },
+      { name: "Franklin", slug: "franklin-la", stateSlug: "louisiana" },
+      { name: "Walker", slug: "walker-la", stateSlug: "louisiana" },
+      { name: "Grambling", slug: "grambling-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Oakdale, LA | Piney Woods Termites & Ticks",
+    metaDescription:
+      "Oakdale, LA pest control for termites, carpenter ants and ticks in the piney woods of Allen Parish. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "walker-la",
+    name: "Walker",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~6,400",
+    county: "Livingston Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Walker sits in Livingston Parish along the Amite River drainage in Louisiana's Florida Parishes, low-lying ground that proved catastrophic in August 2016 when the Amite and Comite Rivers overflowed in what is now called the Great Flood of 2016, leaving a large share of the parish's homes flooded for days. That kind of prolonged standing water raises humidity and mosquito pressure for weeks afterward, and homes repaired or rebuilt since then carry moisture exposure that older, never-flooded construction elsewhere does not.",
+    topPests: [
+      "Mosquitoes",
+      "Subterranean Termites",
+      "Rats",
+      "Fire Ants",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, worse after heavy rain",
+        note: "The Amite River floodplain around Walker held standing water for days during the August 2016 flood, and even routine heavy rain today leaves low-lying yards and ditches wet longer than better-drained ground elsewhere in the parish.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Homes repaired or rebuilt after the 2016 flood carry moisture exposure in framing and foundations that termites take advantage of, on top of the humidity Livingston Parish sees in a normal year.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Fall through winter",
+        note: "Flooding along the Amite River displaces rats from low-lying fields and drainage areas, and those rodents look for the nearest dry shelter, which is often a nearby home or outbuilding.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, noticeable during and after flooding",
+        note: "Red imported fire ants are known to link together into floating rafts during high water, a documented survival behavior, and those rafts often wash up on higher, drier ground, including yards, when floodwaters recede.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The humidity Livingston Parish carries most of the year, worsened by any home that took on moisture during the 2016 flood, gives cockroaches steady conditions to keep breeding indoors.",
+      },
+    ],
+    localHook:
+      "Walker sits along the Amite River in Livingston Parish, ground that suffered some of the worst damage in the disaster now known as the Great Flood of 2016, when more than 31 inches of rain fell across parts of the parish in a matter of days and officials estimated that up to 70 percent of the parish's homes took on flood damage. The Amite River crested at a record 46.20 feet at nearby Denham Springs, and the flooding reshaped how the parish thinks about drainage and rebuilding to this day.",
+    intro:
+      "Walker's pest pressure is still shaped by a flood that happened years ago. In August 2016, more than 31 inches of rain fell across Livingston Parish in a matter of days, and the Amite and Comite Rivers overflowed in what is now called the Great Flood of 2016, leaving as much as 70 percent of the parish's homes with flood damage. That kind of event does not just pass through, it leaves standing water and humidity behind for weeks, pushes rats and even fire ants, which are known to raft together on floodwater, toward higher and drier ground, and leaves a mark on any home that took on water and has since been repaired or rebuilt. Walker residents dealing with pest pressure today are often dealing with a problem that traces back to 2016.",
+    sections: [
+      {
+        heading: "Living with the memory of the Great Flood of 2016",
+        body: "Livingston Parish absorbed some of the worst damage anywhere in the August 2016 flood, when the Amite River crested at a record 46.20 feet at nearby Denham Springs and officials estimated up to 70 percent of the parish's more than 50,000 homes took on water. Walker sits directly along that same Amite River drainage, and the flood reshaped how residents think about drainage, foundations, and moisture in a home ever since.",
+      },
+      {
+        heading: "Standing water and a long mosquito season",
+        body: "The same low-lying ground along the Amite River that flooded catastrophically in 2016 still holds water longer than better-drained ground after routine heavy rain today. Ditches, low yards, and anywhere runoff collects near Walker keep mosquito breeding habitat active from March through November, and the wettest years extend that season further.",
+      },
+      {
+        heading: "Fire ants rafting on floodwater",
+        body: "Red imported fire ants have a documented survival behavior during flooding: entire colonies link legs together and form a floating raft that rides on top of the water until it reaches dry ground. Livingston Parish saw this happen during the 2016 flood, and it is still worth knowing that a yard which stays dry can still end up with a new fire ant colony after nearby flooding pushes a raft onto higher ground.",
+      },
+      {
+        heading: "Termites and rodents in rebuilt homes",
+        body: "Homes repaired or rebuilt after the 2016 flood sometimes carry moisture in framing or foundations that never fully dried out, conditions termites take advantage of during spring swarms. Flooding also displaced rats from low-lying fields and drainage areas near Walker, and many of those rodents settled into the nearest dry shelter available, which was often a home or outbuilding.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Walker home repaired or rebuilt after the 2016 flood, since retained moisture in framing can attract colonies.",
+      "Clear ditches and low-lying yard areas of debris so stormwater drains rather than sitting near the foundation.",
+      "Seal foundation gaps and garage entry points, since rats displaced by flooding look for the nearest dry shelter.",
+      "Treat fire ant mounds promptly after any nearby flooding, since rafting colonies often establish new mounds on ground that stayed dry.",
+    ],
+    costNote:
+      "Costs vary by property size, flood history, and infestation severity. PestRemovalUSA offers a free inspection and written estimate before any work begins in Walker.",
+    faqs: [
+      {
+        question: "Does the 2016 flood still affect pest problems in Walker?",
+        answer:
+          "Yes, in some homes. Livingston Parish took on catastrophic damage in the August 2016 flood, when the Amite River crested at a record 46.20 feet nearby, and homes repaired or rebuilt since then can carry retained moisture in framing or foundations that draws termites and supports higher humidity indoors.",
+      },
+      {
+        question: "Do fire ants really form rafts during floods near Walker?",
+        answer:
+          "Yes. Red imported fire ants link together into a floating raft during high water, a documented behavior, and Livingston Parish saw this happen during the 2016 flood. Those rafts can bring a new fire ant colony to a yard that never actually flooded, once the raft reaches dry ground.",
+      },
+      {
+        question: "Why is mosquito season so long in Walker?",
+        answer:
+          "Walker sits on low-lying ground along the Amite River, the same drainage that flooded catastrophically in 2016, and that ground still holds standing water longer than better-drained parts of the parish after routine heavy rain, keeping mosquitoes active from March through November.",
+      },
+      {
+        question: "Did the 2016 flood bring rats into Walker homes?",
+        answer:
+          "It did for some residents. Flooding displaced rats from low-lying fields and drainage areas around Walker, and many of those rodents sought out the nearest dry shelter, which was often a nearby home or outbuilding, a pattern that can repeat after any significant flooding event.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Youngsville", slug: "youngsville-la", stateSlug: "louisiana" },
+      { name: "Franklin", slug: "franklin-la", stateSlug: "louisiana" },
+      { name: "Oakdale", slug: "oakdale-la", stateSlug: "louisiana" },
+      { name: "Grambling", slug: "grambling-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Walker, LA | Flood-Area Termites & Mosquitoes",
+    metaDescription:
+      "Walker, LA pest control for mosquitoes, termites and rats in flood-prone Livingston Parish along the Amite River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "grambling-la",
+    name: "Grambling",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~5,300",
+    county: "Lincoln Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Grambling sits in the piney hills of Lincoln Parish in north Louisiana, where red clay and sandy loam soil drains faster than the state's delta and coastal ground but the dense surrounding pine forest still holds enough moisture to support termite colonies. Grambling State University's mix of dormitories, dining halls, and off-campus rental housing adds a food and shelter source that has little to do with weather, and the campus calendar, with heavy summer vacancy when students leave for break, shapes pest activity as much as the season does.",
+    topPests: [
+      "German Cockroaches",
+      "Termites",
+      "Mice",
+      "Fire Ants",
+      "Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, spikes around semester turnover",
+        note: "Grambling State University's dense student housing and dining facilities give German cockroaches a steady food source, and activity often spikes around the start and end of each semester as move-in and move-out traffic disturbs existing populations.",
+      },
+      {
+        name: "Native subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "The pine forest surrounding Grambling holds enough ground moisture to support native subterranean termite colonies in both campus buildings and the town's older housing.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, worse after student housing empties for summer break",
+        note: "Off-campus rental housing near Grambling State University often sits vacant for weeks during summer break, giving mice undisturbed time to move in before students return in the fall.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through summer",
+        note: "The mowed lawns and open grounds around Grambling State University's campus give fire ants plenty of open, sunny ground to colonize each year.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The piney hills surrounding Grambling carry a healthy deer population, and ticks travel with that wildlife into yards and campus grounds near the treeline.",
+      },
+    ],
+    localHook:
+      "Grambling State University traces its roots to 1901, when Black farmers in rural north Louisiana founded a school to educate their children, and the town that grew up around it later took its name from P.G. Grambling, a white sawmill owner who donated land for the campus when it was renamed Grambling College in 1946. Today the university remains the town's defining institution and largest employer, and its academic calendar still shapes daily life in Grambling as much as any season does.",
+    intro:
+      "Grambling's pest pressure follows the university calendar almost as closely as it follows the weather. The town grew up around what is now Grambling State University, founded in 1901 by Black farmers seeking to educate their children and later renamed for P.G. Grambling, the sawmill owner who donated the campus land in 1946. Dense student housing and dining facilities keep German cockroaches supplied with food year-round, but the heaviest activity tends to spike around semester turnover, while the weeks of summer vacancy in off-campus rentals give mice a quiet window to move in before fall classes bring students back. The pine forest surrounding town adds its own steady termite and tick pressure on top of all of that.",
+    sections: [
+      {
+        heading: "A university town that shapes its own pest calendar",
+        body: "Grambling State University, founded in 1901 and renamed in 1946 for P.G. Grambling, the sawmill owner who donated the land, remains Lincoln Parish's defining institution and Grambling's largest employer. The dense mix of dormitories, dining halls, and off-campus rentals built around the campus creates food and shelter conditions that follow the academic calendar as much as the weather, which is unusual for a town this size in north Louisiana.",
+      },
+      {
+        heading: "Cockroaches tied to semester turnover",
+        body: "German cockroaches thrive on the steady food supply that comes with campus dining facilities and dense student housing, and pest activity in Grambling often spikes right around move-in and move-out each semester, when disturbed populations scatter into new spaces. Off-campus housing near campus sees this pattern most consistently.",
+      },
+      {
+        heading: "Mice in empty summer rentals",
+        body: "Off-campus rental housing near Grambling State University often sits vacant for weeks during the summer break between semesters, and that quiet window gives mice an easy, undisturbed opportunity to move in before students return in the fall. Landlords and tenants who inspect and seal these units before summer break starts see far less mouse activity when the fall semester begins.",
+      },
+      {
+        heading: "Termites and ticks in the surrounding piney hills",
+        body: "The pine forest surrounding Grambling holds enough moisture in its red clay and sandy loam soil to support native subterranean termite colonies in both campus buildings and the town's older housing. That same forest carries a healthy deer population, and ticks travel with that wildlife into yards and campus grounds bordering the treeline each spring through fall.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal off-campus rental units before students leave for summer break, since vacant units give mice weeks of undisturbed access.",
+      "Schedule cockroach treatment around semester turnover in dense student housing, when move-in and move-out traffic disturbs existing populations.",
+      "Get a termite inspection for older Grambling homes and campus buildings, since the surrounding pine forest supports active colonies.",
+      "Check for ticks after time spent near the treeline bordering campus or town, especially spring through fall.",
+    ],
+    costNote:
+      "Costs vary by property type, occupancy, and infestation severity. PestRemovalUSA offers a free inspection and written estimate before any work begins in Grambling, including off-campus rental housing.",
+    faqs: [
+      {
+        question: "Why does Grambling see cockroach activity tied to the school calendar?",
+        answer:
+          "Grambling State University's dense dormitories, dining halls, and off-campus rentals give German cockroaches a steady food source, and pest activity often spikes around move-in and move-out each semester as disturbed populations scatter into new spaces.",
+      },
+      {
+        question: "Why do off-campus rentals near Grambling get mice in the fall?",
+        answer:
+          "Many off-campus rental units near Grambling State University sit vacant for weeks during summer break, and that undisturbed period gives mice an easy opportunity to move in before students return for the fall semester.",
+      },
+      {
+        question: "Where does the town of Grambling get its name?",
+        answer:
+          "The town takes its name from P.G. Grambling, a white sawmill owner who donated land for the campus when the school, founded in 1901, was renamed Grambling College in 1946. The university remains the town's defining institution today.",
+      },
+      {
+        question: "Are ticks a concern around Grambling's campus?",
+        answer:
+          "Yes. The pine forest surrounding Grambling carries a healthy deer population, and ticks travel with that wildlife into yards and campus grounds bordering the treeline, making spring through fall the season to watch most closely.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Youngsville", slug: "youngsville-la", stateSlug: "louisiana" },
+      { name: "Franklin", slug: "franklin-la", stateSlug: "louisiana" },
+      { name: "Oakdale", slug: "oakdale-la", stateSlug: "louisiana" },
+      { name: "Walker", slug: "walker-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Grambling, LA | Campus-Area Cockroaches & Mice",
+    metaDescription:
+      "Grambling, LA pest control for cockroaches, mice and termites near Grambling State University in Lincoln Parish. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

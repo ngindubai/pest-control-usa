@@ -4129,4 +4129,554 @@ export const mississippiCities: CityLocation[] = [
     metaDescription:
       "Pest control in Batesville, Mississippi. Panola County service for mosquitoes, ticks, termites, fire ants, and spiders near Sardis Lake. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "brandon-ms",
+    name: "Brandon",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~25,900",
+    county: "Rankin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brandon sits in Rankin County on the east side of the Ross Barnett Reservoir, the 33,000-acre Pearl River impoundment completed in 1963 that supplies Jackson's drinking water and draws heavy boating and fishing traffic all summer. The city has grown fast, more than 55 percent since 2000, and that growth has pushed new subdivisions onto former farmland and pine woods on the edges of town. Freshly cleared lots and construction-grade soil grading tend to disturb existing termite colonies and displace fire ant mounds, sending both looking for the nearest structure, while the reservoir's shoreline and feeder creeks keep humidity and standing water high enough to support mosquitoes well into fall.",
+    topPests: ["Eastern subterranean termites", "Fire ants", "Mosquitoes", "Ticks", "American cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "New construction on former farmland and cleared pine lots around Brandon's newer subdivisions disturbs existing colonies in the soil, and older homes closer to downtown sit on the same moisture-holding clay common across Rankin County.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The construction sites and cleared lots ringing Brandon's newer subdivisions give fire ant colonies loose, disturbed soil to move into, and mounds often show up in fresh sod before a new lawn has even filled in.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, heaviest near the reservoir shoreline",
+        note: "Ross Barnett Reservoir's 105 miles of shoreline and the feeder creeks that drain into it from Brandon's east side hold standing water long into fall, giving mosquitoes a longer season than inland Rankin County properties see.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The wooded lots and creek-side greenway trails near the reservoir put Brandon homes with tree cover in regular contact with the same deer-tick populations found throughout the Pearl River corridor.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm humid months",
+        note: "Brandon's humid summers and the moisture that collects around reservoir-adjacent crawl spaces and older sewer lines near downtown give American cockroaches, often called palmetto bugs locally, easy entry into basements and ground floors.",
+      },
+    ],
+    localHook:
+      "Brandon sits on the east shore of the Ross Barnett Reservoir, the Pearl River impoundment finished in 1963 that supplies Jackson's drinking water, and the city has grown more than 55 percent since 2000 as Jackson-area families move east into new subdivisions built on cleared pine and farmland.",
+    intro:
+      "Pest control in Brandon has to account for a city that has grown fast, more than 55 percent in population since 2000, and grown mostly outward into cleared farmland and pine woods along the east edge of the Ross Barnett Reservoir. New subdivisions built on freshly graded lots disturb whatever termite colonies and fire ant mounds were already living in that soil, which is why so many newer Brandon homes report activity within the first few years, not because the builders did anything wrong, just because construction stirs up what was already there. The reservoir itself, 105 miles of shoreline supplying Jackson's drinking water since 1963, keeps humidity and standing water high enough to stretch mosquito season well past what inland Rankin County sees, and the same wooded, creek-side terrain that makes Brandon's greenway trails popular also supports a steady tick population. Older homes closer to downtown deal with a more familiar set of problems: clay soil that holds moisture against foundations, and the humid summers that let American cockroaches move freely between crawl spaces and living areas.",
+    sections: [
+      {
+        heading: "Why do so many new Brandon subdivisions report termite and fire ant activity early?",
+        body: "It comes down to disturbed ground. Rankin County's fast growth has meant clearing former farmland and pine lots for new subdivisions on Brandon's east and south sides, and that construction grading routinely breaks up existing termite colonies and fire ant mounds that were already established in the soil before anyone broke ground. Displaced colonies look for the closest new structure, which is often a freshly built home with landscaping still settling in. It is not a sign of poor construction, it is simply what happens when growth this fast meets soil that already had pest activity in it.",
+      },
+      {
+        heading: "Does living near Ross Barnett Reservoir change mosquito exposure in Brandon?",
+        body: "Yes, noticeably. The reservoir carries 105 miles of shoreline and was built in 1963 to supply Jackson's drinking water, and that much water surface combined with the feeder creeks draining into it from Brandon's east side keeps mosquito breeding habitat active well past the point where inland properties dry out. Homes within a mile or two of the shoreline, or anywhere along a feeder creek, typically need a longer treatment season than properties further into town.",
+      },
+      {
+        heading: "What about ticks along Brandon's greenway trails and wooded lots?",
+        body: "The same tree cover and creek corridors that make Brandon's trails near the reservoir popular for walking and fishing also support tick populations that rely on deer moving through that habitat. Properties backing up to wooded greenway easements or creek lines see more consistent tick pressure than homes on cleared, open lots further from the water, and checking pets and kids after time on the trails is worth the habit.",
+      },
+      {
+        heading: "Why do older homes near downtown Brandon still deal with termites and roaches?",
+        body: "Downtown Brandon's older housing stock sits on the same clay soil found across most of Rankin County, and that soil holds moisture against foundations after rain in a way that keeps subterranean termite colonies active year-round underground, with swarms typically showing February through April. The same humidity that feeds termite activity also lets American cockroaches, what most Mississippians call palmetto bugs, move easily between crawl spaces, older sewer lines, and living areas once the weather turns warm.",
+      },
+    ],
+    prevention: [
+      "Ask for a termite inspection before finishing landscaping on any new-construction lot near Brandon's growing subdivisions, since grading routinely disturbs existing colonies.",
+      "Treat fresh sod and new lawns for fire ants early, before mounds establish in the loose, disturbed soil common on newly built lots.",
+      "Schedule mosquito treatment through October for any property within a mile or two of the Ross Barnett Reservoir shoreline or its feeder creeks.",
+      "Check for ticks after time on greenway trails near the reservoir, and treat yard perimeters on wooded or creek-adjacent lots each spring.",
+    ],
+    costNote:
+      "Pest control costs in Brandon vary with lot size, age of construction, and proximity to the reservoir; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Does new construction in Brandon really cause more pest problems?",
+        answer:
+          "Often, yes. Rankin County's fast growth, over 55 percent since 2000, has meant clearing farmland and pine lots for new subdivisions, and that grading disturbs termite colonies and fire ant mounds already living in the soil, which then move toward the nearest new structure.",
+      },
+      {
+        question: "How close to Ross Barnett Reservoir does a home need to be for mosquito control to matter?",
+        answer:
+          "Generally within a mile or two of the shoreline or any feeder creek draining into the reservoir. That much water surface, 105 miles of shoreline built up since 1963, keeps mosquito habitat active well past the point where inland Brandon properties dry out.",
+      },
+      {
+        question: "Are ticks a real concern on Brandon's greenway trails?",
+        answer:
+          "Yes. The wooded, creek-side terrain near the reservoir that makes the trails popular for walking also supports tick populations tied to deer moving through the same habitat, so pets and kids should be checked after time outdoors there.",
+      },
+      {
+        question: "Why do older Brandon homes near downtown have more termite and roach issues than newer ones?",
+        answer:
+          "Downtown Brandon sits on the same moisture-holding clay soil found across Rankin County, which keeps subterranean termite colonies active year-round and, combined with humid summers, gives American cockroaches easy entry through crawl spaces and older sewer lines.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Waveland", slug: "waveland-ms", stateSlug: "mississippi" },
+      { name: "New Albany", slug: "new-albany-ms", stateSlug: "mississippi" },
+      { name: "Kosciusko", slug: "kosciusko-ms", stateSlug: "mississippi" },
+      { name: "Moss Point", slug: "moss-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brandon, MS | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Brandon, Mississippi pest control for termites, fire ants, mosquitoes, and ticks near the Ross Barnett Reservoir. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "waveland-ms",
+    name: "Waveland",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~7,050",
+    county: "Hancock County",
+    climate: "hot-humid",
+    climateDriver:
+      "Waveland sits on the Gulf of Mexico in Hancock County, the community where Hurricane Katrina's eye came ashore in 2005 with a storm surge of 27 to 30 feet that destroyed nearly every structure within a mile of the beach. Twenty years of rebuilding have brought Waveland back with newer, mostly elevated construction, and NASA's Stennis Space Center just to the north sits inside the same humid, low-lying coastal terrain. That mix of coastal humidity, elevated pier-and-beam homes, and marshy drainage near the beachfront gives Waveland a pest pressure built around moisture and salt air rather than the inland clay-soil issues seen further from the coast.",
+    topPests: ["American cockroaches", "Mosquitoes", "Subterranean termites", "Fire ants", "Silverfish"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest in summer humidity",
+        note: "Waveland's beachfront humidity and the elevated pier-and-beam construction common since the post-Katrina rebuild give American cockroaches, well known locally as palmetto bugs, plenty of damp crawl space to move through underneath homes.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The marshy drainage areas near Waveland's beachfront and the bayous feeding into the Gulf hold standing water for most of the year, giving mosquitoes one of the longest active seasons anywhere on the Mississippi coast.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "The newer homes built during Waveland's post-Katrina rebuild sit on freshly disturbed coastal soil, and older surviving structures further from the beach deal with the same moisture-driven termite pressure found across the Gulf coast.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The sandy coastal soil around Waveland drains fast enough that fire ant colonies spread easily through yards and open lots near the beach and along Highway 90.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, most active in humid months",
+        note: "The high humidity that comes with living this close to the Gulf keeps bathrooms, closets, and storage areas in Waveland homes damp enough for silverfish to thrive, especially in older, less-ventilated homes further from the newer elevated construction.",
+      },
+    ],
+    localHook:
+      "Waveland took the direct eye of Hurricane Katrina in 2005, with a storm surge of 27 to 30 feet that leveled nearly every building within a mile of the beach, and the town has spent two decades rebuilding with newer, mostly elevated construction that sits inside the same humid Gulf coast terrain that also hosts NASA's Stennis Space Center just to the north.",
+    intro:
+      "Pest control in Waveland works around a town that rebuilt itself almost entirely after 2005. Hurricane Katrina's eye came ashore here with a storm surge of 27 to 30 feet, destroying nearly every structure within a mile of the beach, and the newer, mostly elevated homes built since then sit on the same humid, low-lying coastal ground as the older houses that survived further inland. That humidity is the real driver of Waveland's pest pressure: American cockroaches, known locally as palmetto bugs, move easily through damp crawl spaces under elevated pier-and-beam construction, and marshy drainage areas near the beachfront keep mosquitoes active from March through November, one of the longest seasons on the Mississippi coast. Sandy soil lets fire ants spread fast through open lots near Highway 90, and the same moisture that supports coastal termite activity also keeps closets and storage areas damp enough for silverfish. None of this is unusual for a Gulf coast town, but Waveland's rebuilt housing stock and its proximity to marshland make the moisture problem more constant than in towns set back further from the beach.",
+    sections: [
+      {
+        heading: "How did the Katrina rebuild change Waveland's pest exposure?",
+        body: "Substantially, though maybe not in the direction people expect. The storm surge that came ashore here in 2005, 27 to 30 feet at its peak, destroyed nearly every building within a mile of the beach, and the rebuild since then has favored elevated pier-and-beam construction meant to survive future storms. That construction style creates open, damp crawl space underneath homes, which gives American cockroaches and other moisture-loving pests a place to live that a slab-foundation home further inland would not have.",
+      },
+      {
+        heading: "Why is mosquito season longer in Waveland than in inland Hancock County?",
+        body: "The marshy drainage areas near the beachfront and the bayous feeding the Gulf hold standing water almost year-round, not just after a hard rain, and that gives Waveland one of the longest active mosquito seasons anywhere on the coast, typically March through November. Properties closest to the marsh or any drainage canal see the heaviest pressure, while homes set back a few blocks toward Highway 90 get some relief from the drier ground.",
+      },
+      {
+        heading: "Do fire ants spread faster in Waveland's sandy coastal soil?",
+        body: "Yes, noticeably faster than in the clay soil found further inland in Mississippi. The sandy ground along the beach and around Highway 90 drains quickly, and fire ant colonies use that loose soil to spread through yards and vacant lots without much resistance. New sod on rebuilt properties is especially vulnerable before it has time to establish a full root system.",
+      },
+      {
+        heading: "What pest issues come with Waveland's older, pre-Katrina homes?",
+        body: "The handful of older structures that survived the storm, along with homes built further from the beach in the years since, deal with the same subterranean termite pressure common across the Gulf coast, tied to moisture-holding soil and warm year-round temperatures. That same dampness supports silverfish in bathrooms and closets, particularly in older homes that were not built with the same ventilation standards used in the newer elevated construction.",
+      },
+    ],
+    prevention: [
+      "Have crawl spaces under elevated pier-and-beam homes inspected regularly for moisture and cockroach activity, since that open space is common in Waveland's post-Katrina rebuild.",
+      "Schedule mosquito treatment through November for any property near beachfront marsh or a drainage canal.",
+      "Treat new sod on rebuilt lots for fire ants early, before colonies establish in the fast-draining sandy soil.",
+      "Improve ventilation in older, pre-Katrina homes to reduce the humidity that draws silverfish into closets and storage areas.",
+    ],
+    costNote:
+      "Pest control costs in Waveland vary with foundation type, elevation, and distance from the beach or marsh; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why do elevated homes in Waveland still get cockroaches?",
+        answer:
+          "The pier-and-beam construction common since the post-Katrina rebuild leaves open, humid crawl space underneath the house, and American cockroaches, called palmetto bugs locally, use that damp space to move around and find their way inside.",
+      },
+      {
+        question: "Is mosquito season really longer in Waveland than other Mississippi towns?",
+        answer:
+          "Yes. The marshy drainage areas near the beachfront and the bayous feeding the Gulf hold standing water most of the year, giving Waveland an active mosquito season from March through November, longer than most inland Hancock County properties see.",
+      },
+      {
+        question: "How did Hurricane Katrina change the pest picture in Waveland?",
+        answer:
+          "The 2005 storm surge, 27 to 30 feet at its peak, destroyed nearly every building within a mile of the beach, and the elevated rebuild since then created more open, damp crawl space under homes than the older slab construction it replaced, which changed what kind of pest pressure the town's housing stock deals with.",
+      },
+      {
+        question: "Do fire ants spread faster near the Waveland beachfront?",
+        answer:
+          "They do. The sandy coastal soil along the beach and Highway 90 drains fast and offers little resistance, so fire ant colonies spread through yards and open lots more easily than in the heavier clay soil found further inland in Mississippi.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Brandon", slug: "brandon-ms", stateSlug: "mississippi" },
+      { name: "New Albany", slug: "new-albany-ms", stateSlug: "mississippi" },
+      { name: "Kosciusko", slug: "kosciusko-ms", stateSlug: "mississippi" },
+      { name: "Moss Point", slug: "moss-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Waveland, MS | Cockroaches, Mosquitoes & Termites",
+    metaDescription:
+      "Waveland, Mississippi pest control for cockroaches, mosquitoes, termites, and fire ants along the Gulf coast. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-albany-ms",
+    name: "New Albany",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~7,700",
+    county: "Union County",
+    climate: "hot-humid",
+    climateDriver:
+      "New Albany sits in Union County in the North Central Hills of Mississippi, where the Tanglefoot Trail, a 43-mile rail trail built on the old Ripley and New Albany Railroad line once operated by William Faulkner's grandfather, runs through wooded, hilly terrain on the edge of town. The city's economy has centered on upholstered furniture manufacturing since Morris Futorian opened the Stratford Company here in 1948, and that history left New Albany with a mix of older frame homes near downtown and newer construction spreading into the hill-country woods along the trail corridor. Clay soil common to north Mississippi's hill country holds moisture against foundations, and the wooded trail corridor supports the same tick and spider populations found throughout the region.",
+    topPests: ["Eastern subterranean termites", "Brown recluse spiders", "Ticks", "Fire ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "New Albany's older frame homes near downtown, some dating to the furniture industry's early growth under Morris Futorian's Stratford Company in the 1940s, sit on the same moisture-holding clay soil that drives termite pressure across north Mississippi's hill country.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "The wooded terrain along the Tanglefoot Trail and the older storage buildings tied to New Albany's furniture manufacturing history give brown recluse spiders the undisturbed, cluttered spaces they prefer, particularly in garages, sheds, and older warehouse-adjacent properties.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The Tanglefoot Trail's wooded, 43-mile corridor draws heavy foot and bike traffic through grassy and forested terrain that supports tick populations relying on deer as hosts, which matters for homes backing up to the trail as much as for trail users themselves.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "Open lots and newer subdivisions spreading from downtown New Albany into the surrounding hill country give fire ant colonies loose, disturbed soil to establish in, especially where construction has recently cleared wooded ground.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through February",
+        note: "As temperatures drop, mice move from the fields and wood lines surrounding New Albany's furniture plants and residential edges into homes and outbuildings seeking warmth, a seasonal pattern common across rural Union County.",
+      },
+    ],
+    localHook:
+      "New Albany is the birthplace of Nobel Prize winning author William Faulkner, and the Tanglefoot Trail, Mississippi's longest rail trail at 43 miles, follows the route of a rail line his grandfather once operated, running through the wooded hill country on the edge of a town whose economy has centered on upholstered furniture manufacturing since 1948.",
+    intro:
+      "Pest control in New Albany has to account for a town shaped by two things: the wooded hill-country terrain the Tanglefoot Trail runs through, and a furniture manufacturing history stretching back to Morris Futorian's Stratford Company in 1948. Older frame homes near downtown, some from that same era of industrial growth, sit on the moisture-holding clay soil common across north Mississippi's hill country, which keeps subterranean termite colonies active underground year-round with swarms typically appearing March through May. The Tanglefoot Trail's 43 miles of wooded corridor, built on the old rail line William Faulkner's grandfather once operated, draws heavy foot and bike traffic through terrain that also supports ticks and brown recluse spiders, the kind of clutter-loving spider that finds plenty of undisturbed space in garages, sheds, and older buildings tied to the furniture industry. Fire ants move into the loose soil of newer subdivisions spreading from downtown into the surrounding woods, and as temperatures drop each fall, mice head from the surrounding fields and wood lines into homes and outbuildings looking for warmth.",
+    sections: [
+      {
+        heading: "Does the Tanglefoot Trail bring more pest pressure to nearby New Albany homes?",
+        body: "It does, mainly through ticks and brown recluse spiders. The trail runs 43 miles through wooded, grassy hill-country terrain, following the old Ripley and New Albany Railroad line that William Faulkner's grandfather once ran, and that much wooded corridor supports tick populations using local deer as hosts. Homes backing directly onto the trail, or with wood lines and unmowed grass near their property edge, see more consistent tick exposure than homes closer to downtown.",
+      },
+      {
+        heading: "Why do brown recluse spiders show up so often in New Albany's older buildings?",
+        body: "New Albany's identity as a furniture manufacturing town since 1948, when Morris Futorian opened the Stratford Company here, left the area with older warehouses, storage buildings, and frame homes that often go undisturbed for long stretches. Brown recluse spiders prefer exactly that kind of clutter, boxes, stacked lumber, and rarely used closets or garages, and they turn up more often in these older structures than in newer, more actively used homes.",
+      },
+      {
+        heading: "How does hill-country clay soil affect termite risk in New Albany?",
+        body: "Union County sits in the North Central Hills, and the clay soil found through most of the region holds moisture against home foundations after rain, giving eastern subterranean termites the damp, stable conditions they need to build colonies. Older homes near downtown New Albany, many dating to the town's early furniture-industry growth, are especially exposed, and spring inspection ahead of the March through May swarm season catches most colonies before real damage sets in.",
+      },
+      {
+        heading: "Why do mice become a bigger problem in New Albany homes each fall?",
+        body: "As the surrounding fields and wood lines cool off toward the end of the year, mice look for warmer, more stable shelter, and homes and outbuildings on the edges of New Albany, especially properties near the furniture plants and the wooded terrain around the Tanglefoot Trail, offer exactly that. Sealing gaps around foundations and utility lines before the weather turns is the most effective single step a homeowner can take heading into the fall and winter months.",
+      },
+    ],
+    prevention: [
+      "Schedule spring termite inspections for older downtown homes ahead of the March through May swarm season, given north Mississippi's moisture-holding clay soil.",
+      "Clear clutter from garages, sheds, and storage areas to reduce brown recluse habitat, especially in older buildings tied to the furniture industry.",
+      "Check for ticks after time on the Tanglefoot Trail, and treat yard perimeters on properties backing onto the trail each spring and fall.",
+      "Seal foundation and utility gaps before fall, when mice move from surrounding fields into homes and outbuildings seeking warmth.",
+    ],
+    costNote:
+      "Pest control costs in New Albany vary with home age, lot size, and proximity to the Tanglefoot Trail or wooded terrain; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Does the Tanglefoot Trail increase tick risk for nearby New Albany homes?",
+        answer:
+          "Yes. The trail's 43 miles of wooded, grassy corridor, built on the old rail line William Faulkner's grandfather once operated, supports tick populations that rely on deer as hosts, and homes backing onto the trail see more consistent exposure than those closer to downtown.",
+      },
+      {
+        question: "Why are brown recluse spiders common in New Albany's older buildings?",
+        answer:
+          "New Albany's furniture manufacturing history, dating to Morris Futorian's Stratford Company in 1948, left the town with older warehouses and storage buildings that often sit undisturbed, and brown recluse spiders prefer exactly that kind of clutter and low foot traffic.",
+      },
+      {
+        question: "Why do older homes near downtown New Albany have more termite problems?",
+        answer:
+          "Union County's North Central Hills clay soil holds moisture against foundations after rain, and many of the older homes near downtown date to the town's early furniture-industry growth, giving eastern subterranean termites decades of stable, damp conditions to work with.",
+      },
+      {
+        question: "When do mice become a problem in New Albany?",
+        answer:
+          "Mostly from September through February, as mice move out of the fields and wood lines surrounding New Albany's furniture plants and residential edges and into homes and outbuildings looking for warmth as the weather cools.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Brandon", slug: "brandon-ms", stateSlug: "mississippi" },
+      { name: "Waveland", slug: "waveland-ms", stateSlug: "mississippi" },
+      { name: "Kosciusko", slug: "kosciusko-ms", stateSlug: "mississippi" },
+      { name: "Moss Point", slug: "moss-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New Albany, MS | Termites, Spiders & Ticks",
+    metaDescription:
+      "New Albany, Mississippi pest control for termites, brown recluse spiders, ticks, and fire ants near the Tanglefoot Trail. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kosciusko-ms",
+    name: "Kosciusko",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~6,800",
+    county: "Attala County",
+    climate: "hot-humid",
+    climateDriver:
+      "Kosciusko sits in Attala County along the Natchez Trace Parkway at milepost 160, in the rolling prairie and hill country of central Mississippi, roughly 65 miles northeast of Jackson. The town, named for Polish military engineer Tadeusz Kosciuszko, is the only US city bearing his name, and the wooded parkway corridor running through the area supports the same tick and spider populations found throughout central Mississippi's hill country. The county's mix of pastureland and mature hardwood forest, along with clay soil common to the region, gives Kosciusko the moisture-driven termite and tick pressure typical of an inland, forested central Mississippi county seat.",
+    topPests: ["Ticks", "Eastern subterranean termites", "Fire ants", "Spiders", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The wooded Natchez Trace Parkway corridor running through Attala County draws hikers, campers, and hunters into grassy and forested terrain that supports tick populations relying on deer as hosts, a factor that affects properties near the parkway more than in-town homes.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Attala County's clay soil, common across central Mississippi's hill and prairie country, holds moisture against foundations after rain, and Kosciusko's older homes near downtown carry the same steady termite pressure found in most county seats this age in the region.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The pastureland surrounding Kosciusko gives fire ant colonies open, undisturbed ground to spread from, and mounds regularly move from farm fields into residential lawns at the edge of town.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer into fall",
+        note: "Mature hardwood forest and rural outbuildings common around Kosciusko give both black widow and brown recluse spiders the undisturbed shelter they prefer, particularly in barns, sheds, and woodpiles on the county's more rural properties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Creeks and low-lying drainage areas that feed into the county's river systems hold standing water through the warm months, giving Kosciusko a typical central Mississippi mosquito season.",
+      },
+    ],
+    localHook:
+      "Kosciusko, the only US city named for Polish military engineer Tadeusz Kosciuszko, sits along the Natchez Trace Parkway at milepost 160 in Attala County and is best known today as the birthplace of Oprah Winfrey, who spent her early childhood years here before moving to Milwaukee.",
+    intro:
+      "Pest control in Kosciusko works around a county seat shaped by the Natchez Trace Parkway, the wooded, historic corridor that runs through Attala County and gives this part of central Mississippi its rolling, forested character. The parkway's mature hardwood forest supports a steady tick population that relies on deer moving through the same terrain hikers, campers, and hunters use, and that same wooded ground shelters both black widow and brown recluse spiders in barns, sheds, and rural outbuildings. Kosciusko's older homes near downtown sit on clay soil typical of central Mississippi's hill and prairie country, holding moisture against foundations in a way that keeps subterranean termite colonies active year-round, with swarms usually appearing between March and May. Fire ants move easily from the pastureland surrounding town into residential lawns at the edge of Kosciusko, and creeks feeding the county's river systems keep mosquitoes active from April through October. None of this is unusual for an inland, forested central Mississippi county seat, but the parkway corridor's foot traffic and the amount of rural outbuilding space in Attala County both push tick and spider exposure a bit higher than a more built-up town this size would typically see.",
+    sections: [
+      {
+        heading: "Does the Natchez Trace Parkway increase tick exposure around Kosciusko?",
+        body: "Yes, for properties near the corridor. The parkway runs through Attala County at milepost 160, and its wooded, historic route draws steady foot and vehicle traffic from hikers, campers, and hunters moving through grassy, forested terrain that supports tick populations relying on local deer as hosts. Homes near the parkway or with wood lines close to their property see more consistent tick pressure than homes further into downtown Kosciusko.",
+      },
+      {
+        heading: "Why do both black widow and brown recluse spiders turn up around Kosciusko?",
+        body: "Attala County's mix of mature hardwood forest and rural outbuildings, barns, sheds, and woodpiles common on the area's farm properties, gives both spider species exactly the undisturbed shelter they prefer. Black widows tend to favor outdoor structures and woodpiles, while brown recluse spiders move indoors more readily into cluttered garages and storage areas, and late summer into fall is when both are most active around Kosciusko's more rural properties.",
+      },
+      {
+        heading: "How does Attala County's clay soil affect termite risk in Kosciusko?",
+        body: "The clay soil found across central Mississippi's hill and prairie country, including the ground under much of Kosciusko, holds moisture against home foundations after rain, giving eastern subterranean termites the stable, damp conditions they need to build and sustain colonies. Older homes near downtown are especially exposed given their age, and spring inspection ahead of the March through May swarm season is the most effective way to catch a colony before it causes visible damage.",
+      },
+      {
+        heading: "Why do fire ants move from farmland into Kosciusko's residential lawns?",
+        body: "The pastureland surrounding Kosciusko gives fire ant colonies open, undisturbed soil to establish and spread through, and mounds regularly migrate from farm fields at the edge of town into nearby residential lawns, particularly during the warmer months from April through October. Properties closest to the county's working farmland tend to see mound activity earlier in the season than homes deeper into town.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after time on the Natchez Trace Parkway, and treat yard perimeters on properties near the corridor each spring and fall.",
+      "Clear woodpiles, barns, and cluttered outbuildings to reduce shelter for black widow and brown recluse spiders on rural Attala County properties.",
+      "Schedule spring termite inspections for older downtown homes, given the moisture-holding clay soil common across central Mississippi.",
+      "Treat fire ant mounds near property edges bordering farmland before colonies spread into residential lawns.",
+    ],
+    costNote:
+      "Pest control costs in Kosciusko vary with property size, rural exposure, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Does living near the Natchez Trace Parkway change pest control needs in Kosciusko?",
+        answer:
+          "Yes, mainly for ticks. The parkway's wooded terrain at milepost 160 draws heavy foot traffic and supports tick populations tied to deer moving through the corridor, so homes near the parkway or with nearby wood lines see more consistent exposure than in-town properties.",
+      },
+      {
+        question: "Is Kosciusko really the only US city named for Tadeusz Kosciuszko?",
+        answer:
+          "Yes, it is the only city in the United States named for the Polish military engineer, and the town sits along the Natchez Trace Parkway in Attala County, also known today as the birthplace of Oprah Winfrey.",
+      },
+      {
+        question: "Why do both black widow and brown recluse spiders show up around Kosciusko?",
+        answer:
+          "Attala County's combination of mature hardwood forest and rural outbuildings gives both species the undisturbed shelter they prefer, black widows more often outdoors in woodpiles and brown recluse spiders more often indoors in cluttered garages and storage areas.",
+      },
+      {
+        question: "Do fire ants really move from farmland into Kosciusko's lawns?",
+        answer:
+          "They do. The pastureland surrounding town gives fire ant colonies open soil to spread through, and mounds regularly migrate from farm fields into residential lawns at the edge of Kosciusko, especially April through October.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Brandon", slug: "brandon-ms", stateSlug: "mississippi" },
+      { name: "Waveland", slug: "waveland-ms", stateSlug: "mississippi" },
+      { name: "New Albany", slug: "new-albany-ms", stateSlug: "mississippi" },
+      { name: "Moss Point", slug: "moss-point-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kosciusko, MS | Ticks, Termites & Spiders",
+    metaDescription:
+      "Kosciusko, Mississippi pest control for ticks, termites, fire ants, and spiders near the Natchez Trace Parkway. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "moss-point-ms",
+    name: "Moss Point",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~11,900",
+    county: "Jackson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Moss Point sits at the confluence of the Pascagoula and Escatawpa rivers on the eastern end of the Mississippi Gulf coast, giving the town far more river and marsh frontage than most Jackson County communities its size. The city's economy has long been tied to the shipbuilding industry centered at Ingalls Shipbuilding in neighboring Pascagoula, one of the largest employers on the Gulf coast, and Moss Point's own riverfront neighborhoods sit close to tidal marsh and estuary habitat that holds standing water through most of the year. That combination of river confluence, tidal marsh, and Gulf coast humidity drives a mosquito and moisture problem more constant than in towns set back further from the water.",
+    topPests: ["Mosquitoes", "American cockroaches", "Subterranean termites", "Fire ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, year-round in mild winters",
+        note: "Moss Point's position at the confluence of the Pascagoula and Escatawpa rivers surrounds the town with tidal marsh and estuary habitat that holds standing water almost continuously, giving it one of the longer mosquito seasons on the Mississippi Gulf coast.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest in summer humidity",
+        note: "The humidity that comes with living this close to two river systems and the Gulf keeps crawl spaces, older sewer lines, and riverfront properties damp enough for American cockroaches, known locally as palmetto bugs, to move freely between outdoor and indoor spaces.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "Moss Point's older riverfront neighborhoods, many built during the town's growth alongside the Gulf coast shipbuilding industry, sit on moisture-holding soil that keeps subterranean termite colonies active underground through the winter.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "Open lots and marsh-adjacent yards around Moss Point give fire ant colonies soil that stays workable through more of the year than drier inland Mississippi ground, and mounds often turn up close to drainage ditches and canal banks.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, heaviest in fall and winter",
+        note: "The riverfront industrial areas and older neighborhoods near the Pascagoula River give rats easy access to food and shelter, and cooler weather each fall pushes more activity from waterfront storage areas into nearby homes.",
+      },
+    ],
+    localHook:
+      "Moss Point sits at the confluence of the Pascagoula and Escatawpa rivers on the eastern end of the Mississippi Gulf coast, and its economy has long been tied to the shipbuilding industry centered at Ingalls Shipbuilding in neighboring Pascagoula, one of the largest private employers in the state.",
+    intro:
+      "Pest control in Moss Point has to work around a town built where two rivers meet the Gulf. Sitting at the confluence of the Pascagoula and Escatawpa rivers, Moss Point has more tidal marsh and riverfront frontage than most Jackson County communities its size, and that estuary habitat holds standing water almost continuously, giving the town one of the longer mosquito seasons on the Mississippi coast, active from March through November and sometimes through mild winters. The same humidity that comes with two river systems and Gulf proximity keeps American cockroaches, known locally as palmetto bugs, moving freely through damp crawl spaces and older sewer lines near the riverfront. Moss Point's older neighborhoods, many built up during the town's growth alongside the Gulf coast shipbuilding industry centered at Ingalls Shipbuilding next door in Pascagoula, sit on moisture-holding soil that keeps subterranean termites active underground through the winter months. Fire ants spread through marsh-adjacent yards and drainage ditches more readily than in drier inland Mississippi soil, and rats move from riverfront industrial storage areas into nearby homes as the weather cools each fall.",
+    sections: [
+      {
+        heading: "Why does Moss Point have such a long mosquito season?",
+        body: "The town's location at the confluence of the Pascagoula and Escatawpa rivers surrounds it with tidal marsh and estuary habitat that holds standing water almost year-round, not just after rain. That gives Moss Point a mosquito season stretching from March through November, and in mild winters activity rarely drops off completely. Properties closest to the riverfront or any marsh-adjacent drainage ditch see the heaviest pressure and benefit most from a treatment plan that runs longer than the standard Gulf coast season.",
+      },
+      {
+        heading: "Does Moss Point's shipbuilding history affect its housing stock and pest pressure?",
+        body: "It does, mostly through the age and location of the housing built up around the industry. Moss Point grew alongside the Gulf coast shipbuilding industry centered at Ingalls Shipbuilding in neighboring Pascagoula, one of the largest private employers in Mississippi, and many of the town's older riverfront neighborhoods date to that growth period. Those homes sit on moisture-holding soil close to the river, which keeps subterranean termite colonies active underground through the winter rather than slowing down the way termite activity typically does further inland.",
+      },
+      {
+        heading: "Why are American cockroaches such a constant presence in Moss Point?",
+        body: "Humidity is the short answer. Sitting where two rivers meet the Gulf gives Moss Point a level of ambient moisture that keeps crawl spaces, older sewer lines, and riverfront properties damp enough for American cockroaches, what most people here call palmetto bugs, to move freely between outdoor drainage areas and indoor spaces year-round. Older homes with less-sealed foundations near the riverfront tend to see the most consistent activity.",
+      },
+      {
+        heading: "What draws rats into Moss Point homes each fall?",
+        body: "The riverfront industrial areas tied to the shipbuilding economy, along with older neighborhoods nearby, give rats reliable food and shelter through the warmer months, and as temperatures drop each fall, that activity pushes further into residential areas as rats look for warmer indoor spaces. Homes near waterfront storage buildings or older commercial areas along the river see the most fall and winter rat pressure in Moss Point.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito treatment through November, or year-round in mild winters, for any property near the riverfront or marsh-adjacent drainage.",
+      "Have crawl spaces and older sewer line areas inspected regularly for American cockroach activity, especially in riverfront neighborhoods.",
+      "Schedule winter termite inspections for older homes near the river, since Moss Point's moisture-holding soil keeps colonies active underground through the cold months.",
+      "Seal foundation and utility gaps before fall to reduce rat entry from riverfront industrial and storage areas.",
+    ],
+    costNote:
+      "Pest control costs in Moss Point vary with proximity to the river or marsh and the age of the property; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why does Moss Point have a longer mosquito season than other Mississippi towns?",
+        answer:
+          "Its location at the confluence of the Pascagoula and Escatawpa rivers surrounds the town with tidal marsh and estuary habitat that holds standing water almost year-round, giving Moss Point an active mosquito season from March through November and sometimes through mild winters.",
+      },
+      {
+        question: "How does Moss Point's shipbuilding history connect to its pest issues?",
+        answer:
+          "Moss Point grew alongside the Gulf coast shipbuilding industry centered at Ingalls Shipbuilding in neighboring Pascagoula, and the older riverfront neighborhoods built up during that growth sit on moisture-holding soil that keeps subterranean termites active underground through the winter.",
+      },
+      {
+        question: "Are American cockroaches worse in Moss Point than inland Mississippi towns?",
+        answer:
+          "Generally yes. Sitting where two rivers meet the Gulf keeps humidity high enough that American cockroaches, known locally as palmetto bugs, move freely between outdoor drainage areas and indoor crawl spaces year-round, more consistently than in drier inland towns.",
+      },
+      {
+        question: "When do rats become a problem in Moss Point?",
+        answer:
+          "Mostly in fall and winter, when cooling temperatures push rats from riverfront industrial and storage areas tied to the shipbuilding economy into nearby homes looking for warmth.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Brandon", slug: "brandon-ms", stateSlug: "mississippi" },
+      { name: "Waveland", slug: "waveland-ms", stateSlug: "mississippi" },
+      { name: "New Albany", slug: "new-albany-ms", stateSlug: "mississippi" },
+      { name: "Kosciusko", slug: "kosciusko-ms", stateSlug: "mississippi" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Moss Point, MS | Mosquitoes, Termites & Roaches",
+    metaDescription:
+      "Moss Point, Mississippi pest control for mosquitoes, termites, cockroaches, and fire ants near the Pascagoula River. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

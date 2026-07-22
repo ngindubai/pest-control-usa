@@ -13456,4 +13456,534 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Auburndale, Florida. Polk County service for subterranean termites, mosquitoes across 30-plus lakes, ghost ants, and palmetto bugs. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "callaway-fl",
+    name: "Callaway",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~14,100",
+    county: "Bay County",
+    climate: "hot-humid",
+    climateDriver:
+      "Callaway sits on the Gulf coast of the Florida Panhandle in Bay County, bordered by East Bay and North Bay, where humid subtropical air and a shallow water table keep the ground damp for most of the year. Hurricane Michael's Category 5 landfall near Bay County in October 2018 stripped much of the city's tree canopy and left behind cleared lots and storm debris that created new breeding and nesting ground for several pests during the long rebuilding period that followed. Warm, wet Gulf coast winters mean pest pressure rarely drops off the way it does farther north.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "American Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Much of Callaway's housing stock was repaired or rebuilt after Hurricane Michael, and new wood to soil contact points around additions and repairs give subterranean termites fresh entry routes into structures that didn't have them before 2018.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Mound building spring through fall, present year-round",
+        note: "The cleared lots and disturbed soil left behind after Hurricane Michael's cleanup created ideal open ground for fire ants to colonize across Callaway, and mounds are still common on vacant and rebuilt lots today.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, year-round in mild winters",
+        note: "Callaway's location along the tidal marsh edges of East Bay and North Bay gives mosquitoes reliable breeding habitat close to residential neighborhoods, and low-lying storm-damaged lots that hold water add to the pressure.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Bay County's humid Gulf air keeps palmetto bugs active through every season, and older Callaway homes with storm-related gaps around soffits and foundations give them easy entry.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "As tree canopy has regrown since Hurricane Michael, roof rats have returned to using overhanging limbs as a route onto Callaway rooflines, particularly in neighborhoods where mature trees survived or were replanted.",
+      },
+    ],
+    localHook:
+      "Callaway sits along East Bay in Bay County and was one of the hardest-hit communities when Hurricane Michael made landfall near Panama City as a Category 5 storm in October 2018, an event that stripped much of the city's tree canopy and left a lasting mark on its housing stock during the years of rebuilding that followed.",
+    intro:
+      "Callaway, Florida sits on the shores of East Bay in Bay County, part of the Florida Panhandle's Gulf coast. The city's pest pressure today is shaped as much by Hurricane Michael's 2018 landfall as it is by the region's humid subtropical climate. Cleared lots, storm debris, and a housing stock that mixes older homes with post-storm rebuilds give fire ants, subterranean termites, and rodents different opportunities than they'd find in a town that hadn't been through a direct Category 5 hit. Add in the mosquito breeding habitat along East Bay and North Bay's tidal marsh edges, and Callaway homeowners deal with a pest calendar that runs nearly year-round.",
+    sections: [
+      {
+        heading: "Fire Ants and Termites on Callaway's Rebuilt Lots",
+        body: "Hurricane Michael's cleanup left behind cleared, disturbed ground across Callaway, and open disturbed soil is exactly the kind of ground fire ants prefer for new colonies. Mounds are still common on vacant lots and in yards that were regraded during rebuilding. Subterranean termites have found new opportunities too: additions, repairs, and full rebuilds completed since 2018 created fresh wood to soil contact points that many of these structures didn't have before the storm, and Bay County's damp Gulf coast soil supports termite activity year-round once that contact exists.",
+      },
+      {
+        heading: "Mosquitoes Along East Bay and North Bay",
+        body: "Callaway's location on the shores of East Bay, with North Bay close by, puts most neighborhoods within reach of tidal marsh mosquito breeding habitat. The season runs from March through November in a typical year and rarely stops completely during Callaway's mild Panhandle winters. Low areas that still hold water after heavy rain, including some lots that were never fully regraded after storm cleanup, add extra breeding sites close to homes. Homeowners near either bay tend to see the heaviest pressure right after a summer downpour, when standing water in yards and drainage ditches gives mosquitoes a fresh place to lay eggs within days.",
+      },
+      {
+        heading: "Palmetto Bugs and Roof Rats in a Rebuilding City",
+        body: "American cockroaches, known locally as palmetto bugs, stay active year-round in Bay County's humid Gulf air, and they take advantage of gaps around soffits and foundations that are more common in older Callaway homes and in some storm-repaired structures. Roof rats had less canopy access right after Hurricane Michael stripped the tree cover, but as trees have regrown and been replanted across the city, rats have returned to using overhanging limbs to reach rooflines, especially in older, more established neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Regrade or fill any low spots left over from storm cleanup so rainwater doesn't collect near the foundation.",
+      "Seal soffit and foundation gaps on older or storm-repaired homes to block palmetto bugs and rodents.",
+      "Trim tree limbs back at least several feet from the roofline to cut off roof rat access.",
+      "Schedule a termite inspection on any home that had an addition, repair, or rebuild completed since 2018.",
+    ],
+    costNote:
+      "Costs vary by property size, storm-related repair history, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Did Hurricane Michael actually change the pest problems in Callaway?",
+        answer:
+          "Yes. The cleared lots, storm debris, and disturbed soil left behind after the 2018 hurricane created new breeding ground for fire ants, and additions or rebuilds completed since then gave subterranean termites fresh wood to soil contact points that some structures didn't have before the storm.",
+      },
+      {
+        question: "Are mosquitoes worse in Callaway than in nearby Panama City?",
+        answer:
+          "Callaway's shoreline position along East Bay and North Bay puts it close to tidal marsh breeding habitat, so mosquito pressure from March through November tends to be steady across neighborhoods near the water, similar to other Bay County communities on the bay.",
+      },
+      {
+        question: "What time of year do fire ants build the most mounds in Callaway?",
+        answer:
+          "Mound building peaks in spring through fall, though colonies remain active year-round in Bay County's mild winters. Vacant and recently disturbed lots around Callaway tend to see the most activity.",
+      },
+      {
+        question: "Is same-day pest service available in Callaway?",
+        answer:
+          "Most licensed providers serving Bay County, including Callaway, offer prompt scheduling for active infestations along with a free inspection before recommending a treatment plan.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Eustis", slug: "eustis-fl", stateSlug: "florida" },
+      { name: "Safety Harbor", slug: "safety-harbor-fl", stateSlug: "florida" },
+      { name: "Satellite Beach", slug: "satellite-beach-fl", stateSlug: "florida" },
+      { name: "Florida City", slug: "florida-city-fl", stateSlug: "florida" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Callaway, FL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Callaway, FL pest control for subterranean termites, fire ants, mosquitoes and palmetto bugs along East Bay in Bay County. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "eustis-fl",
+    name: "Eustis",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~24,100",
+    county: "Lake County",
+    climate: "hot-humid",
+    climateDriver:
+      "Eustis sits on the northeast shore of Lake Eustis, part of the Harris Chain of Lakes in Central Florida's lake district. The city's location between multiple connected lakes keeps humidity and standing water levels high for most of the year, and the sandy ridge soil common across Lake County drains fast on higher ground while lake edges stay damp and shaded. Eustis was built on a 19th century citrus boom that gave way, after repeated freezes, to the mix of residential and agricultural land found around the lakes today.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Ghost Ants", "American Cockroaches", "Wasps"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Eustis's older citrus-era homes near downtown, some dating to the early 1900s citrus boom, sit on the same sandy ridge soil that supports active subterranean termite colonies close to Lake Eustis and the connected lakes.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Eustis borders Lake Eustis and sits near the Dead River connection to Lake Harris, so mosquito breeding habitat is within reach of most neighborhoods rather than concentrated in one part of town.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, heaviest in summer",
+        note: "Ghost ants move easily between the shaded, mulched landscaping typical of Eustis's lakefront yards and into kitchens searching for moisture, especially during the humid summer months.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The damp, shaded ground near Eustis's lake shorelines and older neighborhoods gives palmetto bugs cover that drier inland Lake County properties don't have.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks April through September",
+        note: "Citrus trees and oaks left from Eustis's agricultural past, along with lakefront tree cover, give paper wasps and yellowjackets plenty of sheltered nesting spots through the warm months.",
+      },
+    ],
+    localHook:
+      "Eustis was incorporated in 1883 on the northeast shore of Lake Eustis, part of the Harris Chain of Lakes, and grew into a major 19th century citrus shipping point until the Great Freeze of 1894 and 1895 devastated the region's groves, a boom-and-bust history that still shapes the mix of older citrus-era homes and newer lakefront construction found in the city today.",
+    intro:
+      "Eustis sits on the northeast shore of Lake Eustis, one link in Central Florida's Harris Chain of Lakes, and that lake-heavy geography drives most of the city's pest pressure. The city's citrus boom years left behind older homes near downtown that now sit alongside newer construction spread along the lakeshore, and both share the sandy ridge soil that supports subterranean termite activity across Lake County. Mosquitoes track closely with Eustis's multiple connected lakes, ghost ants and palmetto bugs favor the shaded, damp ground near the water, and wasps nest in the citrus trees and oaks left over from the area's agricultural history. It's a pest calendar built around water and a century of local history.",
+    sections: [
+      {
+        heading: "Lake Eustis and the Harris Chain Drive Mosquito Pressure",
+        body: "Eustis borders Lake Eustis directly and sits close to the Dead River connection into Lake Harris, part of the larger Harris Chain of Lakes. That much connected freshwater close to residential neighborhoods means mosquito breeding habitat is spread across most of the city rather than concentrated near a single body of water. The season typically runs from March through November, and properties anywhere near the lakeshore or connecting waterways see the most consistent pressure.",
+      },
+      {
+        heading: "Termites in Eustis's Citrus-Era Homes",
+        body: "Eustis incorporated in 1883 and quickly became a shipping point for Central Florida citrus, a boom that ended abruptly with the Great Freeze of 1894 and 1895. Many of the homes built during that early era still stand near downtown, and their age gives subterranean termites decades of settling and foundation wear to exploit. Lake County's sandy ridge soil drains quickly on higher ground, but properties closer to Lake Eustis and the chain's other lakes sit on consistently damper soil that supports termite colonies year-round.",
+      },
+      {
+        heading: "Ghost Ants, Palmetto Bugs, and Wasps Around the Lakeshore",
+        body: "The shaded, mulched landscaping common in yards along Eustis's lakefront gives ghost ants and American cockroaches cover close to homes, and both stay active through the humid summer months in particular. Ghost ant colonies split and relocate quickly when disturbed, so outdoor bait treatment tends to work better than an indoor spot spray alone. Wasps take advantage of the citrus trees and oak canopy left from the area's agricultural history, building paper nests through the warm months from April into September.",
+      },
+    ],
+    prevention: [
+      "Treat ghost ant nesting areas in lakefront mulch beds and landscaping, not just indoor trails.",
+      "Schedule a termite inspection that accounts for both a home's age and its distance from Lake Eustis or the connecting waterways.",
+      "Eliminate standing water in gutters, plant saucers, and low spots near the lakeshore every few days during mosquito season.",
+      "Check citrus trees and oak canopy each spring for new wasp nests before colonies grow through summer.",
+    ],
+    costNote:
+      "Costs vary based on a property's distance from the lakeshore, structure age, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why does Eustis have so much mosquito pressure?",
+        answer:
+          "Eustis sits directly on Lake Eustis, part of the Harris Chain of Lakes, and that much connected freshwater close to residential areas gives mosquitoes breeding habitat spread across most of the city rather than concentrated in one location.",
+      },
+      {
+        question: "Are older homes near downtown Eustis more prone to termites?",
+        answer:
+          "Many were built during Eustis's citrus boom years after its 1883 incorporation, and that age gives subterranean termites more settling and foundation wear to exploit than newer lakefront construction typically has.",
+      },
+      {
+        question: "Do ghost ants come from lakefront landscaping in Eustis?",
+        answer:
+          "Often, yes. The shaded, mulched yards common near Eustis's lakes give ghost ants outdoor nesting cover, and colonies move indoors looking for moisture, especially in summer.",
+      },
+      {
+        question: "Is pest control pricing in Eustis different for lakefront properties?",
+        answer:
+          "Lakefront homes sometimes see a slightly higher mosquito control quote given the added breeding habitat nearby, but a free inspection determines the actual scope for any Eustis property.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Callaway", slug: "callaway-fl", stateSlug: "florida" },
+      { name: "Safety Harbor", slug: "safety-harbor-fl", stateSlug: "florida" },
+      { name: "Satellite Beach", slug: "satellite-beach-fl", stateSlug: "florida" },
+      { name: "Florida City", slug: "florida-city-fl", stateSlug: "florida" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Eustis, FL | Termites, Mosquitoes & Ghost Ants",
+    metaDescription:
+      "Eustis, FL pest control near Lake Eustis and the Harris Chain of Lakes. Subterranean termites, mosquitoes, ghost ants and palmetto bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "safety-harbor-fl",
+    name: "Safety Harbor",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~17,100",
+    county: "Pinellas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Safety Harbor sits on the shore of Old Tampa Bay in Pinellas County, built around the natural mineral springs the Tocobaga people used centuries before Spanish explorer Hernando de Soto named them Espiritu Santo Springs in 1539. That same high water table and coastal bay exposure that feeds the springs keeps humidity and ground moisture elevated across the city year-round, and Tampa Bay's warm Gulf coast winters mean pest activity rarely drops off completely.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Ghost Ants", "American Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Safety Harbor's high water table, fed by the same natural springs that gave the city its name, keeps soil moisture elevated near downtown and the bayfront, supporting subterranean termite activity in older homes built close to Old Tampa Bay.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Safety Harbor's shoreline along Old Tampa Bay, combined with the natural springs and Philippe Park's wooded shoreline just north of downtown, gives mosquitoes shaded, damp breeding habitat close to residential streets.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, heaviest in summer",
+        note: "Ghost ants take advantage of Safety Harbor's mature tree canopy and mulched landscaping near downtown and the historic spa grounds, moving indoors during the height of summer humidity.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The damp ground around Safety Harbor's springs and bayfront keeps palmetto bugs active through every season, particularly in the city's older homes near downtown.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Mature oak canopy throughout Safety Harbor's older neighborhoods gives roof rats overhead routes onto rooflines, a pattern common across Pinellas County's historic bayfront communities.",
+      },
+    ],
+    localHook:
+      "Safety Harbor grew up around Espiritu Santo Springs, a natural mineral spring on Old Tampa Bay that the Tocobaga people used for centuries before Spanish explorer Hernando de Soto named it in 1539, and the same high water table that feeds the springs today keeps ground moisture elevated across the city's downtown and bayfront neighborhoods.",
+    intro:
+      "Safety Harbor sits on the shore of Old Tampa Bay in Pinellas County, built around Espiritu Santo Springs, a natural mineral spring the Tocobaga people relied on long before Hernando de Soto named it in 1539. That same high water table, combined with the city's bayfront exposure and mature tree canopy, keeps humidity and ground moisture elevated across Safety Harbor for most of the year. Subterranean termites and palmetto bugs both take advantage of the damp soil near downtown and the historic spa grounds, mosquitoes breed along the shoreline and near Philippe Park's wooded edge just north of the city, and roof rats use the mature oak canopy common throughout Safety Harbor's older neighborhoods to reach rooflines. It's a pest picture shaped directly by the springs and bay that give the city its identity.",
+    sections: [
+      {
+        heading: "Springs and Soil Moisture Behind Safety Harbor's Termite Pressure",
+        body: "Safety Harbor's identity is built around Espiritu Santo Springs, the natural mineral spring on Old Tampa Bay that the Tocobaga people used centuries before Hernando de Soto's 1539 expedition named it. That same spring system means groundwater sits close to the surface across much of downtown and the bayfront, and subterranean termites thrive in soil that stays consistently damp. Older homes near the historic spa grounds and downtown corridor, some built well before modern termite pretreatment standards existed, carry the highest risk and benefit most from annual inspection.",
+      },
+      {
+        heading: "Mosquitoes Along Old Tampa Bay and Philippe Park",
+        body: "Safety Harbor's shoreline on Old Tampa Bay, plus the wooded shoreline of Philippe Park just north of downtown, gives mosquitoes shaded, damp breeding habitat within easy reach of residential streets. The season runs roughly from March through November, and Pinellas County's warm Gulf coast winters mean it rarely shuts down completely. Standing water in yard drainage, gutters, and ornamental features adds to the pressure close to the bay.",
+      },
+      {
+        heading: "Ghost Ants, Palmetto Bugs, and Roof Rats Under Safety Harbor's Oak Canopy",
+        body: "Mature oak trees are a signature feature of Safety Harbor's older neighborhoods, and that canopy does double duty as ant and rodent habitat. Ghost ants nest in the mulched, shaded landscaping typical near downtown and move indoors searching for moisture during peak summer humidity. Roof rats use the same overhanging limbs to access rooflines, a pattern common throughout Pinellas County's historic bayfront communities. American cockroaches, meanwhile, stay active year-round in the damp ground near the springs and bayfront, particularly around older construction.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes near downtown or the historic spa grounds, where the water table sits closest to the surface.",
+      "Trim oak limbs back from the roofline to cut off roof rat access in older Safety Harbor neighborhoods.",
+      "Treat ghost ant nests in shaded mulch beds outdoors rather than relying on an indoor spot spray alone.",
+      "Clear gutters and standing water near the bayfront every few days during mosquito season, March through November.",
+    ],
+    costNote:
+      "Costs vary by proximity to the bayfront, home age, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Does Safety Harbor's spring water table really affect termite risk?",
+        answer:
+          "Yes. Espiritu Santo Springs keeps groundwater close to the surface across much of downtown Safety Harbor, and that consistent soil moisture supports subterranean termite activity, especially in older homes near the historic spa grounds.",
+      },
+      {
+        question: "Is Philippe Park a source of mosquitoes for nearby Safety Harbor homes?",
+        answer:
+          "The wooded shoreline at Philippe Park, just north of downtown Safety Harbor, provides shaded, damp breeding habitat, and homes within a few blocks of the park or the Old Tampa Bay shoreline tend to see steadier mosquito pressure through the March to November season.",
+      },
+      {
+        question: "Why do roof rats show up in Safety Harbor's older neighborhoods?",
+        answer:
+          "Mature oak canopy throughout the city's historic neighborhoods gives roof rats overhead access to rooflines, a pattern typical of Pinellas County's older bayfront communities with established tree cover.",
+      },
+      {
+        question: "Is same-day pest control available in Safety Harbor?",
+        answer:
+          "Most licensed providers serving Pinellas County, including Safety Harbor, offer prompt scheduling for active infestations along with a free inspection before any treatment plan begins.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Callaway", slug: "callaway-fl", stateSlug: "florida" },
+      { name: "Eustis", slug: "eustis-fl", stateSlug: "florida" },
+      { name: "Satellite Beach", slug: "satellite-beach-fl", stateSlug: "florida" },
+      { name: "Florida City", slug: "florida-city-fl", stateSlug: "florida" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Safety Harbor, FL | Termites, Mosquitoes & Rodents",
+    metaDescription:
+      "Safety Harbor, FL pest control near Old Tampa Bay and Espiritu Santo Springs. Subterranean termites, mosquitoes, ghost ants and roof rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "satellite-beach-fl",
+    name: "Satellite Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~11,300",
+    county: "Brevard County",
+    climate: "hot-humid",
+    climateDriver:
+      "Satellite Beach occupies a narrow barrier island between the Atlantic Ocean and the Banana River in Brevard County's Space Coast region. Salt air, sandy soil, and constant onshore humidity define the climate, and the land itself was described by the city's 1950s founders as scrub brush and palmetto covered ground already infested with mosquitoes before any homes were built. Being surrounded by water on both sides keeps humidity high year-round and gives the city almost no dry season.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Ghost Ants", "American Cockroaches", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, present year-round",
+        note: "Satellite Beach's barrier island position between the Atlantic Ocean and the Banana River was described by the city's own founders in the 1950s as scrub brush infested with mosquitoes even before development began, and the surrounding water still drives heavy breeding pressure today.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Homes built during Satellite Beach's 1950s and 1960s space-program housing boom sit on sandy barrier island soil where subterranean termites remain active through Brevard County's mild winters.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, heaviest in summer",
+        note: "Ghost ants move through the salt-tolerant landscaping common on the barrier island and into homes searching for fresh water, a bigger draw here than on the mainland given how little fresh water the island naturally holds.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs stay active year-round in Satellite Beach's humid, salt-air climate, entering older beachside homes through gaps that develop from constant coastal exposure.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks April through September",
+        note: "Coastal scrub vegetation and the palmetto stands still found around parts of Satellite Beach give paper wasps sheltered nesting spots through the warmer months.",
+      },
+    ],
+    localHook:
+      "Satellite Beach was incorporated in 1957 after developers bought a stretch of barrier island land between the Atlantic Ocean and the Banana River that they themselves described as scrub brush, sand spurs, and palmettos already infested with mosquitoes, and the city grew quickly afterward as a residential answer to the housing shortage created by the space program's buildup at nearby Cape Canaveral and Patrick Air Force Base.",
+    intro:
+      "Satellite Beach sits on a narrow barrier island in Brevard County, wedged between the Atlantic Ocean and the Banana River, just south of Patrick Space Force Base. The city was incorporated in 1957 on land its own founders described as mosquito-infested scrub brush and palmettos, built up quickly afterward to house the workforce behind the era's space program. That barrier island geography still defines the city's pest pressure today: mosquitoes breed heavily given the water on both sides, ghost ants seek out the island's limited fresh water, and subterranean termites and palmetto bugs stay active through Brevard County's mild, humid winters. There's essentially no pest season here, just water on two sides and salt air in between.",
+    sections: [
+      {
+        heading: "A Barrier Island Built on Mosquito-Infested Ground",
+        body: "Satellite Beach's own founders described the land they bought in the 1950s as sandy, scrub-covered ground already infested with mosquitoes before a single house went up. Incorporated in 1957 and built quickly to house workers supporting Cape Canaveral and Patrick Air Force Base's space program buildup, the city has never really escaped that original mosquito pressure. Sitting between the Atlantic Ocean and the Banana River means Satellite Beach has water sources on both sides, and the season runs from March through November with only a modest slowdown in winter.",
+      },
+      {
+        heading: "Termites and Palmetto Bugs in a Space-Age Housing Stock",
+        body: "Much of Satellite Beach's housing was built during the rapid 1950s and 1960s buildup tied to the Mercury, Gemini, and Apollo space programs, and that generation of construction now sits on decades-old barrier island soil where subterranean termites remain active through Brevard County's short, mild winters. American cockroaches, the region's palmetto bugs, take advantage of gaps that develop from constant salt air exposure on older beachside homes, staying active in every season rather than slowing down in cooler months.",
+      },
+      {
+        heading: "Ghost Ants and Wasps on Limited Fresh Water",
+        body: "A barrier island naturally holds less fresh water than the mainland, which makes ghost ants especially persistent indoors as they search out sinks, pet bowls, and any other reliable water source inside Satellite Beach homes. The salt-tolerant landscaping common across the island gives them outdoor cover close to the house. Wasps, meanwhile, nest in the coastal scrub and remaining palmetto stands around the city, building through the warmer months from April into September.",
+      },
+    ],
+    prevention: [
+      "Keep pet bowls, sinks, and other indoor water sources covered or dry overnight to reduce ghost ant activity on the island.",
+      "Schedule a termite inspection for any Satellite Beach home dating to the 1950s or 1960s space-program construction boom.",
+      "Seal gaps around windows and doors caused by ongoing salt air exposure to reduce palmetto bug entry.",
+      "Eliminate standing water in yard drainage on both the ocean and river sides of the property throughout mosquito season.",
+    ],
+    costNote:
+      "Costs vary by home age, proximity to the ocean or river shoreline, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so persistent in Satellite Beach?",
+        answer:
+          "The city sits on a narrow barrier island between the Atlantic Ocean and the Banana River, land its own 1950s founders described as already infested with mosquitoes before development began, and that same water on both sides keeps breeding pressure high from March through November.",
+      },
+      {
+        question: "Are Satellite Beach's older homes more prone to termites?",
+        answer:
+          "Many homes date to the 1950s and 1960s buildup tied to the space program at nearby Cape Canaveral and Patrick Space Force Base, and that age gives subterranean termites more time to establish in the sandy barrier island soil underneath them.",
+      },
+      {
+        question: "Do ghost ants behave differently on a barrier island like Satellite Beach?",
+        answer:
+          "They tend to be more persistent indoors, since the island naturally holds less fresh water than the mainland, pushing colonies to seek out sinks, pet bowls, and other reliable water sources inside homes.",
+      },
+      {
+        question: "Is pest control available on both the ocean and river sides of Satellite Beach?",
+        answer:
+          "Yes. Licensed providers serving Brevard County cover the full barrier island, including both the Atlantic-facing and Banana River-facing sides of Satellite Beach, with a free inspection before any treatment plan.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Callaway", slug: "callaway-fl", stateSlug: "florida" },
+      { name: "Eustis", slug: "eustis-fl", stateSlug: "florida" },
+      { name: "Safety Harbor", slug: "safety-harbor-fl", stateSlug: "florida" },
+      { name: "Florida City", slug: "florida-city-fl", stateSlug: "florida" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Satellite Beach, FL | Mosquitoes, Termites & Ants",
+    metaDescription:
+      "Satellite Beach, FL pest control on Brevard County's barrier island. Mosquitoes, subterranean termites, ghost ants and palmetto bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "florida-city-fl",
+    name: "Florida City",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~13,000",
+    county: "Miami-Dade County",
+    climate: "tropical",
+    climateDriver:
+      "Florida City sits at the southern tip of mainland Miami-Dade County, the last incorporated city on US 1 before the road crosses into the Florida Keys and the closest municipality to the main entrance of Everglades National Park. The tropical climate here brings high year-round humidity, a wet season from May through October, and constant mosquito pressure from the adjacent Everglades wetland, while the surrounding Redland agricultural belt adds its own pest pressures not found in more urbanized parts of the county.",
+    topPests: ["Mosquitoes", "Ghost Ants", "Formosan Subterranean Termites", "American Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October peak, present year-round",
+        note: "Florida City sits closer to the Everglades National Park main entrance than almost any other Miami-Dade municipality, and that wetland edge produces sustained mosquito pressure through the entire wet season.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants move readily between the Redland's agricultural fields and nurseries surrounding Florida City and the residential lots at the city's edge, forming colonies that split quickly when disturbed.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "UF/IFAS documents Formosan termite presence throughout Miami-Dade County, and Florida City's tropical climate sustains foraging activity through every month of the year with no winter dieback.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in Florida City's sewer infrastructure and move into structures through drains and foundation gaps, with elevated activity near the agricultural and commercial areas along US 1.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rodent across South Florida, and the fruit stands, packing houses, and farmland surrounding Florida City, including landmarks like the Robert Is Here produce stand, give them reliable food sources close to residential areas.",
+      },
+    ],
+    localHook:
+      "Florida City is the southernmost incorporated municipality on the Florida mainland, the last city on US 1 before it becomes the Overseas Highway into the Keys, and it sits closer to the main entrance of Everglades National Park than any other Miami-Dade city, a location that also puts the well-known Robert Is Here fruit stand, open since 1959, within its city limits.",
+    intro:
+      "Florida City sits at the very southern tip of mainland Miami-Dade County, the last incorporated city before US 1 crosses into the Florida Keys and the closest municipality to the main entrance of Everglades National Park. That position, wedged between the wetland to the west and the Redland's farms and nurseries on every other side, shapes a pest picture built around water and agriculture. Mosquitoes breed heavily along the Everglades edge for most of the year, Formosan subterranean termites forage without interruption in the tropical climate, and ghost ants and roof rats both take advantage of the working farmland that surrounds the city, including the produce stands and packing operations that have defined Florida City's economy for generations.",
+    sections: [
+      {
+        heading: "Everglades-Edge Mosquito Pressure at the Gateway to the Park",
+        body: "Florida City sits closer to the main entrance of Everglades National Park than any other city in Miami-Dade County, and that wetland proximity produces mosquito populations that extend into residential neighborhoods for most of the year. The wet season from May through October is the peak, driven by both the adjacent Everglades and by Aedes aegypti breeding in small containers around homes. Standing water elimination and professional barrier treatments matter more here than in inland parts of the county simply because of how close the wetland sits to the city limits.",
+      },
+      {
+        heading: "Formosan Termites and Ghost Ants in a Farming City",
+        body: "Formosan subterranean termites are documented throughout Miami-Dade County by UF/IFAS, and Florida City's tropical climate means they forage year-round with no winter slowdown, a real risk for the city's older wood-frame structures. Ghost ants move easily between the Redland's surrounding fields, nurseries, and packing operations and the residential lots at Florida City's edges, and because colonies fragment and relocate when disturbed, professional bait treatment works better than a repellent spray.",
+      },
+      {
+        heading: "Roof Rats and Cockroaches Around the Produce Stands",
+        body: "Florida City's economy has long centered on agriculture, and the fruit stands and packing houses that line US 1, including the well-known Robert Is Here stand open since 1959, give roof rats and American cockroaches reliable food sources close to residential streets. Roof rats use canopy and structure access routes throughout the city, while American cockroaches move from sewer infrastructure into buildings through drains and foundation gaps, particularly around the older commercial strip near the highway.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in containers and drainage around the property every 3 to 4 days during the May through October wet season.",
+      "Seal drain connections and foundation gaps to limit American cockroach entry from sewer infrastructure.",
+      "Schedule a Formosan termite inspection annually for any wood-frame structure, especially those built before the 1990s.",
+      "Store produce, pet food, and other food sources securely if living near Florida City's agricultural or commercial corridors to reduce roof rat activity.",
+    ],
+    costNote:
+      "Costs vary by property size, structure age, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Is mosquito pressure worse in Florida City than elsewhere in Miami-Dade?",
+        answer:
+          "Often, yes, for most of the wet season. Florida City sits closer to the main entrance of Everglades National Park than any other city in the county, so it receives mosquito populations produced by the adjacent wetland in addition to the container-breeding species found countywide.",
+      },
+      {
+        question: "Does Florida City's agricultural setting affect pest pressure?",
+        answer:
+          "Yes. The Redland's surrounding farms, nurseries, and packing operations, including landmarks like the Robert Is Here fruit stand within city limits, give ghost ants and roof rats food sources and habitat close to residential streets that more urbanized parts of Miami-Dade don't have.",
+      },
+      {
+        question: "Are Formosan termites a real concern in Florida City?",
+        answer:
+          "UF/IFAS documents Formosan subterranean termite presence throughout Miami-Dade County, and Florida City's tropical climate sustains year-round foraging with no winter dieback, so annual inspection is worthwhile for wood-frame structures.",
+      },
+      {
+        question: "Is same-day pest service available in Florida City?",
+        answer:
+          "Most licensed providers serving southern Miami-Dade County, including Florida City, offer prompt scheduling for active infestations along with a free inspection before recommending any treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Callaway", slug: "callaway-fl", stateSlug: "florida" },
+      { name: "Eustis", slug: "eustis-fl", stateSlug: "florida" },
+      { name: "Safety Harbor", slug: "safety-harbor-fl", stateSlug: "florida" },
+      { name: "Satellite Beach", slug: "satellite-beach-fl", stateSlug: "florida" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Florida City, FL | Mosquitoes, Termites & Ants",
+    metaDescription:
+      "Florida City, FL pest control at the Everglades National Park gateway. Mosquitoes, Formosan termites, ghost ants and roof rats. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -3631,4 +3631,554 @@ export const arkansasCities: CityLocation[] = [
     metaDescription:
       "Pest control in Prairie Grove, Arkansas. Washington County service for termites, cave crickets, mice, and ticks near the historic battlefield. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "stuttgart-ar",
+    name: "Stuttgart",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~7,700",
+    county: "Arkansas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Stuttgart sits on the Grand Prairie within the Mississippi Alluvial Plain, flat, fertile ground that has made Arkansas County the center of the state's rice industry since farming began here in 1904. The same fields and irrigation infrastructure that support Riceland Foods, the world's largest rice miller, hold standing water through the growing season, and Stuttgart's humid subtropical climate keeps that water warm enough to support mosquito breeding from spring through fall.",
+    topPests: ["Mosquitoes", "Termites", "Fire Ants", "Ticks", "Wasps"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, heaviest during summer field flooding",
+        note: "Rice farming keeps thousands of acres of Grand Prairie farmland flooded through the growing season, and that standing water gives mosquitoes a breeding source that stretches well past what a typical Arkansas yard produces on its own.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms concentrated in spring",
+        note: "Stuttgart's humid, warm Grand Prairie climate keeps subterranean termite colonies active most of the year, and many homes near downtown date to the rice boom of the early 1900s, old enough to predate modern termite barriers.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "The flat, open farmland and levee banks surrounding Stuttgart give red imported fire ant colonies plenty of undisturbed ground, and mounds spread easily from field edges into residential lawns.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "Wooded margins along drainage ditches and field borders outside town support deer and small mammals that carry ticks onto adjoining properties, especially where a yard backs up to farmland.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "Grain storage buildings, rice-drying equipment, and farm sheds around Stuttgart give paper wasps and yellowjackets sheltered spots to build nests undisturbed through the summer.",
+      },
+    ],
+    localHook:
+      "Stuttgart has called itself the Rice and Duck Capital of the World since rice farming took hold on the Grand Prairie in 1904, and Riceland Foods, headquartered here, is the largest rice miller on earth, a scale of agriculture that shapes the town's pest pressure as much as its economy.",
+    intro:
+      "Pest control in Stuttgart, AR has to account for what surrounds the town as much as what's inside it. Sitting on the flat, fertile Grand Prairie within the Mississippi Alluvial Plain, Stuttgart grew up around rice farming that began in 1904 and still runs through Riceland Foods, the world's largest rice miller, along with thousands of acres of flooded fields each growing season. That standing water, combined with Stuttgart's hot, humid summers, keeps mosquitoes breeding from March into November, a longer season than most of the state sees. Termites stay active nearly year round in the same warm, humid climate, fire ants spread easily across the open farmland and levee banks that ring the town, and ticks hold on in the wooded ditch banks and field edges outside the city limits. None of this makes Stuttgart unusual for pest problems, it just means the timing and pressure follow the rice calendar as closely as they follow the thermometer.",
+    sections: [
+      {
+        heading: "Why does rice farming stretch Stuttgart's mosquito season so long?",
+        body: "Rice fields need standing water through much of the growing season, and Arkansas County's farmland around Stuttgart holds thousands of flooded acres from planting through harvest. That water, warmed by hot Grand Prairie summers, gives mosquitoes a breeding source that keeps producing new generations well past what a single yard or drainage ditch would support. Properties near active rice ground tend to see mosquito pressure start earlier in spring and run later into fall than homes closer to the center of town.",
+      },
+      {
+        heading: "Are Stuttgart's older rice-boom homes more exposed to termites?",
+        body: "Many homes near downtown Stuttgart date back to the early 1900s rice boom that built the town's identity, and houses that old were built before modern termite barrier standards existed. Combined with a humid subtropical climate that keeps subterranean termite colonies active most of the year rather than shutting down for winter, older Stuttgart homes often need more frequent inspection than newer construction on the edges of town.",
+      },
+      {
+        heading: "How does the Grand Prairie's flat farmland affect fire ants?",
+        body: "The open, level ground that made this area ideal for rice farming also gives red imported fire ants room to spread without much competition. Levee banks, field borders, and the residential lawns bordering farmland all provide the kind of undisturbed soil fire ant colonies prefer, and mounds move easily from agricultural ground into yards at the edge of Stuttgart.",
+      },
+      {
+        heading: "What should a Stuttgart pest control plan include?",
+        body: "A plan built for Stuttgart has to weigh in the rice calendar alongside the usual seasonal patterns: mosquito control that addresses irrigation-driven breeding rather than just yard sources, termite inspections timed for a warm climate that rarely gives colonies a real winter break, fire ant treatment across farm-adjacent lawns, and tick precautions for anyone spending time along wooded field borders. Riceland Foods and the Grand Prairie's rice economy built this town, and they shape its pest pressure right alongside it.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from yard containers and low-lying ground near farmland to help shorten Stuttgart's long mosquito season.",
+      "Schedule termite inspections for older homes near downtown, since many predate modern termite barrier standards.",
+      "Treat fire ant mounds along lawns bordering farmland or levee banks before colonies spread further into the yard.",
+      "Keep grain storage and shed areas checked for wasp nests through the summer building season.",
+    ],
+    costNote:
+      "General pest inspections in Stuttgart typically run in line with the rest of Arkansas County, and PestRemovalUSA offers a free inspection and written estimate before any work begins, with farm-adjacent properties sometimes needing extra time for mosquito and fire ant source checks.",
+    faqs: [
+      {
+        question: "Why is mosquito season so long in Stuttgart?",
+        answer:
+          "Stuttgart sits on the Grand Prairie, where thousands of acres of rice fields hold standing water through the growing season. That irrigation water, warmed by hot summers, extends mosquito breeding from March into November, longer than most of the rest of Arkansas.",
+      },
+      {
+        question: "Does Stuttgart's rice-boom history affect termite risk?",
+        answer:
+          "It can. A number of homes near downtown Stuttgart date to the early 1900s rice boom, built before modern termite barriers existed, and the town's humid subtropical climate keeps subterranean termite colonies active nearly year round.",
+      },
+      {
+        question: "Are fire ants a bigger problem near Stuttgart's farmland?",
+        answer:
+          "Yes, generally. The flat, open ground of the Grand Prairie gives red imported fire ant mounds easy room to spread from field edges and levee banks into residential lawns bordering agricultural land.",
+      },
+      {
+        question: "Is pest control available for farm-adjacent properties around Stuttgart?",
+        answer:
+          "Yes, licensed providers serving Arkansas County work with both in-town homes and farm-adjacent properties, adjusting treatment plans for irrigation infrastructure, grain storage buildings, and the extended mosquito and fire ant seasons the rice economy creates.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Mena", slug: "mena-ar", stateSlug: "arkansas" },
+      { name: "Camden", slug: "camden-ar", stateSlug: "arkansas" },
+      { name: "Berryville", slug: "berryville-ar", stateSlug: "arkansas" },
+      { name: "Trumann", slug: "trumann-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Stuttgart, AR | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Pest control in Stuttgart, Arkansas. Arkansas County service for mosquitoes, termites, fire ants, and ticks on the Grand Prairie. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mena-ar",
+    name: "Mena",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~5,600",
+    county: "Polk County",
+    climate: "temperate",
+    climateDriver:
+      "Mena sits at about 1,171 feet elevation in the Ouachita Mountains, surrounded on nearly every side by the Ouachita National Forest. That higher elevation and forest cover keep summers a little milder than the Arkansas Delta, but the region still gets over 60 inches of rain a year, and the timbered terrain right up against town gives ticks, spiders, and forest-edge wildlife more contact with homes than a typical flat-land Arkansas town sees.",
+    topPests: ["Ticks", "Brown Recluse Spiders", "Termites", "Carpenter Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "With the Ouachita National Forest bordering Mena on nearly every side, deer and other wildlife move freely between forest and yard, and ticks ride along with them onto properties at the edge of town.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring and fall",
+        note: "Brown recluse spiders are well established across this part of the Ouachita Mountains, and they favor the woodpiles, storage sheds, and undisturbed corners common on rural Mena properties bordering timberland.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms concentrate in spring, active most of the year",
+        note: "Mena's humid subtropical climate and heavy annual rainfall keep soil moisture high enough to support subterranean termite colonies through most of the year, even at the town's mountain elevation.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "The stands of timber pressing in around Mena give carpenter ants an easy path from dead or damp wood outdoors into sheds, decks, and homes at the forest's edge.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "Mena's mountain terrain, with its rock outcrops, eaves, and outbuildings scattered across wooded lots, gives paper wasps and yellowjackets no shortage of sheltered nesting spots each summer.",
+      },
+    ],
+    localHook:
+      "Mena is the Polk County seat and sits almost entirely surrounded by the Ouachita National Forest, a setting that made it a gateway town when railroad builder Arthur Stilwell founded it in 1896, and that same forest is what keeps ticks, spiders, and wood-dwelling pests in closer contact with homes here than in most Arkansas towns.",
+    intro:
+      "Pest control in Mena, AR is shaped by one fact more than any other: this Polk County seat sits almost surrounded by the Ouachita National Forest. Founded in 1896 by railroad builder Arthur Stilwell, Mena sits at roughly 1,171 feet of elevation in the Ouachita Mountains, high enough and forested enough to run a little cooler than the Arkansas Delta, but still humid enough, with over 60 inches of rain a year, to keep termites and other moisture-loving pests active most of the year. Deer and other wildlife move easily between the forest and the edges of town, carrying ticks onto yards from March through October. Brown recluse spiders are well established in this part of the Ouachitas and favor the woodpiles and storage buildings common on forest-edge properties. Carpenter ants work their way in from the timber pressing right up against Mena, and summer brings wasps to the rock outcrops and eaves scattered across wooded lots.",
+    sections: [
+      {
+        heading: "Why does the Ouachita National Forest matter so much for pest pressure in Mena?",
+        body: "Mena is a genuine gateway town, with national forest land bordering the city on nearly every side, and that means far less separation between wild timberland and residential yards than most Arkansas towns have. Deer, rodents, and other wildlife cross that boundary constantly, and ticks travel with them, which is why properties backing up to forest land in Mena tend to see heavier tick pressure through the warmer months than homes toward the center of town.",
+      },
+      {
+        heading: "How common are brown recluse spiders around Mena?",
+        body: "Brown recluse spiders are established across this stretch of the Ouachita Mountains, and they gravitate toward exactly the kind of undisturbed, dry spaces rural Mena properties tend to have: woodpiles, garages, storage sheds, and boxes left unopened for a season or two. Because the forest surrounds so much of the town, these spiders have an easy path from natural habitat into outbuildings and homes, especially older properties near the edge of the timberline.",
+      },
+      {
+        heading: "Do Mena's mountain elevation and rainfall still support termites?",
+        body: "Yes. Mena's elevation keeps summers a bit milder than the Delta, but the region still gets more than 60 inches of rain most years, and that moisture keeps soil conditions favorable for Eastern subterranean termites nearly year round. Homes built directly against the wooded terrain, with wood siding or decking in contact with damp ground, tend to see the steadiest termite pressure.",
+      },
+      {
+        heading: "What should a Mena pest control plan cover?",
+        body: "Given the forest that surrounds Mena on nearly every side, a solid plan puts real weight on tick prevention along wooded property lines, brown recluse monitoring in sheds and storage areas, termite inspection for homes with wood-to-soil contact, and carpenter ant checks anywhere timber presses close to a structure. Wasp treatment rounds it out for the rock outcrops and eaves common across this mountain terrain.",
+      },
+    ],
+    prevention: [
+      "Keep grass and brush cut back along any property line that borders the Ouachita National Forest to reduce tick contact.",
+      "Store woodpiles and boxes off the ground and away from the house, since brown recluse spiders favor these undisturbed spots.",
+      "Schedule termite inspections for homes with wood decking or siding in direct contact with damp forest-edge soil.",
+      "Seal gaps around eaves and outbuildings before summer to limit nesting sites for wasps.",
+    ],
+    costNote:
+      "Pest control costs in Mena vary with property size, distance from the tree line, and infestation severity, and PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why is tick pressure higher in Mena than in flatter parts of Arkansas?",
+        answer:
+          "Mena sits almost surrounded by the Ouachita National Forest, and that means deer and other wildlife move constantly between forest and town, carrying ticks onto yards at the edge of Mena from March through October.",
+      },
+      {
+        question: "Are brown recluse spiders really a concern in Mena?",
+        answer:
+          "Yes. Brown recluse spiders are established throughout this part of the Ouachita Mountains and favor the woodpiles, sheds, and undisturbed storage spaces common on rural properties bordering the national forest around Mena.",
+      },
+      {
+        question: "Does Mena's higher elevation reduce termite risk?",
+        answer:
+          "Not by much. Mena sits around 1,171 feet in elevation, but the region still receives over 60 inches of rain a year, and that moisture keeps subterranean termite colonies active in the soil through most of the year.",
+      },
+      {
+        question: "Is pest control available for rural, forest-edge properties near Mena?",
+        answer:
+          "Yes, licensed providers serving Polk County work with properties bordering the Ouachita National Forest, adjusting treatment for tick pressure, brown recluse activity, and carpenter ant entry points that come with living this close to the tree line.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Stuttgart", slug: "stuttgart-ar", stateSlug: "arkansas" },
+      { name: "Camden", slug: "camden-ar", stateSlug: "arkansas" },
+      { name: "Berryville", slug: "berryville-ar", stateSlug: "arkansas" },
+      { name: "Trumann", slug: "trumann-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mena, AR | Ticks, Spiders & Termites",
+    metaDescription:
+      "Pest control in Mena, Arkansas. Polk County service for ticks, brown recluse spiders, termites, and carpenter ants near the Ouachita National Forest. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "camden-ar",
+    name: "Camden",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~10,100",
+    county: "Ouachita County",
+    climate: "hot-humid",
+    climateDriver:
+      "Camden sits on bluffs above the Ouachita River in south Arkansas, at the point where the river's navigable section ends, a location that built the town into a major cotton and freight port during the steamboat era. The humid subtropical climate and the river bottomland surrounding Camden keep ground moisture high nearly year round, and a housing stock that includes many homes built during the town's early 1900s timber and oil booms adds older wood-to-soil construction to the mix.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms concentrated in spring",
+        note: "Camden's older neighborhoods include homes dating to the early 1900s timber and oil boom years, and that older wood-to-soil construction, combined with the humid climate above the Ouachita River, keeps termite pressure steady most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Ouachita River bottomland running through and around Camden holds pockets of standing water after rain, giving mosquitoes breeding habitat close to residential neighborhoods along the bluffs.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Open lots and pasture ground around Camden's former industrial and defense sites give red imported fire ant colonies room to establish mounds that spread into nearby residential lawns.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoors more in cooler months",
+        note: "Camden's mix of older homes and commercial buildings from its industrial era gives American and German cockroaches plenty of gaps and moisture near foundations and plumbing to establish themselves.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "Wooded river bottomland along the Ouachita supports deer and small mammals that carry ticks toward neighborhoods built closest to the bluffs overlooking the water.",
+      },
+    ],
+    localHook:
+      "Camden grew into the second largest city in Arkansas during the steamboat era, built on bluffs where the Ouachita River's navigable section ends, and the timber, oil, and wartime defense industries that followed left behind a housing stock old enough that termite and cockroach pressure still track closely with the age of the neighborhood.",
+    intro:
+      "Pest control in Camden, AR has to account for a river town with a long industrial history. Camden sits on bluffs overlooking the Ouachita River at the exact point its navigable section ends, a location that made it the second largest city in Arkansas during the steamboat era and later drew a timber mill, an oil boom, and wartime defense manufacturing through the twentieth century. That history left Camden with a mix of housing ages, and the older homes near downtown, many built during those early boom years, see steadier termite and cockroach pressure than newer construction on the outskirts. The Ouachita River's bottomland keeps humidity and standing water close to town, extending mosquito season from March into October, and open ground left over from Camden's industrial and defense sites gives fire ants room to spread toward residential lawns. Ticks hold on in the wooded river bottomland closest to the bluffs.",
+    sections: [
+      {
+        heading: "Why do Camden's older neighborhoods see more termite activity?",
+        body: "Camden's identity as a steamboat-era port and later a timber and oil boomtown means a meaningful share of its housing stock dates to the early 1900s, built well before modern termite barrier standards existed. Combined with the humid climate the Ouachita River keeps close to town, Eastern subterranean termites stay active in the soil around these older homes for most of the year, and swarms concentrate heavily each spring.",
+      },
+      {
+        heading: "How does the Ouachita River affect mosquito season in Camden?",
+        body: "Camden sits directly on the bluffs where the Ouachita River's navigable stretch ends, and the bottomland surrounding that stretch holds water after rain longer than higher, drier ground would. That standing water, paired with south Arkansas's hot, humid climate, extends mosquito breeding from March through October, with properties closest to the river bottomland generally feeling it first each spring.",
+      },
+      {
+        heading: "Does Camden's industrial history affect fire ant and cockroach pressure?",
+        body: "It does, in a couple of ways. The open lots and former pasture ground left behind by Camden's timber mill, oil boom, and wartime defense sites give fire ant colonies undisturbed ground to build mounds that spread toward nearby lawns, while the older commercial and residential buildings from that same era give cockroaches gaps around aging foundations and plumbing to move in and stay put.",
+      },
+      {
+        heading: "What should a Camden pest control plan include?",
+        body: "A plan for Camden weighs the age of the property as much as the season: termite inspection for older, river-adjacent homes, mosquito control that accounts for bottomland moisture rather than just yard drainage, fire ant treatment for lawns bordering open industrial-era lots, and cockroach prevention focused on foundation and plumbing gaps in older construction. Ticks round out the list for anyone spending time along the wooded river bluffs.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections for older homes near downtown Camden, many of which predate modern termite barrier standards.",
+      "Clear standing water from bottomland-adjacent yards and containers to shorten the March-to-October mosquito season.",
+      "Treat fire ant mounds on lawns bordering open lots left from Camden's industrial and defense-era sites.",
+      "Seal foundation and plumbing gaps in older homes to reduce cockroach entry points.",
+    ],
+    costNote:
+      "Pest control costs in Camden vary with a property's age, size, and infestation severity, and PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why are older homes in Camden more prone to termites?",
+        answer:
+          "Many of Camden's neighborhoods near downtown date to the early 1900s timber and oil boom years, built before modern termite barriers were standard, and the humid climate near the Ouachita River keeps subterranean termite colonies active in the soil most of the year.",
+      },
+      {
+        question: "Does the Ouachita River make mosquito season worse in Camden?",
+        answer:
+          "Yes. Camden sits where the Ouachita River's navigable section ends, and the surrounding bottomland holds standing water after rain, extending mosquito breeding season from March into October, longer than drier parts of south Arkansas.",
+      },
+      {
+        question: "Are cockroaches a bigger problem in Camden's older buildings?",
+        answer:
+          "Often, yes. Camden's mix of homes and commercial buildings dating to its industrial boom years has more aging foundations and plumbing with gaps that American and German cockroaches can use to get inside and establish themselves.",
+      },
+      {
+        question: "Is pest control available for both older and newer homes in Camden?",
+        answer:
+          "Yes, licensed providers serving Ouachita County work with both historic homes near downtown Camden and newer construction on the outskirts, adjusting termite, cockroach, and mosquito treatment to the age and location of each property.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Stuttgart", slug: "stuttgart-ar", stateSlug: "arkansas" },
+      { name: "Mena", slug: "mena-ar", stateSlug: "arkansas" },
+      { name: "Berryville", slug: "berryville-ar", stateSlug: "arkansas" },
+      { name: "Trumann", slug: "trumann-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Camden, AR | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Pest control in Camden, Arkansas. Ouachita County service for termites, mosquitoes, fire ants, and cockroaches along the Ouachita River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "berryville-ar",
+    name: "Berryville",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~5,750",
+    county: "Carroll County",
+    climate: "temperate",
+    climateDriver:
+      "Berryville sits at about 1,243 feet elevation on the Ozark Plateau in Carroll County, a landscape of rolling hills and hardwood forest that keeps summers milder than the Delta and gives ticks and other wildlife-carried pests steady access to town. Berryville is also home to a large Tyson Foods poultry processing plant, one of the county's biggest employers, and the flies and rodents that gather around poultry operations add another layer of pest pressure specific to this part of town.",
+    topPests: ["Ticks", "Termites", "Flies", "Mice", "Wasps"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "Berryville's rolling Ozark Plateau terrain and surrounding hardwood forest give deer and other wildlife easy access to yards at the edge of town, and ticks travel with them onto residential properties.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms concentrate in spring, active most of the year",
+        note: "Berryville's humid Ozark climate keeps soil moisture high enough to support subterranean termite colonies through most of the year, and a number of homes near the historic downtown square date to the late 1800s.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Year-round, heaviest in warm months",
+        note: "Tyson Foods operates a major poultry processing plant in Berryville, one of the county's largest employers, and poultry operations of this size are a well documented source of elevated fly pressure on nearby properties.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Heaviest September through February",
+        note: "As Ozark hillside temperatures drop each fall, mice move from surrounding pasture and hardwood forest toward the shelter of homes and outbuildings on Berryville's edges.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "The hills, barns, and older outbuildings scattered around Berryville give paper wasps and yellowjackets sheltered spots to build nests undisturbed through the summer.",
+      },
+    ],
+    localHook:
+      "Berryville was founded in 1850 by settler Blackburn Henderson Berry and today shares county seat status with Eureka Springs, and its Tyson Foods poultry plant, one of Carroll County's largest employers, is enough of a presence in the local economy that the flies and rodents drawn to poultry operations show up as a distinct part of the town's pest pressure.",
+    intro:
+      "Pest control in Berryville, AR blends two things most Arkansas towns don't have together: classic Ozark hill-country terrain and a major poultry processing operation. Founded in 1850 by settler Blackburn Henderson Berry, Berryville sits at roughly 1,243 feet elevation on the Ozark Plateau, rolling hardwood-forest country that keeps ticks moving from surrounding wildlife habitat into yards at the edge of town from March through October. The humid climate that comes with this hill country also keeps subterranean termites active most of the year, a real concern for the number of homes near the historic downtown square that date back to the late 1800s. Tyson Foods runs one of Carroll County's largest employers here, a poultry processing plant, and operations of that scale are a well established source of elevated fly pressure on nearby properties. Add in mice pushing toward shelter as Ozark temperatures drop each fall, and wasps building through the summer in barns and outbuildings scattered across the hills, and Berryville's pest calendar runs on both its terrain and its industry.",
+    sections: [
+      {
+        heading: "Why is tick pressure a bigger concern in Berryville than in flatter Arkansas towns?",
+        body: "Berryville sits in classic Ozark Plateau hill country, with rolling hardwood forest running right up to the edges of many residential lots. That terrain supports a steady deer population, and ticks move from the woods onto lawns and trails with them, making March through October a season worth watching closely for anyone with property bordering forest or pasture around town.",
+      },
+      {
+        heading: "Does Berryville's poultry industry affect fly pressure in town?",
+        body: "It does. Tyson Foods operates a large poultry processing plant in Berryville, one of Carroll County's biggest employers, and poultry operations of this scale are a well documented driver of elevated fly populations in the surrounding area. Properties closest to the plant and to poultry farming operations in the county tend to notice this most, especially in warmer months.",
+      },
+      {
+        heading: "Are Berryville's historic downtown homes at higher risk for termites?",
+        body: "Some are. Berryville's downtown square includes homes and buildings dating back to the late 1800s, well before modern termite barrier standards, and the humid climate typical of this part of the Ozark Plateau keeps subterranean termite colonies active in the soil for most of the year. Older wood-to-soil construction in these buildings gives termites an easier path inside than newer homes on the edge of town.",
+      },
+      {
+        heading: "What should a Berryville pest control plan include?",
+        body: "A Berryville plan needs to cover more ground than a typical small Arkansas town: tick prevention along forest and pasture-adjacent property lines, termite inspection for the historic homes near downtown, fly control that accounts for the town's poultry processing presence, and mouse exclusion as fall temperatures push wildlife toward shelter. Wasp treatment for barns and outbuildings rounds out the seasonal work.",
+      },
+    ],
+    prevention: [
+      "Keep grass cut short and clear brush along any property line bordering hardwood forest to reduce tick contact.",
+      "Schedule termite inspections for homes near the historic downtown square, many of which predate modern termite barriers.",
+      "Use tight-fitting screens and garbage lids on properties near poultry operations to reduce fly entry points.",
+      "Seal foundation gaps before fall, when Ozark hillside temperatures push mice toward shelter indoors.",
+    ],
+    costNote:
+      "Pest control costs in Berryville vary by property size, age, and proximity to farmland or poultry operations, and PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why does Berryville see more flies than some nearby towns?",
+        answer:
+          "Berryville is home to a large Tyson Foods poultry processing plant, one of Carroll County's largest employers, and poultry operations of this size are a well documented source of elevated fly pressure on nearby properties, especially in warmer months.",
+      },
+      {
+        question: "Is tick season worse in Berryville because of the Ozark terrain?",
+        answer:
+          "Generally, yes. Berryville sits on the Ozark Plateau surrounded by rolling hardwood forest, and the deer population that terrain supports carries ticks onto residential lawns from March through October.",
+      },
+      {
+        question: "Are the historic homes near downtown Berryville at higher termite risk?",
+        answer:
+          "Often. A number of buildings around Berryville's historic square date to the late 1800s, before modern termite barrier standards, and the humid Ozark Plateau climate keeps subterranean termite colonies active in the soil for most of the year.",
+      },
+      {
+        question: "Is pest control available for properties near Berryville's poultry operations?",
+        answer:
+          "Yes, licensed providers serving Carroll County work with residential properties near poultry processing and farming operations, adjusting fly control and exclusion work for the specific pressure those operations create.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Stuttgart", slug: "stuttgart-ar", stateSlug: "arkansas" },
+      { name: "Mena", slug: "mena-ar", stateSlug: "arkansas" },
+      { name: "Camden", slug: "camden-ar", stateSlug: "arkansas" },
+      { name: "Trumann", slug: "trumann-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Berryville, AR | Ticks, Termites & Fly Control",
+    metaDescription:
+      "Pest control in Berryville, Arkansas. Carroll County service for ticks, termites, flies, and mice on the Ozark Plateau. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "trumann-ar",
+    name: "Trumann",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~7,500",
+    county: "Poinsett County",
+    climate: "hot-humid",
+    climateDriver:
+      "Trumann sits in the Arkansas Delta's St. Francis Lowlands, flat, fertile ground cleared from bottomland hardwood forest and drained for row-crop farming in the early 1900s. The nearby St. Francis Sunken Lands Wildlife Management Area preserves a stretch of that original wetland forest, and the mix of drained farmland and remaining wetland habitat around Trumann keeps humidity, and the pests that follow it, close to town through the region's hot, humid summers.",
+    topPests: ["Mosquitoes", "Termites", "Ticks", "Fire Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The row-crop irrigation and drainage ditches covering the flat Delta farmland around Trumann hold standing water through the growing season, and the nearby St. Francis Sunken Lands wetland adds another steady breeding source close to town.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms concentrated in spring",
+        note: "Trumann's hot, humid Delta climate and consistently moist bottomland soil keep subterranean termite colonies active through most of the year, with pressure steady across both older in-town homes and newer construction alike.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through October",
+        note: "The St. Francis Sunken Lands Wildlife Management Area preserves bottomland hardwood forest just outside Trumann, and the deer and wildlife it supports carry ticks onto properties along the edge of town.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "The flat, open row-crop farmland surrounding Trumann gives red imported fire ant colonies plenty of undisturbed ground, and mounds spread easily from field edges into residential lawns.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, indoors more in cooler months",
+        note: "Trumann's humid Delta summers and older housing stock near downtown give American and German cockroaches the moisture and foundation gaps they need to establish themselves indoors.",
+      },
+    ],
+    localHook:
+      "Trumann grew out of an early logging camp once known as Mosher, cleared and drained for row-crop farming by the early 1900s, and the St. Francis Sunken Lands Wildlife Management Area just outside town still preserves a slice of the original bottomland hardwood forest that once covered this stretch of the Arkansas Delta.",
+    intro:
+      "Pest control in Trumann, AR reflects the town's Delta origins about as directly as any place in Arkansas. Trumann started as a logging camp called Mosher, and once the surrounding bottomland hardwood forest was cleared and drained in the early 1900s, the flat, fertile ground it left behind became some of the region's most productive row-crop farmland. That history still shapes the town's pest pressure. The St. Francis Sunken Lands Wildlife Management Area just outside Trumann preserves a remaining stretch of that original wetland forest, and between the wetland and the irrigation ditches running through nearby farm fields, standing water keeps mosquitoes breeding from March into October. The same hot, humid Delta climate keeps subterranean termites active in the soil most of the year, ticks move from the Sunken Lands' preserved forest onto properties at the edge of town, and fire ants spread easily across the flat, open farmland surrounding Trumann. Older homes near downtown add steady cockroach pressure to the mix.",
+    sections: [
+      {
+        heading: "Why does the St. Francis Sunken Lands area affect pest pressure in Trumann?",
+        body: "The St. Francis Sunken Lands Wildlife Management Area sits just outside Trumann and preserves a stretch of the bottomland hardwood forest that once covered this part of the Delta before it was cleared for farming. That preserved wetland forest holds water and supports wildlife, including the deer that carry ticks onto neighboring properties, and it adds mosquito breeding habitat that farmland alone wouldn't create.",
+      },
+      {
+        heading: "How does Trumann's row-crop farmland drive its mosquito season?",
+        body: "Once the original wetland forest around Trumann was drained and cleared for agriculture in the early 1900s, irrigation ditches and drainage channels became the new standing water sources across the flat Delta ground. Combined with the wetland habitat still preserved in the nearby Sunken Lands, this keeps mosquito breeding active from March through October, longer than drier parts of the state see.",
+      },
+      {
+        heading: "Are termites a year-round concern in Trumann?",
+        body: "Yes. Trumann's hot, humid Delta climate keeps soil moisture consistently high, and that supports subterranean termite activity through most of the year rather than a short spring-only swarm season. This affects older in-town homes and newer construction on the edges of town about equally, since the soil conditions driving it are regional rather than tied to any one neighborhood's age.",
+      },
+      {
+        heading: "What should a Trumann pest control plan include?",
+        body: "Given Trumann's mix of drained farmland and preserved wetland forest nearby, a solid plan covers mosquito control for both irrigation-driven and Sunken Lands-driven breeding sources, year-round termite monitoring for the region's humid soil, tick precautions for anyone near the wildlife management area, fire ant treatment for lawns bordering row-crop fields, and cockroach prevention for older homes near downtown.",
+      },
+    ],
+    prevention: [
+      "Clear standing water from ditches, containers, and low ground near farmland to help control Trumann's long mosquito season.",
+      "Schedule termite inspections regularly, since Trumann's humid Delta soil keeps colonies active most of the year regardless of a home's age.",
+      "Check for ticks after time spent near the St. Francis Sunken Lands Wildlife Management Area or other wooded field edges.",
+      "Treat fire ant mounds along lawns bordering row-crop farmland before colonies spread further into the yard.",
+    ],
+    costNote:
+      "Pest control costs in Trumann vary by property size, proximity to farmland or wetland habitat, and infestation severity, and PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Does the St. Francis Sunken Lands area increase pest pressure in Trumann?",
+        answer:
+          "Yes. The St. Francis Sunken Lands Wildlife Management Area just outside Trumann preserves bottomland hardwood wetland forest, which supports both mosquito breeding habitat and the deer population that carries ticks onto nearby properties.",
+      },
+      {
+        question: "Why is mosquito season so long in Trumann?",
+        answer:
+          "Trumann sits on flat Delta ground where row-crop irrigation ditches and the nearby Sunken Lands wetland both hold standing water through the growing season, extending mosquito breeding from March into October.",
+      },
+      {
+        question: "Are termites active year round in Trumann?",
+        answer:
+          "Largely, yes. Trumann's hot, humid Delta climate keeps soil moisture high enough to support subterranean termite activity through most of the year, affecting both older in-town homes and newer construction on the outskirts.",
+      },
+      {
+        question: "Is pest control available for farm-adjacent properties near Trumann?",
+        answer:
+          "Yes, licensed providers serving Poinsett County work with both in-town homes and farm-adjacent properties near Trumann, adjusting mosquito, fire ant, and termite treatment to account for irrigation infrastructure and nearby wetland habitat.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Stuttgart", slug: "stuttgart-ar", stateSlug: "arkansas" },
+      { name: "Mena", slug: "mena-ar", stateSlug: "arkansas" },
+      { name: "Camden", slug: "camden-ar", stateSlug: "arkansas" },
+      { name: "Berryville", slug: "berryville-ar", stateSlug: "arkansas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Trumann, AR | Mosquitoes, Termites & Ticks",
+    metaDescription:
+      "Pest control in Trumann, Arkansas. Poinsett County service for mosquitoes, termites, ticks, and fire ants near the St. Francis Sunken Lands. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

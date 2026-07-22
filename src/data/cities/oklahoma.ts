@@ -4084,4 +4084,584 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Anadarko, Oklahoma. Caddo County service for striped bark scorpions, fire ants, ticks, and termites near the Washita River. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "elk-city-ok",
+    name: "Elk City",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~11,400",
+    county: "Beckham County",
+    climate: "semi-arid",
+    climateDriver:
+      "Elk City sits on the high plains of the Anadarko Basin in western Oklahoma, a dry, windy stretch of the state where annual rainfall runs well below the state average and long summer heat keeps the ground hard and cracked outside of irrigated lawns and the Elk Creek corridor. That combination favors pests that thrive in dry, rocky conditions rather than the humid pests common in eastern Oklahoma; subterranean termites still find enough moisture near foundations, irrigation lines, and Elk Creek to stay active, while striped bark scorpions and brown recluse spiders do well in the dry crawl spaces, woodpiles, and storage sheds found on most area properties. Cold winter snaps push mice and other rodents toward heated structures earlier than in the milder eastern half of the state.",
+    topPests: [
+      "Subterranean Termites",
+      "Striped Bark Scorpions",
+      "Brown Recluse Spiders",
+      "Mice",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active where moisture allows",
+        note: "Termite activity in Elk City concentrates near Elk Creek and irrigated lots, where soil moisture holds up long enough to sustain a colony despite the surrounding dry high-plains ground.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks in summer",
+        note: "Beckham County's dry, rocky high plains are prime striped bark scorpion habitat, and they turn up under woodpiles, storage sheds, and stacked landscaping stone through the hottest months.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Western Oklahoma's dry climate gives brown recluse spiders good cover in Elk City's garages, sheds, and undisturbed crawl spaces, the same dry conditions found across the Anadarko Basin.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Elk City's oilfield equipment yards and open plains give mice plenty of outdoor shelter until the first hard cold front, often before Thanksgiving, sends them toward heated buildings.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Older commercial buildings along Elk City's Route 66 corridor and downtown core see steady cockroach pressure, particularly around food-service properties.",
+      },
+    ],
+    localHook:
+      "Elk City grew up along the 1926 alignment of Route 66 through what was then southern Roger Mills County before Beckham County's creation at statehood, and the discovery of natural gas in 1947 in the Anadarko Basin turned the town into a self-described Natural Gas Capital of the World, a legacy still visible downtown in Parker Drilling Rig #114, a 180-foot rig billed as the world's tallest non-working oil derrick.",
+    intro:
+      "Pest control in Elk City has to account for a dry, windy stretch of western Oklahoma sitting squarely in the gas-rich Anadarko Basin. The town's Route 66 history and its 1947 natural gas discovery, still marked downtown by the towering Parker Drilling Rig #114, built an economy around oil and gas long before newer subdivisions spread out from the old highway corridor. That dry high-plains setting keeps humidity-loving pests less common here than in eastern Oklahoma, but it does not mean pest-free. Striped bark scorpions and brown recluse spiders both favor Elk City's dry crawl spaces and stacked woodpiles, subterranean termites hold on near Elk Creek and any irrigated ground, and mice start looking for a way indoors as soon as the first real cold front rolls through the plains.",
+    sections: [
+      {
+        heading: "Why scorpions and brown recluse spiders do well in Elk City's dry climate",
+        body: "Western Oklahoma's high plains give both the striped bark scorpion and the brown recluse spider exactly the dry, sheltered conditions they favor. Around Elk City, that means woodpiles, detached garages, storage sheds, and undisturbed corners of crawl spaces, the same kind of dry cover found across the Anadarko Basin. Neither species is aggressive, but a scorpion sting is painful and a recluse bite can cause a slow-healing wound, so most homeowners prefer sealing and monitoring over discovering one indoors. Summer heat pushes both species to look for cooler, shaded ground, which often means closer to the house.",
+      },
+      {
+        heading: "How the Anadarko Basin's oil and gas economy shapes local pest pressure",
+        body: "Elk City's economy has run on oil and gas since the 1947 natural gas discovery that gave the town its Natural Gas Capital of the World claim, and that industrial footprint shows up in pest patterns too. Older commercial buildings tied to the drilling era, along with the equipment yards and storage structures common around oilfield service companies, give rodents plenty of undisturbed shelter. Mice in particular move into these structures and nearby homes once the first hard cold front sweeps across the plains, typically well before Thanksgiving in a dry year.",
+      },
+      {
+        heading: "Termite activity along Elk Creek and irrigated ground",
+        body: "Subterranean termites need consistent soil moisture to thrive, which is in short supply across Beckham County's dry uplands. Elk City properties near Elk Creek, along with irrigated lawns and landscaped lots, hold enough moisture to sustain termite colonies through more of the year than the surrounding dry prairie allows. That makes proximity to water, rather than any single neighborhood, the better predictor of termite risk in Elk City.",
+      },
+      {
+        heading: "What a complete Elk City pest plan covers",
+        body: "A pest plan built for Elk City leans on sealing woodpiles, sheds, and crawl space entry points against scorpions and brown recluse spiders, fall rodent exclusion timed to the plains' early cold snaps, and termite monitoring concentrated near Elk Creek and any irrigated ground rather than spread evenly across town. Cockroaches round out the list, showing up mostly around older downtown buildings and food-service properties along the old Route 66 corridor. Matching treatment to Elk City's dry, high-plains geography works better than a one-size-fits-all program built for wetter parts of the state.",
+      },
+    ],
+    prevention: [
+      "Wear gloves and check woodpiles, storage sheds, and stacked landscaping material before reaching in, since both scorpions and brown recluse spiders favor that kind of dry cover.",
+      "Seal foundation cracks and utility entry points before the first hard cold front, when mice most often move from oilfield equipment yards and open ground toward heated buildings.",
+      "Keep irrigation and downspouts directed away from the foundation, since termite activity in Elk City concentrates wherever soil moisture runs higher than the surrounding dry prairie.",
+      "Reduce clutter in garages and detached storage buildings, which cuts down on hiding places for cockroaches as well as spiders and scorpions.",
+    ],
+    costNote:
+      "Costs vary with property size, foundation type, and how close a property sits to Elk Creek or irrigated ground; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders common in Elk City, Oklahoma?",
+        answer:
+          "Yes. Western Oklahoma's dry climate and Elk City's woodpiles, sheds, and undisturbed crawl spaces give brown recluse spiders good cover. They are not aggressive but a bite can cause a slow-healing wound, so sealing entry points and reducing clutter around storage areas is the most effective prevention.",
+      },
+      {
+        question: "Why does Elk City call itself the Natural Gas Capital of the World?",
+        answer:
+          "Natural gas was discovered in the Anadarko Basin near Elk City in 1947, building an economy that still shapes the town today, visible downtown in Parker Drilling Rig #114, a 180-foot rig preserved as a local landmark.",
+      },
+      {
+        question: "Do termites cause problems in a dry climate like Elk City's?",
+        answer:
+          "Less than in humid parts of Oklahoma, but yes in the right spots. Subterranean termites in Elk City concentrate near Elk Creek and irrigated lawns, where soil moisture holds up long enough to sustain a colony despite the surrounding dry prairie.",
+      },
+      {
+        question: "When do mice become a problem in Elk City homes?",
+        answer:
+          "Typically with the first hard cold front of the season, often before Thanksgiving in a dry year. Beckham County's open plains and oilfield equipment yards give rodents plenty of outdoor shelter until temperatures drop enough to send them toward heated structures.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Guymon", slug: "guymon-ok", stateSlug: "oklahoma" },
+      { name: "Blackwell", slug: "blackwell-ok", stateSlug: "oklahoma" },
+      { name: "Seminole", slug: "seminole-ok", stateSlug: "oklahoma" },
+      { name: "Wagoner", slug: "wagoner-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elk City, OK | Scorpions, Termites & Spiders",
+    metaDescription:
+      "Elk City, Oklahoma pest control for striped bark scorpions, brown recluse spiders, termites, and mice in the Anadarko Basin. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "guymon-ok",
+    name: "Guymon",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~12,400",
+    county: "Texas County",
+    climate: "semi-arid",
+    climateDriver:
+      "Guymon sits in the far western Oklahoma Panhandle, a flat, semi-arid stretch of high plains where cattle feedyards holding roughly 100,000 head and a large Seaboard Foods pork processing plant sit close to town and shape daily life more than any single weather pattern. That concentration of livestock draws heavy house fly pressure through the warmer months, a distinct issue on top of the dry-climate pests, striped bark scorpions and brown recluse spiders, common across the rest of the Oklahoma high plains. Cold, dry Panhandle winters push rodents toward grain storage, feedyard buildings, and nearby homes as soon as temperatures drop.",
+    topPests: [
+      "House Flies",
+      "Mice and Rats",
+      "Striped Bark Scorpions",
+      "Brown Recluse Spiders",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October",
+        note: "Feedyards holding roughly 100,000 head of cattle and the nearby Seaboard Foods pork plant give Guymon far more house fly breeding pressure than most Oklahoma towns see, especially when warm-season winds carry flies toward town.",
+      },
+      {
+        name: "Mice and rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Grain elevators and feedyard storage around Guymon give rodents abundant outdoor shelter until the Panhandle's cold, dry winter sends them toward homes and commercial buildings in search of warmth.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks in summer",
+        note: "The dry, rocky terrain of the far western Panhandle around Guymon is prime striped bark scorpion habitat, and they turn up under woodpiles and in storage sheds common on agricultural properties.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Guymon's dry, high-plains climate gives brown recluse spiders the same sheltered, undisturbed cover they favor across the rest of the Oklahoma Panhandle's outbuildings and storage sheds.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Older downtown commercial buildings in Guymon see steady cockroach pressure, particularly around food-service and processing-adjacent properties.",
+      },
+    ],
+    localHook:
+      "Guymon is the county seat of Texas County in the Oklahoma Panhandle, where agriculture, cattle feedyards holding around 100,000 head and the Seaboard Foods pork processing plant that slaughters roughly 22,000 hogs a day, drives the local economy more than any other industry in this corner of the state.",
+    intro:
+      "Pest control in Guymon has to reckon with the Oklahoma Panhandle's biggest local fact: this is cattle and hog country, with feedyards holding around 100,000 head of cattle and a Seaboard Foods pork plant processing roughly 22,000 hogs daily sitting close to town. That livestock concentration means house flies are a bigger, more persistent issue here than in most Oklahoma towns, especially through the warmer months. Add the Panhandle's flat, semi-arid high plains, favorite territory for striped bark scorpions and brown recluse spiders, and cold winters that send mice and rats looking for grain storage and heated buildings, and Guymon's pest calendar looks different from almost anywhere else in the state.",
+    sections: [
+      {
+        heading: "Why house flies are a bigger issue in Guymon than in most Oklahoma towns",
+        body: "Guymon's economy runs on livestock, with feedyards in the area holding roughly 100,000 head of cattle and the Seaboard Foods pork plant processing about 22,000 hogs a day. That concentration of animals creates ideal house fly breeding conditions nearby, and warm-season winds can carry fly pressure into residential and commercial areas well beyond the feedyards themselves. Property owners closer to agricultural operations typically see the heaviest pressure, though it is not limited strictly to that side of town.",
+      },
+      {
+        heading: "Rodent pressure around Guymon's grain storage and feedyards",
+        body: "Grain elevators, feed storage, and the equipment yards tied to Texas County's agriculture and processing industry give mice and rats abundant shelter and food. Once the Panhandle's cold, dry winter sets in, rodents move from that outdoor cover toward nearby homes and commercial buildings in search of warmth, a pattern that tends to arrive earlier here than in the milder eastern half of Oklahoma.",
+      },
+      {
+        heading: "Scorpions and spiders in Guymon's dry high-plains terrain",
+        body: "The far western Panhandle shares the dry, rocky terrain that striped bark scorpions and brown recluse spiders both favor across the rest of Oklahoma's high plains. Around Guymon, that means woodpiles, storage sheds, and undisturbed corners of outbuildings common on agricultural properties. Both are best avoided rather than tolerated indoors, since a scorpion sting is painful and a recluse bite can cause a slow-healing wound.",
+      },
+      {
+        heading: "Building a complete pest plan for a Panhandle agricultural town",
+        body: "A Guymon pest plan starts with fly control timed to the warm season and weighted toward properties near feedyards and processing facilities, then adds fall and winter rodent exclusion around grain storage and building foundations. Scorpion and brown recluse spider monitoring in sheds and outbuildings, along with routine cockroach control in older downtown commercial space, rounds out coverage for a town whose pest pressure follows its agricultural economy closely.",
+      },
+    ],
+    prevention: [
+      "Keep trash cans sealed and pet waste picked up promptly, since both attract house flies drawn in from nearby feedyards during warm months.",
+      "Seal grain storage buildings and foundation gaps before winter, when mice and rats move from outdoor agricultural cover toward heated structures.",
+      "Check woodpiles, sheds, and outbuildings for striped bark scorpions and brown recluse spiders, especially on properties near open agricultural land.",
+      "Use fine-mesh screens on doors and windows through fly season to reduce indoor fly pressure from nearby livestock operations.",
+    ],
+    costNote:
+      "Costs depend on property size, proximity to agricultural operations, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why does Guymon, Oklahoma have more house flies than other towns?",
+        answer:
+          "Guymon sits near cattle feedyards holding roughly 100,000 head and the Seaboard Foods pork plant, which processes about 22,000 hogs a day. That concentration of livestock creates strong house fly breeding conditions that can carry into residential and commercial areas during warm months.",
+      },
+      {
+        question: "What is the biggest industry in Guymon, Oklahoma?",
+        answer:
+          "Agriculture, specifically cattle feedyards and hog processing through the Seaboard Foods plant, drives Guymon's economy more than any other industry in the Oklahoma Panhandle.",
+      },
+      {
+        question: "Are scorpions dangerous in Guymon?",
+        answer:
+          "The striped bark scorpion common in the dry Panhandle terrain around Guymon is not considered dangerously venomous, though the sting is painful. Sealing woodpiles and outbuildings reduces the chance of an indoor encounter.",
+      },
+      {
+        question: "When do rodents become a problem in Guymon homes?",
+        answer:
+          "Mice and rats typically move from grain storage and feedyard cover toward heated buildings once the Panhandle's cold, dry winter sets in, often earlier than in the milder eastern half of Oklahoma.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Elk City", slug: "elk-city-ok", stateSlug: "oklahoma" },
+      { name: "Blackwell", slug: "blackwell-ok", stateSlug: "oklahoma" },
+      { name: "Seminole", slug: "seminole-ok", stateSlug: "oklahoma" },
+      { name: "Wagoner", slug: "wagoner-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Guymon, OK | Flies, Rodents & Scorpions",
+    metaDescription:
+      "Guymon, Oklahoma pest control for house flies, rodents, scorpions, and spiders in the Panhandle's agricultural country. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "blackwell-ok",
+    name: "Blackwell",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~6,000",
+    county: "Kay County",
+    climate: "temperate",
+    climateDriver:
+      "Blackwell sits on the Chikaskia River in Kay County, near the Kansas state line, in a transitional climate zone with cold winters, hot summers, and the grassland and farmland typical of north-central Oklahoma's wheat country. That mix of open prairie and river-bottom cover supports both grassland pests, ticks moving in from surrounding pastureland, and rodents drawn from the wheat fields that ring the town, especially once cooler fall weather sends field mice looking for shelter. The town's age, founded in the 1893 Cherokee Outlet land run, also means a large share of its housing stock predates modern pest-exclusion building codes.",
+    topPests: [
+      "Rodents",
+      "Ticks",
+      "Subterranean Termites",
+      "Cockroaches",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "September through March",
+        note: "Kay County's wheat farmland surrounding Blackwell supports large field mouse populations that move toward town once fall temperatures drop, entering easily through the gaps common in the town's older housing stock.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Fence lines, tall grass, and river-bottom brush along the Chikaskia River give ticks a foothold in the grassland and farmland surrounding Blackwell.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active where moisture allows",
+        note: "The Chikaskia River holds enough consistent moisture to sustain subterranean termite colonies in properties closer to the river and its floodplain than on Blackwell's drier upland streets.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Blackwell's older downtown commercial buildings, many dating to the early twentieth century zinc smelter boom, see steady cockroach pressure.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Older homes in Blackwell, with gaps around aging foundations and siding left over from the land run and smelter era, give brown recluse spiders more entry points than newer construction.",
+      },
+    ],
+    localHook:
+      "Blackwell was founded on September 16, 1893, during the Cherokee Outlet land run, Oklahoma's largest, and grew into an industrial center anchored by the Blackwell Zinc Company smelter, which opened in 1917 using the area's abundant natural gas and, at its peak, was one of the three largest zinc smelting plants in the United States before closing in 1974.",
+    intro:
+      "Pest control in Blackwell has to account for both the town's age and its location on the Chikaskia River near the Kansas border. Founded during the 1893 Cherokee Outlet land run and built up by the Blackwell Zinc Company smelter that ran from 1917 to 1974, much of Blackwell's housing stock predates the pest-exclusion standards common in newer construction, giving rodents and insects easier entry points around foundations and older plumbing. The surrounding wheat farmland and grassland of north-central Oklahoma bring ticks and field mice toward town, especially as fall cools the plains, while the Chikaskia River corridor adds a second source of moisture-driven termite and mosquito pressure not found on the drier upland farmland further out.",
+    sections: [
+      {
+        heading: "Why Blackwell's older housing stock matters for pest control",
+        body: "Blackwell's core neighborhoods date back to the 1893 land run and the zinc smelter boom that followed in the early 1900s, which means many homes have older foundations, aging plumbing, and gaps around siding and utility lines that newer construction is built to exclude. Those entry points give rodents, cockroaches, and spiders an easier path indoors than in a newer subdivision. A pest plan for Blackwell generally needs to weigh exclusion work as heavily as active treatment.",
+      },
+      {
+        heading: "Ticks and rodents from the surrounding wheat farmland",
+        body: "Kay County's wheat farmland and grassland ring Blackwell on most sides, and that open agricultural land supports both ticks, concentrated in fence lines, tall grass, and river-bottom brush, and large field mouse populations. Once fall temperatures drop, mice in particular move from the surrounding fields toward Blackwell's homes and outbuildings looking for warmth, a seasonal pattern consistent across north-central Oklahoma's farm towns.",
+      },
+      {
+        heading: "How the Chikaskia River affects termite and mosquito pressure",
+        body: "The Chikaskia River, which runs through Blackwell and gave the original townsite its water source, holds enough consistent moisture to sustain subterranean termite colonies and support mosquito breeding through the warmer months. Properties closer to the river and its floodplain generally see more of both compared to homes on Blackwell's drier upland streets.",
+      },
+      {
+        heading: "What a complete Blackwell pest plan covers",
+        body: "A Blackwell pest plan leans on exclusion work suited to the town's older housing stock, fall rodent control timed to the surrounding wheat harvest and cooling weather, tick reduction along fence lines and river-bottom brush, and termite and mosquito treatment weighted toward properties nearer the Chikaskia River. Cockroach control in older downtown commercial buildings rounds out the picture for a town whose pest pressure reflects both its age and its place on the map.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around foundations, utility lines, and older plumbing penetrations, since much of Blackwell's housing predates modern pest-exclusion standards.",
+      "Keep grass trimmed and clear brush along fence lines and river-bottom areas to reduce tick exposure from the surrounding farmland.",
+      "Address entry points before fall harvest, when field mice from the surrounding wheat farmland most often move toward homes and outbuildings.",
+      "Eliminate standing water near the Chikaskia River floodplain where mosquitoes can breed through the warmer months.",
+    ],
+    costNote:
+      "Costs vary by home age, foundation condition, and proximity to the Chikaskia River; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "When was Blackwell, Oklahoma founded?",
+        answer:
+          "Blackwell was founded on September 16, 1893, during the Cherokee Outlet land run, the largest of Oklahoma's land runs, and later grew around the Blackwell Zinc Company smelter, which operated from 1917 to 1974.",
+      },
+      {
+        question: "Why does older housing in Blackwell need more pest exclusion work?",
+        answer:
+          "Much of Blackwell's housing stock dates to the land run era and the early twentieth century zinc smelter boom, predating modern pest-exclusion building standards, which leaves more gaps around foundations and plumbing for rodents and insects to use as entry points.",
+      },
+      {
+        question: "Are ticks a problem in Blackwell, Oklahoma?",
+        answer:
+          "Yes, particularly along fence lines, tall grass, and river-bottom brush near the Chikaskia River, since the wheat farmland and grassland surrounding Blackwell support tick populations that move toward yards adjoining that cover.",
+      },
+      {
+        question: "Does the Chikaskia River affect termite risk in Blackwell?",
+        answer:
+          "Properties closer to the river and its floodplain hold soil moisture longer than Blackwell's drier upland streets, giving subterranean termites more consistent conditions to sustain a colony near the water.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Elk City", slug: "elk-city-ok", stateSlug: "oklahoma" },
+      { name: "Guymon", slug: "guymon-ok", stateSlug: "oklahoma" },
+      { name: "Seminole", slug: "seminole-ok", stateSlug: "oklahoma" },
+      { name: "Wagoner", slug: "wagoner-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Blackwell, OK | Rodents, Ticks & Termites",
+    metaDescription:
+      "Blackwell, Oklahoma pest control for rodents, ticks, and termites in Kay County's older housing stock near the Chikaskia River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "seminole-ok",
+    name: "Seminole",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~7,200",
+    county: "Seminole County",
+    climate: "hot-humid",
+    climateDriver:
+      "Seminole sits in east-central Oklahoma's humid subtropical climate zone, where hot, muggy summers and clay-heavy soil give subterranean termites and ticks far more consistent moisture than the drier western half of the state provides. The rapid growth that followed the 1920s Greater Seminole oil field, once among the largest oil discoveries in the world, left behind a mix of oil-boom-era housing and later construction, both sitting on the same humid, clay-soil ground that keeps termite and mosquito pressure high through most of the year.",
+    topPests: [
+      "Subterranean Termites",
+      "Ticks",
+      "Mosquitoes",
+      "Cockroaches",
+      "Rodents",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "East-central Oklahoma's clay-heavy soil holds moisture far longer than the sandier ground of western Oklahoma, giving termites consistent conditions to sustain colonies in Seminole through most of the year.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through October",
+        note: "Seminole's humid subtropical climate gives ticks a longer active season than the drier, cooler western half of Oklahoma sees, especially in wooded lots and along creek corridors.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Standing water and the humid summer climate typical of east-central Oklahoma keep mosquito pressure high in Seminole through most of the warm season.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "A meaningful share of Seminole's housing dates to the 1920s oil boom, and older foundations and plumbing from that era give cockroaches more entry points than newer construction.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Older oil-boom-era buildings and outbuildings around Seminole give rodents more shelter and entry points than newer, better-sealed construction.",
+      },
+    ],
+    localHook:
+      "Seminole grew almost overnight after oil struck nearby in the 1920s, and the Greater Seminole Field that followed, encompassing more than sixty petroleum reservoirs across 1,300 square miles of east-central Oklahoma, accounted for an estimated 2.6 percent of the entire world's oil supply at its peak between 1926 and 1929.",
+    intro:
+      "Pest control in Seminole starts with the town's oil-boom history and the humid, clay-soil ground it sits on. The Greater Seminole Field, discovered in the 1920s and at its peak producing an estimated 2.6 percent of the world's oil supply, built a town almost overnight, and a lot of that original housing stock is still standing today alongside newer construction. Both share the same east-central Oklahoma humid subtropical climate, hot and muggy through the summer with clay soil that holds moisture far longer than the drier western half of the state. That combination keeps subterranean termites and ticks active for more of the year in Seminole than in most western Oklahoma towns, while mosquitoes and cockroaches round out a pest calendar built around heat and humidity rather than drought.",
+    sections: [
+      {
+        heading: "Why Seminole's clay soil keeps termite pressure high",
+        body: "East-central Oklahoma's clay-heavy soil holds moisture far longer than the sandier, drier ground common in western Oklahoma, giving subterranean termites consistent conditions to sustain colonies through most of the year. Seminole's mix of oil-boom-era homes from the 1920s and newer construction both sit on that same soil, meaning termite risk here has less to do with a home's age than with the underlying ground itself.",
+      },
+      {
+        heading: "Ticks and mosquitoes in Seminole's humid climate",
+        body: "Hot, muggy summers typical of east-central Oklahoma give ticks and mosquitoes a longer active season in Seminole than in the drier, cooler climate of the state's western half. Wooded lots, creek corridors, and any standing water around a property all add to that pressure, and both pests generally stay active from spring through the first real cold snap of fall.",
+      },
+      {
+        heading: "How the Greater Seminole oil boom shaped the town's housing stock",
+        body: "Seminole's population exploded in the mid-1920s as the Greater Seminole Field, ultimately spanning more than sixty reservoirs and 1,300 square miles, drew workers and companies almost overnight. A meaningful share of the town's housing dates to that boom period, and older foundations and plumbing from that era can give rodents and cockroaches more entry points than newer builds, though the clay soil and humid climate matter more to termite risk than the construction date does.",
+      },
+      {
+        heading: "What a complete Seminole pest plan covers",
+        body: "A Seminole pest plan needs year-round termite monitoring given the clay soil's moisture retention, tick and mosquito control through the long humid season, and rodent and cockroach exclusion weighted toward the town's older oil-boom-era buildings. Matching treatment to Seminole's humid, clay-ground climate works better than a program built for the state's drier western counties.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections regularly given how long Seminole's clay soil holds moisture, regardless of a home's age or construction date.",
+      "Clear standing water and trim brush near creek corridors to reduce the long tick and mosquito season typical of east-central Oklahoma's humid climate.",
+      "Seal foundation gaps and plumbing penetrations in older, oil-boom-era homes, which tend to have more entry points than newer construction.",
+      "Keep gutters clear and grading sloped away from the foundation to limit the moisture that supports both termites and mosquitoes.",
+    ],
+    costNote:
+      "Costs depend on home age, soil conditions, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "Why was Seminole, Oklahoma founded so suddenly?",
+        answer:
+          "Seminole grew almost overnight after oil struck in the 1920s. The Greater Seminole Field that followed spanned more than sixty petroleum reservoirs across 1,300 square miles and, at its peak between 1926 and 1929, accounted for an estimated 2.6 percent of the world's oil supply.",
+      },
+      {
+        question: "Does home age affect termite risk in Seminole?",
+        answer:
+          "Less than the soil does. Seminole's clay-heavy soil holds moisture long enough to support subterranean termites regardless of whether a home dates to the 1920s oil boom or was built more recently.",
+      },
+      {
+        question: "How long is tick and mosquito season in Seminole, Oklahoma?",
+        answer:
+          "Typically from spring through the first hard cold snap of fall, longer than in the drier, cooler western half of Oklahoma, because Seminole's humid subtropical climate keeps both pests active for more of the year.",
+      },
+      {
+        question: "Are older homes in Seminole more prone to rodents and cockroaches?",
+        answer:
+          "Often, yes. A meaningful share of Seminole's housing dates to the 1920s oil boom, and older foundations and plumbing from that era can give rodents and cockroaches more entry points than newer construction.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Elk City", slug: "elk-city-ok", stateSlug: "oklahoma" },
+      { name: "Guymon", slug: "guymon-ok", stateSlug: "oklahoma" },
+      { name: "Blackwell", slug: "blackwell-ok", stateSlug: "oklahoma" },
+      { name: "Wagoner", slug: "wagoner-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Seminole, OK | Termites, Ticks & Mosquitoes",
+    metaDescription:
+      "Seminole, Oklahoma pest control for termites, ticks, and mosquitoes in the historic Greater Seminole oil field region. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wagoner-ok",
+    name: "Wagoner",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~8,300",
+    county: "Wagoner County",
+    climate: "hot-humid",
+    climateDriver:
+      "Wagoner sits in northeastern Oklahoma's Green Country, on the Grand River near Fort Gibson Lake, a reservoir the U.S. Army Corps of Engineers began impounding in 1942. That lake, along with the wooded Grand River corridor, gives Wagoner far more standing and moving water than most Oklahoma towns, driving strong mosquito and tick pressure through the long, humid summer typical of northeastern Oklahoma. The same humidity and wooded cover support subterranean termites and carpenter ants in the area's tree-lined older neighborhoods and lakeside properties.",
+    topPests: [
+      "Mosquitoes",
+      "Ticks",
+      "Subterranean Termites",
+      "Carpenter Ants",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Fort Gibson Lake and the Grand River give Wagoner far more mosquito breeding habitat than most Oklahoma towns, with lakeside and river-adjacent properties seeing the heaviest pressure.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through September",
+        note: "Wooded shoreline and brush along the Grand River near Fort Gibson Lake support tick populations, particularly where deer traffic follows the tree line down to the water.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active most of the year",
+        note: "Wagoner's older, tree-shaded neighborhoods hold enough humidity and moisture-retaining wood and soil to support subterranean termite colonies for more of the year than drier, more open lots.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Mature trees in Wagoner's older, railroad-era neighborhoods give carpenter ants the moist wood they favor, especially where tree limbs or roots contact aging structures.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Commercial buildings in Wagoner's downtown core see steady cockroach pressure typical of northeastern Oklahoma's humid climate.",
+      },
+    ],
+    localHook:
+      "Wagoner sits near Fort Gibson, established in 1824 as the final stop on the Trail of Tears for thousands of Cherokee, Creek, and Seminole families forced from their homelands, and the town's modern character was shaped decades later by the railroad and by the 1942 construction of Fort Gibson Lake, which the Army Corps of Engineers built by impounding the Grand River.",
+    intro:
+      "Pest control in Wagoner has to account for water more than almost anything else. The town sits on the Grand River near Fort Gibson Lake, a reservoir the Army Corps of Engineers built starting in 1942, and that combination of lake, river, and wooded shoreline gives Wagoner far more standing and moving water than most Oklahoma towns see. Fort Gibson itself, established in 1824 nearby as the final stop on the Trail of Tears for thousands of Cherokee, Creek, and Seminole families, anchors the area's deep history, but today it's the lake and river that shape the pest calendar. Mosquitoes and ticks both thrive in that wooded, humid northeastern Oklahoma setting, while termites and carpenter ants find plenty of moisture and tree cover in Wagoner's older, shaded neighborhoods.",
+    sections: [
+      {
+        heading: "Why Fort Gibson Lake drives mosquito and tick pressure in Wagoner",
+        body: "Fort Gibson Lake, impounded by the Army Corps of Engineers starting in 1942, sits close enough to Wagoner that lakeside and river-adjacent properties see far more mosquito breeding habitat than homes further from the water. Wooded shoreline and brush along the Grand River also support tick populations, particularly where deer traffic follows the tree line down to the water. Properties nearest the lake and river generally need more consistent mosquito and tick treatment than those in Wagoner's drier inland neighborhoods.",
+      },
+      {
+        heading: "Termites and carpenter ants in Wagoner's older, tree-lined neighborhoods",
+        body: "Wagoner's older residential streets, many shaded by mature trees that have stood since the railroad-era growth that followed the town's founding, hold enough humidity and organic material to support both subterranean termites and carpenter ants. Both pests favor the moisture-retaining wood and soil found under heavy tree cover, making Wagoner's older, well-established neighborhoods a higher priority for inspection than newer, more open subdivisions.",
+      },
+      {
+        heading: "Fort Gibson's history and its lasting mark on the area",
+        body: "Fort Gibson, established in 1824 just north of present-day Wagoner, served for decades as a military post and, tragically, as the endpoint of the Trail of Tears for thousands of Cherokee, Creek, and Seminole people forced from the southeastern United States. The fort passed to the Cherokee Nation in 1857, and the area's long settlement history, followed by the railroad and later Fort Gibson Lake, shaped the mix of old and new construction that pest control providers in Wagoner still work around today.",
+      },
+      {
+        heading: "What a complete Wagoner pest plan covers",
+        body: "A pest plan for Wagoner weighs lakeside and river-adjacent properties more heavily for mosquito and tick control, adds termite and carpenter ant inspection for the town's older, tree-shaded neighborhoods, and includes routine cockroach control for commercial buildings downtown. Matching treatment intensity to a property's distance from Fort Gibson Lake and the Grand River is the single biggest factor in building an effective plan here.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water near Fort Gibson Lake and the Grand River shoreline where mosquitoes breed most heavily through the summer.",
+      "Clear brush and maintain a trimmed buffer between wooded shoreline and the yard to reduce tick exposure from deer traffic near the water.",
+      "Inspect mature trees and wood-to-soil contact points in older, tree-shaded neighborhoods for termite and carpenter ant activity.",
+      "Seal foundation and utility entry points on older homes near the railroad-era downtown core, where gaps are more common than in newer construction.",
+    ],
+    costNote:
+      "Costs vary by property distance from Fort Gibson Lake and the Grand River, home age, and infestation severity; PestRemovalUSA offers a free inspection and written estimate before any work begins.",
+    faqs: [
+      {
+        question: "How close is Wagoner, Oklahoma to Fort Gibson Lake?",
+        answer:
+          "Wagoner sits near Fort Gibson Lake, a reservoir the Army Corps of Engineers began impounding on the Grand River in 1942, and that proximity is the biggest driver of the town's mosquito and tick pressure through the summer.",
+      },
+      {
+        question: "What is the history of Fort Gibson near Wagoner?",
+        answer:
+          "Fort Gibson was established in 1824 and served as the final stop on the Trail of Tears for thousands of Cherokee, Creek, and Seminole families before the U.S. Army transferred the land to the Cherokee Nation in 1857.",
+      },
+      {
+        question: "Are termites a bigger problem in Wagoner's older neighborhoods?",
+        answer:
+          "Yes. Wagoner's older, tree-shaded streets hold more moisture and organic material than newer subdivisions, giving subterranean termites and carpenter ants more favorable conditions near mature trees and older foundations.",
+      },
+      {
+        question: "Why does mosquito pressure vary so much across Wagoner?",
+        answer:
+          "Properties closer to Fort Gibson Lake and the Grand River see far more mosquito breeding habitat than homes further inland, making distance from the water the biggest single factor in mosquito pressure across town.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Elk City", slug: "elk-city-ok", stateSlug: "oklahoma" },
+      { name: "Guymon", slug: "guymon-ok", stateSlug: "oklahoma" },
+      { name: "Blackwell", slug: "blackwell-ok", stateSlug: "oklahoma" },
+      { name: "Seminole", slug: "seminole-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Wagoner, OK | Mosquitoes, Ticks & Termites",
+    metaDescription:
+      "Wagoner, Oklahoma pest control for mosquitoes, ticks, and termites near Fort Gibson Lake and the Grand River. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
